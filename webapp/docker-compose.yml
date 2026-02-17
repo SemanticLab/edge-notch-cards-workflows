@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  edge-notch-cards:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "${PORT:-7743}:7743"
+    volumes:
+      # Card data (JSON files) - changes persist to host
+      - ${DATA_DIR:-../data}:/app/data
+      # Card images - local mount (change path to match your system)
+      - ${IMAGES_DIR:-/Volumes/GlumExpansion/edge-notch-cards-images}:/images:ro
+    environment:
+      - PORT=7743
+      - DATA_DIR=/app/data
+      - IMAGES_DIR=/images
+      - IMAGES_PROVIDER=${IMAGES_PROVIDER:-local}
+      # S3 configuration (set IMAGES_PROVIDER=s3 in .env and fill in these values)
+      - AWS_BUCKET=${AWS_BUCKET:-}
+      - AWS_REGION=${AWS_REGION:-us-east-1}
+      - AWS_PREFIX=${AWS_PREFIX:-}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID:-}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY:-}
+    restart: unless-stopped
