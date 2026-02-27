@@ -14,5 +14,137 @@
       "Physiology",
       "Sound"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q6122582",
+      "label": "James L. Flanagan",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name James L. Flanagan matches exactly. The card lists Bell Telephone Laboratories in Murray Hill, New Jersey as the employer, which is the well-documented career home of the James L. Flanagan in Wikidata before his tenure at Rutgers. Additionally, the technical fields of Sound and Physiology align with the Wikidata entity's expertise in speech processing."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the formal name of Bell Labs. The location Murray Hill, New Jersey, matches exactly between the card and the Wikibase entity. The Wikidata QID Q217365 linked to the Wikibase entity also confirms it is Bell Labs."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikibase entity Q22124 is clearly identified as a 'publication' (Bell Telephone Laboratories Reporter), whereas the card lists 'Bell Telephone Laboratories' as an employer (an organization). A publication produced by an organization is not the same entity as the organization itself."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card lists 'Bell Telephone Laboratories' in 'Murray Hill, New Jersey'. Wikidata entity Q217365 (Bell Labs) is the direct successor and common name for Bell Telephone Laboratories, and its headquarters are explicitly listed as Murray Hill, New Jersey. The identification is further confirmed by the association with James L. Flanagan, a known researcher at this institution."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' matches exactly. While the Wikidata entity is categorized as a 'production company,' this is a common classification for the organization in Wikidata when it is credited for scientific and technical films. It refers to the same corporate entity as the research institution where James L. Flanagan was employed."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q59493148) represents an archival collection (fonds) held by the National Archives and Records Administration, not the organization itself. The card lists 'Bell Telephone Laboratories' as an employer, which is a business entity, whereas this Wikidata entry is categorized as a 'collection' of historical records."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58952200 refers to Bell Telephone Laboratories, which matches the employer name on the card exactly. Both refer to the research and development organization based in Murray Hill, New Jersey, where James L. Flanagan was a prominent researcher."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Wikidata entity Q58950935 represents Bell Telephone Laboratories, Inc. This name is an exact match for the employer listed on the card. Furthermore, the card specifies the location as Murray Hill, New Jersey, which was the primary headquarters and research facility of Bell Telephone Laboratories."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the formal and historical name for Bell Laboratories (Q58950393). The location on the card, Murray Hill, New Jersey, serves as the long-time headquarters and primary research site for this organization."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is a Wikimedia disambiguation page, which is a navigational tool to distinguish between different articles with similar titles. It is not the actual corporate organization (Bell Telephone Laboratories) listed as the employer on the card."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "James Loton Flanagan (1925–2015) was a distinguished American electrical engineer and researcher at AT&T Bell Laboratories, where he was active from 1957 until 1990. Based in Murray Hill, New Jersey, he served as the head of the Speech and Auditory Research Department starting in 1961 and became the head of the Acoustics Research Department in 1967. His technical work focused on the physiology of speech and hearing, including modeling the basilar membrane of the inner ear and the vocal tract for speech production. This research formed the basis for his seminal textbook, 'Speech Analysis, Synthesis and Perception,' first published in 1965 and revised in 1972. Flanagan's work was foundational to modern speech technologies such as digital voice coding, speech recognition, and synthesis. He was a pioneer in using digital computers for acoustic signal processing and held over 50 patents, including one for the design of the modern artificial larynx. Given his leadership position in acoustics at Bell Labs during the late 1960s and early 1970s, he was a key figure in the environment where the Experiments in Art and Technology (E.A.T.) organization was founded and operated by his colleagues Billy Klüver and Fred Waldhauer.",
+        "sources": [
+          "https://www.nae.edu/171501/JAMES-L-FLANAGAN-19252015",
+          "https://en.wikipedia.org/wiki/James_L._Flanagan",
+          "https://www.nationalmedals.org/laureates/james-l-flanagan",
+          "https://www.marconisociety.org/fellow/james-flanagan/",
+          "https://www.ithistory.org/honor-roll/dr-james-jim-flanagan"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "James L. Flanagan biography speech acoustics Bell Labs",
+        "James L. Flanagan Bell Telephone Laboratories Murray Hill New Jersey sound physiology",
+        "James L. Flanagan Experiments in Art and Technology E.A.T.",
+        "James L. Flanagan \"9 Evenings\" artist",
+        "\"James L. Flanagan\" collaborator artist 1960s",
+        "\"James L. Flanagan\" Bell Labs art project",
+        "James L. Flanagan \"Experiments in Art and Technology\" E.A.T."
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGINGyABNl8SWlIvY5bQTEK16YeCo-dULwaqdcuqAR-OpCtnabTrYIYg5Buosd2JyML94SPg8GNQYM12y0L_6mxYq7owimvhmHwjMXHBCDsciE2XXjWv5vqX4wOlaAKQIcO-CWF1UASlgxKgQm1U1vi5YM=",
+          "title": "nationalacademies.org",
+          "resolvedUri": "https://www.nationalacademies.org/read/24773/chapter/19"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 404,
+            "endIndex": 571,
+            "text": "His technical work focused on the physiology of speech and hearing, including modeling the basilar membrane of the inner ear and the vocal tract for speech production."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

@@ -22,5 +22,126 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "null",
     "aestheticPhilosophicalInterests": "null"
+  },
+  "wikidata_candidates": [
+    {
+      "qid": "Q4604",
+      "label": "Confucius",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes a modern individual (Albert Kung) working in electrical engineering and physics at IBM Watson Laboratory in New York. The Wikidata entity describes Confucius, an ancient Chinese philosopher from the 5th century BC. They exist in entirely different eras and fields of work."
+    },
+    {
+      "qid": "Q36970",
+      "label": "Jackie Chan",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card record refers to Albert Kung, an electrical engineer and physicist at IBM Watson Laboratory in New York. The Wikidata entity refers to Jackie Chan, a world-famous martial artist, actor, and director from Hong Kong. There is no overlap in name, occupation, or location."
+    },
+    {
+      "qid": "Q130798",
+      "label": "Kendrick Lamar",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. Albert Kung is identified as an electrical engineer and physicist associated with IBM Watson Laboratory in New York. Kendrick Lamar is a famous rapper and musician from California. Although Kendrick Lamar uses the pseudonym 'Kung Fu Kenny', his legal name, profession, and biographical details do not match those of Albert Kung."
+    },
+    {
+      "qid": "Q509360",
+      "label": "Prince Gong",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "These are clearly different people from different historical eras. The card describes Albert Kung, a 20th-century scientist or engineer working at IBM Watson Laboratory in New York. The Wikidata entry describes Prince Gong (Yixin), a 19th-century Chinese prince and politician of the Qing Dynasty who died in 1898."
+    },
+    {
+      "qid": "Q89748039",
+      "label": "Kung-Jong Lui",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names 'Albert Kung' and 'Kung-Jong Lui' are distinct, as are their professional fields (electrical engineering/physics vs. biostatistics) and employers (IBM Watson Laboratory vs. San Diego State University and the CDC). There are no overlapping details to suggest these are the same individual."
+    },
+    {
+      "qid": "Q102109963",
+      "label": "Kung-Sik Chan",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names Albert Kung and Kung-Sik Chan do not match, nor do their professional fields (Electrical Engineering/Physics vs. Statistics) or employers (IBM Watson Lab vs. University of Iowa)."
+    },
+    {
+      "qid": "Q102318683",
+      "label": "Kung-Fu Ng",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names Albert Kung and Kung-Fu Ng are distinct. Furthermore, the card describes someone in electrical engineering and physics at IBM Watson Laboratory in New York, whereas the Wikidata entity represents a mathematician associated with Swansea University and academic doctoral supervision."
+    },
+    {
+      "qid": "Q105817495",
+      "label": "Y.-T. Kung",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals in completely different professional fields. The index card refers to an electrical engineer/physicist (Albert Kung) associated with IBM Watson Laboratory in New York, while the Wikidata entry describes an entomologist (Y.-T. Kung/Gong Yunqing) from China. There is no evidence to suggest these are the same person."
+    }
+  ],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Albert Kung was an engineer and physicist associated with the IBM Watson Laboratory (Watson Scientific Computing Laboratory) at Columbia University in New York City during the late 1960s. He conducted research under the auspices of the laboratory as a graduate student, receiving his PhD from Columbia University. His doctoral dissertation, titled \"Nuclear Magnetic Resonance in Type II Superconductors,\" was completed under the sponsorship of the prominent physicist Alfred G. Redfield (A.G. Redfield). His expertise spanned the fields of electrical engineering and physics. In the 1980s, an engineer by the same name, Dr. Albert Kung, was active as a professional at Grumman and was involved with the IEEE Long Island Section, where he lectured on the emerging technology of personal computers. His profile aligns with the participants of the Experiments in Art and Technology (E.A.T.) organization, which frequently collaborated with technical specialists from major industrial laboratories like IBM in New York during that era.",
+        "sources": [
+          "https://www.columbia.edu/cu/computinghistory/watson-lab-history.html",
+          "https://ieee.li/pulse/pulse_2015_12.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "Albert Kung IBM Watson Laboratory",
+        "\"Albert Kung\" IBM Watson 1960s",
+        "\"Albert Kung\" electrical engineering physics",
+        "Albert Kung Experiments in Art and Technology",
+        "\"Albert Kung\" Redfield Columbia PhD",
+        "\"Albert Kung\" E.A.T. engineer",
+        "\"Albert Kung\" IBM Watson electrical engineering physics",
+        "\"Albert Kung\" \"E.A.T.\" index card"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHLjaL_by772R8yf46q5nYnLmdiZlGIVeKTBCWDj1vyj5W5SF21IIiVYo9_eaLnt7UTD_tHhpW1MR9QAqFZ9SO45vzk5DobFeeNsd3d4xG7yhO0D9XI4aQFSIk2_QIzPF4-syczLXiB9miVk9dk1Y=",
+          "title": "columbia.edu",
+          "resolvedUri": "http://www.columbia.edu/cu/computinghistory/brennan/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGrSY03cbv_RQnBlGzTA1s8_BFne-j6beTY0cjoZwRfKPqO-oWUpA8OEibJiV3kbUD8oyVtQkhISP90TtPh7DEwy71dFjxRzNyZzvzuWLWY7WGNmvSJka74GF7T9XNiEqMM4UfIstUDp9cnl8-rOTBAs6PHeWRCk_ORAX6oTRdffgsoOUD",
+          "title": "columbia.edu",
+          "resolvedUri": "http://www.columbia.edu/cu/computinghistory/brennan/brennan-watson-lab.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 364,
+            "endIndex": 555,
+            "text": "His doctoral dissertation, titled \\\"Nuclear Magnetic Resonance in Type II Superconductors,\\\" was completed under the sponsorship of the prominent physicist Alfred G. Redfield (A.G. Redfield)."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 940,
+            "endIndex": 1287,
+            "text": "organization, which frequently collaborated with technical specialists from major industrial laboratories like IBM in New York during that era.\",\n      \"sources\": [\n        \"https://www.columbia.edu/cu/computinghistory/watson-lab-history.html\",\n        \"https://ieee.li/pulse/pulse_2015_12.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1,
+            0
+          ]
+        }
+      ]
+    }
   }
 }

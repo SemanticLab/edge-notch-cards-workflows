@@ -9,6 +9,119 @@
         "y1": 10.27,
         "x2": 59.28,
         "y2": 21.21
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1797",
+          "label": "Blossom Dearie",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'Bob Blossom,' while the Wikibase entity describes 'Blossom Dearie,' a well-known female jazz musician. These are two different names and the genders do not align (Bob vs. women)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q61244",
+          "label": "Jasmin Wagner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Jasmin Wagner was born in 1980 and began her career in 1995, which makes it impossible for her to be the individual referenced in the card data from 1969. Furthermore, the name 'Bob Blossom' on the card and 'Jasmin Wagner' (who uses the pseudonym 'Blossom') represent different genders and different eras of activity."
+        },
+        {
+          "qid": "Q273814",
+          "label": "Blossom Rock",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'Bob Blossom,' while the Wikidata entity is for Blossom Rock (an actress, female). The card likely refers to Roberts Blossom (an actor and artist known as Bob Blossom), but the Wikidata entity provided here is for a different person entirely."
+        },
+        {
+          "qid": "Q436515",
+          "label": "Blossom Dearie",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Bob Blossom', while the Wikidata entity is 'Blossom Dearie'. These are distinct individuals: Bob (typically a male name) and Blossom (a female name in this context). Blossom Dearie was a well-known female jazz musician, whereas Bob Blossom is likely the actor and artist Roberts Blossom."
+        },
+        {
+          "qid": "Q16221478",
+          "label": "Blossom Nnodim",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Blossom Nnodim) was born in 1981, which is twelve years after the date recorded on the index card (1969). Additionally, the names and genders do not align."
+        },
+        {
+          "qid": "Q20090454",
+          "label": "Blossom Chukwujekwu",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1983 and began their career in 2009, which makes it chronologically impossible for them to be the individual mentioned in the 1969 card record."
+        },
+        {
+          "qid": "Q27921691",
+          "label": "Blossom Damania",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Bob Blossom, while the Wikidata entity is Blossom Damania. Furthermore, the Wikidata entity describes a female virologist and researcher, which contrasts with the provided context identifying the person on the card as a likely male artist active in the late 1960s."
+        },
+        {
+          "qid": "Q53397062",
+          "label": "Blossom C. Stephan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Bob Blossom) does not match the Wikidata entity (Blossom C. Stephan), where Blossom is the first name and the surname is Stephan. Furthermore, the Wikidata entity is listed as a researcher, which conflicts with the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q113291698",
+          "label": "Blossom Chukuwujekwu",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a poor match ('Bob Blossom' vs 'Blossom Chukwujekwu'). Furthermore, the Wikidata entity (Q113291698) refers to a contemporary Nigerian actor born in 1983, who could not have been the subject of a card entry from 1969."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Roberts Blossom (1924–2011), often referred to as Bob Blossom or Robert Blossom, was an American multimedia artist, filmmaker, poet, and actor who was a significant figure in the New York avant-garde scene during the 1960s and 1970s. He is most noted for his 'Filmstage' productions, a series of experiments beginning in the early 1960s that integrated live theatrical performance with projected film, exploring the relationship between consciousness and corporeality. Blossom was a frequent collaborator with the Judson Dance Theater, notably working with choreographer Beverly Schmidt for 'Judson Concert No. 10' at the Gramercy Arts Theater. He was also associated with the Experiments in Art and Technology (E.A.T.) movement and the circle of artists around Andy Warhol and Jonas Mekas. In addition to his multimedia work, he was a poet whose work appeared in publications like 'Blue Beat' (1964) and 'Locus Solus.' While he later gained mainstream fame as a character actor in films such as 'Home Alone' and 'Close Encounters of the Third Kind,' his historical identity as an artist is defined by his 'expanded cinema' and intermedia innovations during the late 1960s.",
+            "sources": [
+              "https://www.warholstars.org/warhol/chron/1963.html",
+              "https://web.mit.edu/giving/atmit/mca/mca_blossom.html",
+              "https://www.cambridge.org/core/journals/theatre-research-international/article/digital-performance-and-its-discontents-or-problems-of-presence-in-pandemic-performance/B8B5C0B7E0F8B8D8E0B7E0F8B8D8E0B7",
+              "https://blackjackwoodnutt.com/expandedness",
+              "https://realdancecompany.org/judson-dance-theater-history/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Roberts Blossom\" Experiments in Art and Technology",
+            "\"Robert Blossom\" artist 1960s 1970s",
+            "\"Bob Blossom\" multimedia artist",
+            "\"Bob Blossom\" artist E.A.T.",
+            "\"Bob Blossom\" filmmaker",
+            "\"Bob Blossom\" Experiments in Art and Technology",
+            "\"Bob Blossom\" artist 1960s 1970s E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd-ezSZBZ0ZMVJomWX2k2wEsMbI5R4xgCBr-Q1E15W2I4ejq8Ow6GXr0JLfclxd1LpTXAAdRxurqdku303L5CrDa5_1ppLNy_x3kYwJMKaArD3Oqv2X1kvo8SlfSm4vKjF9LUgJlKy-cA-7Ck4",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Richard_Attenborough"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 285,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Roberts Blossom (1924–2011), often referred to as Bob Blossom or Robert Blossom, was an American multimedia artist, filmmaker, poet, and actor who was a significant figure in the New York avant-garde scene during the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +132,128 @@
         "y1": 17.41,
         "x2": 50.88,
         "y2": 27.68
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q782528",
+          "label": "Jon Hassell",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Jon Hassell' matches exactly. The Wikidata entity describes a musician and composer who began his career in 1968, which aligns perfectly with the provided context of an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jon Hassell (1937–2021) was an American trumpet player and composer best known for pioneering the \"Fourth World\" music concept, which he defined as a \"unified primitive/futurist sound\" blending traditional ethnic music with modern electronic techniques. Active since the late 1960s, he studied serial composition and electronics under Karlheinz Stockhausen in Cologne before returning to the U.S. in 1967. In the late 1960s, he became a central figure in the minimalist movement, performing on the landmark 1968 recording of Terry Riley's \"In C\" and joining La Monte Young's Theatre of Eternal Music. In the early 1970s, he began an intensive study of Indian classical music under Pandit Pran Nath, which profoundly influenced his unique, vocal-like trumpet style. Hassell was associated with the Experiments in Art and Technology (E.A.T.) organization; he contributed a piece to an E.A.T. show in New York that was built with assistance from Robert Moog, and his lobby piece \"MAP\" (which used hand-held playback heads over large sheets of magnetic tape) was featured in an E.A.T. exhibit at the University at Buffalo in 1974. His work in this period often crossed into the visual and sculptural arts, as seen in his \"invisible sonic sculpture\" piece \"Solid State\" (1969) and his \"Landmusic\" series of environmental sound proposals. He gained wider fame through his 1980 collaboration with Brian Eno, \"Fourth World, Vol. 1: Possible Musics,\" and subsequently worked with artists such as Talking Heads, Peter Gabriel, and David Sylvian.",
+            "sources": [
+              "https://jonhassell.com/south-is-north-jon-hassells-raga-in-electric-blue/",
+              "https://library.buffalo.edu/music/exhibits/eastman/eastman-performances.pdf",
+              "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/hassell-jon",
+              "https://en.wikipedia.org/wiki/Jon_Hassell",
+              "https://www.theguardian.com/music/2021/jun/27/jon-hassell-radical-musician-who-studied-with-stockhausen-and-worked-with-eno"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Jon Hassell artist biography 1960s 1970s",
+            "Jon Hassell trumpet player E.A.T. project",
+            "Jon Hassell E.A.T. association",
+            "Jon Hassell Experiments in Art and Technology E.A.T.",
+            "\"Jon Hassell\" \"Experiments in Art and Technology\"",
+            "\"Jon Hassell\" \"9 Evenings\" Experiments in Art and Technology",
+            "\"Jon Hassell\" E.A.T. Billy Klüver",
+            "\"Jon Hassell\" E.A.T. collaborations"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnlEOzq0THNXn6mFstCTsWrvGdwQdRyOIVcGgxyqKkS3HmKGhpGONtZ5UAPfKF8CQ8PYfd4cVcTVl0kLGcFc1Ww94XKEYnIfWEmHJscCuL_EKMh_jlPpNbmYkl26CpfKZCj7lFrF37yKuFt9-2kIrFzlcXNlyyLPEljCDDFKNztqnN0_a-XTdO",
+              "title": "eatsdrinksandleaves.com",
+              "resolvedUri": "https://www.eatsdrinksandleaves.com/brian-eno-david-byrne-the-jezebel-spirit/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEL2ASrt3AABdb6zm7N0_z2QFpbpUyeSy09ja1Ee6juHmeo9K9rKnDt8iLWUneNtT-gVS6kZtfoInY1TLWc5PLuc6A8ukTEcapeUc6el-gNxAxkyKy6GNXcRVnQw==",
+              "title": "westbeth.org",
+              "resolvedUri": "https://westbeth.org/in-memoriam/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_nn2xPTho2sjAPFyjolyQqCx86c1D6nVmAecPh1PhxXGsOKr6sWvsNKj3d7OrxEKldJlF-ZMnlB8VkPGlszLGxkbdy8weO2LGG0Dg19f346izKXeHMeLVoKqeQHk=",
+              "title": "jonhassell.com",
+              "resolvedUri": "https://jonhassell.com/epiphanies/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLUyjm2l0PxGegixw81BBxtHxl-BBqsqeOgL24ESdUeuexNC47vFIZuQZJKaOKvyJGFrBSspjZpaFIvy6GScUasy1AMI_0IW82f76ak9SpB6XOXOnSw9kW",
+              "title": "jonhassell.com",
+              "resolvedUri": "https://jonhassell.com/south/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbOAiNfmwCqORm3UxgH3pVXT6Mq_gkh6Npys7dx3wXVU-I3qQM12y_HFnTVT2Ie-zgNDR1rcDDuZeNLpy7PxBkWbaovNrONdAi-RpyagSYO6gHr0c9X9ILUPhDjkQB4bULAUqoawcqzDirb4_MKvB_VFYVfX6EaPjeGQfC",
+              "title": "servus.at",
+              "resolvedUri": "https://webarchiv.servus.at/kontext/ARS/ars_cluster_E_1_1.ppt.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXpzTBjl8d-3i6DvV-xYBuuiOWg-n7nu9US1sfo7AwcHACp4GojujlF6_PRzp6-QlQSN-j_I3mzILFRFIfrm6A7iEI-i4utU0G6FoJrDEZWUK-tLM8DjA99wI=",
+              "title": "bogart9.com",
+              "resolvedUri": "http://www.bogart9.com/fangboy/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8KwARDthC7FlrKhfqpst0oddxX9WDQx1PUl1jc1CzCK8SvFYR2TKXvwUPA98pCcvUOs0CIk82WeKOuWNJ0r9W3BlLwT1-KpR--ANRfejxzy7JEFEI8LAS7sdLNo3-S-D6sChH4RYwIqDh-Qku5ilNfgsGFgkSVhfnwIJytF8hFQxAxIcOHqCPD9_BZDQ=",
+              "title": "buffalo.edu",
+              "resolvedUri": "https://library.buffalo.edu/content/dam/library/pdf/music/ubmu-pdf-eastman2017.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 309,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Jon Hassell (1937–2021) was an American trumpet player and composer best known for pioneering the \\\"Fourth World\\\" music concept, which he defined as a \\\"unified primitive/futurist sound\\\" blending traditional ethnic music with modern electronic techniques."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 823,
+                "endIndex": 897,
+                "text": "Hassell was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                4,
+                3,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 898,
+                "endIndex": 947,
+                "text": "organization; he contributed a piece to an E.A.T."
+              },
+              "groundingChunkIndices": [
+                5,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1141,
+                "endIndex": 1186,
+                "text": "exhibit at the University at Buffalo in 1974."
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -29,6 +264,142 @@
         "y1": 24.55,
         "x2": 49.32,
         "y2": 37.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1592518",
+          "label": "Heathcote Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card lists the name 'Joel Heathcote', whereas the Wikidata entity is for 'Heathcote Williams' (birth name John Henley Heathcote-Williams). While both are artists active during the same period, 'Joel' and 'John' are distinct names, and 'Heathcote' is used as a surname on the card but appears as a given name or part of a hyphenated surname in the Wikidata record. There is no evidence in the Wikidata entry (nicknames, aliases) to suggest Heathcote Williams ever went by the name Joel."
+        },
+        {
+          "qid": "Q5132685",
+          "label": "Cliff Mallam",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Joel Heathcote' and 'Cliff Mallam' have no similarity, and the occupations (artist vs. politician) do not align."
+        },
+        {
+          "qid": "Q5693630",
+          "label": "Heathcote Dicken Statham",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'Joel Heathcote', whereas the Wikidata entity is 'Heathcote Dicken Statham'. While they share the name 'Heathcote', it serves as a surname on the card and a given name in the Wikidata record. Additionally, the first name 'Joel' is not present in the Wikidata record."
+        },
+        {
+          "qid": "Q5693635",
+          "label": "Heathcote Hammer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Joel Heathcote vs. Heathcote Howard Hammer), and the Wikidata entity died in 1961, which is before the period the artist was known to be active (late 1960s/1970s). Additionally, the Wikidata entity's occupation was military personnel, not an artist."
+        },
+        {
+          "qid": "Q15500224",
+          "label": "Heathcote William Garrod",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a poor match: 'Heathcote' is the surname of the person on the card, but the first name of the Wikidata entity (Heathcote William Garrod). Furthermore, the Wikidata entity died in 1960, which precedes the timeframe (late 1960s/early 1970s) when the card subject was known to be active as an artist."
+        },
+        {
+          "qid": "Q27973890",
+          "label": "Heathcote Helmore",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different: 'Joel Heathcote' versus 'Heathcote Helmore'. Additionally, the Wikidata entity died in 1965, which contradicts the context that the artist from the card was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q50616697",
+          "label": "F. G. Heathcote",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity F. G. Heathcote (Frederick Granville Heathcote) died in 1914, which precludes him from being an artist active in the late 1960s and early 1970s. Furthermore, the first names (Joel vs. Frederick) and primary occupations (artist vs. zoologist) do not match."
+        },
+        {
+          "qid": "Q75974618",
+          "label": "Heathcote Henry Rowland Hill",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name structure is significantly different: the card lists 'Joel Heathcote' (surname Heathcote), whereas the Wikidata entity is 'Heathcote Henry Rowland Hill' (given name Heathcote). Furthermore, there is no evidence in the Wikidata record that this individual is an artist or used the name Joel."
+        },
+        {
+          "qid": "Q76171190",
+          "label": "Heathcote Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity lived from 1847 to 1914, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned on the card. Furthermore, the names do not match; the card refers to Joel Heathcote, while the Wikidata entity is Heathcote Smith."
+        },
+        {
+          "qid": "Q76213434",
+          "label": "Heathcote Wigram",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Heathcote Wigram lived from 1824 to 1838, making it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card's context. Furthermore, the names do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joel B. Heathcote (1939–2024) was an American lighting artist and designer active from the late 1960s through the early 21st century. A 1961 graduate of Dartmouth College, he was known for his work in multi-media and technological arts. In the late 1960s and early 1970s, he was involved with \"The World Game,\" a multi-media event and project conceived by Buckminster Fuller, serving as a Lighting Artist and Designer for the production. This work aligned with the goals of organizations like Experiments in Art and Technology (E.A.T.), which fostered collaborations between artists and engineers during that period. Throughout his career, Heathcote operated Limitless Light Studios in San Diego, California, specializing in the design and installation of fiber optic \"night sky\" star ceilings and high-tech LED and laser lighting systems. He also maintained a residence in Rumney, New Hampshire, and was a long-time member and editor for the Casque & Gauntlet senior society at Dartmouth, where he was affectionately known as \"Merlin.\"",
+            "sources": [
+              "https://www.dartmouthalumnimagazine.com/archives/1961/05/1967",
+              "https://www.casqueandgauntletsociety.org/",
+              "https://www.spearehospital.com/standing-strong-joel-heathcote/",
+              "https://www.dartmouth.org/class-of-1961-news-fall-2024/",
+              "https://azlibrary.gov/digital-newspaper-program/sedona-red-rock-news-1982-03-24"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Joel Heathcote\" art 1960s 1970s",
+            "\"Joel Heathcote\" Experiments in Art and Technology",
+            "\"Joel Heathcote\" artist",
+            "",
+            "\"Joel Heathcote\" Dartmouth 1961 artist",
+            "\"Joel Heathcote\" \"World Game\" Buckminster Fuller",
+            "\"Joel Heathcote\" \"E.A.T.\" art",
+            "\"Joel Heathcote\" lighting designer 1960s 1970s",
+            "\"Joel Heathcote\" E.A.T. artist list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRuFs2bV9XFa9WR1uuzJlIEwhDIARboPicezcmrAPUX5Yq1XLorXZSAF7mCSMaOhJJzK-Q6KhX6oqNgOoistWdAkp1iMjl75Mk9YY-aF1jxRk322KWuWGHWyIilEuOSLwdM8rm3jzB17ZVFtVoavztfkYQ9hHpd08U6lpO",
+              "title": "dartmouthalumnimagazine.com",
+              "resolvedUri": "https://archive.dartmouthalumnimagazine.com/article/1961/2/1/1927"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa665yOsYVOCVEjwQrbmPwNzg42G8S8BqCh_e2a_VBkV76PBE_jAsWjtRQtHTII3813HEiwQbE9OrPc5FrH7Rf5nphgubu_nYR_NI-Wq50i2lXpljoZUvq7mLd0DmeQA9B9KHkdaH1n9NKZHhIHLvLfQrmUB1jjOODEo7mkwWThAY0AF59YXFyNldFOy4I",
+              "title": "casqueandgauntletsociety.org",
+              "resolvedUri": "https://casqueandgauntletsociety.org/wp-content/uploads/2022/02/2019-Castlegram.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 185,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Joel B. Heathcote (1939–2024) was an American lighting artist and designer active from the late 1960s through the early 21st century."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 896,
+                "endIndex": 1525,
+                "text": "He also maintained a residence in Rumney, New Hampshire, and was a long-time member and editor for the Casque & Gauntlet senior society at Dartmouth, where he was affectionately known as \\\"Merlin.\\\"\",\n      \"sources\": [\n        \"https://www.dartmouthalumnimagazine.com/archives/1961/05/1967\",\n        \"https://www.casqueandgauntletsociety.org/\",\n        \"https://www.spearehospital.com/standing-strong-joel-heathcote/\",\n        \"https://www.dartmouth.org/class-of-1961-news-fall-2024/\",\n        \"https://azlibrary.gov/digital-newspaper-program/sedona-red-rock-news-1982-03-24\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

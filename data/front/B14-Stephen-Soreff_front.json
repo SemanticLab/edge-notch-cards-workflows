@@ -22,5 +22,67 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art: sculpture",
     "aestheticPhilosophicalInterests": "Intersection of industrial design and sculpture"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q106619808",
+      "label": "Stephen s' Soreff",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names are nearly identical, with the Wikidata record including a stylized variation 's' Soreff'. Both records identify the individual as an artist (sculptor on the card and conceptual/video artist on Wikidata). The Smithsonian artist file mention in the Wikidata record confirms the individual is a recognized artist, and the timeline for a 1931 birth matches well with a mid-20th-century professional career in industrial design."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Stephen Soreff (1931–2016), also known as Stephen s'Soreff, was a New York-based sculptor, industrial designer, and educator with a strong background in engineering. Born in the Bronx and raised in Brooklyn, he earned an engineering degree from Brooklyn College and worked early in his career as a draftsman. He was active in the late 1960s and 1970s art and technology scenes, contributing to the Experiments in Art and Technology (E.A.T.) movement, including providing text for the 1966 E.A.T. Performance Series. Soreff's work, often consisting of found-object assemblages, was deeply influenced by architecture, technology, and engineering. From the early 1970s until the early 1990s, he taught design at C.W. Post College of Long Island University. He was the creator of the LexsSor System, a conceptual project designed to transmit artists' books via satellite, and published the avant-garde art review AGAR. His work has been exhibited at the Whitney Museum of American Art and various galleries in New York and East Hampton. He was married to the painter Helen Soreff.",
+        "sources": [
+          "https://www.easthamptonstar.com/archive/stephen-soreff-sculptor-and-teacher",
+          "https://scispace.com/papers/a-performer-s-guide-to-multimedia-compositions-for-2nps0q3q",
+          "https://archives.iu.edu/catalog/InU-Ar-VAD5132",
+          "https://www.artfacts.net/artist/stephen-soreff/131495"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Stephen Soreff\" sculptor",
+        "\"Stephen Soreff\" designer",
+        "Stephen Soreff sculptor New York 1960s 1970s",
+        "\"Stephen Soreff\" E.A.T. Experiments in Art and Technology",
+        "\"Stephen Soreff\" WDTA",
+        "",
+        "\"Stephen Soreff\" \"industrial designer\" New York",
+        "\"Stephen Soreff\" E.A.T. collaboration",
+        "",
+        "\"Stephen Soreff\" \"industrial designer\" sculptor NY",
+        "\"Stephen Soreff\" E.A.T. industrial design",
+        "\"Stephen Soreff\" Teague designer"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECpxwGTt1eHhdJRBQNsKPPEFJxKQPIKYMFsqUC2MkDBEl_deQeG_mkiJbz7UTMqXsMwOkCoiXA5CtdfaZK6D8tcv5XMm4rONh8Iub7_ixvJvekPL-Sh_p8gsXSiUzRrkIrgKqlM4hU5uukRnQVaZrbi0u-5uwZ8QIttkZpDCnRQnjrfCf5aQpy2vIzQn5Kkb6F",
+          "title": "iu.edu",
+          "resolvedUri": "https://journals.indianapolis.iu.edu/index.php/umbrella/article/download/1030/979/3235"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 806,
+            "endIndex": 966,
+            "text": "He was the creator of the LexsSor System, a conceptual project designed to transmit artists' books via satellite, and published the avant-garde art review AGAR."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

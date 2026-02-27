@@ -11,6 +11,116 @@
         "y1": 12.98,
         "x2": 54.76,
         "y2": 22.12
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19598",
+          "label": "Solomon R. Guggenheim Museum",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual named Norman Solomon, while the Wikibase entity describes the Solomon R. Guggenheim Museum, which is an institution."
+        },
+        {
+          "qid": "Q29242",
+          "label": "Solomon Phillips",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct; the card entry is for Norman Solomon, whereas the Wikibase entity is for Solomon Phillips. While 'Solomon' appears in both, it functions as a surname in the card entry and a given name in the Wikibase entity, with no evidence suggesting they are the same individual."
+        },
+        {
+          "qid": "Q18880",
+          "label": "Solomon’s Porch",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual named Norman Solomon, whereas the Wikibase entity describes a place called Solomon's Porch, which is categorized as a 'Jazz Shrine' (likely a venue or landmark), not a person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1772406",
+          "label": "Norman Solomon",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity (Q1772406) describes a prominent political journalist and activist who was born in 1951. At the date of the card entry (1968), he would have been only 16 or 17 years old. Additionally, there is no indication in his biography of an artistic career, which contradicts the context that the card refers to an artist (visual artist, musician, etc.)."
+        },
+        {
+          "qid": "Q1999688",
+          "label": "Norman Solomon",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name 'Norman Solomon' matches exactly and the individual in the Wikidata entry was active during the late 1960s, the Wikidata profile describes a British Rabbi and academic researcher specializing in Jewish studies. The provided context for the card identifies the person as an artist or creative practitioner, which does not align with the scholarly and religious career of the Wikidata entity."
+        },
+        {
+          "qid": "Q28823473",
+          "label": "Norman S. Endler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card refers to Norman Solomon, while the Wikidata entity refers to Norman S. Endler. Additionally, their professions are entirely different; the card entry is for an artist, whereas the Wikidata entity is a psychologist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Norman Solomon was an American painter, photographer, and mail artist who was active in the New York avant-garde scene during the late 1950s and 1960s before later residing in the San Francisco Bay Area. A student at Black Mountain College, he became a close friend and significant collaborator of the artist Ray Johnson. In August 1955, Solomon and Johnson famously coined the term 'moticos' (an anagram of 'osmotic') to describe Johnson’s early small-scale collages and writings. Solomon is also historically significant for capturing the only known on-set production photographs for Jack Smith’s landmark underground film 'Flaming Creatures' (1962); these color images were later published in the 2001 monograph 'On Jack Smith's Flaming Creatures' by J. Hoberman. He was an active participant in the New York Correspondence School and was known by the nickname 'Mr. Postcards' within the mail art community. His association with Experiments in Art and Technology (E.A.T.) stems from his connections to the circle of artists, including Remy Charlip and Robert Rauschenberg, who participated in the organization's projects like the Pepsi-Cola Pavilion at Expo '70 in Osaka.",
+            "sources": [
+              "https://rayjohnsonestate.com/collages/",
+              "https://www.blackmountaincollege.org/ray-johnson/",
+              "https://www.sfaq.us/2012/08/remy-charlip-the-art-of-being-an-artist/",
+              "https://www.granarybooks.com/pages/books/168/j-hoberman-jack-smith/on-jack-smiths-flaming-creatures-and-other-secret-flix-of-cinemaroc",
+              "https://www.artblart.com/tag/norman-solomon/",
+              "https://www.sensesofcinema.com/2001/feature-articles/hoberman_interview/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Norman Solomon\" E.A.T. artist",
+            "Norman Solomon artist \"Experiments in Art and Technology\"",
+            "\"Norman Solomon\" artist 1960s 1970s",
+            "\"Norman Solomon\" kinetic artist 1960s 1970s",
+            "\"Norman Solomon\" moticos Ray Johnson",
+            "\"Norman Solomon\" photographer \"Flaming Creatures\"",
+            "\"Norman Solomon\" \"Experiments in Art and Technology\" Pepsi Pavilion",
+            "\"Norman Solomon\" \"E.A.T.\" artist Getty",
+            "",
+            "\"Norman Solomon\" artist Experiments in Art and Technology E.A.T. list",
+            "\"Norman Solomon\" painter photographer San Francisco E.A.T.",
+            "\"Norman Solomon\" \"Pepsi Pavilion\" artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9zFs6eOctZ_B1naEViYIUa-cMiQsqx7osqakdtef0OTg5L62Kl6r7mMKiOYu6SEALc4GNvC5xlxJC3z6nZ1azMljyF1yOPo_mFmwoHQm7pm_xpglXR4wze_or3pjSnmNtJiIzHVMgjy3tTe3Y8kc30Lb2p1cSD7NyAv-7xis=",
+              "title": "sfaq.us",
+              "resolvedUri": "https://www.sfaq.us/2012/08/remy-charlip-the-art-of-being-an-artist/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 253,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Norman Solomon was an American painter, photographer, and mail artist who was active in the New York avant-garde scene during the late 1950s and 1960s before later residing in the San Francisco Bay Area."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 965,
+                "endIndex": 1778,
+                "text": "His association with Experiments in Art and Technology (E.A.T.) stems from his connections to the circle of artists, including Remy Charlip and Robert Rauschenberg, who participated in the organization's projects like the Pepsi-Cola Pavilion at Expo '70 in Osaka.\",\n      \"sources\": [\n        \"https://rayjohnsonestate.com/collages/\",\n        \"https://www.blackmountaincollege.org/ray-johnson/\",\n        \"https://www.sfaq.us/2012/08/remy-charlip-the-art-of-being-an-artist/\",\n        \"https://www.granarybooks.com/pages/books/168/j-hoberman-jack-smith/on-jack-smiths-flaming-creatures-and-other-secret-flix-of-cinemaroc\",\n        \"https://www.artblart.com/tag/norman-solomon/\",\n        \"https://www.sensesofcinema.com/2001/feature-articles/hoberman_interview/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +134,95 @@
         "y1": 20.91,
         "x2": 31.56,
         "y2": 26.21
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Alan Kalker is a Madison, Wisconsin-based artist and furniture maker, known for his brand 'Alan's Fine Woodworking.' His historical identity spans legal, technical, and artistic fields, beginning in the late 1960s and early 1970s in Berkeley, California. In 1969, he was admitted to the bar as a lawyer and served as a representative for Amnesty International at the United Nations in New York. During the early 1970s, he was active in the countercultural and experimental art scene in Berkeley, appearing in the 'Reject's art show' (1971) and being listed in 'The Last Supplement to The Whole Earth Catalog' (1971) in connection with a project titled 'Jerk a Giraffe for Karma.' He also copyrighted an artistic 'Geometrical Model' in 1973.\n\nKalker's work often bridged the gap between art and technology, a hallmark of the Experiments in Art and Technology (E.A.T.) movement. He contributed several articles to 'CoEvolution Quarterly' and 'Whole Earth Review' during the 1970s and 1980s, including a 1979 piece on 'Inventors' Services' and early reviews of microcomputer technology. After a career in information technology, Kalker transitioned to full-time woodworking, attending the Center for Furniture Craftsmanship in 2013. His contemporary work includes functional wood sculptures, such as the 'Intimate Light Sculpture' and high-end furniture like benches and wine cabinets, which have been exhibited at the Madison Museum of Contemporary Art’s 'Art Fair on the Square.'",
+            "sources": [
+              "https://www.artfulhome.com/artist/Alan-Kalker/8802",
+              "https://www.mmoca.org/event/art-fair-on-the-square/2022-artists/",
+              "https://archive.org/details/TheLastSupplementToTheWholeEarthCatalogMarch1971",
+              "https://archive.org/details/sim_coevolution-quarterly_1979-06_22/page/58/mode/2up",
+              "https://www.woodschool.org/alumni-fellows-2021/",
+              "https://oac.cdlib.org/findaid/ark:/13030/kt058032n8/admin/",
+              "https://www.amnesty.org/en/documents/pol10/001/1966/en/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Alan Kalker\" artist",
+            "\"Alan Kalker\" 1960s 1970s artist",
+            "\"Alan Kalker\" Experiments in Art and Technology",
+            "\"Alan Kalker\" E.A.T. artist",
+            "",
+            "\"Alan Kalker\" \"Geometrical Model\" 1973",
+            "\"Alan Kalker\" \"Jerk a Giraffe for Karma\"",
+            "\"Alan Kalker\" Madison WI furniture artist biography",
+            "\"Alan Kalker\" artist Berkeley 1970s",
+            "\"Alan Kalker\" Experiments in Art and Technology E.A.T.",
+            "",
+            "\"Alan Kalker\" \"Jerk a Giraffe for Karma\" art group",
+            "\"Alan Kalker\" E.A.T. membership",
+            "\"Alan Kalker\" artist Berkeley 1968 1969 1970 1971"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmyheoVBUsjxO69pYHEXW2nPHUvUWCyTqC2Shf_iFI8rJuahGwajQONYtoH7zZxGsvdQPGwBRnGaxGkrOG4DXJSVITZuisU1RM-YzLQzcZzd8KsKwWBmMwmvWaDNVk1qUWMaU530xEOx7ACzXo8IbrJJsOfpp_ogZN",
+              "title": "mmoca.org",
+              "resolvedUri": "https://www.mmoca.org/wp-content/uploads/2022/07/AFOTS2022.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEApprV_AUkKeJtIoknQhlmAri1k5kWlktRFQZpwzY5AHiDqaR7n1FnQ7OGTYhWPghDAqGg0CBY-ghQCX_wf1d5shbeYrR-TZbpmHPAtZbaBewXbg9RBERuqf3pnArh8h7vFfjxrSNWs_Em-Cy7ROGONbDTH0ISPU-f-pXN1Dy42Sz1ul0ZWR0r",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/download/lastsupplementto00unse/lastsupplementto00unse.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUjcfo-mvmfENLwCdy_qN6aJuajYxKSJSKyGpIjE08IAHkzZdVDn8RpEti3GUboY1Z9kPP6GRIor_wB0HGUW6EDkQ3DU7e68OcMub1WYPL-LUakdtFdE1V8PqPh6NJcGMEOxDKmISDi66Pwos3Aw6i1p5eMB4f0SPZ6chLMN85BgQobM2AMZkVVTK6WU=",
+              "title": "kensingtoncommunitycouncil.org",
+              "resolvedUri": "https://kensingtoncommunitycouncil.org/kensington-outlook/issues/outlook_feb_19.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcQT9q97_6fmaWhtxqcN0QGi6xmqVOGiRwbDOl6etz4DgoAnLNPGJgnkKCcs11U-9PLVCoQ1DNUoCpPrYu-d8THEQwgaLe_5OtdbOn2ySikqyXng3sUxUz77GUJUXeVjgmmm3ysv1Rf3Ryh1ZhesznT2PSScWUSQQchKWYNTJsSyyjJQ==",
+              "title": "amnesty.org",
+              "resolvedUri": "https://www.amnesty.org/en/wp-content/uploads/2021/06/pol100011966eng.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU6wV0brYCuUNLUn6h8b-T88IN2-7_Tx6LwwCi6wtFCY5uymR1YBu6AvTEEK1Br54lY9fO-BVwfndfiQFYKOGU1r2EariRXUsP3QaRICMkzSRygshCuT8yLN3GQafIaQW2NioBt-tFwg==",
+              "title": "podiatrym.com",
+              "resolvedUri": "https://www.podiatrym.com/search3.cfm?id=18619"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 166,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Alan Kalker is a Madison, Wisconsin-based artist and furniture maker, known for his brand 'Alan's Fine Woodworking.'"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 919,
+                "endIndex": 928,
+                "text": "movement."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     }
   ]

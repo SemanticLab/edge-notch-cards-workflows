@@ -11,6 +11,75 @@
         "y1": 10.7,
         "x2": 40.0,
         "y2": 16.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q57058553",
+          "label": "Dewesh Agrawal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Agnus Dewes' and 'Dewesh Agrawal' are distinct. Additionally, the Wikidata entity describes a medical researcher and physician, which does not align with the context of the person on the card being an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q99252059",
+          "label": "Deweshri R Kerzare",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Agnus Dewes and Deweshri R Kerzare are significantly different, and the Wikidata entity is identified as a researcher, which does not match the artistic context provided for the card entry."
+        },
+        {
+          "qid": "Q130983450",
+          "label": "Dewesh Agrawal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Agnus Dewes' and 'Dewesh Agrawal' are significantly different. Furthermore, the Wikidata entity is listed as a researcher, whereas the card entry refers to an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born 1931) is a Hungarian-born American conceptual artist who is likely the intended identity for 'Agnus Dewes.' Active since the late 1960s and throughout the 1970s, Denes is a pioneer of conceptual, environmental, and ecological art. She was closely associated with Experiments in Art and Technology (E.A.T.), an organization founded by Billy Klüver and Robert Rauschenberg to foster collaborations between artists and engineers. E.A.T. records from 1969 specifically include Denes as a member who submitted project proposals and biographical materials. Her work often bridged the gap between science, mathematics, and art; she notably participated in the 1970 exhibition 'Software: Information Technology, Its New Meaning for Art' at the Jewish Museum, where she collaborated with the computer scientist group R.E.S.I.S.T.O.R.S. Denes is best known for her 'Philosophical Drawings' and large-scale environmental works such as 'Rice/Tree/Burial' (1968) and 'Wheatfield — A Confrontation' (1982).",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Agnes_Denes",
+              "https://www.getty.edu/research/tools/guides_archives/eat.html",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf1h4n982m/admin/",
+              "https://www.arshake.com/en/agnes-denes-data-analysis-abstraction/",
+              "http://www.sabinebreitwieser.net/wp-content/uploads/2016/04/EAT-Experiments-in-Art-and-Technology.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Agnes Denes\" E.A.T.",
+            "\"Dewes\" Experiments in Art and Technology",
+            "\"Agnes Dewes\" artist",
+            "\"Agnes Denes\" Experiments in Art and Technology",
+            "\"Agnes Dewes\" biography",
+            "\"Agnes Denes\" Experiments in Art and Technology artist bio",
+            "\"Agnes Denes\" E.A.T. 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTQotxkKZCtfeT3lvEFlN5RrHRYVOZ2jdx40y8HvCo8JHLN50t71eYcm7iLGqPTxm1unn0h6mBhjK6Qg61mK1qJcPJL49FdtmsDZJ3ZikJt_HpUQB3MgJ1EU7ensdPa_HL9K52",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Agnes_Denes"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 896,
+                "endIndex": 1522,
+                "text": "Denes is best known for her 'Philosophical Drawings' and large-scale environmental works such as 'Rice/Tree/Burial' (1968) and 'Wheatfield — A Confrontation' (1982).\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Agnes_Denes\",\n        \"https://www.getty.edu/research/tools/guides_archives/eat.html\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf1h4n982m/admin/\",\n        \"https://www.arshake.com/en/agnes-denes-data-analysis-abstraction/\",\n        \"http://www.sabinebreitwieser.net/wp-content/uploads/2016/04/EAT-Experiments-in-Art-and-Technology.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +93,151 @@
         "y1": 18.9,
         "x2": 33.6,
         "y2": 24.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27825",
+          "label": "Carson Jeffries",
+          "description": "engineer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Mike Carson' and 'Carson Jeffries' do not match. While both are associated with the E.A.T. (Experiments in Art and Technology) context, they are distinct individuals; one is listed as Mike Carson and the other is an engineer named Carson Jeffries."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q100768096",
+          "label": "Mike Carson",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly and the timeframe of the basketball player (active around 1968-1971) aligns with the date on the card, the occupations are entirely different. The card entry relates to the artistic/technical context of Experiments in Art and Technology (E.A.T.) and 'LOFT', whereas the Wikidata entity is specifically identified as a collegiate basketball player for the Oregon Ducks with no mention of artistic or collaborative technical work."
+        },
+        {
+          "qid": "Q127256449",
+          "label": "Mike Carson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names are identical, the Wikidata entity describes a forestry scientist educated in New Zealand and associated with AbacusBio. The card entry, within the context of the E.A.T. archive and the mention of 'LOFT', refers to an artist or creative practitioner active in the late 1960s or 1970s. These are distinct individuals."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Mike Carson (also known as Michael Carson) was a designer and engineer specialized in diving technology and underwater cinematography equipment, active from the late 1950s through the 1970s and beyond. He is notably linked to the avant-garde art world through a 1958 collaboration with the Fluxus and Happenings artist Al Hansen (a known associate of the Experiments in Art and Technology or E.A.T. circle), with whom he worked on 'wrapping the first pilings' at the Mattson Dock in the Los Angeles Harbor. Carson founded Divetec (later Carson Dive Systems) and was recognized for his technical innovations, including the design of underwater camera housings, lights, and diving helmets like the Carson Mk 3 Air Hat (1970). His expertise brought him to Hollywood, where he designed props and equipment for major film and television productions such as 'Sea Hunt', 'Voyage to the Bottom of the Sea', 'Man from Atlantis', and 'The Poseidon Adventure'.",
+            "sources": [
+              "https://divescrap.com/history-mike-carson/",
+              "http://www.divingheritage.com/carsonhelmet.htm"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Mike Carson was an artist and cartoonist active in the late 1960s and early 1970s, specifically within the Underground Comics Movement in San Francisco. He is cited as a contributor to the landmark comic 'Ebon' (1970), which was created by Larry Fuller and is recognized as a formative work in Afrofuturism. His participation in the San Francisco counterculture art scene of the time aligns with the era and activities of organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://ucrarts.ucr.edu/exhibitions/ebon-fear-of-a-black-planet/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Michael Carson (Mike Carson) was a film producer and director active in the late 1960s and 1970s, primarily in Australia. He began his career at the ABC (Australian Broadcasting Corporation) in 1966 and was involved in significant drama productions of the era, including the soap opera 'Bellbird'. He later worked as a producer on various film projects throughout the 1970s and 1980s, including collaborations on films like 'Serpent in the Rainbow' (1973) and 'Spring and Fall' (1980).",
+            "sources": [
+              "https://adg.org.au/news/valete-mike-carson-director-1944-2024"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Mike Carson\" artist biography 1970s",
+            "\"Mike Carson\" artist late 1960s 1970s",
+            "\"Mike Carson\" E.A.T. collaborator",
+            "\"Mike Carson\" artist 1960s 1970s electronic art",
+            "\"Mike Carson\" E.A.T. artist engineer",
+            "\"Mike Carson\" E.A.T. organization collaboration",
+            "\"Mike Carson\" \"9 Evenings\" E.A.T.",
+            "\"Mike Carson\" engineer E.A.T.",
+            "\"Mike Carson\" artist \"E.A.T.\" collaboration",
+            "\"Mike Carson\" Pepsi Pavilion E.A.T.",
+            "\"Michael Carson\" artist E.A.T.",
+            "\"Mike Carson\" \"9 Evenings\" participant",
+            "\"Mike Carson\" E.A.T. participant",
+            "\"Mike Carson\" artist E.A.T. member",
+            "\"Mike Carson\" Pepsi Pavilion project team",
+            "\"Mike Carson\" \"9 Evenings\" credits",
+            "",
+            " \"Mike Carson\" E.A.T.",
+            "\"Mike Carson\" and \"Al Hansen\" art project",
+            " \"Mike Carson\"",
+            "",
+            "\"Mike Carson\" artist San Francisco 1970 underground comics",
+            "\"Mike Carson\" engineer Bell Labs E.A.T.",
+            "\"Mike Carson\" \"9 Evenings\" staff engineer",
+            "\"Mike Carson\" artist E.A.T. \"Al Hansen\"",
+            "\"Mike Carson\" engineer \"Bell Labs\" E.A.T. list",
+            "\"Mike Carson\" \"Al Hansen\" \"wrapping the first pilings\"",
+            "\"Mike Carson\" artist \"E.A.T.\" 1960s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd6rkSn5YR6WXJzvYeNZ7Z-U6T36kvyABU0Kx9eo6zad4WBmR4RzMPYGo6bLbNCapdk7M1m6XD6bzFkg6d38DdjP1Au4aGfPJn09qRQ1WKjkMIZZoeOw4fD3Blx0UjfFJPF_g=",
+              "title": "divingheritage.com",
+              "resolvedUri": "https://www.divingheritage.com/carson.htm"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8JIZtPAwIL6DeoaQWYusp17Q0TfUDFWLL8U5vWN7pv4brdVt-YKxsZTGPXc1dgcdpj5O_yHUQ3FW_I57a-0U569YKus9q5VInrixeQE9AtylbgA-lD0ojKHPrgW0uyeFVfZ_aiK2Ov6tHG901tzNh5oEYKpJw62PiiIgX",
+              "title": "divescrap.com",
+              "resolvedUri": "https://www.divescrap.com/DiveScrap_INDEX/History_Mike_Carson.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi00dzppvr2ddyMFcunj3FZs9XyurBRCwE1r7pDwUKHof9cy-CYDoJd29Kj2_lS8Pqwe8JCbTdKdaVHyXsyf7XNpPQFTcstbcZr6YCeHyyw10dYlWySOAHl_s=",
+              "title": "adg.org.au",
+              "resolvedUri": "https://www.adg.org.au/news?pg=2"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 251,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Mike Carson (also known as Michael Carson) was a designer and engineer specialized in diving technology and underwater cinematography equipment, active from the late 1950s through the 1970s and beyond."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 449,
+                "endIndex": 556,
+                "text": "circle), with whom he worked on 'wrapping the first pilings' at the Mattson Dock in the Los Angeles Harbor."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 557,
+                "endIndex": 773,
+                "text": "Carson founded Divetec (later Carson Dive Systems) and was recognized for his technical innovations, including the design of underwater camera housings, lights, and diving helmets like the Carson Mk 3 Air Hat (1970)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2173,
+                "endIndex": 2506,
+                "text": "He later worked as a producer on various film projects throughout the 1970s and 1980s, including collaborations on films like 'Serpent in the Rainbow' (1973) and 'Spring and Fall' (1980).\",\n      \"sources\": [\n        \"https://adg.org.au/news/valete-mike-carson-director-1944-2024\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +251,69 @@
         "y1": 24.3,
         "x2": 22.3,
         "y2": 31.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5553553",
+          "label": "J. Tobias Anderson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1971, which makes it impossible for him to be an artist active during the late 1960s or early 1970s as required by the card's context. Furthermore, 'Tobias' appears to be the surname on the index card, whereas it is a middle name for J. Tobias Anderson."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Julius Tobias (1915–1999) was an American abstract painter and sculptor based in New York City, whose career spanned several decades with a peak of activity in the late 1960s and 1970s. He is known for transitioning from Abstract Expressionist paintings in the 1950s to wall-sized white paintings in the late 1960s, and eventually to monumental sculptural environments in the 1970s. His sculptural works typically utilized industrial materials like concrete, steel, and wood to create contained, often barricaded spaces that explored the primacy of space over objects. Tobias was a member of the Art Workers Coalition (AWC) and was associated with the Experiments in Art and Technology (E.A.T.) community, specifically collaborating with E.A.T. engineer Per Biorn in 1972. Before his artistic career, he served as a bombardier pilot in the US Air Force during World War II, an experience that influenced his later artistic explorations of sky and vast vistas. Over his career, he was awarded two Guggenheim Fellowships and multiple National Endowment for the Arts grants.",
+            "sources": [
+              "https://www.hollistaggart.com/artists/164-julius-tobias/",
+              "https://www.moma.org/calendar/exhibitions/5070",
+              "https://www.concordia.ca/content/dam/finearts/research/docs/9-evenings-reconsidered.pdf",
+              "https://primaryinformation.org/product/art-workers-coalition-open-hearing/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"J. Tobias\" Experiments in Art and Technology E.A.T.",
+            "artist \"J. Tobias\" late 1960s 1970s",
+            "\"John Tobias\" artist E.A.T.",
+            "\"James Tobias\" artist E.A.T.",
+            "\"Judith Tobias\" artist E.A.T.",
+            "\"J. Tobias\" Experiments in Art and Technology",
+            "\"J. Tobias\" E.A.T. member list",
+            "\"J. Tobias\" artist 1960s 1970s \"E.A.T.\"",
+            "\"John Tobias\" artist E.A.T. 1960s 1970s",
+            "\"Julius Tobias\" Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-SyFh58J3vzmmspoI8ni88M-zTyeeYrr-AMRETrkv_O8wW9l3WXkjdM6JZwzGBOp06Wrvlj6W3gDbE442pNdWLNO6bUfvBJPWVRFxJn_mQxZLXr8xO1arAYNLhwwe5CURPQmOduUHR4_N5s4kOf-rFhLgH2GwwPxDVPRCg_YI9Em6IBKLPEOoffoiiOWM-pR_WwJ8xhsppG2ZlgYZcD1YYAJH_d0iz06pDV2MVjwlPg==",
+              "title": "concordia.ca",
+              "resolvedUri": "https://ellengallery.concordia.ca/piste-de-reflexion/9-evenings-reconsidered-art-theatre-and-engineering-1966/?lang=en"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHArRIllaM6c08dl5-J2fTAY8G2Vn3lBlcxzd-nTb-ucrC-xWCniQ8iPH5pS-QGLCPC0BzdoDhJDd4vI9Au-C406yfupmqM7WSKcKk6ifFHXp0OQOe5rnQ2PwQ13sMd0aPsW5k6zh4Kg2l6YI3l1tRRHNebCF-jw2IMBVw2Acj6WVvI8qnqebCpCbf9ivtaMCKMQxgr9TKf1Rj",
+              "title": "moma.org",
+              "resolvedUri": "https://press.moma.org/wp-content/uploads/2025/03/Jack-Whitten-The-Messenger-Extended-Labels.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 237,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Julius Tobias (1915–1999) was an American abstract painter and sculptor based in New York City, whose career spanned several decades with a peak of activity in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

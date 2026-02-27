@@ -9,6 +9,75 @@
         "y1": 16.3,
         "x2": 19.8,
         "y2": 23.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jackson Mac Low (1922–2004) was an American avant-garde artist, poet, and composer who was highly active in the late 1960s and early 1970s. He is best known for his experimental poetry and compositions created using chance operations, often in collaboration with other artists and engineers. Mac Low was significantly involved with Experiments in Art and Technology (E.A.T.), a non-profit organization that promoted collaborations between the arts and sciences. He participated in E.A.T.'s landmark 1968 exhibition 'Some More Beginnings' at the Brooklyn Museum and collaborated with engineers from Information International, Inc. to create computer-generated poems. His work is characterized by the use of algorithms and aleatoric (chance-based) methods, which he termed 'simultaneities.' His daughter, Clarinda Mac Low, is also an artist and organizer who has served as a director for E.A.T. and continues to promote the organization's legacy.",
+            "sources": [
+              "https://www.poets.org/poet/jackson-mac-low",
+              "https://siggraph.org/art-in-the-information-age-technology-and-conceptual-art/",
+              "https://www.getty.edu/research/collections/special_collections/eat.html",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf1199n4f1/",
+              "https://www.e-flux.com/journal/29/67396/one-and-three-ideas-conceptualism-before-during-and-after-conceptual-art/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jackson Mac Low\" E.A.T. Experiments in Art and Technology",
+            "\"Wc- Mac Low\"",
+            " \"Wc- Mac Low\"",
+            "\"Mac Low\" artist \"E.A.T.\"",
+            "\"Maclow\" artist \"E.A.T.\"",
+            "",
+            "\"Jackson Mac Low\" E.A.T. \"Some More Beginnings\"",
+            "\"Some More Beginnings\" E.A.T. artist list",
+            "\"WcMaclow\"",
+            "\"Wc Mac Low\"",
+            "\"W. Maclow\" engineer",
+            "\"Mac Low\" engineer E.A.T.",
+            "\"Maclow\" engineer E.A.T.",
+            "\"MacLow\" E.A.T. Directory of Artists and Engineers",
+            "\"Mac Low\" E.A.T. Directory of Artists and Engineers",
+            "\"W. Maclow\" E.A.T.",
+            "\"W. Mac Low\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGXPqY56HjfnHLVZ3AP6vKMpdfWAiPv6jpM9UiAPfDoaNPOY-Qr1xzwtl3gStd4wIi0ly3TKmMvcwoeLRGheGUng6oN9j6GZl4muSmazTMcxj08RHW62TXtHaNpQh0Hrcit457Iips3olLN5bwJOkIRcRBKz3SutBxXsGc",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsNfEq3IqZv6KXfHg5j5KHNLB5ljrOHYmmUgg8pBFA-J4iE2nbgkx99JQ2P-bAW7Cw23jmJMBXiNhfcmw0EEEDcxy7v2j0ZgSrntB2rm5yLr6drvtm3jPzq_RLUF2QGCAPwOiS0gzXs0qECo0rFPY3-uaWot8HO06bkic=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB89RwQ_2WWjplgOSorNz4BuboAKTQ2fnjM18qsZvkQwL3-lxlZtpBhdb5oDYEJQiiMXJlhFZzGwGSZy4dl2P_vsK2f6Lp45LWhYb9B453dLh2cEwhPcbBrW8nQ5c6FygyLdT4ciO1QPAUmzce9B4WlPouuiZ43UnWaS5uaFIR3J7uRL3AT4WCLZnyMP2f8vU381SRZ14IMfB7b_cMhcw=",
+              "title": "vasulka.org",
+              "resolvedUri": "https://www.vasulka.org/archive/RightsIntrvwInstitMediaPolicies/IntrvwInstitKaldron/EAIcatalogue.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 191,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Jackson Mac Low (1922–2004) was an American avant-garde artist, poet, and composer who was highly active in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +89,138 @@
         "y1": 21.6,
         "x2": 34.3,
         "y2": 31.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q13405833",
+          "label": "David Rothenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity David Rothenberg was born in 1962, making him too young to have been an active artist in the late 1960s or very early 1970s as required by the context of the card entry."
+        },
+        {
+          "qid": "Q19867068",
+          "label": "Dave Rothenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Dave Rothenberg) was born in 1973, which makes it impossible for him to be the person active as an artist in the late 1960s and early 1970s. Additionally, his recorded occupations (sports commentator, radio personality) do not align with the artistic context provided."
+        },
+        {
+          "qid": "Q25352184",
+          "label": "David Rothenberg",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'David Rothenberg' matches exactly. The Wikidata entity describes a theatrical producer and writer, which fits the broad definition of an artist or creative practitioner. His career began around 1960, which aligns with the late 1960s/early 1970s timeframe provided in the context."
+        },
+        {
+          "qid": "Q56129924",
+          "label": "Dave Dave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active as an artist in the late 1960s and early 1970s. The Wikidata entity (Dave Dave/David Rothenberg) was born in 1976, meaning he could not have been active during the specified time period."
+        },
+        {
+          "qid": "Q107576700",
+          "label": "David Rothenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity David Rothenberg died in 1944, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card's context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Rothenberg (died 2018) was a mathematical and musical theorist who collaborated with synthesizer pioneer Robert Moog in the late 1960s and early 1970s. He is best known for designing an experimental 31-tone keyboard and a \"Classroom Synthesizer\" (c. 1970), which were intended to explore human pattern perception and harmonic scales. His research into pattern recognition and perception during this period was funded in part by the Air Force Office of Scientific Research and is considered a precursor to modern developments in artificial intelligence. His work and correspondence from the 1960s and 1970s are preserved in the Robert Moog Papers at Cornell University, reflecting the interdisciplinary spirit of collaboration between artists, scientists, and engineers that characterized organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://news.cornell.edu/stories/2023/12/long-lost-moog-synthesizer-finally-makes-it-stage",
+              "https://archives.library.cornell.edu/repositories/2/archival_objects/664056"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "David Rothenberg (born 1933) is a prominent New York theater producer, press agent, and activist who was highly active in the late 1960s and early 1970s. In 1966, he produced the anti-war musical \"Viet Rock\" and in 1967 he produced the influential prison drama \"Fortune and Men’s Eyes.\" The latter project led him to found The Fortune Society in 1967, a non-profit organization dedicated to prisoner rights and successful reentry. As a publicist, he worked with major figures like Elizabeth Taylor and Richard Burton. While primarily focused on theater and social justice, his founding of a service-oriented non-profit during the late 1960s in the New York cultural scene aligns with the organizational landscape of the era, which included groups like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://fortunesociety.org/david-rothenbergs-legacy-how-one-trip-to-a-prison-created-changes-in-the-criminal-justice-system-in-new-york/",
+              "https://www.villagepreservation.org/2018/04/27/oral-histories-on-the-founding-of-an-artists-colony-a-prison-reform-organization-and-so-much-more/",
+              "https://www.timeout.com/newyork/theater/con-artist"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"David Rothenberg\" artist active 1960s 1970s biography",
+            "artist \"David Rothenberg\" 1960s 1970s",
+            "\"David Rothenberg\" artist E.A.T. collaboration",
+            "\"David Rothenberg\" Experiments in Art and Technology E.A.T.",
+            "\"David Rothenberg\" \"9 Evenings\" E.A.T.",
+            "\"David Rothenberg\" \"Experiments in Art and Technology\"",
+            "\"David Rothenberg\" visual artist 1960s 1970s",
+            "\"David Rothenberg\" \"Pepsi Pavilion\" E.A.T.",
+            "\"David Rothenberg\" \"E.A.T.\" artist",
+            "\"David Rothenberg\" \"The Zone\" poem",
+            "\"David Rothenberg\" 1960s 1970s artist",
+            "\"David Rothenberg\" photographer 1970s",
+            "\"David Rothenberg\" artist E.A.T.",
+            "\"David Rothenberg\" producer E.A.T.",
+            "\"David Rothenberg\" Pepsi Pavilion Osaka 1970",
+            "\"David Rothenberg\" E.A.T. artist engineer",
+            "\"David Rothenberg\" Cornell \"Experiments in Art and Technology\"",
+            "\"David Rothenberg\" photographer 1966 E.A.T.",
+            "\"David Rothenberg\" \"Classroom Synthesizer\" 1970",
+            "\"David Rothenberg\" artist \"Experiments in Art and Technology\"",
+            "\"David Rothenberg\" photographer E.A.T. 1960s",
+            "\"David Rothenberg\" E.A.T. \"Experiments in Art and Technology\" engineer",
+            "\"David Rothenberg\" \"Classroom Synthesizer\" moog",
+            "\"David Rothenberg\" electronic music artist 1960s",
+            "\"David Rothenberg\" \"The Zone\" 1960s",
+            "\"David Rothenberg\" E.A.T. 1960s identity"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv00keT6cjwKCQcAbgOyfhCLeRlLNDZS1rZZz_5yViX1xq1MGgmC7TStuxZ3JU_VE0hYbrxZoswNjadYKu0e3LkUVqbAdeGKSDfpI4Gcc-mI8PkTPYQQaaHPyIr9XeQIBDPPuu5OD0B6wDgCj-lX3aZz81Y2iSzGX9SPp9iA==",
+              "title": "fortunesociety.org",
+              "resolvedUri": "https://fortunesociety.org/media_center/david-rothenbergs-fortune/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUqnzjR4DTW2BS7iy3fT9pqLtu7hhTrvZXBsTuljEMxEdq-ueG40x3VrLTBtgpSQGkVP8B0Ream4LL2BnrgU4yIDQJtVCPZ-nBgrZEOIjbbp27eV4PrmIsuMRuCO37Qt4gFeQj_kQfverYp_7Z_d_b7hXMt5n0vhCAF71QFKxWjphC9jC",
+              "title": "du.edu",
+              "resolvedUri": "https://digitalcommons.du.edu/cgi/viewcontent.cgi?article=2178&context=etd"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV-uJU5ZKsex3QFme4X_8X8QkS-jX4cHVVtwlcLJs6lQM6a4C57ysD_EN609VTDYNyEHbDKWsJBsAIMpwtHE6wQzu3-3--Z3J05scSZ-0W8CzeVXUzQUmy_MIHwTboMHRWpU1yCdqf7OAb",
+              "title": "ecozona.eu",
+              "resolvedUri": "https://ecozona.eu/article/download/441/459/788"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoYI62xUYt_3_B3W77Mh1cc0eC5cSDmeoQcZwSWXQpxziyLfEf2DGDR0cQH6jgHaOYWKFPQuX1DYq4nVnFVa9PP63Faq3Jivk6Gb2XYbYTKtTQ5m7uvP-iw1U5Rrg-yAE6ZKABK057vFjvIRwWCc_qKsWirPq80DKpOeWvkv_iwgrTQLw9SoAFQw==",
+              "title": "amny.com",
+              "resolvedUri": "https://www.amny.com/news/david-rothenbergs-new-book-took-a-lifetime-to-write/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZAlTIaGBaZxIAmXp4ROy1BqvKDBtWPFM1kB5Gb0KWCOKxD_tGgGSs_WvAAw-xIh9NfGhnW4d0o9wKvAyOfmfi5DEs7lO57iC8H0104mWcS48ltbKo1e7orfzVuaQtjoxzzn9-rzREiJJTySjy_DomANEz7g==",
+              "title": "bcu.ac.uk",
+              "resolvedUri": "https://www.open-access.bcu.ac.uk/7210/1/PhD%20Thesis.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1723,
+                "endIndex": 2440,
+                "text": "While primarily focused on theater and social justice, his founding of a service-oriented non-profit during the late 1960s in the New York cultural scene aligns with the organizational landscape of the era, which included groups like Experiments in Art and Technology (E.A.T.).\",\n      \"sources\": [\n        \"https://fortunesociety.org/david-rothenbergs-legacy-how-one-trip-to-a-prison-created-changes-in-the-criminal-justice-system-in-new-york/\",\n        \"https://www.villagepreservation.org/2018/04/27/oral-histories-on-the-founding-of-an-artists-colony-a-prison-reform-organization-and-so-much-more/\",\n        \"https://www.timeout.com/newyork/theater/con-artist\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +232,337 @@
         "y1": 30.4,
         "x2": 38.9,
         "y2": 39.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q767",
+          "label": "Al Tinney",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Gary Allen) does not match the name of the Wikibase entity (Al Tinney). There is no indication that these are the same individual."
+        },
+        {
+          "qid": "Q21035",
+          "label": "Allen \"Al\" Toussaint",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is for a person named Gary Allen, while the Wikibase entity describes Allen 'Al' Toussaint, a famous musician. There is no indication that Allen Toussaint ever used the name Gary Allen, and the names are distinct."
+        },
+        {
+          "qid": "Q21036",
+          "label": "Allen \"Fats\" Matthews",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Allen, while the Wikibase entity is Allen 'Fats' Matthews. Although both share the name 'Allen', it is the surname for the person on the card and the given name for the Wikibase entity. There is no evidence suggesting they are the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q918810",
+          "label": "Gary Allen",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name matches exactly and the timeline (active in 1964) is consistent with the Wikidata entity's life (1936–1986), the Wikidata entity is primarily identified as a political writer, journalist, and conspiracy theorist for the John Birch Society. This profile does not align well with the context provided, which specifies the individual was an artist or creative practitioner. Given that Gary Allen is a relatively common name, it is unlikely this specific political figure is the artist mentioned on the card."
+        },
+        {
+          "qid": "Q1152051",
+          "label": "Gary Trousdale",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Allen, whereas the Wikidata entity is for Gary Trousdale. Additionally, Gary Trousdale was born in 1960, making him only four years old at the time of the card's date (1964)."
+        },
+        {
+          "qid": "Q1494944",
+          "label": "Gary Russell Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Gary Russell Jr.) was born in 1988, making it impossible for him to be the person named Gary Allen recorded on the index card in 1964. Additionally, the names and occupations (boxer vs. likely artist) do not align."
+        },
+        {
+          "qid": "Q5524596",
+          "label": "Gary Allen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q5524596) was born in 1960, making him only 4 years old at the time of the card entry in 1964. Furthermore, the Wikidata entity is a professional football player, which does not align with the provided context that the person on the card is an artist."
+        },
+        {
+          "qid": "Q5524597",
+          "label": "Gary Allen Feess",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Gary Allen', implying Allen is the surname. The Wikidata entity is 'Gary Allen Feess', a federal judge whose surname is Feess and whose middle name is Allen. Furthermore, the card context identifies the individual as an artist, which does not align with the career of a prominent judge and lawyer."
+        },
+        {
+          "qid": "Q5524598",
+          "label": "Gary Allen Russell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the Wikidata entry was born in 1993, while the card entry is dated 1964. Therefore, it is impossible for them to be the same individual."
+        },
+        {
+          "qid": "Q5524599",
+          "label": "Gary Allenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Gary Allen) differs from the Wikidata entity (Gary Allenson). Furthermore, the Wikidata entity was born in 1955, making him only 9 years old at the time of the card's date (1964), and he is a professional baseball player rather than an artist."
+        },
+        {
+          "qid": "Q5524765",
+          "label": "Gary Brown",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Gary Allen vs. Gary Brown). Additionally, the Wikidata entity was born in 1988, which is 24 years after the date on the card (1964), making it chronologically impossible for them to be the same person."
+        },
+        {
+          "qid": "Q5525221",
+          "label": "Gary Haught",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Gary Haught' does not match the name 'Gary Allen' on the card. Furthermore, Gary Haught was born in 1970, which is several years after the date recorded on the card (1964)."
+        },
+        {
+          "qid": "Q5525653",
+          "label": "Gary Neist",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Allen, whereas the Wikidata entity is Gary Neist. Furthermore, the Wikidata entity describes an amateur wrestler and Olympic athlete, which does not align with the context of the card entry describing an artist."
+        },
+        {
+          "qid": "Q5525722",
+          "label": "Gary Patterson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Allen, while the Wikidata entity is Gary Patterson. Furthermore, the Wikidata entity was born in 1960, making him only 4 years old at the time of the 1964 card entry. The occupation of football coach/player also does not align with the artistic context provided."
+        },
+        {
+          "qid": "Q5525764",
+          "label": "Gary Podesto",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Allen, whereas the Wikidata entity (Q5525764) is Gary Podesto, a politician who served as the mayor of Stockton, California. The surnames are entirely different, and there is no evidence that Podesto ever went by the name Gary Allen or was an artist during the 1960s."
+        },
+        {
+          "qid": "Q5526156",
+          "label": "Gary Wilde",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The surnames do not match (Allen vs. Wilde). Furthermore, the Wikidata entity Gary Wilde was born in 1952, which would make him only 12 years old at the time of the 1964 entry, and his occupation as an Anglican priest does not align with the context of being an artist."
+        },
+        {
+          "qid": "Q10288412",
+          "label": "Gary Hinman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Gary Allen) and the Wikidata entity name (Gary Hinman) have different surnames. While they share a first name, there is no evidence provided that Gary Hinman ever used the name Gary Allen."
+        },
+        {
+          "qid": "Q23944797",
+          "label": "Gary Wiggins",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Allen, whereas the Wikidata entity is for Gary Wiggins (known as Detroit Gary Wiggins). Despite both being musicians active during the same era, there is no evidence to suggest that Gary Wiggins used the surname Allen."
+        },
+        {
+          "qid": "Q27909860",
+          "label": "Gary Allen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q27909860) was born in 1957, which would make him only seven years old at the time of the 1964 card entry. Additionally, the Wikidata entity is a long-distance runner, whereas the card entry is expected to be an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q47112889",
+          "label": "Gary Allen",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity is specifically identified as a botanist, which conflicts with the known context that the person on the card was an artist. Given that 'Gary Allen' is a common name, it is unlikely they are the same individual without evidence of a dual career."
+        },
+        {
+          "qid": "Q60676587",
+          "label": "Gary Hammond",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match; the card refers to Gary Allen, while the Wikidata entity is Gary Hammond. Additionally, the Wikidata entity is an American football player, whereas the context for the card indicates the person is likely an artist."
+        },
+        {
+          "qid": "Q76027895",
+          "label": "Gary Allen",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity was born in 1952, making them only 12 years old at the time of the 1964 card entry. It is unlikely that a 12-year-old would be the subject of a professional artistic index card, and the Wikidata entity lacks any mention of an artistic career or relevant geographical connection to the card context."
+        },
+        {
+          "qid": "Q85195921",
+          "label": "Gary Allen",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match exactly, the Wikidata entity is identified as a researcher, whereas the card entry context specifies the individual was an artist. Given that Gary Allen is a common name, there is insufficient evidence to conclude they are the same person without an artistic occupation or specific timeframe listed in the Wikidata record."
+        },
+        {
+          "qid": "Q88137595",
+          "label": "Gary A Churchill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry lists the name as Gary Allen, whereas the Wikidata entity describes Gary Allen Churchill, a prominent geneticist. Furthermore, the card describes an individual associated with the arts in the 1960s, while the Wikidata entity is an academic scientist with no indicated background in the arts."
+        },
+        {
+          "qid": "Q93224179",
+          "label": "Q93224179",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity (Q93224179) has a birth date of 1955. The card entry is dated 1964. While not impossible, it is highly unlikely that a 9-year-old child would be the subject of this professional record or considered an active artist in the 1960s in the context of these index cards."
+        },
+        {
+          "qid": "Q95765317",
+          "label": "Gary Lorden",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Gary Allen, likely using Allen as a surname, and identifies them as an artist. The Wikidata entity is for Gary Lorden (Gary Allen Lorden), a well-known statistician and university teacher. The names and professional backgrounds do not align."
+        },
+        {
+          "qid": "Q97324258",
+          "label": "Gary A. Hoover",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Gary A. Hoover) was born in 1968, making it chronologically impossible for him to be the subject of a card entry dated 1964. Furthermore, the Wikidata entity is an economist and academic, which does not align with the expected artist profile."
+        },
+        {
+          "qid": "Q100719292",
+          "label": "Gary Allen",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the professions and timeframes are likely different. The person on the card is identified as an artist active in the mid-1960s, whereas the Wikidata entity is a basketball player for BYU. These are distinct occupations, and the athlete's collegiate career likely post-dates the 1964 entry on the card."
+        },
+        {
+          "qid": "Q102164265",
+          "label": "Gary Allen Gislason",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q102164265 refers to Gary Allen Gislason, who is clearly an academic/mathematician based on his doctoral advisors (Henry Leon Loeb and David Moursund) and students. The card describes an artist named Gary Allen. While 'Gary Allen' is part of the Wikidata entity's name, the professional context (mathematics/academia vs. art) makes it highly unlikely they are the same person."
+        },
+        {
+          "qid": "Q102167698",
+          "label": "Gary Allen Deatsman",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Gary Allen, with Allen functioning as the surname. The Wikidata entity is Gary Allen Deatsman, where Allen is a middle name. Furthermore, the Wikidata entity is associated with academic/mathematical pursuits (indicated by a doctoral advisor and university affiliation), which does not align with the context that the card subject is an artist."
+        },
+        {
+          "qid": "Q102192377",
+          "label": "Gary Allen Tucker",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Allen, whereas the Wikidata entity is for Gary Allen Tucker, who appears to be an academic associated with Duke University and a doctoral advisor (Lawrence Carlton Moore). This profile does not align with the context of the card entry being for an artist active in the mid-1960s."
+        },
+        {
+          "qid": "Q113457373",
+          "label": "Gary A. Heidt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Allen, whereas the Wikidata entity is Gary A. Heidt. There is no evidence suggesting Gary Heidt used the name Gary Allen, and the surnames are completely different."
+        },
+        {
+          "qid": "Q116784794",
+          "label": "Gary Allen case",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is listed as female, whereas Gary Allen is a traditionally male name. Additionally, the Wikidata label 'Gary Allen case' suggests the record may relate to a specific legal proceeding or a person in a legal context rather than the artist identified in the card entry."
+        },
+        {
+          "qid": "Q117012088",
+          "label": "Gary Allen Plyler",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is 'Gary Allen', implying Allen is the surname. The Wikidata entity is for 'Gary Allen Plyler', where Allen is a middle name. Additionally, the Wikidata entry lacks evidence of artistic activity or a timeframe that correlates with the 1964 date on the card."
+        },
+        {
+          "qid": "Q117013835",
+          "label": "Gary Allen Sly",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Gary Allen, where Allen is treated as the surname. The Wikidata entity is for Gary Allen Sly, where Allen is a middle name. Additionally, the Wikidata entity is primarily identified through an academic thesis and university records with no specific link to the artistic context mentioned for the card entry."
+        },
+        {
+          "qid": "Q125974213",
+          "label": "Gary Allen Srery",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names are similar (Gary Allen vs Gary Allen Srery), the Wikidata entity describes an individual with no known background as an artist or musician. The person on the index card is expected to be an artist active in the 1960s, and given the commonality of the name Gary Allen, it is unlikely they are the same person without further supporting evidence."
+        },
+        {
+          "qid": "Q130356347",
+          "label": "Gary Liguori",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Gary Allen' and 'Gary Liguori' do not match. Additionally, the Wikidata entity was born in 1965, making it chronologically impossible for him to be the subject of a record dated October 1964. Their professions (artist vs. sports physician) also do not align."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Gary Allen is an artist, illustrator, photographer, and food historian who was a prominent figure in the \"Golden Age of New Paltz\" art scene during the late 1960s and early 1970s. As a student at SUNY New Paltz (graduating around 1967) and later as an independent artist, he was an associate of Experiments in Art and Technology (E.A.T.), a non-profit organization that fostered collaborations between the arts and engineering sectors. His work during this era often integrated scientific and mathematical principles, such as using mathematics to generate color sequences for paintings and designing custom lighting systems. Allen notably collaborated with printmaking professor Robert Schuler on a business venture creating experimental buildings made of sprayed urethane foam. In 1968, he was part of the 'midwife' crew that assisted artist Manuel Bromberg in creating the iconic 'Cliffside' sculpture at SUNY New Paltz, a tribute to Martin Luther King Jr. that utilized innovative industrial molding techniques. During the 1970s and 1980s, Allen was also active in the mail art and copy art movements, producing works utilizing Xerox, rubber stamps, and airbrushing. In his later career, he transitioned into food history and writing, authoring or editing approximately 40 books, including 'The Herbalist in the Kitchen' and 'The Oxford Encyclopedia of Food and Drink in America.'",
+            "sources": [
+              "https://www.goldenagenewpaltz.com/gary-allen",
+              "https://hudsonvalleyone.com/2022/03/07/woodstock-art-icon-manuel-bromberg-passes-at-age-104/",
+              "https://www.rollmagazine.com/the-golden-age-of-new-paltz-part-2/",
+              "https://www.bloomsbury.com/us/author/gary-allen/",
+              "http://justserved.onthetable.us/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Gary Allen\" \"Experiments in Art and Technology\"",
+            "\"Gary Allen\" artist biography 1960s",
+            "\"Gary Allen\" E.A.T. artist 1960s 1970s",
+            "",
+            "\"Gary Allen\" musician Capitol Records 1970",
+            "\"Gary Allen\" artist SUNY New Paltz 1960s",
+            "\"Gary Allen\" \"E.A.T.\" artist list",
+            "\"Gary Allen\" \"Experiments in Art and Technology\" member",
+            "",
+            "\"Gary Allen\" artist Xerox rubber stamp 1980",
+            "\"Gary Allen\" SUNY New Paltz \"Manny Bromberg\"",
+            "\"Gary Allen\" \"Experiments in Art and Technology\" \"Some More Beginnings\"",
+            "\"Gary Allen\" artist E.A.T. 1960s 1970s",
+            "\"Gary Allen\" Experiments in Art and Technology list",
+            "\"Gary Allen\" E.A.T. member",
+            "\"Gary Allen\" artist \"Xerox\" E.A.T.",
+            "\"Gary Allen\" artist 1960s 1970s mail art"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9Cn1-h1eKGj_NBKuzzwUGfpGv__7x8dlgs65oVScEffwUbRrb8eWBUfs2kRhbDioX2UO20Nui-oVh6Wnf5fhfS0mZ1Bt0MoNZJPFU2z78-e0Rh4zs-HE0PA5ovGTgoE8__GSTpAH7",
+              "title": "goldenagenewpaltz.com",
+              "resolvedUri": "https://www.goldenagenewpaltz.com/gary-allen"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 488,
+                "endIndex": 676,
+                "text": "His work during this era often integrated scientific and mathematical principles, such as using mathematics to generate color sequences for paintings and designing custom lighting systems."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 677,
+                "endIndex": 830,
+                "text": "Allen notably collaborated with printmaking professor Robert Schuler on a business venture creating experimental buildings made of sprayed urethane foam."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -42,6 +574,126 @@
         "y1": 37.9,
         "x2": 37.7,
         "y2": 52.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5656582",
+          "label": "Hardy Jones",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name matches exactly. The Wikidata entity is a documentary filmmaker (creative artist) born in 1943, making him 26 years old at the time of the 1969 card entry, which fits the timeframe and professional context perfectly."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Hardy Jones (1943–2018) was a prominent filmmaker, journalist, and conservationist whose work in the late 1960s and 1970s often bridged the gaps between media, technology, and science. A graduate of Tulane University and a former journalist for CBS News and United Press International, Jones was a self-described student of Buckminster Fuller, a key figure in the Experiments in Art and Technology (E.A.T.) movement. In the late 1960s, he worked at CBS, notably appearing in the credits for the 1969 moon landing broadcast alongside Buckminster Fuller. During the 1970s, Jones pivoted toward interdisciplinary filmmaking, collaborating with Michael Wiese and sound engineer Stephan Gagne on projects like the 1978 film 'Dolphin,' which utilized experimental technology such as underwater keyboards to facilitate human-cetacean interaction. His work was characterized by the use of cutting-edge tools to explore consciousness and environmental themes, aligning with the interdisciplinary mission of E.A.T. In 2000, he co-founded the organization BlueVoice.org with actor Ted Danson.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Hardy_Jones",
+              "https://mwp.com/fault-lines-a-nomad-filmmakers-journal-memoir-by-john-knoop/",
+              "https://awionline.org/hardy-jones-dolphin-defender",
+              "https://archive.org/stream/10.56.20PM72069CBSMoonLanding/10.56.20%20PM%207-20-69%20CBS%20Moon%20Landing_djvu.txt"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Dr. Hardy Jones (c. 1946–2018) was an orthopedic surgeon and 'found art' sculptor based in Los Altos, California. Though primarily a medical professional who served as Chief of Staff at Santa Clara Kaiser, Jones maintained a passion for creating 'orthopedic art' from scrap metal and antique farm equipment. While he began his public art career in 1983 with the sculpture 'Circles in Motion,' he had been collecting and manipulating metal since his youth. His work, which he termed 'the ultimate in recycling,' consists of over 300 life-sized metal sculptures of animals and mascots found throughout the San Francisco Peninsula. While his work involves the intersection of industrial materials (scrap metal) and artistic form, there is no direct verified link between him and the New York-based Experiments in Art and Technology (E.A.T.) organization from the late 1960s.",
+            "sources": [
+              "https://patch.com/california/losaltos/mascots-of-mountain-view-and-los-altos-schools-sculptures-by-hardy-jones",
+              "https://www.sfgate.com/bayarea/article/Los-Altos-artist-practices-ultimate-in-recycling-2917711.php",
+              "https://greentowncoop.org/paying-tribute-to-dr-hardy-jones/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Hardy Jones\" filmmaker artist 1960s",
+            "\"Hardy Jones\" artist 1960s 1970s",
+            "Hardy Jones artist \"Experiments in Art and Technology\"",
+            "\"Hardy Jones\" E.A.T. artist",
+            "",
+            "\"Hardy Jones\" artist Los Altos surgeon",
+            "\"Hardy Jones\" film filmmaker E.A.T.",
+            "\"Hardy Jones\" artist Pepsi Pavilion 1970",
+            "\"Hardy Jones\" \"9 Evenings\" artist",
+            "\"Hardy Jones\" filmmaker CBS 1960s E.A.T.",
+            "",
+            "\"Hardy Jones\" artist \"9 Evenings\"",
+            " \"Hardy Jones\"",
+            " \"Hardy Jones\" E.A.T.",
+            "\"Hardy Jones\" artist engineer match E.A.T.",
+            "",
+            "\"Hardy Jones\" film Buckminster Fuller E.A.T.",
+            "\"Hardy Jones\" E.A.T. archive Getty",
+            "\"Hardy Jones\" \"Brooklyn Museum\" 1968 artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwj2Rbps-MRzj66nFM6TSCn6wy6QRt4u_qj0O1Wzng4n7O8i3h0-axdc1BpBrEZOeIUvx4adCG9fce51mtZX5vfocsqoDP81EVO7IV_TwLMQ7b3ejJz93QZlicyiPjLYFBqo664uKY01HxVWHlmCeHVLEViT53qDoIqqIqY4srR-vO12H-VLNzD0-3",
+              "title": "scholastic.com",
+              "resolvedUri": "https://storyworks3.scholastic.com/issues/2018-19/100118/saving-the-dolphins.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ_o5bf1WEcg5biubpvcPuVAmoUjCFOMZonGWW68tVLN7YDpJZIBw1f0JIMrwXv4lwrbQb2e4cQEKFviDM1rMGa0c9n7DCnrPVS8mPeKEIXrSIcFvhyOjQOrMsXgnZwPxB-ityr-zMxROiudfqtX9TuJL4vLx-RBXbxQY=",
+              "title": "quora.com",
+              "resolvedUri": "https://www.quora.com/Has-a-great-white-shark-ever-killed-an-orca"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxT70T_OzzkYSQ47ySXR_cBSDGmoZQTevd9jReGbb8NEXdDW2yjpHNmhJXqnQwQhPBhldq4nmp1jdvVHvP1MCTkBNvJtYulIx6TmUCkulnObTH4PCp5HTOTppWNpJJc8Jp",
+              "title": "johnknoop.com",
+              "resolvedUri": "http://www.johnknoop.com/Faultlines.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGmX8YwkSpktY6F9sLKxMzoz4BJTQFZ47YixbX5uhh0fLMv_yqp3JhAINPdC76wsoJETZWsxmdCGzZzV0vdDlwHGuqiKnsSC6kIUlHIwrd0c2S1Vg2dxHDevLG7GmCQ0F8SOERgTp1WVw5PhbdgzSVkjwUSUx_fn35g3k65HdMn8Bc3A==",
+              "title": "unito.it",
+              "resolvedUri": "https://iris.unito.it/retrieve/a6418033-8d7f-4b75-b2d4-52661928a755/R.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT63DXz0deyheO2kFF_5wdZihAmY008_3v_rfVxFamPBfwpbDRmUVWjpsaekpeTUvsjb81kOy7V7pIzxd1JftpbaqLwPhm8oaQIlt3Lgq-eeBpfxpj2RfG_n7lSKhKY39pA-_RPwtnbAK7pOcjE3ppB_mTwkyV40fXU8usOkI=",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/research/archives/finding-aids/Avalancheb.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK2GNK2-oJaAgA-SbyKYY_4AQClsLLIpKxPxYfP8GfmKr8Dzjzs944WT6dmXM98FBECQnWHEwUirxIx-nLwmAJJxqLAL3w5-pM5IgXnzcWpA_yVQYAMNl1-piRoBxzU_Gnb15dgTKWIGd8nLsoG9gB33X4l4FXCj_kFpM=",
+              "title": "scribd.com",
+              "resolvedUri": "https://pt.scribd.com/document/732905288/2020-Camila-Carmona-Dias"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFItfatSVAk-M2fdQ_ybAUE5ErK3JYO7fSlSZAjl4GbmU5nDBa4VrtC-Sa05bxcMRli6othIyLJfyTpg7IiHbAR_68KyN8hjJ08oucUZvTm8yPM7fCL3Rv9c151KufZ8KZs_pV8Obi-r1vUMirUADsMRBA1cB-2VOidnytA5_ib9tbee5aUIZD5DuO3Q4nwEBJloljbHoI=",
+              "title": "dgrahamburnett.net",
+              "resolvedUri": "https://dgrahamburnett.net/wp-content/uploads/2013/08/Hale-Transcripts-Hybrid-Practices.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 459,
+                "endIndex": 468,
+                "text": "movement."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2402,
+                "endIndex": 2812,
+                "text": "organization from the late 1960s.\",\n      \"sources\": [\n        \"https://patch.com/california/losaltos/mascots-of-mountain-view-and-los-altos-schools-sculptures-by-hardy-jones\",\n        \"https://www.sfgate.com/bayarea/article/Los-Altos-artist-practices-ultimate-in-recycling-2917711.php\",\n        \"https://greentowncoop.org/paying-tribute-to-dr-hardy-jones/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                4,
+                5,
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -52,6 +704,69 @@
         "y1": 46.5,
         "x2": 47.1,
         "y2": 55.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q360466",
+          "label": "George Cruikshank",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes George Cruikshank, a 19th-century illustrator who died in 1878. The card refers to a Susan Cruikshank who was active in the late 1960s/early 1970s. Not only do the first names differ, but the time periods are entirely incompatible."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Susan Cruikshank biographical details artist",
+            "Susan Cruikshank E.A.T. member list",
+            "Susan Cruikshank art exhibition 1960s 1970s",
+            "\"Susan Cruikshank\" artist 1960s 1970s",
+            "\"Susan Cruikshank\" artist biography",
+            "\"Susan Cruikshank\" E.A.T. Experiments in Art and Technology",
+            "\"Susan Cruikshank\" filmmaker 1960s 1970s",
+            "\"Susan Cruikshank\" video artist 1970s",
+            "\"Susan Cruikshank\" 9 Evenings Theatre and Engineering",
+            "\"Susan Cruikshank\" Pepsi Pavilion Expo 70",
+            " \"Susan Cruikshank\"",
+            "\"Susan Cruikshank\" E.A.T. member",
+            "\"Susan Cruikshank\" E.A.T. directory",
+            "\"Susan Cruikshank\" artist collaborator 1960s 1970s",
+            "\"Susan Cruickshank\" E.A.T. artist",
+            "\"Susan Cruikshank\" artist 1968 1969 1970 1971 1972 1973",
+            "\"Susan Cruikshank\" artist technology project",
+            "\"Susan Cruikshank\" \"E.A.T.\" artist",
+            "\"Susan Cruikshank\" Pepsi Pavilion",
+            "\"Susan Cruickshank\"",
+            "\"Susan Cruikshank\"",
+            "\"Susan Cruikshank\" E.A.T. archive",
+            "\"Susan Cruikshank\" video 1970s",
+            "\"Susan Cruikshank\" Experiments in Art and Technology directory",
+            "\"Susan Cruikshank\" film 1960s 1970s",
+            "",
+            "\"Susan Cruikshank\" animator San Francisco",
+            "\"Susan Cruikshank\" writer artist",
+            "\"Susan Cruikshank\" \"Adventures in Reading\" artist",
+            "\"Susan Cruikshank\" Bell Labs artist",
+            "\"Susan Cruikshank\" \"E.A.T.\" archive member",
+            "\"Susan Cruikshank\" \"E.A.T.\" contributor",
+            "",
+            "\"Susan Cruikshank\" collaborative artist 1970s",
+            "\"Susan Cruikshank\" artist member E.A.T. New York",
+            "\"Susan Cruikshank\" E.A.T. newsletter",
+            "\"Susan Cruikshank\" artist design craft",
+            "\"Susan Cruikshank\" textile artist 1970s",
+            "\"Susan Cruikshank\" VinylCentric",
+            "",
+            "\"Susan Cruikshank\" engineer E.A.T.",
+            "\"Susan Cruikshank\" engineer Bell Labs",
+            "\"Susan Cruikshank\" 1960s artist computer",
+            "\"Susan Cruikshank\" video artist New York 1970s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -63,6 +778,457 @@
         "y1": 54.1,
         "x2": 43.1,
         "y2": 62.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q2033",
+          "label": "Smithsonian",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Michael Smith, while the Wikibase entity describes the Smithsonian, which is an institution."
+        },
+        {
+          "qid": "Q22470",
+          "label": "Smithsonian Institution",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Michael Smith, while the Wikibase entity describes the Smithsonian Institution, which is an organization and not a person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q232289",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, the Wikidata entity (Q232289) describes a Nobel Prize-winning biochemist and geneticist. The context provided for the card entry specifies the individual is an artist, and given that 'Michael Smith' is an extremely common name, it is highly unlikely that a world-renowned scientist is the same person as the artist mentioned on the card."
+        },
+        {
+          "qid": "Q1620255",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q1620255 refers to a basketball player born in 1965 who began his career in 1989. This contradicts the provided context that the Michael Smith on the card was an artist active during the late 1960s and early 1970s, as the Wikidata subject would have been a small child at that time."
+        },
+        {
+          "qid": "Q1627389",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q1627389) describes a professional basketball player born in 1972, whose career began in the 1990s. This is chronologically impossible for an artist described as active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q1720858",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an artist active in the late 1960s and 1970s, while the Wikidata entity refers to Michael Smith, a prominent Catholic Bishop from Ireland. These are distinct individuals with unrelated professions."
+        },
+        {
+          "qid": "Q1929419",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, the Wikidata entity describes a prominent Irish politician and farmer, which does not align with the provided context identifying the person as an artist or creative practitioner."
+        },
+        {
+          "qid": "Q3856267",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an American football player born in 1988, which means he could not have been the artist active in the late 1960s and early 1970s described in the card context."
+        },
+        {
+          "qid": "Q6829665",
+          "label": "Michael D. Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an artist active in the late 1960s or early 1970s. The Wikidata entity Q6829665 refers to Michael D. Smith, a computer scientist and former Dean at Harvard University whose career and academic timeline (e.g., advising students in the 2000s) do not align with the professional profile of an artist active in the 1960s/70s."
+        },
+        {
+          "qid": "Q6833494",
+          "label": "Michael Peter Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith matches exactly. The Wikidata entity describes a singer-songwriter who began his career in 1962, which aligns perfectly with the provided context that the person was an artist active in the late 1960s and early 1970s. While Michael Smith is a common name, the artist occupation and active timeframe provide a strong plausible link."
+        },
+        {
+          "qid": "Q6834464",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a professional darts player born in 1990, which makes it chronologically impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card entry."
+        },
+        {
+          "qid": "Q6834465",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, the Wikidata entity describes a television director and producer whose work period started in 1996. This contradicts the context that the person from the card was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6834468",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q6834468 describes a professional footballer born in 1988. This timeline is incompatible with the person described in the card entry, who was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6834470",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a Michael Smith who lived from 1740 to 1808/1809 and served as a judge and politician. This is entirely incompatible with the person on the card who was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6834471",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity (Q6834471) is a journalist, screenwriter, and intelligence officer born in 1952. While the name matches, the occupations do not align well with the profile of an artist active in the late 1960s and early 1970s, as this individual would have been a teenager/very young adult at the time and their career focused on espionage and reporting rather than visual or performance arts."
+        },
+        {
+          "qid": "Q6834472",
+          "label": "Michael Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name matches exactly and the Wikidata entity describes a poet and writer, which falls under the broad definition of an artist provided. Born in 1942, he would have been active in the late 1960s and early 1970s. However, because 'Michael Smith' is a very common name and the card provides minimal specific data, the confidence is medium."
+        },
+        {
+          "qid": "Q6834473",
+          "label": "Michael Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith matches exactly. The Wikidata entity Q6834473 describes a prominent artist (performance, video, and installation) born in 1951, which makes him the correct age (late teens/early twenties) to have been active or emerging in the late 1960s or early 1970s as specified in the context. While the name is common, this entity's status as a recognized artist within the specified period makes him a highly plausible match."
+        },
+        {
+          "qid": "Q6834476",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Michael Smith (Q6834476) was born in 1979, which makes it impossible for him to have been an active artist during the late 1960s and early 1970s as required by the context of the card."
+        },
+        {
+          "qid": "Q6834480",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a professional wrestler (Sam Houston) born in 1963 who started his career in 1983. This contradicts the provided context that the Michael Smith on the card was an artist active during the late 1960s and early 1970s, at which time the Wikidata subject would have been a young child."
+        },
+        {
+          "qid": "Q6848856",
+          "label": "Mike Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1972, which makes it impossible for him to be the artist mentioned on the index card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q18325554",
+          "label": "Michael L. Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Michael L. Smith as a researcher and ichthyologist (a scientist who studies fish). The card entry specifically refers to an artist active in the late 1960s or early 1970s. These are two distinct professions with no overlapping evidence to suggest they are the same individual."
+        },
+        {
+          "qid": "Q42317575",
+          "label": "Michael P Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a researcher associated with the Faculty of Biology, Medicine and Health at the University of Manchester, while the card context specifies the person is an artist. Given how common the name Michael Smith is, it is unlikely that this specific academic is the same person as the artist mentioned in the record."
+        },
+        {
+          "qid": "Q56394971",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity describes a researcher associated with the NYU Grossman School of Medicine, which contradicts the provided context that the Michael Smith on the card is an artist. Given how common the name Michael Smith is, it is highly likely these are different individuals."
+        },
+        {
+          "qid": "Q59692973",
+          "label": "Michael E Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity Q59692973 describes a researcher and academic, which does not align with the provided context that the Michael Smith on the card was an artist active in the late 1960s or early 1970s. Given that Michael Smith is an extremely common name, it is more likely they are different individuals."
+        },
+        {
+          "qid": "Q59693130",
+          "label": "Michael G Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s or 1970s. The Wikidata entity Q59693130 describes a researcher associated with medical and academic institutions (Sahlgrenska University Hospital, University of Gothenburg), which does not align with the artistic context provided. Michael Smith is also a very common name, making a false positive likely."
+        },
+        {
+          "qid": "Q59757621",
+          "label": "Michael Smith",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name matches exactly and the Wikidata entity describes a painter, which fits the artist context provided. Born in 1951, this Michael Smith would have been active in the early 1970s. However, because 'Michael Smith' is an exceptionally common name and there is no geographic information on the card to correlate with the Wikidata entity's Montreal/UK background, the match is only plausible rather than certain."
+        },
+        {
+          "qid": "Q61169104",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s and early 1970s. The Wikidata entity (Q61169104) describes a male researcher associated with the University of Cambridge and the Swiss Federal Institute of Technology in Lausanne. Given that Michael Smith is an extremely common name and the occupations (researcher vs. artist) do not align, it is highly unlikely they are the same person."
+        },
+        {
+          "qid": "Q61832554",
+          "label": "Michael A Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a researcher affiliated with Northumbria University, which does not align with the context of an artist active in the late 1960s and early 1970s. Given the commonality of the name Michael Smith, this specific QID represents a different individual."
+        },
+        {
+          "qid": "Q63457549",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a Michael Smith who lived from 1698 to 1771, which is over 200 years before the artist on the card was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q63458828",
+          "label": "Michael Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith matches exactly. The Wikidata entity describes an American photographer born in 1942, which aligns with the provided context of an artist active in the late 1960s and 1970s. While Michael Smith is a common name, this individual is a prominent artist represented in major museum collections, making him a plausible candidate for the index card record."
+        },
+        {
+          "qid": "Q68000771",
+          "label": "Michael L. Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q68000771) describes Michael L. Smith, a researcher associated with IntechOpen (an academic publisher founded in 2004), suggesting a modern academic career. The card entry refers to an artist active in the late 1960s or early 1970s. Given the extremely common name and the mismatch in occupation and timeframe, these are unlikely to be the same person."
+        },
+        {
+          "qid": "Q71451592",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Michael Smith is extremely common. The Wikidata entity describes a university teacher in the field of media studies, while the card context specifies an artist active in the late 1960s and early 1970s. Without more specific identifiers, there is no evidence to conclude they are the same person."
+        },
+        {
+          "qid": "Q76121530",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Michael Smith is extremely common. The Wikidata entity provided lacks any information regarding the person's profession or period of activity, making it impossible to verify if he is the artist referenced in the card entry."
+        },
+        {
+          "qid": "Q87988235",
+          "label": "Michael L Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith is very common. The Wikidata entity Q87988235 describes an academic researcher associated with Wellesley College, Cornell, and Princeton, whereas the card context identifies the subject as an artist active in the late 1960s and early 1970s. There is no evidence in the Wikidata record to suggest an artistic career."
+        },
+        {
+          "qid": "Q88228578",
+          "label": "Michael G Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Michael Smith is extremely common. The Wikidata entity is identified as a researcher, which does not align with the provided context that the person on the card is an artist active in the late 1960s and early 1970s. Without more specific identifiers or overlapping career details, a match cannot be established."
+        },
+        {
+          "qid": "Q89031084",
+          "label": "Michael D. Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith is exceptionally common. While the names match, the card context identifies the individual as an artist, whereas the Wikidata entity (Q89031084) is categorized as a researcher. Without further identifying information such as birth dates or specific artistic fields that might overlap with research, there is no basis to conclude they are the same person."
+        },
+        {
+          "qid": "Q90527252",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, Michael Smith is an extremely common name. The Wikidata entity is identified as a researcher, which does not align with the provided context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q90824734",
+          "label": "Michael D Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a researcher who worked for government agencies such as NOAA, the Economic Research Service, and SAMHSA. This career profile is inconsistent with the context of the card entry, which describes an artist active in the late 1960s and early 1970s. Given that Michael Smith is an extremely common name, the disparate professional backgrounds indicate these are different individuals."
+        },
+        {
+          "qid": "Q91989736",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names match, but Michael Smith is an extremely common name. The Wikidata entity is identified as a researcher at the Schulich School of Engineering, which does not align with the provided context of the person being an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q96393154",
+          "label": "Mike Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a basketball player born in 1997, which is incompatible with an artist who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q96520444",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a contemporary British politician active in local elections from 2018 to 2024. This does not align with the context of an artist active in the late 1960s and early 1970s, and Michael Smith is a very common name."
+        },
+        {
+          "qid": "Q104233420",
+          "label": "Michael W. Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Michael W. Smith was born in 1954, making him only 14-15 years old during the late 1960s, which is unlikely for a professional artist entry. Furthermore, his occupation is listed as a researcher and English professor rather than an artist."
+        },
+        {
+          "qid": "Q105088537",
+          "label": "Mike Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a UK politician active in local elections in 2022 and 2023, whereas the card entry refers to an artist active in the late 1960s or early 1970s. The occupations and timeframes do not align."
+        },
+        {
+          "qid": "Q107983092",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an ice hockey player born in 1971, while the card entry refers to an artist who was already active in the late 1960s and early 1970s. The timeline and occupation do not match."
+        },
+        {
+          "qid": "Q108054374",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in November 1970 and is an American football player. This contradicts the provided context that the Michael Smith on the card was an artist active in the late 1960s and early 1970s, as the Wikidata subject would have been an infant or not yet born during that period."
+        },
+        {
+          "qid": "Q115275896",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q115275896) corresponds to Michael Acton Smith, a tech entrepreneur associated with Mind Candy and Calm, who was born in 1974. This person could not have been an artist active in the late 1960s and early 1970s as mentioned in the card's context."
+        },
+        {
+          "qid": "Q117222204",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q117222204 refers to a Michael Smith affiliated with Freeport LNG and a participant in a 2019 conference, suggesting a contemporary business background. This does not align with the context of an artist active in the late 1960s and early 1970s, and the name Michael Smith is too common to assume a match without specific artistic credentials."
+        },
+        {
+          "qid": "Q121333245",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, Michael Smith is an extremely common name. The Wikidata entity describes a British person involved in a 2022 local election, whereas the card refers to an artist active in the late 1960s and early 1970s. There is no evidence in the Wikidata record suggesting this person is an artist or was active during that time period."
+        },
+        {
+          "qid": "Q121556549",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Michael Smith is extremely common. The Wikidata entity lists occupations as 'volunteer' and 'publisher' and is associated with a specific focus list at the University of Nevada, Las Vegas, whereas the card context specifies the individual was an artist active in the late 1960s/early 1970s. There is insufficient evidence to conclude they are the same person."
+        },
+        {
+          "qid": "Q123419162",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a professional basketball referee born in 1955. The person on the card is described as an artist active in the late 1960s and early 1970s. A person born in 1955 would have been too young to be an established artist during that period, and the professions (referee vs. artist) do not align."
+        },
+        {
+          "qid": "Q124032787",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is identified as an engineer and a Fellow of the Institution of Professional Engineers New Zealand, which does not align with the provided context that the Michael Smith on the card is an artist. Given that Michael Smith is an extremely common name, the mismatch in professional field makes it highly unlikely they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Michael Smith (born 1951) is an American video, performance, and installation artist widely recognized for his eponymous performance persona, \"Mike,\" an \"Everyman\" character who often navigates a world of failed dreams and consumerist trends. Smith's career spans several decades, with his early artistic activity dating back to the late 1960s and early 1970s. He enrolled at Colorado College in 1968 and was a participant in the Whitney Museum of American Art Independent Study Program in 1970 and 1973. His work frequently explores the intersections of art, television, and technology, often employing a deadpan or satirical approach. He is associated with the historical context of Experiments in Art and Technology (E.A.T.) through various documentary and archival projects; for instance, his work has been featured by ARTPIX, an organization that collaborates with E.A.T. to archive and present early media art. Additionally, Smith has collaborated extensively with Joshua White, a pioneer of the Joshua Light Show at the Fillmore East in the late 1960s, whose technological experiments were contemporary with and similar in spirit to E.A.T. projects. Smith has exhibited at major institutions including the Museum of Modern Art, the Whitney Museum, and the New Museum, and was included in the Pictures Generation exhibition at the Metropolitan Museum of Art.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Michael_Smith_(performance_artist)",
+              "https://mikes-world.org/biography/",
+              "https://www.eai.org/artists/michael-smith",
+              "http://www.artpix.org/about.html",
+              "https://www.rauschenbergfoundation.org/artist/michael-smith"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Michael Townsend Smith (born 1935) is an influential American theater critic, playwright, and director who was a central figure in the New York avant-garde and Off-Off-Broadway scenes during the late 1960s and early 1970s. As the chief theater critic for The Village Voice from 1959 to 1974, he was one of the first and most prominent writers to champion experimental theater and performance art, documenting seminal events such as those organized by Experiments in Art and Technology (E.A.T.) and the 9 Evenings: Theatre and Engineering performances in 1966. Beyond his criticism, he was an active artist who wrote and directed numerous plays at avant-garde venues like the Caffe Cino, Judson Poets' Theatre, and La MaMa, and he briefly managed the Caffe Cino following the death of its founder. His writing and directing work from this period reflected the radical, often technology-infused experimentation of the era's counterculture. In the late 1970s, he moved to California, where he continued his career as a writer, editor, and teacher.",
+            "sources": [
+              "https://www.michaeltownsendsmith.com/biography/",
+              "https://www.villagevoice.com/michael-smith-off-off-broadway-history/",
+              "https://downtownpopunderground.com/michael-smith/",
+              "https://independent.com/2015/12/10/new-books-indy-writers/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Michael Smith\" artist biography late 1960s early 1970s",
+            "artist \"Michael Smith\" \"Experiments in Art and Technology\"",
+            "\"Michael Smith\" artist active 1960s 1970s E.A.T.",
+            "\"Michael Smith\" E.A.T. collaborator",
+            "\"Michael Smith\" artist E.A.T. Experiments in Art and Technology",
+            "\"Michael Smith\" 9 Evenings Experiments in Art and Technology",
+            "\"Michael Smith\" Pepsi Pavilion E.A.T.",
+            "\"Michael Smith\" sculptor late 1960s early 1970s",
+            "\"Michael Smith\" collaborated with Billy Klüver",
+            "\"Michael Smith\" Experiments in Art and Technology member",
+            "\"Michael Smith\" artist \"Pepsi Pavilion\" 1970",
+            "\"Michael Smith\" artist \"Billy Klüver\"",
+            "\"Michael Smith\" artist \"9 Evenings\" 1966",
+            "\"Michael Smith\" member of E.A.T. (Experiments in Art and Technology)",
+            "\"Michael Smith\" artist Experiments in Art and Technology bibliography",
+            "\"Michael Smith\" artist \"Some More Beginnings\" E.A.T.",
+            "list of artists in \"Some More Beginnings\" E.A.T. exhibition 1968",
+            "\"Michael Smith\" Experiments in Art and Technology \"E.A.T.\" 1968 1969 1970",
+            "\"Michael Smith\" artist associate Experiments in Art and Technology",
+            "\"Michael Smith\" theater critic E.A.T. connection",
+            "\"Michael Smith\" artist engineer Experiments in Art and Technology",
+            "\"Michael Smith\" artist \"Experiments in Art and Technology\" member list",
+            "\"Michael Smith\" artist \"9 Evenings\" technical assistant",
+            "\"Michael Smith\" playwright \"Village Voice\" E.A.T.",
+            "\"Michael Smith\" artist associated with E.A.T. late 60s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPmgl0hgUWNOD3AdUySUk9JgpJPSehzlqBFwhYwpxi5kIt_7-NhD510dj5_P8622sYGYZUJCZFJi-dcB26eIl2MIgNQQ9d5XyCn6SU3FXY224cT8IiLGV7DyOHEl99_ufJfBc=",
+              "title": "vinhanley.com",
+              "resolvedUri": "https://vinhanley.com/tag/michael-smith/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcI3AhIAQY75TacFED26uuBy8urR4bE7doFkRcUF0u0mk4KRkvpSBvpBEcPrGRQ8Pdvo-bjl9ZibrK-A8CvA7uSJkZr2sUr_DwT5KYeAZKfjErXJ9Jr8C_slSfYppbGLePpVhN5jtkq3llvlAbkndhA1PLUke_",
+              "title": "screenslate.com",
+              "resolvedUri": "https://www.screenslate.com/articles/avant-garde-ads-part-1"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 297,
+                "endIndex": 414,
+                "text": "Smith's career spans several decades, with his early artistic activity dating back to the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 691,
+                "endIndex": 781,
+                "text": "He is associated with the historical context of Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -73,6 +1239,118 @@
         "y1": 61.8,
         "x2": 24.8,
         "y2": 70.4
+      },
+      "wikibase_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born 1931) is a Hungarian-born American artist known for her work in conceptual art, land art, and environmental art. She emerged as a primary figure in the late 1960s and 1970s, with her practice often incorporating science, philosophy, linguistics, and technology. Denes was involved with the Experiments in Art and Technology (E.A.T.) organization; archival records from 1969 show her submitting proposals and membership forms. Her early work focused on 'Visual Philosophy' and used technical tools such as X-rays and microscopes. In 1970, she participated in the influential 'Software' exhibition at the Jewish Museum, where she collaborated with the computer scientist group R.E.S.I.S.T.O.R.S. on computational experiments and presented her work 'Matrix of Knowledge'. Other major projects from this period include 'Rice/Tree/Burial' (begun in 1968), which is considered one of the first site-specific ecological artworks. She also collaborated with Bell Laboratories and has been a research fellow at M.I.T. and Carnegie Mellon University.",
+            "sources": [
+              "https://www.arshake.com/en/agnes-denes-data-analysis-abstraction/",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf2s200474/",
+              "https://awarewomenartists.com/en/artiste/agnes-denes/",
+              "https://hyperallergic.com/535417/agnes-deness-future-imperfect/",
+              "https://direct.mit.edu/leon/article/58/4/413/124765/Software-and-Energy-Use-Entropy-and-Environment-in"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Agnes Denes\" Experiments in Art and Technology",
+            "\"A. Denes\" artist 1960s 1970s",
+            "artist \"A. Denes\" Experiments in Art and Technology",
+            "E.A.T. artist list \"A. Denes\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR1Uz1hsaKxbehoD0XQ2ppzG8-4mqNHjAr_zVfmSSfkG1VLEfNbis4IbbuSRGgPMmEoXsoBGdkxRPJ5AKfeTlPniHSRU587m0I84qpP7G28Oe4W7IJWU6Mzh-YF0ewbFuQ6y3QmI3gCCfc6_lPbrp59W-KFjTnMcsUxix5tgUWkvLZ8mZFFuyCCzxH3B2hXsEjsZhR4b7Y4Czdze7501kW1i8wtCJVw7G3c5WdM93g0TVzQW5TO6qKU3N0u7TziEZglU352gwA6gfjub4tdqBbi2VxSg==",
+              "title": "usq.edu.au",
+              "resolvedUri": "https://research.usq.edu.au/download/deaba9e1b276389624c221a0d8e66c6ae8882f07924df96e384bdb7870c153a4/7920721/Johanna%20Guerin%20-%20Thesis_Redacted.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhW_ps6v8OflqRvK9o-eVMvy5cn5oSDBQGfq1Dl-KRXmBOVtCqIqYpFsxtgychimtLGlRMdUqR3jnMEvClx88Bu-qGVqu07xN_qrAoEQw-XFNn-l-UcL9-ddUKsI4lijGafON8bPGa2hgdqVVpTr2G",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/artiste/agnes-denes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqW7yFUI5ocklKMf2LCJB-o41yzeE8EWUMvoEoprmz3MVs23tuHlFKlzLf8MW2ddYl6313mx0tU7HneUrhVjaBb2eCWvSCpHztlcrhdfMEH02TPBWWR8sLAeEGq4zC5ist8lYjZPKyD7_E-UKP1w3K",
+              "title": "streamingmuseum.org",
+              "resolvedUri": "https://www.streamingmuseum.org/post/evo1-agnes-denes"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOvL8OwNQuq1o4yUJlfodH3OgOF5BYpG1inVYULA05QEhJoj9ArPsh9hNPnDgfbvz4UcQRomszb9wkasns9NDJXlDQVjmF3r6GRIu_TvF7KVH-_sTd88W6YjchDyQ_bB8JmD0zWmN-dLHVzjYV4k8DSgkdYBWQu0nn8zlYXTYzkViTtd4YmvAods-FvoGZ668wGApGzjnyn_ETAszS5gM0FrawRlMTI91R",
+              "title": "moonmanstudios.co.uk",
+              "resolvedUri": "https://www.moonmanstudios.co.uk/2020/02/09/wheatfield-confrontation-battery-park-landfill-downtown-manhattan/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsptHIhubmSOFzKVPd8eLNAc8C2oF7B9uuwkQD7w8mn1qcQNaXK8U2EOecbzWFIjDbQmKDQ7a2qaY5GLkv0eyrn9OPLu3qQa-t43vXixUIK2EKCVFWWgq5YD4vSF2pxnV0xZu6_kgpO9r83U3AaUKtD514t7JHnSO2YPNJjwZ4_l0cMpZiTekVsCeajHNYDzyREG_GRjMoDMopiobhY2YfEL_hc572hobFn8m_LQ==",
+              "title": "academia.edu",
+              "resolvedUri": "https://www.academia.edu/37479143/Building_Systems_Experiments_in_Art_and_Technology_Before_the_Collaborative_Turn"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOJnFqLGhAGflEIDuVChCSzKVhgPWP9VRhAdtVFVQxpgAxF5rpqvAhDvvzzfmuSWFCOspua-s4YNSAf_yR4eCYM3gsHHchviC6QDqELpABsC8jr6k2E2lkcgG4fYRb4ah5JH8Vr1TYi5LlOJBKYOZhIP2Z7VMTAkhclXIA7wIEja4AGM8=",
+              "title": "mit.edu",
+              "resolvedUri": "https://direct.mit.edu/leon/article-pdf/58/4/403/2473119/leon_a_02614.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 180,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (born 1931) is a Hungarian-born American artist known for her work in conceptual art, land art, and environmental art."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 181,
+                "endIndex": 329,
+                "text": "She emerged as a primary figure in the late 1960s and 1970s, with her practice often incorporating science, philosophy, linguistics, and technology."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 330,
+                "endIndex": 400,
+                "text": "Denes was involved with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 762,
+                "endIndex": 836,
+                "text": "on computational experiments and presented her work 'Matrix of Knowledge'."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 837,
+                "endIndex": 990,
+                "text": "Other major projects from this period include 'Rice/Tree/Burial' (begun in 1968), which is considered one of the first site-specific ecological artworks."
+              },
+              "groundingChunkIndices": [
+                2,
+                0,
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

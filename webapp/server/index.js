@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import * as cardStore from './lib/cardStore.js';
 import { createImageProvider } from './lib/imageProvider.js';
 import cardsRouter from './routes/cards.js';
+import authRouter from './routes/auth.js';
 import createImagesRouter from './routes/images.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -26,6 +27,7 @@ app.use(express.json());
 
 // API routes
 app.use('/api/cards', cardsRouter);
+app.use('/api/auth', authRouter);
 
 // Image provider
 const imageProvider = createImageProvider({

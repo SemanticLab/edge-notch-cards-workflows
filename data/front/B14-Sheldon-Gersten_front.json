@@ -18,5 +18,91 @@
       "programming",
       "digital systems"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q56940389",
+      "label": "Gersten Jonker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are fundamentally different; the card refers to 'Sheldon Gersten' while the Wikidata entity is for 'Gersten Jonker'. In the card, Gersten is the surname, while in the Wikidata record, it appears to be the given name (with 'Jonker' as the family name). There are no other matching biographical details to suggest they are the same person."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1476505",
+      "label": "Mount Sinai Hospital",
+      "description": "hospital in Manhattan, New York City, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents Mount Sinai Hospital in Manhattan, New York City. The card lists 'Mt. Sinai Hospital, New York University' as the employer. Historically, Mount Sinai Hospital had a strong academic affiliation with New York University's School of Medicine, which explains the combined name on the card. The location and institution name match perfectly."
+    },
+    {
+      "qid": "Q74678033",
+      "label": "Q74678033",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q74678033 corresponds to Mount Sinai Hospital in Manhattan, New York City. The employer listed on the card is 'Mt. Sinai Hospital', which is a direct match. The reference to 'New York University' on the card likely reflects a historical academic or clinical affiliation between the hospital and NYU during the period the card was created."
+    },
+    {
+      "qid": "Q78733374",
+      "label": "Q78733374",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q78733374 corresponds to Mount Sinai Hospital in New York City. The index card lists 'Mt. Sinai Hospital' as the employer. The additional mention of 'New York University' on the card likely indicates an academic affiliation or a joint program typical for graduate students at the time, but the primary institutional match is clearly Mount Sinai Hospital."
+    },
+    {
+      "qid": "Q78733380",
+      "label": "Q78733380",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q78733380 refers to the individual person Sheldon Gersten himself, not to the organizations (Mt. Sinai Hospital or New York University) listed as his employer."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Sheldon Gersten (born July 23, 1946) is a computer programmer and technical professional who was active in the late 1960s and early 1970s. He was a graduate student at New York University (NYU) and was affiliated with Mount Sinai Hospital in New York City. His technical expertise includes mathematics, programming, and digital systems. Gersten was a registered participant in the Experiments in Art and Technology (E.A.T.) Technical Services Program, an initiative that facilitated collaborations between the technical and artistic communities. During his career, he was a key programmer for the development of APLUM, a version of the APL (A Programming Language) system designed for the CDC 6600 and CYBER computers at the University of Massachusetts at Amherst. His work on the APLUM project specifically focused on mixed functions and shared variables. He is originally from Brooklyn, New York.",
+        "sources": [
+          "http://bitsavers.org/pdf/univOfMassachusetts/APLUM.pdf",
+          "https://www.dignitymemorial.com/obituaries/livingston-nj/lillian-offin-berger-7353986",
+          "https://illinois.edu/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Sheldon Gersten\" Mt. Sinai Hospital New York University",
+        "\"Sheldon Gersten\" Experiments in Art and Technology",
+        "\"Sheldon Gersten\" E.A.T. engineer",
+        "",
+        "\"Sheldon Gersten\" \"New York University\" mathematics graduate student",
+        "\"Sheldon Gersten\" E.A.T. index card",
+        "",
+        " \"Sheldon Gersten\"",
+        "\"Sheldon Gersten\" \"New York University\" math graduate student",
+        "\"Sheldon Gersten\" E.A.T.",
+        "",
+        "\"Sheldon Gersten\" \"APLUM\" CDC 6600",
+        "\"Sheldon Gersten\" Mt. Sinai Hospital programming",
+        "",
+        "\"Sheldon Gersten\"",
+        "\"Sheldon Gersten\" \"E.A.T.\" newsletter",
+        "",
+        "",
+        "\"Sheldon Gersten\" \"Mount Sinai\" hospital technical",
+        "",
+        "\"Sheldon Gersten\" E.A.T. Technical Service"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -19,5 +19,134 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Graphics, Film"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q28400",
+      "label": "Jerry Spivack",
+      "description": "artist",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly. The card data identifies Jerry Spivack as a researcher at Bell Telephone Laboratories with interests in graphics and film, which aligns perfectly with his entry as an artist in the E.A.T. (Experiments in Art and Technology) Knowledge Graph, given Bell Labs' historical collaboration with E.A.T."
+    }
+  ],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is 'Bell Telephone Laboratories' located in Murray Hill, New Jersey. The Wikibase entity Q19173 (labeled Bell Labs) is also located in Murray Hill (N.J.) and corresponds to Wikidata QID Q217365, which is the official identifier for Bell Telephone Laboratories (Nokia Bell Labs). Both records are linked to the E.A.T. (Experiments in Art and Technology) project."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikibase entity (Q22124) is identified as a publication ('Bell Telephone Laboratories Reporter'), while the card data refers to the organization ('Bell Telephone Laboratories') as the employer. An organization and one of its publications are distinct entities."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization 'Bell Telephone Laboratories' listed on the card is the historic full name for the Wikidata entity 'Bell Labs' (Q217365). Both the card and the Wikidata record specify the headquarters location as Murray Hill, New Jersey, and the research fields mentioned on the card (communications and computer research) align with the industry and description of Bell Labs."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' matches exactly. While the Wikidata entity is classified as a 'production company', this aligns with the card's mention of Jerry Spivack's interests in 'Graphics' and 'Film' and his expertise in 'Visual Perception Research' conducted at the labs. It is common for this organization to be listed as a production company for its extensive output of scientific and experimental films."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is a collection of archival records (fonds) held by the National Archives and Records Administration, whereas the card refers to the actual research organization 'Bell Telephone Laboratories' as an employer."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' listed on the card is an exact match for the label of Wikidata entity Q58952200. The card identifies it as a research institution (employer) in Murray Hill, NJ, which aligns with the historical and known identity of Bell Telephone Laboratories (now Nokia Bell Labs)."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' matches the Wikidata entity name exactly. Bell Telephone Laboratories is the famous research organization headquartered in Murray Hill, New Jersey, which aligns perfectly with the location and employer information on the index card."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950393 identifies an individual person (Jerry Spivack), whereas the target organization is Bell Telephone Laboratories. A person and their employer are distinct entities."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is a 'Wikimedia disambiguation page' used to distinguish between different entities with similar names. It is not the actual organization (the research laboratory) where the individual was employed. The employer on the card is a specific industrial entity, while this Wikidata entry is a navigational record."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Jerry Spivack was an engineer and research scientist at Bell Telephone Laboratories (Bell Labs) in Murray Hill, New Jersey, primarily active during the 1960s and 1970s. He was a pioneer in the field of interactive computer graphics and was a significant participant in the intersection of art and technology. In 1968, his interactive computer art piece titled \"Computer Descending a Staircase\" (a pun on Marcel Duchamp's \"Nude Descending a Staircase\") was selected by Experiments in Art and Technology (E.A.T.) for the landmark exhibition \"Some More Beginnings\" at the Brooklyn Museum. The piece utilized slides created by a microfilm plotter, allowing viewers to manipulate knobs to control the intensity of RGB color filters over random grayscale squares, effectively turning the observer into an artist. Spivack's technical work at Bell Labs spanned communications research, computer research, and visual perception research, often collaborating with other pioneers like A. Michael Noll and Ken Knowlton. In his later career, he remained active in the legacy of E.A.T., serving as a Vice President of the organization and participating in historical panels regarding the origins of multimedia art. He was also associated with Columbia University's University Seminars, specifically those focused on \"Ecology and Culture\" and \"Knowledge, Technology, and Social Systems.\"",
+        "sources": [
+          "https://olats.org/pionniers/bell/bell.php",
+          "https://www.mixonline.com/recording/recalling-legendary-playpen-revisit-bell-labs-373305",
+          "https://universityseminars.columbia.edu/wp-content/uploads/2013/11/Directory-2013-2014-for-Web-4.pdf",
+          "https://www.lunalunamagazine.com/blog/id-me-parsons-exhibit",
+          "https://noll.uscannenberg.org/Art%20Papers/Bell%20Labs%20History.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "\"Jerry Spivack\" Experiments in Art and Technology",
+        "\"Jerry Spivack\" communications research computer research",
+        "\"Jerry Spivack\" Bell Labs visual perception research",
+        "Jerry Spivack Bell Telephone Laboratories Murray Hill"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYejNyIQ3iw940nKZLpPuM-xYISaAhyX7iRhaY0Va95W8VAZwhAxZr0M-3-kQGW2bE1uE1l-P3UGAHS7smAjK-yJAepGEgaTWuQnMqR8Qp4-DAGebPCiKhR0m-VFD1bMrINbBfLYzUl5eFF5Jqd52UdT2ETlad2tLy7glQpFwD6JHItR-mZ0J_IolSQvpEQu0BmqEUNnbMMOIuK_MucHjHvYNcQd0-qEWUtW6ed4U=",
+          "title": "wordpress.com",
+          "resolvedUri": "https://designandtheory.wordpress.com/wp-content/uploads/2017/01/a-michael-noll-early-digital-computer-art-2016.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 642,
+            "endIndex": 862,
+            "text": "The piece utilized slides created by a microfilm plotter, allowing viewers to manipulate knobs to control the intensity of RGB color filters over random grayscale squares, effectively turning the observer into an artist."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

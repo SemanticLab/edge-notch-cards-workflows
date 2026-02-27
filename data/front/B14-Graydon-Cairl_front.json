@@ -16,5 +16,120 @@
       "Flexible Plastics"
     ],
     "specializedSkillsKnowledge": "Thermal Setting Plastics, flexible plastics."
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q28203",
+      "label": "Graydon Cairl",
+      "description": "manager",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name Graydon Cairl is highly unique and matches perfectly in both records. The card data provides technical details about plastics manufacturing, while the Wikibase entry identifies him as a manager within the E.A.T. Datascape, which specifically documented technical experts and industrial collaborators who worked with artists."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5043159",
+      "label": "Carláen",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "These records describe two completely different individuals from different eras. The card data refers to a 20th-century industrial professional (Graydon Cairl) associated with plastic manufacturing in New Jersey, while the Wikidata entity refers to a 6th-century Catholic saint (Carláen) who was a priest."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28204",
+      "label": "National Transparent Manufacturing Company",
+      "description": "company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization name on the card 'National Transparent manufacturing Company Incorporated' matches the Wikibase entity 'National Transparent Manufacturing Company' almost perfectly, with only the standard legal suffix 'Incorporated' being the difference. Furthermore, both the individual on the card (Graydon Cairl) and this company entity are part of the E.A.T. Datascape, confirming they are related records within the same historical context."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Graydon Cairl (born approximately 1928) was an engineer and technical professional active in the late 1960s and early 1970s, noted for his collaboration with the Experiments in Art and Technology (E.A.T.) organization. He served as a technical collaborator for artist Sheila Berkley on a project featured in the landmark E.A.T. exhibition, 'Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes,' held at the Museum of Modern Art (MoMA) from November 1968 to February 1969. Professionally, Cairl was associated with the National Transparent Manufacturing Company Incorporated, based in Neshanic Station, New Jersey, where his expertise focused on thermal setting plastics and flexible plastics. A resident of Neshanic Station, he was married to the artist Joyce Cairl (m. 1959) and graduated from Norristown Area High School in 1947. His work in the late 1960s exemplified the E.A.T. mission of pairing artists with industrial engineers to explore new materials and technologies in creative practice.",
+        "sources": [
+          "https://www.legacy.com/obituaries/mycentraljersey/obituary.aspx?n=joyce-cairl&pid=154460505",
+          "https://www.artist-info.com/exhibition/Museum-of-Modern-Art-MoMA-Some-more-beginnings-Id373962",
+          "https://www.e-yearbook.com/sp/ey80?p=105809"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Graydon Cairl\"",
+        "\"Graydon Cairl\" E.A.T.",
+        "\"Graydon Cairl\" plastics",
+        "\"Sheila Berkley\" \"Graydon Cairl\" E.A.T.",
+        "",
+        "\"Sheila Berkley\" \"Graydon Cairl\" \"Some More Beginnings\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRNtGNJGBv6Z4SsaCKhqR0d6TKk6m53OhozzOA9lUxX6VFCX62WoMtgxsgCWXNHeuNUGdGy5ZcOeTNj-nxa69OS2fmW3SGdQKUOqZz-cPSBv3XQwhmDpSLheBubFRyp3r0sUDaiTB3prJLJ1LdHoG06quc3Yg=",
+          "title": "artist-info.com",
+          "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXW9sFidzVvcT1538b5bWbUmtEzI6HiCiRKxXNSThxyLwa0vatVNX9QPsUHKWmxPWioUgceHNgtXQ2ewNiwBv6C5aLwgJrJPt-jWgY23m2BOs970mSGl-sKsuQHdByJD5IxgRl1CtDTro7i1L0bKS8p_FJp24=",
+          "title": "artist-info.com",
+          "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz9UuHT2qKhmpluDf7ea7DPVHdhlfN3QaQ9fIfTSrDov5auiRTy4kfJ4ZGwgf5lRAfJZuuUlie_D2-MiVUNoNlPzTDkPMftqe9dDIMMA7KGsZHrY-IdZ0Y3qyLAJlTXk10cmgp5Y3zSQRGvdp5VuHUZyo=",
+          "title": "artist-info.com",
+          "resolvedUri": "https://www.artist-info.com/exhibition/MoMA-27-Id373962"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFbmnMvs-4dcJfjcAyYal5-YP1RkEDaN3sfUQH5MCuuSrNfvZsiYfQJewHQurrRuyeJi5o51LcZQTpTl3mVkR5DKn0-fp0u-qJIPWbROQr8Y4wZdLpJ4hbX0217EpWzH02YmgNSgB6eh8yDQEJZaaHt6-h2kFcAw4RxQPE92oePCrZRJ3l8WuaaSXef3EgOMQW2bQbtg==",
+          "title": "legacy.com",
+          "resolvedUri": "https://www.legacy.com/us/obituaries/mycentraljersey/name/joyce-cairl-obituary?id=22600787"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrZRcgM6XW-zF7Lzo9484108QRFzPjw20A-OrY3QXaeiwZLxPNAdPcJ7D4Oin1fAUXqqs1aLX1sIRpw6v5NXixJGX4kE_h_a4TBUcXRT7YmWr21-uGgCHy2R-4LlrbxgvV1o8EuQyl61-37zZ0KNwd07vFhbWM1pfNN_3Lu_yBhNDPCb7tOsY-geOQ9wo-pBDiP-_dT7mefPmyFA==",
+          "title": "e-yearbook.com",
+          "resolvedUri": "https://www.e-yearbook.com/yearbooks/Norristown_Area_High_School_Spice_Yearbook/1947/Page_1.html"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 378,
+            "endIndex": 568,
+            "text": "exhibition, 'Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes,' held at the Museum of Modern Art (MoMA) from November 1968 to February 1969."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 790,
+            "endIndex": 866,
+            "text": "A resident of Neshanic Station, he was married to the artist Joyce Cairl (m."
+          },
+          "groundingChunkIndices": [
+            3
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 979,
+            "endIndex": 1432,
+            "text": "mission of pairing artists with industrial engineers to explore new materials and technologies in creative practice.\",\n      \"sources\": [\n        \"https://www.legacy.com/obituaries/mycentraljersey/obituary.aspx?n=joyce-cairl&pid=154460505\",\n        \"https://www.artist-info.com/exhibition/Museum-of-Modern-Art-MoMA-Some-more-beginnings-Id373962\",\n        \"https://www.e-yearbook.com/sp/ey80?p=105809\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            4
+          ]
+        }
+      ]
+    }
   }
 }

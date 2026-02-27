@@ -11,6 +11,98 @@
         "y1": 10.4,
         "x2": 42.9,
         "y2": 22.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3127488",
+          "label": "Harley Jones Van Cleave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity, Harley Jones Van Cleave, died in 1953, making it impossible for him to be the subject of a letter or artist-related record dated 1969. Furthermore, his profession as a zoologist/parasitologist does not align with the artist context of the card."
+        },
+        {
+          "qid": "Q116947430",
+          "label": "Harley Jones",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match and the Wikidata entity is an artist (musician), the individual was born in 1953 and would have been only 16 years old in 1969. It is more probable that the card refers to the prominent artist and filmmaker Harley Jones (1944-2015) who was active in the UK art scene during this period, rather than the New Zealand accordionist described in this Wikidata entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Harley Jones is a Welsh filmmaker and educator who was highly active in the late 1960s and early 1970s. He is best known for establishing the Newport Film Unit (later the Newport Film School) at the Newport College of Art and Design in 1966, where he served as the first course leader until 1982. Prior to his teaching career, he worked as a professional film editor, notably for John Grierson's Scottish Television program 'This Wonderful World' (1963–1966) and as a young editor for the BBC. His artistic work often explored community and industrial subjects through a documentary and impressionistic lens. Notable films from this period include 'After Many a Summer' (1968), which documented the redevelopment of Tiger Bay in Cardiff and was acquired by the Contemporary Art Society for Wales, and 'Research in the Rhondda' (1969), a film documenting pioneering medical surveys. His association with experimental art and technology is reflected in his tenure at Newport College of Art, which during the 1960s and 70s was a prominent hub for conceptual and experimental practices, and his mention in contemporary experimental film archives such as Canyon Cinema alongside figures like Bruce Baillie.",
+            "sources": [
+              "https://www.bfi.org.uk/player/resurrection",
+              "https://casw.org.uk/filmed-talks/",
+              "https://www.screenonline.org.uk/film/id/1418805/index.html",
+              "https://canyoncinema.com/dear-folks-notes-and-letters-from-bruce-baillie/",
+              "https://filmhubwales.org/britain-on-film-coast-and-sea/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Harley Jones is an artist whose estate is associated with The Studio Museum in Harlem. While specific biographical details are less abundant in available records compared to the Welsh filmmaker, the 'Estate of Harley Jones' is listed as a donor of art or a significant contributor in the museum's annual reports (e.g., FY2021). The Studio Museum in Harlem primarily focuses on artists of African descent, suggesting this identity may represent a Black artist active in the mid-to-late 20th century.",
+            "sources": [
+              "https://imgix.net/studio-museum-in-harlem-annual-report-fy2021.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Harley Jones artist 1960s 1970s",
+            "\"Harley Jones\" artist video art",
+            "\"Harley Jones\" artist E.A.T.",
+            "Harley Jones artist \"Experiments in Art and Technology\"",
+            "\"Harley Jones\" Newport College of Art film",
+            "\"Harley Jones\" artist technical collaboration",
+            "\"Harley Jones\" \"E.A.T.\" archive",
+            "\"Harley Jones\" video artist 1970s",
+            "\"Harley Jones\" E.A.T. membership",
+            "\"Harley Jones\" computer art 1970s",
+            "",
+            "\"Harley Jones\" Studio Museum in Harlem artist",
+            "\"Harley Jones\" E.A.T. newsletter",
+            "\"Harley Jones\" video art 1968 1969 1970",
+            "\"Harley Jones\" artist technical assistant E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOCdrpTG_u7OuxBl8F8UywhS9xXpmg6vhpFJ0EzUxXMf1BdcXKSSlvcTY0id3d2t2fCB6YQs9sAsHM6kGr0IFJxb6lndWspkmBCaKS2Fsss3Uf3bTXwcP_AHsAaMGCZkme9i15cuRZDeyJ1Wxr97VL08xNjIEMv3yoWdU2GC70IoImdU2DtAY=",
+              "title": "imgix.net",
+              "resolvedUri": "https://studiomuseum.imgix.net/files/AnnualReportFY21_StudioMuseumHarlem.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjuznHSAURTJpniOG4AIx9kMXN7Ec6CMAV5_6YAszfnwpl8XgmaskPhKJVKW0BSlZUp_e9W5tLaDz3XBUCGhnjxHvC0gT3G1cVLZ1L7QdPv1IsBY5EW0wLirVvxJRfxzK_8B2bHssI9ziarozi2hfb48Qdgg==",
+              "title": "ameraccord.com",
+              "resolvedUri": "http://www.ameraccord.com/newsletters/2014_11November.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 934,
+                "endIndex": 1762,
+                "text": "His association with experimental art and technology is reflected in his tenure at Newport College of Art, which during the 1960s and 70s was a prominent hub for conceptual and experimental practices, and his mention in contemporary experimental film archives such as Canyon Cinema alongside figures like Bruce Baillie.\",\n      \"sources\": [\n        \"https://www.bfi.org.uk/player/resurrection\",\n        \"https://casw.org.uk/filmed-talks/\",\n        \"https://www.screenonline.org.uk/film/id/1418805/index.html\",\n        \"https://canyoncinema.com/dear-folks-notes-and-letters-from-bruce-baillie/\",\n        \"https://filmhubwales.org/britain-on-film-coast-and-sea/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Harley Jones is an artist whose estate is associated with The Studio Museum in Harlem."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2004,
+                "endIndex": 2325,
+                "text": "The Studio Museum in Harlem primarily focuses on artists of African descent, suggesting this identity may represent a Black artist active in the mid-to-late 20th century.\",\n      \"sources\": [\n        \"https://imgix.net/studio-museum-in-harlem-annual-report-fy2021.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +116,114 @@
         "y1": 16.5,
         "x2": 34.9,
         "y2": 33.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25067",
+          "label": "Agnes Denes",
+          "description": "American artist (1931–)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Agnes Denes' matches exactly. The Wikibase entity describes a known artist active during the late 1960s and 1970s, and it specifically mentions her participation in the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which corresponds to the nature of the index card entry provided."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q394503",
+          "label": "Agnes Denes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Agnes Denes' matches exactly. The Wikidata entity describes a prominent conceptual and land artist born in 1931 who was highly active during the late 1960s and 1970s, which perfectly aligns with the card's context. Furthermore, her association with the New York art scene and movements like E.A.T. (Experiments in Art and Technology) mentioned in the metadata confirms the identification."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born May 31, 1931, in Budapest, Hungary) is a Hungarian-born American conceptual artist known as a pioneer of environmental and land art. She became prominent in the late 1960s and 1970s for her unique approach called \"Visual Philosophy,\" which integrates science, mathematics, philosophy, and linguistics into artistic forms. Denes was an early associate of Experiments in Art and Technology (E.A.T.), joining the collective in the late 1960s and appearing in their membership records for 1969 and 1970. Her work frequently involved collaborations with scientists and engineers, such as her participation in the 1970 exhibition 'Software' at the Jewish Museum, where she worked with the computer scientist group R.E.S.I.S.T.O.R.S. Her notable early projects include 'Rice/Tree/Burial' (1968), considered the first site-specific performance piece with ecological concerns, and the 'Pyramid Series' (begun 1970). She is perhaps most famous for 'Wheatfield — A Confrontation' (1982), where she planted two acres of wheat in lower Manhattan. Throughout her career, she has utilized diverse media, including poetry, large-scale land installations, and complex technical drawings using metallic inks.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Agnes_Denes",
+              "https://www.theartstory.org/artist/denes-agnes/",
+              "http://www.agnesdenesstudio.com/biography.html",
+              "https://www.whitney.org/exhibitions/programmed?section=1#exhibition-artworks",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf1m3n9860/admin/",
+              "https://www.arshake.com/en/agnes-denes-data-analysis-abstraction/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Agnes Denes art career history",
+            "Agnes Denes artist biography late 1960s 1970s E.A.T.",
+            "Agnes Denes Experiments in Art and Technology association",
+            "Agnes Denes \"Experiments in Art and Technology\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMAZuPlJIK9hC6XgOh5MxqgL0a3sz9-1UTq6yrtade2jbb7i4A_R3u2Ewpwd3ICztqInhEv4mMeA49c8cQjGLk7U2UR2Z1vwBPtdQHVXlT6stFnEhXtH8E9kSVgN7jbVkn2oUo_In8MTMs6o51vSXqNWVgPbonWHQ6fUOAkJLBRgh_MDw=",
+              "title": "theshed.org",
+              "resolvedUri": "https://www.theshed.org/program/6-agnes-denes-absolutes-and-intermediates"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjKFM_skSzH0_8lZswxb38yUii8n7OHjyFR4kU1koW88Hb_bN77efLRq_j9q9gzEwHAs-Z0bVYzF0e35bDTThJlCPE_NMUiv1MuRqde0PaFSjjH8Bit1ndWuRq",
+              "title": "agnesdenesstudio.com",
+              "resolvedUri": "http://www.agnesdenesstudio.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXcyfGtD4V7PH4MR8pjqlPVPIpQa97IfBjn3H-4r-IwOELMirtJn4p7G2IfnH8dsGk7sCGKlfQxsyUVRUkKkNiBIbD4RdmiOarDj0xAcTYgJR4X7IbYiAWn9SR-xl6fdI8hcJ_yANG3nI2Q6wuvYXg",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/artiste/agnes-denes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYwlTEDvNshtJ53Z8NNeRb_BXdfxFC44Ibx4s7Tf4MSMqa-hUy21P7xNVC0ItE8uFpdzwY4pjLNsmraA2KuRAMzDleADg8tfoWKvmJwzAMOEjuFO8q-fL3hV4LwQgAMrKE",
+              "title": "airgallery.org",
+              "resolvedUri": "https://www.airgallery.org/agnes-denes"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVcKaMV5b2w8KACaQzD0iuOLrwwMXzlrz1sf3X4Dsndrf9Gqrhc7VVimA9GrazGoYeYUxVX42lXEEftNHZvmtRmzhORW9i37Rl-rKEQDOucP71sE-z-mrw5mwO9a41qNFYRYrclPQ2rw==",
+              "title": "kunststrom.com",
+              "resolvedUri": "https://www.kunststrom.com/agnesdenes-en.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 200,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (born May 31, 1931, in Budapest, Hungary) is a Hungarian-born American conceptual artist known as a pioneer of environmental and land art."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 977,
+                "endIndex": 1105,
+                "text": "She is perhaps most famous for 'Wheatfield — A Confrontation' (1982), where she planted two acres of wheat in lower Manhattan."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1106,
+                "endIndex": 1740,
+                "text": "Throughout her career, she has utilized diverse media, including poetry, large-scale land installations, and complex technical drawings using metallic inks.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Agnes_Denes\",\n        \"https://www.theartstory.org/artist/denes-agnes/\",\n        \"http://www.agnesdenesstudio.com/biography.html\",\n        \"https://www.whitney.org/exhibitions/programmed?section=1#exhibition-artworks\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf1m3n9860/admin/\",\n        \"https://www.arshake.com/en/agnes-denes-data-analysis-abstraction/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

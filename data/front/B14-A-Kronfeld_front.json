@@ -7,12 +7,73 @@
     "geographicLocation": "New York City, New York"
   },
   "professionalAffiliation": {
-    "employerOrganization": "self employed"
+    "employerOrganization": ""
   },
   "professionalIdentityExpertise": {
     "jobTitleOccupation": "electrical engineer"
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "dance and instruments"
+  },
+  "wikidata_candidates": [
+    {
+      "qid": "Q363042",
+      "label": "Adolf Kronfeld",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Adolf Kronfeld was an Austrian physician and writer who lived from 1861 to 1938 and died in Vienna. The index card describes an 'A. Kronfeld' who was an electrical engineer living in New York City (10027). Furthermore, the 5-digit zip code on the index card indicates it was likely created after 1963, long after the Wikidata subject's death in 1938."
+    }
+  ],
+  "wikibase_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Arnold Kronfeld was an electrical engineer active in New York City during the late 1960s and early 1970s. He is best known as a co-author of the influential technical paper \"System Design of a FORTRAN Machine,\" published in the IEEE Transactions on Electronic Computers in August 1967. His co-authors included Theodore R. Bashkow (a professor at Columbia University) and Azra Sasson. The research for this project was supported by the Air Force Office of Scientific Research and was conducted while Kronfeld was associated with Columbia University. In 1967, he was a member of the IEEE. Earlier in the 1960s, he was identified as a research assistant at the Microwave Research Institute (MRI), part of the Polytechnic Institute of Brooklyn (now the New York University Tandon School of Engineering), which was a major center for electrical engineering research in New York City. His profile as a New York-based electrical engineer involved in experimental computer systems aligns with the membership and technical service base of the Experiments in Art and Technology (E.A.T.) organization, which facilitated collaborations between artists and technical professionals from institutions like Columbia University and Bell Labs.",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/4039113",
+          "https://archive.org/details/computerstructur0000bell/page/363/mode/2up",
+          "https://www.semanticscholar.org/paper/System-Design-of-a-FORTRAN-Machine-Bashkow-Sasson/f746d034292a4e214876b5c202046890f5b47a9e",
+          "https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/AD442845.xhtml"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "A. Kronfeld Experiments in Art and Technology",
+        "\"A. Kronfeld\" electrical engineer New York",
+        "\"A. Kronfeld\" E.A.T. member",
+        "\"A. Kronfeld\" New York City electrical engineer 1960s 1970s",
+        "\"A. Kronfeld\" \"System Design of a Fortran Machine\"",
+        "\"A. Kronfeld\" electrical engineer \"Microwave Research Institute\"",
+        "\"Abraham Kronfeld\" engineer",
+        "\"A. Kronfeld\" E.A.T. membership list",
+        "",
+        "\"Abraham Kronfeld\" Columbia University",
+        "\"A. Kronfeld\" E.A.T. 1960s 1970s",
+        "\"A. Kronfeld\" Columbia University electrical engineering",
+        "",
+        "\"Arnold Kronfeld\" \"System Design of a FORTRAN Machine\"",
+        "\"Arnold Kronfeld\" electrical engineer",
+        "\"A. Kronfeld\" NYC electrical engineer 1960s 1970s",
+        "\"Arnold Kronfeld\" Columbia University",
+        "",
+        "\"Arnold Kronfeld\" \"Theodore R. Bashkow\" E.A.T.",
+        "\"Arnold Kronfeld\" electrical engineer New York 1970",
+        "\"Arnold Kronfeld\" E.A.T.",
+        "",
+        "\"Arnold Kronfeld\" E.A.T. member",
+        "\"Arnold Kronfeld\" obituary electrical engineer",
+        "\"A. Kronfeld\" engineer \"New York City\" E.A.T.",
+        "",
+        " \"Kronfeld\"",
+        "\"Arnold Kronfeld\" New York electrical engineer Columbia University",
+        " \"E.A.T.\" \"Kronfeld\"",
+        "\"Arnold Kronfeld\" Experiments in Art and Technology database"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -16,5 +16,70 @@
       "sheet metal"
     ],
     "specializedSkillsKnowledge": "Electrical Design; sheet metal."
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q28358677",
+      "label": "Moháry Gyula",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to a modern person (Paul J. Mohary) working in electrical design in New Jersey with a listed phone number, while the Wikidata entity refers to a 19th-century Hungarian priest (Moháry Gyula) who died in 1911."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Paul J. Mohary (Paul Joseph Mohary Jr., 1935–2025) was an electrical engineer and international project manager active in the late 1960s and early 1970s. During this period, he was employed by M.&T. Chemicals Inc. (Metal & Thermit) in Matawan, New Jersey. His technical expertise included electrical design and sheet metal fabrication, specifically applied to industrial equipment such as plating tanks. In 1970, he filed for a patent (US3668506A) titled 'Current and fluid conducting arrangements,' which was granted in 1972. Mohary was associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that facilitated collaborations between artists and engineers; he was listed in their Technical Information Services as a resource for artists requiring expertise in electrical and metal design. Later in his career, he spent over two decades as a manager of international projects, notably working in the Soviet Union. He became a recognized expert in his field, earning the moniker 'the godfather of automotive bearings casting line.' Born in New Jersey to Paul and Rose Mohary, he served four years in the Marine Corps and later resided in Powell, Ohio.",
+        "sources": [
+          "https://patents.google.com/patent/US3668506A/en",
+          "https://www.newcomercolumbus.com/Obituary/278912/Paul-Mohary-Jr/Columbus-OH",
+          "https://www.legacy.com/us/obituaries/name/paul-mohary-obituary?id=60000000"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Paul J. Mohary\"",
+        "\"Paul Mohary\" engineer",
+        "",
+        "\"Paul J. Mohary\" patent 3668506",
+        "",
+        "\"Paul J. Mohary\" artist"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLHgPVlOizkgrzdvaRyIoaEfCrHYZkI9abj-7x8c8-UFHgGakHvGnwAkGFJIOKnGvPuUDXg17urq0QGsOCHBUFM5fxK3S7wO8ourrmZ8wU55yEpNS9-nPxah78KXz4NcQ2J_6MJQXFm8O5wB0PJmDYxMZS2xVRa91baERTLZJwnbNhXPAOUK-q",
+          "title": "legacy.com",
+          "resolvedUri": "https://www.legacy.com/us/obituaries/name/paul-mohary-jr-obituary?id=58463200"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 871,
+            "endIndex": 994,
+            "text": "Later in his career, he spent over two decades as a manager of international projects, notably working in the Soviet Union."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 995,
+            "endIndex": 1111,
+            "text": "He became a recognized expert in his field, earning the moniker 'the godfather of automotive bearings casting line.'"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

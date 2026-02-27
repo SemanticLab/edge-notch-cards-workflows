@@ -10,6 +10,129 @@
         "y1": 10.2,
         "x2": 54.5,
         "y2": 14.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q215905",
+          "label": "Itzhak Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different. The card refers to 'Marilyn Perlman', whereas the Wikidata entity is for 'Itzhak Perlman', a famous male violinist."
+        },
+        {
+          "qid": "Q2077508",
+          "label": "Peter Perlmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Marilyn vs. Peter) and the Wikidata entity describes a male immunologist, which does not match the name Marilyn or the expected context of an artist."
+        },
+        {
+          "qid": "Q2884770",
+          "label": "Baron Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The first names (Marilyn vs. Baron) and genders (typically female vs. stated male) are different, indicating these are distinct individuals."
+        },
+        {
+          "qid": "Q7053311",
+          "label": "Samuel Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Marilyn Perlman' does not match 'Samuel (Shmuel) Perlman'. Furthermore, the Wikidata entity died in 1958, whereas the card entry describes an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q18155509",
+          "label": "Steven Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are entirely different (Marilyn vs. Steven) and the Wikidata entity is a male botanist, whereas the card entry refers to a likely female artist."
+        },
+        {
+          "qid": "Q78830977",
+          "label": "Robert L. Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Marilyn vs. Robert), and the genders associated with those names also differ. There is no evidence to suggest these records refer to the same person."
+        },
+        {
+          "qid": "Q118914228",
+          "label": "Tsevi Hirsh ben Barukh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marilyn Perlman' and 'Tsevi Hirsh ben Barukh' do not match. Additionally, the Wikidata entity died in 1882, which is long before the person on the card was active (late 1960s/early 1970s)."
+        },
+        {
+          "qid": "Q118926154",
+          "label": "Micael Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marilyn' and 'Micael' are distinct, and the Wikidata entity is specifically identified as male, which contradicts the name on the card."
+        },
+        {
+          "qid": "Q133721895",
+          "label": "Q133721895",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q133721895) lists a birth date of 1888. A person born in 1888 is extremely unlikely to be named Marilyn, as the name only gained popularity in the 1920s and 1930s. Furthermore, while an 80-year-old could be active in the arts in the late 1960s, the chronological mismatch between the birth year and the name's historical usage, combined with the expected age of artists active in that era's records, suggests they are not the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Marilyn Perlman was an artist active in the late 1960s, 1970s, and 1980s. She is documented in the archives of the Museum of Modern Art (MoMA) as an artist associated with the Art Lending Service (ALS) and Art Advisory Service (AAS), with records specifically noting her involvement between 1973 and 1974. Her work was potentially made available for rent or sale through these services, which aimed to promote contemporary artists to collectors and corporate clients. In 1985, an exhibition of her work titled \"Continuous Heavens\" was held from June 29 to August 18; promotional materials and invitations for this exhibition are preserved within the archive of the prominent art critic and curator Nicolas Calas and his wife Elena Calas. This connection suggests she may have been part of the experimental or contemporary art circles in New York that Calas frequented, which often overlapped with organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.moma.org/research-and-learning/archives/finding-aids/AASb.html",
+              "https://www.norlib.gr/sites/default/files/archives/calas_catalogue.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Marilyn Perlman\" art history 1960s 1970s",
+            "\"Marilyn Perlman\" art 1969 1970",
+            "Marilyn Perlman artist \"Experiments in Art and Technology\"",
+            "\"Marilyn Perlman\" artist E.A.T.",
+            "\"Marilyn Perlman\" MoMA \"Art Lending Service\"",
+            "\"Marilyn Perlman\" artist 1960s 1970s",
+            "\"Marilyn Perlman\" \"Continuous Heavens\" 1985 exhibition",
+            "",
+            "\"Marilyn Perlman\" \"Art Lending Service\" MoMA",
+            "\"Marilyn Perlman\" artist New York 1970s",
+            "\"Marilyn Perlman\" Experiments in Art and Technology E.A.T. archive",
+            "\"Marilyn Perlman\" artist \"Continuous Heavens\" 1985",
+            "\"Marilyn Perlman\" \"Art Lending Service\" 1973",
+            "\"Marilyn Perlman\" artist medium",
+            "\"Marilyn Perlman\" \"Art Lending Service\" MoMA medium",
+            "\"Marilyn Perlman\" artist \"Continuous Heavens\" medium"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1zBQEFROCBO-rJ_OC3Eyo7faCNdKIeHLYo4gxmUuVKeZnUGWUtVN9S4ZEG-iBcyQQbyjkrAsBz3ff84PlY1Dz8aIyAcFyRKyAY4aD77ZgLwKc6w-9dkLgG7k1QWL4zB_DeBZl9QKXP30H5uQZMdZJ-K8tYTp2w1LCRyqBTKn9oPtoYbr7Ve4=",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/research-and-learning/archives/finding-aids/ArtLendingf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd44NQShNYXvbq-ZN2EylLe-8J1959LQdok0d4TRqqMM1168in7f490qoKWMEjL4lkTJ9kYxmAqiD4oN0dkEP2tUcq3nu_1yvPOz6FTyvJN_iI4TrzgiRH0s_U87pmCeK4BTuDmR-OZD6QLyL1q4dk6zG6CGMr",
+              "title": "norlib.gr",
+              "resolvedUri": "https://www.norlib.gr/media/files/calas-archive-contents.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 123,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Marilyn Perlman was an artist active in the late 1960s, 1970s, and 1980s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

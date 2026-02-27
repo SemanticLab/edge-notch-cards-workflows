@@ -9,6 +9,200 @@
         "y1": 3.5,
         "x2": 25.5,
         "y2": 13.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q767",
+          "label": "Stéphane Mallarmé",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Stéphane Mallarmé, a famous French poet who died in 1898. The card entry is dated 1969, at which point Mallarmé had been deceased for over 70 years. Additionally, while 'Stephan' is similar to 'Stéphane', the names 'Garry Stephan' and 'Stéphane Mallarmé' are distinct."
+        },
+        {
+          "qid": "Q32439",
+          "label": "Stéphane Audran",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct. The card refers to 'Garry Stephan', likely the American painter Gary Stephan (born 1942) who was active in the New York art scene during the late 1960s. The Wikidata entity is for Stéphane Audran, a famous French actress whose birth name was Colette Dacheville. Beyond a slight phonetic similarity between 'Stephan' and 'Stéphane', there is no overlap in identity or professional field."
+        },
+        {
+          "qid": "Q89580",
+          "label": "Stephan von Breuning",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist named Garry Stephan, likely the American painter Gary Stephan who was active in the late 1960s. The Wikidata entity is for Stephan von Breuning, an Austrian entomologist specializing in beetles. The names are distinct (Stephan is the surname for the artist but the given name for the scientist) and their professional fields do not match."
+        },
+        {
+          "qid": "Q100450",
+          "label": "Stephan Fridolin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Stephan Fridolin) lived in the 15th century (1430-1498), which makes it impossible for him to be the person mentioned on the card from 1969. Additionally, the names are not a close match beyond the shared name 'Stephan'."
+        },
+        {
+          "qid": "Q104709",
+          "label": "Stephan Tanneberger",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Garry Stephan vs. Stephan Tanneberger) and the occupations are entirely unrelated (the artist context provided for the card entry vs. the physician/oncologist/chemist roles of the Wikidata entity)."
+        },
+        {
+          "qid": "Q208586",
+          "label": "Stephan Lichtsteiner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity, Stephan Lichtsteiner, was born in 1984 and began his career in 2001, making it chronologically impossible for him to be the Garry Stephan mentioned in the 1969 record. Furthermore, Lichtsteiner is a professional soccer player, not an artist."
+        },
+        {
+          "qid": "Q233240",
+          "label": "Stormy Daniels",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Stormy Daniels) was born in 1979, which is ten years after the card entry date of 1969. Additionally, the names (Garry Stephan vs. Stephanie Gregory/Stormy Daniels) do not match, and their career timelines and genders are entirely inconsistent."
+        },
+        {
+          "qid": "Q234691",
+          "label": "Stevie Nicks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Garry Stephan' and 'Stevie Nicks' (Stephanie Lynn Nicks) are completely different. Garry Stephan is a known male abstract painter active in this period, whereas Stevie Nicks is a famous female singer-songwriter."
+        },
+        {
+          "qid": "Q257551",
+          "label": "Soko",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Soko) was born in 1985 and began her career in 2002, making it impossible for her to be the person mentioned on the index card dated 1969. Furthermore, the names (Garry Stephan vs. Stephanie Sokolinski) do not match."
+        },
+        {
+          "qid": "Q290812",
+          "label": "Stefan Lochner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Stefan Lochner was a 15th-century painter who died in 1451, making it chronologically impossible for him to be the person mentioned in the 1969 card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Gary Stephan (born 1942) is an American abstract painter, sculptor, and printmaker who became a prominent figure in the New York art scene during the late 1960s and early 1970s. Born in Brooklyn, he studied at the Parsons School of Design and Pratt Institute before moving to San Francisco, where he earned his M.F.A. from the San Francisco Art Institute in 1967. After returning to New York, he served as a studio assistant to the artist Jasper Johns. Stephan's work was featured in the Whitney Biennial in 1971 and 1973, and he has been associated with Experiments in Art and Technology (E.A.T.), appearing in exhibitions chronicling the organization's history. Known for his rigorous formalism and idiosyncratic abstract style, his work explores the destabilization of figure-ground relationships and negative space. Over his career, he has been represented by influential galleries such as the Bykert Gallery, Mary Boone Gallery, and Susan Inglett Gallery, and his work is held in the permanent collections of the Metropolitan Museum of Art, the Museum of Modern Art (MoMA), and the Solomon R. Guggenheim Museum. He also serves on the faculty of the School of Visual Arts (SVA) in New York City.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Gary_Stephan",
+              "https://www.askart.com/artist/Gary_Stephan/10049449/Gary_Stephan.aspx",
+              "https://garystephanstudio.com/",
+              "https://ropac.net/artists/75-roy-lichtenstein/",
+              "https://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=11382;type=701"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Gary Stephan artist biography 1960s 1970s",
+            "Garry Stephan artist E.A.T.",
+            "\"Gary Stephan\" artist Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_V4JPe0VT4xJZWMoG3RuGR2a_vVl1MiJSIVEXAzW79_c0Gb8lmzFvPqoONS5EoYbOROqtr2k5GMOq9wJbr78hGfCwn6-j083TAS6BfGs7ZewG6EsxX6ZebpGxAgme0EO0Q4Q=",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/gary_stephan"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-2T763vUcL8ydDN-LirUfKF1D5hxykK6vrLicW63tnFLSgI7Jhc-PB4JXGpaWxc-xh20Z5uYHL1Cbw5-BrV8ELAjJjx9sYjmLjS3ul6uEU2rxCWoXS-FI9giSGAK-tJlVr9mXl9HTVG9UJGqBXdBqpXXJN2c=",
+              "title": "askart.com",
+              "resolvedUri": "https://www.askart.com/bio/Gary_Stephan/30664/Gary_Stephan"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJTf93nuaw_5Q6gEgNd_c-f4GB4Z3kutNuxDCvJFkXP7-75CmTIOwP-qo_pU57nohFP4sjBQj-Le_Sf6SZqb_wtzJAp9XzuuvHjLDfm8Aa8TPzeW9LRckBv1UCbnB1QU1E4-GVbqDZflsPnbU=",
+              "title": "culturunners.com",
+              "resolvedUri": "https://www.culturunners.com/artists/gary-stephan"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF35UW3uiisG2xktA5AXKq7JZizz3-hIJhLAj7sOIaIMregcovXV2yVpKH-Rm1udNwVlEaM1MdBwzxC232ntxCElAUjb2GASv-J1RQ81D2rvyKfCpOC9RfQLGtvtwgoWusU5cpSjg==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Gary_Stephan"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhVvRc3dsJd3oTrcyjr9BMpiCiwLXeyQo2RxzbUiMhpu3Y3kHvGEjWxuAz9eNQtHsZ6yeVG9ZuTsYU0TQvnesXyrxhzHohzM47vszKBsHe2PNq5-quJ5uJEFbbODZRaFeR7a6GMIYCxPQ0dtQH5jw=",
+              "title": "manolisprojects.com",
+              "resolvedUri": "https://www.manolisprojects.com/artists/gary-stephan"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE459Ua0HBchDWZBCFn-HNzdg1cWdPfhLgWKK1oJX0wuSbPxoHm-IvWaGIn2hCfkXV87eQFPyc4oH5u9Pq6wcwXUxzorQdnfJIzql5IVyTEsXnGP4X388Pj-1L2hPloGihvp0ES-yh5GA0IdwO8X71U_fdi4FpSODxqSG-2ezZggpLPu2aGkBi4dhIpBg==",
+              "title": "invaluable.com",
+              "resolvedUri": "https://www.invaluable.com/artist/stephan-gary-adz7rez086/sold-at-auction-prices/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEobOAJpE0DZ98a0oi5fHarPecImIwCSM6QcE2TQhYqmFczypB386FDStJwDmCz98PQqe1jBvLeHQeCF1_HhPIFxjOWdwt-iRmegG7Hx9833eeL0zfLayFTd7_tGZGXUIZcSkE17S9NU5gASDAa07Vr6aAFUYFkez6E-cD8",
+              "title": "dorothearockburne.com",
+              "resolvedUri": "https://www.dorothearockburne.com/copy-of-solo-exhibition-history"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 227,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Gary Stephan (born 1942) is an American abstract painter, sculptor, and printmaker who became a prominent figure in the New York art scene during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 228,
+                "endIndex": 413,
+                "text": "Born in Brooklyn, he studied at the Parsons School of Design and Pratt Institute before moving to San Francisco, where he earned his M.F.A. from the San Francisco Art Institute in 1967."
+              },
+              "groundingChunkIndices": [
+                0,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 414,
+                "endIndex": 502,
+                "text": "After returning to New York, he served as a studio assistant to the artist Jasper Johns."
+              },
+              "groundingChunkIndices": [
+                4,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 714,
+                "endIndex": 869,
+                "text": "Known for his rigorous formalism and idiosyncratic abstract style, his work explores the destabilization of figure-ground relationships and negative space."
+              },
+              "groundingChunkIndices": [
+                3,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1167,
+                "endIndex": 1647,
+                "text": "He also serves on the faculty of the School of Visual Arts (SVA) in New York City.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Gary_Stephan\",\n        \"https://www.askart.com/artist/Gary_Stephan/10049449/Gary_Stephan.aspx\",\n        \"https://garystephanstudio.com/\",\n        \"https://ropac.net/artists/75-roy-lichtenstein/\",\n        \"https://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=11382;type=701\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +214,108 @@
         "y1": 11.1,
         "x2": 30.4,
         "y2": 19.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q40580",
+          "label": "Lisa Gerrard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Lisa Zerra' and 'Lisa Gerrard' are not a strong match. More importantly, the Wikidata entity for Lisa Gerrard indicates a birth date of 1961 and a professional start date in 1981. This makes it impossible for her to be the artist active in 1969 mentioned on the card, as she would have been only 7 or 8 years old at that time."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lisa Zerra was an individual active in art circles during the early 1960s, notably serving as the Treasurer of the Art Club at Agawam High School (Class of 1963) in Massachusetts. During this time, the Art Club focused on stimulating interest in creative and expressive phases of art and acquainting members with cultural contributions. While she is not widely documented as a professional artist in major archives, her background in art education aligns with the timeframe of being an aspiring artist or art enthusiast in the late 1960s and early 1970s. She appears to be part of a family with strong artistic ties; her peer (and likely relative) Antonia Zerra was described as a 'terrific artist' and an 'accomplished art student' in the same 1963 yearbook. Additionally, Robert (Rob) Zera, who might be related, was a Pratt Institute-trained industrial designer and visual artist active from the early 1970s in New York, where he worked at various design firms. The surname Zerra is sometimes used interchangeably with Serra or Zera in historical records.",
+            "sources": [
+              "https://www.e-yearbook.com/sp/eybb?school=746&year=1963",
+              "https://www.startribune.com/obituaries/detail/0000451842/",
+              "https://www.legacy.com/obituaries/washingtonpost/obituary.aspx?n=maxine-saur&pid=140183181"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Lisa Zerra\" E.A.T.",
+            "\"Lisa Zera\" artist Experiments in Art and Technology",
+            "Lisa Zerra artist",
+            "\"Zerra\" artist E.A.T.",
+            "\"Lisa Zerra\" E.A.T. artist",
+            "\"Lisa Zera\" Experiments in Art and Technology",
+            "\"Lisa Serra\" Experiments in Art and Technology",
+            "\"Lisa Serra\" E.A.T. archive",
+            "\"Lisa Zera\" participant E.A.T.",
+            "\"Lisa Zera\" E.A.T. archive",
+            "\"Lisa Zerra\" participant E.A.T.",
+            "",
+            "\"Lisa Zerra\" Art Club Agawam",
+            "\"Lisa Serra\" artist E.A.T.",
+            "\"Lisa Zera\" artist E.A.T.",
+            "",
+            "\"Lisa Serra\"",
+            "\"Lisa Zera\"",
+            "\"Lisa\" E.A.T. artist 1960s",
+            "\"Zerra\" Experiments in Art and Technology",
+            "\"Lisa Zerra\"",
+            "\"Lisa Zerra\" artist New York E.A.T.",
+            "\"Antonia Zerra\" artist",
+            "\"Sega Zerra Zanetti\"",
+            "\"Lisa Serra\" E.A.T. member list",
+            "\"Lisa Zera\" E.A.T. member list",
+            "\"Lisa Zerra\" Bell Labs artist",
+            "\"Lisa Serra\" E.A.T. directory",
+            "\"Lisa Zerra\" artist late 60s",
+            "\"Lisa Zera\" E.A.T. directory",
+            "",
+            "\"Lisa Zerra\" art club Agawam 1960s",
+            "\"Zerra Zanetti\"",
+            "\"Lisa Zera\" Experiments in Art and Technology NY",
+            "\"Lisa Zerra\" book",
+            "\"Lisa Zera\" book",
+            "\"Lisa Zera\" artist catalogue",
+            "",
+            "\"Lisa Zerra\" New York art scene 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFigYQfHsUMERIWaKiTRvCO3Gw9xzYSVXUNoai2ZasY2e3cvFVTX07Y6d6Zsl_joRVucnWq4Ycl5ZWu-qx6Rodjoh8Te-MIRQNKjrwGNLvpbknEiL8568PpC8DqXEQ1gnQ4_8ngd09_Bv5BufAd8LH5L_Wylxb71t1g5CejuJIN4hHwyVFIuVpiFDgbI7tBC2aYNnE=",
+              "title": "e-yearbook.com",
+              "resolvedUri": "https://www.e-yearbook.com/yearbooks/Agawam_High_School_Sachem_Yearbook/1963/Page_1.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH86vBx4zj0qDzwaN-nzasqfdarImsB8HJOOvRJ1YkknYW0wZlCXUm4jQSKwQoKSWeaPyxAvjcfnMg7_UIRpeTi24570Ahf1l1dg5BbTnJyDH4al_6y53Fzv8rNEbUPXozVYfKS3DF1OGYESbil8hkJNscZuwrxIsMUWP09w_YvOdvE0rw2EkFmSUfg6chtwNZ_s5w=",
+              "title": "e-yearbook.com",
+              "resolvedUri": "https://www.e-yearbook.com/yearbooks/Agawam_High_School_Sachem_Yearbook/1963/Page_1.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 229,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lisa Zerra was an individual active in art circles during the early 1960s, notably serving as the Treasurer of the Art Club at Agawam High School (Class of 1963) in Massachusetts."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 230,
+                "endIndex": 386,
+                "text": "During this time, the Art Club focused on stimulating interest in creative and expressive phases of art and acquainting members with cultural contributions."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -30,6 +326,130 @@
         "y1": 18.7,
         "x2": 40.0,
         "y2": 29.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7368314",
+          "label": "Rosemary Beresford",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names match exactly, but the Wikidata entity describes a figure skater born in 1898. While possible, it is unlikely that a figure skater born in the late 19th century would be the 'artist' active in the late 1960s/early 1970s described in the card context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Dr. Rosemary Beresford (ONZM) is a New Zealand-based academic, pharmacist, and theatre practitioner who has been active in the arts and sciences since at least the late 1960s. She is best known in the arts community as a long-term committee member and \"stalwart\" of the Globe Theatre in Dunedin, New Zealand, which was founded in 1961 and noted for its experimental and avant-garde productions during the 1960s and 1970s. Beresford led a significant fundraising campaign that raised over $500,000 for the restoration of the Globe Theatre's heritage building. Professionally, she was an academic at the University of Otago's School of Pharmacy, joining in 1982 and serving as Associate Dean before her retirement in 2008. Her work frequently bridged the gap between science and the humanities; she has published research on Artificial Neural Networks (ANNs) and computer modeling, and has authored or edited works on the history of medicine, traditional remedies, and local history (such as the Harwood Township). Her association with Experiments in Art and Technology (E.A.T.) likely stems from her dual involvement in experimental theatre and technological/scientific research, aligning with E.A.T.'s mission to promote collaborations between artists, engineers, and scientists.",
+            "sources": [
+              "https://www.theatreview.org.nz/reviews/Wellington",
+              "https://www.playmarket.org.nz/annual-new-zealand-theatre-2018",
+              "https://www.scoop.co.nz/stories/AK0503/S00257/dunedin-arts-and-cultural-events.htm",
+              "https://www.otago.ac.nz/pharmacy/about/history",
+              "https://www.researchgate.net/publication/12448493_Basic_concepts_of_artificial_neural_network_ANN_modeling_and_its_application_in_pharmaceutical_research",
+              "https://teara.govt.nz/en/photograph/28227/ufs-dispensary-dunedin"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Rosemary Beresford (1916–2005) was a British educationist and literary reviewer who was active in the 1960s and 1970s. She served as an assistant senior education officer at the BBC and was the principal of Sidney Webb College from 1961 until its closure in 1975. During her tenure, she focused on training mature students for the teaching profession. Following her retirement, she remained active in the academic community, serving as a pro-rector at the institution that became the University of Westminster and contributing literary reviews to The Times Higher Education Supplement. While primarily known for her work in education, her role at the BBC during the 1960s and her work as a reviewer of humanities and art-related subjects place her within the historical artistic and intellectual milieu of that period.",
+            "sources": [
+              "https://www.theguardian.com/news/2005/nov/22/guardianobituaries.mainsection",
+              "https://www.monash.edu/records-archives/archives/publications/monash-reporter/1985"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Rosemary Beresford artist",
+            "\"Rosemary Beresford\" E.A.T. artist",
+            "Rosemary Beresford exhibition 1960s 1970s",
+            "\"Rosemary Beresford\" Experiments in Art and Technology",
+            "\"Rosemary Beresford\" list of artists E.A.T.",
+            "\"Rosemary Beresford\" E.A.T. Experiments in Art and Technology artist engineer",
+            "",
+            "\"Rosemary Beresford\" artist New York 1960s",
+            "\"Rosemary Beresford\" Bell Labs artist engineer",
+            "\"Rosemary Beresford\" E.A.T. membership",
+            "",
+            "\"Rosemary Beresford\" artist contributor E.A.T.",
+            "\"Rosemary Beresford\" computer artist 1960s 1970s",
+            "\"Rosemary Beresford\" Experiments in Art and Technology member list",
+            "\"Rosemary Beresford\" artist 1960s 1970s E.A.T.",
+            "\"Rosemary Beresford\" Bell Labs E.A.T.",
+            "",
+            " \"Rosemary Beresford\"",
+            "\"Rosemary Beresford\" E.A.T. member list directory",
+            "\"Rosemary Beresford\" artist engineer 1969 1970 1971"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxU06szgyNmjbyUVLozHcFSPCKpQEX5sFcRtlGuqT13bAnVVtYZXbSFAMymwxuBBN7fEiCIUh1_x4is3l1GUbcAVkh_nDMs4yQdHGmDagIMFDdqyXE6kFbQwozrPrsWOg5Y9lz0scjXzGWALEzGo5Bcuy5UgrqHk1Vo0q_Ew==",
+              "title": "playmarket.org.nz",
+              "resolvedUri": "https://www.playmarket.org.nz/assets/2015-Playmarket-Annual-50.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjlhjRJhF1epQCUtitwSJWn9ewNP1Bt4LWTnRyl7_u3Qcv9WMMpw-86xomfeTv-ntxpvAhoMTMadK9POcJWGeHPSN6NxJILkTcTPwV53eP9syQUnx_DUORQemdqn5jw_2GU98v3VpuFyiwJVoUieAYYxxDIX2SsT67BcDdCyE=",
+              "title": "theguardian.com",
+              "resolvedUri": "https://www.theguardian.com/news/2005/nov/23/obituaries.mainsection"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJzQ7x7jR13B7qCxP_UhhIiwgnVxpl-JZyY4-Ch0ETpT9k77OXl8u-16W-C3v-Yb9LODbHse7d2_gwDxg7D6-CXISYceRZebpRdY3m069AH_amjIO3rsSYGfQ6Eq-WcZggaquMyPtehynwUofWk_cMXCuUWUhR3X9vAvHf-IZRLeIddFgkI4U-G-cUpUPVN0fEysmkXNTAi0410t6hHQ==",
+              "title": "anu.edu.au",
+              "resolvedUri": "https://openresearch-repository.anu.edu.au/bitstreams/5359aca6-7f36-4a19-9830-aaf5aa14be6b/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBrNnWa8hg3R309rNSeZ2Y7oEeW6xC13_SZWoNYHKMDLtdorlIZVzfljnXkQfoSAnBiKpRh0RU_M3h-W-MrrPQAuGoNIcqnp5P5LnZHeE77rba5OJV_7Q5pLn2yR_PuoreKnf2YqkeFJk4B7jFd_nSxH3pfzywZianAoQK",
+              "title": "collectionscanada.ca",
+              "resolvedUri": "https://www.collectionscanada.ca/obj/s4/f2/dsk2/ftp03/NQ49970.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 474,
+                "endIndex": 610,
+                "text": "Beresford led a significant fundraising campaign that raised over $500,000 for the restoration of the Globe Theatre's heritage building."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1129,
+                "endIndex": 2080,
+                "text": "likely stems from her dual involvement in experimental theatre and technological/scientific research, aligning with E.A.T.'s mission to promote collaborations between artists, engineers, and scientists.\",\n      \"sources\": [\n        \"https://www.theatreview.org.nz/reviews/Wellington\",\n        \"https://www.playmarket.org.nz/annual-new-zealand-theatre-2018\",\n        \"https://www.scoop.co.nz/stories/AK0503/S00257/dunedin-arts-and-cultural-events.htm\",\n        \"https://www.otago.ac.nz/pharmacy/about/history\",\n        \"https://www.researchgate.net/publication/12448493_Basic_concepts_of_artificial_neural_network_ANN_modeling_and_its_application_in_pharmaceutical_research\",\n        \"https://teara.govt.nz/en/photograph/28227/ufs-dispensary-dunedin\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Rosemary Beresford (1916–2005) was a British educationist and literary reviewer who was active in the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2226,
+                "endIndex": 2313,
+                "text": "During her tenure, she focused on training mature students for the teaching profession."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2548,
+                "endIndex": 3034,
+                "text": "While primarily known for her work in education, her role at the BBC during the 1960s and her work as a reviewer of humanities and art-related subjects place her within the historical artistic and intellectual milieu of that period.\",\n      \"sources\": [\n        \"https://www.theguardian.com/news/2005/nov/22/guardianobituaries.mainsection\",\n        \"https://www.monash.edu/records-archives/archives/publications/monash-reporter/1985\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

@@ -17,5 +17,235 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5173500",
+      "label": "Corwin Clairmont",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinctly different: 'Walker Corwin' (where Corwin is likely the surname) versus 'Corwin Clairmont' (where Corwin is the given name). Additionally, their primary occupations are different (Electrical Engineer versus Installation Artist), and there is no geographic or biographical overlap between the two records."
+    },
+    {
+      "qid": "Q5173502",
+      "label": "Corwin Hansch",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Walker Corwin vs. Corwin Hansch), and their professional backgrounds show no overlap: the card describes an electrical engineer at Bell Telephone Laboratories, while the Wikidata entity describes a prominent chemist and pharmacologist at Pomona College."
+    },
+    {
+      "qid": "Q5173504",
+      "label": "Corwin M. Nixon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are different; in the first record, 'Corwin' is the surname, while in the second, it is the first name. Furthermore, their professions (Electrical Engineer vs. Politician) and locations (New Jersey vs. Ohio) show no overlap."
+    },
+    {
+      "qid": "Q14590828",
+      "label": "Corwin C. Guell",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card record is for Walker Corwin, an electrical engineer in New Jersey working for Bell Labs. The Wikidata entity is for Corwin C. Guell, a lawyer and politician in Wisconsin who served in the Wisconsin State Assembly. Their names, locations, and professions show no overlap."
+    },
+    {
+      "qid": "Q18657341",
+      "label": "Corwin Stickney, Jr.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names do not match; 'Walker Corwin' and 'Corwin Stickney, Jr.' are distinct names where 'Corwin' appears as a surname in one and a given name in the other. Furthermore, the Wikidata entry lacks any professional or geographical information to link it to the electrical engineer described on the card."
+    },
+    {
+      "qid": "Q19877092",
+      "label": "Corwin Clatt",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Walker Corwin vs Corwin Clatt), where 'Corwin' serves as a surname in the first record and a given name in the second. Furthermore, their professions (Electrical Engineer vs. American football player) and locations (New Jersey vs. Illinois/Iowa) do not align."
+    },
+    {
+      "qid": "Q29840737",
+      "label": "Corwin Sullivan",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names do not match; the card refers to Walker Corwin (surname Corwin), while the Wikidata entity is Corwin Sullivan (given name Corwin). Additionally, the Wikidata entity's birth date of 2000 makes it chronologically impossible for them to have been an established electrical engineer at Bell Telephone Laboratories, which primarily operated under that specific name in the mid-20th century."
+    },
+    {
+      "qid": "Q38038062",
+      "label": "Corwin Knapp Linson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names do not match (Walker Corwin vs. Corwin Knapp Linson). Furthermore, their primary occupations are significantly different: an Electrical Engineer at Bell Labs versus a professional painter and illustrator. While the Wikidata entity died in 1959 and the card indicates an interest in art, the naming structure and career paths are fundamentally distinct."
+    },
+    {
+      "qid": "Q50656701",
+      "label": "Corwin H Booth",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are fundamentally different: 'Walker Corwin' (where Corwin is likely the surname) and 'Corwin H Booth' (where Corwin is the first name and Booth is the surname). Additionally, their employers (Bell Telephone Laboratories vs. Lawrence Berkeley/Los Alamos) and locations do not align."
+    },
+    {
+      "qid": "Q52845194",
+      "label": "Corwin D. Edwards",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are structured differently (Walker Corwin vs. Corwin Edwards). Their occupations are also completely different (Electrical Engineer vs. Economist). There are no overlapping details in employer or location that suggest they are the same individual."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Labs is the common name for Bell Telephone Laboratories. The Wikibase entity points to the same organization, specifically referencing its role as a sponsor for E.A.T. and 9 Evenings, which aligns with the card's profile of an electrical engineer at Bell Labs who also 'makes art'."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card, Bell Telephone Laboratories, is an organization (a research and development company). The Wikibase entity, Bell Telephone Laboratories Reporter, is explicitly identified as a 'publication' and part of a bibliography project. While the publication is likely produced by the organization, they are distinct types of entities."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the full, formal name of the organization commonly known as Bell Labs (Q217365). The Wikidata entity correctly identifies the organization as a research institute located in New Jersey, which aligns with the card data."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' is an exact match. Although the Wikidata entity is categorized as a 'production company' (likely due to its historical production of scientific and educational films), it refers to the same corporate entity that employed electrical engineers in New Jersey, as described on the card."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q59493148) refers specifically to a 'collection' of archival materials held by the National Archives and Records Administration (NARA). It is not the organization 'Bell Telephone Laboratories' itself, but rather a set of documents and records produced by or about them."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' is an exact match for the employer listed on the card. Q58952200 is the specific Wikidata record for Bell Telephone Laboratories, the research and development company that later became Bell Labs."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950935 refers specifically to Bell Telephone Laboratories, the research and development subsidiary of the Bell System. This is an exact match for the employer organization listed on the index card."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950393 refers to a person (Corwin Walker, an American artist), whereas Bell Telephone Laboratories is a research and development organization. A person cannot be the same entity as an organization."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is a Wikimedia disambiguation page, which is a tool to distinguish between various articles with similar titles. It is not the actual organization entity (which is typically represented by Q19173). Therefore, it cannot be the employer listed on the card."
+    }
+  ],
+  "web_research": {
+    "results": [],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Walker Corwin\" E.A.T. Experiments in Art and Technology",
+        "\"Walker Corwin\" engineer obituary",
+        "",
+        "\"Walker Corwin\" E.A.T. engineer",
+        "\"Walker Corwin\" bibliography Bell Labs",
+        "",
+        "\"Walker Corwin\" E.A.T. index card",
+        "\"W. Corwin\" Bell Labs Matawan",
+        "\"Corwin Walker\" Bell Labs engineer",
+        "\"Walker Corwin\" electrical engineer Bell Telephone",
+        "\"Corwin, Walker\" E.A.T.",
+        "\"Corwin, Walker\" Bell Labs",
+        "\"Walker Corwin\" E.A.T.",
+        "\"Walker Corwin\" Bell Labs",
+        "",
+        "\"Corwin Walker\" Bell Laboratories",
+        "\"Walker Corwin\" index card engineer",
+        "\"Walker Corwin\" Bell Laboratories",
+        "",
+        "\"Corwin Walker\" engineer Experiments in Art and Technology",
+        "\"Walker Corwin\" engineer Experiments in Art and Technology",
+        "",
+        "",
+        " \"Corwin Walker\"",
+        " \"Walker Corwin\"",
+        "",
+        "\"Corwin Walker\" electrical engineer Bell Labs",
+        "\"Walker Corwin\" electrical engineer Bell Labs",
+        "\"Corwin Walker\" Bell Laboratories engineer",
+        "\"Corwin Walker\" Experiments in Art and Technology",
+        "\"Walker Corwin\" Bell Laboratories 1969",
+        "\"Walker Corwin\" Bell Laboratories 1970",
+        "\"Corwin Walker\" Bell Laboratories 1968",
+        "\"Corwin Walker\" \"Technical Services\" E.A.T.",
+        "",
+        "\"Walker Corwin\" E.A.T. index card Bell",
+        "\"Walker Corwin\" Technical Services Bell Telephone",
+        "\"Corwin Walker\" electrical engineer NJ 1970",
+        "",
+        " \"Matawan\"",
+        " \"Walker\" \"Corwin\"",
+        "\"Corwin Walker\" engineer 1960s",
+        "\"Walker Corwin\" engineer 1960s",
+        "",
+        " \"Matawan\" engineer",
+        " \"Bell Labs\" \"Matawan\"",
+        " \"Bell Telephone Laboratories\" \"Matawan\"",
+        "",
+        "\"Walker Corwin\" engineer E.A.T.",
+        "\"Walker Corwin\" 1960s Bell Labs engineer",
+        "\"Corwin, Walker\" Bell Laboratories engineer",
+        "",
+        "\"Corwin Walker\" Bell Labs E.A.T.",
+        "\"Walker Corwin\" Bell Labs E.A.T.",
+        "",
+        " \"Matawan\"",
+        " \"Corwin, Walker\"",
+        " \"Walker, Corwin\"",
+        " \"Bell Telephone Laboratories\" Matawan",
+        "",
+        "\"Corwin Walker\" electrical engineer Bell Laboratories",
+        "\"Walker Corwin\" electrical engineer Bell Laboratories",
+        "\"Corwin Walker\" Bell Labs New Jersey",
+        "\"Walker Corwin\" Bell Labs New Jersey",
+        "",
+        "\"Walker Corwin\" E.A.T. newsletter",
+        "\"Walker Corwin\" Bell Laboratories record",
+        "\"Walker Corwin\" member E.A.T.",
+        "",
+        "\"Corwin Walker\" Monmouth County",
+        "\"Corwin Walker\" NJ engineer"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

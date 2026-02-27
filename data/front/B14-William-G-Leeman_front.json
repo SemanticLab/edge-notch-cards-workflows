@@ -20,5 +20,160 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Kinetic sculpture"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q39676015",
+      "label": "William Leeman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe people from completely different eras. The Wikidata entity lived in the mid-19th century (1839–1859) and was an abolitionist involved in John Brown's raid. The card data describes an electronics engineer at Bell Telephone Laboratories (a 20th-century institution) specialized in digital circuitry and kinetic sculpture."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the full historical name of Bell Labs. The Wikibase entity includes the Wikidata QID Q217365 and the Murray Hill, NJ location, both of which are definitive identifiers for this organization."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is Bell Telephone Laboratories, which is a research and development organization. The Wikibase entity Q22124 is explicitly identified as a 'publication' (the Bell Telephone Laboratories Reporter) and not the organization itself."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the original formal name of Bell Labs (Q217365). The entity is a renowned research and development company headquartered in New Jersey, which matches the location and technical field (electronics/digital circuitry) mentioned on the card."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' is an exact match for the employer listed on the card. Although the Wikidata entity is categorized as a 'production company' (likely referring to the entity's history of producing research and educational films), it represents the same organization as the famous research laboratory where the electronics engineer mentioned on the card worked."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data refers to Bell Telephone Laboratories as an employer (an organization), whereas the Wikidata entity Q59493148 is explicitly identified as a 'collection' and 'fonds' held by the National Archives and Records Administration. The Wikidata entity represents archival records from the company, not the corporate entity itself."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58952200 corresponds to Bell Telephone Laboratories, matching the employer name on the card exactly. Bell Telephone Laboratories is the historically accurate name for the research organization (now Bell Labs) where an electronics engineer would work."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the formal historical name for Bell Labs (represented by Wikidata entity Q58950935). They are the same research and development organization."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization on the card, Bell Telephone Laboratories, is the exact name represented by the Wikidata entity Q58950393. This organization was a renowned R&D laboratory located in New Jersey, where the individual on the card resided and worked as an electronics engineer."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is a disambiguation page, which is a structural element used to distinguish between different topics with the same name. It is not the actual research organization (Bell Labs) where the individual was employed. The organization itself is represented by a different Wikidata entity (Q217365)."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "William G. Leeman was an electronics engineer at Bell Telephone Laboratories (Bell Labs) who was active in the late 1960s and early 1970s. Specializing in electronics and digital circuitry, he was an associate of the non-profit organization Experiments in Art and Technology (E.A.T.), which promoted collaborations between artists and the technical community. Leeman is documented in the E.A.T. archives for his work on a collaborative project with the artist Claudio Badal and fellow engineers Bob Allerot and Anthony 'Tony' Tedona. This collaboration, sometimes referred to as the 'Disc artist project,' involved the development and use of technical components such as a ring counter and a voice-activated microphone. Audio recordings of discussions related to this project (dating around 1966–1967) are preserved in the Experiments in Art and Technology records at the Getty Research Institute. Leeman resided in Matawan, New Jersey, and is listed as an alumnus of the Polytechnic Institute of Brooklyn (now the NYU Tandon School of Engineering).",
+        "sources": [
+          "https://www.getty.edu/research/tools/vac/finding_aids/eat_records.pdf",
+          "https://oac.cdlib.org/findaid/ark:/13030/tf3489n66v/admin/",
+          "https://issuu.com/nyutandon/docs/nyu_tandon_-_class_of_2023_commencement",
+          "https://www.legacy.com/us/obituaries/savannah/name/anthony-tedona-obituary?id=14188373"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"William G. Leeman\" Experiments in Art and Technology",
+        "",
+        "\"William G. Leeman\" Experiments in Art and Technology member",
+        "",
+        "\"W. G. Leeman\" Bell Telephone Laboratories",
+        "\"William G. Leeman\" Experiments in Art and Technology Bell Labs",
+        "\"William G. Leeman\" Matawan New Jersey engineer",
+        "",
+        "\"William G. Leeman\" Polytechnic Institute of Brooklyn alumni",
+        "",
+        "\"W.G. Leeman\" Bell Labs \"Disc artist project\"",
+        "\"W.G. Leeman\" \"voice activated mike\"",
+        "\"Tony Tedona\" Bell Labs",
+        "\"Claudio Badal\" E.A.T. project",
+        "\"Bob Allerot\" Bell Labs",
+        "\"William G. Leeman\" Bell System technical paper",
+        "",
+        "\"W. G. Leeman\" patent",
+        "\"William G. Leeman\" obituary Bell Labs",
+        "",
+        "\"William G. Leeman\" Bell Labs 1960s 1970s"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYxciyGI9wRwPwadp_VDAVVAdi0CCF6wTnkWHS1RHBLjlrqcC2ZfBZJjcwlHmwjZZOmkrYhWmY5swWnT2CwCNbrZa_I22fMzKzZM7oM8vb4JRF2p7xmp21EYehIX4AnfCGSGoQoJqtDkyMJF3I1NsoRIsC_PK3m8XphA==",
+          "title": "getty.edu",
+          "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 410,
+            "endIndex": 444,
+            "text": "Leeman is documented in the E.A.T."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 584,
+            "endIndex": 769,
+            "text": "This collaboration, sometimes referred to as the 'Disc artist project,' involved the development and use of technical components such as a ring counter and a voice-activated microphone."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

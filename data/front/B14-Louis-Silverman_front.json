@@ -16,5 +16,156 @@
     "technicalFields": [
       "Materials Engineering"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q6688183",
+      "label": "Louis Silverman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the names are identical, the professions and locations are completely different. The card describes a metallurgist and ceramist working in New Jersey, whereas the Wikidata entity describes a politician who served in the Pennsylvania House of Representatives."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2041906",
+      "label": "Victory Engineering",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is a motorsport team based in Rome, Italy, founded in 2002. The organization on the card is an industrial company in Springfield, New Jersey, employing a metallurgist and ceramist, which implies a manufacturing or engineering firm, likely active much earlier given the phone number format."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Louis Silverman was a materials engineer, metallurgist, and ceramist active during the late 1960s and early 1970s. He was a member of the American Ceramic Society and was professionally associated with the Victory Engineering Corporation (VECO), a manufacturer of specialized electronic components such as thermistors and varistors. During this period, he resided in Clifton, New Jersey, and worked for the company's facility, which was located in Springfield, New Jersey. His expertise in ceramics and metal oxides was relevant to the production of temperature-sensing devices. Silverman is documented as being associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that facilitated collaborations between the technical and artistic communities. He likely served as a technical consultant or collaborator, offering his knowledge of materials science and sensor technology to artists through the E.A.T. Technical Services program.",
+        "sources": [
+          "https://www.toxicdocs.org/d/AUZIYQE5kCucWbwAStE4g-ZojLH5YYOZ8sodvhofLI3CtSryeh3o3SCoh-ubuKpXQy7Sqzfed21YVRgFG8RSPPWiehDCiH3zQF0V3SwxHcpv8hWBglHDqAEUUaelFXwNkg8eBtdVC0FzG3kG-yd_fBC5LUHpniM3cc_tU73sAZhOBMq8OR1ElUHX8yL2DBxMplj41w==",
+          "https://www.ysi.com/about/history",
+          "https://www.bitsavers.org/components/victoryEngineering/Victory_Engineering_Flow_Measurement_Data_Sheet.pdf",
+          "https://www.gracesguide.co.uk/Category:Town_-_London"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Louis Silverman \"Victory Engineering\"",
+        "\"Louis Silverman\" E.A.T. Experiments in Art and Technology",
+        "\"Louis Silverman\" metallurgist ceramist Clifton New Jersey",
+        "\"Victory Engineering\" Clifton New Jersey Louis Silverman",
+        "",
+        "\"Victory Engineering\" Clifton NJ E.A.T.",
+        "\"Louis Silverman\" E.A.T. member list",
+        "\"Louis Silverman\" E.A.T. technical services",
+        "",
+        "\"Victory Engineering\" Springfield NJ E.A.T.",
+        "\"Louis Silverman\" ceramist Clifton NJ E.A.T.",
+        "\"Louis Silverman\" engineer E.A.T. artist collaboration",
+        "",
+        "\"Louis Silverman\" E.A.T. New Jersey",
+        "\"Louis Silverman\" E.A.T. index card Victory Engineering",
+        "\"Louis Silverman\" Victory Engineering 1960s 1970s"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Rk-_LmgoC1g3M3qD87d5sKVHLcaqYTc2dIVOeJDaBQpe6du8gm6gISqQGZD4bJjQI_9QAilEETFZBNe86KrSBQhtC5Q4odDMjCP7snmfv43e7ELY1_d2DB4bT8Ny5at0nZsPcJMuOK2NNn2rhy_6zYoy9jP1IdgQQ2GMxARpOz5Wxj193uY=",
+          "title": "jwv.org",
+          "resolvedUri": "https://www.jwv.org/wp-content/uploads/The_Jewish_Veteran_September_2016.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5kCucWbwAStE4g-ZojLH5YYOZ8sodvhofLI3CtSryeh3o3SCoh-ubuKpXQy7Sqzfed21YVRgFG8RSPPWiehDCiH3zQF0V3SwxHcpv8hWBglHDqAEUUaelFXwNkg8eBtdVC0FzG3kG-yd_fBC5LUHpniM3cc_tU73sAZhOBMq8OR1ElUHX8yL2DBxMplj41w==",
+          "title": "toxicdocs.org",
+          "resolvedUri": "https://cdn.toxicdocs.org/NN/NNpXr8XM2NOO4QZVXG04NGx6b/NNpXr8XM2NOO4QZVXG04NGx6b.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf_b_qiRjwRWhGtxc_T7QqUR83pN7fWqIK9F68eMCsg1QiV9Dauge991wjYhX7ENRx6qAbyz_bkzg0xvVhCKMBtYgGrXela4HHebkImiPbNGfyKoBrh245bmMWx5xv_k8iVsAXDMDg3lK1o9oewJYdpGcJ0YHh-jiat9oCSDdXpuxG9G-fEEQksZ8ea7tnbw==",
+          "title": "toxicdocs.org",
+          "resolvedUri": "https://cdn.toxicdocs.org/np/npK1BV3aLy9boxg9DK0Y8gjLG/npK1BV3aLy9boxg9DK0Y8gjLG.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrfOmmY5qtDu0EU1fATQFj9zaY4lDTOcwR9monq126wlJOAOYF8DtdPKpTGWmsgIhdePuMDIl14wRP20d1glQNO8-KHT7xZLDFeet5aUwed9-gC80GrY1LOPEVHOkfkCU-YgJM2_KFhR_-Aw==",
+          "title": "hydeparkhistory.org",
+          "resolvedUri": "https://www.hydeparkhistory.org/hphs-newsletters"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVecMnANkj8V85tomGidqq6L04-yg_vL6CVVZVMhqQV_KcgcGnxS7vfVi65Vi-1MMw9I_utFVULmJB8tbM_wRxV-u4UcHPHIFB_IBFNKYw3outselI2GxbbMdp7lbSx_w2O6L2hLWnPaCIAA13HpqTImXTPjad3lbFFKYU9Trvl6Yelry-g5nQsob-_x8NrwA=",
+          "title": "rottentomatoes.com",
+          "resolvedUri": "https://editorial.rottentomatoes.com/guide/moon-movies-to-celebrate-the-moon-landing/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJC4fZPjSGdHaq6GtW1M7iK8gZ_WNa99IRGl9GYSc1eDsCo8PdghAfcRLw1xfJRW_0YviEjjfFQONaHrXCC-F16jnWLocnwfIk5AVf9Q3SEuD666F1r2Fm2oWEmNz-O1X7CSSEfKb1oo13Mxpg_s9ghRDKoexWJQMZdA7SV3VBv0ZSk9c=",
+          "title": "rijha.org",
+          "resolvedUri": "https://www.rijha.org/wp-content/uploads/voiceandherald/1960/1960-2-5.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo-AQGs7bDabZw82zRi-0c_MM_oj_SmGYWYCrzVN9qoTiKtXlO4Tslsz11GKSlbxeNfTtF6Q_NU8HIVz1Mc5nY4TayTKks1XtUsoMy3Q0Uc2QNu59bJ9Z00uMVA6vNpDxwy71sMksRHw1ReYJAphNqzlEDQnqGQVg=",
+          "title": "libraryweb.org",
+          "resolvedUri": "https://www.libraryweb.org/~digitized/yearbooks/East/1924.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBDgEC4ydU7uvXeseEEBFMMJdv-Her0mnOXu1zDn6CLH624GSwl_ymv7PRhFotBCjsmSeNlMlaNKiYZdpcEeDJ0JyZkH8Pk7zFBLDs8Jt6F6oGDwHw_V-Fj2cq6g4y0kywQwDBlC_MFownIRfVEfXN4ug-gvONXoD0D16EeEiL5NxEk6UT",
+          "title": "bataviahistory.org",
+          "resolvedUri": "https://bataviahistory.org/wp-content/uploads/2019/10/Historian-Vol-41.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGYWCti7hrNQtLrG30juiJ-nJbbvCp1E-eadv0Rtz7nznVTn13PVhhh0fY-aNkXeZwePEuFxZUk_Z2MHon8bvpy3e79EuxjnghQeopy_xb_LysGUoRNwmTqSpt73rffIXniwzHiJshz9VX_Epl-4BeONvlTO15DJVN00u1EYb1epKPwe-eBwGv_v2l7T3e66mrUsI=",
+          "title": "cmu.edu",
+          "resolvedUri": "http://iiif.library.cmu.edu/file/CRI_1928_072_004_06011928/CRI_1928_072_004_06011928.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNuS0s7ttvWPjOYJUAofgfq6d5t5YHQZiaQJg82oZ7HrhaXKaEQooOrWsr66YhKSyZ4zWUeM2BFYV8E95_YYgqCt7ipni_EnBKxmvc4sqfZtEyJoqcwuMnwOjvNHg1v3Ze4EDSPCU169Ydeg==",
+          "title": "hydeparkhistory.org",
+          "resolvedUri": "https://www.hydeparkhistory.org/hphs-newsletters"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbnlafNuNbVwUSVU3kx7F-FuJZbdNqo3WCErvhgiorF_0Q1upAeUPjy7gDji3x0HTeX_vZKC0ieiXuzLZ6lOdinDSBdV4rZa1dDOyVq1ftZRfJnQgc8TDLZ5ESpHUFXZU6rHoaqD2nggQ93KSXxJTPgNu2Kkxnnbg=",
+          "title": "libraryweb.org",
+          "resolvedUri": "https://www.libraryweb.org/~digitized/yearbooks/East/1924.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ0tFDHIR-m43kkKbgp63rwmjgYzEGUe58g2kuOVpf4rFd8nE7Y4fOALgRFbiBsExetpUdeaNZG_woveMyCoJLjiqizFtsiBflpoygmUrlHdjrnDURH0jSooNQAHoFmhbDGrW9dUyqaB0ZSagOIcM6BqLsvsVmvFKWHWUHMQ3CglC2G0Ap_DFNaZh3BPM=",
+          "title": "digifind-it.com",
+          "resolvedUri": "https://www.digifind-it.com/cranford/data/newspapers/chronicle/1980/1980-10-30.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 164,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Louis Silverman was a materials engineer, metallurgist, and ceramist active during the late 1960s and early 1970s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 984,
+            "endIndex": 1552,
+            "text": "Technical Services program.\",\n      \"sources\": [\n        \"https://www.toxicdocs.org/d/AUZIYQE5kCucWbwAStE4g-ZojLH5YYOZ8sodvhofLI3CtSryeh3o3SCoh-ubuKpXQy7Sqzfed21YVRgFG8RSPPWiehDCiH3zQF0V3SwxHcpv8hWBglHDqAEUUaelFXwNkg8eBtdVC0FzG3kG-yd_fBC5LUHpniM3cc_tU73sAZhOBMq8OR1ElUHX8yL2DBxMplj41w==\",\n        \"https://www.ysi.com/about/history\",\n        \"https://www.bitsavers.org/components/victoryEngineering/Victory_Engineering_Flow_Measurement_Data_Sheet.pdf\",\n        \"https://www.gracesguide.co.uk/Category:Town_-_London\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            0,
+            11
+          ]
+        }
+      ]
+    }
   }
 }

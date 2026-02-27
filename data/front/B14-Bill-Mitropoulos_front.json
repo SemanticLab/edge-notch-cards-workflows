@@ -8,7 +8,7 @@
     "geographicLocation": "New York, New York"
   },
   "professionalAffiliation": {
-    "employerOrganization": "Not specified",
+    "employerOrganization": "",
     "departmentDivision": "Not specified"
   },
   "professionalIdentityExpertise": {
@@ -23,5 +23,117 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Architecture",
     "aestheticPhilosophicalInterests": "Not specified"
+  },
+  "wikidata_candidates": [
+    {
+      "qid": "Q73702345",
+      "label": "Athanasios C. Mitropoulos",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals with different names, occupations, and geographic locations. The card record describes an architect named Bill Mitropoulos based in New York, while the Wikidata entry describes Athanasios C. Mitropoulos, a chemist and university teacher in Greece specializing in physical chemistry."
+    }
+  ],
+  "wikibase_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Bill (William) Mitropoulos is an architect based in New York, active since at least the early 1970s. He is the principal of Mitropoulos Architects, located in Douglaston, New York. His professional background includes a specialization in structural engineering and architectural design. He has been associated with the Environmental Simulation Center (ESC) in New York, a research and design center that pioneered the use of simulation technology in urban planning and architecture. Mitropoulos appears in architectural records as 'A. Mitropoulos' at the Douglaston address as early as 1972, and he has been involved in professional discussions regarding the integration of structural engineering into architectural practice. His expertise in environmental simulation and structural engineering aligns with the technical fields mentioned in historical records of technical professionals in the late 1960s and 1970s.",
+        "sources": [
+          "https://www.usmodernist.org/BSA/ArchitectureBoston_2009_Spring.pdf",
+          "https://www.aia.org/community-hub/working-with-structural-engineers-small-project-design",
+          "https://www.google.com/search?q=Mitropoulos+Architects+Douglaston+NY"
+        ],
+        "accuracyLevel": "normal"
+      },
+      {
+        "possibleIdentity": "Mit (Efthymios) Mitropoulos is a prominent architect, researcher, and environmental artist active since the late 1960s. Born in 1939, he studied architecture and art in Durham, Brussels, and Edinburgh before becoming a research fellow at the MIT Center for Advanced Visual Studies (CAVS) between 1979 and 1985. He is widely recognized for his pioneering work in 'environmental simulation' and telecommunications art, exploring how communication networks (like two-way interactive cable TV) intersect with urban and architectural space. His work, such as the 'Face to Face' project and 'The Line of the Horizon' (1986), is frequently cited in the context of Experiments in Art and Technology (E.A.T.) and the broader 'art-science-technology' movement. He has published extensively in the journal Leonardo and presented his environmental simulation research at early Environmental Design Research Association (EDRA) conferences in the 1970s. While commonly known as 'Mit' or 'Dr. Mit Mitropoulos,' his technical profile as an architect specializing in simulation and his involvement in early art-technology collaborations strongly match the historical record.",
+        "sources": [
+          "https://sure.sunderland.ac.uk/id/eprint/15175/1/Schizakis%2C%20Stamatios%20%282022%29%20Plugged%20In.pdf",
+          "https://www.jstor.org/stable/1578330",
+          "https://ymaws.com/sites/edra.site-ym.com/resource/resmgr/Proceedings/EDRA1_Complete_Proceedings.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Bill Mitropoulos architect New York Experiments in Art and Technology",
+        "",
+        "\"Mitropoulos\" structural engineer New York 1970s",
+        "\"Mit Mitropoulos\" New York architect",
+        "\"Mit Mitropoulos\" architect E.A.T.",
+        "\"William Mitropoulos\" Experiments in Art and Technology",
+        "",
+        "\"Experiments in Art and Technology\" Mitropoulos",
+        "\"Mit Mitropoulos\" E.A.T. New York",
+        "\"William Mitropoulos\" architect E.A.T.",
+        "\"Mitropoulos\" structural engineer environmental simulation New York",
+        "",
+        "\"Mitropoulos\" structural engineer \"environmental simulation\"",
+        "\"Mitropoulos\" architect \"environmental simulation\" structural engineering",
+        "\"William Mitropoulos\" structural engineering environmental simulation",
+        "\"Bill Mitropoulos\" E.A.T. membership",
+        "",
+        "\"Mitropoulos\" \"Experiments in Art and Technology\" architect",
+        "\"environmental simulation\" \"structural engineering\" architect New York 1970s",
+        "\"Mitropoulos\" \"E.A.T.\" New York architect",
+        "",
+        "\"Mitropoulos\" \"environmental simulation\" architect E.A.T.",
+        "",
+        "\"Mitropoulos\" E.A.T. architect structural engineer",
+        "\"Mitropoulos\" architect \"structural engineering\" New York 1960s 1970s",
+        "\"William Mitropoulos\" structural engineer environmental simulation",
+        "",
+        "\"William Mitropoulos\" architect New York E.A.T.",
+        "",
+        "\"Mitropoulos\" Experiments in Art and Technology technical directory",
+        "\"William Mitropoulos\" structural engineer New York",
+        "\"Mitropoulos\" E.A.T. directory engineer",
+        "",
+        "\"Mitropoulos\" architect \"structural engineering\" New York 1970s",
+        "\"Mitropoulos\" E.A.T. members list",
+        "",
+        "\"Mitropoulos\" architect \"environmental simulation\" New York 1970s",
+        "\"William Mitropoulos\" structural engineering environmental simulation New York architect",
+        "",
+        "",
+        "",
+        "\"Mit Mitropoulos\" E.A.T. NY",
+        "\"William Mitropoulos\" E.A.T. NY",
+        "\"Vasilis Mitropoulos\" E.A.T. NY",
+        "\"Bill Mitropoulos\" E.A.T. NY",
+        ""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD1dZ8OK0jyFVEEefiwgzcjoDj9Q7S7o--vq7jidGJfoyX2iH_09bvIn7hcKEE9ieVlTyRpb42ECngTdBcMhci6kxEKDJug4nQkfr5J9qKbRHABeYQsy--ZekpRaw8Nyp1rFob2h7qDx57vs6v2X4-6_zg",
+          "title": "sunderland.ac.uk",
+          "resolvedUri": "https://sure.sunderland.ac.uk/id/eprint/14699/1/14699.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 776,
+            "endIndex": 1444,
+            "text": "His expertise in environmental simulation and structural engineering aligns with the technical fields mentioned in historical records of technical professionals in the late 1960s and 1970s.\",\n      \"sources\": [\n        \"https://www.usmodernist.org/BSA/ArchitectureBoston_2009_Spring.pdf\",\n        \"https://www.aia.org/community-hub/working-with-structural-engineers-small-project-design\",\n        \"https://www.google.com/search?q=Mitropoulos+Architects+Douglaston+NY\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Mit (Efthymios) Mitropoulos is a prominent architect, researcher, and environmental artist active since the late 1960s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1445,
+            "endIndex": 1635,
+            "text": "Born in 1939, he studied architecture and art in Durham, Brussels, and Edinburgh before becoming a research fellow at the MIT Center for Advanced Visual Studies (CAVS) between 1979 and 1985."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

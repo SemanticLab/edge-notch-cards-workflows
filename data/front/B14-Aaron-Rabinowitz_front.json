@@ -25,5 +25,72 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "None",
     "aestheticPhilosophicalInterests": "None"
+  },
+  "wikidata_candidates": [
+    {
+      "qid": "Q106614882",
+      "label": "Aaron Rabinowitz",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals with the same name but distinct biographies. The card describes an electrical and bio-medical engineer working for the Grumman Aircraft Engineering Corporation in New York, likely in the mid-20th century. The Wikidata entity describes a contemporary Israeli journalist born in 1987 who works for Haaretz and was educated at a yeshiva."
+    }
+  ],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q463261",
+      "label": "Grumman",
+      "description": "1929-1994 aerospace manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q463261 represents the Grumman corporation, which was historically known as the Grumman Aircraft Engineering Corporation. The location (Bethpage, NY) is in close proximity to the employee's residence in Great Neck, NY, and the industry (aerospace/engineering) matches the card's technical fields."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Aaron Rabinowitz\" Experiments in Art and Technology",
+        "Aaron Rabinowitz Grumman Aircraft Engineering Corporation",
+        "\"Aaron Rabinowitz\" E.A.T. artist engineer",
+        "\"Aaron Rabinowitz\" Great Neck electrical engineering",
+        "",
+        "\"Aaron Rabinowitz\" E.A.T. Grumman",
+        "\"Aaron Rabinowitz\" Experiments in Art and Technology engineer",
+        "\"Aaron Rabinowitz\" bio-medical engineer Grumman 1960s 1970s",
+        "\"Aaron Rabinowitz\" Experiments in Art and Technology engineer list",
+        "\"Aaron Rabinowitz\" Grumman electrical engineer bio-medical digital computers",
+        "\"Aaron Rabinowitz\" Grumman Great Neck engineering",
+        "\"E.A.T.\" engineer registry \"Aaron Rabinowitz\"",
+        "",
+        "\"Aaron Rabinowitz\" \"Great Neck\" Grumman engineer",
+        "\"Aaron Rabinowitz\" E.A.T. archive Grumman",
+        "",
+        "\"Aaron Rabinowitz\" Northrop Grumman engineer history",
+        "\"Rabinowitz\" engineer \"Experiments in Art and Technology\" Grumman",
+        "",
+        "",
+        "\"Aaron Rabinowitz\" \"Great Neck\" NY Grumman engineer",
+        "\"Experiments in Art and Technology\" \"Rabinowitz\" Grumman",
+        "\"Aaron Rabinowitz\" electrical engineer Grumman Aircraft Engineering Corporation",
+        "\"Aaron Rabinowitz\" E.A.T. Grumman Great Neck engineer",
+        "\"Aaron Rabinowitz\" Grumman \"E.A.T.\" archive",
+        "\"Aaron Rabinowitz\" \"test engineering\" Grumman",
+        "",
+        "\"Aaron Rabinowitz\" E.A.T. engineer bio-medical",
+        "",
+        "\"Aaron Rabinowitz\" E.A.T. technical fields",
+        "",
+        "\"Aaron Rabinowitz\" Grumman electrical engineer Great Neck",
+        "\"Aaron Rabinowitz\" Great Neck NY engineer Grumman",
+        "",
+        "\"Grumman Aircraft Engineering Corporation\" \"Great Neck\" engineer microwaves digital computers",
+        "\"electrical engineering\" \"bio-medical engineering\" \"digital computers\" \"microwaves\" \"test engineering\" index card"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

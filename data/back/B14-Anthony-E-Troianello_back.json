@@ -11,6 +11,138 @@
         "y1": 9.3,
         "x2": 30.2,
         "y2": 16.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28399",
+          "label": "Scotty Snyder",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Scotty Snyder' matches exactly in both records. The Wikibase entity explicitly identifies the person as an artist and links them to the E.A.T. project, which was active during the late 1960s, aligning perfectly with the card's date of 1969 and the provided artist context."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q29231",
+          "label": "Frans Snyders",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Frans Snyders (1579–1657) was a Flemish Baroque painter who died centuries before the 1969 date on the index card. Additionally, the first name 'Frans' does not match 'Scotty'."
+        },
+        {
+          "qid": "Q385997",
+          "label": "Jonas Suyderhoef",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Jonas Suyderhoef describes a 17th-century Dutch engraver who died in 1686. This is completely incompatible with the card entry for Scotty Snyder, who was active around 1969. Additionally, the names are not similar."
+        },
+        {
+          "qid": "Q1370998",
+          "label": "Snyder Rini",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different: the card refers to Scotty Snyder, while the Wikidata entity is Snyder Rini. Furthermore, the Wikidata entity is a prominent politician from the Solomon Islands, whereas the person on the card is identified as an artist active in the late 1960s, likely in a Western context (E.A.T.)."
+        },
+        {
+          "qid": "Q1681665",
+          "label": "Solomon H. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist named Scotty Snyder active in 1969. The Wikidata entity Q1681665 describes Solomon H. Snyder, a world-renowned neuroscientist and researcher. There is no indication that Solomon Snyder ever used the name 'Scotty' or worked as an artist; his career at the time was firmly established in medicine and neuroscience at Johns Hopkins."
+        },
+        {
+          "qid": "Q2296146",
+          "label": "Snyder S. Kirkpatrick",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are entirely incompatible. The Wikidata entity, Snyder S. Kirkpatrick, lived from 1848 to 1909, whereas the person on the card was active in 1969. Furthermore, their professions (lawyer/politician vs. artist) do not match."
+        },
+        {
+          "qid": "Q3182230",
+          "label": "John Otterbein Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Otterbein Snyder died in 1943, which makes it impossible for him to be the Scotty Snyder mentioned in a 1969 record. Additionally, the Wikidata entity was a scientist (ichthyologist/zoologist) rather than an artist."
+        },
+        {
+          "qid": "Q14954619",
+          "label": "Leon C. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Scotty' and 'Leon C.' do not match, and their occupations are fundamentally different. The card entry refers to an artist, while the Wikidata entity describes a botanist and horticulturist."
+        },
+        {
+          "qid": "Q25035800",
+          "label": "Abraham Z. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Scotty Snyder' from the index card does not match 'Abraham Z. Snyder' from the Wikidata entity. Furthermore, the Wikidata entity describes a researcher in neuroimaging with a birth date in 2000, which contradicts the card's data of an artist active in 1969."
+        },
+        {
+          "qid": "Q70250411",
+          "label": "Lillian Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Lillian Snyder, who was born in 1874 and was a mycologist/botanist. This does not match the card entry for Scotty Snyder, who is identified as an artist active in 1969. The names, occupations, and timelines are incompatible."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Scotty Snyder (born 1912) was an American painter and performance artist who was a prominent figure in the New York avant-garde scene during the late 1960s and 1970s. Based in Summit, New Jersey, she was associated with the Experiments in Art and Technology (E.A.T.) organization and participated in their exhibition held from November 1968 to February 1969 (likely the landmark 'Some More Beginnings' show at the Brooklyn Museum). Snyder was a frequent collaborator with theater director Robert Wilson as a member of his Byrd Hoffman School of Byrds, appearing in major productions such as 'The King of Spain' (1969), 'The Life and Times of Sigmund Freud' (1969), and 'Deafman Glance' (1970). In 1981, she starred in the film 'Strong Medicine', written and directed by Richard Foreman. As a painter, her work was featured in solo and group exhibitions at the Summit Art Center (now the Visual Arts Center of New Jersey) in 1962 and 1972, and she was selected for the 1969 New England Exhibition of Painting and Sculpture at the Silvermine Guild of Artists. Performance artist Stuart Sherman honored her with a 1987 video portrait titled 'Scotty Snyder (All Around the Table)'.",
+            "sources": [
+              "https://www.artist-info.com/curator/E-A-T",
+              "https://www.artcenternj.org/wp-content/uploads/2022/10/Exhibition-Timeline.pdf",
+              "https://en.wikipedia.org/wiki/Stuart_Sherman_(artist)",
+              "https://dspace.mit.edu/bitstream/handle/1721.1/63148/TDR_24_02_1980_80.pdf",
+              "https://www.scribd.com/document/217983696/Stefan-Brecht-The-Theatre-of-Visions-Robert-Wilson"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Scotty Snyder\" Experiments in Art and Technology",
+            "artist \"Scotty Snyder\"",
+            "\"Scotty Snyder\" E.A.T. artist",
+            "\"Scotty Snyder\" late 1960s 1970s artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_mvDq2dMUykURJlgG6M10S2RhvJlm-_i6xaBGSGz7IV27gLmAaeFViEO0FaE_zlCf_bg49drNbZ3IXG_-SGeyZyx-qUYkFWAtgZ2cC_vbZxMw7jkMMAa03lXbZWSz8jHJsbhA4oeFsSDrlZD6J2krsE0NcQWIOquFFCv18_AKFXKtZlGPRwGBAHrQkCjwjzOFVrKhWWFpm2ZeJSmJEmnCfp_yAooyAN3e",
+              "title": "artcenternj.org",
+              "resolvedUri": "https://www.artcenternj.org/wp-content/uploads/2021/11/MASTER-EXHIBITION-TIMELINE-annotated-UPDATE-11.19.21.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_ZDHS7MMvyb9lgtZphnMAR1vgCmBRUk3EripawwlDIZ5gvsyj4L_WvwCBpKlgurLZ5rWu3KfjMpBwiZ2_g27Ddfdw7ZPma5mkuHq9W6mRQwt--AawLgI5EnOmHQOuoLrw-hXZXjUUGF5LBXwaUVI=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Stuart_Sherman_(artist)"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 216,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Scotty Snyder (born 1912) was an American painter and performance artist who was a prominent figure in the New York avant-garde scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1108,
+                "endIndex": 1698,
+                "text": "Performance artist Stuart Sherman honored her with a 1987 video portrait titled 'Scotty Snyder (All Around the Table)'.\",\n      \"sources\": [\n        \"https://www.artist-info.com/curator/E-A-T\",\n        \"https://www.artcenternj.org/wp-content/uploads/2022/10/Exhibition-Timeline.pdf\",\n        \"https://en.wikipedia.org/wiki/Stuart_Sherman_(artist)\",\n        \"https://dspace.mit.edu/bitstream/handle/1721.1/63148/TDR_24_02_1980_80.pdf\",\n        \"https://www.scribd.com/document/217983696/Stefan-Brecht-The-Theatre-of-Visions-Robert-Wilson\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

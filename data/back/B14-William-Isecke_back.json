@@ -9,6 +9,142 @@
         "y1": 9.4,
         "x2": 37.3,
         "y2": 15.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5732793",
+          "label": "Herb Aach",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Herb Aach' matches exactly between the card and the Wikidata entity. The Wikidata entity describes a painter and artist active during the mid-20th century (lived 1923-1985), which aligns perfectly with the timeframe and profession context provided for the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Herb Aach (1923–1985), born Herbert Aach, was a German-American painter, writer, and prominent color theorist active during the 1960s and 1970s. He is closely associated with the 'color expressionism' movement and is noted for his pioneering use of fluorescent and phosphorescent pigments in fine art. Aach was involved with the Experiments in Art and Technology (E.A.T.) organization, notably participating in the 1968 E.A.T. exhibition 'Some More Beginnings' at the Brooklyn Museum where he exhibited fluorescent paintings. His technical expertise as a 'color engineer' was developed during a period (1954–1963) at the Art Crayon Company, where he formulated unique pigments and paints. In 1971, he published a widely recognized English translation and edition of Goethe's 'Theory of Colours.' Throughout his career, he held various academic positions, including serving as the Chairman of the Arts Department at Queens College (1976–1979) and teaching at the Pratt Institute. His work is characterized by intense pigmentation and geometric explorations of color relationships, as seen in his major series 'Split Infinity' and 'Precession of the Equinoxes.'",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Herb_Aach",
+              "https://www.herbaach.com/",
+              "https://academiccommons.columbia.edu/doi/10.7916/D89G5MWR",
+              "https://www.artsy.net/artist/herb-aach",
+              "https://www.leilahellergallery.com/artists/herb-aach"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Herb Aach artist biography Experiments in Art and Technology E.A.T.",
+            "Herb Aach artist 1960s 1970s",
+            "Herb Aach painter color theory",
+            "Herb Aach \"Experiments in Art and Technology\"",
+            "\"Herbert Aach\" Experiments in Art and Technology",
+            "Herb Aach E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-9YpzuRLECsV7JPUEq0b0g_31vQz9L4C9Z21MRBvHSFQuKNzDMmzMvJFc9rJWoVhW97hRgroVxsBm3vHczmCwzu5ZjMrjd8zAhAq21yAuP5IrlJk=",
+              "title": "herbaach.com",
+              "resolvedUri": "https://www.herbaach.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjTBcX99_QDu3ElyOGijAkus0o2S-UP_FZO5EUd5xHIoW2lYVw60Fg-g1QwkRBwZX39pWka71E_zShQ42Qhe1GkEp1ijo0_CyonTzBLkqnwx3EPfq2pclxuQfbdMtRlHiBwiOEF5pV1_M4o6fzppzm",
+              "title": "leilahellergallery.com",
+              "resolvedUri": "https://www.leilahellergallery.com/artists/herb-aach2"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC1KNU6xsEhKZLkr0kbYwdL6GYqHMS3Hq_ct2erWOgWRY12PcoHdjuSql2syZSXrmXFoRo4RqooI2kd9ztyKnKxVhHhsjWjGM95rvJxKpFgZ7M5FkueEQs8JxLeQGp0e_zvCByssIPjl_tlFpV7CUCpTHbNCXFx5rxL8OyADyn1bCO",
+              "title": "uva.nl",
+              "resolvedUri": "https://pure.uva.nl/ws/files/55790420/1_s2.0_S0026265X20314612_main.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwt8kMpsdEft9xiQBEzNGvO9gPSJhI_1zAfCQS_8ORAO8Xehw-okxSuW4kIwBXrdl2jVjn_pgSFzS4KCGbSykj6IR1Z7xR_IulE-1LCdvGdKnPjY1iBNQcuweeBQbH-hhRlg==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Herb_Aach"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdpY4GJnycM1bNnV5Yvt2A0Vcq_3Lh329BF_zyWveb195n2LinwhFd1PqtvLUmD4x8oZ90xDkNjXSIuLA5E--NJK60_u6uc36ClU3GyjyDqur0yGk_aPBQTDAVmzU5Vpbzu71j2bvb7xiubsNl",
+              "title": "gvshp.org",
+              "resolvedUri": "https://vparchive.gvshp.org/_gvshp/events/past.htm"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNTxz4uJoVC0pQkC8nd7K3xlP0EzJguHIYM_euxJwwDqumsjppMeSMTrRWnhngpwLvSMAVYSCw9c90CyBjHn0GSv_Fba0NdzOB4YkyVxngvI6bxZ6dAUkTzWFxu20-sTvg0EdYb4BR4g==",
+              "title": "yale.edu",
+              "resolvedUri": "https://as13dev-new.library.yale.edu/3494.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE1Z8BGZ5F6UwdCppyOUwnWtddZJc_SNHXtcKrhgxPGrlXyZwR5_0EfP_rB0fa_U7qj6ygLTPbSCfi7VyHbmqLPNIj1okfPceRQpQ9GSnpaK2ZcL1PVZxcEWKXFg6rIz2KvUqm2BPNLbEvhC7ZUHsKh88DWK51CYC5RHBy3w==",
+              "title": "columbia.edu",
+              "resolvedUri": "https://academiccommons.columbia.edu/doi/10.7916/D8J109TT/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLH5bj14laYMoEDaxYs6rDg9pJOpmDH6UJEMEH82QpTUSpze66TuZxqwWkEgxmB8xlzm59Drx9looexMwrktsh8b1HWy5RSLAk1wQW0dsoLg0qeqzzKmSftMbeQpWmamPzMBxMsVi4JqihTi2gfpxjPNf-sPbepmqSC5IEH5wIyByul5O9PDPgIuWLq9C9XCXvkYN7-wf8aNAfgQaC-k5Tcw==",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/monochrome-darkness-and-light-in-contemporary-art-9780755603732-9781784530488.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 196,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Herb Aach (1923–1985), born Herbert Aach, was a German-American painter, writer, and prominent color theorist active during the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 197,
+                "endIndex": 353,
+                "text": "He is closely associated with the 'color expressionism' movement and is noted for his pioneering use of fluorescent and phosphorescent pigments in fine art."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 354,
+                "endIndex": 423,
+                "text": "Aach was involved with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 578,
+                "endIndex": 742,
+                "text": "His technical expertise as a 'color engineer' was developed during a period (1954–1963) at the Art Crayon Company, where he formulated unique pigments and paints."
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1035,
+                "endIndex": 1559,
+                "text": "His work is characterized by intense pigmentation and geometric explorations of color relationships, as seen in his major series 'Split Infinity' and 'Precession of the Equinoxes.'\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Herb_Aach\",\n        \"https://www.herbaach.com/\",\n        \"https://academiccommons.columbia.edu/doi/10.7916/D89G5MWR\",\n        \"https://www.artsy.net/artist/herb-aach\",\n        \"https://www.leilahellergallery.com/artists/herb-aach\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +155,144 @@
         "y1": 15.1,
         "x2": 42.0,
         "y2": 20.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26291",
+          "label": "Bernita Miller",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity specifically mentions the E.A.T. Technical Services Program Edge-Notched Cards, which is the exact context of the card entry being evaluated."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q157255",
+          "label": "Clark Gregg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is for Bernita Miller, an artist. The Wikidata entity provided (Q157255) refers to Merton Miller, a male economist and Nobel Prize winner. The names, gender, and professions do not match."
+        },
+        {
+          "qid": "Q538252",
+          "label": "Gerrit Smith Miller Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Bernita Miller' does not match 'Gerrit Smith Miller Jr.' Additionally, Gerrit Smith Miller Jr. was a male scientist (zoologist/botanist) who died in 1956, which contradicts the context of Bernita Miller being a female artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q2700645",
+          "label": "John Frederick Miller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are entirely different (Bernita Miller vs. John Frederick Miller), and the time periods are incompatible; the Wikidata entity refers to an 18th-century illustrator who died in 1796, whereas the card entry refers to an artist active in the mid-20th century (1960s/70s)."
+        },
+        {
+          "qid": "Q3157277",
+          "label": "Jack Miller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Bernita Miller vs. Jack Miller). Furthermore, the Wikidata entity describes a motorcycle racer born in 1995, which is inconsistent with the card's context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q3195174",
+          "label": "Kenneth Hayes Miller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Bernita Miller vs. Kenneth Hayes Miller), and the Wikidata subject died in 1952, whereas the person on the card was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q5237572",
+          "label": "David Miller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Bernita Miller vs. David Miller), and the Wikidata entity describes a prominent New Zealand entomologist/academic, which does not match the context of an artist (Bernita Miller) associated with the E.A.T. program."
+        },
+        {
+          "qid": "Q7325393",
+          "label": "Richard Edward Miller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Bernita Miller vs. Richard Edward Miller). Additionally, the Wikidata entity died in 1943, which makes it impossible for him to be the artist active in the late 1960s and early 1970s associated with the card entry."
+        },
+        {
+          "qid": "Q12498540",
+          "label": "Miller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a male actor born in 1987 who began his career in 2003. This is chronologically impossible for the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q15994638",
+          "label": "John Samuel Miller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Bernita Miller vs. John Samuel Miller). Furthermore, the Wikidata entity describes a male zoologist/paleontologist who lived from 1779 to 1830, which does not match the time period or context of the artist Bernita Miller from the late 1960s."
+        },
+        {
+          "qid": "Q18593619",
+          "label": "William Miller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Bernita vs. William) and the time periods are incompatible: the Wikidata entity lived in the 18th and early 19th centuries, while the card entry refers to an artist active in the late 1960s and 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Bernita Miller\" artist 1960s 1970s",
+            "\"Bernita Miller\" painter or sculptor",
+            "Bernita Miller artist Experiments in Art and Technology",
+            "\"Bernita Miller\" E.A.T. archives",
+            "\"Bernita Miller\" artist 1968 1969 1970 1971 1972",
+            "\"Bernita Miller\" exhibition 1970",
+            "\"Bernita Miller\" filmmaker or video artist",
+            "\"Bernita Miller\" E.A.T. membership",
+            "\"Bernita Miller\" Experiments in Art and Technology",
+            "",
+            "\"Bernita Miller\" artist New York 1970",
+            "",
+            "\"Bernita Miller\" video artist New York",
+            "\"Bernita Miller\" E.A.T. member",
+            "\"Benita Miller\" artist 1970s",
+            "\"Bernita Miller\" Experiments in Art and Technology list",
+            "\"Bernita Miller\" artist profile 1960s 1970s",
+            "\"Bernita Miller\" \"E.A.T.\" -poultry -bird",
+            "\"Bernita Miller\" Bell Labs employee",
+            "\"Bernita Miller\" member Experiments in Art and Technology",
+            "\"Bernita Miller\" E.A.T. membership list",
+            "\"Bernita Miller\" video art 1970",
+            "\"Bernita Miller\" filmmaker 1970s",
+            "",
+            "\"Bernita Miller\" artist 1960s associate",
+            "\"Bernita Miller\" artist New Jersey 1970",
+            "\"Bernita Miller\" E.A.T. bibliography",
+            "\"Bernita Miller\" Experiments in Art and Technology archive",
+            "\"Bernita Miller\" Bell Labs artist residency",
+            "\"Bernita Miller\" artist tech 1960s",
+            "\"Bernita Miller\" contributor 9 Evenings Theatre and Engineering",
+            "\"Bernita Miller\" E.A.T. directory 1967",
+            "",
+            "\"Bernita Miller\" painter active 1970s",
+            "\"Bernita Miller\" artist auction",
+            "\"Bernita Miller\" artist New York gallery 1970s",
+            "\"Bernita Miller\" sculptor active 1970s",
+            "\"Bernita Miller\" exhibition record",
+            "\"Bernita Miller\" multimedia artist 1960s 1970s",
+            "\"Bernita Miller\" electronic art 1970s",
+            "\"Bernita Miller\" new media art 1970s",
+            " \"Bernita Miller\"",
+            "\"Bernita Miller\" artist member E.A.T.",
+            "\"Bernita Miller\" assistant artist 1970 art technology",
+            "\"Bernita Miller\" artist 1968 1969 1970",
+            "\"Bernita Miller\" 9 Evenings Theatre and Engineering",
+            "\"Bernita Miller\" associate Experiments in Art and Technology"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -29,6 +303,135 @@
         "y1": 20.9,
         "x2": 36.2,
         "y2": 34.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q114290214",
+          "label": "Jacob de Voecht",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a person (Jacob de Voecht) who lived in the late 15th and early 16th centuries (1477-1536). The card entry is dated 1970, which is over 400 years after the Wikidata entity's death. Furthermore, the names do not match."
+        },
+        {
+          "qid": "Q116278126",
+          "label": "Koraphat Lamnoi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Koraphat Lamnoi) was born in 2000, making it impossible for them to be the individual 'V. Tutor' recorded on a card from 1970."
+        },
+        {
+          "qid": "Q116975160",
+          "label": "Tutor Vulindlela Ndamase",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card refers to a 'V. Tutor' who is an artist active around 1970. The Wikidata entity, Tutor Vulindlela Ndamase, was a South African politician and royal figure. While the name 'Vulindlela' starts with 'V', 'Tutor' is his first name, not his surname, and there is no indication he was an artist."
+        },
+        {
+          "qid": "Q119168919",
+          "label": "Tutor, Jonathan C.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (V. Tutor) does not match the Wikidata name (Jonathan C. Tutor) as the initials are different. Additionally, the Wikidata entry provides no biographical details such as occupation or dates that would link it to the artist profile from the late 1960s/early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "V. Tutor is likely a common misspelling or transcription error for David Tudor (1926–1996), a seminal American pianist and composer of experimental music who was a core member of Experiments in Art and Technology (E.A.T.). Tudor was a key collaborator with John Cage and Merce Cunningham and was one of the lead artists in the 1966 E.A.T. event \"9 Evenings: Theatre and Engineering,\" where he performed his work \"Bandoneon! (A Combine).\" His work often incorporated custom-built electronic circuitry and early interactive technologies. The initial 'V' may stem from his famous collaborative work \"Variations V\" (1965) or his later series \"Rainforest V,\" which are frequently indexed in art and technology archives. Historical records and snippets from research databases often mangle the spelling of his name as 'Tutor' in OCR and bibliographic lists.",
+            "sources": [
+              "https://www.jstor.org/stable/202021",
+              "https://www.moma.org/artists/38890",
+              "https://www.fondation-langlois.org/html/e/page.php?NumPage=242"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "V. Tudor (or V. Tutor) refers to a Romanian artist and icon painter documented in scholarly studies of icon-painting traditions. This individual is known for utilizing traditional materials such as tempera, wood, and natural pigments (egg yolk). While this artist shares the name, there is no verified historical record of their involvement with the New York-based Experiments in Art and Technology (E.A.T.) organization during the late 1960s and early 1970s.",
+            "sources": [
+              "https://scispace.com/papers/changes-in-the-phenomenon-of-icon-painting-in-romania-from-the-1f0qj2x1"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"V. Tutor\" artist 1960s 1970s",
+            "\"V. Tutor\" artist Experiments in Art and Technology",
+            "\"Victor Tutor\" artist",
+            "\"V. Tutor\" E.A.T. artist",
+            "\"Vincent Tutor\" artist",
+            "\"V. Tutor\" E.A.T. artist collaborator",
+            "\"V. Tutor\" 1960s artist \"E.A.T.\"",
+            "\"V. Tutor\" Experiments in Art and Technology",
+            "\"Tutor\" Experiments in Art and Technology artist",
+            "\"Victor Tutor\" E.A.T.",
+            "\"Valerie Tutor\" artist",
+            "\"V. Tutor\" artist E.A.T. archive",
+            "\"Victor Tutor\" artist E.A.T.",
+            "\"Valerie Tutor\" artist E.A.T.",
+            "\"V. Tudor\" artist E.A.T.",
+            "\"V. Tutor\" 1960s 1970s artist",
+            "\"V. Tutor\" 9 Evenings Theatre and Engineering",
+            "\"Vincenzo Tutor\" artist E.A.T.",
+            "\"V. Tudor\" Experiments in Art and Technology list",
+            "\"V. Tudor\" performance artist",
+            "\"V. Tutor\" Experiments in Art and Technology list",
+            "\"V. Tudor\" artist late 1960s 1970s",
+            "\"V. Tudor\" sound artist",
+            "\"V. Tutor\" artist late 1960s 1970s",
+            "\"V. Tutor\" performance artist",
+            "\"V. Tutor\" sound artist",
+            "\"V. Tutor\" artist 1968 1969 1970 1971",
+            "\"V. Tutor\" E.A.T. projects",
+            "\"V. Tudor\" artist \"Experiments in Art and Technology\"",
+            "\"V. Tutor\" artist New York 1960s",
+            "\"V. Tudor\" E.A.T. projects",
+            "\"V. Tutor\" collaborator E.A.T.",
+            "\"V. Tutor\" Experiments in Art and Technology member",
+            "\"V. Tutor\" Rauschenberg collaborator",
+            "\"Valerie Tutor\" E.A.T. artist",
+            "\"V. Tutor\" artist technology 1960s artist E.A.T. biography",
+            "\"V. Tutor\" 9 Evenings credit",
+            "",
+            "\"V. Tutor\" artist experiments art technology",
+            "\"V. Tutor\" New York artist 1970s",
+            "\"V. Tutor\" E.A.T. Getty Research Institute",
+            "\"V. Tudor\" Getty Research Institute E.A.T.",
+            "\"V. Tudor\" Experiments in Art and Technology member list",
+            "\"Valerie Tutor\" artist 1960s 1970s",
+            "\"V. Tudor\" Experiments in Art and Technology participants",
+            "\"V. Tudor\" 9 Evenings program list",
+            "\"V. Tutor\" 9 Evenings program list",
+            "\"V. Tutor\" Experiments in Art and Technology participants",
+            "\"Victoria Tutor\" artist 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRuGh4Y_hEgXYkaRs3lMom9xfEjG_3nCJtcCYVzxMbXvnMNA3RRStBJTg6lwZEuOLuEDiPLuVLh9pjccvGbiKAqAbQ4v9cV0cGy1hOOyFdnJqI0V-PuWTMgFyH6d4AWDHcQT1RO6epTOIp_hn89FJTQ-LhrTaHTiNSmit-8Nj_-IsfaaJ26GnDSZ9E0J8eqiSttVZ1PUAdk2AR_g6LwiY=",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/sound-art-revisited-9781501333132-9781501333774-9781501333163-9781501333156.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgUCzoD_KZnCvjez74j5b1y99BdK2LRrY5jyJEsHFMyvkwgaK8f9KWar2uGvriq5eDVavnaR9L-QSYVVDC8Pvsz0fDowfLGdJ5iIH0KHMwnSdwm9J02k36GQ070yw1YuL6piQcBzErRo0IG8xfpMXi8vBjujbhPN0d",
+              "title": "wipo.int",
+              "resolvedUri": "https://tind.wipo.int/record/38188/files/HJC_ip_1980_05_en.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1588,
+                "endIndex": 1823,
+                "text": "organization during the late 1960s and early 1970s.\",\n      \"sources\": [\n        \"https://scispace.com/papers/changes-in-the-phenomenon-of-icon-painting-in-romania-from-the-1f0qj2x1\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

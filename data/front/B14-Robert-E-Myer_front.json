@@ -15,5 +15,121 @@
     "technicalFields": [
       "transistor circuit design"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q16008082",
+      "label": "Robert E. Myers",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals with different professional backgrounds and slightly different names. The card record refers to Robert E. Myer, an electrical engineer at Bell Telephone Laboratories, while the Wikidata entry refers to Robert E. Myers, a composer and record producer."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Labs is the common and widely used name for Bell Telephone Laboratories. The Wikibase entity points to the organization located in Murray Hill, New Jersey, which aligns with the New Jersey location of the individual on the card."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is 'Bell Telephone Laboratories', which is a corporate research organization. The Wikibase entity Q22124 is for the 'Bell Telephone Laboratories Reporter', which is explicitly categorized as a publication, not an organization."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Labs is the primary common name for Bell Telephone Laboratories. The Wikidata entity Q217365 is located in Murray Hill, New Jersey, which is consistent with the New Jersey residence of the individual on the card. The professional activities listed on the card (electrical engineering and transistor design) are core historical functions of Bell Telephone Laboratories."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q121035736 is specifically categorized as a 'production company,' likely referring to the organization's role in film or media production. The individual on the card is an electrical engineer involved in transistor circuit design, meaning their employer is the research and development institution known as Bell Labs (Wikidata Q19173). While they share a name, the production company entity is a narrow record that does not reflect the organizational nature of a laboratory for electrical engineering."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to a specific archival collection (fonds) held by the National Archives and Records Administration, not the actual corporation/employer itself. While the collection contains records related to the organization, it is an instance of a collection, whereas the card refers to the organization as an employer."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58952200 specifically represents 'Bell Telephone Laboratories', which is an exact string match for the employer organization listed on the card. This entity is commonly used as a precise identifier for the corporate research arm of the Bell System."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950935 specifically represents 'Bell Telephone Laboratories', which is an exact string match for the employer organization listed on the index card."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950393 corresponds specifically to Bell Telephone Laboratories, which is an exact match for the employer name listed on the index card. This organization is the research and development arm where the electrical engineer described on the card was employed."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is a 'Wikimedia disambiguation page', not an organization. While the name matches the employer, this specific entity is a navigational tool for several different items rather than representing the actual Bell Telephone Laboratories corporate entity."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Robert E. Myer (also known as Bob Myer) was a prominent electrical engineer and inventor at Bell Telephone Laboratories (Bell Labs) who was active from the late 1960s through the 1990s. Resident in Denville, New Jersey, he served as a Member of Technical Staff at Bell Labs for approximately 19 years, where he specialized in transistor circuit design. His early technical career involved developing fail-safe and radar tracking systems for U.S. military missile projects, including the Nike Zeus, Nike Hercules, Safeguard, and Sentinel. Myer is most famously recognized in the music technology world for his collaboration with Mike Matthews of Electro-Harmonix; he designed the legendary Big Muff Pi distortion pedal, the LPB-1 Linear Power Booster (the company's first product), the Queen Wah, the Frequency Analyzer, and the Bad Stone phase shifter. He is also credited with discovering the feedback/regeneration effect in phase shifters. Beyond commercial electronics, Myer engaged in projects at the intersection of art and technology—a hallmark of the Experiments in Art and Technology (E.A.T.) movement—including building one of the earliest transistorized music synthesizers, designing a direct-view Kirlian Aura device, and creating LED art. He graduated Magna Cum Laude with a B.S. in Electrical Engineering from the Newark College of Engineering in 1967. Over his career, he authored more than 70 patents, including a 1968 patent for a Class B transistor power amplifier and a significant feed-forward amplifier used in cellular communications. His honors include the Rudolf Kompfner Trophy and the AT&T Patent Award.",
+        "sources": [
+          "https://www.ehx.com/sonic-boom-78/",
+          "https://www.zzounds.com/blog/the-triangle-earths-first-big-muff/",
+          "https://www.24-7pressrelease.com/press-release/464376/robert-myer-presented-with-the-albert-nelson-marquis-lifetime-achievement-award-by-marquis-whos-who",
+          "https://patents.google.com/patent/US3537023A/en",
+          "https://patents.justia.com/inventor/robert-e-myer"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Robert Myer\" Bell Labs electrical engineer",
+        "\"Robert E. Myer\" Bell Labs transistor circuit design",
+        "\"Robert E. Myer\" Bell Telephone Laboratories",
+        "\"Robert E. Myer\" Denville NJ Bell Labs",
+        "\"Robert E. Myer\" Bell Labs E.A.T.",
+        "\"Robert E. Myer\" Big Muff E.A.T.",
+        "\"Robert Myer\" E.A.T. archive",
+        "\"Robert E. Myer\" E.A.T. member list"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

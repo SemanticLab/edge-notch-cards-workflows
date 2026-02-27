@@ -15,5 +15,116 @@
     "technicalFields": [
       "Electrical engineering"
     ]
+  },
+  "wikidata_candidates": [],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q20403380",
+      "label": "Middle East Paper Co.",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is a Saudi Arabian paper manufacturing company founded in 2000. The employer on the card, Mepco Inc., is associated with an electrical engineer in New Jersey, USA. Historically, Mepco (Mepco/Electra) was a prominent American manufacturer of electronic components, which aligns with the professional profile on the card but is entirely unrelated to the Middle East Paper Co."
+    },
+    {
+      "qid": "Q6934346",
+      "label": "Multan Electric Power Company",
+      "description": "electric company in Pakistan",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is a Pakistani government electric utility established in 1998. The card refers to a company located in New Jersey, USA (likely the electronic components manufacturer Mepco/Electra), which is geographically and structurally unrelated to the Multan Electric Power Company."
+    },
+    {
+      "qid": "Q17071424",
+      "label": "Mepco Schlenk Engineering College",
+      "description": "college in Tamil Nadu, India",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer 'Mepco Inc.' on the card is located in New Jersey, USA, and is a corporation. The Wikidata entity 'Mepco Schlenk Engineering College' is an educational institution located in Tamil Nadu, India. Besides sharing the name 'Mepco', they are geographically and structurally unrelated."
+    },
+    {
+      "qid": "Q137919100",
+      "label": "MEPCO Intermediate Holdings LLC",
+      "description": "mining company in the United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to a coal mining holding company. The organization on the card, Mepco Inc., employed an electrical engineer in New Jersey. Mepco (historically Mepco/Electra) was a well-known electronics component manufacturer based in New Jersey, which fits the professional profile of the individual, whereas the coal mining company does not."
+    },
+    {
+      "qid": "Q70123963",
+      "label": "Mepco.Engg.College Branch Post Office",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is Mepco Inc., a US-based corporation likely in the electronics industry (employing an electrical engineer in New Jersey). The Wikidata entity is a branch post office located in India, which is an entirely different type of organization and geographic location."
+    },
+    {
+      "qid": "Q131262537",
+      "label": "Q131262537",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is a French company specializing in metal and plastic transformation (SAS) based in Saint-Herblain, whereas the employer on the card is 'Mepco Inc.', associated with an electrical engineer in New Jersey, USA. Historical records suggest Mepco Inc. was a US-based electronic component manufacturer, which is distinct from the French entity."
+    },
+    {
+      "qid": "Q6817792",
+      "label": "Mepco",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q6817792 is a Wikimedia disambiguation page, which is a navigational tool to distinguish between multiple topics with similar names. It is not a representation of a specific organization or company like Mepco Inc."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Anthony E. Troianello was an electrical engineer active from at least the late 1960s through the early 2000s. During the late 1960s and early 1970s, he was employed by Mepco Inc. (Manufacturer of Electronic Products Corporation) in Florham Park, New Jersey, where he specialized in electrical engineering and electronic components. He was a registered participant in Experiments in Art and Technology (E.A.T.), a non-profit organization founded by Billy Klüver and Robert Rauschenberg to foster collaboration between the technical and artistic communities. Troianello's technical expertise later transitioned to Vishay Intertechnology, Inc. (following Vishay's acquisition of Mepco/Centralab), where he became a prominent inventor. He holds several patents, notably for the development of electro-pyrotechnic initiators used in automotive 'smart' airbag systems and other specialized electronic components. Personal records from the 1970s place him in Madison, New Jersey, a community adjacent to Florham Park.",
+        "sources": [
+          "https://patents.google.com/patent/WO2001046638A1/en",
+          "https://www.google.com/patents/US6671945",
+          "https://www.digifind-it.com/summit/data/newspapers/herald/1970/1970-04-23.pdf",
+          "http://www.hesslingfuneralhome.com/obituaries/John-Joseph-OHeren8239016147/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Anthony E. Troianello\" engineering patents",
+        "",
+        "",
+        "\"Anthony E. Troianello\" electrical engineer Florham Park",
+        "",
+        "",
+        "\"Anthony E. Troianello\" patent electrical initiator",
+        "\"Anthony E. Troianello\" Vishay Intertechnology electrical engineer",
+        "",
+        "\"Anthony Troianello\" electrical engineer New Jersey 1960s",
+        "",
+        "\"Anthony E. Troianello\" Vishay \"pyrotechnic initiator\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzsoShG_mjKB1QHGGtx-pYiQGInUp5z_pxl-Johc_T4toEBn6vZgd3VsjZbYe7GTGElpA3XnZSTw5fwTYoezwl2JYgBTa9EYQMmVp7O7ybSJaTGR8CyQg0B77XvwOsqlgDoczxXTFasNaKNocsng3rog1yAmQrLcc=",
+          "title": "amazonaws.com",
+          "resolvedUri": "https://annualized-gender-data-uspto.s3.amazonaws.com/2004.csv"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 159,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Anthony E. Troianello was an electrical engineer active from at least the late 1960s through the early 2000s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

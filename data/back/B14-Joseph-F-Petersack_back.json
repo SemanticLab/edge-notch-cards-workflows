@@ -11,6 +11,105 @@
         "y1": 7.2,
         "x2": 46.5,
         "y2": 13.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q327857",
+          "label": "Aison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Everett Aison active in 1969. The Wikidata entity Q327857 refers to Aison, an ancient Greek vase painter from the 5th century BC. These individuals lived over 2,400 years apart."
+        },
+        {
+          "qid": "Q76230220",
+          "label": "Aison Harold",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Everett Aison' and 'Aison Harold' do not match. Additionally, the Wikidata entity describes a female with family names Harold and Hackett, whereas Everett Aison is a known male illustrator and graphic designer active during the specified time period."
+        },
+        {
+          "qid": "Q76230223",
+          "label": "Aison White",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a poor match: the card lists 'Everett Aison' (where Aison is likely the surname), while the Wikidata entity is 'Aison White' (where Aison is the given name). Furthermore, the Wikidata entity describes a female historical figure with children bearing titles like 'Sir', suggesting a much earlier time period or different social context than an artist active in 1969."
+        },
+        {
+          "qid": "Q130711233",
+          "label": "Aison Bing",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Everett Aison' and 'Aison Bing' do not match. Furthermore, the Wikidata entity is listed as a female historian, while the card entry refers to Everett Aison, who is a known male illustrator and filmmaker active during the period indicated."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Everett Aison is a multi-disciplinary artist, graphic designer, filmmaker, author, and educator who was prominent in the New York art and design scene starting in the late 1950s. He is most widely recognized as the co-founder of the film department at the School of Visual Arts (SVA) in New York, which he established in the early 1960s and led for nearly 40 years. As a graphic designer, Aison created iconic minimalist movie posters, most notably the 1961 U.S. poster for Akira Kurosawa’s 'Yojimbo' and Roman Polanski’s 'Knife in the Water'. His work in film includes designing title sequences for movies such as 'Black Like Me' and 'A Bowl of Cherries', as well as directing his own short films like 'Post No Bills' (1968) and 'So Much in Common' (early 1970s). Aison was also active as an illustrator and author of children's books, including 'The Lion' (1964) and 'Arthur' (with Rhoda Levine). In 2006, he published a novel titled 'Artrage', which satirized the contemporary art world. During the late 1960s and 1970s, he was a key figure at SVA, an institution that frequently overlapped with the experimental art movements of the time, including the Experiments in Art and Technology (E.A.T.) circle in New York.",
+            "sources": [
+              "https://www.nyrb.com/collections/everett-ison",
+              "https://pleasureboatstudio.com/featured-author-artist-everett-aison/",
+              "https://mubi.com/en/notebook/posts/the-best-movie-poster-of-the-day-part-19",
+              "https://issuu.com/svanyc/docs/sva_visual_arts_journal_fall_winter_2022",
+              "http://www.oddballfilms.com/program/hodgepodge-ii-12-8-2016"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Everett Aison biography artist filmmaker",
+            "Everett Aison graphic designer late 1960s 1970s",
+            "Everett Aison artist Experiments in Art and Technology E.A.T.",
+            "Everett Aison School of Visual Arts",
+            "Everett Aison biography E.A.T.",
+            "\"Everett Aison\" 9 Evenings Theatre and Engineering",
+            "\"Everett Aison\" E.A.T. poster design",
+            "\"Everett Aison\" E.A.T. collaborator",
+            "\"Everett Aison\" E.A.T. 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLj1qLu211YMWU0QOylj0Q-KLNGWRNXYhcdVaSldMsPmoHurdlZjRfcMr9ILPSpFmLY6rbc-4FG4bpQDPKZg5OJ3O2BG9lAhmCkaWn3IgVBkdSIbh0nQ_EUfih7IbKCCHZhdhRSflpvFivzChoDGhhR6im0E1BWlQ2DsD5llkC16YSC-MXpOiHWrK20lBe",
+              "title": "ziniounlimited.com",
+              "resolvedUri": "https://www.ziniounlimited.com/publications/film-comment/2871/issues/394669/articles"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD--D9TDFgPJwAE69jTHDp3ZDZdkVKpV213drlVP05M6Xej8EJfq7cU4JDdPfsDPL34FceL8rKGDpMQ8a2RBUDm7sDlbUOiu6UMuNc6nTx7qlUMZuA46YmVElaOWJn8nQei8p2smyNvxPtsZ9JaFvBgz0wn0BJflSv5eNKpg84IOoovpa7gSud5sJWZmwd30LF",
+              "title": "albavolunteer.org",
+              "resolvedUri": "https://albavolunteer.org/wp-content/uploads/2023/05/TheVolunteer_June_2023-_online.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFBxIKVIh1owRLoTbWYPFGbpA5aKZI9COLI0iPbEhAaw7QOg9PE_A8GqcXh5ENdTt2erPXrT9ds4ZP8KWY20YV3kIA7ii5iZdUpnxa9xUUKMBMbI86q6j2X1wT-Pa1K1RUa_fRgd4FrEA6JtoqLpZwO_LgEvgcQg91yjiK5Q==",
+              "title": "tandfonline.com",
+              "resolvedUri": "https://www.tandfonline.com/doi/full/10.1080/01439685.2025.2574871"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 228,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Everett Aison is a multi-disciplinary artist, graphic designer, filmmaker, author, and educator who was prominent in the New York art and design scene starting in the late 1950s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1045,
+                "endIndex": 1723,
+                "text": "During the late 1960s and 1970s, he was a key figure at SVA, an institution that frequently overlapped with the experimental art movements of the time, including the Experiments in Art and Technology (E.A.T.) circle in New York.\",\n      \"sources\": [\n        \"https://www.nyrb.com/collections/everett-ison\",\n        \"https://pleasureboatstudio.com/featured-author-artist-everett-aison/\",\n        \"https://mubi.com/en/notebook/posts/the-best-movie-poster-of-the-day-part-19\",\n        \"https://issuu.com/svanyc/docs/sva_visual_arts_journal_fall_winter_2022\",\n        \"http://www.oddballfilms.com/program/hodgepodge-ii-12-8-2016\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

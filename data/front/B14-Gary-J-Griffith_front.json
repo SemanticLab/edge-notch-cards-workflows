@@ -26,5 +26,193 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "photography",
     "aestheticPhilosophicalInterests": "holography"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q23403",
+      "label": "Griffith Stadium",
+      "description": "historic sports stadium in Washington, D.C.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a person (Gary J. Griffith, a physicist at NASA), while the second record describes a physical location (Griffith Stadium, a sports venue)."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5525172",
+      "label": "Gary Griffiths",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The index card refers to Gary J. Griffith, a physicist at NASA's Ames Research Center in California. The Wikidata entry refers to Gary Griffiths, a British opera singer (baritone) educated at the Guildhall School of Music and Drama. Their occupations, locations, and educational backgrounds do not overlap."
+    },
+    {
+      "qid": "Q17146729",
+      "label": "Gary Griffith",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes a physicist working for NASA Ames Research Center located in California, USA. The Wikidata entity refers to a Trinidadian politician and civil servant (Gary Griffith) associated with the United National Congress. Their locations and professional fields are entirely different."
+    },
+    {
+      "qid": "Q90848268",
+      "label": "Gary P Griffith",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The middle initials do not match ('J.' in the card data versus 'P.' in the Wikidata entry). Additionally, the card describes a physicist at NASA in California, while the Wikidata entry describes a researcher educated at institutions in New Zealand (Otago) and Australia (Monash)."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19476",
+      "label": "National Aeronautics and Space Administration",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'National Aeronautics and Space Administration' is an exact match. Furthermore, the Wikibase entity references Wikidata QID Q23548, which is the unique identifier for NASA."
+    },
+    {
+      "qid": "Q25839",
+      "label": "National Aeronautics and Space Administration",
+      "description": "United States civil space and aeronautics agency",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name of the employer on the index card, 'National Aeronautics and Space Administration', is an exact match for the name of the Wikibase entity. Furthermore, the description of the Wikibase entity as the United States civil space agency aligns perfectly with the known nature of the organization."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q23548",
+      "label": "National Aeronautics and Space Administration",
+      "description": "American space and aeronautics agency",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'National Aeronautics and Space Administration' is an exact match. Furthermore, the index card specifies 'Ames Research Center' as the department/division, which is explicitly listed as a child organization of the Wikidata entity (Q23548)."
+    },
+    {
+      "qid": "Q27713746",
+      "label": "NASA contractor report",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q27713746) is a scientific journal/report series titled 'NASA contractor report', whereas the employer listed on the card is the organization (National Aeronautics and Space Administration) that publishes said reports."
+    },
+    {
+      "qid": "Q121035415",
+      "label": "National Aeronautics and Space Administration",
+      "description": "production company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'National Aeronautics and Space Administration' is an exact match for the employer listed on the card. While the Wikidata entry's instance type is 'production company', this is a common way the organization is represented in databases when credited for media production, and it refers to the same global entity as the US civil space agency where the physicist was employed."
+    },
+    {
+      "qid": "Q20989224",
+      "label": "General Dynamics F-16XL/A Fighting Falcon",
+      "description": "prototype fighter aircraft",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the organization National Aeronautics and Space Administration (NASA), whereas the Wikidata entity is a specific aircraft (a General Dynamics F-16XL/A Fighting Falcon) that happens to be operated by NASA."
+    },
+    {
+      "qid": "Q19067913",
+      "label": "National Aeronautics and Space Administration Authorization Act of 2008",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the organization National Aeronautics and Space Administration (NASA). The Wikidata entity is a specific piece of legislation (the National Aeronautics and Space Administration Authorization Act of 2008). An Act of Congress is not the same entity as the organization it authorizes or regulates."
+    },
+    {
+      "qid": "Q20994554",
+      "label": "National Aeronautics and Space Administration F-16XL fleet",
+      "description": "fleet of General Dynamics F-16XL experimetal conversions operated by the United States National Aeronautics and Space Administration",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the National Aeronautics and Space Administration (NASA) as a government agency. The Wikidata entity Q20994554 refers specifically to a fleet of F-16XL aircraft operated by NASA, rather than the organization itself."
+    },
+    {
+      "qid": "Q20994675",
+      "label": "General Dynamics F-16XL/B Fighting Falcon",
+      "description": "prototype fighter aircraft",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The record on the card refers to an organization (National Aeronautics and Space Administration), whereas the Wikidata entity refers to a specific aircraft (a General Dynamics F-16XL/B Fighting Falcon) that was operated by that organization. An aircraft is not the same entity as the organization that operates it."
+    },
+    {
+      "qid": "Q20994589",
+      "label": "National Aeronautics and Space Administration F-16 fleet",
+      "description": "fleet of fighter aircraft in service with the United States National Aeronautics and Space Administration",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the organization 'National Aeronautics and Space Administration' as the employer. The Wikidata entity Q20994589 refers specifically to a fleet of F-16 aircraft operated by that organization, rather than the organization itself."
+    },
+    {
+      "qid": "Q3448657",
+      "label": "NASA Office of Inspector General",
+      "description": "U.S. space agency oversight entity",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to the NASA Office of Inspector General (OIG), which is a specific oversight and law enforcement sub-unit within NASA. The card lists the employer as the National Aeronautics and Space Administration (the parent agency) and specifies the Ames Research Center as the division. The OIG is a distinct administrative body and is not the same as the parent agency or the research center mentioned on the card."
+    },
+    {
+      "qid": "Q17182233",
+      "label": "National Aeronautics and Space Administration Authorization Act of 2014",
+      "description": "US House bill on aerospace science",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the National Aeronautics and Space Administration (NASA), which is a government agency. The Wikidata entity Q17182233 is a piece of legislation (an Act of Congress) authorizing the agency, not the organization itself."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Gary J. Griffith was a physicist and technical expert active in the late 1960s and 1970s, primarily associated with the National Aeronautics and Space Administration (NASA) and the interdisciplinary organization Experiments in Art and Technology (E.A.T.). He studied physics at the University of California, Berkeley, where he was a member of the class of 1963. During his tenure at NASA, particularly at the Ames Research Center near Berkeley, his work focused on technical fields such as optics, light, lasers, holography, and photography. Griffith was part of the early wave of engineers and scientists who participated in E.A.T., a nonprofit organization founded to foster collaborations between the technical and artistic communities. This association often involved providing technical expertise in optics and laser technology to artists exploring new media like holography. Later in his career, he became a prominent author and consultant in the fields of metrology and quality control, writing influential texts such as \"The Quality Technician's Handbook\" and \"Geometric Dimensioning and Tolerancing: Applications and Inspection,\" which include detailed applications of light sensors, fiber optics, and laser phenomena.",
+        "sources": [
+          "https://www.e-yearbook.com/university-california-berkeley-blue-gold-yearbook-1963",
+          "https://vdoc.pub/documents/the-metrology-handbook-4r767g0aj920",
+          "https://dtic.mil/dtic/tr/fulltext/u2/a277732.pdf",
+          "https://www.scribd.com/document/422184547/Geometric-Dimensioning-and-Tolerancing-Applications-and-Inspection"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Gary J. Griffith\" E.A.T. Experiments in Art and Technology",
+        "\"Gary J. Griffith\" E.A.T. member",
+        "\"Gary J. Griffith\" physicist light lasers photography",
+        "\"Gary Griffith\" E.A.T. physicist",
+        "\"Gary Griffith\" NASA holography 1960s 1970s",
+        "\"Gary Griffith\" NASA physicist 1968 1969 1970",
+        "\"Gary J. Griffith\" E.A.T. directory",
+        "\"Gary Griffith\" NASA Ames holography",
+        "",
+        "",
+        " \"Gary Griffith\"",
+        " \"G. J. Griffith\"",
+        "\"Gary J. Griffith\" E.A.T. artist engineer",
+        "\"Gary Griffith\" holography Berkeley 1970s",
+        "",
+        "\"Gary Griffith\" NASA physicist Berkeley",
+        "\"Gary J. Griffith\" laser photography 1970",
+        "\"Gary J. Griffith\" Experiments in Art and Technology Berkeley",
+        "",
+        "\"Gary Griffith\" UC Berkeley physics 1963",
+        "\"Gary Griffith\" holography NASA Ames",
+        "\"Gary Griffith\" NASA technical fields physics optics light lasers",
+        "",
+        "\"Gary J. Griffith\" \"Geometric Dimensioning and Tolerancing\" biography",
+        "\"Gary J. Griffith\" \"E.A.T.\" Experiments in Art and Technology",
+        "\"Gary Griffith\" NASA Ames E.A.T. match-making",
+        " \"Gary J. Griffith\"",
+        " \"Gary Griffith\" optics",
+        "",
+        "\"Gary J. Griffith\" E.A.T. member pavilion",
+        "",
+        "\"Gary Griffith\" E.A.T. Berkeley NASA",
+        "\"Gary Griffith\" NASA physics optics 1969",
+        "\"Gary Griffith\" NASA technical fields lasers photography"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

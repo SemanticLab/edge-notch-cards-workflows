@@ -22,5 +22,70 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "None mentioned",
     "aestheticPhilosophicalInterests": "None mentioned"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q93224117",
+      "label": "Seely J. Beggiani",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinctly different: Loren G. Seely vs Seely J. Beggiani. In the first record, Seely is the surname, while in the second, it is the first name. There is no overlapping information regarding occupation, location, or professional affiliation to suggest they are the same individual."
+    },
+    {
+      "qid": "Q112343131",
+      "label": "Seelye Martin",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are completely different: 'Loren G. Seely' (where Seely is the surname) versus 'Seelye Martin' (where Martin is the surname and Seelye is a first name). Additionally, their professional fields (organic chemistry/plastics versus oceanography/remote sensing) do not align."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Loren G. Seely (1943–2022) was a prominent chemical researcher and engineer at Winzen Research, Inc. (later Winzen International and now Raven Industries) in Sulphur Springs, Texas. He spent 43 years at the company, beginning in June 1969, and specialized in the field of organic chemistry and polymer plastics, specifically for scientific ballooning applications. Seely is credited with the development of SSA-10 and SSA-20 balloon reinforcement tapes and the material Stratofilm 372, which became essential for the reliability of high-altitude scientific balloons. His work also extended to innovations in modern fishing line. In 2007, he was honored with the Otto C. Winzen Lifetime Achievement Award by the American Institute of Aeronautics and Astronautics (AIAA) for his pioneering contributions to the aerospace community. He held several patents, including one for a long-endurance high-altitude balloon (US Patent 5,104,059). Seely likely became associated with Experiments in Art and Technology (E.A.T.) through Winzen Research's collaboration with the organization on the Pepsi Pavilion for Expo '70 in Osaka, Japan, which featured a massive spherical mirror-balloon manufactured by Winzen. In addition to his scientific career, he was an ordained Deacon in the Catholic Church and a prolific composer of blues music.",
+        "sources": [
+          "https://www.westoaksfuneralhome.com/obituaries/loren-g-seely",
+          "https://www.aiaa.org/get-involved/awards-and-recognition/award/otto-c-winzen-lifetime-achievement-award",
+          "https://www.ssnewstelegram.com/news/florida-space-balloon-factory-named-after-scientist-ties-sulphur-springs/article_a8910034-53fb-11ee-865a-07d0f3c5f590.html",
+          "https://patents.google.com/patent/US5104059A/en",
+          "https://ntrs.nasa.gov/citations/19950064500"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Loren G. Seely\" Sulphur Springs Texas",
+        "Loren G. Seely Winzen Research",
+        "\"Loren G. Seely\" Experiments in Art and Technology",
+        "\"Loren G. Seely\" researcher organic chemistry",
+        "Winzen Research Incorporated Sulphur Springs Texas Loren Seely",
+        "\"Loren G. Seely\" balloon polymer organic chemistry",
+        "Loren G. Seely \"Experiments in Art and Technology\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZCOUo5bVzonF7fTBC2w9X35_QW4oLEXrGG00ZWThCkmQ87bD4w0e1G8_oB16EovGm50pK0ShVloRS8A22tIjRhfPvkUuKomvs3qGgghhv7uzfQ8GWUQ8-J9-18XEc8H8L0TTRTQ3zya3ASt-w0HMGQrn6HaSPrmbezkck",
+          "title": "aiaa.org",
+          "resolvedUri": "https://aiaa.org/awards/otto-c-winzen-lifetime-achievement-award/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 417,
+            "endIndex": 618,
+            "text": "Seely is credited with the development of SSA-10 and SSA-20 balloon reinforcement tapes and the material Stratofilm 372, which became essential for the reliability of high-altitude scientific balloons."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

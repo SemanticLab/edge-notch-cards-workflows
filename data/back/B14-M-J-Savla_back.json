@@ -8,6 +8,178 @@
         "y1": 8.5,
         "x2": 36.0,
         "y2": 18.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q24355",
+          "label": "home appliance",
+          "description": "machine for household uses; various household appliances such as toaster, blender, etc used in artwork created for 9 Evenings.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity describes a 'home appliance' or theatrical prop, whereas the card entry refers to a person named Henry House. There is no name overlap, and one is an object/class while the other is an individual."
+        },
+        {
+          "qid": "Q23420",
+          "label": "House of the Lord Pentecostal",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Henry House, while the Wikibase entity describes an organization and jazz shrine called 'House of the Lord Pentecostal'. They are different types of entities (a person vs. an organization/place)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5723281",
+          "label": "Henry Houseley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Henry Houseley died in 1925, which contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s. Furthermore, the names (Henry House vs. Henry Houseley) are not an exact match."
+        },
+        {
+          "qid": "Q21453332",
+          "label": "Henry Housego",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Henry Housego lived from 1795 to 1858, which is completely incompatible with the card entry's context of an artist active in the late 1960s and early 1970s. Additionally, the surnames 'House' and 'Housego' are distinct."
+        },
+        {
+          "qid": "Q76313989",
+          "label": "Henry Houseman",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Henry House, while the Wikidata entity is Henry Houseman. Although the first names match, the surnames are distinct. Furthermore, the Wikidata entity provides no biographical evidence of an artistic career or activity during the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q76314089",
+          "label": "Henry Houseman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Henry House vs. Henry Houseman). Furthermore, the Wikidata entity for Henry Houseman lacks any metadata indicating he was an artist or active during the 1960s/70s, making it an unlikely match for the person on the card."
+        },
+        {
+          "qid": "Q94660996",
+          "label": "Henry Houser",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is 'Henry House', while the Wikidata entity is for 'Henry Houser'. Although the names are similar, the addition of the 'r' in the Wikidata surname suggests a different person. Furthermore, there is no information in the Wikidata entry indicating that Henry Houser was an artist or active in the creative fields associated with the card's context."
+        },
+        {
+          "qid": "Q120432520",
+          "label": "Henry Houseworth",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names are distinct ('Henry House' vs. 'Henry Houseworth'). Additionally, the Wikidata entity is categorized as a professor and writer based on a source covering 1917-1966, whereas the card describes an artist active in the late 1960s and 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Henry House is the fictional protagonist and artist of the historical novel \"The Irresistible Henry House\" (2010) by Lisa Grunwald. In the novel, Henry is an artist and animator who is active in the late 1960s and early 1970s. His career includes working as an animator for Disney in California (notably on the 1964 film Mary Poppins) and later moving to London in the late 1960s to work on the animation for the Beatles' psychedelic film \"Yellow Submarine.\" The novel tracks his life from 1946 through the 1970s in New York City, California, and London. While the character is fictional, the novel places him within the real-world historical art and animation scenes of the era, and his association with \"Experiments in Art and Technology (E.A.T.)\" may be a confusion with E.A.T.'s real-life headquarters at \"Automation House\" in New York City or the character's presence in the experimental circles of that time.",
+            "sources": [
+              "https://www.goodreads.com/book/show/6747517-the-irresistible-henry-house",
+              "https://www.kirkusreviews.com/book-reviews/lisa-grunwald/the-irresistible-henry-house/",
+              "https://www.penguinrandomhouse.com/books/73111/the-irresistible-henry-house-by-lisa-grunwald/",
+              "https://historicalnovelsociety.org/reviews/the-irresistible-henry-house/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "The name \"Henry House\" may refer to a confusion between an artist and the historically significant residence of Henry Geldzahler (1935–1994), an influential curator and central figure in the New York art world during the late 1960s and early 1970s. Geldzahler’s home, often referred to as \"Henry's house,\" was a gathering place for experimental artists associated with the 1960s underground scene, including Andy Warhol, Brigid Berlin, and David Hockney. Hockney famously produced a work titled \"Chair in Henry's House\" (1976). Geldzahler himself was a key supporter of experimental movements and collaborated with numerous artists and organizations, including those active within the Experiments in Art and Technology (E.A.T.) orbit, though he was primarily known as a curator and commissioner rather than a practicing artist himself.",
+            "sources": [
+              "https://www.artsy.net/artwork/david-hockney-chair-in-henrys-house",
+              "https://www.christies.com/en/lot/lot-4113009",
+              "https://pleasekillme.com/brigid-berlin/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Henry House\" Bell Labs art",
+            "\"Henry House\" artist 1960s 1970s",
+            "\"Henry House\" E.A.T. artist",
+            "",
+            "\"Henry House\" E.A.T. bibliography",
+            "\"Henry House\" artist New York 1960s",
+            "\"Henry House\" \"9 Evenings\" artist",
+            "\"Henry House\" artist \"late 1960s\"",
+            "\"Henry House\" Bell Telephone Laboratories artist",
+            "\"Henry House\" E.A.T. member",
+            "\"Henry House\" engineer E.A.T.",
+            "\"Henry House\" \"9 Evenings\" engineering team",
+            "",
+            "\"Henry House\" artist New York \"1960s\" \"1970s\"",
+            "\"Henry House\" artist E.A.T. collaborator",
+            "\"Henry House\" Bell Labs engineer E.A.T.",
+            "\"Henry House\" \"E.A.T.\" artist",
+            "",
+            "\"Henry House\" printmaker artist",
+            "\"E.A.T.\" artists \"House\"",
+            "\"Experiments in Art and Technology\" members \"House\"",
+            "\"Henry House\" artist New York 1970s",
+            "\"Henry House\" artist Bell Labs 1960s",
+            "",
+            " \"Henry House\"",
+            " \"Henry House\" E.A.T.",
+            "\"Henry House\" artist New York \"E.A.T.\"",
+            "",
+            "\"Henry House\" artist active 1960s 1970s",
+            "\"Henry House\" New York artist E.A.T. association",
+            "\"Henry House\" artist bibliography E.A.T.",
+            "\"Henry House\" 9 Evenings engineering team members",
+            "\"Henry House\" Bell Labs engineer \"E.A.T.\"",
+            "\"Henry House\" artist bio \"1960s\"",
+            "\"Henry House\" artist bio \"1970s\"",
+            "\"Henry House\" \"E.A.T.\" organization member",
+            "\"Henry House\" engineer 9 Evenings",
+            "",
+            "\"Henry House\" staff \"E.A.T.\"",
+            "\"Henry House\" animation \"E.A.T.\"",
+            "\"Henry House\" engineer \"E.A.T.\"",
+            "\"Henry House\" artist \"E.A.T.\"",
+            "\"Henry House\" cartoonist \"E.A.T.\"",
+            "",
+            "\"Henry House\" artist \"Bell Labs\"",
+            "\"Henry House\" artist \"Yellow Submarine\" credits",
+            "\"Henry House\" cartoonist 1960s New York",
+            "\"Henry House\" engineer E.A.T. association",
+            "",
+            " \"Henry House\"",
+            " \"House, Henry\"",
+            "\"Henry House\" animator \"Yellow Submarine\" real person",
+            "\"Henry House\" artist \"Bell Labs\" 1968",
+            "\"Henry House\" Experiments in Art and Technology member list",
+            "\"Henry House\" Bell Labs engineer 1960s list",
+            "\"Henry House\" artist printer New York \"Automation House\"",
+            "\"Henry House\" E.A.T. competition participant",
+            "\"Henry House\" member E.A.T. archive Getty",
+            "",
+            "\"Henry House\" Yellow Submarine animator real name",
+            "\"Henry House\" Bell Labs computer artist",
+            "\"Henry House\" artist animation 1960s 1970s",
+            "\"Henry House\" Experiments in Art and Technology list members",
+            "\"Henry House\" 9 Evenings engineer association"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfBZc954SXnK5QGJsTYSA9WGiYnxmWiTtfZCcYTtpNL4pn6zHqmjmTAYltUeEvZedZc6UsS-A9zpqEYPiTHyW1y9VRWqechT3cfM21oMLDWxSTvXgMgh-Mc31iYzLvkySQQVjlfrjMZVh43Niy3exJ0gMReVnmOhaCW5nTehnaHZWgwPY8gw2VklbEXy45zbYN73cp",
+              "title": "wordpress.com",
+              "resolvedUri": "https://theliteraryomnivore.wordpress.com/2010/08/23/review-the-irresistible-henry-house/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 183,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Henry House is the fictional protagonist and artist of the historical novel \\\"The Irresistible Henry House\\\" (2010) by Lisa Grunwald."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -18,6 +190,143 @@
         "y1": 18.6,
         "x2": 31.0,
         "y2": 28.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q105966430",
+          "label": "Mark Sharp",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a contemporary politician (member of the Missouri House of Representatives) who was elected recently. The card entry describes an artist active in the late 1960s and early 1970s. These occupations and timeframes do not align."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Mark Sharp was a prominent architect based in Vancouver, British Columbia, active during the mid-20th century. He was the son of G.L. Thornton Sharp, a founding partner of the influential Canadian architectural firm Sharp & Thompson (later renamed Thompson, Berwick, Pratt & Partners). Mark Sharp became a partner in the firm himself, working alongside notable figures like Fred Thornton Hollingsworth and Ned Pratt. The firm was central to the West Coast Modern style and worked on technologically advanced projects such as the BC Electric Building (1957), which utilized modern curtain-wall construction. While primarily known as an architect, he was part of a multidisciplinary professional circle in Vancouver that frequently collaborated across the arts, music, and design, a spirit aligned with that of Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.dnv.org/sites/default/files/modern-inventory-1997.pdf",
+              "https://issuu.com/thearbutusclub/docs/the_bark_-_fall_2024"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Mark Sharp is a mixed-media artist based in North America whose work has been featured in New York galleries such as the Walter Wickiser Gallery. His artistic practice involves creating 'painted, stained, and sewn collage-like paintings' that have been compared by critics to the styles of Helen Frankenthaler, Lucas Samaras, and Robert Rauschenberg. His work often explores nature and landscapes through what has been described as a 'prism of personal, political or technological concerns.' His exhibitions, such as 'Non Objectivity IV' (2016) and 'Altered States' (2015), suggest a long-standing interest in the intersection of material experimentation and visual perception, though he is more clearly documented in contemporary records than in historical E.A.T. rosters from the late 1960s.",
+            "sources": [
+              "https://www.mutualart.com/Artist/Mark-Sharp/89461E8D9E33930B/Exhibitions",
+              "https://culturecatch.com/art/borderline",
+              "https://housatonicmuseum.org/archive-page-3/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Mark Sharp\" E.A.T. collaboration",
+            "\"Mark Sharp\" artist 1960s 1970s",
+            "\"Mark Sharp\" artist bio 1970s",
+            "\"Mark Sharp\" Experiments in Art and Technology",
+            "\"Mark Sharp\" artist 1968 1969 1970 1971",
+            "\"Mark Sharp\" E.A.T. artist engineer",
+            "\"Mark Sharp\" 9 Evenings E.A.T.",
+            "\"Mark Sharp\" Pepsi Pavilion E.A.T.",
+            "\"Martin Sharp\" Experiments in Art and Technology",
+            "\"Mark Sharp\" \"Iron Age Project\" artist",
+            "\"Mark Sharp\" artist active 1968 1972",
+            "\"Mark Sharp\" engineer E.A.T.",
+            "\"Mark Sharp\" artist E.A.T. member list",
+            "\"Mark Sharp\" 1960s artist collaboration technology",
+            "\"Mark Sharp\" \"9 Evenings\" theatre engineering",
+            "\"Mark Sharp\" engineer E.A.T. project",
+            "\"Mark Sharp\" artist E.A.T.",
+            "\"Mark Sharp\" artist active 1970 \"New York\"",
+            "",
+            "\"Mark Sharp\" artist collaborator engineer",
+            "\"Mark Sharp\" artist New York 1970s",
+            "\"Mark Sharp\" Pepsi Pavilion 1970",
+            "\"Mark Sharp\" \"Billy Kluver\" artist",
+            "\"Mark Sharp\" artist 1960s 1970s light video sound",
+            "",
+            "\"Mark Sharp\" and \"E.A.T.\"",
+            "\"Mark Sharp\" artist New York 1969 1970 1971",
+            "\"Mark Sharp\" engineer E.A.T. newsletter",
+            "\"Mark Sharp\" \"9 Evenings\" staff engineer artist",
+            "\"Mark Sharp\" artist E.A.T. bibliography",
+            "\"Mark Sharp\" artist 1960s 1970s E.A.T.",
+            "\"Mark Sharp\" E.A.T. newsletter 1967 1968 1969 1970 1971",
+            "\"Mark Sharp\" engineer Bell Labs",
+            "\"Mark Scharff\" artist engineer 1960s 1970s",
+            "",
+            "\"Mark Sharp\" architect Vancouver art technology",
+            "\"Mark Sharp\" artist 1960s 1970s bio",
+            "\"Mark Sharp\" E.A.T. member directory",
+            "\"Mark Sharp\" artist engineer 1960s",
+            "\"Mark Sharp\" engineer E.A.T. collaboration",
+            "\"Mark Sharp\" artist and \"Billy Klüver\"",
+            "\"Mark Sharp\" artist \"Yellow House\"",
+            "\"Mark Sharp\" artist biography technology",
+            "\"Mark Sharp\" art exhibition 1970s",
+            "\"Mark Sharp\" collaborative artist 1960s",
+            "\"Mark Sharp\" E.A.T. artist or engineer",
+            "\"Mark Sharp\" artist 1966 1967 1968 1969 1970 1971 1972",
+            " \"Mark Sharp\"",
+            " \"Mark Sharp\" E.A.T.",
+            "\"Mark Sharp\" engineer or artist E.A.T. 1960s",
+            "\"Mark Sharp\" collaborative art technology 1970s",
+            "\"Mark Sharp\" artist Techne newsletter",
+            "",
+            "\"Mark Sharp\" artist and \"Robert Rauschenberg\"",
+            "\"Mark Sharp\" artist 1968 1969 1970 1971 New York",
+            "\"Mark Sharp\" and \"9 Evenings\" Experiments in Art and Technology",
+            "\"Mark Sharp\" collaborative artist 1970s technology",
+            "\"Mark Sharp\" E.A.T. directory artist engineer",
+            " \"Mark Sharp\"",
+            "\"Mark Sharp\" artist Experiments in Art and Technology archive",
+            "\"Mark Sharp\" and \"Billy Klüver\" collaboration",
+            "",
+            "\"Mark Sharp\" engineer \"9 Evenings\" 1966",
+            "\"Mark Sharp\" artist active 1969 1970 1971 1972 1973 1974",
+            "\"Mark Sharp\" artist \"E.A.T.\" member list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcmh5Kg-Rt-NerP3lCd1ErOTRduSZRo6owNJoolHu6-aquGagaGdOU_EglKPTMXWyb7qgfWiG5ju_fV2KqJVj1E8uCZA5h128aRCerYhQN-I6TH6MnSERQaT19Yl2HRTgMrHZJYbyEiNJdcm_F7g==",
+              "title": "stithcares.com",
+              "resolvedUri": "https://stithcares.com/obits/janice-mcmullen-oster/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErvopDh3rWX2n2l-6XSMd4hMuTftw9C27OnvUh-xJCk1b9IeEyWbGpaxcIWrb5UCmIGr6X8OiqkDahGrjlHdk1ecHGMIuXgan_xCO0ALCRgb3CqRC6ayLlsJuRMtuxhXnQglU1Cd3Oii61sF7kcDNXMQfTHY-tdsttYgae_q2ufVI23yMLMKI-_k6Xu3Cnxw==",
+              "title": "mountainscholar.org",
+              "resolvedUri": "https://mountainscholar.org/bitstreams/7ec06823-043e-4b07-9cc9-d38d7b885cf0/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsA-iKRz_4e3WaDb527j8lK7zrFAIDVn5n7s8se3pjNCaAb2e8MTySE7KuQmxSDFlkPHhiWPJQWSKXwZ4UFObQ2Hg029e4Wf1-8CXayb_4sxwHc2eg7GAtSVtG4j0AYGuqbiGyyMpQL6janOc7yUyPcuB_JM0=",
+              "title": "nps.gov",
+              "resolvedUri": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/03001041_text"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwGucKwadvvBsRUqqar4UBZMBRfg2WBDz_O7jJ7-lOv2wx8bgg0LKyucvQzxLw9Ljlm00oAFuGv2V1wMuGR_zirKdgVRl7E90d3NfJeCrBmD8lQOJ-V9Ghm5kMlAK4cacLJXibrF4=",
+              "title": "slate.com",
+              "resolvedUri": "https://img.slate.com/media/24/05152008.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1916,
+                "endIndex": 2208,
+                "text": "rosters from the late 1960s.\",\n      \"sources\": [\n        \"https://www.mutualart.com/Artist/Mark-Sharp/89461E8D9E33930B/Exhibitions\",\n        \"https://culturecatch.com/art/borderline\",\n        \"https://housatonicmuseum.org/archive-page-3/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -28,6 +337,66 @@
         "y1": 27.6,
         "x2": 36.8,
         "y2": 35.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7368314",
+          "label": "Rosemary Beresford",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a figure skater born in 1898, making her approximately 70 years old during the late 1960s/early 1970s. While it is possible for a retired athlete to be an artist, the lack of any artistic occupation in the Wikidata entry and the significant age of the person during the specified 'active' period make a match unlikely."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Rosemary Beresford is a New Zealand-based arts and theatre practitioner, academic, and author who has been active since at least the late 1960s. After living in London in the 1960s, she moved to Dunedin, New Zealand, in 1970 with her husband, Brian Beresford (a musician and theatre director). She became a prominent figure in the Dunedin arts community, particularly known as a \"stalwart\" and long-term committee member of the Globe Theatre. Her artistic involvement includes theatre production, cultural event organization, and supporting multi-media installations, such as serving as a contact for Lyn Plummer's multi-media installation \"Cantata: a play of the trace II\" at the Hocken Library. Professionally, she was an academic at the University of Otago's School of Pharmacy (joining in 1982), where she specialized in the history of pharmacy and the application of technology, specifically artificial neural networks (ANN) and biologically inspired computer programs. Her technical expertise and involvement in the avant-garde theatre scene align with the interdisciplinary goals of the Experiments in Art and Technology (E.A.T.) organization, which promoted collaborations between the arts and sciences during the late 1960s and 1970s. She was appointed an Officer of the New Zealand Order of Merit (ONZM) in 2007 for her services to medicine.",
+            "sources": [
+              "https://www.rcm.ac.uk/about/news/all/2024-11-20-in-memory-brian-beresford.aspx",
+              "https://www.playmarket.org.nz/news/annual-new-zealand-theatre-2018/",
+              "https://www.scoop.co.nz/stories/CU0503/S00185/dunedin-arts-and-cultural-events.htm",
+              "https://www.otago.ac.nz/pharmacy/about/history",
+              "https://www.odt.co.nz/star-news/star-lifestyle/star-entertainment/passion-theatre-community-honoured",
+              "https://www.researchgate.net/publication/12423062_Basic_concepts_of_artificial_neural_network_ANN_modeling_and_its_application_in_pharmaceutical_research"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Rosemary Beresford\" art technology",
+            "\"Rosemary Beresford\" artist 1960s 1970s",
+            "Rosemary Beresford artist \"Experiments in Art and Technology\"",
+            "",
+            "\"Rosemary Beresford\" artist multi-media technology",
+            "\"Rosemary Beresford\" artist participant E.A.T.",
+            "\"Rosemary Beresford\" artist member Experiments in Art and Technology",
+            "\"Rosemary Beresford\" artist New York 1960s 1970s",
+            "\"Rosemary Beresford\" E.A.T. member list",
+            "\"Rosemary Beresford\" artist \"E.A.T.\"",
+            "\"Rosemary Beresford\" engineer E.A.T.",
+            "\"Rosemary Beresford\" E.A.T. artist 1968",
+            "\"Rosemary Beresford\" E.A.T. artist 1969",
+            "\"Rosemary Beresford\" Experiments in Art and Technology member directory",
+            "\"Rosemary Beresford\" E.A.T. artist 1970",
+            "",
+            "\"Rosemary Beresford\" artist \"Globe Theatre\" Dunedin 1960s",
+            "\"Rosemary Beresford\" and \"Brian Beresford\" artist London 1960s",
+            "\"Rosemary Beresford\" E.A.T. London artist",
+            "\"Rosemary Beresford\" E.A.T. project",
+            "\"Rosemary Beresford\" E.A.T. News 1960s",
+            "\"Rosemary Beresford\" artist tech 1970s",
+            "",
+            "\"Rosemary Beresford\" E.A.T. directory",
+            "\"Rosemary Beresford\" New York artist E.A.T.",
+            "\"Rosemary Beresford\" engineer list Experiments in Art and Technology",
+            "\"Rosemary Beresford\" E.A.T. Langlois Foundation",
+            "\"Rosemary Beresford\" E.A.T. archive Getty"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -38,6 +407,148 @@
         "y1": 34.0,
         "x2": 26.0,
         "y2": 40.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q102078329",
+          "label": "Herbert Amann",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card refers to an artist active in the late 1960s/early 1970s, whereas the Wikidata entity is a professional mathematician and university teacher at the University of Zurich. While the names match (H. Amann vs. Herbert Amann), there is no indication that the mathematician Herbert Amann had a parallel career or significant presence in the art world."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Hermann Amann (1934–2020) was a German-French painter and sculptor who was a central figure in the Paris art scene from 1960 onwards. He is highly likely the artist in question given his active period in the late 1960s and 1970s and his leadership in artistic groups that bridged the gap between traditional media and new technologies. In 1971, Amann founded the movement \"Jacob ou la Persuasion,\" which featured collaborations with prominent pioneers of computer art, most notably Manfred Mohr and Jean-Claude Marquette. This association with early digital art pioneers and the technological exploration of artistic mediums (such as his work with \"Nouvelle Pigmentation\" and polymer gels) aligns with the ethos of Experiments in Art and Technology (E.A.T.). His work transitioned from figurative expressionism in the early 1960s to a focus on abstract constructivism and color theory, often utilizing technical advancements in pigments. Amann organized numerous exhibitions and conferences throughout the 1970s that explored the intersection of color, form, and material science.",
+            "sources": [
+              "https://fr.wikipedia.org/wiki/Hermann_Amann_(peintre)",
+              "https://www.scribd.com/document/511749877/Jean-Claude-Marquette-Pionnier-du-Computer-Art",
+              "http://www.secondemodernite.com/hermann_amann.html",
+              "https://www.mutualart.com/Artist/Hermann-Amann/4405908586E807D3"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Hans Amann (active 1960s–1970s) was a German engineer and professor of Marine Technology who conducted significant \"experiments\" in ocean engineering and deep-sea technology during the 1970s. While primarily identified as a technical scientist and professor at the Technical University of Berlin, he is a plausible candidate for the \"H. Amann\" associated with Experiments in Art and Technology (E.A.T.), as the organization was specifically designed to facilitate collaborations between artists and engineers. His documented participation in high-profile technical experiments and projects involving complex machines and international technological planning in the 1970s reflects the professional background of many E.A.T. technical collaborators.",
+            "sources": [
+              "https://royalsocietypublishing.org/doi/10.1098/rsta.1982.0125",
+              "https://ieeexplore.ieee.org/document/1151624",
+              "https://www.servus.at/25-jahre-ars-electronica/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Hermann Amann\" artist 1960s 1970s",
+            "\"H. Amann\" painter sculptor 1960s",
+            "\"Hans Amann\" artist E.A.T.",
+            "\"H. Amann\" E.A.T. artist",
+            "artist \"H. Amann\" Experiments in Art and Technology",
+            "\"Hermann Amann\" E.A.T. artist",
+            "\"H. Amann\" E.A.T. organization",
+            "\"Hermann Amann\" computer art E.A.T.",
+            "\"Experiments in Art and Technology\" \"Amann\"",
+            "\"Hermann Amann\" \"E.A.T.\" archive",
+            "\"H. Amann\" \"E.A.T.\" archive",
+            "\"Hans Amann\" \"E.A.T.\" archive",
+            "\"H. Amann\" artist collaboration engineer",
+            "\"Amann\" artist Experiments in Art and Technology",
+            "\"Hermann Amann\" and E.A.T. collaboration",
+            "\"Hans Amann\" and E.A.T. collaboration",
+            "\"H. Amann\" \"Pavilion\" E.A.T. project",
+            "\"H. Amann\" E.A.T. list of members",
+            "artist \"Hans Amann\" 1960s 1970s",
+            "\"H. Amann\" E.A.T. participants list",
+            "\"H. Amann\" artist late 1960s early 1970s",
+            "\"Hans Amann\" Experiments in Art and Technology artist",
+            "\"H. Amann\" Experiments in Art and Technology artist",
+            "\"Hermann Amann\" E.A.T. artist collaboration",
+            "\"H. Amann\" Expo 70 artist",
+            "\"H. Amann\" 9 Evenings artist",
+            "\"Hermann Amann\" Experiments in Art and Technology member",
+            "\"H. Amann\" artist \"late 1960s\" \"early 1970s\" E.A.T.",
+            "\"H. Amann\" artist tech art",
+            "\"H. Amann\" Experiments in Art and Technology directory",
+            "\"Hans Amann\" Experiments in Art and Technology member",
+            "\"Hans Amann\" Bell Labs E.A.T.",
+            "\"H. Amann\" 9 Evenings E.A.T. engineer",
+            " \"Amann\"",
+            " \"Amann\" \"Experiments in Art and Technology\"",
+            "\"Hermann Amann\" computer art collaborator",
+            "\"Hans Amann\" artist E.A.T. 1960s",
+            "\"H. Amann\" computer artist 1960s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_z23VssS28y33cYMfIOGEfMcWLvn2CEnZSP59TLsgTaj-kSPb_pF10DUFNhRI07cxT3GJHnWTLO3rKG9bm-vIaB9FhPc162NXoYvM5JzySq_VFRb0_qXcKjbqUbNogGhWaLj1otUYdBMXqRN9lG9YlSHd32kSv4punwY=",
+              "title": "tandfonline.com",
+              "resolvedUri": "https://www.tandfonline.com/doi/abs/10.1080/03071022.2016.1256592"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3_O3fTpkzZnIjaLKIZ0D3CM5Cq2VSO6TVHyAArKySXGBE09iUS4Sfsw9iaFf9zYLXqna9PWZhGqyqjJYqcKq-NeIQxsqT0vIuobRN2ba4PLzUsSxhqgHjaTsapvRyH0AyX7QEwJi2Boc=",
+              "title": "ed.gov",
+              "resolvedUri": "https://files.eric.ed.gov/fulltext/ED075310.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXAbVUiZNiDIyT1a_aCf18MnoTk8p5sMjBdmDqlXKEDg_eoUZc2wnm5HYwN-8XwNBu85wdv1vQ_jP7cYHHZn9yuofwzIxi7dZ8U0gVn-z9FGGnUso_A_dnltqc9Uo3It-04MyMLwO2gIFBabnFVyezkKyhwMd5q31qPsFWm9eO6iausJ1vkSxCjc-5hC3y48nB-Fe9X84cf8uwH1uYBpGMpLy6SDoOmdt-eSwhgV9dGtxyrOmqpiF7bGSnWKB1cQ==",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/biennials-and-beyond-exhibitions-that-made-art-history-1962-2002-salon-to-biennial-0714864951-9780714864952.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqH8CTerZx_oimbUNIlcmIsQCJRGbcJ8wgkJHdWrwx1ThwhS0KEdpdAHyJCFJ3oGADqw3Ke3R9uBBveOP3QVXVFBzpeLn6IaNn8XYF4V-TWe1z1YhxueJGPViPLZs91WJvJ8L1sIOZSQyVtHfaV_G5_eaEsdmNzPVpV4QZ1qqfrzXBmiN8N8r3ai_6Ld-kJKrcMnKiPMXPZWIgi-YwEy0VxRhvcWfFplsEUAt5BLvtTXF5MjboNrueEptkTrSKwla2zibWQlOx-f6RWnCsfHRSQXRH-hWV5lP8dXpeWOXZxQylNsyJS-ea7xSPBtuLEY-w9v2WFzILkNNtx_I=",
+              "title": "usg.edu",
+              "resolvedUri": "https://dlg.usg.edu/collection/gsu_mhross?f%5Blocation_facet%5D%5B%5D=United+States%2C+Southern+States%2C+33.346678%2C+-84.119434&per_page=100&sort=class_name_ss+asc%2C+title_sort+asc&view=list"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqV5k0HyV5VWmYuvM5epXaSlwQqBv-v9fShNJ6xqqbgdiw9OiJwrUcvHV8vcmKvYqtBOJgtDSo_SvoKK19QTJEl3gWfTkW9JGuzy4YoMoSLqiZsZgj5ATcphIj9PP6HXEAVJ3A7RAPX04Sq0zi2XxPQzuFWqVZ7pVX7fvkn8YbSUAE5Teq0y6z7IDe5wSd6eHaTEh8fk8=",
+              "title": "americanacademy.de",
+              "resolvedUri": "https://www.americanacademy.de/wp-content/uploads/2018/01/Berlin_Journal_26_Spring_20141.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq4jlLN-hazbyaEbDGRxGo4RjbBj4R_sm1uM74sanky6uf1MmpVYQiAwaZhLAQoFhQgLcGQQ4Jaq2NVXHCFlugSVUNtJ7QYKa97InOnlROTyapbPt2OcevBZSSlXaaEjSwYu3iM0HpYtpX",
+              "title": "ineris.fr",
+              "resolvedUri": "https://www.ineris.fr/fr/liste-publications-2012"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhvWZk4O8VymW-w-P3E8wKN_-qA3D-OWjlfqkexLK7yjrnq9ZutoZvX-clUz1osNA-pL51BMMhcDFt12gylUkkyxQo4j-e-HhTs5Xpss8h5m2wCpJfhLhwnliFPF4asEQVfA==",
+              "title": "consew.com",
+              "resolvedUri": "https://consew.com/products/amann-thread"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhiTCtuYWw7nDyrGJ4t4MX-jv7o9Q3_BIEIgPP4bdKBF2IFTexeSfm7mGM4zhdh9YZyeEw70qHSKmNLeareaRBwZiYk_heJE2J1LTRJMRIaqx1ScNyphgXgCgdGSCPKHACJh8iNSbgW74Htr1QJwG50X2B5RsUuO8=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/presentation/96707869/Ars-Cluster-E-1-1"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXEG5lDezhzs_78rg2NiSkrmlF7M2qsqPqhfuT_xiAe_kNL-mLquCLMYteC0TJ9IS0_tCrcIIM0KrbmsrDVVI3sAN7eIsSqc5LYOhPv677iIgQ3R_N1MJI_gi8nMHIL84L_j_BjIUGZNgyFmUynghzt-XbV2-QjBKsTMw=",
+              "title": "servus.at",
+              "resolvedUri": "https://webarchiv.servus.at/kontext/ARS/ars_cluster_E_1_1.ppt.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2269,
+                "endIndex": 2554,
+                "text": "technical collaborators.\",\n      \"sources\": [\n        \"https://royalsocietypublishing.org/doi/10.1098/rsta.1982.0125\",\n        \"https://ieeexplore.ieee.org/document/1151624\",\n        \"https://www.servus.at/25-jahre-ars-electronica/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          ]
+        }
       }
     }
   ]

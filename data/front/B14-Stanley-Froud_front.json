@@ -11,5 +11,180 @@
     "technicalFields": [
       "electronics"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q1679958",
+      "label": "James Anthony Froude",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity describes a 19th-century British historian and priest who died in 1894. The card data describes a person named Stanley Froud living in New York City with a 5-digit zip code (introduced in 1963) and working in electronics."
+    },
+    {
+      "qid": "Q5506249",
+      "label": "Froude Hancock",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different individuals. The Wikidata entity (Froude Hancock) was a British rugby player who died in 1933, while the card (Stanley Froud) describes an electronics professional living in New York in an era that includes zip codes (introduced in 1963)."
+    },
+    {
+      "qid": "Q25424735",
+      "label": "Froud Gerginpour",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Stanley Froud, an electronics specialist living in New York City, while the Wikidata entry describes Froud Gerginpour, an Iranian musician and educator from the Qashqai ethnic group."
+    },
+    {
+      "qid": "Q75599663",
+      "label": "Froude Dillon Trollope",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are significantly different (Stanley Froud vs Froude Dillon Trollope). Furthermore, Record 1 is associated with the electronics field in mid-20th century New York, while Record 2 describes a military officer born in 1888 with a British-sounding lineage, with no overlapping biographical details."
+    },
+    {
+      "qid": "Q102401009",
+      "label": "Froud Parvaneh",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Stanley Froud vs. Froud Parvaneh). The card describes a person living in New York City with expertise in electronics, while the Wikidata entity refers to an academic educated in Iran (Islamic Azad University) with different professional markers."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Stanley Froud was an electronics engineer, consultant, and editor based in New York City, active from the early 1960s through at least the late 1980s. He served as an assistant editor and regional editor for 'Electronics' magazine (a McGraw-Hill publication) in the early 1960s. By 1971, he was working as an electronics consultant and resided at 817 West End Avenue in New York. During this period, he contributed technical expertise to the 'Amateur Scientist' column in Scientific American, where he detailed the use of differential operational amplifiers to simulate physical systems such as levers, cams, and clocks. His work involved the design and application of discrete and integrated circuit components, including transistors and silicon wafers. Froud's technical interests also extended to computer ergonomics; in 1989, he communicated with Macworld magazine regarding furniture and hardware setups to minimize health issues related to long-term computer use. His profile as an electronics expert in New York during the late 1960s and early 1970s is consistent with the technical members who collaborated with the Experiments in Art and Technology (E.A.T.) organization.",
+        "sources": [
+          "https://www.scientificamerican.com/article/the-amateur-scientist-1971-01/",
+          "https://archive.org/stream/MacWorld_8905_May_1989/MacWorld_8905_May_1989_djvu.txt",
+          "https://bitsavers.org/magazines/Electronics/19630308.pdf",
+          "https://worldradiohistory.com/Archive-Electronics/60s/Electronics-1961-02-03.pdf",
+          "https://www.westsiderag.com/2017/11/11/westside-market-near-77th-will-close-for-good"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Stanley Froud\" engineer",
+        "\"Stanley Froud\" electronics New York",
+        "\"Stanley Froud\" biography engineer",
+        "\"Stanley Froud\" Experiments in Art and Technology",
+        "\"Stanley Froud\" E.A.T.",
+        "",
+        "\"Stanley Froud\" electronics NYC engineer",
+        "\"Stanley Froud\" technical consultant E.A.T.",
+        "\"Stanley Froud\" E.A.T. archive",
+        "",
+        "\"Stanley Froud\" 817 West End Avenue biography",
+        "\"Stanley Froud\" E.A.T. engineer list",
+        "\"Stanley Froud\" technical person New York 1970s"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG60B8StTt96jAQ9mFkYRBIbnyPLVI1K81D9JOv0Cj2UDhHqOQQfErwD3JirKRhTlQ5-ZwjS88M8mDUfoEk0iAo57IQ1eFjVc5sBTp4OuCQLt6upAv5qDhqXV9ndPumAK0W0F2lw2dpih9mD-PH",
+          "title": "wkbpic.com",
+          "resolvedUri": "https://www.wkbpic.com/wkbx/SA/1971/1971-01-01.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSSloPLQ9JdZXf90_vXtj0m5Kaq8EcG4yXQOOeQLqvyEdkMrCGN7VgkeqHG44SG8I_JjK57d7s6SRMNjvn-fggY40624W7AL8iouJd2CtpDHb8uwHML36jgdk3jDUKg6YRL_LtgVxZmCfJWYinMUhwuuiGoyC4uvkP2rxkObdTyNmLzX2u40rH3mbxnw==",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/MacWorld_8905_May_1989/MacWorld_8905_May_1989_djvu.txt"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9csXaH5ZXmgd2ENADXfoIRLrcJNVUOTq6sGa86KAC9BlUr2iwlc_FaOX_K9s5YbGfHAoOfpSYYz-hQc9kSU7ITDNgGa7dfYsHn6PY1G-H3hCd7Tbbi_SBhyEp7sfhDTLObgahuJozywIg8dOF_OXOz_AJhFF2rSNVXl3fMDL0-_9iFS4908cvUofPq8s-asL14lUSqBnq6FUKqVNwcg==",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/sim_electronics_1961-02-03_34_5/sim_electronics_1961-02-03_34_5_djvu.txt"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGjZElFU-qRAjyf5rAQp8gE-3BUyeS4syagzi5dwImxT531LQoQgVp8t3kFL5eY4lKKxPoz0FF8sQMFtfw6HTvuQkg4-obW3qie18HlCz1n-eJWBbnTXrifF11yCWTLO_gWan90vLswlHfFZqkJloqVJMGmH8vJNhpYuIKkLR2N-qB4Nibfg==",
+          "title": "bitsavers.org",
+          "resolvedUri": "http://bitsavers.org/magazines/Electronics/Electronics_V36_N16_19630419.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHGdiUkwLquf59SdgrQRoQOcaynLXob9td5qRzKQOdSjqkNxKUU4wdh2wMtsgSceeN7ier4Qg4DLEMbioDprtgojAtIY50s6sflCgiOwRqtrALik4R0x0T-71uLtJYZogoJclmITcTLIxcmOg0ZlZgNbjM_KTrq88dfjXaI16RDr7oMwGPfg==",
+          "title": "bitsavers.org",
+          "resolvedUri": "http://bitsavers.org/magazines/Electronics/Electronics_V36_N10_19630308.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExNFFYNY-FbV2tSn3cQrvdqBWo8ktKq5C0pslM3jUzYtkQbe3-87F3AZxR0UV1-FJFptxFo2c5_RwHaFWFA6LIpiAIa3FQ-3l9qscYKXS220MCuNRIxT9W9fYvX4MOZ9_P3Zu__kpcKYZeho98us9J1h2EWSIAmDz5ZsMGeiBWQK5zpyoZ2AaovQ==",
+          "title": "bitsavers.org",
+          "resolvedUri": "http://www.bitsavers.org/magazines/Electronics/Electronics_V35_N52_19621228.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW3G4j2BMRq2ezfgAwcRoEr5g9mDi7AvF0oDYJSGJIvN7FItIE7E5FlG3FWRPv-ib1Sqy8oPAonE4pNd9VelTj2IQIVtMVppJdLnE4gTYipKXPeFC5Ak7n0EVbeHwY9Uas_DInB8ZTd-Z6uhkXDRKnKXtjEH_AmqqhksWTTLchLdgfHKns2vU=",
+          "title": "bitsavers.org",
+          "resolvedUri": "https://bitsavers.org/magazines/Electronics/Electronics_V36_N24_19630614.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaB4fyv_yaTTEK886Hj9cxIbw9BfvOEo-ipPv2IsY_BL-SXFp-Tk9W7MHoFE9g8NHes-34VVoSmb7yyV_C_wtiFT8GqvTz2tAjtgU-1e_9BNRwDKRC399UMuZP31idr_U9zuEzNvMpJ8stbCwN8EVAls7gAxJT_f80OwPC1aIzaV3cwB2pYA==",
+          "title": "bitsavers.org",
+          "resolvedUri": "http://bitsavers.org/magazines/Electronics/Electronics_V36_N28_19630712.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVlY9EVai6lZwMrWUxfZ8PT2avWO4uMkKOmqzoXyDaEyhdgOcagp38iUFO-A5-RsmtMD6VxreFs5i2nWLARjgrzm3ixHzDEz8rizG8DwHWmw11Y9LnL7tXQvssawW9aeQvMKQYx4UqgjnLQQ7rKQ7RdLDx7g8o2qWHnHzI_22aN6aZXuvuhg==",
+          "title": "bitsavers.org",
+          "resolvedUri": "http://bitsavers.org/magazines/Electronics/Electronics_V36_N05_19630201.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvveq-d701Z8THaDv3IR1UcliUEV7B4V1fpbH8I7PC6U2klmv6oa5f_NQ1Ra_s-c9obUTdoHxGg-LUbgOpXI5klLEfD3yri-hYrkp3i1oIZqH43cjpYqMb6pTHJLjwNfCxP3zvFWM-qiQaFqKZAF98oADhi1r8OkDJMp5UvhVu6dGKI9w=",
+          "title": "britishempire.co.uk",
+          "resolvedUri": "https://www.britishempire.co.uk/forces/armyunits/britishinfantry/buffs.htm"
+        },
+        {
+          "uri": "https://www.google.com/search?q=time+in+New+York,+NY,+US",
+          "title": null
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxeL-ojVsP7iehx6cCl0NkMEh7-28CDoo7C4dG7NWEUULCmj3Vo9O5Mn_iMulyOouVUte6r1UbOTiluooyCs4rYY_7ZPiTpAoQqpvvniftRzCEuGI7-dqwl_fLGWgeTONKUYyWgmPzQRcMtam020oO2MfqGwLtRLEEcqs3gcYXUkF-kOsULFbQHLWky-EYxWGXlYA=",
+          "title": "worldradiohistory.com",
+          "resolvedUri": "https://www.worldradiohistory.com/Archive-Electronics/60s/61/Elelctronics-1961-01-06.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 329,
+            "endIndex": 429,
+            "text": "By 1971, he was working as an electronics consultant and resided at 817 West End Avenue in New York."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 805,
+            "endIndex": 1019,
+            "text": "Froud's technical interests also extended to computer ergonomics; in 1989, he communicated with Macworld magazine regarding furniture and hardware setups to minimize health issues related to long-term computer use."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1217,
+            "endIndex": 1737,
+            "text": "organization.\",\n      \"sources\": [\n        \"https://www.scientificamerican.com/article/the-amateur-scientist-1971-01/\",\n        \"https://archive.org/stream/MacWorld_8905_May_1989/MacWorld_8905_May_1989_djvu.txt\",\n        \"https://bitsavers.org/magazines/Electronics/19630308.pdf\",\n        \"https://worldradiohistory.com/Archive-Electronics/60s/Electronics-1961-02-03.pdf\",\n        \"https://www.westsiderag.com/2017/11/11/westside-market-near-77th-will-close-for-good\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ]
+    }
   }
 }

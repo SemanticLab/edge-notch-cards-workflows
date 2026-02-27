@@ -10,6 +10,118 @@
         "y1": 12.2,
         "x2": 44.9,
         "y2": 16.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28418",
+          "label": "Bernard Venet",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Bernard Venet' matches exactly. The Wikibase entry describes an artist associated with the E.A.T. (Experiments in Art and Technology) project, which was active in the late 1960s and early 1970s, perfectly aligning with the provided context for the person on the card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q545445",
+          "label": "Bernar Venet",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Bernard Venet' on the card is a direct match for the famous artist Bernar Venet (Q545445). He was a highly influential conceptual artist and sculptor active in New York City beginning in the mid-1960s, which aligns perfectly with the timeframe and artist context provided."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bernar Venet (born April 20, 1941) is a prominent French conceptual artist and sculptor known for his mathematical and scientific approach to art. He moved to New York in 1966 and became a leading figure in the conceptual and minimal art movements. Venet was closely associated with the Experiments in Art and Technology (E.A.T.) organization in the late 1960s, notably participating in their landmark 1968 exhibition \"Some More Beginnings\" at the Brooklyn Museum. His work during this period often incorporated scientific data and mathematical diagrams, such as his 1969 solo exhibition at the Newark College of Engineering. His early career is marked by works such as the \"Tar Paintings\" and the 1963 \"Tas de charbon\" (Pile of Coal), considered the first sculpture without a specific shape. After a five-year hiatus from creating art (1971–1976) to teach at the Sorbonne in Paris, he resumed his practice, eventually becoming world-famous for his monumental Corten steel sculptures of arcs, angles, and indeterminate lines. His works are part of major permanent collections, including those of the Museum of Modern Art (MoMA), the Guggenheim Museum, and the Centre Pompidou.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Bernar_Venet",
+              "https://www.parrotta.de/artists/bernar-venet/biography",
+              "https://www.operagallery.com/artists/bernar-venet",
+              "https://www.ceyssonbenetiere.com/en/artists/bernar-venet/",
+              "https://www.domaine-chaumont.fr/en/centre-d-arts-et-de-nature/bernar-venet"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bernard Venet artist biography E.A.T. Experiments in Art and Technology",
+            "\"Bernard Venet\" Experiments in Art and Technology contribution",
+            "Bernard Venet artist 1960s 1970s",
+            "\"Bernar Venet\" E.A.T. artist",
+            "\"Bernar Venet\" collaboration with engineers 1960s",
+            "Bernar Venet \"Experiments in Art and Technology\" association"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9fVAjvJFiiSNn0SO884pbdby-KbFQp0BVgQFOsle5S7Zo9DGFWBzpuu7udtEpweXcQ0hZvV3G1EhYPLrjITUongkY7iIcxyn24oJhj7RCLV-xsQW4VUwUc4D2pqVYuvcjrVUFcY0rdNrZbJi18uho9YZIty-KTL4hjAQAqfLhoG4jUtgy_cxMmo71H1p8hiDdF33K8Bw4",
+              "title": "arterritory.com",
+              "resolvedUri": "https://arterritory.com/en/visual_arts/interviews/27391-each_painting_is_a_kind_of_equation/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkFWyGpiO0gdTXqA9ew09oyTaUqTRyIcRMNURWgkravxX9CxbkPNtMYAq_aWO91VQ6ippqFyzUZeK8rf2Fr4vI_GlNMXMw1q85dVUyOCzAiy70xH30OJpNlRhBhtsi7Ik1vkg6dN8KU0Kc3Y_CWxtjU0-Atbs6EApKQr0mz2LykVAPoHb9DoPwNhPokeQxWrFfl-xVVN67UHc=",
+              "title": "domaine-chaumont.fr",
+              "resolvedUri": "https://domaine-chaumont.fr/en/centrefor-arts-and-nature/archives/2024-art-season/bernar-venet"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE_2SbPQuwiJLDyaGuT4SBv_qwtGcHgQMawyVALtn46-THmRWO7U05ik7c6V0SM0MurTLtYY83aXrIpdErf54rWz6T1S8CXhQ14f1QM22yikZQ9LNy6ghgLPgNPrRIJL10cGSGpTzMXIggIxtJoylm5n_yZzZsqkFoOt_EnCdTZqyFdQLyUcw=",
+              "title": "hashtaglegend.com",
+              "resolvedUri": "https://hashtaglegend.com/bernar-venet-on-his-foundation-and-art-collection/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAJoVHof_TZ2owEpTq3lzz1JrfTtTVxwaHtP1u7HDYb5u3X3f9t8pAlia7R06WxcDPZYPy2pmq7hwTLOj-HMcIAS11myhb70iQMVs7as-QODAK7hAFsd_X-B18hwbwe4i7Ry8haTk=",
+              "title": "parrotta.de",
+              "resolvedUri": "https://parrotta.de/artists/bernar-venet-2/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzQpZw8vFZVRYxBgolqrsLs61u3k8vMt4PdiwAfbP1eSUtVTASeL9OfF0Hcw_DAKg0q1yoBwj727YehLmvK7uhFhfdC9dphyNyrStiz0mEekzsjDosMoOSbjKyuMzJkhv46HVUye96LapBraPCzoV2i8ZcCcRwgG_bgoshdIsmgHKjmo-kqtg-5i8LlX8AoetR_9H-7Qitl4G1nsr7AwDLkk1BMfg=",
+              "title": "kasmingallery.com",
+              "resolvedUri": "https://www.kasmingallery.com/usr/library/documents/main/artists/98/bv_presshighlights_8.28.23-hi-res-.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm3ool0yOQGdXr11VnDQggElOAMYQa5RgJKpo9Sxm6B9VB8mBpZlPReTExiR4-WWjY2zmnmv5iEqOAVdclV3Ohwpa_HcvsLjwVkehqEI6CoIuwM2HHZ0MdvP2pdJBfXcDDbZzPBMDE2cqXACrp7sCdYoRQqryG",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/component/10PHBK"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 179,
+                "text": "{\"results\":[{\"possibleIdentity\":\"Bernar Venet (born April 20, 1941) is a prominent French conceptual artist and sculptor known for his mathematical and scientific approach to art."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 180,
+                "endIndex": 281,
+                "text": "He moved to New York in 1966 and became a leading figure in the conceptual and minimal art movements."
+              },
+              "groundingChunkIndices": [
+                4,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 363,
+                "endIndex": 499,
+                "text": "organization in the late 1960s, notably participating in their landmark 1968 exhibition \\\"Some More Beginnings\\\" at the Brooklyn Museum."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +134,100 @@
         "y1": 16.7,
         "x2": 49.8,
         "y2": 23.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26295",
+          "label": "Howard Gutstadt",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikibase entity is specifically identified as being part of the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which aligns perfectly with the metadata and historical context of the card entry dated 1969."
+        }
+      ],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Howard Gutstadt is a pioneering video artist, activist, and educator who was a central figure in the early video art and community media movements of the late 1960s and 1970s. In 1968, he was a member of the proto-video collective Commediation, a discussion group that included notable figures such as Nam June Paik and Frank Gillette. In 1970, Gutstadt co-founded the People's Video Theater (PVT) in New York City, which focused on using the newly available Sony Portapak cameras for community activism, street theater, and documenting liberation movements (including the Young Lords and Black Panthers). This group later evolved into Survival Arts Media (SAM) in 1973, which Gutstadt co-directed. Through SAM, he experimented with early electronic image processing, video feedback, and immersive multimedia performances, often collaborating with engineers to develop analog video tools. His work was part of the broader movement connecting art and technology, frequently cited alongside the Experiments in Art and Technology (E.A.T.) organization. Gutstadt is also recognized for capturing over five hours of footage at Camp Jened, a summer camp for disabled teens in the early 1970s, which became the archival foundation for the 2020 Netflix documentary 'Crip Camp.' In 1978, he relocated to California, where he founded Digital Image Productions and worked with Sony and Autodesk to develop software tools for artists. His career also includes contributions to the SIGGRAPH art shows in the 1980s and creating the cover art for Herbie Hancock’s 1981 album 'Magic Windows.'",
+            "sources": [
+              "https://bavc.org/now-available-on-youtube-from-video-activism-to-early-immersive-media/",
+              "http://www.davidsonsfiles.org/annotatedvideoexhibitions.html",
+              "https://peoplesvideotheater.org/about/",
+              "https://eatdrinkfilms.com/2020/03/27/the-summer-camp-that-started-a-revolution/",
+              "http://www.vasulka.org/archive/4012/SETINMOTION.pdf",
+              "https://history.siggraph.org/person/howard-gutstadt/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Howard Gutstadt\" Experiments in Art and Technology",
+            "\"Howard Gutstadt\" E.A.T.",
+            "\"Howard Gutstadt\" video artist",
+            "Howard Gutstadt artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN3TBDsm3Y7p8qMa7uIQPExu7f1oToSj17yz30dp07of-bGuC5q0vvc0tozVXSDvjKDZZmDiQJWkiPKHIMWq9Zfz3BawLwvWLUetaaM6rvnNiiKQgnzYJC1Po-7SCblcNKj9DPrcWjH1CWoFjdt_NVeCD7emk4GHN2IEpQVoOZSIXwCI826z4ZPUzX",
+              "title": "bavc.org",
+              "resolvedUri": "https://www.bavc.org/now-available-youtube-video-activism-early-immersive-media/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcln9YcH5_otQz6llKuULYmLhaLA0g4hOiRlhEca36Qm77v8Qe5StQi4-s2zitgnqQZL4hA2jFJTWqCTyAECpolrcdrunuuzNXnRxVhpC5Howge3LqQObrDiy5j1OWQN1CPvHS8_o=",
+              "title": "davidsonsfiles.org",
+              "resolvedUri": "https://davidsonsfiles.org/Exhibitions.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwNigO7Jbj1awlRgaaLDBkbsi64BkQuVv-KCugaDDgNsIEjG2ryDcxHLo8zLwlkMkn5gJ_b4d-DFYis5ZYBSyyW2AAkx2npPhcqs6Fzy2ggOMij-FrlQ5zimYoS7QQZTceWrkq",
+              "title": "peoplesvideotheater.org",
+              "resolvedUri": "https://www.peoplesvideotheater.org/about"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 225,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Howard Gutstadt is a pioneering video artist, activist, and educator who was a central figure in the early video art and community media movements of the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 226,
+                "endIndex": 385,
+                "text": "In 1968, he was a member of the proto-video collective Commediation, a discussion group that included notable figures such as Nam June Paik and Frank Gillette."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 749,
+                "endIndex": 938,
+                "text": "Through SAM, he experimented with early electronic image processing, video feedback, and immersive multimedia performances, often collaborating with engineers to develop analog video tools."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1320,
+                "endIndex": 1472,
+                "text": "In 1978, he relocated to California, where he founded Digital Image Productions and worked with Sony and Autodesk to develop software tools for artists."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

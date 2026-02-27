@@ -9,6 +9,107 @@
         "y1": 9.1,
         "x2": 43.3,
         "y2": 20.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q94619895",
+          "label": "Clyde Lynds",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to Clyde Lynds. The Wikidata entity is confirmed as an artist with files in the Smithsonian and National Gallery of Art, and was born in 1936, which fits the timeline of being an active artist when the card was created in 1969."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Clyde William Lynds (born 1936) is an American kinetic sculptor and painter known for pioneering the use of fiber optics in concrete sculpture. Born in Jersey City, New Jersey, and based in Wallington, NJ, Lynds began his career in the mid-1960s, with works such as \"Doll with Music Machine\" (1966) and \"Constellation Light Box\" (1970) marking his early professional activity. He is best known for his \"Stele\" series—monolithic forms of cast and carved concrete into which hundreds of optical fibers are embedded. These fibers are connected to internal light sources and programmed to create continuously changing patterns of light that appear to glow from within the stone, often referencing themes of astronomy, history, and classical science. His practice embodies the interdisciplinary goals of the 1960s and 70s art-and-technology movement, such as those promoted by Experiments in Art and Technology (E.A.T.), by blending the roles of artist and engineer. His works are held in prestigious collections including the Smithsonian American Art Museum and the Wadsworth Atheneum, and he has completed numerous public commissions such as the \"Ad Astra Per Aspera\" gateway in Queens, New York.",
+            "sources": [
+              "https://www.askart.com/artist/Clyde_William_Lynds/111303/Clyde_William_Lynds.aspx",
+              "https://americanart.si.edu/artist/clyde-lynds-3037",
+              "https://www.mutualart.com/Artist/Clyde-Lynds/410E3B68C3398D10/Biography",
+              "https://www.nyc.gov/site/designcommission/review/public-art/percent-for-art/clyde-lynds.page",
+              "http://www.clydelynds.com/biography.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Clyde Lynds artist biography",
+            "Clyde Lynds fiber optic sculpture",
+            "Clyde Lynds kinetic artist 1960s 1970s",
+            "Clyde Lynds Experiments in Art and Technology E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZJ6LGdvtcPmLRjM0ZGYdWBgcaaixwXahlrE8aN9W2AZQ-dMoEAOH_WlG8_Nv8xFgSoJ-K9clpFilw8KKKpUBBCodFj-rqQQhDdo6iiG3LxxyFtpz9F1pVc-ZmMuA-25lSAr4XHAc0TOslQ5iANm0ZtGCLX30hUNNrSffAAIk41-RhveTEZAX4ZyPSsaWP",
+              "title": "askart.com",
+              "resolvedUri": "https://www.askart.com/artist/Clyde_William_Lynds/10033786/Clyde_William_Lynds.aspx"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0w0Ow4fv225kXkCsXv2Sduz-iNCrW_isHjPM7G-j2ljoBOL88UYaVzGlgCf98vG9aVQLioK5AeohRKBfanFEvZ5wRQ-iPJL5vcH6YJG9fEwvNoG24AhXLpIZzMVrG3rTWJNPVUGm-RCRXk7fS1i1EFuMViUYuEA7DaJsjykw4xUiXDxIW75uyZ146ec0KIWw3j0inNZMQClw=",
+              "title": "askart.com",
+              "resolvedUri": "https://www.askart.com/artist/clyde_william_lynds/10033786/clyde_william_lynds.aspx?alert=info"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExVzc6amVYb0gSRNMEgwU4h5Crggi74L_ucpJOcqzNxL6URbT2QIegQc3_GI-W6YlLeb9uunRuzNe8spnGOBuI5iTqE9Qdydql6eB0n9wPA7yWaDSbBJkj_U5Are4KfnPZMH5a7BIZtoODEBy9ylun6wmErYc1LNX2WgSySBg3Xg3OqylVPk4xtFLe1gL-LtI=",
+              "title": "nyc.gov",
+              "resolvedUri": "https://www.nyc.gov/site/dclapercentforart/projects/projects-detail.page?recordID=161"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2RxJkX7RXrJdkrP5RRciW3gbhmJWbrp2re9APa5rKE3vjlXEMmM4spfhBveJ5grjKEUIYNO2Vn1BcpJ6BVA9KrFepfJDbgcShxAhXWZLix2hF48gvN3nq_z2FTOWS2gq0nBXjscUpHFMu6xxv8XyAQitMDPyZ-5jPYotbS34PvAuBs2Uvr6uE1AP34nLlpylQkVw=",
+              "title": "invaluable.com",
+              "resolvedUri": "https://www.invaluable.com/artist/lynds-clyde-william-k91xgi9zje/sold-at-auction-prices/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkzgitJn5AYxrECWgPy1VkWJkbvjTjFInVYAjsYP-iFhlrAK_rEQ7S20lebfE97ahKuuTHSozVGBuUUT1oDDv9_ZeCBCuAQ2D6W1QOUL1JSoIthz0yyIU14D9FFw5EoNbrm06qUnO5SZZMR5GoJjCZWTXgFgNUtQ==",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/collection/113YMQ"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBCfeQvss2bysJ44aTNgsfSbZ_CLfVbSfpp-5FB9LW2QqtO3BdJPhi_KymdaDe8-0G3xwHAk-2asQAyhxKVeLJ-hisnn6bozSUEP9s5MUmskdaZNgXBT8PxADAoB7yev6B0gna42MwBn7p",
+              "title": "ucla.edu",
+              "resolvedUri": "http://bermant.arts.ucla.edu/lynds_crystals.htm"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 193,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Clyde William Lynds (born 1936) is an American kinetic sculptor and painter known for pioneering the use of fiber optics in concrete sculpture."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 804,
+                "endIndex": 1019,
+                "text": "His practice embodies the interdisciplinary goals of the 1960s and 70s art-and-technology movement, such as those promoted by Experiments in Art and Technology (E.A.T.), by blending the roles of artist and engineer."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1020,
+                "endIndex": 1720,
+                "text": "His works are held in prestigious collections including the Smithsonian American Art Museum and the Wadsworth Atheneum, and he has completed numerous public commissions such as the \\\"Ad Astra Per Aspera\\\" gateway in Queens, New York.\",\n      \"sources\": [\n        \"https://www.askart.com/artist/Clyde_William_Lynds/111303/Clyde_William_Lynds.aspx\",\n        \"https://americanart.si.edu/artist/clyde-lynds-3037\",\n        \"https://www.mutualart.com/Artist/Clyde-Lynds/410E3B68C3398D10/Biography\",\n        \"https://www.nyc.gov/site/designcommission/review/public-art/percent-for-art/clyde-lynds.page\",\n        \"http://www.clydelynds.com/biography.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                5,
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

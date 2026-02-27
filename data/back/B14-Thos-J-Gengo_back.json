@@ -11,6 +11,144 @@
         "y1": 9.7,
         "x2": 30.4,
         "y2": 16.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28399",
+          "label": "Scotty Snyder",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records share the exact same name, 'Scotty Snyder'. The Wikibase entity is specifically categorized as an artist within the E.A.T. (Experiments in Art and Technology) project, which matches the occupational context and the date (1969) found on the physical card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q29231",
+          "label": "Frans Snyders",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Frans Snyders was a Flemish Baroque painter who lived from 1579 to 1657. The record from the card is dated 1969, making it impossible for them to be the same person. Furthermore, the names 'Scotty' and 'Frans' are not similar."
+        },
+        {
+          "qid": "Q385997",
+          "label": "Jonas Suyderhoef",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different ('Scotty Snyder' vs 'Jonas Suyderhoef'), and the time periods are incompatible. The person on the card was active in 1969, while the Wikidata entity lived and died in the 17th century (1603/1613-1686)."
+        },
+        {
+          "qid": "Q1370998",
+          "label": "Snyder Rini",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Scotty Snyder' from the card does not match the name 'Snyder Rini' from Wikidata. Furthermore, the Wikidata entity describes a prominent politician from the Solomon Islands, whereas the context for the card entry identifies the individual as an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q1681665",
+          "label": "Solomon H. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The physical card refers to Scotty Snyder, who is identified in the provided context as an artist. The Wikidata entity (Q1681665) describes Solomon H. Snyder, a highly prominent neuroscientist and researcher with a medical background. The names are not a close match (Scotty vs. Solomon), and the professions are completely different."
+        },
+        {
+          "qid": "Q2296146",
+          "label": "Snyder S. Kirkpatrick",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are completely incompatible. The Wikidata entity, Snyder S. Kirkpatrick, died in 1909, whereas the card entry is dated 1969. Furthermore, Kirkpatrick was a politician and lawyer, not an artist, and the name structure is different (Snyder is his first name, while for the person on the card, Snyder is likely the surname)."
+        },
+        {
+          "qid": "Q3182230",
+          "label": "John Otterbein Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Otterbein Snyder died in 1943, whereas the card entry is dated 1969. Furthermore, the Wikidata entity was a zoologist and ichthyologist, which contradicts the known artistic context of the person on the card."
+        },
+        {
+          "qid": "Q14954619",
+          "label": "Leon C. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Scotty Snyder' on the card does not match the name 'Leon C. Snyder' in the Wikidata entity. Additionally, the Wikidata entity is described as a botanist and horticulturist, whereas the context for the card entry specifies the person was an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q25035800",
+          "label": "Abraham Z. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Scotty Snyder' and 'Abraham Z. Snyder' do not match, nor is 'Scotty' a common nickname for 'Abraham'. Furthermore, the occupations (artist vs. researcher) and birth dates (active in 1969 vs. a born-in-2000 placeholder or actual date) are completely inconsistent."
+        },
+        {
+          "qid": "Q70250411",
+          "label": "Lillian Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The records do not match in name (Scotty vs. Lillian), occupation (artist vs. botanical collector/mycologist), or timeframe. Lillian Snyder was born in 1874, making it highly improbable that she is the person identified as an artist active in 1969."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Scotty Snyder (born c. 1912) was an American artist and performer active in the New York avant-garde scene from the 1960s through the 1980s. She is historically significant for her association with Experiments in Art and Technology (E.A.T.), a non-profit founded by Billy Klüver and Robert Rauschenberg; records indicate she participated in E.A.T. exhibition programming between November 1968 and February 1969. Snyder was a frequent collaborator and subject for the performance artist Stuart Sherman, appearing in his films and performance documentations such as \"Scotty Snyder (All Around the Table)\" (1987) and \"Son of Scotty and Stuart\" (1994). She also held a role in Richard Foreman's 1981 avant-garde drama film \"Strong Medicine.\" Earlier in her career, she was recognized as a painter, with a recorded exhibition of her work at the Visual Arts Center of New Jersey in 1962. A fixture of the downtown Manhattan arts community, she lived at Patchin Place in Greenwich Village and was associated with notable figures such as painter George Deem and dance historian Sally Banes, the latter of whom described her participation in experimental film and performance contexts.",
+            "sources": [
+              "https://www.artist-info.com/curator/E-A-T",
+              "https://archives.nypl.org/the/21287",
+              "http://www.georgedeem.org/writings/diary-1978",
+              "https://www.artcenternj.org/wp-content/uploads/2018/01/Exhibition-Timeline-Updated-1-17-18.pdf",
+              "https://dlib.nyu.edu/findingaids/html/fales/sherman/",
+              "https://epdf.pub/before-between-and-beyond-three-decades-of-dance-writing.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Scotty Snyder\" \"Experiments in Art and Technology\"",
+            "\"Scotty Snyder\" artist 1960s 1970s",
+            "\"Scotty Snyder\" artist E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0F1d9vArgS1QI3bV5c3DL6Je8xp4k384DGjQUXk1aQI4Rmi7YSh78KZ1tfQdaA8wEi-OxUMDsXhemlze3rKLKoKs2-o80dNVEOg_3yMaxuWAmOOiq66hx8nxeUTix",
+              "title": "nypl.org",
+              "resolvedUri": "https://archives.nypl.org/the/22735"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGAnEluJtTWrweDKWpX4PKE0uezx3RSKu5qbMzKVbzLVQTLitYVeE1iCZKSU_Xgra0cb1FXQbCpa4zEEail3QBEW4-CCnHQop5IdChWe_0mhao4mdw-uSueavVHVJxvcIm81SFbAQaZ2SaJnEcMcEQTV0Mp4VCLq5LRr3VrYGJ43l7v62hRYAQEA==",
+              "title": "epdf.pub",
+              "resolvedUri": "https://epdf.pub/before-between-and-beyond-three-decades-of-dance-writing.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETmwzuVIsPXThd87-fedJq2S02SsYQSnTRLOtF1VwR7uGHFPEABlXcgL0QYVaTCKjWNF0cvGuPp-yL6MAD-yeHufBMayJqGnKEodnu2KBA7B26aF0wcy3qRXVSe2vYL5Okn26fRKzmmlJrCYbRdtlYJkNZK1E=",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 190,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Scotty Snyder (born c. 1912) was an American artist and performer active in the New York avant-garde scene from the 1960s through the 1980s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 399,
+                "endIndex": 462,
+                "text": "exhibition programming between November 1968 and February 1969."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

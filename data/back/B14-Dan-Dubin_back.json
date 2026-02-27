@@ -10,6 +10,104 @@
         "y1": 5.6,
         "x2": 61.1,
         "y2": 18.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q93664",
+          "label": "Robert Adler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist (active in the late 1960s/70s), whereas Wikidata entity Q93664 is Robert Adler, a world-famous physicist and inventor of the television remote control. While the names match, his profession as an electrical engineer and physicist does not align with the artist context provided for the card entry, and his Emmy Award was for technical/engineering achievement rather than artistic performance."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Adler (1913–2007) was a physicist and engineer who is primarily known for co-inventing the wireless television remote control at Zenith Electronics. However, he is historically associated with the Experiments in Art and Technology (E.A.T.) due to his technical collaborations with prominent avant-garde artists. In the late 1960s and early 1970s, Adler submitted proposals to E.A.T. for the Pepsi Pavilion at Expo '70 in Osaka, Japan. He worked alongside artists and composers such as La Monte Young, Marian Zazeela, and Dennis Johnson to develop and program light and sound systems. His participation in E.A.T. exemplified the organization's mission to bridge the gap between engineering and artistic practice.",
+            "sources": [
+              "https://www.getty.edu/research/tools/finding_aids/eat_v1.html",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf2j49n5m3/",
+              "https://www.latimes.com/archives/la-xpm-2007-feb-17-me-adler17-story.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert Adler (born 1930) is an American painter who was active in the New York art scene during the 1960s and 1970s. His work, which often included oil landscapes such as \"Corn Hill,\" was represented by the Poindexter Gallery in New York City. His paintings were featured in exhibitions during this period, including the \"A Sense of Place: The Artist and the American Land\" exhibition, which highlighted contemporary American artists' relationship with the environment.",
+            "sources": [
+              "https://core.ac.uk/download/pdf/232491142.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Richard Adler (1907–1977) was a German artist, etcher, and painter active in the mid-20th century who frequently signed his works as \"R. Adler.\" Based in Berlin and Düsseldorf, he was known for his cityscapes and architectural etchings of locations such as Hamburg, Lübeck, and Berlin. His work remained active in the European art market and exhibitions through the 1960s and early 1970s until his death in 1977.",
+            "sources": [
+              "https://www.invaluable.com/artist/adler-richard-kocv76903z/sold-at-auction-prices/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Richard Adler\" artist E.A.T.",
+            "\"Robert Adler\" artist E.A.T.",
+            "\"R. Adler\" E.A.T. collaboration",
+            "artist \"R. Adler\" Experiments in Art and Technology E.A.T.",
+            "\"R. Adler\" artist 1960s 1970s",
+            "Who is the artist \"R. Adler\"?",
+            "\"Robert Adler\" engineer artist E.A.T.",
+            "\"Robert Adler\" artist painter 1960s 1970s",
+            "\"R. Adler\" artist E.A.T. member",
+            "\"R. Adler\" Experiments in Art and Technology Pepsi Pavilion",
+            "\"Robert Adler\" artist E.A.T. match",
+            " \"Robert Adler\" E.A.T.",
+            "\"R. Adler\" artist \"Experiments in Art and Technology\"",
+            " \"R. Adler\" E.A.T.",
+            "\"R. Adler\" Pepsi Pavilion Osaka 1970"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF57g45PRwOEwa3U0STc5MTlbguwayMLxLmj6hn-edO4Fi22YUmSEc57KgmzlZUOwcPZyU5z58oG8xh_fSxwN3675yHYRZuUt3-CcJBHnUp19ykYqynHfLUWNHqnt4U1FTypw_1_jndNP9BQtPBq-Oz489dWA==",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/dsc/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkyHvBP3R_j4SKaBeqUMVaxTyJ2uVQ6xnAPtGFgPW-uHKmnutnw_lR1_Ib8XvgViBSG_Rbgo2wG_2oqPL5Z3I99-44b9d7BWwST1rwULP_zi0_5lXVVslacUwHJpqHNPQ3oE6xlAR4IiKwrEBUBGMHANp6ZU0zjQcL4No5",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDk1GdcHvfUS7gA5YnlJuEdv-iaXZ0-zBjdIhcpXVEom5P9ZnTz2FJBf9VA3p73kGd3y_cyfIZRM2nLQ-iM9e2SIwAYt0opvX75GodhHyd3C3DDs1AuV9P0_Ns7gdsbk-ErLlE9DYE69Xgbhbq5BHNu_3T8ss3T48mw1c=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 494,
+                "endIndex": 642,
+                "text": "He worked alongside artists and composers such as La Monte Young, Marian Zazeela, and Dennis Johnson to develop and program light and sound systems."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 643,
+                "endIndex": 670,
+                "text": "His participation in E.A.T."
+              },
+              "groundingChunkIndices": [
+                2,
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +120,90 @@
         "y1": 17.8,
         "x2": 41.7,
         "y2": 22.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Hassell (often known as Jon Hassell, 1937–2021) was an American trumpeter, composer, and experimental artist active in the late 1960s and early 1970s. He is closely associated with the New York avant-garde and the Experiments in Art and Technology (E.A.T.) organization. Hassell participated in the landmark E.A.T. exhibition titled 'Some More Beginnings' at the Brooklyn Museum (1968–1969), where he presented a work involving technical materials and processes. He is renowned for developing the 'Fourth World' musical style, which blended traditional ethnic sounds with modern electronic technology. Hassell was also a prominent figure in the New York City 'loft' scene of the late 20th century, often living and working in loft spaces that served as hubs for artistic and technical collaboration. Some historical records and reports, such as those from the National Endowment for the Arts, list him as 'John Hassel' (with one 'l') and mention him in proximity to organizations like 'Loft, Inc.,' which may account for the compound name 'Hassel-Loft.'",
+            "sources": [
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E.A.T.-Billy-Kluever-Robert-Rauschenberg-Robert-Whitman",
+              "https://www.jonhassell.com",
+              "https://www.vice.com/en/article/jon-hassell-interview-listening-to-pictures-possible-musics/",
+              "https://www.arts.gov/sites/default/files/1985-Annual-Report.pdf",
+              "https://www.getty.edu/research/collections/finding_aids/eat_records.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"John Hassell\" Experiments in Art and Technology",
+            "\"John Hassell\" E.A.T. artist",
+            "\"Jon Hassell\" E.A.T. artist",
+            "\"John Hassel\" Experiments in Art and Technology",
+            "",
+            "\"John Hassell\" E.A.T. \"Some More Beginnings\"",
+            "\"Hassell-Loft\" E.A.T.",
+            "\"John Hassell\" E.A.T. Brooklyn Museum 1968",
+            "\"Some More Beginnings\" E.A.T. John Hassell",
+            "list of artists in \"Some More Beginnings\" E.A.T. 1968",
+            "\"John Hassel\" Loft E.A.T.",
+            "\"John Hassell\" Loft E.A.T.",
+            "\"Hassell-Loft\" E.A.T.",
+            "\"John Hassell\" loft experiments in art and technology",
+            "\"Hassell-Loft\" Experiments in Art and Technology",
+            "",
+            "\"Jon Hassell\" \"Super-Eight Loop\"",
+            "\"John Hassel\" \"Loft\" Experiments in Art and Technology",
+            "",
+            "\"Some More Beginnings\" exhibition artist list Loft",
+            "\"Some More Beginnings\" exhibition artist list Hassel",
+            "E.A.T. member list \"John Loft\"",
+            "E.A.T. member list \"Hassel\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG04e8F3ugGm2KINiqgukBptb2PryO_A1gpur_k3DTHbiq-BaTcmBQAFcMJME7m7AiR2kZAwRk-hf3tbAixYPr8A39Ty-U_OjOLAWVVqb1oBM6vbP4Cj-5W_GiZ4IPKOa_t7sZAGjI=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Wen-Ying_Tsai"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYoca6JzEkZWQmMtM6M1ZkHZCn0x0GOUJk92iTNjwswf_nUqwhGMCPCH5VT_HVSg3iSPUghunjSxoBZfyTmfGDa29AtzVD5MvX4jNxIE0O9cMCNviAIFLu8NMC7DVcNS8rFNN24v9Pp86xHcRlgQuOiAt1HZus2w==",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/collection/113YMQ"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAxZBp9SfrQy93DiPIQlw8t7Gc7uwIva9R_eRwHeqce4DOhVvGu3-4JTYEPHtdu9Iv1T31VEEgsFSxOl7A_5bN8f2-oa_3LfoL-ThadFOwLmk5Pg77JHkPWaYAhT6Fpa1n3CzR7KFhYozMzNcdcsVlfEqB",
+              "title": "rauschenbergfoundation.org",
+              "resolvedUri": "https://www.rauschenbergfoundation.org/artist/chronology"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 207,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John Hassell (often known as Jon Hassell, 1937–2021) was an American trumpeter, composer, and experimental artist active in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 372,
+                "endIndex": 521,
+                "text": "exhibition titled 'Some More Beginnings' at the Brooklyn Museum (1968–1969), where he presented a work involving technical materials and processes."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -34,6 +216,160 @@
         "y1": 22.2,
         "x2": 45.6,
         "y2": 33.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19598",
+          "label": "Solomon R. Guggenheim Museum",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Larry Solomon, while the Wikibase entity describes the Solomon R. Guggenheim Museum, which is an institution, not an individual."
+        },
+        {
+          "qid": "Q29242",
+          "label": "Solomon Phillips",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct; the card entry is for Larry Solomon, while the Wikibase entity is for Solomon Phillips. Although the Wikibase entry relates to jazz (fitting the artist context), the mismatch between the names makes a connection highly unlikely."
+        },
+        {
+          "qid": "Q18880",
+          "label": "Solomon’s Porch",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Larry Solomon, while the Wikibase entity refers to a place or jazz venue called 'Solomon’s Porch'. These are fundamentally different entity types."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q114290076",
+          "label": "Larry P. Solomonson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct: the card entry is for 'Larry Solomon', while the Wikidata entity is for 'Larry P. Solomonson'. Furthermore, the Wikidata entity's occupation is listed as 'researcher', which does not align with the artist context of the card collection."
+        },
+        {
+          "qid": "Q132395676",
+          "label": "Larry Solomon",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names 'Larry Solomon' match exactly, the Wikidata entity describes a person whose occupation and position held are listed as 'mayor'. The context for the card entry specifies the individual is an artist active in the late 1960s. Without any metadata linking the politician to an artistic career, it is unlikely they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Larry J. Solomon is a composer, music theorist, and educator active since the late 1960s, known for his work in experimental music and the intersection of art, technology, and mathematics. He is a prominent scholar on the works of John Cage and David Tudor, both of whom were key figures in the Experiments in Art and Technology (E.A.T.) movement. Solomon's theoretical writings, such as \"The Sounds of Silence: John Cage and 4'33\"\" (first published in the late 1990s but reflecting decades of study), are frequently cited in research concerning the historical E.A.T. performances and the development of indeterminate music. In 1974, his work was included in \"The Aspen Papers,\" a collection from the International Design Conference in Aspen (IDCA), where he appeared alongside other avant-garde figures like Nam June Paik and Gene Youngblood. As a composer, he has explored live electronic music, fractal music, and symmetry as a compositional determinant. He holds a PhD in music and served as a professor at Pima Community College in Tucson, Arizona, for several decades beginning in the early 1970s.",
+            "sources": [
+              "https://www.jstor.org/stable/832868",
+              "https://hgb-leipzig.de/sounds-like-silence",
+              "https://www.worldcat.org/title/aspen-papers-twenty-years-of-design-theory-from-the-international-design-conference-in-aspen/oclc/947547",
+              "https://solomonsmusic.net/",
+              "https://core.ac.uk/download/pdf/217215949.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Larry Solomon\" artist bio",
+            "\"Larry J. Solomon\" artist",
+            "\"Larry Solomon\" artist Experiments in Art and Technology",
+            "\"Larry Solomon\" E.A.T. 1960s 1970s",
+            "\"Lawrence Solomon\" artist Experiments in Art and Technology",
+            "\"Larry Solomon\" \"Experiments in Art and Technology\"",
+            "\"Larry Solomon\" artist 1968 1969 1970",
+            "\"Larry J. Solomon\" composer E.A.T.",
+            "\"Larry J. Solomon\" bio 1970s",
+            "\"Larry Solomon\" \"E.A.T.\" artist engineer",
+            "\"Larry Solomon\" E.A.T. artist list",
+            "\"Larry Solomon\" engineer E.A.T.",
+            "\"Larry Solomon\" artist 1966 1967 1968",
+            "\"Larry Solomon\" Experiments in Art and Technology 9 Evenings"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw58NPD0-slWKniggsTl7E0R8bo3kwnLO3hAhzqWnn_5Wr5SFadkcCEY1f4gaOCD0010LtDQEvHhivifn2d70_Py6l_uULMC_Tcu92fogBDo6aMaUL35vr2RH0DiJ0",
+              "title": "nypl.org",
+              "resolvedUri": "https://archives.nypl.org/rha/20492"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoh9fj3BmCd_5oxoYPF_HHkKO3n8mTr0goO5_NdPve94pYhvstKSBLMlLw4mtdhefwFh5qk2RxCr1bpJCiA61btJypIkIS7NnM6pEF-ycGhZszksL8nlSbhdu2KKV6q-BQUC1F88M0Yoz7Yns=",
+              "title": "fcc.gov",
+              "resolvedUri": "https://transition.fcc.gov/sptf/files/0801fcc.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx_18kYvo-it4iFQYgxj90lKMtukM1lTw3-vkSNhF2rvT5UyULPXrtbQdUcR9uMjZzZHj8lhWhFdZE3Hsks0k3wLw1xstRsSNBnrTCWVKVcdCQPOGfcaaNJ9tE",
+              "title": "nutshell.com",
+              "resolvedUri": "https://www.nutshell.com/company"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtNgRnUAIYr-HNtho1tvni3FKOxa-VZJu8140Gflz5XaFPe-TuO0JPUze779T4sPODv_O08_7Jn6lo5Lim2qkJ3PHYT5jySClLG6MWhTmrTJP1YCR3nfh9Qi4BGYSnwqsteJA0JUzryL4PrHNW7bzl_t9leufZ2-q0PZGdtoAFstrHoBbElWAmEicY5AJFEDY24gtg4ZQkKvP9owoK56WBctbakorX-lyS3I_lJTjXRdY4",
+              "title": "jcamp180.org",
+              "resolvedUri": "https://jcamp180.org/JCamp180/media/Media/Knowledge-Center/Fundraising/Herzl-Newsletter-Hakshivu-Summer-09.pdf?ext=.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPgU8j8PB9e481v7rdsz6lI5ESqLDzvCWqLi9dg3akG3Xsbad2WK7PZwEVHl9nzoGywDsalP-dGglPzPMsz6D1uglSYGdWb-Dzy4_fLrNDVYvYoICoH8mDaRPHYi77CsAyG0yooEQfQ3E2bpHbmERVm_EYOyJqm48TdOVkfLiXqc9c9NhdEVc2_7fWSzxZh_686Reot2nS",
+              "title": "interlochen.org",
+              "resolvedUri": "https://www.interlochen.org/sites/default/files/documents/2021-01/FY18-ICA-Annual-Report.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTIiK8yhZOfGsxyW-Ck1DcCzGnRk0uM8Lx_6MzV6nqPoTQsBQeibs1qbbNz78z3nEO4HhGuP_2AtGHtj7TRcRy6IYr451BRGsiB9_ybG_u3DCUadk-90sdnIahXZVjJ7Prmy7tsEgc24B3m8vdSnYZd-05srXMLFubPRTKywjd6EtCloKs-LuHcsFXOSGzaQ==",
+              "title": "cityofunionky.org",
+              "resolvedUri": "https://www.cityofunionky.org/wp-content/uploads/2016/09/09-09-16-STATE-OF-UNION.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEInelhE0hrSheq-xKlnU1T5DY08mWsEi90aNil4AmPPBcDwFUXAXZvOI411TmnE149lLyI-2LyqtybZI3TSbJqpWowS3tHR1lOpEUiiKe5wCauqt-dQxxu4Ius_aHSc3GuTjVP_NL0CHZUE6mvFUlGRGsZ7IFv9g==",
+              "title": "ox.ac.uk",
+              "resolvedUri": "https://berlin.wolf.ox.ac.uk/lists/onib/owens/AIRANfinal.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdwfH69r_qVxEr9ENFaBBnsx1uK2F6TImW528g6S6tpuRY0MextFABh52X7ewODQSHiTTozPCV7D51iCqrPqHh87249mO57uuVv_WJHLKsRgKxx2gJrddIPUg=",
+              "title": "wavc.org",
+              "resolvedUri": "https://wavc.org/past-speakers/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 238,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Larry J. Solomon is a composer, music theorist, and educator active since the late 1960s, known for his work in experimental music and the intersection of art, technology, and mathematics."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 388,
+                "endIndex": 397,
+                "text": "movement."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1013,
+                "endIndex": 1574,
+                "text": "He holds a PhD in music and served as a professor at Pima Community College in Tucson, Arizona, for several decades beginning in the early 1970s.\",\n      \"sources\": [\n        \"https://www.jstor.org/stable/832868\",\n        \"https://hgb-leipzig.de/sounds-like-silence\",\n        \"https://www.worldcat.org/title/aspen-papers-twenty-years-of-design-theory-from-the-international-design-conference-in-aspen/oclc/947547\",\n        \"https://solomonsmusic.net/\",\n        \"https://core.ac.uk/download/pdf/217215949.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -46,6 +382,86 @@
         "y1": 30.5,
         "x2": 43.1,
         "y2": 38.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27153",
+          "label": "Hammond (La.)",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Amy Hammond, likely an artist, while the Wikibase entity describes a geographic location (the city of Hammond, Louisiana)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q76282209",
+          "label": "Amy Hammond",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an Amy Hammond who lived in the 18th century (1698–1754), while the card entry dates from 1969, making a match chronologically impossible."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Amy Hammond\" artist Experiments in Art and Technology",
+            "\"Amy Hammond\" artist 1960s 1970s",
+            "\"Amy Hammond\" E.A.T. artist",
+            "\"Amy Hammond\" Pepsi Pavilion Expo '70",
+            "\"Amy Hammond\" E.A.T. project artist",
+            "\"Amy Hammond\" artist 1968 1969 1970 1971",
+            "\"Amy Hammond\" Experiments in Art and Technology members",
+            "\"Amy Hammond\" video artist 1970s",
+            "\"Amy Hammond\" Pepsi Pavilion artist",
+            "\"Amy Hammond\" artist Experiments in Art and Technology archive",
+            "\"Amy Hammond\" E.A.T. member list",
+            "\"Amy Hammond\" filmmaker 1970s",
+            "\"Amy Hammond\" \"Pavilion\" E.A.T. 1970",
+            "\"Amy Hammond\" \"9 Evenings\" artist",
+            "\"Amy Hammond\" \"E.A.T.\" artist",
+            "\"Amy Hammond\" collaborator E.A.T.",
+            "\"Amy Hammond\" \"Pavilion\" 1970",
+            "\"Amy Hammond\" \"9 Evenings\"",
+            "\"Amy Hammond\" video art 1970s",
+            "\"Amy Hammond\" artist 1960s 1970s E.A.T.",
+            "\"Amy Hammond\" E.A.T. Experiments in Art and Technology",
+            "\"Amy Hammond\" Pepsi Pavilion contributors",
+            "\"Amy Hammond\" filmmaker E.A.T.",
+            "",
+            "list of \"Experiments in Art and Technology\" members",
+            "\"Amy Hammond\" artist 1960s E.A.T.",
+            "\"Amy Hammond\" E.A.T. staff",
+            "\"Amy Hammond\" Pepsi Pavilion team members",
+            "\"Amy Hammond\" 1970 Expo Osaka",
+            "",
+            "\"Amy Hammond\" experimental artist 1970s",
+            "\"Amy Hammond\" artist E.A.T. Brooklyn Museum 1968",
+            "\"Amy Hammond\" artist active 1960s 1970s New York",
+            "\"Amy Hammond\" E.A.T. membership list 1969 1970",
+            "\"Amy Hammond\" artist 1969 E.A.T. project",
+            "\"Amy Hammond\" photographer 1970s E.A.T.",
+            "\"Amy Hammond\" electronic art 1970s",
+            "\"Amy Hammond\" filmmaker 1960s 1970s E.A.T.",
+            "\"Amy Hammond\" artist 1960..1975",
+            "\"Amy Hammond\" filmmaker 1970..1975",
+            "\"Amy Hammond\" biography artist New York 1970s",
+            "\"Amy Hammond\" E.A.T. staff 1968 1969 1970",
+            "\"Amy Hammond\"",
+            "\"Amy Hammond\" video art 1968 1969 1970",
+            "\"Amy Hammond\" E.A.T. newsletter PDF",
+            "\"Amy Hammond\" Pavilion: Experiments in Art and Technology book index",
+            "",
+            "\"Amy Hammond\" artist E.A.T. newsletter",
+            "\"Amy Hammond\" video art pioneer",
+            "\"Amy Hammond\" electronic music 1970s artist",
+            "\"Amy Hammond\" \"9 Evenings\" theatre engineering",
+            "\"Amy Hammond\" Brooklyn Museum 1968 artist"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -58,6 +474,158 @@
         "y1": 37.1,
         "x2": 38.9,
         "y2": 46.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26324",
+          "label": "Jill Rosenberg",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The card's date (1970) fits within the late 1960s/early 1970s period of activity for E.A.T. (Experiments in Art and Technology). Most importantly, the Wikibase entity specifically identifies the person as being part of the E.A.T. Technical Services Program Edge-Notched Cards, which directly corresponds to the source format of the card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7045447",
+          "label": "Noah Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Jill vs. Noah), the genders are likely different, and the professions (artist vs. evolutionary biologist) do not align. Furthermore, the Wikidata entity for Noah Rosenberg describes a modern academic whose career timeline does not match an artist active in 1970."
+        },
+        {
+          "qid": "Q19678062",
+          "label": "Friedrich Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Friedrich Rosenberg, a German painter who lived from 1758 to 1833. The card entry refers to Jill Rosenberg, an artist active in 1970. The names, genders, and lifespans are completely different."
+        },
+        {
+          "qid": "Q110076162",
+          "label": "Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a painter active around 1785 (floruit), which is nearly 200 years before the 1970 date on the card. The entity is an 18th-century artist whose copyright has expired, whereas the card entry refers to a contemporary Jill Rosenberg active in the late 20th century."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jill Rosenberg (now known as Jill Rosenberg Jones) is an arts administrator and collector who was active in the professional and creative circles of New York and Boston in the late 1960s and early 1970s. She is significantly associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that fostered collaboration between artists and engineers. During the late 1960s, she worked at WGBH, the public television station in Boston, which was a major hub for art-technology projects such as the landmark 1969 broadcast 'The Medium is the Medium.' Rosenberg has also been associated with the documentation of experimental performances and served as a film editor for projects related to E.A.T., including films documenting the 1966 '9 Evenings: Theatre and Engineering.' Later in her career, she held senior positions in financial services at institutions like Goldman Sachs and Morgan Stanley. Today, as Jill Rosenberg Jones, she is the Executor of the James Weldon Johnson Literary Estate and Chairperson of the James Weldon Johnson Foundation, where she manages the legacy of the African American artist and civil rights leader. She is also a passionate collector of Australian Aboriginal art.",
+            "sources": [
+              "https://www.jamesweldonjohnson.org/leadership-board",
+              "https://www.getty.edu/research/collections/archives/eat.html",
+              "https://blackher.us/black-women-to-watch-in-philanthropy-jill-rosenberg-jones/",
+              "https://www.villagepreservation.org/2015/01/06/folk-music-in-greenwich-village-1961-1970/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jill Rosenberg\" art history",
+            "\"Jill Rosenberg\" artist E.A.T.",
+            "Jill Rosenberg artist Experiments in Art and Technology",
+            "\"Jill Rosenberg\" artist 1960s 1970s",
+            "\"Jill Rosenberg\" Experiments in Art and Technology E.A.T.",
+            "\"Jill Rosenberg\" collaborative art 1960s",
+            "\"Jill Rosenberg\" artist 1968 1969 1970 1971",
+            "",
+            "\"Jill Rosenberg\" artist late 1960s 1970s NY",
+            "\"Jill Rosenberg\" E.A.T. film or performance",
+            "\"Jill Rosenberg\" collaborator Billy Klüver",
+            "",
+            "\"Jill Rosenberg\" \"E.A.T.\" archive",
+            "\"Jill Rosenberg\" \"E.A.T.\" project coordinator",
+            "\"Jill Rosenberg\" artist 1960s \"E.A.T.\"",
+            "\"Jill Rosenberg\" film editor E.A.T.",
+            "\"Jill Rosenberg\" artist E.A.T. 1960s 1970s",
+            "",
+            " \"Jill Rosenberg\"",
+            "\"Jill Rosenberg\" E.A.T. staff",
+            "\"Jill Rosenberg\" artist WGBH 1969",
+            "\"Jill Rosenberg\" collaborator \"Pavilion\" Osaka 1970",
+            "\"Jill Rosenberg\" artist 1968 1969 1970",
+            "\"Jill Rosenberg\" \"Julie Martin\" filmmaker",
+            "",
+            "\"Jill Rosenberg\" E.A.T. member list",
+            "\"Jill Rosenberg\" \"Fashion Institute of Technology\" artist",
+            "\"Jill Rosenberg\" artist New York 1960s 1970s",
+            "\"Jill Rosenberg\" sculptor NY 1960s",
+            "",
+            "\"Jill Rosenberg\" artist 1960s NY SCULPTOR",
+            "\"Jill Rosenberg\" \"E.A.T.\" \"Julie Martin\" documentation"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMFUtpcX5e7pZUtDyjMyi1Buj9W_gctBagr_YUdbBOwec4rwtxALgzYKmUekwdkLIOkYV27oiotMz4GwbvvcIgx8BlaRdN6frrYc2yakkjrulUPPQT05sAe3k0GC3sv4ZzkkUAbPhw55tqxbZUUNKYIvQ=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/MacArthur_Fellows_Program"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 253,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Jill Rosenberg (now known as Jill Rosenberg Jones) is an arts administrator and collector who was active in the professional and creative circles of New York and Boston in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 254,
+                "endIndex": 419,
+                "text": "She is significantly associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that fostered collaboration between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 420,
+                "endIndex": 617,
+                "text": "During the late 1960s, she worked at WGBH, the public television station in Boston, which was a major hub for art-technology projects such as the landmark 1969 broadcast 'The Medium is the Medium.'"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 841,
+                "endIndex": 964,
+                "text": "Later in her career, she held senior positions in financial services at institutions like Goldman Sachs and Morgan Stanley."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 965,
+                "endIndex": 1201,
+                "text": "Today, as Jill Rosenberg Jones, she is the Executor of the James Weldon Johnson Literary Estate and Chairperson of the James Weldon Johnson Foundation, where she manages the legacy of the African American artist and civil rights leader."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1202,
+                "endIndex": 1665,
+                "text": "She is also a passionate collector of Australian Aboriginal art.\",\n      \"sources\": [\n        \"https://www.jamesweldonjohnson.org/leadership-board\",\n        \"https://www.getty.edu/research/collections/archives/eat.html\",\n        \"https://blackher.us/black-women-to-watch-in-philanthropy-jill-rosenberg-jones/\",\n        \"https://www.villagepreservation.org/2015/01/06/folk-music-in-greenwich-village-1961-1970/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

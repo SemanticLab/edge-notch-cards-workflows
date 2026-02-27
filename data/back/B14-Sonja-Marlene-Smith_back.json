@@ -9,6 +9,120 @@
         "y1": 7.8,
         "x2": 31.0,
         "y2": 15.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6697422",
+          "label": "Lucio Pozzi",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes an artist (painter, photographer) who was active starting in the early 1960s (floruit 1962, born 1935), which perfectly aligns with the 1969 date on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lucio Pozzi (born 1935, Milan, Italy) is a multidisciplinary artist who moved to the United States in 1962. He is a prominent figure in the New York avant-garde scene, known for his work in painting, performance, installation, video, and sculpture. He was active during the late 1960s and 1970s, producing notable works such as the 'Triangles—Red' series (1969) and 'The Level Group' (early 1970s). He is explicitly documented in the archives of the Experiments in Art and Technology (E.A.T.) organization, specifically noted in records from 1966–1968 regarding technical matchings between artists and engineers. His career includes solo exhibitions at the Museum of Modern Art (1978), participation in Documenta 6 (1977), and the Venice Biennale (1980). Beyond his art practice, Pozzi founded the magazine 'New Observations' in the mid-1970s and has taught at institutions such as Cooper Union, Yale University, Princeton University, and the School of Visual Arts. He currently divides his time between Hudson, New York, and Valeggio sul Mincio, Italy.",
+            "sources": [
+              "https://www.getty.edu/research/finding_aids/eat.html",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf1n39n58z/",
+              "https://www.magazzino.art/exhibitions/lucio-pozzi-qui-dentro-in-here",
+              "https://www.halbromm.com/lucio-pozzi-biography",
+              "https://www.luciopozzi.com/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lucio Pozzi artist biography Experiments in Art and Technology E.A.T.",
+            "Lucio Pozzi artist 1960s 1970s",
+            "Lucio Pozzi E.A.T. history",
+            "Lucio Pozzi \"Experiments in Art and Technology\"",
+            "\"Lucio Pozzi\" artist E.A.T. association",
+            "Lucio Pozzi E.A.T. member"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtWd-OxtsMZ55lQ3iJpXE5LuzgAI9keGgyUiRWM9jNvrpccIa4gxpQGhx_eKC1W0tbrx-s1NNvteNH-AnQqDe3YoIidKmO0O_65Y0sAyZRzYT8b1ziOkhDT8zI",
+              "title": "halbromm.com",
+              "resolvedUri": "https://halbromm.com/lucio-pozzi"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIq_VIDL3DFWu7_tAGSQ61DrPjjGW_em5dK6_XkJNF5SrFDeWBvf8w0IIHxYZFTw3F3QbT7-Zwz8spW73C8pagWkYPZCqPidjSVytITLHs2rFuDwt6jpljEbC1Qjm2M__OixVLONMeMSZGAkbWTHZtPXZprpa0A4BYdN68wwXZqp8q_A6D",
+              "title": "magazzino.art",
+              "resolvedUri": "https://www.magazzino.art/visit/exhibitions/lucio-pozzi-qui-dentro-in-here"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTCdSnfGZRN-8KIm0eK4VJtwLIqLipVULMJ3DkhWaTjCByyvp_DFbNLUDyWg-oIIyYLAy0VNBMi4FWzN4KluckRleBe6clvoyfHwrrPsANiM3ehX7i6DpCRrbRxbYvhxF4nBTjtw==",
+              "title": "italianita-art.com",
+              "resolvedUri": "https://www.italianita-art.com/lucio-pozzi"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM-Sp8giKmnAISaSZ0K6f5RRmwXNXMDqwhaCqDdFeTHtrQP7rLcMLRND0rSmpS8Z4Fvc_8wj5BDVkle5ych5bd7a94NNWevF9XE9jyLfjuBTEYMdcIg7NPN4Wo2kZUkUeQYOnADRNpnnQwYmbMyKAC4LOlMfvWRkQbSXo=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6B4Hcj8DhPMZ6jPzzjQ9e35tTxeFIzeW4icj7TesJ8VSzGtSiAxdGCc9sfJhjaA6ybsQ3f_17cNe4-EEfR8kLarVECF6XBSuQxg_0O4asZ3IRQaxvfWJZsMhaRJp8pj-ZHGbF4g0lh6uxdDA_OU2OCWq_4F6wFwXzH6mq",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1r8UZA8rAzW9yTi58Io-5dct_4mOWUoGaEeUZaUMbf3mzn430CxIHxEr8vyCQv6DskMWEW-EeeQz4LT6M9eszscr0pa82tYDGd9Ylj9h7-TqVHyQsqrOkB2HE1jqMSKMUKMql5Y_B3ClH_1SP_HA0iesJ7g2ryCx3gPG6",
+              "title": "italianita-art.com",
+              "resolvedUri": "https://www.italianita-art.com/part-three--two-worlds---due-mondi"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 157,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lucio Pozzi (born 1935, Milan, Italy) is a multidisciplinary artist who moved to the United States in 1962."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 451,
+                "endIndex": 544,
+                "text": "He is explicitly documented in the archives of the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 545,
+                "endIndex": 666,
+                "text": "organization, specifically noted in records from 1966–1968 regarding technical matchings between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1020,
+                "endIndex": 1485,
+                "text": "He currently divides his time between Hudson, New York, and Valeggio sul Mincio, Italy.\",\n      \"sources\": [\n        \"https://www.getty.edu/research/finding_aids/eat.html\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf1n39n58z/\",\n        \"https://www.magazzino.art/exhibitions/lucio-pozzi-qui-dentro-in-here\",\n        \"https://www.halbromm.com/lucio-pozzi-biography\",\n        \"https://www.luciopozzi.com/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +134,83 @@
         "y1": 16.4,
         "x2": 33.7,
         "y2": 23.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26350",
+          "label": "Carol Geary",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to Carol Geary. The card entry is dated 1969, which aligns perfectly with the activity of E.A.T. (Experiments in Art and Technology) and its Technical Services Program mentioned in the Wikibase entity. The name match is exact and the timeline is consistent."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5044330",
+          "label": "Carol Geary Schneider",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q5044330 refers to Carol Geary Schneider, a prominent academic and historian who served as the president of the Association of American Colleges and Universities. While the timeline is roughly compatible (she graduated college in 1967), her career trajectory as a university teacher and administrator differs significantly from the artist profile associated with the E.A.T. program mentioned in the card's context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Carol Geary is an artist and filmmaker who was active in the late 1960s and 1970s. She is historically significant for her involvement with the Experiments in Art and Technology (E.A.T.) organization, where she served as the Executive Secretary and was part of the staff during its foundational years. In 1966, she was involved in the production of the landmark event '9 Evenings: Theatre and Engineering' in New York City. Earlier in her career, she was part of the artistic community at the University of Minnesota, where she took courses with photographer Jerome Liebling and assisted filmmaker Allen Downs with editing his films. She was also a professional associate and influence on the photographer Irwin Klein, providing recollections of his work for later scholarly publications. In more recent years, she has been involved in maintaining online documentation of the work of artist Carol Hoorn Fraser.",
+            "sources": [
+              "https://www.jottings.ca/carol/about_carol.html",
+              "https://www.moma.org/documents/moma_master-checklist_326739",
+              "https://mnopedia.org/multimedia/irwin-klein-minneapolis-1960"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Carol Geary\" E.A.T. artist",
+            "\"Carol Geary\" biography artist",
+            "artist \"Carol Geary\" Experiments in Art and Technology",
+            "\"Carol Geary\" art 1960s 1970s",
+            "",
+            "\"Carol Geary\" Jerome Liebling Allen Downs",
+            "\"Carol Geary\" artist filmmaker Minnesota",
+            "\"Carol Geary\" art technology 1960s",
+            "",
+            "\"Carol Geary\" \"Robert Rauschenberg\" E.A.T.",
+            "\"Carol Geary\" artist website California",
+            "",
+            "\"Carol Geary\" \"E.A.T.\" list of participants",
+            "\"Carol Geary\" filmmaker 1960s Minnesota",
+            "",
+            "\"Carol Geary\" \"Carol Hoorn Fraser\" site",
+            "\"Carol Geary\" filmmaker Minnesota Liebling Downs",
+            "",
+            "\"Carol Geary\" E.A.T. newsletter 1960s",
+            "\"Carol Geary\" artist \"Minnesota\" \"California\" website",
+            "\"Carol Geary\" \"Robert Rauschenberg\" collaboration",
+            "\"Carol Geary\" film \"Allen Downs\" editor"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRe2W0Y3AGfZvn-7QR47SUnq05-4EEFiAwsu9LVX65sDIR5uraIWM0FLmV9gZ3UWRv7Ijwv1s_5eOc44DXX3dJyFLXJQORHvFU4NFwufC_kmQLTy_gPWAqL_Autsr1nj2xlnxmKj5wroXiqSAMig==",
+              "title": "calameo.com",
+              "resolvedUri": "https://www.calameo.com/books/0000092568ba4d707fc70"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 132,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Carol Geary is an artist and filmmaker who was active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +222,135 @@
         "y1": 24.4,
         "x2": 43.9,
         "y2": 35.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7630328",
+          "label": "Su Cruickshank",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are a direct match (Susan/Su Cruickshank). The Wikidata entity describes an Australian singer and actor (artist) born in 1946, making her active during the late 1960s and early 1970s period mentioned in the context."
+        },
+        {
+          "qid": "Q82567294",
+          "label": "Susan Cruickshank",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Susan Cruickshank' matches exactly. The Wikidata entity is identified as a singer and music critic, which aligns with the provided context that the person on the card was an artist or creative professional. While the Wikidata entry mentions more recent activities like writing for AllMusic, it is plausible that a singer active in the late 1960s or 1970s would have such a profile."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Su (Susan) Cruickshank (1946–2009) was a prominent Australian jazz singer and entertainer who was active in the late 1960s and 1970s. The daughter of Newcastle pharmacist Duncan Cruickshank, she became a significant figure in the Australian entertainment scene, operating her own piano bar and restaurant, \"The Brazil Coffee Lounge,\" in Newcastle during the early 1970s. She was known for her coaching of performers and her work with the Older Women's Network (OWN) Theatre Group. While primarily an entertainer and musician, her active years and involvement in performance and stage production align with the timeline provided, although a direct link to Experiments in Art and Technology (E.A.T.) is not explicitly confirmed in standard biographical summaries.",
+            "sources": [
+              "https://www.soundworld.com.au/history-of-hunter-street/",
+              "https://www.ownnsw.org.au/centre-stage/",
+              "https://www.newcastle.edu.au/university-news-8-april-1976"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Susan Cruickshank is a playwright, writer, producer, and actor with a career spanning over 40 years, placing her early activity in the late 1960s or early 1970s. Based in Canada (specifically associated with the Nova Scotia and Halifax arts communities), her produced works include plays such as 'The Rum Runner,' 'Classic Radio Adventure,' 'A Brief Case,' and 'The Christmas Fund Raiser.' She has collaborated with Virginia Bell on comedic one-act plays like 'Vanity Hair' and has a history of directing and performing in numerous stage productions and murder mysteries. Her long-standing involvement in experimental and community theatre suggests she may be the individual associated with artistic and technical collaborations of that era.",
+            "sources": [
+              "http://donaldmarshalljunior.ca/bios/",
+              "https://www.mluwc.com/annual-reports-2019-2020",
+              "https://www.gofffamilyhistory.ca/TheCruickshanksOfNovaScotia.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "An individual named Susan Cruickshank (sometimes spelled Cruikshank) was noted as a student involved in art groups and the Dramatic Society at Stamford High School in the mid-to-late 1960s. During this period, she received distinctions in art and played roles in school productions such as Shakespeare's 'Cymbeline.' This profile matches the age of an artist who would have become professionally active in the late 1960s and 1970s. Additionally, a firm named 'Clark and Cruickshank' (led by Ralph Cruickshank) was a major publisher of experimental music and sound art in Toronto during the late 1960s, including the works of R. Murray Schafer, though it is unclear if Susan Cruickshank was a direct partner or artist in that specific entity.",
+            "sources": [
+              "https://www.stamfordschoolsarchive.co.uk/magazine/1965",
+              "https://www.bac-lac.gc.ca/eng/discover/archives-canada-digital/Pages/item.aspx?IdNumber=39487",
+              "https://cmccanada.org/about-berandol/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Susan Cruickshank artist \"Experiments in Art and Technology\"",
+            "\"Susan Cruickshank\" art 1960s 1970s",
+            "\"Susan Cruickshank\" E.A.T. artist 1960s 1970s",
+            "\"Susan Cruickshank\" artist collaborator 1960s 1970s",
+            "\"Susan Cruickshank\" E.A.T. archive",
+            "\"Sue Cruickshank\" artist E.A.T.",
+            "",
+            "\"Susan Cruickshank\" artist Bell Labs collaboration",
+            "\"Susan Cruickshank\" E.A.T. member list",
+            "\"Susan Cruickshank\" artist New York 1960s 1970s",
+            "\"Sue Cruickshank\" Experiments in Art and Technology",
+            "\"Susan Cruickshank\" E.A.T. newsletter",
+            "\"Susan Cruickshank\" artist collaborated with Bell Labs",
+            "\"Susan Cruickshank\" E.A.T. 1960s 1970s",
+            "\"Susan Cruickshank\" Bell Labs artist residency",
+            "\"Susan Cruickshank\" artist 1968 1969 1970 1971 1972 1973 1974 1975",
+            "\"Cruickshank\" \"Experiments in Art and Technology\"",
+            "\"Cruickshank\" E.A.T. Pepsi Pavilion",
+            "",
+            "\"Susan Cruickshank\" 1960s artist collaborator",
+            "\"Cruickshank\" 1969 publication art sound",
+            "\"Susan Cruickshank\" E.A.T. Toronto",
+            "\"Clark and Cruickshank\" 1969",
+            "\"Susan Cruickshank\" Bell Labs artist",
+            "\"Susan Cruickshank\" video artist 1970s",
+            "",
+            "\"Susan Cruickshank\" E.A.T. volunteer staff member",
+            "\"Susan Cruickshank\" artist Bell Labs",
+            "\"Susan Cruickshank\" Experiments in Art and Technology archive",
+            "",
+            "\"Susan Cruikshank\" artist Experiments in Art and Technology",
+            "\"Susan Cruickshank\" artist New York E.A.T.",
+            "\"Susan Cruikshank\" E.A.T.",
+            "\"Susan Cruickshank\" artist E.A.T. member",
+            "\"Susan Cruikshank\" artist 1960s 1970s",
+            "\"Susan Cruickshank\" Bell Labs \"artist-in-residence\"",
+            "\"Cruickshank\" \"Experiments in Art and Technology\" artist",
+            "\"Susan Cruickshank\" E.A.T. directory",
+            "\"Susan Cruickshank\" artist E.A.T. 1960s",
+            "\"Susan Cruickshank\" 1969 sound artist",
+            "\"Susan Cruickshank\" Experiments in Art and Technology membership",
+            " \"Susan Cruickshank\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDl1FAm7Qsr2xn-s64Owrwk0icoRvoSIqh5B6Ht-1_QZuGg9wePhVnfOxH37Te8HFZuf42Ydp2Bb_ojRFwdMJiVVZ5MfKc_57FHAfduAF_dFNKBjg3yjXvFgTXoo-4IpteP-w6SrTu8q4uq1Pl8H-7-sChboiBkxwQ7du5NzUAGUaaH5hv39z07_c=",
+              "title": "squarespace.com",
+              "resolvedUri": "https://kincardinefallfair.squarespace.com/s/Kincardine-Fall-Fair-Book-2023.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvyzo-erlQm-mgesV9M3mP0BIvkz0iglCoEIlT0Up63DPLGZOTbQ7PtKSLHyQsoaVyWkOXQjPr1unnvRjwLzf4aFZ1Qpl6sfNWwBEvd1UWFtPeZXbrmY4NMmcxOqkzQgpLc0rgCCYNVxr0rcDb9n_fag01o7_t-y4h1N8-FkJ1136lJDn7zOU3rHu8lFcu5d12C5oOp-59awzUnJNAeH8Co04oHrhy",
+              "title": "newcastle.edu.au",
+              "resolvedUri": "https://downloads.newcastle.edu.au/library/cultural%20collections/pdf/university_news_vol2_no4_8apr1976.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 185,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Su (Susan) Cruickshank (1946–2009) was a prominent Australian jazz singer and entertainer who was active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2446,
+                "endIndex": 2560,
+                "text": "This profile matches the age of an artist who would have become professionally active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -42,6 +362,175 @@
         "y1": 33.1,
         "x2": 48.4,
         "y2": 40.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26353",
+          "label": "Wade Zimmerman",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are an exact match, and the Wikibase entity explicitly links Wade Zimmerman to the E.A.T. Technical Services Program and its edge-notched card collection, which is the source of the physical card record."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q213607",
+          "label": "Eberhard August Wilhelm von Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q213607) refers to a zoologist and philosopher who lived from 1743 to 1815, whereas the person from the card entry was active in the late 1960s or early 1970s. Furthermore, the names (Wade vs. Eberhard August Wilhelm) do not match."
+        },
+        {
+          "qid": "Q872079",
+          "label": "Albert Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Wade Zimmerman vs. Albert Zimmermann) and the dates are entirely incompatible; the Wikidata entity died in 1888, while the person on the card was active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q1334388",
+          "label": "Elwood Zimmerman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Wade Zimmerman' and 'Elwood Zimmerman' do not match. Furthermore, the Wikidata entity describes a prominent entomologist and zoologist, while the card entry refers to an artist associated with the Experiments in Art and Technology (E.A.T.) program."
+        },
+        {
+          "qid": "Q1360732",
+          "label": "Ernst Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Wade vs. Ernst), and the Wikidata entity died in 1901, which makes it impossible for them to have been active in the late 1960s or 1970s as indicated by the card context."
+        },
+        {
+          "qid": "Q1402996",
+          "label": "Richard Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Richard Zimmermann (1820-1875) lived and died in the 19th century, making it chronologically impossible for him to be the Wade Zimmerman associated with E.A.T. in the late 1960s/early 1970s. Additionally, the first names are different."
+        },
+        {
+          "qid": "Q1763601",
+          "label": "Reinhard Sebastian Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Reinhard Sebastian Zimmermann, a 19th-century German painter who died in 1893. This is chronologically impossible for someone active in the late 1960s and 1970s associated with E.A.T. Additionally, the first names 'Wade' and 'Reinhard Sebastian' do not match."
+        },
+        {
+          "qid": "Q5797611",
+          "label": "Dale A. Zimmerman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Wade Zimmerman, while the Wikidata entity is for Dale A. Zimmerman. Furthermore, the Wikidata entity describes a botanist, whereas the card refers to an artist associated with the E.A.T. program."
+        },
+        {
+          "qid": "Q12834830",
+          "label": "Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a 'volapükologist' (a specialist in the Volapük language, which peaked in the late 19th century) and is identified as female, whereas the card refers to Wade Zimmerman, an artist active in the late 1960s and 1970s associated with Experiments in Art and Technology (E.A.T.). Additionally, the Wikidata entry only matches the surname 'Zimmermann' (with a different spelling)."
+        },
+        {
+          "qid": "Q32814355",
+          "label": "Julius Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Wade vs. Julius) and the Wikidata entity lived from 1824 to 1906, which is chronologically incompatible with someone active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q41049535",
+          "label": "Michael T. Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Wade Zimmerman' and 'Michael T. Zimmermann' do not match, and their respective fields (artist associated with E.A.T. vs. medical researcher/mathematician) are entirely different."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Wade Zimmerman is a prominent New York-based architectural photographer and designer who has been active since at least the late 1960s and early 1970s. He is well-known for documenting the works of world-renowned architects such as Christian de Portzamparc, Rafael Moneo, David Adjaye, Richard Meier, and Emilio Ambasz. Early in his career, he worked as a designer, notably credited as the designer for the Museum of Modern Art (MoMA) exhibition catalog 'Another Chance for Housing: Low-Rise Alternatives' (1973), a project involving the Institute for Architecture and Urban Studies (IAUS) and the New York State Urban Development Corporation. His association with the Experiments in Art and Technology (E.A.T.) movement is supported by his photographic documentation of key interdisciplinary projects, such as Fujiko Nakaya's fog sculpture at the Pepsi Pavilion for Expo '70 in Osaka, which was a landmark E.A.T. collaboration. Zimmerman's photographic style is noted for being influenced by the works of American artists Edward Hopper and Charles Sheeler, and he has been cited in professional architectural journals as one of the world's leading architectural photographers.",
+            "sources": [
+              "https://www.moma.org/documents/moma_catalogue_2368_300062402.pdf",
+              "https://www.archdaily.com/photographer/wade-zimmerman",
+              "https://divisare.com/photographers/85257521-wade-zimmerman",
+              "https://www.rizzoliusa.com/book/9780847872299/",
+              "https://www.usmodernist.org/WA/WA_1994_05.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Wade Zimmerman\" artist",
+            "\"Wade Zimmerman\" photographer",
+            "\"Wade Zimmerman\" E.A.T. artist",
+            "\"Wade Zimmerman\" Experiments in Art and Technology",
+            "\"Wade Zimmerman\" photographer history",
+            "\"Wade Zimmerman\" architectural photographer career start",
+            "\"Wade Zimmerman\" \"E.A.T.\" artist",
+            "\"Wade Zimmerman\" \"Experiments in Art and Technology\"",
+            "\"Wade Zimmerman\" photography 1968 1969 1970",
+            "\"Wade Zimmerman\" E.A.T. member list",
+            "\"Wade Zimmerman\" artist 1960s 1970s",
+            "\"Wade Zimmerman\" MoMA archives artist",
+            "\"Wade Zimmerman\" Experiments in Art and Technology participant",
+            "\"Wade Zimmerman\" photographer biography year of birth",
+            "\"Wade Zimmerman\" E.A.T. archive",
+            "\"Wade Zimmerman\" \"Experiments in Art and Technology\" member",
+            "\"Wade Zimmerman\" photographer E.A.T. documentation",
+            "\"Wade Zimmerman\" MoMA \"Another Chance for Housing\" designer"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExanSCwb2Xt4kNcdp6WszXNJc2cK7qrnZneShDeZAG9U9x5g9oUezmY-w_7Jt0h6hU5YWF7yECjni1QLpwNtoaOSylNaTpHQzJJF8ul9oFsyesFW3Plg3wEHZ99koA3GM8X5eb05Z5_TP9GUPVWQrHfXroxOezH2mQc8HHSq4=",
+              "title": "moma.org",
+              "resolvedUri": "https://assets.moma.org/documents/moma_catalogue_2538_300062445.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2TsNKBiws-2kYHep4XD6tfWUiUWpUoqrvkDlSmffSnKOXqDbXOiwI7f4AWzs0Kkjl_wrZwqm1J6EpWk2Qw8_0uYr7jBBCoSQHaqYEOJt-KCvOlDjf9UagCLwSki2SCcUfMnVOtm_iFAG9xClYZPLGffx1geeIO5K3ZMqq48sGxbwMIZ56FoqTTF_Fdq53pBDgWg==",
+              "title": "metalocus.es",
+              "resolvedUri": "https://www.metalocus.es/en/news/christian-de-portzamparc-2018-praemium-imperiale-award"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYbRGpHyMud1Ju58ypVZcY6HoBfvt1kcm7CpQE9ooalJkQvN4WKVAI5lz_RmH9LNP36cfvo2vG7gIiAk5HzslxSlDb9LV6BypXF-E5Mv9geJmJb5mKET-jiAYcMWSxXFlno4eY3-Cjs65JzzFGv-s97Cl_D9wfBZJ2OmuTXxoGx2fl_Tyz4TUu4m-E_Q3YsUN5qIIllRxW8GIuRGKYBjU=",
+              "title": "metalocus.es",
+              "resolvedUri": "https://www.metalocus.es/es/noticias/christian-de-portzamparc-gana-el-premio-praemium-imperiale-2018"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 370,
+                "endIndex": 693,
+                "text": "Early in his career, he worked as a designer, notably credited as the designer for the Museum of Modern Art (MoMA) exhibition catalog 'Another Chance for Housing: Low-Rise Alternatives' (1973), a project involving the Institute for Architecture and Urban Studies (IAUS) and the New York State Urban Development Corporation."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 694,
+                "endIndex": 761,
+                "text": "His association with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 762,
+                "endIndex": 963,
+                "text": "movement is supported by his photographic documentation of key interdisciplinary projects, such as Fujiko Nakaya's fog sculpture at the Pepsi Pavilion for Expo '70 in Osaka, which was a landmark E.A.T."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -52,6 +541,146 @@
         "y1": 39.4,
         "x2": 43.1,
         "y2": 49.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26338",
+          "label": "Bob Howard",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Bob Howard matches exactly. The Wikibase entity explicitly identifies the person as an artist associated with the E.A.T. Technical Services Program Edge-Notched Cards, which provides a direct link to the provenance of the physical index card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q44866",
+          "label": "Bob Holly",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q44866 (Bob Holly, real name Robert Howard) was born in 1963 and began his career in 1987 as a professional wrestler. This timeline and occupation do not match the Bob Howard from the card context, who was an artist active in the late 1960s and early 1970s (e.g., associated with E.A.T.)."
+        },
+        {
+          "qid": "Q207640",
+          "label": "Robert E. Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q207640) refers to the famous pulp writer Robert E. Howard, who died in 1936. This contradicts the required context that the person on the card was active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q888000",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q888000 describes a jazz pianist and singer whose career peaked in the 1930s and 1940s. While he was alive during the late 1960s, the Bob Howard on the E.A.T. (Experiments in Art and Technology) index card is more likely to be a visual artist or technical collaborator, as indicated by the candidate entity Q26338 mentioned in the card's metadata."
+        },
+        {
+          "qid": "Q4932855",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q4932855 describes a professional American football player (cornerback) who played for teams like the Los Angeles Chargers and Philadelphia Eagles. The card record specifically identifies Bob Howard as an artist associated with Experiments in Art and Technology (E.A.T.). It is highly unlikely that a professional NFL player is the same individual as the artist documented in the E.A.T. technical services program."
+        },
+        {
+          "qid": "Q9174749",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q9174749 describes a freestyle skier born in 1955. This person would have been a child during the late 1960s when the Bob Howard on the index card was active as an artist with the E.A.T. program. The occupation and timeline do not align."
+        },
+        {
+          "qid": "Q16104462",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, the Wikidata entity Q16104462 refers to an Australian academic and editor (the brother of former Prime Minister John Howard) rather than the artist associated with Experiments in Art and Technology (E.A.T.) mentioned on the index card. The card entry itself points to a different Wikibase entity (Q26338) as the correct match."
+        },
+        {
+          "qid": "Q18510600",
+          "label": "Robert Boardman Howard",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name Bob Howard is a common diminutive for Robert Howard, and the Wikidata entity describes an artist (sculptor/muralist) active during the correct period. However, the card metadata specifically links the person to the E.A.T. (Experiments in Art and Technology) Technical Services Program (associated with entity Q26338). Robert Boardman Howard (Q18510600) was an established artist born in 1896, and while he was still active in the late 1960s, he is generally identified as a distinct person from the Bob Howard specifically documented in the E.A.T. archives."
+        },
+        {
+          "qid": "Q100805762",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Bob Howard matches, but the Wikidata entity (Q100805762) refers to a basketball player for Arizona State University. The card entry explicitly identifies the individual as an artist associated with the E.A.T. (Experiments in Art and Technology) program. These are distinct occupations, and there is a different Wikidata entity (Q26338) that correctly identifies the Bob Howard who was an artist."
+        },
+        {
+          "qid": "Q108603231",
+          "label": "Robert T. Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a Bob Howard who is an artist associated with the Experiments in Art and Technology (E.A.T.) program. The Wikidata entity Q108603231 describes a career US Army Major General and civil servant (Robert T. Howard). While they share the name and nickname 'Bob', their professional backgrounds are fundamentally different and inconsistent with each other."
+        },
+        {
+          "qid": "Q137680296",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names are identical, the Wikidata entity Q137680296 is described as a Canadian politician and businessperson who ran in the 1980 election. This does not align with the card's context of an artist involved in the E.A.T. Technical Services Program during the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Boardman Howard (1896–1983), often known as Robert Howard or Bob Howard, was a prominent American sculptor, painter, and muralist active primarily in the San Francisco Bay Area. He was known for his modernist sculptures, mobiles, and large-scale public art, including the bas-relief phoenix on Coit Tower. Howard had a career-long interest in the intersection of art, engineering, and machinery, often experimenting with industrial materials like fiberglass and plastics in his work during the 1960s and 1970s. He is listed among the artists who utilized Lippincott Inc. (a major fabricator for large-scale avant-garde sculpture) for his work between 1966 and 1970, a period closely associated with the activities of Experiments in Art and Technology (E.A.T.). He was part of a distinguished artistic family, married to sculptor Adeline Kent and the brother of artists Charles and John Langley Howard.",
+            "sources": [
+              "https://calabigallery.com/artists/robert-boardman-howard/",
+              "https://en.wikipedia.org/wiki/Robert_Boardman_Howard",
+              "https://www.coittower.org/artists/robert-howard",
+              "https://ethernet.edu.et/bitstream/123456789/220/1/Large%20Scale%20Fabricating%20Sculpture%20in%20the%201960s%20and%201970s.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert (Bob) Howard (1923–2015) was a prolific American engineer and inventor who was a close associate of Billy Klüver, the co-founder of Experiments in Art and Technology (E.A.T.). While primarily known as a technology pioneer—specifically for inventing the dot-matrix printer and founding Centronics and Presstek—Howard was a significant figure in the circle of collaborators that bridged the gap between engineering and the arts. He co-authored the book 'Leadership the Hard Way' with Klüver, which reflects on their long-standing partnership. In the context of E.A.T., which promoted the fusion of art and technology, Howard represents the 'engineering' half of the artist-engineer collaboration that defined the organization's mission during the late 1960s and early 1970s.",
+            "sources": [
+              "https://www.burtwolf.com/blog/travels-traditions-the-palm-beaches",
+              "https://www.ranker.com/list/famous-male-engineers/reference",
+              "https://multimediaman.blog/2016/11/22/robert-howard-and-the-development-of-color-printing/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert Howard was a contributor and translator associated with 'Aspen 5+6' (1967), a multimedia magazine issue titled 'The Experiments in Art and Technology Issue,' edited by Brian O'Doherty. Howard provided the translation for a recorded excerpt of Alain Robbe-Grillet’s 'Jealousy' included in the issue. This specific publication served as a 'time capsule' for the E.A.T. movement, featuring contributions from artists and thinkers like Robert Rauschenberg, John Cage, and Sol LeWitt, placing this Robert Howard directly within the organization's collaborative network during its peak activity in the late 1960s.",
+            "sources": [
+              "https://imma.ie/whats-on/aspen-56-experiments-in-art-and-technology-e-a-t-the-orthogonal-methods-group-omg/",
+              "https://connectcentre.ie/wp-content/uploads/2017/04/Aspen_EAT_OMG_Room_Guide.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Robert Howard artist 1960s 1970s E.A.T.",
+            "Bob Howard artist Experiments in Art and Technology E.A.T.",
+            "\"Robert Howard\" artist 9 Evenings Theatre and Engineering",
+            "\"Bob Howard\" artist 1960s 1970s",
+            "\"Bob Howard\" sculptor E.A.T.",
+            "\"Robert Howard\" Experiments in Art and Technology E.A.T.",
+            "\"Bob Howard\" Experiments in Art and Technology E.A.T.",
+            "\"Bob Howard\" artist E.A.T.",
+            "\"Robert Howard\" artist E.A.T.",
+            "\"Robert Howard\" sculptor Lippincott 1960s",
+            "\"Robert Howard\" artist \"Experiments in Art and Technology\"",
+            "\"Robert Howard\" Bell Labs E.A.T.",
+            "\"Bob Howard\" artist \"Experiments in Art and Technology\"",
+            "\"Robert Howard\" artist 1960s 1970s sculpture",
+            "\"Robert Howard\" E.A.T. Pepsi Pavilion",
+            "\"Robert Howard\" artist Experiments in Art and Technology biography",
+            "\"Bob Howard\" E.A.T. Pepsi Pavilion",
+            "\"Robert Howard\" artist 1960s 1970s E.A.T.",
+            "\"Bob Howard\" artist 1960s 1970s E.A.T.",
+            "\"Bob Howard\" Pepsi Pavilion E.A.T.",
+            "\"Robert Howard\" Pepsi Pavilion E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -62,6 +691,167 @@
         "y1": 46.8,
         "x2": 37.4,
         "y2": 58.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q8778",
+          "label": "Galen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Elaine Galen, a contemporary artist. The Wikidata entity Q8778 refers to the famous ancient Roman physician and philosopher Galen (Galenus of Pergamum), who lived in the 2nd century AD. These are entirely different people from different historical eras."
+        },
+        {
+          "qid": "Q1491812",
+          "label": "Galen Weston",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person named Elaine Galen (presumably female) who is an artist. The Wikidata entity describes Galen Weston (Willard Gordon Galen Weston), a male Canadian entrepreneur and businessman. The names, gender, and occupations do not align."
+        },
+        {
+          "qid": "Q3078740",
+          "label": "Galena",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active as an artist in the late 1960s and early 1970s, while the Wikidata entity was born in 1985 and did not begin her career until 2004. Additionally, the names 'Elaine Galen' and 'Galina Gencheva' (Galena) do not match."
+        },
+        {
+          "qid": "Q93429762",
+          "label": "Galen R. Shorack",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card refers to 'Elaine Galen' (likely a female artist), while the Wikidata entity is 'Galen R. Shorack', a male professor of mathematical statistics. Their fields of work (art vs. mathematics) also do not align."
+        },
+        {
+          "qid": "Q100145146",
+          "label": "Galen Brewster",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match; the card refers to 'Elaine Galen' (where Galen is the surname), while the Wikidata entity is for 'Galen Brewster' (where Galen is the first name). Additionally, Elaine is typically a female name, and the Wikidata entity is recorded as male."
+        },
+        {
+          "qid": "Q102206456",
+          "label": "Galen Ellsworth Turner, III",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Elaine Galen, an artist, whereas the Wikidata entity describes Galen Ellsworth Turner, III, a male mathematician. The names are distinct (Elaine vs. Galen Ellsworth) and the professional fields do not overlap."
+        },
+        {
+          "qid": "Q102395725",
+          "label": "Galen Reeves",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a poor match: the card lists 'Elaine Galen' (where Galen is the surname), while the Wikidata entity is 'Galen Reeves' (where Galen is the given name). Furthermore, the Wikidata entity is a male statistician in academia, whereas the card refers to an artist (likely female given the name Elaine) active in the 1960s/70s."
+        },
+        {
+          "qid": "Q103365040",
+          "label": "Galen Andrew",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Elaine Galen vs. Galen Andrew), and the occupations/timeframes are completely different. The card refers to an artist active in the 1960s/70s, while the Wikidata entity is a contemporary male computer scientist employed at Google."
+        },
+        {
+          "qid": "Q103837493",
+          "label": "Galen J Correy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Elaine Galen does not match Galen J Correy. In the card record, Galen is the surname, whereas in the Wikidata entity, Galen is the given name. Additionally, the Wikidata entity is listed as a researcher, which does not align with the artist context provided for Elaine Galen."
+        },
+        {
+          "qid": "Q112485023",
+          "label": "Galen S. Wagner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Galen S. Wagner, a male cardiologist, whereas the card entry is for Elaine Galen, who is identified in the provided context as an artist. The names and occupations do not align."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Elaine Galen (born c. 1928) is an American painter, sculptor, and educator active from the late 1950s through the present. She is recognized for a diverse body of work that includes abstract expressionist landscapes, sculptures, and interdisciplinary collaborations. Galen gained early prominence when her painting \"Naturescape\" was featured in the 1961 Whitney Museum Biennial. Throughout the 1960s and 1970s, she held solo exhibitions at major institutions including the Brooklyn Museum, the Whitney Museum of American Art, and the Art Institute of Chicago. In the 1970s, she expanded into \"Body Sculpture,\" creating wearable steel works such as the \"Jawbone Helmet,\" which received first prize from the American Iron & Steel Institute for excellence in design in steel. These works were utilized in performances by groups such as the Lotus dance group in Chicago, a project documented in a film now held in the Smithsonian Archives. Her interdisciplinary approach and use of industrial materials align with the era's focus on art-technology collaborations, such as those promoted by Experiments in Art and Technology (E.A.T.). Galen served as Associate Professor Emerita of Theatre Design/Technology at Purchase College (SUNY) from 1981 to 1997 and has taught at New York University, Columbia University, and Ben-Gurion University. She holds a BA from the University of Pennsylvania and an MA from New York University, and she studied at the Art Students League under Morris Kantor. She was married to the abstract painter and publisher Ed Colker.",
+            "sources": [
+              "https://www.elisacontemporaryart.com/artist/elaine-galen",
+              "https://www.purchase.edu/live/profiles/1118-elaine-galen",
+              "https://www.mutualart.com/Artist/Elaine-Galen/39A77D2C59AF963E",
+              "https://thepenngazette.com/alumni-notes-47/",
+              "https://music.ucsd.edu/v2/events/programs/VozDormida.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Elaine Galen artist 1960s 1970s",
+            "Elaine Galen artist biography",
+            "Elaine Galen Experiments in Art and Technology E.A.T.",
+            "Elaine Galen painter biography",
+            "\"Elaine Galen\" E.A.T. bibliography",
+            "\"Elaine Galen\" E.A.T. artist",
+            "\"Elaine Goldberg-Galen\" artist",
+            "\"Elaine Galen\" 9 Evenings: Theatre and Engineering",
+            "\"Elaine Galen\" \"design in steel\" prize",
+            "\"Elaine Galen\" E.A.T. collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr9bfGBv8jQEnzP9OBh1WDifc2vrWkD5yt5O-vNvQqap0y2UFvUF1jwrBYKJi5UJR3VFocJyB8tcsWUtS1ZClPVMv_-P7inodanVt4RBLQMwqgTQ0zg4AWyNKbBsZrAxb_JNIcGqHtoHDJVcdFzrle_I7chHrCWraREmm7R2PkiJxfX4s2MwKJ3518x2On7XBzHj-WmbzoXZX8hPDPgE_b-KKS3g==",
+              "title": "ucsd.edu",
+              "resolvedUri": "https://music-web.ucsd.edu/concerts/concert_programs/2022-23/3%20-%20Spring%202023/20230506-Vazquez03.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEtDF70RTdW23saSRTqaaLlhe0WdnKnoAWV4erebcUub91W3juiJHcjvxXxyTb7uPA2TXf69bJ-7zWKiC9W0ATnaLbedSyboDmVRlSmXISg7xsU-02-5SV8ly8fG5UBThjJuWy4Yfv",
+              "title": "thepenngazette.com",
+              "resolvedUri": "https://thepenngazette.com/alumni-notes-145/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1w0ZI3Dc7q5Um-vYP34SzsIXKgsAHRq6em_FKmHk3I1sB4btAl0bo9d99StgNxzYLW0L75e_c7AZYUMnEYOVmlb-sRlqzWjAebh5pVLEynHfh0rQc-RD1USlAZhy54Pg4HNt4gI1HNH7vdp_EpjfTSDFcizD-rxFecA==",
+              "title": "elisacontemporaryart.com",
+              "resolvedUri": "https://elisacontemporaryart.com/exhibit/122-elaine-galen-at-88"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF98bdxGTLzLBzqmih0AVL7HtFWO_vbQ9461QV5IX-n2RMsPJ-T0-LghXKtLLcHxncfDMHos0KgSdVFWisGHHUGRLejGf4fg26NJef7UkKENdBxGQN-ZSj6WseT-gwtfxs4Td1eizDSq11ktzktRUHOHk2hVxd6nCcmIxFe-Dqsh30=",
+              "title": "isualum.org",
+              "resolvedUri": "https://www.isualum.org/s/565/17/interior.aspx?sid=565&gid=1&pgid=4908"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgb0H_Ihvr137S-0pZFYOthrVOXh8I5JOxkAUhVaPc4E0trXEOV-3QUohkYUTC4XswvZRFPTuriHFhTGNIP-UxOZHXc0AdjUz4l260EbY3qrf79eRlinpJ-VFrOx1b1lIPBnPgged3rsJsyZOILLlRXrGSY8Oo1w7uzQ==",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/ERIC_ED415120/ERIC_ED415120_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOtV0ceZUprHeZqnLWySNRCUUk_1XdHIHeTYJI-2jD8ValILeG_Idwxs_HRoQACMbGgmdztzJE3raFg7T9hOewwgQxowSV3lxKsCSWV9gpXpceWNdkU1S_no4I4Dqi1PGYIwhqsOMk72Chnm5b48Y0wSTIhGLlCNxojjMOQmGhGVLnBoEYmj9hKanT",
+              "title": "collegeart.org",
+              "resolvedUri": "https://www.collegeart.org/pdf/caa-news-print-archive/caa-newsletter-04-1980.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 172,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Elaine Galen (born c. 1928) is an American painter, sculptor, and educator active from the late 1950s through the present."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 612,
+                "endIndex": 828,
+                "text": "In the 1970s, she expanded into \\\"Body Sculpture,\\\" creating wearable steel works such as the \\\"Jawbone Helmet,\\\" which received first prize from the American Iron & Steel Institute for excellence in design in steel."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -72,6 +862,133 @@
         "y1": 56.4,
         "x2": 33.2,
         "y2": 64.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q96812875",
+          "label": "John Wilcox",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Il Marsh' and 'John Wilcox' do not match. Additionally, the Wikidata entity describes a person who lived in the 18th century (1726-1794), while the card record dates to 1970 and refers to an artist active in the late 20th century."
+        },
+        {
+          "qid": "Q97071416",
+          "label": "Daniel Strong",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Il Marsh Pvt' bears no resemblance to 'Daniel Strong'. Furthermore, the Wikidata entity lived in the 18th century (1719-1808), which is entirely incompatible with the person on the card who was active around 1970."
+        },
+        {
+          "qid": "Q98544672",
+          "label": "Pvt. Fred Ishmal Kimsey",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The names do not match significantly. 'IL MARSH' and 'Ishmal' share some letters, and both records include the military rank 'Pvt', but the Wikidata entity (Fred Ishmal Kimsey) has no recorded history as an artist and was 77 years old at the time of the card entry."
+        },
+        {
+          "qid": "Q99190595",
+          "label": "John Jacob Mickley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different, and the Wikidata entity (John Jacob Mickley) lived from 1766 to 1857, which is over a century before the person on the card was active (1970). Furthermore, the occupations (farmer vs. artist) and all other biographical details do not align."
+        },
+        {
+          "qid": "Q101460601",
+          "label": "George Hamilton Robinette",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to someone active in 1970, while the Wikidata entity (George Hamilton Robinette) lived from 1844 to 1914. Additionally, there is no name similarity between 'Il Marsh Pvt' and 'George Hamilton Robinette'."
+        },
+        {
+          "qid": "Q102357005",
+          "label": "E. T. Gertz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Il Marsh' and 'E. T. Gertz' are completely different. Additionally, the Wikidata entity is a veteran of World War I, which makes them unlikely to be the same person as an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q102360582",
+          "label": "Ebenezer Webb",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Il Marsh Pvt) bears no resemblance to the name on the Wikidata entry (Ebenezer Webb). Furthermore, the Wikidata entity lived in the 18th century (1719-1803), which is entirely incompatible with a record dated 1970 involving an artist active during that period."
+        },
+        {
+          "qid": "Q103822838",
+          "label": "Pvt Jacob Leavitt, Sr",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Il Marsh' and 'Jacob Leavitt' do not match. Additionally, the Wikidata entity Q103822838 refers to a historical military figure (Jacob Leavitt, Sr., 1732–1814) from the 18th century, which does not align with the card's context of an artist active in the late 1960s or 1970s."
+        },
+        {
+          "qid": "Q104451403",
+          "label": "Pvt Daniel Foote, of Simsbury CT",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a person who lived from 1724 to 1801, whereas the card entry is dated 1970 and describes an artist active in that era. Furthermore, the names (Marsh vs. Daniel Foote) do not match."
+        },
+        {
+          "qid": "Q107597288",
+          "label": "Pvt George Frederick Buzzard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different. The card refers to 'Il Marsh', whereas the Wikidata entity is for 'George Frederick Buzzard'. While both include the abbreviation 'Pvt' (likely a military rank), this is a common descriptor and does not bridge the gap between two distinct names."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ken Marsh (born Kenneth Marsh) is a pioneering video artist and producer who was active in the late 1960s and early 1970s. He is best known as the co-founder of the People's Video Theater (PVT) in New York City, established in June 1970 alongside Elliot Glass. The abbreviation 'PVT' for this organization strongly aligns with the 'Pvt' portion of the name provided. Marsh was a key figure in the early video art movement, which shared significant ideological and technical overlaps with the Experiments in Art and Technology (E.A.T.) organization. He is documented as having collaborated with E.A.T., and some archival records list him in connection with their publications and projects. Marsh advocated for the use of video as a tool for social feedback and 'video journalism,' capturing historic events such as the first Women's Liberation March and Gay Pride March in New York City. He authored influential technical manuals including 'Independent Video' (1974) and 'The Way the New Technology Works' (1982). In 1972, he moved to Woodstock, New York, where he founded Woodstock Community Video, and in 1973, he established the Artists' TV Lab.",
+            "sources": [
+              "https://www.radicalsoftware.org/e/v1n2/marsh.html",
+              "https://www.vdb.org/titles/peoples-video-theater-reel",
+              "https://www.nyu.edu/about/news-publications/news/2012/october/nyu-libraries-acquires-ken-marsh-and-elliot-glass-video-collection.html",
+              "https://kenmarshgallery.com/bio/",
+              "https://www.experimentaltvcenter.org/history/groups/g-pvt.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Il Marsh\" Experiments in Art and Technology",
+            "\"Al Marsh\" artist E.A.T.",
+            "\"Marsh\" artist Experiments in Art and Technology",
+            "\"Il Marsh\" E.A.T. artist",
+            "\"Experiments in Art and Technology\" participant list Marsh",
+            "\"Il Marsh\" artist E.A.T.",
+            "\"L. Marsh\" artist E.A.T.",
+            "\"Experiments in Art and Technology\" roster Marsh",
+            "\"I. L. Marsh\" artist E.A.T.",
+            "",
+            "\"Ken Marsh\" PVT artist",
+            "\"Ken Marsh\" People's Video Theater",
+            "\"Ken Marsh\" Experiments in Art and Technology",
+            "\"Il Marsh\" People's Video Theater",
+            "\"I. L. Marsh\" People's Video Theater",
+            "\"Il Marsh\" PVT art"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUh2G9KdtEFMXNS26b7MJy3E7ER7RH215xDpXm22mcfRuWL6kwVSnqTTBEIVD5p5V2eETP64ilPuARn7RCRbXWrwaasbeik_2TLZUCXW8hBexWTuV1as_EABFFoWhxkZU3FpT4DEOUcLlYLagL",
+              "title": "nyu.edu",
+              "resolvedUri": "https://findingaids.library.nyu.edu/fales/mss_334/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1063,
+                "endIndex": 1659,
+                "text": "In 1972, he moved to Woodstock, New York, where he founded Woodstock Community Video, and in 1973, he established the Artists' TV Lab.\",\n      \"sources\": [\n        \"https://www.radicalsoftware.org/e/v1n2/marsh.html\",\n        \"https://www.vdb.org/titles/peoples-video-theater-reel\",\n        \"https://www.nyu.edu/about/news-publications/news/2012/october/nyu-libraries-acquires-ken-marsh-and-elliot-glass-video-collection.html\",\n        \"https://kenmarshgallery.com/bio/\",\n        \"https://www.experimentaltvcenter.org/history/groups/g-pvt.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -83,6 +1000,42 @@
         "y1": 9.8,
         "x2": 80.5,
         "y2": 20.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Jay Waynes\"",
+            "\"Jay Wayne\" Experiments in Art and Technology",
+            "\"Jay Wayne\" artist E.A.T.",
+            "\"J. Wayne\" artist E.A.T.",
+            "\"J. Waynes\" artist E.A.T.",
+            "\"Jay Waynes\" E.A.T.",
+            "\"Jay Wayne\" artist 1960s 1970s E.A.T.",
+            "\"Waynes\" artist E.A.T.",
+            "\"Jay Wayne\" artist E.A.T.",
+            "\"J. Waynes\" artist Experiments in Art and Technology",
+            "\"Jay Waynes\" artist E.A.T.",
+            "\"J. Waynes\" artist E.A.T. member",
+            "Experiments in Art and Technology \"Jay Wayne\"",
+            "\"James Wines\" E.A.T. artist",
+            "\"James Wines\" Experiments in Art and Technology",
+            "\"Jay Wayne\" artist 1960s E.A.T.",
+            "\"Jay Waynes\" E.A.T.",
+            "\"J. Wayne\" artist member Experiments in Art and Technology",
+            "\"Jay Wayne\" artist member Experiments in Art and Technology",
+            "\"June Wayne\" \"Experiments in Art and Technology\" member",
+            "\"Jay Wayne\" artist 1970s science",
+            "\"June Wayne\" E.A.T. collaboration",
+            "\"Experiments in Art and Technology\" \"Waynes\" collaboration",
+            "\"Experiments in Art and Technology\" \"Jay\" collaboration",
+            "\"E.A.T.\" \"Jay Waynes\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

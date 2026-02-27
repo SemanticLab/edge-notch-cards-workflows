@@ -9,6 +9,68 @@
         "y1": 8.5,
         "x2": 42.4,
         "y2": 17.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q108897037",
+          "label": "Bettina Brendel",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name matches exactly. The Wikidata entity is identified as a painter born in the early 1920s, which aligns perfectly with the artist context and the 1969 date on the index card, at which time she would have been an active artist in her 40s."
+        },
+        {
+          "qid": "Q133022224",
+          "label": "Q133022224",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names match, but the Wikidata entity has a birth date of 1962, which would make her only seven years old at the time of the card entry in 1969. It is highly unlikely that a child would be the active artist referred to in the professional context of the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bettina Brendel (1922–2009) was a German-American abstract painter, printmaker, and lecturer known for her lifelong investigation into the intersection of art and science. Born in Lüneburg, Germany, she immigrated to the United States in 1951 and eventually settled in Los Angeles. Her work is characterized by its exploration of physical phenomena, including quantum mechanics, subatomic particles, light, and energy. During the late 1960s and early 1970s, she was particularly active in bridging these disciplines; notably, she attended the New School for Social Research in New York from 1968 to 1969 to study the history and theory of physics. In 1972, she met with Nobel Prize-winning physicist Werner Heisenberg, whose theories on uncertainty and subatomic particles deeply influenced her artistic practice. Brendel is associated with the Experiments in Art and Technology (E.A.T.) movement and was featured in major retrospectives concerning the synergy between technology and art, such as the Getty’s 'PST ART: Art & Science Collide' and the exhibition 'Particles and Waves: Southern California Abstraction and Science, 1945–1990' at the Palm Springs Art Museum. Her significant works include 'Particles or Waves?' (1969), 'A Numbered Universe,' and 'Computer Joy,' the latter of which incorporated binary code and pixelated patterns to humanize technological language.",
+            "sources": [
+              "https://www.askart.com/artist_biography/Bettina_Brendel/10007802/Bettina_Brendel.aspx",
+              "https://www.latimes.com/archives/la-xpm-1998-apr-03-ca-35740-story.html",
+              "https://longlistshort.com/tag/bettina-brendel/",
+              "https://www.researchgate.net/publication/226760601_Explorations_in_Art_and_Technology",
+              "https://www.legacy.com/obituaries/latimes/obituary.aspx?n=bettina-brendel&pid=127306015"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bettina Brendel artist biography",
+            "Bettina Brendel artist late 1960s 1970s",
+            "Bettina Brendel Experiments in Art and Technology E.A.T.",
+            "",
+            "\"Bettina Brendel\" \"Experiments in Art and Technology\"",
+            "\"Bettina Brendel\" Getty PST \"Particles and Waves\" E.A.T.",
+            "\"Bettina Brendel\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA5ghnjOZyQb8Qo8xBf3rjHR6OtOYypxLdCCD6U4OKfM4kBbWdOEEGNG5D7R2vFE8NU2uN3_YFHprztCTqCh7SfEzaLswdUTyJ2dtvvC6KrYCu1BReXb7AC98hMZ3ocWDAEgBdnpPqkmdBAg==",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/profile/Linda-Candy"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 867,
+                "endIndex": 940,
+                "text": "Brendel is associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +82,37 @@
         "y1": 15.8,
         "x2": 51.5,
         "y2": 26.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Experiments in Art and Technology\" artist list",
+            "\"E.A.T.\" artist list 1960s 1970s",
+            "\"Marinba\" artist",
+            "\"Conal\" artist E.A.T.",
+            "\"Georg\" artist E.A.T.",
+            "\"Georg\" E.A.T. artist 1960s 1970s",
+            "\"Conal\" E.A.T. artist",
+            "\"Conal\" \"Marinba\"",
+            "\"Conal Georg\"",
+            "\"Experiments in Art and Technology\" \"Marimba\"",
+            "\"Conal\" \"Georg\" artist",
+            "E.A.T. \"Marimba\"",
+            "\"Conal\" \"Georg\" \"Marinba\"",
+            "\"Marinba\" artist 1960s",
+            "\"Marinba\" artist 1970s",
+            "\"Marinba\" Discogs biography",
+            "\"Conal\" \"Georg\" \"Marinba\" artist",
+            "",
+            "\"Some More Beginnings\" Brooklyn Museum 1968 artists",
+            "\"Some More Beginnings\" E.A.T. 1968 artist list"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -31,6 +124,292 @@
         "y1": 24.1,
         "x2": 55.4,
         "y2": 36.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q110398",
+          "label": "Robert Richter",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name matches exactly, and the Wikidata entity's occupation as a film producer fits the 'artist/creative' context provided. The date on the card (1969) falls within the lifetime of the Wikidata entity (1899-1972), making it plausible that he was active during the late 1960s."
+        },
+        {
+          "qid": "Q1790608",
+          "label": "Robert Julius Richter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Robert Julius Richter died in 1869 or 1871, making it chronologically impossible for him to be the person mentioned in the 1969 card entry."
+        },
+        {
+          "qid": "Q7349284",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name matches, but the Wikidata entity is a prominent Australian barrister. The card entry specifies that the individual is known to be an artist. While the timelines overlap (the barrister began his career in the early 1970s), there is no evidence in the Wikidata record to link the lawyer to any artistic practice."
+        },
+        {
+          "qid": "Q11350638",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Robert Richter (Q11350638) died in 1956, whereas the card entry is dated 1969, making it impossible for them to be the same person."
+        },
+        {
+          "qid": "Q20649621",
+          "label": "Robert Richter",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes a film director and producer (an artist/creative practitioner) who was active from 1958 to 2022. This encompasses the 1969 date on the card. The specific artistic occupation and period of activity align perfectly with the provided context."
+        },
+        {
+          "qid": "Q57037946",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a researcher affiliated with scientific institutions like ELETTRA and the University of Southampton. The card entry refers to an artist active in 1969. While they share a name, there is no evidence in the Wikidata record suggesting an artistic career or activity dating back to the late 1960s for this specific researcher."
+        },
+        {
+          "qid": "Q81577414",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a physicist associated with the Max Planck Institute and SLAC, while the card entry is identified as an artist active in the late 1960s. These professional backgrounds are fundamentally different, making it unlikely they refer to the same individual despite the matching name."
+        },
+        {
+          "qid": "Q81680573",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1983, which makes it impossible for him to be the person mentioned in the card entry from 1969. Additionally, the Wikidata entity is a researcher in natural sciences, whereas the card entry refers to an artist."
+        },
+        {
+          "qid": "Q88641176",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match exactly, the Wikidata entity is specifically categorized as a 'researcher,' whereas the card entry pertains to an artist active in the late 1960s. Given that Robert Richter is a relatively common name, the mismatch in occupation makes it unlikely this is the same individual without further corroborating data."
+        },
+        {
+          "qid": "Q90521883",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match exactly, the Wikidata entity is identified as a researcher, which does not align with the provided context that the person on the card was an artist. Additionally, the Wikidata entity lacks chronological data to confirm they were active in 1969."
+        },
+        {
+          "qid": "Q90655912",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names are identical, the Wikidata entity is categorized as a researcher, whereas the card entry refers to an artist active in 1969. Without additional evidence linking the researcher to the art world, a match cannot be established."
+        },
+        {
+          "qid": "Q94918999",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1962, which makes it impossible for them to be the individual associated with the card entry dated 1969. Additionally, the Wikidata entity's occupation is listed as a pastor, which does not align with the context of the card entry being for an artist."
+        },
+        {
+          "qid": "Q94933127",
+          "label": "Hugo Ernst Schmidt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hugo Ernst Schmidt used the pseudonym 'Robert Richter' and was an artist, but he died in 1899. This makes it impossible for him to be the person mentioned in the card entry dated 1969."
+        },
+        {
+          "qid": "Q107174845",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Robert Richter' is very common. While the birth year (1913) in the Wikidata entity is consistent with someone active in 1969 (age 56), the Wikidata entry lacks any mention of an artistic occupation or relevant context to link it to the person on the card."
+        },
+        {
+          "qid": "Q112405476",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1969, which would make them less than a year old at the time of the card entry dated October 7, 1969. This makes it impossible for them to be the active artist described in the card context."
+        },
+        {
+          "qid": "Q119139414",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names are identical, the Wikidata entity is identified as a civil servant and jurist, which does not align with the provided context that the person on the card is an artist. Given the commonality of the name 'Robert Richter', it is unlikely they are the same individual."
+        },
+        {
+          "qid": "Q123024170",
+          "label": "Robert Richter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q123024170) died in 1941, making it impossible for him to be the Robert Richter mentioned in the 1969 card entry."
+        },
+        {
+          "qid": "Q133342365",
+          "label": "Q133342365",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names 'Robert Richter' match, the Wikidata entity contains no biographical information, such as profession, dates of birth/death, or nationality, to confirm it refers to the artist mentioned in the 1969 record. Robert Richter is a common name, making a definitive match impossible without further data."
+        },
+        {
+          "qid": "Q136567167",
+          "label": "Q136567167",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name 'Robert Richter' matches exactly. The Wikidata entity's birth year of 1938 would make the person approximately 31 years old in 1969, which is highly consistent with an artist being active during the late 1960s. However, because the name is common and the Wikidata record lacks occupational information or other distinguishing details, the match cannot be confirmed with high certainty."
+        },
+        {
+          "qid": "Q137031494",
+          "label": "Q137031494",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name 'Robert Richter' is an exact match for the card's entry. However, the Wikidata entity is a stub that provides only basic gender and name information without any occupation or chronological data. While there is no information contradicting the card's context (an artist active in the 1960s/70s), there is also no confirming evidence to distinguish this individual from other people with the same name."
+        },
+        {
+          "qid": "Q137063159",
+          "label": "Q137063159",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Robert Richter' matches exactly, but the Wikidata entry is extremely sparse, containing only the name and gender with no dates or occupation. Because 'Robert Richter' is a relatively common name, there is insufficient evidence to confirm this entity is the specific artist active in 1969."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Richter (1929–2025) was a prominent American documentary filmmaker and producer based in New York City, active from the late 1950s through the early 2020s. He is best known for founding Richter Productions in 1968 after a career as a producer for the Edward R. Murrow and Fred Friendly 'CBS Reports' unit. His work frequently explored the intersection of technology, science, and social justice, which aligns with the mission of Experiments in Art and Technology (E.A.T.). Notably, he produced 'The Age of Intelligent Machines' (1987), a documentary exploring artificial intelligence in collaboration with Ray Kurzweil. His films from the late 1960s and 1970s include 'HHH: What Manner of Man' (1968) and the Oscar-nominated environmental documentary 'The Gifts' (1970). Richter was a central figure in the New York independent media scene, serving as the volunteer President of the Association of Independent Video and Filmmakers (AIVF) for ten years and being a long-standing member of the New Day Films collective. His work is also preserved in the Political Art Documentation/Distribution (PAD/D) archive at the Museum of Modern Art (MoMA), which documents socially responsive art projects in New York.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Robert_Richter_(American_film_producer)",
+              "https://www.newday.com/filmmaker/103",
+              "https://niemanreports.org/articles/long-form-documentaries-serve-a-vital-journalistic-role/",
+              "https://www.documentary.org/magazine/legendary-and-budding-filmmakers-share-screentime-hot-springs-documentary-film-festival",
+              "https://www.moma.org/research/archives/finding-aids/PADD.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert Richter is a contemporary visual artist born in Milwaukee who became active in New York City during the 1960s and 1970s. During this period, he worked across various disciplines, including painting stage sets, mural commissions, storefront windows, and even textiles like T-shirts and curtains. His signature style involves unique oil paintings on wood with integral, hand-carved frames that he creates himself. His work from the 1970s includes modern figurative and landscape paintings such as 'Sunset' and 'Green Apple.' While primarily known for his traditional and 'outsider' landscape and still-life works, his presence in the New York art scene during the late 1960s and his varied technical output (lithographs from aluminum plates, set design) place him in the same era and location as the Experiments in Art and Technology (E.A.T.) movement.",
+            "sources": [
+              "https://www.1stdibs.com/creators/robert-richter/art/",
+              "https://www.artandobject.com/marketplace/artist/robert-richter"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Richter\" artist 1960s 1970s",
+            "Robert Richter filmmaker Experiments in Art and Technology",
+            "\"Robert Richter\" E.A.T. collaborator",
+            "Robert Richter artist Experiments in Art and Technology E.A.T.",
+            "\"Robert Richter\" filmmaker E.A.T.",
+            "\"Robert Richter\" engineer E.A.T.",
+            "\"Robert Richter\" E.A.T. Experiments in Art and Technology member list",
+            "\"Robert Richter\" 9 Evenings Theatre and Engineering",
+            "",
+            "\"Robert Richter\" E.A.T. technician",
+            "\"Robert Richter\" artist New York 1960s E.A.T.",
+            "\"Robert Richter\" engineer Bell Labs E.A.T.",
+            "\"Robert Richter\" 9 Evenings collaborator",
+            "\"Robert Richter\" Experiments in Art and Technology Osaka 1970",
+            "\"Robert Richter\" filmmaker \"Age of Intelligent Machines\" E.A.T.",
+            "\"Robert Richter\" 9 Evenings film documentation",
+            "\"Robert Richter\" E.A.T. newsletter Techne",
+            "\"Robert Richter\" 1968 E.A.T. competition winner",
+            "\"Robert Richter\" Bell Labs engineer 1960s E.A.T.",
+            "\"Robert Richter\" Pepsi Pavilion E.A.T. collaborator"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWmY0CUnFt4TjDZMaUYaAsPgrwOFMZJdtZlWi-PbxJQhDeUnYzlR5PT4zFxH6iangt4sX6vaoX22ebZW1FeFryZhKkYyhhJWi7VKDgMBAm8JkwrT-Wvm5DMoJmZRhz2T2fnoCxYCbPyXJ2lxGkgA50zbj9dJaJxbQKSGuFMSXQNxInNMfW_IW0vB3aUlud7qNeRpCxXl49LKq37MYZkiLnadp6ml_HIyB4cV9qyzfQO91FHGgj",
+              "title": "documentary.org",
+              "resolvedUri": "https://www.documentary.org/feature/legendary-and-budding-filmmakers-share-screentime-hot-springs-documentary-film-festival"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7W3D3HE6bUNZ2oUOeTj2ZRmMzT1hLqIRRXVUwgSIhHzfJJyEXrPNJfg66Lh85p6EFYJ4NeeRGsYrMqJD6ykZ88EtWbGYE4V-kjCKEklN6Y7bSgl04V1DI1BAtTkADJuDod_rWWsvg6bDQjmt88Emt5g==",
+              "title": "scispace.com",
+              "resolvedUri": "https://scispace.com/authors/rustem-ospanov-57w813po14"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpik607-ShlTlFl5-KWkJyeOdSyiMZ-nusUOBUV4nsNJZvSybyz5YhpjbusAb5ZHSOWjPw86hLcYtNIE0w43r1sOEcDOJHwx9w1xrpInP1m9ehiECmfEIF10X3IfZ22YQdLgVENHIU6Ri64t4_-wDSmTY0HWxs8BKvoGJyCTmuVWPh",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/independent06foun/independent06foun_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI7OPmwd-2zDySs35HjiPPuh0tqXpLMsSPlFVzvcf9Okdqp-U3NIf1_E6O2gFte3OdWfV4oTd4AN2IySKSdfiGMdWg9k892jFKiZ-nPmelSqG9STK63IgLj5dVzSKgv_a41RI1ZjYrp3JYREZUHEeHwkV2M_pJQrMPFjb8qiLFvDH3Jj5onS7akkpb2GSqkuTq_WPYwddjcg==",
+              "title": "atogt.com",
+              "resolvedUri": "https://www.atogt.com/askoscar/nominations-by-category.php?cat=doc-all&origin=noms-by-cat&yr=1"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqOvohNPwrE1ALp9NvNmIAtzUVZLgmswGtTgRNFVIWgOm0xvWy1PSCFx_TJV-z5AtDfNrVVvFqX9bKHcr7cyK48iuDSAPHdSQRg-j97Vr3QK6wAK4kZlQ9vKg3bMiSc-2jvpQaTmNjE1N25w==",
+              "title": "fdtimes.com",
+              "resolvedUri": "https://www.fdtimes.com/2017/09/11/arri-history/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDHv786NfeKdoB0G722XfbFsl0uuHo6EhOtUlCGx0RwCk9xypL9ofchp4aJPEOYx218LOZEsozk95zcB6Aj16znSkWlkbASUIWoRPbZaOiclXZV6L4mGTHCC6efnJHgtJolr31CqQc7xEHpYvgLrblVdCkPQ5Hy00Z-2e5tPw1_yUuaKLA8UG-45a-n81do2zZWGNwrA1IezqXgJtOMWwNDr-AnbUF96hA7M6qS_dogNsRkOGkIPNbusmPByXpIlBQWLo=",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/395468629_Information_theory_unravels_the_subtext_in_Chekhov_Digital_Humanities_quarterly_19_2"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmraXzW-BGv6z8_ZKRjyeS_S2lrjMsFolbaVHyi2nifwjFNeZ-TmsJOOx56nMmo-cGljImzpZEEKrJ8_Mzx4QhcEzeLcvmaJSZE67G3zF1ASAThlZHSvOW6-EbnTvCZrO4Q-C5QXS_QAtPoT3Lkevf6r3fgAMZ7g1sK-oXSuYZ1O_qmUPtBOAWkgUkqREHtK0qV4MbRLpdg1EfJDq7Dh4LVHYVlCHjunKnQKN4RMZqdkVSYlmNc9noeqNQrNIIb7gcsbwFG05zfQ==",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/356085115_Interprofessional_education_in_medical_and_physiotherapy_studies_for_future_collaboration"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc-j0YKAx1rFWvoXPXQ0201xLCLqEsjoaDEHZoS1B3lOSmCe753S548sH5sroIxqr2lLfE_kZ5H3yAx5wZHckcGUuX0kX6PUo-UZGXeTFsMDxZnYlLox0QJ2XNjuBvhFZePqOUoJUgQYY-tvTdF7Jc-sHXHiPgdnRHTgx5np9KM0RBHJa0jRQBIdg7IsH0-g2IaUEIHM_H2kCRg1UE6hbAaDnpCfLOo8I-iumWyw9vcdlgQMXqaHHdwJHn",
+              "title": "isres.org",
+              "resolvedUri": "https://www.isres.org/books/Current%20Studies%20in%20Basic%20Sciences,%20Engineering%20and%20Technology%202021_sm_04-01-2022.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8hdZOSAO6APhxT18hNZZqVB6AFDLEBzjwr0so3ESNh86sCPJ763Z2I4xIIqhJlNZDWFq06xrXUMrg8oEL7gVjSVO-JwgR1uvZDvz795-N27vUdv6TH5nEjNouSZAQ17Q52BjNjUVFRiqzAqwCR9LuLqQijewJh8o03_VXpovxYQidK9AgCnhe3DZbKZx7gv2j_VBvTBe_srGfJQ==",
+              "title": "finalsite.net",
+              "resolvedUri": "https://resources.finalsite.net/images/v1550163980/chatfieldk12mnus/dhs3u8e6vwoopxqo8l01/1956.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb7jL5bbSsJda3m0eIal73hKgJm8wIBvQX0K_NNtFzAwB10mpX2NVhm785L05OpXpv2-or8OYrWeNRh4_AC63Y8GasN6pEl3qbSylbzLX6yzUVw-XRPFTL7aQr93Gj_uVIv7-DbFnSrXDRjMOn6Aip7Nwh-2h3KE7FGonzywdFYuzMSb_Z",
+              "title": "fdtimes.com",
+              "resolvedUri": "http://www.fdtimes.com/pdfs/articles/leica/LEICA-Spring2015-FDTimes-150.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAx52SAuN_i4FkZ4eK9Oa29I_dtv1wr4FkMOSlcjbpSDN4_MBYEv4dfrWnUaWOcdylk4xTpGEDWt2A_78JQhOBCaXN8rcowyCibUKrmRHAI1Wl0zycXsh7EHoOK4XgKczhHX2_d1Q6UUfTJxrP3PcIAfWN1ApCBA==",
+              "title": "science.gov",
+              "resolvedUri": "https://www.science.gov/topicpages/r/radar+field+experiments"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 214,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robert Richter (1929–2025) was a prominent American documentary filmmaker and producer based in New York City, active from the late 1950s through the early 2020s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2656,
+                "endIndex": 2876,
+                "text": "movement.\",\n      \"sources\": [\n        \"https://www.1stdibs.com/creators/robert-richter/art/\",\n        \"https://www.artandobject.com/marketplace/artist/robert-richter\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                0,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -42,6 +421,144 @@
         "y1": 31.0,
         "x2": 54.1,
         "y2": 48.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q41674216",
+          "label": "Daniel R. Weinberger",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q41674216 describes Daniel R. Weinberger, a prominent American neuroscientist and psychiatrist. The card entry refers to an artist active in the late 1960s and early 1970s. There is no evidence suggesting that this scientist, who followed a medical career path during that era, is the same person as the artist 'D. Weinberger' mentioned on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Daniel Weinberger (also referred to as Daniël Weinberger or Daniel von Weinberger) is a Belgian artist and jeweler who was active in the late 1960s and 1970s. He is recognized for his contributions to the avant-garde art scene, particularly in Antwerp at the International Cultural Centre (ICC). His work spanned performance art, video art, and jewelry. Notable performances included a 1977 bodybuilding act where he \"lifted\" his own image on television monitors, and he participated in the 1976 film 'Lysistrata' directed by Ludo Mich. As a jeweler, he is featured in the historical survey 'Simply Brilliant: Artist Jewelers of the 1960s and 1970s,' highlighting his position as a maker who considered himself an artist first and a jeweler second during that experimental era.",
+            "sources": [
+              "https://www.argosarts.org/en/program/the-1970s-argos-centre-for-audiovisual-arts",
+              "https://www.contemporaryartlibrary.org/exhibition/the-1970s-argos-centre-for-audiovisual-arts-24430",
+              "https://www.charonkransenarts.com/books/jewelry/daniel-weinberger"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "David Weinberger (born 1950) is a philosopher and technologist who, while primarily known for his later work on the impact of the internet on knowledge (e.g., 'Small Pieces Loosely Joined' and 'Everything is Miscellaneous'), was active in the mid-1970s as a creative writer. In 1976, at the age of 26, he began writing jokes for the 'Inside Woody Allen' comic strip. In contemporary scholarship, his theories on distributed authorship and collaborative systems are frequently cited to analyze the legacy of organizations like Experiments in Art and Technology (E.A.T.), which promoted similar concepts of shared creative authority between artists and engineers in the 1960s and 1970s.",
+            "sources": [
+              "https://www.theguardian.com/culture/2009/oct/18/woody-allen-stuart-hample-comic-strip",
+              "https://dspace.mit.edu/handle/1721.1/35051",
+              "https://www.robinwolfsonagency.com/david-weinberger"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Peter J. Weinberger is a prominent computer scientist and engineer who joined Bell Laboratories in 1970. While not primarily known as an artist, he was a key figure at Bell Labs during the height of its collaboration with Experiments in Art and Technology (E.A.T.). He is best known as one of the creators of the AWK programming language and was a manager in the Computer Science Research Center. His likeness famously became the subject of an early digital image-editing experiment at Bell Labs in the 1980s, where his face was digitized and stenciled across the lab and nearby landmarks, reflecting the playful intersection of technology and imagery common in the Bell Labs community.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Peter_J._Weinberger",
+              "http://www.spinroot.com/pjw/face.html",
+              "https://www.nationalacademies.org/our-work/foundational-cybersecurity-research-improving-science-engineering-and-institutions-2017"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"D. Weinberger\" artist biography",
+            "\"D. Weinberger\" artist 1960s 1970s",
+            "\"D. Weinberger\" artist Experiments in Art and Technology",
+            "\"Daniel Weinberger\" artist E.A.T.",
+            "\"D. Weinberger\" E.A.T. artist",
+            "\"David Weinberger\" artist E.A.T.",
+            "\"D. Weinberger\" Experiments in Art and Technology E.A.T.",
+            "\"Dennis Weinberger\" artist",
+            "\"Dorothy Weinberger\" artist",
+            "\"D. Weinberger\" artist 1968 1969 1970 1971",
+            "\"Dan Weinberger\" artist E.A.T.",
+            "\"D. Weinberger\" \"E.A.T.\" artist",
+            "\"David Weinberger\" artist E.A.T. 1960s",
+            "\"Dick Weinberger\" artist E.A.T.",
+            "\"Daniel Weinberger\" Experiments in Art and Technology",
+            "\"D. Weinberger\" \"Experiments in Art and Technology\"",
+            "\"David Weinberger\" Experiments in Art and Technology",
+            "\"Donald Weinberger\" artist 1970s",
+            "\"D. Weinberger\" \"E.A.T.\" collaboration",
+            "\"Dick Weinberger\" musician E.A.T.",
+            "\"D. Weinberger\" exhibition 1969 1970 1971",
+            "\"D. Weinberger\" artist Brooklyn 1970s",
+            "\"David Weinberger\" artist E.A.T. 1960s 1970s",
+            "\"D. Weinberger\" Experiments in Art and Technology E.A.T. participant",
+            "\"Weinberger\" Experiments in Art and Technology E.A.T. member",
+            "\"D. Weinberger\" artist \"9 Evenings\"",
+            "\"Donald Weinberger\" artist E.A.T. 1960s 1970s",
+            "\"Dan Weinberger\" artist E.A.T. 1960s 1970s",
+            "\"Dorothy Weinberger\" artist E.A.T. 1960s 1970s",
+            "\"Weinberger\" Experiments in Art and Technology participants",
+            "\"David Weinberger\" E.A.T. artist 1960s",
+            "\"Weinberger\" E.A.T.",
+            "\"D. Weinberger\" Experiments in Art and Technology E.A.T. member list",
+            "\"Donald Weinberger\" E.A.T. artist 1960s",
+            "\"Daniel Weinberger\" E.A.T. artist 1960s",
+            "",
+            "\"Daniel Weinberger\" artist 1960s 1970s",
+            "\"D. Weinberger\" art technology collaboration",
+            "\"Donald Weinberger\" artist 1960s 1970s",
+            "\"David Weinberger\" artist 1960s 1970s",
+            "\"Dick Weinberger\" Experiments in Art and Technology",
+            "\"Daniel Weinberger\" bodybuilding performance 1977",
+            "\"David Weinberger\" engineer Experiments in Art and Technology",
+            "\"Donald Weinberger\" engineer Experiments in Art and Technology",
+            "\"Daniel Weinberger\" engineer Experiments in Art and Technology",
+            "\"D. Weinberger\" E.A.T. project list",
+            "\"Simply Brilliant\" Daniel Weinberger artist jewelry",
+            "",
+            "\"David Weinberger\" Pepsi Pavilion Osaka engineer",
+            "\"D. Weinberger\" \"E.A.T.\" collaboration 1969",
+            "\"D. Weinberger\" \"E.A.T.\" collaboration 1968",
+            "\"D. Weinberger\" Experiments in Art and Technology member directory",
+            "\"D. Weinberger\" \"E.A.T.\" collaboration 1970",
+            "\"Weinberger\" Experiments in Art and Technology Bell Labs",
+            "\"Weinberger\" Bell Labs engineer E.A.T.",
+            "\"David Weinberger\" engineer 1968 1969 1970",
+            "\"Daniel Weinberger\" engineer 1968 1969 1970",
+            "\"D. Weinberger\" engineer 1960s 1970s",
+            "\"D. Weinberger\" Experiments in Art and Technology technical staff",
+            "\"Donald Weinberger\" engineer 1968 1969 1970",
+            "\"Weinberger\" Experiments in Art and Technology list",
+            "\"Donald Weinberger\" \"E.A.T.\" member",
+            "\"David Weinberger\" \"E.A.T.\" member",
+            "\"Daniel Weinberger\" \"E.A.T.\" member",
+            "\"Dick Weinberger\" \"E.A.T.\" member",
+            "\"D. Weinberger\" \"E.A.T.\" Newsletter",
+            "\"D. Weinberger\" artist \"E.A.T.\" member",
+            "\"Daniel Weinberger\" artist E.A.T. collaboration",
+            "\"Dorothy Weinberger\" artist E.A.T. collaboration",
+            "\"David Weinberger\" artist E.A.T. collaboration",
+            "\"D. Weinberger\" E.A.T. 1969 1970",
+            "\"Donald Weinberger\" artist E.A.T. collaboration",
+            "\"D. Weinberger\" Experiments in Art and Technology member",
+            "\"Dick Weinberger\" artist E.A.T. collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7VsmLHhfv3oxFLf0PFg2gUW8-VJTO9cEXwYjcFgQKq0BvGjbKs6dpGd1RDoi_3kc3GbsxRDtKa1fvvv132LFcp8V9W_BR7BD_4JUOmSHV5Yjv-Y5vu-HOMZ4AerTQZzuw6saxswGguNVCfhk9QvNDcXV7neoscMca7cmx8RvXYnaP",
+              "title": "leech-lake.com",
+              "resolvedUri": "https://leech-lake.com/wp-lib/wp-content/uploads/2021/02/2021-guide.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2609,
+                "endIndex": 3223,
+                "text": "His likeness famously became the subject of an early digital image-editing experiment at Bell Labs in the 1980s, where his face was digitized and stenciled across the lab and nearby landmarks, reflecting the playful intersection of technology and imagery common in the Bell Labs community.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Peter_J._Weinberger\",\n        \"http://www.spinroot.com/pjw/face.html\",\n        \"https://www.nationalacademies.org/our-work/foundational-cybersecurity-research-improving-science-engineering-and-institutions-2017\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -53,6 +570,156 @@
         "y1": 38.3,
         "x2": 42.5,
         "y2": 54.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q13894",
+          "label": "Richard Strauss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Richard Strauss died in 1949, which is incompatible with the context that the person on the card was an artist active in the late 1960s and early 1970s. Additionally, the first initial 'A' on the card does not match 'Richard'."
+        },
+        {
+          "qid": "Q519984",
+          "label": "Neil Strauss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Neil Strauss was born in 1973, making it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card's context. Furthermore, the name 'A Straus' does not align with 'Neil Strauss'."
+        },
+        {
+          "qid": "Q21609939",
+          "label": "Adolf Paul Carl Straus",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match (A Straus for Adolf Straus) and the individual was alive and active during the late 1960s and early 1970s, the Wikidata entity is a scientist (botanist, mycologist, and paleobotanist) with no indication of the artistic career specified in the card context."
+        },
+        {
+          "qid": "Q21609940",
+          "label": "Perry Daniel Strausbaugh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Perry Daniel Strausbaugh) died in 1965, making it impossible for him to be the artist active in the late 1960s and early 1970s described in the card context. Furthermore, the name 'Strausbaugh' is distinct from 'Straus', and his recorded occupation is botanist rather than artist."
+        },
+        {
+          "qid": "Q43879441",
+          "label": "Sharon Y. Strauss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (A Straus) does not match the Wikidata entity's name (Sharon Y. Strauss). Additionally, the Wikidata entity is a prominent evolutionary ecologist born in 1956, making her only 14 years old in 1970, and there is no indication she was ever active as an artist."
+        },
+        {
+          "qid": "Q61756286",
+          "label": "Strauss Zelnick",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'A Straus' (implying 'A' as a first initial), whereas the Wikidata entity is 'Strauss Zelnick' (where 'Strauss' is the first name). Furthermore, Strauss Zelnick was born in 1957 and would have been a child during the late 1960s, which is inconsistent with the context of a professional artist active at that time. Zelnick is also a business executive (CEO), not an artist."
+        },
+        {
+          "qid": "Q74829553",
+          "label": "Eric Strauss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist (initial 'A' Straus) active in the late 1960s or early 1970s, whereas the Wikidata entity is for Eric Strauss, a medical professional specialized in sports medicine and orthopedics. The occupation and name (A vs. Eric) do not align."
+        },
+        {
+          "qid": "Q105459255",
+          "label": "Strauss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Abraham Strauss, a Holocaust victim who died in the early 1940s. The person described in the card entry was active as an artist in the late 1960s and early 1970s, making it chronologically impossible for them to be the same person."
+        },
+        {
+          "qid": "Q107446798",
+          "label": "Strauss Mann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Strauss Mann, an ice hockey player born in 1998. This is chronologically impossible for someone described as being active in the late 1960s and early 1970s. Furthermore, 'Strauss' is his first name, whereas 'Straus' appears to be the surname for the person on the card."
+        },
+        {
+          "qid": "Q118951503",
+          "label": "Strauss Serpent",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q118951503 refers to Strauss Serpent, a contemporary contortionist and performer active in the 2010s and 2020s. This does not align with the card's context of an artist active in the late 1960s or early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Mark A. Straus (also known as Mark Straus) is an artist, collector, and physician who was active in the New York art scene during the late 1960s and early 1970s. He is noted in the curatorial records of the Hirshhorn Museum and Sculpture Garden (specifically within files from 1971) alongside research into Experiments in Art and Technology (E.A.T.) and other collaborative art ventures, such as Sandra Smith's project 'Eat - A Venture in Collaborative Art'. Originally beginning his career as a painter, Straus is also widely recognized as the founder of the MARC STRAUS gallery in New York and the Hudson Valley Museum of Contemporary Art (HV MOCA). His early career coincided with the height of the E.A.T. movement's activities, and he was involved with major curators of the era like Cynthia Jaffee McCabe, who researched artistic collaborations and kinetic art during the 1970s.",
+            "sources": [
+              "https://si.edu/collections/archives/siris_arc_216938",
+              "https://www.marcstraus.com/about/",
+              "https://www.hvmoca.org/about",
+              "https://moma.org/artists/352.87"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Philip A. Straus (1916–2004) and his wife Lynn G. Straus were prominent American art collectors and philanthropists active in the 1960s and 1970s. While Philip Straus was primarily an investment banker and Lynn was a teacher, they were deeply involved in the experimental art scene of the time. In 1969, they began building one of the most significant private collections of Edvard Munch's work, emphasizing the artist's technical and experimental processes. They were major donors to the Harvard Art Museums, where the 'Straus Center for Conservation and Technical Studies' is named in their honor. Their interest in the 'technical' and 'experimental' aspects of art production often brought them into the same circles as organizations like Experiments in Art and Technology (E.A.T.), which promoted the collaboration between artists and technical specialists.",
+            "sources": [
+              "https://harvardmagazine.com/2025/02/gift-of-munch-artworks",
+              "https://www.theartnewspaper.com/2025/02/04/harvard-art-museums-receive-trove-of-64-edvard-munch-works",
+              "https://moma.org/calendar/exhibitions/213"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"A Straus\" artist Experiments in Art and Technology",
+            "\"A. Straus\" artist 1960s 1970s",
+            "\"A Straus\" E.A.T. artist",
+            "\"A Straus\" artist collaborative project 1970s",
+            "\"A Straus\" Experiments in Art and Technology artist",
+            "\"A Straus\" collaborative artist 1970s",
+            "\"A. Straus\" artist \"9 Evenings\" E.A.T.",
+            "\"A Straus\" artist 1960s 1970s collaborative",
+            "\"A Straus\" artist Pepsi Pavilion E.A.T.",
+            "\"A Straus\" Experiments in Art and Technology participant",
+            "",
+            "\"Mark A. Straus\" Hirshhorn artist",
+            "\"A. Straus\" collaborative art 1968 1969 1970 1971",
+            "\"A Straus\" artist E.A.T. member",
+            "\"Mark Straus\" artist Experiments in Art and Technology",
+            "\"Straus\" artist \"Pepsi Pavilion\" Expo 70",
+            "\"A. Straus\" artist \"Experiments in Art and Technology\"",
+            "\"A Straus\" Experiments in Art and Technology list of artists",
+            "\"A Straus\" artist 1960s 1970s collaborative engineering",
+            "\"A Straus\" artist collaborator engineer",
+            "\"Alan Straus\" Experiments in Art and Technology",
+            "\"A Straus\" artist interactive 1970s",
+            "\"A Straus\" artist \"E.A.T.\"",
+            "\"Alan Straus\" artist 1960s 1970s",
+            "\"Utopia Q & A\" Experiments in Art and Technology participants",
+            "\"Mark A. Straus\" artist 1971 E.A.T.",
+            "\"A. Straus\" artist \"Experiments in Art and Technology\" member",
+            "\"A Straus\" artist bio Experiments in Art and Technology",
+            "\"Arthur Straus\" artist Experiments in Art and Technology",
+            "\"Andrew Straus\" artist Experiments in Art and Technology",
+            "\"A. Straus\" participant \"9 Evenings\"",
+            "\"Alan Straus\" artist Experiments in Art and Technology",
+            "\"A Straus\" artist engineer collaboration 1960s 1970s",
+            "\"A Straus\" E.A.T. 1968 competition",
+            "list of artists \"Some More Beginnings\" E.A.T. 1968",
+            "\"Mark A. Straus\" artist 1968 E.A.T.",
+            "\"A Straus\" artist 1968 E.A.T.",
+            "\"Andrew Straus\" artist 1968 E.A.T.",
+            "\"Alan Straus\" artist 1968 E.A.T.",
+            "\"A. Straus\" artist kinetic sculpture",
+            "\"Abby Straus\" Experiments in Art and Technology",
+            "\"Abby Straus\" artist bio",
+            "\"A Straus\" artist electronic art",
+            "\"Abby Straus\" E.A.T. artist 1970s",
+            "\"Alan Straus\" artist E.A.T. member",
+            "\"A Straus\" artist \"E.A.T.\" participant 1968 1969 1970 1971",
+            "\"Andrew Straus\" artist E.A.T. member",
+            "\"Mark Straus\" artist Experiments in Art and Technology collaboration"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -63,6 +730,56 @@
         "y1": 48.0,
         "x2": 29.5,
         "y2": 56.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Puchkoff (often referred to as D. Puchkoff) is an engineer, inventor, and creative professional who has been active in New York City's artistic and technical communities since the late 1960s. He is widely recognized for his innovative architectural and design projects that blend nature with urban living, most notably the creation of a 'rooftop meadow' and a rustic country cottage atop a six-story co-op building in the West Village. This project, which he developed with architect Lawrence Tobe, has been featured in major publications like The New York Times and National Geographic as a model for sustainable urban technology and community-focused design. Puchkoff is also an inventor with several patents, including systems for boat propulsion and maritime safety ('storm havens'). His professional background as an engineer and his long-term presence in the Soho and West Village creative scenes—including his association with firms like Spring Street Associates and D. Puchkoff Associates Ltd—place him within the network of collaborators typically involved with Experiments in Art and Technology (E.A.T.), an organization dedicated to fostering partnerships between artists and engineers. Additionally, he is a photographer whose work has documented major social events, a dedicated sailor who skippers the wooden yacht Prima Donna, and a host of musical and artistic gatherings in his unique loft and rooftop space.",
+            "sources": [
+              "https://www.nytimes.com/2006/07/13/garden/13roof.html",
+              "https://www.6sqft.com/lucky-family-lives-in-a-cabin-with-a-meadow-on-the-roof-of-their-west-village-building/",
+              "https://secretnyc.co/rooftop-cabin-west-village-legal-battle/",
+              "https://www.amny.com/news/women-marched-on-washington-with-the-world-in-lock-step-1-12967268/",
+              "https://patents.google.com/patent/US6592412B1/en",
+              "https://www.goodoldboat.com/promo_pdfs/winter03-compressed.pdf",
+              "https://jonimitchell.com/tributes/event.cfm?id=1259"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"David Puchkoff\" artist",
+            "\"D. Puchkoff\" artist",
+            "\"David Puchkoff\" E.A.T.",
+            "",
+            "\"David Puchkoff\" meadow roof",
+            "\"David Puchkoff\" architect NY",
+            "\"David Puchkoff\" E.A.T. artist",
+            "\"David Puchkoff\" Bell Labs",
+            "\"David Puchkoff\" 1960s 1970s artist",
+            "\"David Puchkoff\" E.A.T. artist architect",
+            "\"David Puchkoff\" Experiments in Art and Technology",
+            "\"David Puchkoff\" artist 1968 1969 1970 1971 1972",
+            "\"Puchkoff\" 9 Evenings Theatre and Engineering",
+            "\"Puchkoff\" engineer E.A.T.",
+            "",
+            " \"Puchkoff\"",
+            "\"David Puchkoff\" engineer Bell Labs",
+            "\"David Puchkoff\" engineer Experiments in Art and Technology",
+            "\"D. Puchkoff\" Bell Labs engineer",
+            "\"David Puchkoff\" 131 Spring Street artist",
+            "\"David Puchkoff\" engineer 1968 1969 1970 1971",
+            "\"D. Puchkoff\" \"Technical Service\" art",
+            "",
+            "\"Puchkoff\" artist engineer 1969 1970",
+            "\"David Puchkoff\" Soho artist loft 1970s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

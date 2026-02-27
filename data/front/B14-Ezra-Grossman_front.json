@@ -22,5 +22,91 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "",
     "aestheticPhilosophicalInterests": ""
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q160263",
+      "label": "David Grossman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes a person named Ezra Grossman associated with Columbia University and technical fields like mathematics and computers in New York. The Wikidata entity describes David Grossman, a world-famous Israeli novelist and journalist born in Jerusalem. The names, locations, and professions do not match."
+    },
+    {
+      "qid": "Q313767",
+      "label": "Vasily Grossman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card record identifies an Ezra Grossman located in New York City associated with Columbia University and mathematics/computers. The Wikidata entity describes Vasily Grossman, a famous Soviet novelist and war correspondent who lived and died in the Soviet Union. While they share a surname and both have some connection to engineering, their first names, locations, and primary career paths are entirely distinct."
+    },
+    {
+      "qid": "Q7008574",
+      "label": "Hedwig Grossman Lehmann",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Ezra Grossman, a male associated with mathematics and computers at Columbia University in New York. The Wikidata entity describes Hedwig Grossman Lehmann, a female ceramicist and sculptor who lived in Germany and Israel."
+    },
+    {
+      "qid": "Q67468227",
+      "label": "R.G. Grossman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names do not match. The index card identifies the person as Ezra Grossman (initial E), while the Wikidata entity is R.G. Grossman (initial R). There is no specific overlapping metadata such as location or field of study to suggest they are the same individual."
+    },
+    {
+      "qid": "Q96364255",
+      "label": "Jeff Grosso",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Ezra Grossman vs. Jeff Grosso), and their professional backgrounds are entirely different (Mathematics/Engineering at Columbia University vs. Professional Skateboarding/Presenting). There are no overlapping details to suggest they are the same person."
+    },
+    {
+      "qid": "Q126367720",
+      "label": "Miriam Grossman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Ezra Grossman, likely a male associated with mathematics and computers at Columbia Engineering, while the Wikidata entry describes Miriam (Ruth) Grossman, a female psychiatrist educated at the Grossman School of Medicine."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5149901",
+      "label": "Columbia University School of General Studies",
+      "description": "school of General Studies in the USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the 'Columbia University School of Engineering', whereas the Wikidata entity is the 'Columbia University School of General Studies'. While both are distinct academic divisions within Columbia University located in New York City, they are separate entities with different curricula and histories."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Ezra Peter Grossman (c. 1950–2026) was an engineer and activist who was active at the Columbia University School of Engineering in the late 1960s and early 1970s. During his senior year in 1970, he co-chaired the first Earth Day celebration at Columbia University and led his engineering class on strike in protest against the Vietnam War. His technical background included mathematics and computers, fields in which he remained active by tutoring students and applying quantitative skills in his early career. After graduating from Columbia, he worked for two years in New York City Mayor John Lindsay's policy planning department before attending Harvard Business School. He eventually had a long career in finance, working for commercial banks, investment firms, and Moody's Rating Agency, specializing in commercial real estate. He was a lifelong New Yorker, raised in the Bronx, and later lived in Greenwich, Connecticut, and Hendersonville, North Carolina.",
+        "sources": [
+          "https://www.legacy.com/obituaries/name/ezra-grossman-obituary?pid=206253683",
+          "https://www.sagelbloomfield.com/obituary/Ezra-Grossman",
+          "https://www.stamfordadvocate.com/local/article/Greenwich-family-strengthens-bonds-through-2122645.php"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Ezra Grossman engineer scientist technical person",
+        "\"Ezra Grossman\" Columbia University School of Engineering",
+        "\"Ezra Grossman\" mathematics computer science 1960s 1970s",
+        "Ezra Grossman Experiments in Art and Technology E.A.T.",
+        "",
+        "\"Ezra Grossman\" \"E.A.T.\" artist engineer",
+        "\"Ezra Grossman\" Columbia University faculty staff 1960s 1970s",
+        "",
+        "\"Ezra Grossman\" Columbia University School of Engineering computer mathematics",
+        "\"Ezra Grossman\" New York Mayor Lindsay policy planning computer"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

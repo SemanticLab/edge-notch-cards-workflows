@@ -11,6 +11,90 @@
         "y1": 0.4,
         "x2": 40.2,
         "y2": 6.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q76253993",
+          "label": "Ira D. Schwarz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Ira D. Schwarz died in 1946, which contradicts the provided context that the person from the card was an artist active during the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ira Schwarz was a prominent music educator, composer, and conductor active in the late 1960s and 1970s. He served as the Chairman of the Music Department at the State University of New York (SUNY) College at Brockport, starting in 1971. Schwarz was known for his work in interdisciplinary arts education, notably co-authoring the book \"Teaching the Relating Arts: A Guide to General Education in the Arts\" (1973) with Leon Karel. His educational philosophy focused on the synthesis and integration of different art forms, which aligns with the mission of organizations like Experiments in Art and Technology (E.A.T.) that sought to bridge the gap between artists and other disciplines. His creative works include the music drama \"Jacob's Ladder,\" based on Afro-American historical and literary themes, which premiered in 1987. Earlier in his career, in the mid-1960s, he was a band and orchestra director at Minot State College.",
+            "sources": [
+              "https://arts-accredit.org/wp-content/uploads/2015/05/NASM-PROCEEDINGS-1993.pdf",
+              "https://eric.ed.gov/?id=ED054750",
+              "https://digitalcommons.brockport.edu/ybks/69/",
+              "https://digitalcommons.brockport.edu/ybks/77/",
+              "https://books.google.com/books?id=0X8KAQAAMAAJ"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Ira Schwarz is a distinguished American photojournalist whose career began in the late 1960s. Born in 1951 in New York City, he is primarily recognized for his extensive work as a staff photographer for the Associated Press (AP) and Reuters. Starting in Washington D.C. in 1978, he documented the presidencies of Jimmy Carter, Ronald Reagan, George H.W. Bush, Bill Clinton, and George W. Bush. His photography captured pivotal moments of 20th-century history, including political rallies, state dinners, and major cultural events like Michael Jackson's visit to the White House in 1984. His credits appear in various historical archives and publications documenting the intersection of politics, technology, and media during the Cold War era.",
+            "sources": [
+              "https://www.worldpressphoto.org/person/detail/1977/ira-schwarz",
+              "https://apimagesblog.com/blog/2017/5/19/the-president-and-the-press",
+              "https://www.bridgemanimages.com/en/search?filter_text=Ira+Schwarz",
+              "https://www.cbsnews.com/news/notable-deaths-2017/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Ira Schwarz artist \"Experiments in Art and Technology\"",
+            "\"Ira Schwarz\" artist 1960s 1970s",
+            "\"Ira Schwarz\" E.A.T. artist",
+            "",
+            "\"Ira Schwarz\" musician SUNY Brockport biography",
+            "\"Ira Schwartz\" Experiments in Art and Technology",
+            "\"Ira Schwarz\" Experiments in Art and Technology",
+            "\"Ira Schwarz\" E.A.T. membership",
+            "\"Ira Schwarz\" artist video 1970s",
+            "\"Ira Schwarz\" photographer E.A.T. documentary",
+            "\"Ira Schwarz\" E.A.T. archive",
+            "\"Ira Schwarz\" artist Experiments in Art and Technology project",
+            "\"Ira Schwartz\" E.A.T. artist engineering",
+            "\"Ira Schwarz\" video artist 1960s 1970s",
+            "",
+            "\"Ira Schwarz\" SUNY Brockport E.A.T.",
+            "\"Ira Schwarz\" photographer E.A.T. connection",
+            "\"Ira Schwarz\" artist 1960s 1970s E.A.T.",
+            " \"Ira Schwartz\"",
+            " \"Ira Schwarz\"",
+            "\"Ira Schwarz\" photographer E.A.T. documentation",
+            "\"Ira Schwartz\" artist E.A.T. project 1960s",
+            "\"Ira Schwarz\" E.A.T. newsletter",
+            "\"Ira Schwarz\" Experiments in Art and Technology member list",
+            "\"E.A.T.\" \"Ira Schwartz\"",
+            "\"E.A.T.\" \"Ira Schwarz\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIH-RISg3DCu5w9AIic6kpNmLZ_M4NMErPKvfWr-dnV80HThqtfAldYvFDqncrXAmDCbRnJ5x7OzikE13vjm7AgJWR_Y_qh_hvdIdRZc57BS5_HOmnFbNiyQgov1jq5Hk9O4kAZwSjjATBfY2H_8U-sblw5_GBYA08BDb_jds=",
+              "title": "time.com",
+              "resolvedUri": "https://time.com/4248962/nancy-reagan-first-lady-death-celebrities/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1784,
+                "endIndex": 1976,
+                "text": "His photography captured pivotal moments of 20th-century history, including political rallies, state dinners, and major cultural events like Michael Jackson's visit to the White House in 1984."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +108,493 @@
         "y1": 7.8,
         "x2": 51.3,
         "y2": 17.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19199",
+          "label": "Carl Andre",
+          "description": "",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to Carl Andre, an artist. The Wikibase entity explicitly links to the famous artist (Wikidata Q315348) and mentions participation in '9 Evenings' in 1966, which aligns with the expected timeframe and artistic context provided for the card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q72476",
+          "label": "Carl Andreas Koefoed",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Koefoed (Q72476) died in 1948, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the context. Additionally, his career was in anthropology and government service rather than art."
+        },
+        {
+          "qid": "Q84811",
+          "label": "Karl Andreas Geyer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Karl Andreas Geyer, a 19th-century German botanist who died in 1853. This is inconsistent with the card entry context, which refers to an artist active in the late 1960s and early 1970s (likely the American minimalist artist Carl Andre)."
+        },
+        {
+          "qid": "Q103471",
+          "label": "Carl Andreas Naumann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Naumann lived from 1786 to 1854, which is over a century before the active period (late 1960s/early 1970s) for the artist mentioned in the card entry. Additionally, the Wikidata entity was an ornithologist and forester, not an artist."
+        },
+        {
+          "qid": "Q123268",
+          "label": "Carl Hilty",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Carl Hilty' does not match the name 'Carl Andre' on the card. Furthermore, Carl Hilty died in 1909, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the context."
+        },
+        {
+          "qid": "Q249664",
+          "label": "Karl Fabritius",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to Carl Andre, an artist active in the late 1960s/early 1970s. The Wikidata entity Q249664 describes Karl Fabritius (1826-1881), a 19th-century Lutheran pastor, politician, and historian whose surname is Fabritius, not Andre."
+        },
+        {
+          "qid": "Q315348",
+          "label": "Carl Andre",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Carl Andre (Q315348) is a highly prominent American minimalist artist and sculptor whose career began in the late 1950s and peaked during the late 1960s and 1970s, aligning perfectly with the provided context and timeframe."
+        },
+        {
+          "qid": "Q579115",
+          "label": "Carl Andrew Spaatz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to the artist Carl Andre (likely the minimalist sculptor), whereas the Wikidata entity Q579115 is Carl Andrew Spaatz, a high-ranking US Air Force General. Their professions, career periods, and public identities are entirely distinct."
+        },
+        {
+          "qid": "Q1036745",
+          "label": "Carl Andreas August Goos",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Carl Andreas August Goos, a painter who lived from 1797 to 1855. This does not match the timeframe of the person on the card, who was active in the late 1960s and 1970s. Furthermore, the names are distinct despite sharing the first name 'Carl'."
+        },
+        {
+          "qid": "Q1036750",
+          "label": "Carl Andresen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Carl Andre' on the card does not match 'Carl Andresen' in the Wikidata entity. Furthermore, the Wikidata entity describes a German theologian and Christian archaeologist, whereas the card refers to an artist active in the late 1960s (likely the minimalist sculptor Carl Andre, Q315348)."
+        },
+        {
+          "qid": "Q1730302",
+          "label": "Carl Andreas Duker",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the card entry is an artist active in the late 1960s and early 1970s (specifically the minimalist artist Carl Andre). The Wikidata entity (Q1730302) refers to Carl Andreas Duker, a historian and classical scholar who lived from 1670 to 1752. These are clearly different individuals from entirely different centuries."
+        },
+        {
+          "qid": "Q4579994",
+          "label": "Carl Andreas Fougstad",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Fougstad (Q4579994) died in 1871, which is nearly a century before the card's subject (an artist active in the late 1960s/1970s) would have been active. Additionally, Fougstad was a Norwegian politician and jurist, not an artist."
+        },
+        {
+          "qid": "Q4755593",
+          "label": "Andreas Petersen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Carl Andre vs Andreas Petersen) and the professions are completely different (the card entry refers to an artist, while the Wikidata entity describes a Danish boxer active in the 1920s)."
+        },
+        {
+          "qid": "Q5039823",
+          "label": "Carl Andrew Weinman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to 'Carl Andre', who is contextualized as an artist active in the late 1960s/early 1970s. The Wikidata entity Q5039823 describes Carl Andrew Weinman, a judge and lawyer who was born in 1903. These are distinct individuals with different occupations and professional backgrounds."
+        },
+        {
+          "qid": "Q5039824",
+          "label": "Carl Andrew Capasso",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to 'Carl Andre', likely the famous minimalist artist. The Wikidata entity Q5039824 is Carl Andrew Capasso, a businessman/contractor. The names are not a match (Andre vs. Capasso) and the professions do not align."
+        },
+        {
+          "qid": "Q5615777",
+          "label": "Carl Andreas Dahlström",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Dahlstr&#246;m lived from 1806 to 1869, making it impossible for him to be the artist active in the late 1960s and early 1970s described in the card entry context. Furthermore, the names are not a direct match."
+        },
+        {
+          "qid": "Q6088470",
+          "label": "Carl Sahlin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Sahlin (Carl Andreas Sahlin) died in 1943, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card entry context. Furthermore, the surnames do not match (Andre vs. Sahlin)."
+        },
+        {
+          "qid": "Q12305167",
+          "label": "Carl Andreas Rames",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Rames lived from 1809 to 1869, which is completely incompatible with the required timeframe of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q15897264",
+          "label": "Carl Andreas Goepfert",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Goepfert lived from 1768 to 1818. This is over 150 years before the expected activity period of the late 1960s and early 1970s mentioned in the card's context. Furthermore, the surnames do not match."
+        },
+        {
+          "qid": "Q16171453",
+          "label": "Anders Ekman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Anders Ekman) lived from 1833 to 1855, which is more than a century before the late 1960s/1970s timeframe associated with the person on the card. Additionally, while the names share some elements, 'Carl Andre' is a distinct identity from 'Karl Anders Ekman'."
+        },
+        {
+          "qid": "Q18507961",
+          "label": "Carl Andreas Abt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Abt (Q18507961) died in 1922, which contradicts the provided context that the person on the card was active during the late 1960s and early 1970s. Additionally, while the first names match, the surnames differ (Andre vs. Abt)."
+        },
+        {
+          "qid": "Q18507966",
+          "label": "Carl Borromäus Andreas Ruthart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a Baroque painter who lived in the 17th century (c. 1630-1703), whereas the card entry describes a person active in the late 1960s or early 1970s. This timeframe mismatch makes a match impossible."
+        },
+        {
+          "qid": "Q28554148",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a German military officer (Generalmajor) born in 1894, whereas the card entry pertains to an artist active in the late 1960s. The Wikidata record even includes a 'different from' property explicitly distinguishing this individual from the artist Carl Andre (Q19199)."
+        },
+        {
+          "qid": "Q47505048",
+          "label": "Carl Andreas Grøntvedt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Carl Andre', whereas the Wikidata entity is for 'Carl Andreas Grøntvedt'. While they share a first name, the surnames are distinct. Furthermore, 'Carl Andre' is a very well-known artist (Q315348), and this Wikidata entity (Q47505048) describes a different person with no indication of being the artist in question."
+        },
+        {
+          "qid": "Q51725557",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a known artist (likely the minimalist sculptor Carl Andre) active in the late 1960s. The Wikidata entity Q51725557 describes a researcher associated with 'Invasion Biology', which is an occupation and field of study unrelated to the artistic context provided."
+        },
+        {
+          "qid": "Q55194709",
+          "label": "Carl Rath",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Carl Rath (Carl Andrew Rath), a musician born in 1953. The card entry refers to 'Carl Andre', which is the name of a famous minimalist artist active in the late 1960s and 1970s. Carl Rath would have been a teenager during the late 1960s and his surname is Rath, making him an unlikely match for the card entry."
+        },
+        {
+          "qid": "Q60841995",
+          "label": "Carl Andreae",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreae (Q60841995) was a German politician who lived from 1841 to 1913. This is temporally incompatible with the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q75374174",
+          "label": "Carl-Andre Baron Wiedersperger von Wiedersperg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1986, which makes it impossible for them to be an artist active during the late 1960s and early 1970s as described in the card's context."
+        },
+        {
+          "qid": "Q87763789",
+          "label": "Carl Andreas Fürst",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Carl Andreas Fürst, a Swedish physician (1888-1981). The card entry for 'Carl Andre' refers to the famous minimalist artist (Q19199) active in the late 1960s and 1970s art scene, which is inconsistent with the profession and life of the Swedish physician."
+        },
+        {
+          "qid": "Q94846447",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q94846447) lived from 1763 to 1831 and was a teacher/civil servant, which makes it chronologically and professionally impossible for him to be the artist active in the late 1960s/early 1970s described in the card entry."
+        },
+        {
+          "qid": "Q95636384",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andre (Q95636384) died in 1914, which precludes him from being the artist active during the late 1960s and early 1970s context provided for the card entry."
+        },
+        {
+          "qid": "Q96677953",
+          "label": "Karl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q96677953) lived from 1796/1799 to 1876 and was an art dealer and publisher in the 19th century. This does not match the card entry context, which refers to a person active in the late 1960s and 1970s (likely the minimalist artist Carl Andre, Q19199)."
+        },
+        {
+          "qid": "Q101074168",
+          "label": "Carl Andreasen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to Carl Andre, who is known to be an artist active in the late 1960s. The Wikidata entity describes Carl Andreasen, a Danish sport cyclist born in 1874. The names are different, and the professions and lifespans do not align with the context of the card."
+        },
+        {
+          "qid": "Q102245955",
+          "label": "Carl Andrew Hickman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Carl Andrew Hickman) is an academic associated with Dalhousie University and a doctoral advisor, which does not match the profile of the famous minimalist artist Carl Andre. Furthermore, the name 'Carl Andrew Hickman' is distinct from 'Carl Andre'."
+        },
+        {
+          "qid": "Q102251826",
+          "label": "Carl Andrew Gutwin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to the famous artist Carl Andre, who was active in the 1960s and 1970s. The Wikidata entity (Q102251826) describes Carl Andrew Gutwin, a computer scientist associated with the University of Calgary and Saul Greenberg, whose professional timeline and field do not match the artist context of the card."
+        },
+        {
+          "qid": "Q102393859",
+          "label": "Carl Andrew Pearson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to the artist Carl Andre, while the Wikidata entity Q102393859 refers to Carl Andrew Pearson, an academic who attended George Washington University and has doctoral advisors. The names and professional profiles (artist vs. researcher) are distinct."
+        },
+        {
+          "qid": "Q104153535",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the card is an artist active in the late 1960s and early 1970s. The Wikidata entity (Q104153535) describes a South African cricketer who lived from 1878 to 1923. These biographies are incompatible."
+        },
+        {
+          "qid": "Q108683478",
+          "label": "Carl-André Poliquin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named 'Carl Andre' who is expected to be an artist active in the late 1960s or early 1970s. The Wikidata entity Q108683478 describes 'Carl-André Poliquin', a Canadian political candidate involved in the 2018 Quebec general election. The names and professional contexts do not match."
+        },
+        {
+          "qid": "Q108812944",
+          "label": "Carl Andreas Josua Brückmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a person (Carl Andreas Josua Brückmann) who lived from 1750 to 1823, which is incompatible with the context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q109296469",
+          "label": "Carl Andreas Grill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Grill lived in the 18th century (1735-1790), which makes it impossible for him to be the artist active during the late 1960s and early 1970s associated with the card entry."
+        },
+        {
+          "qid": "Q110751813",
+          "label": "Carl Andreas Braunwart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q110751813 refers to a jurist named Carl Andreas Braunwart, while the card entry refers to an artist named Carl Andre. Given the specific context of the card collection and the distinct professions and full names, these are clearly different individuals."
+        },
+        {
+          "qid": "Q112107121",
+          "label": "Carl Andreas Hoel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Hoel died in 1954, which contradicts the context that the person on the card was an artist active in the late 1960s and early 1970s. Additionally, the surname 'Hoel' does not match the card name 'Carl Andre'."
+        },
+        {
+          "qid": "Q112506401",
+          "label": "Carl-Andreas Dalluege",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl-Andreas Dalluege was born in 1955, meaning he would have been a child during the late 1960s (e.g., 11 years old in 1966) and is described as a manager and journalist, not an artist. The card entry refers to the famous artist Carl Andre."
+        },
+        {
+          "qid": "Q120431700",
+          "label": "Carl Andrew Bays",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to 'Carl Andre' (most likely the famous minimalist sculptor), whereas the Wikidata entity is for 'Carl Andrew Bays', a writer born in 1916. The surnames do not match."
+        },
+        {
+          "qid": "Q124639973",
+          "label": "Carl Andreas Weichelt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q124639973) refers to a businessman who lived from 1847 to 1926, which is inconsistent with the context that the Carl Andre on the card was an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q126933903",
+          "label": "Carl Andreas Malmstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q126933903 (Carl Andreas Malmstein) is associated with the Imperial University of Dorpat, which suggests a timeframe from the 19th or early 20th century. This does not align with the artist Carl Andre, who was active in the late 1960s and early 1970s. Additionally, the surnames differ significantly."
+        },
+        {
+          "qid": "Q128072374",
+          "label": "Carl Andreas Gottlieb Hennig",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Carl Andre', whereas the Wikidata entity is 'Carl Andreas Gottlieb Hennig'. While they share the first two names, the surnames are distinct. Additionally, there is no evidence in the Wikidata record that this individual was an artist active during the late 1960s/1970s, whereas the card refers to the well-known minimalist artist Carl Andre."
+        },
+        {
+          "qid": "Q130784277",
+          "label": "Carl Andreas Behncke",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct. The card entry lists 'Carl Andre' (where Andre is the surname), while the Wikidata entity is for 'Carl Andreas Behncke' (where Behncke is the surname)."
+        },
+        {
+          "qid": "Q132717991",
+          "label": "Carl Andreas von Wehner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Carl Andreas von Wehner, who lived in the 18th century (1738-1766). This is chronologically impossible for the person on the card, who is contextually identified as an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q137037855",
+          "label": "Q137037855",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Given the context of the person being an artist active in the late 1960s, it is highly likely that this record refers to the prominent minimalist artist Carl Andre. Even though the Wikidata entry Q137037855 is sparse, the identity of the name and gender aligns with the known artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Carl Andre (1935–2024) was a preeminent American minimalist artist and poet, best known for his grid-format floor sculptures and the use of industrial materials. Born in Quincy, Massachusetts, he attended Phillips Academy before moving to New York in 1957. During the late 1960s and early 1970s, Andre played a defining role in the Minimalist movement alongside artists like Donald Judd and Sol LeWitt. His work, which he termed \"matterist\" and \"sculpture as place,\" abandoned traditional carving and modeling in favor of arranging identical units—such as bricks, metal plates, and timber—directly on the floor, often intended for viewers to walk upon. He was notably associated with the organization Experiments in Art and Technology (E.A.T.), contributing materials like plywood panels, metal sheets, and foam blocks for Yvonne Rainer’s performance \"Carriage Discreteness\" during the landmark \"9 Evenings: Theatre & Engineering\" event in 1966. His artistic philosophy was influenced by his experience working as a freight brakeman and conductor for the Pennsylvania Railroad (1960–1964), as well as his relationships with painter Frank Stella and filmmaker Hollis Frampton. Andre held his first solo exhibition in 1965 at the Tibor de Nagy Gallery and a major retrospective at the Solomon R. Guggenheim Museum in 1970.",
+            "sources": [
+              "https://www.theartstory.org/artist/andre-carl/",
+              "https://whitney.org/artists/31",
+              "https://www.guggenheim.org/artwork/artist/carl-andre",
+              "https://www.scaruffi.com/art/eat.html",
+              "https://www.britannica.com/biography/Carl-Andre",
+              "https://www.tate.org.uk/art/artists/carl-andre-648"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Carl Andre\" artist biography 1960s 1970s",
+            "artist Carl Andre Experiments in Art and Technology E.A.T.",
+            "Carl Andre E.A.T. collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErsU2C_xOvNGzA4r-mJmWLr1eZHUQVKF7t-Rxiznq4FvRf5Q5q0gvCN64vRU5MqIHbyZ6owcQCOr1c3jPoeyZ2x1R1Ap_DyeNzb4g0gd5k_HTqfKdwVsQZ76mc6OFuve-UBnAOldk_lw==",
+              "title": "theartstory.org",
+              "resolvedUri": "https://www.theartstory.org/artist/andre-carl/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBKQEBUA3LUYT0lqah3YkRX28wJYQAu3V5dZ45muJr2jokq-2kEt8UnxNekPu4a0LP14b_-Qyt64s9vizOrrH4GAEwBTuGDbDN486jIqO7CcQmte7kshJXfm0hnzzFRIQTw_EE5jdMkjIZE0I=",
+              "title": "tate.org.uk",
+              "resolvedUri": "https://www.tate.org.uk/art/artists/carl-andre-648"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCnUGpDQ6jD-YTAyiL1HhbatyhaiPEVPDwh6a_I9FJV9hs16PIPhCM61XHcLuXPrs53vNwxQ3dJIbFMOiMtHP6tI3ndrP62A3Ub-bVOwEmpB2UH7iiAPS3tQmmQBjo9NYudKwGf5LE",
+              "title": "qg-gallery.com",
+              "resolvedUri": "https://qg-gallery.com/artists/50-carl-andre/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfiBgBo0bZ5mV4qwqPzPzSMB2tQ559hy8KAnS7MCV_rPga2qLqHzIpYB1o-AqigUBljF7naojgLERo7gbjfkt-wgRU1gfzzyd5gXSRCTpNRSl-HzV1HkWsxOTzHMpiZfS5A==",
+              "title": "dreamideamachine.com",
+              "resolvedUri": "http://www.dreamideamachine.com/?p=18786"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUuRijknv0ntuk-uQEhBwdDRtUnr2HyynbC3OlmOVjpYB0KbB_IijBXcgLl56Yyq7vlyL8sV9AcPKaXzudil-NZcnHajYOHdJ0Rn_gWrvGjATHc2QS6K8",
+              "title": "whitney.org",
+              "resolvedUri": "https://whitney.org/artists/21"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETNc5AUpZcbplcI1Ztn2ph_oygWTSNcNNLOeRtpS9KL863rZzyK5foVrWiroe5Aqr-HV7ftEq5O2aku6iHJakXHup2Ig4NqiY072iKM44KH9Cq21IJtJ-EchBIaf7bhY5zqKXTljNnRdo2b-iJciQg-j0A",
+              "title": "paulacoopergallery.com",
+              "resolvedUri": "https://www.paulacoopergallery.com/exhibitions/carl-andre"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-7JjqvWbf0zphzhQKRyXbURzRXnhVGosSb__Tq2BJ6q3Shme3gAOJUNCjr6SXyxI-NqUDCPO2jODGjw32ulQaidVJG8p-kvh76EE-p-yR3RAGi08iCmWA2Py-r3CUFRSZvWsgG2urLNljcRuiuA==",
+              "title": "guggenheim.org",
+              "resolvedUri": "https://www.guggenheim.org/artwork/artist/carl-andre"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEssctr9KX14i8WNJqjMOyKQICvcTZCOK5LSKEnBrtYX1ARRwpSyqsIHOUqObzdg1DLusfo5HdSJdeEFj9e5EvBBGLoqi7cn3ZDuIy_g9lp2cqbdWKmjhiieNfqaO1kS6i_UuSlSVinB3c=",
+              "title": "britannica.com",
+              "resolvedUri": "https://www.britannica.com/biography/Carl-Andre"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS-hERezoxEpCANAHEUikFGdzjNmvoAORSvcgp24sysydPMLk26t9CvVeFpqE9mZ2fL-yGGkm0fsS219o1wZlViN4SuUcLvFtuBAt1wzPlHAi8iGrVOXnH_nU2GsWfJrc5qQ==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Carl_Andre"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 213,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Carl Andre (1935–2024) was a preeminent American minimalist artist and poet, best known for his grid-format floor sculptures and the use of industrial materials."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 214,
+                "endIndex": 308,
+                "text": "Born in Quincy, Massachusetts, he attended Phillips Academy before moving to New York in 1957."
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 309,
+                "endIndex": 454,
+                "text": "During the late 1960s and early 1970s, Andre played a defining role in the Minimalist movement alongside artists like Donald Judd and Sol LeWitt."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 455,
+                "endIndex": 712,
+                "text": "His work, which he termed \\\"matterist\\\" and \\\"sculpture as place,\\\" abandoned traditional carving and modeling in favor of arranging identical units—such as bricks, metal plates, and timber—directly on the floor, often intended for viewers to walk upon."
+              },
+              "groundingChunkIndices": [
+                4,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1244,
+                "endIndex": 1795,
+                "text": "Andre held his first solo exhibition in 1965 at the Tibor de Nagy Gallery and a major retrospective at the Solomon R. Guggenheim Museum in 1970.\",\n      \"sources\": [\n        \"https://www.theartstory.org/artist/andre-carl/\",\n        \"https://whitney.org/artists/31\",\n        \"https://www.guggenheim.org/artwork/artist/carl-andre\",\n        \"https://www.scaruffi.com/art/eat.html\",\n        \"https://www.britannica.com/biography/Carl-Andre\",\n        \"https://www.tate.org.uk/art/artists/carl-andre-648\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                6,
+                1,
+                5,
+                8
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +608,190 @@
         "y1": 13.9,
         "x2": 54.1,
         "y2": 32.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q91895",
+          "label": "Alfred Arndt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Douglas Arndt' and 'Alfred Arndt' do not match. Although they share a surname and Alfred Arndt was a known artist/architect active until his death in 1976, there is no evidence to suggest Douglas is a known alias for Alfred."
+        },
+        {
+          "qid": "Q122359",
+          "label": "Arndt Sorge",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card name is Douglas Arndt, whereas the Wikidata entry is for Arndt Sorge. Additionally, their occupations (artist vs. economist/university teacher) are unrelated."
+        },
+        {
+          "qid": "Q692035",
+          "label": "Arndt Bode",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to a person named Douglas Arndt (where Arndt is the surname), while the Wikidata entity is for Arndt Bode (where Arndt is the given name). Additionally, the Wikidata entity describes a prominent computer scientist and academic, which does not align with the context of the card referring to an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q692059",
+          "label": "Arndt Klocke",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Douglas Arndt vs. Arndt Klocke). Furthermore, the Wikidata entity was born in 1971, which contradicts the context that the person from the card was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q692063",
+          "label": "Arndt Rauchalles",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card refers to Douglas Arndt, while the Wikidata entity is Arndt Rauchalles (where Arndt is the given name, not the surname). Furthermore, the Wikidata entity is a German politician born in 1957, which makes him unlikely to be an active artist in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q692078",
+          "label": "Arndt Schwering-Sohnrey",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: 'Douglas Arndt' has Arndt as a surname, while 'Arndt Schwering-Sohnrey' has Arndt as a given name. Additionally, the Wikidata entity was born in 1968, which is incompatible with the person on the card being an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q692090",
+          "label": "Arndt Steinbach",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different: Douglas Arndt (where Arndt is the surname) versus Arndt Steinbach (where Arndt is the given name). Additionally, the Wikidata entity was born in 1968, making it impossible for him to have been an active artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q692094",
+          "label": "Arndt von Haeseler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a poor match: 'Arndt' is the surname on the card but the given name for the Wikidata entity. Additionally, the Wikidata entity was born in 1959, meaning they would have been a child during the late 1960s and early 1970s when the person on the card was active as an artist. Finally, the Wikidata entity is a mathematician and biologist, not an artist."
+        },
+        {
+          "qid": "Q11775089",
+          "label": "Gertrud Arndt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The first names (Douglas vs. Gertrud) are entirely different, and the Wikidata entity describes a female artist associated with the Bauhaus movement, whereas the card name is male."
+        },
+        {
+          "qid": "Q21505341",
+          "label": "Charles Homer Arndt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Douglas Arndt and Charles Homer Arndt do not match. Furthermore, the Wikidata entity describes a botanist, which does not align with the artistic context of the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Douglas Arndt is a software engineer and author known for speculative and conceptual works that explore the intersection of technology, consciousness, and communication. In 1987, he was a senior software engineer at Dalmo Victor and Singer in Tucson, Arizona, and was active in the Association for Computing Machinery's Special Interest Group on the Ada Programming Language (ACM SIGAda). His writings and presentations, such as 'Copy & Cancel Telepathy,' 'Zero-Zero Telepathy,' and 'The Language of Light,' discuss conceptual topics like 'mental telepathy,' 'extraterrestrial communication,' and 'biocosmological interactions,' which reflect the multidisciplinary and experimental focus often associated with organizations like Experiments in Art and Technology (E.A.T.). Additionally, a 'Douglas Arndt Fund' exists within the Brainerd Lakes Area Community Foundation, which has supported the integration of electronic music into live sound presentations. Another individual of the same name, Douglas Arndt, is a musician who played electric bass and woodwinds, earned a degree in music theory and composition, and served as an assistant conductor for ensembles such as the Pikes Peak Philharmonic.",
+            "sources": [
+              "https://archive.org/stream/byte-magazine-1987-09/1987_09_BYTE_12-10_Printer_Technologies_and_80386_System_Software_djvu.txt",
+              "https://www.slideshare.net/DouglasArndt/copy-cancel-telepathy-and-zerozero-telepathy",
+              "https://www.vocalessence.org/wp-content/uploads/2017/09/Welcome-Christmas-Program-2017.pdf",
+              "https://academyjazz.org/meet-the-band"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Douglas Arndt \"Experiments in Art and Technology\"",
+            "\"Douglas Arndt\" E.A.T. artist engineer",
+            "\"Douglas Arndt\" artist 1960s 1970s",
+            "\"Douglas Arndt\" E.A.T. membership list",
+            "\"Douglas Arndt\" sound or light art 1970s",
+            "\"Douglas Arndt\" artist engineer 1960s",
+            "\"Douglas Arndt\" \"Bell Labs\" artist",
+            "\"Douglas Arndt\" electronic music or art 1970s",
+            "\"Douglas Arndt\" E.A.T. engineer",
+            "\"Douglas Arndt\" \"E.A.T.\" participant list",
+            "\"Doug Arndt\" artist engineer 1960s 1970s",
+            "\"Douglas Arndt\" artist engineer sound light",
+            "\"Douglas Arndt\" artist 1968 1969 1970",
+            "\"Douglas Arndt\" E.A.T. engineer Bell Labs",
+            "\"Douglas Arndt\" Experiments in Art and Technology member",
+            "\"Douglas Arndt\" conceptual artist 1970s",
+            "\"Douglas Arndt\" video artist 1970s",
+            "\"Douglas Arndt\" E.A.T. directory",
+            "\"Douglas Arndt\" \"telepathy\" artist",
+            "\"Douglas Arndt\" sound engineer artist",
+            "\"Douglas Arndt\" Experiments in Art and Technology member list",
+            "\"Douglas Arndt\" bell labs engineer art",
+            "\"Douglas Arndt\" Experiments in Art and Technology sound artist",
+            "\"Douglas Arndt\" engineer Bell Labs E.A.T.",
+            "\"Douglas Arndt\" author \"Telepathy\" E.A.T.",
+            "\"Douglas Arndt\" Experiments in Art and Technology sound engineer",
+            "\"Douglas Arndt\" E.A.T. Techne",
+            "\"Douglas Arndt\" electronic music 1960s 1970s",
+            "\"Douglas Arndt\" \"E.A.T.\"",
+            "\"Douglas Arndt\" conceptual artist",
+            "\"Douglas Arndt\" electronic music 1968 1969 1970 1971 1972 1973",
+            "\"Douglas Arndt\" sound engineer Bell Labs"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgYGK7Y0RZcMVCJHVQ8YDicK0TlFwCEt6SBb3uKoMM2tlOCcFO60aMtnBXKPt4cn1s2hXve_bf79I9O3bF6MLCuei2FTNIaxMxBg2RNxqIrcV_Fl6txVQOHtnUAGXlFOt_5fKq2XAliUCNRXiQSjzKDkM0oOhC3DTLINlS_PAQHXiQhComzdnRlc4=",
+              "title": "atwebpages.com",
+              "resolvedUri": "https://usgenealogyresearch.atwebpages.com/Washington/Franklin/obits_onsite.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_5UaOnY8XAKGT-AZg_OxPEjiY_ayahBeQQfyZLo_N6OqdurSn5w7k7opYZQ9_dXqEuNKYJsV98IqZCP6o3NW_JcsgAeu_GRD_EzivKuHdMmeWtdEqtCjJ37w2WkNOqyD5N7N3Rb2P1up6xa_C8r4wGKaY1kKPC1hCrW7R",
+              "title": "diva-portal.org",
+              "resolvedUri": "https://uu.diva-portal.org/smash/get/diva2:1823698/FULLTEXT01.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuosMb8utaXTpsJbsPhWOMYQqKAZC-L-q0CoMiSFUZkzOnUfqhWuB8GK5KITz-JcJe4cm2yZZDDUyQsd5FQUJwOku8aM3en4ddexazrHauZMBPUBWxBQa_dK57BfYxVXrh-Mj7Ig4RstX5tMoVj5GIulnD5Q==",
+              "title": "nwdanchor.com",
+              "resolvedUri": "http://nwdanchor.com/sites/default/files/2025anchor50.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi9RD69QeVj3Cro-9Dkvx9DVgIzQRvOpVm7_1WbVILlkgE-VIWR-uZDGnEALwMwhuj4pOHyYSwMsZPzDZIWA950MjhKjtVS16LgE0pEEkjUMa4tH7HvEs-v4XwQIoVnRcuFh4xWKIF7SYMcqIoW1dKuEWkmjXccKTNAI0Nt7Mght-M_tH2YlKvQBoeEx3c4O7kesOfqLycEE1_",
+              "title": "historyofceylontea.com",
+              "resolvedUri": "https://www.historyofceylontea.com/pdf-load/Articles/my-second-heart-with-cover-single-page.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPJA-V9zeGg1ur7UtyHkZWX5t-yPCeuaKYyzX2CaxuNS4vt6SGGDxgltH_8ceWGjCWgWpitgqdr2xaD03DfDGoaWjPdDZ67v178T3I4Mjyp76bInGZ9pyac2kV_g-MMEOm1MA5XOLCAO2Hvtk5iwHA4Vw=",
+              "title": "open.ac.uk",
+              "resolvedUri": "https://oro.open.ac.uk/view/faculty_dept/fass.type.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkVQObudetIYhsSTmk2IDmv7W0foyCw9802V6IBU-rY8W4-ufMDpiX1a9JNjZyH0RgU4rHzCw9IDwtu85bDXjScC4J7S2tnxIUR5beGpbG2K2DP-kv2JvH5olANilL2ArGg_KdlA==",
+              "title": "open.ac.uk",
+              "resolvedUri": "https://oro.open.ac.uk/view/year/2017.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO-bLXomWj6aQawVoZ4nvQIuxWeu_e5LuGYzoX7Tm2ErAvbSPhYmCTC85DrjAJgnlI-odKXDRujY-3tdLf_rQlHVZnshtlEmcUi9YmhGYlWhezBKXO8u72hE6xisbwQtsgRXaeoLuTP42QMGzbAcPPSjE=",
+              "title": "open.ac.uk",
+              "resolvedUri": "https://oro.open.ac.uk/view/faculty_dept/fass.type.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUiNlGG1QyVdzJsCsJvruK8B1Lz_Fji4z_AbGrIQg9gT8FwBM1Pq51jjgX9BbDKAVniRWyYrEyiybOgaqUdIHKe5mgdCpbmb91F67YqLoQe4fMweWLwSXPP3v7xnX0B67NdcvWRewtPYVEzrfMz9ESO2DWPPRR0w==",
+              "title": "open.ac.uk",
+              "resolvedUri": "https://oro.open.ac.uk/view/faculty_dept/fass-ssgs.type.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1007,
+                "endIndex": 1704,
+                "text": "Another individual of the same name, Douglas Arndt, is a musician who played electric bass and woodwinds, earned a degree in music theory and composition, and served as an assistant conductor for ensembles such as the Pikes Peak Philharmonic.\",\n      \"sources\": [\n        \"https://archive.org/stream/byte-magazine-1987-09/1987_09_BYTE_12-10_Printer_Technologies_and_80386_System_Software_djvu.txt\",\n        \"https://www.slideshare.net/DouglasArndt/copy-cancel-telepathy-and-zerozero-telepathy\",\n        \"https://www.vocalessence.org/wp-content/uploads/2017/09/Welcome-Christmas-Program-2017.pdf\",\n        \"https://academyjazz.org/meet-the-band\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            }
+          ]
+        }
       }
     }
   ]

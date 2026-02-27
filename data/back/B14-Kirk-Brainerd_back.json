@@ -10,6 +10,170 @@
         "y1": 12.3,
         "x2": 36.6,
         "y2": 19.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q449295",
+          "label": "Kelly VanderBeek",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Kelly VanderBeek) was born in 1983, which is well after the person on the index card was active in the late 1960s and early 1970s. Furthermore, the first names do not match (Sue vs Kelly) and the occupations (artist vs alpine skier) are entirely different."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stan VanDerBeek (1927–1984) was a prominent American experimental filmmaker, animator, and computer artist who was a key figure in the integration of art and technology during the 1960s and 1970s. He is widely recognized as a pioneer of 'expanded cinema' and multimedia installations. After studying at Cooper Union and Black Mountain College, VanDerBeek became a central figure in the New York avant-garde scene, collaborating with artists like Merce Cunningham, John Cage, and Claes Oldenburg. He was deeply involved with Experiments in Art and Technology (E.A.T.), collaborating with Bell Labs engineer Kenneth C. Knowlton on early computer-generated films, such as the 'Poemfield' series (1966–1971) and a project for E.A.T. titled 'Man and His World.' His most famous physical work was the 'Movie Drome' (1963–1965), a geodesic dome in Stony Point, New York, used for immersive multi-screen projections. In 1970, he became the first artist-in-residence at the MIT Center for Advanced Visual Studies (CAVS), where he explored telecommunications art, including transmitting images via fax and developing interactive television broadcasts like 'Violence Sonata.'",
+            "sources": [
+              "https://www.eai.org/artists/stan-vanderbeek/biography",
+              "https://en.wikipedia.org/wiki/Stan_Vanderbeek",
+              "https://listart.mit.edu/exhibitions/stan-vanderbeek-culture-intercom",
+              "https://www.rauschenbergfoundation.org/art/archives/e-t-project-description-man-and-his-world-computer-film-artist-stan-vanderbeek-engineer-k-c-knowlton",
+              "https://www.stanvanderbeek.com/writing.htm"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Stan VanDerBeek biography and E.A.T. association",
+            "\"Vanderbeek\" artist 1960s 1970s",
+            "Vanderbeek artist Experiments in Art and Technology E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHT_c_tXq-AtLafHR4m9QuFEu_BwHNBEHAbQtk-GN_kcY9ESU5ac0A4rgJrmp9RNAjdGSnqOG0ciTpa5Wzqo8bRfOM22vXUQacD2PDlxig9fHa2bxv3Ar25d_R4UsNYR8IXYeH4hCo0dj4memxUohhdIxraIPvQaltuIlhlYn3",
+              "title": "mit.edu",
+              "resolvedUri": "https://listart.mit.edu/exhibitions/stan-vanderbeek-culture-intercom"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGExkgxpnRVB9qEBQP37TTQFf8-kaA7Qxz7OUJk5cibvU_O9nMUi5t-gEhAWot99QdfUkisBksccdXVCe19HVnw9Mo8E4Vove4gQV9p3gWAs5Tu-Wb7nitEvOBxFOLW6uGS441roq0r57MVLFv3L-98",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/stan-vanderbeek/biography"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqmX5Lxww-fbVKupjsGcji9BDK-Oq2KgrBRM5e0AQtEQY8dgJ1RvrFF8k2AUJkNdVb3F7BA4yaAOyBhllAF2QkF1FRhU2mzvnLhZb9-x_fb1yIN8dF6nZWW7QheTaYep-161HfbRW1ostmnjAcvr-lZGhv0mXqLhC32e8kLhRwNLPd0nlll7yb",
+              "title": "zabludowiczcollection.com",
+              "resolvedUri": "https://www.zabludowiczcollection.com/collection/artists/view/stan-vanderbeek"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXUkKSMETpn8HRcm-2XJwsDC-Gk1J8PYvZpOStWR2PZe35bwNW1QFoN2pgdGyoB2eDJql1Al5oyyfzTF1zriXj7DHvQGCU-sKR3-N3fQV6UqYYuENEWLlAbHHt91C6zO1rKVvTQ1pAQbrKNpwredGECZKA5TSqBGoa1hXXa0yisv9_",
+              "title": "camh.org",
+              "resolvedUri": "https://camh.org/wp-content/uploads/2024/01/Stan-VanDerBeek_CAMH_pr.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFby9ut9jx2DEcBElG8ObbzwEOuDrfjadQlfByVD6GayoIYl9ryx5Kt9HavIxl3JpHd0w0JEs0qP2sFvYt58k9NAfxqo-Osbb886fexSg3IcmN0V4JluOHlxDsXoCbJu-z6Qc3VPETNW5cV3PmDBw-a6VKq6Gxqn6-vH_wsZqWXw3EueO-6yHbZnaduLbniB3I=",
+              "title": "mmca.go.kr",
+              "resolvedUri": "https://www.mmca.go.kr/upload/board/201011160000014/2018/05/201805301012145631863.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdTD0KBjipRNjMbOHKxw2bHK96T_0JuwA9FtAEBEi494ePHaY3obdVG7Al_1rBnGhypR6Ni0ipZti44OmfCKcb9VgoyDayLIrYvwmLS28jdQk8DhY6Q3_W6OFbIgKZssG9KfGdSgk7thlJaxuUwrWzHACStDDYiSBevg==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Experiments_in_Art_and_Technology"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb63HYRjBy1VRQ5BZ-TVBw7vf1G5YwYnW_25ewNrQDjKENllMVaIa3z7W2tlabgqHxTj_cuWlGK9pjIrDptm6QnA3drwgWs3-oei11fKfh1QQywCLqAf_fP1dYxnV7fn3PiaiW30xffTPWMl-8odTxUlNmgUlS1Q==",
+              "title": "wordpress.com",
+              "resolvedUri": "https://globalpostmarknet.wordpress.com/tag/stan-vanderbeek/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz9MgJ7F4BcPOfgvL88mEHZ8dBZQm4YHE96PCymDo67IPyIpjT0LfQwKbkAoM2MFDkNZmA9-yb1droJ8kiQCmV1w8V42SSPaynAN5IxZOPVq5FWKwEuWu2n76xEfjqtlYKnKMAht6aJC9b68mYtkb2j9MP83o38z_CD0FM8j0fgbrcU1HfIUIl-UIoN_3SMg7JIQ==",
+              "title": "documentspace.com",
+              "resolvedUri": "https://documentspace.com/wp-content/uploads/2020/02/Stan-VanDerBeek-Brochure-Final.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFttV6cdWz2tFln4ZFzkDEkk7vDT2BG2Wu1wcYrAovkG8SmmYVcu09v-_sr8y406nUa48RAPVeaITzNqATaiW_bpcWGb2wi5ERy1ru6LzOkGlbAKcuF03vqjsfk820CEKLOsMn_t6cXG7HMIeDFteNdduDXx-Ysgnw=",
+              "title": "film-makerscoop.com",
+              "resolvedUri": "https://film-makerscoop.com/filmmakers/stan-vanderbeek?page=2"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEekcuY9E_itvaDGHDxMGr6hW7bkG45o9J-L95TdRre307RMM6AfqTXsKVy7EVfdnJlAacjFj0WsqH7oRoe970gZwgwvQegfsc0X5h6zdVKsc5uPJ7nWza-TkdYgjjWdtXanEaxetk60g==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Stan_Vanderbeek"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFRms3io0FPAVdFBoFiMgX13ZjZ7PjF5DYNwItI4UIlIdhHkrujmRxGpQLxN6xzHln9UqD4TdSCuAHMqkUd7sDwGwQwLRl1F0xXId3GT6Go0pIpc1pTe0WJTQFftVZ1jLPPEShC6NHtDxQKWkfKQ3RRModMU1G6KbQAq8s7NYRJCcMfpzh",
+              "title": "artbasel.com",
+              "resolvedUri": "https://www.artbasel.com/catalog/artwork/55877/Stan-VanDerBeek-Movie-Mural"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFuqQYq3mZRiDYQ4DXfCXV1aZ7MaB2oVD3YDMi5QnW4pNeG5zO4V7S0Qf4ne5o8HVVs3gZ_KgEmhaispt1C2a2R4RVBExWz6BeKc7UGMkTIb01WaDDCOkqSfS52ZistbjBsfljrop2Vg8vfcjOhH-YAviONp1YjvC7nuW-pQQvX_qjToASD6s=",
+              "title": "rauschenbergfoundation.org",
+              "resolvedUri": "https://www.rauschenbergfoundation.org/art/archive/eat-project-description-1"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUtRxJ5RNHaRF9leqVi3GHRix03V9CZ6bIVw9uaFXAoUYUUyFPOeU5kfWVXOZULVfMR04VSwQ6zVPT8kz6gGyY7z8cIsQCS17vOwIGJRpoRROMpKnRAye7F9Bt9PxKiqRkCVWd-f0AtQFjBGzQdjqC",
+              "title": "magentaplains.com",
+              "resolvedUri": "https://magentaplains.com/artists/stan-vanderbeek/bio"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 248,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Stan VanDerBeek (1927–1984) was a prominent American experimental filmmaker, animator, and computer artist who was a key figure in the integration of art and technology during the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 249,
+                "endIndex": 336,
+                "text": "He is widely recognized as a pioneer of 'expanded cinema' and multimedia installations."
+              },
+              "groundingChunkIndices": [
+                2,
+                1,
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 337,
+                "endIndex": 547,
+                "text": "After studying at Cooper Union and Black Mountain College, VanDerBeek became a central figure in the New York avant-garde scene, collaborating with artists like Merce Cunningham, John Cage, and Claes Oldenburg."
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 783,
+                "endIndex": 810,
+                "text": "titled 'Man and His World.'"
+              },
+              "groundingChunkIndices": [
+                11
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 965,
+                "endIndex": 1713,
+                "text": "In 1970, he became the first artist-in-residence at the MIT Center for Advanced Visual Studies (CAVS), where he explored telecommunications art, including transmitting images via fax and developing interactive television broadcasts like 'Violence Sonata.'\",\n      \"sources\": [\n        \"https://www.eai.org/artists/stan-vanderbeek/biography\",\n        \"https://en.wikipedia.org/wiki/Stan_Vanderbeek\",\n        \"https://listart.mit.edu/exhibitions/stan-vanderbeek-culture-intercom\",\n        \"https://www.rauschenbergfoundation.org/art/archives/e-t-project-description-man-and-his-world-computer-film-artist-stan-vanderbeek-engineer-k-c-knowlton\",\n        \"https://www.stanvanderbeek.com/writing.htm\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                12
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +186,312 @@
         "y1": 20.5,
         "x2": 36.4,
         "y2": 28.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19609",
+          "label": "Sue Hartnett",
+          "description": "",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity Sue Hartnett is documented as a participant in the '9 Evenings: Theatre and Engineering' event (1966), which is the primary source material for these index cards. The card's name 'Sue' matches her first name, and the metadata 'C.C.A.I.' likely refers to the Center for Communications and the Arts, Inc., an organization closely linked with the E.A.T. network."
+        },
+        {
+          "qid": "Q25197",
+          "label": "Su Kwak",
+          "description": "",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card entry only provides the first name 'Sue' and the acronym 'C.C.A.I.', which is insufficient to definitively identify the individual as 'Su Kwak' from the Wikibase entry. While both are associated with art and the names are phonetically similar, the lack of a surname or specific biographical details on the card makes a positive match speculative."
+        },
+        {
+          "qid": "Q24526",
+          "label": "Suez Canal",
+          "description": "artificial waterway in Egypt connecting the Mediterranean and the Red Sea",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Sue, likely an artist, while the Wikibase entity refers to the Suez Canal, an artificial waterway in Egypt. They are completely different types of entities."
+        },
+        {
+          "qid": "Q21665",
+          "label": "Sue Hartnett to engineers",
+          "description": "bibliographic reference for letter listed in the E.A.T. Bibliography",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "Both records describe a person named Sue active in the late 1960s within an artistic and technical context. The Wikibase entity Sue Hartnett is explicitly linked to the E.A.T. (Experiments in Art and Technology) bibliography in 1967, which aligns with the card's context and timeframe, although the card only provides a first name."
+        },
+        {
+          "qid": "Q21666",
+          "label": "Sue Hartnett to artists",
+          "description": "bibliographic reference for letter listed in the E.A.T. Bibliography",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The card only provides the first name 'Sue', which matches the first name of 'Sue Hartnett' from the Wikibase entry. Both records are linked to the late 1960s and the Experiments in Art and Technology (E.A.T.) organization (implied by the bibliography entity), but the lack of a surname on the card makes the identification uncertain."
+        },
+        {
+          "qid": "Q21652",
+          "label": "Sue Hartnett to Artists and others interested",
+          "description": "bibliographic reference for letter listed in the E.A.T. Bibliography",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The index card only provides the first name 'Sue' and includes the identifiers 'C.C.A.I.' and 'WC' (likely West Coast). The Wikibase entity for Sue Hartnett describes her as the author of an E.A.T. announcement in New York City (East Coast). Given the generic nature of the name 'Sue' and the geographic discrepancy, there is insufficient evidence to confirm they are the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7524",
+          "label": "Sue Gardner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Sue Gardner (Q7524) was born in 1967, which means she could not have been an active participant or professional contact during the late 1960s period described by the index card and its E.A.T. context. Furthermore, her career is in journalism and non-profit management rather than the arts."
+        },
+        {
+          "qid": "Q8573",
+          "label": "Sun Yat-sen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an individual named Sue, active in the late 1960s and 1970s within an artistic context (likely Sue Hartnett). The Wikidata entity Q8573 refers to Sun Yat-sen, a famous Chinese politician and physician who died in 1925, long before the period associated with the card."
+        },
+        {
+          "qid": "Q11569",
+          "label": "Susan T. Dumais",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Susan T. Dumais (Q11569) is a prominent computer scientist and researcher known for her work in information retrieval and latent semantic indexing, primarily associated with Microsoft Research and academia. The index card refers to a 'Sue' involved with E.A.T. (Experiments in Art and Technology) and C.C.A.I. (Center for Communications and the Arts, Inc.) in the late 1960s. The card context strongly aligns with Sue Hartnett, a known E.A.T. participant, rather than the computer scientist Susan Dumais."
+        },
+        {
+          "qid": "Q234865",
+          "label": "Sue Grafton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While Sue Grafton was active as a writer during the late 1960s and 1970s, the card metadata 'C.C.A.I.' points to the Center for Communications and the Arts, Inc., which is associated with the Experiments in Art and Technology (E.A.T.) network. The card entries for this archive typically refer to participants in the '9 Evenings' event, such as dancer/artist Sue Hartnett, rather than famous detective novelists."
+        },
+        {
+          "qid": "Q257544",
+          "label": "Sue Carol",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry for 'Sue' includes metadata 'C.C.A.I.' (Center for Communications and the Arts, Inc.) and 'WC' (West Coast), which are strongly associated with Sue Hartnett, an artist and organizer within the Experiments in Art and Technology (E.A.T.) network during the 1960s. Wikidata entity Q257544 is Sue Carol, a Hollywood film actress and talent agent born in 1906 whose career in the commercial film industry does not align with the avant-garde technical-artistic context of C.C.A.I. and E.A.T."
+        },
+        {
+          "qid": "Q261465",
+          "label": "Sue Townsend",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named 'Sue' involved in the late 1960s within the context of Experiments in Art and Technology (E.A.T.) and the Center for Communications and the Arts (C.C.A.I.), likely on the West Coast of the US. Sue Townsend (Q261465) was a prominent British author whose career began around 1978 and who was based in the United Kingdom. There is no evidence linking the British writer Sue Townsend to the California-based artistic-technical milieu of the 1960s mentioned on the card."
+        },
+        {
+          "qid": "Q275237",
+          "label": "Sue W. Kelly",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, Sue W. Kelly is a well-documented politician and medical researcher with no recorded background in the arts or involvement with Experiments in Art and Technology (E.A.T.). The card metadata 'C.C.A.I.' and 'WC' (West Coast) does not align with Kelly's career trajectory in the New York/DC political and medical research sectors."
+        },
+        {
+          "qid": "Q291774",
+          "label": "Sue Monk Kidd",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person named 'Sue' involved in the late 1960s art/technology scene (specifically the West Coast and C.C.A.I.). Sue Monk Kidd (Q291774) is a novelist whose career began in 1988 and whose biography is centered in the American South, not the 1960s experimental art scene of the West Coast."
+        },
+        {
+          "qid": "Q436722",
+          "label": "Sue Lyon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry for 'Sue' includes the metadata 'C.C.A.I.' and 'WC' (West Coast), which in the context of the E.A.T. (Experiments in Art and Technology) archive, specifically identifies Sue Hartnett, the administrator for the West Coast branch and the Center for Communications and the Arts, Inc. The Wikidata entity Q436722 is Sue Lyon, a famous Hollywood film actress. While the names and locations (West Coast) overlap, they are distinct individuals with different professional roles and networks."
+        },
+        {
+          "qid": "Q628046",
+          "label": "Tanya Tate",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The two records represent entirely different individuals from different eras. The card entry describes a person named 'Sue' active in the late 1960s artistic community (associated with E.A.T. and C.C.A.I.), while the Wikidata entity is for Tanya Tate, who was born in 1979 and began her career in 2009."
+        },
+        {
+          "qid": "Q3088125",
+          "label": "Sue Savage-Rumbaugh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named 'Sue' associated with the Center for Communications and the Arts (C.C.A.I.) and Experiments in Art and Technology (E.A.T.), likely an artist or arts administrator active in the late 1960s. The Wikidata entity, Sue Savage-Rumbaugh, is a prominent scientist (primatologist and psychologist) whose career and field of work are entirely unrelated to the artistic context of the index card."
+        },
+        {
+          "qid": "Q3133366",
+          "label": "Sue Vertue",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active in the late 1960s in the context of the E.A.T. network (Experiments in Art and Technology). The Wikidata entity Sue Vertue was born in 1960, making her a young child during that timeframe and impossible to be the adult artist or professional collaborator referenced on the card."
+        },
+        {
+          "qid": "Q4503466",
+          "label": "Sue Ane Langdon",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While Sue Ane Langdon was an active performer during the late 1960s and 1970s and based on the West Coast (matching the 'WC' tag), the name 'Sue' is too generic to confirm a match. Additionally, the card's metadata 'C.C.A.I.' likely refers to the Center for Communications and the Arts, Inc., an organization linked to the Experiments in Art and Technology (E.A.T.) network, which is more strongly associated with Sue Hartnett than a mainstream Hollywood actress like Langdon."
+        },
+        {
+          "qid": "Q7634046",
+          "label": "Sue Coe",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is associated with the 1966 event '9 Evenings: Theatre and Engineering' and the E.A.T. organization. Sue Coe was born in 1951, making her only 15 years old in 1966. Furthermore, she was born and educated in the United Kingdom and did not move to the United States (specifically New York) until 1972, which contradicts the timeframe and geographic metadata (WC/West Coast) associated with the card."
+        },
+        {
+          "qid": "Q7634090",
+          "label": "Sue Fuller",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While both share the name 'Sue' and the Wikidata entity Sue Fuller was a prominent artist active during the late 1960s, the card's specific metadata points elsewhere. The card includes the acronym 'C.C.A.I.' and 'WC' (likely West Coast), and is part of the E.A.T. archive. Other candidates like Sue Hartnett have specific ties to E.A.T. and the Center for Communications and the Arts, Inc. (C.C.A.I.), whereas Sue Fuller was primarily an East Coast sculptor with no documented connection to these specific organizations."
+        },
+        {
+          "qid": "Q57980523",
+          "label": "Sue Grimmond",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Sue Grimmond was born in 1959, which would have made her only 7 years old during the '9 Evenings' event in 1966 and the early period of E.A.T. (Experiments in Art and Technology) documented on these cards. Additionally, Sue Grimmond is a distinguished climatologist and meteorologist, whereas the person on the card is associated with the 1960s art scene and organizational metadata like 'C.C.A.I.'"
+        },
+        {
+          "qid": "Q87502024",
+          "label": "Suen Ray Hou",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Sue' on the card does not match 'Suen Ray Hou' significantly, as Suen is a distinct name. Additionally, the Wikidata entity is described as a physics researcher affiliated with academic institutions like the Institute of Physics, Academia Sinica, which does not align with the artistic context and E.A.T. associations (such as the Center for Communications and the Arts, Inc.) indicated on the index card."
+        },
+        {
+          "qid": "Q100937218",
+          "label": "Sue Curry Jansen",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the first name matches and Sue Curry Jansen was active during the appropriate timeframe, she is a scholar of communication and media studies based primarily on the East Coast (Pennsylvania, New York). The card's 'WC' likely refers to the West Coast, and 'C.C.A.I.' refers to the Center for Communications and the Arts, Inc. in Los Angeles. Other candidates, specifically Sue Hartnett, are known participants in the E.A.T. projects associated with these cards."
+        },
+        {
+          "qid": "Q103441576",
+          "label": "Sue Pondrom",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the first name 'Sue' matches and Sue Pondrom has West Coast connections (often associated with UCSD), the card's specific metadata 'C.C.A.I.' refers to the Center for Communications and the Arts, Inc., which is historically linked to Sue Hartnett in the context of the E.A.T. (Experiments in Art and Technology) records. Sue Pondrom is primarily known as a science writer and author, which does not align as closely with the artistic context of the index card as Sue Hartnett does."
+        },
+        {
+          "qid": "Q106359109",
+          "label": "Suely Lins Galdino",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card, 'Sue', is associated with the Center for Communications and the Arts (C.C.A.I.) and the E.A.T. (Experiments in Art and Technology) network in the late 1960s. Suely Lins Galdino is a distinct name, and the Wikidata entity describes an author (often identified as a Brazilian scientist) whose career and geographic focus do not align with the Los Angeles-based artistic context provided on the card."
+        },
+        {
+          "qid": "Q108612089",
+          "label": "Suezanne Tangerose Orr",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Sue' on the card is a common nickname for 'Suezanne', but the Wikidata entry for Suezanne Tangerose Orr identifies her as a researcher, whereas the card context points toward an artist active in the late 1960s. Furthermore, the card includes specific identifiers like 'C.C.A.I.' and 'WC' that are not reflected in the Wikidata profile, and other candidates (like Sue Hartnett) are much stronger matches for this specific historical context."
+        },
+        {
+          "qid": "Q108668835",
+          "label": "Sue Luty",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an individual named Sue associated with C.C.A.I. (Center for Communications and the Arts, Inc.) and the E.A.T. network in the late 1960s, likely in an artistic or administrative capacity on the West Coast ('WC'). The Wikidata entity is Suzanne Luty, a psychiatrist and academic affiliated with the University of Otago in New Zealand. There is no overlap in profession, geography, or known affiliations between the 1960s art scene and this medical professional."
+        },
+        {
+          "qid": "Q112113580",
+          "label": "Sue C. Kaste",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card only provides the first name 'Sue' and connects her to 'C.C.A.I.' (Center for Communications and the Arts, Inc.) and a 'West Coast' context. The Wikidata entity describes 'Sue C. Kaste' as a 'researcher'. There is insufficient biographical information or specific metadata to link this researcher to the artist/participant 'Sue' mentioned in the E.A.T.-related card."
+        },
+        {
+          "qid": "Q114188686",
+          "label": "Sue Healey",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card only provides the first name 'Sue' and the acronym 'C.C.A.I.', likely referring to the Center for Communications and the Arts, Inc. (West Coast). The Wikidata entry for Sue Healey identifies her as a 'researcher' with no indication of involvement in the 1960s/1970s E.A.T. (Experiments in Art and Technology) network or artistic background. Given how common the name Sue is, there is no specific evidence to link these two records."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Susan (Sue) Hartnett is an American artist who was a key figure in the early operations of Experiments in Art and Technology (E.A.T.). Born in 1940, she served as the organization's administrative coordinator starting in 1967, managing mail, requests, and daily operations alongside founders Billy Klüver and Robert Rauschenberg. Beyond her administrative role, she was a participant in the foundational E.A.T. event '9 Evenings: Theatre and Engineering' in 1966, notably performing in Steve Paxton's piece 'Physical Things.' During this performance, the artist Elaine Sturtevant painted Hartnett’s face and hands with 'Spectratherm' (a liquid crystal material sensitive to body temperature). As an artist in her own right, Hartnett is recognized for her large-scale charcoal drawings and pastels that observe the rhythmic movements of nature, particularly field and dune grasses. Her work is held in the collections of the Museum of Modern Art (MoMA), the Fogg Art Museum at Harvard University, and the Museum of Contemporary Art, Los Angeles.",
+            "sources": [
+              "https://www.experimentsinartandtechnology.org/physical-things",
+              "https://www.getty.edu/research/special_collections/finding_aids/eat_records.html",
+              "https://www.zeno-x.com/artists/susan_hartnett_biography.html",
+              "https://www.bard.edu/ccs/archives/finding-aids/experiments-in-art-and-technology-e-a-t-collection/",
+              "http://www.vasulka.org/archive/Artists4/KluverBilly/EATNewsletterV1_N1.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Susan (Sue) Weil (born 1930) is an American artist who collaborated closely with Robert Rauschenberg, a co-founder of Experiments in Art and Technology (E.A.T.), during the early stages of his experimental career. In the late 1940s and early 1950s, she and Rauschenberg (then her husband) created a series of blueprint photograms, such as 'Female Figure' (ca. 1950), which are considered early milestones in the intersection of art and experimental processes. While her most famous direct collaborations with Rauschenberg occurred before the formal founding of E.A.T. in 1966, she remained an active artist in the New York art scene throughout the late 1960s and 1970s. Her work often involves multi-dimensional canvases and fragmented imagery, and she is frequently referred to as 'Sue' in historical accounts of Rauschenberg's circle and the experimental roots that led to the formation of E.A.T.",
+            "sources": [
+              "https://www.rauschenbergfoundation.org/art/artwork/sue-ca-1950",
+              "https://www.moma.org/artists/6282",
+              "https://jwa.org/encyclopedia/article/art-in-united-states"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Susan (Sue) Stenger is a composer and musician who was associated with the group of artists and engineers gathered for the E.A.T. Pepsi Pavilion project at Expo '70 in Osaka. In documentation regarding the live programming of the Pavilion, she is mentioned as 'Sue' (referenced as part of the 'Albany group') who contributed ideas for the naming and conceptualization of elements within the experimental environment. Active in the late 1960s and early 1970s, Stenger later became known for her cross-disciplinary work in experimental music and performance, often collaborating with figures from the same avant-garde circles that formed E.A.T.",
+            "sources": [
+              "https://openaccess.city.ac.uk/id/eprint/8493/",
+              "https://www.vasulka.org/archive/Artists4/KluverBilly/Pavilion.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Sue\" member of E.A.T. art organization",
+            "artist \"Sue\" Experiments in Art and Technology E.A.T. 1960s 1970s",
+            "\"Sue\" participant Experiments in Art and Technology",
+            "\"Sue\" artist 1960s 1970s collaborations with engineers",
+            "\"Sue\" artist associated with Billy Kluver Robert Rauschenberg",
+            "\"Sue Hartnett\" artist Experiments in Art and Technology",
+            "\"Sue\" 9 Evenings Theatre and Engineering artist",
+            "\"Susan Weil\" artist E.A.T. late 1960s 1970s",
+            "\"Sue\" Pepsi Pavilion E.A.T. artist",
+            "\"Susan Weil\" Experiments in Art and Technology involvement",
+            "\"Sue Hartnett\" Spectratherm 1966",
+            "\"Sue Hartnett\" artist or engineer E.A.T.",
+            "\"Sue\" Pepsi Pavilion artist list",
+            "\"Sue\" artist 1960s 1970s mononym E.A.T.",
+            "\"Susan Hartnett\" artist biography",
+            "\"Sue\" artist Experiments in Art and Technology list of members",
+            "\"Sue\" mononym artist 1970s",
+            "\"Sue\" artist 1960s 1970s \"E.A.T.\"",
+            "\"Sue Hartnett\" E.A.T. Spectratherm"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExfFTeZGkG-8BpEICEt12FBm_rsiJZiSPHHWUnWxiwDyWz4VeIggBXK5jgfVTTu5Zk0gEEtXOYntcgU8rzupJUMoezGMMnfU5YhHKBpxA3q34IM46F6LJzzG6VBbK-_xQO7DPm16lNiEGvyb9LlKqTTvYYmNjPZ8pV59DQ",
+              "title": "askart.com",
+              "resolvedUri": "https://www.askart.com/bio/Susan_Hartnett/11008801/Susan_Hartnett"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu5_4I2V9c7D3JGsSZw8v28siAzlX3eUGT_0Opdzlj_wdENYmGmgmqaixUcPWYBbMz9upK9IRfVMDgX4XwOzzBmTczrmrVB_TQ1vRLSN16LXiJRozuL9yR0pjhtCb6riwPtFxmwg==",
+              "title": "zeno-x.com",
+              "resolvedUri": "https://zeno-x.com/artists/susan-hartnett/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX8S9cP1UXrqzylGcyYUAKWFePp1D5T_-KyF9x8DzyxwQ0vauWMbGlNj_zFOZ5KFqb9oMX-t4ZnsGUZceLdStoJu7JX6tS4BUidDOIVUbw96qjGOxrsWFev5jnjkKIVhRmFpDFeFJamLOXBHjLQNVCM5d6o0zzNjH6yO3hDPp0PkHu1jztjr06FG-SsA-ONzqkUIBaPSMcdBV2lg==",
+              "title": "ripleyauctions.com",
+              "resolvedUri": "https://www.ripleyauctions.com/auction-lot/susan-hartnett-new-york-maine-new-jersey-b_a5b4ef7822"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 746,
+                "endIndex": 933,
+                "text": "As an artist in her own right, Hartnett is recognized for her large-scale charcoal drawings and pastels that observe the rhythmic movements of nature, particularly field and dune grasses."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -33,6 +503,176 @@
         "y1": 29.8,
         "x2": 47.2,
         "y2": 39.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7364738",
+          "label": "Ronald Chase",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Ronald Chase' matches exactly. The Wikidata entity describes a photographer, painter, and film director born in 1934, making him approximately 35 in the late 1960s. This aligns perfectly with the artist context and timeframe provided for the card entry."
+        },
+        {
+          "qid": "Q112976920",
+          "label": "6 Dogs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Ronald Chase Amick, known as 6 Dogs) was born in 1999 and began his career in 2016, which is chronologically incompatible with the person described as an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q130776295",
+          "label": "Ronald Chase",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Ronald Chase matches exactly between the card and the Wikidata entity. The birth date of 1940 in the Wikidata record aligns perfectly with the context provided, as the person would be in their late 20s or early 30s during the late 1960s and early 1970s. Ronald Chase (born 1940) is a known artist and filmmaker who was active during this specific timeframe."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ronald Chase (1934–2025) was a prominent American multidisciplinary artist, filmmaker, and opera designer based in San Francisco. He is widely credited as a pioneer in the integration of film and projection technology within live operatic and theatrical performances, a technique he began developing in the late 1960s. After studying dance and design at Bard College and touring with the José Limón Dance Company, Chase moved to San Francisco in 1964. His experimental film career began with the short 'Fragments' (1965), and he gained significant recognition for his 1969 films 'Clown' and 'Chameleon.' In 1968, he revolutionized opera staging by using film projections on scrims for a production of Benjamin Britten's 'The Turn of the Screw' at the Washington Opera, followed by a long-term collaboration with director Frank Corsaro on productions such as 'Lulu' and 'Koanga.' His work often explored the intersection of visual arts and technology, aligning with the experimental spirit of the era; notably, he collaborated with experimental composer Pauline Oliveros in the early 1970s. Chase also documented significant cultural moments, including filming San Francisco's first Gay Pride Parade in 1972. In 1993, he founded the San Francisco Art & Film Program to provide arts education to teenagers. His photographic and visual works are held in the collections of the Metropolitan Museum of Art, the San Francisco Museum of Modern Art, and the George Eastman House.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Ronald_Chase",
+              "https://www.macdowell.org/artists/ronald-chase",
+              "https://www.lightingandsoundamerica.com/news/story.asp?ID=Y3B09M",
+              "https://www.cbsnews.com/sanfrancisco/news/artist-inspires-youth-to-embrace-creativity-and-culture/",
+              "http://ronaldchaseart.com/film/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Ronald Chase artist biography San Francisco",
+            "Ronald Chase artist Experiments in Art and Technology E.A.T.",
+            "\"Ronald Chase\" artist 1960s 1970s film opera"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiDSa2ECAa3rN8-UY0yyCx2S_Bkk1iP7NPz6f_Td4qkqaBFztNBJQQPxKaAiCMcAgMXUQp1GBhqVBxzc5ujKAN2bJqh5J6yROhTdWAkdw0JyFMaCHrB-uT4gQ_5uhM394JuTs=",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/ronald_chase"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjWTMlAhIdb8rd3RL0Ht7ctdWg3bR8iOZbdpSgG3E7JJ4OFBZCrhEeEdzDnk38wSQJXjQNCnCQ2pDVZ6eQ1NG79QVEyP8ox7XLXE5po-owfdy4cTyx4SrHjABv-2gEnp2OzBi8Malrpb4Nwf2n9GyX_wgqswVgZ4W3QNU=",
+              "title": "lightingandsoundamerica.com",
+              "resolvedUri": "http://www.lightingandsoundamerica.com/news/story.asp?ID=-C4YIVO"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbMCrRAWBcmdP1l9wceC3JuF1-prUzjX9WtxvTHvzbEYGCQGXyTPK8Ni65l606HfHL0-os1bs21tYVEB7-WWYPdU06vgnMJiD5u-fKgFuWxPmDSLIi1jWTlNgobrZ4K6nIpS5JtPzH8g=",
+              "title": "macdowell.org",
+              "resolvedUri": "https://www.macdowell.org/artists/ronald-chase"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCuTI7FeSDg_siQWM5hd8PuS2A3enK9WWgtF2vMkii3fVrfWQ495zcQZcr6_3teNQeN4gb4Re9LhMthHohPcBfshcA1-Yt0HDD6Qd4vdMlb8hN7JiuLZRkf-ep4MdFLGfkV1kmwPRcSw-xd05Og-nyQ-41yaHznLHUVg1gDnGTCbbU3XD-qQbYa9_kru8pSKaG2z5TDNiw-kuG9GEx",
+              "title": "cbsnews.com",
+              "resolvedUri": "https://www.cbsnews.com/sanfrancisco/news/artist-inspires-youth-to-embrace-creativity-and-culture/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3aLcbdRi1I9wdks-A3WQd_dLZo4Tcmm9g4mkBclCpg-W17fBNoBMVDgfRp9WRRSvaeNYRyX0t5rS5TzRZeW9B7a-f-Poghpx40r9LwxUw_eOnbjI5lh0MN4w55bF1ZNcBM1ETkw==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Ronald_Chase"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOZIRvlUxT4mUr-PoTgWJ5WyIdOUApJ5VOk7MWVXqz54b6X30KA86UxbC3oskcHv2FKrHftx0pSXS1Zso2SNkNr1tz4NMNs1_uMGiQoAoMWN1lXgIvpoUHqAY=",
+              "title": "ronaldchaseart.com",
+              "resolvedUri": "https://ronaldchaseart.com/film"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6e4DZXfUJ-kaj_xuas9fELu46LX3HB1rp8eKwbYoIIwcE4xKaMJHe74acO48e-X-KLZBu2_dDa6eTNk0FvOjoGiZzdOpYvZ7fE_tE3_SmARB69tKVbiLcVPuAc5FigIKy",
+              "title": "ronaldchaseart.com",
+              "resolvedUri": "https://ronaldchaseart.com/photography"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXtdrxlI6NHtk7Cv1MI54ntZXNUMNjI54e6IUqkgdgBM6Zd_-_jV_Z5UymoUrT0TEQDfofsMzAWMk0c4hQhx3cQN_aUBHkC7cL-rfdhTYzT9R2i83XFnBJH8mgrgJ7nnQo9T2nuJgTkehzSyFQ-SuSvg==",
+              "title": "haverhillhistory.org",
+              "resolvedUri": "https://www.haverhillhistory.org/bradford_college.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 181,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ronald Chase (1934–2025) was a prominent American multidisciplinary artist, filmmaker, and opera designer based in San Francisco."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 182,
+                "endIndex": 370,
+                "text": "He is widely credited as a pioneer in the integration of film and projection technology within live operatic and theatrical performances, a technique he began developing in the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 371,
+                "endIndex": 505,
+                "text": "After studying dance and design at Bard College and touring with the José Limón Dance Company, Chase moved to San Francisco in 1964."
+              },
+              "groundingChunkIndices": [
+                4,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 506,
+                "endIndex": 657,
+                "text": "His experimental film career began with the short 'Fragments' (1965), and he gained significant recognition for his 1969 films 'Clown' and 'Chameleon.'"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1144,
+                "endIndex": 1261,
+                "text": "Chase also documented significant cultural moments, including filming San Francisco's first Gay Pride Parade in 1972."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1262,
+                "endIndex": 1358,
+                "text": "In 1993, he founded the San Francisco Art & Film Program to provide arts education to teenagers."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1359,
+                "endIndex": 1939,
+                "text": "His photographic and visual works are held in the collections of the Metropolitan Museum of Art, the San Francisco Museum of Modern Art, and the George Eastman House.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Ronald_Chase\",\n        \"https://www.macdowell.org/artists/ronald-chase\",\n        \"https://www.lightingandsoundamerica.com/news/story.asp?ID=Y3B09M\",\n        \"https://www.cbsnews.com/sanfrancisco/news/artist-inspires-youth-to-embrace-creativity-and-culture/\",\n        \"http://ronaldchaseart.com/film/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                5,
+                3,
+                6,
+                7
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -44,6 +684,60 @@
         "y1": 41.2,
         "x2": 57.8,
         "y2": 48.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5127177",
+          "label": "Clark Coolidge",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Clark Coolidge (born 1939) is a well-known American poet associated with the New York School and Language poetry. As a writer and poet, he fits the 'artist' context provided, and his career timeline (beginning in the mid-1960s) aligns perfectly with the late 1960s/early 1970s activity period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Clark Coolidge (born 1939) is an American experimental poet, musician, and editor who became a prominent figure in the New York School and the Language poetry movement. Active since the early 1960s, he is known for a 'plethoric' and 'material' approach to language, treating words as physical objects or geological sediments—a style influenced by his background in geology and his career as a jazz drummer. In the late 1960s and early 1970s, he was deeply involved in the avant-garde scene, collaborating with various artists, musicians, and engineers. Notably, his work was featured in the 1968 Experiments in Art and Technology (E.A.T.) catalogue, where he contributed an audio collage of political speeches, noise, and static. During this period, he was a member of the psychedelic band Serpent Power (1967) and later collaborated with the composer Alvin Curran and the visual artist Philip Guston (on the book 'Baffling Means'). His poetic works from this era, such as 'Flag Flutter & U.S. Electric' (1966) and 'Space' (1970), are celebrated for their experimental syntax and focus on the sonic and visual qualities of words. He also conducted tape experiments and produced the radio program 'Words' for KPFA in 1969.",
+            "sources": [
+              "https://oeln.net",
+              "https://www.poetryproject.org",
+              "https://upcdn.io",
+              "https://jacket2.org",
+              "https://cambridge.org"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Clark Coolidge\" artist 1960s 1970s biography",
+            "\"Clark Coolidge\" poet drummer E.A.T. association",
+            "Clark Coolidge artist E.A.T. Experiments in Art and Technology",
+            "\"Clark Coolidge\" \"Experiments in Art and Technology\"",
+            "\"Clark Coolidge\" E.A.T. artist collaboration",
+            "\"Clark Coolidge\" collaboration with engineers or scientists"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6WQCAcM06rufyQLRt2WB7BjWNgq-vICoV6AatrysBdkaHCCTG9e82E-WJqnlxh4r-B_X71EcrKUCCCSPa2DvkivEWWvkPFw5wGgzgbi7HGYkWyZF2OIG-UcJgJ44mMaIqZrS0iZz5-aUcmHQmTz8wsa3pc2TvMS0W1kzWGyi-Uvklj1c--7o4",
+              "title": "upcdn.io",
+              "resolvedUri": "https://upcdn.io/FW25buD/raw/Zwiggelaar/Catalogus/zwiggelaarauctions_71_eng.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 691,
+                "endIndex": 781,
+                "text": "catalogue, where he contributed an audio collage of political speeches, noise, and static."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -54,6 +748,152 @@
         "y1": 45.2,
         "x2": 46.5,
         "y2": 53.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1070294",
+          "label": "Cherno Samba",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different ('Lotte Chern' vs 'Cherno Samba'). Furthermore, the Wikidata entity was born in 1985, which is sixteen years after the date recorded on the index card (1969), and the Wikidata entity is a professional footballer rather than an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q112388055",
+          "label": "Neil S. Cherniack",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different: 'Lotte Chern' is likely a female name, while 'Neil S. Cherniack' is a male name. Furthermore, the Wikidata entity is a biomedical engineer and pulmonologist, which does not match the context of the card holder being an artist."
+        },
+        {
+          "qid": "Q114413207",
+          "label": "Chern-En Chiang",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Lotte Chern' and 'Chern-En Chiang' are not similar, and their occupations (likely artist vs. researcher) do not align."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lotte Cherin (likely the artist referred to as Lotte Chern) is a Southern California-based artist, metalsmith, and arts administrator who has been active since at least the late 1960s. She is widely recognized as the copyright holder and representative for the estate of Ruth White (1925–2013), a pioneering electronic music composer known for her early use of the Moog synthesizer in the late 1960s and early 1970s. This connection aligns with the Experiments in Art and Technology (E.A.T.) movement's focus on bridging art and emerging technologies. Cherin's own artistic career is documented in the archival records of the Woman's Building in Los Angeles, where she has an artist file covering the years 1980–1985 and is included in lists of artists active from 1960 to 1990. She was also featured as an artist and metalsmith in the 1995 'ALCHEMY' exhibition at Cabrillo College. Professionally, she served as a Senior Client Technologies Analyst and Manager at Pepperdine University between 2002 and 2015. She currently serves as the Chair of the Malibu Arts Commission, a role she has held for several years, where she advocates for public art and cultural programming in Malibu, California.",
+            "sources": [
+              "https://www.getty.edu/research/tools/finding_aids/womans_building_records_m43.html",
+              "https://www.discogs.com/artist/7733230-Lotte-Cherin",
+              "https://www.malibuartsandculture.org/168/Malibu-Arts-Commissioners",
+              "https://rhythmsproductions.com/shop/ols/categories/ruth-white",
+              "https://www.ganoksin.com/article/metalsmith-95-fall-exhibition-reviews/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Lotte\" \"Experiments in Art and Technology\" artist",
+            "\"Lotte Cherin\" artist",
+            "\"Chern\" Experiments in Art and Technology",
+            "\"Lotte\" \"E.A.T.\" organization artist",
+            "\"Lotte Cherin\" Woman's Building",
+            "\"Lotte Cherin\" Malibu artist",
+            "\"Lotte Cherin\" Ruth White",
+            "\"Lotte Cherin\" biography artist",
+            "\"Lotte Cherin\" Experiments in Art and Technology",
+            "\"Lotte Cherin\" artist E.A.T.",
+            "\"Lotte\" E.A.T. 1970s",
+            "\"Lotte\" Experiments in Art and Technology participant",
+            "\"Lotte Cherin\" E.A.T.",
+            "\"Lotte\" E.A.T. artist 1960s",
+            "\"Lotte Cherin\" artist biography 1960s",
+            "\"Lotte Cherin\" Experiments in Art and Technology E.A.T.",
+            "\"Lotte Pinkrah\" artist",
+            " \"Lotte\"",
+            " \"Chern\"",
+            "\"Lotte Cherin\" artist bio",
+            "\"Lotte Cherin\" 1960s 1970s",
+            "\"Lotte Cherin\" 1960s artist",
+            "\"Lotte Cherin\" E.A.T. list",
+            "\"Lotte Cherin\" Experiments in Art and Technology member",
+            "\"Lotte Cherin\" Ruth White collaboration",
+            "\"Lotte Cherin\" artist biography 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9NXGN1V-F80RxpFSwwfkm_o1v2gMAEwEG9jLdVU05Ky4hk8gWf_q3q3AMIG416iwwmyTZRvqlt9tMnnKXZo9QJlGLAorfpa4yBhFvdCpome36KHVXHAlhvd0Itf1UU0sHtE2xr3mmJ7Pz2W22heSP1HnINZycFDfn",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/c8j96d6h/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq_3hMlmSTWl978kM2AVjOJgyt6PugpNR479PZuor7D0Yuck2DalPdft_tl9uCbhKtGkqu4-Y9h8zZkrbenrfofr5lDACOIAABVp1Gokl6_I0M6V7TZk7t0IxEfCaxderB6qQpks0hPfj3g-YIjFFfw8lNvUs38kSJW51mXrGk6fMPHLKfb6T1WvtmYLz1A72r_86v5yDBcA==",
+              "title": "nationalsculpture.org",
+              "resolvedUri": "https://nationalsculpture.org/wp-content/uploads/2024/06/Annual-Meeting-Minutes-01-31-2023.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_Dv-U0lqP4-o1B7CY6wuIqPJa5wg06B9pg7T7jzwMW003ProUM-3j3ImS-21b63agUIevQsZ9E5DCjEIz5cCoqYwCfDBL1ve6SgQ2Y3ja09Y3oOi3Ltu3gzAWMWk5FRjzuaY9zwL8eirX4T4XToeZiG90JvA=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/component/1126RE"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT4wHeXocESqIZVRv5rmVJ2N-O--Kx15QNv3DQC7oXFZYk1z_IRuvFw6_AoV6LFPjDRdgBw51uwJ3zf-zPoVIkZpku1HorcGa0DpTx1pK0tvN1YxQU8MI7TXcYDTlOiwt7SIMU1kQdl9m6RGEjGMP4GxcgFXmvyA==",
+              "title": "lamayeshe.com",
+              "resolvedUri": "https://www.lamayeshe.com/sites/default/files/pdf/398_pdf.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT14-T8IANnAwD3Wj42oEWEIkIeZJFCt-ASgR0L_1CI7MzMnUCaWGl7xarN8hAZz_-CNH0D7y0IuASnO2Bm64j-ovDL9W3yr8yyturDwUdie97GR6tL9h1_73iqMBd8IBdJpDIfm68M8a0s_SYxF9je_aV-fsTL3aVlJPfAFqu",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/colonymagazine/docs/the_malibu_times_october_5_2023"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHkt_Zh8E1B9ICwk2kKld0h1Rw31VjP6wET0GjsgZyHrPOzzxGfE0tw6_gJehiDqMBC1rWZWxA5ZslFi0mYZfkUAr78_E5PVwRbA8-KuSTStTrquvSBwJ3f_O1EvECwL_kFJlHnyOzCVK82wtJpxcAfGB4rlVmXxNa0qHwPW4Jyw==",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/colonymagazine/docs/the_malibu_times_october_20_2022"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjKnvlD83GFpfjGESdoZrSbNjIBxKnt3V9JlTjgEcV6vgJDSSwfiUtXg1BE5_WH9__MfEVFJ-gHpVtAZUS4VR9KMO5EG2a8UBL-WNJ4huCN7mn2X_sJRVAR_sSYOKYTo9POUJy3sR2lhOvpbZSW0mJVpcO0BF2cJDkfgx7xo329Q==",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/colonymagazine/docs/the_malibu_times_november_3_2022"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhdqWPPpJZxJTWi1ZUFCpY0ZTXGUhp9Ti-W6EoAe8GFI1sSq6CKX37hYkKsTR4ViPqrX3G76tuAezcJBC06233fnvyvcZYcJjV_Spwr2IwarRi8kAFVBzQFBb9BcOMVMUY6sMpSqyQ3vz0OrnmZWRJ-MRDkS-K7_ScjsRmABiOtHQ=",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/colonymagazine/docs/the_malibu_times_november_3_2022"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtpH7Vmgax0hNTvmOLOIcR9g_a5mJNNna220m8l97RHC43H6Di27qO0NIDDp7ORFvSgkJRp2AKhYuN4SFpjZHbaIcyiO4k4aEJ189nsSHIqh9nTkYFj_40n3NFAI0aSF09Do04SxtvEO6KkmOQd6UYkzQPbxzoKRGAxbmGT11UfQHC8PVw0jju9g==",
+              "title": "pepperdine.edu",
+              "resolvedUri": "https://gsep.pepperdine.edu/masters-psychology/catalog/content/catalog_0405.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 604,
+                "endIndex": 832,
+                "text": "Cherin's own artistic career is documented in the archival records of the Woman's Building in Los Angeles, where she has an artist file covering the years 1980–1985 and is included in lists of artists active from 1960 to 1990."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1064,
+                "endIndex": 1714,
+                "text": "She currently serves as the Chair of the Malibu Arts Commission, a role she has held for several years, where she advocates for public art and cultural programming in Malibu, California.\",\n      \"sources\": [\n        \"https://www.getty.edu/research/tools/finding_aids/womans_building_records_m43.html\",\n        \"https://www.discogs.com/artist/7733230-Lotte-Cherin\",\n        \"https://www.malibuartsandculture.org/168/Malibu-Arts-Commissioners\",\n        \"https://rhythmsproductions.com/shop/ols/categories/ruth-white\",\n        \"https://www.ganoksin.com/article/metalsmith-95-fall-exhibition-reviews/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                0,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          ]
+        }
       }
     }
   ]

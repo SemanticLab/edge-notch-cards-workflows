@@ -11,6 +11,76 @@
         "y1": 20.2,
         "x2": 35.6,
         "y2": 30.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q17143715",
+          "label": "Adrianne Wortzel",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are an exact match. The Wikidata entity is an artist born in 1941, which aligns perfectly with the date 1969 on the card (when she would have been 28) and fits the context that the card record describes an artist active in the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Adrianne Wortzel (born 1941, New York) is an American pioneering media artist, roboticist, and professor emeritus known for her work at the intersection of art and technology. Her career spans over six decades, beginning as an abstract painter in the late 1960s and early 1970s. During this early period, she produced acrylic paintings and color field works, such as 'Untitled (wavy blue, pink, green)' (1966) and 'Two by Two' (1979), and studied under prominent artists including Ad Reinhardt, Mark Rothko, and Louise Bourgeois. In the 1990s, Wortzel transitioned into new media, becoming a pioneer in telerobotics, interactive installations, and electronic literature. She is associated with the historical lineage of Experiments in Art and Technology (E.A.T.) and is frequently cited in the context of its influence on performance and technological art. Her notable projects include 'The Electronic Chronicles' (1996), 'Camouflage Town' (2001), and 'Battle of the Pyramids' (2008), which often involve collaborations with engineers and scientists. She served as the Founding Director of StudioBlueLab and is a Professor Emerita at the New York City College of Technology (CUNY).",
+            "sources": [
+              "https://thoughtworksarts.io/bio/adrianne-wortzel/",
+              "https://en.wikipedia.org/wiki/Adrianne_Wortzel",
+              "https://jdj.world/exhibitions/field-notes",
+              "https://centerforbookarts.org/people/adrianne-wortzel",
+              "https://eyebeam.org/people/adrianne-wortzel/",
+              "https://www.askart.com/artist/Adrianne_Wortzel/11187424/Adrianne_Wortzel.aspx"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Adrianne Wortzel artist biography E.A.T.",
+            "\"Adrianne Wortzel\" Experiments in Art and Technology",
+            "Adrianne Wortzel 1960s 1970s artist activity",
+            "\"Adrianne Wortzel\" painting 1960s 1970s",
+            "\"Adrianne Wortzel\" \"Experiments in Art and Technology\"",
+            "\"Adrianne Wortzel\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGltI_7e9buuDt21VJREQM73U0Y7PiBnQp3qvmCboPuo4qa3N6fPhJZ3KsDtNG7eDcQUzNp3SRjbu3FuVVuhlFSNTyjmGxx8I8CfPA0o_DdJsm7jf7GXeIDaxAhyPzvIxxqHb9R9MbZYzwI-1NG-gQQqOUemKBx1Pw_SFq_vM8ds1xtPNwiWbWjD7l_8I5Wm-c=",
+              "title": "maisondoramaar.org",
+              "resolvedUri": "https://maisondoramaar.org/wp-content/uploads/2022/01/Adrianne-Wortzel-June-15-21.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvFJm9gB4BO_K-9LSGh3vXsmUFpPTUXkXVAkmJhgGShTwxnBjjfVaZiLm_PTWmq1yTc5wDGFRe_fh1p1P90yREZ7qKQ28hAWbw0hhTJjiw8OUMQYh-wlCV_lZ2eNvjQnhobkawZSbFV5gSKWUJT9DSI3R4",
+              "title": "robertatkins.net",
+              "resolvedUri": "http://www.robertatkins.net/beta/shift/online/state.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 225,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Adrianne Wortzel (born 1941, New York) is an American pioneering media artist, roboticist, and professor emeritus known for her work at the intersection of art and technology."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 721,
+                "endIndex": 906,
+                "text": "She is associated with the historical lineage of Experiments in Art and Technology (E.A.T.) and is frequently cited in the context of its influence on performance and technological art."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +94,82 @@
         "y1": 33.7,
         "x2": 36.5,
         "y2": 47.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q104903557",
+          "label": "Heathcoat S. Grant",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Heathcoat Salusbury Grant) died in 1938, which is well before the late 1960s/1970s activity period of the artist on the card. Additionally, the Wikidata entity was a Rear-admiral in the Royal Navy, not an artist, and the names do not match (Joel Heathcoat vs. Heathcoat Grant)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joel Heathcoat (more frequently spelled Joel Heathcote) was a versatile artist and lighting designer active from the late 1960s through the early 2020s. He specialized in the intersection of art and technology, specifically using fiber optics, lasers, and kinetic colors in architectural and multi-media settings. He was associated with Buckminster Fuller's 'The World Game,' a multi-media event where he served as a lighting artist and designer. Heathcoat was an alumnus of Dartmouth College (Class of 1961), where he was a member of the Casque and Gauntlet Senior Society and served as its 'Merlin' (scribe and communications officer). His career was marked by a split residency between Rumney, New Hampshire, and San Diego, California. In San Diego, he was known for his expertise in fiber optic reproductions of the night sky and gave presentations on the use of lasers and fiber optics in architecture. He also worked as a live and studio sound engineer and was involved in spiritual and community fellowship organizations. He died on September 9, 2024, leaving behind a 'pro-bituary' and poems reflecting his lifelong interest in the arts and the metaphysical.",
+            "sources": [
+              "https://www.dartmouth.org/classes/61/WWW/WWW-Fall_2024.pdf",
+              "https://www.casqueandgauntlet.org/castlegram-fall-2019.html",
+              "https://www.friendsofsdarch.com/past-speakers/",
+              "https://spearehospital.com/standing-strong-joel-heathcote/",
+              "http://writing.upenn.edu/pennsound/x/1995_06.txt"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Joel Heathcoat\" artist",
+            "\"Joel Heathcote\" artist",
+            "\"Joel Heathcote\" E.A.T. directory",
+            "\"Joel Heathcote\" Experiments in Art and Technology",
+            "\"Joel Heathcote\" E.A.T.",
+            "",
+            "\"Joel Heathcote\" \"lighting designer\" San Diego",
+            "\"Joel Heathcote\" Dartmouth 1961 obituary",
+            "\"Joel Heathcote\" Buckminster Fuller \"World Game\"",
+            "\"Joel Heathcote\" \"E.A.T.\" artist",
+            "\"Joel Heathcote\" \"Casque and Gauntlet\" Merlin",
+            "\"Joel Heathcote\" \"The World Game\" Buckminster Fuller E.A.T.",
+            "\"Joel Heathcote\" E.A.T. Experiments in Art and Technology list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGlr3ojB8DHrRYmgxbBiC9xZh8Mmb5YScRVZsdi9ZDbcIuNElNP3Fr0CJgtqBRw-mLfMmnee80EWHkjWb4dwzME_Z4OK5U9PfrCdyHrlXNBVLss6LI2meaUhnSC3BD_KndZFZ-93Lgr5JuRRYAZYY=",
+              "title": "friendsofsdarch.com",
+              "resolvedUri": "https://friendsofsdarch.com/past-speakers-1985-2023/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJNbcUR6vY9uhuELzNSZx97719bnSU612Sv3m17ED3s4NrpcbmZks8IEjEC70VXuFlEkDAZBbRxx_P3eDAPuvpEMBr2T3fGN-zDYG_ygqErLHpQ9CRoLxmYtk6aepsVJSl8Rn1wudzVTirlT4mwSBgG2Sdm-_y8RMjDec1lkfIdHn57eN8wQXcYuink2EZ",
+              "title": "casqueandgauntletsociety.org",
+              "resolvedUri": "https://casqueandgauntletsociety.org/wp-content/uploads/2022/02/2019-Castlegram.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 203,
+                "endIndex": 363,
+                "text": "He specialized in the intersection of art and technology, specifically using fiber optics, lasers, and kinetic colors in architectural and multi-media settings."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 497,
+                "endIndex": 687,
+                "text": "Heathcoat was an alumnus of Dartmouth College (Class of 1961), where he was a member of the Casque and Gauntlet Senior Society and served as its 'Merlin' (scribe and communications officer)."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +183,49 @@
         "y1": 49.0,
         "x2": 44.0,
         "y2": 66.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1150773",
+          "label": "César Ruminski",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Daina Rumins' and 'César Ruminski' are distinct, with different first names and a slight variation in the surname. Furthermore, the Wikidata entity describes a professional football player (a goalkeeper for the French national team), whereas the card entry refers to an artist. The genders also likely differ, as Daina is typically a female name."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Daina Krumins (born 1947), whose name is likely the identity of the artist referred to as 'Daina Rumins', is an American-Latvian experimental filmmaker, photographer, and artist who was prominently active in the late 1960s and early 1970s. Born in a refugee camp in Munich, Germany, to Latvian parents, her family immigrated to the United States in 1950. Krumins studied psychology at Douglass College before transferring to the NYU Film School, where she received her BFA. She later earned an MFA from the California Institute of the Arts (CalArts), specializing in optical printing and special effects. Her artistic style has been described as 'homegrown Surrealist' and is often characterized by a preoccupation with textures and surreal kitsch. Krumins is well-known for her meticulous technical process, sometimes spending over a decade on a single film. Notable early works include 'Aether' (1972) and 'The Divine Miracle' (1973), the latter of which was her master's thesis and won numerous awards at festivals like the Ann Arbor Film Festival. In 1971, she was associated with the early activities of 'The Kitchen' in New York, where she was involved in a performance by Carolee Schneemann. Her technical expertise led her to work as a rotoscoper and optical printer operator for Lookout Mountain Films and she notably painted the auras around Obi-Wan Kenobi in 'The Empire Strikes Back' (1980). Krumins has openly identified as neurodivergent (having Asperger's syndrome), a perspective she discusses as influential to her unique visual worldview and focus on repetitions and textures. Her career has extended into the 21st century with continued exhibitions and film preservation efforts by the Academy Film Archive.",
+            "sources": [
+              "https://alternativeprojections.com/biography/daina-krumins/",
+              "https://www.artsy.net/artist/daina-krumins",
+              "https://dainakrumins1.online/portfolio/aether/",
+              "https://www.awn.com/mag/issue3.2/3.2pages/3.2specialeffects.html",
+              "https://www.oscars.org/events/first-academy-film-film-festival",
+              "https://balticanaloglab.lv/secrets-of-the-invisible-world-disclosed-film-screening/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Daina Rumins biography history",
+            "Daina Rumins artist",
+            "Daina Rumins Experiments in Art and Technology",
+            "\"Daina Krumins\" filmography timeline",
+            "\"Daina Krumins\" \"E.A.T.\"",
+            "\"Daina Krumins\" E.A.T. archive",
+            "",
+            "\"Some More Beginnings\" Brooklyn Museum 1968 artists",
+            "\"Some More Beginnings\" catalog participants list",
+            " \"Rumins\"",
+            " \"Krumins\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

@@ -8,6 +8,83 @@
         "y1": 6.3,
         "x2": 44.7,
         "y2": 53.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q24355",
+          "label": "home appliance",
+          "description": "machine for household uses; various household appliances such as toaster, blender, etc used in artwork created for 9 Evenings.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Anthony House, while the Wikibase entity describes a 'home appliance' which is a type of theatrical prop or device, not a person."
+        },
+        {
+          "qid": "Q23420",
+          "label": "House of the Lord Pentecostal",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Anthony House, whereas the Wikibase entity describes an organization or religious institution called 'House of the Lord Pentecostal'. They are fundamentally different types of entities."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q4772746",
+          "label": "Anthony Housefather",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist named Anthony House active in the late 1960s and early 1970s. The Wikidata entity is for Anthony Housefather, a Canadian politician and lawyer born in 1970. Housefather would have been an infant during the time period specified on the card, and the names and professions do not match."
+        },
+        {
+          "qid": "Q125677054",
+          "label": "Anthony House",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s or early 1970s. The Wikidata entity describes a businessperson who works for Google and was a Rhodes Scholar, which indicates a much more contemporary professional career (Google was founded in 1998), making it highly unlikely they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Anthony House\" artist 1960s 1970s",
+            "artist \"Anthony House\" Experiments in Art and Technology",
+            "\"Anthony House\" E.A.T. art",
+            "\"Tony House\" artist Experiments in Art and Technology",
+            "\"Anthony House\" artist late 1960s 1970s",
+            "\"Tony House\" E.A.T. member",
+            "\"Anthony House\" E.A.T. member",
+            "\"Anthony House\" scientist E.A.T.",
+            "\"Anthony House\" exhibition 1960s 1970s",
+            "\"Anthony House\" \"E.A.T.\" artist",
+            "\"Anthony House\" engineer E.A.T.",
+            "\"Tony House\" \"E.A.T.\" artist",
+            "",
+            "\"Tony House\" artist 1960s 1970s",
+            "\"Anthony House\" artist 1968 1969 1970 1971 1972",
+            "\"Anthony House\" \"E.A.T.\" artist biography",
+            "",
+            "\"Anthony House\" artist engineer",
+            "\"Anthony House\" artist 1970s",
+            "\"Anthony House\" \"E.A.T.\"",
+            "\"Tony House\" \"E.A.T.\"",
+            "\"Anthony House\" Experiments in Art and Technology NY",
+            "",
+            "\"Anthony House\" art and technology",
+            "\"Tony House\" artist New York 1960s",
+            "\"Anthony House\" artist 1960s 1970s NY",
+            "\"Anthony House\" artist New York 1960s",
+            "\"Anthony House\" E.A.T. membership list",
+            "\"Tony House\" E.A.T. membership list",
+            "",
+            "\"Anthony House\" artist 1960s 1970s NY",
+            "\"Anthony House\" engineer 1960s 1970s NY",
+            "\"Anthony House\" artist E.A.T. archive",
+            "\"Tony House\" artist E.A.T. archive"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

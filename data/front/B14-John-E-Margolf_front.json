@@ -27,5 +27,112 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "computers: graphics/film, computers: sound/music, computers: language/poetry"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q117743342",
+      "label": "Computer Applications, Inc.",
+      "description": "American software company (1960–1970)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly. The Wikidata entity describes an American software company active from 1960-1970, which aligns perfectly with the technical fields (computers, programming) and the era of the index card. Additionally, Computer Applications, Inc. was a prominent firm based in New York City, which matches the employee's location."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "John E. Margolf was an engineer and computer programmer active in New York City during the late 1960s and early 1970s. He was employed by Computer Applications, Inc. (CAI), a prominent New York-based software and systems engineering firm that provided technical services to major corporations and academic institutions. Margolf is historically documented for his role as a programmer for the Language and Culture Atlas of Ashkenazic Jewry (LCAAJ) project at Columbia University, where he developed computer programs to process, sort, and print linguistic data using punched cards. His technical background encompassed electrical engineering, mathematics, cybernetics, and information systems, with a particular interest in the application of computers to creative fields such as graphics, film, sound, music, and poetry. This interdisciplinary focus led to his association with the Experiments in Art and Technology (E.A.T.), a non-profit organization facilitating collaborations between artists and engineers. Additionally, he was involved with the Digital Equipment Computer Users' Society (DECUS) and was a member of the American Mathematical Society (AMS). Outside of his technical work, he was an active numismatist and a member of the American Numismatic Association.",
+        "sources": [
+          "https://dokumen.pub/eydes-evidence-of-yiddish-documented-in-european-societies-the-language-and-culture-atlas-of-ashkenazic-jewry-9783484970632-9783484731059.html",
+          "http://bitsavers.org/magazines/DECUS/DECUSCOPE_Vol_7_No_1_1968.pdf",
+          "https://archive.org/stream/TheNumismatist1986/TheNumismatist1986_djvu.txt",
+          "https://www.ams.org/notices/199211/199211FullIssue.pdf",
+          "http://www.ed-thelen.org/DonFryHistory.html"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"John E. Margolf\" Computer Applications Inc",
+        "\"John Margolf\" E.A.T. engineer",
+        "",
+        "",
+        "\"John E. Margolf\" biography engineer",
+        "",
+        "\"John E. Margolf\" numismatist New York",
+        "",
+        "\"John E. Margolf\" Columbia University Language and Culture Atlas",
+        "",
+        "\"John Margolf\" language atlas programming",
+        "",
+        "\"John Margolf\" Experiments in Art and Technology engineer",
+        "\"John Margolf\" cybernetics control theory",
+        "\"John Margolf\" sound music graphics computers",
+        "",
+        "\"Computer Applications, Inc.\" NYC software projects 1960s"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2H-JUgBbTtcnp6SqhmVU5xOo8GSWsxlmeEZc-nbJksP9z-EquFt4o85Cws-aKkH5PZbY8t8sfdT9V09buKH_yrupu94t1i082mQRCC0CuX86s_pezdav3epqX0irojanhCXxzHIIe4QjmyTY_rriX",
+          "title": "ieee.org",
+          "resolvedUri": "https://ieeexplore.ieee.org/iel7/85/6125/09966880.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVkDdWQ9mUHMWUc-DyvS0Odp14CBZR0LP065Y_RQr68qgqIOMAO80DVG0FAc0sMJVty7VfrKNu257EgmBFDxt_BBcdywNGT3adY8KICIJz-bLg7xKendRunPR4t-AO82jDdEgmcdpFd99e0_jV_83kfnGf9p0IAn4iec_xuyrmPhWZt08mLs4JKVPaawXYigHPZyVQLQ==",
+          "title": "decromancer.ca",
+          "resolvedUri": "https://archive.decromancer.ca/bitsavers.org/magazines/Computers_And_Automation/196706.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETp-Jcy_KMjifENYGQegkzrkZ8cux3W_hvfZllxQSPstXh7mE5g-RSsUwEp5gXVvzsBaFDyYtdb8xWgnxspbRpOwiMZLu6y7E2XVu6ux-l-uK5lg20p7-Zfc2588plV3wEDlA35nakAp8TWvSq6Q==",
+          "title": "ed-thelen.org",
+          "resolvedUri": "https://ed-thelen.org/TS-history-DonFry-v01-01.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7eLkyJcrceo15a5U0flP_oiTinZsef7Il7kc2lrjWEzHXKsuAl_vFCe2mzgtrzLa8eRU6n_lb99CRsUKW17J-AaA0kb1EL2dGQGzimug0YBiWN1_xkfHQ1BeThFuMFcIt3OZZO29GbyxrjIhmc3kr-Nk3tgMPTVXnAsJPR4omrlycQk0Bpw4Ka-PtRp5goOA52_YR",
+          "title": "computerhistory.org",
+          "resolvedUri": "https://archive.computerhistory.org/resources/access/text/2013/05/102701972-05-01-acc.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 168,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John E. Margolf was an engineer and computer programmer active in New York City during the late 1960s and early 1970s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 169,
+            "endIndex": 215,
+            "text": "He was employed by Computer Applications, Inc."
+          },
+          "groundingChunkIndices": [
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1211,
+            "endIndex": 1854,
+            "text": "Outside of his technical work, he was an active numismatist and a member of the American Numismatic Association.\",\n      \"sources\": [\n        \"https://dokumen.pub/eydes-evidence-of-yiddish-documented-in-european-societies-the-language-and-culture-atlas-of-ashkenazic-jewry-9783484970632-9783484731059.html\",\n        \"http://bitsavers.org/magazines/DECUS/DECUSCOPE_Vol_7_No_1_1968.pdf\",\n        \"https://archive.org/stream/TheNumismatist1986/TheNumismatist1986_djvu.txt\",\n        \"https://www.ams.org/notices/199211/199211FullIssue.pdf\",\n        \"http://www.ed-thelen.org/DonFryHistory.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0,
+            3
+          ]
+        }
+      ]
+    }
   }
 }

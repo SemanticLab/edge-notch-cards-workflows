@@ -9,6 +9,100 @@
         "y1": 12.8,
         "x2": 39.8,
         "y2": 19.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26340",
+          "label": "Ronald Mallory",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are an exact match, and the Wikibase entry explicitly identifies Ronald Mallory as an artist associated with the E.A.T. Technical Services Program and its edge-notched cards, which corresponds directly to the source of the card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7365091",
+          "label": "Ronald Mallory",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikidata entity describes an American artist born in 1939 who was active during the late 1960s and early 1970s. His presence in major collections like the Whitney Museum and SFMOMA, along with his involvement in the New York art scene, aligns perfectly with the profile of an artist associated with the E.A.T. program."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ronald Mallory (June 17, 1932 – July 7, 2021) was an American kinetic artist and architect primarily active from the mid-1960s through the late 20th century. He is best known for his pioneering 'mercury pictures'—kinetic sculptures featuring liquid mercury trapped between plexiglass plates, often driven by slow-turning motors to create fluid, shifting compositions. Born in Philadelphia, Mallory studied architecture at the University of Florida and worked in Brazil with modernist masters Oscar Niemeyer and Roberto Burle Marx, the latter of whom encouraged him to focus on fine art. After living in Paris for several years and exhibiting at Galerie Iris Clert in 1961, he returned to New York City where he shared a studio with the Belgian kinetic artist Pol Bury. Mallory was associated with the Experiments in Art and Technology (E.A.T.) group and was a prominent figure in the New York art scene of the late 1960s. His work was featured in a major solo exhibition at the Stable Gallery in 1966 and is included in the permanent collections of the Museum of Modern Art (MoMA), the Whitney Museum of American Art, and the San Francisco Museum of Modern Art (SFMOMA). Later in his career, he explored other mediums including digital art and holograms.",
+            "sources": [
+              "https://www.artsy.net/artist/ronald-mallory",
+              "https://www.artnet.com/artists/ronald-mallory/",
+              "https://buffaloakg.org/exhibitions/giant-steps-artists-and-1960s",
+              "https://www.mutualart.com/Artist/Ronald-Mallory/0B3037CCEA2045A9/Biography"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Ronald Mallory mercury art 1960s 1970s",
+            "Ronald Mallory artist Experiments in Art and Technology",
+            "Ronald Mallory artist biography",
+            "Ronald Mallory artist Experiments in Art and Technology E.A.T. involvement",
+            "\"Ronald Mallory\" E.A.T. group"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-GyfnxDM3MgIl2ggWGkLABS9fYrKJDE8ndaQsL3ycqNnQJQrSoxx7XHx1JVYb01zigX3rjiAhDJ2Z9K_2YyhGxDMpnQe-Eh573s6tD8TTm_5BeOXzBp_m2I_vrVWRAXRkzg==",
+              "title": "diagonalthoughts.com",
+              "resolvedUri": "https://www.diagonalthoughts.com/?p=2709"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBGkdZVqS2YbG0hs0nIazAwOttAoddNWfGzV7zxMKp-BuBmjXmkZl3NnrxKXfDKLhTnrbKXgjizLRnOpPyG-R7BYVl_n9_MA_lHQvaO_76OX89-O0GXmd6",
+              "title": "blogspot.com",
+              "resolvedUri": "http://nihalunal.blogspot.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSlZ8EC1l2oRfISku5EEIlZeCX2q-c1ExeC6kbc4CgGVsZh9yS10i4tEwrb3R-OJDNfNpfLV1FawNR8x56Xe4n0Cytym7m5PIzuorCBNTUJ19TrulNOv6CnUKgGEczMVrLvDCel9X4TcZxXTkDxuC6UcMOnBnFmF-AJ0p2KDLNd5Kd6HR0cLIY4FhYhWeGApw-ipwRDM5nYtl6AL0=",
+              "title": "billingsauction.com",
+              "resolvedUri": "https://bid.billingsauction.com/online-auctions/billings/ronald-mallory-kinetic-sculpture-6453545"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWiWP684d4S6I2Y2W02VBhy1BigOOGC5w1vI8EcPN8eDY9YGWTtpl7lMDOiTNKU7FzY3aEE1IqVTWejFd_O3k4upbbM5hyl935_L2cta990dzSI9zkxOxbGv2LRVlNGXHvM7PmavOZDjWFByttWPIHNEsoj_bJktvEEiBsVhtVap8ojC2Hr-AIzuAwF3B1Dw2EULi_XA==",
+              "title": "mutualart.com",
+              "resolvedUri": "https://www.mutualart.com/Artwork/Untitled--Mercury-Sphere/A581608900F6818DE3E09F85DE37B9D8"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMel4PxBfuHop7U5W2E9rtrwC06n_30ZaxzRgEdWvE1ze39kcvJA43rC-TnNBgkDFcc1H_xaGw4rcd2uz0pDBqFGH8GjCBEurcNU7Z8rwNTFaFBKNii34AISrOB8Hoa3JI6k35uzBkSCEUw8tMRWwVqzo5HgT6eisKj7EzsG772akU",
+              "title": "buffaloakg.org",
+              "resolvedUri": "https://buffaloakg.org/sites/default/files/giant_steps_docent_packet.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 209,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ronald Mallory (June 17, 1932 – July 7, 2021) was an American kinetic artist and architect primarily active from the mid-1960s through the late 20th century."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 823,
+                "endIndex": 897,
+                "text": "Mallory was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +114,109 @@
         "y1": 22.4,
         "x2": 29.8,
         "y2": 27.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q360371",
+          "label": "Antony Gormley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Barbara' and 'Antony' are completely distinct, and the Wikidata entity is specifically identified as male while the card name is typically female. Although they share a surname and the Wikidata entity is a well-known artist active since the early 1970s, there is no indication that Barbara Gormley is an alias for Antony Gormley."
+        },
+        {
+          "qid": "Q73422865",
+          "label": "Mark E. Gormley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Barbara Gormley, while the Wikidata entry is for Mark E. Gormley. Besides sharing a last name, the first names and genders do not match, and the Wikidata entity is a researcher rather than an artist."
+        },
+        {
+          "qid": "Q112354376",
+          "label": "Laurence William Gormley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different: 'Barbara Gormley' on the card and 'Laurence William Gormley' in the Wikidata entity. Additionally, the Wikidata entity is described as a male jurist and university teacher, whereas the card refers to an artist (likely female based on the name Barbara)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Barbara Gormley was an administrator and editor associated with the New York experimental art and technology scene during the late 1960s and early 1970s. She served as an early staff member and administrator for Experiments in Art and Technology (E.A.T.), the influential non-profit organization founded in 1966 by Billy Klüver, Robert Rauschenberg, Robert Whitman, and Fred Waldhauer to facilitate collaborations between artists and engineers. In her capacity at E.A.T., she was responsible for organizing the organization's records and activities, leading to her role as the compiler of 'Experiments in Art and Technology: A Bibliography of the Organization and its Activities,' published by the organization in 1971. In addition to her administrative work, Gormley was a poet and a member of the Eventorium group, a circle of poets and artists based on Manhattan's Upper West Side. Her poetry was featured in the group's magazine, 'Eventorium Muse' (active 1964–1967), alongside contributors such as Michael Benedikt and Russell Edson.",
+            "sources": [
+              "https://www.hyperallergic.com/55024/the-tip-of-the-iceberg-my-reading-of-frank-kuenstler-1928-1996/",
+              "https://www.abebooks.com/eventorium-muse-Ingalls-Hunter-Michael-OBrien/30528224534/bd",
+              "https://www.cdlib.org/experiments-in-art-and-technology-records-940003/",
+              "https://www.kit.edu/art-and-technology-bewegungen-in-amerika/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Barbara Gormley artist E.A.T.",
+            "\"Barbara Gormley\" artist 1960s 1970s",
+            "\"Barbara Gormley\" Experiments in Art and Technology",
+            "Barbara Gormley artist history",
+            "\"Barbara Gormley\" E.A.T. staff",
+            "\"Barbara Gormley\" E.A.T. member",
+            "\"Barbara Gormley\" performer 1960s",
+            "\"Barbara Gormley\" artist New York 1960s 1970s",
+            "\"Barbara Gormley\" dancer 1960s 1970s",
+            "\"Barbara Gormley\" technician E.A.T.",
+            "\"Barbara Gormley\" \"E.A.T.\"",
+            "\"Barbara Gormley\" \"E.A.T.\" archive",
+            "\"Barbara Gormley\" \"E.A.T.\" participant",
+            "\"Barbara Gormley\" \"Eventorium Muse\" poet",
+            "\"Barbara Gormley\" E.A.T. newsletter",
+            "\"Barbara Gormley\" administrator Experiments in Art and Technology",
+            "\"Barbara Gormley\" E.A.T. 1968 1969 1970 1971",
+            "\"Barbara Gormley\" office E.A.T.",
+            "\"Barbara Gormley\" \"E.A.T.\" New York office",
+            "\"Barbara Gormley\" E.A.T. bibliography staff",
+            "\"Barbara Gormley\" E.A.T. \"Office Manager\"",
+            "\"Barbara Gormley\" \"Pavilion\" E.A.T.",
+            "\"Barbara Gormley\" \"E.A.T.\" 1967 1968 1969 1970 1971",
+            "\"Barbara Gormley\" E.A.T. bibliography compiled",
+            "\"Barbara Gormley\" \"E.A.T.\" 235 Park Avenue South",
+            "\"Barbara Gormley\" \"Eventorium\" poet artist",
+            "\"Barbara Gormley\" \"E.A.T.\" 1971",
+            "\"Experiments in Art and Technology\" bibliography Barbara Gormley 1971",
+            "\"Barbara Gormley\" \"Eventorium Muse\" poetry",
+            "\"Barbara Gormley\" E.A.T. program director"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmgEPyf5Dzs0MQxYlsDp04_zfjjXsjI67IM_xFMbkLikpfxshYpPcNLiygxF7zRM4oyk-T9XBYkKT7epGl0fy8e90uY-LhY-hveJLoAZwKkW_DBDl-xGm5ycExwium5bnQeE2OT2TEaLQimPziKU8JBwyyq9CwcLlrB9iw7w==",
+              "title": "hyperallergic.com",
+              "resolvedUri": "https://hyperallergic.com/my-reading-of-frank-kuenstler-1928-1996/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJL-XsyfjBrRa4DpWnJTqLByxdK6Fgq494wxec9vguodDfZCkhFvIPyGTkLc4FAOuiVUR-jM8niWE4ud84L-KxAWBcux7LpyavXoxDj0QimifaZIB7bd78RZ2Tm7CNpL4bi5QqesEIh95viHzIBhst0UjRDALWZVIaZJ5Cpg==",
+              "title": "div17.org",
+              "resolvedUri": "https://www.div17.org/assets/docs/Womanview-2010-Winter-Spring.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa8amzGcXXdgiz6-r313hTtkMc9SsilWTJ457p7Y0d2t7MQulDVuWUosVnySddJwCcWDriagNM_hfj-sVzOwpEGe_26HT1MA-D7jYeV7QZbCaoI1aFJn5sD1lW9UoPLrfqy-m-YvRExAJBnyTD4VFqOJY1nOg4RGoJqcyt0zGCmPQ7ywv08aYn9v_u",
+              "title": "abebooks.com",
+              "resolvedUri": "https://www.abebooks.com/eventorium-muse-4-Ingalls-Hunter-Michael/14821812340/bd"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 936,
+                "endIndex": 1528,
+                "text": "Her poetry was featured in the group's magazine, 'Eventorium Muse' (active 1964–1967), alongside contributors such as Michael Benedikt and Russell Edson.\",\n      \"sources\": [\n        \"https://www.hyperallergic.com/55024/the-tip-of-the-iceberg-my-reading-of-frank-kuenstler-1928-1996/\",\n        \"https://www.abebooks.com/eventorium-muse-Ingalls-Hunter-Michael-OBrien/30528224534/bd\",\n        \"https://www.cdlib.org/experiments-in-art-and-technology-records-940003/\",\n        \"https://www.kit.edu/art-and-technology-bewegungen-in-amerika/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +228,174 @@
         "y1": 29.8,
         "x2": 31.9,
         "y2": 37.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q13405833",
+          "label": "David Rothenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q13405833) was born in 1962, making him only 7-10 years old during the late 1960s and early 1970s. This does not align with the provided context that the person on the card was an active artist during that period."
+        },
+        {
+          "qid": "Q19867068",
+          "label": "Dave Rothenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Dave Rothenberg (Q19867068) was born in 1973, which makes it impossible for him to have been an active artist during the late 1960s or early 1970s as specified in the card context. Furthermore, his occupations as a sports commentator and radio personality do not match the artistic profile."
+        },
+        {
+          "qid": "Q25352184",
+          "label": "David Rothenberg",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity is a theatrical producer and writer whose career began in 1960, which aligns perfectly with the card's context of an artist or creative practitioner active in the late 1960s and early 1970s. Other known individuals by this name (such as the musician born in 1962) would have been too young to be active during the specified period."
+        },
+        {
+          "qid": "Q56129924",
+          "label": "Dave Dave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1976, which makes it chronologically impossible for him to be the artist active in the late 1960s or early 1970s mentioned in the card's context."
+        },
+        {
+          "qid": "Q107576700",
+          "label": "David Rothenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q107576700) died in 1944, which contradicts the context that the individual on the card was an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Rothenberg (d. 2018) was a musical and mathematical theorist, researcher, and artist active in the late 1960s and 1970s. He is best known for his work in pattern perception and his collaboration with synthesizer pioneer Robert Moog. In the mid-1960s, Rothenberg designed a specialized keyboard for an analog synthesizer with a 31-tone octave (instead of the traditional 12-tone octave), which Moog was hired to build. This project was funded by a grant from the Air Force Office of Scientific Research and was related to his work on pattern recognition. Rothenberg's interdisciplinary work bridging music, mathematics, and engineering aligns with the goals of Experiments in Art and Technology (E.A.T.). In 1970, he was a featured speaker at the 'Computers and the Arts' seminar held at Simon Fraser University, alongside other notable early computer art pioneers. His widow, Suhasini Sankaran, donated his specialized 31-tone keyboard and instrument records to the Cornell Center for Historical Instruments in 2022.",
+            "sources": [
+              "https://news.cornell.edu/stories/2023/12/long-lost-moog-synthesizer-finally-makes-it-stage",
+              "https://atom.archives.sfu.ca/f-109-12-5-0-38"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "David Rothenberg (b. 1933) is a prominent New York-based theatre producer, director, and activist who was highly active in the late 1960s and 1970s. He began his career as a theatrical press agent on Broadway, working with celebrities such as Elizabeth Taylor, Richard Burton, and Alvin Ailey. In 1967, he produced the groundbreaking and controversial Off-Broadway play 'Fortune and Men's Eyes', which dramatized the brutal realities of prison life and homosexuality behind bars. The play's success and the subsequent public response led him to found the Fortune Society in 1967, a non-profit organization focused on prison reform and prisoner reentry services. Throughout the late 1960s and early 1970s, he was a central figure in the Greenwich Village arts scene, producing socially conscious works like the anti-war play 'Viet Rock' (1966).",
+            "sources": [
+              "https://fortunesociety.org/david-rothenbergs-fortune/",
+              "https://www.villagepreservation.org/2017/09/07/david-rothenberg-civil-rights-and-social-justice-pioneer/",
+              "http://www.canadiantheatre.com/dict.pl?term=Fortune%20and%20Men%27s%20Eyes"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"David Rothenberg\" Fortune Society artist",
+            "David Rothenberg artist E.A.T. Experiments in Art and Technology",
+            "\"David Rothenberg\" artist 1960s 1970s",
+            "David Rothenberg E.A.T. participant",
+            "\"David Rothenberg\" theater E.A.T.",
+            "\"David Rothenberg\" Experiments in Art and Technology",
+            "\"David Rothenberg\" participant E.A.T.",
+            "\"David Rothenberg\" artist 1968 1969 1970",
+            "\"David Rothenberg\" E.A.T. Billy Kluver",
+            "\"David Rothenberg\" E.A.T. project 1960s 1970s",
+            "\"David Rothenberg\" Billy Klüver collaboration",
+            "\"David Rothenberg\" participant \"Experiments in Art and Technology\"",
+            "\"David Rothenberg\" theatre producer E.A.T.",
+            "\"David Rothenberg\" artist E.A.T. association",
+            "\"David Rothenberg\" artist 1967 1968 1969 1970",
+            "\"David Rothenberg\" press agent \"Experiments in Art and Technology\"",
+            "\"David Rothenberg\" E.A.T. publicity",
+            "\"David Rothenberg\" 1960s theater E.A.T. collaboration",
+            "\"David Rothenberg\" mathematician artist 1960s",
+            "\"David Rothenberg\" music engineering 1970s",
+            "\"David Rothenberg\" 1970 \"Computers and the Arts\" seminar",
+            "\"David Rothenberg\" and E.A.T. Experiments in Art and Technology list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5CQSgc7BiLBXULaepRLm1EGGbcNCo-CJHnxtwgjv_NeujLzsucfJHySRbFNpHvDdAf6StDKJs-Gsw0XqPXq3DaQ-3EQZIUFTMdeFfSR2Wh0F1ZdyG2rv_5X3LxFhNzSt7ZJSrkrFcB5UjiS5jt8y8C6QwxA6llnO7j46gIr0Y3icoT7l7RHzw5QYCkTHewxcunV7hu3Mx_x60",
+              "title": "dartmouth.edu",
+              "resolvedUri": "https://eamusic.dartmouth.edu/~larry/algoCompClass/readings/ames/ames_automated_composition.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2gX7yCLOwgYZa0XtPTmJ0u21OwOdc4hWwfNkoT9sigKE2g13SUIPh-cvh7oxxhm9lA6XHDwK1AYwivoIGVw_dt3r8brl6uFXIR7cjPeYoD0bz9p7ETyVwd07iehfYbJ3cGTWAYsxO9Eh1rY0XWtuxxaqnZoqmDn0VA28r3_yWk1U=",
+              "title": "barnesandnoble.com",
+              "resolvedUri": "https://www.barnesandnoble.com/w/bug-music-david-rothenberg/1111945262"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8Y28cwiw5IwICCY0alBY8BYDSCjk-qxO5qErQb3TVOED4sN2OkGIIsGBa0vPdLNonlVvFjmhI-l6ZWmvHoW9N3vuJMfhQGAI-o9zPAJMa0ReZvTM9rTHtQA1SKj_I1fT68YPjE1IpKqChWbfdG4HIrcUdqhpyo8QhxPaTADAe",
+              "title": "brill.com",
+              "resolvedUri": "https://brill.com/display/book/9789401210720/B9789401210720-s004.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU4sddBy0Zj1NgLM2I8hlQxzuWM1HMVSohqCaCdEcxUQWjq1v6ImV9xMuaPf5EneyOwm1ODoSMbTV7B8Irvgz2dxkjQHRFftpFBQ03IYjwg6g96cimrUa3DL2BUOwZX5YyjdlonRD9lXQiDtFqddaT6Mq_8w_-57YuaGJ09xAxYj1gBMiUxK8l9bPPSTV57bHWI3kcmbg2UfxKDjkEF_xtMOEdfRI2ILmf",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/304452048_Aesthetics_at_its_very_Limits_-_Art_History_Meets_Cognition"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRU0X1DD4mpjvWkHb2X6BVfsxXkk1hLOzQaQpjX-qSZ6HErp8YZPyJcbbShgqR8xCWgs9yUd3zbjpDfjRFkkKntf-tP2d-1rvgMuXYieUuC0jruX-te3DFdw768IPqTiX_D1AFVmKDbzrT",
+              "title": "newmusicusa.org",
+              "resolvedUri": "https://newmusicusa.org/nmbx/tag/improvisation/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgOisTzTIBSqEwL2wCbEj-YbBBWX7h51x0jPrL7tx0SSiEzXFbiuc1IQ-VPradevMsbInACPNtOe32N3nDYy-qjxy_3jFO5H89JHLS5d6pffDhT5PZG3BoYrc0mHYBcFJT-Oo339smK_mVyjErK2G7ec8y_918tN6sHrw4dxqDn5-cS3TnXa2e",
+              "title": "cornell.edu",
+              "resolvedUri": "https://as.cornell.edu/news/long-lost-moog-synthesizer-finally-makes-it-stage"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlIwSGe0ofaxAkBfQ_VvzRV72in61SFXlzk5thwa_v0EuFPZMCH-9huBkA4TdDgaO7WRCiAQXfYXqrlRQ4_7uXhrrGq_vxbjRGwtHWLrV811EP8J-06hGKWdsHuTDbX3-EWDLveU5YPUTgKDYyZkhmLSNPUeF9Fnq0jnlx2SOTtxUsZf4_6LXRPUnOjQWmKZxu9SWW6MUcpkGqVPD8mPk6cIoZCvVSaDY20_3Cn0IY_zu5Pg==",
+              "title": "villagepreservation.org",
+              "resolvedUri": "https://media.villagepreservation.org/wp-content/uploads/2020/05/22114835/Rothenberg_DavidTranscript_FinalforWebsite.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpTcZtqWPP-MGZF6ZgzgsKlnGgnjP5BkwCMzCld-2Qzlp5dj4J8vbm9RNrOPfVlwB1zdrnmbd-bjTQaO5fa6nqTwQ7HzDRw08d0BlTvWsGAYymYi4j9lLUUqCho3u2dCVfD78=",
+              "title": "ebay.com.au",
+              "resolvedUri": "https://www.ebay.com.au/itm/195074830217"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpkqC3l6UmfLK-Xn5hKCUUKdpn0O6ZnDJFXVPKY5GQWlnnh_9f-t7_LErYeZN0TaCvRBTln7mVdyC3TCdag8O1XR75HGPqhFpA-rrs3GRt4K8HDHWp6mbtAXAzQ45ihqzvZONMkh0-JHFSnEoBSGnnN7xBsHALsz0gKV99YTvm8C3YYQ==",
+              "title": "atlasobscura.com",
+              "resolvedUri": "https://www.atlasobscura.com/experiences/music-composition-nature-course"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6fT-qKhrJ135u6ME_nlCKUJw4p1O29hKJyMsz2D5Wy7_0nVn_qxufdWKJhfBREJurnJ6AXVhWkYAB5MgvGFTUHI8nHvaZQhgx3It-e3s9KEHXTxUPR_4b_yh-8ThfwQiJUjKON5X27GjPCF7cr_x8lmLnO-8wFqovpamOAuSPNwKeCqBaiFQp9w0hQD1VkteQHn2pSscWZFviLIHKZYuFrvtt3NrtEE_EnSN7",
+              "title": "sfu.ca",
+              "resolvedUri": "https://atom.archives.sfu.ca/informationobject/browse?page=9&collection=6995&topLod=0&sort=alphabetic&sortDir=asc"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 70,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"David Rothenberg (d."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 289,
+                "endIndex": 473,
+                "text": "In the mid-1960s, Rothenberg designed a specialized keyboard for an analog synthesizer with a 31-tone octave (instead of the traditional 12-tone octave), which Moog was hired to build."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -42,6 +407,103 @@
         "y1": 38.8,
         "x2": 37.5,
         "y2": 48.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3127488",
+          "label": "Harley Jones Van Cleave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Harley Jones Van Cleave died in 1953, which is sixteen years before the date on the card (1969). Additionally, the Wikidata entity was a zoologist and parasitologist, not an artist."
+        },
+        {
+          "qid": "Q116947430",
+          "label": "Harley Jones",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "Both records share the same name (Harley Jones). The Wikidata entity is an accordionist, which falls under the artist context provided. While the entity would have been approximately 16 years old at the time of the 1969 card entry, it is plausible for a young musician to be recorded in this manner."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Harley Jones was a prominent filmmaker, editor, and educator active in the late 1960s and 1970s. He was the first lecturer in cinematography at the Newport College of Art (later part of the University of Wales) when the film school was founded in 1966. He had a background as a film editor for the BBC and worked closely with John Grierson, the father of the British documentary movement, on the programme 'This Wonderful World.' Jones was known for creating experimental and 'impressionistic' films that blended documentary styles with animation and intermedia techniques. His notable works from this period include 'Resurrection' (1966), an abstract homage to steam locomotives, and 'After Many a Summer' (1968), which documented the redevelopment of the Tiger Bay community in Cardiff. His involvement in the Newport College of Art placed him at the center of a highly experimental environment that promoted 'intermedia presentation,' a concept closely aligned with the mission of the Experiments in Art and Technology (E.A.T.) organization. He also served on panels for the Arts Council of Great Britain's Film Committee in the late 1970s.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Newport_Film_School",
+              "https://player.bfi.org.uk/free/film/watch-resurrection-1966-online",
+              "https://player.bfi.org.uk/free/film/watch-after-many-a-summer-the-changing-face-of-tiger-bay-1968-online",
+              "https://www.casw.org.uk/casw-features/harley-jones-and-chris-bellinger/",
+              "https://canyoncinema.com/catalog/publications/canyon-cinemanews-1967-07/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Harley Jones is a New Zealand-born accordionist and musical entrepreneur who was active in the late 1960s. Born in 1953, he rose to prominence as a child prodigy, winning the New Zealand Accordion Championship at age 14 and representing his country at the Coupe Mondiale International Accordion Solo Competition in New York in 1969. While primarily a musician and performer, his career expanded into performance recording and digital media; in 1996, he founded the 'Accordions Worldwide' group of websites. During the 1970s, he performed an extensive repertoire ranging from classical transcriptions to original compositions and recorded L.P. albums.",
+            "sources": [
+              "https://www.accordions.news/harley-jones-biography-cv/",
+              "https://www.accordionusa.news/the-pioneer-women-of-the-american-accordionists-association-part-iii-magnificent-maddalena-belfiore/",
+              "http://www.garydaverne.gen.nz/orchestra-recordings/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Harley Jones\" artist 1960s 1970s",
+            "Who is Harley Jones artist?",
+            "\"Harley Jones\" E.A.T. organization",
+            "\"Harley Jones\" artist video art 1970s",
+            "\"Harley Jones\" E.A.T. newsletter",
+            "\"Harley Jones\" Billy Klüver E.A.T.",
+            "",
+            "\"Harley Jones\" filmmaker experimental 1960s 1970s",
+            "\"Harley Jones\" Experiments in Art and Technology collaborator",
+            "\"Harley Jones\" artist Newport College of Art Wales",
+            "\"Harley Jones\" animator Newport",
+            "\"Harley Jones\" E.A.T. collaborator",
+            "\"Harley Jones\" Newport College of Art \"intermedia\"",
+            "\"Harley Jones\" filmmaker E.A.T. association",
+            "\"Harley Jones\" film \"After Many a Summer\" 1968",
+            "\"Harley Jones\" media artist Newport E.A.T.",
+            "\"Harley Jones\" E.A.T. project",
+            "\"Harley Jones\" video artist E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQsjjTwoAcAeAQrQdS4SZJtt2X_yJdmGVTztjPFGmZNHe-8Oo-1VZG_WQ8_QWLxzv0sHj9zk001YFBrXcO0RSXLfM1Ls5tmWyDz9m70capdIEagKeAxB8WZ41DeKFmtPCvEQjk",
+              "title": "livingmags.co.uk",
+              "resolvedUri": "https://livingmags.co.uk/monico-memories/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVgnlm39_9bniGQNXyKJvwfAzzQuoJhjUmoxkqs9AgPDKElWHFEXbB3aH9B2R3Sme0V5MWfI9PPqf1c87wLtUenjdWrQobuw7_IwDrdXlKo0_-roYaZrFEfix_2bvK7IoXRttJ4VVVuIFBEBY=",
+              "title": "illinois.edu",
+              "resolvedUri": "https://las.illinois.edu/alumni/awards/quadrangle"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 303,
+                "endIndex": 479,
+                "text": "He had a background as a film editor for the BBC and worked closely with John Grierson, the father of the British documentary movement, on the programme 'This Wonderful World.'"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2224,
+                "endIndex": 2711,
+                "text": "During the 1970s, he performed an extensive repertoire ranging from classical transcriptions to original compositions and recorded L.P. albums.\",\n      \"sources\": [\n        \"https://www.accordions.news/harley-jones-biography-cv/\",\n        \"https://www.accordionusa.news/the-pioneer-women-of-the-american-accordionists-association-part-iii-magnificent-maddalena-belfiore/\",\n        \"http://www.garydaverne.gen.nz/orchestra-recordings/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -52,6 +514,90 @@
         "y1": 44.4,
         "x2": 24.1,
         "y2": 52.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26327",
+          "label": "Pat Sloane",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Pat Sloane' matches exactly, and the Wikibase entity specifically identifies this person as an artist associated with the E.A.T. Technical Services Program, which is the source project for the index card records."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7144027",
+          "label": "Pat Sloane",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the index card was active as an artist in the late 1960s and early 1970s, whereas the Wikidata entity (Q7144027) was born in 1980 and is identified as a hurler (athlete), making a match chronologically and professionally impossible."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Patricia Hermine Sloane (1934–2001), commonly known as Pat Sloane, was an American painter, filmmaker, critic, and professor of Fine Arts. She was active in the New York art scene starting in the late 1950s and was a member of the 10th Street Galleries artist cooperative, specifically the Camino Gallery, alongside artists like Alice Neel and Elaine de Kooning. In the late 1960s and early 1970s, her work moved from Abstract Expressionism toward geometric art. She was also a filmmaker, producing the non-narrative film \"A Knee Ad\" (1970), which she described as a \"cinematic statement on motion.\" Sloane was an influential figure in the study of color theory, authoring \"Color: Basic Principles and New Directions\" (1968) and \"The Visual Nature of Color\" (1989), and her 1972 NYU PhD dissertation focused on a critique of 19th and 20th-century color theory. Her association with the Experiments in Art and Technology (E.A.T.) movement is reflected in historical accounts of the intersection of art and modern technology, where she is frequently cited for her theoretical work on the scientific nature of color. She was also a prominent voice in the feminist art movement, chairing panels on women artists at the College Art Association in 1973. Sloane taught at the New York City Technical College of the City University of New York for many years and was a Guggenheim Fellow in 1974.",
+            "sources": [
+              "https://www.artsy.net/artwork/patricia-sloane-untitled",
+              "https://www.ebay.com/itm/115865675402",
+              "https://en.wikipedia.org/wiki/10th_Street_galleries",
+              "https://www.researchgate.net/publication/300401768_Theme_History",
+              "https://barnard.edu/bulletin/archives"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Pat Sloane\" Experiments in Art and Technology E.A.T.",
+            "\"Pat Sloane\" artist 1960s 1970s",
+            "\"Patricia Sloane\" artist E.A.T.",
+            "\"Pat Sloane\" artist biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpz5BvUo7viROjlQ9hMGT3UOPVtaipBrgPqI8UB-Q8J4-6zvd_cWMBX_L9Y4Z9y4k9EiwdmSS5kfFakpxoNECmXPKJ1wqpR1cK8VZhegLrTNsdFzg3q0hsaHG6wkGNLx3FCOzkkNxJwl9wUuBPVxo6Pg==",
+              "title": "artsy.net",
+              "resolvedUri": "https://www.artsy.net/artwork/patricia-sloane-untitled"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4V92FM6MrXmGxIm51B6JPwjlPr4HPh9daI-JR4pkfvcWwa7dwo06en9cX6xXAY3CmKHFr8z_iwStPX4cm5dIKV21qWtQfqYyumqzoEPI1vbH_jBU4JLIqQcSOgzacF0M=",
+              "title": "ebay.com",
+              "resolvedUri": "https://www.ebay.com/itm/267308637130"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyomMmGRsqwU_gPPx_noCpLlLa4Fj-ITA0K-P8tTkoBIlMHyfUtGOEyady928DNHOUs8dUHVHrCoiMb21xkmqIgmTPmQG37HYWMHqRfjYW9Wfv42-BlF1FLVBf_2WLN-2_TYgZMK3oLEKPXQM2TRPI-8H5A4GI4sykGA==",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/36644556/Visual-Nature-of-Color"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 190,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Patricia Hermine Sloane (1934–2001), commonly known as Pat Sloane, was an American painter, filmmaker, critic, and professor of Fine Arts."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1308,
+                "endIndex": 1823,
+                "text": "Sloane taught at the New York City Technical College of the City University of New York for many years and was a Guggenheim Fellow in 1974.\",\n      \"sources\": [\n        \"https://www.artsy.net/artwork/patricia-sloane-untitled\",\n        \"https://www.ebay.com/itm/115865675402\",\n        \"https://en.wikipedia.org/wiki/10th_Street_galleries\",\n        \"https://www.researchgate.net/publication/300401768_Theme_History\",\n        \"https://barnard.edu/bulletin/archives\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -62,6 +608,132 @@
         "y1": 53.1,
         "x2": 31.5,
         "y2": 62.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26328",
+          "label": "Ken Hannibal",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikibase entity explicitly identifies Ken Hannibal as an artist associated with the E.A.T. Technical Services Program and its edge-notched card system, which corresponds directly to the physical index card source mentioned in the entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7824",
+          "label": "Annibale Carracci",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Ken Hannibal vs. Annibale Carracci), and the time periods are entirely incompatible. Annibale Carracci was an Italian Baroque painter who died in 1609, whereas the individual on the card was an artist active in the late 1960s and early 1970s associated with the E.A.T. program."
+        },
+        {
+          "qid": "Q36456",
+          "label": "Hannibal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q36456 refers to Hannibal Barca, the ancient Carthaginian general who lived in the 3rd and 2nd centuries BC. The card entry refers to Ken Hannibal, an artist active in the 1960s and 1970s associated with Experiments in Art and Technology (E.A.T.). They are entirely different people from different historical eras."
+        },
+        {
+          "qid": "Q273546",
+          "label": "Hannibal Hamlin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hannibal Hamlin was a 19th-century US Vice President who died in 1891, whereas the index card refers to an artist (Ken Hannibal) active in the late 1960s and early 1970s. The names and lifespans are completely incompatible."
+        },
+        {
+          "qid": "Q1242311",
+          "label": "Hannibal Germanus von Schmertzing",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q1242311) refers to a 17th-century German nobleman and chamberlain (1660-1715), which is completely incompatible with the card entry for Ken Hannibal, who was an artist active in the late 1960s and 1970s associated with Experiments in Art and Technology (E.A.T.)."
+        },
+        {
+          "qid": "Q1412862",
+          "label": "Marvin Peterson",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name on the card is 'Ken Hannibal,' whereas the Wikidata entity is for 'Marvin Peterson' (also known as Hannibal Marvin Peterson). While 'Hannibal' is present in both, 'Ken' is not associated with the musician, and 'Peterson' is absent from the card. Furthermore, internal metadata suggests 'Ken Hannibal' is a distinct entity (Q26328) associated with the E.A.T. program, whereas Q1412862 is a jazz trumpeter and composer."
+        },
+        {
+          "qid": "Q1576150",
+          "label": "Hannibal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q1576150 refers to an ancient military figure (born circa 300 BC) described in classical histories of Rome, whereas the card entry describes a 20th-century artist named Ken Hannibal active in the 1960s and 1970s."
+        },
+        {
+          "qid": "Q1576188",
+          "label": "Hannibal Sehested",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Hannibal Sehested, a Danish Prime Minister and diplomat who lived from 1842 to 1924. This is entirely incompatible with the person on the card, Ken Hannibal, who was an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q2466903",
+          "label": "Hannibal Sehested",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a 17th-century Danish politician and diplomat who died in 1666, which is completely incompatible with the card entry for Ken Hannibal, an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q3295587",
+          "label": "Martin Peltier",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Ken Hannibal, an artist associated with the E.A.T. Technical Services Program in the late 1960s. The Wikidata entity is Martin Peltier, a French journalist and political activist born in 1951. While Peltier used 'Hannibal' as one of many pseudonyms, his biography (French far-right journalism and politics) does not match the profile of an artist in the E.A.T. circle, and he would have been too young (late teens) during the peak of E.A.T.'s activity."
+        },
+        {
+          "qid": "Q4892319",
+          "label": "Hannibal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q4892319) describes a military figure from the 3rd century BCE who died by crucifixion, whereas the card refers to an artist named Ken Hannibal active in the late 1960s/early 1970s. The dates and biographies are entirely incompatible."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Kenneth Hannibal\" artist Experiments in Art and Technology",
+            "Ken Hannibal artist Experiments in Art and Technology",
+            "\"Ken Hannibal\" E.A.T. archive",
+            "\"Ken Hannibal\" exhibition",
+            "\"Ken Hannibal\" artist E.A.T.",
+            "\"Ken Hannibal\" artist 1968 1969 1970 1971",
+            "",
+            "\"Kenneth Hannibal\" E.A.T.",
+            "\"Ken Hannibal\" E.A.T.",
+            "\"Ken Hannibal\" artist California 1970s",
+            "\"Ken Hannibal\" artist New York 1960s",
+            "\"Kenneth Hannibal\" engineer E.A.T.",
+            "\"Ken Hannibal\" engineer E.A.T.",
+            "\"Kenneth Hannibal\" Bell Labs",
+            "\"Ken Hannibal\" Bell Labs",
+            "\"Ken Hannibal\" artist biography",
+            " \"Hannibal\"",
+            " \"Ken Hannibal\"",
+            "",
+            "\"Pepsi Pavilion\" E.A.T. \"Kenneth\"",
+            "\"Pepsi Pavilion\" E.A.T. \"Hannibal\"",
+            "\"Kenneth Hannibal\" artist 1960s 1970s",
+            "\"9 Evenings\" E.A.T. \"Kenneth\"",
+            "\"9 Evenings\" E.A.T. \"Hannibal\"",
+            "",
+            "\"J. Ken Hannibal\" artist",
+            "\"Pepsi Pavilion\" E.A.T. participants list",
+            "\"Experiments in Art and Technology\" member directory \"Hannibal\"",
+            "\"Ken Hannibal\" E.A.T. member list",
+            "\"Kenneth Hannibal\" Experiments in Art and Technology biography",
+            "\"Ken Hannibal\" Experiments in Art and Technology biography",
+            "\"Ken Hannibal\" artist works 1960s",
+            "\"Ken Hannibal\" artist works 1970s",
+            "Experiments in Art and Technology \"Kenneth Hannibal\"",
+            "Experiments in Art and Technology \"Ken Hannibal\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

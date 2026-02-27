@@ -8,7 +8,7 @@
     "geographicLocation": "New York, New York"
   },
   "professionalAffiliation": {
-    "employerOrganization": "null",
+    "employerOrganization": "",
     "departmentDivision": "null"
   },
   "professionalIdentityExpertise": {
@@ -21,5 +21,120 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "color organs, strobes",
     "aestheticPhilosophicalInterests": "null"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q98761467",
+      "label": "Tony Karpinski",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes an individual in New York focused on electronics and color organs, while the Wikidata entity refers to a British visual artist named Tony Karpinski born in 1965. The geographic locations and surnames are distinct, and the birth date of the Wikidata entity makes them unlikely to be the person on the card, given the era typically associated with color organs and the phone number format."
+    },
+    {
+      "qid": "Q100868918",
+      "label": "Tony Karpawich",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes an individual involved in electronics and artistic lighting (color organs, strobes) based in New York City. The Wikidata entity refers to Tony Karpawich, a basketball player associated with the Holy Cross Crusaders. There is no evidence connecting the two identities, as their fields of expertise and full names differ significantly."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Tony Karp (born circa 1935) is an engineer, photographer, and artist who spent over sixty years living and working in New York City before moving to Virginia. In the late 1960s and early 1970s, he was highly active in the field of electronics and motion picture technology. His most notable engineering achievement from this period was the design and construction of a custom computer-controlled zoom lens used for the iconic opening pullback shot of the 1972 film 'The Godfather'. For this work, he was nominated for an Academy Award for Technical Achievement. Karp's career is characterized by the integration of art and technology; he started as a photographer for NBC in 1959 and later became a computer systems architect, designing complex systems for multimedia pavilions and theme park attractions, including a project for the 200th anniversary of the Bill of Rights and ride control systems for Walt Disney World. In the early 1990s, he founded the 'Techno-Impressionism' art movement, which utilizes digital technology to create works inspired by traditional Impressionism, and he launched the Techno-Impressionist Museum on the web in 1995. His association with Experiments in Art and Technology (E.A.T.) aligns with his multidisciplinary background in electronics and photography, which he frequently blended throughout his career.",
+        "sources": [
+          "https://tlc-systems.com/about-the-artist.html",
+          "https://disco-tech.us/godfather-zoom.html",
+          "http://artmuse2.com/artmuse2-0027.htm",
+          "https://godfather.fandom.com/wiki/The_Godfather",
+          "https://www.styleweekly.com/pixel-prophet/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Tony Karp artist engineer collaboration",
+        "Tony Karp Experiments in Art and Technology E.A.T.",
+        "Tony Karp engineer New York E.A.T.",
+        "\"Tony Karp\" electronics New York 1960s 1970s",
+        "",
+        "\"Tony Karp\" \"Academy Award\" zoom lens",
+        "\"Tony Karp\" E.A.T. engineer",
+        "\"Tony Karp\" electronics New York E.A.T.",
+        "\"Tony Karp\" \"The Godfather\" lens academy award",
+        "\"Tony Karp\" Experiments in Art and Technology directory",
+        "\"Tony Karp\" \"Academy Award\" 1970 nomination",
+        "\"Tony Karp\" E.A.T. newsletter"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2NAn53gvd0Te5MPW6-FOyxoFQD002ahtCAwToKvLX02G6AqixcCFR5rvoxa4A4gvqjXnfHidObbtQnv4ljKMtawtW3b3X24WHSP0-uHqa7NKCLGbutKNI1fYlsJG-Ez7D",
+          "title": "artmuse2.com",
+          "resolvedUri": "https://artmuse2.com/artmuse2-0385.htm"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg0pV6ySEv7N8sxLxNh45WcypqP5JX5l3LpZUKuTTT6AWtKBn6m1qzA60QLBYBM16Losbth9WxUkR_PQrhF2KUl25RRo0ajH_-D5iQEH-YFVbmsduRsRTdLQ412OM8l1XeuXjQYZOwBg==",
+          "title": "tlc-systems.com",
+          "resolvedUri": "https://www.tlc-systems.com/techno/artdoc.htm"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYLpaJxHOGJLEB3yX3H1DfpYJwO8N98HqdhXQNwCHNO8mMXA8EAMiN8hOQ7pc-4xLBsomAvLyF0bGEsscepRXVMx2xGyW63TrAmlFFcf01wuf98o-qgJQC1vTF2bVD7WfuQ11heA==",
+          "title": "styleweekly.com",
+          "resolvedUri": "https://www.styleweekly.com/pixel-prophet/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3zbfXTj0fSTkbVNoGr9Dtiy6rK2U8liuaClubv6LpNi5U98oIWZRSfXCQnTFlwzhwvfXY7-r4MYiJ29Mk3BCdqrnCh1wN7SFj78nmbzKszwO4TPRGck93WzbsDyeEOhQWbubcEE40XY9axaR_vdb7S76UL5b-",
+          "title": "introni.it",
+          "resolvedUri": "http://www.introni.it/pdf/Radio%20Electronics%201963_10.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 209,
+            "endIndex": 323,
+            "text": "In the late 1960s and early 1970s, he was highly active in the field of electronics and motion picture technology."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 532,
+            "endIndex": 611,
+            "text": "For this work, he was nominated for an Academy Award for Technical Achievement."
+          },
+          "groundingChunkIndices": [
+            1,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 972,
+            "endIndex": 1200,
+            "text": "In the early 1990s, he founded the 'Techno-Impressionism' art movement, which utilizes digital technology to create works inspired by traditional Impressionism, and he launched the Techno-Impressionist Museum on the web in 1995."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1265,
+            "endIndex": 1737,
+            "text": "aligns with his multidisciplinary background in electronics and photography, which he frequently blended throughout his career.\",\n      \"sources\": [\n        \"https://tlc-systems.com/about-the-artist.html\",\n        \"https://disco-tech.us/godfather-zoom.html\",\n        \"http://artmuse2.com/artmuse2-0027.htm\",\n        \"https://godfather.fandom.com/wiki/The_Godfather\",\n        \"https://www.styleweekly.com/pixel-prophet/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            3,
+            0
+          ]
+        }
+      ]
+    }
   }
 }

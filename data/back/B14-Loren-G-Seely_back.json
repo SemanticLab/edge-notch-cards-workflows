@@ -11,6 +11,96 @@
         "y1": 6.8,
         "x2": 55.4,
         "y2": 19.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q29000877",
+          "label": "David H. Abramson",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity describes a prominent ophthalmologist, researcher, and competitive swimmer. There is no mention of artistic activity in the Wikidata profile, whereas the card person is known to be an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q29261854",
+          "label": "David Abramson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual in an artistic context active in the late 1960s or early 1970s. The Wikidata entity Q29261854 describes a prominent computer scientist and academic at the University of Queensland who is an ACM and IEEE Fellow. The occupations and career paths (artist vs. researcher/computer scientist) are entirely different, making a match highly unlikely."
+        },
+        {
+          "qid": "Q58065374",
+          "label": "David Abramson",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity David Abramson was born in 1958, which would make him only about 11-12 years old during the target period (late 1960s/early 1970s). Additionally, his occupation is listed as a researcher rather than an artist, which is the specified context for the person on the card."
+        },
+        {
+          "qid": "Q101171204",
+          "label": "David A. Rytand",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes David Abramson Rytand, a physician whose surname is Rytand and for whom Abramson is a middle/given name. The card entry refers to a David Abramson (surname Abramson) who is identified as an artist. Given the different surnames and professions, they are not the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Abramson is an American experimental filmmaker and artist who was active in the New York avant-garde scene during the late 1960s and 1970s. In 1968, at the age of 28, he was awarded one of the inaugural Independent Filmmaker grants from the American Film Institute (AFI) to produce a film exploring dramatic and documentary styles. His work from this period includes the 16mm black-and-white experimental film \"Girl On a Landscape\" (1968), which dealt with themes of psychology and mental health. His films have been distributed by The Film-Makers' Cooperative in New York. Given his activity in the New York experimental art and film community during the late 1960s, he is a plausible associate of the Experiments in Art and Technology (E.A.T.) organization, which promoted similar interdisciplinary collaborations in the city at that time.",
+            "sources": [
+              "https://film-makerscoop.com/catalogue/david-abramson-girl-on-a-landscape",
+              "https://archive.org/details/hollywoodstudio03unse/page/n269/mode/2up"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Professor David Abramson (born c. 1954) is a distinguished Australian computer scientist and engineer who has combined a career in high-performance computing and software engineering with artistic pursuits. He has been active in technological research since 1979, holding senior positions at Monash University and the University of Queensland. In addition to his scientific contributions, Abramson is a creative artist whose works include the play \"Purely Academic\" (first performed/read in the 2010s), which explores the ethics of scientific research. He is also known to engage in photography and stained-glass window making. His identity as a scientist-engineer who creates art aligns with the core mission of Experiments in Art and Technology (E.A.T.), which sought to foster collaborations between those in the technical and artistic fields, although his primary professional activity began slightly later than the late 1960s.",
+            "sources": [
+              "https://www.uq.edu.au/news/article/2018/07/issues-of-integrity-lead-drama",
+              "https://atse.org.au/research-and-policy/publications/learning-curve-professor-david-abramson-ftse/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"David Abramson\" 1960s 1970s artist",
+            "\"David Abramson\" visual artist biography",
+            "\"David Abramson\" artist Experiments in Art and Technology",
+            "\"David Abramson\" E.A.T. artist",
+            "\"David Abramson\" engineer artist collaboration",
+            "\"David Abramson\" Experiments in Art and Technology E.A.T.",
+            "\"David Abramson\" artist 1968 1969 1970 1971",
+            "\"David Abramson\" E.A.T. member list",
+            "\"David Abramson\" Pepsi Pavilion Expo 70",
+            "\"David Abramson\" engineer Bell Labs E.A.T.",
+            "\"David Abramson\" E.A.T. Billy Klüver",
+            "\"David Abramson\" 1960s 1970s Art and Technology",
+            "\"David Abramson\" designer E.A.T.",
+            "\"David Abramson\" artist Pepsi Pavilion E.A.T.",
+            "\"David Abramson\" \"E.A.T.\"",
+            "\"David Abramson\" \"Billy Klüver\" project staff",
+            "",
+            "\"David Abramson\" 1968 Brooklyn Museum E.A.T.",
+            "\"David Abramson\" collaborator E.A.T.",
+            "\"David Abramson\" artist E.A.T. bio",
+            "\"David Abramson\" 1960s artist E.A.T.",
+            "",
+            "\"David Abramson\" artist 1960s E.A.T. bio",
+            "\"David Abramson\" film \"The Film-Makers' Cooperative\" bio",
+            "\"David Abramson\" \"9 Evenings\" participant",
+            "\"David Abramson\" \"E.A.T.\" 1968 1969 artist engineer",
+            "\"David Abramson\" filmmaker 1960s bio",
+            "\"David Abramson\" \"Renaissance Editions\" art",
+            "\"David Abramson\" \"AFI\" grant 1968",
+            "\"David Abramson\" \"E.A.T.\" member archive",
+            "\"David Abramson\" film 1968 \"psychology\"",
+            " \"David Abramson\"",
+            "\"David Abramson\" Bell Labs engineer artist"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

@@ -11,6 +11,230 @@
         "y1": 10.6,
         "x2": 33.5,
         "y2": 17.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28202",
+          "label": "Sheila Berkley",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikibase entity describes Sheila Berkley as an artist associated with the E.A.T. (Experiments in Art and Technology) project, which aligns with the late 1960s/early 1970s timeframe and the artistic context provided for the card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q129831",
+          "label": "Elizabeth Berkley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Sheila Berkley, whereas the Wikidata entity is for Elizabeth Berkley. Additionally, the Wikidata entity was born in 1972 and began her career in the mid-1980s, which makes it impossible for her to be the artist active in the late 1960s/early 1970s described in the context."
+        },
+        {
+          "qid": "Q462008",
+          "label": "Berkley Bedell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match; the card refers to Sheila Berkley (a female artist), while the Wikidata entity refers to Berkley Bedell (a male politician)."
+        },
+        {
+          "qid": "Q55137584",
+          "label": "Berkley Gryder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different. The card entry refers to 'Sheila Berkley' (where Berkley is the surname), whereas the Wikidata entity is 'Berkley Gryder' (where Berkley is the given name). Additionally, the card describes an artist, while the Wikidata entity is listed as a researcher."
+        },
+        {
+          "qid": "Q56953441",
+          "label": "Berkley Luk",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different (Sheila Berkley vs. Berkley Luk). Furthermore, the Wikidata entity describes a medical researcher, which does not align with the artistic context provided for Sheila Berkley."
+        },
+        {
+          "qid": "Q58175160",
+          "label": "Berkley J Walker",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Sheila Berkley' does not match 'Berkley J Walker'. In the card entry, 'Berkley' is the surname, whereas in the Wikidata entity, it appears to be a given or middle name. Additionally, the Wikidata entity is described as a researcher, while the card entry context refers to an artist."
+        },
+        {
+          "qid": "Q76247370",
+          "label": "Berkley Drummond Compton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Berkley Drummond Compton lived from 1826 to 1849, which is completely outside the timeframe of an artist active in the late 1960s or early 1970s. Furthermore, the names are entirely different."
+        },
+        {
+          "qid": "Q91298142",
+          "label": "Berkley M Ellis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are entirely different: 'Sheila Berkley' vs 'Berkley M Ellis'. Furthermore, the Wikidata entity describes a researcher at Vanderbilt University, which does not align with the context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q108116728",
+          "label": "Berkley Westropp",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Sheila Berkley does not match Berkley Westropp. Furthermore, the Wikidata entity describes a 19th-century British naval officer, which is incompatible with an artist active in the 1960s and 1970s."
+        },
+        {
+          "qid": "Q112366023",
+          "label": "Berkley M. Parmeller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Sheila Berkley' does not match 'Berkley M. Parmeller'. Furthermore, the Wikidata entity lived from 1895 to 1932, which contradicts the context that the individual was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q112800849",
+          "label": "Berkley Brady",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match; the card refers to Sheila Berkley (where Berkley is the surname), while the Wikidata entity is for Berkley Brady (where Berkley is the given name). Furthermore, Berkley Brady is a contemporary Canadian filmmaker, which does not align with the late 1960s/early 1970s timeframe of the artist on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Sheila Berkley (1945–2007) was an American sculptor and artist active during the late 1960s and 1970s, best known for her work in creating public art environments and children's playgrounds. She was a participant in the Experiments in Art and Technology (E.A.T.) organization, and her work was featured in the E.A.T. exhibition 'Some More Beginnings' at the Brooklyn Museum (1968–1969), which showcased collaborations between artists and engineers. Berkley gained further recognition for her 'portable playground' installations, one of which was specifically included in the landmark 1977 exhibition 'Women in American Architecture: A Historic and Contemporary Perspective' at the Brooklyn Museum to make the gallery accessible to mothers and children. Her artistic practice often bridged the gap between functional design and social engagement, utilizing materials to create interactive public spaces.",
+            "sources": [
+              "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/",
+              "https://nowwhat-architexx.org/articles/2018/5/24/women-in-american-architecture",
+              "https://nowwhat-architexx.org/articles/2018/11/27/1970s",
+              "https://www.alexanderstreet.com/products/sculptors-sheila-berkley-and-others"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Sheila Berkley artist Experiments in Art and Technology",
+            "\"Sheila Berkley\" artist biography",
+            "Sheila Berkley public art playground sculpture",
+            "",
+            "Sheila Berkley \"portable playground\" Brooklyn Museum",
+            "Sheila Berkley artist \"Some More Beginnings\" E.A.T. playground",
+            "\"Sheila Berkley\" sculptor 1945-2007 biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp1JXQlaMXjG2dcWZUWoBY3AT1OUBMyaU4mPAjiooZS2J6FP2WdJPaMUIiglzPBsxtm87Y321xaOUpi2kdSWYMSUg-OHG8NItKKrpJCA-8nJlkOF_YsUOcqDEHEtVmuihcBAP8sT8xga5qXGSMFmzoFlu78Ep0gwjiAaUQvdG2Nsa9xjM6Z69L09D_gTxiO35xx6OZ_wxR_Yf4KOgCiH1IGIG3uwxp6owE5zpCqPpf",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFW8vHez9TkNmuS8te98HdS4pG0M2vcvfBn4zaIiXVFeqDgF0rB9aMrpzLAaPw9pwp-7lxzr1ZGklCPWrrlPlVKjQIO4yY1dmrZUwgrPk0ez13ua1BY-zoNdslmeeJ8mVLD7qIsvLsYPX3AKA==",
+              "title": "vasulka.org",
+              "resolvedUri": "https://www.vasulka.org/archive/Writings/EAT.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4K6z1_PTAgNKdME47GFDS8_3rDluJRS0SbCRmynXo1H8fMbMEmsIUzRxSkgqann5LVObUMBjoCjzL9ld3jHvnWBjTvT8pmrwuUFH6JIuqm_zvbTLeTdHaa7QpBzgCY1gC_QtCJG9qfqzVlDGrDHYum6jrc1YTJUbGoSsGy3xzTZ5tCfBpeXMcntGvYX63Mukf47f0awlSHPPukLxZWumGX3VJcplwht1dO5IF",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/858586228/OceanofPDF-com-Allan-Kaprow-Robert-Smithson-and-the-Lim-Philip-Ursprung"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWMRn31ltudFbxtD9YtTMvcwRp3oejFtyWKsuK5wwTzKB2_Wr7SxTI30SObdJWenKwEZYQr5LBWYwDXUWTAcFBP7H0tG36mXmySMt1WorNXmd8T5b02UOYKTnWc5jcdsE9qkJvHXLjOYoq9g4hXwXKPG1fjURWWMhTbYI80oR1y7xjztscWWkcFPIg8tlz",
+              "title": "nowwhat-architexx.org",
+              "resolvedUri": "https://www.nowwhat-architexx.org/articles/2018/5/24/women-in-american-architecture"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcwWh7ezmPgthqvLvon_QD8C2FXveyzEmxbqpySOgU0Fh2hHgCvklM0sbUSrCy1uJdLH1XHyce_RvtNFYKHjJrJJcx-hJIt1UaEOpVj_O8aK8meLGPio-jZtX-pZgYnKW6AHCBlp0JvWzfC0ZFAwY=",
+              "title": "nowwhat-architexx.org",
+              "resolvedUri": "https://www.nowwhat-architexx.org/articles/tag/1970s"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn9_BProFy0k_wn8s4JHvasI-oCDU8d9WrU8SQz20B02LtIOEOmO3SKoaAoL3Au4JErWg5o-q1Nv_K2-t_XUBnJQMYY9YMl4Yc0q6BDGilmZ0h0OAwiLJph8gNuMEEUv5arItwTQBW-KqxMMOCgOTNgKIhN0Ctu5sVhTkknQsbG_0Pza6DTxYr",
+              "title": "nowwhat-architexx.org",
+              "resolvedUri": "https://www.nowwhat-architexx.org/articles/category/Representation+%26+Awards"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTC9sqXwEWamBGO2ugMUZKO5xAmrUdAmOPZ0dVO43bnjLs6hy01C8T60yeV0QdRRxWypil4vnVRYVVUS9PEj6Z5Ro2CZCfhO753LrX9f-rnCWCNuEC8JfHAcNqwGrmWSrXVdQHsQTP5n2xb_u6ea6AaKObUNuu2DbL_tznUJvKZInA6oLzc5eCL8Jr1UlnKfPn0UElCOe0593cZHMND_P0n210Qdi8eGdnhiQt",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZoXSnEhYnE4jrKr3N30BhgRAIi6Zl-fF3pZnkz5QeXmKnalWoQF5ni_QcRM8LpVuLojeKQNdZ5RQdJ6Rjn8NRGDN5qKm0tuxuGT4YFXq83FuyEQQZM-z9J5_FYMARc91ydrBoNytVVhvOf6sY75eMXtGT-ipe3JL2Axw=",
+              "title": "nowwhat-architexx.org",
+              "resolvedUri": "https://www.nowwhat-architexx.org/articles/?offset=1527176263089"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLJTiGkJNHtM_ys48v6o9zaoKZOEqgsOJD-58tifhNjbpRaZ6NRm3ocVA8PrcoIglJD1XhysCWJ-vZvQ6nW_jDrmv-MIairBfIpUG9G7RkLm_3G_dJ3UaHQFmwncCbDBZy3-f4-JMjJMZHrnpLRqwrLYpJM--vBzIYw8DZFn2_tTLAwK3dzfW_xB-i-hoRgJikFPPjjDQuRICI",
+              "title": "berkeley.edu",
+              "resolvedUri": "https://capitalstrategies.berkeley.edu/sites/default/files/publicartcollectionbrochure-2001.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 242,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Sheila Berkley (1945–2007) was an American sculptor and artist active during the late 1960s and 1970s, best known for her work in creating public art environments and children's playgrounds."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 243,
+                "endIndex": 314,
+                "text": "She was a participant in the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 315,
+                "endIndex": 368,
+                "text": "organization, and her work was featured in the E.A.T."
+              },
+              "groundingChunkIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 369,
+                "endIndex": 502,
+                "text": "exhibition 'Some More Beginnings' at the Brooklyn Museum (1968–1969), which showcased collaborations between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 503,
+                "endIndex": 806,
+                "text": "Berkley gained further recognition for her 'portable playground' installations, one of which was specifically included in the landmark 1977 exhibition 'Women in American Architecture: A Historic and Contemporary Perspective' at the Brooklyn Museum to make the gallery accessible to mothers and children."
+              },
+              "groundingChunkIndices": [
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 807,
+                "endIndex": 1400,
+                "text": "Her artistic practice often bridged the gap between functional design and social engagement, utilizing materials to create interactive public spaces.\",\n      \"sources\": [\n        \"https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/\",\n        \"https://nowwhat-architexx.org/articles/2018/5/24/women-in-american-architecture\",\n        \"https://nowwhat-architexx.org/articles/2018/11/27/1970s\",\n        \"https://www.alexanderstreet.com/products/sculptors-sheila-berkley-and-others\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                6,
+                5,
+                7,
+                8
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +248,115 @@
         "y1": 17.8,
         "x2": 46.5,
         "y2": 25.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q20859502",
+          "label": "Gary Stephan",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name matches exactly. The Wikidata entity describes an American painter and printmaker born in 1942, which aligns perfectly with the 1969 date on the card and the context of being an artist active during that period. The presence of artist files in major institutions further supports this match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Gary Stephan (born 1942) is a prominent American abstract artist, painter, and sculptor who was a significant figure in the New York art scene during the late 1960s and 1970s. After receiving his MFA from the San Francisco Art Institute in 1967, he returned to New York City and became a studio assistant to Jasper Johns (1968–1969). During this period, he was part of the influential artist community at 76 Jefferson Street alongside figures such as Neil Jenney and John Duff, where he experimented with non-traditional industrial materials like polyvinyl chloride. His early work was championed by the David Whitney Gallery and included in the Whitney Biennials of 1971 and 1973. While his primary practice is abstract painting and sculpture, he is historically associated with the experimental circles of the late 1960s that intersected with Experiments in Art and Technology (E.A.T.), largely through his close professional ties to Jasper Johns and his engagement with the formal and technological questions of the era, which he later explored in writings for Artforum.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Gary_Stephan",
+              "https://whitehotmagazine.com/articles/gary-stephan-tape-on-paper/6198",
+              "https://www.hauserwirth.com/ursula/on-the-rim-of-the-wheel/",
+              "https://www.kienzleartfoundation.de/gary-stephan-the-future-of-reading/",
+              "https://www.vulture.com/2014/11/betrayal-of-jasper-johns.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Gary Stephan artist Jasper Johns assistant",
+            "Gary Stephan artist biography 1960s 1970s",
+            "Gary Stephan Experiments in Art and Technology E.A.T.",
+            "\"Gary Stephan\" \"Experiments in Art and Technology\"",
+            "\"Gary Stephan\" Jasper Johns assistant E.A.T.",
+            "\"Gary Stephan\" 76 Jefferson Street E.A.T.",
+            "\"Gary Stephan\" E.A.T. artist membership"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhTZSV2ravi_UU_kYgfx3-DT7jj8OwTpQdeXJGEy721C5Qc_vbNQE2wB-bql9QT_cA-AsEQ4hbYnDnExls74qateQAN8-EIG6WvLKEly2HKCCk6DiwcQZf9YvCC0-hSNVEUvQmrFCQXvmbyyALq-9Aa-HzE1-x",
+              "title": "hauserwirth.com",
+              "resolvedUri": "https://www.hauserwirth.com/ursula/on-the-rim-of-the-wheel/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHutMfVyoZjs0NWEaaVodzDixgZUI42nguQ5n5qIGk28cricMnSISxefnVhFRmoeJ68GxD7BskaclYnTBhsl1lV16cD5klEPMaD4O4RXdhoKKpX_MGow4RHPYGxZ19Tt6WWcOWoaHii1iYhKgObimA00l6d4AuX4XISet9bUjiHpG5WKsGH8MHpyWHZpTWifTQzu-kERLjm0vt2lNlt48naUhkCvx4otVub8wJhdFbCC0dNs9p8Kj4w4Cidnrc",
+              "title": "cloudfront.net",
+              "resolvedUri": "https://d2b8urneelikat.cloudfront.net/media/collectiveaccess/images/1/3/3/80390_ca_object_representations_media_13367_original.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4hfN6fYGjqGbh-FFQtSzarMu4zQI4qoy_Aqn0QkrT0cApYNvPpQdIbz0O8PjYpvKhY_lTmL9_NXok6NLtflyLQF7r-6vPTkPAktoTzmFZBPkJBnzKs291PcO9GrZufUjMDDZ0IQ==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Gary_Stephan"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlHEIm4jPLEmFs-Y9UywS0XqtXZNizSaGDwjssvuBa0IimUckmrjl3w1znQH8lIG-wtSxaXJj8mG2lYfldjT-c5etmK30ZtdWTJzmxB0WzcLYKCT6ZQf2vmTOBtFibFCiuUQ211bw-z6VluU4z8f9Ygt4Z15gv-_uFNwoMdNUsTg==",
+              "title": "whitehotmagazine.com",
+              "resolvedUri": "https://whitehotmagazine.com/articles/gary-stephan-tape-on-paper/6339"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeqmqbIj-rfb62eJ4HZAFeACu4b1waEOpkzh4pSYRZBue9KKPa8E0aDPvnsg2-FOhDWfGszI_wwPcIzzwnv_ECP65SNs8s46QyTskZuwLaD4304P58rzjqroBdLy7xx5sYVXwYaf_NXpF7YtBC5LbO1oE=",
+              "title": "wadesaunders.net",
+              "resolvedUri": "http://wadesaunders.net/blog/making-art-making-artists/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 225,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Gary Stephan (born 1942) is a prominent American abstract artist, painter, and sculptor who was a significant figure in the New York art scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 386,
+                "endIndex": 618,
+                "text": "During this period, he was part of the influential artist community at 76 Jefferson Street alongside figures such as Neil Jenney and John Duff, where he experimented with non-traditional industrial materials like polyvinyl chloride."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 619,
+                "endIndex": 733,
+                "text": "His early work was championed by the David Whitney Gallery and included in the Whitney Biennials of 1971 and 1973."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 734,
+                "endIndex": 1560,
+                "text": "While his primary practice is abstract painting and sculpture, he is historically associated with the experimental circles of the late 1960s that intersected with Experiments in Art and Technology (E.A.T.), largely through his close professional ties to Jasper Johns and his engagement with the formal and technological questions of the era, which he later explored in writings for Artforum.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Gary_Stephan\",\n        \"https://whitehotmagazine.com/articles/gary-stephan-tape-on-paper/6198\",\n        \"https://www.hauserwirth.com/ursula/on-the-rim-of-the-wheel/\",\n        \"https://www.kienzleartfoundation.de/gary-stephan-the-future-of-reading/\",\n        \"https://www.vulture.com/2014/11/betrayal-of-jasper-johns.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +370,76 @@
         "y1": 23.7,
         "x2": 41.9,
         "y2": 32.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q351168",
+          "label": "Terrance Dicks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Lisa Terra and Terrance Dicks are fundamentally different. The card describes an artist (implied female name), whereas the Wikidata entity is a well-known male British screenwriter and novelist. There is no evidence of a connection between these two identities."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Lisa Terra\" Experiments in Art and Technology",
+            "\"Lisa Terra\" art collaboration engineer",
+            "\"Lisa Terra\" artist",
+            "\"Lisa Terra\" E.A.T. artist",
+            "\"Lisa Terra\" collaborative art project",
+            "\"Lisa Terra\" \"E.A.T.\" artist",
+            "\"Lisa Terra\" artist profile 1960s",
+            "\"Lisa Terra\" E.A.T. archive",
+            "\"Lisa Terra\" artist biography",
+            "\"Lisa Terra\" collaboration artist engineer 1970",
+            "\"Lisa Terra\" Experiments in Art and Technology member",
+            "\"Lisa\" \"Experiments in Art and Technology\" collaboration",
+            "\"Lisa Terra\" artwork",
+            "\"Lisa Terra\" artist 1968",
+            "\"Lisa Frigand\" E.A.T.",
+            "\"Lisa\" E.A.T. artist member",
+            "\"Lisa Terra\" artist 1970",
+            "\"Lisa Terra\" artist 1972",
+            "",
+            "\"Lisa\" \"Terra\" artist 1960s",
+            "\"Liza Terra\" artist",
+            "\"Lisa Terra\" E.A.T. organization",
+            "\"Lia Terra\" artist",
+            "\"Lisa Terra\" painter 1970s",
+            "\"Lisa Terra\" sculptor 1970s",
+            "\"Lisa\" \"Experiments in Art and Technology\" artist",
+            "\"Lisa\" \"Experiments in Art and Technology\" staff",
+            "\"Lisa\" \"Experiments in Art and Technology\" participant",
+            "\"Lisa Terra\" 1970s artist",
+            "\"Lisa Terra\" 1960s artist",
+            "",
+            "\"Lisa\" Experiments in Art and Technology 1960s 1970s",
+            "\"Lisa Terra\" artist New York",
+            "\"Lisa Terra\" 9 Evenings",
+            "\"Lisa\" E.A.T. 1968 1969 1970 1971",
+            "\"Lisa\" \"Experiments in Art and Technology\" bio",
+            "\"Lisa\" and \"Terra\" artist collaboration",
+            "\"Lisa Terbell\" 1960s",
+            "\"Lisa Terbell\" artist",
+            "\"Lisa Terra\" \"E.A.T.\" member list",
+            "\"Lisa Terra\" \"E.A.T.\" directory",
+            "\"Lisa Terra\" artist collaboration project 1970s",
+            "\"Lisa\" \"Terra\" Experiments in Art and Technology",
+            "\"Lisa Terra\" 1960s art history",
+            "\"Lisa\" \"Terra\" E.A.T. archive",
+            "\"Lisa Terra\" experimental artist",
+            "\"Lisa Terra\" artist 1966 1967 1968 1969 1970",
+            "\"Lisa Terra\" art technology collaboration",
+            "\"Lisa Terra\" 9 evenings participant",
+            "\"Lisa Terra\" artist E.A.T. member",
+            "\"Lisa Terra\" biografia artista"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -50,6 +453,76 @@
         "y1": 32.4,
         "x2": 43.3,
         "y2": 41.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q11879",
+          "label": "Adriaen van der Cabel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Paul Vandes does not match Adriaen van der Cabel, and more importantly, the dates are completely incompatible. The Wikidata entity lived in the 17th century (1631-1705), while the card entry refers to someone active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q1333355",
+          "label": "Els Vandesteene",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Els Vandesteene) was born in 1987, which is incompatible with an individual active in the late 1960s and early 1970s. Additionally, the names 'Paul' and 'Els' and the occupations (artist vs. volleyball player) do not match."
+        },
+        {
+          "qid": "Q1903881",
+          "label": "Adriaen van Diest",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Adriaen van Diest lived from 1655 to 1704, whereas the person on the card is expected to be an artist active in the late 1960s or early 1970s. Furthermore, the names 'Paul Vandes' and 'Adriaen van Diest' are not similar."
+        },
+        {
+          "qid": "Q3027382",
+          "label": "Diego Davy Vandeschrick",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1984, which means he could not have been active in the 1960s or 1970s as described in the card's context. Additionally, the names 'Paul Vandes' and 'Diego Davy Vandeschrick' do not match, and his occupation is listed as a karateka rather than an artist."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Paul Van De\" artist 1960s 1970s",
+            "\"Paul Vanders\" Experiments in Art and Technology",
+            "\"Paul Vande\" Experiments in Art and Technology",
+            "\"Vandes\" artist E.A.T.",
+            "\"Paul Vandish\" artist",
+            "\"Paul Vande\" E.A.T. artist member",
+            "\"Paul Vander\" E.A.T. artist member",
+            "",
+            "\"Vandes\" artist biography",
+            "\"Paul Van de\" E.A.T. collaboration",
+            "\"Vandes\" E.A.T. membership",
+            "",
+            "\"Some More Beginnings\" E.A.T. Brooklyn Museum \"Paul\"",
+            "\"Some More Beginnings\" E.A.T. artist list",
+            "\"Experiments in Art and Technology\" \"Paul Van\"",
+            "\"Some More Beginnings\" catalog list of artists \"Paul\"",
+            "\"Pepsi Pavilion\" list of artists \"Paul\"",
+            " \"Paul Vandes\"",
+            " \"Paul\" \"E.A.T. News\"",
+            "\"Paul\" \"Vandes\" experiments in art and technology",
+            " \"Vandes\"",
+            " \"Paul Vandes\"",
+            " \"Paul Vandes\"",
+            "",
+            "\"Some More Beginnings\" Brooklyn Museum 1968 artists",
+            "\"Some More Beginnings\" exhibition catalog artists",
+            "\"Some More Beginnings\" E.A.T. complete artist list",
+            "",
+            " \"Vandes\" artist",
+            " \"Paul Vandes\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -63,6 +536,146 @@
         "y1": 39.6,
         "x2": 43.6,
         "y2": 55.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7823586",
+          "label": "Tony Towner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes 'Tony Towne,' an artist active in the late 1960s and early 1970s. The Wikidata entity is 'Tony Towner,' a professional English footballer born in 1955. Besides the slight spelling difference, the occupations are completely different, and the footballer would have been a child or young teenager during the late 1960s, making it highly unlikely they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Anthony (Tony) Towne (1933–1980) was a poet, satirist, and writer active in New York City and Block Island during the late 1960s and 1970s. He was the long-time companion of the prominent lawyer and lay theologian William Stringfellow, with whom he shared a home in East Harlem and later on Block Island. Towne was deeply involved in the social and anti-war movements of the era; in August 1970, he and Stringfellow were famously indicted for \"harboring a fugitive\" after the anti-war activist Daniel Berrigan was apprehended by the FBI at their Block Island residence. As an artist, Towne's poetry and satirical essays appeared in publications such as The New Yorker and motive magazine. He is best known for his work \"Excerpts from the Diaries of the Late God\" (1968) and for co-authoring several books with Stringfellow, including \"The Bishop Pike Affair\" (1967), \"Suspect Tenderness: The Ethics of the Berrigan Witness\" (1971), and \"The Death and Life of Bishop Pike\" (1976). While an explicit membership in Experiments in Art and Technology (E.A.T.) is not documented in the primary search results, Towne operated within the same experimental, interdisciplinary, and socially engaged New York creative circles that characterized the E.A.T. organization during its peak years.",
+            "sources": [
+              "https://www.bookshop.org/books/the-bishop-pike-affair/9781498205245",
+              "https://www.nytimes.com/1980/01/29/archives/anthony-towne-at-46-poet-and-a-partner-of-wm-stringfellow.html",
+              "https://www.killingthebuddha.com/mag/the-diaries-of-the-late-god/",
+              "https://www.jimandnancyforest.com/2012/11/harrisburg-conspiracy/",
+              "https://www.anglicantheologicalreview.org/wp-content/uploads/2020/03/ATR_100.1_09_Wylie-Kellermann.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Tony Towne artist biography",
+            "Tony Towne artist Experiments in Art and Technology E.A.T.",
+            "Tony Towne E.A.T. archive",
+            "",
+            "\"Tony Towne\" 9 Evenings",
+            "\"Tony Towne\" Experiments in Art and Technology",
+            "\"Anthony Towne\" artist E.A.T.",
+            "\"Tony Towne\" E.A.T. artist",
+            "\"Antony Towne\" artist E.A.T.",
+            "Tony Towne artist 1960s 1970s NY",
+            "",
+            "\"Anthony Towne\" E.A.T. artist",
+            "\"Tony Towne\" E.A.T. membership list",
+            "\"Antony Towne\" E.A.T. artist",
+            "",
+            "\"Tony Towne\" artist E.A.T. member",
+            "\"Tony Towne\" E.A.T. engineer",
+            "\"Tony Towne\" Experiments in Art and Technology participant",
+            "\"Tony Towne\" artist 1960s New York E.A.T.",
+            " \"Tony Towne\"",
+            " \"Tony Towne\" E.A.T.",
+            "\"Tony Towne\" engineer E.A.T.",
+            "\"Tony Towne\" artist E.A.T. collaboration",
+            "\"Anthony Towne\" poet E.A.T.",
+            "\"Anthony Towne\" artist E.A.T.",
+            "\"Tony Towne\" Bell Labs engineer",
+            "\"Experiments in Art and Technology\" directory Towne",
+            "\"E.A.T.\" engineer list Towne",
+            "\"E.A.T.\" artist list Towne",
+            "\"Anthony Towne\" Getty research institute",
+            "\"Towne\" Getty E.A.T. archive",
+            "\"Tony Towne\" \"E.A.T.\" directory finding aid"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoKzTkyN5h7DLutn-9IpnP-9cq04vbGqTZho_CofrGRZEMBTN1WkvILmHdqFtrnqfpHqVeUha7RMqUhLlmUTUxmp1jrStqiDMXGXtXXWJ_8P8kZDBIUlTBSSw7nCAvBxHBA6LkyBnZqo7yQLTuMIOgSMUmtS4iecHJqcaFnmy36Zin_v4=",
+              "title": "phillipsacademyarchives.net",
+              "resolvedUri": "https://phillipsacademyarchives.net/118-2/notable-alumni-long-list-1900s/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzx9vn3r0Lodmpd19UaRbqKuxohD7bx-HdxFVY46445WyXSe1bDLvDCFGwd_oyKT5N_6_UVQTP0Is8QHafa4dDDCSmlCVmc9RxbOw9vulCrW4B5KEnhVkxjCU4dEmXW6pt_wHgJfiElN-A5dKitbjj5pZXZIAJ0raJ9yCWOQ==",
+              "title": "bu.edu",
+              "resolvedUri": "https://sites.bu.edu/motive/files/2023/02/rescanned_1966_05May.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmB6RZwz-vl_e-w9fe_Mv1H0n3YvtmqjEf_sX5upndJ8hUgQv7d9y8GlW1hAbNj8yZ2IkTLqXChSBB8E28T-MZNFH3Cb6lf3Pe6G8YzG-LuHiJn9iQ8rnZnHadR6GlntrxA6Fh12ohVcbLuKlFnMowB1R2FybVU98kxvgGZCrODr0o9aM2hTyIWp0pTHvGSmHAypjwGpZ7FBNzi-Ua3Hv2ecJmIF0ubxfHGynt6BM4XEgzqV1esQBetqKycQCKsW69lrpTgmMiFFc7jQ==",
+              "title": "catherinemartingalleries.com",
+              "resolvedUri": "https://www.catherinemartingalleries.com/current-catalog/list-by-category/paintings/item/818-toney-anthony-american-1913-2004-untitled-portrait"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeZDIK549NN-YEKE1rdDatUM6r1YgieyN7tgZ2f1bmJIIuAY7g7EabBsOl4MRbRXLO7vfJzdIq8CJzkWk4HwpVf8hGNqOISr1KBktM6zBS5zU0BNIy-p9yVQn6z5kLToh21UE=",
+              "title": "peytonwright.com",
+              "resolvedUri": "https://peytonwright.com/modern/artists/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfEOwlLNCW_R8HgQwVMXJfvioK1mQCWPGEUswOlOeJ2lKrV4_HbbBRiuGHgVSIoYtWvdv8WjcmIlMAwNy2wUh7ogP7GcWn9EzMRc10DyaLvUUxXECwHxdQxNmF_5ZyvuZNarQkb3Ku9hhrUaNs33NtInBnESANHb7usPdIAkMq500-IHO8IMBi-rffm4aP7Q==",
+              "title": "simonandschuster.com",
+              "resolvedUri": "https://www.simonandschuster.com/books/Rewiring-Education/John-D-Couch/9781637744208"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdzuJSYeBlbq4Z5JnW9AUWO4OvT_ct824r_H2AuJQigqAxJgIwxZrCUDGBUAFDRC3nPqxHZgpQPwxyPPiThP5q2tXiXP4xtzRJxntKgB63nGGwYopYp2-OrIdrfLr1r2s1eW-ASSGai7iIxK9lGQ17PGPP1E6q04M=",
+              "title": "theorchardhouse.us",
+              "resolvedUri": "http://w.theorchardhouse.us/pastissues/2012/08-01-12_SJ3E.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNWMCT8eXOoQeIHJ51VJRYWIyToDNf14DFwH8PSQU-mNXWmmD7z_RXGWMX0Mj1YdTu6OY9456woUFmjocIs5jQDd4R44kc5ejg6_ORK32UQ-gFSiSIxnuIl0vhGpaLKHVsjV9kCtiPxWKtJv5S",
+              "title": "playinlaquinta.com",
+              "resolvedUri": "https://www.playinlaquinta.com/art-on-main-street/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmZZifnV0-dGS8RXt8Jcz_C1DyVXtREbz1dKfb5UoDEBw3hI5hFz4oqXlyGuMhSsv5ysFEZawuAfSGRKCMUY78TmmxhYlvbz4eNd6nNRNbmjsZqjl2Syx11oHpaHI6tR5536LDZT_CpEYRnlqxcgA=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Charles_Towne_(artist)"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdIzzCAQhrTkp8Af55SmGfyy7u_Aa2TG2cdHJgXOGqzB-stNpTe8Xp91FPbmL8b1pF8WAWzh7jUbsygXBcLDKGAA2zUy1TTusdLzMSQ9hr1YQU1tqHjMOkaV1533PsWf0gi5jl1nMcJHjjBSKZX_TzGjsnmrqheEVmhNHUdAxt_TWgtjBSM808LFh3EYxm9IUwkl47a8AlTpdpBiqVHE8=",
+              "title": "latimes.com",
+              "resolvedUri": "https://www.latimes.com/business/hollywood/la-fi-ct-brett-ratner-allegations-20171101-htmlstory.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUkQPioi_rdNsgFBjakvot33XOs3aiMJAdLgp2syyoa_HIH0y-FHSvfoajzQA5n_XskjHlgq3xGWgG8GYJRvPWE-a0cczbTC83ymL9rNAPXQDi05qgsWngxoDxUnE=",
+              "title": "ra.co",
+              "resolvedUri": "https://pt-br.ra.co/events/2065132"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUPD9GrmU7lr_oBx2rTo8E3yqLpKrPx60qqRExmmQMloPOLUJsZ7O5__re5qEhvi2fv4D27g4qK80QJTlB0hQumyAdZbIgy0UpHe-rZXkckVviWVaeB8iLmgKsWpuvjS2oUtBHnlQgSxD55pDZ7SmkXsHuMLqkZq4JrR6_dYC_VX8hGKhZ",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/publications/resources/virtuallibrary/0892362235.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1307,
+                "endIndex": 1879,
+                "text": "organization during its peak years.\",\n      \"sources\": [\n        \"https://www.bookshop.org/books/the-bishop-pike-affair/9781498205245\",\n        \"https://www.nytimes.com/1980/01/29/archives/anthony-towne-at-46-poet-and-a-partner-of-wm-stringfellow.html\",\n        \"https://www.killingthebuddha.com/mag/the-diaries-of-the-late-god/\",\n        \"https://www.jimandnancyforest.com/2012/11/harrisburg-conspiracy/\",\n        \"https://www.anglicantheologicalreview.org/wp-content/uploads/2020/03/ATR_100.1_09_Wylie-Kellermann.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            }
+          ]
+        }
       }
     }
   ]

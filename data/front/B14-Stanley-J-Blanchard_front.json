@@ -8,7 +8,7 @@
     "geographicLocation": "New York, New York 10012"
   },
   "professionalAffiliation": {
-    "employerOrganization": "Not specified",
+    "employerOrganization": "",
     "departmentDivision": "Not specified"
   },
   "professionalIdentityExpertise": {
@@ -23,5 +23,204 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Not specified",
     "aestheticPhilosophicalInterests": "Not specified"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q256607",
+      "label": "Blanchard Ryan",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to a Stanley J Blanchard, likely a male engineer living in New York. The Wikidata entity is Blanchard Ryan, a female actor born in 1967. The names, occupations, and genders are inconsistent."
+    },
+    {
+      "qid": "Q1066663",
+      "label": "Émile Blanchard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different people from different centuries and professions. Stanley J Blanchard was an engineer in New York focused on electronic circuits and computers, likely in the mid-20th century, while Charles Emile Blanchard was a 19th-century French zoologist and entomologist who died in 1900."
+    },
+    {
+      "qid": "Q3419406",
+      "label": "Raphaël Blanchard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals. The card data refers to a 20th-century engineer named Stanley J Blanchard living in New York and working with computers. The Wikidata entity describes Raphaël Blanchard, a French physician and parasitologist who lived from 1857 to 1919."
+    },
+    {
+      "qid": "Q5471264",
+      "label": "Alex Blanchard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The subjects have different names (Stanley J Blanchard vs. Alex/Jacques Blanchard), completely different occupations (Engineer/Electronic Circuit Design vs. Boxer/Personal Trainer), and reside in different countries (USA vs. Netherlands)."
+    },
+    {
+      "qid": "Q68558773",
+      "label": "Lyman Wallace Blanchard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Stanley J Blanchard, an engineer specializing in computers and electronics in New York. The Wikidata entity refers to Lyman Wallace Blanchard, an artist (illustrator/painter) born in 1883 with work locations in Pennsylvania and Kansas. Neither the names, professions, nor geographic locations align."
+    },
+    {
+      "qid": "Q100806806",
+      "label": "Blanchard Hurd",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are fundamentally different; the index card describes Stanley J Blanchard, while the Wikidata entry is for Blanchard Hurd. Furthermore, their professions (Engineer vs. Basketball player) and geographic associations (New York vs. Maryland) do not overlap."
+    },
+    {
+      "qid": "Q105988227",
+      "label": "Blanchard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The time periods are completely incompatible. The index card describes an engineer in mid-20th century New York (evidenced by the ZIP code and phone format), while the Wikidata entity refers to a person active around 1820 in Berlin."
+    },
+    {
+      "qid": "Q106799023",
+      "label": "Blanchard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data describes Stanley J Blanchard, an engineer specializing in electronic circuits and computers living in New York. The Wikidata entity refers to a 'Blanchard' whose work location is Paris and who has works in a collection in the Netherlands, suggesting an artist rather than an American engineer. There are no overlapping biographical details."
+    },
+    {
+      "qid": "Q106828650",
+      "label": "Blanchard Randrianambinina",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records represent different individuals. The card refers to Stanley J Blanchard, an engineer in New York, while the Wikidata entity refers to Blanchard Randrianambinina, a primatologist and zoologist from Madagascar. Their names, occupations, and geographic locations do not align."
+    },
+    {
+      "qid": "Q107478274",
+      "label": "Blanchard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes an American engineer (Stanley J Blanchard) specializing in electronic circuit design and computers, living in New York in the mid-20th century. The Wikidata entity refers to a French artistic gymnast who competed in the 1900 Summer Olympics. These are distinct individuals from different countries, professions, and eras."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Stanley J. Blanchard was an electronics engineer active in New York City during the late 1960s and 1970s. He resided at 4 Washington Square Village in Manhattan (Zip Code 10012), a location consistent with technical personnel associated with the Experiments in Art and Technology (E.A.T.) organization. Blanchard's technical expertise spanned electronic circuit design, computer-based pattern recognition, and medical electronics. He is most notably recognized as a co-inventor, alongside robotics pioneer George C. Devol and Paul S. Martin, of an \"Automatic Object Adjustment\" system (U.S. Patent 3,619,576, 1971), which utilized circular scanning and impulse patterns to recognize and orient objects. Additionally, he developed an electronic acupuncture apparatus (U.S. Patent 3,897,789, 1975) in consultation with master acupuncturist C.-Y. Ting. His work in the early 1970s focused on bridging traditional techniques with modern electrical devices to assist American physicians in therapeutic applications. Given his location and specialized skill set in circuit design and test equipment, he fits the profile of the engineers who registered with E.A.T. to provide technical services for artistic collaborations.",
+        "sources": [
+          "https://patents.google.com/patent/US3897789A/en",
+          "https://patents.google.com/patent/US3619576A/en",
+          "https://www.nytimes.com/1975/08/17/archives/patent-of-the-week-electronic-aid-to-acupuncture-patents.html",
+          "http://www.georgedevol.com/patents.html"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Stanley J Blanchard\" engineer",
+        "\"Stanley Blanchard\" engineer circuit design",
+        "\"Stanley J Blanchard\" Experiments in Art and Technology",
+        "\"Stanley J Blanchard\" E.A.T.",
+        "",
+        "\"Stanley J. Blanchard\" acupuncture patent",
+        "\"Stanley J Blanchard\" New York 10012",
+        "\"Stanley J. Blanchard\" circuit design test equipment",
+        "\"Stanley J. Blanchard\" electronics engineer New York 1970s",
+        "\"Stanley J. Blanchard\" E.A.T. engineer",
+        "",
+        "\"Stanley J. Blanchard\" \"Automatic Object Adjustment\" patent",
+        "\"Stanley J. Blanchard\" E.A.T. engineer membership",
+        "\"Stanley J. Blanchard\" circuit design computers test equipment",
+        "\"Stanley Blanchard\" engineer \"New York\" E.A.T.",
+        "",
+        "\"Stanley J. Blanchard\" engineer circuit design New York",
+        "\"Stanley J. Blanchard\" E.A.T. index card"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUgUeglsV3j-RC44xQebUCywXoffN6onQ8VhSbDGWXXQGftVO0R0JV81ghZjDHn5Onn5TdMsvNYFxICPtMU-YmFx0l-o5UlVE9hKtHS67-B9sqHjruA0VNzgZ2fEmJm1gnPMZABXolGQu3tbVU5so=",
+          "title": "google.com",
+          "resolvedUri": "https://patents.google.com/patent/US20140110296A1/en"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmofdQ2qcuwEaxgpRbnkuqKKd22AOayNz4RTXD_283MBBrfI95Krsaz89-aOzb1DMP_15tzFyp6q0EaSqAU2czgE5TpyCQMnCaEl76_N4NCZknDdIeNgZFZvh2ugze0xHu5ubAkieb7-vEqas=",
+          "title": "google.com",
+          "resolvedUri": "https://patents.google.com/patent/US10245429B2/en"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 155,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Stanley J. Blanchard was an electronics engineer active in New York City during the late 1960s and 1970s."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 156,
+            "endIndex": 338,
+            "text": "He resided at 4 Washington Square Village in Manhattan (Zip Code 10012), a location consistent with technical personnel associated with the Experiments in Art and Technology (E.A.T.)"
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 353,
+            "endIndex": 480,
+            "text": "Blanchard's technical expertise spanned electronic circuit design, computer-based pattern recognition, and medical electronics."
+          },
+          "groundingChunkIndices": [
+            1,
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 481,
+            "endIndex": 754,
+            "text": "He is most notably recognized as a co-inventor, alongside robotics pioneer George C. Devol and Paul S. Martin, of an \\\"Automatic Object Adjustment\\\" system (U.S. Patent 3,619,576, 1971), which utilized circular scanning and impulse patterns to recognize and orient objects."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 755,
+            "endIndex": 895,
+            "text": "Additionally, he developed an electronic acupuncture apparatus (U.S. Patent 3,897,789, 1975) in consultation with master acupuncturist C.-Y."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 902,
+            "endIndex": 1062,
+            "text": "His work in the early 1970s focused on bridging traditional techniques with modern electrical devices to assist American physicians in therapeutic applications."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1063,
+            "endIndex": 1627,
+            "text": "Given his location and specialized skill set in circuit design and test equipment, he fits the profile of the engineers who registered with E.A.T. to provide technical services for artistic collaborations.\",\n      \"sources\": [\n        \"https://patents.google.com/patent/US3897789A/en\",\n        \"https://patents.google.com/patent/US3619576A/en\",\n        \"https://www.nytimes.com/1975/08/17/archives/patent-of-the-week-electronic-aid-to-acupuncture-patents.html\",\n        \"http://www.georgedevol.com/patents.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
   }
 }

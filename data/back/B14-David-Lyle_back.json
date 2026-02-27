@@ -11,6 +11,95 @@
         "y1": 9.5,
         "x2": 43.6,
         "y2": 14.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1443602",
+          "label": "Frank Kuenstler",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Frank Kuenstler (1928-1996) was a poet and writer associated with the New York underground scene, which fits the artistic context and active period (late 1960s/early 1970s) perfectly."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Frank Kuenstler (1928–1996) was an American avant-garde poet, experimental filmmaker, and assemblage artist active primarily in New York City from the 1950s through the 1990s. He was a central figure in the mid-1960s New York literary and artistic scene, notably as a founding member of 'The Eventorium,' an arts collective and gallery on Manhattan's Upper West Side. Kuenstler is best known for his iconoclastic book-length poem 'LENS' (1964), which was published by Jonas Mekas's 'Film Culture' and is characterized by a radical, compressed syntax of word pairs. His work is often associated with the precursor movements to 'Language' poetry and Fluxus; he is listed in historical records alongside participants of the Experiments in Art and Technology (E.A.T.) circle and the '9 Evenings: Theatre and Engineering' event. As a filmmaker, he produced experimental works such as 'Color Idioms' (1968) and 'El Atlantis' (1973), the latter featuring a soundtrack played by Kuenstler on a toy piano. He also created 'Mauerskulpturen' (wall sculptures) consisting of wood assemblages from found objects. Kuenstler taught at the School of Visual Arts in New York and edited magazines such as 'Bread&' and 'Airplane.'",
+            "sources": [
+              "https://www.tate.org.uk/art/artists/eleanor-antin-2374/poets-focus",
+              "https://jacket2.org/vandal/frank-kuenstlers-films",
+              "https://www.hyperallergic.com/55011/the-tip-of-the-iceberg-my-reading-of-frank-kuenstler-1928-1996/",
+              "https://padb.net/resource/fluxus",
+              "https://anthologyfilmarchives.org/film_screenings/series/42141"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Frank Kuenstler\" artist filmmaker poet biography",
+            "Frank Kuenstler films poetry 1960s",
+            "Frank Kuenstler E.A.T. 1960s 1970s",
+            "Frank Kuenstler artist Experiments in Art and Technology E.A.T.",
+            "\"Frank Kuenstler\" assemblage artist",
+            "\"Frank Kuenstler\" \"Experiments in Art and Technology\"",
+            "\"Frank Kuenstler\" E.A.T. artist",
+            "\"Frank Kuenstler\" 9 Evenings: Theatre and Engineering"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0XPp_6LGKKv9CzE3rBvvhXBfJyyocbBKUkZ-_6Mwypi49bP2mCQiZOmC0yj-7HjS_poSNOKovnQSoy1-4sFhTo_0o47_lSBRCtyUWLLEHI0uDCkLInDZbR0xPBeIXD4pKsd8WOUSyz2M3s-YVZKA2",
+              "title": "dividinglinebooks.com",
+              "resolvedUri": "https://dividinglinebooks.com/products/kuenstler-lens"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoW2k6XQitcCBGC0xl8cJ4xtCBCoZY0pbuetnZI5b0tdhHRGI6dGZRasvB5mUz-VqjBScJWfiJio9LSmvfTxn8fa0Ph2m1KNC2OwyXM5ra7fln736sjrBbykCZ7QYNTXG9I_GT_XoEoKCoHyGz3dTCtAgAcoNufzVD0h0L1Q==",
+              "title": "upenn.edu",
+              "resolvedUri": "https://writing.upenn.edu/epc/poetics/archive/logs/txt/1996_09.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ3ttePOL5TigV2uU-RvtOr9V1KcoameQcNtHOJVDjyMKJDahJsC7i8uI2MHIzFyi9pwkxviZ_Ffk-bUq_NVYJpjJ3WuJczh_GPOPaO1BYkB3sZcdTupNcn5Kb9jRywDgza6j14Q54l1o=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/274741227/Lens"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtz10Hd5VqaCmEyxRXLvrvyfka0AKuQcNUFhFoubtVg2n-MZI1nfGIk54s3Pcvuj5UCGYSj0MZjJyS3TSHaOtirdTVVc7UthyrcitRVaHk2fxvV9Jl9MJZ8uIVEz-Fh1zW6cL-8sIyq8UQBGZd51D5SZYuMcRMsvzyEAprtVbXroBWWTcTmRCLoapt",
+              "title": "wrypress.com",
+              "resolvedUri": "https://www.wrypress.com/product/frank-kuenstler-continued-nine-three-press-1987"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuNV9bdK_xPLTXf96pBkaXuVq8aDXLzypcOPyeRqLTNwdVFIoDSgiKGlfVAenvbCiRQ81eV1hqBCdv1UVLeocWS3fAZjAw-hZp42C9DqYKXKFl6UVrFqit7Rij-3praoaN-0_xubDotkAHRC8_idtxExqKG7z-a_dp",
+              "title": "tate.org.uk",
+              "resolvedUri": "https://www.tate.org.uk/research/in-focus/blood-poet-box/poets"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 227,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Frank Kuenstler (1928–1996) was an American avant-garde poet, experimental filmmaker, and assemblage artist active primarily in New York City from the 1950s through the 1990s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1152,
+                "endIndex": 1704,
+                "text": "Kuenstler taught at the School of Visual Arts in New York and edited magazines such as 'Bread&' and 'Airplane.'\",\n      \"sources\": [\n        \"https://www.tate.org.uk/art/artists/eleanor-antin-2374/poets-focus\",\n        \"https://jacket2.org/vandal/frank-kuenstlers-films\",\n        \"https://www.hyperallergic.com/55011/the-tip-of-the-iceberg-my-reading-of-frank-kuenstler-1928-1996/\",\n        \"https://padb.net/resource/fluxus\",\n        \"https://anthologyfilmarchives.org/film_screenings/series/42141\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +113,112 @@
         "y1": 13.7,
         "x2": 38.2,
         "y2": 26.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3127488",
+          "label": "Harley Jones Van Cleave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Harley Jones Van Cleave was a zoologist who died in 1953. This contradicts the provided context that the person on the index card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q116947430",
+          "label": "Harley Jones",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Harley Jones' matches exactly. The Wikidata entity is an accordionist, which falls under the category of artists/musicians specified in the context. Born in 1953, he would have been in his late teens during the late 1960s, which is consistent with the timeframe for being active during that period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Harley Jones was a filmmaker, artist, and educator active during the late 1960s and 1970s. He is best known for his collaboration with the non-profit organization Experiments in Art and Technology (E.A.T.), specifically for his work in documenting their major projects. Jones, along with Alan Taylor, produced and directed the film 'The Pepsi Pavilion' (1970), which documented the landmark multisensory environment created by E.A.T. for the 1970 World Exposition (Expo '70) in Osaka, Japan. In the late 1960s, Jones was a staff member and lecturer in film-making at the Newport College of Art (then Newport Monmouthshire College of Art) in Wales. His name appears in the context of the avant-garde film community, notably mentioned in the correspondence of filmmaker Bruce Baillie regarding Canyon Cinema and international film education. In the mid-1970s, he was also associated with the Arts Council of Great Britain, serving on various committees related to the arts and film.",
+            "sources": [
+              "https://canyoncinema.com/2020/05/20/dear-folks-notes-and-letters-from-bruce-baillie/",
+              "https://www.luma.org/en/arles/exhibitions/sensing-the-future-experiments-in-art-and-technology-eat-a47291a1-f3b1-4f1b-85d7-848f3b1f509d.html",
+              "https://artscouncil.org.uk/sites/default/files/download-file/30th_Annual_Report_1974-75.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Harley Jones\" artist 1960s 1970s",
+            "\"Harley Jones\" filmmaker photographer E.A.T.",
+            "Harley Jones artist Experiments in Art and Technology E.A.T.",
+            "Harley Jones Pepsi Pavilion Osaka 1970",
+            "",
+            "Who is Harley Jones in the context of Bruce Baillie and Canyon Cinema?",
+            "\"Harley Jones\" artist documentation E.A.T.",
+            "Harley Jones photographer Experiments in Art and Technology",
+            "\"Harley Jones\" film E.A.T. Osaka Pepsi Pavilion",
+            "",
+            "\"Harley Jones\" \"Alan Taylor\" E.A.T. film",
+            "\"Harley Jones\" Canyon Cinema staff 1967",
+            "\"Harley Jones\" filmmaker Experiments in Art and Technology",
+            "\"Harley Jones\" artist Osaka Expo 70"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaiIzeJnm5WHtL7jm7WiQiq_PtAiMrs2JUSjtyC-xdnsTxUzM_abGvpzKFo63ZqUQqHUFvf9MwPwkVDvl9ysGBvOdvjCCLqgmxCmJRvJkfGH0AZH2MluOzQQeU599B9ySFDyGOqHTKjPBXeqj-VaCGTawzXVtS91P5GMoWy22o1xb0h9FBF1qa9HFx",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/expo-70-official-guide/expo-70-official-guide_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEipb2zmS3cYaelMAGmZQ-5lPQmKEgmaOg3f_9wYpA1JydGDmFvRsXYVRmvHHjackpPtDjLpYf1_7uY18yMdP8i4v6W5iqTd7bDxEHuiPvgwXMhjm3Na0BQTl5o9tuBvTUIHGECq2Pl363taOJBKKoyzEiMGhovN3oE1QmznkjPaDdc7vrpHaNy2Ik12ebyzFWaMpVUitrP",
+              "title": "uchicago.edu",
+              "resolvedUri": "https://press.uchicago.edu/dam/jcr:756fc987-ee69-4af5-9553-07ebb3d51c6b/F23Chicago_FINAL.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwbgnnO-tdip2z7ilpmQ0srkyYfarKi3LhkVXRvFToHnUNzih9VfldkGaBVUJWc7FxUK7iGNP3KIn5zolUI0XCXRbF0voLgtSjkEe_tXmO6B11kd6Qw9mHfKSNzOkZ3y5PGzVkiNKCby4ijzdBJrS2_BQcp0o=",
+              "title": "ameraccord.com",
+              "resolvedUri": "http://www.ameraccord.com/newsletters/2019_09September.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7dNlXX2HE9dT4eE1b92zCYKfEn7GdWKeaybAjX_LnyocMw1hp_m1IJ-r6_Ibpmq5K0mDpWrYoy1XhyvvFbDwZaQWak1XqiA3Oz_CjshyOgUTRsPmSXY3O4kKD-HCl1OGwnW9YKYjVGSfZSmXuSPbkD_tvBqnUXGXwm5s9PALPBP7kRlt3noga0G4c2P4ItDlsnAyowys9TbzkMDzLqJTCacLhF0Yn",
+              "title": "illinois.edu",
+              "resolvedUri": "https://las.illinois.edu/sites/default/files/2025-06/LASNews_Magazine_Spring22_Lo-res-spreads%20%281%29.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGoAkej1IzawSpW8OmaRfRhbys2VN11eQxNmzVtGyanx__Sv3vx9fiASsQucUo4DjE9aTrBv3sVFbjeAZuja1XbuuM-8h6LY6gMpjeZl-GCI-suWgtGffwzrHSdoxtirxG2mmQro8V1rN7LoC_vKHe5JC6nvYg",
+              "title": "wiko-berlin.de",
+              "resolvedUri": "https://www.wiko-berlin.de/fileadmin/user_upload/2122AV.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH15-e_BkGK3aw1Nsp2yFUoHLJiPDVjG_3G2cCuzSE0Eh_VheDH033QIE6if4jnOEcJlaYh-w53QeDjwk1A1gUkGSQj3PDZ59azi4U-eOUC6PKksVdtR0AznkP-22HYXhTx673O3n7k1KPXMd838FF_yfPMl_NhbRCLWdpYyRf23wmyBg==",
+              "title": "cofc.edu",
+              "resolvedUri": "https://giving.cofc.edu/wp-content/uploads/2020/06/2011-Donor-Report.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 484,
+                "endIndex": 541,
+                "text": "for the 1970 World Exposition (Expo '70) in Osaka, Japan."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 890,
+                "endIndex": 1454,
+                "text": "In the mid-1970s, he was also associated with the Arts Council of Great Britain, serving on various committees related to the arts and film.\",\n      \"sources\": [\n        \"https://canyoncinema.com/2020/05/20/dear-folks-notes-and-letters-from-bruce-baillie/\",\n        \"https://www.luma.org/en/arles/exhibitions/sensing-the-future-experiments-in-art-and-technology-eat-a47291a1-f3b1-4f1b-85d7-848f3b1f509d.html\",\n        \"https://artscouncil.org.uk/sites/default/files/download-file/30th_Annual_Report_1974-75.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          ]
+        }
       }
     }
   ]

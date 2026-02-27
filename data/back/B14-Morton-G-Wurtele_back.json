@@ -10,6 +10,74 @@
         "y1": 12.6,
         "x2": 34.5,
         "y2": 18.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q530029",
+          "label": "Allen Strange",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name on the card (John Allen Strange) matches the Wikidata entity (Allen Strange), as 'John' is the first name and 'Allen' the middle name he professionally used. The card's date (1969) aligns with the Wikidata entity's life (born 1943, active as a composer in the late 1960s), and the context of the person being an artist/musician fits the entity's occupation as a composer and musicologist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Allen Strange (1943–2008), widely known as Allen Strange, was an influential American composer, performer, and author specializing in electronic and avant-garde music. He was a Professor of Music at San Jose State University (SJSU) for many years and a leading figure in the development of electronic music technology. In the late 1960s, he and his wife Patricia founded BIOME, a pioneering live electronic music ensemble. In 1976, he co-founded the Electric Weasel Ensemble with the renowned synthesizer designer Donald Buchla. Strange is perhaps best known as the author of 'Electronic Music: Systems, Techniques and Controls' (first published in 1972), which became a foundational textbook in the field. He was deeply involved in the community that merged art and technology, serving on the advisory committee for the Leonardo Book Series (published by MIT Press under the auspices of Leonardo/ISAST). His work is frequently associated with the same experimental ethos and community as the Experiments in Art and Technology (E.A.T.) movement, appearing in retrospectives and discussions alongside other E.A.T. figures like David Tudor and Pauline Oliveros.",
+            "sources": [
+              "https://www.cookfamilyfuneralhome.com/obituaries/Professor-John-Allen-Strange?obId=2974953",
+              "https://seamusonline.org/member-news-august-04-2018/",
+              "https://dspace.mit.edu/handle/1721.1/143162",
+              "https://listentothis.info/interview-akiko-yano/",
+              "https://www.asounder.org/resources/protocol_galloway.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"John Allen Strange\" artist",
+            "\"John Allen Strange\" E.A.T.",
+            "\"Allen Strange\" artist E.A.T.",
+            "\"Allen Strange\" \"Experiments in Art and Technology\"",
+            "\"Allen Strange\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPrahM8OG5a7q8buShbGuLq1DDnNpG4_NwQSz4ims4En1C__sXhiFnFgz3nO6LxezcEF-qK8v8YFAeYez5vytnDbv6UpCp2GI-x0sgn_7gNZ-6wF3ooJ63C9DGbJcFkVcqcm2hMNSLPMSfs-ceuQcLVoLpEEeru6KQiRqp8457eFblEmVS5cZ4uPI8JBGlZmoFW8n4jQwqhg==",
+              "title": "reddit.com",
+              "resolvedUri": "https://www.reddit.com/r/modular/comments/8ifapm/modular_content_thats_not_about_buying_stuff/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbO6_T0NBMOGlHH2peYoth8DpEUI15rwD1YLKm31VYbrxOS92qKPbYhqvv9EsflpyOryjp9dGmw20hff_HQPcRNVxQY_GXzmHBj8VPD5u5i8igovdRATwsuPs8YEUgQ8fM7zN08lwAvimIbj7W_D7bBpcD",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/546338089/Markfell-Thesis"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 218,
+                "text": "{\n \"results\": [\n  {\n   \"possibleIdentity\": \"John Allen Strange (1943–2008), widely known as Allen Strange, was an influential American composer, performer, and author specializing in electronic and avant-garde music."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1087,
+                "endIndex": 1163,
+                "text": "movement, appearing in retrospectives and discussions alongside other E.A.T."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +90,203 @@
         "y1": 17.5,
         "x2": 23.5,
         "y2": 26.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7822084",
+          "label": "Tony Cohen",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Tony Cohen (Q7822084) was born in 1956, which would make him only 13 years old at the time of the card entry in February 1969. Additionally, his professional work period is recorded as starting in 1975, suggesting he is likely not the artist mentioned in the 1969 card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Tony Cohen (Anthony Lawrence Cohen, 1957–2017) was a prominent Australian music producer and sound engineer known for his experimental and innovative recording techniques. Active from the mid-1970s until his death, he began his career during school holidays in mid-1973 as a work experience student at Armstrong Studios in Melbourne. He eventually became the \"house engineer\" at Richmond Recorders, where he developed a reputation for sculpting unique and often dark sonic textures. Cohen is most famous for his long-term collaboration with Nick Cave, producing and engineering albums for The Boys Next Door (later The Birthday Party) and Nick Cave and the Bad Seeds, including the seminal 'From Her To Eternity' (1984). He won three ARIA Awards in the mid-1990s, including Producer of the Year and Engineer of the Year. His memoir, 'Half Deaf, Completely Mad,' chronicles his career of sonic experimentation and his work with legendary artists such as The Go-Betweens, The Saints, and Models.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Tony_Cohen",
+              "https://www.discogs.com/artist/115046-Tony-Cohen",
+              "https://www.blackincbooks.com.au/authors/tony-cohen",
+              "https://recordingstudios.net.au/richmond-recorders/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Tony Cohen is a renowned Australian tattoo artist who has been active since at least 1969. He is the owner of the famous studio 'The Illustrated Man' in Sydney and is considered one of the 'founding fathers' of modern Australian tattooing. Cohen began tattooing his friends while still in school in the mid-1960s and formally opened his first shop in Sydney when there were only a handful of such establishments in the city. He is known for his mastery of traditional Japanese-style tattooing and Old School styles featuring bold outlines and bright colors. Throughout his career, he has traveled globally to attend tattoo conventions and has tattooed numerous celebrities, including musician Angry Anderson. He also compiled a collection of tattoo memorabilia in the book 'The Tattoo' (1994).",
+            "sources": [
+              "https://australiantattoohistory.com/artist/tony-cohen/",
+              "https://lucie.com.au/tony-cohen-on-mastery/",
+              "https://www.ozbike.com.au/tony-cohen-built-an-illustrated-man-chopper-reveal/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Harold Cohen (1928–2016) is a potential historical identity for this name due to his significant association with the Experiments in Art and Technology (E.A.T.) and his pioneering work at the intersection of art and computer technology in the late 1960s and 1970s. Originally a successful abstract painter, Cohen began using computers in 1968 and subsequently developed 'AARON,' an autonomous expert system for drawing. He was featured in major tech-art exhibitions such as 'Software' at the Jewish Museum (1970) and worked as a visiting scholar at the Stanford Artificial Intelligence Laboratory in 1973. While his first name is Harold, he is the most prominent 'Cohen' identified in historical records as an artist collaborating with engineers and scientists through the E.A.T. movement during the requested timeframe.",
+            "sources": [
+              "https://www.springerprofessional.de/explorations-in-art-and-technology/15598818",
+              "https://paulhertz.net/writing/PaulHertz_ArtCodeEngine.pdf",
+              "https://www.etantdonnes.com/Software/ BurnhamBurnham Burnham.pdf"
+            ],
+            "accuracyLevel": "low"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Tony Cohen artist 1960s 1970s",
+            "\"Tony Cohen\" artist E.A.T. 1960s 1970s",
+            "Tony Cohen artist \"Experiments in Art and Technology\"",
+            "Tony Cohen engineer \"Experiments in Art and Technology\"",
+            "\"Tony Cohen\" artist New York 1960s",
+            "\"Tony Cohen\" artist 1968 1969 1970 1971",
+            "\"Tony Cohen\" Experiments in Art and Technology E.A.T.",
+            "\"Tony Cohen\" technical collaborator E.A.T.",
+            "",
+            "\"Anthony Cohen\" Experiments in Art and Technology",
+            "\"Tony Cohen\" Experiments in Art and Technology engineer",
+            "\"Tony Cohen\" E.A.T. artist New York",
+            "\"Tony Cohen\" artist 1969 1970 1971 New York",
+            "\"Tony Cohen\" collaborator Experiments in Art and Technology",
+            "\"Tony Cohen\" Experiments in Art and Technology list",
+            "\"Tony Cohen\" E.A.T. engineer artist",
+            "\"Tony Cohen\" \"Technical Service\" E.A.T.",
+            "\"Tony Cohen\" and \"E.A.T.\" artist engineer",
+            "\"Tony Cohen\" artist computer 1970s",
+            "\"Anthony Cohen\" Experiments in Art and Technology list",
+            "\"Tony Cohen\" collaborator Billy Klüver",
+            "\"A Million Millennial Medicis\" author",
+            "\"Tony Cohen\" artist technology 1960s 1970s",
+            "\"Tony Cohen\" Experiments in Art and Technology collaborator",
+            "",
+            "\"Tony Cohen\"",
+            "\"Anthony Cohen\"",
+            "\"Tony Cohen\" 1960s 1970s artist New York E.A.T.",
+            "\"Tony Cohen\" E.A.T. archive"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ0dJ34Vy2yWf0zfKQGItsgwntHdBTtJjWZP-ueA4angnMsNl826c3CS5bBEqQJgJPQF3EsULIfShloySRwaOniQNYVzH-p4Ad1vY9rv0AVYy_iz1KKpOqOib6H1jcPV_JYXDyx9LDpb3Cv2wSRgxysaXrAVuIgvXBUeII-R3zxvr3NPYr7EU2anZIk6Y23JokINCwtlFYQGGC8lBgn3T5692NtN8uM08=",
+              "title": "indailysa.com.au",
+              "resolvedUri": "https://www.indailysa.com.au/inreview/archive/2023/06/16/diary-of-a-book-addict-the-problem-is-not-me-its-you"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkyT6JRfv_uy20CCvBoXaYqi179EXeg6TwZx4JwzzrIBehvuSS7jvHFguIaGvWHjwzOU3N346xGCLKKaeTQ4uNVXo1TEb3gs-pWe9Iw1Tea4GO4-tXJy_xqiFtigZYBu81MIMFxxeIPQh8B-2ogxrpV4O2bFVRDiU8jkDKnV-Jw9G_qH7-uGzIBfDgwjr5yQW8aq3i",
+              "title": "blogspot.com",
+              "resolvedUri": "https://exileonmoanstreet.blogspot.com/2017/08/life-in-padded-cell-biography-of-tony.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBqufPe-SOxMZVez3MGnOq6PxpQSr-AEAwFzg8pq1izJHw0yLXyRXSz_f8Q00PG7VaCAoAl-5qV5pUQcxd8lf3BHHXRlUVe_gb_S8B7QEMqmGNU2It7_W4I818DZa-tEI0fqyIavjvds5YMg==",
+              "title": "discogs.com",
+              "resolvedUri": "https://www.discogs.com/artist/115046-Tony-Cohen"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrxD5VXbwypnwvuTEFB3I4dc2dlmgTMvmjrBYQetIz4znYFneH4pnFXSrHLNFek7X3t5IiIh1wZMqkd2kzuAdOcm16E5ab1E_UDPs-v5Ddtt81vX2H4KNdaPjRPDbRaVLeLk0=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Tony_Cohen"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUs3tvLN4HkCy0NgUEN_1GHTOHnGHDLqmsqzL8l_Wk1RxDVjXLMA0lbQk-ZgHXDYRUg6_OUf8tqKL9gOpwWJVzXUiErMyZ8ilgHP1-192J-38YIQ_l8U_foclAYt5gN4VJnswaT-8qVOn18-jM_ovsKGcKhUXCA-yY9BdlKvrkGd_Yf1lRVH4aMnh87Uno5wyh_hH",
+              "title": "adkinsarboretum.org",
+              "resolvedUri": "https://www.adkinsarboretum.org/file_download/inline/4ae2cbd5-a0e9-48f5-a634-50db10021b07"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8LDv2ye92LKTwkZrdb2SbpVyVhDrI8uvvUbyT3gHDdxjDtN2oX53vO_IGhWjjmM-oGxjMDJhQ3j2_HmQU1Fyo38Cuo3sPa2zLUJoRu8_xgn0xoI8n1ChDimWG4n6irSlJKcbrHKq6NkqZXDt5r58lmpbYafSCeba2kpxwaDqUSKE=",
+              "title": "sinaihealth.ca",
+              "resolvedUri": "https://www.sinaihealth.ca/foundation/about/board/anthony-tony-cohen-f"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP_aVHAeXaHGTpci9w7EbVRCwQE1BK-cWqqXG3RDzDuX8FOfY7qPV4d8eRLnr5tTsANGQhmc0oOx_4yI85JcBmmKHn_QKaSBMOA_0LC6hnO1rt0hoCj-n5u828h35nH_GN3HlykAXT",
+              "title": "i94bar.com",
+              "resolvedUri": "https://www.i94bar.com/reviews/books?start=9"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU4CRdu95dnRy7cTGqqgn7qEgREow7ni4hBqfClBimC9uOcSr4HOnfAoTMuFCJvH1Z5L76nU4MVRqfIXOBcROQCZEw71Q5XESFFkiEWAwF_IvMh-4ZtWRyZPYHPyqgdJvWK5P4",
+              "title": "wgbh.org",
+              "resolvedUri": "https://www.wgbh.org/people/anthony-cohen"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjWvavyhBZqJDE9vC_Go4K2xBaFDcMY_a6dLNPSBAfSp-PX68EN09Wcia3YvloetrtKKaIPqIjV2lxP6mVMLoi4_zCoqUwJ0JY6fazuDmTkgK4DZMIdVyK_IOy_fxY-nGikIO_vyZLBsTMCe6iSX0=",
+              "title": "harriettubmanbyway.org",
+              "resolvedUri": "https://harriettubmanbyway.org/category/blog/page/2/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCd6zhITk7O_UoExnXkwJ92yPvgu0A2MUvj41ZY7BxPcLdEaARIoyssVdkhL-UfJEYL8Ctu9pSMNv309uGU5R-yzkl4CpJxAhGoU7rpXNXjrmL3fuvzDK3cMsxW4bHtKJeQeM54KBbubb5BIpRcformAWuNFrSyag0HJZ9OBll",
+              "title": "goodreadingmagazine.com.au",
+              "resolvedUri": "https://goodreadingmagazine.com.au/article/half-deaf-completely-mad/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsO6tnZT8PgTeDcjWIabYkeb1-MO3FLr5_lVseVwSLVqxvvqDRKRE84NpmJLfNpvkfM_f84VRmF4I9LaLDUWTMgBglBwJQUGlbO9lxttOcfTUCGpbubFhw6JUtcGo5EZj1zhu-C9JkoqqAY_bmj_5-Kw1JsZUDNguTzfiwWY_Qn8TiG_lez3aTLwAW-JDUu4Hhn8MCAm4=",
+              "title": "qmu.ac.uk",
+              "resolvedUri": "https://www.qmu.ac.uk/about-our-staff/professoriate-honorary-titles/professor-anthony-cohen"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWevr9tlNeK5pW13htQSAyoteHaGKu6njEE4L9X7zydSi4vhr5hfC_vXO8vH3BsIJ3WL5DSD1w9M2SKM7k8heYM3dq4wOg1ew42wiM8AebO_fMS_5x4QWCWmp6FKGsQEDQsYd0u5cENSGGhh49sDA=",
+              "title": "rssing.com",
+              "resolvedUri": "https://syphon5.rssing.com/chan-4279587/all_p19.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFhR3RKJ9xv-JjH-zBMB6v3vIuZ2Ms_X8ZSle4jIty25t_arj5-ecb5Yfu7V1XIXsCha_3rjcUg_Qe1nRyON1I_DYLHb_uKbz1-RGuyDM4suqHD5CK2F6qjW9dNSum5yW1tg3gKF4=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Anthony_Cohen"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 223,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Tony Cohen (Anthony Lawrence Cohen, 1957–2017) was a prominent Australian music producer and sound engineer known for his experimental and innovative recording techniques."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 537,
+                "endIndex": 774,
+                "text": "Cohen is most famous for his long-term collaboration with Nick Cave, producing and engineering albums for The Boys Next Door (later The Birthday Party) and Nick Cave and the Bad Seeds, including the seminal 'From Her To Eternity' (1984)."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 775,
+                "endIndex": 874,
+                "text": "He won three ARIA Awards in the mid-1990s, including Producer of the Year and Engineer of the Year."
+              },
+              "groundingChunkIndices": [
+                3,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3274,
+                "endIndex": 3620,
+                "text": "movement during the requested timeframe.\",\n      \"sources\": [\n        \"https://www.springerprofessional.de/explorations-in-art-and-technology/15598818\",\n        \"https://paulhertz.net/writing/PaulHertz_ArtCodeEngine.pdf\",\n        \"https://www.etantdonnes.com/Software/ BurnhamBurnham Burnham.pdf\"\n      ],\n      \"accuracyLevel\": \"low\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                4,
+                5,
+                6,
+                2,
+                7,
+                8,
+                9,
+                10,
+                11,
+                3,
+                12
+              ]
+            }
+          ]
+        }
       }
     }
   ]

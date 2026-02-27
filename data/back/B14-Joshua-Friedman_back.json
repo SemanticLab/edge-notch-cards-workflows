@@ -11,6 +11,116 @@
         "y1": 9.4,
         "x2": 47.75,
         "y2": 13.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q9066198",
+          "label": "Ralph Merrill Caldwell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Ralph Merrill Caldwell is a scientist (botanist and mycologist) and professor, which does not align with the context that the individual on the card is an artist. Additionally, the card indicates the title 'CAPT.' (Captain), while the Wikidata entity is an academic and researcher for the USDA and Purdue University with no mention of military rank or artistic practice."
+        },
+        {
+          "qid": "Q73425794",
+          "label": "Ralph M. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to Ralph Merrill, while the Wikidata entry is for Ralph Evans. There is no evidence in the Wikidata record suggesting Merrill was an alias or family name for Evans."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ralph Merrill was a modernist architect based in Dallas, Texas, who was active during the late 1960s and early 1970s. He is known for his work on mid-century modern homes and was featured in publications like Architectural Record for his designs, such as the Monarch Laundry building. In the late 1960s, he served as a design coordinator for the National Society of Interior Designers (NSID) and worked on projects that integrated architecture with modern technology and energy-saving designs. Given the activity of local groups of Experiments in Art and Technology (E.A.T.) in urban centers like Dallas, his profile as a modernist designer and architect aligns with the interdisciplinary goals of the organization.",
+            "sources": [
+              "https://midcenturymoderndallashomes.com/architects/ralph-merrill/",
+              "https://www.usmodernist.org/AR/AR-1944-05.pdf",
+              "https://digital.library.unt.edu/ark:/67531/metadc175052/m1/11/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Ralph Merrill was an engineer at Bell Laboratories (Bell Labs) during the 1960s and 1970s. Bell Labs was the primary technological partner for the Experiments in Art and Technology (E.A.T.), with many of its staff collaborating with artists on seminal projects. Merrill is recorded in E.A.T. membership archives as an engineer who participated in the organization's efforts to provide technical assistance to artists. He also served as a coordinator for the Bell Labs One-Year-on-Campus graduate program and was associated with DeLuxe Labs Inc. in New York City as Chief Research Engineer, where he worked on film and color technology.",
+            "sources": [
+              "https://ece.umich.edu/wp-content/uploads/sites/4/2018/11/Year-in-Review-2017.pdf",
+              "https://archive.org/stream/registerofformer00mass/registerofformer00mass_djvu.txt",
+              "https://www.fondation-langlois.org/html/e/page.php?NumPage=245"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Ralph Merrill was an artist and watercolourist active in the late 1960s who specialized in landscape painting. His work focused on Maui landscapes and was exhibited in Hawaii, including a series of art showings at the Kula Lodge in 1967. His artistic career in the late 1960s coincides with the height of the E.A.T. movement's expansion to various regional and international chapters.",
+            "sources": [
+              "https://studylib.net/doc/25390978/maui-news-index-1951-1973--maui-county-history"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Ralph Merrill\" artist 1960s 1970s",
+            "\"Ralph Merrill\" E.A.T. artist",
+            "\"Ralph Merrill\" 9 Evenings: Theatre and Engineering",
+            "\"Ralph Merrill\" E.A.T. member",
+            "\"Ralph Merrill\" engineer art technology",
+            "\"Ralph Merrill\" artist 1960s 1970s E.A.T.",
+            "\"Ralph Merrill\" collaborator 9 Evenings",
+            "",
+            "\"Ralph Merrill\" architect Texas artist",
+            "\"Ralph Merrill\" artist Maui landscapes",
+            "\"Ralph Merrill\" engineer Bell Labs E.A.T.",
+            "\"Ralph Merrill\" Experiments in Art and Technology E.A.T.",
+            "\"Ralph Merrill\" Bell Labs engineer E.A.T.",
+            "\"Ralph Merrill\" E.A.T. artist engineer",
+            "\"Ralph Merrill\" artist 1960s 1970s E.A.T. association",
+            "\"Ralph Merrill\" engineer Bell Labs E.A.T. 1960s",
+            "\"Ralph Merrill\" Experiments in Art and Technology E.A.T. membership",
+            "",
+            "\"Ralph Merrill\" Dallas architect artist",
+            "\"Ralph Merrill\" E.A.T. archive",
+            "\"Ralph Merrill\" Experiments in Art and Technology member list",
+            "\"Ralph Merrill\" engineer \"E.A.T.\" Bell Labs",
+            "\"Ralph Merrill\" artist \"E.A.T.\"",
+            "",
+            "\"Ralph Merrill\" E.A.T. \"Technical Services\"",
+            "\"Ralph Merrill\" artist filmmaker 1970s",
+            "\"Ralph Merrill\" Bell Labs engineer \"E.A.T.\" association",
+            "\"Ralph Merrill\" \"E.A.T.\" member list 1968 1969",
+            "\"Ralph Merrill\" \"E.A.T.\" member archive",
+            "\"Ralph Merrill\" artist \"E.A.T.\" collaboration",
+            "\"Ralph Merrill\" engineer \"E.A.T.\" collaboration",
+            "",
+            "\"Ralph Merrill\" E.A.T. directory",
+            "\"Ralph Merrill\" artist filmmaker E.A.T.",
+            "\"Ralph Merrill\" Dallas architect \"E.A.T.\"",
+            "",
+            "\"Ralph Merrill\" E.A.T. newsletter member",
+            "",
+            "\"Ralph Merrill\" artist \"E.A.T.\" 1960s 1970s biography",
+            "\"Ralph Merrill\" Dallas architect association with \"E.A.T.\"",
+            "\"Ralph Merrill\" Bell Labs E.A.T. member biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHom4EaeVQhfmRo0jC_MBjbmj_FjRjpiW5HUf6lEuCE6QAQ5uCdw7Q8daBwuI-PCHqhfoH_hAko_GgTKKKFFM5HWkFqEZ7cZ9Js43zAHIRY6uNTofHcSaHVgSBIfxEFvP2v0aKeivAnuBzh8z9vL55xTn4v8OlGGwOithA28gafDsHVEA==",
+              "title": "episcopalarchives.org",
+              "resolvedUri": "https://www.episcopalarchives.org/files/publications/1979_GC_Journal.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1337,
+                "endIndex": 1366,
+                "text": "Merrill is recorded in E.A.T."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

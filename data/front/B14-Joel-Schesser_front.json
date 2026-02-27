@@ -15,5 +15,135 @@
     "technicalFields": [
       "Electrical engineering"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q26768",
+      "label": "City College of New York",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly ('City College of New York'), and the Wikibase entity refers to a New York institution within the same E.A.T. project context as the index card."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1093910",
+      "label": "City College of New York",
+      "description": "senior college of the City University of New York",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'City College of New York' matches exactly between the card and the Wikidata entity. The Wikidata entity is a prominent higher education institution in New York City, and the card holder is identified as a student and electrical engineer, which is consistent with this organization."
+    },
+    {
+      "qid": "Q5009663",
+      "label": "CCNY Beavers men's basketball",
+      "description": "sports team of City College of New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the City College of New York as an academic institution or employer, whereas the Wikidata entity is specifically for the college's men's basketball team (CCNY Beavers). While related, a sports team is a distinct sub-entity of the university itself."
+    },
+    {
+      "qid": "Q96573977",
+      "label": "CCNY Beavers",
+      "description": "sports teams of City College of New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q96573977) specifically represents the athletic department and sports teams (CCNY Beavers) of the City College of New York, whereas the employer listed on the card is the academic institution itself. While the athletic program is a part of the college, they are distinct entities in Wikidata."
+    },
+    {
+      "qid": "Q111021605",
+      "label": "City College stampede",
+      "description": "1991 New York City disaster",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the City College of New York (an educational institution), while the Wikidata entity refers to a specific tragic event (a stampede/disaster) that took place at the college in 1991. They are entirely different types of entities: one is an organization, and the other is an event."
+    },
+    {
+      "qid": "Q56883788",
+      "label": "North Campus of the City College of New York",
+      "description": "campus in Manhattan in United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q56883788) refers specifically to the North Campus, which is a geographic part of the City College of New York, whereas the employer on the card is the institution itself. The institution has its own Wikidata entry (Q26768)."
+    },
+    {
+      "qid": "Q125501605",
+      "label": "City College of New York Music Library",
+      "description": "music library at The City College of New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q125501605) refers specifically to the Music Library of the City College of New York, whereas the card lists the parent institution 'City College of New York' as the employer/affiliation. While related, the library is a specific sub-unit and not the organization itself."
+    },
+    {
+      "qid": "Q133455717",
+      "label": "City College of New York Film Institute",
+      "description": "film studio at the City College of New York founded in 1942",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to a specific subunit, the City College of New York Film Institute, while the card lists the parent institution, City College of New York. Furthermore, the individual on the card is identified as an electrical engineer and student, which makes a specific affiliation with the Film Institute unlikely."
+    },
+    {
+      "qid": "Q54172415",
+      "label": "Q54172415",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q54172415 represents Joel Schesser, the individual listed on the card, rather than the organization 'City College of New York'. Therefore, it is not a match for the employer organization."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Joel Schesser is an electrical engineer and educator who was active as a student and professional in the New York area during the late 1960s and 1970s. He earned his Bachelor of Engineering (B.E.) in 1968, followed by a Master of Engineering (M.E.) in 1971, and a Ph.D. in 1976, all from the City University of New York (CUNY), with his studies centered at the City College of New York (CCNY). During the late 1960s, he was an electrical engineering student at CCNY, which aligns with his identification as a student and electrical engineer based in the Bronx/New York area. Schesser had a significant professional career at AT&T Bell Laboratories, where he contributed to the development of undersea fiber optic cable systems, including the architecture for the Africa Optical Network (Africa ONE), and worked on the design requirements for optical submarine cable systems. He was also involved in the design and implementation of traffic surveillance and control systems, such as the Hampton Roads Bridge-Tunnel Crossing system in 1977. Later in his career, he became a Senior University Lecturer in the Department of Biomedical Engineering at the New Jersey Institute of Technology (NJIT). His early education includes graduating from the High School of Music & Art (M&A) in New York in 1963, a background that supports a potential association with Experiments in Art and Technology (E.A.T.), an organization known for fostering collaborations between artists and engineers from institutions like Bell Labs and CCNY.",
+        "sources": [
+          "https://web.njit.edu/~joelsd",
+          "https://alumniandfriends.org/news/jazz-fame-monday-february-3-2014",
+          "https://www.researchgate.net/profile/Joel-Schesser",
+          "https://njit-public.courseleaf.com/graduate/frontmatter/aboutuniversity/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Joel Schesser\" Experiments in Art and Technology",
+        "Joel Schesser Bronx New York electrical engineer",
+        "\"Joel Schesser\" E.A.T. engineer",
+        "Joel Schesser City College of New York electrical engineering",
+        "",
+        "\"Joel Schesser\" engineer artist collaboration",
+        "\"Joel Schesser\" E.A.T. member",
+        "\"Joel Schesser\" Experiments in Art and Technology E.A.T.",
+        "\"Joel Schesser\" CCNY E.A.T.",
+        "\"Joel Schesser\" Bell Labs engineer E.A.T.",
+        "",
+        "\"Joel Schesser\" E.A.T. project collaboration",
+        "\"Joel Schesser\" Experiments in Art and Technology archive",
+        "\"Joel Schesser\" artist collaboration 1960s 1970s"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq1gS0kqXLNm8qUlBIoy7h0QShbHSCy1EXNkqMDCxP0PEi0_AdOUUKV-ay5uYij8e71E2Pm7QTvbwvVgfLwLEY8b6aqi65275kk25MxTjsNQKnr9PYXQc7Yy_oD9wFaSmbZAroUzE2EaObIPs_Jyq_VPFOtlP30EVGTnSJJ2fp_MLIw4toT5M5VXFUGC-J5NXDyDAWifLPE3R8VGQNt8Gon_QR9vKx905e_0mfGj__T8hncqG00VPBbmJwFjcSl9-U1BNgFIPoUiqlk1ngonoJWEDfFH2aG7pnp_8eFvXATrLCwMK_3CFlZa6i9Kta5Q==",
+          "title": "researchgate.net",
+          "resolvedUri": "https://www.researchgate.net/publication/304297282_Real-time_integrated_CCTV_using_face_and_pedestrian_detection_image_processing_algorithm_for_automatic_traffic_light_transitions"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 925,
+            "endIndex": 1088,
+            "text": "He was also involved in the design and implementation of traffic surveillance and control systems, such as the Hampton Roads Bridge-Tunnel Crossing system in 1977."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

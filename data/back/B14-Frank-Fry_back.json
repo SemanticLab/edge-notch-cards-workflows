@@ -9,6 +9,80 @@
         "y1": 5.9,
         "x2": 39.5,
         "y2": 12.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Licio Isolani (born 1931) is an Italian-American artist and educator whose work is closely associated with the Experiments in Art and Technology (E.A.T.) movement in the late 1960s and early 1970s. Born in Volterra, Italy, he studied at the Florence Art Institute before moving to New York in the early 1960s. By the late 1960s, he had joined E.A.T., the organization founded by Billy Klüver, Robert Rauschenberg, and John Cage. Isolani was a participant in the major E.A.T. exhibition titled 'Some More Beginnings' (1968) at the Brooklyn Museum. His work often focused on kinetic sculpture and the use of modern materials like plastic. He notably collaborated with scientists and engineers, including experiments at Columbia University where he explored the use of atomic energy to provide permanent illumination for his sculptural works. Isolani also served as a Senior Associate Professor at the Pratt Institute's School of Art and Design for many years.",
+            "sources": [
+              "https://www.villa-palagione.org/vpa-en/seminare/kultur-geschichte-vortraege/Licio-Isolani-Volterra-New-York-Villa-Palagione",
+              "https://www.villa-palagione.org/licio-isolani-exhibition-in-volterra-2003/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Who is the artist \"Isolana\"?",
+            "\"Isolana\" artist 1960s 1970s",
+            "artist \"Isolana\" Experiments in Art and Technology",
+            "\"Isolana\" E.A.T. organization artist",
+            "artist named \"Isolana\" active 1960s 1970s",
+            "\"Isolana\" E.A.T. collaborator",
+            "\"Isolana\" artist \"Experiments in Art and Technology\"",
+            "\"Isolana\" artist 1968 1969 1970 1971 1972",
+            "\"Isolani\" artist E.A.T.",
+            "\"Jack B. Isolana\" artist",
+            "\"Isolana\" artist profile biography",
+            "\"Isolana\" Experiments in Art and Technology artist 1960s 1970s",
+            "\"Isolana\" artist E.A.T.",
+            "\"Isolana\" kinetic artist 1960s",
+            "\"Isolana\" 9 Evenings participant",
+            "\"Isolana\" female artist E.A.T.",
+            "\"Isolana\" artist Pepsi Pavilion"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBb_t_0IrhXsZP9_UZ99PDrxIKmPjj4GL5gqvMPSbJGBcOWDIrlGiXWBnLm9n8YJRs-zY_PXLVk-KMJDUtR30eL3flTf4BJ9LuwBjXSauRIlVCcOXGt0jV",
+              "title": "coe.int",
+              "resolvedUri": "https://rm.coe.int/16806d817a"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 248,
+                "endIndex": 359,
+                "text": "Born in Volterra, Italy, he studied at the Florence Art Institute before moving to New York in the early 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 360,
+                "endIndex": 479,
+                "text": "By the late 1960s, he had joined E.A.T., the organization founded by Billy Klüver, Robert Rauschenberg, and John Cage."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 891,
+                "endIndex": 1302,
+                "text": "Isolani also served as a Senior Associate Professor at the Pratt Institute's School of Art and Design for many years.\",\n      \"sources\": [\n        \"https://www.villa-palagione.org/vpa-en/seminare/kultur-geschichte-vortraege/Licio-Isolani-Volterra-New-York-Villa-Palagione\",\n        \"https://www.villa-palagione.org/licio-isolani-exhibition-in-volterra-2003/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +94,222 @@
         "y1": 13.0,
         "x2": 38.3,
         "y2": 20.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19171",
+          "label": "Becky Arnold",
+          "description": "",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The index card name is 'BECK' with the metadata '(Sue)', which strongly suggests the individual is named Sue Beck. The Wikibase entity is 'Becky Arnold'. While 'Becky' and 'Beck' are similar, 'Beck' on an index card usually denotes the surname, making the person Sue Beck, which does not match Becky Arnold."
+        },
+        {
+          "qid": "Q23027",
+          "label": "Beckley (W. Va.)",
+          "description": "city in West Virginia",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Beck (possibly Sue Beck), whereas the Wikibase entity describes a geographical location (the city of Beckley, West Virginia)."
+        },
+        {
+          "qid": "Q28487",
+          "label": "Becky Young",
+          "description": "",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The index card lists the name as 'BECK (Sue)', implying a person named Sue Beck active in 1967. The Wikibase entity is for 'Becky Young'. While both are associated with the artistic context of the late 1960s (E.A.T.), the first names 'Sue' and 'Becky' and the likely surnames 'Beck' and 'Young' do not align."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q11901",
+          "label": "Beck",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Beck, the musician) was born in 1970 and began his career in 1988. The index card entry is dated 1967, which is before the Wikidata subject was born. Furthermore, the index card metadata mentions '(Sue)', suggesting a female subject named Sue Beck, whereas the Wikidata entity is a male musician named Beck Hansen (born Bek David Campbell)."
+        },
+        {
+          "qid": "Q78986",
+          "label": "Günther Beck von Mannagetta und Lerchenau",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active in 1967 and is likely named 'Sue Beck'. The Wikidata entity describes G&uuml;nther Beck von Mannagetta und Lerchenau, an Austrian botanist who died in 1931, making a match chronologically impossible."
+        },
+        {
+          "qid": "Q104263",
+          "label": "Theodor Becker",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The index card describes a person named 'Beck' (likely Sue Beck) active in 1967, likely an artist. The Wikidata entity is Theodor Becker (1840-1928), a German entomologist and civil engineer who died nearly 40 years before the date on the card."
+        },
+        {
+          "qid": "Q164683",
+          "label": "Max Beckmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a 'Sue Beck' who was active in 1967. Max Beckmann was a male painter who died in 1950, making it impossible for him to be the person described in a 1967 entry. Additionally, the names 'Sue Beck' and 'Max Beckmann' are distinct."
+        },
+        {
+          "qid": "Q234152",
+          "label": "Becki Newton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active in 1967, whereas Becki Newton (Q234152) was born in 1978 and did not begin her career until 2001. Additionally, the card suggests a first name of 'Sue' and a surname of 'Beck', which does not match 'Rebecca Newton'."
+        },
+        {
+          "qid": "Q1393997",
+          "label": "Becky G",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The index card record dates to 1967, whereas the Wikidata entity for Becky G (Rebecca Marie Gomez) was born in 1997 and did not begin her career until 2011. The names also do not align, as the card likely refers to a 'Sue Beck' while the Wikidata entity is 'Becky G'."
+        },
+        {
+          "qid": "Q1679322",
+          "label": "Jakob Samuel Beck",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The index card refers to an individual named Sue Beck active in 1967. The Wikidata entity describes Jakob Samuel Beck, a German painter who lived from 1715 to 1778. The dates and first names do not match."
+        },
+        {
+          "qid": "Q2313940",
+          "label": "Becky Ann Baker",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The index card name is interpreted as Sue Beck (with 'BECK' being the surname and 'Sue' in parentheses), whereas the Wikidata entity is for Becky Ann Baker (born Becky Ann Gelke). Additionally, Becky Ann Baker was born in 1953 and was only 14 years old in 1967, which doesn't align with the likely professional activity recorded on the index card, and her professional career began in 1978."
+        },
+        {
+          "qid": "Q7301800",
+          "label": "Becky Lynch",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active in 1967, while the Wikidata entity was born in 1987. Furthermore, the name on the card likely refers to a 'Sue Beck', whereas the Wikidata entity is the professional wrestler Becky Lynch (birth name Rebecca Quin)."
+        },
+        {
+          "qid": "Q16236194",
+          "label": "Becky Hill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named 'Beck (Sue)' active in 1967. The Wikidata entity is for Becky Hill, a singer born in 1994 who began her career in 2012. The dates and the names do not align."
+        },
+        {
+          "qid": "Q23646662",
+          "label": "Henrik Henriksen Beck",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Henrik Henriksen Beck) lived in the 19th century (1799-1863) and was a zoologist. The index card refers to a person active in 1967, likely named Sue Beck, who was involved in the arts during the late 1960s."
+        },
+        {
+          "qid": "Q59393436",
+          "label": "Hans Peter Beck",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The index card refers to a 'Sue Beck' active in 1967. The Wikidata entry is for Hans Peter Beck, a male experimental physicist born in 1965. Hans Peter Beck would have been a toddler in 1967, and his profession and gender do not match the metadata provided on the card."
+        },
+        {
+          "qid": "Q65927261",
+          "label": "Beck",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The index card refers to an artist (likely Sue Beck) active in 1967. The Wikidata entity Q65927261 describes a German badminton player born in 1954 who participated in youth championships in the GDR. These are two different individuals with unrelated professions and geographic contexts."
+        },
+        {
+          "qid": "Q109483147",
+          "label": "Becki Bucher Bartelson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The index card refers to a person likely named Sue Beck active in 1967 within an artistic context. The Wikidata entity is for Becki Bucher Bartelson, a researcher at the Denver Health Medical Center. The first names (Sue vs. Becki/Beatrice/Rebecca) and the professional contexts (artist vs. medical researcher) do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stephen Beck (also known as Steve Beck) is an American video artist, inventor, and engineer who was a pioneer in the field of video synthesis and electronic art during the late 1960s and early 1970s. Born in 1950, he studied electronic engineering at the University of California, Berkeley, and electronic music composition under John Cage at the University of Illinois, Urbana. In 1968, Beck became a charter and founding member of the Chicago chapter of Experiments in Art and Technology (E.A.T.), an organization dedicated to fostering collaborations between the arts and sciences. He is best known for inventing the Beck Direct Video Synthesizer in 1969, a device that allowed for the real-time generation of electronic imagery without the use of a camera. Between 1970 and 1973, he served as an artist-in-residence at the National Center for Experiments in Television (NCET) in San Francisco. His notable works from this era include 'Our Darling' (1969), an electronic multimedia sculpture created in collaboration with Paul Mohr, and the abstract video compositions 'Union' (1972), 'Cycles' (1972, with Jordan Belson), and 'Illuminated Music' (1972–1973). His work often focused on the synthesis of light, color, and motion, drawing influences from Op art and kinetic art.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzRc6uOC0qDoAybKw-5-wdeKM9BYh9FQ3jRIVNNnovHwyBFF39r5yQriuqduUX_RCP0xlKdl1Z2__PKIkrceHac0fHTEzM7s3mNdJxuFO4k8jC29cibKxuIpx37JJrEKHQMos=",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHI4LlkBM3YC7EKmVPF22q5FQNfXOT4BqpHUOYT_OuIUvGnQ7OdL8F1uhXrBRZCH2qE0bA5Zrkt8e_aZX4D1MAb-O1uf5781lMkG1qVIg1mwW7UmsXsS47B6GeTEiq63UP6kT2TZLCZDipwJrjDNbyLZbetfIc=",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN32kAm1OK2hfjYgImqt8WRcwNebm26qHJyT5i5OqwwWssZQEWQn_7siMjBSeVidaHMtjM56OXsrZK2Wda7kP0csldyi7w8IOPUsrkI5jrSihTmkzjaErNED5VBo8P",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjpdhWE3IJ5WCnYE0CZAuTeDYL5quKjWQnfpzPa8hJRMZ2FfAA_XGvu0dfvPY1p3PWw61NiOgkIgkdBfSImMOosStMNJ6w26YGHHDQAWc1xrUAL_Z4Tz0zpkgTO_mSpNnD65_EopGkNyPc7vJR"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Stephen Beck\" artist E.A.T.",
+            "artist \"Beck\" Experiments in Art and Technology E.A.T.",
+            "\"Beck\" artist collaboration engineers scientists 1960s",
+            "\"Beck\" artist 1960s 1970s E.A.T. organization",
+            "\"Beck & Jung\" Experiments in Art and Technology",
+            "list of artists associated with \"Experiments in Art and Technology\" \"Beck\"",
+            "\"Stephen Beck\" E.A.T. projects 1960s 1970s",
+            "\"Margit Beck\" Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjpdhWE3IJ5WCnYE0CZAuTeDYL5quKjWQnfpzPa8hJRMZ2FfAA_XGvu0dfvPY1p3PWw61NiOgkIgkdBfSImMOosStMNJ6w26YGHHDQAWc1xrUAL_Z4Tz0zpkgTO_mSpNnD65_EopGkNyPc7vJR",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/stephen-beck/biography"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0u3WCgt3GlfhvUHFsHohiq3qyQfMj8xcQJ_9rrFxA4DlkXL8l37ooWr6NWhqkxvCVwWB2VNVixQDHf46HCMjykqcCr_6O4u_Qf0ePaSICg6clzprtLrOL4obwmv_QS8tzZXp3gXTr2ic=",
+              "title": "atasite.org",
+              "resolvedUri": "https://www.atasite.org/zine/issue2/decay.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6Yfe1LqY3gmWxIiVT0hf-WkXWiTTnggD-rw5F4lnkx_ECa7vRo6pr0s8MkY6kg4hVjIudJcze5O7ZHY_wDA68Y4NXuAmiTFfa0lVE_66sL7lC-79aoLbrrGwB-pYuLRUokViylpmPywgOhcmXQgDdJs6kUZnWUxFa86hXxYCO-h_J8P0stgssZ5MIn0cQgd1huBBgQqFcco654Q==",
+              "title": "berkeley.edu",
+              "resolvedUri": "https://goldberg.berkeley.edu/art/ATC-10th-Anniv-Book-for-Adobe-Reader-View-Full-Screen-Mode.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFknr8qmu43pvpxKEBmREJQkD6Xb3BzvU535I_WBzx1B1DHFBDKzSTFk598VQ7FkB-pl48o8FX8lWGbq7JI_xdYfDJ82MAnOlaNZVR4qsR2SgvUsdOJg2ZPuSHhc6cf_AV71g-HOiAWTc8HFJFYvh92GN9JTJrLMbWrOdNT7UVQNX6Sq0zmPQ==",
+              "title": "computer.org",
+              "resolvedUri": "https://www.computer.org/csdl/magazine/an/2014/04/man2014040074/13rRUxBrGiR"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES42GzIMYNBLhu1IM5L-_s1IuMH3q2hgxcRStN6_30OqGRCMJv5EG2nmWWzsc_gkHxnNCErhBiGFoW4zG-h53jFB99-2OhkWDVoFF9ZZ8BWR5Z6R_LMocXNk9udGahj2NrSLMAe1TsJyan9YvrZ2fTuhHtDTq63Nf7cA==",
+              "title": "stevebeck.tv",
+              "resolvedUri": "https://www.stevebeck.tv/project/beck-direct-video-synthesizer/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 249,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Stephen Beck (also known as Steve Beck) is an American video artist, inventor, and engineer who was a pioneer in the field of video synthesis and electronic art during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 635,
+                "endIndex": 810,
+                "text": "He is best known for inventing the Beck Direct Video Synthesizer in 1969, a device that allowed for the real-time generation of electronic imagery without the use of a camera."
+              },
+              "groundingChunkIndices": [
+                2,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 811,
+                "endIndex": 947,
+                "text": "Between 1970 and 1973, he served as an artist-in-residence at the National Center for Experiments in Television (NCET) in San Francisco."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +321,87 @@
         "y1": 20.6,
         "x2": 44.5,
         "y2": 31.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q137273011",
+          "label": "Carlos San Segundo",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carlos San Segundo is a modern entrepreneur and podcaster known for works like 'Mixing Rap Vocals,' which implies a career timeline inconsistent with an artist active in 1968. While the surnames match, the professional details suggest a contemporary figure rather than a mid-20th-century artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Carlos Sansegundo (1930–2010), also known as Carlos Sansegundo Castañeda or Juan Carlos Sansegundo, was a Spanish painter and sculptor active in the late 1960s and early 1970s. Born in Santander, he studied at the San Fernando Academy in Madrid before working in Paris and alongside sculptor Henry Moore in England. He was a founding member of the artist group Grupo Ibiza 59 and later the Hondo Group. Sansegundo moved to New York in 1964, where he lived until approximately 1973. During his time in New York, he was closely associated with the Pop Art movement and developed friendships with figures such as Robert Rauschenberg and Andy Warhol; the latter served as his godfather when he married abstract artist Ruth Kligman in the mid-1960s. He is noted for his participation in the 1964 New York World's Fair Spanish Pavilion and for his work with modern materials, such as plastic. Academic sources explicitly link him to the Experiments in Art and Technology (E.A.T.) movement, identifying him as one of the primary Spanish artists involved with or influenced by the organization's mission to bridge art and technology during the late 1960s. His work from this period transitioned from traditional sculpture to paintings featuring Pop Art elements and 'Hard Edge' abstraction.",
+            "sources": [
+              "https://www.martatorresgallery.com/carlos-sansegundo",
+              "https://www.rogallery.com/artists/carlos-sansegundo/",
+              "https://en.wikipedia.org/wiki/Ruth_Kligman",
+              "http://repositori.uoc.edu/bitstream/10609/1253/1/02_Informalisme_art_conceptual.pdf",
+              "https://www.elle.com/culture/art-design/a19131/ruth-kligman-jackson-pollock/",
+              "https://www.craftcouncil.org/digital-asset/plastic-plastic-exhibition-catalog"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Juan Sansegundo\" artist",
+            "\"Sansegundo\" artist 1960s 1970s",
+            "artist \"Sansegundo\" Experiments in Art and Technology",
+            "\"Sansegundo\" E.A.T. project",
+            "\"Mariano Sansegundo\" artist",
+            "",
+            "\"Carlos Sansegundo\" sculptor",
+            "\"Carlos Sansegundo\" painter",
+            "\"Carlos Sansegundo\" artist New York 1960s",
+            "\"Carlos Sansegundo\" \"Experiments in Art and Technology\"",
+            "\"Carlos Sansegundo\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5j1AbNkEiKtqGfuYhH9IHycbXKWndUZm2Jn_v1fOEnVZAZwR_x_LWYoEDWdnlpFIlZyuFeJBFZCD9Rat9Vi7JwTn_v_7vBQfBjH7rhXKYj9ErdYHEA9PoPTxQDzHvIwu-xIkD",
+              "title": "artelista.com",
+              "resolvedUri": "https://carlossansegundo.artelista.com/en/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG74Row98K7l_NwgGBmT6-IU0OAGK63i17vsGx1q9wSqYTjXuPKIPSRvAtzSbGZc2odlJukwOx3ewzAdhzrp0uZ-pG3U1GHzkneQxNpdbcZVEzjjdzwY3Fepi_Xjk5TKWPav1saK9l52jT",
+              "title": "rogallery.com",
+              "resolvedUri": "https://rogallery.com/artists/carlos-sansegundo/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvuK9O-nA4llTTadLYlYIeKAdB5_POVxmWimqfMkp03CPEaCZe5B380tutAeC2EO8v1G4J3Jw4mjU9poJ59O0EvRC8N67tYyCGXYap3a8hTZsyK3pVymxE-j64E3_ncue0SF8shZAEK3_dU0jZ8vhMMBia_RhMRBvxUtSx0LbQghSz5dI00kUrZVlmHA5P1d8=",
+              "title": "museeceresfranco.com",
+              "resolvedUri": "https://www.museeceresfranco.com/fr/expositions-et-artistes/artistes/carlos-sansegundo"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 229,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Carlos Sansegundo (1930–2010), also known as Carlos Sansegundo Castañeda or Juan Carlos Sansegundo, was a Spanish painter and sculptor active in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 230,
+                "endIndex": 368,
+                "text": "Born in Santander, he studied at the San Fernando Academy in Madrid before working in Paris and alongside sculptor Henry Moore in England."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -41,6 +412,53 @@
         "y1": 30.6,
         "x2": 29.8,
         "y2": 37.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Isolam\" art history",
+            "\"Isolam\" Experiments in Art and Technology E.A.T.",
+            "\"Isolam\" 1960s 1970s artist",
+            "\"Isolam\" E.A.T. collaboration",
+            "artist named \"Isolam\"",
+            "\"Isolam\" Experiments in Art and Technology",
+            "\"Isolam\" art 1960s 1970s",
+            "\"Isolam\" 1960s artist technology",
+            "\"Isolam\" participant E.A.T.",
+            "\"Isolam\" artist E.A.T.",
+            "\"Isolam\" artist biography",
+            "\"Isolam\" E.A.T. participant",
+            "\"Isolam\" Experiments in Art and Technology list",
+            "\"Isolam\" artist 1968 1969 1970 1971",
+            "\"L. Isolam\" artist",
+            "\"Isolam\" 1968 1969 1970 artist bio",
+            "\"Isolam\" artist 1960s 1970s paintings sculptures",
+            "\"Isolam\" E.A.T. project",
+            "\"Isolam\" member of Experiments in Art and Technology",
+            "\"Isolam\" artist name biography",
+            "\"Experiments in Art and Technology\" \"Isolam\"",
+            "\"E.A.T.\" \"Isolam\"",
+            "\"Isolam\" artist E.A.T. project",
+            "\"Isolam\" bio artist",
+            "\"Isolam\" 1960s 1970s technology artist",
+            " \"Isolam\"",
+            "\"L. Isolam\" E.A.T.",
+            "\"Isolam\" participant 1960s 1970s art movement",
+            "\"Isolam\" Experiments in Art and Technology E.A.T. member engineer artist",
+            "\"Isolam\" list of artists E.A.T.",
+            " \"Isolam\"",
+            "\"Isolam\" artist E.A.T. newsletter",
+            "\"Isolam\" engineer E.A.T. list",
+            "\"Isolam\" artist \"9 Evenings\"",
+            "\"Isolam\" Experiments in Art and Technology 1968",
+            "\"Isolam\" name meaning artist"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -51,6 +469,114 @@
         "y1": 34.3,
         "x2": 48.9,
         "y2": 57.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q474250",
+          "label": "Amos Eaton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Amos Eaton) lived from 1776 to 1842, which is more than a century before the active date on the card (1970). Additionally, the given names (Lorenzo vs. Amos) do not match, and their fields of work (botany/geology vs. art) are distinct."
+        },
+        {
+          "qid": "Q2396847",
+          "label": "Alfred Edwin Eaton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Alfred Edwin Eaton lived from 1845 to 1929, which makes it impossible for him to be the person on the card active in 1970. Additionally, the first names (Lorenzo vs. Alfred Edwin) do not match."
+        },
+        {
+          "qid": "Q3013272",
+          "label": "Dana Loesch",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Dana Loesch) was born in 1978, which is eight years after the 1970 date on the Lorenzo Eaton card. Furthermore, the first names (Lorenzo vs. Dana) do not match, and their career paths are entirely different."
+        },
+        {
+          "qid": "Q43129846",
+          "label": "Charles Harry Eaton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Lorenzo Eaton' does not match 'Charles Harry Eaton'. Furthermore, the Wikidata entity died in 1901, which is inconsistent with the artist active in 1970 described on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lorenzo Eaton (1815–1904) was a 19th-century artist, teacher, and businessman based in Concord, Massachusetts. He was born to Silas and Nancy (Stone) Eaton and was a prominent member of the local community, serving in the Social Circle in Concord and as a member of the Middlesex Mutual Fire Insurance Company. While he is historically identified as an 'artist and teacher' well-known to art lovers in Boston, his active period predates the Experiments in Art and Technology (E.A.T.) era by several decades. Records from the Concord Free Public Library and genealogical archives confirm his involvement in decorative arts and teaching during the mid-to-late 1800s. There is no widely documented record of a contemporary artist by the name 'Lorenzo Eaton' active in the late 1960s or early 1970s; however, the description of an 'Eaton' associated with E.A.T. and biofeedback during that timeframe frequently refers to Manford Eaton (active late 1960s–1970s), a pioneer of 'Bio-Music' who used biological signals as artistic control data.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETh5sRnWPuBCmfc_5IK0afXpjd2VrUcCda3MwfMhdz72vKMPmnwj7lAIvogkUFUKulY1vC1YZFcdYP34HYd72aY7grGiDJgIeiJJcigBeFj0gXZT1jxYUrMZh6Cyn2ufm6maowwEQmvfgIkXW7MDkRF7HbJhYSP7EIgDcsqLbCWQ==",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDIHOneyPMoqLNNOPWs-5-vQNFjiOz2WWEpSgRblKNlEw0AVzsW7AWhodNexdXDtP8LvoTz_swMrhbou0reHkkRVffsD_7f7NKgbq0ZerEqyRsnyVCIPcD75Zn8NvWtqj_OypqyHIbQvTj63TCyw8-xAzrxZHX3xeGRhfIkfgtjTvGTIraoa0vRS44iw==",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUQVwcaEujjttFG_I8zQqRUU13k7qzDeuadbwiXJzSulXJrev5z1MWD-kBazgw_IDqfjEEtr8Wqt5DVRSKEOYWJTKhlyuFDAEHAi_3M9d2SPKKXHGihw524nLO04CrveLDyahcJygEAa-ScHdf1vfa9mERmxJ7ToIIkSKJqBDBruWYvjvlgHRYXhlM0_0U4VseNQ==",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6ET37cm4H0udPqMoop-L1InhCd1gX8MPpjWoqEWpxbnOLoG8EELjyPYdoWitSGJMrTePoQXgvg1xycuZ2tgW3P9855PQCF1v-5ZLOOPhxQHo7y-w2uslf2zrNjoTWY5qs45HpbdX8KcUSi1rWX3go4nPGRrZT3CltuF3485B0hl9NGjo8vjWR65c="
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Lorenzo Eaton\"",
+            "\"Lorenzo Eaton\" 1960s 1970s artist",
+            "\"Lorenzo Eaton\" E.A.T. Experiments in Art and Technology",
+            "",
+            "\"Lorenzo Eaton\" 1970s artist New York",
+            "\"Lorenzo Eaton\" artist E.A.T.",
+            "\"Lorenzo Eaton\" video artist",
+            "\"Lorenzo Eaton\" 1960s artist California",
+            "\"Lorenzo Eaton\" E.A.T. member",
+            "\"Lorenzo Eaton\" video film artist 1970s",
+            "\"Lorenzo Eaton\" artist 1960s 1970s",
+            "\"Lorenzo Eaton\" artist bio 1970s",
+            "\"Lorenzo Eaton\" artist 1968 1969 1970 1971",
+            "\"Lorenzo Eaton\" E.A.T. bibliography",
+            "\"Lorenzo Eaton\" art \"early 1970s\"",
+            "\"Lorenzo Eaton\" art \"late 1960s\"",
+            "\"Lorenzo Eaton\" filmmaker 1970s",
+            "\"Eaton\" member \"Experiments in Art and Technology\"",
+            "\"Eaton\" \"E.A.T.\" technical contributor",
+            "\"Lorenzo Eaton\" artist video experimental",
+            "\"Lorenzo Eaton\" art exhibition 1969 1970 1971",
+            "\"Eaton\" biofeedback \"Experiments in Art and Technology\"",
+            "\"Manford Eaton\" E.A.T.",
+            "\"Eaton\" Rauschenberg biofeedback",
+            "\"Manford Eaton\" \"Lorenzo\"",
+            "\"Lorenzo Eaton\" artist 1960s E.A.T.",
+            "\"Lorenzo Eaton\" artist 1970s member E.A.T.",
+            "\"Lorenzo Eaton\" engineer E.A.T.",
+            "\"Lorenzo Eaton\" E.A.T. member list",
+            "\"Lorenzo Eaton\" video artist bio",
+            " \"Eaton\"",
+            " \"Eaton\" E.A.T.",
+            "\"Lon Eaton\" bio-music",
+            "\"Lorenzo Eaton\" technical participant E.A.T.",
+            "\"Lorenzo Eaton\" \"E.A.T.\" artist",
+            "",
+            "\"Lorenzo Eaton\" artist 1966 1967 1968 1969 1970 1971 1972",
+            "\"Lorenzo Eaton\" sculpture 1970s E.A.T.",
+            "\"Lorenzo Eaton\" filmmaker video artist 1970s New York",
+            "\"Lorenzo Eaton\" electronics art 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5GHYmkm6F8WeM75lVTck1FFLLu3bVAaMj_mfJzJQGDu4d6R9yPGw6J6AwcVI0nRZjBsgNpwVNaZ7Yx-IdlM4KGIQ8cek4PH9pVK50g_8Fz2KZ3w470Z1vaxWA6_cf1tX70ec1ltOBDyRGy4FGSwtVPelYnrjydp8_OVRILZxKDMhmUJgiSD2MsF5FoFX_nULSPlDv6SjM40dPIUOqL_RzCWnVyQvUp5v8KdScBosRAVR2eKzAu6uTmRrU-nTwYRcXSY1GnJY3qdtS2MMVymM-ZKdGFNPAONYMYfftpvjG-Pw3DL8ruVZ4WCuRcXhvnBrDLUsn",
+              "title": "wikimedia.org",
+              "resolvedUri": "https://upload.wikimedia.org/wikipedia/commons/3/3b/The_Centenary_of_the_birth_of_Ralph_Waldo_Emerson_-_as_observed_in_Concord%2C_May_25%2C_1903_%28IA_emersoncentenary00concrich%29.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 162,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lorenzo Eaton (1815–1904) was a 19th-century artist, teacher, and businessman based in Concord, Massachusetts."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -61,6 +587,147 @@
         "y1": 52.6,
         "x2": 48.0,
         "y2": 68.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q232299",
+          "label": "Stanley Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marti' and 'Stanley' are not equivalent, and the professions (artist vs. Nobel Prize-winning biochemist) are entirely unrelated. There is no evidence suggesting this famous scientist was also an artist known as Marti Cohen."
+        },
+        {
+          "qid": "Q504139",
+          "label": "Andrew Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marti Cohen' and 'Andrew Cohen' do not match. Additionally, the Wikidata entity was born in 1955, meaning he would have been only 14 or 15 years old at the time of the 1970 date on the card, making it unlikely he is the person described."
+        },
+        {
+          "qid": "Q4678882",
+          "label": "Adam Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Adam Cohen was born in 1979, which is nearly a decade after the 1970 date recorded on the index card. Furthermore, the names (Marti vs. Adam) and occupations (artist vs. chemist/researcher) do not align."
+        },
+        {
+          "qid": "Q5778844",
+          "label": "Combertus Pieter Cohen-Stuart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Combertus Pieter Cohen-Stuart died in 1945, making it impossible for him to be the artist Marti Cohen active in 1970. Furthermore, the names and occupations (botanist vs. artist) do not match."
+        },
+        {
+          "qid": "Q6773468",
+          "label": "Marshall A. Cohen",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry describes an artist named Marti Cohen active around 1970. The Wikidata entity Marshall A. Cohen is a Canadian lawyer and banker. While the names are phonetically similar (Marti/Marty), the professional backgrounds are significantly different, making it unlikely they are the same person."
+        },
+        {
+          "qid": "Q6953859",
+          "label": "Jacques Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marti' and 'Jacques' (or 'Jack') are not common variants of each other. While Jacques Cohen was an artist (actor) active during the 1970s, the name mismatch is significant enough to conclude they are different individuals."
+        },
+        {
+          "qid": "Q18038631",
+          "label": "Michael Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Michael Cohen, aka Cohen Beats) was born in 1986 and started his career in 2008. This makes it impossible for him to be the Marti Cohen mentioned in a record dated 1970."
+        },
+        {
+          "qid": "Q24572187",
+          "label": "Neal J. Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marti' and 'Neal' do not match. Furthermore, the Wikidata entity describes a prominent neuroscientist and psychologist, which does not align with the context of the person on the card being an artist active in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q28125828",
+          "label": "Cohen Bramall",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are completely incompatible. The person on the card was active in the early 1970s, whereas the Wikidata entity (Cohen Bramall) was born in 1996. Furthermore, the Wikidata entity is a professional football player, while the card entry refers to an artist, and the names do not match (Marti Cohen vs. Cohen Bramall)."
+        },
+        {
+          "qid": "Q29212867",
+          "label": "Jonathan D. Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1971, making it impossible for them to be an artist active in 1970. Furthermore, the names (Marti vs. Jonathan) and professions (Artist vs. Cognitive Scientist) do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Marti Cohen (also known as Marti Cohen-Wolf) is a New York-based administrator and coordinator who was a central figure in the organization Experiments in Art and Technology (E.A.T.) during the late 1960s and early 1970s. She served as the Director of the E.A.T. Office in New York City, working closely with the organization's founders, Billy Klüver and Robert Rauschenberg. In this role, she helped manage the daily operations and coordinated the matching of artists with engineers and scientists for collaborative projects. She was also a staff member for the organization's publications, such as 'E.A.T. News'. In her later career, she became a prominent community advocate in Lower Manhattan, serving as a public member of Community Board 1 (CB1) for many years and advocating for projects like the development of Teardrop Park in Battery Park City and the Performing Arts Center at the World Trade Center site. She is also associated with a business entity called OBJECT:ART, LLC.",
+            "sources": [
+              "https://www.nyc.gov/html/mancb1/downloads/pdf/Reports/CB1_Annual_Report_2007.pdf",
+              "https://www.amny.com/news/teardrop-park-brings-joy-to-downtown-residents/",
+              "https://cbe.ab.ca/Pages/default.aspx",
+              "https://www.energy.gov/sites/prod/files/2013/01/f0/2012_LNG_Export_Study_Comments_CREDO_Action.pdf",
+              "https://www.sos.la.gov/BusinessServices/SearchForLouisianaBusinessListings/Pages/default.aspx"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Marti Cohen\" E.A.T. archives",
+            "\"Marti Cohen\" artist biography",
+            "Marti Cohen artist Experiments in Art and Technology E.A.T.",
+            "\"Martha Cohen\" Experiments in Art and Technology",
+            "\"Marti Cohen\" E.A.T. staff",
+            "\"Marti Cohen\" Experiments in Art and Technology E.A.T.",
+            "\"Marti Cohen\" E.A.T. newsletter",
+            "\"Marti Cohen\" photographer E.A.T.",
+            "\"Marti Cohen\" film editor E.A.T.",
+            "\"Marti Cohen\" administrator E.A.T.",
+            "\"Martha Cohen\" E.A.T.",
+            "\"Marti Cohen\" Experiments in Art and Technology staff list",
+            "\"Marti Cohen\" coordinator E.A.T.",
+            "",
+            "\"Marti Cohen\" E.A.T. New York",
+            "\"Marti Cohen\" Robert Rauschenberg coordinator",
+            "\"Marti Cohen\" E.A.T. office",
+            "",
+            "\"Marti Cohen\" \"E.A.T.\" archive",
+            "\"Marti Cohen\" artist New York 1970",
+            "\"Marti Cohen\" E.A.T. administrator office",
+            "\"Marti Cohen-Wolf\" E.A.T.",
+            "\"Marti Cohen\" E.A.T. staff biography",
+            "\"Marti Cohen\" director of the E.A.T. office",
+            "\"Marti Cohen\" E.A.T. newsletter masthead",
+            "\"Marti Cohen\" \"E.A.T.\" office director",
+            "\"Marti Cohen\" 9 East 16th Street E.A.T.",
+            "\"Marti Cohen\" E.A.T. News masthead staff",
+            "\"Marti Cohen-Wolf\" photographer artist",
+            "\"Marti Cohen\" E.A.T. projects outside art"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDknQj2KgsVURwY3tTdDBVUb5PQMcGFofaa0yH1m1baZDGrHbw09Kr3UzyUcM4LBrWOt0gVdEOAs2DOl7rysLL9K_9hswAf3woQFPe4rRHg4uwqEBTnGw-RfoBku_BVkc-nr-aCtWcWRyP4CefxNQE7ecxiMau0wpJJdUDWEI=",
+              "title": "la.gov",
+              "resolvedUri": "https://corafiles.sos.la.gov/NewCorpNewsletters/NewCorp_20250225.txt"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 968,
+                "endIndex": 1550,
+                "text": "She is also associated with a business entity called OBJECT:ART, LLC.\",\n      \"sources\": [\n        \"https://www.nyc.gov/html/mancb1/downloads/pdf/Reports/CB1_Annual_Report_2007.pdf\",\n        \"https://www.amny.com/news/teardrop-park-brings-joy-to-downtown-residents/\",\n        \"https://cbe.ab.ca/Pages/default.aspx\",\n        \"https://www.energy.gov/sites/prod/files/2013/01/f0/2012_LNG_Export_Study_Comments_CREDO_Action.pdf\",\n        \"https://www.sos.la.gov/BusinessServices/SearchForLouisianaBusinessListings/Pages/default.aspx\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

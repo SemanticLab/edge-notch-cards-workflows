@@ -11,6 +11,165 @@
         "y1": 6.8,
         "x2": 39.5,
         "y2": 22.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1241",
+          "label": "Rosemary Clooney",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Clifford Rose) and the name in the Wikibase entry (Rosemary Clooney) are completely different individuals. While both could be considered artists active in the same era, there is no linguistic or historical overlap between these two specific names."
+        },
+        {
+          "qid": "Q19568",
+          "label": "Rose Marie Castoro",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Clifford Rose does not match Rose Marie Castoro. While Rose is common to both, Clifford is a distinct first name and there is no evidence provided that this is an alias or that the individuals are the same."
+        },
+        {
+          "qid": "Q19569",
+          "label": "Rose Petrock",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different. The card refers to 'Clifford Rose', while the Wikibase entity is for 'Rose Petrock'. There is no indication in the metadata that these are aliases or the same individual."
+        },
+        {
+          "qid": "Q25181",
+          "label": "Rose Slivka",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Clifford Rose' and 'Rose Slivka' are distinct. While 'Rose' appears in both, it is a first name on the card and a surname/given name for the Wikibase entity. Furthermore, Clifford is typically a male name while the Wikibase entity is identified as a woman (Rose Slivka, a prominent art critic). There is no indication they are the same person."
+        },
+        {
+          "qid": "Q27946",
+          "label": "Rosemary Stroer",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Clifford Rose and Rosemary Stroer are entirely different, and there is no metadata in the Wikibase entity suggesting that 'Clifford Rose' is an alias or related name for Rosemary Stroer."
+        },
+        {
+          "qid": "Q29247",
+          "label": "Rosemary Clifford Wilson",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card name 'Clifford Rose' and the Wikibase entity name 'Rosemary Clifford Wilson' do not match. While they share the components 'Clifford' and 'Rose' (as a prefix in Rosemary), 'Clifford Rose' is a distinct name (historically associated with a well-known male actor active during the relevant period), whereas the Wikibase entity describes a woman. Additionally, the Wikibase record contains conflicting metadata (linking to Carrie Williams Clifford), making a positive identification impossible."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5133033",
+          "label": "Clifford Rose",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Clifford Rose matches exactly. The Wikidata entity describes a prominent British actor active during the late 1960s and 1970s, which fits the artist context provided. One of the existing candidate reasoning blocks in the card data even explicitly mentions Clifford Rose as a well-known male actor from this period, supporting the identification."
+        },
+        {
+          "qid": "Q16019541",
+          "label": "F. Clifford Rose",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q16019541) describes F. Clifford Rose, a prominent British neurologist and physician. The card refers to an individual within an artistic context (active in the late 1960s/early 1970s). Given the specific professional profile of the Wikidata entity in medicine and neurology, it is highly unlikely to be the artist mentioned on the index card."
+        },
+        {
+          "qid": "Q60441187",
+          "label": "Clifford Roseline",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Clifford Rose, whereas the Wikidata entity is Clifford Roseline. Furthermore, the Wikidata entity is a military officer with contemporary activity (noted in a 2019 image), which does not align with the historical card's context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q101132428",
+          "label": "Clifford J Rosen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Rose vs. Rosen), and the Wikidata entity is a medical researcher, which does not align with the context of the person on the card being an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Frank Clifford Rose (also known as F. Clifford Rose) (1926–2012) was a prominent British neurologist who was deeply involved in the intersection of neuroscience and the arts. While primarily a scientist, he is historically significant for his work exploring the relationship between the brain and artistic creativity, a field that mirrors the goals of Experiments in Art and Technology (E.A.T.). He edited several influential volumes on this subject, including \"Neurology of the Arts: Painting, Music, Literature\" (2004) and \"The Neurobiology of Painting\" (2006). His work analyzed the neurological conditions of famous artists like Goya and Van Gogh and examined how the brain processes aesthetic experiences. He was active in London during the late 1960s and 1970s, qualifying as a doctor in 1949 and being appointed Consultant Neurologist at Charing Cross Hospital in 1965.",
+            "sources": [
+              "https://www.tandfonline.com/doi/full/10.1080/0964704X.2013.784405",
+              "https://d-nb.info/1220310237/34",
+              "https://www.worldscientific.com/worldscibooks/10.1142/p301",
+              "https://www.researchgate.net/publication/235338048_Frank_Clifford_Rose_1926-2012"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Clifford Rose (born John Clifford Rose; 1929–2021) was a renowned British stage and television actor. He was a founding member of the Royal Shakespeare Company (RSC) in 1960 and was later named an RSC Honorary Associate Artist. During the late 1960s and early 1970s, he was highly active in experimental and classical theater, notably appearing in Peter Brook's groundbreaking 1964 production of \"Marat/Sade\" as Monsieur Coulmier. His association with the RSC and his designation as an \"Associate Artist\" often place him in historical records alongside visual and performance artists. He is perhaps best known for his 1970s role as Ludwig Kessler in the BBC series \"Secret Army.\"",
+            "sources": [
+              "https://www.theguardian.com/stage/2021/nov/15/clifford-rose-obituary",
+              "https://www.thestage.co.uk/obituaries/obituary-clifford-rose--royal-shakespeare-company-stalwart-and-star-of-tvs-secret-army",
+              "https://www.playbill.com/person/clifford-rose-vault-0000021671"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Clifford Rose artist biography",
+            "Clifford Rose artist Experiments in Art and Technology E.A.T.",
+            "\"Clifford Rose\" artist 1960s 1970s",
+            "\"Clifford Rose\" E.A.T. 1966 1967 1968 1969 1970",
+            "\"Clifford Rose\" art collaborative",
+            "\"Clifford Rose\" artist 1968 1969 1970 1971",
+            "\"Clifford Rose\" \"E.A.T.\" archive",
+            "\"Clifford Rose\" Experiments in Art and Technology member",
+            "\"Clifford Rose\" artist exhibitions 1960s 1970s",
+            "",
+            "\"Clifford Rose\" artist active 1960s 1970s NY",
+            "\"Clifford Rose\" visual artist 1970s",
+            "\"Clifford Rose\" E.A.T. artist or engineer",
+            "\"Clifford Rose\" artist \"9 Evenings\"",
+            "\"Clifford Rose\" Experiments in Art and Technology member list",
+            "",
+            "\"Frank Clifford Rose\" artist or collaborator E.A.T.",
+            "\"Clifford Rose\" Experiments in Art and Technology 1968 exhibition",
+            "\"Clifford Rose\" Pepsi Pavilion participant",
+            "\"Clifford Rose\" E.A.T. membership list 1960s",
+            "",
+            " \"Clifford Rose\"",
+            "\"Clifford Rose\" artist NY 1960s 1970s",
+            "\"Clifford Rose\" artist engineering collaboration",
+            "\"Clifford Rose\" \"E.A.T.\" contributor",
+            "\"Clifford Rose\" artist profile 1960s",
+            "\"Clifford Rose\" Bell Laboratories 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK_CvJRo5YHzM17ZMH-uptx65vh2COHgS-DfG20NvD3i5xcE8Fjhx7hBsRfDQBFtA7EHo_u7-RRE0-Vgkuuz1QRoTC-O-1T73WDa6-FjW6dXVsAONundZpehfxusWpu9iIPcwhOYKclNraMW4hLuD35uzL1X2NwJ0N0hnT",
+              "title": "tandfonline.com",
+              "resolvedUri": "https://www.tandfonline.com/doi/full/10.1080/0964704X.2013.787318"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjzJilYEmTIkAnCk03pr6VOJh1gLvywu-LsXZgy2e2h45gDeBFSb1T6YjKykiE1pyuRHl2jE6Y9JCrueVRMJ9s3LEhtWnaom1BvMKqX2dUXpEUZPIGrkGm5riTq8GYcGYqSGWQ-PzWw31vp1qyPwP1nIalNhN7",
+              "title": "wfneurology.org",
+              "resolvedUri": "https://wfneurology.org/public/documents/lF-B9/wn_jun01.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 226,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Frank Clifford Rose (also known as F. Clifford Rose) (1926–2012) was a prominent British neurologist who was deeply involved in the intersection of neuroscience and the arts."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

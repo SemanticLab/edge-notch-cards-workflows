@@ -9,6 +9,206 @@
         "y1": 10.1,
         "x2": 42.8,
         "y2": 15.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1399392",
+          "label": "Richard Adler",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match perfectly. The Wikidata entity Richard Adler (1921-2012) was a highly successful composer and lyricist active in musical theater and film throughout the mid-20th century, including the late 1960s and 1970s, which aligns with the provided context."
+        },
+        {
+          "qid": "Q1627234",
+          "label": "Richard Adler",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Richard Adler matches exactly. The Wikidata entity is a painter and illustrator who lived from 1907 to 1977, making him active during the late 1960s and early 1970s as specified in the context. While the specific date on the card (August 14) does not match his birth or death date, it likely refers to a specific record entry or event date."
+        },
+        {
+          "qid": "Q76317239",
+          "label": "Richard Adler",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name Richard Adler matches exactly. The Wikidata entity is identified as the father of filmmaker Zackary Adler, which identifies this specific Richard Adler as the American composer and lyricist (though Wikidata has a separate stub for him here). This fits the provided context of the person being an artist active in the 1960s and 70s. However, because Richard Adler is a relatively common name and the card contains very little metadata, the confidence is low."
+        },
+        {
+          "qid": "Q104208205",
+          "label": "Ing. Richard Adler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an individual (Ing. Richard Adler) born in 1883 who was a Holocaust victim, with a final record date of 1942. This person could not have been active as an artist during the late 1960s or 1970s."
+        },
+        {
+          "qid": "Q104208206",
+          "label": "Richard Adler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Richard Adler in Wikidata died in 1940 and was a victim of the Holocaust, whereas the person on the index card was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q104208207",
+          "label": "Richard Adler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Richard Adler (Q104208207) died in 1940, which contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q112559794",
+          "label": "Rich Adler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q112559794 (Rich Adler) is identified as a microbiologist, university teacher, and historian of sports and science. This does not align with the provided context that the person from the card is an artist (painter, sculptor, musician, etc.)."
+        },
+        {
+          "qid": "Q133625840",
+          "label": "Q133625840",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name matches exactly. The birth year of 1942 for the Wikidata entity is highly consistent with the provided context of an artist active in the late 1960s and early 1970s (as they would be in their mid-to-late 20s). While the Wikidata entry is sparse and lacks an explicit occupation, the temporal alignment makes it a plausible match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Richard Adler is a media researcher, author, and consultant who was active in the late 1960s and 1970s, particularly in exploring the intersection of new technology and the arts. He is best known for editing and co-authoring several seminal works on television and electronic media, including \"The Electronic Box Office: Humanities and Arts on the Cable\" (1974) and \"Television as a Cultural Force\" (1976), both published in association with the Aspen Institute Program on Communications and Society. His work in the 1970s focused on the potential of then-emerging technologies like cable television to serve as a platform for the performing and visual arts, which aligns with the mission of Experiments in Art and Technology (E.A.T.) to promote collaborations between artists and engineers. Adler served as the Director of the Teleservices Program at the Institute for the Future (IFTF) in Menlo Park and as a Distinguished Fellow at the institute. His research and publications are frequently cited in historical accounts of the 'guerrilla television' movement and early video art, documenting the collaborative efforts to leverage technical infrastructure for creative expression.",
+            "sources": [
+              "https://www.americansforthearts.org/by-program/reports-and-data/legislation-policy/naao/television-as-a-cultural-force",
+              "https://www.researchgate.net/publication/234739501_The_Electronic_Box_Office_Humanities_and_Arts_On_the_Cable",
+              "https://www.iftf.org/richard-adler/",
+              "https://archive.org/details/violenceandmedia00rich/page/59/mode/2up"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Richard Adler (1921–2012) was a prominent American composer, lyricist, and producer best known for the Tony Award-winning Broadway musicals \"The Pajama Game\" (1954) and \"Damn Yankees\" (1955). While primarily a figure of the musical theater, he was active throughout the 1960s and 1970s and was recognized as a \"distinguished artist\" for his cross-disciplinary work. In the early 1960s, he produced star-studded programs for the Kennedy White House and later attempted to adapt musical theater for television, such as the musical \"Olympus 7-0000\" (1967) for ABC Stage 67. In the 1970s and 1980s, his work moved toward symphonic compositions, including the \"Yellowstone Overture\" (1980) and the \"Wilderness Suite\" (1983), which were inspired by the American landscape and commissioned or recognized by national cultural institutions. His career often involved navigating the transition of traditional arts into new media like television and orchestral performance.",
+            "sources": [
+              "https://www.npshistory.com/newsletters/courier/v29n9.pdf",
+              "https://www.playbill.com/article/richard-adler-composer-of-pajama-game-and-damn-yankees-dies-at-90-com-194917",
+              "https://www.mtishows.com/news/remembering-richard-adler"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Richard Adler\" artist 1960s 1970s",
+            "\"Richard Adler\" E.A.T. artist",
+            "\"Richard Adler\" engineer E.A.T.",
+            "\"Richard Adler\" E.A.T. Klüver",
+            "\"Richard Adler\" artist \"9 Evenings\"",
+            "\"Richard Adler\" Pepsi Pavilion E.A.T.",
+            "\"Richard Adler\" video art 1970s",
+            "\"Richard Adler\" \"Raindance\" artist",
+            "\"Richard Adler\" \"9 Evenings\" technology artist",
+            "\"Richard Adler\" Bell Labs E.A.T.",
+            "\"Richard Adler\" \"E.A.T.\" membership",
+            "\"Richard Adler\" \"9 Evenings\" staff engineer",
+            "",
+            "\"Richard Adler\" artist E.A.T. member",
+            "\"Richard Adler\" \"9 Evenings\" technician",
+            "\"Richard Adler\" Daniel Langlois Foundation E.A.T.",
+            "\"Richard Adler\" E.A.T. Getty Research Institute",
+            "\"Richard Adler\" \"Television as a Cultural Force\" biography",
+            "\"Richard Adler\" \"E.A.T.\" artist engineer",
+            "\"Richard Adler\" \"9 Evenings\" contribution",
+            "\"Richard Adler\" \"The Electronic Box Office\" E.A.T.",
+            "\"Richard Adler\" \"guerrilla television\" E.A.T.",
+            "\"Richard Adler\" Billy Klüver E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBRp_XOGHvR0ztwMnte0dDjtutdn5SKIvRNBpRqK7KwzKH3fEz5n4aGXfVy6XIq4qRA2gHgZP8-ZrLhib5p7Ofvz5vun7R80d2ND7KL_VVl_eiwyr0ndW01jFXEI0LeZrd4o-NLMhnH_AsQKi7hQIvzyanUOpG3cf_76ZPsw5XlZDBCAY=",
+              "title": "law.edu",
+              "resolvedUri": "https://scholarship.law.edu/cgi/viewcontent.cgi?article=1253&context=jchlp"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEQpLepPQ2LNJeDCoXiBqQvSTorazW1TmHVNjT5-jOko6gqcna-wxXY4T87_w1QRg1Y-0A3PvrbvuytwrAJnL-eqzlUi84ZIZLxHlLwMpndwd7oyCwWgF0BoWzZaGIbVabFr1TKoVy",
+              "title": "uchicago.edu",
+              "resolvedUri": "https://www.law.uchicago.edu/faculty/posner-r"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFP4DVvOcIymjGKE2DlOunRvfNa1dNOKd52kZqp_Xd9shWz-ew1sjptJ7-9ugIdx2qyeP95PBx7rYYDNKbMlRANZogzKMfKAYqcUtXP7oKRRteokFAUjJcWYcPMjoxW5EpDpxFgX9eYWyLVVN-sh3OnJ88qQ2ibi_aLhNqK3ZeBQ02l28XDi3vLRWhk_QeW6Bbd9bhhcL8Ez-14bylspP8BN4EvCJs5XIp8bnGewFpDBRccwqIv2CXuD_ucztjzO1_FxrjNESm32DMBvCQVpE-fxXcl5w4SzFj_6E_033JhD9IQAqYHxmBz2YWbrUxLG4hR7DotBydCnA=",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/232935836_Exploring_the_Effects_of_Television_Viewing_on_Perceived_Life_Quality_A_Combined_Perspective_of_Material_Value_and_Upward_Social_Comparison"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7Yqo0sfXgb5TfiIw4GJRMabCnzyyzmK7TLWF9ZcZY7AAcABW4oj0VKZ4wk9eMbOsvdb8mmtdaGYzqoZlA6c-HWsFbhvTBgheRGfm3kyDtZ1dTDzUywbEOnSaFiDsMl0LtasTUP7wKxIrVqv5KEyAv6efE4kd4SBEKrbtMFg8nAQDOs_F1iHJyHaHN335exwkWsAW3bh6ZJRDkoIuauew6kctNRlfZQLTOdpwdj1mU2-oevEeZudkvB6Jwv8X_rMo=",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/republic-on-the-wire-cable-television-pluralism-and-the-politics-of-new-technologies-1948-1984-9780813585321.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWuFBMike2hFqQxj9KRGFwussanBjhWrB8ttp89GOItN3wwW_1CRPV81bU2bI4IpARNZxbdin_as4HYmfEL_SHaE9ZcbMHEYGna118j2I6mF-VbvXYeCbUC5IN_pWwg6gC-72tKh5olq-TpYF2vK8UUVnTYFD8upJlDjV32ZuofWAyhg==",
+              "title": "sandiegoreader.com",
+              "resolvedUri": "http://archives.sandiegoreader.com/index/sdreader-index-197210-198712.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk-fVGayBaHFUinbhrpdiElrf_lEeJf4wLwDF0Yg1IWYpa_HxHGtAP7sXqJCqx-QxO8HPBCXm31VECtFE_bwxw26RJKToVMbdLy4cvpPdNgtgjdPRQINadTVkQHI6kZAD1nW6F_IXGIUclvc4uIo8R22fN2q9dgivSKm6P1HRoaytMwEuJRuqA24t0yWJVk9mZv8xxUvP_CrokqoUsuXpBKgVUUQITL0YH1HDZ2l1p-NXE46K8UGCg9w==",
+              "title": "arenastage.org",
+              "resolvedUri": "https://www.arenastage.org/globalassets/tickets/202526-season/01-damn-yankees/fy26_damn-yankees_programbook_toprint_digital.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHooQeR9yHABDnQSVML9tBVPimHzR_YIAGoExqtm__eTPm9sKJqbabtxwB3hpZKQFL9G-MKLdrM1jDPGlS_pG_TkCnYm9p-wbj_UhonXihytk1iO8dfoRHW33mTjs6iB-k0fS-esn3AtDl4FEJROdA1EyO_Jrc3yYPAI-s=",
+              "title": "ethernet.edu.et",
+              "resolvedUri": "http://ndl.ethernet.edu.et/bitstream/123456789/39951/1/56.pdf.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcEwfSCnuP8goo4Gbzb4KmmUthubJQlwFLozJyVtcsbwHr6fcI8_OnoJP2gU9-IQn7mv1RRTrn_3Sy-l9AC_uIY7qC9oa5deikbs18ACrVUr-GMUrRKRCAShXHH9Wm6BaTSQQzQxyK-lW-3f80v2wvVXSxvT6qnqnk7H6gqeI4HnB-3IjtVOVd_lyQnlJaY87t3xFe2pLYUm4=",
+              "title": "e-yearbook.com",
+              "resolvedUri": "https://www.e-yearbook.com/yearbooks/Waterloo_West_High_School_Wahawk_Yearbook/1967/Page_1.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBMzvXr9bGWi5_m901SFoWbf5gFlesjsO8Vt4n3bKqdiWqEv7rT337nrdu1gKkWgK0mrFznqIzUunuI7UFQgjFsHGoqs3Ssvuwpr-QbC87sjHd-qy7TkgEqw6C_qKsODGRfRM9n30NZBeiXHLS7xhu053LyLR3zZLOikQg6cLGyb4Fv4avRw==",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/266026269/May-20-2015-Tribune-Record-Gleaner"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt_YWYSrM80oWb5XoddvGH9Cc_5wqm6PzTI8MNQiSs32uv8ZOp2TCPzCW-LCvnKl9sV3-t6FoDYGl3tBDq2jpoiCrkxBePIhqUM3TAxI6O5x1F8xugq3QaGG5ehQ4hqdC8P2xEsd6XIt3zqSPBnbt51AY5aTZ_bWge8U85N2gogldjjY8nFL37KLTcWj7v_ZKNRS3xTzJ-lSmS2idaGzfznic=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/305798493/Boyle-Deirdre-Subject-to-Change-Guerrilla-Television-Revisited"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEWgeWYx8LokJOSSX8warCmVsxLn3WeHxowU2emTTFDi9bPuTi78teysMt35RZw4wx58GmTVQP9U89f-k7trZrIVmQq0Y990GgCVsEQ-fyeaS_9iU-PVslaPALZlbRRS_sayZYnighQpbvJrwvHOGyzAruhTUGD0cz3w6Vgs6wps7vi6ZCn3s=",
+              "title": "shawfest.com",
+              "resolvedUri": "https://www.shawfest.com/wp-content/uploads/2021/11/Desire-HouseProgramme.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 228,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Richard Adler is a media researcher, author, and consultant who was active in the late 1960s and 1970s, particularly in exploring the intersection of new technology and the arts."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2562,
+                "endIndex": 3021,
+                "text": "His career often involved navigating the transition of traditional arts into new media like television and orchestral performance.\",\n      \"sources\": [\n        \"https://www.npshistory.com/newsletters/courier/v29n9.pdf\",\n        \"https://www.playbill.com/article/richard-adler-composer-of-pajama-game-and-damn-yankees-dies-at-90-com-194917\",\n        \"https://www.mtishows.com/news/remembering-richard-adler\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3,
+                4,
+                1,
+                5,
+                6,
+                0,
+                7,
+                8,
+                9,
+                2,
+                10
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +220,43 @@
         "y1": 17.1,
         "x2": 44.0,
         "y2": 21.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q107693004",
+          "label": "Stephanie Evanitsky",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical and relatively unique. The Wikidata entity is a choreographer, which fits the artist context. Furthermore, the 'LOFT' metadata on the card aligns with Stephanie Evanitsky's work with the Multigravitational Aerodance Group, which was known for performing in loft spaces in New York City during the early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stephanie Evanitsky is a pioneer in the field of aerial dance and the founder of the Multigravitational Aerodance Group (also known as the Multigravitational Experiment Group), which she established in 1969. A 1966 graduate of the Pratt Institute in Fashion, she began her dance career studying under Alwin Nikolais at the Henry Street Settlement House, where she developed an interest in the use of space and gravity. Her work, often termed 'aerodance,' utilized complex suspended apparatuses such as rope webs and mixed props to allow dancers to move in a three-dimensional environment, creating an illusion of weightlessness or zero gravity. Evanitsky was active in the New York avant-garde scene during the late 1960s and 1970s, collaborating with experimental artists including video artist Woody Vasulka and musicians like Howard Romero. Her group’s performances were recognized by major institutions, including a feature in a 1973 MoMA press release and listings alongside other experimental entities like the Robert Wilson Co.",
+            "sources": [
+              "https://www.etsu.edu/honors/thesis-search/documents/bernasconi_m_thesis.pdf",
+              "https://www.moma.org/documents/moma_press-release_327318.pdf",
+              "http://www.vasulka.org/archive/4-32/MultiGravitational/Multigravitational.pdf",
+              "https://www.westword.com/arts/meet-aerial-dance-the-high-flying-art-form-youve-never-heard-of-9326315",
+              "https://www.e-yearbook.com/sp/ey80?school=33362&year=1966"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Stephanie Evanitsky\" artist biography",
+            "Multigravitational Experiment Group Stephanie Evanitsky",
+            "",
+            "\"Stephanie Evanitsky\" E.A.T. Experiments in Art and Technology",
+            "\"Multigravitational Experiment Group\" E.A.T.",
+            "Stephanie Evanitsky Pratt Institute 1966"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

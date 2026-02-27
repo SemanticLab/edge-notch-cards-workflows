@@ -21,5 +21,89 @@
       "video tape",
       "tape recording"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5669730",
+      "label": "Almendra Gomelsky",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals. The card refers to John S. Almen, an electrical engineer based in California working for Ampex Corporation, while the Wikidata entry describes Almendra Gomelsky, a female singer and model from Argentina and Peru. There are no overlapping details in name, occupation, gender, or location."
+    },
+    {
+      "qid": "Q109766961",
+      "label": "Almendra Ernestina Negrete Sánchez",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names 'John S. Almen' and 'Almendra Ernestina Negrete Sánchez' are completely different. Additionally, the locations (California vs. Mexico) and implied genders are different, with no overlapping professional or personal details."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q261952",
+      "label": "Ampex",
+      "description": "American audio and video recorder and storage media company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Ampex Corporation' matches exactly. The Wikidata entity is an American audio and video recording company based in Redwood City, California, which is adjacent to the individual's location in Belmont, California. Furthermore, the technical fields listed on the card (video tape, tape recording, audio systems) are the core industries associated with Ampex."
+    },
+    {
+      "qid": "Q117008132",
+      "label": "Ampex Corporation",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Ampex Corporation' is an exact match. Although the Wikidata entity lists a location in Elk Grove Village (Illinois) and the individual on the card lived in California, Ampex is a well-known electronics company historically headquartered in Redwood City, California (adjacent to Belmont), with multiple regional offices. Given the specificity of the name and the professional fields (video tape, tape recording) mentioned on the card which align with Ampex's core business, they are almost certainly the same organization."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "John S. Almen (John Sigfrid Almen, 1927–1988) was an electrical and audio-video engineer at Ampex Corporation in Redwood City, California. Active in the late 1960s and 1970s, he was a key figure in the regional activities of Experiments in Art and Technology (E.A.T.), a non-profit founded to foster collaborations between artists and engineers. In 1968, he was identified as the head of the E.A.T. local group for the Redwood City and San Francisco area, where he facilitated technical support and partnerships for artists. Professionally, Almen specialized in video tape recording, acoustics, and television systems. He participated in industry events such as the 1974 Broadcast Industry Conference at San Francisco State University and contributed technical expertise to research in video microscopy, as cited in Shinya Inoué's 1986 work 'Video Microscopy.' A resident of Belmont and San Mateo, California, he was married to Lois Everett, an arts advocate who later made memorial donations in his name to the Mission Hospice. He died on February 13, 1988.",
+        "sources": [
+          "https://experimentsinartandtechnology.org",
+          "https://www.missionhospice.org",
+          "https://www.ancestry.com",
+          "https://eric.ed.gov/?id=ED112452",
+          "https://books.google.com/books?id=0XreBwAAQBAJ"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"John S. Almen\" Experiments in Art and Technology",
+        "\"John S. Almen\" obituary",
+        "\"John S. Almen\" Audio Engineering Society member",
+        "\"John S. Almen\" acoustics engineering",
+        "\"John S. Almen\" Ampex engineer",
+        "",
+        "\"John S. Almen\" E.A.T. \"Experiments in Art and Technology\"",
+        " \"John S. Almen\"",
+        " \"John Almen\" Ampex"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDVrg83_s3mUS32FBqNw5x7lqcCb7rTMkwKBj4wrkRuU5kCEnJsrRGvsdPsa3t8mWRLmwlsg6q7AWMT3SKFqrbQWvouUyC0m8xScC9x-jlv2z5ipyOdyrovwFNYjPIVrBcqwQUXOL9EDwoxSCSd0FusIHdHoGnCh0OGCQ4HbeLgR5UvYJfdxqRmuc6z5y0Ojt1NjpadIpkwmM=",
+          "title": "ancestry.com",
+          "resolvedUri": "https://www.ancestry.com/genealogy/records/results?firstName=john&lastName=almen&geo-lang=nl-NL"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 1082,
+            "endIndex": 1417,
+            "text": "He died on February 13, 1988.\",\n      \"sources\": [\n        \"https://experimentsinartandtechnology.org\",\n        \"https://www.missionhospice.org\",\n        \"https://www.ancestry.com\",\n        \"https://eric.ed.gov/?id=ED112452\",\n        \"https://books.google.com/books?id=0XreBwAAQBAJ\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

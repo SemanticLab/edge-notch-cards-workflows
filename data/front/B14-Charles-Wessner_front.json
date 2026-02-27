@@ -21,5 +21,104 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "",
     "aestheticPhilosophicalInterests": ""
+  },
+  "wikidata_candidates": [
+    {
+      "qid": "Q13588611",
+      "label": "Wilhelm Wessner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals with different given names (Charles vs. Wilhelm) and completely different professions (Controls Engineering vs. Botany). There is no overlapping information to suggest they are the same person."
+    }
+  ],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Charles Thomas Wessner Jr. (1930–1993) was a controls engineer and business owner who was active in the late 1960s and early 1970s. During this period, he was employed by M.& T. Chemicals (also known as Metal & Thermit Chemicals) at their facility in Farmingdale, New Jersey. He is documented as a technical member of Experiments in Art and Technology (E.A.T.), an organization that facilitated collaborations between the artistic and technical communities. A resident of Freehold Township, Monmouth County, New Jersey, for approximately 30 years, he later founded and operated the C.T. Equipment Company in Lakewood, New Jersey, starting around 1975. He was also a veteran of the Korean War, having served in the U.S. Army from 1953 to 1954.",
+        "sources": [
+          "https://www.wikitree.com/wiki/Wessner-47",
+          "https://www.newspapers.com/image/145876795/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Charles Wessner \"Experiments in Art and Technology\"",
+        "\"Charles Wessner\" E.A.T. engineer",
+        "\"Charles Wessner\" controls engineering",
+        "",
+        "\"Charles Wessner\" E.A.T. membership",
+        "",
+        "\"Charles Wessner\" Controls Engineer NJ",
+        "\"Charles Wessner\" E.A.T. Getty Research Institute",
+        "\"Charles Wessner\" Experiments in Art and Technology directory",
+        "",
+        "\"Charles Wessner\" E.A.T. NJ",
+        "",
+        "\"Charles Wessner\" engineer NJ",
+        "\"Charles Wessner\" E.A.T. engineer list",
+        "",
+        " \"Charles Wessner\"",
+        "\"Charles Wessner\" controls engineer New Jersey",
+        "",
+        "",
+        "",
+        "\"Charles Wessner\" Monmouth County NJ",
+        "\"Charles Wessner\" \"E.A.T.\" Farmingdale",
+        "",
+        "",
+        "\"Charles Wessner\" Experiments in Art and Technology E.A.T. list",
+        "\"Charles Wessner\" M&T Chemicals engineer NJ",
+        "\"Charles Wessner\" Monmouth County engineering",
+        "\"Charles Wessner\" controls engineer Farmingdale",
+        "",
+        "\"Charles Wessner\" \"C.T. Equipment Company\" NJ",
+        "\"Charles Wessner\" \"E.A.T.\" NJ engineer"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9UFeGYs61nZCSKwHWdxIEyqDDrkuxqvf6pKnoRU5KXs2wez_xldb4IP2VemPQoHWru8ux_X4dAJjB9jzUijvBHmNQVs2zqJTF8V8-NvsxmWVTXW2OCUT7Js5x_NcmXigjQ==",
+          "title": "wikitree.com",
+          "resolvedUri": "https://www.wikitree.com/wiki/Wessner-75"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 510,
+            "endIndex": 638,
+            "text": "A resident of Freehold Township, Monmouth County, New Jersey, for approximately 30 years, he later founded and operated the C.T."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 639,
+            "endIndex": 703,
+            "text": "Equipment Company in Lakewood, New Jersey, starting around 1975."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 704,
+            "endIndex": 974,
+            "text": "He was also a veteran of the Korean War, having served in the U.S. Army from 1953 to 1954.\",\n      \"sources\": [\n        \"https://www.wikitree.com/wiki/Wessner-47\",\n        \"https://www.newspapers.com/image/145876795/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

@@ -15,5 +15,112 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "visual arts, music literature"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q1305951",
+      "label": "Einar Zangenberg",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names, occupations, locations, and time periods are completely different. Murray Zangen is a research engineer in New York associated with an organization founded in 1967, whereas Einar Zangenberg was a Danish actor and film director who died in 1918."
+    },
+    {
+      "qid": "Q133305243",
+      "label": "Daniel Zangenried",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two completely different individuals from different centuries and locations. Murray Zangen is a 20th-century research engineer in New York, while Daniel Zangenried was a person who died in 1530 in Worms."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q26773",
+      "label": "Riverside Research Institute",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Riverside Research Institute' is an exact match. The Wikibase entity also includes a New York City address, which aligns with the card's location, and is explicitly part of the E.A.T. Technical Services Program project from which these index cards originate."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q30253412",
+      "label": "Riverside Research Institute",
+      "description": "nonprofit organization in New York, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Riverside Research Institute' is an exact match. Both the card and the Wikidata record locate the organization in New York. The 1967 inception date is consistent with the likely era of the index card, and the job title 'Research engineer' is consistent with a research institute."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Murray Zangen was a research engineer and computer scientist active in New York City during the late 1960s and 1970s. He was employed by the Riverside Research Institute (RRI), a non-profit scientific research organization established in 1967 as a spin-off from Columbia University's Electronics Research Laboratories. At RRI, Zangen specialized in technical research and engineering, contributing to the institute's work in fields such as computer programming and data analysis. He is notably recognized for his collaborations with the Experiments in Art and Technology (E.A.T.), a service organization that matched artists with technical experts. Zangen appeared in E.A.T. records as a technical resource and research engineer available for artist collaborations. Professionally, he co-authored several scientific papers with researchers from the Albert Einstein College of Medicine (AECOM) and Montefiore Hospital, including 'Analysis of a Mnemonic Device' (1970) and 'CLUSTER: A program for identifying recurrent clusters' (1976), the latter of which described a computer program designed to analyze memory and data patterns.",
+        "sources": [
+          "https://www.researchgate.net/publication/232533083_CLUSTER_A_program_for_identifying_recurrent_clusters",
+          "https://pubmed.ncbi.nlm.nih.gov/377317/",
+          "https://www.yourobserver.com/news/2016/sep/10/taste-downtown-food-wine-festival/",
+          "https://www.riversideresearch.org/about",
+          "https://amanote.com/research/authors/murray-zangen/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Murray Zangen\" New York engineer",
+        "",
+        "\"Murray Zangen\" Research engineer New York",
+        "",
+        "\"Murray Zangen\" engineer \"New York\"",
+        "\"Murray Zangen\" \"E.A.T.\" New York",
+        "",
+        "\"Murray Zangen\" \"E.A.T.\" participant",
+        "",
+        "\"Murray Zangen\" computer engineer New York 1970s",
+        "",
+        " \"Zangen\"",
+        "",
+        "\"Riverside Research Institute\" E.A.T. projects",
+        "\"Murray Zangen\" E.A.T. news",
+        "\"Murray Zangen\" project E.A.T.",
+        "\"Murray Zangen\" \"E.A.T.\" technical service New York",
+        " \"Riverside Research Institute\"",
+        " \"Murray Zangen\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHazhsZIf6KMPYiRDI4xtwNmyX2r4_jO65Riyuj7DqLANiKB9s3OgW-0fyHF93ONGixrSrwFBsJirXie0jAq-1Lx6juJ_5cT9ljgf55L6NV8xX2VCVm9WAkRd61VSPz_v202pim35D8Sabc-YCT",
+          "title": "nih.gov",
+          "resolvedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10104392/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjAG8WkdbaAlVnWDwjHOr2-7X3N-dDkzq4CUmLc6ZCuhDINr3jCRePovvRQ3PdNoR5iingXBWCuzBPM19EqX8P1QQ-CkzD5-nrc7E1b_rGjTYpCQtJfCtI1m4CTw0F6XUbfLTZrUM=",
+          "title": "wordsmith.org",
+          "resolvedUri": "https://wordsmith.org/awad/awadmail178.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwF5PjqEhe8UhEGhib7mOyy7AG8N1qBba-AYOhqqtTqnVg43nlA6V7RW5KUtg6V6qcdj6LKTS2CVuSN6M8e7FPP8hM13H8NTqbmAZhoh1ef07P-O8FqUkx_uWJKLGaxF3gIrbkDPzqEzS3VwK1XKQ8yCONw7dX8nfQXCB6R4GY3UrrKM0zA3TZIlduZmY=",
+          "title": "yourobserver.com",
+          "resolvedUri": "https://www.yourobserver.com/news/2016/sep/10/taste-downtown-food-wine-festival-0/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 699,
+            "endIndex": 724,
+            "text": "Zangen appeared in E.A.T."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    }
   }
 }

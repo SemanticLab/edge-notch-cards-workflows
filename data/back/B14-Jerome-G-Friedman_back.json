@@ -9,6 +9,182 @@
         "y1": 12.3,
         "x2": 42.5,
         "y2": 16.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q22659",
+          "label": "Stan Vanderbeek",
+          "description": "American film maker",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Stan VanDerBeek was a well-known experimental filmmaker and artist active in the late 1960s and 1970s, which aligns perfectly with the provided context and the Wikibase entity's occupation and association with the E.A.T. Knowledge Graph Project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7597939",
+          "label": "Stan Vanderbeek",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes a prominent American artist and filmmaker who was active during the 1960s and 1970s, which aligns perfectly with the artist context provided for the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stan VanDerBeek (1927–1984) was a prolific American experimental filmmaker, animator, and multimedia artist who was a key figure in the avant-garde and expanded cinema movements of the 1960s and 1970s. He is widely recognized for his pioneering role in the intersection of art and technology, specifically through his early use of computer graphics, video, and cross-media communications. VanDerBeek was closely associated with Experiments in Art and Technology (E.A.T.), collaborating with engineers such as Kenneth C. Knowlton at Bell Telephone Laboratories to create some of the first computer-animated films, including the influential 'Poem Field' series (1964–1970). In the mid-1960s, he constructed the 'Movie Drome' in Stony Point, New York—a geodesic dome designed for immersive multimedia projections that he envisioned as a global 'experience machine' for visual communication. During the late 1960s and early 1970s, he held several prestigious residencies, including a fellowship at MIT’s Center for Advanced Visual Studies (CAVS) and a residency at the public television station WGBH, where he produced 'Violence Sonata' (1970) and used fax machines to create large-scale collaborative 'Telephone Murals' or 'Panels for the Walls of the World.' His work often explored utopian themes, aiming to use technology to facilitate a new universal language and world understanding.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Stan_Vanderbeek",
+              "https://www.whitney.org/artists/11267",
+              "https://www.eai.org/artists/stan-vanderbeek/biography",
+              "https://www.rauschenbergfoundation.org/art/archives/projects/experiments-art-and-technology-eat",
+              "http://stanvanderbeekarchive.com/about/",
+              "https://listvisualarts.mit.edu/exhibitions/stan-vanderbeek-culture-intercom"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Stan VanDerBeek filmmaker computer art",
+            "Stan Vanderbeek artist biography E.A.T. 1960s 1970s",
+            "Stan VanDerBeek Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_wNLiq65G3C3H2MDKob00SftdcYypoh2Xk5KJ6sGY3iMreVwV7AVab2JGsLqRZ9aFHCn8ug6YjEj_54xSElB8HQmXvqT-QYf6E7E-k0wTyw-a0602-m1dm4hDfAFxP8OEO_jwYzxNLLJeuZ0jvqQ4Tu7xj2fxs-GQ7n3CB8VLYybbqb552Ac=",
+              "title": "zabludowiczcollection.com",
+              "resolvedUri": "https://www.zabludowiczcollection.com/collection/artists/view/stan-vanderbeek"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoMMahPf8DHsqeu18nigicqRun-a6vwJaHe76vNl-GKIKz1FO8YGIQ8tWxi9PpuGxUt1hpcAnsL9fUQvYUMPIUw0nJ3GgcYzmhdOqZZ2TR77xbUxTMxoOQzsi8OpFzP1E3guF4Vv8sSJq3D7Qgul8=",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/stan-vanderbeek/biography"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFqD_QhlZwJmuNUUdFRCAMrWLbCgJLUVdfhFmOrnQ6vt56O_fxIJ9z5NqjkoYgIEB8w27Lu8Jre1TP_G4ELAx7ib8_G87bF2aJiGWr91zfvEyCe18OwtuqnrbWda3sXZH6G-4Kz3bDuF3nuTZKy8cIQyBmxsjRHk0FH4ogdJ0=",
+              "title": "mit.edu",
+              "resolvedUri": "https://listart.mit.edu/exhibitions/stan-vanderbeek-culture-intercom"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENO5SHXSqhFC6vsD3idv8yQmVJYnM-fLEI5gbrWM4Brl0qeGqiM23IKIaa2BqHA2bXzSaoG36cJq3cSXgNxbFKt0cq5xxHPRFcPbIUP4iY9R3Akkm0YYbp4yqZFpNbg-u0v_dv6uO9aL15CsQ=",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/stan-vanderbeek/titles"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHP3j6doZTMfxKIPQvlQawMIa5WK9bSUuhsu8kWQHEWm5IWjmGn4YyqUeo7nGV2JHFxRA5NQbt6EBpumD_Qy7QiEq-o-4wr0Q1Ax-dLAIi6ygQExwM1GWGDz6g8Ev2LfZ0lnoZSvBOW",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Stan_Vanderbeek"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLniDNUCXcq0dli7S5bXDo_biOy13if6lRSwBGYxh_xbvXfe86HZu3u2lhJ89AGIO2o89GAK1eYZBk-DDZqwzI0bpTbOSvvQuLMP9gVIoCQ3YxRxjSpDBuIr4g_EG-4pGk_G6Z4unOO_12YZYx5eGL0H8jMmOq",
+              "title": "castellodirivoli.org",
+              "resolvedUri": "https://www.castellodirivoli.org/en/artista/stan-vanderbeek/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcQFELyEL55CuLTOvBfQ25p4rUs6X04TLFs-yjClSOSgrUFaDcza72e2aWdhc6a71wBHEEaGqvqak8gtK9CozSnbIPy-C6YGthU-YVmsibMdLgyK4ohwsVlQckkmQUuIBpm12v2cB840l7Ig==",
+              "title": "documentspace.com",
+              "resolvedUri": "https://documentspace.com/artist/stan-vanderbeek/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcrh3gqf5qy-4zYRs_vbLWXLPT_VW3OEsyEmIBke8j8nnr6i7duZybHeUhozeNWF4QXt53L0qlqOqSuOf5OiIEZvdglHQhEwL_WLxRxfZALuIAg1qjedgmeHa-79Pkk6Gf4LNrG4QCp0ovad8cdW_3GEucOWI=",
+              "title": "institute193.org",
+              "resolvedUri": "https://www.institute193.org/exhibitions-stan-vanderbeek-ky"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBoGwP9Vft4Fuy4ufF_qyBThq86AcrUcqkLoZXynbPsQpgBop84ATcO73qQcQibKkUimZ0VSsKp1AjSlKepq4UdKZTBgT53soalyUklNKJdlV5OVuWGKo0P7DJihbjodasgIEG9ABRbQ==",
+              "title": "stanvanderbeekarchive.com",
+              "resolvedUri": "https://www.stanvanderbeekarchive.com/contact/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGAslnv-y35S38yh7iT5AeZBP3bBEzvEdfAbAoBcVSAUYsjN7jltLAEaClW30kEdM-tzTKpooxbjuVXwDLfBpEFLMB9NeI0HTUvE9fqf1EHEAVwhVq4IsF7YPfFc3qub6EOIInpSEVlXvbXy0KM5Q7x1HOK0zmB6oQCjp0W1iagkTI6Ttd4vmHYMtESfxsgid4URT4KSI9IMFx",
+              "title": "scienceandfilm.org",
+              "resolvedUri": "https://scienceandfilm.org/articles/2776/experiments-in-art-and-technology-at-issue-project-room"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMqM7M6dczA2BMaogYGf4pkDJ00MMoPkce9xZFrZG4jaYR_Rh3PErEmIeB4jawi_Og_K2PlUjakPTmoagfOwboVscouXFZu4s1V7TphgQShYnE3wkxod58-ido0sWm6nNpiGcCSBOa7FV7XGIJpTI=",
+              "title": "magentaplains.com",
+              "resolvedUri": "https://magentaplains.com/artists/stan-vanderbeek/bio"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBphyaEDi0kGlYEgR0VBkMVkA5QKNWG1MvEhOBpeTIdm88hnrPTV-8jKkksJNQuA_W6zervHIKfF88scowV6EE_hh5TifCoFYvf8ZiTWgwTHlV9p7cssKRIm_28JnY0Vb63ibsOO03ZRxynmtiwVcp",
+              "title": "film-makerscoop.com",
+              "resolvedUri": "https://film-makerscoop.com/filmmakers/stan-vanderbeek"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 253,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Stan VanDerBeek (1927–1984) was a prolific American experimental filmmaker, animator, and multimedia artist who was a key figure in the avant-garde and expanded cinema movements of the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 254,
+                "endIndex": 440,
+                "text": "He is widely recognized for his pioneering role in the intersection of art and technology, specifically through his early use of computer graphics, video, and cross-media communications."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 726,
+                "endIndex": 943,
+                "text": "In the mid-1960s, he constructed the 'Movie Drome' in Stony Point, New York—a geodesic dome designed for immersive multimedia projections that he envisioned as a global 'experience machine' for visual communication."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 944,
+                "endIndex": 1314,
+                "text": "During the late 1960s and early 1970s, he held several prestigious residencies, including a fellowship at MIT’s Center for Advanced Visual Studies (CAVS) and a residency at the public television station WGBH, where he produced 'Violence Sonata' (1970) and used fax machines to create large-scale collaborative 'Telephone Murals' or 'Panels for the Walls of the World.'"
+              },
+              "groundingChunkIndices": [
+                2,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1315,
+                "endIndex": 1932,
+                "text": "His work often explored utopian themes, aiming to use technology to facilitate a new universal language and world understanding.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Stan_Vanderbeek\",\n        \"https://www.whitney.org/artists/11267\",\n        \"https://www.eai.org/artists/stan-vanderbeek/biography\",\n        \"https://www.rauschenbergfoundation.org/art/archives/projects/experiments-art-and-technology-eat\",\n        \"http://stanvanderbeekarchive.com/about/\",\n        \"https://listvisualarts.mit.edu/exhibitions/stan-vanderbeek-culture-intercom\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                5,
+                7,
+                6,
+                4,
+                1,
+                2,
+                11,
+                8
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +196,251 @@
         "y1": 19.3,
         "x2": 24.3,
         "y2": 24.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q23089",
+          "label": "Harrisburg (Pa.)",
+          "description": "city in Pennsylvania",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Joan Harris, while the Wikibase entity describes the city of Harrisburg, Pennsylvania. These are fundamentally different types of entities (a human vs. a geographical location)."
+        },
+        {
+          "qid": "Q23024",
+          "label": "Harrisonburg (Va.)",
+          "description": "city in Virginia",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes a person named Joan Harris, while the Wikibase entity describes the city of Harrisonburg, Virginia. These are completely different entity types (a person vs. a location)."
+        },
+        {
+          "qid": "Q1116",
+          "label": "Harris Levy",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Joan Harris' and 'Harris Levy' are distinct, and the Wikibase entry identifies the individual as a man, whereas 'Joan' is typically a female name. There is no evidence linking these two records."
+        },
+        {
+          "qid": "Q27822",
+          "label": "Harris Hyman",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different. The card refers to 'Joan Harris' while the Wikibase entity refers to 'Harris Hyman'. Although 'Harris' is present in both, it appears as a surname in the first case and a first name in the second, with no other corroborating information to suggest they are the same individual."
+        },
+        {
+          "qid": "Q20758",
+          "label": "Harrison Verrett",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Joan Harris on the card is completely different from the name Harrison Verrett in the Wikibase entry. There is no evidence connecting these two individuals."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q370188",
+          "label": "Joan Harrison",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is 'Joan Harris,' while the Wikidata entity is 'Joan Harrison.' Although they are similar and Joan Harrison was a creative professional (screenwriter/producer), the surnames are distinct. Additionally, 'LOFT' metadata on the card often suggests the New York avant-garde or loft scene of the 1960s/70s, which does not align closely with Joan Harrison's established career in Hollywood and British film/television."
+        },
+        {
+          "qid": "Q468353",
+          "label": "Joan Harrison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Joan Harris', while the Wikidata entity is 'Joan Harrison'. Furthermore, the Wikidata entity describes a famous South African Olympic swimmer, whereas the card refers to an artist likely active in a metropolitan context (suggested by the 'LOFT' metadata). There is no evidence suggesting the swimmer Joan Harrison had an artistic career or was known as Joan Harris."
+        },
+        {
+          "qid": "Q55318693",
+          "label": "Joan Harris",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Joan Harris' is an exact match. The Wikidata entity describes a human who was a dancer, which aligns with the provided context that the person on the card was an artist. Given her birth year of 1920, she would have been active during the late 1960s and early 1970s. While 'Joan Harris' is a relatively common name, the artistic occupation and chronological alignment make this a plausible match."
+        },
+        {
+          "qid": "Q63117169",
+          "label": "Joan Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names are an exact match, the Wikidata entity is a philanthropist (Joan W. Harris) known for arts patronage, whereas the card entry describes an artist. 'Joan Harris' is a relatively common name, and the Wikidata record does not mention an artistic career or any connection to the 'LOFT' metadata provided in the card entry."
+        },
+        {
+          "qid": "Q75961667",
+          "label": "Joan Patricia Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name Joan Harris is a match, it is a very common name. The Wikidata entity Q75961667 (Joan Patricia Harris) does not list an occupation, and there is no information in the record linking her to the arts or the 'LOFT' metadata mentioned on the card, which typically refers to the New York art scene. Without an occupational or geographical link to the late 1960s/early 1970s art world, there is insufficient evidence to confirm a match."
+        },
+        {
+          "qid": "Q76042187",
+          "label": "Joan Harrison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Joan Harrison died in 1937, which precludes her from being the Joan Harris who was active as an artist in the late 1960s and early 1970s. Furthermore, the surnames Harris and Harrison are distinct."
+        },
+        {
+          "qid": "Q76171972",
+          "label": "Joan Harrison Williams",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name on the card is 'Joan Harris' while the Wikidata entity is 'Joan Harrison Williams'. While both share the given name 'Joan', there is no indication in the Wikidata entry that this individual was an artist or active during the late 1960s/early 1970s, nor is there a clear link between the surnames Harris and Harrison Williams."
+        },
+        {
+          "qid": "Q94420029",
+          "label": "Joan Harrison",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry names the individual as 'Joan Harris', while the Wikidata entity is 'Joan Harrison'. Although the first names match and the surnames are similar, they are distinct names. There is insufficient evidence to conclude that 'Harris' is a transcription error or variant for 'Harrison' in this specific case."
+        },
+        {
+          "qid": "Q111525020",
+          "label": "Joan Harrison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct: the card identifies 'Joan Harris', while the Wikidata entity is 'Joan Harrison'. Additionally, the Wikidata record contains genealogical data (father, child) without any mention of an artistic career or activity in the mid-20th century, and the surname mismatch is a significant differentiator."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joan W. Harris is a prominent American arts administrator and philanthropist based in Chicago, recognized with the National Medal of Arts in 2013. Active in the arts community since the late 1960s, she served as the Commissioner of the Department of Cultural Affairs for the City of Chicago and as the president of the Irving Harris Foundation. While she is primarily known as an arts patron and leader, she began her journey in the arts as a pianist and has been a driving force behind major cultural projects that bridge art, architecture, and technology, such as the development of Millennium Park and the Harris Theater for Music and Dance. Her work often involves collaborative initiatives between artists and civic institutions, aligning with the interdisciplinary goals of organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.arts.gov/honors/medals/joan-harris",
+              "https://www.chicagomag.com/chicago-magazine/february-2018/joan-harris/",
+              "https://www.smith.edu/news/joan-harris-uncommon-woman/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Joan Harris is an artist and scientific illustrator who has been active since at least 1967. Born in 1946, she earned her B.A. in 1968 and has worked as a freelance illustrator specializing in scientific illustration, a field that emphasizes the precise intersection of art, accuracy, and technical detail. Her career began during the late 1960s, a period coinciding with the rise of the Experiments in Art and Technology (E.A.T.) movement. She is a member of the Guild of Scientific Illustrators and is known for her detailed graphite drawings, particularly a series focusing on the rehabilitation of wild birds in Alaska. This technical and collaborative approach to art and science is characteristic of the projects promoted by E.A.T. during the late 1960s and early 1970s.",
+            "sources": [
+              "https://www.encyclopedia.com/arts/educational-magazines/harris-joan-1946"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Joan Harris was a photographer or documentarian active in the New York art scene during the late 1960s and early 1970s. She is credited with capturing significant photographic records of major contemporary artists, including portraits of Agnes Martin taken between 1967 and 1968. Given that Experiments in Art and Technology (E.A.T.) was based in New York and relied heavily on photographers to document its groundbreaking collaborations between artists and engineers, she may have been associated with the organization's documentary efforts during its most active period.",
+            "sources": [
+              "https://www.aci-iac.ca/art-books/agnes-martin/biography"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Joan Harris artist biography E.A.T.",
+            "\"Joan Harris\" artist 1960s 1970s",
+            "Joan Harris artist Experiments in Art and Technology E.A.T.",
+            "\"Joan Harris\" E.A.T. 1968 1969 1970",
+            "",
+            "\"Joan Harris\" artist Chicago E.A.T.",
+            "\"Joan Harris\" artist printmaker 1960s 1970s",
+            "\"Joan Harris\" artist New York E.A.T.",
+            "\"Joan Harris\" E.A.T. artist",
+            "\"Joan Harris\" artist 1960s 1970s printmaker technology",
+            "\"Joan Harris\" Experiments in Art and Technology member list",
+            "\"Joan Harris\" artist E.A.T. collaboration",
+            " \"Joan Harris\"",
+            "\"Joan Harris\" printmaker technology 1960s 1970s",
+            "\"Joan Harris\" \"9 Evenings\" E.A.T.",
+            "\"Joan Harris\" artist E.A.T. membership",
+            "\"Joan Harris\" artist science technology 1960s",
+            "\"Joan Harris\" artist 1960s 1970s printmaker E.A.T.",
+            "\"Joan Harris\" Experiments in Art and Technology bibliography",
+            "\"Joan Harris\" E.A.T. member list",
+            "\"Joan Harris\" artist collaborated engineer E.A.T.",
+            "",
+            "\"Joan Harris\" \"E.A.T.\" archives",
+            "\"Joan Harris\" member Experiments in Art and Technology 1967 1968 1969",
+            "\"Joan Harris\" artist 1968 Brooklyn Museum exhibition"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvJuoC38CZM6YnSOLEO43I6sD3wwpagHWPvGExmn9PDz2riCu7zPuNDP4VQjEWvKjt-4macmbZsOlmg3GKpxGBGBsO_ByrrUAE6T8zp9LRm-hNiQJsFGaj8m4EOkf1MOJbs83vSYY0uTkO_CQL1zE4YU_JzbfK367ws-H04S-SOmqq-BOEsV88q7JvJAQJ5xi0aPnaUg==",
+              "title": "reddit.com",
+              "resolvedUri": "https://www.reddit.com/r/madmen/comments/36nd7y/characters_with_the_most_lines_in_mad_men/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhLP9A3VZTBoqVjwO5SIkeyYORDqlmYvZByW6gjSuYO9g4DvD_wYIHBCcTJgUpL7DDnxP1OHjGDtF-4BaL3Hsv1yetn2IZsrSiIyEfnoWFCB1kK6clhRZUkRupsC7FXpV31f6t18xF",
+              "title": "fandom.com",
+              "resolvedUri": "https://madmen.fandom.com/wiki/Joan_Holloway"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtqbAORVwV7iJNnfvjdbbZ6-xbtjaWekbodV6TzMKbgi-o5TqAD_0jjNA2bwABtRFXLrPlKZ8DgU9i7BEu0Mfc4YREQQPJ7d4xJRvqzL2p-tWwxvlD29QfLJkZcrbg-ETYx-hK9Mc-brqrH0dYoG7RpXndc8wF0OaZDObuFJjnzmwH2sZnvOrdoCS9SIkVfCA_Qu8o3h-kOt3FfmBOioUsWo8tww==",
+              "title": "mun.ca",
+              "resolvedUri": "https://dai.mun.ca/PDFs/annuals/19761977AnnualReportExtensionServicesMemorialUniversityofNewfoundland.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCQRv3FCE9oxYiwM3GhKKgPhuXUbXCTvwwXLsEHQt10ZVO3BzxFrsRe4ZutXZB3H73t7D3a8h1TkOnCSHsuzYvVX29wbUzaGxiiY6VFKsVaHs1NhfhUiWuvwVhTCIyM0ezNMmdrrwwKGNJwqHH-Yq9CbaOuDvzYE1_J81th_oYTx0=",
+              "title": "chicagomag.com",
+              "resolvedUri": "https://www.chicagomag.com/chicago-magazine/february-2018/joan-harris/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFwzXa9MjSN_d-k-Bv1i9C3I-xO2K-TVUZy9-7ifFI-73gR9oe7639iGiWb6UwZWXJ41_VKxQwWKyNt33mHe5u8VODr3AYiB8Ml5HJS5YMLom4duanQB-_aqZN90QaOio8nYEv0VVue87C9NxSVQgL3lzooA==",
+              "title": "archiveofourown.org",
+              "resolvedUri": "https://archiveofourown.org/works/754229/chapters/1409007"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDsc3JRA69nNMDPJNjTMg18Jlw56474rNrT0O7gXMbX5YAThrbNqEUY8rSNy5nfoMMT-kcmVd_7GyCR3JnmLvwLBm05IjI768SDQjtazy5Snwb_pR3jmI4P26V6p0bBWtPYzPmcl_ofm7JDKsIJH8aCEC8ZCkbxZSPtHHABFQDTfUtN3aDA5jLyEAzumpNzkZJRCG1ZWB6ddAL",
+              "title": "reddit.com",
+              "resolvedUri": "https://www.reddit.com/r/madmen/comments/1pm2f5w/spoiler_why_did_it_have_significance_that_don/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHUqeCzr5Eh23nQq0tvmyGEWxSCSOMPEo9U0PX0ty9F1QPL0klEL9_9Fhzlh4z6oeDXNL0gklSStV88ncWTBGvtUrH-SqVxddD2uBSxd9ukyDPCZjizqcmsgxDIwWkSC1gG3qTo_ZfbM4=",
+              "title": "wordpress.com",
+              "resolvedUri": "https://daeandwrite.wordpress.com/tag/mad-men/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVT4Ks2KjQkgpQJYiKT2mFwxWt8Ld_jV7g2xpFvH0lVfrY3Jpb_chYovwL3YztFaeJEayqNg9antnlSVCwB_jEvDJVK4TxKosWAU2pnz1Kkma8N5Qf6zzQkBUcc8WbouYgOWi7BDzNXH9WUTq0p9MA_Q5hUhOki4g7d0-waOUw-EbfEs3e-QVcUbpzgwiG1usSUQ==",
+              "title": "aci-iac.ca",
+              "resolvedUri": "https://www.aci-iac.ca/wp-content/uploads/2020/10/Art-Canada-Institute_Agnes-Martin.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkqqJ__4tVqMu0R7278yZ1aj7gb7hSOEU7exr9Vq7r5vDilyj_VmzrO98uxGnqdZk4Bas_qguv0-Awh-WOlNKW6MPu433Qr3J9jH35YDVCOQmVm7UYhj4X055vltgdtFB-zTQHS3BMN2YcPtPolhyQ8hcKlrUhm2wkuRBBxAFTyNze-ZO15vM=",
+              "title": "frick.org",
+              "resolvedUri": "https://www.frick.org/sites/default/files/FindingAids/TFCLectureRecords.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQAquVXhfqPBX8MfuRhhqe8r7_pHNFRR8kcjHdOIf38fWHin5U9vb2ARe9yq5r1uELXWOfGieFrj3ANu6Bf9Gnu7hdrcBaeK8DYMF1XzCb101L9uSrmacLnFRTeBpkVx2X0G38CHCA3uoQrZlOkubR_o2y0fZtoOreq-adgR3p7YsZV3poVFHhOjY=",
+              "title": "oclc.org",
+              "resolvedUri": "https://artic.contentdm.oclc.org/digital/api/collection/artists/id/308/download"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1631,
+                "endIndex": 1640,
+                "text": "movement."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1938,
+                "endIndex": 2281,
+                "text": "during the late 1960s and early 1970s.\",\n      \"sources\": [\n        \"https://www.encyclopedia.com/arts/educational-magazines/harris-joan-1946\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Joan Harris was a photographer or documentarian active in the New York art scene during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                7,
+                8,
+                9
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +452,70 @@
         "y1": 25.4,
         "x2": 34.6,
         "y2": 32.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q108897037",
+          "label": "Bettina Brendel",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical, and the Wikidata entity describes a painter born in the 1920s, which aligns perfectly with the late 1960s timeframe and the artist context provided for the card entry. The existence of artist files at the Smithsonian confirms her professional status."
+        },
+        {
+          "qid": "Q133022224",
+          "label": "Q133022224",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1962, which would make her only 7 years old at the time of the 1969 card entry. This is inconsistent with the context of a person established as an active artist during the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bettina Brendel (1922–2009) was a German-born American abstract painter and printmaker known for her lifelong artistic investigation into the intersection of art and science, particularly physics. Born in Lüneburg, Germany, she was the daughter of the Expressionist poet Dr. Robert Brendel. After studying at the State Academy of Art in Hamburg (1946–1948) and exhibiting with early postwar abstractionists in Munich, she immigrated to the United States in 1951 and became a citizen in 1957. Brendel settled in Los Angeles in 1955, where she studied at the University of Southern California and taught at UCLA Extension. In the late 1960s, she moved to New York to study the history and theory of physics at the New School for Social Research (1968–1969), a pursuit that deeply informed her work on subatomic particles, wave-particle duality, and quantum mechanics. During this period, she was active in the emerging 'Art and Technology' movement, contributing to the journal Leonardo and engaging with leading scientists, including a 1972 meeting with Nobel physicist Werner Heisenberg. Her work, which later incorporated computer-generated imagery and binary code themes, has been featured in major exhibitions such as 'Particles and Waves: Bettina Brendel' (1998) at the Long Beach Museum of Art and the Getty-led PST ART exhibition 'Particles and Waves: Southern California Abstraction and Science, 1945–1990' (2024–2025).",
+            "sources": [
+              "https://www.latimes.com/archives/la-xpm-1998-apr-03-ca-35754-story.html",
+              "https://www.askart.com/artist/Bettina_Brendel/110499/Bettina_Brendel.aspx",
+              "https://www.sbma.net/sites/default/files/Exhibition%20History%201941-2022_final.pdf",
+              "https://www.mutualart.com/Artist/Bettina-Brendel/E7471E20C28A6D88",
+              "https://archive.org/stream/leonardo-index-vol-1-20/leonardo-index-vol-1-20_djvu.txt"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Bettina Brendel artist biography",
+            "Bettina Brendel painter 1960s 1970s",
+            "Bettina Brendel LACMA Art and Technology",
+            "Bettina Brendel Experiments in Art and Technology E.A.T.",
+            "",
+            "Bettina Brendel \"Experiments in Art and Technology\"",
+            "\"Bettina Brendel\" LACMA Art and Technology program",
+            "\"Bettina Brendel\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxZRrJ2qE3Y7Xtvpv-BPxBjfFW2fBO9WG6o2KAdf-DLQILyP1W5ExJnRgH2w1z9_1R1beyzeMHfXKgbFEnAcHzFI8T92R1MgsVXqZUXdvyDa3i7PsF40EinLex8muEcqFbpI-lTrFi93hysEuCKdsEYTLs23L4N0rgcnpd_ttf2QwenNUMsI1c-z-I37SY1iPIn4bh",
+              "title": "sbma.net",
+              "resolvedUri": "https://www.sbma.net/sites/default/files/attachment/1960s%20ExhibitionNarrativesFINAL.PDF"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 248,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Bettina Brendel (1922–2009) was a German-born American abstract painter and printmaker known for her lifelong artistic investigation into the intersection of art and science, particularly physics."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -42,6 +527,56 @@
         "y1": 31.8,
         "x2": 32.6,
         "y2": 39.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21389714",
+          "label": "Fedor Mihajlovič Mauer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Giselle Mauer' on the card does not match 'Fedor Mihajlovič Mauer' on the Wikidata entity. Furthermore, Fedor Mauer died in 1963, making it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card's context. His occupation is listed as botanist, not artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Giselle Mauer was a Romanian-born sculptress active in the late 1960s and early 1970s, primarily known for her association with the Experiments in Art and Technology (E.A.T.) organization. Born around 1930, she was involved in E.A.T.'s Technical Services Program, which launched in 1967 to facilitate collaborations between artists and engineers. In 1968, she participated in the exhibition \"Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes\" at the Brooklyn Museum, collaborating with artist Ben-Ami Kadish. Her work often utilized modern metal and technical materials; for instance, she unveiled a modern metal sculpture at the Hillel Center in New Brunswick, New Jersey, in May 1972. While she is recognized in archives focusing on women's participation in early tech-art movements, relatively little detailed biographical information survives beyond her exhibition credits and regional activity in the New York and New Jersey areas.",
+            "sources": [
+              "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/",
+              "https://www.artist-info.com/exhibition/MoMA-27-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962",
+              "https://digifind-it.com/metuchen/data/sentinel/1972/1972-05-17.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Giselle Mauer\" E.A.T.",
+            "\"Giselle Mauer\" artist",
+            "\"Giselle Mauer\" Experiments in Art and Technology",
+            "\"Gisela Mauer\" artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN28tYiBe1kAZj25VtK0KGoDdL5LI4Fs5idZIw7pRUlIwqeOD61zdBPtrMGOKwKJmPBaKTLhYmLrih5va8tO86iq4FiHhcCclQVessOof8fATSnnQ4yom1SfwrPi-X1y7iNc2zO7raWTfs2H4zpBl-BwwG3bpRUo-Z8dB0dlBxNrzIthu2shImZ_ed-xbJfCHEXh_zewIwFCZfSkbR8e9W9Yb-D-0MBpMNLY0VRQDO",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 239,
+                "endIndex": 396,
+                "text": "Born around 1930, she was involved in E.A.T.'s Technical Services Program, which launched in 1967 to facilitate collaborations between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -52,6 +587,92 @@
         "y1": 38.3,
         "x2": 35.1,
         "y2": 48.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q88275",
+          "label": "Pieke Biermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The first names (Megan vs. Pieke) are distinct and not typical variants of each other. Furthermore, Pieke Biermann is a well-known German crime novelist and translator, whereas the card refers to someone named Megan Bierman who was active in the artistic sphere in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q794665",
+          "label": "Biermann Mihály",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Biermann Mih ly) lived in the 19th century (1849-1889), which is completely incompatible with the context of an artist active in the late 1960s or 1970s. Additionally, the names Megan and Mih ly are distinct."
+        },
+        {
+          "qid": "Q62125194",
+          "label": "Paul R. Bierman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Megan Bierman vs. Paul Robert Bierman). Additionally, the Wikidata entity is for a male geomorphologist and academic, while the card entry refers to an artist (implied to be female)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Megan Bierman is a multi-disciplinary improviser, musician, dancer, and visual artist who has been active since the late 1960s. Based in the San Francisco Bay Area, she is known for her work in music (specifically the tenor saxophone), dance, storytelling, drawing, and painting. She attended Bennington College from 1968 to 1972, where she was a member of the Judith Dunn – Bill Dixon Dance Company and participated in various experimental performances, including the Bill Dixon Ensemble's live recordings. In the 1970s, she collaborated with Laurel Sprigg, John Gruntfest, and Joe Sabella on a project titled 'Megacycles.' She has a long-standing career as an artist-in-residence at the Buen Dia Family School in San Francisco, spanning over 27 years, and was a member of the musical storytelling duo 'The Echo Sisters' during the 1980s. Bierman is the daughter of philosopher Arthur Bierman and former San Francisco Supervisor Sue Bierman, and she continues to collaborate on artistic projects with her partner, musician John Gruntfest.",
+            "sources": [
+              "https://www.meganbierman.com/about.html",
+              "https://www.sfgate.com/bayarea/article/MAN-OF-MANY-HATS-At-78-philosopher-and-bon-2815105.php",
+              "https://bb10k.com/RIVERS.sess.html",
+              "https://performanceimprovisation.wordpress.com/photographs/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Megan Bierman\" artist",
+            "\"Megan Bierman\" 1960s 1970s",
+            "\"Megan Bierman\" E.A.T. artist",
+            "\"Megan Bierman\" Experiments in Art and Technology",
+            "\"Megacycles\" Laurel Sprigg Megan Bierman",
+            "\"Megan Bierman\" \"Bill Dixon\" Bennington",
+            "\"Megan Bierman\" E.A.T. project",
+            "\"Megan Bierman\" artist 1960s 1970s E.A.T.",
+            "\"Megan Bierman\" artist collaborator 1970s",
+            "\"Megan Bierman\" \"E.A.T.\"",
+            "\"John Gruntfest\" E.A.T.",
+            "\"Megacycles\" Laurel Sprigg E.A.T.",
+            "\"Megacycles\" Laurel Sprigg John Gruntfest",
+            "\"Megacycles\" 1970s performance art",
+            "\"Megan Bierman\" E.A.T. archives"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCXHmuzAGi21aXOTZbh-jRLDidQuPaL_xczO6jRQ-nsJ8uxpYW1bsGIfQzwp2c5P6LJVEjHpl00YuzoKjfEZFvlbDbmII1fFnmfGbSuVwfmdZ9oGbebiq4HYLOOYE=",
+              "title": "meganbierman.com",
+              "resolvedUri": "https://www.meganbierman.com/about/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 177,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Megan Bierman is a multi-disciplinary improviser, musician, dancer, and visual artist who has been active since the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 560,
+                "endIndex": 676,
+                "text": "In the 1970s, she collaborated with Laurel Sprigg, John Gruntfest, and Joe Sabella on a project titled 'Megacycles.'"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -63,6 +684,101 @@
         "y1": 46.5,
         "x2": 24.9,
         "y2": 51.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21609931",
+          "label": "Gerald Bane Straley",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card only provides a surname ('Straley') and a date (1970). While the Wikidata entity Gerald Bane Straley was active during this time, his recorded occupations are strictly scientific (botanist, curator) rather than artistic. Without a given name on the card or an artistic background for the Wikidata entity, there is insufficient evidence to suggest they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Richard Straley (1927–2008) was a New Jersey-based representational painter and gallery owner active in the 1960s, 1970s, and 1980s. He is known for his masterfully simplified portraits and figures, often rendered in oil pastels, which have been compared to the Art Brut style of Jean Dubuffet. Archival records from the Brooklyn Museum include correspondence and memos from 1970–1972 related to Straley within the context of 'Art and Technology' projects, potentially linking him to the contemporary movement of artistic and technological collaboration. He owned and operated the Straley Art Gallery in Livingston, New Jersey, during the 1970s and 1980s, where he exhibited his own work and that of other local artists like George Mueller.",
+            "sources": [
+              "https://www.livingstonlibrary.org/art-is-a-search-for-truth-the-philosophy-of-richard-straley-on-l-town-radio/",
+              "https://artcenternj.org/wp-content/uploads/2019/12/Exhibition-Timeline.pdf",
+              "https://galleryand.studio/2006/10/19/myron-rubenstein-ghosts-stalk-the-shopping-mall-two-questions-facing-the-answer/",
+              "https://cloudfront.net/brooklynmuseum.org/archives/finding_aids/departments_european_painting_sculpture_american_painting_sculpture_contemporary_art.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Walter William Straley (1913–1999) was a high-ranking executive at AT&T and the Bell System who played a critical role as a patron and facilitator for the Experiments in Art and Technology (E.A.T.) organization during the late 1960s and early 1970s. As Vice President of Public Relations at AT&T, Straley was a key supporter of E.A.T. founder Billy Klüver, authorizing corporate funding and technical resources for major collaborative projects like the 1970 Pepsi Pavilion at Expo '70 and the '9 Evenings: Theatre and Engineering' event. While primarily a corporate leader, Straley was an amateur photographer and a significant figure in the integration of technology and the arts; he also served as the president of the Seattle Symphony Board and was involved in the planning of the 1962 Seattle World's Fair.",
+            "sources": [
+              "https://archiveswest.orbiscascade.org/ark:80444/xv17999",
+              "https://www.prmuseum.org/pioneers-chet-burger",
+              "https://worldradiohistory.com/Archive-BC/BC-1968/BC-1968-06-24.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Straley\" artist 1960s 1970s",
+            "\"Straley\" E.A.T. Getty Research Institute",
+            "artist \"Straley\" Experiments in Art and Technology E.A.T.",
+            "\"Straley\" engineer artist E.A.T. collaboration",
+            "\"Richard Straley\" artist biography 1960s",
+            "\"Straley\" artist engineer 1960s 1970s",
+            "\"Straley\" technical contributor E.A.T.",
+            "\"Straley\" E.A.T. Pepsi Pavilion",
+            "\"Straley\" Experiments in Art and Technology member",
+            "\"Straley\" E.A.T. 9 Evenings",
+            "\"Straley\" artist late 1960s 1970s collaboration",
+            "\"Richard Straley\" Experiments in Art and Technology",
+            "\"Walter Straley\" Experiments in Art and Technology",
+            "\"Straley\" \"E.A.T.\" art technology",
+            "\"Richard Straley\" painter biography 1970s",
+            "\"Richard Straley\" \"E.A.T.\" artist",
+            "\"Walter Straley\" Experiments in Art and Technology connection",
+            "\"Straley\" engineer E.A.T. membership",
+            "\"Walter Straley\" AT&T E.A.T. sponsorship",
+            "\"Richard Straley\" artist E.A.T. collaboration",
+            "\"Straley\" Experiments in Art and Technology Pepsi Pavilion engineer",
+            "\"Straley\" E.A.T. artist 1968 1969 1970",
+            "\"Straley\" name E.A.T. membership list",
+            "\"Richard Straley\" painter 1960s 1970s",
+            "\"Richard Straley\" engineer Bell Labs",
+            "\"Straley\" 9 Evenings engineer artist",
+            "\"Richard Straley\" \"E.A.T.\" member list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSxzFFkE-jysGCvS38eMTD1sYacViqat5BI9ibgVjL6YY6-p09HxSdBw_07hj0Qskwinzj5GhMZXmOe051sBDv9pLHE8hwcV-zG020o4tf4Kwuy2KwrmVod4svZ0SGGA-icTcofoHbl25bKRxed2ztSl-6oL4eFfw3T9JcsXXlnzH2ervB0TY=",
+              "title": "digifind-it.com",
+              "resolvedUri": "http://www.digifind-it.com/summit/DATA/newspapers/herald/1972/1972-03-02.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNiffw9v_aQSOB8GZg0DfKutGT_upTwGGRNzEOwcwQvMz2qCJM515AYS_4F8XPskKqD2UhSmkEk1VlOg_hkLnujF8Sk9zccLwHvTu17iXlz5JQu8d3faPDAQ-tEH1899qCoX55NjzyY_-QOJ3tr-AJ4LDYSJzy9A==",
+              "title": "cloudfront.net",
+              "resolvedUri": "https://d1lfxha3ugu3d4.cloudfront.net/archives/P&S_final.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdAA2biJRTVgNnttT08knWV7AwXEwWH6TL3mCHO4todHOU-jgsCKVvfrO13JAHBLRJF506IBwDwwscN5_vN-dTmiq1AL_CkmyiGvcZnViGuPoiBiSC-CKck22y1ZsSN61Nr14bN8a69G8-VVVRHGvUdjXy5LTPgQlYc3tNNhWWWt9Fy3MvPEKION747dXVJ_iKeJyw9XqrgEzp9eZzy526lvdJ",
+              "title": "moreheadstate.edu",
+              "resolvedUri": "https://scholarworks.moreheadstate.edu/cgi/viewcontent.cgi?article=1704&context=msu_theses_dissertations"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1597,
+                "endIndex": 1648,
+                "text": "organization during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

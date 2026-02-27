@@ -8,6 +8,67 @@
         "y1": 8.7,
         "x2": 48.2,
         "y2": 25.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bruce Alan MacCurdy (1944–1987) was an animator, filmmaker, and educator active in the late 1960s and 1970s, primarily based in Syracuse, New York. He taught filmmaking and animation at Syracuse University for ten years and was a significant figure in the experimental video and film scene of the era. His work is associated with the early development of video art; in 1975, he participated in the 'Community Video' exhibition at the Everson Museum of Art in Syracuse, where his collaborations with Owen Shapiro were featured alongside the work of video art pioneers such as Bill Viola and Frank Gillette. MacCurdy was also a mentor to several notable artists, including director Henry Selick, and was a close associate of underground cartoonist Vaughn Bodē, with whom he explored the intersection of animation and underground comics. His film 'Flipping' has been cited in research concerning the evolution of animation storyboard styles and graphic design systems. He worked as a self-employed filmmaker producing television commercials as well as films for public television and Colgate University.",
+            "sources": [
+              "https://cartoonresearch.com/index.php/animation-anecdotes-293/",
+              "https://www.cartoonbrew.com/feature-film/henry-selick-on-why-jan-svankmajer-matters-140507.html",
+              "https://www.videohistoryproject.org/everson-video-1975",
+              "https://newspaperarchive.com/syracuse-post-standard-nov-04-1987-p-67/",
+              "https://dspace.mit.edu/handle/1721.1/15024"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Bruce MacCurdy UCSB art department",
+            "\"Bruce MacCurdy\" artist biography",
+            "\"Bruce MacCurdy\" printmaker",
+            "Bruce MacCurdy artist Experiments in Art and Technology",
+            "",
+            "\"Bruce MacCurdy\" Syracuse animation film",
+            "\"Bruce MacCurdy\" video artist Everson",
+            "\"Bruce MacCurdy\" filmmaker E.A.T. membership",
+            "",
+            "\"Bruce MacCurdy\" \"E.A.T.\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8TcZ3mIOQniqOQNz3ZE45HJ8fxhgZWlE8FsWhDzWX398SkqvRWAFf6cozi5uI7ljrktKosh5r14G2OemLG4pus5bPpyzR1KalG3rrmlZhWrKp66nWBNmpFxEXZ5eQS0eXgxhiQladeh8FEPMMvbsOVU9DGe4MDKOsVw1Be5bo",
+              "title": "newspaperarchive.com",
+              "resolvedUri": "https://newspaperarchive.com/syracuse-post-standard-nov-04-1987-p-67/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 199,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Bruce Alan MacCurdy (1944–1987) was an animator, filmmaker, and educator active in the late 1960s and 1970s, primarily based in Syracuse, New York."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1019,
+                "endIndex": 1608,
+                "text": "He worked as a self-employed filmmaker producing television commercials as well as films for public television and Colgate University.\",\n      \"sources\": [\n        \"https://cartoonresearch.com/index.php/animation-anecdotes-293/\",\n        \"https://www.cartoonbrew.com/feature-film/henry-selick-on-why-jan-svankmajer-matters-140507.html\",\n        \"https://www.videohistoryproject.org/everson-video-1975\",\n        \"https://newspaperarchive.com/syracuse-post-standard-nov-04-1987-p-67/\",\n        \"https://dspace.mit.edu/handle/1721.1/15024\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -18,6 +79,93 @@
         "y1": 16.1,
         "x2": 35.9,
         "y2": 27.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26324",
+          "label": "Jill Rosenberg",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Jill Rosenberg matches exactly in both records. Furthermore, the Wikibase entity specifically links her to the Experiments in Art and Technology (E.A.T.) Technical Services Program and its edge-notched card project, which directly corresponds to the source and context of the card entry dated 1970."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7045447",
+          "label": "Noah Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match; the card entry is for Jill Rosenberg, while the Wikidata entity is for Noah Rosenberg. Furthermore, Jill Rosenberg is identified as an artist associated with E.A.T., whereas Noah Rosenberg is an evolutionary biologist and professor."
+        },
+        {
+          "qid": "Q19678062",
+          "label": "Friedrich Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Jill Rosenberg and Friedrich Rosenberg are completely different. Furthermore, Friedrich Rosenberg lived from 1758 to 1833, whereas the card entry is dated 1970 and refers to an individual active in the mid-20th century."
+        },
+        {
+          "qid": "Q110076162",
+          "label": "Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are entirely incompatible. The Wikidata entity refers to an individual (Rosenberg) who was active around 1785, whereas the Jill Rosenberg on the card was active in 1970."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jill Rosenberg is an artist and administrator who was notably active in the late 1960s and early 1970s within the New York and international avant-garde art scenes. She is primarily associated with Experiments in Art and Technology (E.A.T.), the influential non-profit organization founded by Billy Klüver and Robert Rauschenberg to foster collaboration between artists and engineers. Rosenberg served as the Office Manager for E.A.T. in New York and played a significant role in the administration and coordination of the organization's projects, including the development of the Pepsi Pavilion at Expo '70 in Osaka, Japan. Her work often intersected with performance and media art; she is listed in the archives of the Western Front, an artist-run center in Vancouver, for her participation in various media and performance events, such as \"Hank’s Industrial Cabaret\" in 1989, where she performed alongside artists like Tony Oursler and Jim Shaw. Her career spans early administrative support for technological art experiments to later performance-based activities.",
+            "sources": [
+              "https://westernfront.ca/archives/performance/hanks-industrial-cabaret",
+              "https://westernfront.ca/archives/search?artist=Jill+Rosenberg",
+              "http://www.fondation-langlois.org/html/e/page.php?NumPage=2121",
+              "https://www.jstor.org/stable/25007421"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jill Rosenberg\" artwork 1969 1970",
+            "\"Jill Rosenberg\" E.A.T. artist",
+            "\"Jill Rosenberg\" artist Experiments in Art and Technology",
+            "\"Jill Rosenberg\" artist 1960s 1970s",
+            "",
+            "\"Jill Rosenberg\" E.A.T. directory",
+            "\"Jill Rosenberg\" artist E.A.T. newsletter",
+            "\"Jill Rosenberg\" artist \"Pavilion\" Osaka",
+            "",
+            " \"Jill Rosenberg\"",
+            "\"Jill Rosenberg\" Western Front Vancouver artist",
+            "\"Jill Rosenberg\" video artist 1970s",
+            "\"Jill Rosenberg\" \"Julie Martin\" E.A.T.",
+            "\"Jill Rosenberg\" artist 1968 1969 1970",
+            "\"Jill Rosenberg\" art 1970s performance",
+            "\"Jill Rosenberg\" E.A.T. member",
+            "\"Jill Rosenberg\" E.A.T. engineer",
+            "",
+            "\"Jill Rosenberg\" \"E.A.T.\" archive",
+            "\"Jill Rosenberg\" Vancouver art E.A.T.",
+            "\"Jill Rosenberg\" active 1960s 1970s art",
+            "",
+            "\"Jill Rosenberg\" \"E.A.T.\" contact",
+            "\"Jill Rosenberg\" artist performance 1960s 1970s",
+            "\"Jill Rosenberg\" E.A.T. Techne editor",
+            "\"Jill Rosenberg\" video artist 1970 1971 1972",
+            "\"Jill Rosenberg\" \"E.A.T.\" New York 1960s",
+            "",
+            " \"Jill Rosenberg\"",
+            "\"Jill Rosenberg\" E.A.T. bibliography",
+            "\"Jill Rosenberg\" artist \"E.A.T.\" vancouver",
+            "\"Jill Rosenberg\" E.A.T. office manager",
+            "",
+            "\"Jill Rosenberg\" \"E.A.T.\" 1970 Osaka"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

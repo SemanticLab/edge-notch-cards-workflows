@@ -9,6 +9,49 @@
         "y1": 8.5,
         "x2": 28.3,
         "y2": 13.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q22237234",
+          "label": "Ludwig Redl",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes a sculptor and visual artist born in 1942, making him 27 years old at the time of the 1969 card entry, which is consistent with the expected activity period. Additionally, the presence of artist files at the Smithsonian suggests professional recognition in the United States, which aligns with the context of the archival card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ludwig Redl (born September 12, 1942, in Vienna) is an Austrian sculptor, industrial designer, and educator who was prominent in the international art scene during the late 1960s and 1970s. After moving to California in 1965 at the age of 23, he became known for creating cryptic, post-minimalist sculptures using alternative and industrial materials such as fiberglass, polyester resin, twigs, and thread, often compared to the work of Eva Hesse. He taught as a professor of sculpture at the University of California, Santa Barbara (UCSB) and exhibited at major venues, including the Cirrus Gallery in Los Angeles, MoMA PS1 in New York (1977), and the Santa Barbara Museum of Art. His work from this period often explored the relationship between technology, industrial materials, and the viewer's perspective. In his later career, Redl transitioned into industrial design, serving as the head of design for Swarovski Crystal, where he created objects for the Swarovski Selection in collaboration with other designers like Ettore Sottsass. He also partnered with the architectural firm Gorgona Böhm Associates, contributing to large-scale design and construction projects in Europe and beyond. While search results do not explicitly confirm his membership in Experiments in Art and Technology (E.A.T.), his experimental use of industrial materials and his multidisciplinary career in art and industry align closely with the organization's goals.",
+            "sources": [
+              "https://www.ludwig-redl.com",
+              "https://de.wikipedia.org/wiki/Ludwig_Redl",
+              "https://www.invaluable.com/artist/redl-ludwig-pxt8nksmdu/biography/",
+              "https://www.moma.org/calendar/exhibitions/2443",
+              "https://www.surfersjournal.com/editorial/poet-of-the-invisible/",
+              "https://www.si.edu/object/sia_ru000531"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Ludwig Redl artist",
+            "Ludwig Redl Experiments in Art and Technology",
+            "\"Ludwig Redl\" E.A.T.",
+            "Ludwig Redl biography",
+            "\"Ludwig Redl\" Bell Labs collaboration",
+            "\"Ludwig Redl\" \"E.A.T.\"",
+            "\"Ludwig Redl\" Billy Kluver",
+            "",
+            "\"Ludwig Redl\" artist Los Angeles 1970s fiberglass",
+            "\"Ludwig Redl\" E.A.T. member",
+            "\"Ludwig Redl\" Experiments in Art and Technology list"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -20,6 +63,67 @@
         "y1": 12.6,
         "x2": 26.8,
         "y2": 20.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5732793",
+          "label": "Herb Aach",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Herb Aach' matches exactly between the card and the Wikidata entity. The Wikidata entity is identified as an artist and painter who was active during the late 1960s (born 1923, died 1985), which aligns perfectly with the date and context of the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Herb Aach (1923–1985), also known as Herbert Aach, was an influential German-born American painter, writer, and color theorist active from the late 1940s until his death. He is widely recognized for his intense exploration of color relationships and his pioneering use of fluorescent and phosphorescent pigments, a style he termed \"color expressionism.\" Aach was a member of the Experiments in Art and Technology (E.A.T.) community; his phosphorescent works were featured in the landmark E.A.T. exhibition \"Some More Beginnings\" at the Brooklyn Museum. In addition to his studio practice, he served as a professor at Queens College starting in 1965, eventually becoming the chairman of the arts department from 1976 to 1979. His scholarly contributions include a notable 1971 translation and editing of Goethe's \"Theory of Colours.\" Throughout the 1960s and 1970s, he developed major series of paintings such as \"Three Muses\" (1967), \"Precession of the Equinoxes\" (1974), and \"Split Infinity\" (1976–1977), which utilized programmed color arrangements on fresco-like gesso grounds. Aach was also the president of the Artists Technical Research Institute and was part of the vibrant New York art scene, residing in the famous artist lofts at 404 East 14th Street alongside contemporaries like Claes Oldenburg and Yayoi Kusama.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Herb_Aach",
+              "https://www.herbaach.com/",
+              "https://www.leilahellergallery.com/artists/herb-aach",
+              "https://academiccommons.columbia.edu/doi/10.7916/D8445M6W",
+              "https://www.artsy.net/artist/herb-aach",
+              "https://www.villagepreservation.org/2014/12/22/2014-year-in-review-gvshp-programs/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Herb Aach Queens College color theory",
+            "Herb Aach painter biography 1960s 1970s",
+            "Herb Aach artist Experiments in Art and Technology",
+            "\"Herb Aach\" E.A.T. artist",
+            "Herb Aach \"Experiments in Art and Technology\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9lYBtYsdvNwnXl1eyxDAF8UHSfx2BUioe2v3e11OHnh0wxQdKpTQoyfocvz6boQSatOacvGq3ZQsIq6WGRvNUfIBqr3IylWwVM09I-hifF_kB7hC0bLY9UkWWeOhZKZ7eb1NxSvkfdgtKsqVAlHnCbkVwKNxd41NJU5E=",
+              "title": "artsy.net",
+              "resolvedUri": "https://www.artsy.net/artwork/herb-aach-split-infinity-number-b1s"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcKPhz_ViRASrwPylkyJQXNTFAxKAGSXGcxqd4NIbcXKy-T_Wxaesvm5SzHKkJ8q6-s0FljuV7h95T7ZS_jbx8MYgf_yX1O67NeE7Tqxwa-T1p5FHzrg8-Ug==",
+              "title": "blogspot.com",
+              "resolvedUri": "http://nihalunal.blogspot.com/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 222,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Herb Aach (1923–1985), also known as Herbert Aach, was an influential German-born American painter, writer, and color theorist active from the late 1940s until his death."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

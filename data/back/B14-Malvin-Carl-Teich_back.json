@@ -8,6 +8,99 @@
         "y1": 10.3,
         "x2": 36.0,
         "y2": 21.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q24046",
+          "label": "Rochester (N.Y.)",
+          "description": "county seat of Monroe County, New York, United States",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Nicklas Roches who is an artist, while the Wikibase entity describes the city of Rochester, New York. They are fundamentally different types of entities (a person vs. a geographical location)."
+        }
+      ],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Nicholas Roukes (born 1929) is a Canadian artist, author, and art educator who was significantly active during the late 1960s and 1970s. He served as Professor Emeritus of Art at the University of Calgary in Alberta, Canada. Roukes is well known for his exploration of the intersection between art and technology, particularly through his pioneering work with modern materials such as plastics and acrylics. His publications, which were widely influential in art education, include 'Classroom Craft Manual' (1960), 'Sculpture in Plastics' (1968), 'Plastics for Kinetic Art' (1974), and 'Art Synectics' (1982). His work 'Sculpture in Plastics' specifically addresses the interaction between art and technology, a central theme of the Experiments in Art and Technology (E.A.T.) organization. Roukes is associated with the historical period and themes of E.A.T., and his name 'Nicholas Roukes' is likely the historical identity intended by the phonetic spelling 'Nicklas Roches.'",
+            "sources": [
+              "https://www.nicholasroukes.org/contact.html",
+              "https://www.thriftbooks.com/w/sculpture-in-plastics_nicholas-roukes/1032860/",
+              "https://archive.org/stream/leonardo19681987vol120index/leonardo19681987vol120index_djvu.txt",
+              "https://www.mutualart.com/Artist/Nicholas-Roukes/690C635B9114D38A"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Nicolas Roches\" artist E.A.T.",
+            "\"Experiments in Art and Technology\" participants list",
+            "\"Experiments in Art and Technology\" \"Roche\"",
+            "\"Experiments in Art and Technology\" \"Roches\"",
+            "\"E.A.T.\" artist \"Roche\"",
+            "\"Nicolas Roches\" artist",
+            "\"Niklas\" \"Roches\" art",
+            "\"Nicklas\" \"Roches\" art",
+            "\"Roches\" member Experiments in Art and Technology",
+            "\"Nicholas Roches\" artist E.A.T.",
+            "\"Nicholas Roukes\" artist 1960s",
+            "\"Nicolas Roche\" artist 1960s 1970s",
+            "\"Roches\" artist Experiments in Art and Technology",
+            "\"Niklas\" \"Roches\" Experiments in Art and Technology",
+            "\"Nicholas Roukes\" E.A.T.",
+            "",
+            "\"Roches\" \"Mädchen für alles\" E.A.T.",
+            "\"Roches\" \"Experiments in Art and Technology\" Salzburg",
+            "\"Nicolas Roches\" E.A.T. staff",
+            "\"Roches\" E.A.T. technical services",
+            "",
+            "\"Roches\" \"Mädchen für alles\" Experiments in Art and Technology",
+            "\"Nicolas Roche\" artist tech 1970s",
+            "\"Nicolas Roche\" E.A.T. Salzburg",
+            "\"Roches\" E.A.T. Salzburg exhibition",
+            "\"Nicholas Roches\" -hair -calais",
+            "\"Nicholas Roukes\" artist biography",
+            "\"Nicholas Roukes\" art technology plastic",
+            "\"Nicholas Roukes\" \"Experiments in Art and Technology\"",
+            "\"Nicholas Roukes\" active 1960s 1970s",
+            "\"Nicholas Roches\" artist",
+            "\"Nicolas Roches\" artist",
+            "\"Roche\" \"Experiments in Art and Technology\" match service",
+            "\"Nicholas Roche\" artist active 1960s 1970s E.A.T.",
+            "\"Nicolas Roche\" artist active 1960s 1970s E.A.T.",
+            "",
+            "\"Nicholas Roukes\" artist Alberta Calgary",
+            "\"Nicholas Roukes\" \"Experiments in Art and Technology\"",
+            "\"Nicholas Roukes\" \"E.A.T.\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwwcAYPwHMWdBk2GpLSz3Wr648Hs6cMPT_6I4aNXbqlRQ-j9WbxwJq9ExuNSADZbZES_lcjhaNEiVaWjaXvlX-lRj3G5qIsNO6JZMSj2_aIO1QZX_5TlpfMixFFuQ_UiHCaBgG-stCrwaysnVh_U0o_fUQVvqUduahp-Klt3TySEQO",
+              "title": "google.com",
+              "resolvedUri": "https://books.google.com/books/about/Artful_Jesters.html?id=wZvuMo9JW2EC"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFb2dEaSvNUmrnhflZg4I9yj5hvzdzAiyyLnR__i-fdnMN2CWw7U9UqlUXiMABTM_JiRFBYwmf1MEfU4PFhLxzFdYjfuSZBBXfhN2yoWgkH3X2AGkXQvV7a8oXQeAoBno3SggrvkFo-K6tijLqy2Nr6CMBkGGILyXWqNqKfAN_lcGPDxwtlu3VIbV4eJY=",
+              "title": "craftarchive.ca",
+              "resolvedUri": "https://craftarchive.ca/files/original/3d1c1a87efdd32d4c22787bd6e792debd6a72388.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 187,
+                "endIndex": 274,
+                "text": "He served as Professor Emeritus of Art at the University of Calgary in Alberta, Canada."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -18,6 +111,134 @@
         "y1": 26.0,
         "x2": 26.6,
         "y2": 31.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1993",
+          "label": "Aaron Copland",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Peter Aaron' and 'Aaron Copland' are distinct. While they share the name 'Aaron', 'Aaron' is the surname in the card entry and the first name in the Wikibase entity. Aaron Copland is a famous composer, whereas Peter Aaron is a known architectural photographer active in the relevant time period."
+        },
+        {
+          "qid": "Q26339",
+          "label": "Aaron Marcus",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Peter Aaron' and 'Aaron Marcus' are distinct. While 'Aaron' appears in both, it functions as a surname in the card and a given name in the Wikibase entry, and 'Peter' does not match 'Marcus'. There is no evidence provided to suggest these are the same individual."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q649065",
+          "label": "Peter Aaron",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q649065) refers to a 15th-century ruler of Moldavia (Petru Aron) who died in 1469. This is chronologically incompatible with the card entry dated 1970 for an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q7172156",
+          "label": "Pete Miser",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Pete Miser) was born in 1971 and began his career in 1995, which is incompatible with the card entry dated 1970. Furthermore, the surnames 'Aaron' and 'Miser' do not match."
+        },
+        {
+          "qid": "Q18387831",
+          "label": "Peter Aaron Van Dorn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Peter Aaron Van Dorn lived from 1773 to 1837, making it impossible for him to be the Peter Aaron active in 1970. Additionally, the Wikidata entity's occupation was a lawyer, not an artist."
+        },
+        {
+          "qid": "Q87635385",
+          "label": "Peter Defnet",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Peter Defnet (Peter Aaron Defnet) was born in 1993, making it impossible for him to be the person mentioned on a card dated 1970. Furthermore, the Wikidata entity is a scientist (chemist/engineer), while the card refers to an artist (specifically identified in context as likely being an architectural photographer)."
+        },
+        {
+          "qid": "Q105580080",
+          "label": "Peter Munro",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a partial match, but the Wikidata entity (Peter Aaron Munro) is a New Zealand-based scientist, whereas the card refers to an artist named Peter Aaron. The occupation and surname difference (Munro vs. Aaron) make a match highly unlikely."
+        },
+        {
+          "qid": "Q133615857",
+          "label": "Q133615857",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q133615857) has a birth date of 1964, which would make the person only six years old in 1970. This is inconsistent with the card entry dated 1970, which refers to an artist (specifically Peter Aaron, an architectural photographer) active during the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Peter Aaron is a prominent American architectural photographer and filmmaker who has been active since the late 1960s. He graduated from Bard College in 1968, where he was a contemporary of figures such as Chevy Chase and captured extensive photographic documentation of campus life and students between 1964 and 1971. Aaron began his professional career as a cinematographer before transitioning to photography, eventually serving a transformational apprenticeship under the legendary architectural photographer Ezra Stoller. He became a principal photographer for the agency Esto (founded by Stoller) and his work has been featured extensively in publications like Architectural Digest and in numerous books on architecture and design. Aaron is noted for his association with the non-profit organization Experiments in Art and Technology (E.A.T.); his photography has been used to document the organization's historic collaborative projects between artists and engineers, such as '9 Evenings: Theatre and Engineering' (1966) and 'ARTCASH' (1971), and his images appear in comprehensive retrospectives of E.A.T.'s work. His professional approach focuses on capturing a 'Platonic ideal' of structures, emphasizing compositional complexity and cinematic lighting.",
+            "sources": [
+              "https://www.peteraaron.net",
+              "https://nyheritage.org/collections/peter-aaron-collection",
+              "https://www.bard.edu/library/archives/student-lens/",
+              "https://www.metropolismag.com/architecture/architectural-photography-should-interpret-not-just-document-the-world/",
+              "https://www.archdaily.com/photographer/peter-aaron-otto"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Peter Aaron architect photographer E.A.T. association",
+            "\"Peter Aaron\" photographer architecture E.A.T.",
+            "\"Peter Aaron\" artist 1960s 1970s",
+            "Peter Aaron artist Experiments in Art and Technology E.A.T.",
+            "\"Peter Aaron\" E.A.T. archive",
+            "\"Peter Aaron\" photographer E.A.T.",
+            "\"Peter Aaron\" artist biography 1960s 1970s",
+            "\"Peter Aaron\" Experiments in Art and Technology list of participants",
+            "\"Peter Aaron\" artist film 1960s",
+            "",
+            "\"Peter Aaron\" artist Bard College 1968",
+            "\"Peter Aaron\" Esto photographer biography",
+            "\"Peter Aaron\" Pepsi Pavilion E.A.T.",
+            "\"Peter Aaron\" Experiments in Art and Technology participant",
+            "\"Peter Aaron\" cinematographer 1960s 1970s",
+            "\"Peter Aaron\" 9 Evenings E.A.T.",
+            "",
+            "\"Peter Aaron\" E.A.T. \"9 Evenings\" documentation",
+            "\"Peter Aaron\" artist photographer 1970s NY",
+            "\"Peter Aaron\" E.A.T. \"Experiments in Art and Technology\" member",
+            "\"Peter Aaron\" and \"Robert Whitman\" E.A.T.",
+            "\"Peter Aaron\" film 1960s New York"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7Edgq3XT6GR42VjdO7bc3GbbPdTjTHJ4PaThWyY4lF3929dMAH5faxk4GyOD8lXpaT94Iih2mrFdBsWRA5TrFBzzAIkIdPz5diEgQ1lCdUkhVybzybVYekiTeNkTV9FOUkNc0lecqxJEBX9sC1YSX3C9ljnaFRFci3W1zGRvbe-ctkzAw_8KEOA==",
+              "title": "studyinternational.com",
+              "resolvedUri": "https://studyinternational.com/wp-content/uploads/2020/10/Bard-Prospectus-1.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwKoe3vC_1F6BTtvk9S_Ye7J68z0nPUwmaSRGvGpiXQOWzAX_rsXZHvyQOO0HEWTtTfST_y-Wi5A5c814XnLWl-zIs-2dQLxpPU60MGI27gUC8LTKfa4ksxE3fGQvlqIrnQ5FJnQwx_3ycTUdRHVXyZ6MCTIu0S5M=",
+              "title": "turbifycdn.com",
+              "resolvedUri": "https://ep.turbifycdn.com/ty/cdn/artbook/DAPS1620151221WEB.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 168,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Peter Aaron is a prominent American architectural photographer and filmmaker who has been active since the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

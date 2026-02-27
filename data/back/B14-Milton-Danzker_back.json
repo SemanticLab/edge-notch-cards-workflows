@@ -9,6 +9,76 @@
         "y1": 15.6,
         "x2": 41.9,
         "y2": 20.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28221",
+          "label": "Samuel Chaikofsky",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and both sources identify the individual as an artist. The Wikibase entity is associated with the E.A.T. (Experiments in Art and Technology) project, which flourished during the late 1960s and early 1970s, perfectly aligning with the provided context for the card entry."
+        }
+      ],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Samuel Chaikofsky (born 1924) was an artist active in the late 1960s and early 1970s, notable for his participation in the intersection of art and technology. He is documented as a participant in the landmark exhibition \"Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes,\" which was held at the Brooklyn Museum from November 26, 1968, to January 5, 1969. This exhibition was organized by Experiments in Art and Technology (E.A.T.), a non-profit organization founded by Billy Klüver, Robert Rauschenberg, Robert Whitman, and Fred Waldhauer to facilitate collaborations between artists and engineers. Chaikofsky was part of a group of more than 150 artists whose works, involving various technical materials and processes, were submitted to an international competition sponsored by E.A.T. and showcased as a complement to the MoMA exhibition \"The Machine as Seen at the End of the Mechanical Age.\" Genealogical records suggest he may have passed away in June 2004 in Florida.",
+            "sources": [
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-EAT-Billy-Kl%C3%BCver-Robert-Rauschenberg-Robert-Whitman",
+              "https://www.artist-info.com/exhibition/MoMA-27-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962",
+              "https://sortedbydate.com/genealogy/born-07-january-1924"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Samuel Chaikofsky\" Experiments in Art and Technology",
+            "",
+            "\"Samuel Chaikofsky\" exhibition 1968 1969",
+            "\"Samuel Chaikofsky\" artist biography 1924",
+            "",
+            "\"Samuel Chaikofsky\" Some More Beginnings catalog",
+            "",
+            "\"Samuel Chaikofsky\" artist work title",
+            "",
+            "\"Samuel Chaikofsky\" 1924 artist \"Some More Beginnings\"",
+            "\"Samuel Chaikofsky\" work in \"Some More Beginnings\"",
+            "\"Samuel Chaikofsky\" death date Florida",
+            "\"Samuel Chaikofsky\" 1924-2007"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK7Lbeuk0gP0uJW54dMLlVsnlzRudKOs1ZUvA_-piYSdSR3NxQmfURRR9p1Wri4kbvY-PsOKi5KEf49nXZo37Kn3nO-BYkaXXnsrnyxjBAZIGTc7SrcoH1R4xLkqJvrEZ3stQ427ip8PZdKwsKG65zCqKLLEw=",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 191,
+                "text": "{\"results\":[{\"possibleIdentity\":\"Samuel Chaikofsky (born 1924) was an artist active in the late 1960s and early 1970s, notable for his participation in the intersection of art and technology."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 684,
+                "endIndex": 1445,
+                "text": "Chaikofsky was part of a group of more than 150 artists whose works, involving various technical materials and processes, were submitted to an international competition sponsored by E.A.T. and showcased as a complement to the MoMA exhibition \\\"The Machine as Seen at the End of the Mechanical Age.\\\" Genealogical records suggest he may have passed away in June 2004 in Florida.\",\"sources\":[\"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-EAT-Billy-Kl%C3%BCver-Robert-Rauschenberg-Robert-Whitman\",\"https://www.artist-info.com/exhibition/MoMA-27-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962\",\"https://sortedbydate.com/genealogy/born-07-january-1924\"],\"accuracyLevel\":\"normal\"}]}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +90,68 @@
         "y1": 23.0,
         "x2": 36.8,
         "y2": 28.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q822346",
+          "label": "Bernard Childs",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikidata entity is a well-known painter and printmaker who was active during the late 1960s and early 1970s, which aligns perfectly with the artist context provided for the index card."
+        },
+        {
+          "qid": "Q21078956",
+          "label": "Charles Bernard Childs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Charles Bernard Childs) died in 1956, which contradicts the context that the person on the card was an artist active during the late 1960s and early 1970s. Furthermore, the Wikidata entity was an academic/teacher rather than an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bernard Childs (1910–1985) was an American painter, printmaker, and sculptor who was active in Paris and New York. He is particularly noted for his pioneering use of industrial power tools to create \"power drypoints,\" a technique he developed in the mid-1950s after studying metalworking under silversmith Peer Smed and working as a machinist. In the late 1960s and early 1970s, Childs expanded his artistic practice into three-dimensional works involving light and color. This included creating illuminated acrylic sculptures and kinetic light pieces, such as his 1973 work \"Kinetic Light,\" which consisted of engraved acrylic blocks lit from below. His focus on the intersection of art, technology, and industrial materials aligns with the mission of Experiments in Art and Technology (E.A.T.), an organization active during the same period in New York. A major retrospective of his 1960s paintings, prints, and engraved acrylic light sculptures was held at the Storm King Art Center in 1969. Childs maintained studios at the Hotel Chelsea in New York and in Paris, remaining active until a stroke in 1978, after which he continued to draw and paint until his death in 1985.",
+            "sources": [
+              "https://www.annexgalleries.com/artists/biography/426/Childs/Bernard",
+              "https://en.wikipedia.org/wiki/Bernard_Childs",
+              "https://whitney.org/artists/241",
+              "https://www.invaluable.com/artist/childs-bernard-u1of9j0mxs/sold-at-auction-prices/",
+              "https://www.mutualart.com/Artist/Bernard-Childs/53697EDC610668F3"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bernard Childs artist biography 1960s 1970s",
+            "Bernard Childs artist works and history",
+            "artist Bernard Childs Experiments in Art and Technology E.A.T.",
+            "",
+            "\"Bernard Childs\" kinetic light sculpture 1970s",
+            "\"Bernard Childs\" E.A.T. artist",
+            "\"Bernard Childs\" \"Experiments in Art and Technology\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlgz5WxzsJSBuHWkFtC8CO-t3mp0_UHADQ1JPVdlcAXHeQwpnSYhSLJZ9CzG_vnLCnMZeT4M1PtOq3nio1GH7R7HHfwhbNLfGO_cpSOhCcDWk1HzkOeWiJt4x7epkS0qDX2HeCKB7Oec4c2VXgsih-U0XMLffk29u-AjF6Ou8tZJH7BLfczG4cXqYXl8Fj_1SX2_9jtc-T3QIQlWMmwEtHTtuHtrnAJUYxgvFjANa5I-OKKvkH",
+              "title": "wordpress.com",
+              "resolvedUri": "https://annexgalleries.wordpress.com/tag/bernard-childs-abstract-expressionism-intaglio-printmaking-prints-fine-prints-art/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 166,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Bernard Childs (1910–1985) was an American painter, printmaker, and sculptor who was active in Paris and New York."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +163,144 @@
         "y1": 31.5,
         "x2": 36.5,
         "y2": 36.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q464258",
+          "label": "Johann Ludwig Hektor von Isolani",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s/early 1970s, whereas the Wikidata entity is a 17th-century military general (Johann Ludwig Hektor von Isolani) who lived from 1586 to 1640. Despite the similarity in the surname Isolani, the time periods and occupations are completely incompatible."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lucio Isolani (1931–2014) was an Italian-born sculptor and educator who was primarily active in New York. He was a prominent faculty member at the Pratt Institute in Brooklyn, where the \"Lucio Isolani Study Archive\" is currently housed. Isolani's artistic practice focused on large-scale \"inflatable soft sculptures\" and \"aerial sculptures,\" which often required technical collaboration, leading to his association with Experiments in Art and Technology (E.A.T.). In October 1982, he participated in a notable aerial sculpture exhibition at Central Park's Sheep Meadow, which featured inflatable works by eleven artists, including Willem de Kooning and Masaaki Noda. His work has continued to be recognized in contemporary retrospectives, such as the 2017 exhibition \"Frammenti\" at the Italian Embassy in Washington, D.C., and the 2017 \"Pic Nic\" event at the MAXXI Museum in Rome. He is remembered for his contribution to the development of public and experimental sculpture in the late 1960s and 1970s.",
+            "sources": [
+              "https://www.masaakinoda.com/essay/the-evolution-of-masaaki-nodas-public-sculptures/",
+              "https://riccardovecchio.com/about/",
+              "https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/228151.pdf",
+              "https://issuu.com/accartbooks/docs/9791254600535",
+              "https://giancarlonorese.wordpress.com/news/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Lucio Isolani\"",
+            "\"Lucio Isolani\" late 1960s 1970s artist",
+            "",
+            "\"Lucio Isolani\" sculptor Italy New York",
+            "",
+            "\"Lucio Isolani\" obituary",
+            "\"Lucio Isolani\" Italian sculptor New York 1970s",
+            "",
+            "",
+            "\"Lucio Isolani\" biography artist death",
+            "",
+            "",
+            "\"Lucio Isolani\" inflatable sculpture \"Sheep Meadow\" 1982",
+            "",
+            "\"Lucio Isolani\" 1931 2014 artist",
+            "\"Lucio Isolani\" artist biography years"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN3U8hFuQNTCvbMgWtycq5hTgWOxmWUmuVukvUDzuerAt8Ox_3eNgXjEomU0UYfp_D1o9BOfmN2JdJ1cu24-bK0KMiTYt7usYTJ2hqQJ9lZW6KzEv5loue8XKkbgsbIOFO3UJEssDqTQC6x2_rE-05sQvZYsCzLJrat3T7fbU42w==",
+              "title": "city.fukuyama.hiroshima.jp",
+              "resolvedUri": "https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/305238.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjODVFbtlMT-gt_fkCxs1iXRpjxCQ4A7zq-bbpKnQAcR4_b6jo2-lBvtZd99x7eHdirZJmM3ZzQxxqil-W5yE3qXDtVE_m57WIZcM3fONOilzQpwl3O4dIJCF7UZO02g3e",
+              "title": "wordpress.com",
+              "resolvedUri": "https://noresize.wordpress.com/news-2/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxEseJcByjHbNfF9bZqwe3ZjmabF3jJS9c0lthz1dF5YnGvvx-6-Lt1ngl9j-_KLF9PofAAITuN_2COA_WnsL6e6jbG0cMtmJmMCJH7w4bRoMspU0Pl4fHKHav6k9IjVoketwm1GuA0YOVQpDj5j_GWhEsOIALo8K6LZCojsbtUIj5K1A=",
+              "title": "masaakinoda.com",
+              "resolvedUri": "https://masaakinoda.com/the-evolution-of-masaaki-nodas-public-sculptures/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz0gHsfwgIIpeB7YlRsuu4hAsYyjjaduldnomVZHtkxFhnnh5YzfRqa0DoansZSU6iU0b-hZmH52Mo8rAgwvFegAz66ZRT1dH838CSM5Bv11TX5-AKlVhd-RgcAQrpd3lgxkTyQrA-4F_U7Mvk2GrGUMM9c6D-dP3wULYu",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/accpublishinggroup/docs/italian_and_american_art"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6BXVySJbseuJ1gsCtOvK6aTcAOBDHvP0dMAdic6gJDr0YXxBPV8gKjjEkEKgRVrHV4WRRNMsESSs5XongsWvdd3sta7w68z2qz-2jPyNefhGlomPCA6zDm-I_NDqLzhQJ7jzP4YluuYv7JM_l__aigeHsV_1IL2dUCTr88A==",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/accpublishinggroup/docs/italian_and_american_art"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 157,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lucio Isolani (1931–2014) was an Italian-born sculptor and educator who was primarily active in New York."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 158,
+                "endIndex": 290,
+                "text": "He was a prominent faculty member at the Pratt Institute in Brooklyn, where the \\\"Lucio Isolani Study Archive\\\" is currently housed."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 291,
+                "endIndex": 521,
+                "text": "Isolani's artistic practice focused on large-scale \\\"inflatable soft sculptures\\\" and \\\"aerial sculptures,\\\" which often required technical collaboration, leading to his association with Experiments in Art and Technology (E.A.T.)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 522,
+                "endIndex": 724,
+                "text": "In October 1982, he participated in a notable aerial sculpture exhibition at Central Park's Sheep Meadow, which featured inflatable works by eleven artists, including Willem de Kooning and Masaaki Noda."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 725,
+                "endIndex": 942,
+                "text": "His work has continued to be recognized in contemporary retrospectives, such as the 2017 exhibition \\\"Frammenti\\\" at the Italian Embassy in Washington, D.C., and the 2017 \\\"Pic Nic\\\" event at the MAXXI Museum in Rome."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 943,
+                "endIndex": 1475,
+                "text": "He is remembered for his contribution to the development of public and experimental sculpture in the late 1960s and 1970s.\",\n      \"sources\": [\n        \"https://www.masaakinoda.com/essay/the-evolution-of-masaaki-nodas-public-sculptures/\",\n        \"https://riccardovecchio.com/about/\",\n        \"https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/228151.pdf\",\n        \"https://issuu.com/accartbooks/docs/9791254600535\",\n        \"https://giancarlonorese.wordpress.com/news/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4,
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

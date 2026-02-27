@@ -8,7 +8,7 @@
     "geographicLocation": "Brooklyn, New York"
   },
   "professionalAffiliation": {
-    "employerOrganization": "Not specified",
+    "employerOrganization": "",
     "departmentDivision": "Not specified"
   },
   "professionalIdentityExpertise": {
@@ -22,5 +22,71 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Not specified",
     "aestheticPhilosophicalInterests": "Not specified"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q65927678",
+      "label": "Gatzke",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records represent different individuals. The card data describes a male named Fred W. Gatzke residing in Brooklyn, New York, with a background in electronics. The Wikidata entity describes a female German badminton player named Gatzke who participated in East German championships."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Fred W. Gatzke was an electronics and communications technical specialist based in Brooklyn, New York, active during the late 1960s and 1970s. He was a member of Experiments in Art and Technology (E.A.T.), a non-profit organization established to foster collaborations between artists and engineers. In 1976, while living at 184 Hewes Street in the Williamsburg neighborhood of Brooklyn, Gatzke was identified as a retired professional with a deep interest in electronic maintenance and restoration. During this period, he utilized technical resources like the 'Operation Assist' column in Popular Electronics magazine to source schematics and manuals for vintage equipment, including a Zenith Model 95244 'Long Distance Radio' and an IBM Model 1571 diode tester (identified by IBM print number 45091 8 S 32001). His technical background encompassed the fields of communications and electronics, and his expertise likely extended to IBM industrial testing equipment.",
+        "sources": [
+          "https://archive.org/details/popular-electronics-1976-09/page/n103/mode/2up"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Fred W. Gatzke\" engineer",
+        "",
+        "\"Fred W. Gatzke\" 184 Hewes St Brooklyn",
+        "\"Fred W. Gatzke\" engineer communications electronics",
+        "\"Fred Gatzke\" Brooklyn communications",
+        " \"Fred Gatzke\"",
+        " \"Fred W. Gatzke\"",
+        "\"Fred W. Gatzke\" retired communications electronics",
+        "",
+        "\"Fred W. Gatzke\" communications electronics Brooklyn",
+        "",
+        "\"Fred W. Gatzke\" Experiments in Art and Technology member directory",
+        "\"Fred W. Gatzke\" death date New York",
+        "",
+        " \"Gatzke\"",
+        " \"Fred\" engineer",
+        "\"Fred W. Gatzke\" obituary New York",
+        "\"Fred W. Gatzke\" Zenith radio Brooklyn",
+        "",
+        "\"Fred W. Gatzke\" Brooklyn communications engineer biography",
+        ""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0G9Yt-NjUJomTuYHL2DXfXm9BUcSkGrhK2o3zQSc8NYmkLBDqhwvw7-IdC6R-7q5BCiT4cT8PviqaAxHxE1e3uiO8ecl6NEBZE2DTQmcHm-c50C54AtaCsmRbnHTYVZcCVtTKXs0TtpOQttZ_o4d5-1n8tLtD2e5VIJp7mh0mjh-v1vmDXDncR19iOIsvJCOM5J-_LNc=",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/197609PopularElectronics/197609%20Popular%20Electronics_djvu.txt"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 550,
+            "endIndex": 862,
+            "text": "During this period, he utilized technical resources like the 'Operation Assist' column in Popular Electronics magazine to source schematics and manuals for vintage equipment, including a Zenith Model 95244 'Long Distance Radio' and an IBM Model 1571 diode tester (identified by IBM print number 45091 8 S 32001)."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

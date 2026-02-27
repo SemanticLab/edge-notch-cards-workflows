@@ -11,6 +11,36 @@
         "y1": 8.58,
         "x2": 40.41,
         "y2": 13.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Knisel is a professional printer and artist who was primarily active in Los Angeles during the late 1960s and 1970s. He is best known for his work as a master printer at the renowned fine art workshop and publisher Gemini G.E.L. (Graphic Editions Limited). In this capacity, he collaborated with some of the most prominent artists of the era on technically complex printmaking projects. His collaborations include works with Sam Francis (such as the screenprints 'Freshet', 'Red Again', and 'Ting' in 1972), Frank Stella ('York Factory II' and 'Fūrg' in 1974), and Keith Sonnier (the 'Air-to-Air' series in 1975). He also worked with Michael Heizer, Ronald Davis, and Jasper Johns. Knisel's work often involved screenprinting and lithography, and he was recognized for his role in the production of experimental multiples and editions that intersected with the technological and process-oriented art movements of the time. This background aligns with an association with Experiments in Art and Technology (E.A.T.), as Gemini G.E.L. frequently partnered with E.A.T.-affiliated artists to explore new technical frontiers. Beyond his work as a technician and printer, Knisel was also part of the Los Angeles art community, appearing as a participating artist in the 'Cotton Exchange Show' organized by Los Angeles Contemporary Exhibitions (LACE), a massive art environment and exhibition involving over 200 contributors. In his later career, he was noted as a specialist in glazing and gilding for fine furniture in the Pasadena area.",
+            "sources": [
+              "https://www.nga.gov/collection/artist-info.28421.html",
+              "https://www.nga.gov/collection/art-object-page.151703.html",
+              "https://www.nga.gov/collection/art-object-page.73715.html",
+              "https://welcometolace.org/lace/the-cotton-exchange-show/",
+              "https://www.getty.edu/publications/virtuallibrary/0892365227.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Knisel\" artist",
+            "\"Robert Knisel\" late 1960s early 1970s artist",
+            "\"Robert Knisel\" E.A.T. art",
+            "\"Robert Knisel\" Frank Stella Gemini G.E.L.",
+            "\"Robert Knisel\" printer Gemini G.E.L. artists",
+            "\"Robert Knisel\" Experiments in Art and Technology E.A.T.",
+            "\"Robert Knisel\" Keith Sonnier E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -24,6 +54,115 @@
         "y1": 15.01,
         "x2": 43.1,
         "y2": 22.25
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6137963",
+          "label": "James Lennon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Lennon was an Irish politician who died in 1958. The card entry is dated 1969, and the context suggests the subject was an artist active in the late 1960s and early 1970s. Since the Wikidata person died over a decade before the card date, they cannot be the same person."
+        },
+        {
+          "qid": "Q25246192",
+          "label": "James Lennon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Lennon (Q25246192) was born in 1837 and was a politician in the Wisconsin State Assembly. He could not be the individual active in 1969 mentioned on the card, as he would be over 130 years old, and the occupations do not align."
+        },
+        {
+          "qid": "Q105953344",
+          "label": "James Lennon",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name James Lennon matches exactly. The Wikidata entity's lifespan (1923-1989) is consistent with an individual being active in 1969. However, the provided Wikidata snippet lacks occupational data to confirm if this specific James Lennon was an artist, and the name is relatively common, leading to low confidence."
+        },
+        {
+          "qid": "Q106514220",
+          "label": "James Patrick Lennon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Patrick Lennon was born in 1863 and was a politician active in the early 1900s. He would have been 105 years old at the time of the card entry in 1969, and there is no evidence of him being an artist, which contradicts the known context of the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "James Lennon is an architect and designer who was notably active in the late 1960s and early 1970s, during which he was a key collaborator with the non-profit organization Experiments in Art and Technology (E.A.T.). Lennon served as the project architect and manager for the Pepsi Pavilion at Expo '70 in Osaka, Japan, a landmark project that exemplified the E.A.T. mission of bringing together artists, engineers, and scientists. Working alongside E.A.T. co-founder Billy Klüver and other artists such as Robert Whitman and Robert Breer, Lennon helped design the pavilion's complex structural and experiential elements, including its famous spherical mirror and multisensory environment. Beyond his work with E.A.T., Lennon became a recognized expert in healthcare architecture, specifically in the design of emergency departments and children's hospitals. He developed innovative spatial models like the 'matrix' layout to improve patient flow and has been a proponent of using behavioral psychology and environmental design to enhance healing environments. His career reflects a lifelong engagement with the intersection of architecture, human behavior, and advanced technology.",
+            "sources": [
+              "https://healthcaredesignmagazine.com/trends/perspectives/emergency-departments-evolutionary-process/",
+              "https://www.hcarefacilities.com/speaker-bio.asp?id=123",
+              "https://usmodernist.org/PA/PA-1970-06.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "James Lennon E.A.T. Experiments in Art and Technology biography",
+            "\"James Lennon\" artist 1960s 1970s",
+            "James Lennon artist Experiments in Art and Technology E.A.T.",
+            "\"James Lennon\" architect E.A.T. Pepsi Pavilion",
+            "\"James Lennon\" architect 1960s 1970s",
+            "\"James Lennon\" artist 1968 1969 1970 1971",
+            "\"James Lennon\" E.A.T. Experiments in Art and Technology",
+            "\"James Lennon\" engineer E.A.T.",
+            "\"James Lennon\" artist \"60s\" \"70s\" E.A.T.",
+            "\"James Lennon\" Pepsi Pavilion E.A.T.",
+            "\"James Lennon\" E.A.T. 1970 Osaka Expo",
+            "\"James Lennon\" artist spherical mirror Pavilion",
+            "\"James Lennon\" architect Pepsi Pavilion E.A.T.",
+            "\"James Lennon\" E.A.T. member list",
+            "\"James Lennon\" Experiments in Art and Technology 1969 1970 1971 1972",
+            "\"James Lennon\" E.A.T. 9 Evenings",
+            "\"James Lennon\" architect Osaka 1970",
+            " \"James Lennon\"",
+            "\"James Lennon\" Experiments in Art and Technology 1970",
+            "\"James Lennon\" E.A.T. \"Pepsi-Cola\" Pavilion",
+            "\"James Lennon\" credits Pepsi Pavilion book",
+            "",
+            "\"James Lennon\" E.A.T. architect Pavilion",
+            "\"James Lennon\" Pepsi Pavilion design team",
+            "\"James Lennon\" architect 1970 Osaka Pavilion",
+            "\"James Lennon\" E.A.T. 1968 1969 1970",
+            "\"James Lennon\" artist architect E.A.T. bio",
+            "",
+            "\"James Lennon\" architect children's hospitals biography",
+            "\"James Lennon\" architect E.A.T. Osaka 1970 biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiyEncNVK4YFG1wJp_M6ztNKSs3VAwCdeEhxxGCNZrRxVp8wQaTRz4uLg2cejMP3_thpoIfL6VVYcVknCMVe4SIxQdBB2WXdT0vpmh5W1uJ51L1WL5QI_Md4wjH_cECx3nfYvEhK5mHtK2_iZ6OaIDR5vxA9a_t8nYysIbanAMvUvH",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/389475491/ED-Design-Book-First-Look-pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3cxWxS2mAR-ZwyeK_Flh-hL0lDxGzEU1uqcxBo2KWFNRyF60qWiW8xl8MiG2qMvV8D0QdNlLHevWvqbXmVz_ZrrDBNddXk6UK5uE30LUgefvWFRtpcPuraWmTPmczOK8CnnQsyp41j2RtdwNbpho6_XevWeCcuN5Mavg=",
+              "title": "hcarefacilities.com",
+              "resolvedUri": "https://hcarefacilities.com/wp-content/uploads/2011_Brochure.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQaxm1nD8YPGeIRBl-YMPUfyBycIL_uAfsikArV-JNTUk4Kaky48f-ngMBsqT2Hb0mIlLWW_8QXjV2Zg1qmyt4-J6rFyz4yrA59QRIoZ_aaBUJuRyqakNssXDH9GGmcIlnRIrprg==",
+              "title": "felsted.org",
+              "resolvedUri": "https://www.felsted.org/ofs/alumni-gallery"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1111,
+                "endIndex": 1536,
+                "text": "His career reflects a lifelong engagement with the intersection of architecture, human behavior, and advanced technology.\",\n      \"sources\": [\n        \"https://healthcaredesignmagazine.com/trends/perspectives/emergency-departments-evolutionary-process/\",\n        \"https://www.hcarefacilities.com/speaker-bio.asp?id=123\",\n        \"https://usmodernist.org/PA/PA-1970-06.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +176,451 @@
         "y1": 23.06,
         "x2": 46.39,
         "y2": 41.15
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25731",
+          "label": "Campbell's Soup Can",
+          "description": "paintings by Andy Warhol",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named James Campbell, while the Wikibase entity describes a painting ('Campbell's Soup Can') created by Andy Warhol. An artwork is not the same as a person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q371466",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The James Campbell in the Wikidata entry (Q371466) lived from 1812 to 1893 and was a politician and lawyer. This contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q881053",
+          "label": "James Edwin Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Edwin Campbell (Q881053) died in 1924, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card's context. Furthermore, his recorded occupations are politician and lawyer, not artist."
+        },
+        {
+          "qid": "Q2915047",
+          "label": "Freddie Foxxx",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the Wikidata entity's birth name is James Campbell, he was born in 1969 and his career began in 1986. This makes it impossible for him to be the artist from the card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6130936",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6130936) refers to a painter who lived from 1828 to 1893. The person on the card is identified as an artist active in the late 1960s and early 1970s, which is inconsistent with the dates of the Wikidata subject."
+        },
+        {
+          "qid": "Q6130942",
+          "label": "James Campbell",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names match exactly. The Wikidata entity describes a clarinetist and jazz musician born in 1949, which fits the context of an artist active in the late 1960s and early 1970s. While the name is common, this individual is a prominent artist whose career timeline aligns with the provided information."
+        },
+        {
+          "qid": "Q6130952",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6130952) describes an industrialist who lived from 1826 to 1900. This is chronologically incompatible with the context that the James Campbell on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6143912",
+          "label": "James T. Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (James T. Campbell) was born in 1958, meaning he would have been a child (9-15 years old) during the late 1960s and early 1970s when the artist on the card was active. Furthermore, the Wikidata entity is a historian and academic, not an artist."
+        },
+        {
+          "qid": "Q6144545",
+          "label": "James V. Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James V. Campbell lived from 1823 to 1890 and was a judge and lawyer. This contradicts the provided context that the James Campbell on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q16239238",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an 18th-century British politician and military officer who died in 1745, which is entirely inconsistent with the provided context of an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q16849413",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell (Q16849413) lived from 1778 to 1835 and was a colonial administrator and military officer. The person in the card entry is an artist known to be active in the late 1960s and early 1970s, making these two clearly different individuals based on both dates and occupation."
+        },
+        {
+          "qid": "Q16857162",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q16857162) describes a military officer who lived from 1745 to 1831. This is chronologically impossible for a person active as an artist in the late 1960s and early 1970s as described in the context."
+        },
+        {
+          "qid": "Q19518188",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist active in the late 1960s and early 1970s. The Wikidata entity Q19518188 describes a British association football player whose career began in 1910. These represent two different individuals based on both occupation and time period."
+        },
+        {
+          "qid": "Q19871834",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell (Q19871834) was a Scottish politician who died in 1713. This contradicts the context provided for the card entry, which identifies the person as an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q20676194",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s or early 1970s. The Wikidata entity Q20676194 describes a specific and well-documented British historian and university teacher at Oxford. While they share the same common name, the professional profile of the academic historian does not align with the artistic context provided for the individual on the card."
+        },
+        {
+          "qid": "Q28835690",
+          "label": "Jimmy Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (James Tyrie Campbell) died in 1967 and was primarily active as a songwriter and publisher earlier in the 20th century. This contradicts the provided context that the James Campbell on the card was active as an artist during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q28920977",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a politician from the 17th and 18th centuries (1678-1756), whereas the card entry refers to an artist active in the late 1960s and early 1970s. These are different individuals from entirely different eras."
+        },
+        {
+          "qid": "Q42860178",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match, 'James Campbell' is a very common name. The Wikidata entity is identified as a researcher, while the card entry refers to an artist active in the late 1960s or early 1970s. Without additional corroborating metadata such as birth dates or specific fields of work, there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q57739068",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a researcher in the field of freshwater ecology and inland fisheries, educated at the University of Amsterdam and University of Alberta. This academic and scientific career does not align with the context of the card entry, which identifies James Campbell as an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q58053172",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a researcher employed by the World Health Organization, which is highly unlikely to be the same individual as the artist described in the card context as active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q58091602",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name 'James Campbell' is identical, but the Wikidata entity is specifically identified with the occupation of 'researcher.' Given the context that the person on the card is an artist active in the late 1960s or 1970s, a researcher profile without any artistic metadata is likely a different individual."
+        },
+        {
+          "qid": "Q59745670",
+          "label": "James J Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist named James Campbell active in the late 1960s or early 1970s. The Wikidata entity (Q59745670) describes a medical researcher and academic associated with Harvard Medical School and Stanford University School of Medicine. These are distinct professional identities with no evidence of overlap."
+        },
+        {
+          "qid": "Q75272644",
+          "label": "James Campbell",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name James Campbell matches exactly. The Wikidata entity is a poet (an artist) born in 1942, which places him in the correct age group to be active during the late 1960s and early 1970s as indicated in the context. However, because James Campbell is a common name and the card provides minimal metadata, this match is plausible but not certain."
+        },
+        {
+          "qid": "Q75414712",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a James Campbell who died in 1745, which contradicts the context that the James Campbell on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q75451646",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell (Q75451646) lived from 1754 to 1806, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card context."
+        },
+        {
+          "qid": "Q75536210",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q75536210) lived from 1806 to 1884, which is incompatible with the artist on the card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q75558786",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity for James Campbell was born in 1955, making him only 12-15 years old during the late 1960s/early 1970s period when the artist on the card was active. Additionally, the Wikidata entity has the honorific prefix 'Reverend', suggesting a career in the clergy rather than as the artist described in the context."
+        },
+        {
+          "qid": "Q75743241",
+          "label": "Sir James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Sir James Campbell (Q75743241) died in 1876, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the provided context."
+        },
+        {
+          "qid": "Q75861608",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell (Q75861608) lived from 1791 to 1874, which is incompatible with the context that the James Campbell on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q100767288",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity describes a basketball player associated with NCAA Division I, with no mention of any artistic practice. The card entry refers to an artist active in the late 1960s/early 1970s. Given that James Campbell is a common name, it is unlikely this specific athlete is the person recorded on the card."
+        },
+        {
+          "qid": "Q100767289",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry identifies James Campbell as an artist active in the late 1960s or early 1970s, whereas the Wikidata entity (Q100767289) refers to a basketball player for Marshall University. There is no overlapping information to suggest the athlete is the same person as the artist."
+        },
+        {
+          "qid": "Q100989712",
+          "label": "James W. P. Campbell",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name matches and an architect is a type of artist, James W. P. Campbell (Q100989712) is a contemporary academic and architectural historian at the University of Cambridge who received his PhD in 2001. This timeline does not align with the context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q108162219",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a historical naval officer from the Royal Navy, cited in 'A Naval Biographical Dictionary' (1849) and associated with the United Kingdom of Great Britain and Ireland (pre-1922). This does not match the card entry's context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q108162220",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a 19th-century naval officer documented in 'A Naval Biographical Dictionary' (published in 1849), whereas the card entry describes an artist active in the late 1960s or early 1970s. The eras and occupations do not align."
+        },
+        {
+          "qid": "Q108162221",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a 19th-century naval officer whose biography was published in 1849, whereas the person on the card is an artist active in the late 1960s and early 1970s. The timeframes and occupations are completely incompatible."
+        },
+        {
+          "qid": "Q108498388",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell died in 1936, which is decades before the artist mentioned on the card was active (late 1960s and early 1970s). Furthermore, the Wikidata entity was a barrister, whereas the card entry refers to an artist."
+        },
+        {
+          "qid": "Q112746467",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell died in 1915, which makes it impossible for him to be the artist described as active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q112747027",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1916, whereas the person described on the card was active as an artist during the late 1960s and early 1970s. Furthermore, the Wikidata entity is described as a farmworker and soldier, not an artist."
+        },
+        {
+          "qid": "Q112747284",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1915, which makes it impossible for them to be the artist described as active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q112874938",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q112874938) died in 1916, which is decades before the artist mentioned on the card was active (late 1960s and early 1970s). Additionally, the Wikidata entity's recorded occupations (soldier, boater) do not match the artistic context provided."
+        },
+        {
+          "qid": "Q112875103",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1916, which makes it impossible for them to be the artist active in the late 1960s and early 1970s described in the card context. Furthermore, the Wikidata entity's occupation is listed as a soldier, not an artist."
+        },
+        {
+          "qid": "Q112875166",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1918, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card context."
+        },
+        {
+          "qid": "Q112875300",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell died in 1914, which contradicts the context that the person from the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q112875376",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity for James Campbell died in 1916, while the person on the card is known to have been an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q113129329",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1918 and was a soldier and farmworker. This contradicts the provided context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q113129629",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q113129629) died in 1918, which is incompatible with the provided context stating that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q113129678",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell died in 1917, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card's context."
+        },
+        {
+          "qid": "Q113150752",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q113150752) died in 1918, which is chronologically inconsistent with the context provided for the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q113150968",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell died in 1917, whereas the person on the index card is identified as an artist active during the late 1960s and early 1970s. Therefore, they cannot be the same person."
+        },
+        {
+          "qid": "Q113163053",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1917, while the person on the card was active as an artist in the late 1960s and early 1970s. These dates are fundamentally incompatible."
+        },
+        {
+          "qid": "Q113511396",
+          "label": "James Campbell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Campbell (Q113511396) lived from 1787 to 1818, which is over a century before the artist described in the card's context (active in the late 1960s and early 1970s) could have been alive."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "James (Kenneth) Campbell is a renowned Canadian clarinetist, artist, and educator whose career aligns with the late 1960s and 1970s timeframe and the experimental spirit of Experiments in Art and Technology (E.A.T.). Born in 1949, he began his professional career in the late 1960s as a member of the Hamilton Philharmonic (1967–1969) and the National Youth Orchestra of Canada. In the early 1970s, he rose to international prominence, winning several prestigious competitions including the CBC Talent Festival and the Jeunesses Musicales International Clarinet Competition in Yugoslavia in 1971. \n\nCampbell is associated with the historical milieu of E.A.T. through his involvement with the Center for Music Experiment (CME) at the University of California, San Diego (UCSD) in the early 1970s. The CME was an interdisciplinary research unit established in 1972 to promote collaborations between musicians, engineers, and scientists, sharing many members and goals with E.A.T. In 1974, James Campbell served on the CME Advisory Committee alongside key E.A.T. and experimental art figures such as Pauline Oliveros. He is also quoted in Oliveros's collection of writings, 'Software for People: Collected Writings 1963–80,' discussing mathematical musical ratios (e.g., a pure 3rd, 5:4 ratio), reflecting the tech-art collaborative focus of the era. His career has continued to thrive, and he has been the Artistic Director of the Festival of the Sound since 1985.",
+            "sources": [
+              "https://thecanadianencyclopedia.ca/en/article/james-campbell-emc",
+              "https://www.ucsd.edu/center-for-music-experiment-collection",
+              "https://www.iu.edu/~jacobs/laura-chalmers-thesis-james-campbell",
+              "https://www.scribd.com/document/oliveros-pauline-software-for-people-collected-writings-1963-80-pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "James D. Campbell is a prominent Montreal-based art historian, critic, and curator known for his extensive documentation of Canadian art and its intersections with technology and perceptual experience. While his writing and curatorial career became most visible starting in the 1980s, his work frequently analyzes and catalogs the history of artists active in the 1960s and 1970s. He has curated numerous exhibitions and authored over 100 books and catalogues for institutions like the Galerie Leonard & Bina Ellen at Concordia University and the MacKenzie Art Gallery. His involvement with the legacy of art-and-technology collaborations is noted in archival records related to projects such as '9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966,' and he has written extensively on artists such as Michael Smith, Yves Gaucher, and Guido Molinari, often focusing on the 'materialization of time' and technological extensions of art.",
+            "sources": [
+              "https://www.concordia.ca/art-gallery/archives.html",
+              "https://www.gibsongallery.com/artists/michael-smith/",
+              "https://www.fondationguidomolinari.org/medium-methodology-guido-molinari-yves-gaucher/",
+              "https://www.mackenzie.art/publications/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"James Campbell\" \"Experiments in Art and Technology\"",
+            "\"James Campbell\" E.A.T. artist biography",
+            "\"James Campbell\" artist 1960s 1970s E.A.T.",
+            "\"James Campbell\" 9 Evenings: Theatre and Engineering",
+            "\"James Campbell\" artist 1966 \"9 Evenings\"",
+            "\"James Campbell\" Experiments in Art and Technology E.A.T.",
+            "\"James Campbell\" E.A.T. directory participant",
+            "\"James Campbell\" curator art and technology 1960s 1970s",
+            "\"James Campbell\" artist \"E.A.T.\" collaboration",
+            "\"James Campbell\" engineer Experiments in Art and Technology",
+            "\"James Campbell\" curator Canada E.A.T.",
+            "\"James Campbell\" participant \"9 Evenings\" 1966",
+            "\"James Campbell\" Pepsi Pavilion Expo 70",
+            "\"James Campbell\" artist \"E.A.T.\" 1960s 1970s",
+            "",
+            "\"James Campbell\" artist tech 1970s",
+            "\"James Campbell\" associate of \"Experiments in Art and Technology\"",
+            "\"James Campbell\" E.A.T. member list",
+            "\"James Campbell\" art critic Montreal E.A.T.",
+            "\"James Campbell\" Experiments in Art and Technology \"9 Evenings\" staff",
+            "\"James Campbell\" artist 1970s Canada technology",
+            "\"James Campbell\" 1960s artist technology",
+            "\"James Campbell\" Experiments in Art and Technology participant",
+            "\"James Campbell\" artist E.A.T. membership",
+            "\"James Campbell\" engineer Bell Labs E.A.T.",
+            "\"James Campbell\" artist 1968 1969 1970 1971 1972",
+            "\"James Campbell\" sound artist E.A.T.",
+            "\"James Campbell\" E.A.T. membership directory",
+            "\"James Campbell\" Experiments in Art and Technology collaborator",
+            "\"James Campbell\" artist 9 Evenings engineer staff",
+            "\"James Campbell\" Experiments in Art and Technology engineer artist",
+            "\"James Campbell\" 1960s artist E.A.T. archive",
+            "\"James Campbell\" Pepsi Pavilion E.A.T. team",
+            "\"James Campbell\" Bell Labs artist \"Robert Whitman\"",
+            "\"James Campbell\" E.A.T. technical collaborator 1960s",
+            "\"James Campbell\" \"9 Evenings\" technical assistant"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGzg9M0V12eCqECygUxPLhNQDL6RgamgI_PRob4fS0gYNqXeo9qJqL0ezBXNKhCDwXzwZe-aMSrORl4DH_MjGDRIsGup4Q0F8z_yL2o8TU-8FxghvzxpN7W1CfW4pMYBXxqqgAD7HB8teKiU25nNAwegtJX8wCAK-AVUGKSctVM7JOhDrKNQInBG0uR6u2WCZ-VgQ=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/893171457/OceanofPDF-com-the-Anglo-Saxons-James-Campbell"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 649,
+                "endIndex": 712,
+                "text": "\\n\\nCampbell is associated with the historical milieu of E.A.T."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

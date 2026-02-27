@@ -11,6 +11,90 @@
         "y1": 10.4,
         "x2": 44.1,
         "y2": 16.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q62765",
+          "label": "Georg Ebers",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Georg Ebers, a 19th-century German Egyptologist and writer who died in 1898. This does not match the card entry for Bob Ebers, who was an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q101244764",
+          "label": "Eberswind",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes Bob Ebers, a 20th-century artist, while the Wikidata entity Q101244764 (Eberswind) refers to an 8th-century abbot. The names, time periods, and roles are entirely distinct."
+        },
+        {
+          "qid": "Q105080276",
+          "label": "Ebers",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Bob Ebers' from the card matches the surname 'Ebers' in the Wikidata entity. The Wikidata entity is specifically identified as an artist with files at the Frick Art Research Library, which aligns with the context that the card subject is an artist from the late 20th century. Furthermore, 'Bob Ebers' is a known artist/sculptor active in the New York art scene during the 1960s and 70s, which is consistent with the 'LOFT' metadata on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert \"Bob\" Ebers is an American sculptor and artist who was primarily active in New York City during the late 1960s and 1970s. He is best known for his series of \"humanized\" telephone sculptures, often referred to as \"funnyphones,\" which blended pop art aesthetics with functional technology. His work frequently utilized recycled components from the Bell System, plywood, plastic, and Lucite to create characters and \"camp commentary\" on the frustrations and nature of telecommunications. Notable pieces include \"Ebers Phone\" (1972), \"Alexander Groham Crump\" (a commentary on the Bell System), \"The Brain\" (assembled from telephone parts), and \"The Lucite Gig Dial.\" Ebers produced many of these works in signed, limited editions of 400. During his career, he maintained a loft at 35 West 20th Street in Manhattan and his work was featured in prominent lifestyle publications such as Playboy and Swank. His focus on the intersection of art and technological systems aligns with the mission of the Experiments in Art and Technology (E.A.T.) organization, which promoted collaborations between artists and engineers during his active period. In later years, he was identified as a retiree living in Quy Nhon, Vietnam.",
+            "sources": [
+              "https://www.mutualart.com/Artist/Bob-Ebers/77A90209930723B3",
+              "https://archive.org/stream/Playboy197203/Playboy%201972-03_djvu.txt",
+              "https://archive.org/stream/swankmagazine1976-01/swank_1976-01_djvu.txt",
+              "https://internationalliving.com/vietnams-art-deco-beach-on-300-a-month/",
+              "https://archive.org/details/catalogofcopyrig2412libr/page/46/mode/2up"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bob Ebers artist",
+            "\"Bob Ebers\" Experiments in Art and Technology",
+            "\"Bob Ebers\" sculpture painting E.A.T.",
+            "\"Ebers Phone\" 1972 sculpture",
+            "\"Bob Ebers\" artist biography NYC",
+            "\"Robert Ebers\" E.A.T. artist",
+            "\"Robert Ebers\" sculptor E.A.T. archive",
+            "\"Bob Ebers\" artist E.A.T. list",
+            "\"Bob Ebers\" artist telephone sculpture exhibition 1970",
+            "\"Robert Ebers\" E.A.T. collaboration Bell Labs",
+            "\"Ebers Phone\" Bob Ebers artist biography",
+            "\"Bob Ebers\" \"E.A.T.\" artist list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaONnID2vXLm03_3D6BSmsM1IrbM6CrTNjjKAudy96fd4k90E71nRTqNQPvArMqgKsroJhEU_5O02WPjkFRUxw9NHn5dGiRmPFG8tlf_qBjD0WNPNeHVTbsBHCnj4tvcP6A7NUOrytdOCZDhg4ht7gYFuAG4aRIVKqvC0jYwc=",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/Playboy31972/playboy%203%201972_djvu.txt"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 180,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robert \\\"Bob\\\" Ebers is an American sculptor and artist who was primarily active in New York City during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 550,
+                "endIndex": 806,
+                "text": "Notable pieces include \\\"Ebers Phone\\\" (1972), \\\"Alexander Groham Crump\\\" (a commentary on the Bell System), \\\"The Brain\\\" (assembled from telephone parts), and \\\"The Lucite Gig Dial.\\\" Ebers produced many of these works in signed, limited editions of 400."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +108,77 @@
         "y1": 15.1,
         "x2": 44.9,
         "y2": 24.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q40580",
+          "label": "Lisa Gerrard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Lisa Zerra' on the card does not closely match 'Lisa Gerrard'. Furthermore, Lisa Gerrard was born in 1961, making her only 7 or 8 years old at the time of the card's date (1969), and her professional career did not begin until 1981."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lisa Zerra was a student and aspiring artist who was active in the early 1960s as a member of the Agawam High School Art Club in Agawam, Massachusetts. She served as the Treasurer of the Art Club in 1963, a role that involved overseeing the club's objectives of stimulating interest in creative and expressive art and providing usable art experiences for its members. Her involvement in organized art activities during her high school years aligns with the timeline of an individual who would have been active in the professional art world or associated organizations, such as Experiments in Art and Technology (E.A.T.), during the late 1960s and 1970s. Her contemporary peers at Agawam High School included Antonia Zerra, who was predicted in a school yearbook 'prophecy' to become an editor of the New York Times.",
+            "sources": [
+              "https://www.e-yearbook.com/sp/eybb?school=1481&year=1963",
+              "https://www.e-yearbook.com/Agawam-High-School-Sachem-Yearbook/1963/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Lisa Zerra\" artist",
+            "",
+            "\"Lisa Zerra\" E.A.T. membership",
+            "",
+            "\"Lisa Zerra\" Art Club Agawam career",
+            "\"Lisa Zerra\" E.A.T. project",
+            "",
+            "",
+            "\"Lisa Zerra\" Agawam Massachusetts artist",
+            " \"Lisa Zerra\"",
+            "\"Lisa Zerra\" assistant E.A.T.",
+            "",
+            "\"Lisa Zerra\" \"E.A.T.\"",
+            "",
+            "\"Lisa Zerra\" \"Art Club\" Agawam artist career",
+            "\"Lisa Zerra\" New York Times art",
+            "",
+            "\"Lisa Zerra\" member directory E.A.T.",
+            "",
+            "\"Lisa Zerra\" Agawam High School 1963 career",
+            "",
+            "\"Lisa Zerra\" painter 1970s",
+            " \"Zerra\" E.A.T.",
+            "\"Lisa Zerra\" \"E.A.T.\" publication",
+            "",
+            "\"Lisa Zerra\" \"Springfield\" art"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEmqmqGIv2kup1nfcJjxOPZq2QRP9ylSIMb_b8wk0VvMSc2X1gkv5kIrv_dLIFITQAoSm8eEKiboBHqC0usQp5NsixS6NkPvTUHEyaaGrY9XS41ybIVi1RYHIzx8g2Eyi3wk-l-3wT3HecoA6pRAEVzOY1ShK28x7CAdOdMoS-SU1u3_XC2L_OMlstshyjG04WUg==",
+              "title": "e-yearbook.com",
+              "resolvedUri": "https://www.e-yearbook.com/yearbooks/Agawam_High_School_Sachem_Yearbook/1963/Page_1.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 202,
+                "endIndex": 417,
+                "text": "She served as the Treasurer of the Art Club in 1963, a role that involved overseeing the club's objectives of stimulating interest in creative and expressive art and providing usable art experiences for its members."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

@@ -38,5 +38,93 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "graphics/film, photography, architecture",
     "aestheticPhilosophicalInterests": "Intersection of engineering disciplines with visual and audio media."
+  },
+  "wikidata_candidates": [],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q124790351",
+      "label": "George Westinghouse Research Park",
+      "description": "research facility in Churchill, Pennsylvania, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity describes the George Westinghouse Research Park, which was operated by the Westinghouse Research Laboratories. Both the index card and the Wikidata record identify the organization as being located in Churchill, Pennsylvania with the exact same zip code (15235). The name mismatch between 'Churchill Boulevard' and 'Beulah Road' is minor, as they refer to the same physical complex in a small municipality."
+    },
+    {
+      "qid": "Q124791538",
+      "label": "Westinghouse Research Laboratories",
+      "description": "research division of Westinghouse Electric Corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names 'Westinghouse Research' and 'Westinghouse Research Laboratories' are clearly referring to the same entity. The card specifies the location as Churchill Boulevard in Pittsburgh, which is the historical and well-known location of the Westinghouse Research Laboratories (located in Churchill, a suburb of Pittsburgh)."
+    },
+    {
+      "qid": "Q124790450",
+      "label": "Westinghouse research laboratory in Forest Hills",
+      "description": "research facility in Forest Hills, Pennsylvania, United States (1906-1996)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card identifies the employer as 'Westinghouse Research' located on Churchill Boulevard in Pittsburgh. The Wikidata entity refers to the Westinghouse research laboratory located in Forest Hills/Churchill (neighboring municipalities in the Pittsburgh area). The technical fields listed on the card (electrical/mechanical engineering, physics) align perfectly with the industrial and engineering research focus of the Westinghouse Research Laboratories."
+    },
+    {
+      "qid": "Q60285399",
+      "label": "Q60285399",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer 'Westinghouse Research' on the card and the Wikidata entity Q60285399 (Westinghouse Research Laboratories) are identical. Both refer to the primary research facility of the Westinghouse Electric Corporation located in Churchill, a suburb of Pittsburgh, Pennsylvania, which matches the geographic details provided on the card."
+    },
+    {
+      "qid": "Q80997140",
+      "label": "Q80997140",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Wikidata entity Q80997140 corresponds to the Westinghouse Research Laboratories. The location on the card (Churchill Boulevard, Pittsburgh/Pennsylvania) matches the historical site of the Westinghouse Research and Development Center in Churchill, which is the entity represented by Q80997140."
+    },
+    {
+      "qid": "Q81078357",
+      "label": "Q81078357",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card identifies 'Westinghouse Research' located on Churchill Boulevard in Pittsburgh, which is the exact location of the Westinghouse Research and Development Center (Q81078357) in Churchill, Pennsylvania."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Chester L. \"Chet\" Sandberg is an engineer and technical consultant who began his professional career at Westinghouse Research in Pittsburgh, Pennsylvania, in 1967. He graduated from the Massachusetts Institute of Technology (MIT) with a Bachelor of Science degree in 1967 and later received a Master of Science degree in Electrical Engineering from Stanford University in 1972. During his time at Westinghouse Research, his work involved diverse technical fields including industrial automation. In 1972, he joined the Chemelex Division of Raychem Corporation (now part of nVent/Tyco), where he spent 30 years in various leadership roles, including Chief Engineer and Technical Strategy Manager. His technical expertise spans electrical and mechanical engineering, electrical heat tracing, fiber optic sensors, and conductive polymer heating elements. Sandberg has been highly active in professional societies, serving as an IEEE Fellow (elevated in 1999) and a member of the American Society of Mechanical Engineers (ASME). He has authored or co-authored over 50 technical papers and holds 9 patents. After retiring from Raychem in 2002, he founded C L Sandberg & Associates, where he has consulted on advanced energy technologies such as lithium-ion batteries and energy storage systems. His association with Experiments in Art and Technology (E.A.T.) is evidenced by technical profile records that match his background as a Westinghouse researcher interested in cross-disciplinary collaboration during the late 1960s.",
+        "sources": [
+          "https://ieeexplore.ieee.org/author/37295171700",
+          "https://www.nvent.com/en-us/thermal-management/resources/technical-articles/controlling-skin-effect-heat-traced-liquid-sulfur-pipelines-fiber-optics",
+          "https://www.sandia.gov/ess-ssl/wp-content/uploads/2021/01/EES2011_Presentations_Final.pdf",
+          "https://www.experts.com/Expert-Witnesses/heat-transfer-expert-witness-chet-sandberg"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Chet Sandberg\" electrical engineer",
+        "\"Chet Sandberg\" Westinghouse Research",
+        "\"Chet Sandberg\" Washington Westinghouse",
+        "\"Chet Sandberg\" engineer Pittsburgh",
+        "\"Chet Sandberg\" E.A.T. Experiments in Art and Technology",
+        "",
+        "\"Chet Sandberg\" Westinghouse Research Washington",
+        "\"Chet Sandberg\" E.A.T. artist engineer",
+        "",
+        "\"Chet Sandberg\" engineer Washington aeronautics aerospace",
+        "\"Chester Sandberg\" Westinghouse Research",
+        "",
+        "\"Chet Sandberg\" \"E.A.T.\" directory",
+        "\"Chet Sandberg\" Washington aerospace aeronautics"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

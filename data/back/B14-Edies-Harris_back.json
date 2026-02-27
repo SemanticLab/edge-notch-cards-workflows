@@ -11,6 +11,55 @@
         "y1": 8.4,
         "x2": 51.6,
         "y2": 17.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "The name 'Otto Tambellini Jan?' likely refers to a combination or confusion of two prominent artists who were frequent collaborators in the late 1960s and early 1970s: Otto Piene and Aldo Tambellini. Both artists were pioneers in the 'electromedia' movement and were closely associated with Experiments in Art and Technology (E.A.T.). \n\nOtto Piene (1928–2014) was a German artist and co-founder of the ZERO movement. He was a pioneer in using light, smoke, and air as artistic media and later served as the director of the Center for Advanced Visual Studies (CAVS) at MIT, which fostered many E.A.T.-style collaborations between artists and engineers. \n\nAldo Tambellini (1930–2020) was an Italian-American artist known for his 'Black' series of films, paintings, and performances. He co-founded the Black Gate Theatre in New York, a venue dedicated to electromedia and experimental performance.\n\nIn 1968, the two collaborated on 'Black Gate Cologne,' a live television art broadcast on WDR in Germany, which is considered one of the first television programs to be produced by experimental visual artists. They also collaborated on 'Black Air' (1968) and were featured in the influential WGBH program 'The Medium is the Medium' (1969) alongside Nam June Paik and Allan Kaprow. The suffix 'Jan' in the request may refer to Jan van der Marck, a curator who was instrumental in the E.A.T. network and organized early exhibitions such as 'The Machine: As Seen at the End of the Mechanical Age' (1968), or it could stem from Jan Dibbets, a conceptual artist who also participated in the early television art scene (e.g., 'TV as a Fireplace,' 1969).",
+            "sources": [
+              "https://www.medienkunstnetz.de/works/black-gate-cologne/",
+              "https://cmsw.mit.edu/wp-content/uploads/2016/10/244304892-Thomas-Hardman-The-Medium-is-the-Medium-the-Convergence-of-Video-Art-and-Television-at-WGBH-1969.pdf",
+              "https://bcnm.berkeley.edu/events/1131/atc/1831/black-sun-reflections-on-otto-piene-and-aldo-tambellini",
+              "https://en.wikipedia.org/wiki/Aldo_Tambellini",
+              "https://www.getty.edu/research/special_collections/eat_records.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Otto Tambellini\" artist E.A.T.",
+            "\"Otto Tambellini\" late 1960s 1970s artist",
+            "\"Otto\" \"Tambellini\" \"Jan\" artist",
+            "\"Otto Tambellini\" E.A.T. artist",
+            "\"Jan\" artist associated with Otto Piene and Aldo Tambellini",
+            "\"Piene\" \"Otto\" \"Tambellini\" \"Aldo\" \"Jan\"",
+            "\"Jan van der Marck\" E.A.T. Piene Tambellini",
+            "\"Jan Dibbets\" E.A.T. Piene Tambellini",
+            "\"Jan\" artist E.A.T. 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEnEhrXg3wXCFlNt07D2YW63c5HU6evPyurYltAi7vd1jrU4EynlhlUoKDBA3v8D5nVexKCkQiM5KQLHJGhWsYF-c1kbYRvaAbo-UWdB8E1LDCnNgURaVy_S3T07LCsZmzCojpai31iAxDG42Svz6I9tQbgPFO",
+              "title": "clioartfair.com",
+              "resolvedUri": "https://www.clioartfair.com/post/zero-group-7-major-members"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 82,
+                "endIndex": 249,
+                "text": "likely refers to a combination or confusion of two prominent artists who were frequent collaborators in the late 1960s and early 1970s: Otto Piene and Aldo Tambellini."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +73,164 @@
         "y1": 17.9,
         "x2": 29.7,
         "y2": 29.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2897049",
+          "label": "Leonard Schapiro",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Dolores vs. Leonard) and the Wikidata entity is a male political scientist and historian, which does not align with the female name or the artist context of the card."
+        },
+        {
+          "qid": "Q12408215",
+          "label": "Yaʻaḳov Shapira",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The records describe two different people. The Wikidata entity is a male rabbi (Yaʻaḳov Shapira) who died in 1936, whereas the card refers to a Dolores Schapiro (likely female) who was active around 1970."
+        },
+        {
+          "qid": "Q28058188",
+          "label": "T. P. Schapiro",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Toviyyah Pesah Schapiro) died in 1924, while the person on the card was active around 1970. Additionally, the names and genders do not align."
+        },
+        {
+          "qid": "Q30526762",
+          "label": "Shmuel Abba Shapiro",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Dolores Schapiro vs. Shmuel Abba Shapiro). Furthermore, the Wikidata entity describes a man who lived from 1784 to 1864, whereas the card entry is dated 1970 and refers to an artist active during that period."
+        },
+        {
+          "qid": "Q95149102",
+          "label": "Raya Czerner Schapiro",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The given names 'Dolores' and 'Raya' do not match. The Wikidata entity for Raya Czerner Schapiro is identified as an editor, while the card entry refers to an artist named Dolores Schapiro. There is no documented alias linking these two names."
+        },
+        {
+          "qid": "Q107204020",
+          "label": "Joseph Schorst",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Dolores Schapiro' on the card does not match the Wikidata entity name 'Joseph Schorst'. Furthermore, the gender associated with the Wikidata entity is male, whereas 'Dolores' is typically a female name."
+        },
+        {
+          "qid": "Q118915617",
+          "label": "Shapira, Yehudah Leyb, mekhuneh F.f.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a male individual who died in 1836, which is incompatible with the card entry for Dolores Schapiro dated 1970."
+        },
+        {
+          "qid": "Q118926927",
+          "label": "Aharon Yaʻaḳov Shapiro",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Dolores Schapiro does not match Aharon Yaʻaḳov Shapiro. Furthermore, the Wikidata entity died in 1935, while the card entry is dated 1970 and refers to an artist active in that era."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Dolores H. \"Dilly\" Schapiro (1930–2022) was a New York-based environmental designer, architect, and arts patron active during the late 1960s and 1970s. Born in New York City and raised in Brooklyn, she attended Smith College (BA 1951) and later earned a bachelor's degree in environmental design from the Parsons School of Design in 1973. She also studied at the Columbia University School of Architecture. During the 1970s, she worked for various New York architectural firms and served on the staff of the West Side Highway Project. Her professional background in environmental design and architecture aligns with the multidisciplinary collaborations fostered by Experiments in Art and Technology (E.A.T.), an organization that connected artists with engineers and designers. She was a prominent arts enthusiast and longtime patron of major institutions, including the Museum of Modern Art (MoMA), the Whitney Museum of American Art, and the Metropolitan Museum of Art.",
+            "sources": [
+              "https://www.legacy.com/us/obituaries/timesdispatch/name/dolores-schapiro-obituary?id=34769395"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Dolores Schapiro\" artist",
+            "",
+            "\"Dolores Schapiro\" architectural firm 1960s 1970s",
+            "\"Dolores Shapiro\" Experiments in Art and Technology",
+            "",
+            "\"Dolores Schapiro\" Parsons 1973 architect",
+            "",
+            "",
+            " \"Dolores Schapiro\"",
+            "\"Experiments in Art and Technology\" \"Dolores\"",
+            "\"E.A.T.\" administrator \"Schapiro\"",
+            "\"Dolores Shapiro\" E.A.T. staff manager",
+            "",
+            "",
+            "\"Dolores Shapiro\" Assistant Director E.A.T.",
+            "\"Dolores Shapiro\" \"E.A.T.\" NYC 1960s",
+            "",
+            "\"Experiments in Art and Technology\" Schapiro",
+            "\"E.A.T.\" membership records Schapiro",
+            "\"Dolores Shapiro\" E.A.T. matching",
+            "\"Dolores Schapiro\"",
+            "",
+            "\"Dolores Schapiro\" Whitney Museum artist",
+            "\"Dolores Schapiro\" exhibitions",
+            "\"Dolores Schapiro\" paintings sculpture"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW6k4iGyYTwGA6LNRSaeuvr3QxL3V4KK1QAVgodHslAnnOYCApwutL9ZdWCsd3_u_YS9Q9Y4F0dX-RIIdk0kf_RiT_VvNQARh7WHGbiM-G_qXVGv60uCw9Q6mEqZeKsWTf5DaN_2A7noj5agDfJDkwjtsZAnKBM-pzUINC8dfhyTiLugdJoBtRPG7jltvKCnfwq7Cl2xKi3w==",
+              "title": "legacy.com",
+              "resolvedUri": "https://www.legacy.com/us/obituaries/timesdispatch/name/dolores-schapiro-obituary?id=34744594"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 205,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Dolores H. \\\"Dilly\\\" Schapiro (1930–2022) was a New York-based environmental designer, architect, and arts patron active during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 206,
+                "endIndex": 392,
+                "text": "Born in New York City and raised in Brooklyn, she attended Smith College (BA 1951) and later earned a bachelor's degree in environmental design from the Parsons School of Design in 1973."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 393,
+                "endIndex": 460,
+                "text": "She also studied at the Columbia University School of Architecture."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 461,
+                "endIndex": 588,
+                "text": "During the 1970s, she worked for various New York architectural firms and served on the staff of the West Side Highway Project."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 832,
+                "endIndex": 1203,
+                "text": "She was a prominent arts enthusiast and longtime patron of major institutions, including the Museum of Modern Art (MoMA), the Whitney Museum of American Art, and the Metropolitan Museum of Art.\",\n      \"sources\": [\n        \"https://www.legacy.com/us/obituaries/timesdispatch/name/dolores-schapiro-obituary?id=34769395\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

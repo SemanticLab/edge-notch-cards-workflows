@@ -19,5 +19,83 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "stage lighting, light gardening, light equipment/projection"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5996130",
+      "label": "Marcial Rodríguez",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the names match, the professional profiles and locations are entirely different. The card describes an individual in New York involved in biology, botany, and stage lighting, whereas the Wikidata entry describes an Argentine lawyer educated at the University of Buenos Aires. There is no overlapping evidence to suggest they are the same person."
+    },
+    {
+      "qid": "Q28355766",
+      "label": "Marcial Rodríguez Cebral",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals with significantly different professional backgrounds and geographical locations. The card record describes an individual based in New York City involved in biology, horticulture, and stage lighting, while the Wikidata entity is a Spanish diplomat and lawyer who lived and died in Spain."
+    },
+    {
+      "qid": "Q84629202",
+      "label": "Marcial Rodríguez",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "While the names are identical, the geographic and professional details do not align. The card record describes an individual living in New York with a specific niche combination of botany and stage lighting, while the Wikidata entry describes a researcher at the University of Granada in Spain. There is no corroborating evidence to link the two."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Marcial Rodriguez (often referred to as Marcial Rodriguez-Brossoise) was a technical professional and horticulture expert active in New York City during the late 1960s and 1970s. He was associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that facilitated collaborations between artists and engineers. Rodriguez was registered in the E.A.T. technical services registry, where he listed expertise in a diverse range of fields including biology, botany, horticulture, stage lighting, light gardening, and light equipment/projection. Professionally, he was highly regarded in the bonsai community; he was a member of the New York Bonsai Society and an instructor at national bonsai conventions, such as the 1973 joint BCI/ABS convention in Atlanta. He authored the \"Bonsai\" chapter in the multi-volume craft and hobby series 'The Family Creative Workshop' (published by Plenary Publications International in New York, 1974–1976). His unique combination of technical skills in lighting and projection with biological and horticultural knowledge made him a specialized resource for artists interested in environmental and light-based plant works.",
+        "sources": [
+          "https://www.magiminiland.org/Conventions.html",
+          "https://www.somethingunderthebed.com/000_A_Z_Lists/F_List/FamilyCreativeWorkshop_02.html",
+          "https://www.somethingunderthebed.com/000_A_Z_Lists/F_List/FamilyCreativeWorkshop_03.html"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Marcial Rodriguez \"Experiments in Art and Technology\"",
+        "\"Marcial Rodriguez\" horticulture 1960s 1970s",
+        "Marcial Rodriguez E.A.T. biology botany",
+        "\"Marcial Rodriguez\" stage lighting light gardening New York",
+        "\"Marcial Rodriguez\" light equipment projection New York",
+        "",
+        "\"Marcial Rodriguez\" biology botany horticulture New York",
+        "\"Marcial Rodriguez\" E.A.T. engineer",
+        "\"Marcial Rodriguez\" E.A.T. archive Getty",
+        "\"Marcial Rodriguez\" Experiments in Art and Technology index card",
+        "\"Marcial Rodriguez\" light gardening projection E.A.T.",
+        "",
+        "\"Marcial Rodriguez\" \"biology\" \"botany\" New York 1960s",
+        "\"Marcial Rodriguez\" technical fields biology botany horticulture stage lighting",
+        " \"Rodriguez\"",
+        "\"Marcial Rodriguez\" E.A.T. New York biology",
+        "\"Marcial Rodriguez\" E.A.T. Getty archive",
+        "",
+        "\"light gardening\" Experiments in Art and Technology",
+        "\"Marcial Rodriguez\" E.A.T. Technical Services",
+        "\"Marcial Rodriguez\" horticulture NYC 1960s",
+        "\"Marcial Rodriguez\" NYC engineer 1960s 1970s",
+        "\"Marcial Rodriguez\" stage lighting NYC 1970s",
+        "",
+        "\"Marcial Rodriguez\" botany engineer",
+        "\"Marcial Rodriguez\" horticulture 1970s NYC",
+        "\"Marcial Rodriguez\" stage lighting NYC 1960s 1970s",
+        "",
+        "\"Marcial Rodriguez-Brossoise\"",
+        "\"Marcial Rodriguez\" NYC \"bonsai\"",
+        "",
+        "\"Marcial Rodriguez Brossoise\" lighting",
+        "\"Marcial Rodriguez\" engineer New York city botany",
+        ""
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -10,6 +10,139 @@
         "y1": 10.4,
         "x2": 56.8,
         "y2": 15.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q215905",
+          "label": "Itzhak Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'Marilyn Perlman' while the Wikidata entity is 'Itzhak Perlman'. Additionally, the genders do not match (Itzhak Perlman is male, Marilyn is typically a female name)."
+        },
+        {
+          "qid": "Q2077508",
+          "label": "Peter Perlmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Marilyn vs. Peter), and the gender is likely different. Additionally, the Wikidata entity is a Swedish immunologist/professor, whereas the person on the card is known to be an artist."
+        },
+        {
+          "qid": "Q2884770",
+          "label": "Baron Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Marilyn Perlman and Baron Perlman are distinct, and the Wikidata entity is identified as male, whereas Marilyn is typically a female name. Furthermore, the Wikidata entity's occupation as a psychologist does not align with the card's context of the subject being an artist."
+        },
+        {
+          "qid": "Q7053311",
+          "label": "Samuel Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Marilyn vs. Samuel/Shmuel). Furthermore, the Wikidata entity died in 1958, which is before the late 1960s/early 1970s period of activity specified for the artist on the card."
+        },
+        {
+          "qid": "Q18155509",
+          "label": "Steven Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Marilyn vs. Steven). Additionally, the Wikidata entity is a male botanist, while the card entry refers to a person named Marilyn identified as an artist."
+        },
+        {
+          "qid": "Q78830977",
+          "label": "Robert L. Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The given names (Marilyn vs. Robert) and genders (typically female vs. male) do not match. Additionally, the Wikidata entity describes a researcher, whereas the card entry context refers to an artist."
+        },
+        {
+          "qid": "Q118914228",
+          "label": "Tsevi Hirsh ben Barukh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Marilyn Perlman vs. Tsevi Hirsh ben Barukh), and the Wikidata entity died in 1882, which is incompatible with an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q118926154",
+          "label": "Micael Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marilyn' and 'Micael' are distinct, and the Wikidata entity is identified as male while the name Marilyn is typically female. There is no evidence to suggest these represent the same individual."
+        },
+        {
+          "qid": "Q133721895",
+          "label": "Q133721895",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity lists a date of birth in 1888. This would make the individual over 80 years old during the late 1960s and early 1970s. This age discrepancy makes it highly unlikely that this entity is the same Marilyn Perlman described as an artist active during that period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Marilyn Perlman (1925–2010) was an American artist active in the New York and New Jersey art scenes from at least the late 1960s through the 1980s. She was categorized as an 'accomplished artist' and lived in New York City and Upper Montclair, New Jersey. Her professional presence in the art world is documented in the archives of the Museum of Modern Art (MoMA), specifically within the records of the Art Lending Service (ALS) and Art Advisory Service (AAS) for the years 1973–1974. These services were designed to promote contemporary art to collectors and corporations. In 1985, she held an exhibition titled 'Continuous Heavens,' which ran from June 29 to August 18. Her work and exhibition materials are preserved in the archives of art critics Nicolas and Elena Calas. She had three children: Meg Perlman (a prominent art curator and former director of the Pollock-Krasner House), Noah Perlman, and Beth Perlman. Her career aligns with the active period of Experiments in Art and Technology (E.A.T.), and her inclusion in MoMA's advisory files and association with critics like Calas places her within the same avant-garde circles that collaborated with the organization.",
+            "sources": [
+              "https://www.moma.org/research-and-learning/archives/finding-aids/ALS_AASb.html",
+              "https://www.legacy.com/obituaries/nytimes/obituary.aspx?n=marilyn-perlman&pid=146794611",
+              "https://www.norlib.gr/archive-catalogue-nicolas-elena-calas"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Marilyn Perlman\" artist 1960s 1970s",
+            "\"Marilyn Perlman\" E.A.T.",
+            "\"Marilyn Perlman\" artist",
+            "\"Marilyn Perlman\" Experiments in Art and Technology",
+            "",
+            "\"Marilyn Perlman\" Experiments in Art and Technology E.A.T.",
+            "\"Marilyn Perlman\" artist MoMA 1973",
+            "\"Marilyn Perlman\" artist New York obituary Meg Perlman",
+            "\"Marilyn Perlman\" artist E.A.T. collaboration",
+            "",
+            "\"Marilyn Perlman\" artist Montclair NJ",
+            "\"Marilyn Perlman\" E.A.T. newsletter",
+            "\"Marilyn Perlman\" artist \"Continuous Heavens\"",
+            "\"Marilyn Perlman\" artist E.A.T. archive",
+            "\"Marilyn Perlman\" E.A.T. member list",
+            "\"Marilyn Perlman\" \"Continuous Heavens\" gallery",
+            "\"Marilyn Perlman\" artist technology",
+            "\"Marilyn Perlman\" artist \"E.A.T.\"",
+            "\"Marilyn Perlman\" artist \"E.A.T.\" newsletter",
+            "\"Marilyn Perlman\" E.A.T. technical collaboration",
+            "\"Marilyn Perlman\" \"Continuous Heavens\" artist biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENOD9YZDpC9LjKh2HY2uSkgguni2-7vX5JMklxJkAv_0XXNAhqu6Wv-D3E3tkUnQv4CBMBMtBAFSjClxq806WW6QoDRj7SlxmRDz8BtgQVDe35qWPpx554L5MPmdUEHtD1qLay001TWe57P8gCKI6xMngOO_2zVQ==",
+              "title": "norlib.gr",
+              "resolvedUri": "https://www.norlib.gr/media/files/calas-archive-contents.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 199,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Marilyn Perlman (1925–2010) was an American artist active in the New York and New Jersey art scenes from at least the late 1960s through the 1980s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 629,
+                "endIndex": 726,
+                "text": "In 1985, she held an exhibition titled 'Continuous Heavens,' which ran from June 29 to August 18."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +155,95 @@
         "y1": 14.5,
         "x2": 53.8,
         "y2": 27.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q4769441",
+          "label": "Annie Trumbull Slosson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names and genders do not match (Bob vs. Annie). More importantly, the Wikidata entity died in 1926, making it impossible for her to be the person active in 1969 described on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Cyril \"Bob\" Slosson (1925–2006) was an aeronautical engineer who may be the individual associated with Experiments in Art and Technology (E.A.T.) due to the organization's focus on collaborations between artists and engineers. A graduate of the University of Kansas (Class of 1951), he worked as an aeronautical engineer for McDonnell Douglas for 25 years, a period coinciding with the peak activity of E.A.T. in the late 1960s and early 1970s. While search results do not explicitly categorize him as a fine artist, E.A.T. frequently credited engineers as collaborative partners in the creation of technological artworks. He was also a WWII veteran and lived in the St. Louis, Missouri area, which hosted an active E.A.T. chapter. Another individual by the same name was an aerospace machinist at Boeing in the Pacific Northwest during the same era, another region with significant E.A.T. activity.",
+            "sources": [
+              "https://www.legacy.com/obituaries/stltoday/obituary.aspx?n=robert-cyril-slosson&pid=17145700",
+              "https://www.e-yearbook.com/yearbooks/University_Kansas_Jayhawker_Yearbook/1951/Page_336.html",
+              "https://www.iam751.org/Aero_Mechanic_October_2020.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Edwin Emery Slosson (1865–1929) was a chemist and science popularizer whose writings on the intersection of science, technology, and culture were featured in the landmark 1968 Experiments in Art and Technology (E.A.T.) exhibition 'The Machine as Seen at the End of the Mechanical Age' at the Museum of Modern Art (MoMA). Although he was not active as an artist during the late 1960s or early 1970s (having died in 1929), his intellectual contributions were utilized by E.A.T. to provide historical and philosophical context for the collaboration between the arts and sciences. The name 'Bob Slosson' may be a misidentification of Edwin Slosson or a reference to a contemporary relative associated with his legacy.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Edwin_Emery_Slosson",
+              "https://www.moma.org/documents/moma_press-release_327244.pdf",
+              "https://www.proquest.com/docview/2153578351"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Bob Slosson\" E.A.T.",
+            "\"Robert Slosson\" artist",
+            "\"Slosson\" artist Experiments in Art and Technology",
+            "\"Bob Slosson\" 9 Evenings",
+            "\"Robert Slosson\" E.A.T. artist list",
+            "\"Robert Slosson\" E.A.T. engineer",
+            "\"Robert Slosson\" engineer Bell Labs E.A.T.",
+            "E.A.T. Pepsi Pavilion engineers list",
+            "\"Robert Slosson\" artist Experiments in Art and Technology list",
+            "\"Bob Slosson\" artist biography",
+            "\"Bob Slosson\" E.A.T. archives",
+            "\"Slosson\" \"E.A.T.\" participant",
+            "\"Robert Slosson\" E.A.T. archives",
+            "\"Robert Slosson\" photographer E.A.T.",
+            "",
+            "\"Bob Slosson\" artist California",
+            "\"Bob Slosson\" E.A.T.",
+            "\"Robert Slosson\" E.A.T.",
+            "\"Robert Slosson\" Experiments in Art and Technology",
+            "",
+            "\"Robert Slosson\" engineer E.A.T.",
+            "\"Robert Slosson\" artist",
+            "\"Slosson\" name art history 1960s 1970s",
+            "\"Bob Slosson\"",
+            "\"Robert Slosson\" E.A.T. collaborator",
+            "\"Robert Slosson\" photographer",
+            "",
+            "\"Bob Slosson\" Seattle E.A.T.",
+            "\"7 for 69\" E.A.T. participants",
+            "\"Robert Slosson\" Seattle E.A.T.",
+            "",
+            "\"7 for 69\" E.A.T. engineers list",
+            "\"Robert Slosson\" 7 for 69 engineer",
+            "\"7 for 69\" Seattle Art Museum E.A.T.",
+            " \"Slosson\"",
+            "\"Bob Slosson\" artist list",
+            " \"Robert Slosson\"",
+            "",
+            "\"Robert Slosson\" aeronautical engineer art",
+            "\"Bob Slosson\" E.A.T. St. Louis",
+            "\"Experiments in Art and Technology\" St. Louis chapter participants",
+            "\"Robert Slosson\" E.A.T. St. Louis",
+            "\"Robert Slosson\" E.A.T. Missouri",
+            "\"E.A.T.\" newsletter \"Slosson\"",
+            "\"Experiments in Art and Technology\" \"Slosson\"",
+            "\"Robert Slosson\" art gallery",
+            "\"Bob Slosson\" E.A.T. membership",
+            "\"Robert Slosson\" E.A.T. membership",
+            "\"Robert Slosson\" 1970s art scene",
+            "\"Pavilion\" E.A.T. book \"Slosson\"",
+            "\"Robert Slosson\" art collaborator E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

@@ -17,5 +17,71 @@
       "instrumentation"
     ],
     "specializedSkillsKnowledge": "data processing, instrumentation"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5334678",
+      "label": "Ed Conroy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes an engineer working at Grumman Aircraft in Selden, New York, using an old-style phone exchange format typical of the mid-20th century. The Wikidata entity is a basketball coach born in 1967. The professions and timeframes are entirely incompatible."
+    },
+    {
+      "qid": "Q5334680",
+      "label": "Ed Conroy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes an engineer working for Grumman Aircraft in Selden, New York, likely in the mid-20th century. The Wikidata entity describes a Canadian politician from British Columbia who served in the provincial legislature. These are two distinct people with different professions and geographic locations."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q463261",
+      "label": "Grumman",
+      "description": "1929-1994 aerospace manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Grumman Aircraft is a common name for the Grumman Aerospace Corporation (Q463261). The Wikidata entity is an aerospace manufacturer headquartered in Bethpage, Long Island, New York, which aligns with the location of the employee on the card (Selden, New York, also on Long Island) and his occupation as an engineer in instrumentation and data processing."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Ed Conroy was an engineer at Grumman Aircraft (later Northrop Grumman) active during the late 1960s and 1970s. According to technical records, he was based in Selden, New York, and specialized in the technical fields of data processing and instrumentation. He was a participant in Experiments in Art and Technology (E.A.T.), a non-profit organization founded to foster collaborations between artists and engineers. Conroy's professional background at Grumman align with the company's significant roles in aerospace projects of the era, such as the Lunar Module and advanced aircraft systems, which required extensive expertise in instrumentation and data management. In the 1990s, an Edward Conroy from Northrop Grumman was recognized as a contributor to the EIA-731.1 Systems Engineering Capability Model, suggesting a long-term career in systems engineering and technical standards within the aerospace industry.",
+        "sources": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDY8l74oLfC3jakOrwnTZ04pKw5dDAEwroFsCs_O_v6U8hJVTmUHBa-Ot852ozV7tJq3iE3FQpQ2qtqIw0D22dFur-NGv3mf5Arb0APYi8uf9kPz9fs2p_-8Q8CXuSTFU5cRFyNJxnUIXh5KfiT14H_Mf3",
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_Fk8ZJSYrwW_uTvuByN7oDbDRBa84WVeCuT8P5VlFugG_lvlgXpWsBfIAu8iPm1az-ftNwDUgr9_bVFD1N7N7MSg0AkH6u-c9AuM35-zQQSLUeW5ohkWr8_voNogLMJFfthKch0KuP-Wmgd9MtlCdW3i9URHEaQ=="
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Edward Conroy\" Grumman Aircraft",
+        "\"Ed Conroy\" Grumman Aircraft",
+        "\"Ed Conroy\" E.A.T. engineer",
+        "\"Ed Conroy\" Experiments in Art and Technology",
+        "\"Ed Conroy\" data processing instrumentation Grumman",
+        "",
+        "\"Ed Conroy\" Grumman E.A.T.",
+        "\"Edward Conroy\" Grumman data processing instrumentation",
+        "\"Ed Conroy\" Grumman data processing instrumentation",
+        "\"Ed Conroy\" Selden engineer",
+        "\"Ed Conroy\" E.A.T. Grumman",
+        "\"Ed Conroy\" \"Experiments in Art and Technology\"",
+        "\"Edward Conroy\" Grumman \"data processing\" instrumentation",
+        "\"Ed Conroy\" Selden Grumman engineer",
+        "\"Ed Conroy\" Grumman instrumentation",
+        "\"Ed Conroy\" Grumman \"data processing\"",
+        "\"Ed Conroy\" \"Experiments in Art and Technology\" engineer",
+        "\"Ed Conroy\" E.A.T. \"Selden\"",
+        "\"Ed Conroy\" E.A.T. Grumman \"data processing\""
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -17,5 +17,72 @@
       "Instruments"
     ],
     "specializedSkillsKnowledge": "Design of lighting systems, optical trains and instruments."
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q28276",
+      "label": "Howard H. Oldenburg",
+      "description": "engineer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records share the exact name 'Howard H. Oldenburg'. The card data describes technical expertise in lighting systems and optical trains, which is consistent with the occupation of 'engineer' listed in the Wikibase entry. Furthermore, the Wikibase entry is part of the E.A.T. (Experiments in Art and Technology) Datascape Project, which famously collaborated with engineers for specialized technical designs like those mentioned on the card."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q156731",
+      "label": "Claes Oldenburg",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different individuals. The index card identifies Howard H. Oldenburg, an engineer specializing in lighting systems and optical trains who worked for companies like Rambusch Lighting. The Wikidata entity (Q156731) identifies Claes Oldenburg, a famous pop art sculptor and artist. While they share the same surname and a geographic link to New York City, their names, occupations, and professional histories do not align."
+    },
+    {
+      "qid": "Q2628685",
+      "label": "Princess Elisabeth Anna of Prussia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. Record 1 is a 20th-century male engineer living in New Jersey, whereas Record 2 is a 19th-century female Prussian aristocrat. The only similarity is the name 'Oldenburg', which refers to a person's surname in the first case and a royal house/location in the second."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Howard H. Oldenburg was a lighting engineer and technical specialist active during the late 1960s and 1970s. He is recognized for his collaboration with Albert Hamowy on technical art projects under the organization Experiments in Art and Technology (E.A.T.). The duo, listed as 'Hamowy & Oldenburg,' participated in the landmark 1968 exhibition 'Some more beginnings' at the Brooklyn Museum, which featured works involving technical materials and processes. Professionally, Oldenburg was affiliated with Rambusch Lighting, a well-known lighting design firm based in New York City, and the American Electric Power Company (AEP). His technical expertise spanned lighting systems, optical trains, and various scientific instruments. Geographically, he was associated with the New York City metropolitan area and Flemington, New Jersey, where he served as the Mayor of Readington Township (Hunterdon County) in the early 1970s.",
+        "sources": [
+          "https://www.artist-info.com/exhibition/MoMA-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962",
+          "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9100YV8B.TXT",
+          "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication488.pdf",
+          "https://www.abebooks.com/Light-Art-Softcover-1968-Mullen-Books/1012976695/bd"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Howard H. Oldenburg\"",
+        "\"Howard H. Oldenburg\" \"Experiments in Art and Technology\"",
+        "\"Howard Oldenburg\" Flemington NJ",
+        "",
+        "\"Albert Hamowy\" engineer",
+        "",
+        "\"Howard Oldenburg\" New Jersey engineer",
+        "",
+        "",
+        "\"Hamowy & Oldenburg\" exhibition description",
+        "",
+        "\"Hamowy & Oldenburg\" E.A.T. work title",
+        "\"Howard Oldenburg\" New Jersey engineer Readington",
+        "",
+        "",
+        "\"Hamowy & Oldenburg\" \"Some More Beginnings\" catalog description",
+        "",
+        "\"Hamowy & Oldenburg\" \"Some More Beginnings\" title of work"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

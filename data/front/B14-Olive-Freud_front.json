@@ -15,5 +15,246 @@
       "design",
       "mathematics"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q28244",
+      "label": "Olive Freud",
+      "description": "engineer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The unique name 'Olive Freud' matches exactly. The technical fields of mathematics and design on the card align with the 'engineer' occupation in the database, and both records are associated with the E.A.T. context (Experiments in Art and Technology)."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q9215",
+      "label": "Sigmund Freud",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes 'Olive Freud,' a person active in New York with a ZIP code (introduced in 1963) and a career in design and mathematics. The Wikidata entry is for Sigmund Freud, the famous psychoanalyst who died in 1939 and lived in Europe. While Sigmund Freud had a son named Oliver Freud, the card refers to a different individual or descendant active decades after Sigmund's death."
+    },
+    {
+      "qid": "Q104249578",
+      "label": "Freude Berger",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to a professional (Olive Freud) living in New York with a modern address and affiliation with Columbia University, likely in the mid-20th century. The Wikidata entity (Freude Berger) refers to an individual born in 1861 who was a Holocaust victim in Europe during the 1940s. The names, locations, and life timelines do not align."
+    },
+    {
+      "qid": "Q104703767",
+      "label": "Freude Hermann",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes Olive Freud, a person active in New York at Columbia University (likely mid-20th century given the address and phone formats). The Wikidata entity is Freude Hermann, a Holocaust victim born in 1862 and deceased in 1943 in Theresienstadt. The names, timelines, and locations are entirely different and incompatible."
+    },
+    {
+      "qid": "Q105466346",
+      "label": "Freude Landesberg",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to an Olive Freud living in New York City during the mid-20th century (indicated by the zip code 10023 and phone exchange formats), associated with Columbia University. The Wikidata record describes Freude Landesberg, a Holocaust victim who lived in Vienna and died in the early 1940s. The dates, locations, and names do not align."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q24351",
+      "label": "Columbia University",
+      "description": "private Ivy League research university in New York City",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Columbia University' matches exactly. The Wikibase entity description specifically identifies it as a private Ivy League research university in New York City, which aligns with the location of the person on the card (New York, NY). Furthermore, the Wikibase entity includes a Wikidata QID (Q49088) that refers to the same university."
+    },
+    {
+      "qid": "Q25517",
+      "label": "Teachers College",
+      "description": "",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "Teachers College is a specific graduate school affiliated with Columbia University, but it is not the same entity as the university itself. While related, they maintain distinct institutional identities and typically have separate records in organizational databases."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q49088",
+      "label": "Columbia University",
+      "description": "private university in New York City, New York, US",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Columbia University' on the index card matches the Wikidata entity's official name and label perfectly. The location provided on the card (New York, NY) aligns with the Wikidata entity's location in Manhattan, New York City. The Wikidata entity is identified as a major private research university, which is consistent with the employer context on the professional index card."
+    },
+    {
+      "qid": "Q2080179",
+      "label": "Columbia University Press",
+      "description": "university press based in New York City, and affiliated with Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to Columbia University Press, which is a specific publishing unit and subsidiary of Columbia University. The card identifies the employer as the university itself (Columbia University). While related, they are distinct entities in organizational databases."
+    },
+    {
+      "qid": "Q5149897",
+      "label": "Columbia University Libraries",
+      "description": "academic library at Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to the 'Columbia University Libraries', which is a specific library system and academic department within the larger institution. The index card lists the employer as 'Columbia University' generally. While the library is part of the university, they are distinct entities in an organizational hierarchy, and the university itself has its own separate Wikidata entry (Q49088)."
+    },
+    {
+      "qid": "Q1149089",
+      "label": "Columbia Law School",
+      "description": "law school of Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents Columbia Law School, which is a specific constituent school of Columbia University, rather than the university itself. While related as a subunit, they are distinct institutional entities."
+    },
+    {
+      "qid": "Q2415975",
+      "label": "Columbia University Irving Medical Center",
+      "description": "hospital in New York, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as 'Columbia University,' which refers to the main academic institution. The Wikidata entity is 'Columbia University Irving Medical Center,' which is a specific hospital and sub-division of the university. Additionally, the individual's expertise in design and mathematics makes an affiliation with the general university or an engineering/arts department more likely than the medical center."
+    },
+    {
+      "qid": "Q7691246",
+      "label": "Teachers College",
+      "description": "graduate school of Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Teachers College is a specific graduate school affiliated with Columbia University, but it is not the same entity as the university itself. While it is part of the Columbia system, it maintains a distinct institutional identity, endowment, and administrative structure. The card explicitly lists 'Columbia University', which corresponds to Wikidata entity Q49088."
+    },
+    {
+      "qid": "Q2154182",
+      "label": "Columbia University Vagelos College of Physicians and Surgeons",
+      "description": "medical school in New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as 'Columbia University,' which refers to the parent institution. The Wikidata entity Q2154182 represents the Vagelos College of Physicians and Surgeons, which is a specific medical school within the university system. While related as a sub-unit, it is not the same entity as the university itself."
+    },
+    {
+      "qid": "Q844673",
+      "label": "Columbia University Graduate School of Journalism",
+      "description": "journalism school at Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to a specific department (the Graduate School of Journalism), whereas the card lists the parent institution (Columbia University) as the employer. Furthermore, the individual on the card is associated with 'design' and 'mathematics', fields that do not typically align with the journalism school."
+    },
+    {
+      "qid": "Q907481",
+      "label": "Columbia Business School",
+      "description": "business school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Columbia Business School is a subunit (a constituent school) of Columbia University, rather than the university itself. While the card specifies the parent organization, this Wikidata entity refers to a specific academic department/school."
+    },
+    {
+      "qid": "Q5149905",
+      "label": "Columbia University School of the Arts",
+      "description": "Fine arts graduate school of Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents the Columbia University School of the Arts, which is a specific sub-unit (graduate school) of Columbia University. The card identifies the employer as 'Columbia University' (the parent institution). While the school is part of the university, they are distinct entities for organizational matching purposes."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Olive Freud (born 1936) is a New York-based mathematician, educator, and prominent quality-of-life activist. She is best known for her role as the president of the Committee for Environmentally Sound Development, a non-profit organization based on the Upper West Side of Manhattan that advocates against overdevelopment and \"gerrymandered\" zoning lots. During the late 1960s and early 1970s, Freud was an active technical participant in the Experiments in Art and Technology (E.A.T.) movement, which fostered collaborations between the arts and scientific communities. In 1968, she collaborated with architect and designer Don Edson (born 1934) on a project featured in the landmark E.A.T. exhibition titled \"Some More Beginnings\" held at the Brooklyn Museum. Professionally, she is a retired mathematics teacher and has been associated with Columbia University in the fields of design and mathematics. She has lived in the same rent-controlled apartment on West 72nd Street since the 1960s with her husband, Edgar Freud, who is a retired engineer. In 2023, she was honored with the Clara Lemlich Award for her decades of social and environmental activism in New York City.",
+        "sources": [
+          "https://www.artist-info.com/exhibition/Experiments-in-Art-and-Technology-E-A-T-Some-more-beginnings-Museum-of-Modern-Art-MoMA-1968",
+          "https://nycitynewsservice.com/2015/05/20/dense-city-olive-freud-math-teacher/",
+          "https://citylimits.org/2015/03/09/nycs-endangered-species-a-rent-controlled-apartment/",
+          "https://www.laborarts.org/awards/honorees.cfm?id=12",
+          "https://www.westsiderag.com/2017/05/18/how-one-woman-organized-the-fight-against-an-amsterdam-avenue-megatower-can-she-win/",
+          "https://www.dnainfo.com/new-york/20170927/upper-west-side/200-amsterdam-avenue-sjp-properties-mitsui-fudosan-america-olive-freud"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Olive Freud\" E.A.T. project",
+        "\"Olive Freud\" design mathematics New York",
+        "\"Olive Freud\" Columbia University",
+        "Olive Freud Experiments in Art and Technology E.A.T.",
+        "",
+        "\"Olive Freud\" \"Experiments in Art and Technology\"",
+        "\"Olive Freud\" Columbia University employee 1960s 1970s",
+        "\"Olive Freud\" \"E.A.T.\" design mathematics",
+        "\"Olive Freud\" \"Don Edson\" E.A.T.",
+        "\"Olive Freud\" designer mathematician Columbia",
+        "\"Olive Freud\" Columbia University mathematics",
+        "\"Olive Freud\" \"design\" Columbia University",
+        "\"Olive Freud\" E.A.T. member technical person",
+        "\"Olive Freud\" Columbia University mathematics department 1960s 1970s",
+        "\"Olive Freud\" Columbia University mathematics department faculty",
+        "\"Olive Freud\" design and mathematics Columbia",
+        "\"Olive Freud\" \"Don Edson\" artwork title",
+        "\"Olive Freud\" mathematician Columbia University faculty"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVhuUZipMV29itnPEQVwdc8CWD-_v9D4WghI5WaC3hnYgifZX34k4QqV3lQBtHcI6usef2pW1lEWmsZNAxbfYPve-1kiJ97cVa7y1Ltv5Sj8C81fsZDCmZ_aMrpua90FKDveJufJxCc150s65pnVYKBN6Pw1q_J-3lGIBLzXpM6VRE55eEMLA=",
+          "title": "laborarts.org",
+          "resolvedUri": "https://www.laborarts.org/wp-content/uploads/2025-Lemlich-Awards-Program.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDay4GcPH9MZlnYVrCpHF4TPet-q9l0_v7TLt53QPu2E0KgwHIpXNuNYtJJNF5YX45UKAAzY_-rObxHRJFV2_V6TUBmd6LqLbQWfssy4It_mhbA6VskzgY7JUhxIaxq9bGBs3TnPEQ3TUmD2uzJFN0hBcq89hS_fKQtzwqIZyOsvD0v9QbLw0=",
+          "title": "laborarts.org",
+          "resolvedUri": "https://www.laborarts.org/wp-content/uploads/2025-Lemlich-Awards-Program.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBVmcRY6LjjzGXNcQ_ReIh-7FJ5AVrHohKY2vUAGb-KbYhatGEx1btuWmQDQ9o9_d38LszgK-q2N_QT_85bE_wY7zt_UetzI8IajejSFpibOJs1kX0ylH2AvPBrbfTM0fbPSHh7VTXQMSYDIfO1ZHibtaWW5Q=",
+          "title": "artist-info.com",
+          "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9zh2JIvoCKw5cF4HAiSjK2dIlXdtPDDeDhKMm6YfUWXqIgGfHp1q9F4-yXQFlhYoIfFtEthNo45NBNjU2WQ4XyHRGEWz2Y2b7Y0LG_cLZrqR3e4ekQqD2egoM3vGgu4Eb7lXlIS18TuKydlkPwW6AgCzKkTOCsyQVSBTIIA==",
+          "title": "uni-weimar.de",
+          "resolvedUri": "https://www.uni-weimar.de/kunst-und-gestaltung/wiki/images/EAT.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuwWYR21B_N_hK57txHTinwd4f6Srmiud1OT-Ta7Stgjr4sTvxZkpFPAGU22haT1qMdvjTSvammAfAAilfaySOHH2qWefObE03BeagGku9uWJj9mkyFd7oNaMsl9cAVYCigHm4uVcbkGDo0NyYRb6ocL9CzH4GSQQjLycBJ8D6GDKA_ZTAhXJqTN7TUrEoDEdUSp7Eb5w=",
+          "title": "clearwater.org",
+          "resolvedUri": "https://www.clearwater.org/wp-content/uploads/2010/03/Navigator_Spring_Summer_2011_WEB1.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 158,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Olive Freud (born 1936) is a New York-based mathematician, educator, and prominent quality-of-life activist."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 621,
+            "endIndex": 741,
+            "text": "In 1968, she collaborated with architect and designer Don Edson (born 1934) on a project featured in the landmark E.A.T."
+          },
+          "groundingChunkIndices": [
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1103,
+            "endIndex": 1967,
+            "text": "In 2023, she was honored with the Clara Lemlich Award for her decades of social and environmental activism in New York City.\",\n      \"sources\": [\n        \"https://www.artist-info.com/exhibition/Experiments-in-Art-and-Technology-E-A-T-Some-more-beginnings-Museum-of-Modern-Art-MoMA-1968\",\n        \"https://nycitynewsservice.com/2015/05/20/dense-city-olive-freud-math-teacher/\",\n        \"https://citylimits.org/2015/03/09/nycs-endangered-species-a-rent-controlled-apartment/\",\n        \"https://www.laborarts.org/awards/honorees.cfm?id=12\",\n        \"https://www.westsiderag.com/2017/05/18/how-one-woman-organized-the-fight-against-an-amsterdam-avenue-megatower-can-she-win/\",\n        \"https://www.dnainfo.com/new-york/20170927/upper-west-side/200-amsterdam-avenue-sjp-properties-mitsui-fudosan-america-olive-freud\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            3,
+            0,
+            4
+          ]
+        }
+      ]
+    }
   }
 }

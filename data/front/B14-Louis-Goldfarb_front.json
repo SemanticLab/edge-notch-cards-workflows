@@ -22,5 +22,75 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "photography"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q131425617",
+      "label": "Louis Goldfarb",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the names match, the professional and geographical details are entirely different. The card describes an American chemical engineer and physicist working for M.W. Kellogg in New Jersey with interests in photography and acoustics. The Wikidata entity describes a Belgian painter born in Brussels. These profiles represent two distinct individuals with completely different career paths and locations."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q3841154",
+      "label": "M. W. Kellogg Limited",
+      "description": "British construction company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q3841154 refers specifically to M.W. Kellogg Limited, a British subsidiary headquartered in London. The employer on the card is the M.W. Kellogg Company, and the individual resides in New Jersey, USA, where the parent American firm was based. While related by corporate lineage, they are distinct geographical and legal entities."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Louis Goldfarb was a chemical engineer and researcher active in the late 1960s and 1970s. He was associated with the M.W. Kellogg Company (later known as Pullman Kellogg), specifically at their research and development center located in Piscataway (New Market), New Jersey. His technical expertise spanned chemical engineering, chemistry, physics, acoustics, and ultrasonics. In 1969, he co-authored a notable paper titled \"Ultrasonic relaxation and diffusion-controlled processes in electrolytic solutions\" in the Journal of the Acoustical Society of America with the prominent electrochemist Ernest Yeager of Case Western Reserve University. His work in acoustics and ultrasonics in a chemical context aligned with the collaborative goals of the Experiments in Art and Technology (E.A.T.), a non-profit organization that paired engineers and scientists with artists. Academic records indicate a Daniel Louis Goldfarb graduated from Rutgers University (located near Piscataway) in 1964, which fits the timeline of his professional activities in New Jersey.",
+        "sources": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv2uuUQfcZuYtglSQDBL5ppqfMSIdEiuINjhznsgjSloRWMFOn1ZZiTZ7dYXcCz4nPyqC4QKoyOclHIl4oGffsXvM4XfCRtmmQRTSlcsO-PhtiGlrpIRbWEd8OdAoYsLtxiWMCMyb1ER72RaY1wiWsUXhio-Gsk1wlAnBhDc55US2Lc7CTOWakK2nwrfv-WwiwktzoFvtqb6kBikfFnQxiGuKnfCahWg7125gOKLkVrczVHYe53oa1kyu1nXoVm2mMnf2ie6PxVwduT9sdB5c0yuVUtMEAyQIXbhWy",
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm9dD_uGtmvIR9V0kwU0paISpjf39G_7gKaTFSiNURToZ8VHJGJSBBDdJAX18QJfBYZxGz1QbBIbi9oasTxkXAU-R_v4pVef8r06GfIshjBXEVUoR4VccN7eCLOkmCmiUPUiBk0oT5PM1yu0m69w-aTKWRUyYJ3QlwsuV2xLwJRA=="
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Louis Goldfarb\" E.A.T. artist engineer",
+        "\"Louis Goldfarb\" Experiments in Art and Technology",
+        "Louis Goldfarb chemical engineering ultrasonics acoustics",
+        "Louis Goldfarb M.W. Kellogg Company Piscataway NJ",
+        "",
+        "\"Louis Goldfarb\" acoustics ultrasonics",
+        "Louis Goldfarb \"M.W. Kellogg\"",
+        "\"Louis Goldfarb\" chemical engineer Kellogg",
+        "\"Louis Goldfarb\" Experiments in Art and Technology E.A.T.",
+        "",
+        "\"Louis Goldfarb\" E.A.T. engineer",
+        "",
+        "\"Louis Goldfarb\" \"Ernest Yeager\" affiliation",
+        "",
+        "\"Louis Goldfarb\" E.A.T. member",
+        "\"Louis Goldfarb\" \"Kellogg\" acoustics",
+        "\"Louis Goldfarb\" M.W. Kellogg NJ",
+        "",
+        "",
+        "",
+        "\"Louis Goldfarb\" \"E.A.T.\" technical field",
+        "",
+        "\"Louis Goldfarb\" acoustics ultrasonics technical fields",
+        "Louis Goldfarb \"Experiments in Art and Technology\"",
+        "\"Louis Goldfarb\" Kellogg company engineer NJ",
+        "\"Louis Goldfarb\" Ernest Yeager Case Western PhD",
+        "",
+        "\"Louis Goldfarb\" Rutgers chemical engineering",
+        "",
+        "\"Louis Goldfarb\" \"E.A.T.\" collaboration list"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

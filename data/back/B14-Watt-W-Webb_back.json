@@ -8,6 +8,109 @@
         "y1": 16.3,
         "x2": 95.9,
         "y2": 85.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q88275",
+          "label": "Pieke Biermann",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names 'Megan' and 'Pieke' are significantly different. While the surnames are similar and the age of Pieke Biermann (born 1950) would align with activity in the late 1960s and 1970s, there is no evidence that the German writer and translator Pieke Biermann ever used the name Megan Bierman."
+        },
+        {
+          "qid": "Q794665",
+          "label": "Biermann Mihály",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity lived from 1849 to 1889, which is incompatible with the artist context of being active in the late 1960s and early 1970s. Furthermore, the names (Megan vs Mih\u0000\u0000ly) and genders do not match."
+        },
+        {
+          "qid": "Q62125194",
+          "label": "Paul R. Bierman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name (Megan vs. Paul) and gender (female vs. male) do not match. Additionally, the Wikidata entity is a geomorphologist who graduated from college in the 1980s, making him far too young to be an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Megan Bierman is a multi-disciplinary improvising artist, musician, and dancer who was active in the experimental art and performance scenes of the late 1960s and 1970s. She attended Bennington College from 1968 to 1972, where she studied and performed with the Judith Dunn - Bill Dixon Dance Company, a ground-breaking improvisational group. During this period, she was involved in various avant-garde projects, including performances with the Bill Dixon Ensemble in 1969. In the 1970s, she collaborated on the project \"Megacycles\" with fellow Bennington graduate Laurel Sprigg, Joe Sabella, and her long-term artistic partner, John Gruntfest. Her work often crosses the boundaries of music (she has played the tenor saxophone for over 40 years), dance, and visual arts (painting and drawing). Bierman is the daughter of prominent San Francisco activists Arthur and Sue Bierman; her father was a philosophy professor and her mother served on the San Francisco Board of Supervisors. She has spent much of her later career as an artist-in-residence at the Buen Dia Family School in San Francisco (since 1993) and continues to be involved in the San Francisco experimental music and performance community, appearing in events at the Center for New Music. Her early professional activity is also reflected in copyright entries from 1972 and 1973 for dramatic works and music.",
+            "sources": [
+              "https://meganbierman.com/about",
+              "https://www.sfgate.com/news/article/MAN-OF-MANY-HATS-At-78-philosopher-and-bon-2819854.php",
+              "https://bb10k.com/RIVERS.sess.html",
+              "https://archive.org/details/catalogofcopyrig27112unit/page/n261/mode/2up",
+              "https://centerfornewmusic.com/calendar/past-events/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Megan Bierman\" artist",
+            "\"Megan Bierman\" 1960s 1970s artist",
+            "\"Megan Bierman\" E.A.T. archive",
+            "",
+            "\"Megan Bierman\" Bennington College E.A.T.",
+            "\"Megan Bierman\" \"E.A.T.\" newsletter",
+            "\"Megan Bierman\" \"E.A.T.\" artist",
+            "\"Megan Bierman\" Experiments in Art and Technology",
+            "\"Megacycles\" Megan Bierman E.A.T.",
+            "\"Megan Bierman\" \"Megacycles\" collaboration",
+            "\"Megan Bierman\" 9 Evenings E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOivBid3yWD-XMjAi5GUiBi-u8I2yilgN85yCj3TC65YIfCEDI916-5sPvcDHWOhvBFE9yDkGWUR7Hjdefru2GRmgRoLShpMyuaKKVs_moIXc3GuIVJ80-gvue3_ny",
+              "title": "meganbierman.com",
+              "resolvedUri": "https://www.meganbierman.com/about/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 219,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Megan Bierman is a multi-disciplinary improvising artist, musician, and dancer who was active in the experimental art and performance scenes of the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 220,
+                "endIndex": 392,
+                "text": "She attended Bennington College from 1968 to 1972, where she studied and performed with the Judith Dunn - Bill Dixon Dance Company, a ground-breaking improvisational group."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 524,
+                "endIndex": 696,
+                "text": "In the 1970s, she collaborated on the project \\\"Megacycles\\\" with fellow Bennington graduate Laurel Sprigg, Joe Sabella, and her long-term artistic partner, John Gruntfest."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 697,
+                "endIndex": 846,
+                "text": "Her work often crosses the boundaries of music (she has played the tenor saxophone for over 40 years), dance, and visual arts (painting and drawing)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

@@ -17,5 +17,93 @@
       "microwave design"
     ],
     "specializedSkillsKnowledge": "radio design, microwave design"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Jacob Handwerker is an electrical engineer who specialized in radio and microwave design, active from at least the late 1960s. He was employed by the Lockheed Electronics Corporation, a subsidiary of Lockheed based in North Plainfield, New Jersey. His technical expertise includes microwave design and ionospheric (skywave) propagation, and he is the developer of the IONSOUND software, which is used for predicting skywave propagation for amateur, professional, and military applications. Handwerker has been a long-time figure in the amateur radio community with the callsign W1FM (formerly active in the 2nd district, which includes New York and New Jersey) and has participated in the Lockheed Amateur Radio Club. He is also a member of several professional organizations, including the Institute of Electrical and Electronics Engineers (IEEE), the Society of Motion Picture and Television Engineers (SMPTE), and a life member of the Society of Broadcast Engineers (SBE). During the late 1960s and early 1970s, he was potentially associated with Experiments in Art and Technology (E.A.T.), an organization that fostered collaborations between engineers and artists, many of whom were recruited from major technical firms in the New Jersey and New York area like Lockheed, Bell Labs, and RCA. His career has seen him transition from the New York/New Jersey area (including Brooklyn and North Plainfield) to Lexington, Massachusetts.",
+        "sources": [
+          "https://hamsci.org/hamsci2021/program",
+          "https://www.antiquewireless.org/awa-review/vol-19-2006/",
+          "https://worldradiohistory.com/Archive-Poptronics/90s/91/Pop-1991-11.pdf",
+          "https://archive.org/stream/Winter_1982_Radio_Amateur_Callbook/Winter_1982_Radio_Amateur_Callbook_djvu.txt",
+          "https://manuals.plus/m/77b8b7e28325a81765c71c4c9540c4966601f07f430ca2444365851f506240d1_optim.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Jacob Handwerker\" electrical engineer New Jersey Brooklyn",
+        "\"Jacob Handwerker\" Experiments in Art and Technology",
+        "\"Jacob Handwerker\" radio microwave design",
+        "\"Jacob Handwerker\" engineer Lockheed Electronics",
+        "",
+        "\"Jacob Handwerker\" Brooklyn North Plainfield",
+        "\"Jacob Handwerker\" Lockheed Electronics NJ",
+        "\"Jacob Handwerker\" electrical engineer E.A.T. project",
+        "\"Jacob Handwerker\" Experiments in Art and Technology E.A.T.",
+        "\"Jacob Handwerker\" microwave design patents",
+        "",
+        "\"Jacob Handwerker\" North Plainfield NJ",
+        "\"Jacob Handwerker\" Brooklyn New York engineer",
+        "\"Jacob Handwerker\" microwave radio design engineer",
+        "",
+        "\"Jacob Handwerker\" E.A.T. artist collaboration",
+        "\"Jacob Handwerker\" microwave radio design Lockheed",
+        "",
+        "\"Jacob Handwerker\" \"E.A.T.\" newsletter \"Lockheed\"",
+        "",
+        "\"Jacob Handwerker\" microwave radio Lockheed engineer",
+        "\"Jacob Handwerker\" E.A.T. collaboration artist",
+        "",
+        "\"Jacob Handwerker\" \"Brooklyn\" callbook",
+        "\"Jacob Handwerker\" \"K2\" or \"W2\" callsign",
+        "\"Jacob Handwerker\" Experiments in Art and Technology archive",
+        "",
+        "\"Jacob Handwerker\" E.A.T. member",
+        "\"Jacob Handwerker\" Experiments in Art and Technology engineer list",
+        "\"Jacob Handwerker\" Brooklyn NY engineer 1970"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq-csNM9LfSk7bSOmMVqa5-w25nIuJDVxbq_SPqaUUfmlMD3Ync5y33AEsiNIOYC7TsKoZS3z_6aEi7E_eDYVFbxpPErNcm5wBrY_7IvualVQXnzBfLZFdor3n0oGXE5SBnh4fXwoUMcGsYPU0Vecj79KZdtR5MKz-",
+          "title": "antiquewireless.org",
+          "resolvedUri": "https://www.antiquewireless.org/wp-content/uploads/Vol.-21.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSjdJYWY86wol3HdhzMm9WUpHD1Vx8VP2JWQUroXyg7lRV1Mogts7yGLYnp2ZZ4LHcHW6mIDMKqGJwuAyxjhT92qI9A7XOu_gW996F-CsP5BoFKgmDKHD5OFbOND-7XPyLb_uaDNdyFb7h8gkXHvoBAcivcUg1ESXJ4rX0s69ICgQdCxpJ0wYBJwcMn2gQp81izUhz2ppvNXMvedW6YSU7",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/1994_Radio_Amateur_Callbook/1994_Radio_Amateur_Callbook_District_1_djvu.txt"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 768,
+            "endIndex": 1025,
+            "text": "He is also a member of several professional organizations, including the Institute of Electrical and Electronics Engineers (IEEE), the Society of Motion Picture and Television Engineers (SMPTE), and a life member of the Society of Broadcast Engineers (SBE)."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1346,
+            "endIndex": 1983,
+            "text": "His career has seen him transition from the New York/New Jersey area (including Brooklyn and North Plainfield) to Lexington, Massachusetts.\",\n      \"sources\": [\n        \"https://hamsci.org/hamsci2021/program\",\n        \"https://www.antiquewireless.org/awa-review/vol-19-2006/\",\n        \"https://worldradiohistory.com/Archive-Poptronics/90s/91/Pop-1991-11.pdf\",\n        \"https://archive.org/stream/Winter_1982_Radio_Amateur_Callbook/Winter_1982_Radio_Amateur_Callbook_djvu.txt\",\n        \"https://manuals.plus/m/77b8b7e28325a81765c71c4c9540c4966601f07f430ca2444365851f506240d1_optim.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

@@ -15,5 +15,83 @@
       "organic chemistry",
       "plastics/polymers"
     ]
+  },
+  "wikidata_candidates": [
+    {
+      "qid": "Q93224117",
+      "label": "Seely J. Beggiani",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinctly different: Loren G. Seely versus Seely J. Beggiani. While both share the name 'Seely', it is the surname in the first record and the given name in the second. There is no evidence connecting the organic chemist in Texas to the individual in the Wikidata entry."
+    },
+    {
+      "qid": "Q112343131",
+      "label": "Seelye Martin",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Loren G. Seely vs. Seelye Martin), and their professional expertise areas do not overlap. The first record focus on organic chemistry and plastics, while the second focuses on oceanography, cryosphere research, and remote sensing."
+    }
+  ],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Loren G. Seely (1943–2022) was a chemist and technical professional who spent over four decades at Winzen Research, Inc. (later Winzen International and Raven Industries) in Sulphur Springs, Texas. Joining the company in June 1969, shortly after completing graduate studies in chemistry at the University of Missouri, Seely became a leading expert in the materials science of scientific ballooning. His technical focus involved organic chemistry and the development of specialized plastics and polymers, specifically thin films and tapes such as SSA-10, SSA-20, and Stratofilm 372. These innovations were critical for the reliability of high-altitude research balloons. During the late 1960s and early 1970s, Winzen Research was a key technical partner for the nonprofit organization Experiments in Art and Technology (E.A.T.), most notably fabricating the massive 210-foot diameter spherical mirror for the Pepsi Pavilion at Expo '70 in Osaka, Japan. Seely's expertise in polymer films aligned with these large-scale technical-artistic collaborations. Throughout his career, he authored numerous scientific papers, held several patents related to balloon design and materials (such as high-pressure nylon gores), and was honored with the Otto C. Winzen Lifetime Achievement Award by the American Institute of Aeronautics and Astronautics (AIAA) in 2007. Outside of his engineering work, he was a permanent deacon in the Catholic Church and a prolific blues musician and composer.",
+        "sources": [
+          "https://www.ksstradio.com/2022/08/loren-g-seely/",
+          "https://www.westoaksfuneralhome.com/obituary/Loren-Seely",
+          "https://www.aiaa.org/get-involved/honors-awards/awards/otto-c-winzen-lifetime-achievement-award",
+          "https://patents.google.com/patent/US5104059A/en",
+          "https://ntrs.nasa.gov/citations/19950015566"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Loren G. Seely\" Sulphur Springs Texas",
+        "\"Loren G. Seely\" Winzen Research",
+        "\"Loren G. Seely\" Winzen Research Inc Sulphur Springs",
+        "\"Loren G. Seely\" E.A.T. Experiments in Art and Technology",
+        "\"Loren G. Seely\" \"E.A.T.\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd14CFb9z0Rq6IbG5YfEnYSFHB-Ve3-vsLW6chV1Hs3xKyNC0Iakb3nZC7YTCWIvxNEjkSTKuv3E8cmXipTP7znmipNJu6RYHCLSqgLcd5CjGpbqUS4BJH6CPTPJEYXi8HGXw5I6bt2XsZGWBZrZJvQEA=",
+          "title": "westoaksfuneralhome.com",
+          "resolvedUri": "https://www.westoaksfuneralhome.com/obituary/Loren-Seely"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4BZMsyNEQoGQH8-cwLANxayPpzjXNOsKBL8WJBw03N-NAn5yadodSS0imZv1t7KBoKuBrcdT8QBYeOtFz5hQI-l4SNDPNEhfvcXZwWCg0fO_hN8JiXEqFRfzGoWqXuVMx0EXr9w2U_gGG0rFCUi-iKhyoWHBQINCBXCM=",
+          "title": "aiaa.org",
+          "resolvedUri": "https://aiaa.org/awards/otto-c-winzen-lifetime-achievement-award/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 249,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Loren G. Seely (1943–2022) was a chemist and technical professional who spent over four decades at Winzen Research, Inc. (later Winzen International and Raven Industries) in Sulphur Springs, Texas."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 634,
+            "endIndex": 721,
+            "text": "These innovations were critical for the reliability of high-altitude research balloons."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

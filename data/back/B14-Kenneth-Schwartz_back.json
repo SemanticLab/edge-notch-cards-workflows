@@ -11,6 +11,51 @@
         "y1": 9.7,
         "x2": 40.0,
         "y2": 15.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert John Liikala (also known as John Liikala) is an American artist, curator, and educator active since the 1960s. He is closely associated with the New York avant-garde, Fluxus, and Intermedia movements. Liikala is perhaps best known for founding the Group 212 Inter Media Project in Woodstock, New York (1966–1969), an experimental art colony that hosted numerous Fluxus artists. During the mid-1960s, he managed the \"Open Stage\" hall in New York City, which famously hosted the premiere of Andy Warhol’s Exploding Plastic Inevitable (E.P.I.) featuring the Velvet Underground and Nico. Liikala's own artistic practice has spanned various media, including abstract expressionist painting, sculpture, and underground film; his works have been exhibited at venues such as the Brata Gallery and the Waddell Gallery, where he presented a notable lunar-themed installation in 1964. He has been documented in New York State Council on the Arts reports from the late 1960s alongside major organizations like Experiments in Art and Technology (E.A.T.), reflecting his involvement in the period's intersection of art and technology. Later in his career, he moved to San Francisco, where he founded the Art Dancing Gallery and collaborated with the Capezio Foundation on dance-themed art exhibitions.",
+            "sources": [
+              "https://www.robertjohnliikala.com",
+              "https://www.warholstars.org/warhol/timeline/1966.html",
+              "https://archive.org/stream/nyscannualreport196768/nyscannualreport196768_djvu.txt",
+              "https://aadl.org/node/194726",
+              "https://archive.org/details/nyscannualreport196970"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Robert Liikala artist",
+            "Robert Liikala 1960s 1970s artist",
+            "\"Robert Liikala\" \"Experiments in Art and Technology\"",
+            "\"John Liikala\" \"Experiments in Art and Technology\"",
+            "\"Robert Liikala\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEFIvSs0X_cCwECCkxkQovuu3dxP9sUgH73jx8VXNEhKSVIu0JslE-WKG2dqn6yktszrBK2QtncXMbWKFBxpLnZMrHzWQExT1NphUjKgUlktBsCQ1K3TEwOl8nnA==",
+              "title": "warholstars.org",
+              "resolvedUri": "https://warholstars.org/1966.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 167,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robert John Liikala (also known as John Liikala) is an American artist, curator, and educator active since the 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

@@ -20,5 +20,121 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art",
     "aestheticPhilosophicalInterests": "Interested in kinetic art"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q727346",
+      "label": "David Brainerd",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records represent people from entirely different centuries. The Wikidata entity David Brainerd lived in the 18th century (1718-1747) and was a missionary, while the card data describes Kirk Brainerd, who worked with computers, artificial intelligence, and served on a mid-20th-century aircraft carrier (USS Hancock)."
+    },
+    {
+      "qid": "Q4955876",
+      "label": "Brainerd Currie",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct, as Brainerd is the surname of the first individual and the given name of the second. Furthermore, their professional profiles are entirely different: Kirk Brainerd worked in mathematics, computer technology, and AI within the Navy, while Brainerd Currie was a famous legal scholar and law professor who died in 1965."
+    },
+    {
+      "qid": "Q4955880",
+      "label": "Brainerd Jones",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Kirk Brainerd, an expert in computer technology and AI who served on the USS Hancock (active post-WWII). The Wikidata entity is Brainerd Jones, an architect who lived from 1865 to 1949. Their names, professions, and active time periods do not align."
+    },
+    {
+      "qid": "Q5423328",
+      "label": "Ezra Brainerd",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. Kirk Brainerd was associated with modern technologies like AI and computer technology and served on the USS Hancock (active mid-20th century), whereas Ezra Brainerd was a botanist who lived from 1844 to 1924."
+    },
+    {
+      "qid": "Q20735316",
+      "label": "Brainerd Kellogg",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals from completely different eras. Kirk Brainerd worked with computer technology and artificial intelligence on a mid-20th-century aircraft carrier (USS Hancock), whereas Brainerd Kellogg lived from 1834 to 1920, predating these technologies. Additionally, their names are distinct, with Brainerd being the surname in one and the given name in the other."
+    },
+    {
+      "qid": "Q54861078",
+      "label": "Charles Brainerd",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are different (Kirk vs. Charles), and the professional backgrounds are entirely distinct: the card describes a person with a background in the Navy, computer technology, AI, and art, whereas the Wikidata entity is a prominent academic researcher in cognitive and developmental psychology."
+    },
+    {
+      "qid": "Q89442655",
+      "label": "Brainerd Marc Burridge",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity died in 1894, making it impossible for him to be the same person as the Kirk Brainerd on the card, who worked in 20th-century fields like computer technology and artificial intelligence and served on the USS Hancock (active 1944-1976)."
+    },
+    {
+      "qid": "Q111717511",
+      "label": "Brainerd Duffield",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names Kirk Brainerd and Brainerd Duffield are distinct. Furthermore, the professional backgrounds (mathematics/AI/electronics vs. acting) show no overlap."
+    },
+    {
+      "qid": "Q113844514",
+      "label": "Brainerd Prince",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct; the card refers to 'Kirk Brainerd' while the Wikidata entity refers to 'Brainerd Prince'. Additionally, their professional fields (Technology/Mathematics/Military vs. Religious Studies) and locations (San Francisco vs. Oxford) do not match."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Kirk Brainerd was a technical professional active in the late 1960s and 1970s, with expertise in mathematics, computer technology, electronics, and early artificial intelligence. He was a participant in the pioneering computer counterculture and social networking movements of that era. In 1973, Brainerd (associated with the name SMAX) was a long-distance participant in one of the first online computer conferences, which included other notable figures like Lee Felsenstein of the San Francisco-based community computing center Resource One. Brainerd was recognized in Ted Nelson's 1974 book 'Computer Lib / Dream Machines' for his work in Los Angeles, where he used computers to develop a registry of people with knowledge to share, with the goal of fostering altruism and mutual availability. Professionally, he collaborated with Gerald H. Shure at UCLA to develop 'MODELR' (Model building and model modification for instruction), a set of computer programs designed for student investigation of behavioral phenomena using natural language interaction, published in 1975. He is also associated with the San Francisco area and served or worked in a technical capacity related to the United States Ship Hancock (CVA-19), an attack aircraft carrier homeported in the San Francisco Bay Area during his period of activity.",
+        "sources": [
+          "https://archive.org/stream/ComputerLibDreamMachines/Ted_Nelson_Computer_Lib_Dream_Machines_djvu.txt",
+          "https://red7.com/2017/02/early-computer-conferencing-1973-at-northwestern-university/",
+          "https://www.researchgate.net/publication/226992523_MODELR-Model_building_and_model_modification_for_instruction",
+          "https://worrydream.com/refs/Nelson-ComputerLibDreamMachines.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Kirk Brainerd\" computer technology electronics",
+        "\"Kirk Brainerd\" engineer",
+        "\"Kirk Brainerd\" USS Hancock",
+        "\"Kirk Brainerd\" AI computer mathematics",
+        "\"Kirk Brainerd\" E.A.T.",
+        "\"Kirk Brainerd\" UCLA AI",
+        "\"Kirk Brainerd\" USS Hancock",
+        "\"Kirk Brainerd\" \"SMAX\" computer",
+        "\"Kirk Brainerd\" E.A.T. directory",
+        "\"Kirk Brainerd\" CVA-19"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU4lyFNL2eGz6-cWPzlFc0icQHUgaohrx9Rg7VlFZJBLlkhI6WiADtpPrZCdb23lXpXVaEMi3JZWTKcEu6Oyc6fLFe2pF1PDVbqe_n394XK2izZGFes8fP7fKABXZTSXVzLRCN-c3eAffSCtoQUNlIJph215nc41-8BMxU_uGM_NgJoec=",
+          "title": "red7.com",
+          "resolvedUri": "https://blog.red7.com/computer-conferencing-1973-northwestern-university/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 337,
+            "endIndex": 593,
+            "text": "In 1973, Brainerd (associated with the name SMAX) was a long-distance participant in one of the first online computer conferences, which included other notable figures like Lee Felsenstein of the San Francisco-based community computing center Resource One."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

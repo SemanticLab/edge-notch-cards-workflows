@@ -17,5 +17,61 @@
   },
   "interestsCreativeActivities": {
     "aestheticPhilosophicalInterests": "Interested in introducing the artist and scientist groups at Brooklyn College to one another."
+  },
+  "wikidata_candidates": [],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Alan M. Zamore is a technical professional and researcher who was active in the late 1960s and early 1970s. In 1968, he was a graduate student at Brooklyn College of the City University of New York (CUNY), where he served as a member of the Student Advisory Council and as the chairman of the Commission on Governance during a period of university-wide reorganization. His technical expertise lies in biochemistry and polymer science, particularly in the development of macromolecular compounds for medical applications. Zamore is a prolific inventor with numerous patents to his name, including significant innovations in dilatation balloons, catheters, and shape-memory polymers used in medical devices. He has held leadership roles in the industry, notably as the President of Zylon Corporation. He was also involved in significant legal proceedings concerning the misappropriation of trade secrets related to balloon catheter technology. His affiliation with Experiments in Art and Technology (E.A.T.) is evidenced by his registration as a technical professional during the organization's active years, as indicated by records from the E.A.T. archive which match his background at Brooklyn College and his specialization in biochemistry.",
+        "sources": [
+          "https://archive.org/stream/HansFroehlichCollection/HansFroehlichCollection_djvu.txt",
+          "https://patents.google.com/patent/US4490421A/en",
+          "https://patents.google.com/patent/US7371799B2/en",
+          "https://nycourts.gov/reporter/3dseries/2016/2016_02194.htm",
+          "https://sbtc.org/wp-content/uploads/2011/12/Small-Business-Letter-to-Congressional-Leadership-Signatories-12-2011.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "\"Alan M. Zamore\" Experiments in Art and Technology",
+        "\"Alan Zamore\" E.A.T.",
+        "Alan M. Zamore Brooklyn College biochemistry",
+        "Alan M. Zamore CUNY",
+        "\"Alan Zamore\" Experiments in Art and Technology list",
+        "",
+        "\"Alan M. Zamore\" Brooklyn College degree",
+        "",
+        "\"Alan Zamore\" Brooklyn College 1969 1970",
+        "\"Alan M. Zamore\" Experiments in Art and Technology 1968",
+        "\"Alan Zamore\" E.A.T. Brooklyn College",
+        "\"Alan Zamore\" \"Technical Services\" E.A.T.",
+        "\"Alan M. Zamore\" Experiments in Art and Technology directory",
+        "\"Alan Zamore\" E.A.T. \"Brooklyn College\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF41PJud-prQv208pzJ-Qf29rl7kfGHM43WIayJErVwGGEbevUt09W13kUQil9A4fVzA_JdkF6KVMjPZ4AJuaoCWEBler2vG8coaYV9VvDWJlSCmfC_v-lsdLuW9GFrQG32Eo0LHXj2jlrR_w-cUFmb8fGdShpGC80GqjLrnOgJmGhpf7Rs1TPA-Oa8H-NQhGjOa2n67tkOk88gazdcYxOVfOJC4ZPYwmkoZ47pqfaUpw==",
+          "title": "sbtc.org",
+          "resolvedUri": "https://sbtc.org/wp-content/uploads/2022/12/Small-Business-Letter-to-Congressional-Leadership-Signatories-12-2011.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 756,
+            "endIndex": 848,
+            "text": "He has held leadership roles in the industry, notably as the President of Zylon Corporation."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

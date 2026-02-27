@@ -9,6 +9,149 @@
         "y1": 5.2,
         "x2": 58.7,
         "y2": 11.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q17143715",
+          "label": "Adrianne Wortzel",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes an American artist born in 1941, which aligns perfectly with being active during the late 1960s and early 1970s. The presence of artist files at the Smithsonian and works in the Whitney Museum further confirms their status as a professional artist of that era."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Adrianne Wortzel (born October 7, 1941, in Brooklyn, New York) is an American pioneering media artist, researcher, and educator whose career spans over six decades. Originally trained as an abstract painter, she was active in the late 1960s and 1970s producing acrylic paintings and geometric sculptures, some of which were motorized to simulate biological functions like breathing. During this early period, she studied under prominent artists such as Ad Reinhardt, Louise Bourgeois, Jimmy Ernst, and Burgoyne Diller. Her work from the 1960s and 70s often explored undulating color fields, simulated manuscripts, and architectural abstractions. From the 1990s onward, Wortzel became a prominent figure in robotic and telerobotic art, electronic literature, and interactive performance. She is known for projects that collaborate with engineers and scientists, such as \"Camouflage Town\" (2001) at the Whitney Museum of American Art and \"Eliza Redux\" (2005). She has been associated with the legacy of technology-focused art movements and received support from the Robert Rauschenberg Foundation. Wortzel is a Professor Emerita of Entertainment Technology and Emerging Media Technologies at the New York City College of Technology (CUNY) and has served as the Founding Director of StudioBlueLab.",
+            "sources": [
+              "https://thoughtworksarts.io/bio/adrianne-wortzel/",
+              "https://eyebeam.org/people/adrianne-wortzel/",
+              "https://en.wikipedia.org/wiki/Adrianne_Wortzel",
+              "https://adriannewortzel.com/about/",
+              "https://jdj.world/exhibitions/field-notes",
+              "https://www.nsf.gov/news/news_summ.jsp?cntn_id=104153"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Adrianne Wortzel robot art performance",
+            "Adrianne Wortzel artist biography E.A.T.",
+            "Adrianne Wortzel artistic career 1960s 1970s",
+            "\"Adrianne Wortzel\" Experiments in Art and Technology",
+            "\"Adrianne Wortzel\" 1960s 1970s paintings exhibitions",
+            "\"Adrianne Wortzel\" \"Experiments in Art and Technology\"",
+            "\"Adrianne Wortzel\" \"E.A.T.\"",
+            "\"Adrianne Wortzel\" EAT art organization",
+            "\"Adrianne Wortzel\" painting career 1960s",
+            "\"Adrianne Wortzel\" participation in E.A.T. projects",
+            "\"Adrianne Wortzel\" member of Experiments in Art and Technology",
+            "Did Adrianne Wortzel participate in the E.A.T. \"Some More Beginnings\" exhibition in 1968?"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzTx6Xr_4J6nVmQI2_VpntoZDVuOE4HxKUlIy-wH88xtmOAhF6mTnGWkazMjentwDXWeGfRxlyn1SEbpnfAJIYplmM2q4ISUuPc9DFQFJrdB9V_FdsRU5EIrhH87Dmv2s42AsTdmjaQg==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Adrianne_Wortzel"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4dB0cH7HuClIwmH53L91q2fJ0HFjWfYUJHinKOIwces-NC_AFwukQkJ56-Evm7BbAfLWTeOTmj61LtRk8qH6ldc4qApPFKg98IGkyrwft8FIMd0oetP3O56KwawQDOKE3c4106YGIYUonTze0SBuRkABAoJfhal956g==",
+              "title": "microscopegallery.com",
+              "resolvedUri": "https://microscopegallery.com/the-first-circle-radical-humanism/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLSqPQC7byadAcHcnDR8FOji8GSnRRxQWq1zaCnXp2gw7EXOL7JKBN5xQAStATRIbQt9FE8LIdoeL9Z4twarMcUPcN8aiRAEWqzM7z-OzV7zldgu36bWjmGk7CbNcK15REEAbKZB4gFfeRkQ==",
+              "title": "franklinfurnace.org",
+              "resolvedUri": "https://franklinfurnace.org/goings-on-01-26-2026/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFet7DFxL4nXGkTzOOK7khUU7BEPB7bE0QPuGd5hVnn139zi3Ubos2x9-dGeEbItNtROLKRkWSLtisQoznbQ048Pu9ZKoTuh8ib1nCUqHEoAOUEjBvXmUud0R0qdTK8wFYeAPmkjzpL0BQMhJeXD9Z7-aYz0zMClAgEgV9qBAzb",
+              "title": "albany.edu",
+              "resolvedUri": "https://www.albany.edu/museum/public-programs/public-programs-archive"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFi3hV3A340tnsWQzdkj-vGp1FyPmoaZDCqW6YERL9MrSOp8NlGOOSX6Nk0ROLdsaKaURGsrj627iB1KSwoyioJJy1k0MWKBp1oWzl8gCE7Cyn5P5JPZZCsIe1ej4Am1YLIAM6muZ6F-IHDgOew9Fr3iTlvNLOwMgtxxVHdDYFE60zliZdkIjztVuIEi7WB1YtcpV9N4sfQqXjyPEHo",
+              "title": "pageplace.de",
+              "resolvedUri": "https://api.pageplace.de/preview/DT0400.9781350243491_A42436593/preview-9781350243491_A42436593.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsg5sdkL2pgcqRoPQ_KCkHAKznV0qp15ykTPcQ028heCUeSg-C1VvFX1G9Sz9ieXJwCF4RlFoARogYGOqvLOZg_k2lU-Ot32v2PXtbvY1n0PM9UHt4OG-vM6NTE0KoAHidjaCMUrJx5HvkYg==",
+              "title": "franklinfurnace.org",
+              "resolvedUri": "https://franklinfurnace.org/goings-on-01-12-2026/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECdDvxKLxYb-57ggj0muG9pD9iYexYdCtNe6JRVdzSXiZgDJB4q23RG5WbiqjFfsUmQgufvXqgWn0at-ISQ8aDVnJcMDLrLSqWxxcs6Ugky5Eb2463bp44jgbTX950ItohieAqK9MYBariBxPBm4s7tBB8fH9IBQ==",
+              "title": "servus.at",
+              "resolvedUri": "https://webarchiv.servus.at/kontext/ARS/ars_cluster_D_1_1.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0ev7jLUY-4bqDwEMKBLq9N-K86G_cnPoU6aMI7HZ-cVMjWSRYKWTEPUNQ1_utwLv2-mZ2O4b2nsVBQkYTs_jfUGE2y81xIbA7k1kL-FF70Op-IrpOJBLshotxwEeoa15H6__lhCxSFxvSPw==",
+              "title": "thoughtworksarts.io",
+              "resolvedUri": "https://thoughtworksarts.io/bio/adrianne-wortzel/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 214,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Adrianne Wortzel (born October 7, 1941, in Brooklyn, New York) is an American pioneering media artist, researcher, and educator whose career spans over six decades."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 433,
+                "endIndex": 568,
+                "text": "During this early period, she studied under prominent artists such as Ad Reinhardt, Louise Bourgeois, Jimmy Ernst, and Burgoyne Diller."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 696,
+                "endIndex": 836,
+                "text": "From the 1990s onward, Wortzel became a prominent figure in robotic and telerobotic art, electronic literature, and interactive performance."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1012,
+                "endIndex": 1149,
+                "text": "She has been associated with the legacy of technology-focused art movements and received support from the Robert Rauschenberg Foundation."
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1150,
+                "endIndex": 1760,
+                "text": "Wortzel is a Professor Emerita of Entertainment Technology and Emerging Media Technologies at the New York City College of Technology (CUNY) and has served as the Founding Director of StudioBlueLab.\",\n      \"sources\": [\n        \"https://thoughtworksarts.io/bio/adrianne-wortzel/\",\n        \"https://eyebeam.org/people/adrianne-wortzel/\",\n        \"https://en.wikipedia.org/wiki/Adrianne_Wortzel\",\n        \"https://adriannewortzel.com/about/\",\n        \"https://jdj.world/exhibitions/field-notes\",\n        \"https://www.nsf.gov/news/news_summ.jsp?cntn_id=104153\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +163,92 @@
         "y1": 11.2,
         "x2": 53.8,
         "y2": 24.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Vera Feingold (1932–2022), likely the artist referred to as Vera Fenigold, was a New York City-based artist, teacher, and community activist. Born in Hungary, she moved to the United States and spent most of her life in New York. She graduated from the High School of Music and Art in 1950 and later earned a Bachelor of Arts from Brooklyn College and a Master of Fine Arts from Hunter College. Feingold was active in the New York art scene during the late 1960s and 1970s, a period coinciding with the activities of Experiments in Art and Technology (E.A.T.), an organization headquartered in New York that she may have been associated with as an artist or collaborator. In her later years, she continued to engage with technology, serving as an instructor for senior net studies software at the Fulton Senior Center in New York. She was a longtime resident of the Penn South Co-op in Chelsea, Manhattan, where she was also known for her community advocacy.",
+            "sources": [
+              "https://www.legacy.com/us/obituaries/nytimes/name/vera-feingold-obituary?id=32971510",
+              "https://www.dignitymemorial.com/obituaries/new-york-ny/vera-feingold-10536762",
+              "https://www.amny.com/news/penn-south-co-op-to-elect-new-board-members-in-chelsea-2/",
+              "https://newspaperarchive.com/brandon-sun-mar-20-2002-p-8/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Vera Fenigold artist",
+            "\"Vera\" Experiments in Art and Technology artist",
+            "\"Vera Feingold\" E.A.T.",
+            "\"Vera Feingold\" E.A.T. archive",
+            "",
+            "\"Vera Feingold\" artist NYC",
+            "\"Vera Feingold\" dancer",
+            "\"Vera\" Experiments in Art and Technology directory",
+            "\"Vera Feingold\" performer",
+            "\"Vera\" E.A.T. directory artist",
+            "",
+            "\"Vera Feingold\" Hungarian artist NYC",
+            "\"Vera Feingold\" exhibition 1960s 1970s",
+            "\"Vera Feingold\" artist E.A.T.",
+            "\"Vera Feingold\" artist technology",
+            " \"Vera\"",
+            "\"Vera\" Experiments in Art and Technology 1968",
+            "\"Vera Feingold\" E.A.T. artist",
+            "\"Vera\" Expo 70 Pepsi Pavilion artist",
+            "\"Vera Feingold\" E.A.T.",
+            "\"Feingold\" Experiments in Art and Technology member",
+            "\"Vera\" E.A.T. volunteer",
+            "\"Vera\" E.A.T. collaborator",
+            "\"Finegold\" Experiments in Art and Technology member",
+            "\"Fenigold\" Experiments in Art and Technology member",
+            "\"Vera\" E.A.T. newsletter",
+            "\"Vera Feingold\" E.A.T. staff",
+            "\"Vera\" + \"Experiments in Art and Technology\" + \"1968\" list",
+            "\"Vera Feingold\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLBo1_Ytxob7bqpcjkJJWXWUmep0tFCLpphpvYfuylDqvg9DtaOAac6hSlxt74q9ZQCId_FNnLmuCipkVU4kTTHtztxpdvnKLWXh6wnHinijlLdfRbjRWd6Rrz576HT5b0_bqNcMY8llTyUal-YPNHW0EhbTTbvMB4catD8yCZV5lH-50k",
+              "title": "artnet.com",
+              "resolvedUri": "https://news.artnet.com/art-world/women-who-pioneered-computer-art-2570283"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwdU1AW8D966rSLfbnWMaiJX0WkQ8nfoqqe4f6sPABWZL_MlBjQNOmSa8UYUZxTV83UnSr7uPv2D4HnrMPwhUVBGpaGCFnRMjz6Bcogcjy2cZ7mINsn2aV47BYdui4Q8-rCc=",
+              "title": "nyu.edu",
+              "resolvedUri": "https://www.ifa.nyu.edu/events/2020.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWQeugN2fNkqD2gRmi3JVnnYPBRiNUFsPz02Cc9sZKMbCib_svXFMjMqIIbP60zNNJDbyijAB-LQG1pTpNysHTtJ41Fuk3IVQ20YQ8g_iBLZ0eh4JlI2NU3ghPZdYq9c0xsT52FUgUYEggJm8JhVESHoMsBx9_vN7kHWKd6bR309xHbqDoVU9nRYx0Lnd1A35GVdzN_lN66pcvccPUSZW2NlyoSemN-R58qBVCfHSjyyS98g==",
+              "title": "starbucks.com",
+              "resolvedUri": "https://stories.starbucks.com/asia/stories/2020/step-into-the-spotlight-with-starbucks-x-vera-wang-designer-merchandise/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzRvEDquNUWWAcxsCIEdWrwnKwlgpWTnXWBlAg1tJbW0Cv30RAWHv3t2D4e7qEaK_wtldvutw_eE7U1NQ96A-m-a_HF65sjgcf0Vv2qC45MYladuK1Podj98q3NeSi9R-MC9XOc1RSi9-ZZMB-gWX3Gt64Z-7ahlYGy5sjSQiaN2bNlQLQpadY3KWZb5wBkGFkJlxuyzxjETKKgYcqVslfkFU29KtXqks=",
+              "title": "nylon.com",
+              "resolvedUri": "https://www.nylon.com/fashion/lana-condor-nylon-19-vera-bradley-collab-favorite-red-carpet-looks-taylor-swift"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 883,
+                "endIndex": 1432,
+                "text": "She was a longtime resident of the Penn South Co-op in Chelsea, Manhattan, where she was also known for her community advocacy.\",\n      \"sources\": [\n        \"https://www.legacy.com/us/obituaries/nytimes/name/vera-feingold-obituary?id=32971510\",\n        \"https://www.dignitymemorial.com/obituaries/new-york-ny/vera-feingold-10536762\",\n        \"https://www.amny.com/news/penn-south-co-op-to-elect-new-board-members-in-chelsea-2/\",\n        \"https://newspaperarchive.com/brandon-sun-mar-20-2002-p-8/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

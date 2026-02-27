@@ -9,6 +9,138 @@
         "y1": 8.7,
         "x2": 32.0,
         "y2": 16.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28399",
+          "label": "Scotty Snyder",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records share the exact name 'Scotty Snyder'. The card is dated 1969, which aligns with the Wikibase entry's association with the E.A.T. project (Experiments in Art and Technology), a group active during that period. Both entries identify the individual as an artist."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q29231",
+          "label": "Frans Snyders",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q29231) describes Frans Snyders, a Flemish Baroque painter who lived from 1579 to 1657. This is entirely incompatible with the card entry dated 1969, which refers to a person active in the late 20th century."
+        },
+        {
+          "qid": "Q385997",
+          "label": "Jonas Suyderhoef",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Jonas Suyderhoef describes a 17th-century Dutch engraver who lived from approximately 1613 to 1686. This is completely incompatible with the card entry for Scotty Snyder, who was active in 1969. Additionally, the names are distinct."
+        },
+        {
+          "qid": "Q1370998",
+          "label": "Snyder Rini",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match properly; 'Snyder' is the surname for the artist 'Scotty Snyder' on the card, whereas 'Snyder' is the first name for the Solomon Islands politician 'Snyder Rini'. Furthermore, the Wikidata entity is a prominent politician from the Solomon Islands, which is entirely inconsistent with the card's context of an artist associated with the E.A.T. (Experiments in Art and Technology) project in the late 1960s."
+        },
+        {
+          "qid": "Q1681665",
+          "label": "Solomon H. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist named Scotty Snyder, whereas the Wikidata entity Q1681665 describes Solomon H. Snyder, a world-renowned neuroscientist and medical researcher. The names and professional backgrounds do not align."
+        },
+        {
+          "qid": "Q2296146",
+          "label": "Snyder S. Kirkpatrick",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Snyder Solomon Kirkpatrick died in 1909, which makes it chronologically impossible for him to be the individual on the card active in 1969. Furthermore, the Wikidata entity was a politician and lawyer, not an artist."
+        },
+        {
+          "qid": "Q3182230",
+          "label": "John Otterbein Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Otterbein Snyder (Q3182230) died in 1943, making it impossible for him to be the person mentioned in the 1969 card entry. Additionally, the Wikidata entity was a zoologist and ichthyologist, whereas the person on the card is identified as an artist."
+        },
+        {
+          "qid": "Q14954619",
+          "label": "Leon C. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Scotty' is not a standard diminutive for 'Leon', and the occupations (artist vs. botanist/horticulturist) are entirely different. There is no evidence suggesting Leon C. Snyder was ever known as Scotty or worked as an artist."
+        },
+        {
+          "qid": "Q25035800",
+          "label": "Abraham Z. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Scotty vs. Abraham) and the dates do not align; the card is from 1969 while the Wikidata entity lists a birth date of 2000 and identifies the person as a modern academic researcher rather than an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q70250411",
+          "label": "Lillian Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Scotty' and 'Lillian' are distinct, and their occupations (artist vs. botanical collector/mycologist) are incompatible. Furthermore, the Wikidata entity was born in 1874, making her 95 years old at the time of the 1969 card entry, which is unlikely for the active artist described."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Scotty Snyder (born 1912) was a versatile artist and performer active in the New York and New Jersey avant-garde scenes from the 1960s through the 1980s. Originally known as a painter based in Summit, New Jersey, she exhibited her work at the Visual Arts Center of New Jersey (1962) and the Silvermine Guild of Artists (1969). Snyder is most notably recognized for her collaborations within the experimental theater and performance art communities. She was associated with Experiments in Art and Technology (E.A.T.) during the late 1960s, appearing in documentation and exhibition records related to the organization between 1968 and 1969. As a performer, she was a frequent collaborator with Robert Wilson, appearing in landmark productions such as 'The King of Spain' (1969) and 'The Life and Times of Sigmund Freud' (1970). She also appeared in Richard Foreman's 1981 film 'Strong Medicine' and was a member of the company for the Mabou Mines production of 'Dead End Kids: A History of Nuclear Power' (1980). Additionally, she was a close associate and subject for artist Stuart Sherman, who featured her in his performance films, including 'Scotty Snyder (All Around the Table)' (1987).",
+            "sources": [
+              "https://www.artist-info.com/curator/E-A-T",
+              "https://www.nypl.org/finding-aids/struct/18659",
+              "https://www.maboumines.org/production/dead-end-kids-a-history-of-nuclear-power/",
+              "https://en.wikipedia.org/wiki/Stuart_Sherman_(artist)",
+              "https://www.artcenternj.org/wp-content/uploads/2019/07/VACNJ-Exhibition-Timeline-2018.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Scotty Snyder\" Experiments in Art and Technology",
+            "\"Scotty Snyder\" E.A.T. artist",
+            "\"Scotty Snyder\" artist 1960s 1970s",
+            "\"Scotty Snyder\" engineer artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfdLiJNv3f5wxT8PCJVLxW0jmzN2_KhL8Zl2Tw1shX4s8yrnsC3EEDyDa8oLXB7TQggU8zKPITKH6Yp5w138jv1AYg19COQpWXLFj3uHRQ9zqaqJ35x6lVbseTUpVSrg92JrEaAcEMM3oVnuomI1H99u9831ydTMS6bjUasvC3hYq0i7ldSCc6",
+              "title": "epdf.pub",
+              "resolvedUri": "https://epdf.pub/before-between-and-beyond-three-decades-of-dance-writing.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOkxseVyqQiY_tm0LQVljFXPFTud0K9WUN0fUJJRHt3L0cmNhAi2e4GXNAjYo8ZFRwm0Qv56fsyVf7p-ocJLKqYYN29DiYM-dVkaULTm2ZGMs2T4SrrzhiDKUNd5ZNAAt1ftSY44b8wjX9iwkaumSiBt2bkA==",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 203,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Scotty Snyder (born 1912) was a versatile artist and performer active in the New York and New Jersey avant-garde scenes from the 1960s through the 1980s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 499,
+                "endIndex": 565,
+                "text": "She was associated with Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

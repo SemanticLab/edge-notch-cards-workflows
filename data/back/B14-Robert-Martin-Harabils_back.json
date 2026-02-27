@@ -11,6 +11,166 @@
         "y1": 8.5,
         "x2": 33.5,
         "y2": 16.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26333",
+          "label": "Kira Gale",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Kira Gale' matches exactly in both records. Furthermore, the Wikibase entity specifically links this individual to the E.A.T. Technical Services Program Edge-Notched Cards project, which is the source of the physical card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q8778",
+          "label": "Galen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Galen (Claudius Galenus), the famous Ancient Roman physician and philosopher who lived in the 2nd century AD. This is completely unrelated to Kira Gale, an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q233845",
+          "label": "Gale Sondergaard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'Kira Gale', while the Wikidata entity is for 'Gale Sondergaard', a well-known actress. In the Wikidata record, 'Gale' is the given name, whereas in the card entry, 'Gale' is the surname."
+        },
+        {
+          "qid": "Q269895",
+          "label": "Gale Anne Hurd",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Kira Gale' on the card does not match 'Gale Anne Hurd' in the Wikidata entity. Additionally, Gale Anne Hurd was born in 1955 and began her professional career in 1979, making it highly unlikely she was an active artist in the late 1960s as specified in the context."
+        },
+        {
+          "qid": "Q317894",
+          "label": "Galeazzo Maria Sforza",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Kira Gale, an artist active in the late 1960s and early 1970s. The Wikidata entity Q317894 describes Galeazzo Maria Sforza, the Duke of Milan, who lived and died in the 15th century (1444-1477). The names and time periods are completely incompatible."
+        },
+        {
+          "qid": "Q1039891",
+          "label": "Galeazzo Benti",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Kira Gale' and 'Galeazzo Benti' do not match. Galeazzo Benti was a prominent Italian actor and screenwriter, whereas the card entry refers to Kira Gale, an artist associated with the E.A.T. Technical Services Program. There is no overlap in name or professional identity between these two individuals."
+        },
+        {
+          "qid": "Q2517890",
+          "label": "Galeazzo Marescotti",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are entirely different (Kira Gale vs. Galeazzo Marescotti). Furthermore, the Wikidata entity describes a 17th-century Catholic cardinal and inquisitor who lived from 1627 to 1726, which is incompatible with an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q3078740",
+          "label": "Galena",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1985 and began her career in 2004, making it impossible for her to be the artist active in the late 1960s and early 1970s mentioned in the card. Furthermore, the names do not match."
+        },
+        {
+          "qid": "Q21513680",
+          "label": "Shirley Gale Cross",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Kira Gale', whereas the Wikidata entity is 'Shirley Gale Cross'. While both share the surname 'Gale', 'Kira' and 'Shirley' are distinct names. Furthermore, the card is linked to an artist associated with the E.A.T. project (identified as Q26333), while the Wikidata entity provided (Q21513680) describes a botanist and scientific illustrator."
+        },
+        {
+          "qid": "Q112485023",
+          "label": "Galen S. Wagner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Kira Gale and Galen S. Wagner are not similar, and the Wikidata entity is identified as a cardiologist, whereas the person on the card is part of an artist registry (E.A.T.)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Kira Gale (1941–2018) was a multi-disciplinary artist, experimental filmmaker, and historian who was active in the New York City art and technology scene during the late 1960s and early 1970s. Born in Washington, D.C., and later based in Omaha, Nebraska, she began her career as an artist focusing on experimental media. During the early 1970s in NYC, she was a filmmaker who specialized in Super-8 film, specifically experimenting with technical processes such as solarization and home processing of film. Her work in this period was recognized in publications like 'Radical Software' (1970), a foundational journal for the alternative media and video art movement, where she was listed as a contributor or contact. This work in experimental media and her presence in the NYC art/tech community align with the activities of the Experiments in Art and Technology (E.A.T.) organization. Gale later transitioned into a career as a historian and author, becoming a prominent authority on the Lewis and Clark expedition and the history of Omaha. Her artistic background continued through photography, notably in her 1987 exhibit 'Old Jules Country,' which paired images of the Nebraska Sandhills with the writing of Mari Sandoz. She authored several historical books, including 'The Death of Meriwether Lewis: A Historic Crime Scene Investigation' and 'Lewis and Clark Road Trips.'",
+            "sources": [
+              "https://nebraskaauthors.org/authors/kira-gale",
+              "http://www.radicalsoftware.org/common/text.php?v=1&n=2&p=24",
+              "https://www.scribd.com/document/42533037/WomenAndFilmNo5-6",
+              "https://lewisandclark.org/wpo/pdf/wpo30-3.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "\"Kira Gale\" Omaha artist history",
+            "Kira Gale 1960s 1970s artist",
+            "\"Kira Gale\" E.A.T. artist",
+            "Kira Gale artist Experiments in Art and Technology",
+            "\"Kira Gale\" artist 1960s 1970s",
+            "\"Kira Gale\" photography \"Old Jules Country\" artist biography",
+            "\"Kira Gale\" E.A.T. membership list",
+            "\"Kira Gale\" Experiments in Art and Technology",
+            "",
+            "\"Kira Gale\" Super-8 filmmaker NYC 1970s",
+            "\"Kira Gale\" artist E.A.T. membership"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3l249G6q2PYzBzQI-oG5NeH-1RaMKuyXEJuqQTozUJKNBtkAnC7HN20Ti8Ri4wFx5pVwKzp_pnzAVMvoBr5FR4YPCAA5b0kDgkU-yVOMX-eJyN_lDcxw7Z9YcZU0i6beoDLSCGi_hINbj-TM=",
+              "title": "eiseley.org",
+              "resolvedUri": "https://www.eiseley.org/caravan/Caravan-v11n2.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYZPT2-9LMhg81Ayl4s5PhVD9trm3adKFyZ_4iHyupREx9kRAGy4e6Z3neWnUPsetBsFR6p49tudyTIpJmiW3Zq2IIqtbwTG3kiDvmbp0PqyjyagSd-OdVNFciL9Qj1sT4MZANbScjg9pmNfdba7uV3Z-380U=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/515040300/WomenAndFilmNo5-6"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrfKM-Bm3I3lIZGOUrVvru2vbIt1uhLvhWr70iB_DAFhWhdysjXjmaogLGlzbl8158jnOrXemtuIxFYbMcEhqAX6w_A5qPvksfNeeCCsjrXr8aaZXLu8c52cbv5CmO4KbV7Othan-O9JBBJs91mHJB7Tj3LcGA",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/515040300/WomenAndFilmNo5-6"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqNhKPuHxg9SGrpde4IihqRF3wOke3dMi9dlPqNFBjdM2n8QVw6Lisr2nXIY-UJ2xCjrsIouIApCwv6rvCPLy-FgJrssbFg0dsryz-vVUTdqULf_kdxbpB9HzdjO61NmS2N5XXXgfbOkzl_C1JyCjATRqZdKaS5wbzGmVD7ZbEt8xc5KcEXUEYjozBUtIDavsqWlg=",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/bitterroot-the-life-and-death-of-meriwether-lewis-9780812294712.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 244,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Kira Gale (1941–2018) was a multi-disciplinary artist, experimental filmmaker, and historian who was active in the New York City art and technology scene during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 373,
+                "endIndex": 558,
+                "text": "During the early 1970s in NYC, she was a filmmaker who specialized in Super-8 film, specifically experimenting with technical processes such as solarization and home processing of film."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1277,
+                "endIndex": 1757,
+                "text": "She authored several historical books, including 'The Death of Meriwether Lewis: A Historic Crime Scene Investigation' and 'Lewis and Clark Road Trips.'\",\n      \"sources\": [\n        \"https://nebraskaauthors.org/authors/kira-gale\",\n        \"http://www.radicalsoftware.org/common/text.php?v=1&n=2&p=24\",\n        \"https://www.scribd.com/document/42533037/WomenAndFilmNo5-6\",\n        \"https://lewisandclark.org/wpo/pdf/wpo30-3.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

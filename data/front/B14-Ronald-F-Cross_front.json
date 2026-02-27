@@ -16,5 +16,153 @@
       "power engineering",
       "alternating current machines"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q25555",
+      "label": "Cross-Cultural Voices II: Between Memories",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Record 1 describes a person (Ronald F Cross) with a profession in electrical engineering, whereas Record 2 is an art exhibition title 'Cross-Cultural Voices II'. These are entirely different types of entities."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q2165584",
+      "label": "Sir Ronald Cross, 1st Baronet",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the names are similar, the middle initials differ (F vs H). Furthermore, their professional lives are incompatible: the person on the card is an electrical engineer based in Toronto, Canada, working for Square D Company, whereas the Wikidata entity is a prominent British baronet, politician, and diplomat (Governor of Tasmania and High Commissioner) with no technical engineering background."
+    },
+    {
+      "qid": "Q97654640",
+      "label": "Ronald Cross",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the names 'Ronald F Cross' and 'Ronald Cross' are very similar and both are associated with Canada, their professional and biographical profiles are fundamentally different. The Ronald Cross in the card data is an electrical engineer specializing in power engineering and alternating current machines who worked for the Square D Company in Toronto. The Wikidata entity (Q97654640) refers to a Mohawk activist and metalworker known as 'Lasagna' who was a prominent figure in the Oka Crisis in Quebec; these are distinct individuals."
+    },
+    {
+      "qid": "Q98594633",
+      "label": "Ronald Crossland",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Ronald F Cross vs. Ronald Crossland). Additionally, their professions are entirely unrelated; the index card describes an electrical engineer working for Square D Company in Canada, whereas the Wikidata entity describes a classical scholar and Hittitologist."
+    },
+    {
+      "qid": "Q117860946",
+      "label": "Ron Crossland",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are fundamentally different (Cross vs. Crossland), and the professional fields do not align: the first record is for an electrical engineer, while the Wikidata entity is for a management consultant."
+    },
+    {
+      "qid": "Q133688989",
+      "label": "Q133688989",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "Record 1 is a detailed profile for Ronald F Cross, including his address and profession. The Wikidata entry (Q133688989) contains no name, occupation, or location data, providing only a birth year of 1957. There are no overlapping identifiers to confirm they are the same person."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Ronald F. Cross was an electrical engineer active in Canada during the 1960s and 1970s. He graduated with a degree in Electrical Engineering from the University of British Columbia (UBC) in 1962, where he was recorded as a resident of West Vancouver. Following his graduation, he moved to Toronto, Ontario, where he became an engineer for the Square D Company, a major manufacturer of electrical equipment and power distribution systems. His technical expertise focused on electrical and power engineering, specifically alternating current (AC) machines and motor controls. During the late 1960s and early 1970s, he was associated with the Toronto chapter of Experiments in Art and Technology (E.A.T.), a non-profit organization that promoted collaborations between the technical community and artists. His participation in E.A.T. occurred during a peak period of the organization's international expansion, which included active local groups in major Canadian cities like Toronto and Vancouver.",
+        "sources": [
+          "https://open.library.ubc.ca/collections/ubcpublications/ubctotem/items/1.0101037",
+          "http://www.experimentsinartandtechnology.org/local-groups.html",
+          "https://www.se.com/ca/en/about-us/company-profile/history/square-d.jsp"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Ronald F Cross Square D power engineering",
+        "Ronald F Cross Square D Company Toronto",
+        "\"Ronald F Cross\" Square D Toronto electrical engineering",
+        "",
+        "\"Ronald F Cross\" E.A.T. engineer",
+        "\"Ronald F Cross\" Square D Company",
+        "",
+        "\"Ronald F. Cross\" Square D electrical engineering",
+        "\"Ronald F. Cross\" E.A.T. organization",
+        "",
+        "\"Experiments in Art and Technology\" Toronto members",
+        "\"Ronald F. Cross\" E.A.T. Toronto",
+        "",
+        "\"Ronald F. Cross\" E.A.T. member",
+        "\"Ronald F. Cross\" Toronto Square D",
+        "",
+        "\"Ronald F. Cross\" E.A.T. membership list",
+        "\"Ronald F. Cross\" Square D machines",
+        "\"Ronald F. Cross\" E.A.T. Toronto collaboration",
+        "",
+        "\"Ronald F. Cross\" Vancouver Toronto engineer",
+        "\"Ronald F. Cross\" E.A.T. member list",
+        "\"Ronald F. Cross\" engineer Canada history",
+        "",
+        "\"Ronald F. Cross\" Square D professional biography",
+        "\"Ronald F. Cross\" P.Eng. Toronto",
+        "\"Ronald F. Cross\" Toronto E.A.T. contact"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnIljrsEhK7R6FC_tfe7DifwdJfhoZShlMUTmNFxD-WyQ4zKjKaOi33fNAU1VCn447zTSkJrZy3vI7XrrzqYFYJL62l_Ghoko_MCKj0T6eV9AnYbzE0rSKU3rGqzZVZI29gQ_y_eV1fmlr1EYg7CrC8hN4IV6SWg==",
+          "title": "getty.edu",
+          "resolvedUri": "https://www.getty.edu/research/collections/collection/113YMQ"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHR2LBlp7bJmw6oKflHqBNmgJ286THG4c4gOdJ9oVyTC4hAZhSWahpVfFyBN669To0FHbKIepvGoVSW1AzAz4__U0K3dIunCQ78ctkWZlWBJL2lPpj3IxAjgam7KikgfPKidL3eX-d8ZyPYkGdS2CXSsuUZSUBrVUGh06D",
+          "title": "ubc.ca",
+          "resolvedUri": "https://www.library.ubc.ca/archives/pdfs/yearbooks/1963_totem.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRXSeilhmk54SPJGFktax9uVMjBtJsPGLChco7N5_ubaJZRfC9ka9LVCKBW3HWWm31-9Ew0xbdNA5aDUQpGJpvVVH70paCSrObMSbhLaWKpjj2MAlJ5Wy45Fgis18bX6YjCtF5njhn3oT2RU5YE0XJSdOaqqSo5LYZspbOy-6volyIqUzymw==",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/mennonite196277shel/mennonite196277shel_djvu.txt"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgQAXI9XqJqRUUL-81E4S4zhkCrt9O_0-iUQBwXugpdNdMPyCIIqZFm8FQZJ7SmOXcyUbJ5yOp26GTOjxReEKCs0CLIpVP5JJxF3Hgawy0s1iJx7QBP6iixlPtkUjvDQkjv0-fgYIPDMh6iNUEzxk4tgg6sVCskYgJDnqgsDoqquKcKc_KRpv7qO8VTM9Xyze8ddxGJrKPYw==",
+          "title": "maryland.gov",
+          "resolvedUri": "https://msa.maryland.gov/megafile/msa/stagsere/se100/se144/000000/000008/pdf/msa_se144_08.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgpw5wSAWtQJ8QY57aVXFWILIi6Yfqdir7PTTdFJgtlvjD3Ifn0kZkWyUcysfQ8RJlWdZTGyJl2NlzFlrPJijZJAp-SaU2p-ad1vRX-LRzQeKqsgBPJ26bKMe4Dj0N4S24MqXLnUwKgQhJXnxn7_sKMwTX6Aal9Z8PVG6_M_KXBtpp3GofCm-Hk4LLN5Q2SWBXgszikI2jJA==",
+          "title": "maryland.gov",
+          "resolvedUri": "https://msa.maryland.gov/megafile/msa/stagsere/se100/se144/000000/000008/pdf/msa_se144_08.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 853,
+            "endIndex": 880,
+            "text": "His participation in E.A.T."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 881,
+            "endIndex": 1366,
+            "text": "occurred during a peak period of the organization's international expansion, which included active local groups in major Canadian cities like Toronto and Vancouver.\",\n      \"sources\": [\n        \"https://open.library.ubc.ca/collections/ubcpublications/ubctotem/items/1.0101037\",\n        \"http://www.experimentsinartandtechnology.org/local-groups.html\",\n        \"https://www.se.com/ca/en/about-us/company-profile/history/square-d.jsp\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            2,
+            1
+          ]
+        }
+      ]
+    }
   }
 }

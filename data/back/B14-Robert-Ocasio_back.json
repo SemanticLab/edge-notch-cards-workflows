@@ -10,6 +10,91 @@
         "y1": 10.4,
         "x2": 41.7,
         "y2": 17.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5692338",
+          "label": "Pedro Luján",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a military person who lived in the 15th and 16th centuries (born 1401, died 1512), which is completely incompatible with the card's context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q6069364",
+          "label": "Pedro Luján",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in the late 1960s/1970s (associated with the 'LOFT' context), while the Wikidata entity refers to a Mexican military figure from the Mexican Revolution (born 1900) who fought for Villismo. These are two distinct historical individuals."
+        },
+        {
+          "qid": "Q6069366",
+          "label": "Pedro Luján",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a historical figure (a noble and chamberlain) who lived around the year 1500, which is over 450 years prior to the active period of the artist mentioned on the card (late 1960s/early 1970s)."
+        },
+        {
+          "qid": "Q55466988",
+          "label": "Pedro Luján",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names match exactly. The card's mention of 'LOFT' as a contact method is highly consistent with an artist active in New York City during the late 1960s and 1970s. Wikidata entity Q55466988 refers to Pedro Luján, an artist/sculptor whose career matches the timeframe and professional context provided."
+        },
+        {
+          "qid": "Q111048300",
+          "label": "Pedro Lujan",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Pedro Lujan' matches exactly. The Wikidata entity is an artist and sculptor born in 1943, which aligns perfectly with the timeframe of being active in the late 1960s and 1970s. The 'LOFT' designation on the index card further supports the identification, as it was a common residential/studio type for artists in New York City during that period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Pedro Lujan (born 1943) is a Chicano sculptor, video artist, and multimedia creator born in El Paso, Texas. After earning a BA from the University of Texas at El Paso in 1965, he moved to New York City in the mid-1960s, where he became active in the experimental art scene of the late 1960s and 1970s. Lujan is recognized for his wood sculptures and his early engagement with Experiments in Art and Technology (E.A.T.); he and E. C. Hyde were featured in an E.A.T. exhibition that ran from November 1968 to February 1969. He also collaborated with Davidson Gigliotti to design and build an inflatable media environment for the video collective Videofreex. His early experimental work included architectural installations, such as a large ropebridge, and multimedia projects like the video 'Viaje a Caballo' (1983), which documented a horseback journey along the Rio Grande. Lujan received an MA from Goddard College in 1973 and was a recipient of the Guggenheim Fellowship in sculpture (1982), as well as grants from the National Endowment for the Arts (1974, 1977). His work has been exhibited at institutions such as El Museo del Barrio, the Fondo del Sol Visual Arts Center, and the Just Above Midtown (JAM) gallery. He also participated in the Roswell Artist in Residence Program in 1981–82.",
+            "sources": [
+              "https://rair.org/pedro-lujan",
+              "https://www.artist-info.com/curator/E-A-T",
+              "https://www.davidsonsfiles.org/EarlyVideoProject.html",
+              "http://www.vasulka.org/archive/4012/JudYalkut/ElectronicZen.pdf",
+              "https://www.washingtonpost.com/archive/lifestyle/1983/04/14/tejano-technique/74964951-4043-455a-a386-a97960686940/",
+              "https://archive.org/stream/creativelegacyhi00prin/creativelegacyhi00prin_djvu.txt",
+              "https://www.elmuseo.org/history-mission/",
+              "https://www.moma.org/calendar/exhibitions/5483"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "\"Pedro Lujan\" El Paso artist",
+            "\"Pedro Lujan\" sculptor biography",
+            "\"Pedro Lujan\" Experiments in Art and Technology",
+            "\"Pedro Lujan\" artist active 1960s 1970s",
+            "artist \"Pedro Lujan\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm97ezY0DyNBaj9V6w7eOMjOnlELnV3Pa__gGpC8jx_h2AHQ5bEFUP03dInsm408lOVYRDkG0vGpqu-FG6vmUzD0xdcUg6swlYkvUIvKpkMfofD1DRhEkuz30374uk5E-7HGOxmgc=",
+              "title": "davidsonsfiles.org",
+              "resolvedUri": "https://davidsonsfiles.org/Exhibitions.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 572,
+                "endIndex": 705,
+                "text": "He also collaborated with Davidson Gigliotti to design and build an inflatable media environment for the video collective Videofreex."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +107,149 @@
         "y1": 19.5,
         "x2": 50.3,
         "y2": 26.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28418",
+          "label": "Bernard Venet",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match perfectly, and both records identify the individual as an artist associated with the Experiments in Art and Technology (E.A.T.) project during the late 1960s/early 1970s."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q545445",
+          "label": "Bernar Venet",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names Bernard Venet and Bernar Venet are variations of the same individual (he was born Bernard and adopted the spelling Bernar). The Wikidata entity describes a conceptual artist who was active in the late 1960s and early 1970s (moving to New York in 1966), which perfectly aligns with the provided context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bernar Venet (born Bernard Venet on April 20, 1941, in Château-Arnoux-Saint-Auban, France) is a prominent French conceptual artist and sculptor who became influential in the late 1960s and early 1970s. After moving to New York in 1966, he became a pioneer of Conceptual art, known for incorporating mathematics, scientific language, and logical diagrams into his work. He was associated with the Experiments in Art and Technology (E.A.T.) organization, participating in their landmark exhibition 'Some More Beginnings' at the Brooklyn Museum in 1968. His early career featured unconventional materials such as tar, coal, and cardboard; notably his 1963 work 'Tas de charbon' (Pile of Coal) is considered the first sculpture without a specific shape. From 1971 to 1976, Venet famously ceased all artistic production for a period of 'theoretical reflection,' during which he taught Art Theory at the Sorbonne in Paris. He resumed his practice in 1976 and later gained international fame for his monumental steel sculptures of arcs, angles, and indeterminate lines. His work is held in major global collections including MoMA, the Guggenheim, and the Centre Pompidou, and in 2011 he became the fourth contemporary artist to have a solo exhibition at the Palace of Versailles.",
+            "sources": [
+              "https://www.operagallery.com/artists/bernar-venet",
+              "https://en.wikipedia.org/wiki/Bernar_Venet",
+              "https://www.kasmingallery.com/artists/54-bernar-venet/",
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E.A.T.-Billy-Kluever-Robert-Rauschenberg-Robert-Whitman",
+              "https://www.mamac-nice.org/en/exhibition/bernar-venet-les-annees-conceptuelles-1966-1976/",
+              "https://sculptors.org.uk/artists/bernar-venet",
+              "https://www.getty.edu/research/collections/shunk_kender/index.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bernard Venet artist biography 1960s 1970s E.A.T.",
+            "Bernar Venet artist profile",
+            "Bernard Venet Experiments in Art and Technology",
+            "Bernar Venet \"Experiments in Art and Technology\"",
+            "Bernar Venet collaboration with scientists engineers 1960s",
+            "\"Bernard Venet\" E.A.T. association"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBRlTVTMVCUlldHeicvxUIMrhORp9HiUwRFH7ZsODuqW36_kb-6DQfeelIrS6yKh4JwcYUeS8Y4wvoC92t7SNz1p5Wu-8KKawa0GnyqLQ8LwehKhvWkegBx2cGjd4OzdIFklI2KGMktxLL2i2LDnc7R6ryzdsBX53krvKfq35HPcRAgOVenhG9vnARQ0qkPV_eLnSMWHU=",
+              "title": "societegenerale.com",
+              "resolvedUri": "https://collection.societegenerale.com/sites/default/files/2025-05/Livret-30_ans-VA-0505.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIxpr1MemTjIjPTkHfyqh-YLJxOa_WksX2BIgP6woSonnd6_rEaJl1e95QjlWLaAy_PkNy1vD7yjxW3Vz5gSTlqCdUL1zZ9R-0cSO9o2YbXU3W3oobu_6Kwe7wjCDIEJxBmN_M2a5HG3EvxNjd9h19XylRBfRmCtUo6wD1ktrxzhsjvy7Ahn3QtHdgqCJVUvnFpKECsFU=",
+              "title": "ceyssonbenetiere.com",
+              "resolvedUri": "https://www.ceyssonbenetiere.com/en/exhibitions/1348/bernard-venet-algorithm-and-chance-1348"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVrKMYP1Alj2BzxTUtCG7prc30soYhTnByp5L0D3fryE3u5G4hj7Lbhks6AQ8M85N5dRYuI6E39535MbsNdFon7h-Imif3_6pfCOiSCutfH_30xUNrr4WK9yxiZGbUm2Z2dD7Qk_OAHjf5VR2Irdxx",
+              "title": "mac-lyon.com",
+              "resolvedUri": "https://www.mac-lyon.com/en/programmation/bernar-venet"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiwERX6VfPpsLBwm9KKAAfv2z4KXKvBbMTD0GHFTFY1HBnnBOaU-UhnWBqd4v5nEnPfO49y5Rxni7Piwo2d1X8PsjvHiwYLC3-W4QIpmkgCCYKheSTEodZHcnn7ePX4L2G9XLwVpy8WBEixn005UlS5Q3V0Fr2afEFbpYc5Q0f5zMOP7-5IHOTDBXLQXLZXrC_9Hl4Axs9Fmf2EcG3wclBgTVGUvYFOYZZ56auwxUPZj0Hd1aN",
+              "title": "universitypressscholarship.com",
+              "resolvedUri": "https://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262036498.001.0001/upso-9780262036498-chapter-002"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8_6CJHCAdCCUxT6bpBCExwmTTAWc5891QeJvI_NiMDuxOlKOvLLM76HDIy4mpWtYZUxKoxzaO-0Cc5kzHz6LN7PgpZ60CGxvAV8PugCkOcYuw9I11c6Di0aJE-P5sHXWTFIjt5g6B",
+              "title": "sculptors.org.uk",
+              "resolvedUri": "https://sculptors.org.uk/artists/bernar-venet"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF52EOymh9pOA3HvUfDz7sNZYoYARiMLE6rvtUT8bdEMFXvnPyK2-gXKjzmKtGfcOSUHCtyYZDkuFxiaBDL8NsXowgqn1ac909oaJsb2brAbc_ZIdK6mh1McBSE9WI5FhEJfKJFWBYADjAbCeGwntQnUXoGaTPUELxGj9Rtt_ajDUqom6w8wkqSEkh5YNO-L7PsKgf1Y1Vao0L8eQUqi2OyJ-PSBTyQlvVpIstk3ylm",
+              "title": "lnmm.gov.lv",
+              "resolvedUri": "https://lnmm.gov.lv/en/art-museum-riga-bourse/exhibitions/bernar-venet-painting-from-rational-to-virtual-19662024-542"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEwDfT-bqJAIRfKoSgVdlBcZM0O-PdO70Oz4Q1q9zESk2lC-VCAr1iOZlhi46CtUo-DhWLgKOIG8hrKW_u7bplrzi8rcwf2XsRf3xM5ifsYO2D5RhPkEBwLXxHT6oxVPqKapDAfcNJxYsLr4ieOTP_-QRWTSA=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/component/10PHBK"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_Q35Zb50hawZ6n8akLYNaJMBXdtvNhf3wP5B-hkcIe91jisfxCcLcsxG5dZFtHaE-cYflsoghQdT1_cwGjqEilgaL8PK6FNrWSC6BMdVCE2e9aptqByQpgAgotiCbgdt6QmCayR8foxKQWYGG6l8WG3IZIQ==",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq6ThUmFsYYfnsEBVoRZLpADE3L2HKQRemUR_oAWmTWPCqYsBamsWHOPdeceaDMQAzR8XC-UQgpQQFv5UCiP3TEWCeTRgBRrI65qHSCAilEOOINmlM4N4YzP5w0XQPh4d_ar3N8etiDf6Pu13X_qzq6w==",
+              "title": "paolocirio.net",
+              "resolvedUri": "https://paolocirio.net/press/texts/text_foundations.php"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 252,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Bernar Venet (born Bernard Venet on April 20, 1941, in Château-Arnoux-Saint-Auban, France) is a prominent French conceptual artist and sculptor who became influential in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 420,
+                "endIndex": 489,
+                "text": "He was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 490,
+                "endIndex": 601,
+                "text": "organization, participating in their landmark exhibition 'Some More Beginnings' at the Brooklyn Museum in 1968."
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 602,
+                "endIndex": 800,
+                "text": "His early career featured unconventional materials such as tar, coal, and cardboard; notably his 1963 work 'Tas de charbon' (Pile of Coal) is considered the first sculpture without a specific shape."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -34,6 +262,140 @@
         "y1": 27.7,
         "x2": 55.2,
         "y2": 38.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26352",
+          "label": "Sheldon Levine",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikibase entity explicitly identifies Sheldon Levine as a member of the Technical Services Program and part of the E.A.T. Edge-Notched Cards project, which matches the context and source of the physical index card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q219631",
+          "label": "Adam Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Sheldon vs. Adam). Additionally, the Wikidata entity for Adam Levine lists a birth date of 1979, which makes it chronologically impossible for him to be the artist active in the late 1960s and early 1970s described in the card context."
+        },
+        {
+          "qid": "Q433520",
+          "label": "Ted Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Sheldon Levine' on the card does not match 'Ted Levine' (birth name Frank Theodore Levine). Furthermore, the Wikidata entity was born in 1957 and began his career in the 1980s, making him too young to be an active artist in the late 1960s/early 1970s context of the E.A.T. cards."
+        },
+        {
+          "qid": "Q695441",
+          "label": "Arnold J. Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to Sheldon Levine, who is explicitly identified as an artist in the provided metadata. The Wikidata entity Q695441 describes Arnold J. Levine, a prominent molecular biologist and researcher. The first names are different (Sheldon vs. Arnold), and their professions (artist vs. scientist) are entirely unrelated."
+        },
+        {
+          "qid": "Q2909759",
+          "label": "Emma Talmi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Sheldon Levine) does not match the name of the Wikidata entity (Emma Talmi). Additionally, the biographical details for Emma Talmi (an Israeli politician and writer) do not align with the context of Sheldon Levine (an artist associated with E.A.T.)."
+        },
+        {
+          "qid": "Q4897570",
+          "label": "Beth Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Sheldon Levine vs. Beth Levine). Furthermore, the Wikidata entity describes a physician and researcher born in 1960, who would have been too young to be an active artist in the late 1960s/early 1970s as described in the card context."
+        },
+        {
+          "qid": "Q21518745",
+          "label": "Norman Dion Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Sheldon Levine and Norman Dion Levine do not match. Furthermore, the Wikidata entity describes a parasitologist and botanist, which does not align with the context of an artist associated with the Experiments in Art and Technology (E.A.T.) program."
+        },
+        {
+          "qid": "Q29564379",
+          "label": "Myron M. Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Sheldon Levine and Myron M. Levine are different. Furthermore, the Wikidata entity describes a medical researcher and university teacher, whereas the card entry and context refer to an artist associated with the Experiments in Art and Technology (E.A.T.) program."
+        },
+        {
+          "qid": "Q67424787",
+          "label": "Adam P. Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Sheldon Levine and Adam P. Levine do not match. Additionally, the Wikidata entity describes a researcher, whereas the card entry refers to an artist."
+        },
+        {
+          "qid": "Q67472082",
+          "label": "T.P. Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to Sheldon Levine, while the Wikidata entity refers to T.P. Levine. Furthermore, the Wikidata entity is identified as a researcher, with no mention of the artistic background or affiliation with E.A.T. associated with Sheldon Levine."
+        },
+        {
+          "qid": "Q67475000",
+          "label": "J.D. Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Sheldon Levine' and 'J.D. Levine' do not match. Additionally, the Wikidata entity is described as a researcher, whereas the person on the card is known to be an artist associated with E.A.T."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Sheldon Levine is an engineer and technical collaborator who was active in the late 1960s and early 1970s, specifically noted for his involvement with the Experiments in Art and Technology (E.A.T.) organization. He served as a key technical partner in the E.A.T. project \"Utopia: Question and Answer\" (also known as the Utopia Q&A project) in December 1971. This project was an ambitious cross-cultural telecommunications experiment that linked participants in New York, Tokyo, Stockholm, and Ahmedabad through telex communication, involving prominent artists such as Andy Warhol and Keith Sonnier. Levine's professional career was centered at AeroNav Laboratories (also known as Aero Nav Laboratories) in College Point, New York, where he served in leadership roles including Vice President for Marketing and Business Development. His expertise included environmental simulation testing and engineering failure analysis, topics on which he frequently lectured for organizations such as the IEEE and the American Society of Mechanical Engineers (ASME) through the 2000s and 2010s.",
+            "sources": [
+              "https://bard.edu/archives/findingaids/eat/index.php",
+              "https://www.ieee.li/chairman_message/2004_02.htm",
+              "https://www.asme.org/getmedia/3766763c-d380-4d40-b47a-85d779555073/ASME-Met-Section-History-2012.aspx",
+              "https://www.scribd.com/document/24796035/Companies-by-List"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Sheldon Levine\" artist 1960s 1970s",
+            "\"Sheldon Levine\" artist E.A.T.",
+            "Sheldon Levine artist Experiments in Art and Technology",
+            "Sheldon Levine art collaboration engineer",
+            "",
+            "\"Sheldon Levine\" artist biography 1960s",
+            "\"Sheldon Levine\" Experiments in Art and Technology",
+            "\"Sheldon Levine\" E.A.T. project \"Utopia\"",
+            "\"Sheldon Levine\" artist New York E.A.T.",
+            "\"Sheldon Levine\" AeroNav Laboratories E.A.T.",
+            "\"Sheldon Levine\" E.A.T. engineer",
+            "\"Sheldon Levine\" artist engineer collaboration 1970s",
+            "\"Sheldon Levine\" \"Utopia\" project E.A.T. role",
+            "\"Sheldon Levine\" AeroNav Laboratories E.A.T. 1971",
+            "\"Sheldon Levine\" artist Experiments in Art and Technology identity"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUc8PZkzZiO-C4YQim2I2Bgd2FeewY-YZvkkEEBLdSWWGtrXC6G6MGFnQJMr7SxZxJwPk-UfWCCnhnyZcwlQwkVQBkL70_DDVSWKhCxy7chgSxk1KiCDc7V1kIGhOcN6XGaD0Iev8r_wVzBNPq9K6uwBuheha_Wm8=",
+              "title": "rutgers.edu",
+              "resolvedUri": "https://www.physics.rutgers.edu/~lindenf/pse/tcn/fall2013.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 651,
+                "endIndex": 883,
+                "text": "Levine's professional career was centered at AeroNav Laboratories (also known as Aero Nav Laboratories) in College Point, New York, where he served in leadership roles including Vice President for Marketing and Business Development."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -46,6 +408,77 @@
         "y1": 34.6,
         "x2": 55.7,
         "y2": 46.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26295",
+          "label": "Howard Gutstadt",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The date (1969) on the card is consistent with the Experiments in Art and Technology (E.A.T.) Technical Services Program mentioned in the Wikibase entity, which was active in the late 1960s. Furthermore, the Wikibase entity specifically mentions the 'E.A.T. Technical Services Program Edge-Notched Cards,' which is the source format of the card entry."
+        }
+      ],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Howard Gutstadt (also known as Howie Gutstadt) is a video artist, media activist, and technologist who was a prominent figure in the New York City video collective scene during the late 1960s and 1970s. He co-founded the People's Video Theater (PVT) in the early 1970s and later co-founded Survival Arts Media (SAM) in 1973, which evolved from PVT. His work primarily focused on video activism, community-based documentary, and early electronic video art. Gutstadt was a pioneer in using the Sony Portapak for social change and was involved in the early development of public access television in New York, organizing the Public Access Celebration. His archival footage from 1971, known as the \"Camp Jened tapes,\" became the foundational material for the 2020 Netflix documentary 'Crip Camp', which chronicles the origins of the disability rights movement. Beyond activism, Gutstadt explored immersive multimedia performance and electronic image processing, working with early synthesizers like the Rutt-Etra and the Electronic Associates of Berkeley (EAB). In 1978, he relocated to Berkeley, California, where he established Digital Image Productions and collaborated with companies such as Sony and Autodesk to develop digital software tools for artists. He has also been active in the SIGGRAPH community, serving on the organizing committee for the 1985 Art Show.",
+            "sources": [
+              "https://bavc.org/now-available-on-youtube-from-video-activism-to-early-immersive-media/",
+              "https://www.peoplesvideotheater.org/about",
+              "https://www.siggraph.org/howard-gutstadt/",
+              "https://nonfics.com/crip-camp-interview-nicole-newnham-james-lebrecht/",
+              "http://www.davidsonsfiles.org/annotatedvideoexhibitions1963-1974.html",
+              "https://www.averyreview.com/issues/47/notes-on-crip-camp"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "\"Howard Gutstadt\" artist",
+            "\"Howard Gutstadt\" Berkeley",
+            "\"Howard Gutstadt\" video artist",
+            "\"Howard Gutstadt\" Experiments in Art and Technology",
+            "\"Howard Gutstadt\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi3v_ASKSONqOdRMfbaK1A01sQ-VEqTbENj0j77ca1u81a4D7fS5TlyI1R_y6ds36QpLObuNqXVM_EmbzYoBY7ebdjDFJpR1V-01tVQjRsOjFZ0hw2G3agR2fIn-ElkGhnoaNl6J4=",
+              "title": "davidsonsfiles.org",
+              "resolvedUri": "https://davidsonsfiles.org/Exhibitions.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0wBu2GtZeePjCax5uw2enpFaWJoyiiV3Eb9tuHigAX2le8Bjx7IEVx4b7YRMBwfmBfYsbNIO1b451Z2TVFOsZFOjhX0xNM4dm_bwPZkTYF0kBzlpKJbhZOB5RKOgyibH4qHrSnTSrl-6lEzkdMT2A9WfTN8vjkPX_Ov4YXa0hYv6LqwV-OwQ-tXR-",
+              "title": "bavc.org",
+              "resolvedUri": "https://www.bavc.org/now-available-youtube-video-activism-early-immersive-media/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 252,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Howard Gutstadt (also known as Howie Gutstadt) is a video artist, media activist, and technologist who was a prominent figure in the New York City video collective scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1110,
+                "endIndex": 1308,
+                "text": "In 1978, he relocated to Berkeley, California, where he established Digital Image Productions and collaborated with companies such as Sony and Autodesk to develop digital software tools for artists."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -58,6 +491,125 @@
         "y1": 43.1,
         "x2": 59.8,
         "y2": 57.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q58612",
+          "label": "Yehuda Amichai",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is 'Yehuda Ben Yehuda', whereas the Wikidata entity is 'Yehuda Amichai'. While both share the same first name and Amichai was a prolific writer active during the 1960s and 1970s, there is no evidence that Amichai ever used the name 'Ben Yehuda', and his father's name was not Yehuda."
+        },
+        {
+          "qid": "Q111559",
+          "label": "Judah Maccabee",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Judah Maccabee, a historical figure from the 2nd century BCE (died 159 BCE). The card entry describes a person active as an artist in the late 1960s and 1970s, with a date record from 1982. These represent individuals from entirely different eras."
+        },
+        {
+          "qid": "Q168779",
+          "label": "Ludwig Yehuda Wolpert",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Yehuda Ben Yehuda' is a specific patronymic-style name that does not match the surname 'Wolpert'. Additionally, the Wikidata entity died in 1981, while the card record is dated 1982, suggesting they are different individuals."
+        },
+        {
+          "qid": "Q299200",
+          "label": "Judah Halevi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Judah Halevi (Q299200) was a medieval poet and philosopher who lived in the 11th and 12th centuries (died 1141). The card entry describes a person active in the late 1960s and early 1970s, with a specific date recorded in 1982. These represent two different individuals separated by over 800 years."
+        },
+        {
+          "qid": "Q380427",
+          "label": "Judah ha-Nasi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is the historical religious leader Judah ha-Nasi, who lived in the 2nd century AD. The card entry describes a person active in the late 20th century (1982)."
+        },
+        {
+          "qid": "Q975721",
+          "label": "Yehuda Weinstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Yehuda Ben Yehuda vs. Yehuda Weinstein). Furthermore, the Wikidata entity describes a prominent Israeli lawyer, boxer, and Attorney General, with no record of artistic activity, which contradicts the context provided for the card entry."
+        },
+        {
+          "qid": "Q1391474",
+          "label": "Judah ben Samuel of Regensburg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Judah ben Samuel of Regensburg lived in the 12th and 13th centuries (1140-1217), whereas the person on the card was active in the late 20th century (specifically late 1960s to early 1980s)."
+        },
+        {
+          "qid": "Q1392303",
+          "label": "Yehuda Pen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Yehuda Pen died in 1937, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card entry. Furthermore, the names 'Yehuda Ben Yehuda' and 'Yehuda Pen' are distinct."
+        },
+        {
+          "qid": "Q1515807",
+          "label": "Yehuda Shoenfeld",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Yehuda Shoenfeld) is a prominent Israeli physician and immunologist born in 1948. The card describes an artist named Yehuda Ben Yehuda. The names and professional backgrounds (medicine vs. art) are completely different."
+        },
+        {
+          "qid": "Q2382713",
+          "label": "Yehuda Leib Maimon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Yehuda Leib Maimon died in 1962, making it impossible for him to be the person on the card who was active in the late 1960s and 1970s, and received correspondence in 1982. Additionally, Maimon was a prominent rabbi and politician, which does not align with the artistic background associated with the card record."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Yehuda Ben Yehuda (also spelled Ben-Yehuda or Jehuda Ben-Jehuda) was an Israeli-born painter and sculptor who was active in the late 1960s and 1970s. Born in Baghdad, Iraq, in 1932 or 1933, he moved to Israel as a child and later became a prominent figure in the New York City art scene, particularly in SoHo. His work in the mid-1960s included avant-garde sculptures made of latex casts of live people, which sometimes incorporated electric appliances to create a trembling effect, reflecting the era's interest in the intersection of art and technology. This experimentation is reflected in archival records that associate him with the Experiments in Art and Technology (E.A.T.) movement and other contemporary projects of that period. In the early 1970s, he was a key figure in the conversion of SoHo industrial lofts into artist-owned cooperatives. By 1972, he moved to Woodstock, New York, where he spent several years hand-building an 1,800-square-foot, four-story wooden house on the Little Beaverkill stream in Bearsville. His artistic career included exhibitions at the Tel Aviv Museum of Art (1960), the Haifa Museum of Art (1960), and the Chemerinsky Art Gallery (1966). He is the father of writer Noa Jones.",
+            "sources": [
+              "https://www.chronogram.com/woodstock-ny/a-hand-built-woodstock-home-50-years-on/Content?oid=14686414",
+              "https://www.dubishiffartcollection.com/artists/givati",
+              "https://www.imj.org.il/en/artist/yehuda-ben-yehuda-i",
+              "https://moma.org/calendar/exhibitions/archives",
+              "https://findingaids.library.columbia.edu/ead/nnc-ua/ldpd_4078866/series/III/subseries/III.1"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Yehuda Ben Yehuda\"",
+            "\"Yehuda Ben Yehuda\" art 1960s 1970s",
+            "\"Yehuda Ben Yehuda\" Experiments in Art and Technology",
+            "\"Yehuda Ben Yehuda\" E.A.T. artist",
+            "\"Yehuda Ben Yehuda\" Woodstock house artist",
+            "\"Yehuda Ben Yehuda\" latex bodies electric appliance",
+            "Yehuda Ben Yehuda \"Experiments in Art and Technology\"",
+            "\"Yehuda Ben Yehuda\" E.A.T. project"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM8E6DpK97vJ7BJ3jPJBx3YDnzF2ofdvXoD2WwmmzLt-q9NZi2Ls1k_OV9Lx-NyjtnGCtrfapCVcYKHILTwN24IUqgzRx3xKMluy_xvbJkSPb2NQ-zRuD85jBtxehm-doqFAORjZPeM1PQfl8DDYAxQZDQsYHhFmMns6ddgaY3vWe-1Okq4MVml_yCHQ==",
+              "title": "chronogram.com",
+              "resolvedUri": "https://www.chronogram.com/home/a-hand-built-woodstock-home-50-years-on-15218465/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1232,
+                "endIndex": 1744,
+                "text": "He is the father of writer Noa Jones.\",\n      \"sources\": [\n        \"https://www.chronogram.com/woodstock-ny/a-hand-built-woodstock-home-50-years-on/Content?oid=14686414\",\n        \"https://www.dubishiffartcollection.com/artists/givati\",\n        \"https://www.imj.org.il/en/artist/yehuda-ben-yehuda-i\",\n        \"https://moma.org/calendar/exhibitions/archives\",\n        \"https://findingaids.library.columbia.edu/ead/nnc-ua/ldpd_4078866/series/III/subseries/III.1\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

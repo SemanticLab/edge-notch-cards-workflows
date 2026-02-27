@@ -11,6 +11,122 @@
         "y1": 8.5,
         "x2": 34.0,
         "y2": 18.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q12049487",
+          "label": "Robert Fiala",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1971, whereas the card entry is dated 1969. It is chronologically impossible for the Wikidata entity to be the person described on the card."
+        },
+        {
+          "qid": "Q132852783",
+          "label": "Robert A. Fiala",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card entry refers to an artist active in 1969. The Wikidata entity describes a 'mayor' named Robert A. Fiala. While some politicians have creative backgrounds, there is no specific evidence in the Wikidata record connecting this individual to the arts or establishing their activity in the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Fiala (also referred to as Bob Fiala) was a multimedia artist, director, and filmmaker active in the late 1960s and early 1970s. He was a collaborator in the Experiments in Art and Technology (E.A.T.) movement and was involved in the Intermedia '68 project at the Brooklyn Academy of Music, where he collaborated on kinetic dance and film projects. Fiala specialized in innovative cinematic techniques, including cinemagraphics, experimental macrophotography using polarized light, and animation. In 1969–1970, he was awarded a bursary from the Canada Council for the Arts in the category of \"Art and Technology\" while based in Montreal. By the early 1970s, Fiala became a key member of the New York-based Multigravitational Group (also known as Aerodance), serving as its Assistant Artistic Director and Company Manager. The group was noted for its \"aerodance\" performances, which utilized scaffolding and suspended structures to explore the intersection of dance, sculpture, and technology.",
+            "sources": [
+              "https://publications.gc.ca/collections/collection_2014/cc-can/CC1-1970-eng.pdf",
+              "https://archive.org/stream/dancetouringprog00unse/dancetouringprog00unse_djvu.txt",
+              "https://www.vie-publique.fr/rapport/293375-les-arts-en-acte-de-la-performance-linter-artistique"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Fiala\" engineering art collaboration",
+            "artist \"Robert Fiala\" Experiments in Art and Technology",
+            "\"Robert Fiala\" artist 1960s 1970s",
+            "\"Robert Fiala\" E.A.T. artist",
+            "",
+            "\"Robert Fiala\" artist Montreal 1970",
+            "Robert Fiala \"Experiments in Art and Technology\" Montreal",
+            "\"Robert Fiala\" E.A.T. Montreal",
+            "",
+            "\"Robert Fiala\" Canada Council \"Art and Technology\"",
+            "\"Bob Fiala\" \"Experiments in Art and Technology\" cinemagraphics",
+            "\"Robert Fiala\" Intermedia 68 Brooklyn Academy",
+            "\"Robert Fiala\" artist Montreal film animation 1970",
+            "",
+            "\"Bob Fiala\" \"Arts in Society\" 1969 \"cinemagraphics\"",
+            "\"Robert Fiala\" artist Montreal E.A.T.",
+            "\"Robert Fiala\" \"Multigravitational Group\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaFoB3hMLqJM-1U5_q0xdcNJZGaKbBNdeAtBVV9VHYAJAmTnw7W_Pu_mzsWYtsUnvacFMm-lG-S9gck0mibQF6gDYVeS_DA6jEgz2BT5YRA2VZi_Wr1BfkKcABn3Svtb2sO6onHbuDhxeCKfELSwWFZIT6-pkn1sVJSCyr8jX6a7Tcd_-2IjCxnVhZwQ-yJPCj8IY=",
+              "title": "publications.gc.ca",
+              "resolvedUri": "https://publications.gc.ca/collections/collection_2015/canadacouncil/K21-1-1-1970-eng.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoEDHJB_G0AGEfGl4ofGnIMbw9FjbFVk8fIJhR0x1A6uKcaP4yGy3gcksEwopDIYYOhczphJWqPoDiiSN7RFU39qnQ4Vka-UtcYIvupAj5-9Ca_3ziyk9HDL3CV5c0pc_hwndoT7k-GALny_7S1IVZd-esUAN41QxPv3FO22994kLIRn_95-pc7WSu7FRbYfGUlvzvngaEa-uT_06p",
+              "title": "wisc.edu",
+              "resolvedUri": "https://search.library.wisc.edu/digital/ABFN7VEVAFE3VJ8R/pages/A33CN7LVH74XPD8D?as=text&view=scroll"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFJOosVW6bWaL_sM0ADkZPa6oIY9dflcqfkCxv2dpzDD5djWhuiVP8-8XX9wTehuAbvn43TOdYNQ2gUyhENdZs8BHhTgcsZ_S2MA9p2kxCFiWMs2EidFdKKC0kR8WSt2zc_yse-7VMSCb2agTN33uew5_vYc40rFeOLDnatFTxgHAB9KWj0JXC1o_O4iih9A==",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/dancetouringprog1976char/dancetouringprog1976char_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqPC_qWxQavq4A7TEU8l6iDW0FpwU8_-FGoCS8Htelr9cBI8rSJvkxGl6QahSY1dPvn03RrRwO9qZaFJhFlVsncYZaSBbBjlNu8OESCG3ZX7GP-Wnwz2lZJmAL6x2m_PWxlYiULNBrUpMR2TbZh3ZrZrYFKj_V8Z_M5ztllQ==",
+              "title": "harvard.edu",
+              "resolvedUri": "https://archive.blogs.harvard.edu/finearts/author/safwhite/page/2/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 185,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robert Fiala (also referred to as Bob Fiala) was a multimedia artist, director, and filmmaker active in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 406,
+                "endIndex": 553,
+                "text": "Fiala specialized in innovative cinematic techniques, including cinemagraphics, experimental macrophotography using polarized light, and animation."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 699,
+                "endIndex": 882,
+                "text": "By the early 1970s, Fiala became a key member of the New York-based Multigravitational Group (also known as Aerodance), serving as its Assistant Artistic Director and Company Manager."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 883,
+                "endIndex": 1418,
+                "text": "The group was noted for its \\\"aerodance\\\" performances, which utilized scaffolding and suspended structures to explore the intersection of dance, sculpture, and technology.\",\n      \"sources\": [\n        \"https://publications.gc.ca/collections/collection_2014/cc-can/CC1-1970-eng.pdf\",\n        \"https://archive.org/stream/dancetouringprog00unse/dancetouringprog00unse_djvu.txt\",\n        \"https://www.vie-publique.fr/rapport/293375-les-arts-en-acte-de-la-performance-linter-artistique\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +140,92 @@
         "y1": 17.0,
         "x2": 42.0,
         "y2": 28.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q463668",
+          "label": "Larry Silverstein",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Larry Silverstein matches exactly. The Wikidata entity is a prominent New York figure who attended the High School of Music & Art and is listed as an architect, which fits the provided context of being an 'artist of some kind' active in the late 1960s. The metadata 'Rivers' likely refers to contemporary artist Larry Rivers, with whom Silverstein may have been associated in the New York art/architecture scene."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Larry Silverstein was a scientist and engineer associated with the Polytechnic Institute of Brooklyn (now NYU Tandon School of Engineering) during the late 1960s and early 1970s. He is known for his research in physics and electronics, most notably collaborating with Gordon Gould (the inventor of the laser) and Donald Scarl on experiments involving the Schwarz-Hora effect, which examined the modulation of electron beams by laser light. This work, conducted around 1969-1971, placed him at the intersection of advanced technology and experimental research. Given his background at Brooklyn Polytechnic—an institution that provided many technical collaborators for the Experiments in Art and Technology (E.A.T.) projects—and the era's focus on laser and electronic art, he is the most likely individual to have participated as an engineer-collaborator in E.A.T. initiatives, which sought to pair technical experts with artists like Robert Rauschenberg and Robert Whitman for performance and technical art pieces.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4Lp7tjQAjkE-Zb6-4EOWqbwF4MaXwcpiXdwhqzKldlqcP-Wlycr5J6IJeYaPBQKjodAse6oaBSCKXKTtVbMWyJ8P7HO8tbn7OJQMPUTjgV0Wzz9XuTQlHRwjM3YPH5uEan9jmgMBFA-hAOEovnN-mcnXdYJ8yaNu5AtB63rDaU1WgMh1XasXLES_cmu45",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRHrYECtgGKr9vs-EapbhPoKUsue212tr4pu3gGN2o1or22N9RarlDGd7_DdFEoTcDmbIg5aEx3VyUs1u18E77UXUIvNp8-kc6HxFNnFqCfPYqTuECfSmBEv44UBkKGSHOWjIqeGP8SaQGuFcgBb6-uY7sHTopgYK44cS0hUmJxGloMOgzpE_dhgqubU83"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Lawrence (Larry) Richard Silverstein (1941–2025) was an American art educator and artist based in Maplewood, New Jersey. He graduated from the Newark School of Fine Art and Jersey City State College in 1966 with a degree in arts education. Silverstein had a long career as an art teacher in Franklin Township, NJ, spanning 38 years. Parallel to his teaching, he was active in the NJ art scene during the late 1960s and 1970s, exhibiting his work at various art shows and joining the First Mountain Crafters artist guild. He also worked as a movie theater projectionist at the Maplewood Movie Theater from 1968 to 1988, a role that involved technical mastery of film projection technology during the era of experimental multi-media and expanded cinema.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE1USI53lX34RUDYatAZbCVSlzT98gopVa6aGDVUCIcEOKM4e_KirVtXWXT_r-G-qhp4bXYYJ-3iiWY_bWEB4zCwKoJdrwzPmSmHO7bP4g2aptFd74-uRpDyi1IGI_9QJ3KUEhQRem5BBMs3cThSY5tHqWca_O5x32XPBFNCKyYy-lZD3aFMaxcuc-DEl7TMiqoDc="
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Larry Silverstein artist biography 1960s 1970s",
+            "\"Larry Silverstein\" Experiments in Art and Technology E.A.T.",
+            "artist \"Larry Silverstein\" active 1960s 1970s",
+            "\"Larry Silverstein\" artist E.A.T. collaboration",
+            "\"Larry Silverstein\" E.A.T. member",
+            "\"Larry Silverstein\" Experiments in Art and Technology member list",
+            "\"Larry Silverstein\" artist 1968 1969 1970 1971",
+            "\"Lawrence Silverstein\" artist E.A.T.",
+            "\"Larry Silverstein\" collaborator E.A.T.",
+            "\"Larry Silverstein\" art collaboration engineering",
+            "\"Larry Silverstein\" video artist 1970s",
+            "\"Larry Silverstein\" E.A.T. \"Experiments in Art and Technology\"",
+            "\"Larry Silverstein\" Pepsi Pavilion Expo 70",
+            "\"Larry Silverstein\" artist 1966 1967 1968 1969 1970 1971",
+            " \"Larry Silverstein\"",
+            "\"Larry Silverstein\" \"Experiments in Art and Technology\" directory",
+            " \"Larry Silverstein\" E.A.T.",
+            "\"Larry Silverstein\" art and technology collaboration 1960s",
+            "\"Larry Silverstein\" artist E.A.T. archive",
+            "\"Larry Silverstein\" artist \"9 Evenings\"",
+            "\"Larry Silverstein\" engineer E.A.T.",
+            "\"Larry Silverstein\" Bell Labs E.A.T.",
+            "\"Larry Silverstein\" technician E.A.T.",
+            "\"Larry Silverstein\" Experiments in Art and Technology 1960s collaboration",
+            "",
+            "\"Larry Silverstein\" \"9 Evenings\" engineer",
+            "\"Larry Silverstein\" engineer \"Experiments in Art and Technology\"",
+            "\"Larry Silverstein\" Brooklyn Polytechnic E.A.T.",
+            "\"Larry Silverstein\" laser artist collaboration",
+            "\"Larry Silverstein\" artist E.A.T. Pepsi Pavilion",
+            "",
+            "\"Larry Silverstein\" \"Experiments in Art and Technology\" 1966 1970",
+            "\"Larry Silverstein\" E.A.T. collaborator artist engineer",
+            "\"Larry Silverstein\" engineer \"9 Evenings\" role",
+            "\"Larry Silverstein\" laser art 1970s",
+            "\"Lawrence Silverstein\" Brooklyn Polytech E.A.T.",
+            "",
+            "\"Larry Silverstein\" \"9 Evenings\" engineering team",
+            "\"Larry Silverstein\" engineer artist collaboration 1960s 1970s",
+            "\"Larry Silverstein\" \"Experiments in Art and Technology\" staff engineer",
+            "\"Lawrence Silverstein\" artist laser 1970s",
+            "\"Larry Silverstein\" E.A.T. laser collaboration",
+            "\"Larry Silverstein\" laser research 1969 1970",
+            "\"Larry Silverstein\" \"Experiments in Art and Technology\" volunteer",
+            "\"Larry Silverstein\" and \"Robert Rauschenberg\" collaboration",
+            "\"Larry Silverstein\" E.A.T. engineer collaboration",
+            "\"Larry Silverstein\" exhibition 1960s 1970s",
+            "\"Larry Silverstein\" member of \"Experiments in Art and Technology\"",
+            "\"Larry Silverstein\" art technology collaboration 1968 1969 1970",
+            "\"Larry Silverstein\" engineer artist collaboration laser 1970",
+            "\"Lawrence Silverstein\" Experiments in Art and Technology"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -37,6 +239,72 @@
         "y1": 25.0,
         "x2": 31.0,
         "y2": 34.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q274013",
+          "label": "Jane Holzer",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Jane Holzer' matches exactly. The Wikidata entity describes a famous model and actress ('Baby Jane' Holzer) who was a well-known figure in the New York art scene (a Warhol superstar) during the late 1960s, aligning perfectly with the date 1969 on the card. Furthermore, the Wikidata entry is flagged as part of the Frick Art Reference Library pilot, confirming her presence in art-related archival records."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jane Holzer, often referred to by the nickname \"Baby Jane\" Holzer, is an American art collector, film producer, and former model and actress who became a central figure in the 1960s New York avant-garde scene. Born Jane Brukenfeld in 1940, she was famously dubbed Andy Warhol’s first \"superstar\" and the \"Girl of the Year\" in 1964 by writer Tom Wolfe. During the late 1960s and early 1970s, she was a prominent member of Warhol’s Factory, appearing in his early experimental films such as \"Soap Opera\" (1964), \"Couch\" (1964), \"Batman Dracula\" (1964), and \"Camp\" (1965). Her association with Warhol placed her at the intersection of various experimental movements, including collaborations involving technology like Warhol's \"Silver Clouds\" (1966), which was created in partnership with Billy Klüver, a founder of Experiments in Art and Technology (E.A.T.). Holzer transitioned from a muse and performer to a significant art collector and consultant, acquiring works by Warhol, Keith Haring, and Jean-Michel Basquiat. In the 1970s and 80s, she moved into film production, with credits including the award-winning \"Kiss of the Spider Woman\" (1985). She remains an influential figure in the art world, serving as a trustee for the Norton Museum of Art.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Jane_Holzer",
+              "https://revolverwarholgallery.com/warhol-superstar-jane-holzer/",
+              "https://harvardfilmarchive.org/collections/baby-jane-holzer-visiting-artists-collection",
+              "https://www.warholstars.org/baby_jane_holzer.html",
+              "https://www.tate.org.uk/whats-on/tate-modern/exhibition/andy-warhol/exhibition-guide/factory"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Jane Holzer art collector artist",
+            "Jane Holzer artist 1960s 1970s Experiments in Art and Technology",
+            "\"Baby Jane Holzer\" artist E.A.T.",
+            "\"Jane Holzer\" E.A.T. artist",
+            "\"Jane Holzer\" and \"Experiments in Art and Technology\"",
+            "\"Jane Holzer\" \"9 Evenings\" 1966",
+            "\"Jane Holzer\" artist technical engineering collaboration",
+            "\"Jane Holzer\" Experiments in Art and Technology E.A.T.",
+            "\"Jane Holzer\" performer \"9 Evenings\" E.A.T.",
+            "\"Jane Holzer\" volunteer \"Experiments in Art and Technology\"",
+            "\"Jane Holzer\" technical artist 1960s",
+            "\"Jane Holzer\" and E.A.T. organization"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxmNOChUaj19l9aJT8g8LHee9ozUT6V4xC6YNcP6vIG6CrcjJsm8iRyTiKQ2xuLNIdT744FfiL2DdQFLSRFeHFNPLEqZYeQd_Ow5f09Qbpg02CZox19oI8XtsJJ0pL1Mzwlt7Ynrhk1kjeJV0-Geo--McYzojEIRqNHaqNatHhQkv6osLVBAPwKQ==",
+              "title": "wordpress.com",
+              "resolvedUri": "https://travsd.wordpress.com/2025/10/23/whatever-happened-to-baby-jane-holzer/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEMCjFPIaihw_ldI3Tdl4CPHZWireJD6GHvwZ_S6YoNAZXV7Phy6koEufRtEYPknqA-8LLxgOHY98Jy1y0Z-TbLn_jzcz6vsEqsROWZSblh8DLsqIpRJMqLHvsJ8XICs9-vQDD-7L3U-5RXhxxiPfr6x1O_AbIPSDibtC08Zrlu7lx2W0tfNDgOZDph4CBPHCQ1M2Yzg==",
+              "title": "stetnews.org",
+              "resolvedUri": "https://stetnews.org/2026/02/09/warhol-it-girl-makes-every-norton-student-artist-a-winner/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 261,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Jane Holzer, often referred to by the nickname \\\"Baby Jane\\\" Holzer, is an American art collector, film producer, and former model and actress who became a central figure in the 1960s New York avant-garde scene."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -50,6 +318,186 @@
         "y1": 32.0,
         "x2": 27.5,
         "y2": 41.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q29620",
+          "label": "hill",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity (Q29620) describes a 'class' or 'place' rather than a person. It is used in the context of the Mary Berenson Diaries Project, which does not correspond to an artist named Chris Hill active in 1969."
+        },
+        {
+          "qid": "Q22633",
+          "label": "Hillary Clinton",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Chris. Hill, whereas the Wikibase entity is Hillary Clinton (Q6294). The names are not equivalent, and the Wikibase entity is a well-known politician, not an artist by the name of Chris Hill."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6294",
+          "label": "Hillary Clinton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Chris. Hill' and 'Hillary Clinton' are entirely different. Furthermore, the Wikidata entity describes a prominent politician and lawyer, whereas the card refers to an artist."
+        },
+        {
+          "qid": "Q46373",
+          "label": "Edgar Degas",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Chris. Hill who was active in 1969. The Wikidata entity describes Edgar Degas, a famous French artist who lived from 1834 to 1917. Not only do the names not match, but the time periods of their activity are separated by over 50 years."
+        },
+        {
+          "qid": "Q510400",
+          "label": "John Hill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (John Hill) lived in the 18th century (1716-1775), whereas the card entry is dated 1969. Additionally, the first names (Chris. vs. John) do not match."
+        },
+        {
+          "qid": "Q2403883",
+          "label": "Hillary Brooke",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Chris. Hill' and 'Hillary Brooke' are not equivalent. Hillary Brooke was a well-known actress with no known association with the name Chris Hill."
+        },
+        {
+          "qid": "Q2534502",
+          "label": "Thomas Hill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a 'Chris. Hill' active in 1969, while the Wikidata entity is Thomas Hill, a painter who died in 1908. The names and time periods do not match."
+        },
+        {
+          "qid": "Q3375042",
+          "label": "Hillevi Larsson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hillevi Larsson was born in 1974, which post-dates the card entry from 1969. Additionally, the names and occupations (politician vs artist) do not match."
+        },
+        {
+          "qid": "Q5762568",
+          "label": "Hillary Lindsey",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hillary Lindsey was born in 1976 and began her career in the mid-1990s, whereas the card entry is dated 1969. Furthermore, the names Chris Hill and Hillary Lindsey are not equivalent."
+        },
+        {
+          "qid": "Q7087177",
+          "label": "Olive Mary Hilliard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Chris. Hill' on the card does not match 'Olive Mary Hilliard' from Wikidata. 'Chris' is typically a masculine diminutive (for Christopher), whereas the Wikidata entity is a female botanist. Furthermore, the Wikidata entity's profession (botanist and taxonomist) does not align with the provided context of the person being an artist."
+        },
+        {
+          "qid": "Q18672503",
+          "label": "Thomas Hill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active in 1969, whereas the Wikidata entity (Thomas Hill) lived from 1661 to 1734. Additionally, the first names (Chris vs. Thomas) do not match."
+        },
+        {
+          "qid": "Q55047230",
+          "label": "Gerald Freer Hill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Gerald Freer Hill died in 1954, which predates the 1969 date on the card by 15 years. Furthermore, the names (Chris vs. Gerald) and occupations (artist vs. botanist/entomologist) do not align."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Chris Hill (also known as Chris Hill) is a prominent media curator, artist, and educator who has specialized in the history of early video art and the intersection of art and technology from the late 1960s and 1970s. She is widely recognized for her work curating and documenting the first decade of video art (1968–1980), notably through the 17-hour anthology \"Surveying the First Decade: Video Art and Alternative Media in the U.S.\" (1996/2008). Her research and writing, such as the essay \"Attention! Production! Audience!—Performing Video in its First Decade, 1968-1980,\" extensively cover the legacy of Experiments in Art and Technology (E.A.T.) and the cultural shifts of that era. Hill served as the Video Curator at Hallwalls Contemporary Arts Center in Buffalo, New York, for over a decade and has held faculty positions at Antioch College and CalArts. She was a student and colleague of early media pioneers Steina and Woody Vasulka and has been instrumental in the preservation and dissemination of their technological experiments and archives.",
+            "sources": [
+              "https://www.vtape.org/artist?ai=110",
+              "https://buffaloakg.org/steina-playback-audio-companion-chris-hill",
+              "https://videohistoryproject.org/chris-hill",
+              "https://www.vut.cz/en/theses/detail/132512"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Charles Christopher Hill is an artist and photographer who was active in the early 1970s art scene, particularly in Los Angeles. He is a contemporary and close associate of performance artist Chris Burden, and he famously photographed many of Burden’s seminal works and events during this period (such as \"Shoot,\" 1971). Hill’s own artistic practice is rooted in process-oriented art, including painting and printmaking, and he has been associated with the development of the contemporary art scene in Southern California from the early 1970s onward. His work is held in several museum collections, including the Hammer Museum and the Los Angeles County Museum of Art (LACMA).",
+            "sources": [
+              "https://hunterdrohojowska-philp.com/la-weekly/chris-burden/",
+              "https://hammer.ucla.edu/exhibitions/2010/outside-the-box",
+              "https://www.visualartsource.com/index.php?page=editorial&pcID=17&aID=746"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Chris Hill\" video artist history",
+            "artist \"Chris Hill\" Experiments in Art and Technology",
+            "\"Chris Hill\" media artist 1970s",
+            "\"Chris Hill\" artist E.A.T. 1960s 1970s",
+            "",
+            "\"Chris Hill\" \"Experiments in Art and Technology\"",
+            "\"Chris Hill\" artist Buffalo Hallwalls E.A.T.",
+            "\"Chris Hill\" 9 Evenings: Theatre and Engineering",
+            "\"Christopher Hill\" artist Experiments in Art and Technology",
+            "\"Chris Hill\" artist E.A.T. 1968 1969 1970 1971",
+            "\"Chris Hill\" \"Experiments in Art and Technology\" artist",
+            "\"Chris Hill\" artist 9 Evenings",
+            "\"Christopher Hill\" artist E.A.T. member",
+            "\"Chris Hill\" Pepsi Pavilion E.A.T.",
+            "\"Charles Christopher Hill\" artist E.A.T.",
+            "\"Chris Hill\" 1960s 1970s tech art",
+            "\"Christopher Hill\" artist \"Experiments in Art and Technology\" member",
+            "\"Chris Hill\" artist \"Experiments in Art and Technology\" member",
+            "Who is the artist \"Chris Hill\" associated with E.A.T.?",
+            "\"Chris Hill\" artist E.A.T. 1966 1967 1968 1969 1970"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaHiyBxjVWczDLZJeNbjfS-ffDqz-zBnv4M1ld5-MjafawXZzojgzUnqfkB422SDI6FyPxRmQeb_eMO7XIYkbWzscCjZTVJGWeNryQHU8Lr6zvXLCtmBCpA-AQs6_ZJ5flcDuFR_i6iFc6xVL7ix-IEvq2mkUZRbAmOwT87eGl7qvGe4i0atFtDfddgf_hqko6ecAcool6th52CjBOX50PZu7kReJ5GC0hfbufAlphocU=",
+              "title": "barnard.edu",
+              "resolvedUri": "https://sfonline.barnard.edu/lisa-cartwright-d-andy-rice-my-hero-a-media-archaeology-of-tiny-viewfinderless-cameras/3/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhgjs8ivyhkWH-v18Xc8bcDV6pMjZqcwHOi2UYOFftmHQJTuB261f4B_F1nEwUGPQB-BZkeKvunFrJQSRDu5QdfutXewJ3Sb9LaJBhvR4s5d1ajfMe78YPJbbEunX8Ri1wl5nt4DSzYrcWg-coG27Z4jSVaAF80RHXSsfX4Lat1myo6cBs8N79P9yq0WU=",
+              "title": "vasulka.org",
+              "resolvedUri": "https://www.vasulka.org/archive/Contributors/ChrisHill/SurveyingtheFirstDecade.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSuo11aWoexkqXY6pveDQ62Z8j3Gb_aULpvEXMZ1aFy_4TELkPlML-mUl3BxdTBGbVi716qYaL2HnvR_eLRCMm-pndt1K9OE-RNgq10ThvFFBnN4cAU_y5WYnEwzwQNXwd3BzevFiATWFa8YIh2hMyuw==",
+              "title": "mfj-online.org",
+              "resolvedUri": "http://mfj-online.org/journalPages/MFJ39/hillpage.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS2PvxDqjQYI-aeiAZKuHMgTRxtxEbJGoyt3t56OgdXRnF70yyqv9vjRtSF61KAzvJO36_wxMfSgT77IsivCYBnjdDFkYaG9_tW2E8i9pI33_adlaMUKrLv5EyznITbxSLDLW6nBofdXMeZcjRYl_Uy2x86T0sKztAushf5-o=",
+              "title": "vasulka.org",
+              "resolvedUri": "https://www.vasulka.org/archive/Artists2/Hill,Chris/AttProdAud!.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMRFSrUxL_dpH8DbyNRyH3PIr5QT_jSMxf4pFm_8_Gzg_3BPfxtdYDdtIY7NFqwcl_uwRq7Ypljuk12UsZBJAUYOPgbmCKJEuOCVDTdjK783Bnwex-PnNleqics52IDTtCDtY=",
+              "title": "wordpress.com",
+              "resolvedUri": "https://globalpostmarknet.wordpress.com/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 266,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Chris Hill (also known as Chris Hill) is a prominent media curator, artist, and educator who has specialized in the history of early video art and the intersection of art and technology from the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -63,6 +511,143 @@
         "y1": 38.8,
         "x2": 25.5,
         "y2": 48.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25527",
+          "label": "Cooper Union",
+          "description": "private college in New York City",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual named R. Cooper, likely an artist, while the Wikibase entity describes Cooper Union, a private college and institution in New York City. They are distinct types of entities (a person versus an organization)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7324877",
+          "label": "Richard Cooper",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is dated 1969, while the Wikidata entity refers to Richard Cooper (the younger), who lived from 1740 to 1814. The chronological difference makes it impossible for them to be the same person."
+        },
+        {
+          "qid": "Q17102271",
+          "label": "R. Cooper White, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual named 'R. Cooper', where Cooper is the surname. The Wikidata entity 'R. Cooper White, Jr.' has the surname 'White' and 'Cooper' as a middle name. Additionally, the Wikidata entity is described as a politician, which does not align with the artistic context of the card entries."
+        },
+        {
+          "qid": "Q18534909",
+          "label": "Robert Cooper",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an engraver who was active between 1800 and 1836 and born around 1821. This person would not have been active or corresponding in 1969, which is the date recorded on the index card."
+        },
+        {
+          "qid": "Q102169607",
+          "label": "R. Cooper",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a person who was a student of the mathematician John Edensor Littlewood at the University of Oxford, strongly suggesting they were a mathematician. The card context identifies R. Cooper as an artist active in the late 1960s. Given that R. Cooper is a very common name, it is unlikely the academic mathematician and the artist are the same individual."
+        },
+        {
+          "qid": "Q116264101",
+          "label": "Robert Dowding Cooper",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name R. Cooper matches the initials of Robert Dowding Cooper, the Wikidata entity is identified as a participant in an Antarctic expedition, likely a scientist or biologist. The card refers to an individual in an artistic context in 1969. Given that Cooper is a very common surname, there is insufficient evidence to link the expedition participant to the artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ron Cooper (born 1943) is an American visual artist primarily associated with the 'Light and Space' and 'Finish Fetish' movements that emerged in Southern California during the late 1960s and early 1970s. His early career featured work that explored perceptual phenomena using materials such as fluorescent light, neon, glass, and resin. Cooper was a participant in the landmark 'Art and Technology' program (1967–1971) at the Los Angeles County Museum of Art (LACMA), an initiative that fostered collaborations between artists and industrial engineers, paralleling the goals of Experiments in Art and Technology (E.A.T.). His Los Angeles studio was a hub for experimental performance, hosting dance workshops for figures like Alex Hay, who was a core participant in the foundational E.A.T. event '9 Evenings: Theatre and Engineering.' Additionally, an artist identified as 'R. Cooper' was featured in the May 1967 issue of Esquire in an article titled 'Andy Warhol’s Dirty Half Dozen,' which highlighted avant-garde performers and artists—including Carolee Schneemann and Charlotte Moorman—who were closely associated with E.A.T. and the Judson Dance Theater circle. Cooper's work has been included in retrospective exhibitions regarding the history of E.A.T., such as 'The Story of E.A.T.' at the Spencer Museum of Art. In 1990, he founded the well-known mezcal brand Del Maguey.",
+            "sources": [
+              "https://schneemannfoundation.org/chronology/",
+              "https://www.contemporaryartscenter.org/artists/ron-cooper",
+              "https://en.wikipedia.org/wiki/Light_and_Space",
+              "https://www.rocknekrebs.com/group-exhibitions",
+              "https://taostyle.net/2018/08/ron-cooper-finding-mezcal/",
+              "https://www.rauschenbergfoundation.org/art/archive/photograph-collection"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"R. Cooper\" artist \"Experiments in Art and Technology\"",
+            "\"Ron Cooper\" artist E.A.T. 1960s 1970s",
+            "\"Richard Cooper\" artist E.A.T. 1960s 1970s",
+            "\"Robert Cooper\" artist E.A.T. 1960s 1970s",
+            "\"R. Cooper\" E.A.T. artist late 1960s 1970s",
+            "\"R. Cooper\" \"Andy Warhol\" Esquire \"dirty half dozen\"",
+            "\"Ron Cooper\" artist E.A.T. Experiments in Art and Technology",
+            "\"R. Cooper\" artist \"Kinetic Theater\"",
+            "\"R. Cooper\" artist 1960s 1970s E.A.T.",
+            "\"Robert Cooper\" engineer E.A.T.",
+            "\"Ron Cooper\" artist E.A.T. 1960s",
+            "\"R. Cooper\" artist \"dirty half dozen\" identity",
+            "\"Ron Cooper\" artist Andy Warhol Esquire",
+            "\"R. Cooper\" \"Experiments in Art and Technology\" engineer",
+            "\"R. Cooper\" artist E.A.T. membership list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY7m_0S9YkWk5Nz1OykPjIV1fhUkTY5Yq868KGLlyN97SRPRQdYZTu40_deYc1-9tMOO2VTTdN6KD4YH59f7zD3Lfx58LC0cLfvrwtxAYpT-UxGwsYLXfhWPMAuUJvwcjORInf",
+              "title": "armenianmuseum.org",
+              "resolvedUri": "https://www.armenianmuseum.org/on-the-edge"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF5djDBeAwcNtw5diYBZXfbD0jhqxS556RaEwZpGjxkeux5M7b8O3cPU5aW8KCiq-c35uMot8nykm9mkvb5CK35aL63dSNvGetv22ae5Nzt8dKy3JDJiD6p7j65Cyd2H-OWimtqD3G",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Light_and_Space"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbPy9klYZ163lbkKa6WYYNwnDrGzOe2Bo5pUEzCHLEI-tYqm2rcyYB0MVaRDDM-dp7f-XQeE1j2ndxC6uzZLaKz8DQbcxK7Z3D5chAztEW_VyyDL9z_vUe-w9lFW7tZPnoUaoZyZOp0N61EGumSdqCgYbhSpf3s2MmzTJ8",
+              "title": "wikiart.org",
+              "resolvedUri": "https://www.wikiart.org/en/artists-by-art-movement/light-and-space"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL5zR4ISDHo-W7iGft0lGX3pb9b1bcjpNziiJeQjVthck5p4sdX6BqauKJQ016rYG0XQI_pSxfaHBnQjCqFSFL_4lZ1_sZM7PHhjp8GuTRUMYLDkpQJGD3dkpzumxh5nuHlDRB92NtdczvHCCsOsPSAw==",
+              "title": "taostyle.net",
+              "resolvedUri": "https://taostyle.net/2018/08/ron-cooper-finding-mezcal/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 254,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ron Cooper (born 1943) is an American visual artist primarily associated with the 'Light and Space' and 'Finish Fetish' movements that emerged in Southern California during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 255,
+                "endIndex": 387,
+                "text": "His early career featured work that explored perceptual phenomena using materials such as fluorescent light, neon, glass, and resin."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1380,
+                "endIndex": 1902,
+                "text": "In 1990, he founded the well-known mezcal brand Del Maguey.\",\n      \"sources\": [\n        \"https://schneemannfoundation.org/chronology/\",\n        \"https://www.contemporaryartscenter.org/artists/ron-cooper\",\n        \"https://en.wikipedia.org/wiki/Light_and_Space\",\n        \"https://www.rocknekrebs.com/group-exhibitions\",\n        \"https://taostyle.net/2018/08/ron-cooper-finding-mezcal/\",\n        \"https://www.rauschenbergfoundation.org/art/archive/photograph-collection\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -76,6 +661,102 @@
         "y1": 44.7,
         "x2": 42.5,
         "y2": 56.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1201",
+          "label": "Bryant Gumbel",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct: 'Barry Bryant' and 'Bryant Gumbel' (or Gumble). In the first instance, Bryant is the surname, while in the second, Bryant is the given name. Furthermore, Bryant Gumbel is a well-known television journalist, not a creative artist/practitioner as described in the card context."
+        },
+        {
+          "qid": "Q25487",
+          "label": "Bryant Park",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Barry Bryant, while the Wikibase entity describes Bryant Park, which is a physical park and venue in New York City, not a person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16105292",
+          "label": "Barry Bryant",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names 'Barry Bryant' match exactly, the Wikidata entity describes a professional Australian rules football player, whereas the context for the card indicates the individual is likely an artist or creative practitioner. It is improbable that a professional athlete in Australia is the same person as the artistic practitioner mentioned in the card index."
+        },
+        {
+          "qid": "Q65030896",
+          "label": "Barry Bryant",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names 'Barry Bryant' match exactly and the Wikidata entity was active in the correct time period (born 1945), the occupations are mismatched. The Wikidata entity is a rugby league player, whereas the context for the card indicates the person was a creative artist or practitioner."
+        },
+        {
+          "qid": "Q89416750",
+          "label": "Barry R Bryant",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name 'Barry Bryant' matches the Wikidata entity 'Barry R Bryant'. However, the card context describes an artist or creative practitioner active in the late 1960s and 1970s, while the Wikidata entity is specifically identified as a 'researcher'. Without evidence of an artistic career or matching dates, the occupation mismatch suggests they are likely different individuals."
+        },
+        {
+          "qid": "Q100763750",
+          "label": "Barry Bryant",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names are an exact match, the Wikidata entity describes a basketball player for Tennessee State University active in the late 1960s/early 1970s. The provided context for the card entry specifies the person is an artist or creative practitioner. There is no evidence suggesting the athlete Barry Bryant was also a creative professional."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Barry Bryant (1940–1997) was an American artist, filmmaker, and musician active in New York City during the late 1960s and 1970s. He is best known as a mentor and manager for the pioneering electronic band Silver Apples, whom he hosted in his studio in 1967 and 1968, encouraging them to develop their experimental sound using oscillators and drums. Bryant famously spray-painted his entire penthouse silver for the band's debut party in 1968 and acted as a producer on their early albums. His own artistic practice included painting and filmmaking, and he was part of the experimental New York art scene associated with Fluxus and the cross-pollination of art and technology. In 1973, he founded the Samaya Foundation, a non-profit organization dedicated to making Tibetan Buddhist art and culture accessible, particularly through the creation of sand mandalas. He collaborated with avant-garde composer Pauline Oliveros on projects involving Tibetan ritual music and authored the scholarly book 'The Wheel of Time Sand Mandala'. His work and papers are included in historical archives such as the Gilbert and Lila Silverman Fluxus Collection at MoMA and the Fales Library at NYU.",
+            "sources": [
+              "https://www.theguardian.com/music/2019/apr/09/silver-apples-simeon-coxe-interview-60s-electronic-pop",
+              "https://www.spiritualityandpractice.com/book-reviews/view/5888/the-wheel-of-time-sand-mandala",
+              "https://www.moma.org/collection/works/groups/silvermanfluxus",
+              "https://www.shambhala.com/the-wheel-of-time-sand-mandala-9781559399685.html",
+              "http://www.terrascope.co.uk/MyBackPages/Silver%20Apples.htm",
+              "https://www.arts.gov/sites/default/files/NEA-Annual-Report-1984.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Barry Bryant\" artist biography",
+            "\"Barry Bryant\" Experiments in Art and Technology",
+            "\"Barry Bryant\" artist 1960s 1970s",
+            "artist Barry Bryant Experiments in Art and Technology E.A.T.",
+            "\"Barry Bryant\" Samaya Foundation history",
+            "\"Barry Bryant\" artist 1940-1997 biography",
+            "\"Barry Bryant\" Silver Apples studio",
+            "\"Barry Bryant\" \"Experiments in Art and Technology\"",
+            "\"Barry Bryant\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDMbuqgA6fE8E4EiBxfrZ5_GrF-NlXV7f61cflGW7OgYCBEW2NhRZQqK6vmk69Dm1yMMiTTJejTZiluTYzcOZ7ppmoPCi7Vl3xy66JeuegQVK5oM_5kdJhnISbyigO2Yrv2ZF7WSX5JlBKVfgdGw==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Silver_Apples_(album)"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 181,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Barry Bryant (1940–1997) was an American artist, filmmaker, and musician active in New York City during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

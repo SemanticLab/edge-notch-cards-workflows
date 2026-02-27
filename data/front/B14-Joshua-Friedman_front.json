@@ -12,5 +12,121 @@
     "technicalFields": [
       "Electrical Engineering"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q28404",
+      "label": "Joshua Friedman",
+      "description": "engineer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records refer to Joshua Friedman, an engineer. The Wikibase entity specifically originates from the E.A.T. (Experiments in Art and Technology) Datascape, and the card format/details (NYC address and specific engineering role) are characteristic of the E.A.T. member records."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q6289825",
+      "label": "Joshua Friedman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The occupations are fundamentally different. The card describes an Electrical Engineer, while the Wikidata entity (Q6289825) describes a well-known journalist associated with the Columbia University Graduate School of Journalism."
+    },
+    {
+      "qid": "Q12407867",
+      "label": "Yehoshua Fridman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q12407867) died in 1934, whereas the card record includes a New York ZIP code (10016) which was not introduced until 1963. Furthermore, their professions (Electrical Engineer vs. Translator) and geographic locations (New York vs. Vilnius/Tel-Aviv) are completely different."
+    },
+    {
+      "qid": "Q66965218",
+      "label": "Joshua S. Friedman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Joshua Friedman on the index card was an active Electrical Engineer in NYC, likely during the late 1960s (based on the E.A.T. records context). The Wikidata entity Q66965218 was born in 1956 and is a prominent business executive in finance who started his career in 1984. This makes the Wikidata person a child during the period the card was created and describes a completely different career path."
+    },
+    {
+      "qid": "Q87329933",
+      "label": "Joshua R Friedman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card record describes an Electrical Engineer in New York City with a historical phone number format (mu3-3692), likely from the 1960s or 70s. The Wikidata entity (Q87329933) refers to a modern researcher employed by pharmaceutical companies such as Alnylam (founded in 2002) and Johnson & Johnson. The professional fields and time periods do not align."
+    },
+    {
+      "qid": "Q102281615",
+      "label": "Joshua S. Friedman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes an Electrical Engineer (Joshua Friedman) with an NYC address and a vintage telephone number format (MU3-3692), characteristic of the 1960s E.A.T. records. The Wikidata entity (Q102281615) refers to Joshua S. Friedman, a mathematician who studied under Leon Takhtajan; Takhtajan's career timeline and the nature of doctoral studies in mathematics suggest a different individual from an earlier industrial engineer."
+    },
+    {
+      "qid": "Q124112048",
+      "label": "Joshua Friedman",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "Both records identify a Joshua Friedman. The card specifies him as an Electrical Engineer located in New York, while the Wikidata record identifies him as a researcher. These roles are professionally compatible, and the names match exactly. However, because Joshua Friedman is a relatively common name and the Wikidata entry lacks specific geographic or employer details to corroborate the card's data, the confidence is medium."
+    },
+    {
+      "qid": "Q131254714",
+      "label": "Joshua J. Friedman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals with the same name but fundamentally different professional identities. The index card identifies Joshua Friedman as an electrical engineer (consistent with the E.A.T. archives), whereas the Wikidata entity describes a writer and editor."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Joshua Friedman is an electrical engineer and dentist who was active in New York City during the late 1960s and 1970s. During this period, he was associated with Experiments in Art and Technology (E.A.T.), a non-profit organization promoting collaborations between artists and engineers. Specifically, he collaborated with Charles Tafra on a project for the E.A.T. exhibition 'Some More Beginnings,' held at the Brooklyn Museum in 1968. Friedman lived at 350 East 30th Street in New York (ZIP code 10016), an address he used for both his 1972 patent filings and his registration as a licensed radio amateur (call sign WB2EAM). Professionally, he served as an Assistant Research Scientist at the NYU College of Dentistry, where he applied his electrical engineering background to develop dental medical devices. He is recognized as a pioneer in light-curing technology and dental instrumentation, having founded the Demetron Research Corporation and AdDent, Inc. His technical contributions include the invention of a compact battery-operated dental pulp tester, for which he received a U.S. patent in 1973.",
+        "sources": [
+          "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-",
+          "https://patents.google.com/patent/US3755900A/en",
+          "https://archive.org/details/callbookwinter1974/page/n262/mode/1up",
+          "https://www.addent.com/about-addent/",
+          "https://www.incisaledgemagazine.com/mag/article/edison-awards/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Joshua Friedman\" electrical engineer New York 1960s 1970s",
+        "\"Joshua Friedman\" E.A.T. NY 10016",
+        "\"Joshua Friedman\" electrical engineer E.A.T.",
+        "Joshua Friedman electrical engineer \"Experiments in Art and Technology\"",
+        "",
+        "\"Joshua Friedman\" electrical engineer Demetron NYU",
+        "\"Joshua Friedman\" engineer NY 10016 patent",
+        "\"Joshua Friedman\" \"E.A.T.\" technical services",
+        "\"Joshua Friedman\" E.A.T. engineer",
+        "\"Joshua Friedman\" electrical engineer 10016 E.A.T.",
+        "\"Joshua Friedman\" electrical engineer \"E.A.T.\" NYU",
+        "\"Joshua Friedman\" engineer \"350 E 30th St\"",
+        "\"Joshua Friedman\" \"Experiments in Art and Technology\" bio",
+        "\"Joshua Friedman\" \"E.A.T.\" directory",
+        "\"Charles Tafra\" \"Joshua Friedman\" E.A.T.",
+        "\"Joshua Friedman\" \"350 E 30th St\" NYU Dentistry"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1gkvbv8qszSXIWBacSWSC4IfxmtU3A5K1LlIsLmA4WtJIPvxRy4vj0dT0CgsZfXmXcKls6uE_TbH9Hhii4BbZhPXW6i0QJ1y9Il5lfWBpaXmQEnu0-oDLG_59NLhlVR5vi0Q8n7ljXZG-ag==",
+          "title": "sysge.org",
+          "resolvedUri": "https://sysge.org/wp-content/uploads/secret5e.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 1012,
+            "endIndex": 1575,
+            "text": "His technical contributions include the invention of a compact battery-operated dental pulp tester, for which he received a U.S. patent in 1973.\",\n      \"sources\": [\n        \"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-\",\n        \"https://patents.google.com/patent/US3755900A/en\",\n        \"https://archive.org/details/callbookwinter1974/page/n262/mode/1up\",\n        \"https://www.addent.com/about-addent/\",\n        \"https://www.incisaledgemagazine.com/mag/article/edison-awards/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

@@ -8,7 +8,7 @@
     "geographicLocation": "Brooklyn, New York"
   },
   "professionalAffiliation": {
-    "employerOrganization": "null",
+    "employerOrganization": "",
     "departmentDivision": "null"
   },
   "professionalIdentityExpertise": {
@@ -24,5 +24,94 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "null",
     "aestheticPhilosophicalInterests": "null"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "James Gromko was an engineer or technical specialist active in the late 1960s and early 1970s who was associated with Experiments in Art and Technology (E.A.T.), a non-profit organization established to facilitate collaborations between artists, engineers, and scientists. According to membership records, Gromko was based in Brooklyn, New York, and was registered with E.A.T.'s Technical Services Program (TSP), a matching service that connected artists with technical expertise. His technical areas of interest and expertise included electronics, physics, mechanical systems, and light-related technologies. Historical records from the same period identify a James Gromko as a student in New York (Newburgh) around 1969, which aligns with the timeframe of a young professional or student engineer participating in the burgeoning art-and-technology movement of that era.",
+        "sources": [
+          "https://archives.getty.edu/repositories/2/resources/141",
+          "https://nyheritage.contentdm.oclc.org/digital/collection/newburgh/id/471/rec/1"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "James Gromko obituary Brooklyn",
+        "",
+        "\"Gromko\" Brooklyn engineer technical",
+        "",
+        "\"Gromko\" E.A.T. archive Getty",
+        "",
+        "\"Gromko\" electronics physics mechanical light",
+        "\"Gromko\" Getty E.A.T. finding aid",
+        "\"Gromko\" Experiments in Art and Technology engineer",
+        "",
+        "",
+        "\"Gromko\" E.A.T. members list",
+        " \"Gromko\"",
+        "\"Gromko\" name list E.A.T. Getty",
+        "",
+        "\"Gromko\" Brooklyn 1968",
+        "",
+        "\"Gromko\" Bell Laboratories engineer",
+        " \"Gromko\"",
+        "\"Gromko\" E.A.T. card",
+        "",
+        "\"Electronics\" \"physics\" \"mechanical\" \"light\" E.A.T.",
+        "\"James Gromko\" 1960..1980",
+        "\"Gromko\" New York Times archives engineer",
+        "\"Electronics\" \"physics\" \"mechanical\" \"light\" Brooklyn engineer",
+        "",
+        "",
+        "",
+        "",
+        "\"Gromko\" E.A.T. engineer list",
+        "",
+        "\"James Gromko\" book",
+        "\"Patricia Zaczek Gromko\"",
+        "",
+        "\"Gromko\" E.A.T. directory engineer",
+        "",
+        "",
+        "",
+        "\"Gromko\" Brooklyn engineer electronics physics mechanical light"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVD57GADpyCdxfAecPmS26xPSrT3xgxd4OSK2kuvkEc0M8Z_DbgPRFUVC1b781wH9hDOoXaBCj1w6sfnHcoZ8feFi-2LgL9kg90XNo8qnKCzXrE2bWXxQ42e9QSMdpqiPxedmJeGqWjhB2v1ooPk0bRJ-5yA==",
+          "title": "salasobrien.com",
+          "resolvedUri": "https://salasobrien.com/news/types-of-engineering-careers/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED1eqxtL4_Gv3Pp89tYilV0pwV9ylCkxZrvHAAtSk5jWCked_akKTS2vQM58Y9W6C1jDov0z3os5O9AxE1mOHbz4ANkSpS4Bz1l5eM6ZJFVRufcC3WJqIQby1ztM556F31nG_k2h7oJ04faIvCunRDJZI=",
+          "title": "indeed.com",
+          "resolvedUri": "https://www.indeed.com/q-led-lighting-engineer-jobs.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwMgvmcSko6s7up7rOEiyhCjTCgOR-GfriYpmP0PGinKzs2__0KjjB9x1VxUDjtfDTy5O093XBplWHfo2qbv4ULLZxsKpas2aDIEWMlIEcPd5Uj4KskH_CPHIPtW8gPdsbb-C_8bhtzjWfCxecfUNYqxSr4FLsINw9IWuHhneuq1Ikm4GaL7jz2MrrmcQGZpFTGg5Z7tNHnO7wQanva5wZ",
+          "title": "uchicago.edu",
+          "resolvedUri": "https://news.uchicago.edu/story/quantum-breakthrough-scientists-demonstrate-one-way-street-energy-flow"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 531,
+            "endIndex": 659,
+            "text": "His technical areas of interest and expertise included electronics, physics, mechanical systems, and light-related technologies."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    }
   }
 }

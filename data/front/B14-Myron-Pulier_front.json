@@ -17,5 +17,125 @@
       "Psychiatry",
       "Programming"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q29644",
+      "label": "Emmanuel Ghent",
+      "description": "Canadian composer and psychiatrist",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are completely different (Myron Pulier vs. Emmanuel Ghent). While both individuals are associated with psychiatry, there is no evidence to suggest they are the same person."
+    },
+    {
+      "qid": "Q29737",
+      "label": "doctorate",
+      "description": "academic or professional degree",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata QID Q849697 provided in the record specifically identifies the individual Myron Pulier. The card data confirms the identity through the name, profession (Medical Doctor/Psychiatry), and employer (Hillside Hospital), which are consistent with known records for this individual."
+    }
+  ],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5763951",
+      "label": "Hillside Hospital",
+      "description": "hospital in Tennessee, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data places the individual and his employer, Hillside Hospital, in Glen Oaks, New York. The Wikidata entity refers to a hospital of the same name located in Pulaski, Tennessee. There is a well-known psychiatric hospital called Hillside Hospital (now Zucker Hillside Hospital) specifically in Glen Oaks, NY, which matches the card's context better than the Tennessee facility."
+    },
+    {
+      "qid": "Q76641601",
+      "label": "Q76641601",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q76641601 refers to Zucker Hillside Hospital, which was formerly known simply as Hillside Hospital. It is a psychiatric facility located in Glen Oaks, New York, which perfectly matches both the employer name and the residential/geographic location (Glen Oaks) provided on the index card."
+    },
+    {
+      "qid": "Q106667679",
+      "label": "Hillside Hospital",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q106667679 is a disambiguation page, which is a structural page used to distinguish between multiple different entities with the same name. It is not an actual organization, hospital, or legal entity that could serve as an employer."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Dr. Myron Leopold Pulier (often referred to as Myron L. Pulier) is a psychiatrist and technical expert with a career spanning over six decades, noted for his early and extensive work integrating computer programming with psychiatry and medical research. He earned his medical degree from the Albert Einstein College of Medicine in 1965 and completed his residency in psychiatry at Hillside Hospital in Glen Oaks, New York, between 1966 and 1969. Since the late 1960s, Dr. Pulier has held staff positions and contributed to pioneering technical projects at various institutions, including Sloan-Kettering/Memorial Hospital, Hillside Hospital, the Nathan Kline Research Institute, and Walter Reed Army Hospital. His technical expertise includes general medicine, psychiatry, and computer programming; notably, he developed a unique programming language and databases for mental health care delivery and designed a computer-controlled electronic tachistoscope for investigating backward masking in schizophrenia. Dr. Pulier is a Clinical Associate Professor at Rutgers New Jersey Medical School and has co-authored textbooks on information technology in mental health. Beyond his medical and technical work, he is a published poet and writer who has characterized computer program development as an artistic process of 'playful reshaping' rather than purely analytic logic. This multidisciplinary background in art, technology, and psychiatry aligns with the goals of the organization Experiments in Art and Technology (E.A.T.), with which he has been associated as a technical expert.",
+        "sources": [
+          "https://www.psymeet.com/cv.htm",
+          "https://www.researchgate.net/profile/Myron-Pulier",
+          "https://archive.org/stream/byte-magazine-1980-03/1980_03_BYTE_05-03_Computers_in_the_Laboratory_djvu.txt",
+          "https://synkroniciti.com/featured-artist-myron-pulier/",
+          "https://www.healthgrades.com/physician/dr-myron-pulier-xyr2v"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Myron Pulier psychiatrist programming",
+        "Myron Pulier Medical Doctor Hillside Hospital",
+        "\"Myron Pulier\" artist collaboration",
+        "\"Myron Pulier\" E.A.T.",
+        "\"Myron Pulier\" Glen Oaks Hillside Hospital EAT",
+        "\"Myron Pulier\" E.A.T. registry",
+        "\"Myron Pulier\" MD psychiatry programming E.A.T.",
+        "\"Myron Pulier\" Hillside Hospital programming psychiatrist",
+        "\"Myron Pulier\" E.A.T. directory list"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErC8TFdpzWU8bhwwsxiFWR8RkOjkxbkKxqe3RNR9bHEucEqUSqknBdyoaVLqQECdryhYzMqHvOlgpMbj0kXoP8LG6gV6aeV35Gldulmg8y2VIeqv8Vpc2txu9dRiIYwhGjQOUXefjH",
+          "title": "psymeet.com",
+          "resolvedUri": "http://www.psymeet.com/psymeet/CV/CVmain.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDlYBQnxoNmaEpTWpbvDS85TkQ-_VIM_mtzrPkOKvQ8O7N6IOFgUs5ZOu16ZN3z7U8pLUVsGPQV3sfnfHPDyftjWdKPLfvG_kkNWGgQlVMpKRYa_tpbHPRqTYtczQb9mRYOMxvToYS1eOCyA==",
+          "title": "researchgate.net",
+          "resolvedUri": "https://www.researchgate.net/profile/Myron-Pulier"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 303,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Dr. Myron Leopold Pulier (often referred to as Myron L. Pulier) is a psychiatrist and technical expert with a career spanning over six decades, noted for his early and extensive work integrating computer programming with psychiatry and medical research."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 496,
+            "endIndex": 759,
+            "text": "Since the late 1960s, Dr. Pulier has held staff positions and contributed to pioneering technical projects at various institutions, including Sloan-Kettering/Memorial Hospital, Hillside Hospital, the Nathan Kline Research Institute, and Walter Reed Army Hospital."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1060,
+            "endIndex": 1215,
+            "text": "Dr. Pulier is a Clinical Associate Professor at Rutgers New Jersey Medical School and has co-authored textbooks on information technology in mental health."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

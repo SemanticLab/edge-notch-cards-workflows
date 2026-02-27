@@ -27,5 +27,185 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "None",
     "aestheticPhilosophicalInterests": "None"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q135356599",
+      "label": "David Sokolovic",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card data refers to David A. Sokolov, an engineer at Xerox Corporation in New York, USA, with expertise in electrical and mechanical engineering. The Wikidata record refers to David Sokolovic, a basketball player from Bosnia and Herzegovina born in 2006. The names are different, and their professions, locations, and likely ages (given the nature of the card data) are completely unrelated."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19675",
+      "label": "Xerox",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card lists 'Xerox Corporation' located in the Rochester, New York area. The Wikibase entity for 'Xerox' (Q19675) also lists its location as Rochester (N.Y.) and mentions Joseph C. Wilson, a historical leader of Xerox. The Wikidata QID Q152433 associated with the Wikibase entry points directly to the globally known Xerox Corporation."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q152433",
+      "label": "Xerox",
+      "description": "American document management corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Xerox Corporation' is an exact match for both the employer on the card and the official name in the Wikidata record. Additionally, the Wikidata record mentions Rochester as its location of formation, which corresponds to the Rochester/Fairport area indicated on the card. The technical fields listed on the card (optics, electrical engineering) also align with Xerox's core business in photocopiers and printers."
+    },
+    {
+      "qid": "Q750428",
+      "label": "PARC",
+      "description": "company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q750428 refers to the Palo Alto Research Center (PARC), which was a specific research subsidiary of the Xerox Corporation. The card data identifies the employer as 'Xerox Corporation' and places the office in Rochester/Fairport, New York, whereas PARC is located in Palo Alto, California. While related, they are distinct entities (subsidiary vs. parent corporation)."
+    },
+    {
+      "qid": "Q16083114",
+      "label": "Xerox 860",
+      "description": "model of workstation manufactured by Xerox",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the organization 'Xerox Corporation', whereas the Wikidata entity Q16083114 refers to the 'Xerox 860', which is a specific model of a workstation/word processor manufactured by Xerox. One is a company, and the other is a product produced by that company."
+    },
+    {
+      "qid": "Q1140061",
+      "label": "Xerox Alto",
+      "description": "computer made by Xerox",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card identifies 'Xerox Corporation' as the employer, which is a business organization. The Wikidata entity Q1140061 represents the Xerox Alto, which is a specific model of computer (a product) manufactured by Xerox, not the corporation itself."
+    },
+    {
+      "qid": "Q29122899",
+      "label": "Xerox (France)",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data describes the main American entity 'Xerox Corporation' located in the Rochester, New York area. The Wikidata entity Q29122899 represents the French subsidiary of Xerox ('Xerox (France)'), which is a distinct legal entity with headquarters in France and a French legal form (SAS)."
+    },
+    {
+      "qid": "Q121126637",
+      "label": "Xerox",
+      "description": "production company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the well-known Xerox Corporation, a multinational technology and engineering firm historically headquartered in the Rochester, New York area. The Wikidata entity (Q121126637) is specifically listed as a 'production company' (media/film), which is distinct from the technology corporation (Q152433) that employed engineers."
+    },
+    {
+      "qid": "Q134127958",
+      "label": "Xerox 850",
+      "description": "dedicated word processor model",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data refers to 'Xerox Corporation', an organization/employer. The Wikidata entity Q134127958 refers to the 'Xerox 850', which is a specific model of a dedicated word processor (a product) manufactured by Xerox, not the corporation itself."
+    },
+    {
+      "qid": "Q966967",
+      "label": "Xerox Network Systems",
+      "description": "suite of computer network protocols",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Xerox Corporation is a business entity/employer, whereas Xerox Network Systems (Q966967) is a suite of computer network protocols developed by Xerox. They are distinct entities: one is an organization, the other is a product/technology suite."
+    },
+    {
+      "qid": "Q442431",
+      "label": "Xerox art",
+      "description": "photography genre",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the business entity 'Xerox Corporation' which is an employer of an engineer. The Wikidata entity Q442431 refers to 'Xerox art,' which is categorized as a photography genre or artistic movement, not a company or organization."
+    },
+    {
+      "qid": "Q3475808",
+      "label": "Scientific Data Systems",
+      "description": "American computer company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Scientific Data Systems (Q3475808) was an American computer company that was acquired by and became a subsidiary of Xerox (eventually renamed Xerox Data Systems). It is not the same entity as the parent entity, Xerox Corporation, which is listed on the card."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "David A. Sokolov was an electrical and mechanical engineer active during the mid-to-late 20th century, primarily associated with the Xerox Corporation in Rochester and Fairport, New York. His professional career dates back to at least the early 1950s, when he served as a supervisor of development for receiving tubes. By the late 1960s, Sokolov was working for Xerox, where he contributed to the development of integrated imaging and television systems. He is the named inventor of U.S. Patent 3,459,888 (granted in 1969), which describes a 'Selective Photocopier' incorporating a television camera for document scanning and reproduction. Sokolov's technical expertise included physics, optics, television, video tape, and tape recording. He is associated with the non-profit organization Experiments in Art and Technology (E.A.T.), which fostered collaborations between the artistic community and technical specialists from industrial laboratories like Xerox, Bell Labs, and IBM. His involvement with E.A.T. likely occurred through the Technical Services Program or projects utilizing Xerox's early telecommunications and facsimile technology, such as the 1971 'Children and Communication' project.",
+        "sources": [
+          "https://archive.org/details/officialgazetteo865unit/page/532/mode/2up",
+          "https://worldradiohistory.com/Archive-BC/BC-1954/BC-1954-06-21.pdf",
+          "https://www.getty.edu/research/special_collections/highlights/eat/eat_records.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"David A. Sokolov\" patent Xerox",
+        "\"David A. Sokolov\" Experiments in Art and Technology",
+        "",
+        "\"David Sokolov\" television video tape recorder Xerox",
+        "",
+        "\"David A. Sokolov\" Xerox video tape recorder",
+        "\"David Sokolov\" Experiments in Art and Technology list",
+        "\"David A. Sokolov\" E.A.T. directory",
+        "",
+        "\"David A. Sokolov\" Xerox patent television video tape",
+        "\"David A. Sokolov\" Experiments in Art and Technology project",
+        "\"David A. Sokolov\" Xerox technical report",
+        "",
+        "\"David A. Sokolov\" Xerox patents",
+        "\"David Sokolov\" Experiments in Art and Technology 1960s 1970s",
+        "\"David Sokolov\" Xerox Rochester engineer",
+        "",
+        "Xerox engineers \"Experiments in Art and Technology\"",
+        "\"David A. Sokolov\" Xerox \"television\" video",
+        "\"David Sokolov\" E.A.T. member",
+        "",
+        "\"David A. Sokolov\" tape recording Xerox",
+        "\"David Sokolov\" Xerox Rochester obituary",
+        "",
+        "\"David A. Sokolov\" Xerox patent 3459888",
+        "\"David Sokolov\" Experiments in Art and Technology list of engineers"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXtLMx1w7RxHS_tTkmblaqdw31GbaNXf4avjTGIS0VWopKsNhfoaYF8RGFs7aPz-7fN527i9kdDns5CTk1IdP79xTkn9sm8CGjROJqBvL6um8L82tasjALwxyQz428ASSA8JyBnNPZbGLAz39tpSxvlm9eEdgRTK8IyPD2bbkXcBCiCLPRySkSzxzAUg==",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/officialgazette865unit/officialgazette865unit_djvu.txt"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL4ARO18QzkSawNEn8SpUswPdDiewB1QD5j_OdF2BdNse-iRqFumL6w1hiHSARjXYFFw0zToV7f_Q5C7y7AjoWHT8lPM-5ADOtxvtjJQRNKDG7Q2pIS8iiLbzV_kfKwQqrly_TiUd31sThOojKK-msR4b5m98Q8tKqBK8SmQltTe7OIViw7sFKo8ckU-fV4E3uZQGKg-ZUHX6EgBHTxqNR2hioxr9Eqyo=",
+          "title": "wvu.edu",
+          "resolvedUri": "https://undergraduateresearch.wvu.edu/files/d/ce06c34f-53ec-489e-b436-1655de728964/2019-annual-report-v14.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 237,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"David A. Sokolov was an electrical and mechanical engineer active during the mid-to-late 20th century, primarily associated with the Xerox Corporation in Rochester and Fairport, New York."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1060,
+            "endIndex": 1575,
+            "text": "likely occurred through the Technical Services Program or projects utilizing Xerox's early telecommunications and facsimile technology, such as the 1971 'Children and Communication' project.\",\n      \"sources\": [\n        \"https://archive.org/details/officialgazetteo865unit/page/532/mode/2up\",\n        \"https://worldradiohistory.com/Archive-BC/BC-1954/BC-1954-06-21.pdf\",\n        \"https://www.getty.edu/research/special_collections/highlights/eat/eat_records.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

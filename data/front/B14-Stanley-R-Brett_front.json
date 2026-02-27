@@ -14,5 +14,48 @@
     "technicalFields": [
       "Instrumentation"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q26212466",
+      "label": "Stanley Brett",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity died in 1923, whereas the index card data features a ZIP code (which was not introduced until 1963) and modern phone numbers, indicating the individual on the card was active in the mid-20th century. Additionally, the Wikidata entity was a comedian while the card record describes an instrumentation professional."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Stanley Richard \"Stan\" Brett (1924–2012) was a mechanical engineer and entrepreneur based in Seattle, Washington. He earned his degree in Mechanical Engineering from the University of Washington in 1950. After working in the engineering field for nearly two decades, he founded Brett Associates in 1969, a manufacturer's representative firm specializing in physical measurement sensors and instrumentation, such as accelerometers, pressure transducers, and flowmeters. His company became a key supplier to the aerospace industry, with Boeing being its largest customer. Brett was active in the professional community, particularly through the Instrumentation Society of America (ISA), and is recorded in technical directories from the late 1960s and early 1970s as an engineer interested in collaborating on technical projects. This likely included an association with the Experiments in Art and Technology (E.A.T.) organization, which maintained registries of engineers like Brett to facilitate collaborations between the technical and artistic communities. During World War II, he served as a Navy Seabee.",
+        "sources": [
+          "https://www.columbiafuneralhome.com/obituary/Stanley-Brett",
+          "https://www.legacy.com/us/obituaries/seattletimes/name/stanley-brett-obituary?id=13137978",
+          "http://www.brettassociates.com/",
+          "https://www.washington.edu/alumni/columns-magazine/december-2012/class-notes/in-memory/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Stanley R Brett\" engineer",
+        "\"Stanley R Brett\" instrumentation engineer",
+        "",
+        "\"Brett Associates\" Seattle instrumentation",
+        "\"Stanley R. Brett\" Instrumentation Society of America officer",
+        "",
+        "\"Brett Associates\" E.A.T. project",
+        "\"Stanley R. Brett\" \"E.A.T.\" Seattle",
+        "",
+        "\"Stanley R. Brett\" \"E.A.T.\" member list"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -9,6 +9,109 @@
         "y1": 11.2,
         "x2": 40.5,
         "y2": 15.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5173500",
+          "label": "Corwin Clairmont",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Sophie Corwin' and 'Corwin Clairmont' do not match. 'Sophie' is a feminine given name, while the Wikidata entity is male with the given name 'Corwin'. Beyond the shared word 'Corwin' (used as a surname in one and a given name in the other), there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q5173502",
+          "label": "Corwin Hansch",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Sophie Corwin vs. Corwin Hansch), the genders differ (female vs. male), and the Wikidata entity is a prominent chemist and pharmacologist while the index card describes an artist."
+        },
+        {
+          "qid": "Q5173504",
+          "label": "Corwin M. Nixon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Sophie Corwin vs. Corwin M. Nixon). Sophie Corwin is female (implied by the name Sophie), while the Wikidata entity describes a male politician. Additionally, Corwin is used as a surname on the card and a given name on the Wikidata entry."
+        },
+        {
+          "qid": "Q14590828",
+          "label": "Corwin C. Guell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Sophie Corwin' and 'Corwin C. Guell' are completely different, with 'Corwin' appearing as a surname in one and a given name in the other. Furthermore, the Wikidata entity is a male politician and lawyer, whereas the card entry refers to a female artist (Sophie)."
+        },
+        {
+          "qid": "Q18657341",
+          "label": "Corwin Stickney, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct: 'Sophie Corwin' (where Corwin is the surname) versus 'Corwin Stickney, Jr.' (where Corwin is a given name). Additionally, the card likely refers to a female person ('Sophie'), while the Wikidata entity is recorded as male."
+        },
+        {
+          "qid": "Q19877092",
+          "label": "Corwin Clatt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Sophie Corwin' on the card does not match the Wikidata name 'Corwin Clatt'. Additionally, the card describes an artist (likely female based on the name Sophie), while the Wikidata entity describes a male American football player."
+        },
+        {
+          "qid": "Q29840737",
+          "label": "Corwin Sullivan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Corwin Sullivan) was born in 2000, which is inconsistent with the card's context of an artist active in the late 1960s and early 1970s. Furthermore, the names do not match (Sophie Corwin vs. Corwin Sullivan) and the gender/occupations are different."
+        },
+        {
+          "qid": "Q38038062",
+          "label": "Corwin Knapp Linson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card entry refers to Sophie Corwin, while the Wikidata entity is Corwin Knapp Linson (where Corwin is a given name and Linson is the surname). Additionally, the Wikidata entity died in 1959, making it impossible for them to be the artist active in the late 1960s/early 1970s described in the card context."
+        },
+        {
+          "qid": "Q50656701",
+          "label": "Corwin H Booth",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different (Sophie Corwin vs. Corwin H Booth). Furthermore, the Wikidata entity is a researcher at national laboratories, which does not align with the context of Sophie Corwin being an artist."
+        },
+        {
+          "qid": "Q52845194",
+          "label": "Corwin D. Edwards",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Sophie Corwin' on the card does not match 'Corwin D. Edwards' from Wikidata. In the Wikidata entry, Corwin is the given name and Edwards is the family name, whereas on the card, Corwin appears to be the family name. Furthermore, the Wikidata entity is identified as a male economist, while the card subject is expected to be an artist and is named Sophie, a typically female name."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Sophia M. Corwin (1915–1999), also known as Sophie Corwin, was a New York-based sculptor and painter. Her artistic career spanned several major 20th-century movements, including Cubism, Abstract Expressionism, and Minimalism. Corwin was particularly active during the 1960s and 1970s; she is listed in the New York State Council on the Arts (NYSCA) Annual Report for 1969-1970, a period during which the Council also awarded grants to the Experiments in Art and Technology (E.A.T.) organization. She was a member of the 'Vectors' artist group and exhibited her work in various New York venues, including the Capricorn Gallery and Knapik Gallery. Corwin's formal training included studies at the Art Students League of New York and the Hans Hofmann School of Fine Arts. Her works, which transitioned from abstract expressionism to figurative abstraction in her later years, are documented in artist files at the Smithsonian American Art and Portrait Gallery Library.",
+            "sources": [
+              "https://www.askart.com/artist/Sophia_M_Corwin/10011885/Sophia_M_Corwin.aspx",
+              "https://www.libbiemark.com/vectors-artist-group",
+              "https://ny.gov/new-york-state-council-arts-annual-report-1969-70",
+              "https://www.invaluable.com/artist/corwin-sophia-m-m9vvea4g2q/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Sophie Corwin sculpture painting biography",
+            "\"Sophie Corwin\" artist 1960s 1970s",
+            "Sophie Corwin E.A.T. membership or exhibition",
+            "\"Sophia Corwin\" Experiments in Art and Technology",
+            "\"Sophie Corwin\" Experiments in Art and Technology",
+            "\"Sophie Corwin\" sculpture electronic art",
+            "\"Sophie Corwin\" artist exhibition history 1960s 1970s",
+            "",
+            "\"Sophia Corwin\" Experiments in Art and Technology project",
+            "\"Sophie Corwin\" E.A.T. artist collaboration"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -20,6 +123,227 @@
         "y1": 17.6,
         "x2": 40.0,
         "y2": 22.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q186164",
+          "label": "Pippa Funnell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Leah Nolan' and 'Pippa Funnell' do not match. Furthermore, Pippa Funnell was born in 1968, making her too young to be an active artist in the late 1960s and early 1970s. Her profession as an equestrian also does not match the artistic context provided."
+        },
+        {
+          "qid": "Q335039",
+          "label": "Nolan Bushnell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to someone named Leah Nolan (likely female), whereas the Wikidata entity is Nolan Bushnell (male). The name 'Nolan' appears as a surname on the card and as a given name in the Wikidata entry. Furthermore, Leah Nolan is described as an artist, while Nolan Bushnell is a well-known tech entrepreneur and engineer."
+        },
+        {
+          "qid": "Q552085",
+          "label": "Nolan Gould",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Leah Nolan vs. Nolan Gould). Furthermore, the Wikidata entity was born in 1998 and began acting in 2007, which is incompatible with the artist active in the late 1960s and early 1970s described in the context."
+        },
+        {
+          "qid": "Q561020",
+          "label": "Nolan Roux",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist named Leah Nolan active in the late 1960s and early 1970s, whereas the Wikidata entity is a French football player named Nolan Roux who was born in 1988 and began his professional career in 2008."
+        },
+        {
+          "qid": "Q1147104",
+          "label": "Nolan North",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Leah Nolan vs. Nolan North). Furthermore, Nolan North was born in 1970 and began his career in the 1990s, which conflicts with the card's context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q7048215",
+          "label": "Nolan Shaheed",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. Leah Nolan is likely a female name where Nolan is the surname, whereas Nolan Shaheed (born Nolan Andrew Smith) is a male whose first name is Nolan. There is no indication that Nolan Shaheed ever used the name Leah or that Leah Nolan is an alias for him."
+        },
+        {
+          "qid": "Q104007557",
+          "label": "Nolann Le Garrec",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Nolann Le Garrec, a French rugby player born in 2002. This is completely inconsistent with the card entry for Leah Nolan, who was active as an artist in the late 1960s and early 1970s. The names, occupations, and timelines do not match."
+        },
+        {
+          "qid": "Q106270860",
+          "label": "Nolan Lebovitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Leah Nolan' and 'Nolan Lebovitz' do not match. In the card, 'Nolan' is the surname, whereas in the Wikidata entry, 'Nolan' is the first name. Furthermore, 'Leah' and 'Lebovitz' share no commonality."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Leah Williams Nolan (1901–1982) was an American artist, sculptor, and engineer who was active in the late 1960s and 1970s. Born in Kinsley, Kansas, she pursued a diverse career that bridged commercial art, engineering, and experimental fine art. In the 1930s, she gained recognition for creating intricate crepe paper figurines used in advertisements and magazine illustrations for publications such as Esquire, Look, and the Saturday Evening Post. She studied painting at the School of Design in Chicago under Laszlo Moholy-Nagy and maintained friendships with influential figures like Alexander Calder, Gyorgy Kepes, and Ross Parmenter. During World War II, Nolan utilized her technical skills to teach engineering drafting to women at the Illinois Institute of Technology and worked as a civilian engineer for the U.S. Army Air Force. After moving to New York City in 1950, she balanced commercial drafting with her painting career. In 1967, she retired from drafting to focus exclusively on art, experimenting with video, figure construction, and new painting techniques. She was significantly involved with Experiments in Art and Technology (E.A.T.), an organization founded by Billy Klüver and Robert Rauschenberg to foster collaborations between artists and engineers. Her work and correspondence are documented in the E.A.T. archives, particularly regarding the 1968–1969 exhibition 'Some More Beginnings' held at the Brooklyn Museum. Her personal papers and artworks are held by the Kenneth Spencer Research Library at the University of Kansas and the Kinsley Library.",
+            "sources": [
+              "https://archives.lib.ku.edu/repositories/3/resources/3475",
+              "https://www.askart.com/artist/Leah_Williams_Nolan/114979/Leah_Williams_Nolan.aspx",
+              "http://kinsleylibrary.info/leah-williams-nolan-biography/",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf1m3n9861/entire_text/",
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E.A.T."
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Leah Nolan\" artist",
+            "\"Leah Nolan\" 1960s 1970s artist",
+            "\"Leah Nolan\" Experiments in Art and Technology",
+            "\"Leah Nolan\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPNCMAWRLy4XWHW6AoZC0odeYbtGvMegXHtsiKayM7F1f2OMG0LjNXGJtLt9fP_tVdRnkzRNsXJtEBaC2tzUIzsMNB_P_bj-kRdJlrdrgx8utOvmRxI2N3ohyg3K-avKqO57gPHQrcYBxGiKMDWyZv9CtfLw==",
+              "title": "ku.edu",
+              "resolvedUri": "https://archives.lib.ku.edu/repositories/3/resources/2707"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRbuMxqfk8oFt5B1jy3qWL7sc2yj27I8zbj7C6er6ezhIZdsL9A6tEIGZ79LxkihkRDvw4wSvfQcps3ij6d4Gh_LIrskuSysQJH-yPGDEA7kAlQZ26ZGpgobrYdRf3ZEJ8ivsRoFkHN0atABdjDxdxWTVmSgn5PRiSLxQdiwIeBxgZSP--yLIPD7NG3S9Qcw==",
+              "title": "kinsleylibrary.info",
+              "resolvedUri": "https://waters.kinsleylibrary.info/23-from-sand-hill-plums-to-the-big-apple-part-ii/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb9Xlabzdazn7wML9Ze7ZocPSEeMT7bfvoi3aScbKkeTtbZAB-GdNnxV4-I4K1zxKnvvCnMRlpzTVW5Z95-8rlJiPWI-WcLd0sqx1fvbfeliCP_g6_MEz23MJl18yMusxtn3eXtSEsdMA4Clr4kmhX0ALwiCNhS79NXhg=",
+              "title": "kinsleylibrary.info",
+              "resolvedUri": "https://waters.kinsleylibrary.info/author/kinsleylibrary/page/9/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLp5iw7vdYLKh57w7IAq6DdDix0_jvqjO5GI0BG_Pnzu_o8Ppc4UK_tRIai1nSkoYj2t3TnY0xi4lRuqPll0Rw4afgTogCOrvOW7kRLe2A_-_oo9o9PM7VMLxlebjp05I6kyl2lQwF6FKvDxmjJxa-5uPKYH47S6F45xI=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAizu75Z_BmIG2Mdrk9rjm83IRGoA-oXUdJtFIS5A5rn2XPXm87bRkwHkHu36A8fM8_h1AOdmJekK_meaT2UOrBZsnWIunZ38vd8uslCcSx0bWK8z-ubGRgNFaWVuQfxj8g3elAbOQZKHnp__5uDlUyr8p1Z7tTgikMLEK",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEql56a3vvLGLdJtNVs6QbJ02MTAuhX8LniduPVvz46GhDzcNP__RoTpmsz5-oJ3mfkirO942RtL4X8XbLcOL2glsde7OL8rmetlf3KtoHGjWoxYw3xX_yxVLOqjm04WL4OOo6Y8sYGZk9JIehJrZQmt_fEUn9BoE-HuoWp",
+              "title": "ku.edu",
+              "resolvedUri": "https://archives.lib.ku.edu/repositories/3/archival_objects/90455"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 174,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Leah Williams Nolan (1901–1982) was an American artist, sculptor, and engineer who was active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 175,
+                "endIndex": 297,
+                "text": "Born in Kinsley, Kansas, she pursued a diverse career that bridged commercial art, engineering, and experimental fine art."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 298,
+                "endIndex": 500,
+                "text": "In the 1930s, she gained recognition for creating intricate crepe paper figurines used in advertisements and magazine illustrations for publications such as Esquire, Look, and the Saturday Evening Post."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 691,
+                "endIndex": 889,
+                "text": "During World War II, Nolan utilized her technical skills to teach engineering drafting to women at the Illinois Institute of Technology and worked as a civilian engineer for the U.S. Army Air Force."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 890,
+                "endIndex": 987,
+                "text": "After moving to New York City in 1950, she balanced commercial drafting with her painting career."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 988,
+                "endIndex": 1127,
+                "text": "In 1967, she retired from drafting to focus exclusively on art, experimenting with video, figure construction, and new painting techniques."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1128,
+                "endIndex": 1328,
+                "text": "She was significantly involved with Experiments in Art and Technology (E.A.T.), an organization founded by Billy Klüver and Robert Rauschenberg to foster collaborations between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1329,
+                "endIndex": 1385,
+                "text": "Her work and correspondence are documented in the E.A.T."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1386,
+                "endIndex": 1497,
+                "text": "archives, particularly regarding the 1968–1969 exhibition 'Some More Beginnings' held at the Brooklyn Museum."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1498,
+                "endIndex": 2100,
+                "text": "Her personal papers and artworks are held by the Kenneth Spencer Research Library at the University of Kansas and the Kinsley Library.\",\n      \"sources\": [\n        \"https://archives.lib.ku.edu/repositories/3/resources/3475\",\n        \"https://www.askart.com/artist/Leah_Williams_Nolan/114979/Leah_Williams_Nolan.aspx\",\n        \"http://kinsleylibrary.info/leah-williams-nolan-biography/\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf1m3n9861/entire_text/\",\n        \"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E.A.T.\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +355,438 @@
         "y1": 22.7,
         "x2": 45.0,
         "y2": 28.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q18909",
+          "label": "Williamsburg Music Center",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an individual person named Gary Williams, whereas the Wikibase entity (Q18909) refers to the Williamsburg Music Center, which is a music venue and organization, not a person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q553994",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q553994) refers to a professional football player born in 1960. This contradicts the provided context that the person on the card was an artist active in the late 1960s and early 1970s, as the footballer would have been a young child during that period and his career is unrelated to the arts."
+        },
+        {
+          "qid": "Q1303995",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q1303995) was born in 1957, meaning he would have been only 10-13 years old during the late 1960s and early 1970s. This age is inconsistent with being a professional artist active during that period. Additionally, the Wikidata entity is identified as a skeleton racer, which does not match the artistic context provided for the card entry."
+        },
+        {
+          "qid": "Q3758560",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s or early 1970s. The Wikidata entity (Q3758560) is a well-known American basketball coach and player. While the name matches and the timeline of activity (late 60s onwards) is similar, the professions are entirely different and there is no evidence to suggest the basketball coach was also a professional artist."
+        },
+        {
+          "qid": "Q5526165",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q5526165) was born in 1965, making him far too young to be an artist active in the late 1960s or early 1970s. Furthermore, the Wikidata entity is a professional cricketer, which does not align with the provided context that the person from the card was an artist."
+        },
+        {
+          "qid": "Q5526166",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q5526166 refers to a professional football player born in 1959. This does not align with the card's context of an artist active in the late 1960s and early 1970s, as the football player would have been a child during that period and has no recorded history in the arts."
+        },
+        {
+          "qid": "Q5526167",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q5526167 (Gary Williams) was born in 1963 and is a professional football player. This contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s, as the Wikidata subject would have been a child during that period."
+        },
+        {
+          "qid": "Q5526168",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q5526168) was born in December 1970, which makes it impossible for him to be the artist mentioned on the card, who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q5526169",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q5526169) was born in 1972, making it impossible for him to be the Gary Williams active as an artist in the late 1960s and early 1970s. Furthermore, the Wikidata entity is a professional wrestler, not an artist."
+        },
+        {
+          "qid": "Q5526170",
+          "label": "Gary Williamson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an individual named Gary Williams who is associated with the arts, whereas the Wikidata entity is for Gary Williamson, a professional Australian rules football player. The surnames are different and the professions do not align."
+        },
+        {
+          "qid": "Q11860306",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q11860306) was born in 1977, which makes it impossible for him to have been an active artist in the late 1960s or early 1970s as specified in the card context. Additionally, the Wikidata entity is an association football coach, not an artist."
+        },
+        {
+          "qid": "Q16729203",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name Gary Williams matches, but the Wikidata entity (Q16729203) is identified as a politician and member of the Pennsylvania House of Representatives. Given the context that the card entry likely refers to an artist active in the late 1960s/early 1970s, it is improbable that this specific politician is the same individual without further evidence of an artistic career."
+        },
+        {
+          "qid": "Q16887041",
+          "label": "Gary Williamson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Williams, whereas the Wikidata entity is Gary Williamson. Additionally, the Wikidata entity is a professional ice hockey player, which does not align with the context that the individual on the card was an artist."
+        },
+        {
+          "qid": "Q22102438",
+          "label": "Gary C. Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s/early 1970s, whereas the Wikidata entity (Q22102438) describes a scientist (zoologist, botanical collector, and curator) specializing in octocorals at the California Academy of Sciences. Given that Gary Williams is a common name and their professional fields are completely different, they are unlikely to be the same person."
+        },
+        {
+          "qid": "Q23304272",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes an Australian rules football player born in 1950. While the name matches and the person would have been the correct age during the late 1960s and early 1970s, the card context specifically identifies the individual as an artist, which contradicts the professional profile of the athlete in the Wikidata record."
+        },
+        {
+          "qid": "Q39804369",
+          "label": "Gary Williamson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Gary Williams, whereas the Wikidata entity is Gary Williamson. Furthermore, the Wikidata entity is a researcher in food science and nutrition whose work period began in 1982, which does not align with the context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q41788454",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q41788454) is a professional English football player born in 1954. Given the context that the Gary Williams on the card was an artist active in the late 1960s and early 1970s, the footballer would have been a young child or teenager at the time and is associated with a completely different profession and geographical location (the UK sports scene)."
+        },
+        {
+          "qid": "Q60736437",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q60736437) was born in 1959, which would make him only about 10 or 11 years old during the target period (late 1960s/early 1970s). Furthermore, he is identified as a professional American football player, whereas the person on the card is specifically identified as an artist."
+        },
+        {
+          "qid": "Q63992141",
+          "label": "Gary Williamson",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Gary Williams, whereas the Wikidata entity is for Gary Williamson. While both individuals could plausibly be artists active during the same period (the Wikidata entity was a jazz pianist born in 1945), the difference in surname is a distinct identifier that suggests they are likely different people."
+        },
+        {
+          "qid": "Q75697150",
+          "label": "Gary Williams",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Gary Williams matches exactly. Although the Wikidata snippet is sparse, the mention of spouse Denise Cameron aligns with historical records of Gary Williams, an artist associated with the 1970s Black Arts Movement, fitting the provided context."
+        },
+        {
+          "qid": "Q76086924",
+          "label": "Gary Clifford Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1977, which contradicts the context that the person from the card was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q88310560",
+          "label": "Gary M Williams",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Gary Williams is very common. The Wikidata entity identifies this individual as a researcher, whereas the card entry refers to an artist active in the late 1960s/early 1970s. Without additional temporal or biographical data to link the research career to an artistic practice, there is no evidence for a match."
+        },
+        {
+          "qid": "Q89781437",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q89781437) refers to a basketball coach born in late 1953. This individual would have been a teenager during the late 1960s and early 1970s, making it unlikely for them to be the established artist mentioned in the card entry context."
+        },
+        {
+          "qid": "Q95998372",
+          "label": "Gary A Williams",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match (including a middle initial in the Wikidata record), the card describes an artist active in the 1960s/70s, whereas the Wikidata entity is categorized as a researcher. Without further biographical evidence linking these two distinct roles, and considering the name Gary Williams is very common, a match is unlikely."
+        },
+        {
+          "qid": "Q96001593",
+          "label": "Gary A Williams",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity describes a researcher affiliated with UCLA, while the card context specifies an artist active in the late 1960s and early 1970s. Given that Gary Williams is a common name and the occupations do not align, it is unlikely they are the same person."
+        },
+        {
+          "qid": "Q100958754",
+          "label": "Gary Williams Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a professional basketball player (Gary Williams Jr.) affiliated with San Jose State University, whereas the card record describes an artist active in the late 1960s or early 1970s. The occupations and likely timeframes do not align."
+        },
+        {
+          "qid": "Q100987177",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Gary Williams is very common. The Wikidata entity describes a basketball player for the USC Trojans, whereas the card context specifies the individual was an artist. While the timelines might overlap (a Gary Williams played at USC in the late 60s/early 70s), there is no evidence linking this athlete to an artistic career."
+        },
+        {
+          "qid": "Q100987178",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q100987178 refers to a basketball player for the Richmond Spiders, whereas the card describes Gary Williams as an artist active in the late 1960s and early 1970s. Given that 'Gary Williams' is a very common name and the occupations differ significantly, they are unlikely to be the same person."
+        },
+        {
+          "qid": "Q100987179",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name Gary Williams is relatively common. The card describes an artist active in the late 1960s or early 1970s, whereas the Wikidata entity describes a basketball player educated at Alliant International University. There is no evidence in the Wikidata profile to suggest this individual was involved in the arts during that timeframe."
+        },
+        {
+          "qid": "Q100987180",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a basketball player associated with Kansas State University, while the card entry refers to an individual known to be an artist active in the late 1960s or early 1970s. There is no evidence in the Wikidata profile of artistic activity or a career timeline that aligns with the artist mentioned on the card."
+        },
+        {
+          "qid": "Q114350194",
+          "label": "Gary W. Lopez",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry identifies the individual as Gary Williams, while the Wikidata entity is for Gary Lopez (Gary W. Lopez). The surnames do not match, and there is no indication in the provided data that 'Williams' was an alias for this photographer/filmmaker."
+        },
+        {
+          "qid": "Q131134116",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match, the Wikidata entity is identified as a 'researcher', whereas the card describes an artist active in the late 1960s/early 1970s. Given that 'Gary Williams' is a very common name and there are no overlapping biographical details (such as birth dates or specific fields of work), there is insufficient evidence to confirm they are the same person."
+        },
+        {
+          "qid": "Q131599616",
+          "label": "Gary Williams",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity describes a prominent New Zealand disability rights advocate and activist (Gary Michael Williams). There is no indication in the entity's metadata that he was an artist or active in an artistic capacity during the late 1960s/early 1970s, which is the specific context provided for the individual on the card. Gary Williams is also a very common name, increasing the likelihood of a coincidental match."
+        },
+        {
+          "qid": "Q133671620",
+          "label": "Q133671620",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the birth year of 1949 provided in the Wikidata entity is consistent with an artist being active in the late 1960s and early 1970s (making him approximately 20 years old), 'Gary Williams' is an extremely common name. The Wikidata record lacks any mention of an occupation, location, or specific artistic output to definitively link it to the individual described on the card."
+        },
+        {
+          "qid": "Q133671631",
+          "label": "Q133671631",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q133671631) was born in 1966, making them an infant or young child during the late 1960s and early 1970s. This contradicts the context that the Gary Williams on the card was an active artist during that period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Gary Williams is a physicist and technical documentarian who was active in the late 1960s and 1970s. He earned a doctorate in physics from The Catholic University of America and spent approximately 36 years as a physicist with the National Institute of Standards and Technology (NIST). He is historically associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that facilitated collaborations between artists, engineers, and scientists. Records held at the Smithsonian Institution Archives (Hirshhorn Museum and Sculpture Garden) document his involvement with E.A.T., specifically through a file containing his 'Photographs of Production' related to the organization's collaborative projects and exhibitions during that era.",
+            "sources": [
+              "https://si.edu/object/siris_arc_217643",
+              "https://becker.wustl.edu/wp-content/uploads/Untitled_11.pdf",
+              "https://physics.ucla.edu/newsletter/UCLA_Physics_Astronomy_Annual_Report_2003-2004.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Gary Williams (1946–2019) was an American R&B and soul singer best known as the lead vocalist of The Mad Lads, a group signed to Stax Records. He was active throughout the late 1960s and early 1970s, though his career was interrupted when he was drafted into the U.S. Army to serve in Vietnam (1966–1968). After returning, he continued recording with The Mad Lads until 1972, when he released a self-titled solo album on the Stax/Volt label. While primarily known as a musician, his active period and status as a collaborative artist in the Memphis soul scene align with the 1960s/70s timeframe, although a direct connection to Experiments in Art and Technology (E.A.T.) is less established in public records than his musical career.",
+            "sources": [
+              "https://www.blackpast.org/african-american-history/mad-lads-1964-1972/",
+              "https://www.dailyherald.com/entlife/20190528/john-gary-williams-of-rb-group-the-mad-lads-dies-at-73"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Gary Williams is a fine artist who graduated with a degree in Fine Art from the University of Arizona in 1968 and returned for master's studies in 1974. During his service in the U.S. Army in the late 1960s, he reportedly engaged in experimental large-scale 'earth drawings' using tank platoon maneuvers, which he likened to crop circles. His later career has focused on landscape, nature, and sky-themed paintings, which he exhibits and sells through various fine art platforms. His background in fine arts during the late 60s and early 70s makes him a contemporary of the E.A.T. movement.",
+            "sources": [
+              "https://garywilliamsfineart.com/",
+              "https://fineartamerica.com/profiles/gary-williams",
+              "https://www.stompstickers.com/blog/customer-spotlight-series-gary-williams-fine-art/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Gary Williams\" artist 1960s 1970s",
+            "Gary Williams artist Pepsi Pavilion Expo '70",
+            "\"Gary Williams\" E.A.T. artist",
+            "Gary Williams artist \"Experiments in Art and Technology\"",
+            "\"Gary Williams\" artist 1960s 1970s \"E.A.T.\"",
+            "\"Gary Williams\" E.A.T. member",
+            "\"Gary Williams\" \"9 Evenings\" artist engineer",
+            "\"Gary Williams\" artist Experiments in Art and Technology member list",
+            "\"Gary Williams\" Pepsi Pavilion E.A.T.",
+            " \"Gary Williams\"",
+            "\"Gary Williams\" engineer \"Experiments in Art and Technology\"",
+            "\"Gary Williams\" Experiments in Art and Technology E.A.T. archive",
+            "\"Gary Williams\" artist \"9 Evenings\" participant",
+            "",
+            "\"Gary Williams\" artist 1960s 1970s collaborations",
+            "\"Gary Williams\" E.A.T. \"9 Evenings\"",
+            "\"Gary Williams\" Experiments in Art and Technology member",
+            "\"Gary Williams\" artist \"E.A.T.\" Brooklyn",
+            "",
+            "\"Gary Williams\" artist 1968 University of Arizona",
+            "\"Gary Williams\" engineer Bell Labs Experiments in Art and Technology",
+            "Pepsi Pavilion \"Gary Williams\"",
+            "\"Gary Williams\" member E.A.T. 1960s 1970s",
+            "\"Gary Williams\" artist \"E.A.T.\" participant list",
+            "",
+            "\"Gary Williams\" physicist \"Experiments in Art and Technology\"",
+            "\"Gary Williams\" physicist UCLA \"E.A.T.\"",
+            "\"Gary Williams\" Pepsi Pavilion engineer artist",
+            "\"Gary Williams\" Bell Labs E.A.T. Billy Klüver",
+            "\"Gary Williams\" \"Experiments in Art and Technology\" collaboration",
+            "\"Gary Williams\" artist 1960s 1970s associated with E.A.T.",
+            "\"Gary Williams\" artist 1960s 1970s \"Bell Labs\"",
+            "\"Gary Williams\" \"E.A.T.\" participant",
+            "\"Gary Williams\" artist \"Photographs of Production\"",
+            "\"Gary Williams\" Hirshhorn Museum E.A.T.",
+            "\"Gary Williams\" \"Catholic University\" artist photographer",
+            "\"Gary Williams\" artist 1960s 1970s E.A.T. collaboration",
+            "\"Gary Williams\" Catholic University E.A.T. \"Different Drummers\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHAeIPWcNTzJuUE2f6LDjnjMmFD2A_ZZzHIrZASqolEOJ35aYH0HZop_sN6d7vN85AbMDdVrn20wTg4pmydvLH8uUNTdu2Y0e8AqYJPemTgcouWYgp8u1meTU2o5A1ni8tAzW2qFWNEe4JzbNiaND_jmmmrxbwKNAAXVoRe_2n7qs=",
+              "title": "cooper.edu",
+              "resolvedUri": "https://cooper.edu/giving/meet-our-community/lifetime-giving-societies"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkz8mzkQ_7DLAQsEovQHU8upJB5jNng0LB3WdxviWkkrUUgUghHi17BN7HhLHTSvMa6MUtjrzR4YTNrQLBB3Mx_wsiNCQjRqBBUJwpCrUZUcCgGUahz4gG8pgvXncrLecjr4GoPOa7qarD24QjKTzGM__cJMs3-fpP6NU8iHDbm_UxOEnTEoVmqRHawOfRdjgI1CRDjObouvR7Jg0cf0U=",
+              "title": "wustl.edu",
+              "resolvedUri": "https://becker.wustl.edu/static-files/arb/007-RG031-S25-WUmagazine/RG031-S25-V74-N04-Winter-2004.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBBosoqL0EDbaxYOyiMwjWcnqg7kYPMm3BGG3InaxM9bstkVlMMPnjdhj8ikZLVQdD2OkwXtOJS2kwtnUIhYssYdw8uKa-MB9YxKTTyUjy0UWBzNU64uC6wc7Wqpee247Y9DxxkRH-PQ==",
+              "title": "ncgenweb.us",
+              "resolvedUri": "https://www.ncgenweb.us/hyde/obits/OBITSW.HTM"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYSgt7RIFV2p0bR031Dd02ll96ze6mSObSYXbocS-qNlznLwfbrdX3ZEET2ipO1jHUFcxZQY0eu5jhtcE9UPlaJ6-ophb6bRqNsonBzF0J8Gu3hJBujorWzYipRRbbcxYEZuo=",
+              "title": "nicolesalimbene.com",
+              "resolvedUri": "http://www.nicolesalimbene.com/news.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgON9AMmacA2EQr42jSUxMnCihasnyOLak-r086HOTr0maWy33dV6Z7XEfFAbwHopZ-FK1-AwnHk3PlES9oU9OQpjpPFNxiUEtKH_J3YCDHU1vTYO_eqqbC1wj9vpvHiyKLxhbnXAnk8XrYQ==",
+              "title": "npshistory.com",
+              "resolvedUri": "https://npshistory.com/publications/ncr/adhi.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMJjDRRuseQB5qyB6k9dfH91jwpo9GUMWxAow2I--uoLunMdL8_e2P6mvCZ99Je9SgWuBSx3uyf0cRJ_qfBG6-umrJ3pH-DeMmM1XLYHmYuhqprHbfNi6mC-_4jlL09nWQRLpFQV5I0fL-Wg==",
+              "title": "benchpeg.com",
+              "resolvedUri": "https://benchpeg.com/Search?term=Gallery%20S%20O"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgUg8QaZHNdApWErNCQrHpOXMRhwr_HZD-0QaYdnYvysJmhtHPhE4ukx9yfTEiIaPa-i1wCjuC18VUHFSNc_oh2rKvOkPv9cjyJIeItmSJrXrwYWLxlMcXmO7UFykxPZGoFmSJI6hYhOrCyxukG-g1ysoi-39ppqZIfGL3pC_1XGeIBMeGpGCDz8BvW5phSA7loPRu_gA=",
+              "title": "winthrop.edu",
+              "resolvedUri": "https://digitalcommons.winthrop.edu/cgi/viewcontent.cgi?article=1077&context=graduatetheses"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2gcYKpSACh4PjJqqM0UW8RD_zmL9cxLD6zpNf166DotKzljVT7mnjrm1WebiXwILPFyWFYga3LHMHZp0-f6D4E8SVroRE1-inBL6lUWPuHo0lN0rkvTQ2MuI6RNB1zP8a9RyEGw==",
+              "title": "blogspot.com",
+              "resolvedUri": "http://chefgarywilliams.blogspot.com/2012/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9JuSwprCYGQg11o4PvTcZ0QfNLVuaghIzMOmd1h86R8lxJSs6MV2k8hgZZ8dScjNwLH_C0nTTfEuiKWtSZcDvTbV2dD1bmOHrj8TUwxE50Z_hqRsMi31dEnQIFYJYPs1qID1m5Ng=",
+              "title": "uvm.edu",
+              "resolvedUri": "https://www.uvm.edu/theview/pdfs/102208.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKU3P6WeacbRA9N8kuRtJQRCN1wPYRZn3C1AQ42T9hn79kxPUshSiV8ssjClTHG0lxndiRM0tjkhVQJXF5FnHU8xnd8F1Xl90_OiQE3k4tZd186VmF0VdySAPwv8E4sCbV8_p-nTpVL5jOCg_BPxQpfyDhIz-kXt7nwejj0mCO8ZLdyzpJx0cY6-oiDTw6alTC2LM25e9GsEZAqQDr",
+              "title": "sydney.edu.au",
+              "resolvedUri": "https://www.sydney.edu.au/news-opinion/news/2024/11/05/how-the-freedom-ride-shaped-the-nation.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWn3VIiDF8g_cw5IDmu8ygSakakdnobupA9oI5rjQj3tx_fMs58GElkm13PIZimxayws_WbEzQJXbF5eY0jHLyNUbKmuzn3VsHYDmofKsP9kNHz0bh8S3wkQ6yLDks2uSNUvcYWyxA2WREVxBWPe--cMK8i780zYRepaTHev8=",
+              "title": "arts.gov",
+              "resolvedUri": "https://www.arts.gov/sites/default/files/NEA-Annual-Report-1996.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvr-AmmcOGQY3wyjblh4FxD60usDXIvwOzbSQFN7-sYk6t0f6uL5bISM6YC3waqMunLRNJglquxrAFjQT2vXMJvNZfPnEngJa08aGPBLFRdrnSoUvIim2IvPdm9_UfVaY2T1apY1pKml9wtJ1yrXU-29Wc",
+              "title": "nzpoetryshelf.com",
+              "resolvedUri": "https://nzpoetryshelf.com/category/uncategorized/page/3/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2NgquVoGvl34K6oBJTDjnBn5nAAh9LquQ7Mf19N5dxod5_2EUoRiRhH8kHV-JQLa6RAAZwhxP3Xl3xMUV1RufaTOwVXb6vZHU9rQoh6VoZIF6RHVm4fTi6sba2mB9o4O9Z_qVyCfi4BaMO21XrAURcA==",
+              "title": "si.edu",
+              "resolvedUri": "https://siarchives.si.edu/collections/siris_arc_217047"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 150,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Gary Williams is a physicist and technical documentarian who was active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 151,
+                "endIndex": 335,
+                "text": "He earned a doctorate in physics from The Catholic University of America and spent approximately 36 years as a physicist with the National Institute of Standards and Technology (NIST)."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2743,
+                "endIndex": 3026,
+                "text": "movement.\",\n      \"sources\": [\n        \"https://garywilliamsfineart.com/\",\n        \"https://fineartamerica.com/profiles/gary-williams\",\n        \"https://www.stompstickers.com/blog/customer-spotlight-series-gary-williams-fine-art/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                1,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            }
+          ]
+        }
       }
     }
   ]

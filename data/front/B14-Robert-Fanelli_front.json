@@ -14,5 +14,187 @@
     "technicalFields": [
       "Physics"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q130280297",
+      "label": "Robert D Fanelli",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "The names match (Robert Fanelli vs Robert D Fanelli). The card identifies him as being in the Physics department at Brooklyn College, which is consistent with the Wikidata occupation of 'researcher'. Brooklyn College is located in New York, which aligns with the residential address on the card."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q22323",
+      "label": "Brooklyn College",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Brooklyn College' matches exactly between the card and the Wikibase entity. Furthermore, the Wikibase entity references Wikidata QID Q371625, which corresponds to the public college in New York City, consistent with the location and departmental information (Physics) on the card."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q371625",
+      "label": "Brooklyn College",
+      "description": "senior college of the City University of New York, located in Brooklyn",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Brooklyn College' is an exact match. The Wikidata entity describes a college in Brooklyn, New York, which aligns with the card's location of New York and the academic context of the 'Physics' department."
+    },
+    {
+      "qid": "Q99529394",
+      "label": "Brooklyn Bulldogs men's basketball",
+      "description": "sports team of Brooklyn College",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the Brooklyn Bulldogs men's basketball team, which is a sports team associated with Brooklyn College. The employer on the card is the academic institution itself, specifically the Physics department. While related, a sports team is not the same entity as the college as an employer."
+    },
+    {
+      "qid": "Q136349339",
+      "label": "Birmingham Metropolitan College, James Watt Campus",
+      "description": "former college, now campus of a combined college, in Birmingham, England",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is Brooklyn College, which is located in New York City. The Wikidata entity is Birmingham Metropolitan College in Birmingham, England. These are two different institutions in different countries."
+    },
+    {
+      "qid": "Q14706200",
+      "label": "Brooklyn College Academy",
+      "description": "high school in New York, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to Brooklyn College, which is a senior college of the City University of New York (CUNY) and contains academic departments like Physics. The Wikidata entity Q14706200 is Brooklyn College Academy, which is a high school founded in 1986. While related geographically, they are distinct educational institutions."
+    },
+    {
+      "qid": "Q99529383",
+      "label": "Brooklyn Bulldogs",
+      "description": "sports program of Brooklyn College",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q99529383) represents the Brooklyn Bulldogs, which is the sports program of Brooklyn College. The card refers to Brooklyn College as the overall academic institution where the individual works in the Physics department. While related, a sports program is a distinct sub-entity and not the organization itself as a whole."
+    },
+    {
+      "qid": "Q4974782",
+      "label": "Brooklyn College Center for Computer Music",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents the 'Brooklyn College Center for Computer Music', which is a specific unit within Brooklyn College focused on music and computing. The card lists the employer as 'Brooklyn College' and the department as 'Physics', which does not align with a specialized computer music center."
+    },
+    {
+      "qid": "Q99473619",
+      "label": "Brooklyn College Official Bookstore",
+      "description": "bookshop in Brooklyn, NY, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the educational institution 'Brooklyn College' where Robert Fanelli worked in the Physics department. The Wikidata entity Q99473619 is specifically for the 'Brooklyn College Official Bookstore', which is a retail bookshop and not the academic college itself."
+    },
+    {
+      "qid": "Q125506127",
+      "label": "Walter W. Gerboth Music Library",
+      "description": "music library at Brooklyn College",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the Walter W. Gerboth Music Library, which is a sub-unit or department within Brooklyn College. The employer listed on the card is the college itself (specifically the Physics department), not the Music Library."
+    },
+    {
+      "qid": "Q134717214",
+      "label": "Brooklyn College Health Clinic",
+      "description": "Free health clinic for students at Brooklyn College (CUNY)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q134717214) is a specific health clinic located within Brooklyn College, whereas the employer on the card is the college itself (specifically the Physics department). The clinic is a sub-unit of the parent institution listed on the card."
+    },
+    {
+      "qid": "Q133097606",
+      "label": "Archives and Special Collections, Brooklyn College Library",
+      "description": "Archives of Brooklyn College (CUNY)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q133097606 refers specifically to the Archives and Special Collections department of the Brooklyn College Library, whereas the card identifies 'Brooklyn College' (the institution) as the employer. The Wikidata entity itself identifies Brooklyn College as its 'parent organization or unit', making it a sub-component rather than the organization as a whole."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Robert Fanelli is a physicist and musician who was a member of the faculty at the Department of Physics at Brooklyn College of the City University of New York during the late 1960s and 1970s. He is recognized for his interdisciplinary work bridging the fields of science and the arts, particularly through his association with Experiments in Art and Technology (E.A.T.), an organization founded to facilitate collaborations between artists and engineers. His early academic contributions in physics include co-authoring papers such as \"The Impossibility of a Quantum Phase Operator\" (1969) and \"Energy eigenvalues of a quantum anharmonic oscillator\" (1982) with R. E. Struzynski. \n\nBefore focusing on physics, Fanelli had a significant background in music, having studied classical harp and jazz vibraphone, and performing professionally with bands in New York. After teaching graduate physics at Brooklyn College for several years, he eventually integrated his scientific and musical interests, turning to computer music composition. His work in this area utilizes the harmonic series, mathematical algorithms, and computers. Since 1999, he has been affiliated with the Brooklyn College Center for Computer Music (BCCM) as a composer and researcher.",
+        "sources": [
+          "https://pubs.aip.org/aapt/ajp/article-abstract/37/9/928/1041926/The-Impossibility-of-a-Quantum-Phase-Operator",
+          "https://pubs.aip.org/aapt/ajp/article-abstract/51/1/56/1050212/Energy-eigenvalues-of-a-quantum-anharmonic",
+          "https://www.voxnovus.com/60x60/2012/Evolution_Mix_I.htm",
+          "https://ieeexplore.ieee.org/document/6796333"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Robert Fanelli\" physicist New York",
+        "\"Robert Fanelli\" Brooklyn College 1960s 1970s",
+        "\"Robert Fanelli\" E.A.T. Experiments in Art and Technology",
+        "Robert Fanelli Brooklyn College Physics",
+        "",
+        "\"Robert Fanelli\" physicist music E.A.T.",
+        "\"Robert Fanelli\" \"Experiments in Art and Technology\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd8rmS9b5F1qF0wsTkrfxGSbY9HDaFir4p6vUpCghjbiMW6vy3l3OpmNqsObszoq7NYQiuIsn0S8Q_6Q-6l4TA4CsoFEeT5P_0vg_WNcO1YaQk2f4yyQFi9AUd8VWGayNyuUxlcUTROVG8New=",
+          "title": "voxnovus.com",
+          "resolvedUri": "http://www.voxnovus.com/60x60/2010_Magenta_Mix.htm"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6T1MHbJ4efzlv64X5gE8rCRJx5fvhkAtfaJQ9QIpjJcFF6eOC8grnGEe8efmclxtj9RNvElOhGMgNAtrsuq8NFtHv70B9jBQMeWG66CkHvWWK8sV2r7EBKfeuoybkhK7Lv754-w==",
+          "title": "epsteinweb.org",
+          "resolvedUri": "https://epsteinweb.org/robert-f-kennedy-jr/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 734,
+            "endIndex": 917,
+            "text": "\\n\\nBefore focusing on physics, Fanelli had a significant background in music, having studied classical harp and jazz vibraphone, and performing professionally with bands in New York."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 918,
+            "endIndex": 1090,
+            "text": "After teaching graduate physics at Brooklyn College for several years, he eventually integrated his scientific and musical interests, turning to computer music composition."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1091,
+            "endIndex": 1182,
+            "text": "His work in this area utilizes the harmonic series, mathematical algorithms, and computers."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1183,
+            "endIndex": 1740,
+            "text": "Since 1999, he has been affiliated with the Brooklyn College Center for Computer Music (BCCM) as a composer and researcher.\",\n      \"sources\": [\n        \"https://pubs.aip.org/aapt/ajp/article-abstract/37/9/928/1041926/The-Impossibility-of-a-Quantum-Phase-Operator\",\n        \"https://pubs.aip.org/aapt/ajp/article-abstract/51/1/56/1050212/Energy-eigenvalues-of-a-quantum-anharmonic\",\n        \"https://www.voxnovus.com/60x60/2012/Evolution_Mix_I.htm\",\n        \"https://ieeexplore.ieee.org/document/6796333\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

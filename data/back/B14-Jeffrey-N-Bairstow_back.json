@@ -11,6 +11,113 @@
         "y1": 10.1,
         "x2": 34.3,
         "y2": 21.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q681434",
+          "label": "Jeff Tambellini",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different ('Otto' vs 'Jeff'). Furthermore, the Wikidata entity describes an ice hockey player born in 1984, which makes it impossible for him to be the artist active in the late 1960s or early 1970s described in the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Otto Tambellini appears in contemporary web contexts, particularly on digital media platforms like YouTube, as a name associated with the experimental media project 'Black Gate Cologne' (1968–1969). This project is historically documented as a collaboration between the German artist Otto Piene and the Italian-American artist Aldo Tambellini. 'Black Gate Cologne' is frequently cited as the first television program created by artists and was produced at the 'Electronic Studio' of WDR television in Germany. It featured a live intermedia performance involving light art, experimental film, and audience participation. In historical records, both Otto Piene and Aldo Tambellini were prominent figures in the late 1960s and early 1970s media art scene, often associated with the Experiments in Art and Technology (E.A.T.) organization, which fostered collaborations between the arts and scientific engineering. References to 'Otto Tambellini' typically conflate the first name of Piene with the surname of Tambellini when attributing this collaborative work.",
+            "sources": [
+              "https://www.medienkunstnetz.de/works/black-gate-cologne/",
+              "https://www.youtube.com/watch?v=FjC2HkM3k5o",
+              "https://www.danse.lu/mediation-scolaire/appel-a-candidature-video-danse-2025/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Otto Tambellini\" Experiments in Art and Technology",
+            "\"Otto Tambellini\" artist",
+            "\"Otto Tambellini\" E.A.T.",
+            "\"Otto Tambellini\" biography",
+            "\"Otto Tambellini\" Black Gate Cologne",
+            "\"Otto Tambellini\" artist biography",
+            "\"Otto Tambellini\" E.A.T. member",
+            "\"Otto Tambellini\" -Aldo -Piene"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9psSnaYlNBOREQ3LbWU2X38TZdyGxP3ZUKCYO70JbQrUspE_QTkb_Ff7iBJTuxJ7Ut36lvUKCV21ONofR5YZhVCOtF7_VY_-625EyOeKUY7IaFEphikk3z8AmEKQicjurRm2adw==",
+              "title": "youtube.com",
+              "resolvedUri": "https://www.youtube.com/watch?v=FCs4edrrQIQ"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2sFS3Ltl5fUoPOguDw4UEoy04DUeX0l1Xa2lnTX4WstPjuaJ2_zGwwKlq_2uio52eF_uEfjWkA5-qNQrJH1hQ2I7ySu1cNaxtDwMoNM2Cvdr0xh-ug16BIbucwAwGEZjV07GRYpkOAJLoI_Xjgm1R6A==",
+              "title": "medienkunstnetz.de",
+              "resolvedUri": "http://www.medienkunstnetz.de/works/black-gate-cologne/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtunG2QedHyEoMFZDGByrvkFPRXJl7sw72nKJRYQJetPIopBCpsbXCkFOywlHkjkzHz3h7A_qJk6kYndAE6-_lJz6s8tdGGgPmIaJkLt1KbMzH0T9nhNzKeV8MjDzF",
+              "title": "danse.lu",
+              "resolvedUri": "https://danse.lu/mediation-scolaire/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnWvHvV1d-3mICxup-g_PYh0MyWgJC_sZMT40jiJlkYEwayaV7jrsJJdJxCptvR-dPCNOEWvZ0u1HPslsnGLxfuAYTPYRdO0Dd0POzgrXu8uBsd5jtAfkFfcxNOUiNmEyd5yaqx0sYmAeWCPB5gaT9f9re4VD1U660iOHK4nC-iEN3-oMm_RUf",
+              "title": "medienkunstnetz.de",
+              "resolvedUri": "http://www.medienkunstnetz.de/themes/overview_of_media_art/performance/scroll/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcUCA1Of94JMsdJ4bA3r_5PV9A9xdaGG8E1I_u61I5_UIRPPiLxSHZVSR9OHBdDy4HjZ_Ll6YLajW9nWAPpjvuRVeuZsPq6TxXTFr2hBncbLBcJLOOHYyLAIqU-noZtaoD7r8nDB_4iYAOqFmC0VkskL0qtL4PTF8QfpxPmkNuvbrmc5OX5ryiryN-",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D0%BD%D0%B5,_%D0%9E%D1%82%D1%82%D0%BE"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 250,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Otto Tambellini appears in contemporary web contexts, particularly on digital media platforms like YouTube, as a name associated with the experimental media project 'Black Gate Cologne' (1968–1969)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 396,
+                "endIndex": 561,
+                "text": "'Black Gate Cologne' is frequently cited as the first television program created by artists and was produced at the 'Electronic Studio' of WDR television in Germany."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 562,
+                "endIndex": 671,
+                "text": "It featured a live intermedia performance involving light art, experimental film, and audience participation."
+              },
+              "groundingChunkIndices": [
+                1,
+                0,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 874,
+                "endIndex": 962,
+                "text": "organization, which fostered collaborations between the arts and scientific engineering."
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     }
   ]

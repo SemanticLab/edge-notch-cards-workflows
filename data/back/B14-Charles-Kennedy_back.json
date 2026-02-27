@@ -11,6 +11,168 @@
         "y1": 20.8,
         "x2": 27.1,
         "y2": 43.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26378",
+          "label": "Richard Lowenberg",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'R. Lowenberg' on the card aligns with 'Richard Lowenberg' in the Wikibase entity. Both are associated with the E.A.T. (Experiments in Art and Technology) Technical Services Program, and the timeframe of the organization's activity matches the provided context."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q123292749",
+          "label": "Antonie Löwenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Antonie Löwenberg, a Holocaust victim born in 1896 who was transported to the Riga Ghetto in 1941. This does not match the card entry for 'R. Lowenberg', who is described as an artist active in the late 1960s and early 1970s. The first initial and the biographical timeline are completely different."
+        },
+        {
+          "qid": "Q123292809",
+          "label": "Karl-Heinz Löwenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist 'R. Lowenberg' active in the late 1960s/early 1970s (likely Richard Lowenberg). The Wikidata entity Q123292809 describes Karl-Heinz Löwenberg, a Holocaust victim born in 1937 who was deported to the Riga Ghetto as a child in 1941. The names (initials) and life contexts do not match."
+        },
+        {
+          "qid": "Q123293168",
+          "label": "Ernst Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (R. Lowenberg) does not match the Wikidata entity (Ernst Löwenstein). Furthermore, the Wikidata entity describes a Holocaust victim born in 1877 who was deported in 1941, which is temporally inconsistent with an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q123293261",
+          "label": "Karl Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (R. Lowenberg) does not match the Wikidata entity (Karl Löwenstein). Additionally, the Wikidata entity describes a Holocaust victim born in 1880, which is inconsistent with the context of an artist active in the late 1960s and early 1970s associated with E.A.T."
+        },
+        {
+          "qid": "Q123293379",
+          "label": "Margarete Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'R. Lowenberg' does not match 'Margarete Lowenstein'. Additionally, the Wikidata entity describes a Holocaust victim born in 1891 who was deported in 1941, which does not align with the context of an artist active in the late 1960s and early 1970s associated with Experiments in Art and Technology (E.A.T.)."
+        },
+        {
+          "qid": "Q123293512",
+          "label": "Selma Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Selma Löwenstein) was born in 1877 and was a victim of the Holocaust, deported in 1941. This is chronologically incompatible with the card's subject, an artist active in the late 1960s and 1970s. Additionally, the names 'R. Lowenberg' and 'Selma Löwenstein' do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Richard Lowenberg (born 1946) is an artist, designer, and eco-cultural activist who has been active since the mid-1960s. He studied architecture and design at Pratt Institute and began using photography and film as creative mediums during that time. By 1970, influenced by cybernetics and figures like Buckminster Fuller and Marshall McLuhan, he transitioned into electronic media, including video, audio synthesis, and holography. Lowenberg was a member of Experiments in Art and Technology (E.A.T.), joining through Robert Whitman. He was part of the founding team of 'The Kitchen' in New York City in 1971 and taught the first Electronic Media Arts class at Pratt Institute. His work frequently explores the 'ecology of the information environment,' utilizing bio-telemetry, remote sensing, and surveillance technologies. Notable projects include using bio-signals from plants and humans to create music and video, such as his 1976 work 'The Secret Life of Plants,' and collaborating with NASA as an artist-in-residence. He has also served as the co-director of Scientists/Artists Research Collaborations (SARC).",
+            "sources": [
+              "https://richardlowenberg.com",
+              "https://creativesantafe.org/pechakucha-night-vol-13-flux/",
+              "https://www.plantwave.com/blog/the-origin-future-of-plant-biosonification-how-plantwave-turns-bio-signals-into-music",
+              "https://www.artmonthly.co.uk/magazine/site/article/art-and-the-anthropocene-bob-dickinson-on-eco-art",
+              "https://theseus.fi/bitstream/handle/10024/156477/Nivukoski_Santeri.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Richard Lowenberg\" artist E.A.T.",
+            "\"Richard Lowenberg\" artist 1960s 1970s",
+            "\"R. Lowenberg\" artist biography",
+            "artist R. Lowenberg Experiments in Art and Technology E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKrdg9RtI2fznORrCdDi5fnASgDwwH7fReZX4kwGEFo59TZTbhpRCH9TW5GwOLGpnePErJg9r57e2WZKMIZyAjyboAmnevuV3mcCpjGIdpP-SllVsDqVfS7OG8cGxrkzUcQQQsBqoGi_EHNN_zdSnExgEylDeGNZDL7lLGmYO6TImNLwVAjw12ncUYQ3I0dI9qQA==",
+              "title": "richardlowenberg.com",
+              "resolvedUri": "http://www.richardlowenberg.com/uploads/1/8/3/0/18303441/rl-eco-arts-outline-bio-rl.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH37P_Ahy9jv-Bp41Pz4QcB-785T69JDLpjib6uAVla788XrsmGXt5VdlTR3c3D_OR30RGYoJQwgYaLOkE-75mlUljDA9Q1yZIs3lD5Dp_F4Y8mW_4_CGF0dtJ6AHrwFeRXmDVQoDF0NAIZFI9heAENe_IBvw59cAPwR0tW3dQ=",
+              "title": "creativesantafe.org",
+              "resolvedUri": "https://creativesantafe.org/events/pechakucha-santa-fe-vol-13-flux/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRgnDVmW9dma-KQ2SEvQYR-bdVdkfIaxR6lj0jRCy1V4dDjU5e_fTsgQq2N6FaELUjSb3nJ4GBbPe4_0DoKK5-7paiRxNEAv0usIrT1IE-sxEP5bHDAZ6hSCvB1QH8JA8ugr0Ra1rTSDgCBqvMhE9UjLtpS0ZzOjvsXiU6oWEG2nDMpaq3MQ6bAUh5FIAjRaIr6AI=",
+              "title": "americansforthearts.org",
+              "resolvedUri": "https://explorer.americansforthearts.org/wp-content/uploads/2022/01/Information-Arts.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk4Nu_M81XCSwcJasZPR1RRoYTbm3KELAFDLjg6pVUel8iRzQZnSZE9F19jMxBRW-SwqOz8fxHsxFYlNFaS9A_wWS69Q9g3kX32EFASUItwaY5fonFybz9YxwxRqvZSNm19HXsIwp5IyYFpkk_nd1zsxzWgj_NRPwpyg==",
+              "title": "gsa.ac.uk",
+              "resolvedUri": "https://radar.gsa.ac.uk/2778/1/ISEA2012_confproceedings_WEB.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 170,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Richard Lowenberg (born 1946) is an artist, designer, and eco-cultural activist who has been active since the mid-1960s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 171,
+                "endIndex": 299,
+                "text": "He studied architecture and design at Pratt Institute and began using photography and film as creative mediums during that time."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 300,
+                "endIndex": 481,
+                "text": "By 1970, influenced by cybernetics and figures like Buckminster Fuller and Marshall McLuhan, he transitioned into electronic media, including video, audio synthesis, and holography."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 482,
+                "endIndex": 583,
+                "text": "Lowenberg was a member of Experiments in Art and Technology (E.A.T.), joining through Robert Whitman."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 875,
+                "endIndex": 1073,
+                "text": "Notable projects include using bio-signals from plants and humans to create music and video, such as his 1976 work 'The Secret Life of Plants,' and collaborating with NASA as an artist-in-residence."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1074,
+                "endIndex": 1669,
+                "text": "He has also served as the co-director of Scientists/Artists Research Collaborations (SARC).\",\n      \"sources\": [\n        \"https://richardlowenberg.com\",\n        \"https://creativesantafe.org/pechakucha-night-vol-13-flux/\",\n        \"https://www.plantwave.com/blog/the-origin-future-of-plant-biosonification-how-plantwave-turns-bio-signals-into-music\",\n        \"https://www.artmonthly.co.uk/magazine/site/article/art-and-the-anthropocene-bob-dickinson-on-eco-art\",\n        \"https://theseus.fi/bitstream/handle/10024/156477/Nivukoski_Santeri.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

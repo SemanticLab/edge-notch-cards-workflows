@@ -18,5 +18,98 @@
       "Design"
     ],
     "specializedSkillsKnowledge": "Data processing and design"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q6913543",
+      "label": "Morrill Martin Crowe",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are fundamentally different; one is Duncan E. Morrill and the other is Morrill Martin Crowe. Furthermore, their professions (electronics/data processing vs. politician/mayor) and geographic locations (New Jersey vs. Virginia) do not overlap."
+    },
+    {
+      "qid": "Q6913550",
+      "label": "Morrill Wyman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different people from different centuries and professions. Duncan E. Morrill worked in electronics and data processing in the 20th century (based on Lockheed Electronics), while Morrill Wyman was a 19th-century physician (1812-1903) associated with Harvard."
+    },
+    {
+      "qid": "Q55721021",
+      "label": "Morrill Goddard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are different (Duncan E. Morrill vs. Morrill Goddard). Additionally, the Wikidata subject died in 1937, whereas the index card mentions data processing, computers, and a zip code (introduced in 1963), indicating the card refers to a person active much later in the 20th century."
+    },
+    {
+      "qid": "Q97860906",
+      "label": "Morrill N. Drew",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are different (Duncan E. Morrill vs. Morrill N. Drew). Furthermore, the Wikidata entity died in 1917, whereas the index card record describes a person working in computers and data processing at Lockheed Electronics, utilizing a zip code (introduced in 1963), making a match chronologically impossible."
+    },
+    {
+      "qid": "Q105753477",
+      "label": "Morrill S. Ryder",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Duncan E. Morrill, an electronics and computer expert in New Jersey, likely active in the mid-20th century. The Wikidata entity refers to Morrill S. Ryder, a politician born in 1867 who served in the Massachusetts House of Representatives in the early 1920s. Their names, locations, professions, and time periods do not align."
+    },
+    {
+      "qid": "Q106987026",
+      "label": "Morrill Asa Greenwood",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The physical card refers to Duncan E. Morrill, a mid-20th-century computer/electronics professional living in New Jersey and working for Lockheed. The Wikidata entity refers to Morrill Asa Greenwood, a 19th-century politician from Massachusetts who died in 1904, long before the technical fields listed on the card (like computers and data processing) were established."
+    },
+    {
+      "qid": "Q122942455",
+      "label": "Morrill Wyman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Duncan E. Morrill, an electronics professional in New Jersey working for Lockheed (a company founded well after the death of the Wikidata subject). The Wikidata entity is Morrill Wyman (1855-1914), a writer from Massachusetts who died long before the computer era mentioned in the card."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Duncan E. Morrill was an engineer and technical researcher active in the fields of electronics, data processing, and mathematics from the early 1960s through the 1980s. He received his education at English High School in Boston (class of 1944) and the University of Mississippi (class of 1951). In the early 1960s, he served as a Research Associate at the Woods Hole Oceanographic Institution (WHOI), where he was part of the scientific departments and supporting services personnel. During the late 1960s and early 1970s, Morrill was employed by the Lockheed Electronics Company in Plainfield, New Jersey, focusing on technical areas such as computers, electronics, and design. During this period, he resided in Warren, New Jersey, and was a participant in Experiments in Art and Technology (E.A.T.), an organization dedicated to fostering collaborations between artists and engineers. By the late 1970s, he was associated with the Interstate Electronics Corporation and was involved in the early developmental history of the Ada programming language, notably participating in the 1978 Irvine Workshop on the DoD Common High Order Language. He is most widely recognized for co-authoring the influential paper 'The Real Ada: Countess of Lovelace' with Carol L. James, published in ACM SIGSOFT Software Engineering Notes in January 1983, which provided historical research on the life and contributions of Ada Lovelace.",
+        "sources": [
+          "https://www.whoi.edu/whois-who/scientific-departments-personnel-1961/",
+          "https://doi.org/10.1145/1010954.1010960",
+          "https://apps.dtic.mil/sti/pdfs/ADA070773.pdf",
+          "https://www.adahome.com/History/Ada/AdaHistory.html",
+          "https://archive.org/details/englishhighschoo1944engl/page/n1/mode/2up"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Duncan E. Morrill\" engineer New Jersey",
+        "\"Duncan E. Morrill\" E.A.T. Experiments in Art and Technology",
+        "\"Duncan E. Morrill\" biography",
+        "",
+        "\"Duncan E. Morrill\" Warren New Jersey",
+        "",
+        "\"Duncan E. Morrill\" bio engineer New Jersey",
+        "\"Duncan E. Morrill\" Experiments in Art and Technology E.A.T.",
+        "",
+        "\"Duncan E. Morrill\" Warren NJ",
+        "\"Duncan E. Morrill\" \"E.A.T.\"",
+        "",
+        "\"Duncan E. Morrill\" Warren NJ resident engineer",
+        "\"Duncan E. Morrill\" E.A.T. directory",
+        "",
+        "\"Duncan E. Morrill\" Interstate Electronics Ada",
+        "\"Duncan E. Morrill\" ACM biography"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

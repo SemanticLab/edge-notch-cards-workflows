@@ -19,5 +19,229 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Computer generator music"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q25509",
+      "label": "New York University",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikibase entity 'New York University' is a direct match for the first institution listed in the card's employer field 'New York University & City College of New York'. The card lists two separate employers, and this entity correctly identifies one of them, with consistent location and institution type."
+    },
+    {
+      "qid": "Q26768",
+      "label": "City College of New York",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as 'New York University & City College of New York', which contains two separate institutions. The Wikibase entity Q26768 specifically represents City College of New York (CCNY), which is explicitly named on the card and located in the same geographic area."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q49210",
+      "label": "New York University",
+      "description": "private university in New York City",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity 'New York University' directly matches the first of the two institutions listed as the employer on the card. The card lists 'New York University & City College of New York', which refers to two distinct entities, and this Wikidata entry represents one of them accurately within the same geographical context (New York City)."
+    },
+    {
+      "qid": "Q7014807",
+      "label": "New York University Press",
+      "description": "university press that is part of New York University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is 'New York University & City College of New York', referring to the academic institutions. The Wikidata entity Q7014807 is specifically 'New York University Press', which is the publishing division of NYU. Given the individual's expertise in Mathematics and Chemical Engineering, they are almost certainly employed by the university's academic departments rather than its publishing arm."
+    },
+    {
+      "qid": "Q3100195",
+      "label": "Grossman School of Medicine",
+      "description": "medical school of New York University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the NYU Grossman School of Medicine. While it is a part of New York University, the card lists NYU as a whole, and the subject's technical fields (Mathematics and Chemical engineering) are not typically associated with a medical school."
+    },
+    {
+      "qid": "Q797078",
+      "label": "New York University Tisch School of the Arts",
+      "description": "performing arts institute at New York University in New York City, New York, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists 'New York University' as the employer (specifically alongside City College of New York), referring to the university as a whole. The Wikidata entity Q797078 represents the 'Tisch School of the Arts', which is a specific sub-unit (performing arts school) within NYU. Furthermore, the individual's technical background in Chemical Engineering and Mathematics suggests an affiliation with the university's academic or engineering departments rather than this specific arts institute."
+    },
+    {
+      "qid": "Q846173",
+      "label": "New York University School of Law",
+      "description": "law school of New York University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is specifically the New York University School of Law, whereas the card lists the employer as 'New York University & City College of New York'. Furthermore, the individual on the card is an expert in Mathematics and Chemical Engineering, which makes employment specifically within the Law School highly improbable compared to other departments of NYU."
+    },
+    {
+      "qid": "Q75478",
+      "label": "New York University Tandon School of Engineering",
+      "description": "university in Brooklyn, New York, U.S.",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "The Wikidata entity represents the NYU Tandon School of Engineering (formerly Polytechnic Institute of NYU), which is located in Brooklyn. This aligns with the 'New York University' portion of the employer field and is further supported by the subject's residence in Brooklyn and expertise in chemical engineering, a core discipline of this specific school. While the card also mentions City College of New York, this entity is a highly specific match for the NYU component of the subject's professional affiliation."
+    },
+    {
+      "qid": "Q6956114",
+      "label": "NYU Langone Health",
+      "description": "hospital in New York, United States",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The card lists 'New York University' as the employer, likely referring to the academic institution, especially given the individual's fields of Mathematics and Chemical Engineering. The Wikidata entity Q6956114 represents NYU Langone Health, which is the specific medical system and hospital network of NYU. While it is a part of the university, it is a specialized medical entity that does not directly correspond to the general university listing for an engineer/mathematician."
+    },
+    {
+      "qid": "Q59493106",
+      "label": "New York University Collection (NAID 947)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to an archival collection (fonds) within the National Archives and Records Administration, while the employer on the card refers to the educational institutions themselves (New York University and City College of New York). An archival collection is a set of records, not an employer organization."
+    },
+    {
+      "qid": "Q770467",
+      "label": "Stern School of Business",
+      "description": "business school of NYU",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q770467 refers specifically to the Stern School of Business, whereas the card lists 'New York University' as a whole (alongside CCNY). Furthermore, the individual's technical fields of Mathematics and Chemical Engineering are typically associated with schools of engineering or arts and sciences, making it unlikely they were specifically affiliated with the business school."
+    },
+    {
+      "qid": "Q946028",
+      "label": "Courant Institute School of Mathematics, Computing, and Data Science",
+      "description": "academic institute of New York University",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "The Wikidata entity is the Courant Institute of Mathematical Sciences, which is an academic division of New York University (one of the two employers listed on the card). Given that the individual's technical field is listed as Mathematics, this specific institute within NYU is the likely department of affiliation, making it a specific organizational match for the employer listed."
+    },
+    {
+      "qid": "Q1093910",
+      "label": "City College of New York",
+      "description": "senior college of the City University of New York",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity 'City College of New York' (CCNY) is an exact match for the second organization listed in the employer field of the card ('New York University & City College of New York'). The card lists two separate institutions, and this entity correctly represents one of them."
+    },
+    {
+      "qid": "Q5009663",
+      "label": "CCNY Beavers men's basketball",
+      "description": "sports team of City College of New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents a specific sports team (CCNY Beavers men's basketball) rather than the academic institution (City College of New York) or the combined employer listed on the card (New York University & City College of New York)."
+    },
+    {
+      "qid": "Q96573977",
+      "label": "CCNY Beavers",
+      "description": "sports teams of City College of New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as the City College of New York (CCNY), which is an educational institution. The Wikidata entity Q96573977 represents the 'CCNY Beavers', the sports teams/athletic department of the college. While related, the sports program is a sub-unit of the university and not the organization itself, and it is unlikely an academic professional like the one on the card would be listed as employed by the sports club."
+    },
+    {
+      "qid": "Q111021605",
+      "label": "City College stampede",
+      "description": "1991 New York City disaster",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q111021605 refers to a specific tragic event (the City College stampede) that occurred in 1991, whereas the card refers to the educational institutions 'New York University' and 'City College of New York' as employers. An event is not the same as the organization where it took place."
+    },
+    {
+      "qid": "Q56883788",
+      "label": "North Campus of the City College of New York",
+      "description": "campus in Manhattan in United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents the North Campus of the City College of New York, which is a specific physical location or campus. The card lists the employer as the City College of New York (alongside NYU), which is the overarching organization. While the campus is a part of the college, it is not the organization itself."
+    },
+    {
+      "qid": "Q125501605",
+      "label": "City College of New York Music Library",
+      "description": "music library at The City College of New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to a specific sub-unit (City College of New York Music Library), whereas the card lists the parent institution (City College of New York) along with New York University. While the person on the card has interests in computer-generated music, their technical fields are Mathematics and Chemical Engineering, making it more likely they were affiliated with the broader institution rather than the music library specifically."
+    },
+    {
+      "qid": "Q133455717",
+      "label": "City College of New York Film Institute",
+      "description": "film studio at the City College of New York founded in 1942",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents a specific sub-department (Film Institute) within the City College of New York, while the card identifies the employer as the university itself (along with NYU). Furthermore, the individual's expertise in Mathematics and Chemical Engineering does not align with a Film Institute."
+    },
+    {
+      "qid": "Q54172415",
+      "label": "Q54172415",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q54172415 contains no label or description in the provided data. Additionally, it does not correspond to either of the two distinct academic institutions (New York University or City College of New York) listed on the card. Q54172415 typically refers to a scientific concept or individual record associated with Tom Wayburn, rather than an organization."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Thomas L. Wayburn (known as Tom Wayburn) is a multifaceted engineer, mathematician, and musician who was active in the New York City technical and artistic scenes during the late 1960s and early 1970s. Born in 1934 in Detroit, he earned a B.S. in Chemical and Metallurgical Engineering from the University of Michigan in 1956. He later moved to New York City, where he obtained an M.S. in Mathematics from the Courant Institute of Mathematical Sciences (CIMS) at New York University (NYU) in 1968 and completed coursework for a Ph.D. in Mathematics by 1970. His technical career involved chemical process design and early software development for chemical engineering, specifically working with the CACHE (Computer Aids for Chemical Engineering) Corporation and programs like FLOWTRAN. He was an instructor and assistant professor at several institutions, including Clarkson University (1983–1987) and potentially City College of New York (CCNY), as noted in historical records from the period. \n\nBeyond his engineering work, Wayburn was a professional jazz drummer and recording engineer, notably associated with the 'Jazz Loft' scene at 821 Sixth Avenue in Manhattan during the late 1950s and 1960s. He recorded with legendary jazz pianist Lennie Tristano and was a contemporary of musicians like Philly Joe Jones and Chet Baker. His unique dual identity as an engineer and an artist aligns with the mission of Experiments in Art and Technology (E.A.T.), an organization founded in 1966 to foster collaborations between the technical and creative communities. Wayburn's later work shifted toward political economy and energy analysis, where he developed theories on 'Dematerialism' and studied Energy Return on Energy Invested (ERoEI). He eventually earned a Ph.D. in Chemical Engineering from the University of Utah in 1983 and resided in Brooklyn and Manhattan before later moving to Houston, Texas.",
+        "sources": [
+          "https://dematerialism.net/",
+          "https://www.researchgate.net/profile/Thomas-Wayburn",
+          "https://archives.lib.duke.edu/catalog/jazzloft",
+          "https://www.quora.com/profile/Tom-Wayburn",
+          "https://cache.org/newsletters/cache-newsletter-23-fall-1986",
+          "https://www.downbeat.com/digitaledition/2021/DB2112/_art/DB2112.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Thomas L. Wayburn\" chemical engineer",
+        "\"Tom Wayburn\" Brooklyn NYU CCNY mathematics",
+        "\"Thomas Wayburn\" E.A.T. engineer",
+        "",
+        "\"Tom Wayburn\" Brooklyn chemical engineering",
+        "\"Tom Wayburn\" E.A.T. project",
+        "\"Tom Wayburn\" City College of New York",
+        "\"Thomas Wayburn\" City College of New York",
+        "",
+        "\"Tom Wayburn\" Brooklyn New York identity",
+        "\"Tom Wayburn\" City College of New York chemical engineering",
+        "\"Tom Wayburn\" City College of New York faculty",
+        "\"Tom Wayburn\" E.A.T. membership",
+        "",
+        "\"Tom Wayburn\" instructor CCNY",
+        "\"Tom Wayburn\" engineer artist collaboration",
+        "\"Tom Wayburn\" E.A.T. 1968",
+        "\"Tom Wayburn\" Experiments in Art and Technology member"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf4KpzDTdYyQnHiFDOZycrfOal0IXU-xbHqhvutYd1ucTKqBKyy3P48wCMy05s-i_DC3F3KQvDdRnfprfjwloUHncllOFukFFIwXF9wHKpRLNn04Y=",
+          "title": "dematerialism.net",
+          "resolvedUri": "https://dematerialism.net/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 251,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Thomas L. Wayburn (known as Tom Wayburn) is a multifaceted engineer, mathematician, and musician who was active in the New York City technical and artistic scenes during the late 1960s and early 1970s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

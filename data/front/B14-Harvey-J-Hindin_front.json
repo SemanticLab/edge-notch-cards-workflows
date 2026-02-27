@@ -15,5 +15,120 @@
     "technicalFields": [
       "microwaves"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q4993917",
+      "label": "Varian Medical Systems",
+      "description": "American healthcare company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4993917 (Varian Medical Systems) is a successor company that resulted from a split of the original Varian Associates. The Wikidata data explicitly lists 'follows: Varian Associates', indicating that they are distinct entities in a succession chain. Varian Associates (the employer on the card) was the parent company before it spun off its medical, semiconductor, and instrument businesses into separate corporations in 1999."
+    },
+    {
+      "qid": "Q7915753",
+      "label": "Varian Associates",
+      "description": "company based in California",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly. Varian Associates was a prominent electronics and microwave technology company, which aligns with the technical field listed on the card. Furthermore, Varian Associates acquired LEL (Low Electronic Laboratories), which was based in the Long Island area (Copiague/Deer Park) indicated by the address on the card."
+    },
+    {
+      "qid": "Q41643113",
+      "label": "Q41643113",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Varian Associates (represented by Wikidata entity Q41643113) was a major scientific instrument and electronics company known for its work in microwave technology. The card lists 'microwaves' as the technical field and mentions the 'LEL division'; Varian acquired LEL, Inc. in 1965, which was based in Copiague, New York, very close to the resident's address in Deer Park, New York."
+    },
+    {
+      "qid": "Q92262769",
+      "label": "Q92262769",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer name 'Varian Associates' on the card is an exact match for the Wikidata entity Q92262769. Furthermore, Varian Associates was a major player in the microwave industry, which aligns perfectly with the technical field listed on the card."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Harvey J. Hindin was a microwave engineer, technical editor, and author active from the 1960s through the 1990s. In the late 1960s, he worked as an engineer for the LEL Division of Varian Associates, located in Copiague and Deer Park, New York. During this period, he specialized in microwave technology, publishing several significant papers in the IEEE Transactions on Microwave Theory and Techniques on subjects such as directional couplers, scattering parameters, and network synthesis. He is also noted for his interest in recreational mathematics, contributing to Martin Gardner's 'Mathematical Games' column in Scientific American on the topic of 'additive persistence.' By the early 1980s, Hindin transitioned into technical journalism, serving as the Communications & Microwave editor for Electronics magazine (McGraw-Hill) and later as a senior editor for Computer Design magazine. In 1985, he co-authored 'Artificial Intelligence in Business, Science, and Industry: Fundamentals' with Wendy B. Rauch-Hindin. In his later career, he worked as an industry analyst for D.H. Brown Associates. He was also known for his involvement in the Experiments in Art and Technology (E.A.T.) organization, which fostered collaboration between the technical and artistic communities.",
+        "sources": [
+          "https://ieeexplore.ieee.org/author/37276569100",
+          "https://worldradiohistory.com/Archive-Electronics/80s/1980/Electronics-1980-12-18.pdf",
+          "https://archive.org/details/computerDesign-1984-12/page/n5/mode/2up",
+          "https://www.researchgate.net/scientific-contributions/Harvey-J-Hindin-2041231649",
+          "https://www.scientificamerican.com/article/mathematical-games-1979-02/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Harvey J. Hindin\" Varian Associates microwave",
+        "\"Harvey J. Hindin\" Deer Park New York",
+        "\"Harvey J. Hindin\" biography engineer",
+        "\"Harvey J. Hindin\" microwave engineer publications",
+        "\"Harvey J. Hindin\" Experiments in Art and Technology",
+        "\"Harvey J. Hindin\" Deer Park microwave",
+        "\"Harvey J. Hindin\" IEEE microwave biography",
+        "\"Harvey J. Hindin\" \"Varian Associates\"",
+        "\"Harvey J. Hindin\" microwave engineer art technology",
+        "\"Harvey Hindin\" E.A.T. artist engineer",
+        "\"Harvey J. Hindin\" \"Varian Associates\" E.A.T.",
+        "\"Harvey J. Hindin\" E.A.T. technical person"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzWS3dG7l3HwMQ-ZF8JySgAD-jZ3QY2zVgPrzHFvnxpncKzLseqZ-sVVGDR2tXd0qMcJvFMcpS3XcaX3-W_hH7o_004ks_iKWq_gwDgDnX7i8OQglUk-JJjrMU41zo7A0nlmfHWzIV3y3KkNVOXoh8LX_nSls2nM1EBiKWUoVo5cen7o8fiJ_j5DTvny_BAw8pQ9rjLmzl2HjBwDMBqEg6SmoLxrkG",
+          "title": "wavehunters.co.uk",
+          "resolvedUri": "https://bookings.wavehunters.co.uk/files/publication/Download_PDFS/Easy%20Ai%20Tools%20Step%20By%20Step.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs6l56E2nb1bbH-1qoKVcWEZjVKlAY3gNWeHgmnxZu81D8xSjda19IBYkRB5_yqCMkwrwo92ffTpROWA4iAK5mFn4KVuBUvBdpejTmBg9Qdny9yfkdgk4pbCml_PiLXlocqARZ5aMHZDX6iWTYdidNAJPfz3iP7Z4wXLYpCNRGRaU1XlfuutxWM4cf4RUneEmUvKn1NxNzbMuca7Ncg-OUCpeS2jFTmzD7tOSX3WhPL0cmMZuIN8SaiFs_66WSzlhazcqnUmCKfeKXZHO3gdly",
+          "title": "wavehunters.co.uk",
+          "resolvedUri": "https://bookings.wavehunters.co.uk/data/uploaded-files/Documents/Best%20Strategies%20For%20How%20To%20Start%20Ai%20For%20Small%20Business%20Tips.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAXF8klblQphIjrin-YJQVPIPjRZ9gKQ7UtGLyVandKgS_VCIyO39D38RsSyjuTqbwxGqrsp4Lc3h6x1mKjQEz8L80RuSQEujCsVQmwZ7t3S50UvfVS6c0WKs07I6gUOMjvEXroMiCV1ySrOeVhkyU6uI43aOG4zJfQvGLGV3x-VU3uVnNGjxMZG7d4eF33Jw7Ix18sznVqt1Syv4bV0LuRdCe",
+          "title": "epdf.pub",
+          "resolvedUri": "https://epdf.pub/the-colossal-book-of-short-puzzles-and-problems05506f683c79fb9a1b4f8fb8299fa43a704.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgyKVJEWBpQwTmSF8iEY1hOpgHbdDuod_5uEzgN0jdo4S_qglw4Cy190C6DCGRoZmWiH2iGhLWQkTcGRw63Z6dcRiZfwGPhlavLPCKh-WX1gwyT0AJHfTagsiKba9T9DqZEU7zJ79fccneSCh4NqncJihaDJBfcuU0JUxL5-CPKa_ncXSHmf1LW-aF2V1HgvS3gVg1",
+          "title": "seamenschurch-archives.org",
+          "resolvedUri": "https://seamenschurch-archives.org/sci/archive/files/05d6cdbcda985d16491f79d7164e0fa9.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 942,
+            "endIndex": 1068,
+            "text": "In 1985, he co-authored 'Artificial Intelligence in Business, Science, and Industry: Fundamentals' with Wendy B. Rauch-Hindin."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1238,
+            "endIndex": 1809,
+            "text": "organization, which fostered collaboration between the technical and artistic communities.\",\n      \"sources\": [\n        \"https://ieeexplore.ieee.org/author/37276569100\",\n        \"https://worldradiohistory.com/Archive-Electronics/80s/1980/Electronics-1980-12-18.pdf\",\n        \"https://archive.org/details/computerDesign-1984-12/page/n5/mode/2up\",\n        \"https://www.researchgate.net/scientific-contributions/Harvey-J-Hindin-2041231649\",\n        \"https://www.scientificamerican.com/article/mathematical-games-1979-02/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
   }
 }

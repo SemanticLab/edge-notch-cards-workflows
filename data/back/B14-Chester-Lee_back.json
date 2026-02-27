@@ -9,6 +9,95 @@
         "y1": 11.0,
         "x2": 55.55,
         "y2": 17.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q36608833",
+          "label": "Kris M. Shanks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Lorna Shanks' and 'Kris M. Shanks' do not match. Furthermore, the Wikidata entity is identified as a male botanist, whereas the card refers to someone named Lorna (typically female) who is associated with artistic activity."
+        },
+        {
+          "qid": "Q42120772",
+          "label": "Shankar C. Mandal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Lorna Shanks vs. Shankar C. Mandal). Additionally, the Wikidata entity was born in 2000, making it impossible for them to have been active in the late 1960s or early 1970s as indicated by the card context."
+        },
+        {
+          "qid": "Q42793889",
+          "label": "Dennis Shanks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Lorna Shanks' and 'Dennis Shanks' do not match. Additionally, the Wikidata entity is for a male researcher in public health, which does not align with the context of an artist active in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q76448830",
+          "label": "Ann Zane Shanks",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names 'Lorna Shanks' and 'Ann Zane Shanks' share a surname but have entirely different given names ('Lorna' vs. 'Ann'). While Ann Zane Shanks was an artist active during the relevant time period (film/photography), there is no evidence in the records to suggest that she used the name Lorna."
+        },
+        {
+          "qid": "Q131850390",
+          "label": "Shanks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q131850390 refers to 'Shanks', a member of the electronic duo 'Shanks & Bigfoot' (Steven Meade), who was active in the late 1990s. This does not match the name 'Lorna Shanks' or the 1960s/1970s timeframe provided in the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lorna Shanks was a graphic design researcher, writer, and advertising professional active in the New York design and typography industry during the 1970s and 1980s. She is best known for her long-standing association with the International Typeface Corporation (ITC), where she served in various capacities including Research Director, Advertising Manager, and Contributing Editor for the influential graphic design magazine U&lc (Upper and Lower Case). Her work often focused on the intersection of design, technology, and communications; for example, in 1977, she designed and wrote an article on the 'AlphaComp' typesetting system for an ITC publication. In 1975, she was a participant in the Second Federal Design Assembly, where she joined a panel discussion titled 'Does It Have to Be Printed?' alongside other design figures like Eli Cantor and Harley Parker, which was later published in Design Quarterly (No. 94/95). Additionally, she is listed in National Endowment for the Arts (NEA) annual reports from 1974 and 1975, appearing in the context of the Architecture + Environmental Arts program. While her direct membership role in Experiments in Art and Technology (E.A.T.) is not explicitly detailed in standard founding lists, her professional activity within the New York interdisciplinary design community and her involvement with federal design assemblies and technological research align with the E.A.T. network's goals of promoting collaborations between art, design, and science.",
+            "sources": [
+              "https://arts.gov/sites/default/files/NEA-Annual-Report-1974.pdf",
+              "https://www.jstor.org/stable/4090883",
+              "https://www.paulshawletterdesign.com/2022/09/blue-pencil-no-51-itc-as-a-pioneer-of-diversity-in-type-design/",
+              "https://www.calameo.com/books/001014856b377759a2267",
+              "https://archive.org/details/design-quarterly-94-95-federal-design-assembly-the-design-reality-1975"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Lorna Shanks\" artist 1960s 1970s",
+            "Lorna Shanks E.A.T. archives",
+            "Who is Lorna Shanks artist?",
+            "\"Lorna Shanks\" E.A.T. member list",
+            "\"Lorna Shanks\" Design Quarterly 94/95",
+            "Lorna Shanks \"Experiments in Art and Technology\"",
+            "",
+            "\"Lorna Shanks\" graphic designer ITC U&lc",
+            "\"Lorna Shanks\" E.A.T. project staff",
+            "\"Lorna Shanks\" bio design typography",
+            "\"Lorna Shanks\"",
+            "\"Lorna Shanks\" artist 1968 1969 1970",
+            "\"Lorna Shanks\" Experiments in Art and Technology member"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeGzJQoZ2Y-3ECqKh0fRUwR_IsucmKWI7D990l47HmC-TItcfzbsVZPX54IcatRy0V9WjTdzVXasF0Nyz6n7--uoiqggSZsSwT3_zIB7xXd3IeU7JeyIDqREzh6B_jr4HakCBCQY4NE1b_7n9yCkY3UWAiPDElSJKjYf-wdgzhvDLboo_y5uG3",
+              "title": "fonts.net",
+              "resolvedUri": "https://fast.fonts.net/FontsCom/Live/ulc-scans/Volume%208-4%20(Low%20Res).pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 214,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lorna Shanks was a graphic design researcher, writer, and advertising professional active in the New York design and typography industry during the 1970s and 1980s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +109,99 @@
         "y1": 17.5,
         "x2": 54.19,
         "y2": 26.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q681434",
+          "label": "Jeff Tambellini",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Otto vs. Jeff). Furthermore, the Wikidata entity was born in 1984 and is an ice hockey player, which contradicts the card's context of an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "\"Otto Tambellini\" appears to be a name used to refer to the collaborative work of artists Otto Piene (1928–2014) and Aldo Tambellini (1930–2020), or a conflation of the two names in historical records. They were prominent figures in the art-and-technology movement of the late 1960s and early 1970s. Their most significant collaboration was \"Black Gate Cologne\" (1968), created for the WDR (Westdeutscher Rundfunk) television station in Germany. This production is frequently cited as the first television program ever designed by artists and involved a live intermedia event with films, light objects, and audience participation. Both artists were also featured in the landmark 1969 broadcast \"The Medium Is the Medium,\" which showcased early video art experiments. Aldo Tambellini was a pioneer of experimental cinema and video art, known for his focus on the concept of \"Black,\" while Otto Piene was a co-founder of the Zero group and a leader in kinetic and light art. Their work aligned with the interdisciplinary goals of Experiments in Art and Technology (E.A.T.), though they are primarily recognized for their individual and joint contributions to video art and light sculpture.",
+            "sources": [
+              "http://www.medienkunstnetz.de/works/black-gate-cologne/",
+              "http://www.medienkunstnetz.de/artist/tambellini/biography/",
+              "http://www.medienkunstnetz.de/artist/piene/biography/",
+              "https://www.medienkunstnetz.de/source-text/44/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Otto Tambellini\" Experiments in Art and Technology",
+            "\"Otto Tambellini\" 1960s 1970s",
+            "\"Otto Tambellini\" artist",
+            "\"Otto Tambellini\" E.A.T.",
+            "\"Otto Tambellini\" artist 1960s",
+            "Is there an artist named \"Otto Tambellini\"?",
+            "\"Otto Tambellini\" biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwPG_JnVa8Is0iqOSANifCpJPETwinFphHXBNflhH5kng-mLNZ4CiipzrNytHksjjZtuO7a2htEsQ6aL6lsiQ0oEef45vTdr8HTHFJCD_KVV98cltpe6z_--lHNLOpPT9gJcM5PcX793CEMqHuacwR5w==",
+              "title": "medienkunstnetz.de",
+              "resolvedUri": "http://www.medienkunstnetz.de/search/?qt=digital+video"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyCFbCeQr0-L1s7twcSON5S8NBaGxXL2A0c4fWeExuV1A66-SLhJ-YWLK07bl75xqv7r3Uo_i6hju9wTHTcjIPrAYRbQ_sTX_z0amxTclcc3KCqGjSu5IR7lT8D2Ig9iy0uduowwM4Au7Dbmpcsw4saXLztl-SZWy9i0I4IpBEGEBRwcjFTBwU",
+              "title": "medienkunstnetz.de",
+              "resolvedUri": "http://www.medienkunstnetz.de/themes/overview_of_media_art/perception/scroll/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoM7UQ9TBP6RCf7B3tDnF_vJl4FT-OeLWxOz061dEvEFtgcEbEs8Tsl8qjnacQs6uc6ASbpDEDst-LBNQGy9Mk9WjEG40xOFQw_ikF30hCD1vNpXqfEcJDChq6I2EySecOT2gvbBsfl0XtpJ51uENnJ8td27kRXiogkPlETkLuHBaUeWg=",
+              "title": "medienkunstnetz.de",
+              "resolvedUri": "http://www.medienkunstnetz.de/themes/overview_of_media_art/perception/12/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ15WHt5Cs6vfj1MO3nonZr1ydYZ6JR08SGHFjwxPU09aWwUA2kQ1knHMcQTFJ16eb02xl-EzSqEogDOCXmLT1DEMMmGqZNlq_g4Hn9YJ45TtScXEGHKzK1I0qPWVtmQqJCF91BXwkfkfjEq2yngi5kko=",
+              "title": "medienkunstnetz.de",
+              "resolvedUri": "http://www.medienkunstnetz.de/works/black-gate-cologne/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFif0SqcTlffw8v7chooVX4i6C9Gt7zkTX6WFvpykdFfxiASyXaIAJQi-kmwwJ6SMjBjR0FyZg2S5DL8ebkQIgTEXEjFOlpyc73ofv1D_z5Ow1D1ZrwT7E6R02c",
+              "title": "danse.lu",
+              "resolvedUri": "https://danse.lu/appels/?lang=en"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrtq799svLDJuFQ-zLA2SlXQP9rGJ6kG1TUKx6-XJx3Sv3dbQVlSq3Q1jc7snUrlW9vpB-U9hoC5h48rIbqtRz5hmnc8qIfGsH457-c3WbuFjgSKKSsYxTybx7_GMeGg==",
+              "title": "danse.lu",
+              "resolvedUri": "https://danse.lu/mediation-scolaire/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 257,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"\\\"Otto Tambellini\\\" appears to be a name used to refer to the collaborative work of artists Otto Piene (1928–2014) and Aldo Tambellini (1930–2020), or a conflation of the two names in historical records."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 504,
+                "endIndex": 688,
+                "text": "This production is frequently cited as the first television program ever designed by artists and involved a live intermedia event with films, light objects, and audience participation."
+              },
+              "groundingChunkIndices": [
+                3,
+                4,
+                5
+              ]
+            }
+          ]
+        }
       }
     }
   ]

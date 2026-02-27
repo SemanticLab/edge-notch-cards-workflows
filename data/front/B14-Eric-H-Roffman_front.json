@@ -23,5 +23,48 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "computers: graphics/film"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q356415",
+      "label": "Howard Roffman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first names are different (Eric vs. Howard). Additionally, the professional backgrounds are significantly different: Eric H. Roffman is focused on STEM fields like meteorology, physics, and computer programming at Stony Brook University, while Howard Roffman is a lawyer, author, and photographer."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Eric H. Roffman was a mathematical physicist active during the late 1960s and early 1970s. He held academic and research positions at several prestigious institutions, including the Courant Institute of Mathematical Sciences (NYU), the Institute for Advanced Study (IAS) in Princeton (1966–1967), and the State University of New York at Stony Brook (SUNY Stony Brook), where he was a lecturer in the Department of Mathematics and Physics. By the early 1970s, he was also affiliated with the City College of New York (CCNY). His scientific work primarily focused on relativistic n-particle kinematics, representation theory of local current algebras, and mathematical methods in field theory. Roffman was an early proponent of utilizing advanced computing methods and real-time computer programming to solve complex problems in theoretical physics, participating in international colloquiums on the subject. He was associated with the Experiments in Art and Technology (E.A.T.) organization, a non-profit founded to foster collaborations between the arts and sciences. According to E.A.T. records, he was registered as a technical collaborator with expertise spanning physics, mathematics, computers/cybernetics, programming, meteorology, and oceanography.",
+        "sources": [
+          "https://journals.aps.org/jp/abstract/10.1063/1.1704201",
+          "https://www.ias.edu/sites/default/files/IAS_Staff_Members_List_1966-1967.pdf",
+          "https://inis.iaea.org/collection/NCLCollectionStore/_Public/05/153/5153894.pdf",
+          "https://library.cern/record/221588"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Eric H. Roffman\" Stony Brook",
+        "\"Eric H. Roffman\" physics Stony Brook",
+        "",
+        "\"Eric H. Roffman\" E.A.T. technical person",
+        "\"Eric H. Roffman\" CCNY physics",
+        "\"Eric H. Roffman\" E.A.T. archives",
+        "",
+        "\"Eric H. Roffman\" \"E.A.T.\" Stony Brook",
+        "\"Eric H. Roffman\" E.A.T. list",
+        "\"Eric H. Roffman\" \"hydrodynamics\""
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

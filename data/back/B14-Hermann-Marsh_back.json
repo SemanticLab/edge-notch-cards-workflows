@@ -10,6 +10,114 @@
         "y1": 11.2,
         "x2": 44.2,
         "y2": 16.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q374610",
+          "label": "David McCullough",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name David McCullough is an exact match. The Wikidata entity describes a prominent writer and historian who began his career in 1968, which fits the late 1960s/1970s timeframe. While primarily known as a writer (a creative practitioner), David McCullough was also an accomplished painter, fitting the 'artist' context provided."
+        },
+        {
+          "qid": "Q121144073",
+          "label": "David McCullough",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names match exactly. The Wikidata entity is a cinematographer, which is an artistic/creative profession that aligns with the artist context and the specified timeframe of the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q122811146",
+          "label": "David McCullough",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name 'David McCullough' is an exact match. The Wikidata entity is listed as a film director, which falls under the artist/creative practitioner category described in the card's context. However, because the name is relatively common and the Wikidata entry lacks specific biographical dates or filmography to confirm activity in the late 1960s/1970s, the confidence level is low."
+        },
+        {
+          "qid": "Q137017427",
+          "label": "Q137017427",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The names match exactly. While the Wikidata entity contains minimal biographical data (lacking occupation or dates), it provides no information that contradicts the card's profile of an artist active in the mid-20th century."
+        },
+        {
+          "qid": "Q137890548",
+          "label": "David McCullough",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a basketball player at Morgan State University, which is a specific athletic profile that does not align with the context of an artist active in the 1960s or 1970s. Additionally, the Wikidata entry for this specific athlete likely refers to a contemporary or modern-era player rather than a creative professional from the mid-20th century."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David W. McCullough (born 1945) is an American interdisciplinary artist known for his work in painting, sculpture, and performance art, often incorporating elements of science and technology. Born in Springfield, Massachusetts, he studied art and technology at Springfield Technical High School (1963–1965) and later earned a B.F.A. in painting and printmaking from the Kansas City Art Institute (1968–1970). During the late 1960s, he participated in avant-garde 'happenings' with Allan Kaprow and Dick Higgins. McCullough moved to Dallas, Texas, in 1970, where he became a prominent figure in the local art scene, executing projects like the 'Baggie Mantra Sanctorum March' (1971), considered Dallas's first outdoor environmental happening. His association with Experiments in Art and Technology (E.A.T.) is evidenced by his inclusion in archives documenting experimental art and technology collaborations from the late 1960s and 1970s, such as the Jack Eyerly collection. McCullough's practice, which he terms 'Quantum Art' or 'Sonic Expressionism,' often involves electronic music, sand paintings, and the use of synthesizers (including studies on the Moog synthesizer at the University of North Texas). He holds an M.F.A. from the California Institute of the Arts (CalArts) and a second M.F.A. in Art and Technology from the University of Texas at Dallas.",
+            "sources": [
+              "https://dma.org/about/collection/archives/david-mccullough-oral-history",
+              "https://fineartestates.com/artists/david-mccullough/",
+              "https://davidwmcculloughart.com/career-information/",
+              "https://flashbackdallas.com/2015/07/26/james-surls-david-mccullough-art-in-exposition-park-1973/",
+              "https://archiveswest.orbiscascade.org/ark:80444/xv46700"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"David McCullough\" painter 1970s",
+            "\"David McCullough\" artist 1960s 1970s",
+            "artist \"David McCullough\" \"Experiments in Art and Technology\" E.A.T.",
+            "\"David McCullough\" E.A.T. collaborator"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHSt5u43XcXEngxL8z46I8DSD0Xx_g747XEa76M-kzNZLGXD_QtTXQ7aUviWw4id_RnBBiiU3MUqVQb70ZoDYmhI4n9NPJGMl6YV3GPRZo-oRZlhsjxII4Gu3_rTOgnCnt9ZyzYWZ54Geu9u-BRgxERbd8d4Fwam8cljxCQVjLalWy_7FuUnH-3ClnVYPfuFYSYjDIyXoQIRXfpy8MzWhNtqYkLYuz",
+              "title": "olympiahospital.in",
+              "resolvedUri": "https://olympiahospital.in/?products/tesugue-valley-mixed-media-wall-art-by-david-w-mccullough-19/16459999/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEROO6J8zQ5TZkg7iKcLbPQcsJZGqdI2Iqj-ALYqrKc8Q5SSSmDNlsCyTe3txJVMm8nUko4iF7vN3vDTWhnY3ARPczFXCwo-Y0tIYP06VSkiv_nLIYcBb2-MzHjl-pVvv2m",
+              "title": "fineartestates.com",
+              "resolvedUri": "https://fineartestates.com/artist/1184"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs72tFlsmVaj1Jo-x7ejBop3QUf7G6fmgTHXpRJCEkF_WShpjmKDuKEJpGMz2WXti1x_3yCbYCgXKWJ74AjEagKDtw6fPffqRKgKcQ3gzt2c2_dd0HpgDmHZHA",
+              "title": "davidwmcculloughart.com",
+              "resolvedUri": "https://davidwmcculloughart.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnAiB9L9yX_HDEdLQRZHk0BgViqfI45rI_cmsJeTGhX8aewPoqeZeU0UgXG_dUCVT_evqgAbMyQG9EXKzqk351E2j_Ha6sWyjZ1AHdZqk7cdcOvYVB_Gh63DMn4vrkoWsCqnO4kaKBz8MjUiIn0L-Pi8J-Qkcnyhio7bH_pSAd",
+              "title": "davidwmcculloughart.com",
+              "resolvedUri": "https://davidwmcculloughart.com/f/quantum-art-beginnings-1968---1972"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 241,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"David W. McCullough (born 1945) is an American interdisciplinary artist known for his work in painting, sculpture, and performance art, often incorporating elements of science and technology."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1261,
+                "endIndex": 1871,
+                "text": "He holds an M.F.A. from the California Institute of the Arts (CalArts) and a second M.F.A. in Art and Technology from the University of Texas at Dallas.\",\n      \"sources\": [\n        \"https://dma.org/about/collection/archives/david-mccullough-oral-history\",\n        \"https://fineartestates.com/artists/david-mccullough/\",\n        \"https://davidwmcculloughart.com/career-information/\",\n        \"https://flashbackdallas.com/2015/07/26/james-surls-david-mccullough-art-in-exposition-park-1973/\",\n        \"https://archiveswest.orbiscascade.org/ark:80444/xv46700\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -21,6 +129,142 @@
         "y1": 17.5,
         "x2": 33.4,
         "y2": 24.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6697422",
+          "label": "Lucio Pozzi",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Lucio Pozzi' matches exactly. The card entry is dated 1969, which aligns perfectly with the Wikidata entity's timeline (born in 1935, active from at least 1962). The Wikidata entity is identified as a painter and photographer, matching the known artist context for the card entries."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lucio Pozzi (born November 29, 1935) is an Italian-born American multidisciplinary artist known for his work in painting, performance, installation, video, and sculpture. Born in Milan, he studied architecture in Rome before moving to New York City in 1962. During the late 1960s and 1970s, he became a prominent figure in the New York avant-garde scene. He was notably associated with Experiments in Art and Technology (E.A.T.), appearing in their records for 'matchings' between artists and engineers from 1966 to 1968. Pozzi's work is characterized by a rejection of stylistic consistency, often alternating between minimalism and maximalism and utilizing 'translation mechanisms' like dualisms (e.g., the Level Group and A/Z diptych series). He founded the artist-run magazine New Observations in the mid-1970s and has held teaching positions at institutions such as Cooper Union, Yale University, Princeton University, and the School of Visual Arts. His work has been featured in major international exhibitions, including Documenta 6 (1977), the Venice Biennale (1980), and a solo video exhibition in the Museum of Modern Art's Projects series (1978).",
+            "sources": [
+              "https://www.luciopozzi.com/",
+              "https://en.wikipedia.org/wiki/Lucio_Pozzi",
+              "https://www.getty.edu/research/tools/guides_inventories/eat_records.html",
+              "https://oac.cdlib.org/findaid/ark:/13030/kt467nd1p9/",
+              "https://www.halbromm.com/artists/lucio-pozzi",
+              "https://www.magazzino.art/exhibitions/lucio-pozzi-qui-dentro-in-here"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lucio Pozzi artist 1960s 1970s",
+            "Lucio Pozzi artist career and works",
+            "Lucio Pozzi artist biography Experiments in Art and Technology E.A.T.",
+            "Lucio Pozzi E.A.T. member artist",
+            "Lucio Pozzi \"Experiments in Art and Technology\"",
+            "Lucio Pozzi collaborator engineer E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsT-9X_B8mApWoDfuNBtJCKw6yNmuNLGv5rRuWePM1wdkgiTHlSX4273B_MDEie2nTidgrfEQj5qGsNqZzGgf9F-AnObcCUWbomLnDtawBsMlX2WxBQtX0DCH6",
+              "title": "halbromm.com",
+              "resolvedUri": "https://halbromm.com/lucio-pozzi"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbBQtdanhVr3yYZ6_gckaSRE3GftVKsk6PwGRgpIaDgrE91_qpww8VWEF9qYz1ocwF1g6FHbHeMJLdM8IMkt2GBtDqIec2i5kwVkiLApcFjE_Xoofn-Im4Sg==",
+              "title": "cityarts.org",
+              "resolvedUri": "https://www.cityarts.org/pozzi"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUA3yBLY41y1WOBH9Ie1Sz3Sw5J9CXSU-rC6dWeBHdT0jIcdrXnYe2QP3k1ymVoAvU-EZtKZJUMu5YrZpNCKk5k327EFepjSloWUgxDkudao1mGAbnj-2LG0OFXnv3LRvL0w6THyClRuSV3A07kzBpSUsJIoRlARmmyiJblGW8KRk_Kb_t",
+              "title": "magazzino.art",
+              "resolvedUri": "https://www.magazzino.art/visit/exhibitions/lucio-pozzi-qui-dentro-in-here"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzF1WPSoYYAT-f6BJ6m6jw6f1AOBQNLZF6I-y55TtdV3ETIXV_3yKIvuyJRNvAW7BXk8S_kYi1qVdOC-L0rSuYJgujyoXH79dPACSZIVXLXpSHLDClNQ==",
+              "title": "luciopozzi.com",
+              "resolvedUri": "https://www.luciopozzi.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuLYv8rzilF7IOh2OfK8ynIi5Fw132uwXIfA3SM3fYggI4B6i2y91jC6xNAg0SynPSe0fHivFYK7oBsEPqXKkcYegQsv2CvoUe38tqluoR5r68RWH6wNA4vz1w_Ng3XYaLj9hL33CmpDhE3EIcF3gKOfcQrzTMMIsN6_nWQTD0Y2PiCcq1MNOXIO98FyMB2f9FoFpxQFajDDA=",
+              "title": "cargo.site",
+              "resolvedUri": "https://freight.cargo.site/m/D2240475562441734814840092230739/Time-and-Again-Press-release.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMowmJTOFJuT6uhwwg3DCXbE0XCgufZazQogA2S_eUXQtQ6ASj2XNlT9bpiEP_Yi-Zi-uUMU4JRCCRzAlGCARILCPiDzEftKMKWJGx6d5D-mP25w2Q9AfeqbU-WegKW8BsVO8acbCSexaMcxiqrRg3tHrCEbAb",
+              "title": "studiostefaniamiscetti.com",
+              "resolvedUri": "https://www.studiostefaniamiscetti.com/artists/lucio-pozzi/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVsOdS8C0NiiZSorc0x8cT_HnkY_AmWcLSP1tHN-8vzyJUJtkaNwLqpIOL0lVG2NFLV2FJEKVNZvZlyQLrrICexBhwP7pcC6YLW2-mSaZan74ruBkk_phFcRl7rkjqTQ9sGnH6",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Lucio_Pozzi"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhO3kNDwQxLKb-cqH80Y-pwTHTMiR0VwOlgmwQVgZTHIiRWpEghkQl5dzPKSDolbbwjywqPow0m480xBBYf0eVMihrb1KWWBuB9Ja_vR5L2sUGrv8WubD0e6Trmixbk0oc2r_0oEahKSH8gQYMn7fTwvVvFlAN3BEOEBI=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8rJK63hAIFE9Ge-Ekt4VCU4Kt4dVTLKI2uGewzTfFO7CFsdk4Al3a5VoVVSxDf8snsdczhSW0AO_DzmqcMFEjbyeKTpKYc98kwaoK_X_s3sZVB5XFO6OxSE7Pv10zuB0oxNdRtsWX9GPPzRnJNsPIyYEMgvj10voopx47",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 220,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lucio Pozzi (born November 29, 1935) is an Italian-born American multidisciplinary artist known for his work in painting, performance, installation, video, and sculpture."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 221,
+                "endIndex": 307,
+                "text": "Born in Milan, he studied architecture in Rome before moving to New York City in 1962."
+              },
+              "groundingChunkIndices": [
+                5,
+                2,
+                0,
+                6,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 405,
+                "endIndex": 571,
+                "text": "He was notably associated with Experiments in Art and Technology (E.A.T.), appearing in their records for 'matchings' between artists and engineers from 1966 to 1968."
+              },
+              "groundingChunkIndices": [
+                7,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1005,
+                "endIndex": 1656,
+                "text": "His work has been featured in major international exhibitions, including Documenta 6 (1977), the Venice Biennale (1980), and a solo video exhibition in the Museum of Modern Art's Projects series (1978).\",\n      \"sources\": [\n        \"https://www.luciopozzi.com/\",\n        \"https://en.wikipedia.org/wiki/Lucio_Pozzi\",\n        \"https://www.getty.edu/research/tools/guides_inventories/eat_records.html\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/kt467nd1p9/\",\n        \"https://www.halbromm.com/artists/lucio-pozzi\",\n        \"https://www.magazzino.art/exhibitions/lucio-pozzi-qui-dentro-in-here\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                5,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +275,122 @@
         "y1": 27.2,
         "x2": 43.1,
         "y2": 33.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1799",
+          "label": "Kurt Weill",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct: 'Johanna Kurt' on the card and 'Kurt Weill' in the Wikibase entity. 'Kurt' appears as a surname in the card entry and as a given name in the Wikibase entry. Furthermore, the Wikibase entity identifies as male, whereas Johanna is a typically female name."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1260",
+          "label": "Kurt Waldheim",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Johanna Kurt' is likely a female artist, whereas 'Kurt Waldheim' was a world-famous male politician, diplomat, and Secretary-General of the United Nations. Furthermore, 'Kurt' is the surname for the person on the card and the given name for the Wikidata entity."
+        },
+        {
+          "qid": "Q2512",
+          "label": "Kurt Georg Kiesinger",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Johanna Kurt (likely female), whereas the Wikidata entity is Kurt Georg Kiesinger (male). Furthermore, the Wikidata entity was the Federal Chancellor of Germany and a career politician, which does not align with the context of the card referring to an artist named Johanna Kurt."
+        },
+        {
+          "qid": "Q8446",
+          "label": "Kurt Cobain",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a significant mismatch ('Johanna Kurt' vs 'Kurt Cobain'). The person on the card is likely female (Johanna), while Kurt Cobain is male. Furthermore, the card artist was active in the late 1960s/early 1970s, while Kurt Cobain was born in 1967 and didn't begin his artistic career until the 1980s."
+        },
+        {
+          "qid": "Q41390",
+          "label": "Kurt Gödel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a woman named Johanna Kurt, described as an artist. The Wikidata entity is for Kurt Gödel, the famous male mathematician and logician. The names, gender, and professions do not match."
+        },
+        {
+          "qid": "Q44453",
+          "label": "Kurt Angle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Johanna Kurt does not match Kurt Angle. Furthermore, Kurt Angle was born in 1968 and did not begin his career until the late 1990s, whereas the person on the card was active in the late 1960s/1970s. Finally, Kurt Angle is a professional wrestler, not an artist, and is male, while Johanna is a female name."
+        },
+        {
+          "qid": "Q49074",
+          "label": "Kurt Vonnegut",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different. The card refers to 'Johanna Kurt' (likely a woman, where Kurt is the surname), whereas the Wikidata entity is 'Kurt Vonnegut' (a man, where Kurt is the given name). There is no overlapping biographical information to suggest they are the same individual."
+        },
+        {
+          "qid": "Q55004",
+          "label": "Kurt Weill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different: Johanna Kurt (typically female) versus Kurt Weill (male). Additionally, Kurt Weill died in 1950, which is incompatible with the artist from the card being active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q57386",
+          "label": "Kurt Tucholsky",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Kurt Tucholsky died in 1935, whereas the subject of the card was active in the late 1960s/early 1970s. Furthermore, the name 'Johanna Kurt' does not match 'Kurt Tucholsky', and there is a gender mismatch between the typically female name Johanna and the male entity."
+        },
+        {
+          "qid": "Q57465",
+          "label": "Kurt Schumacher",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different: 'Johanna Kurt' (likely female) versus 'Kurt Schumacher' (male). Furthermore, Kurt Schumacher died in 1952, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card context. His occupations (politician, legal counselor) also do not align with the context of being an artist."
+        },
+        {
+          "qid": "Q60905",
+          "label": "Kurt Gerron",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names and genders are different (Johanna vs Kurt). Furthermore, Kurt Gerron died in 1944, making it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card context."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Johanna Kurt artist Experiments in Art and Technology E.A.T.",
+            "\"Johanna Kurt\" E.A.T. archive",
+            "\"Johanna Kurt\" artist 1960s 1970s",
+            "\"Johanna Kurt\" art exhibition 1960s 1970s",
+            "\"Johanna Kurt\" E.A.T. member",
+            "\"Johanna Kurt\" artist biography",
+            "\"Johanna Kurt\" artist CV",
+            "\"Johanna Kurt\" Experiments in Art and Technology member",
+            "\"Johanna Kurt\" Bell Labs artist",
+            "\"Johanna Kurt\" exhibition catalog 1970",
+            "\"Johanna Kurt\" E.A.T. New York",
+            "\"Johanna Kurt\" 1960s artist collaboration",
+            "\"Johanna Kurt\" \"E.A.T.\" engineer list",
+            "\"Johanna Kurt\" artist \"early 1970s\"",
+            " \"Johanna Kurt\"",
+            "\"Johanna Kurt\" E.A.T. News",
+            "\"Johanna Kurt\" artist \"New York\" 1960s 1970s",
+            "\"Johanna Kurt\" artwork 1969",
+            " \"Johanna Kurt\" E.A.T.",
+            "\"Johanna Kurt\" artist bio \"late 1960s\"",
+            "",
+            "\"Johanna Kurt\"",
+            "\"Johanna Kurt\" member E.A.T. directory",
+            "\"Johanna Kurt\" Experiments in Art and Technology 1960s 1970s",
+            "\"Johanna Kurt\" artist New York 1967 1968 1969 1970 1971"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -41,6 +401,51 @@
         "y1": 35.1,
         "x2": 35.7,
         "y2": 41.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"E. Arrons\" artist",
+            "\"E. Arrons\" E.A.T. artist",
+            "\"Edward Arrons\" artist",
+            "\"E. Aarons\" artist E.A.T.",
+            "\"E. Arron\" artist E.A.T.",
+            "\"E. Arrons\" artist E.A.T.",
+            "\"E. Aarons\" artist 1960s",
+            "\"E. Arron\" artist 1960s",
+            " \"Arrons\"",
+            " \"Aarons\"",
+            "\"E. Aarons\" Experiments in Art and Technology",
+            "\"E. Arron\" Experiments in Art and Technology",
+            " \"Arrons\" E.A.T.",
+            "\"Evelyn Arons\" artist",
+            "\"E. Aarons\" \"Experiments in Art and Technology\" member",
+            "\"Eva Arons\" artist",
+            "\"E. Aarons\" Pepsi Pavilion artist",
+            "\"Eric Arrons\" artist",
+            "\"E. Arrons\" artist E.A.T. 1968",
+            "\"E. Aarons\" \"Something Else Press\"",
+            "\"E. Arrons\" 1968 E.A.T.",
+            "",
+            "\"Eva Arons\" artist New York",
+            "\"E. Arrons\" artist 1968 catalog",
+            "",
+            "\"Some More Beginnings\" Brooklyn Museum 1968 participants",
+            "\"Some More Beginnings\" E.A.T. artists list 1968",
+            "",
+            "\"Eleanor Aronson\" artist E.A.T.",
+            "\"Elizabeth Aronson\" artist E.A.T.",
+            "\"E. Aronson\" artist Experiments in Art and Technology",
+            " \"Arrons\"",
+            " \"Aarons\"",
+            "\"E. Arrons\" artist E.A.T. member list 1968"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

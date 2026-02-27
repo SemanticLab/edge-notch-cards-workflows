@@ -26,5 +26,87 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "None mentioned",
     "aestheticPhilosophicalInterests": "None mentioned"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q26315",
+      "label": "Bishop",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes Guy Bishop, a scientific journalist specializing in chemicals and plastics. The Wikibase entity 'Bishop' is part of a jazz-related project. There is no first name provided in the Wikibase entry to confirm a link, and the professional contexts (plastics/polymers vs. jazz shrines) are unrelated."
+    },
+    {
+      "qid": "Q23435",
+      "label": "Bishop Loughlin Memorial High School",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Record 1 describes an individual person (Guy Bishop), while Record 2 describes an educational institution (Bishop Loughlin Memorial High School). These are entirely different entity types."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q8018",
+      "label": "Augustine of Hippo",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data describes Guy Bishop, a 20th-century scientific journalist in New York specializing in plastics and polymers. The Wikidata entry describes Augustine of Hippo, a 4th-century theologian and saint from Roman North Africa. The only commonality is the word 'Bishop', which is a surname in the first record and an ecclesiastical title in the second."
+    },
+    {
+      "qid": "Q311358",
+      "label": "J. Michael Bishop",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals with different names and professional backgrounds. The card refers to Guy Bishop, a scientific journalist specializing in industrial chemicals and plastics in New York. The Wikidata entry refers to J. Michael Bishop (John Michael Bishop), a Nobel Prize-winning medical researcher, virologist, and university professor primarily based in San Francisco."
+    },
+    {
+      "qid": "Q42866437",
+      "label": "Özlem Taştan-Bishop",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different people. The card data refers to Guy Bishop, a male scientific journalist based in New York working in the chemicals and plastics industry. The Wikidata entity describes Özlem Taştan-Bishop, a female academic and researcher associated with Turkey and Rhodes University in South Africa. The first names, genders, professions, and geographic locations do not align."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Guy Bishop (born Gunter Brueg; 1926–2009) was a German-born American scientific journalist and industrial executive active in the plastics and polymers industry from the 1950s through the 1970s. After emigrating to the United States in 1952 and graduating from the Columbia School of Journalism, he began his career as an editor for Modern Plastics magazine, where he served as the Midwestern editor in the late 1950s. He later transitioned into the corporate sector, becoming a Vice President at General Foam, a division of Tenneco Chemicals Incorporated based in New York. His technical expertise encompassed plastics, polymers, elastomers, and various foam technologies (including urethane foam and potentially honeycomb structures). Bishop was also recognized as a gifted artist and photographer, a background that aligns with his association with the Experiments in Art and Technology (E.A.T.) organization, which fostered collaborations between the artistic and technical communities in New York during the late 1960s. Before his career in the United States, he was a decorated World War II British Intelligence Major who participated in the capture of Heinrich Himmler.",
+        "sources": [
+          "https://www.ajr.org.uk/wp-content/uploads/2018/02/2009_June.pdf",
+          "https://archive.org/stream/ModernPlastics195908Vol36Iss12/Modern_Plastics_1959-08_Vol_36_Iss_12_djvu.txt"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Guy Bishop\" scientific journalist plastics polymers",
+        "\"Guy Bishop\" E.A.T. engineer artist",
+        "\"Guy Bishop\" Tenneco Chemicals",
+        "",
+        "\"Guy Bishop\" \"Modern Plastics\" editor",
+        "\"Guy Bishop\" Tenneco Chemicals New York",
+        "",
+        "",
+        "\"Guy Bishop\" \"General Foam\" Tenneco",
+        "\"Guy Bishop\" \"E.A.T.\" New York",
+        "\"Guy Bishop\" honeycomb elastomer polymer",
+        "\"Guy Bishop\" journalist \"Modern Plastics\"",
+        "\"Guy Bishop\" technical journalist Tenneco",
+        "",
+        "\"Guy Bishop\" \"Modern Plastics\" New York 1960s",
+        "\"Guy Bishop\" E.A.T. collaboration artist engineer",
+        "\"Guy Bishop\" Tenneco Scientific Journalist",
+        "\"Guy Bishop\" General Foam honeycomb plastics",
+        "\"Guy Bishop\" \"Tenneco\" artist engineer",
+        "\"Guy Bishop\" \"E.A.T.\" plastics engineer"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -22,5 +22,109 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art.",
     "aestheticPhilosophicalInterests": "Intersection of computer technology and artistic creation"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q21498",
+      "label": "Western Electric Co",
+      "description": "publisher associated with E.A.T. Bibliography",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names 'Western Electric Company' and 'Western Electric Co' are identical. The Wikibase entity points to Wikidata QID Q2031258, which is the historical Western Electric manufacturing company. The address on the card (Box 900, Princeton New Jersey) was the specific location of the Western Electric Engineering Research Center. Furthermore, the individual on the card is an engineer interested in the intersection of technology and art, which aligns with the entity's association with the Experiments in Art and Technology (E.A.T.) Bibliography."
+    },
+    {
+      "qid": "Q28273",
+      "label": "Western Electric Engineering Research Center",
+      "description": "laboratory",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card lists Western Electric Company with a division in Princeton, New Jersey. The Wikibase entity represents the Western Electric Engineering Research Center, which was the primary facility for Western Electric located in the Princeton/Hopewell area of New Jersey. They refer to the same organizational body."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2031258",
+      "label": "Western Electric",
+      "description": "engineering and manufacturing company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Western Electric Company' matches the Wikidata entity exactly. The subject's occupation as an electrical engineer aligns perfectly with Western Electric's industry in telecommunications and electronics. Additionally, the card's location (Princeton, NJ) was the site of the Western Electric Engineering Research Center."
+    },
+    {
+      "qid": "Q59493284",
+      "label": "Western Electric Company Collection (NAID 1043)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q59493284) represents an archival collection held by the National Archives and Records Administration, not the actual company itself. The card refers to 'Western Electric Company' as an employer, which is a business entity, whereas this entity is a 'collection' or 'fonds' containing records from a specific time period (1936-1944)."
+    },
+    {
+      "qid": "Q106522212",
+      "label": "Western Electric Company-Tarheel Army Missile Plant",
+      "description": "factory in Burlington, North Carolina",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to a specific factory (Tarheel Army Missile Plant) in Burlington, North Carolina. The card identifies the employer as Western Electric Company with a specific location in Princeton, New Jersey. While they share the parent company name, the Wikidata entity is for a site-specific facility in a different state, whereas the card's subject worked at the Engineering Research Center in New Jersey."
+    },
+    {
+      "qid": "Q19065948",
+      "label": "Western Electric Company v. La Rue",
+      "description": "United States Supreme Court case",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is an organization (Western Electric Company), whereas the Wikidata entity (Q19065948) is a legal case (Western Electric Company v. La Rue) heard by the United States Supreme Court. While the organization is a party to the case, the entity itself is not the organization."
+    },
+    {
+      "qid": "Q7696469",
+      "label": "Telephone Factory Lofts",
+      "description": "historic building in Atlanta, Georgia, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q7696469 refers to a specific historic building (now known as Telephone Factory Lofts) in Atlanta, Georgia, whereas the employer on the card is the Western Electric Company (a corporation), specifically at its facility in Princeton, New Jersey. A building used by a company is not synonymous with the company itself."
+    },
+    {
+      "qid": "Q71195036",
+      "label": "Western Electric Company Report for December 1960 (NAID 81438387)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the Western Electric Company as an employer organization. The Wikidata entity Q71195036 is an 'item of collection or exhibition'—specifically a report from December 1960 held by the National Archives. While the report concerns the company, the entity represents a specific document/film, not the organization itself."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Lawrence G. \"Larry\" Schear was an electrical engineer and computer technology specialist active during the late 1960s and early 1970s. Based in Trenton, New Jersey, he worked for the Western Electric Company, specifically at its Engineering Research Center (ERC) in nearby Princeton. Schear is notably recognized for his collaboration with Claude A. R. Kagan on \"The Home Reckoner,\" a visionary concept for a modular, low-cost home computer system designed to integrate with consumer electronics, such as using audio cassettes for data storage. Their work was published and presented at the 1973 AFIPS National Computer Conference.\n\nSchear was a member of the R.E.S.I.S.T.O.R.S. (Radically Emphatic Students Interested in Science, Technology, and Other Research Studies), an early and influential computer club for young people founded by Kagan in a barn on his property in Hopewell, New Jersey. Through his association with Kagan and the R.E.S.I.S.T.O.R.S., Schear was part of a technical circle that intersected with the Experiments in Art and Technology (E.A.T.) movement, which facilitated collaborations between the engineering community (particularly from Bell Labs and Western Electric) and artists. He attended Drexel University as a co-op student for Western Electric, graduating in 1974, and was an amateur radio enthusiast with the call sign K2EOP.",
+        "sources": [
+          "http://www.retrotechnology.com/sar_card/cassette.html",
+          "http://www.retrotechnology.com/memories/kagan_haynes.html",
+          "https://archive.org/stream/Fall_1961_Radio_Amateur_Callbook/Fall_1961_Radio_Amateur_Callbook_djvu.txt",
+          "https://publications.gc.ca/collections/collection_2016/isde-iedc/C2-536-1979-eng.pdf",
+          "http://www.girishbalakrishnan.com/drexel-magazine-winter-2016"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Lawrence Schear\" electrical engineer",
+        "Lawrence Schear Western Electric Trenton NJ",
+        "",
+        "\"Larry Schear\" Western Electric",
+        "\"Lawrence Schear\" E.A.T. engineer",
+        "\"Lawrence Shear\" Western Electric Trenton NJ",
+        "\"The Home Reckoner\" Lawrence Schear E.A.T.",
+        "\"Lawrence Schear\" E.A.T. Experiments in Art and Technology",
+        "\"R.E.S.I.S.T.O.R.S.\" Lawrence Schear E.A.T.",
+        "\"Lawrence G. Schear\" E.A.T.",
+        "\"Lawrence Schear\" E.A.T. project",
+        "\"Lawrence Schear\" E.A.T. membership"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

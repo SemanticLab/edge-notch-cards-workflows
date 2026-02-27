@@ -22,5 +22,184 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q23024",
+      "label": "Harrisonburg (Va.)",
+      "description": "city in Virginia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a person (Ronald W. Harrison) who is an optics and computer programmer, while the second record describes a city (Harrisonburg, Virginia). They are completely different entity types."
+    },
+    {
+      "qid": "Q20758",
+      "label": "Harrison Verrett",
+      "description": "musician and union member of American Federation of Musicians, Local 496",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. Ronald W. Harrison is a computer programmer and optics expert based in San Jose, California, while Harrison Verrett is a musician (guitarist) based in New Orleans. Their names, locations, and professional backgrounds do not overlap."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q7364923",
+      "label": "Ronald Harrison",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The first record refers to an American computer programmer and optics researcher at IBM based in San Jose, California. The second record (Q7364923) refers to a South African painter (famous for the 'Black Christ') who lived and died in South Africa. Their professional backgrounds and geographic locations do not match."
+    },
+    {
+      "qid": "Q18085864",
+      "label": "Ron Harrison",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card record describes Ronald W. Harrison, an American computer programmer and optics expert employed by IBM in California. The Wikidata record (Q18085864) describes Ron Harrison, a British association football player who spent his career in the United Kingdom. Their occupations, locations, and backgrounds are entirely different."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q37156",
+      "label": "IBM",
+      "description": "American multinational technology corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'International Business Machines' on the card is the full name of the corporation commonly known as IBM (Q37156), which is explicitly confirmed in the Wikidata record's 'official name' and 'short name' properties."
+    },
+    {
+      "qid": "Q5968787",
+      "label": "IBM Canada Head Office Building",
+      "description": "head office of IBM Canada",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q5968787 refers to a specific physical building (the IBM Canada Head Office Building) located in Markham, Ontario, whereas the employer listed on the card is the organization 'International Business Machines' (IBM)."
+    },
+    {
+      "qid": "Q19874511",
+      "label": "IBM Hursley",
+      "description": "laboratory in Hampshire, England",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q19874511 refers specifically to IBM Hursley, which is a research laboratory located in the United Kingdom. The card lists 'International Business Machines' (IBM) as the employer, and the individual is based in San Jose, California. While IBM Hursley is part of IBM, it is a specific site/subsidiary and not the parent organization itself."
+    },
+    {
+      "qid": "Q1141670",
+      "label": "IBM Personal Computer/AT",
+      "description": "personal computer model",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the corporation 'International Business Machines' (IBM), while the Wikidata entity Q1141670 is a specific hardware product (the IBM Personal Computer/AT) manufactured by that company."
+    },
+    {
+      "qid": "Q30338814",
+      "label": "IBM Germany",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is International Business Machines (the global parent company or specifically the US division) based in San Jose, California. The Wikidata entity Q30338814 represents the German subsidiary (IBM Germany). While related, they are distinct legal and geographic entities, and a worker in California would not be categorized as an employee of the German branch."
+    },
+    {
+      "qid": "Q28974610",
+      "label": "IBM France",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to 'International Business Machines' in the context of an employee based in San Jose, California. The Wikidata entity (Q28974610) is specifically for IBM France, which is the French subsidiary of the global corporation. They are distinct legal or geographic entities within the larger IBM structure."
+    },
+    {
+      "qid": "Q16323757",
+      "label": "IBM Denmark",
+      "description": "IBM subsidiary in Denmark",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the Danish subsidiary of IBM (IBM Denmark), whereas the index card describes an employee based in San Jose, California, working for the parent company or a US division of International Business Machines. While related, they are distinct geographical and legal entities."
+    },
+    {
+      "qid": "Q30338816",
+      "label": "IBM Egypt Business Support Services",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is 'International Business Machines' (IBM), which typically refers to the parent corporation or its US-based operations. The Wikidata entity is a specific subsidiary located in Egypt ('IBM Egypt Business Support Services'). While related, they are distinct entities."
+    },
+    {
+      "qid": "Q41567073",
+      "label": "IBM Česká republika",
+      "description": "company in Prague, Czechia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is 'International Business Machines' (IBM), which typically refers to the parent global corporation headquartered in the USA. The Wikidata entity Q41567073 is specifically 'IBM Česká republika', a regional subsidiary in the Czech Republic founded in 1990. The individual on the card lived in San Jose, California, making it highly unlikely they were employed by the Czech branch."
+    },
+    {
+      "qid": "Q59493032",
+      "label": "International Business Machines Corporation Collection (NAID 653182)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the International Business Machines (IBM) corporation itself. The Wikidata entity (Q59493032) represents an archival collection held by the National Archives and Records Administration, not the actual company."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Ronald W. Harrison was a computer programmer and engineer specializing in optics and synthetic holography at International Business Machines (IBM) in the late 1960s. He was based at IBM's research and manufacturing facility located at Monterey and Cottle Roads in San Jose, California. His technical expertise included computer programming, optics, lasers, and the study of diffraction patterns. Harrison was a registered technical member of Experiments in Art and Technology (E.A.T.), a non-profit organization founded in 1966 to foster collaborations between the scientific and artistic communities. Within the E.A.T. network, he offered his skills as a technical consultant to artists, particularly in the emerging field of computer-generated (synthetic) holography, which was a significant area of research at the IBM San Jose laboratory during that period.",
+        "sources": [
+          "https://www.optica.org/history/technical_groups/",
+          "https://www.fondation-langlois.org/html/e/page.php?NumPage=234",
+          "https://archive.org/details/bibliographiesof0000unse_h3a1/page/282/mode/2up"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Ronald W. Harrison\" Experiments in Art and Technology",
+        "Ronald W. Harrison IBM San Jose optics holography",
+        "",
+        "\"R. W. Harrison\" IBM San Jose optics",
+        "",
+        "\"Ronald Harrison\" E.A.T. IBM",
+        "\"R. W. Harrison\" IBM San Jose computer-generated holography",
+        "",
+        "\"Ronald W. Harrison\" E.A.T. organization",
+        "",
+        "\"Ronald W. Harrison\" \"E.A.T.\" IBM",
+        "",
+        "\"Ronald W. Harrison\" \"E.A.T.\" directory",
+        "\"Ronald W. Harrison\" IBM patent",
+        "",
+        "\"Ronald Harrison\" IBM San Jose computer programming optics",
+        "\"Ronald W. Harrison\" Experiments in Art and Technology index card",
+        "",
+        "\"R. W. Harrison\" IBM Journal of Research and Development",
+        "\"R. W. Harrison\" \"Applied Optics\" IBM",
+        "",
+        "\"Ronald W. Harrison\" San Jose E.A.T.",
+        "",
+        "\"Ronald W. Harrison\" \"E.A.T.\" IBM San Jose",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "\"Ronald W. Harrison\"",
+        "",
+        "\"Monterey & Cottle\" San Jose IBM \"holography\"",
+        "\"Synthetic holography\" \"diffraction patterns\" IBM San Jose optics",
+        "",
+        "",
+        "\"R. W. Harrison\" IBM San Jose diffraction patterns synthetic holography",
+        "",
+        "\"Ronald W. Harrison\" IBM patent San Jose",
+        "",
+        "",
+        "\"R. W. Harrison\" IBM \"model architecture for big data\" affiliation",
+        "\"Ronald W. Harrison\" IBM San Jose 1960s biography"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

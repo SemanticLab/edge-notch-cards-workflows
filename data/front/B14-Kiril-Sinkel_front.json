@@ -16,5 +16,104 @@
       "electronic engineering",
       "instrumentation"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q97713",
+      "label": "Bernhard Sinkel",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different individuals. Kiril Sinkel is an electronic engineer based in New York City working for Polarad Electronics Corp, while Bernhard Sinkel is a prominent German film director and screenwriter based in Germany. Their first names, professions, and geographic locations do not align."
+    },
+    {
+      "qid": "Q151759",
+      "label": "Karl Friedrich Schinkel",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals from different centuries and professions. The card describes an electronic engineer named Kiril Sinkel living in New York City (likely mid-20th century based on the phone number and employer), while the Wikidata entity describes Karl Friedrich Schinkel, a famous 19th-century Prussian architect and painter who died in 1841."
+    },
+    {
+      "qid": "Q23000740",
+      "label": "Heinrich Johann Sinkel",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes an electronic engineer (Kiril Sinkel) working in New York City, likely in the mid-20th century. The Wikidata entity describes a Dutch painter (Heinrich Johann Sinkel) who died in 1908. The names, occupations, locations, and time periods are completely incompatible."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Kiril Sinkel is a retired electronic engineer and computer programmer who was active in New York City during the late 1960s and 1970s before transitioning into software development for digital imaging and photography. During his early career, he worked as an electronic engineer for Polarad Electronics Corp. in New York City, specializing in instrumentation and electronic engineering. He was likely a participant or member of Experiments in Art and Technology (E.A.T.), a non-profit that bridged the gap between the technical and artistic communities. Sinkel later became a prominent figure in the field of digital image processing as a developer for Digital Light & Color, where he created the \"Picture Window\" and \"Picture Window Pro\" software. His work in this area included developing specialized geometry transformation techniques, such as a kaleidoscopic tessellation method for transforming photographs. In his retirement, Sinkel resides in Belmont, Massachusetts, where he is an active study group leader at the Osher Lifelong Learning Institute (OLLI) at Tufts University. He has spent over a decade auditing courses in genetics, microbiology, and neuroscience at Boston University and teaches OLLI courses on subjects ranging from the genomics revolution to the history of science.",
+        "sources": [
+          "https://www.tufts.edu",
+          "https://issuu.com/tuftsuniversity/docs/tufts_olli_winter_2025_catalog",
+          "https://dl-c.com/Temp/downloads/PW%20Doc/PW50.pdf",
+          "https://www.columbiaartleague.org/blog/2025/1/3/david-kovacs",
+          "https://www.belmont-ma.gov/sites/g/files/vyhlif2801/f/minutes/zba_minutes_2024-05-13.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Kiril Sinkel\" biography",
+        "\"Kiril Sinkel\"",
+        "\"Kiril Sinkel\" New York engineer",
+        "\"Kiril Sinkel\" E.A.T.",
+        "",
+        "\"Kiril Sinkel\" Digital Light & Color biography",
+        "\"Kiril Sinkel\" E.A.T. archive"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjS2yQReD3Q6xZa9XViBkCUGlW48DZGbderSIRv8lP4SFyD8iFQj3-q6o-N1yBQVt5L3MAhaBED04UgDNWuSfUdaxRDzFr-8fxaAhtb46xmiR8QDo9an0oGK86TJey3-0R-XQLKtNkTdCY",
+          "title": "columbiaartleague.org",
+          "resolvedUri": "https://columbiaartleague.org/blog/david-kovacs"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkkHuNRfP2qQqeaoil4VT2Ufmt4qZTx2uucyOxsizmN0pUVvaBYkqPTJ60c9SUN7lGYE1FlGr1jvg8LNvjhjFQs5xwBL38FCB7Dn5mCP9J-dxGzjfItUcNpj_zUJTpNgt5PKAQoOS4qa8DdpT4tZMHwFw_wjW149KI0pH1zCqrLNt1TG7KVAjl6CBsnBpzUQ3FfLreQ_-V68Pjroy6inlWFphh",
+          "title": "tufts.edu",
+          "resolvedUri": "https://universitycollege.tufts.edu/sites/default/files/2021-07/Sept%20Oct%202021%20Course%20Listing.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW0sZl__XZUKLYBaS7KNRaNWBduYpdOirWEYwdPX-lw16bHVsiDu2rdNbVp9-kKsXTiRmq9fUyf7c5RqZqUINHs3ZMxI5Ppm1tjtOVvCyr2P7HHfSgiX99BDOO1NTz6xPTQ75UTQrO6TBljx117k4VNZXl3stLH7XPlJx9vO8xTwCQDRfaobGyvLRlM8Wwcu-7rJ6ZwmDNcehRj9CglVzmNsIJmqy3gVxxoDvj",
+          "title": "tufts.edu",
+          "resolvedUri": "https://universitycollege.tufts.edu/sites/default/files/2020-12/Jan%20Feb%202021%20Course%20Listing%20FINAL_0.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_eL7hZGoT-UvCcZ92yk5ZTtEKSlENFNWA6HqhA9RI-tf8uiPj5iusIT6AkaCLG3rhfrtbSkyH-9TXLDONhLuX8LJVx3kjrploHtDlSGvFpcdxKyCoJR7H_115-_WIyFURdf5KXA-jCZnk7yRMYWk1E399g5tVf-Jw00PttXABkUURgr1eMrqKuaQJ7dTuML2G9-wQD0PwKPapmpsvbkq3Y2iZ_2NSMGAVlg==",
+          "title": "tufts.edu",
+          "resolvedUri": "https://universitycollege.tufts.edu/sites/default/files/2021-11/Jan%20Feb%202022%20Course%20Listing%20FINAL.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 803,
+            "endIndex": 966,
+            "text": "His work in this area included developing specialized geometry transformation techniques, such as a kaleidoscopic tessellation method for transforming photographs."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1138,
+            "endIndex": 1767,
+            "text": "He has spent over a decade auditing courses in genetics, microbiology, and neuroscience at Boston University and teaches OLLI courses on subjects ranging from the genomics revolution to the history of science.\",\n      \"sources\": [\n        \"https://www.tufts.edu\",\n        \"https://issuu.com/tuftsuniversity/docs/tufts_olli_winter_2025_catalog\",\n        \"https://dl-c.com/Temp/downloads/PW%20Doc/PW50.pdf\",\n        \"https://www.columbiaartleague.org/blog/2025/1/3/david-kovacs\",\n        \"https://www.belmont-ma.gov/sites/g/files/vyhlif2801/f/minutes/zba_minutes_2024-05-13.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
   }
 }

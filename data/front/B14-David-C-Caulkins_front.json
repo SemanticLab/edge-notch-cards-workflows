@@ -24,5 +24,72 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "graphics/film"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q238782",
+      "label": "Tracy Caulkins",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card record is for a man named David C. Caulkins who worked in electrical engineering and digital systems, while the Wikidata record is for Tracy Caulkins, a famous female Olympic swimmer. They share a last name but differ in first name, gender, and profession."
+    },
+    {
+      "qid": "Q36534339",
+      "label": "Douglas Bruce Caulkins",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names 'David C. Caulkins' and 'Douglas Bruce Caulkins' are different, and their professional backgrounds (electrical engineering/computers vs. botanist) show no overlap."
+    },
+    {
+      "qid": "Q77071955",
+      "label": "Chris G. Caulkins",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are different (David C. Caulkins vs. Chris G. Caulkins), and their professional backgrounds and employers show no overlap."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "David C. Caulkins was an electrical engineer and computer scientist active in the late 1960s and 1970s, based in Los Angeles and the San Francisco Bay Area. He was a staff member at Jacobi Systems Corporation (specifically the Jacobi Computation Centre) in Los Angeles during the early 1970s. In this role, he described himself as a \"tool-builder,\" focusing on creating digital systems for others to use. One of his most notable contributions was the development of the DART1 system, a general-purpose computer graphics system for artists that ran on a Univac 1108 and utilized a Calcomp 663 plotter. His work with DART1 facilitated collaborations between technical fields and the arts, leading to his involvement with the Computer Arts Society and participation in the INTERACT computer arts exhibition in Edinburgh in 1973. His work also aligned with the goals of Experiments in Art and Technology (E.A.T.), as he provided the technical tools and expertise for artists like Charles Mattox to create computer-generated sculptures and graphics. Beyond computer art, Caulkins was a significant figure in early networking and microcomputing; he co-authored a 1974 ARPANET Management Study for the Defense Advanced Research Projects Agency (DARPA) alongside pioneers such as Paul Baran and Vinton Cerf while at Cabledata Associates, Inc. He was also active in the microcomputer hobbyist community, writing for publications like Byte and Dr. Dobb's Journal, conducting surveys of computer clubs, and publishing a critique of the Fairchild F8 microprocessor in IEEE Computer magazine (1977). His professional expertise spanned electrical engineering, digital systems, programming, and specialized fields such as fiber optics and ultraviolet technology.",
+        "sources": [
+          "https://www.computer-arts-society.com/static/cas/archive/interact73.pdf",
+          "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB463/docs/doc%204.pdf",
+          "https://ieeexplore.ieee.org/document/1647035",
+          "https://www.researchgate.net/publication/234796683_ARPANET_Management_Study",
+          "https://en.wikipedia.org/wiki/Telebit",
+          "https://archive.org/stream/computerFaire_1/computerFaire_1_djvu.txt"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"David C. Caulkins\" E.A.T.",
+        "\"David C. Caulkins\" engineer Los Angeles",
+        "David C. Caulkins Jacobi Systems",
+        "",
+        "\"David Caulkins\" digital systems programming engineer",
+        "\"David C. Caulkins\" E.A.T. Experiments in Art and Technology",
+        "\"Jacobi Systems\" Los Angeles David Caulkins",
+        "",
+        "\"David Caulkins\" E.A.T. Los Angeles",
+        "David C. Caulkins \"fiber optics\" \"ultraviolet\"",
+        "\"David Caulkins\" Hughes Aircraft",
+        "\"David Caulkins\" TRW",
+        "\"David C. Caulkins\" patent",
+        "\"David Caulkins\" laser fiber optics engineer",
+        "\"David Caulkins\" Hughes Aircraft fiber optics",
+        "",
+        "\"David C. Caulkins\" engineer \"Los Angeles\" electrical programming",
+        "\"David C. Caulkins\" E.A.T. engineer"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

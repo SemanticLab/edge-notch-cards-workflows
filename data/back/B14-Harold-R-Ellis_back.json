@@ -11,6 +11,31 @@
         "y1": 9.2,
         "x2": 49.3,
         "y2": 18.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2163556",
+          "label": "Rolf Krumsiek",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different: 'Iris Krums' versus 'Rolf Krumsiek'. Furthermore, the Wikidata entity describes a male jurist and politician, while the card identifies the individual as an artist (and the name Iris is typically female)."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Iris Krumm\" artist",
+            "\"Iris Krum\" artist",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -24,6 +49,225 @@
         "y1": 17.5,
         "x2": 47.4,
         "y2": 26.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q517",
+          "label": "Russell Gloyd",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Jon Russell', while the Wikibase entry is for 'Russell Gloyd'. There is no overlap between the names beyond the name Russell being Gloyd's first name, and no evidence that they refer to the same individual."
+        },
+        {
+          "qid": "Q1301",
+          "label": "Russell Procope",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Jon Russell', whereas the Wikibase entity is for 'Russell Procope', a well-known jazz musician. While both are artists active in the same general era, 'Russell' is the first name of the Wikibase entity and the last name of the card entry, and 'Jon' does not match 'Procope'."
+        },
+        {
+          "qid": "Q585",
+          "label": "Russell Means",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Jon Russell' and 'Russell Means' are not the same person. In the card entry, Russell is the surname, whereas in the Wikibase entity, Russell is the given name for the activist/actor Russell Means."
+        },
+        {
+          "qid": "Q1764",
+          "label": "Russell Malone",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: 'Jon Russell' is distinct from 'Russell Malone'. Furthermore, Russell Malone is a jazz guitarist born in 1963, making it highly unlikely he was an active artist during the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q128",
+          "label": "Russell Garcia",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct: 'Jon Russell' on the card and 'Russell Garcia' in the Wikibase entry. While both contain the name 'Russell', it is a surname in the first case and a given name in the second, and there is no indication they refer to the same person."
+        },
+        {
+          "qid": "Q25004",
+          "label": "Russell Leong",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Jon Russell', whereas the Wikibase entity is 'Russell Leong'. While 'Russell' appears in both, it is a surname in the first record and a given name in the second. There is no evidence suggesting 'Jon Russell' is an alias for the poet and filmmaker Russell Leong."
+        },
+        {
+          "qid": "Q27879",
+          "label": "Russell Mooney",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Jon Russell and Russell Mooney are distinct and do not match, despite the Wikibase entity being associated with the E.A.T. project (Experiments in Art and Technology), which fits the artistic context."
+        },
+        {
+          "qid": "Q22620",
+          "label": "Russell Simmons",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card entry is for 'Jon Russell', while the Wikibase entity is for 'Russell Simmons', a prominent entrepreneur and record executive. These are distinct individuals."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6270937",
+          "label": "Jon Hulburd",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Jon Russell' and 'Jon Hulburd' do not match. Additionally, the Wikidata entity was born in 1959, making him a child during the late 1960s and early 1970s, which is the period the artist on the card was active. His recorded occupations as a lawyer and businessperson also do not match the artistic context."
+        },
+        {
+          "qid": "Q16206102",
+          "label": "Jon Russell Cring",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Jon Russell Cring was born in 1971, which makes it impossible for him to be the artist mentioned on the card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q28038202",
+          "label": "Jonathan Russell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Jonathan Russell) was born in 1979, which makes it impossible for him to be the artist 'Jon Russell' who was active in the late 1960s and early 1970s according to the provided context."
+        },
+        {
+          "qid": "Q43395073",
+          "label": "Jon Russell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a historical figure from a Scottish witch trial, while the card entry refers to an artist active in the late 1960s or early 1970s. These are different individuals from entirely different time periods."
+        },
+        {
+          "qid": "Q95366508",
+          "label": "Jon Russell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Jon Russell' matches, but the Wikidata entity (Q95366508) is a contemporary technology journalist for TechCrunch, as evidenced by his employer and photos from 2016. This does not align with the card's context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q102179586",
+          "label": "Jon Russell Jay",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity 'Jon Russell Jay' appears to be an academic or researcher associated with mathematics (indicated by the doctoral advisor Kenneth P. Bube), whereas the card entry refers to an artist active in the 1960s and 1970s. While 'Jon Russell' is part of the name, the occupational and chronological contexts do not align."
+        },
+        {
+          "qid": "Q104839956",
+          "label": "Jon Russell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q104839956) was born in 2000 and is a professional football player. This makes it impossible for him to be the artist mentioned on the card, who was active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q117357368",
+          "label": "Jon Russell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match exactly, the Wikidata entity is associated with Crypto.com Capital and a 2022 tech summit, describing a contemporary tech professional or journalist. The card refers to an artist active in the late 1960s or early 1970s, making it highly improbable that these records refer to the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Russell (1919–2008) was a highly influential British art critic and author who was active throughout the 1960s and 1970s. He wrote for the London Sunday Times from 1950 to 1974 before becoming the chief art critic for the New York Times in 1974. Russell was a major champion of the new and experimental art movements of the era, including Pop Art and Conceptualism. He is notably associated with the Experiments in Art and Technology (E.A.T.) circle through his close professional relationship with its founders, particularly Robert Rauschenberg. In 1967, he wrote a significant article titled 'Art That Sings' which discussed the intersection of art and science. He also co-curated the landmark 1969 exhibition 'Pop Art Redefined' at the Hayward Gallery, which featured many artists involved with E.A.T. His work as a critic and author, including the book 'The Meanings of Modern Art' (1975), was crucial in promoting collaborations between artists and contemporary technological or scientific themes during this period.",
+            "sources": [
+              "https://www.theartstory.org/critic/russell-john/life-and-legacy/",
+              "https://www.rauschenbergfoundation.org/artist/chronology",
+              "https://www.tate.org.uk/art/art-terms/l/london-art-schools",
+              "https://www.abebooks.co.uk/9780525174515/E.A.T-News-Vol-No-November-0525174512/plp"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Russell (1954–2021) was an English acoustic guitarist and a central figure in the free improvisation and experimental music scene in London. He began his career in the early 1970s, performing at the Little Theatre Club and becoming a member of the Musicians' Co-op. While he is primarily known as a musician, his work was deeply experimental and focused on the collaborative processes that defined the avant-garde art world of the late 1960s and 1970s. He promoted numerous concerts and appeared on more than 50 recordings, fostering an environment where musicians could experiment with sound in ways that mirrored the goals of interdisciplinary organizations like Experiments in Art and Technology (E.A.T.). In 1975, he helped found the influential journal 'Musics,' which documented the intersection of experimental sound and other art forms.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/John_Russell_(musician)",
+              "https://www.innova.mu/albums/living-earth-show/high-art"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Jon Russell artist bio 1970s",
+            "Jon Russell artist \"Experiments in Art and Technology\"",
+            "\"Jon Russell\" artist 1960s 1970s",
+            "\"Jon Russell\" artist E.A.T.",
+            "\"John Russell\" artist E.A.T. Experiments in Art and Technology",
+            "\"Jon Russell\" artist collaborating with engineers",
+            "\"Jon Russell\" artist E.A.T. Experiments in Art and Technology",
+            "\"Jon Russell\" active 1960s 1970s artist",
+            "\"John Russell\" \"Experiments in Art and Technology\" artist",
+            "\"John Russell\" E.A.T. collaborator",
+            "\"Jon Russell\" E.A.T. artist membership",
+            " \"John Russell\"",
+            " \"Jon Russell\"",
+            "\"John Russell\" artist active in the late 1960s and early 1970s E.A.T.",
+            "\"John Russell\" artist collaborator engineering 1960s 1970s",
+            "",
+            "\"John Russell\" artist Bell Labs collaboration",
+            "\"Jon Russell\" E.A.T. Pavilion Osaka",
+            "artist \"John Russell\" conceptual 1970s",
+            "artist \"John Russell\" Xerox art 1970s",
+            "\"John Russell\" artist active late 1960s early 1970s E.A.T. membership"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhzpU9vL6lBfPkKul15FioQU2P58Zuc_-QiywHcVP5wMlIjIGf7_7sq62sZukYbFBPYX405HzVKlljofEKvAk9H0EisJxmX3aD8JPDZ5nj0qhgqEDEZxDKjDpwb2MPSgb19q58dSlg9RE-5zMcllAhemtehpAtSUdkM4B6",
+              "title": "fandom.com",
+              "resolvedUri": "https://ultimatepopculture.fandom.com/wiki/Francis_Bacon_(artist)"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHhXh6EjBOw0c2tr4VMQN_XBCLabFJdiCNaSnR2BsbINdwUVYcSEZgEJwIqNL5ljJh-CkDWEQBR-TYeHBuIosTauDiAI2EA6BvjyDB4iie97gXpPb6wzDA4dnxYZUBffdNWsquESFTDSJKFw==",
+              "title": "theartstory.org",
+              "resolvedUri": "https://www.theartstory.org/critic/russell-john/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKwM517rOQKa5ycdflATwc-E68gezVcp6RnfvinjZTaj1A9jvrr3Vr5-qBaA2wO40r436KMiaKuq559mjaxfLJngPL2Ncu_C20hX3mj-FVwXEasCFD2JfIRasEtfHbTZk1oo2mQPrNpTq-hciDgg==",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/john_russell_art_critic"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMEXVp-OjN2AQ0Y9LPIUwAw9B8akm0rK3a6bY9XASj2Ujis4wk0W0wnN1yOwxUE8KFKHUxTgmrQEbg-0vT6QADEmdUodhVCPCPxk3stuVRfckZRJ2XboDEN_8wQeEz",
+              "title": "derrickgreaves.com",
+              "resolvedUri": "http://www.derrickgreaves.com/works"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 178,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John Russell (1919–2008) was a highly influential British art critic and author who was active throughout the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 179,
+                "endIndex": 302,
+                "text": "He wrote for the London Sunday Times from 1950 to 1974 before becoming the chief art critic for the New York Times in 1974."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +281,165 @@
         "y1": 25.4,
         "x2": 20.2,
         "y2": 33.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q459699",
+          "label": "Denes Agay",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name structure does not match. The card 'A. Denes' implies that Denes is the surname and 'A' is the first initial. In the Wikidata entity 'Denes Agay', Denes is the given name and Agay is the surname. It is far more likely the card refers to an artist like Agnes Denes than to Denes Agay, whose initials would be D. Agay."
+        },
+        {
+          "qid": "Q793931",
+          "label": "Dénes Berényi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is a nuclear physicist, whereas the card entry context specifies an artist. Furthermore, for the Wikidata entity 'D\u0000nes' is a given name, whereas the card entry 'A. Denes' implies Denes is the surname (likely referring to the prominent artist Agnes Denes)."
+        },
+        {
+          "qid": "Q871636",
+          "label": "Dénes Csengey",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card 'A. Denes' likely uses Denes as a surname (pointing toward artists like Agnes Denes). The Wikidata entity is Dénes Csengey, where Dénes is a given name and Csengey is the surname. Furthermore, the Wikidata entity was born in 1953, making him only 18 years old at the time of the 1971 entry, and he is primarily known as a Hungarian writer and politician rather than an artist active in the international art scene of that era."
+        },
+        {
+          "qid": "Q910719",
+          "label": "Dénes Dudits",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is a biologist (Dénes Dudits), while the card context specifies an artist active in the late 1960s and early 1970s. The name on the card (A. Denes) is a very strong match for the famous conceptual artist Agnes Denes, rather than the male Hungarian biologist Dénes Dudits."
+        },
+        {
+          "qid": "Q1102446",
+          "label": "Dénes Jánossy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1966, five years before the date recorded on the card (1971). Additionally, the Wikidata entity was a historian and archivist, not an artist, and 'Dénes' is his given name rather than his surname, which contradicts the 'A. Denes' format on the card."
+        },
+        {
+          "qid": "Q1106736",
+          "label": "Dénes Kemény",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Dénes Kemény was a 19th-century politician who died in 1849, whereas the card record is dated 1971 and refers to an artist active in the mid-20th century (likely Agnes Denes)."
+        },
+        {
+          "qid": "Q1111198",
+          "label": "Dénes Kislégi Nagy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist 'A. Denes' active in 1971. This is almost certainly Agnes Denes, a prominent conceptual artist. The Wikidata entity Q1111198 is Dénes Kislégi Nagy, a Hungarian economist and philosopher whose surname is Nagy, not Denes. Furthermore, he was 86 years old in 1971 and does not fit the description of the artist referenced on the card."
+        },
+        {
+          "qid": "Q1175318",
+          "label": "Dénes Mednyánszky",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are entirely incompatible: the Wikidata entity died in 1911, while the card entry is dated 1971. Furthermore, the Wikidata entity was a geologist and politician, not an artist."
+        },
+        {
+          "qid": "Q1187034",
+          "label": "Denes de Holesch",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is 'A. Denes', whereas the Wikidata entity is 'Denes de Holesch'. In the Wikidata case, Denes is the first name, not the surname starting with 'A'. Furthermore, there is a very prominent artist, Agnes Denes, whose name and activity in the early 1970s (e.g., conceptual and environmental art) align much better with the 'A. Denes' entry than this specific painter."
+        },
+        {
+          "qid": "Q1254530",
+          "label": "Dénes Bartha",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card 'A. Denes' indicates that Denes is the surname. In the Wikidata entity provided, Dénes is the given name (Dénes Bartha). Furthermore, the card likely refers to the prominent conceptual artist Agnes Denes, who was active during the specified period, whereas the Wikidata entity is a musicologist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (often cited as A. Denes) is a Hungarian-born American conceptual and environmental artist who became a prominent figure in the New York art scene during the late 1960s and early 1970s. She is widely regarded as a pioneer of ecological art and one of the founders of Conceptual Art. Her work frequently bridges the gap between art, science, mathematics, and philosophy. In the late 1960s, she began her 'Visual Philosophy' series and her seminal project 'Rice/Tree/Burial' (1968–1979), which is considered one of the first site-specific ecological works. Denes was actively associated with the Experiments in Art and Technology (E.A.T.) organization; archival records from 1969 include her membership forms, press releases, and project proposals submitted to the group. She also participated in the landmark 'Software' exhibition at the Jewish Museum in 1970, which explored the intersection of technology and art. Throughout her career, she has utilized complex systems such as 'Isometric Systems in Isotropic Space' to explore human knowledge and the environment, perhaps most famously in her 1982 work 'Wheatfield – A Confrontation.'",
+            "sources": [
+              "https://awarewomenartists.com/en/artiste/agnes-denes/",
+              "https://www.agnesdenesstudio.com/biography.html",
+              "https://oac.cdlib.org/findaid/ark:/13030/kt338nd900/",
+              "https://www.arshake.com/en/agnes-denes-data-analysis-abstraction/",
+              "https://www.academia.edu/43072224/Building_Systems_Experiments_in_Art_and_Technology_Before_the_Collaborative_Turn"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"A. Denes\" artist biography",
+            "\"Agnes Denes\" Experiments in Art and Technology",
+            "\"A. Denes\" Experiments in Art and Technology E.A.T.",
+            "artist \"A. Denes\" late 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi6M09PTISBp9ala_gBGv6r_TQIP0cIDrQ_7MjLrVTU7iIbwwTJlMFw7Afei8EqaeIcLfK2t_glnXGv2nyu3cL_dvNxR1vWfc9tf6zf76M_k5qH1kKlNbIWJTbs5Cbf5z5JFXL4ToKKAfWfzTxr00b",
+              "title": "streamingmuseum.org",
+              "resolvedUri": "https://www.streamingmuseum.org/post/evo1-agnes-denes"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHtWZCyM68orMJcIONldugU39QmWqkA538GmFO2wGEbo4xzNdjS0kxDKS2nGQr92xOoTdaj6TkccMfRn1dG35XvmvNxujCFdrXrydmQ7BUzYSrprgayuStb0qO5NoykhN7YMj5MMY4Fqxqoa61m_NZ",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/artiste/agnes-denes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-Y38URPsU59-pxUFVGcgpNlkoowC03Uj32pgl_p-wpkrkHn2ztCa6l4FihVU3Rpox38iJa9TLlCe6E7ag9d95lpkzrClvw1LHJQ3KVGo5so0BeHVYviwwsRvTaOIuQs7Yznv_aj3P5JDWgNJMFuVyugiD-B8R4Sr4",
+              "title": "tinworksart.org",
+              "resolvedUri": "https://www.tinworksart.org/exhibitions/agnes-denes-wheatfield"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 247,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (often cited as A. Denes) is a Hungarian-born American conceptual and environmental artist who became a prominent figure in the New York art scene during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 248,
+                "endIndex": 344,
+                "text": "She is widely regarded as a pioneer of ecological art and one of the founders of Conceptual Art."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 345,
+                "endIndex": 431,
+                "text": "Her work frequently bridges the gap between art, science, mathematics, and philosophy."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 979,
+                "endIndex": 1666,
+                "text": "Throughout her career, she has utilized complex systems such as 'Isometric Systems in Isotropic Space' to explore human knowledge and the environment, perhaps most famously in her 1982 work 'Wheatfield – A Confrontation.'\",\n      \"sources\": [\n        \"https://awarewomenartists.com/en/artiste/agnes-denes/\",\n        \"https://www.agnesdenesstudio.com/biography.html\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/kt338nd900/\",\n        \"https://www.arshake.com/en/agnes-denes-data-analysis-abstraction/\",\n        \"https://www.academia.edu/43072224/Building_Systems_Experiments_in_Art_and_Technology_Before_the_Collaborative_Turn\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

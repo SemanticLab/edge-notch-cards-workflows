@@ -18,5 +18,115 @@
       "lasers"
     ],
     "specializedSkillsKnowledge": "Holograms, optics, lasers"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28197",
+      "label": "Stevens Institute of Technology",
+      "description": "school",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names are an exact match ('Stevens Institute of Technology'). The card lists the employer as this institution, and the Wikibase entity is specifically labeled as 'Stevens Institute of Technology' and classified as an institution."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q657222",
+      "label": "Stevens Institute of Technology",
+      "description": "higher education institute in Hoboken, New Jersey, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Stevens Institute of Technology' is an exact match. The organization is a well-known technical university located in Hoboken, New Jersey, which is immediately adjacent to the employee's residence in Weehawken, New Jersey. Additionally, the individual's occupation as an experimental physicist aligns perfectly with the research and academic nature of this institution."
+    },
+    {
+      "qid": "Q100320486",
+      "label": "Stevens Tech Ducks",
+      "description": "sports teams of a university or college",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the Stevens Institute of Technology (the university), whereas the Wikidata entity (Q100320486) specifically represents the university's athletic teams/sports club (the Stevens Tech Ducks). While related, they are distinct entities in Wikidata; the institution itself is Q28197."
+    },
+    {
+      "qid": "Q99433669",
+      "label": "Stevens Institute of Technology Official Campus Bookstore",
+      "description": "bookstore in Hoboken, NJ, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the 'Official Campus Bookstore' of the Stevens Institute of Technology, which is a retail outlet. The card refers to 'Stevens Institute of Technology' as the employer of an experimental physicist, clearly indicating the educational institution itself (Q28197) rather than its bookstore."
+    },
+    {
+      "qid": "Q7615476",
+      "label": "Stevens Institute of Technology International",
+      "description": "defunct university in Santo Domingo, Dominican Republic",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q7615476) is a defunct international campus located in the Dominican Republic that operated between 2006 and 2016. The card refers to the main Stevens Institute of Technology, as evidenced by the subject's New Jersey address and phone number. While related as parent and subsidiary, they are distinct entities."
+    },
+    {
+      "qid": "Q80952621",
+      "label": "Q80952621",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Stevens Institute of Technology' on the card is an exact match for the Wikidata entity Q80952621. The card mentions a location in New Jersey (Weehawken) and an 'experimental physicist' job title, both of which are highly consistent with this specific technological research university located in Hoboken, New Jersey."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Joseph (Joe) Zorskie is an experimental physicist and educator active in the late 1960s and 1970s. He earned his doctorate from the Stevens Institute of Technology, where his thesis focused on plasma physics. He developed a diagnostic device known as a \"plasma scope,\" which used a plastic scintillator and cameras to photograph the density distribution and fine structure of plasma filaments. During the late 1960s, he served as an Assistant Professor of Physics, with affiliations listed at the New York Institute of Technology and the Stevens Institute of Technology. Zorskie was a resident of Weehawken, New Jersey, and was identified in the technical service records of Experiments in Art and Technology (E.A.T.) as an expert in holograms, optics, and lasers. Beyond his experimental research, Zorskie became a significant figure in the community surrounding the philosopher J. Krishnamurti and the theoretical physicist David Bohm. He served as a physics teacher at the Brockwood Park School in Hampshire, England, and was a close associate of David Bohm, assisting in the organization, transcription, and editing of the Bohm Seminars in Ojai, California. In his later years, he focused on the connections between mind, brain, and consciousness, contributing to projects such as the Museum of Consciousness and writing on the material nature of conscious experience.",
+        "sources": [
+          "https://www.wlym.com/archive/oakland/fusion/ijfe/IJFE_v01_n01.pdf",
+          "https://archive.org/stream/ERIC_ED026268/ERIC_ED026268_djvu.txt",
+          "https://inthepresenceofk.org/issue-43-in-the-presence-of-krishnamurti/",
+          "https://friedrichgrohe.com/the-link-no-28/",
+          "https://davidbohmsociety.org/podcast/a-way-to-learn-about-yourself/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Joseph Zorskie\" physics Stevens Institute",
+        "\"Joe Zorskie\" Experiments in Art and Technology",
+        "Joe Zorskie Stevens Institute of Technology",
+        "",
+        "\"Joseph Zorskie\" plasma scope Stevens Institute",
+        "",
+        "\"Joe Zorskie\" Experiments in Art and Technology E.A.T.",
+        "\"Joe Zorskie\" Brockwood Park physics teacher",
+        "\"Joe Zorskie\" and \"David Bohm\"",
+        "",
+        "\"Joe Zorskie\" E.A.T. Experiments in Art and Technology",
+        "",
+        "\"Joe Zorskie\" E.A.T. archive",
+        "",
+        "\"Joe Zorskie\" E.A.T. 1968 1969",
+        "\"Joe Zorskie\" museumofconsciousness.com",
+        "\"Joseph Zorskie\" Stevens Institute physics professor"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH48JBPZzDZXPKwD55r6eSmWqUur-_15EOpvwmb6jo-EpOcU2jWPmmDPlBzyiNBHLfZrJPAm5Zln4FUI2OB4oXP4G5fktNOhaw_7-Q5jY2lkI1t0rgQcPLI9pDzi-KSEjuGMMA9JeuM4_ekd0p5WvUWU5WBM3A=",
+          "title": "wlym.com",
+          "resolvedUri": "https://www.wlym.com/archive/fusion/ijfe/19770303-IJFE.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 149,
+            "endIndex": 258,
+            "text": "He earned his doctorate from the Stevens Institute of Technology, where his thesis focused on plasma physics."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

@@ -22,5 +22,74 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q187822",
+      "label": "Jerome Isaac Friedman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The middle initials do not match (G. vs Isaac/I.). Furthermore, their professional backgrounds are significantly different: the individual on the card is an Electrical Engineer operating a private firm in New Jersey specializing in applied technologies like television and star tracking, while the Wikidata entity is a Nobel Prize-winning particle physicist and professor at MIT."
+    },
+    {
+      "qid": "Q15429378",
+      "label": "Jerome H. Friedman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The middle initials are different (G. vs H.). The professional backgrounds are also completely distinct: the card describes an electrical engineer working in private industry in New Jersey, while the Wikidata entity describes a prominent statistician and academic at Stanford University in California."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Jerome G. Friedman (1924–2010) was an American electrical engineer and technical executive active in New Jersey during the late 1960s and early 1970s. He was the president of Friedman Associates, Inc., a firm located at 110 Halsted Street in East Orange, New Jersey. His professional expertise included electro-optics, lasers, star tracking, television, and media utilization. Prior to founding his own firm, Friedman held engineering and leadership roles at several major electronics companies, including RCA, Westinghouse, and Design Service Co. In the late 1950s, he served as the Director of Customer Relations for Adler Electronics. Friedman was deeply involved in professional engineering circles, notably serving as a committee chairman for the IEEE Long Island Section in 1973. A resident of West Orange, New Jersey, for many years, he moved to Short Hills in 1974. His specialized technical background in optics and media made him a suitable collaborator for Experiments in Art and Technology (E.A.T.), an organization that sought to match engineers with artists for innovative projects.",
+        "sources": [
+          "https://www.timesofisrael.com/jewish-news/jerome-g-friedman-new-jersey-jewish-news/",
+          "http://www.ieee.li/pulse/pulse_1973_09.pdf",
+          "https://worldradiohistory.com/Archive-Television-Digest/50s/1958/Television-Digest-1958-12.pdf",
+          "https://www.digifind-it.com/orange/data/directories/1965.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Jerome G. Friedman\" engineer E.A.T.",
+        "\"Jerome G. Friedman\" \"East Orange\" New Jersey engineer",
+        "\"Jerome G. Friedman\" E.A.T. engineer",
+        "",
+        "\"Jerome G. Friedman\" West Orange New Jersey engineer",
+        "\"Jerome G. Friedman\" star tracking electro-optics",
+        "\"Jerome G. Friedman\" E.A.T. member",
+        "\"Jerome G. Friedman\" \"110 Halsted Street\"",
+        "\"Jerome G. Friedman\" media utilization television",
+        "",
+        "\"Jerome G. Friedman\" engineer television Adler Electronics",
+        "\"Friedman Associates\" 110 Halsted Street East Orange NJ"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLA_YDvNXqv_dF--cSa2byvB3bglURHcfaaJB3-05bOUpXy5I8lm5RwYBLDNLObTST6H5oG0RIK3p0TCBIFu3ngvIu3dID8CsEq9m1ErDQFiV8Y9l67eexP8YJ3Q6Roc5rF1DRBSCBKV-11DbDrXBq8t9jXVgftYtCZW3E40B1zcwLpkTNo5Z8F_L1VTI=",
+          "title": "worldradiohistory.com",
+          "resolvedUri": "https://www.worldradiohistory.com/Archive-TV-Digest/50s/1959/TV-Digest-1959-06.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 429,
+            "endIndex": 599,
+            "text": "Prior to founding his own firm, Friedman held engineering and leadership roles at several major electronics companies, including RCA, Westinghouse, and Design Service Co."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

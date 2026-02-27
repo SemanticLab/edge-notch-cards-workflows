@@ -8,7 +8,7 @@
     "geographicLocation": "New York, New York"
   },
   "professionalAffiliation": {
-    "employerOrganization": "Self-employed"
+    "employerOrganization": ""
   },
   "professionalIdentityExpertise": {
     "jobTitleOccupation": "Chemical Engineer and Private Consultant",
@@ -22,5 +22,121 @@
     ],
     "specializedSkillsKnowledge": "Specializes in sheet-forming and manufacture of all standard shapes. 14 years in plastics industry, including eight years as a private consultant. Advising in material selection, product design and processing techniques. Expertise in heat forming thermoplastics vs setting plastics like epoxy and polyester. Extensive industry contacts abroad."
   },
-  "interestsCreativeActivities": {}
+  "interestsCreativeActivities": {},
+  "wikidata_candidates": [
+    {
+      "qid": "Q76207192",
+      "label": "Allan Harry Griffin",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The surnames are different (Griff vs. Griffin) and the middle names do not align (the card has an 'L' initial, whereas the Wikidata entity has the middle name 'Harry'). There are no shared professional or geographical indicators to suggest they are the same individual."
+    },
+    {
+      "qid": "Q102091823",
+      "label": "A. G. Watson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records represent different individuals. The card describes Allan L. Griff, a chemical engineer specializing in plastics based in New York (using a zip code established after 1963). The Wikidata entry describes Allan Griffiths Watson (A. G. Watson), a South African mechanical engineer specialized in railways who died in 1945. Their surnames, locations, and areas of engineering expertise do not match."
+    },
+    {
+      "qid": "Q112552843",
+      "label": "Allan Griffin",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Allan L. Griff vs. Allan Griffin). Furthermore, their professional fields and occupations are completely different: the card record describes a chemical engineer and private consultant specializing in plastics and manufacturing, while the Wikidata entity describes a physicist and university teacher specializing in solid-state and condensed matter physics."
+    },
+    {
+      "qid": "Q133578820",
+      "label": "Q133578820",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The index card describes Allan L. Griff, a specialized chemical engineer and plastics consultant. Wikidata entity Q133578820 corresponds specifically to Allan L. Griff. Although the birth date in the Wikidata record (1900) is likely a placeholder or approximate value, the entity identifier specifically maps to the individual named on the physical card, confirming they are the same person."
+    },
+    {
+      "qid": "Q135672485",
+      "label": "Q135672485",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different individuals. The card refers to Allan L. Griff, a chemical engineer and plastics consultant based in New York. The Wikidata entry refers to Allan Thomas Griffith, an Australian civil servant and airman who received the Order of Australia. The surnames (Griff vs. Griffith), locations (USA vs. Australia), and professional careers do not align."
+    }
+  ],
+  "wikibase_candidates": [
+    {
+      "qid": "Q23403",
+      "label": "Griffith Stadium",
+      "description": "historic sports stadium in Washington, D.C.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a person (Allan L. Griff, a chemical engineer), while the second record describes a physical location (Griffith Stadium, a sports venue). They are entirely different types of entities."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Allan L. Griff is a chemical engineer and independent plastics consultant known for his expertise in extrusion technology. Born in New York, he graduated from Cornell University in 1954 with a B.S. in Chemical Engineering. His early career included technical service and development roles at Union Carbide Plastics, where he specialized in extrusion and thermoplastics processes. In 1961, he established himself as a private consultant, founding Edison Technical Services, Inc. based in the New York area. Griff is the author of several foundational texts, including \"Plastics Extrusion Technology\" (first published in 1962) and \"The Plastics Extrusion Operating Manual.\" His professional work spans material selection, product design, and processing techniques for industries such as packaging, agriculture, and construction. Notably, Griff maintains an interdisciplinary interest in anthropology and the social impact of technology, having contributed to international grain recovery guidelines and written extensively on the \"cultural evolution\" of science. During the late 1960s and 1970s, he was active in New York as a consultant, an era and location consistent with the activities of the Experiments in Art and Technology (E.A.T.) organization. In recent years, he has continued his work as an educator and technical advisor while also pursuing personal interests in poetry and proverbs.",
+        "sources": [
+          "https://www.griffex.com",
+          "https://www.plasticstoday.com/extrusion/pursuit-reality-extrusion-and-elsewhere",
+          "https://cornellians.cornell.edu/march-april-2025-class-notes/",
+          "https://books.google.com/books?id=088275386X",
+          "http://www.dtic.mil/dtic/tr/fulltext/u2/439777.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Allan L. Griff chemical engineer plastics consultant",
+        "\"Allan L. Griff\" plastics extrusion",
+        "\"Allan L. Griff\" plastics processing techniques",
+        "\"Allan L. Griff\" Experiments in Art and Technology",
+        "\"Allan L. Griff\" E.A.T. New York",
+        "\"Allan L. Griff\" Union Carbide E.A.T.",
+        "\"Allan Griff\" E.A.T. artist collaboration",
+        "\"Allan L. Griff\" E.A.T. member list",
+        "\"Allan L. Griff\" technical consultant artist collaboration",
+        "\"Allan L. Griff\" Experiments in Art and Technology archive"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6ja03c5k51ofvRqB1B2RwlCEoBCooQH-8NpXhVEqvPf1oz3m34XF3S7UcpyXr16slLjFqC-8pLfQIPGY8Rd1UHdQZPEPEkORw2Jol3Y2xVZLf1Twd50DE9omGHSVw3rlwpMBKBLgYKbQ=",
+          "title": "dtic.mil",
+          "resolvedUri": "https://apps.dtic.mil/sti/tr/pdf/ADA302331.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 172,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Allan L. Griff is a chemical engineer and independent plastics consultant known for his expertise in extrusion technology."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 173,
+            "endIndex": 272,
+            "text": "Born in New York, he graduated from Cornell University in 1954 with a B.S. in Chemical Engineering."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 273,
+            "endIndex": 429,
+            "text": "His early career included technical service and development roles at Union Carbide Plastics, where he specialized in extrusion and thermoplastics processes."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
+  }
 }

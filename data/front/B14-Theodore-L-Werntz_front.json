@@ -17,5 +17,106 @@
       "Illumination",
       "Plastics"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q585777",
+      "label": "Brookhaven National Laboratory",
+      "description": "United States Department of Energy national laboratory",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name of the organization is an exact match. Furthermore, the cardholder's residence in Shirley, New York, is in very close proximity to the laboratory's location in Upton, New York, and the cardholder's technical fields (Physics, Electronics) align with the research activities of Brookhaven National Laboratory."
+    },
+    {
+      "qid": "Q133811604",
+      "label": "Brookhaven National Laboratory - Participation of the Czech Republic",
+      "description": "organization in Prague, Czechia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the main Brookhaven National Laboratory (typically associated with its site in Upton, New York, near the individual's residence in Shirley, NY). The Wikidata entity specifically represents the Czech Republic's participation program in Prague, established in 2015, which is a distinct administrative or collaborative entity from the main US-based laboratory."
+    },
+    {
+      "qid": "Q58938861",
+      "label": "Q58938861",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58938861 refers to the individual Theodore L. Werntz himself, not the organization Brookhaven National Laboratory (which is Q58595). A person and an organization are distinct types of entities."
+    },
+    {
+      "qid": "Q69898727",
+      "label": "Q69898727",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q69898727 refers to the person Theodore L. Werntz, whereas the organization listed on the card is Brookhaven National Laboratory. An individual person and a research laboratory are distinct entity types."
+    },
+    {
+      "qid": "Q70506153",
+      "label": "Q70506153",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q70506153 refers to the individual person (Theodore L. Werntz) described on the card, rather than the organization (Brookhaven National Laboratory) listed as his employer. Therefore, the entity is not the same organization."
+    },
+    {
+      "qid": "Q52460729",
+      "label": "Q52460729",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q52460729 refers to the individual person, Theodore L. Werntz, listed on the card, whereas the employer organization is Brookhaven National Laboratory (which has a different Wikidata ID, Q585550)."
+    },
+    {
+      "qid": "Q53911685",
+      "label": "Q53911685",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q53911685 represents the individual Theodore L. Werntz, whereas the query asks for a comparison with the employer organization Brookhaven National Laboratory."
+    },
+    {
+      "qid": "Q69898729",
+      "label": "Q69898729",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q69898729 refers to the individual Theodore L. Werntz himself, not the organization Brookhaven National Laboratory. An individual person is distinct from their employer institution."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Theodore L. Werntz (often referred to as Ted Werntz) was an engineer and engineering physicist active in the late 1960s and 1970s. He was employed at the Brookhaven National Laboratory (BNL) in Upton, New York, where he worked in the Alternating Gradient Synchrotron (AGS) department as early as 1965. During his time at BNL, he resided in the nearby town of Shirley, New York. Werntz was a prominent figure in the movement for social responsibility in technology, serving as a leading member of the Committee for Social Responsibility in Engineering (CSRE) and contributing to its journal, Spark. He collaborated with sociologist Amitai Etzioni and engineer Stephen H. Unger at the Center for Policy Research in New York City, where he worked on developing sociotechnical systems to facilitate citizen participation in government, specifically proposing concepts for audio-visual conferencing and Congressional Record retrieval. His work bridged the gap between technical engineering and social policy, and he is cited in historical accounts of the period as part of a generation of engineers who sought to redefine the profession's social impact through organizations like CSRE and Experiments in Art and Technology (E.A.T.).",
+        "sources": [
+          "https://www.bnl.gov/bnlweb/pubaf/bulletin/1965/bb061665.pdf",
+          "https://thetedkarchive.com/library/matthew-wisnioski-engineers-for-change",
+          "https://files.eric.ed.gov/fulltext/ED066896.pdf",
+          "https://www.themilitant.com/1971/3527/MIL3527.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Theodore Werntz\" Experiments in Art and Technology",
+        "\"Theodore L. Werntz\" Shirley New York",
+        "\"Theodore Werntz\" \"Amitai Etzioni\" technology",
+        "\"Theodore L. Werntz\" Brookhaven National Laboratory electronics physics",
+        "\"Theodore Werntz\" E.A.T. project",
+        "",
+        "\"Ted Werntz\" \"Experiments in Art and Technology\"",
+        "\"Theodore Werntz\" Shirley NY",
+        "",
+        "\"Ted Werntz\" CSRE \"Experiments in Art and Technology\"",
+        ""
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -9,5 +9,79 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "photography"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q28221",
+      "label": "Samuel Chaikofsky",
+      "description": "artist",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Samuel Chaikofsky' matches exactly in both records. Additionally, the index card lists photography as an artistic pursuit, which aligns with the Wikibase entry identifying him as an artist and a participant in the E.A.T. (Experiments in Art and Technology) project, which was historically based in New York where the card's address is located."
+    }
+  ],
+  "wikidata_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Samuel Chaikofsky (1924–1991) was an engineer or technical professional based in the Bronx, New York, who was active in the late 1960s. He is historically recognized for his participation in the landmark exhibition \"Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes,\" organized by Experiments in Art and Technology (E.A.T.). The exhibition took place at the Brooklyn Museum from November 25, 1968, to January 5, 1969, and showcased collaborations between artists and the technical community. Chaikofsky is listed in the exhibition records and participant catalogs of E.A.T., reflecting his involvement in the intersection of engineering and contemporary art during this period. Vital records indicate he was born on January 7, 1924, and resided in the Bronx (postal district Bronx 67, corresponding to ZIP code 10467) before his death on May 15, 1991.",
+        "sources": [
+          "https://www.artist-info.com/curator/E-A-T",
+          "https://www.experimentsinartandtechnology.org/some-more-beginnings",
+          "https://sortedbydate.com/genealogy/7-january-1924"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Samuel Chaikofsky\" E.A.T.",
+        "\"Chaikofsky\" engineer Bronx NY",
+        "Samuel Chaikofsky \"Experiments in Art and Technology\"",
+        "",
+        "\"Samuel Chaikofsky\" obituary New York",
+        "\"Samuel Chaikofsky\" \"Some More Beginnings\"",
+        "\"Samuel Chaikofsky\" 1924-2010",
+        "",
+        "\"Samuel Chaikofsky\" E.A.T. catalog",
+        "",
+        "",
+        "",
+        "\"Some More Beginnings\" E.A.T. participant list",
+        "\"Some More Beginnings\" catalog \"Chaikofsky\"",
+        "\"Some More Beginnings\" Brooklyn Museum Samuel Chaikofsky",
+        "",
+        "\"Samuel Chaikofsky\" technical description E.A.T.",
+        "",
+        "",
+        "\"Samuel Chaikofsky\" artwork E.A.T."
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFefTrAE3DpI9exbpsq8n02yle_kDyLSTJhSzUxukTZ_JHMon4idSjrvV2tHWovheejEN-vVKRx6k0yah2XtP0R39Ug-N3bsfJjA_4yt8cwdl3WgKOufS1RHASmSgyKfBnnYTBwIZGzVqzZy2fMwbZS7Y8=",
+          "title": "artist-info.com",
+          "resolvedUri": "https://www.artist-info.com/exhibition/MoMA-27-Id373962"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb7-eaDUqK9g1S79wiU2_97Dahil0WYxS-PU_QC7EEzKw-amBDIxMb8HdCU2NL8UJUQVD7FmxhLUUrGJvURsRBsz04Dceh2XpsJLjvfAto2JFQbPj1gn1OuJ3rFXb0n0fW2kejw3lkQbQolIlW39D69nTzE4MvA2yQV2SrrlyyyNAHCyDDQTy_taMAC5QInT0=",
+          "title": "cuny.edu",
+          "resolvedUri": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1885&context=bb_arch_ticker"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 781,
+            "endIndex": 1219,
+            "text": "Vital records indicate he was born on January 7, 1924, and resided in the Bronx (postal district Bronx 67, corresponding to ZIP code 10467) before his death on May 15, 1991.\",\n      \"sources\": [\n        \"https://www.artist-info.com/curator/E-A-T\",\n        \"https://www.experimentsinartandtechnology.org/some-more-beginnings\",\n        \"https://sortedbydate.com/genealogy/7-january-1924\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
   }
 }

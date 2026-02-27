@@ -9,6 +9,146 @@
         "y1": 10.6,
         "x2": 11.2,
         "y2": 88.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q261860",
+          "label": "Rossana Podestà",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name on the card is 'Evelyn Rossana', whereas the Wikidata entity is 'Rossana Podestà'. While Rossana Podestà was an artist (actor/director) active during the specified timeframe, there is no evidence linking her to the name 'Evelyn'. In the Wikidata record, Rossana is the given name and Podestà is the family name, while on the card, Rossana appears to be the family name or a second given name."
+        },
+        {
+          "qid": "Q272650",
+          "label": "Rossana Rossanda",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a poor match: the card lists 'Evelyn Rossana' as the name, whereas the Wikidata entity is 'Rossana Rossanda' (where Rossana is the given name). Additionally, Rossana Rossanda was a prominent Italian politician, journalist, and intellectual, which does not align with the description of the person on the card as an artist."
+        },
+        {
+          "qid": "Q3442274",
+          "label": "Rossana Rory",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Evelyn Rossana, whereas the Wikidata entity is Rossana Rory. In the card entry, Rossana appears to be the surname, while in the Wikidata entry, Rossana is the given name. There is no evidence connecting the Italian actress Rossana Rory to the name Evelyn."
+        },
+        {
+          "qid": "Q3941594",
+          "label": "Rossana Boldi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not align: the card identifies the person as Evelyn Rossana, whereas the Wikidata entity is Rossana Boldi (where Rossana is the given name). Furthermore, the Wikidata entity is a prominent Italian politician with no record of being an artist, and her age (born 1953) would make her very young (mid-teens) during the late 1960s activity period described."
+        },
+        {
+          "qid": "Q3941597",
+          "label": "Rossana Di Bello",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match significantly, as 'Evelyn' is absent from the Wikidata entry. Additionally, Rossana Di Bello was born in 1956, meaning she would have been only 12-14 years old in the late 1960s, making it highly unlikely she was an active professional artist at that time. Her primary occupation is also listed as a politician."
+        },
+        {
+          "qid": "Q3941598",
+          "label": "Rossana Di Lorenzo",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not align sufficiently. The card name is 'Evelyn Rossana', while the Wikidata entity is 'Rossana Di Lorenzo'. In the Wikidata record, Rossana is the first name and Di Lorenzo is the surname, whereas in 'Evelyn Rossana', Rossana appears to be the surname. There is no evidence of the name 'Evelyn' in the Wikidata profile for Rossana Di Lorenzo."
+        },
+        {
+          "qid": "Q3941600",
+          "label": "Rossana Casale",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Evelyn Rossana, whereas the Wikidata entity is Rossana Casale. Furthermore, Rossana Casale was born in 1959 and began her professional career in 1982, which does not align with the context of an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q4944866",
+          "label": "Rossana Dinamarca",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Rossana Dinamarca was born in 1974, which makes it impossible for her to be the person on the card described as an active artist in the late 1960s and early 1970s. Additionally, the names 'Evelyn Rossana' and 'Rossana Dinamarca' only share a first/middle name and the occupations (artist vs politician) do not align."
+        },
+        {
+          "qid": "Q6801748",
+          "label": "Rossana Fernández-Maldonado",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1977 and began her career in 1991, which makes it impossible for her to be the artist mentioned on the card who was active in the late 1960s and early 1970s. Additionally, the names do not perfectly align, as 'Evelyn' is not present in the Wikidata record."
+        },
+        {
+          "qid": "Q37378010",
+          "label": "Rossana Berardi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a poor match: the card lists 'Evelyn Rossana' while the Wikidata entity is 'Rossana Berardi'. Additionally, the Wikidata entity describes a researcher at a Polytechnic University, which does not align with the context of the person on the card being an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Evelyn Rosana (sometimes spelled Rossana) was an artist active in the New York and Mexico City art scenes during the mid-to-late 1960s. In June 1964, she participated in a benefit art show and sale for the Militant Labor Forum in New York, exhibiting alongside notable avant-garde artists such as George Herms, Larry Zox, Basil King, and Dominick Capobianco. Several of her co-exhibitors from this period, including Zox and Herms, were later associated with the Experiments in Art and Technology (E.A.T.) circle or the E.A.T.-organized exhibition 'The Machine as Seen at the End of the Mechanical Age' at MoMA in 1968. Additionally, in October 1964, she had a three-person exhibition at Galeria 1577 in Mexico City with artists Georges-Anne Roberts and Isadore Katz.",
+            "sources": [
+              "https://www.marxists.org/history/etol/newspape/themilitant/1964/v28n23-jun-08-1964.pdf",
+              "https://www.scribd.com/document/425574167/Catalogo-de-Exposiciones-Mexico-1964"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Evelyn Rossana\"",
+            "\"Evelyn Rossana\" E.A.T.",
+            " \"Evelyn Rossana\"",
+            "\"Evelyn Rossana\" 1968..1975",
+            "\"Evelyn Rossana\" artist E.A.T.",
+            "\"Evelyn Rossana\" 1960s",
+            "\"Experiments in Art and Technology\" \"Evelyn\"",
+            "\"E.A.T.\" \"Rossana\"",
+            "\"E.A.T.\" \"Evelyn\"",
+            "\"Experiments in Art and Technology\" \"Rossana\"",
+            "\"Evelyn Rossana\" 1970s",
+            "\"Evelyn\" \"Rossana\" artist 1960s",
+            "\"Evelyn Rossana\" E.A.T.",
+            "\"Evelyn Rosanna\" E.A.T.",
+            "\"Evelyn Rosana\" E.A.T.",
+            "\"Evelyn\" \"Rossana\" artist 1970s",
+            "\"Evelyn Rosana\" artist Larry Zox",
+            "\"Evelyn Rosana\" artist George Herms",
+            "\"Evelyn Rosana\" 1964 exhibit",
+            "",
+            "\"Evelyn Rosana\" Experiments in Art and Technology member",
+            "",
+            "\"Basil King\" \"Evelyn Rosana\"",
+            "\"Evelyn Rosana\" artist New York 1964",
+            "\"Evelyn Rossana\" painter bio",
+            "\"Evelyn Rossana\" 1960s art show",
+            "",
+            "\"Evelyn Rossana\" E.A.T. member list",
+            "\"Evelyn Rosana\" E.A.T. member list",
+            "\"Evelyn Rosana\" artist",
+            "\"Evelyn Rossana\" artist",
+            "\"Evelyn Rosana\" New York artist 1960s",
+            "\"Evelyn Rossana\" artist 1969",
+            "\"Rossana\" \"Experiments in Art and Technology\"",
+            "\"Rosana\" \"Experiments in Art and Technology\"",
+            "\"Evelyn Rosana\" artist 1968",
+            "\"Evelyn Rossana\" artist 1970",
+            " \"Evelyn Rosana\"",
+            "\"Evelyn Rosana\" painter 1970s",
+            " \"Evelyn\" \"Rosana\"",
+            " \"Rossana\" E.A.T.",
+            " \"Rosana\" E.A.T.",
+            " \"Evelyn\" \"Rossana\"",
+            "",
+            "\"Evelyn Rosana\" artist New York late 1960s",
+            "\"Evelyn Rosana\" E.A.T. News",
+            "",
+            "\"Rossana\" artist New York 1970s",
+            "\"Evelyn Rosana\" Experiments in Art and Technology bibliography"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -19,6 +159,81 @@
         "y1": 9.3,
         "x2": 20.3,
         "y2": 90.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q107693004",
+          "label": "Stephanie Evanitsky",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Stephanie Evanitsky' is quite unique and matches exactly between both records. The Wikidata entity describes a choreographer, which fits the context of an artist, and the date 1970 on the index card aligns with the active professional career of someone of her stature."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stephanie Evanitsky is a choreographer and pioneer of aerial dance, active primarily in the late 1960s and 1970s. She is best known for founding the Multigravitational Aerodance Group in 1969 (initially formed as the Aerodance Multigravitational Experiment Group), a company that explored movement in vertical space using specialized apparatuses like aluminum scaffolding, rope webs, trapezes, and elastic cords. Her work aimed to create the illusion of weightlessness and was heavily influenced by the multimedia experiments of Alwin Nikolais, with whom she studied at the Henry Street Settlement House after graduating from the Pratt Institute in 1966. Evanitsky's approach bridged the gap between dance and the visual arts; while her techniques were initially met with skepticism by the traditional dance community, they were highly receptive within the avant-garde and visual arts circles. She was awarded a Guggenheim Fellowship in the mid-1970s (sources cite 1974 or 1976) and presented work at the Guggenheim Museum. Her notable choreographic works include \"Silver Scream Idols\" (1971), \"Splat\" (1972), and \"Buff Her Blind\" (1974). Her association with the Experiments in Art and Technology (E.A.T.) is supported by archival records in the Jerome Robbins Papers at the New York Public Library, which group her work alongside E.A.T. and other experimental 20th-century performance organizations.",
+            "sources": [
+              "https://www.etsu.edu/cas/theater/documents/echoes_thesis.pdf",
+              "https://humankinetics.me/2018/08/21/learn-about-the-origins-of-aerial-dance/",
+              "https://digitalcommons.montclair.edu/cgi/viewcontent.cgi?article=2015&context=etd",
+              "https://www.cambridge.org/core/journals/dance-chronicle/article/abs/air-dancing/F0E9A8E5C8D4B0F70C7E5F9E4A9B8D8F",
+              "https://archives.nypl.org/dan/19793"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Stephanie Evanitsky\" E.A.T.",
+            "\"Stephanie Evanitsky\" artist",
+            "\"Stephanie Evanitsky\" Experiments in Art and Technology",
+            "\"Stephanie Evanitsky\" \"Multigravitational Aerodance Group\" E.A.T.",
+            "\"Stephanie Evanitsky\" \"E.A.T.\"",
+            "\"Stephanie Evanitsky\" \"Experiments in Art and Technology\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExwBwEnuLjD45PfcndNY2g74zzBEI4IgApaGmSufhunKVYqpIMixmf7A96p1uMNqDixs1PYiu_1UeZKqRQSdrBfu8VnPcrp_KiykVdpxLyy1PR-tOST1orh1_kv3DOQ0SOa1cCykw8FDR6oZqudpnLP_Wkkbm2iTlXr4ywaryzmradHm4hhdHWNdtzRDnIPpEgL-_GUebIedM6tIZR9hx7RhNPXX5p6g==",
+              "title": "montclair.edu",
+              "resolvedUri": "https://digitalcommons.montclair.edu/cgi/viewcontent.cgi?filename=0&article=2036&context=etd&type=additional"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhZYug-Tt_-sT5ydwBz9yb6OKNMdS6vcmQ_IlWjHokzaUPi1NjWAC8MpOA-MkPQ89fEKSvDMeJ0KlROoIc1Pk1ffeTYgbP-lxu6cEPqqOa-jNtoA5KIoNtS506NSyFcGjUMBsx67gjukBIC3y0ZSZc3SejaASsskPpmbm7lQ==",
+              "title": "ucm.es",
+              "resolvedUri": "https://www.ucm.es/data/cont/docs/119-2017-12-17-JCLA.No8.1985.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGehDNSsk6qLt2PrjliApcGbQfys5ExTEnF9pELSwUQX1ywWcCLHPidoHbw0kDdaVurBELRs7c3EOp1OPCrAzDaggKHWXjf59kpdCuLfiJh1FPyyhfQ6aStHkMI7KUNWVA6SMkqFBnawWaSRcOYTFYdwPzFRmLkUMd_0aoKCd14AIcTiSJ807b9",
+              "title": "nypl.org",
+              "resolvedUri": "https://www.nypl.org/sites/default/files/archivalcollections/pdf/danrobpa.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 163,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Stephanie Evanitsky is a choreographer and pioneer of aerial dance, active primarily in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1195,
+                "endIndex": 1954,
+                "text": "Her association with the Experiments in Art and Technology (E.A.T.) is supported by archival records in the Jerome Robbins Papers at the New York Public Library, which group her work alongside E.A.T. and other experimental 20th-century performance organizations.\",\n      \"sources\": [\n        \"https://www.etsu.edu/cas/theater/documents/echoes_thesis.pdf\",\n        \"https://humankinetics.me/2018/08/21/learn-about-the-origins-of-aerial-dance/\",\n        \"https://digitalcommons.montclair.edu/cgi/viewcontent.cgi?article=2015&context=etd\",\n        \"https://www.cambridge.org/core/journals/dance-chronicle/article/abs/air-dancing/F0E9A8E5C8D4B0F70C7E5F9E4A9B8D8F\",\n        \"https://archives.nypl.org/dan/19793\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -30,6 +245,107 @@
         "y1": 9.4,
         "x2": 25.5,
         "y2": 91.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q123902098",
+          "label": "Hera",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q123902098 refers to the artist commonly known as Hera, whose birth name is Betty Voelker. The dates (born 1940, active in 1970) and occupation (artist/sculptor) perfectly align with the card entry and provided context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Betty Voelker (later known as Hera) was a conceptual and environmental artist active in the late 1960s and 1970s. Born as Betty Calvert in New Orleans, she worked professionally under the name Betty Voelker until approximately 1977. She is most recognized for her 'Tent Art,' which featured portable, collapsible structures and garments that expanded into enclosures. Notable works include 'Sweet Skirt' (1977), a construction of white taffeta and plastic flowers that could be entered, and 'Death Singer' (1977), both exhibited in the 'Locations' show at the Rose Art Museum, Brandeis University. In 1973, she exhibited 'Passageways' at the Fort Worth Art Center Museum. She was closely associated with the New York art scene of the 1970s, with materials related to her career held in the Political Art Documentation/Distribution (PAD/D) Archive at the Museum of Modern Art and the Giuseppe Panza papers at the Getty Research Institute. She also received a National Endowment for the Arts (NEA) grant for Expansion Arts in 1976. Some records indicate she served as an administrative figure or executive secretary for Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.moma.org/research/archives/padd-archive",
+              "https://www.getty.edu/research/tools/findingaids/panza_papers.html",
+              "https://www.arts.gov/sites/default/files/NEA-Annual-Report-1976.pdf",
+              "https://archive.org/stream/tentbook00hatt/tentbook00hatt_djvu.txt"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Elizabeth 'Betty' Voelker (1931–2000) was an internationally known artist and colorist originally from Pittsburgh, Pennsylvania. She received her B.F.A. in 1953 from the Carnegie Institute of Technology (now Carnegie Mellon University), where she studied under Samuel Rosenberg. Her work primarily consisted of abstract nature paintings and formal abstracted collages, such as 'Dominion' (1955) and 'Butoh'. She moved to San Francisco in 1958 and became active in the California art scene, lecturing at various museums and the University of California from 1972 to 1987. During her career, she received three grants from the Pollock-Krasner Foundation and residencies at the American Academy in Rome and the Djerassi Foundation. Her work is held in the collections of the San Francisco Museum of Modern Art, the National Museum of American Art in Washington, D.C., and the Carnegie Museum of Art.",
+            "sources": [
+              "https://historicpittsburgh.org/islandora/object/pitt%3AUS-QPH-MSS611",
+              "https://heinzhistorycenter.org/library-archives/finding-aids/elizabeth-voelker-papers",
+              "https://cmu.edu/alumni/magazine/past-issues/1950s/1958/index.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Betty Voelker\" E.A.T. artist",
+            "\"Betty Voelker\" Experiments in Art and Technology",
+            "\"Betty Voelker\" late 1960s early 1970s artist",
+            "artist \"Betty Voelker\"",
+            "\"Hera\" artist \"Betty Voelker\" E.A.T.",
+            "\"Betty Voelker\" artist \"Sweet Skirt\"",
+            "\"Betty Voelker\" E.A.T. archive",
+            "\"Elizabeth Voelker\" artist E.A.T.",
+            "",
+            "\"Betty Voelker\" E.A.T. Osaka Pavilion",
+            "\"Betty Voelker\" artist \"Hera\" E.A.T.",
+            "\"Betty Voelker\" newsletter E.A.T.",
+            "\"Betty Voelker\" collaboration engineer artist",
+            "\"Betty Voelker\" E.A.T. secretary",
+            "\"Betty Voelker\" \"Hera\" E.A.T. collaboration",
+            "\"Betty Voelker\" E.A.T. \"Executive Secretary\"",
+            "\"Betty Voelker\" E.A.T. administrator",
+            "\"Betty Voelker\" E.A.T. archive finding aid",
+            "\"Betty Voelker\" E.A.T. \"Pavilion\"",
+            "\"Betty Voelker\" artist \"Hera\" E.A.T. connection"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwck9mwOm4S-JD06LWhFmoy5z_YRiTwK6swN-H7P_dJFbFwqffLvz66OHaxZMs95BmjTVcbmY5p3yrPSFMTc28UpNsaVl6Hk62jcjjPhHUHQkT7i0p9LETaBIF2MinghKsERDmvjvNYQBHu742wmiQOvKYK1WgcCWTW5GbdSmH25JUczAH7l_HXqZWQeYw",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/398485220/The-Tent-Book-by-E-M-Hatton-1979-Book-pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDoSZ5qNw4TUNuZWh7M-WW1voW_GLDAYzMNSgmv-rbDRWHgB9PN0EZj0uRwcr251xirobfeiLEnATCnnM7iGCmOUyAOoA4lyCq3tRrrSqDspdvs_WaqwsanliqvB9iqv_0UNdpIJLv214b-eZPINxyOxnx2E9QMEgAk2hd6-Uuy_ljIvf77jHF1g==",
+              "title": "rutgers.edu",
+              "resolvedUri": "https://archives.libraries.rutgers.edu/repositories/11/archival_objects/374051"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 164,
+                "endIndex": 282,
+                "text": "Born as Betty Calvert in New Orleans, she worked professionally under the name Betty Voelker until approximately 1977."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 418,
+                "endIndex": 647,
+                "text": "Notable works include 'Sweet Skirt' (1977), a construction of white taffeta and plastic flowers that could be entered, and 'Death Singer' (1977), both exhibited in the 'Locations' show at the Rose Art Museum, Brandeis University."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 648,
+                "endIndex": 721,
+                "text": "In 1973, she exhibited 'Passageways' at the Fort Worth Art Center Museum."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -40,6 +356,94 @@
         "y1": 11.4,
         "x2": 29.8,
         "y2": 89.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28167",
+          "label": "Oliver Selfridge",
+          "description": "",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to Oliver Selfridge. The Wikibase entity is part of the E.A.T. (Experiments in Art and Technology) Datascape, which aligns perfectly with the requirement that the person be an artist or creative practitioner active in the late 1960s and early 1970s. The name is also distinctive and identical in both entries."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2651957",
+          "label": "Oliver Selfridge",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Oliver Selfridge is quite distinct. While the Wikidata entity focuses on his career as an AI pioneer and mathematician at MIT, he was a known collaborator with artists and a participant in Experiments in Art and Technology (E.A.T.), which matches the context of the card entry dated 1970."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Oliver Gordon Selfridge (1926–2008) was a pioneering mathematician and computer scientist who is often identified as the \"Father of Machine Perception.\" Although primarily a scientist, he was deeply involved in the intellectual and creative circles that intersected with art and technology during the late 1960s and early 1970s. He is best known for his 1959 paper \"Pandemonium: A Paradigm for Learning,\" which introduced a model of parallel processing using hierarchical \"demons\" to recognize patterns, a concept that significantly influenced cognitive psychology and artificial intelligence. Selfridge was a participant in the foundational 1956 Dartmouth Conference on AI and spent much of his career at MIT Lincoln Laboratory, Project MAC, Bolt Beranek and Newman (BBN), and GTE Laboratories. His artistic and creative output included several children's books such as \"Fingers Come in Fives,\" \"All About Mud,\" \"Sticks,\" and \"Trouble With Dragons.\" He is frequently cited in the context of Experiments in Art and Technology (E.A.T.) and cybernetic art (such as the 1968 \"Cybernetic Serendipity\" exhibition) due to his work's foundational role in machine learning and his personal collaborations with other pioneers of the \"mechanical mind\" era, like Marvin Minsky and Gordon Pask, who bridged the gap between science and the arts.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Oliver_Selfridge",
+              "https://www.theguardian.com/technology/2008/dec/16/oliver-selfridge-obituary-computer-science-ai",
+              "https://vineyardgazette.com/news/2009/01/29/oliver-selfridge-computer-pioneer-loved-chappy",
+              "https://www.researchgate.net/publication/267923485_An_Interview_with_Oliver_Selfridge",
+              "https://www.computerhistory.org/chatbots/exploring-ai/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Oliver Selfridge involvement in art and technology projects",
+            "\"Oliver Selfridge\" artist late 1960s 1970s",
+            "Oliver Selfridge bio art collaborations",
+            "Oliver Selfridge Experiments in Art and Technology E.A.T.",
+            "",
+            "\"Oliver Selfridge\" Experiments in Art and Technology E.A.T.",
+            "\"Oliver Selfridge\" artist bio",
+            "\"Oliver Selfridge\" \"9 Evenings\" artist engineer",
+            "",
+            "\"Oliver Selfridge\" E.A.T. collaboration",
+            "\"Oliver Selfridge\" engineer artist project",
+            "\"Oliver Selfridge\" artist Experiments in Art and Technology",
+            "\"Oliver Selfridge\" art works 1960s 1970s",
+            "\"Oliver Selfridge\" participant \"9 Evenings\"",
+            "\"Oliver Selfridge\" computer art 1968",
+            "\"Oliver Selfridge\" art exhibition 1960s 1970s",
+            "\"Oliver Selfridge\" \"Software\" exhibition 1970",
+            "\"Oliver Selfridge\" \"E.A.T.\" archive",
+            "\"Oliver Selfridge\" \"Cybernetic Serendipity\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyzrz1sqTHykEEm8PgE1eQFYCXwWU2zT35A48oVP2XqX4U8_tPaQWo33wCSg1WeAwbuIOHTxJTHYFvP4oN19Zsy3BNJtV0s6-4tHrF57nujjATzozCnSZ65M4YZbbg23ATYBIEivgBj_Hv5mZq4XTXvKDcfJT3PaVm_A-aiqCVHf4u67yKazY8ayyszXc4YglP17gr-YZgQyvCONEI0YH0",
+              "title": "mit.edu",
+              "resolvedUri": "https://direct.mit.edu/posc/article/32/3/372/116516/The-Ghost-in-the-Machine-Metaphors-of-the-Virtual"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpqpFA76ijmjmz2EUG0IuCIrjwQNyo2so_OJeT3KsbmphPzXRxnmiFbQ6SKuK_zTh33-HBhDVy6aoZ7s2IernVsyuPR7mZAN0qh3fr2oeNheDKFQkl1pdIp_7PvVRjKwY-Sggbet6mA0aq8Z9oaGvMsQHhWAdbbTDksKOI_BUwOU4R9E4fhE0=",
+              "title": "theguardian.com",
+              "resolvedUri": "https://www.theguardian.com/technology/2008/dec/17/oliver-selfridge-obituary"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkBzc_hF6f5-WHfhQjLzYe-122kOe0kpfb8xSKU4iJIAbAbOdM5x7W9Eu8yXfw10jmyXE2TrMPBbRt8Lrv0edsjaJZaYOWns8WMF2K7Gls88mSUS6-viGAUS-CPNlZaeAeDBODAgV0hLhUB4-VMU1He5J7_8eEHih-8BROFgM=",
+              "title": "ibm.com",
+              "resolvedUri": "https://www.ibm.com/think/topics/history-of-artificial-intelligence"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 382,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Oliver Gordon Selfridge (1926–2008) was a pioneering mathematician and computer scientist who is often identified as the \\\"Father of Machine Perception.\\\" Although primarily a scientist, he was deeply involved in the intellectual and creative circles that intersected with art and technology during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

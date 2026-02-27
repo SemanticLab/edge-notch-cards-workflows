@@ -8,6 +8,182 @@
         "y1": 13.2,
         "x2": 31.8,
         "y2": 23.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26356",
+          "label": "Jean Dupuy",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records identify 'J. Dupuy'. The Wikibase entry confirms this person is Jean Dupuy, an artist associated with E.A.T. (Experiments in Art and Technology), which aligns perfectly with the provided context of an artist active in the late 1960s and early 1970s. The date 1876 in the card entry is likely a transcription error or refers to a different data point, as it contradicts the provided context that the subject was active in the mid-20th century."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q356032",
+          "label": "Charles Dupuy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Charles Dupuy was a French politician who died in 1923. This is inconsistent with the context provided, which specifies the individual was an artist active in the late 1960s and early 1970s. Furthermore, the initial 'J' on the card does not correspond to the name 'Charles'."
+        },
+        {
+          "qid": "Q2087587",
+          "label": "Philippe Dupuy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Philippe Dupuy was born in 1960, making it extremely unlikely for him to be an artist active during the late 1960s as specified in the context. Furthermore, the first initial 'J' from the card does not match the name Philippe."
+        },
+        {
+          "qid": "Q2827371",
+          "label": "Agénor Altaroche",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Agénor Altaroche (Q2827371) lived from 1811 to 1884, which completely contradicts the provided context that the subject was an artist active during the late 1960s and early 1970s. While Altaroche used the pseudonym 'Dupuy', he was a 19th-century politician and writer, not the 20th-century artist 'J. Dupuy' described in the context."
+        },
+        {
+          "qid": "Q3384878",
+          "label": "Pierre Dupuy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q3384878) refers to Pierre Dupuy, a 17th-century historian and librarian who died in 1651. The card entry, although mentioning a date of 1876, is contextualized as an artist active in the late 1960s and early 1970s (likely Jean Dupuy). The time periods and professions are entirely incompatible."
+        },
+        {
+          "qid": "Q22094662",
+          "label": "Dupuy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a painter active between 1801 and 1817, which contradicts the provided context that the artist from the card was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q32905509",
+          "label": "Paul Michel Dupuy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Paul Michel Dupuy died in 1949, which contradicts the provided context that the artist from the card was active in the late 1960s and early 1970s. Furthermore, the name 'J. Dupuy' on the card does not match the first name 'Paul Michel'."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jean Dupuy (1925–2021) was a French-born American artist recognized as a pioneer in combining art and technology. Originally a lyrical abstractionist painter in Paris, he moved to New York in 1967, where he famously destroyed much of his earlier work to focus on technological and kinetic art. In 1968, he gained international recognition by winning a competition organized by Experiments in Art and Technology (E.A.T.) for his sculpture 'Cone Pyramid' (also known as 'Heart Beats Dust'). This work used a stethoscope and amplifier to shoot red pigment into the air in rhythm with the viewer's heartbeat and was featured in the landmark exhibition 'The Machine as Seen at the End of the Mechanical Age' at the Museum of Modern Art (MoMA). Throughout the late 1960s and early 1970s, he remained active in the New York avant-garde, teaching at the School of Visual Arts (1969–1971) and participating in the 'Art & Technology' exhibition at the Los Angeles County Museum of Art in 1971. In the mid-1970s, Dupuy shifted his focus toward performance art and Fluxus-related activities, organizing collaborative events such as 'Soup & Tart' (1974) and 'Three Evenings on a Revolving Stage' (1976). His later career was characterized by a move to Nice, France, where he specialized in anagrammatic works and artist books.",
+            "sources": [
+              "https://www.openedition.org",
+              "https://en.wikipedia.org/wiki/Jean_Dupuy_(artist)",
+              "https://hyperallergic.com/151241/on-the-left-bank-a-pioneering-conceptualist-gets-his-due/",
+              "https://www.artsper.com/en/contemporary-artists/france/1684/jean-dupuy",
+              "https://loevenbruck.com/en/artist/jean-dupuy/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"J. Dupuy\" Experiments in Art and Technology E.A.T.",
+            "\"J. Dupuy\" artist 1960s 1970s",
+            "\"Jean Dupuy\" artist E.A.T. \"Heart Beats Dust\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_c3tQr0LgAqxTDY0QRy1H42wdq0r6WMB89UBQihlzmSEI98GFB_7RdYUNaY2SWCSaIWrZSJR8cDxNO2pcfsa6wl0ePuo-ltHpxuZUws-ZAFmqpPaB8ibKMH0bptcduqVkdZFqPsviqw6LaXFbGeViYEQ96PrnyY9OenQlAPp6T077AqUjA6ihlOParami",
+              "title": "hyperallergic.com",
+              "resolvedUri": "https://hyperallergic.com/on-the-left-bank-a-pioneering-conceptualist-gets-his-due/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE794_H_OiIPAkJNkF9isgKbXkq5h_tfQv2doWIo8Ua4xPZEOnQIaiD0Jr1tmBtR-NKWodQbuGSbf7GTZ1gAI0bkIXdFe7g7UofqQv0PRN8lq98W57Qrynapg3m1rpx6DptZZxmTcaGmsfuYXBdAvDwmsEZeZZMvBTQpHuc6rLAS6ns7_LddeOAbXrIhQCSv2qML2e3wI4ZeYyXdHUPKGDvyfjseEjzEyLG5UNboug=",
+              "title": "loevenbruck.com",
+              "resolvedUri": "https://loevenbruck.com/upload/document/20210610110635_jeandupuy-where-here-loevenbruck-artbaselovrportals-2021.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSgQdQElhPq5OMjTbepwOBpZJswB4zvTVpaHIeNI2enHsEiDwe5w3eEc2T2Oi2DDNEUZaYQ7MV9SrUSQ-n0Ujhcw4QYFh_s9CCdCYUnEnKOlTBv6xHvk7ucGoVkZnq_rVduoyuxAUFsuZ-4x8=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Jean_Dupuy_(artist)"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtzrTLk8LSECrlTl25rw1WYWEcdILwYD4OGXjkJeJjymSBW7oACIkOr8YYUlq0jlJbOLZppkhhwlgKoSpZ4_Lvsi1MvVdx3L-Wvl5QZhLH6yMD_J-Opfaf7b_c8xpf9LsscL1kyc4Tta80jpS0uFgcQgSw2w7L",
+              "title": "openedition.org",
+              "resolvedUri": "https://journals.openedition.org/critiquedart/85287?lang=en"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpRmrlAJG9xJkprFFxteMPon7iexZJQ4XK9M2SWDmryAzp8qDUjHSxEctcTXq-xyynhF6DwM4-WFmv6aVQ3kNdj6JpYXefV8SKsq6rezGZFP85fSUvfOfxIWrCgFK8a2SV73_A6TcUJeBP90BtYQd-GY4=",
+              "title": "openedition.org",
+              "resolvedUri": "https://journals.openedition.org/critiquedart/pdf/85287"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeM6uF_uyKrVyCKNHkPUnr7pzzTzScG8QRuexhxc8MHD-pBg0XRE6qVyqESPwP5pJCt92kJ-SqXASkksdAn1cJubF_s9FN-fRWEhKg1vTXQP68VxsyiosSVqVoxflT78X7qVVN4js1CcJnESDYaPUnco5jy6e9NhLFSUQzk2sK8W9nPPvr5UBxJJw_xhE6Ng8TJJhgGESsdau9GVlJbMAURzigU4VugihQL54lKKYCrjopf8RFBmAQv2DOepu5",
+              "title": "artistsspace.org",
+              "resolvedUri": "https://artistsspace.org/media/pages/exhibitions/young-fluxus/1378777123-1723053452/friedman-frank-and-brown-1982-young-fluxus.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 165,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Jean Dupuy (1925–2021) was a French-born American artist recognized as a pioneer in combining art and technology."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 346,
+                "endIndex": 540,
+                "text": "In 1968, he gained international recognition by winning a competition organized by Experiments in Art and Technology (E.A.T.) for his sculpture 'Cone Pyramid' (also known as 'Heart Beats Dust')."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                4,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 541,
+                "endIndex": 790,
+                "text": "This work used a stethoscope and amplifier to shoot red pigment into the air in rhythm with the viewer's heartbeat and was featured in the landmark exhibition 'The Machine as Seen at the End of the Mechanical Age' at the Museum of Modern Art (MoMA)."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 791,
+                "endIndex": 1037,
+                "text": "Throughout the late 1960s and early 1970s, he remained active in the New York avant-garde, teaching at the School of Visual Arts (1969–1971) and participating in the 'Art & Technology' exhibition at the Los Angeles County Museum of Art in 1971."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1038,
+                "endIndex": 1244,
+                "text": "In the mid-1970s, Dupuy shifted his focus toward performance art and Fluxus-related activities, organizing collaborative events such as 'Soup & Tart' (1974) and 'Three Evenings on a Revolving Stage' (1976)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1245,
+                "endIndex": 1781,
+                "text": "His later career was characterized by a move to Nice, France, where he specialized in anagrammatic works and artist books.\",\n      \"sources\": [\n        \"https://www.openedition.org\",\n        \"https://en.wikipedia.org/wiki/Jean_Dupuy_(artist)\",\n        \"https://hyperallergic.com/151241/on-the-left-bank-a-pioneering-conceptualist-gets-his-due/\",\n        \"https://www.artsper.com/en/contemporary-artists/france/1684/jean-dupuy\",\n        \"https://loevenbruck.com/en/artist/jean-dupuy/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

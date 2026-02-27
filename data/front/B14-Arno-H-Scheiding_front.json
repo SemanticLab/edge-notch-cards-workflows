@@ -12,5 +12,105 @@
       "electroforming technique"
     ],
     "specializedSkillsKnowledge": "electroforming technique"
+  },
+  "wikidata_candidates": [],
+  "wikibase_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Arno H. Scheiding (1910–1975) was a prominent industrial designer and art director active in the mid-20th century, notably associated with the Experiments in Art and Technology (E.A.T.) organization. Born in London, England, he moved to the United States and became a naturalized citizen in 1934. He resided in Darien, Connecticut, from 1965 until his death. Scheiding's career included roles as an art director and industrial designer for the offices of Norman Bel Geddes and Russel Wright, and he served as a teacher at the Laboratory School of Industrial Design in New York. He was well-known for his furniture and lamp designs, often produced for Richards Morgenthau & Co. in collaboration with designers like Paul McCobb and Russel Wright. Technically, he was recognized for his expertise in the electroforming technique and created innovative designs such as \"Translusion,\" a process that added depth and thickness to plastic film. He was also an active member of the Rowayton Arts Center, where an award was later established in his honor. Scheiding died on July 20, 1975.",
+        "sources": [
+          "https://www.nytimes.com/1975/07/22/archives/obituary-1-no-title.html",
+          "https://t-letter.blogspot.com/2024/03/comics-olive-bailey-artist.html",
+          "https://www.usmodernist.org/ID/ID-1957-12.pdf",
+          "https://www.thehour.com/norwalk/article/Way-We-Were-Francis-X-Fay-Jr-8239019.php",
+          "https://archive.org/details/bookofknowledgev0001unse/page/n21/mode/2up"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Arno H. Scheiding\"",
+        "\"Arno Scheiding\" Darien Connecticut",
+        "Arno H Scheiding",
+        "\"Arno Scheiding\" electroforming",
+        "\"Arno Scheiding\" E.A.T.",
+        "\"Arno Scheiding\" electroforming project",
+        "\"Arno Scheiding\" Experiments in Art and Technology",
+        "\"Arno Scheiding\" death notice NYT",
+        "\"Arno Scheiding\" E.A.T. member list",
+        "\"Arno Scheiding\" E.A.T. engineer index"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXIkpFPmSX1SCayrd6EgtbIwwQSz7KiJH1tCBK4Fg-0aKqePhqvqRDvuv19Ij6tEqe30RLsEDZrvSB7nYwA5Kmkod3mjr0k7PJM2Otlf1eLbbRaB8G4KxxUX4u6lPUoc8tcM-ahlCj3gYHF0OlpmKwYVO0jNGJkE9PxeQeiol1ovvCAqdLfLjVxv4=",
+          "title": "blogspot.com",
+          "resolvedUri": "http://alphabettenthletter.blogspot.com/2024/03/comics-olive-bailey-artist.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT4SmChfnK3GomQSpSNG-3amyped0pywZS_xA3kdxa3y8xdremgDe4OSfLHy9gywmxfmX7lBJJbVzCcv810ppm7-kwLxZzGzSi0fZoOgwyMKxoSud_G8rVg91nojRCq8TWqV5Onw-kOcA2lA==",
+          "title": "blogspot.com",
+          "resolvedUri": "http://alphabettenthletter.blogspot.com/2024/03/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHx-Ep8917C9hr6ne-hQpxruAKgTGlEvyXoexYQun3Gzryb-ctNNRTp4YeAzNtExpvqVCGF3IMf7HzXXGRKpW3oJ1_KdeGkzZPF0F2xqG3IRHN_MaHN6e-RFeCGzlTpNtDZ8Ki9crgr-SOQCDNHv9qGvy98N_YKeOfyJCOgy4UXLjwsjRLl-LK4Moi1nA==",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/in.ernet.dli.2015.236382/2015.236382.The-Book_djvu.txt"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-q4DAyGxioHy8jPH7lNQqzMcj46-l1RvaR9eZ5qwVJFyNrPp3L8mgatz13UR5Hya4lgWsvxtOEpEhQU0qlNFb6UiFoA4CxdMb_e8HTFIvTS34Ar4a1bCElM89XMxpef8qWZkADgl_0NYj8IgwzQS8pQkk-9-0AgmHluFNokSFrcn68xkkBmam7QXQag==",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/in.ernet.dli.2015.236382/2015.236382.The-Book_djvu.txt"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 252,
+            "endIndex": 348,
+            "text": "Born in London, England, he moved to the United States and became a naturalized citizen in 1934."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 349,
+            "endIndex": 410,
+            "text": "He resided in Darien, Connecticut, from 1965 until his death."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 411,
+            "endIndex": 629,
+            "text": "Scheiding's career included roles as an art director and industrial designer for the offices of Norman Bel Geddes and Russel Wright, and he served as a teacher at the Laboratory School of Industrial Design in New York."
+          },
+          "groundingChunkIndices": [
+            2,
+            3
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1101,
+            "endIndex": 1598,
+            "text": "Scheiding died on July 20, 1975.\",\n      \"sources\": [\n        \"https://www.nytimes.com/1975/07/22/archives/obituary-1-no-title.html\",\n        \"https://t-letter.blogspot.com/2024/03/comics-olive-bailey-artist.html\",\n        \"https://www.usmodernist.org/ID/ID-1957-12.pdf\",\n        \"https://www.thehour.com/norwalk/article/Way-We-Were-Francis-X-Fay-Jr-8239019.php\",\n        \"https://archive.org/details/bookofknowledgev0001unse/page/n21/mode/2up\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
   }
 }

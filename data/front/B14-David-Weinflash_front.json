@@ -23,5 +23,163 @@
       "ultraviolet",
       "audio-visual conversions"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q24351",
+      "label": "Columbia University",
+      "description": "private Ivy League research university in New York City",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer name 'Columbia University' on the card matches the Wikibase entity name exactly. The entity description identifies it as a university in New York City, which aligns with the residential address of the card holder in New York City. Additionally, the Wikidata QID Q49088 associated with the entity is the correct identifier for Columbia University."
+    },
+    {
+      "qid": "Q25517",
+      "label": "Teachers College",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Teachers College is a specific affiliated school of Columbia University, but it is a distinct administrative entity from the university as a whole. The Wikibase entity refers specifically to the college (Wikidata Q7691246), whereas the card lists the broader parent organization 'Columbia University'."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q49088",
+      "label": "Columbia University",
+      "description": "private university in New York City, New York, US",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Columbia University' matches the Wikidata entity exactly. The location of the university in New York City aligns with the card holder's residential address in New York, and the individual's technical expertise in fields like physics and mathematics is consistent with employment at a major research university."
+    },
+    {
+      "qid": "Q2080179",
+      "label": "Columbia University Press",
+      "description": "university press based in New York City, and affiliated with Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is Columbia University Press, which is the publishing arm and a subsidiary of Columbia University. The card specifically lists 'Columbia University' as the employer, which generally refers to the academic institution itself (Wikidata Q49088) rather than this specific sub-entity."
+    },
+    {
+      "qid": "Q5149897",
+      "label": "Columbia University Libraries",
+      "description": "academic library at Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the Columbia University Libraries, which is a subunit or library system within the larger institution. The employer listed on the card is 'Columbia University', which refers to the university as a whole (Q24351), not specifically the library system."
+    },
+    {
+      "qid": "Q1149089",
+      "label": "Columbia Law School",
+      "description": "law school of Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the Columbia Law School, which is a sub-unit of Columbia University. The card lists the employer as the university as a whole. Additionally, the individual's expertise in technical fields like physics, lasers, and mathematics makes it highly unlikely they were employed specifically by the Law School."
+    },
+    {
+      "qid": "Q2415975",
+      "label": "Columbia University Irving Medical Center",
+      "description": "hospital in New York, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as 'Columbia University', which refers to the main academic institution (Q24351). The Wikidata entity Q2415975 is specifically the 'Columbia University Irving Medical Center', which is a medical campus and hospital that is a part of or affiliated with the university, but is not the university itself. Furthermore, the individual's expertise in physics, lasers, and mathematics aligns more closely with the main university than a medical center."
+    },
+    {
+      "qid": "Q7691246",
+      "label": "Teachers College",
+      "description": "graduate school of Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card identifies the employer as Columbia University, whereas this Wikidata entity represents Teachers College, a specific graduate school affiliated with Columbia. While part of the same university system, Teachers College is a distinct administrative entity with its own Wikidata entry (Q7691246), separate from the main Columbia University entity (Q49088)."
+    },
+    {
+      "qid": "Q2154182",
+      "label": "Columbia University Vagelos College of Physicians and Surgeons",
+      "description": "medical school in New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q2154182) is a specific medical school within Columbia University, whereas the card lists the parent organization 'Columbia University' (Q24351) as the employer. While related by a part-whole relationship, they are distinct administrative entities."
+    },
+    {
+      "qid": "Q844673",
+      "label": "Columbia University Graduate School of Journalism",
+      "description": "journalism school at Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is a specific academic department (the Graduate School of Journalism), whereas the card lists the parent organization 'Columbia University'. Furthermore, the individual's technical fields (mathematics, physics, lasers, computers) do not align with the focus of a journalism school."
+    },
+    {
+      "qid": "Q907481",
+      "label": "Columbia Business School",
+      "description": "business school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card identifies the employer as Columbia University, whereas the Wikidata entity (Q907481) represents the Columbia Business School. While the business school is a constituent part of the university, it is a specific unit and not the parent organization itself."
+    },
+    {
+      "qid": "Q5149905",
+      "label": "Columbia University School of the Arts",
+      "description": "Fine arts graduate school of Columbia University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the Columbia University School of the Arts, which is a sub-unit of the broader university. The card lists the employer as 'Columbia University', which corresponds to the parent institution (Q24351) rather than this specific graduate school."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "David Weinflash was an American physicist and technical consultant active from the 1960s through the 1970s. He was a prominent figure at Columbia University, where he served as a Graduate Research Assistant in the Physics Department before completing his Ph.D. in 1971. His doctoral research, titled \"Lifetime and Fine Structure of the Metastable Autoionizing (1s2s2p) 4P States of the Helium Negative Ion,\" was conducted under the supervision of Professor Robert Novick. His technical expertise spanned mathematics, physics, cybernetics, and optics, with a particular focus on the application of lasers, strobes, neon, and ultraviolet light. Weinflash was a technical collaborator with Experiments in Art and Technology (E.A.T.), the non-profit organization founded by Billy Klüver and Robert Rauschenberg to foster partnerships between the arts and engineering. In this capacity, he applied his knowledge of light and audio-visual conversions to technical-artistic projects. In the early 1970s, he also taught as a visiting lecturer or instructor at Tamkang University in Taiwan; his special topics course there is credited with inspiring Maw-Kuen Wu, a leader in the discovery of high-temperature superconductivity. In his personal life, he has been associated with the musical arts as a cellist in New York City.",
+        "sources": [
+          "https://ntrs.nasa.gov/citations/19710006324",
+          "https://ntrs.nasa.gov/citations/19740023608",
+          "https://www.sinica.edu.tw/ch/news/2923",
+          "https://spectatorarchive.library.columbia.edu/?a=d&d=cs19611207-01.2.37",
+          "https://www.bridgetomusic.com/teacher/david-weinflash/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"David Weinflash\" Columbia University",
+        "\"David Weinflash\" engineer scientist",
+        "\"David Weinflash\" art technology",
+        "\"David Weinflash\" E.A.T.",
+        "\"David Weinflash\" Tamkang University"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZTK21iUagkEmPEYtEhM3LbdY8_y81AKLZBsZAqBdEcY_1ZZblLgN0D-mAwrvUxwtWwE-9fXOdEK2mHga5wAhNsiGnfeSWqknc4c7OJ0nK4NaAQwOn-i39gUngyat4BwJoGd4kziTqdmLzGpKXs1adp94lkoJ-",
+          "title": "bridgetomusic.com",
+          "resolvedUri": "https://bridgetomusic.com/cello-lessons-private-teachers.php"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXBP1mVUKbXwRe6wO8vpV4zD1tB1wHNNJeo53LQ6TXT7O38_VgSgm0dEeUEWXhm6_XczPp4vzNiHXGKbJU2v58TppAxY7keKjMKnhxF2I89MNBitzy5Ke44vIY6xfYB6GiruGLHQGwH-moq7iVsLjtO7xn5o_8IunwXOfJ8ypkq2ykTyjxz2g=",
+          "title": "sinica.edu.tw",
+          "resolvedUri": "https://www.phys.sinica.edu.tw/~mkwu/news/2011PresidentialSciencePrize-EN.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU8fv9exnJEI5nG5-CN-rvB60uhLT4AVDQS1uoJ3-S7B_dllpuOYeR7jMp7EL5Xcwy0im6VPy86uoz69K4tL-B-Hg7GXEYCEtm76v0nnhIVzEBA22PZGW6JvZpFDkREVykNqqH9A9EmrMPVDVUUA9irjx0UblagOfTim_x5Y6B65kH3g==",
+          "title": "newspaperarchive.com",
+          "resolvedUri": "https://newspaperarchive.com/new-york-columbia-spectator-dec-07-1961-p-7/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 1272,
+            "endIndex": 1751,
+            "text": "In his personal life, he has been associated with the musical arts as a cellist in New York City.\",\n      \"sources\": [\n        \"https://ntrs.nasa.gov/citations/19710006324\",\n        \"https://ntrs.nasa.gov/citations/19740023608\",\n        \"https://www.sinica.edu.tw/ch/news/2923\",\n        \"https://spectatorarchive.library.columbia.edu/?a=d&d=cs19611207-01.2.37\",\n        \"https://www.bridgetomusic.com/teacher/david-weinflash/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    }
   }
 }

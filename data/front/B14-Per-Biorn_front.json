@@ -16,5 +16,233 @@
       "Electronics",
       "Mechanics"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q19508",
+      "label": "Per Biorn",
+      "description": "Danish-born Bell Labs semiconductor engineer (1937–2015)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records refer to 'Per Biorn' at Bell Telephone Laboratories (Bell Labs). The technical expertise (electronics, mechanics, electrical engineering) and the specific location (Murray Hill, NJ) align perfectly across both sources."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q12331291",
+      "label": "Per Biørn",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Record 1 describes an electronics/mechanics expert working at Bell Telephone Laboratories in New Jersey, while Record 2 describes a Danish opera singer who died in 1944. These are two different individuals with the same name."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization 'Bell Telephone Laboratories' on the card is the full name of 'Bell Labs' represented by Wikibase entity Q19173. Both records specifically identify the Murray Hill, New Jersey location, and the Wikibase entity lists several famous employees and projects associated with the same institution."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the organization Bell Telephone Laboratories, whereas the Wikibase entity (Q22124) is a publication called the 'Bell Telephone Laboratories Reporter'. A publication is distinct from the organization that produces it."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the full historical name of the entity represented by Wikidata Q217365 (Bell Labs). The card's mention of the Murray Hill division matches the headquarters location listed in the Wikidata record."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity shares the exact name 'Bell Telephone Laboratories' with the employer listed on the card. While the entity is categorized as a 'production company' (likely reflecting its role in creating technical and promotional media), it represents the same historical organization headquartered in New Jersey that employed engineers like Per Biorn."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the organization Bell Telephone Laboratories. The Wikidata entity (Q59493148) represents an archival collection (a fonds) held by the National Archives and Records Administration, not the organization itself."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' listed on the card is the exact name associated with the Wikidata entity Q58952200, which refers to the American telecommunications research and development company commonly known as Bell Labs."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950935 refers specifically to Bell Telephone Laboratories, which is the exact name of the organization listed as the employer on the index card."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950393 refers to 'Bell Laboratories Record', which is a technical journal or publication. The employer listed on the card is 'Bell Telephone Laboratories', which is the parent organization. An organization and the periodical it publishes are distinct entities."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is a Wikimedia disambiguation page, not an actual organization. While the name matches the employer listed on the card, a disambiguation page serves as a navigational tool to distinguish between different entities and is not the record for the company itself (which is typically represented by Q19173)."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Per Biorn (1937–2015) was a Danish-born electrical and mechanical engineer who was a central figure in the Experiments in Art and Technology (E.A.T.) movement and a long-time employee of Bell Telephone Laboratories. Born in Denmark, Biorn studied radar in the military before emigrating to the United States in 1962. In 1964, he was hired by Ken D. Smith to work at Bell Labs in Murray Hill, New Jersey, focusing on semiconductor research. Initially a Technical Aide working on test gear for tunnel diodes, he was promoted to Senior Technical Aide and worked alongside luminaries like William Boyle and George Smith during the development of the charge-coupled device (CCD). Biorn became one of the most prolific engineers involved with E.A.T., serving as a bridge between high technology and the arts. His notable collaborations include the 1966 '9 Evenings: Theatre and Engineering' with artists Yvonne Rainer and Lucinda Childs, the construction of Marta Minujín's interactive 'Minuphone' (1967), and the technical realization of Lillian Schwartz's kinetic sculpture 'Proxima Centauri' (1968). He also worked with Robert Rauschenberg on projects like the 'Astral Convertible' and helped develop the Theatre Electronic Environmental Modulator (TEEM) control system.",
+        "sources": [
+          "https://www.olats.org",
+          "https://mit.edu",
+          "https://www.nokia.com",
+          "https://www.computerhistory.org",
+          "https://awarewomenartists.com",
+          "https://www.labiennale.org"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Per Biorn\" engineer Bell Labs",
+        "\"Per Biorn\" E.A.T. artist engineer",
+        "Per Biorn Bell Laboratories Experiments in Art and Technology",
+        "Per Biorn Stirling NJ Murray Hill NJ"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpuEJeFqJk4svueer-Q-RqYLTIJPiwA-w3xNmCMgL6kwcuEavh6QAIbcKwf9i56hu75sADBhKvto9BKEpob5xARXyz6fVkSHm-d_8VzmnuDnz-ZNQJOF1VHDT7J-VZp0jzJDnVb6SLAKuqe6fuz1k78ixRYpUgZA==",
+          "title": "olats.org",
+          "resolvedUri": "http://archive.olats.org/pionniers/memoirs/noll/perBiorn.php"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKf5BZ17Y-7kSgDoCnpUjHnfr1VC_kvjdzeEc98rMzqj6OoJQmn2kBajKXZyHUOdrcHWHf8FX5aaTToka6TFkMJu_KD9WnveU9LGiGjdAmJlDAAkFtvG7aXvKYDa6YecNt8Ud4GSbdboYFR1nGojh3MEC7ITdzXR_hc9iKFqQ=",
+          "title": "labiennale.org",
+          "resolvedUri": "https://www.labiennale.org/en/art/2022/milk-dreams/lillian-schwartz"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKH0DkrUh8f8v7LLMmA3bS2MRQenkQ3vGTa0FVVmL4Vu9pwAlKUkZYH8l_wHBsCAsPwUWXxlpW9OM4OI8RbBArwzOEt7AZ9F2k5VCmHZ2n_Xg_h4uxoPEtkgQOz0tpz1DDD044vlewhZKfw7taMupKDJWvqr9rEWlTdm9rqlbFB9vOtrARoZvs",
+          "title": "nokia.com",
+          "resolvedUri": "https://www.nokia.com/bell-labs/about/history/innovation-stories/genesis-eat/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3tRt8qWGBdd8Wm7E3k_LLC2UAqMCaixTf3n1j8SDCsx2rnQMJKBbXWUKN0PF3DWxY9dJl_dPjRL6x2F4A2JEOMcKqrmDIazjVqrWw8AxqCuJSyxSzyxMNeQY6K6FCADA7RyRV3sr2R2uL0ZwJRiqSnFXJUkMiLyGWhRRa6g9llSuMBA==",
+          "title": "sabinebreitwieser.net",
+          "resolvedUri": "https://sabinebreitwieser.net/e-a-t-experiments-in-art-and-technology-3/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd_shndpcVAmfydMLwj5Kli6MobReOSiQBzcd3kwie5Pyybnux4Y5vEnvBtGKAUMhbsgkiYnDM7S6GyoOgi5KHSf2Z6UEdckuOXfjDL_8eaQcjvjeyEN2x9B4ZgQBl3fSE_I1jW-xGQwStormtW8uClURva_6_qlu5ZK4g2XmhdhonpNKry4yhqY-lIv_h0PglIa1rRvc=",
+          "title": "wobm.com",
+          "resolvedUri": "https://wobm.com/iconic-bell-labs-is-leaving-its-new-jersey-home-after-years-of-innovation/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaHe8DFYp5aJnuXpB4I6XTsSfi0w8xzFSv04zDO7gAY7JBVU36UuGj5aMVWFDFjHUi8qxmewwOz1-YyRk7v4oJX8gn00BPCh7KXqhFMkmYNgFSPpwab4yFCFlhyMYm1eVTN_DStjL59iHGUw==",
+          "title": "vasulka.org",
+          "resolvedUri": "https://www.vasulka.org/archive/Writings/EAT.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 201,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Per Biorn (1937–2015) was a Danish-born electrical and mechanical engineer who was a central figure in the Experiments in Art and Technology (E.A.T.)"
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 202,
+            "endIndex": 267,
+            "text": "movement and a long-time employee of Bell Telephone Laboratories."
+          },
+          "groundingChunkIndices": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 268,
+            "endIndex": 368,
+            "text": "Born in Denmark, Biorn studied radar in the military before emigrating to the United States in 1962."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 369,
+            "endIndex": 491,
+            "text": "In 1964, he was hired by Ken D. Smith to work at Bell Labs in Murray Hill, New Jersey, focusing on semiconductor research."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 492,
+            "endIndex": 726,
+            "text": "Initially a Technical Aide working on test gear for tunnel diodes, he was promoted to Senior Technical Aide and worked alongside luminaries like William Boyle and George Smith during the development of the charge-coupled device (CCD)."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 727,
+            "endIndex": 854,
+            "text": "Biorn became one of the most prolific engineers involved with E.A.T., serving as a bridge between high technology and the arts."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1150,
+            "endIndex": 1608,
+            "text": "He also worked with Robert Rauschenberg on projects like the 'Astral Convertible' and helped develop the Theatre Electronic Environmental Modulator (TEEM) control system.\",\n      \"sources\": [\n        \"https://www.olats.org\",\n        \"https://mit.edu\",\n        \"https://www.nokia.com\",\n        \"https://www.computerhistory.org\",\n        \"https://awarewomenartists.com\",\n        \"https://www.labiennale.org\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            5
+          ]
+        }
+      ]
+    }
   }
 }

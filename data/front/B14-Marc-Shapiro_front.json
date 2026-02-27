@@ -21,5 +21,102 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "technical aspects of theater"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q4974071",
+      "label": "Marc B. Shapiro",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different people with the same name. The card data refers to an electronics engineer working for Astrosystems Incorporated in New York, while the Wikidata entity refers to a well-known scholar of Jewish studies and history at the University of Scranton. Their career fields, employers, and areas of expertise have no overlap."
+    },
+    {
+      "qid": "Q71425075",
+      "label": "Marc Shapiro",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals with the same name but distinct and unrelated professional backgrounds. The card describes an electronics engineer specializing in technical fields like medical electronics and digital equipment, whereas the Wikidata entity is identified as a journalist."
+    },
+    {
+      "qid": "Q92042971",
+      "label": "Marc L Shapiro",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "The Wikidata entry for Marc L Shapiro is extremely sparse, providing only a name and a general occupation of 'researcher'. There is no overlap in geographic location, specific employer (Astrosystems), or technical specialties to confirm that this is the same individual as the electronics engineer described on the card."
+    },
+    {
+      "qid": "Q102404363",
+      "label": "Marc Shapiro",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The card data describes an electronics engineer based in New York working for Astrosystems Incorporated with interests in technical theater. The Wikidata entity describes a Marc Shapiro in the academic sphere (with doctoral advisors/students), likely the computer scientist Marc Shapiro known for distributed systems and associated with French research institutions, representing a different professional profile and geographic location."
+    },
+    {
+      "qid": "Q130815440",
+      "label": "Marc Shapiro",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "While the names match, the Wikidata record contains no biographical details such as occupation, location, or employer to confirm it is the same individual as the Marc Shapiro described on the index card."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Marc Shapiro was an electronics engineer active during the late 1960s and early 1970s, based in New York. He worked for Astrosystems Incorporated, a company that operated in New Hyde Park (Lake Success) and New Rochelle, New York, specializing in the manufacture of precision digital instrumentation, automatic test equipment, and synchro-to-digital converters. Shapiro's technical expertise was notably diverse, including audio engineering, medical electronics, digital equipment, and the development of psychological testing machines. He was an engineer-member of Experiments in Art and Technology (E.A.T.), a non-profit organization established to foster collaborations between the scientific/engineering community and artists. His professional profile and technical specialties were recorded in the E.A.T. Technical Services directory, intended to match artists with engineers capable of providing specialized technical assistance for complex art installations and technological projects.",
+        "sources": [
+          "https://www.sec.gov/news/digest/1968/dig120368.pdf",
+          "https://bitsavers.org/magazines/Computers_And_Automation/197008.pdf",
+          "https://archive.org/details/bitsavers_computerDi_16480584/page/n23/mode/2up",
+          "https://www.acs.org/content/dam/acsorg/membership/acs-directory-of-graduate-research-2015.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Marc Shapiro\" \"Experiments in Art and Technology\" E.A.T.",
+        "\"Marc Shapiro\" E.A.T. audio engineering medical electronics",
+        "\"Marc Shapiro\" electronics engineering New Rochelle New Hyde Park",
+        "",
+        "\"Astrosystems Inc\" \"New Hyde Park\" electronics",
+        "\"Astrosystems Inc\" \"New Rochelle\" electronics",
+        "\"Marc Shapiro\" audio engineering medical electronics \"psychological testing\"",
+        "\"Marc Shapiro\" \"Experiments in Art and Technology\" engineer",
+        "",
+        "\"Marc Shapiro\" E.A.T. \"Experiments in Art and Technology\"",
+        "\"Marc Shapiro\" \"index card\" E.A.T.",
+        "\"Marc Shapiro\" New Rochelle New Hyde Park engineer",
+        "",
+        "\"Marc Shapiro\" \"Experiments in Art and Technology\" membership",
+        "\"Marc Shapiro\" \"psychological testing\" electronics engineer",
+        "\"Marc Shapiro\" \"E.A.T.\" New York engineer",
+        "\"Marc Shapiro\" \"medical electronics\" engineer New York",
+        "",
+        "\"Marc Shapiro\" \"Experiments in Art and Technology\" index card",
+        "\"Marc Shapiro\" engineer \"New Hyde Park\"",
+        "",
+        "\"Marc Shapiro\" \"psychological testing\" engineering",
+        "\"Marc Shapiro\" \"E.A.T.\" collaboration artist",
+        "\"Marc Shapiro\" \"digital equipment\" engineer New Rochelle",
+        "\"Marc Shapiro\" electronics engineer New Hyde Park 1960s 1970s",
+        "",
+        "\"Astrosystems\" \"medical electronics\" New York",
+        "\"Astrosystems Inc\" \"psychological testing\"",
+        "\"Marc Shapiro\" \"Experiments in Art and Technology\" technical services",
+        "\"Marc Shapiro\" \"audio engineering\" engineer New York 1970s",
+        "\"Marc Shapiro\" \"E.A.T.\" engineer archive",
+        "",
+        "\"Marc Shapiro\" \"audio engineering\" medical electronics E.A.T.",
+        "\"Marc Shapiro\" \"E.A.T.\" archive Getty",
+        "",
+        "\"Marc Shapiro\" E.A.T. artist collaboration"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -22,5 +22,55 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "None mentioned",
     "aestheticPhilosophicalInterests": "None mentioned"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q36984372",
+      "label": "Q36984372",
+      "description": "family name",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q36984372) is explicitly categorized as a 'family name' (surname), whereas the card data refers to a business entity named 'Arwood Corporation'. These are different categories of entities."
+    },
+    {
+      "qid": "Q49775009",
+      "label": "Arwood Hollow",
+      "description": "valley in Buchanan County, Virginia, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer 'Arwood Corporation' is a business organization involved in metallurgy and manufacturing, whereas the Wikidata entity 'Arwood Hollow' is a geographic feature (a valley) located in Virginia."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Dr. Stuart Zane Uram (1934–2019) was a metallurgist, material scientist, and entrepreneur with a career spanning over six decades. He earned his bachelor's, master's, and Doctorate of Science (ScD) in Metallurgy and Materials Science from the Massachusetts Institute of Technology (MIT), finishing his doctorate around 1960. In the early 1960s, he served as a metallurgist for the Arwood Corporation, which operated facilities in Brooklyn, New York, and later in New Jersey. In the late 1960s or early 1970s, Uram founded Certech Inc., a company based in Rockleigh, New Jersey, that specialized in the injection molding of ceramic components, particularly ceramic cores used in the lost wax (investment) casting process. His expertise in metallurgy and precision casting made him a natural bridge between technical engineering and creative manufacturing; he was reportedly associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that facilitated collaborations between the arts and scientific communities. Later in life, he remained active in the technical community, participating in projects at the NYC Resistor hackerspace where he explored 3D printing for ceramics. He resided in the Harrington Park and Fort Lee areas of New Jersey.",
+        "sources": [
+          "https://www.legacy.com/obituaries/nytimes/obituary.aspx?n=stuart-uram&pid=193049184",
+          "https://www.edenmemorial.com/obituaries/Stuart-Zane-Uram?obId=4443658",
+          "https://archive.org/stream/lasellleavesvol49lasu/lasellleavesvol49lasu_djvu.txt",
+          "https://www.tms.org/Meetings/Specialty/Flemings/Flemings.html",
+          "https://www.nycresistor.com/2011/01/14/participate/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Stuart Uram obituary metallurgy",
+        "\"Stuart Uram\" Harrington Park New Jersey",
+        "\"Stuart Uram\" Experiments in Art and Technology",
+        "Dr. Stuart Uram Arwood Corporation metallurgy",
+        "",
+        "\"Stuart Uram\" Arwood Corporation NJ",
+        "\"Stuart Uram\" Rockleigh Harrington Park"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

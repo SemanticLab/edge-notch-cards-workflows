@@ -11,6 +11,160 @@
         "y1": 7.8,
         "x2": 36.3,
         "y2": 17.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q57529439",
+          "label": "Daniel Rothenberg",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Daniel Rothenberg (Q57529439) is identified as a researcher associated with MIT and Cornell, likely active in the modern era. The card refers to an artist ('D. Rothenberg') active in the late 1960s or early 1970s. There is no evidence in the Wikidata record suggesting artistic activity or a matching timeline."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Rothenberg (d. 2018) was a mathematician, musical theorist, and composer who was active in the late 1960s and 1970s. He is best known for his pioneering research into the mathematical properties of musical scales and pattern recognition. In the mid-1960s, he collaborated with electronic music pioneer Robert Moog to design an experimental 31-tone keyboard and analog synthesizer (the Rothenberg-Moog keyboard), which was unique for its departure from traditional 12-tone equal temperament. His work was often supported by scientific grants, including from the Air Force Office of Scientific Research (AFOSR), and he published influential technical reports such as 'A Pattern-Recognition Model Applied to the Perception of Pitch' (1969) and 'Preliminary Report: An Adaptive Pattern Representation and Recognition System' (1970). Rothenberg is associated with the Experiments in Art and Technology (E.A.T.) movement; his work was featured in E.A.T. surveys (specifically E.A.T. Los Angeles) alongside other pioneers like John Whitney and Gene Youngblood. His research also extended to interspecies communication, influenced by a government contract to develop conceptual exchange formats for potential contact with alien species. Following his death in 2018, his experimental keyboard was donated to Cornell University by his widow, Suhasini Sankaran.",
+            "sources": [
+              "https://news.cornell.edu/stories/2023/10/cornell-resounds-concert-features-moog-keyboard-new-instruments",
+              "https://music.cornell.edu/news/long-lost-moog-synthesizer-finally-makes-it-stage",
+              "https://www.researchgate.net/publication/320448152_Avenues_to_Higher_Levels_of_Psychic_Communication_and_Neurological_Referencing_An_Outline_of_Recent_Developments_in_the_Fine_Arts",
+              "https://ianring.com/musictheory/scales/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Diane Rothenberg is an anthropologist, writer, and editor who was active in the late 1960s and early 1970s, often collaborating with her husband, the poet Jerome Rothenberg. Together, they were central figures in the 'Ethnopoetics' movement, which sought to integrate oral traditions, indigenous rituals, and linguistic research into modern poetry and performance. Diane Rothenberg co-edited 'Symposium of the Whole: A Range of Discourse Toward an Ethnopoetics' (1983) and published works such as 'The Mothers of the Nation' (1992). During the late 1960s and early 1970s, she lived on the Allegany Seneca Reservation in New York, conducting field research that informed the couple's artistic and scholarly projects. While her work is primarily associated with the intersection of anthropology and the arts, she participated in the New York avant-garde scene of the period where cross-disciplinary organizations like E.A.T. were active.",
+            "sources": [
+              "https://jacket2.org/article/diane-rothenberg-corn-soup-fry-bread-reminiscence",
+              "https://www.poetryproject.org/news/remembrance-jerome-rothenberg-1931-2024",
+              "https://www.researchgate.net/publication/338654634_Three_Modes_of_Experimentation_with_Art_and_Ethnography"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"David Rothenberg\" artist E.A.T. 1960s 1970s",
+            "\"D. Rothenberg\" artist \"Experiments in Art and Technology\"",
+            "\"Diane Rothenberg\" artist E.A.T. 1960s 1970s",
+            "\"D. Rothenberg\" artist history 1970s",
+            "\"D. Rothenberg\" E.A.T. artist 1960s 1970s",
+            "\"David Rothenberg\" pattern recognition pitch music 1969",
+            "\"David Rothenberg\" \"Experiments in Art and Technology\"",
+            "\"David Rothenberg\" composer mathematician 1960s",
+            "\"David Rothenberg\" E.A.T. 1960s 1970s",
+            "\"D. Rothenberg\" E.A.T. organization",
+            "\"David Rothenberg\" E.A.T. Experiments in Art and Technology",
+            "\"Dan Rothenberg\" artist 1960s",
+            "\"Diane Rothenberg\" Experiments in Art and Technology",
+            "\"D. Rothenberg\" artist E.A.T. list",
+            "\"Dorothy Rothenberg\" artist 1960s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8t-rKsd-Qx9l_7PxQ4GEWHiijKT14h36wDcU6iPx5SwF0rSWNMeePSCXe7taeVbijYf0K0VgjFB7XGrrPFjPwLiZSjIILBOh2yKicbS5HE1jDeoV8qip3gNIU6hCzK84IgLERZ3LTwU5W",
+              "title": "ed.gov",
+              "resolvedUri": "https://files.eric.ed.gov/fulltext/EJ1366697.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPIqwzuMXDO8BBK-iE4o6YxNb5v9z8LcIrZLwxvf7HfcTn6QfsIK5-MxVOR8lCsdrSYzpOPRbc3tIvGSgP6BIeyHLPdnuvAqqC8XINW4sGajvXGGqeVnQIBb8JP7-dz71RhdvOyMGOYYwuDO0ya3Me",
+              "title": "sissa.it",
+              "resolvedUri": "https://jcom.sissa.it/article/507/galley/696/download/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLgx-8dv-YPEM50-15yHM49bpeCg7Vl6EOdEFGPHsZ0RkBY7nV948ejXeUVKBH6pusz5geecGnImYu355Q3xD362PyiqJ4yGCjtTeFuEuS6zH72ukWmDgHdNtnYe8zUV9R_TdyT9xaXm1TpX36TDH-_40tzdzkCSLRgVDLag==",
+              "title": "artun.ee",
+              "resolvedUri": "https://www.artun.ee/app/uploads/2017/10/UkuSepisvart_skulptuur.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHywiYMQmt3Bx0nw4lx0SFftXVt-Evm90BWpcgk24WAKQMlYBCdZirLvTkdoa9XdDvEasXQUWBWqxh3XVV2vGD3PUSVE1UfTthgvZFdB7nqM9uJz-qw294Lz0IiEZT7KYhil5dPjvYwUHviHPb8EnODT-F0dgYqqGSJK3hr_dVx0WBryC9UeDc=",
+              "title": "mit.edu",
+              "resolvedUri": "https://web.media.mit.edu/~tod/media/pdfs/DR_Rothenberg_Hearing-Research.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxGvNPBi44BRd_IK_l8uLwBQzHaDfzNVGXf2TXWU-MzTE7U3ucCIz9TCJCQBtyJq7mRr-4RRZ9OMlgmfHA4Ps_WiZqUYOg1P9CZnliXwLOCDeypSLsb_RuxEUMO513ktPpfKrAM8MuK71oUwRNSKZB6d6uVY0dtyiqc-IrJgJaFCYIsCbDy2GQJb7ZXBkXyEvuQCu559t5iwAoX0AvuvlSAqic4p-gSsyE8KS-",
+              "title": "backstage.com",
+              "resolvedUri": "https://www.backstage.com/magazine/article/sondheim-socks-coconut-grove-playhouse-san-francisco-paris-opera-25057/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRztwTTz1cPKRBlciiiPT6rg2O4kBaVXx16GQR1fa4XqHZsa41Bpzn2O3Db6FsmItMhrJNDJivjmCaAnywqQvjVQ71EYREf_Rd9RODRbv85U3oLLAP6qccc_8FPx1dBEI2zpJRXk0BHoQ2JbRGdR4RyyyuAqwJgGKmCd2TWd6B1XFPsq79v8mJr8X9JhAn5VpP-ZWKDGOsgJFLKb_7iCArN_ddS3D3QkBIqTgREatFET2trcDXrof2rFTMq5-kj9RESxeEC7zh",
+              "title": "szu.cz",
+              "resolvedUri": "https://cejph.szu.cz/artkey/cjp-201304-0001_Association-between-Overweight-Obesity-and-Academic-Performance-in-South-Korean-Adolescents.php"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9-G2_ybWfctxysEMgLZSniitOlY3rqV8jDKahXHB-adk-_6earOO4np-glUX0n0V6yRaXaNbPzx1EejRCVLXm1siF9o9Xtf1t3Vau31wlqQ6No711XzVk5KInhMoKAQJ817eSMvODNXGIMbA-pzQH59DwbKysQD20lsYOR2IITRPM",
+              "title": "atlasobscura.com",
+              "resolvedUri": "https://www.atlasobscura.com/experiences/music-composition-nature-course"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFea29oqHpLIjQJiU9I3yCs1FrhtS1AhqtDJ1YG6HmcNV07d6SAQR0T2Wl4yJNlHJzg1EbbeWZeO4vArK8obmPv4ZEv-aFsloktj6aNbSdzuCwCR9gXxVFJl6l7iQbRzrWJbDE0Tg==",
+              "title": "openedition.org",
+              "resolvedUri": "https://journals.openedition.org/ideas/2750"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFEtHJyJ-b7Ma3N_H1WCawYt3zH09-i5vYSMIDL3f0X-5jtH__2P5gFfMP-yOFSSKYA7WD8EkgHy0AytWa1_rI01p4VOKkJOp8uRUWeTbrBNNNJYHQ2vP_w1r3Jl_w-o-5PUjwhRA-sXPWfo54UCo8K0NgTZHoBQ==",
+              "title": "americantheatre.org",
+              "resolvedUri": "https://www.americantheatre.org/2000/01/01/looking-for-lecoq/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbPpJXXVLwVcD0ZV4leZesadh9UOAhJ0VrXMIlvuLa1N_UHDPmxhBgrA_4PAguWooQlWSPCfA05jqyMBtlzxt8qi3wbLSQS4FBAq48BjdZwD8tw-waubFP2RR-gEXAj-LrmXHn_g6X8TFyG31f5Fch2IgIf7zTXJdwAZdXGUQKGIyudnh75tso4qVp_EUqHxo5iP4aKPJ_qsKFDWWBTG3LerQjew==",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/229720748_Three_Modes_of_Experimentation_with_Art_and_Ethnography"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH-doB_HD-la1W3JEkwDGR6bSrtRbAgIk7MIqdm6dYqioabfWkR2KpfNKkelrX3Gl6LrZq0zQDoS938Au3ocjf8lxcgj_3aIcZR_U0QGMnQPy-qmng5ePDz6Tm_t5zyMZr6WbLhYNeN_fVlUi1Futdm80fZjXvWtY1qFdt",
+              "title": "ahajournals.org",
+              "resolvedUri": "https://www.ahajournals.org/doi/10.1161/circulationaha.108.189702"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI1UX5WgkEXMw2ARrAEuEJslh3gtnfGjPLazS8bGHn_DufSUF_Qdmoz60l27pae0OpcHa9-0A17yL6FvTY3MIZVI8U6CP4ehVzc_fWKipvtM87In7xIQTlY3pYi3iB3RlgAbYhLe1YZsqW6dcg8bkSCBx8",
+              "title": "princeton.edu",
+              "resolvedUri": "https://arts.princeton.edu/courses/semesters/spring-2022/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOOkEnQvz12dOJIsS0jvsyGiB1zgdQTz1NF0IQtvhNoi_WX5v6yWGj8En5lRFxyYWim5kiyqslKT6G279tW8S1NcguJVbr9Nwo-iB09SSU6oR5pKvX66JPEPcGF0-J39UkY9r-ZD5tAK6p61Ih56pOHE10W1y5WumL3hY=",
+              "title": "tandfonline.com",
+              "resolvedUri": "https://www.tandfonline.com/doi/abs/10.1080/13600834.2020.1861714"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 70,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"David Rothenberg (d."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2882,
+                "endIndex": 3260,
+                "text": "were active.\",\n      \"sources\": [\n        \"https://jacket2.org/article/diane-rothenberg-corn-soup-fry-bread-reminiscence\",\n        \"https://www.poetryproject.org/news/remembrance-jerome-rothenberg-1931-2024\",\n        \"https://www.researchgate.net/publication/338654634_Three_Modes_of_Experimentation_with_Art_and_Ethnography\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                0,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +178,150 @@
         "y1": 14.8,
         "x2": 28.5,
         "y2": 25.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7822084",
+          "label": "Tony Cohen",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Tony Cohen was born in 1956 and his work period is listed as beginning in 1975. He would have been only 13 years old at the time of the card entry (February 1969), making it unlikely that he is the person recorded, especially given the context of being an active artist in the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Anthony Lawrence 'Tony' Cohen (1957–2017) was a highly influential Australian music producer and sound engineer known for his experimental and maverick approach to recording. He began his career in the early 1970s, famously starting as an assistant ('shit-kicker') at Armstrong Studios in Melbourne in 1973. Cohen is best known for his long-term collaboration with Nick Cave and his bands, The Birthday Party and Nick Cave and the Bad Seeds, beginning in the late 1970s. He was a pioneer in using the studio as an instrument, often experimenting with non-traditional sound textures and technology. While his professional recording career primarily gained momentum in the mid-1970s, he was an active observer of the Melbourne music and art scene in the late 1960s. Though he is not primarily cited as a lead artist in the New York-based Experiments in Art and Technology (E.A.T.) organization, his work as a sound engineer aligns with the E.A.T. mission of promoting collaborations between artists and engineers.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Tony_Cohen",
+              "https://www.thewest.com.au/entertainment/music/oz-rock-producer-tony-cohen-dies-aged-60-ng-b88555234z",
+              "http://www.punkjourney.com/tony-cohen.php"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "It is possible that the name Tony Cohen is a misremembered reference to Harold Cohen (1928–2016), a prominent artist and pioneer in computer-generated art who was deeply involved with the Experiments in Art and Technology (E.A.T.) movement. Harold Cohen was active in the late 1960s and early 1970s, a period during which he left a successful career as a painter in London to move to the University of California, San Diego (UCSD) in 1968. There, he began experimenting with computers and developed AARON, one of the first and longest-running artificial intelligence programs for artmaking. His work serves as the definitive historical bridge between the art and technology sectors of that era.",
+            "sources": [
+              "https://whitney.org/exhibitions/harold-cohen-aaron",
+              "https://www.tate.org.uk/whats-on/tate-modern/electric-dreams",
+              "https://computerhistory.org/blog/harold-cohen-and-aaron-a-40-year-collaboration/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Tony Cohen\" artist 1960s 1970s",
+            "Tony Cohen engineer Experiments in Art and Technology",
+            "Tony Cohen artist Experiments in Art and Technology E.A.T.",
+            "\"Tony Cohen\" E.A.T. organization",
+            "\"Tony Cohen\" artist New York 1960s 1970s",
+            "\"Tony Cohen\" Experiments in Art and Technology E.A.T. list",
+            "\"Tony Cohen\" artist Bell Labs E.A.T.",
+            "\"Tony Cohen\" Experiments in Art and Technology participant",
+            "\"Tony Cohen\" Bell Labs engineer E.A.T.",
+            "",
+            "\"Tony Cohen\" engineer Bell Labs member of E.A.T.",
+            "\"Tony Cohen\" artist active 1960s 1970s technology",
+            "\"Anthony Cohen\" Experiments in Art and Technology member",
+            "\"Tony Cohen\" Pepsi Pavilion E.A.T.",
+            "\"Tony Cohen\" Osaka Expo 70 engineer",
+            "\"Tony Cohen\" painter 1960s 1970s",
+            "\"Tony Cohen\" Experiments in Art and Technology archive",
+            "\"Anthony Cohen\" \"E.A.T.\" artist engineer",
+            "\"Tony Cohen\" sculptor 1960s 1970s",
+            "\"Tony Cohen\" artist 1968 1969 1970 1971 1972",
+            "\"Tony Cohen\" E.A.T. member list",
+            "",
+            "\"Tony Cohen\" Experiments in Art and Technology participant list",
+            "\"Tony Cohen\" artist New York 1968 1969 1970",
+            "\"Anthony Cohen\" E.A.T. engineer",
+            "\"Tony Cohen\" bell labs E.A.T.",
+            "\"Tony Cohen\" E.A.T. Pepsi Pavilion",
+            "\"Tony Cohen\" artist 1960s 1970s bio",
+            "\"Tony Cohen\" E.A.T. newsletter",
+            "\"Tony Cohen\" 9 Evenings engineer artist",
+            "\"Tony Cohen\" artist New York 1960s E.A.T.",
+            "\"Tony Cohen\" Pepsi Pavilion engineer artist",
+            "\"Cohen\" Experiments in Art and Technology member list",
+            "\"Tony Cohen\" 9 Evenings participant",
+            "\"Anthony Cohen\" E.A.T. Bell Labs",
+            "\"Tony Cohen\" Experiments in Art and Technology Bell Labs",
+            "\"Tony Cohen\" Experiments in Art and Technology member directory",
+            "\"Tony Cohen\" Bell Labs engineer",
+            "\"Anthony Cohen\" Bell Labs engineer",
+            "\"Tony Cohen\" Pepsi Pavilion E.A.T. team",
+            "",
+            "\"Tony Cohen\" 9 Evenings team list",
+            "\"Anthony Cohen\" Bell Labs engineer E.A.T.",
+            "\"Tony Cohen\" Bell Labs engineer 1960s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFi3JAo7LSzKIfFCjcqq5EdvOXxA_myCVusqdPCcoJ_C_Px8hVdzqJ-M4CYRGRJEAFSZf0cmUBhs8dSqoJrTihobXAhDVJlwodRzj1PsYPzV8p5PVtap9jQvuFVlb7jZWz-OlY=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Tony_Cohen"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzzkZnkfI6zYu0FSEK4_VVHn7378RExJCd7n5YwH36LeI57QbeA68c8LTlO9g_m0PHPwtlE92nOhBra02AYwq-dYU-wAeIsN3QpdebJ0xGtrz-LA==",
+              "title": "nerio.cz",
+              "resolvedUri": "https://nerio.cz/znacky/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsAXo2vF2oP0GNZpqfy3l5GrMaYPvj5bGNPR4ptBnPmU-qRlalt2gb8z41l4tCDiqkoURx77jRaCg7LI92gJAQ71JTivVh9GLWrFdZp2b18jH7",
+              "title": "nerio.cz",
+              "resolvedUri": "https://nerio.cz/znacky/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsuqfBoc-OtpimYu6V73jvHRi7t78_xwWwmoywY45T4QvIwVNiRuEAQHvpiU2ELIweL1WTshm261LPVYljs7ROUDEGA29UiOb3-2VImW54_4L8pw==",
+              "title": "nerio.cz",
+              "resolvedUri": "https://nerio.cz/znacky/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn860pFT5ATl2E-qktxIt8l3ZQtCYEiH2GlhpetOEIFwTQodNGU0q2GXWKxRKFaw13bc6inWxTUAw-WHfVxDDvpGfIsfH97pqzPCPlGTLNlxgRXfHm_HW-nokEpfW5G4bAPpv7R2Pc1Jb31I0398zT49TIDXk16z9s7Z7Knyp3ohgJOGBpoTXibGjHivC3Wd35Z0mRR-4LVovfUwM=",
+              "title": "punkjourney.com",
+              "resolvedUri": "https://www.punkjourney.com/resources/Tony%20Cohen-Life%20in%20a%20Padded%20Cell-Dale%20Blair.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzid9pafaR1boZ0ZvNpinLg4uBvnaM0iNeU8VObDyvcC-oV7myr2MS-h3kWDcoC1iMeRoeYcnoMZQdbIVUQ4byQXOAfH7haTey8lnLaYEqtPKZlw7tk-boGVWFOyvBFBUQDGpkmn5iJM_1R3AbjtRYtdVOw62i3Trw87uovb4eRAAA7jpVcwYS1mVd3HgC",
+              "title": "musicthisday.com",
+              "resolvedUri": "https://www.musicthisday.com/lists/songs/the-50-saddest-songs-released-in-the-1980s"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCWv7KnkyX6Ref8l5arckIqH0ZvUDYBuHaXf8aNw_3y5QQbULU9nfAbooMIo7NcOXiwHp894u3tsZMX1CcfUpPoPpAi4RZn4RfA2KdGMwW0G9e2yadebSiVBe7ERa6tDC1OBzr773cGKifq-biZqKQLlU0Y-BaBQGQ0rP0drpRBuIGSEQabto=",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/bub_gb_wgsEAAAAMBAJ_2/bub_gb_wgsEAAAAMBAJ_djvu.txt"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 360,
+                "endIndex": 522,
+                "text": "Cohen is best known for his long-term collaboration with Nick Cave and his bands, The Birthday Party and Nick Cave and the Bad Seeds, beginning in the late 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1616,
+                "endIndex": 1625,
+                "text": "movement."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +335,237 @@
         "y1": 21.0,
         "x2": 34.8,
         "y2": 33.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28113",
+          "label": "Good Neighbor Tutorial Program",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Frank Good, whereas the Wikibase entity describes the 'Good Neighbor Tutorial Program', which is explicitly labeled as an organization."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q204124",
+          "label": "Frank R. Gooding",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Frank R. Gooding, a politician who died in 1928. This contradicts the context that the Frank Good on the card was an artist active in the late 1960s and early 1970s. Furthermore, the surnames 'Good' and 'Gooding' are distinct."
+        },
+        {
+          "qid": "Q1443506",
+          "label": "Frank Johnson Goodnow",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Frank Johnson Goodnow died in 1939, whereas the person on the card was an artist active in the late 1960s and early 1970s. Additionally, the Wikidata entity was a jurist and historian, which does not align with the artistic context of the card."
+        },
+        {
+          "qid": "Q4978729",
+          "label": "Bruiser Brody",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry lists the name 'Frank Good', while the Wikidata entity is 'Frank Donald Goodish' (a famous professional wrestler known as Bruiser Brody). Although the names are similar and the timeline for his career (starting 1973) matches the era, there is no indication that the wrestler was known as 'Frank Good' or that he was involved in the arts beyond professional wrestling and some acting, which does not strongly align with the artist context."
+        },
+        {
+          "qid": "Q5486898",
+          "label": "Frank Goodden",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Frank Goodden died in 1917, which is decades before the late 1960s and early 1970s period when the artist on the card was known to be active. Additionally, his occupation as an aircraft pilot does not align with the context of being an artist."
+        },
+        {
+          "qid": "Q5486900",
+          "label": "Frank Goode",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q5486900 refers to an Australian rules football player and coach named Frank Goode. The card entry refers to an artist named Frank Good. There is no evidence that the athlete was also an artist, and the spelling of the surname differs slightly."
+        },
+        {
+          "qid": "Q5486901",
+          "label": "Frank Goodman",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Frank Good, while the Wikidata entity is Frank Goodman. Additionally, the Wikidata entity is primarily identified as an opinion journalist, whereas the card context indicates the person should be an artist active in the late 1960s and early 1970s. While the timeline is possible, the name discrepancy and occupation mismatch suggest they are different people."
+        },
+        {
+          "qid": "Q8962687",
+          "label": "Frank Goode Hawksworth",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is Frank Goode Hawksworth, a botanist. The card entry refers to Frank Good, who is known to be an artist. Additionally, the Wikidata entity's primary family name is Hawksworth, making it unlikely he would be recorded simply as 'Frank Good'."
+        },
+        {
+          "qid": "Q18546579",
+          "label": "Frank Goodliffe",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Frank Good, while the Wikidata entity is Frank Goodliffe. Although the lifespan of Frank Goodliffe (1897-1974) covers the period of activity mentioned (late 1960s/early 1970s), the surnames are different and the Wikidata entity is primarily identified as an Esperantist rather than an artist."
+        },
+        {
+          "qid": "Q58456649",
+          "label": "Francis Richard David Goodyear",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an artist named Frank Good active in the late 1960s or early 1970s. The Wikidata entity Q58456649 refers to Francis Richard David Goodyear, a prominent British academic (Latinist and philologist) whose career and occupation do not align with the artistic context provided for the card entry."
+        },
+        {
+          "qid": "Q75438321",
+          "label": "Frank Goodfellow",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name on the card is 'Frank Good', while the Wikidata entity is 'Frank Goodfellow'. While 'Good' could potentially be a shortened version of the surname, the Wikidata profile lacks any biographical details, such as occupation or dates of activity, to verify if this individual was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q100796421",
+          "label": "Frank Goodwin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a 'Frank Good' who is identified as an artist. The Wikidata entity is for a 'Frank Goodwin' who is a basketball player. Not only are the surnames different, but the professions do not align with the provided context."
+        },
+        {
+          "qid": "Q102191661",
+          "label": "Frank Goodman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Frank Good vs. Frank Goodman). Furthermore, the Wikidata entity appears to be an academic (as evidenced by the 'doctoral student' property), while the card entry refers to an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q102236237",
+          "label": "Frank Goodale",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Frank Good,' while the Wikidata entity is for 'Frank Goodale.' Additionally, the Wikidata entity describes a jockey involved in horse racing, which does not match the provided context that the person from the card is an artist."
+        },
+        {
+          "qid": "Q106406548",
+          "label": "Frank W. Goodwin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a politician active in the Massachusetts House of Representatives in 1906-1907, born in 1876. This does not align with the context of an artist active in the late 1960s or early 1970s. Additionally, the surnames (Good vs. Goodwin) are distinct."
+        },
+        {
+          "qid": "Q106764506",
+          "label": "Frank T. Goodhue",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Good vs. Goodhue), and the Wikidata entity describes a politician born in 1854 who was active in the late 19th century. This timeframe and occupation do not align with an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q111442104",
+          "label": "Frank Goodykoontz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Frank Goodykoontz) died in 1898, whereas the artist mentioned in the card entry was active during the late 1960s and early 1970s. Furthermore, the Wikidata entity was a politician and lawyer, not an artist, and the names do not match exactly."
+        },
+        {
+          "qid": "Q113297125",
+          "label": "Frank Goodnow MacMurray",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a physician named Frank Goodnow MacMurray, whereas the card entry identifies a person named Frank Good who is expected to be an artist. The surnames do not match, and the occupation of physician is distinct from the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q116237635",
+          "label": "Frank H. Goodyear",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Frank H. Goodyear) died in 1907, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the context. Furthermore, his occupation was as a businessperson and industry owner rather than an artist."
+        },
+        {
+          "qid": "Q120691899",
+          "label": "Frank Henry Goodyear III",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1967, making it impossible for them to be an active artist during the late 1960s or early 1970s. Additionally, the surnames 'Good' and 'Goodyear' are distinct."
+        },
+        {
+          "qid": "Q123937862",
+          "label": "Frank Goodnow",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Frank Good, while the Wikidata entity is Frank Goodnow. Although the Wikidata entity describes a painter (matching the artistic context provided), the surnames are distinct and do not appear to be simple variations of each other."
+        },
+        {
+          "qid": "Q124847245",
+          "label": "Frank Goodyear Jr.",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Frank Good, while the Wikidata entity is for Frank Goodyear Jr. While both individuals are associated with the art world (the Wikidata entity is a curator/museum director) and the timeline aligns, there is no evidence that Frank Goodyear Jr. used the shortened name Frank Good or identified primarily as an artist rather than a curator."
+        },
+        {
+          "qid": "Q125042449",
+          "label": "Frank Goodwillie",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Frank Goodwillie) died in 1929, whereas the context for the card entry specifies the person was an artist active during the late 1960s and early 1970s. This chronological discrepancy makes a match impossible."
+        },
+        {
+          "qid": "Q125780371",
+          "label": "Frank Goodman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Frank Good, whereas the Wikidata entity is Frank Goodman. Additionally, the Wikidata entity describes a prominent legal scholar and law professor, which conflicts with the context that the person on the card is an artist."
+        },
+        {
+          "qid": "Q126684312",
+          "label": "Frank Goodenough Bayly",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card lists the name 'Frank Good', while the Wikidata entity is 'Frank Goodenough Bayly'. Although 'Good' is a substring of 'Goodenough', they are distinct surnames. While both are associated with the arts (filmmaking), there is insufficient evidence to conclude that 'Frank Good' is a shortened version or alias of 'Frank Goodenough Bayly' rather than a different individual named Frank Good."
+        },
+        {
+          "qid": "Q129438824",
+          "label": "Frank Goodall Harrison",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the index card is 'Frank Good', while the Wikidata entity is 'Frank Goodall Harrison'. While the Wikidata entity describes a musician (fitting the artist context) who was alive during the late 1960s and early 1970s, the surnames do not match ('Good' vs. 'Harrison'), making it unlikely they are the same person."
+        },
+        {
+          "qid": "Q136997183",
+          "label": "Q136997183",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity is extremely sparse, listing only the given name 'Frank' and identifying the subject as a human male. It lacks a surname, occupation, and any dates of activity, making it impossible to reliably link this record to the artist Frank Good from the card."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Frank Good\" artist biography",
+            "\"Frank Good\" artist 1960s 1970s",
+            "\"Frank Good\" E.A.T. artist",
+            "\"Frank Good\" artist Experiments in Art and Technology",
+            "\"Frank Good\" Experiments in Art and Technology",
+            "\"Frank Good\" engineer E.A.T.",
+            "\"Frank Good\" PAVILION E.A.T.",
+            "\"Frank Good\" artist E.A.T. 1960s",
+            "\"Frank Good\" E.A.T. Klüver",
+            "",
+            "\"Frank Good\" E.A.T. collaboration",
+            "\"Frank Good\" Experiments in Art and Technology E.A.T.",
+            "\"Frank Good\" artist technician engineer E.A.T.",
+            "\"Frank Good\" Pavilion Osaka Expo 70 engineer",
+            "\"Frank Good\" 9 Evenings engineer",
+            "\"Frank Good\" \"9 Evenings\" technician",
+            "\"Frank Good\" engineer Experiments in Art and Technology",
+            "\"Frank Good\" member E.A.T. 1960s",
+            "\"Frank Good\" artist E.A.T. archival record",
+            "\"Frank Good\" photographer 1960s 1970s",
+            "\"Frank Good\" artist exhibition 1960s 1970s",
+            "\"Frank Good\" sculptor 1960s 1970s",
+            "\"Frank Good\" E.A.T. member list",
+            "\"Frank Good\" painter 1960s 1970s",
+            " \"Frank Good\"",
+            "\"Frank Good\" artist biography 1960..1980",
+            "\"Frank Good\" E.A.T. collaboration artist engineer",
+            "\"Frank Good\" member Experiments in Art and Technology"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

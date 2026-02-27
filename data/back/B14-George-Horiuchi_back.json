@@ -9,6 +9,86 @@
         "y1": 11.2,
         "x2": 53.8,
         "y2": 19.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Paul Sentner is a photographer, artist, and art dealer who has been active since the late 1960s. In 1967, he served as a VISTA (Volunteers in Service to America) volunteer in New York City, where he worked in the Southeast Bronx and the Lower East Side. During this period, he documented urban community life and slum housing conditions through photography, with his work featured in the 'VISTA Volunteer' journal. His involvement in the New York art and social activist scene of the late 1960s aligns with the timeframe and mission of Experiments in Art and Technology (E.A.T.), which frequently collaborated with community and social service groups in the same neighborhoods. By the 1980s and into the 2000s, Sentner was based in Pittsburgh, Pennsylvania, where he became known as a local historian of the Elliott and West End neighborhoods and continued his work as a 'sometime photographer and art dealer.' His interests have spanned the intersection of art and technology, evidenced by his contributions to technical newsletters (such as 'Applying The Atari') where he shared designs for software intended to assist visually impaired individuals in reading computer displays.",
+            "sources": [
+              "https://eric.ed.gov/?id=ED018826",
+              "https://www.pghcitypaper.com/news-features/how-the-west-wasnt-won-1336423",
+              "https://triblive.com/local/pittsburgh-allegheny/time-unkind-to-some-pittsburgh-city-neighborhoods/",
+              "https://neocities.org/applying-the-atari/1985/03/index.html",
+              "https://lawrencevillehistoricalsociety.org/ask-a-historian-2/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Paul Sentner\"",
+            "\"Paul Sentner\" Experiments in Art and Technology",
+            "\"Paul Sentner\" 1960s 1970s artist",
+            "\"Paul Sentner\" E.A.T. artist",
+            "",
+            "\"Paul Sentner\" photography Pittsburgh artist",
+            "\"Paul Sentner\" technical artist",
+            "\"Paul Sentner\" artist 1968 1969 1970 1971",
+            "",
+            "\"Paul Sentner\" photo Pittsburgh artist history",
+            "\"Paul Sentner\" E.A.T. membership",
+            "",
+            "\"Experiments in Art and Technology\" Pittsburgh chapter members",
+            "\"E.A.T.\" Pittsburgh 1968 1969 1970 1971",
+            "\"Paul Sentner\" photographer Pittsburgh history E.A.T.",
+            "\"Paul Sentner\" artist E.A.T. archive",
+            "\"Paul Sentner\" \"E.A.T.\" exhibition",
+            "",
+            "\"Paul Sentner\" E.A.T. artist or engineer",
+            "",
+            "\"Paul Sentner\" E.A.T. project",
+            "\"Paul Sentner\" artist bio E.A.T.",
+            "\"Paul Sentner\" photographer New York E.A.T.",
+            "",
+            "\"Paul Sentner\" Pittsburgh art dealer biography",
+            "\"Paul Sentner\" E.A.T. membership 1969 1970",
+            "",
+            "\"Paul Sentner\" photographer Pittsburgh 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZZhBL17kn3JAZTp1nB64aSNqqJePgBFNF4X_JIyWi6HW2Z2IQaUVnoxpDtdBHVek7DECBylYrh4kj5B91EBO8QvF7wqhkcETug-2czZSAOGwRTYknignyAEDWJpfK6xcapd0Bq3s=",
+              "title": "neocities.org",
+              "resolvedUri": "https://ksquiggle.neocities.org/columns/ata"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG51L8v7f7KEFBy2i8UrHP-O9dNxF_dlfCcgDa4Fb-wCpYExAHLmbdNjcF2Fhb6pNVsY2Mja-d9O7fKkXnI7hj34tYeR3pbh5XBPEomV41OCqQowVhiyzAxWM_TUjJodKI7e1zcpuSH6NYdVzwoZlR7n0A-TLgAYuWYHH-OJub9Q1WhZGPnoKjOYiizsVWwlYqSKyHPCvLhb09TxIA60iVJYvM=",
+              "title": "ysu.edu",
+              "resolvedUri": "https://digital.maag.ysu.edu/xmlui/bitstream/handle/1989/13418/1977%20Summer.pdf?sequence=2&isAllowed=y"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1GL6uqqv7wX50I7LB7IYHr6vvj3r4-1MQZ1LMmVStR0ANPqTderTNn-lCgVAfBwIyZggWDVrWGxfizRwonbTuXWFKwb9wQkkvKdTC2lufcIAfUfK8SyZVTZJvHjYCkPerFGMkHDOFCidxEt58noDPpwkAax1FxO6veYVruJgaU7QL0hpR7A9fkvfD2uE_i-tBI3KmwVbglF45r8ruk9Ez0GU=",
+              "title": "ysu.edu",
+              "resolvedUri": "https://digital.maag.ysu.edu/xmlui/bitstream/handle/1989/13418/1977%20Summer.pdf?sequence=2&isAllowed=y"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 961,
+                "endIndex": 1686,
+                "text": "His interests have spanned the intersection of art and technology, evidenced by his contributions to technical newsletters (such as 'Applying The Atari') where he shared designs for software intended to assist visually impaired individuals in reading computer displays.\",\n      \"sources\": [\n        \"https://eric.ed.gov/?id=ED018826\",\n        \"https://www.pghcitypaper.com/news-features/how-the-west-wasnt-won-1336423\",\n        \"https://triblive.com/local/pittsburgh-allegheny/time-unkind-to-some-pittsburgh-city-neighborhoods/\",\n        \"https://neocities.org/applying-the-atari/1985/03/index.html\",\n        \"https://lawrencevillehistoricalsociety.org/ask-a-historian-2/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +99,508 @@
         "y1": 23.3,
         "x2": 46.5,
         "y2": 28.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27808",
+          "label": "John Harris",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly and both records identify the individual as an artist. The Wikibase entry links the person to the E.A.T. (Experiments in Art and Technology) project, which was highly active during the late 1960s and early 1970s. Additionally, the metadata 'LOFT' on the card is consistent with the living and working environments of many artists in the New York scene associated with E.A.T. during that era."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q253629",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person identified as an artist, likely active in the New York art scene given the 'LOFT' metadata. The Wikidata entity Q253629 is a professional Scottish football player and coach (John Harris, 1917–1988) with no evidence of being an artist or having any connection to the arts scene described in the context."
+        },
+        {
+          "qid": "Q314335",
+          "label": "John Harrison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harrison lived in the 18th century (1693-1776), which contradicts the requirement that the person from the card was active in the late 1960s and early 1970s. Additionally, the names (John Harris vs. John Harrison) and occupations (artist vs. clockmaker/inventor) do not align."
+        },
+        {
+          "qid": "Q562265",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris (Q562265) lived from 1666 to 1719, which makes it chronologically impossible for him to be the person on the card, who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6237911",
+          "label": "John Harris, Baron Harris of Greenwich",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q6237911 refers to John Harris, Baron Harris of Greenwich, a prominent British journalist and politician who served in the House of Lords and the Privy Council. This does not align with the provided context of a person known to be an artist active in the late 1960s and early 1970s, nor does the metadata 'LOFT' (associated with the New York art scene) fit the profile of a British peer and politician."
+        },
+        {
+          "qid": "Q6237914",
+          "label": "John Harris, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6237914) refers to an 18th-century figure who lived from 1727 to 1791, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card entry."
+        },
+        {
+          "qid": "Q6237925",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6237925) lived from 1754 to 1838, which makes it chronologically impossible for them to be the artist active during the late 1960s and early 1970s mentioned in the card context. Furthermore, the occupations listed for this entity (surgeon and settler) do not align with the artist context."
+        },
+        {
+          "qid": "Q6237930",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6237930) describes a person born in 1839 who was a military officer during the American Civil War. This is chronologically incompatible with the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6237938",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6237938) describes a US Marine Corps officer who lived from 1793 to 1864. This individual died more than a century before the active period of the artist mentioned on the card (late 1960s/early 1970s), making a match impossible."
+        },
+        {
+          "qid": "Q6237940",
+          "label": "John Harris",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The names match exactly, and the Wikidata entity describes a painter and illustrator who was active during the late 1960s and early 1970s (born in 1948). While the card's 'LOFT' metadata often points to the New York art scene and the Wikidata entity is British, it is plausible for an artist of this name and era to be the same person. However, the commonality of the name 'John Harris' and the lack of specific geographic overlap results in low confidence."
+        },
+        {
+          "qid": "Q6237949",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an 18th-century Anglican priest (1680-1738), which is chronologically incompatible with the person on the card who was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6237957",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q6237957 describes a prominent British architectural historian, curator, and author (John Frederick Harris) who was primarily based in the UK. While he was active during the relevant time period, the card metadata 'LOFT' strongly suggests a connection to the New York loft artist scene and the E.A.T. (Experiments in Art and Technology) project, which is inconsistent with the profile of a British establishment academic and architectural curator."
+        },
+        {
+          "qid": "Q6237966",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name John Harris is very common. The Wikidata entity (Q6237966) describes a British novelist and thriller writer who lived in the UK. The card metadata 'LOFT' strongly suggests an artist associated with the New York City art scene of the late 1960s and 1970s (specifically the SoHo loft movement), which does not align with the life and career of this British novelist."
+        },
+        {
+          "qid": "Q6239439",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Hobbis Harris died in 1940, which contradicts the context that the individual on the card was an artist active in the late 1960s and early 1970s. Furthermore, his occupations as a politician, missionary, and abolitionist do not match the expected artistic profile."
+        },
+        {
+          "qid": "Q6251591",
+          "label": "John P. Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John P. Harris died in 1926, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card entry context. Additionally, his primary occupations were politician and baseball player, not artist."
+        },
+        {
+          "qid": "Q7940844",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q7940844) died in 1856, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card context."
+        },
+        {
+          "qid": "Q12059590",
+          "label": "John Harris, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (John Harris, Jr.) lived from 1791 to 1873, which is incompatible with the context that the person from the card was active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q13416964",
+          "label": "John Harris, Sr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris, Sr. lived from 1673 to 1748, which is over 200 years before the period of activity (late 1960s and early 1970s) associated with the person on the card."
+        },
+        {
+          "qid": "Q16092729",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a John Harris who is an artist active in the late 1960s/early 1970s, potentially in a loft setting (often associated with the NYC art scene). The Wikidata entity Q16092729 describes a British Anglican priest. There is no evidence in the Wikidata record to suggest this individual was an artist or involved in the avant-garde art movements of that era."
+        },
+        {
+          "qid": "Q16106974",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card identifies John Harris as an artist, likely associated with the New York art scene and the E.A.T. project during the late 1960s/1970s. Wikidata entity Q16106974 describes a British Paralympic athlete known for weightlifting and athletics, which is a completely different career path with no mention of artistic activity."
+        },
+        {
+          "qid": "Q16857676",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q16857676) lived from 1756 to 1846, which is more than a century before the active period of the individual described on the card (the late 1960s and early 1970s). Additionally, the Wikidata entity is described as a publisher and bookseller, not an artist."
+        },
+        {
+          "qid": "Q18671792",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q18671792 died in 1743, which makes it impossible for them to be the artist active in the late 1960s and early 1970s mentioned in the card entry context."
+        },
+        {
+          "qid": "Q18671793",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q18671793 describes an engraver and draftsperson active in the early 18th century (work period 1700-1740). This is temporally incompatible with the artist from the card entry, who was active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q18671794",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q18671794) describes a British illustrator and painter who lived from 1767 to 1832. This date range is completely incompatible with the required context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q18671795",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q18671795 died in 1823, making it impossible for him to be the artist active in the late 1960s and early 1970s described in the card's context."
+        },
+        {
+          "qid": "Q21165839",
+          "label": "John Greathed Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Greathed Harris (Q21165839) died in 1850, which is incompatible with the person described on the card who was active as an artist during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q24090840",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates of the Wikidata entity (1740-1812) are completely incompatible with the required timeframe for the person on the card, who was active in the late 1960s and early 1970s. Furthermore, the Wikidata entity is identified as a merchant, while the person on the card is described as an artist."
+        },
+        {
+          "qid": "Q39025156",
+          "label": "John A Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q39025156 describes a researcher associated with the University of Pittsburgh, while the card entry refers to an artist (indicated by the 'LOFT' metadata, which signifies the artist scene in NYC during the late 1960s/70s). The different professional paths and lack of artistic credentials for the Wikidata entity suggest they are not the same person."
+        },
+        {
+          "qid": "Q45511201",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q45511201 lived during the 18th century (1715-1755), while the person from the card is known to have been active in the late 1960s and early 1970s. This 200-year chronological discrepancy makes a match impossible."
+        },
+        {
+          "qid": "Q56967076",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name John Harris is very common. The card describes an artist associated with the 'LOFT' scene of the 1960s and 70s, while the Wikidata entity Q56967076 is identified as a researcher. Without further overlapping evidence or shared biographical details, it is unlikely they are the same individual."
+        },
+        {
+          "qid": "Q61826029",
+          "label": "John P Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in the late 1960s or 1970s (likely in a New York loft setting). The Wikidata entity Q61826029 describes a researcher in the field of medicine and public health, affiliated with institutions like Public Health England and the London School of Hygiene & Tropical Medicine. These are distinct professions and backgrounds."
+        },
+        {
+          "qid": "Q70138275",
+          "label": "John P. Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q70138275) describes a professor of medicine and editor associated with the Royal Australasian College of Surgeons in Australia. This contradicts the card's context of an artist, likely based in the New York loft scene during the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q74127128",
+          "label": "John Harriss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name spelling is different (Harris vs. Harriss). Furthermore, the Wikidata entity Q74127128 describes a prominent political scientist and academic associated with the London School of Economics and the Royal Society of Canada, which does not align with the artistic context and 'LOFT' metadata of the card entry."
+        },
+        {
+          "qid": "Q75304331",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q75304331 died in 1850, which is incompatible with the person on the card who was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q75996303",
+          "label": "John Richard Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a John Harris who was an artist active in the late 1960s or early 1970s, possibly associated with the New York art scene (suggested by the 'LOFT' metadata). The Wikidata entity (Q75996303) is a contemporary British politician who ran in the 2019 and 2024 UK general elections, which does not match the professional profile or historical timeframe of the individual on the card."
+        },
+        {
+          "qid": "Q76017176",
+          "label": "John Lance Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Lance Harris (Q76017176) was born in 1957. This would make him approximately 11 to 15 years old during the late 1960s and early 1970s, which is inconsistent with being an established artist active in the professional art and technology circles (like E.A.T.) and the New York loft scene of that era."
+        },
+        {
+          "qid": "Q76023904",
+          "label": "John William Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes John William Harris, a barrister and diplomat who died in 1932. This is inconsistent with the provided context that the individual on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q76088949",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q76088949 refers to a historical John Harris with family members (Lampen Harris, Catherine Bulteel) that place him in the late 18th to early 19th century. This does not align with the context of an artist active in the late 1960s and early 1970s associated with the New York loft scene."
+        },
+        {
+          "qid": "Q76123096",
+          "label": "John Archibald Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity for John Archibald Harris contains biographical and genealogical information (spouses and children) but lacks any mention of an artistic career or association with the 1960s/70s art scene. Given that 'John Harris' is a common name and there is no metadata in this Wikidata record (like 'LOFT' or an occupation) to link it to the artistic context provided on the card, a match is unlikely."
+        },
+        {
+          "qid": "Q76153111",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q76153111 refers to a historical figure whose children (such as John Greathed Harris, born 1774) lived in the 18th and 19th centuries. This person could not be the artist active in the late 1960s and early 1970s described in the card entry context."
+        },
+        {
+          "qid": "Q76307095",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match exactly, the Wikidata entity Q76307095 describes a British judge and barrister who received the Distinguished Service Cross. The context for the card identifies John Harris as an artist active in the late 1960s and early 1970s, likely in the New York art scene (given the 'LOFT' metadata and connection to E.A.T.). It is highly unlikely that a high-ranking member of the British judiciary (King's Counsel, circuit judge) is the same person as the artist described on the card."
+        },
+        {
+          "qid": "Q90321378",
+          "label": "John E Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card describes an artist active in the late 1960s/early 1970s, potentially in the New York artist loft scene. The Wikidata entity Q90321378 refers to a 'researcher' named John E Harris. While the names are similar, the occupations do not align and there is no evidence linking this researcher to the artistic context provided."
+        },
+        {
+          "qid": "Q106698252",
+          "label": "John H. Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a US Army first sergeant and Holocaust liberator active in 1945, while the card refers to an artist active in the late 1960s/70s associated with 'LOFT' environments. While the names are similar, there is no evidence to suggest this military figure transitioned into the specific artistic context described on the card."
+        },
+        {
+          "qid": "Q110181426",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q110181426) lived from 1813 to 1855. This is chronologically incompatible with the person on the card, who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q110181428",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris (Q110181428) died in 1936, which is decades before the artist mentioned on the card was active (late 1960s/early 1970s)."
+        },
+        {
+          "qid": "Q110939877",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the name John Harris matches, the Wikidata entity Q110939877 contains genealogical information (mother Alice le Abbe and son Sir John Harris) that points to a historical figure from a much earlier era rather than an artist active in the New York loft scene during the 1960s and 1970s."
+        },
+        {
+          "qid": "Q110939878",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name John Harris is extremely common. The Wikidata entity Q110939878 contains almost no metadata regarding occupation or activity period, providing no evidence to link it to the artist mentioned on the card or the 'LOFT' metadata."
+        },
+        {
+          "qid": "Q111065176",
+          "label": "John N Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a chemist (John N Harris) born in 1953, who would have been only a teenager in the late 1960s. This does not align with the card's context of an artist active in the late 60s/early 70s who likely maintained a loft. The professions (chemistry vs. art) are also distinct."
+        },
+        {
+          "qid": "Q116954196",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match, the Wikidata entity Q116954196 lacks any information regarding occupation, location, or active dates. There is no evidence in the Wikidata properties provided to suggest this individual was an artist or associated with the 'LOFT' metadata mentioned in the card entry."
+        },
+        {
+          "qid": "Q121040157",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name John Harris is extremely common. While the Wikidata entity is listed as a 'producer' (a role that can overlap with artistic production), there is no temporal or geographic metadata in the Wikidata record to link it specifically to the late 1960s/1970s loft scene or the E.A.T. context associated with the card."
+        },
+        {
+          "qid": "Q124339184",
+          "label": "John Harris Andrews",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris Andrews lived from 1846 to 1907, which is incompatible with the context that the individual on the card was active in the late 1960s and early 1970s. Furthermore, the surnames do not match (Harris vs. Andrews)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Harris (born 1937) is an American artist who was active in the late 1960s and early 1970s, specifically recognized for his involvement with Experiments in Art and Technology (E.A.T.). He frequently collaborated with Fred Stern (born 1936), an artist and engineer. Their collaborative project, titled \"K.E.P.-1 Self\" (1968), was included in the influential E.A.T. exhibition \"Some More Beginnings\" (also known as the \"Submitted Works Involving Technical Materials and Processes\" exhibition) held at the Brooklyn Museum from 1968 to 1969. This exhibition was the culmination of an international competition organized by E.A.T. to foster collaborations between the arts and engineering. Harris's work in this period is documented in the E.A.T. archives at the Getty Research Institute, which holds his submission forms and installation photographs of his work taken by Harry Shunk and János Kender. Additionally, Harris was part of the radical technology movement of the early 1970s; he contributed articles to Spark, the journal of the Committee for Social Responsibility in Engineering (CSRE), including \"On Doing It at the Work Place\" and \"Electronic Control of Deviant, Dissident and Delinquent Americans\" (1971), which examined the social and political implications of technological systems.",
+            "sources": [
+              "https://www.getty.edu/research/exhibitions_events/exhibitions/eat/checklist.pdf",
+              "https://www.artist-info.com/exhibition/Brooklyn-Museum-Brooklyn-NY-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-id373962",
+              "https://thetedkarchive.com/library/matthew-wisnioski-engineers-for-change",
+              "https://academiccommons.columbia.edu/doi/10.7916/D8445MHT"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "L. John Harris is a Berkeley-based artist, illustrator, and writer who was active during the late 1960s and 1970s. Born in Los Angeles, he studied art and literature at the University of California, Berkeley, in the 1960s and lived in an art commune in 1968. He became a prominent figure in the California food revolution of the 1970s, famously authoring \"The Book of Garlic\" (1974) and founding the \"Lovers of the Stinking Rose\" organization. As an artist and illustrator, he is known for his \"Foodoodles\" cartoon byline and several illustrated memoirs, including \"Café French\" (2019) and \"Portrait in Red: A Paris Obsession\" (2024). While his career as a \"bohemian\" artist and journalist aligns with the specified time period, his direct affiliation with Experiments in Art and Technology (E.A.T.) is less documented than the collaborative artist John Harris (b. 1937).",
+            "sources": [
+              "https://savethepariscafe.com/to-each-his-own-cafe/",
+              "https://edibleeastbay.com/2025/03/24/revisit-the-garlic-revolution-april-10-in-berkeley/",
+              "https://thechicamerican.com/portrait-in-red-a-paris-obsession/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"John Harris\" \"Experiments in Art and Technology\"",
+            "\"John Harris\" artist collaboration engineer scientist",
+            "\"John Harris\" artist \"9 Evenings: Theatre and Engineering\"",
+            "\"John Harris\" artist 1960s 1970s E.A.T.",
+            "\"John Harris\" Experiments in Art and Technology \"Some More Beginnings\"",
+            "\"John Harris\" artist Fred Stern E.A.T. project",
+            "\"John Harris\" Spark magazine 1971 engineer artist",
+            "artist \"John Harris\" Fred Stern \"K.E.P.-1\"",
+            "\"K.E.P.-1 Self\" John Harris Fred Stern",
+            "\"John Harris\" artist E.A.T. \"Some More Beginnings\" biography",
+            "\"John Harris\" Berkeley \"Experiments in Art and Technology\"",
+            "\"John Harris\" Fred Stern artist engineer collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2RKFJoQIpegnHQhnPXAl-wwauMVLv8gfZRf97c_zSGfFPR5UIWx-LkvftM1nwkCpEHDkP957sLJUJApH5aR_bsR1F2hED_Pmj66T9YurzNQwfJAL1jpPGJBWQlIXJhXdnHOhRkaMC7saLLjkco598VRv9GJMLaj-h4IgibqMuF0FaOtFlbY23ZXSONRjlNeh7lxDEFqkrXJGmW3zSXKvToaDAC8qse-l0D2exS9BfN6OcbVzFb7PyOGALF7j5a9Dmczhl3qQzk3bB3dw156iuutb_OWei",
+              "title": "wordpress.com",
+              "resolvedUri": "https://deterritorialinvestigations.files.wordpress.com/2015/03/wisnioski-matthew-engineers-for-change-competing-visions-of-technology-in-1960s-america.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbh0Jzd2mkWQBU0rGgQfRm8tIt4YDHseAooT5Q7sNhT96BaJWSlSNFQJgh7hevzR6qlsUsTwwsGRzmXfBH3xDBbDPcAWv64EcpNTa5p5Z8Ue-iI7pg99JNGUsAxWKDsJMFNcNLeQQKQ_aVB0XJ6gkYi-9eTg==",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbVOPF2l7e_8p1eGaQFfrEPwdPI1roCIRZkoQUUDAy4_291CG33r1M9hmoI7TtKE6HSiqz5cFPuox32hjLswVcWLjKuEbkNChpx-BbHO_UXibE-1ZiYsVEpj48maeV2ZkmQX8E4n2B1ssf_PuGbq_NEKJMIoTi7fdMh-5d",
+              "title": "columbia.edu",
+              "resolvedUri": "https://academiccommons.columbia.edu/doi/10.7916/D8J109TT/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7tt8MFH2IZ6A3mEWzWfZdghlj6JVR45zZVypCyevgjYo_OPXrcta--mS9-pTxJ0ZY5hIhJzjgeRrIQubvAv5UStAcRcC63OC7MU6RvawOgMmjxPn_jLuwT7vN08nT9tvGM9sx6aUirLFClbymN-7eQQ==",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/exhibition/MoMA-27-Id373962"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEws4iqOjWDdHwgF34DM7Z4ZRTMesjyimmI5B95wUJbVXGFzu0SXsnBoneRsvRQ1--y2g8EgoKk8-vMOuiajl0B3hVaDcmh4PiPKBLqEPowDEZSJ-3DG6Zkwh0zjPpAGzIanFqNLjdQahhCW3q5preeaBg1z9pXE12cYwfKtP3vgVQ-NZyVoWuFBj_VTJAp",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/motionpictureher144unse/motionpictureher144unse_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd7x9dvqFYEkSiFNcmNIhNM0OvaeaauR4SlLbYNCm_RgBZL6DLU5XHJA0QQ6b44ugYPswtb68yeeDacQ-pWmFBuC-Qy8D6l2RLJqQhj-oYz4WcL6sMDXbD6FcRPtXPui4h5NxhfdxWNwpLhd5DUJU=",
+              "title": "mcintoshgallery.ca",
+              "resolvedUri": "https://mcintoshgallery.ca/docs/The-Art-of-London.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEerVftx8bHF9O02_cMx8wgP8KxTZmiqNN1xruk6tgNuFC8eLkIBVkaURDEtYdXQ1y8e_7JkV-6b7kyXFGta116tToxEewgReuIlxxY8fpyFTilo5VXNI2bO6r5q19V7qqN8woBc-eganZKyd_8lPyzL9NX3zFucLHwLGSSoQLDQkpPWXRZUO2mSM50",
+              "title": "harvard.edu",
+              "resolvedUri": "https://dash.harvard.edu/bitstreams/77d583c4-cc2a-42ab-ac8f-70ad75b7292b/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4S8PKpZNQMzR53nFVLz3PkCMXNuBBilpKKf4Qb_ZjeHLiglFG5AhZp_sxspvBHu8uEQuJhh2kywPAbgXBH6IxVHV-TaRTbTeBeBJ9yW-b5dccujMUa4DABv_eJ9tSjqvotWZp23dzuIOgCuAFfr6BdbqJePTKENW5v_LAC-m10dJU7aYbZwI9XlKNdW81lKbAtugWOFk3E0Dg7y3thtA6ISv0rocdJs887C5-CebfNmwYvMJXXZg4Vj64W6DLnX4o5UHKt1DPsNv4z7afbQ==",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/transhumanism-and-posthumanism-in-the-perspective-of-biotechnologies-spectrum-slovakia-43-1nbsped-3631903545-9783631903544.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeplOXTnDjNubiwVXDKGBYA0FgliP4AW3tOyqsUUuUJM_onCB6WuTGURDjaC9ZeOQY_LzVMj2suajGJ_GEapIb8Yrj_Vl_Q5zUQJS2ID4GhrcEAPg7j-zvGBUcN9jemHG1TM00fTRAqch5ioVDmAH12HIxdBggDrogxoNRub-VvgIt5MuV0_QULt0R4bnrBjI=",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/newyorkgenealogi1871gree/newyorkgenealogi1871gree_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOsniWbSQ5z3ET5FmiD6W5dlMXzx7DUeGczGY5Jv4nhOKugGiHrowcZeH43S8Hyc6X5B0AQaC_qKRDZQaI4kRYWV4LTEWFcz4QEZwj612Ba9H3aCK-wJDaWgWYxXeP74yDSdpeacMoQA==",
+              "title": "ufl.edu",
+              "resolvedUri": "http://www.fang.ece.ufl.edu/fl-engineers04.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlNciyHt-5VbhPsmz1ZoxoKcb2l1khwgFko2HM5HwQ2Na8bp0-vkjaZVgKdWErN-FMfBQ49pgCxi_8yYRKF7npczdBGASzNPl9-ryPAFRFdy3ZnL5XuT50mriBOcZZyRdgSnindvdrrWGr8SQVHBxRi5M9kegW1ML0-HihYNCUWQ==",
+              "title": "frederickdouglasspapersproject.com",
+              "resolvedUri": "https://frederickdouglasspapersproject.com/s/digitaledition/item/4322"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 238,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John Harris (born 1937) is an American artist who was active in the late 1960s and early 1970s, specifically recognized for his involvement with Experiments in Art and Technology (E.A.T.)."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 745,
+                "endIndex": 801,
+                "text": "Harris's work in this period is documented in the E.A.T."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2769,
+                "endIndex": 3084,
+                "text": "1937).\",\n      \"sources\": [\n        \"https://savethepariscafe.com/to-each-his-own-cafe/\",\n        \"https://edibleeastbay.com/2025/03/24/revisit-the-garlic-revolution-april-10-in-berkeley/\",\n        \"https://thechicamerican.com/portrait-in-red-a-paris-obsession/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                3,
+                4,
+                5,
+                2,
+                6,
+                7,
+                0,
+                8,
+                9,
+                10
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -30,6 +612,173 @@
         "y1": 28.3,
         "x2": 53.3,
         "y2": 36.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1992",
+          "label": "Vi Burnside",
+          "description": "jazz musician",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Ultra Violet is the stage name of the French-American artist and Warhol superstar Isabelle Collin Dufresne, who was active in the late 1960s and 1970s. Vi Burnside was a jazz musician who died in 1964, which predates the primary era of the card's subject. While Vi is a nickname for Violet, there is no biographical link between the jazz saxophonist Vi Burnside and the artistic persona Ultra Violet."
+        },
+        {
+          "qid": "Q20683",
+          "label": "Violet Wilson",
+          "description": "jazz musician",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Ultra Violet' is a famous pseudonym for Isabelle Collin Dufresne, a performance artist and Andy Warhol associate active in the 1960s and 70s. Violet Wilson was a jazz musician primarily active in the 1940s and 50s with groups like the International Sweethearts of Rhythm. There is no evidence suggesting Violet Wilson ever used the stage name Ultra Violet."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q272994",
+          "label": "Isabelle Collin Dufresne",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Ultra Violet' is the well-known stage name and pseudonym for Isabelle Collin Dufresne (Q272994), who was a prominent artist and actor active in the Warhol scene during the late 1960s and early 1970s. This aligns perfectly with the name on the card and the provided context regarding the individual's profession and active era."
+        },
+        {
+          "qid": "Q55791320",
+          "label": "Ultra Violet",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Ultra Violet' is a match, but the Wikidata entity Q55791320 refers to a contemporary pornographic actor from the Czech Republic. The card's subject is an artist active in the late 1960s and 1970s, which strongly points to Isabelle Collin Dufresne (a Warhol superstar known as Ultra Violet, Q273155), rather than the performer described in this Wikidata entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ultra Violet (September 6, 1935 – June 14, 2014) was the stage name of Isabelle Collin Dufresne, a French-American artist, actress, and author. She was a prominent figure in the New York avant-garde scene of the 1960s and 1970s. Initially a muse and studio assistant to Salvador Dalí in the 1950s, she later became a central member of Andy Warhol's 'Factory' and one of his celebrated 'Superstars' starting in 1964. Her stage name was suggested by Warhol due to her frequent use of the color violet. As an artist, she was involved with the organization Experiments in Art and Technology (E.A.T.), appearing in their records as a member of the Technical Services Program, which facilitated collaborations between artists and engineers. Her artistic output spanned performance, film, and plastic arts. In the late 1960s and 1970s, she appeared in several underground films, including Warhol's 'I, a Man' and 'Four Stars,' as well as mainstream productions like 'Midnight Cowboy.' Following a near-death experience in 1973, she underwent a religious conversion and later published her memoirs, 'Famous for 15 Minutes: My Years with Andy Warhol,' in 1988. She continued to practice as a visual artist, focusing on themes of light and spirituality, until her death in 2014.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Isabelle_Collin_Dufresne",
+              "https://www.warhol.org/ultra-violet-former-rebel-among-the-angels-now/",
+              "https://oac.cdlib.org/findaid/ark:/13030/kt838nf72f/",
+              "https://awarewomenartists.com/en/artiste/ultra-violet/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Ultra Violet\" artist Isabelle Collin Dufresne E.A.T.",
+            "Ultra Violet artist biography Experiments in Art and Technology",
+            "\"Ultra Violet\" artist 1960s 1970s E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk8MSwmJDvXFkHBSFuQItDvTDdei_otZakC0VVgOILsvR0NB3dhN4XgnWzYF4pM2io3nvZBwlyf3y4xY_hLlxPVPjZZiL5ooH2ToPYv41AnaXXOWUOS-u_SyGv",
+              "title": "katrakis.com",
+              "resolvedUri": "http://katrakis.com/collaboration"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2qIQ5YEUBKpQDhsMJlLOZ0rQHBSdm9chtkUbpQ3EtBJdSx2HEKcyhEnjwZ6zwxQ7GN8w0M5jGeUD2OTp5E80DYhPtbrrE7mvAdEIIRc02HzMHM3R19R_dLaF2KzzNukWFH5bR8y1yzm-RaYQXm8oW",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Isabelle_Collin_Dufresne"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvePL2EgFTqQF5FY5ht_AgfWydaq6nlnl-Is1Dor-KgsD3u7UGUCswZ3rmZ5Qh2qJSpFhiB-llaPodbay5AhXfMnl-LMtKkXBRYy-czjzE8ldb_FRXu9voJoWGJC5wKUWUCvaMJRvvlnpkeyZlPwuYa7DHUUDgzCzKNGyRcnCuXg==",
+              "title": "warhol.org",
+              "resolvedUri": "https://www.warhol.org/ultra-violet-former-rebel-among-the-angels-now/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6soNxW-T4ZUw0AQwLPRsS0SRuYZEkKP7EFwyWeBntizLr-b3V2hZ5z4ab4xXWEca2ZlgU6R6qf7bUKzF_JsEVDZkaMlvFvYqdhZHm4OsQfxADSZzVcKY7TLNFkosaiqg7nqan",
+              "title": "ictv1.com",
+              "resolvedUri": "https://ictv1.com/art/artists/ultraviolet/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mdcgPNQOLNMVtqQcgLy4004zgfVNNTMZ_S6i4us3c03wWsEbsMPCUX7DcyTccBAiKjPm3TR_BXZopPazor-H4bAeFJfcaognwI82_2POqLL_x1yKL4sUtH2twBRmTza4N83yIrlOCYS241C5MaIpEkxd-ifY3qmXqAXxwd1aOSGNVf2wlH9ot093fjahAjc8lI9fJ4QHEJB4ErwLp9P7mt4_faTE8NEqmLU7AUM=",
+              "title": "oreateai.com",
+              "resolvedUri": "https://www.oreateai.com/blog/ultra-violet-the-enigmatic-life-of-a-warhol-superstar/c49b36d837d347e2ad020407f62fbf42"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVkSkYMkZCtSE4_n7n2yJ2Z2QYhy5_1l9Hl73ZOECyvpws6MDnjZ2oQA6baWMviHD1Dq9os998ktE81_XVVFuYTofcTQipkZu8tRW-nx5dafUZDm32SFMjnwmQR8-FmzxpEqyszB_I8CO7n6fZ_sF5",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/artiste/ultra-violet/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkzBfn8WaWzfh55hlJaP03za3r65ASt4Jx_A6eJDxKV4alkfDpEASpWLl0AUT01fNVGpF6dYKLwRT7fLLKX7ftXwaevEzkHfbaWSqfTweMfe-r1s7TmMSnJAjfksWyqzKJGlfHZLB1yf5zMciYF9qYE2ubNy8FuEGn_Dg=",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZtyAaR5tqHuNtde-oJUXxNJ2quJZQj71fFIBv_CeA4nwOHaVZqPpXyMQU3TiN9y1aCrPPxjToomP2wpjFnU72uMFD21sqtAxASm8UKcIDmvkIEllkQ1934EzIxrnUI3oAjIw=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Andy_Warhol"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 195,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ultra Violet (September 6, 1935 – June 14, 2014) was the stage name of Isabelle Collin Dufresne, a French-American artist, actress, and author."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 281,
+                "endIndex": 468,
+                "text": "Initially a muse and studio assistant to Salvador Dalí in the 1950s, she later became a central member of Andy Warhol's 'Factory' and one of his celebrated 'Superstars' starting in 1964."
+              },
+              "groundingChunkIndices": [
+                5,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 469,
+                "endIndex": 552,
+                "text": "Her stage name was suggested by Warhol due to her frequent use of the color violet."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 553,
+                "endIndex": 787,
+                "text": "As an artist, she was involved with the organization Experiments in Art and Technology (E.A.T.), appearing in their records as a member of the Technical Services Program, which facilitated collaborations between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 788,
+                "endIndex": 852,
+                "text": "Her artistic output spanned performance, film, and plastic arts."
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1205,
+                "endIndex": 1672,
+                "text": "She continued to practice as a visual artist, focusing on themes of light and spirituality, until her death in 2014.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Isabelle_Collin_Dufresne\",\n        \"https://www.warhol.org/ultra-violet-former-rebel-among-the-angels-now/\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/kt838nf72f/\",\n        \"https://awarewomenartists.com/en/artiste/ultra-violet/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -40,6 +789,164 @@
         "y1": 36.7,
         "x2": 55.8,
         "y2": 47.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q57529439",
+          "label": "Daniel Rothenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an artist (likely associated with the NYC 'Loft' scene) active in the late 1960s or early 1970s. The Wikidata entity (Q57529439) refers to a modern researcher and academic affiliated with MIT, whose career and occupation do not align with the artistic context or timeframe provided."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Rothenberg (born 1933) is a prominent Broadway producer, publicist, and social activist who was highly active in the New York City arts and political scene during the late 1960s and early 1970s. Originally a theatrical press agent for figures such as Elizabeth Taylor, Richard Burton, and Edward Albee, he transitioned into producing experimental and socially conscious theater. In 1966, he produced the groundbreaking anti-war rock musical 'Viet Rock' and, in 1967, he produced John Herbert's 'Fortune and Men's Eyes,' a searing drama about homosexuality and sexual slavery in prison. The community of formerly incarcerated people that formed around the play led Rothenberg to found The Fortune Society in 1967, a non-profit dedicated to prisoner rights and reentry support. He was also a civilian observer during the 1971 Attica Prison riot. His historical activity in the NYC experimental theater scene and his role as an 'impresario' of radical art align with the timeframe and creative environment of the Experiments in Art and Technology (E.A.T.) movement.",
+            "sources": [
+              "https://www.villagepreservation.org/2018/04/27/oral-histories-on-the-founding-of-an-artists-colony-a-prison-reform-organization-and-so-much-more/",
+              "https://fortunesociety.org/david-rothenbergs-fortune/",
+              "https://www.timeout.com/newyork/theater/con-artist",
+              "https://www.amny.com/news/david-rothenbergs-new-book-took-a-lifetime-to-write-1-4796338/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "David Rothenberg (born 1962) is a philosopher, musician (clarinetist), and professor of philosophy and music at the New Jersey Institute of Technology. While his professional career peak (beginning in the late 1980s and 1990s) is later than the 1960s, he is a primary contemporary figure associated with the themes of 'Experiments in Art and Technology' (E.A.T.). He is the author of 'Hand's End: Technology and the Limits of Nature' (1993), a book that explores technology as an extension of human faculties, and has gained international recognition for his 'interspecies music' collaborations, where he uses technology to perform music with whales, birds, and insects. He is frequently listed in Art and Technology dossiers and retrospectives. He is the son of the poet Jerome Rothenberg, who was active in the New York avant-garde scene during the late 1960s.",
+            "sources": [
+              "https://www.uchicago.edu/",
+              "https://www.researchgate.net/publication/383173775_Technology_and_Interspecies_Musical_Practice",
+              "https://e-artexte.ca/view/keywords/technology.html",
+              "https://www.vasulka.org/archive/IntimateImmensity/IntimateImmensity.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Donald Rothenberg was a figure active in the late 1960s who occupied the intersection of radical politics and media. He was listed as an Assistant to the Publisher at 'Ramparts' magazine (a publication known for its innovative graphics and radical cultural content) from 1966 through 1967 and served as a chairman for the Spring Mobilization Committee to End the War in Vietnam in 1967. Auction records also exist for a 'Donald Rothenberg' associated with 'Modern Abstract Painting,' suggesting he may have been a visual artist during this period. His presence in the mid-to-late 1960s radical and artistic milieu of the United States makes him a possible match for a 'D. Rothenberg' active at the time.",
+            "sources": [
+              "https://www.governmentattic.org/5docs/FBI-RampartsMag_1964-1975.pdf",
+              "https://www.invaluable.com/auction-lot/donald-rothenberg-modern-abstract-painting-55-c-6954275990",
+              "https://archive.org/stream/RampartsMagazine/Ramparts%20v05n02%201966-08_djvu.txt"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"David Rothenberg\" artist 1960s 1970s E.A.T.",
+            "\"D. Rothenberg\" E.A.T. artist engineer",
+            "artist \"D. Rothenberg\" Experiments in Art and Technology",
+            "\"Daniel Rothenberg\" artist E.A.T.",
+            "\"D. Rothenberg\" late 1960s early 1970s art",
+            "\"Dorothy Rothenberg\" artist",
+            "\"David Rothenberg\" Fortune Society artist 1960s 1970s",
+            "\"Daniel Rothenberg\" engineer E.A.T.",
+            "\"D. Rothenberg\" Experiments in Art and Technology participant",
+            "\"Donald Rothenberg\" artist 1960s 1970s",
+            "\"D. Rothenberg\" engineer E.A.T.",
+            "\"David Rothenberg\" Broadway producer E.A.T.",
+            "\"David Rothenberg\" artist 1968 E.A.T.",
+            "\"Donald Rothenberg\" artist E.A.T.",
+            "\"D. Rothenberg\" \"Experiments in Art and Technology\" list of participants",
+            "\"D. Rothenberg\" E.A.T. engineer artist",
+            "\"Daniel Rothenberg\" artist E.A.T. Pepsi Pavilion",
+            "\"Rothenberg\" Bell Labs artist tech",
+            "\"David Rothenberg\" artist E.A.T. 1960s",
+            "\"D. Rothenberg\" participant Experiments in Art and Technology E.A.T.",
+            "\"Donald Rothenberg\" engineer Experiments in Art and Technology",
+            "\"David Rothenberg\" engineer Bell Labs E.A.T.",
+            "\"D. Rothenberg\" Pepsi Pavilion engineer",
+            "\"David Rothenberg\" engineer \"9 Evenings\"",
+            "\"David Rothenberg\" Experiments in Art and Technology engineer",
+            "\"David Rothenberg\" theater E.A.T. association",
+            "\"Dan Rothenberg\" E.A.T. collaboration",
+            "\"Donald Rothenberg\" E.A.T. collaboration",
+            "\"D. Rothenberg\" E.A.T. member list",
+            "\"David Rothenberg\" E.A.T. member",
+            "\"Donald Rothenberg\" E.A.T. member",
+            "\"Dan Rothenberg\" E.A.T. member",
+            "\"D. Rothenberg\" member of Experiments in Art and Technology",
+            "\"D. Rothenberg\" \"9 Evenings\" participant",
+            "\"David Rothenberg\" 1968 1969 artist theater E.A.T.",
+            "\"Daniel Rothenberg\" artist 1970",
+            "\"Experiments in Art and Technology\" Rothenberg 1960s",
+            "\"Donald Rothenberg\" artist 1967",
+            "\"David Rothenberg\" artist 1969",
+            "\"D. Rothenberg\" artist 1968",
+            "\"D. Rothenberg\" engineer \"Experiments in Art and Technology\"",
+            "\"Donald Rothenberg\" E.A.T. 1969",
+            "\"David Rothenberg\" E.A.T. 1967 newsletter",
+            "\"Dan Rothenberg\" E.A.T. 1968",
+            "\"D. Rothenberg\" artist \"Experiments in Art and Technology\" 1970",
+            "\"David Rothenberg\" \"Radical Software\"",
+            "\"David Rothenberg\" artist \"Experiments in Art and Technology\" MoMA 1968",
+            "\"D. Rothenberg\" \"Radical Software\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8oiEiZg7G8MwF4ODUyWs1IOI729pbt9usZ12NDyDlIHqghBH1p602hboqed2Lrr-NSeab6MPxIw4854c-NT1U_9dA5Kq9pz3Czgk0iztiDqEAaO65Hx69VsVm9SDb7i9cvNDsk_8Sg88QLNoynzdlE0QnQWMoOwer0vYWYxNpFFa689dg_QFBww==",
+              "title": "amny.com",
+              "resolvedUri": "https://www.amny.com/news/david-rothenbergs-new-book-took-a-lifetime-to-write/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTAxpYgnOFIbYPvxVJFgV06cTEqvhY2uQacKYtQDzmg2Wb0ZTrHN3q_eYZSyIrOIeTO65n7YA3QPE4347RxKjJbudGG02Z4iAwrduuqiuOsjcvdBB-PhPTtSye7bT56YrVOzcuNKVmcaYc",
+              "title": "openedition.org",
+              "resolvedUri": "https://journals.openedition.org/estetica/14925"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHR9fwnLCSruTdnRup7b3HmybTpozGWTbWFluAl6H03D-IYDjHzrle33tMKc0jvitx-iB8qhk4pZ6V3DJmdpixAFEMIOr_cx2EUu4stvxikVww6PlCiPwp1Yi6bbQllhPfOnvOvmo8KmMdlypLVqzbwaylGpDuA2vuzNLuPj98a9fudEkb2Tae6whCDx_bppYntC2S3aY3K2sFQCD8FBPetkYnULofajJiAhKEv-J7kdmZ8OylmGaOynn1jRKL2tMIndAm_8ntkPKMPIF_0l0LdCdkSQvRE6PKyvWYGAr_JM70Qu9F6kC6KZmEpLg==",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/404013085/Leonardo-Book-Series-Joasia-Krysa-Jussi-Parikka-Writing-and-Unwriting-Media-Art-History-Erkki-Kurenniemi-in-2048-2015-The-MIT-Press-pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkD-VndAYRluuFbDiu8lK9ZVXY4JzxkQyGFRCcyhgdx-vg-i9ijKlTpsxcwXLWC8vWopVVaKsAy-nN22exX_SYQBCA0frLH7aD9UgyguQIA01ITgmr0knn43FkriHDWBpe2tmopBahvT49AQ5G3PNKA8IkvZQI4rfvgBQFCXLwavg=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/677727646/Whitechapel-Documents-Systems"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYMAU6HBvTjaLALOW_a-YfoDD881UtbC8435d9tPA17sb2N6lkEZhVhT1iCcHdxbXyvVj9OJLQJb5UNbkuMIfVlSBzJgIWbWLbhxHmjC4Aol676B9JpLnr1R7ZNvXsmNdUXdx1jNEN56-I1vzWA1J-E5b96xjSO_d0y_GdU_Izom70_QU=",
+              "title": "tdl.org",
+              "resolvedUri": "https://borrowers-ojs-azsu.tdl.org/borrowers/article/download/141/280/577"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 250,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"David Rothenberg (born 1933) is a prominent Broadway producer, publicist, and social activist who was highly active in the New York City arts and political scene during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1109,
+                "endIndex": 1755,
+                "text": "movement.\",\n      \"sources\": [\n        \"https://www.villagepreservation.org/2018/04/27/oral-histories-on-the-founding-of-an-artists-colony-a-prison-reform-organization-and-so-much-more/\",\n        \"https://fortunesociety.org/david-rothenbergs-fortune/\",\n        \"https://www.timeout.com/newyork/theater/con-artist\",\n        \"https://www.amny.com/news/david-rothenbergs-new-book-took-a-lifetime-to-write-1-4796338/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"David Rothenberg (born 1962) is a philosopher, musician (clarinetist), and professor of philosophy and music at the New Jersey Institute of Technology."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 3406,
+                "endIndex": 3914,
+                "text": "His presence in the mid-to-late 1960s radical and artistic milieu of the United States makes him a possible match for a 'D. Rothenberg' active at the time.\",\n      \"sources\": [\n        \"https://www.governmentattic.org/5docs/FBI-RampartsMag_1964-1975.pdf\",\n        \"https://www.invaluable.com/auction-lot/donald-rothenberg-modern-abstract-painting-55-c-6954275990\",\n        \"https://archive.org/stream/RampartsMagazine/Ramparts%20v05n02%201966-08_djvu.txt\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2,
+                1,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -51,6 +958,91 @@
         "y1": 45.9,
         "x2": 66.6,
         "y2": 57.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q268542",
+          "label": "Wendy Schaal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The first names are entirely different (John vs. Wendy). Additionally, Wendy Schaal is female and her professional career began in 1976, which is several years after the date mentioned on the card (1969)."
+        },
+        {
+          "qid": "Q272927",
+          "label": "Kristen Schaal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to John Schaal and is dated 1969. The Wikidata entity is for Kristen Schaal, who was born in 1978 and did not begin her career until 1999. They have different first names and belong to different generations."
+        },
+        {
+          "qid": "Q4795237",
+          "label": "Barbara A. Schaal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is John Schaal, whereas the Wikidata entity is for Barbara A. Schaal. The given names and genders are different, and the Wikidata entity is a prominent biologist rather than an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Schaal was an artist and industrial designer active during the 1960s and 1970s. He is noted for his work as a liturgical designer, specifically for creating the black granite altar in the St. John's Chapel at Xavier University in Cincinnati, which was dedicated in 1962. Schaal was also associated with the Experiments in Art and Technology (E.A.T.) organization, where he was listed as a consulting industrial designer. In addition to his professional work as a designer and artist, he was an art collector; in 2002, he made a bequest of several works by the artist Josef Albers to the Miami University Art Museum (now the Richard and Carole Cocks Art Museum).",
+            "sources": [
+              "https://issuu.com/miamiuniversityartmuseum/docs/issuu_vamm_fall_2025_final_pages",
+              "https://www.xavier.edu/student-newspapers/documents/1962-12-07.pdf",
+              "https://issuu.com/miamiuniversityartmuseum/docs/vamm_spring_2023_final_pages_issuu"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"John Schaal\" artist 1960s 1970s",
+            "\"John Schaal\" E.A.T. organization",
+            "John Schaal artist biography",
+            "John Schaal artist Experiments in Art and Technology",
+            "",
+            "\"John Schaal\" Experiments in Art and Technology",
+            "\"John Schaal\" artist New York 1960s 1970s",
+            "\"John Schaal\" Xavier University chapel altar",
+            "\"John Schaal\" E.A.T. artist",
+            "",
+            "\"John Schaal\" artist Cincinnati",
+            "\"John Schaal\" sculptor 1960s 1970s",
+            "\"John Schaal\" Experiments in Art and Technology list of members",
+            "\"John Schaal\" E.A.T. artist engineer",
+            "",
+            "\"John Schaal\" Experiments in Art and Technology member",
+            "\"John Schaal\" artist New York E.A.T.",
+            "\"John Schaal\" E.A.T. participant",
+            "\"John Schaal\" altar Xavier University artist",
+            "\"John Schaal\" industrial designer E.A.T.",
+            "",
+            "\"John Schaal\" industrial designer 1960s",
+            "\"John Schaal\" artist Alcoa",
+            "\"John Schaal\" art collector Cincinnati Albers",
+            "\"John Schaal\" E.A.T. engineer Bell Labs",
+            "\"John Schaal\" Xavier University altar designer bio",
+            "",
+            "\"John Schaal\" E.A.T. IBM Bell Labs",
+            "\"John Schaal\" Alcoa artist \"E.A.T.\"",
+            "",
+            "\"John Schaal\" engineer E.A.T. Osaka",
+            "",
+            "\"John Schaal\" liturgical artist",
+            "\"John Schaal\" Experiments in Art and Technology 1960s",
+            "\"John Schaal\" artist Cincinnati Albers prints",
+            "\"John Schaal\" E.A.T. engineer IBM",
+            "",
+            "\"John Schaal\" artist Cincinnati altar architect",
+            "\"John Schaal\" IBM artist 1970",
+            "\"John Schaal\" E.A.T. member list",
+            "\"John Schaal\" artist Alcoa designer",
+            "\"John Schaal\" Xavier University altar bio"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -62,6 +1054,93 @@
         "y1": 51.3,
         "x2": 42.9,
         "y2": 64.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q127332",
+          "label": "Charlotte Brontë",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is dated 1969, whereas Charlotte Bront&euml; died in 1855. Although Bront&euml; used the pseudonym 'Captain Tree', she could not be an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q21393199",
+          "label": "Desley J. Tree",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Chris Tree' and 'Desley J. Tree' do not match. Additionally, the Wikidata entity is a scientist (mycologist and entomologist) working for a government department, which is inconsistent with the context provided that the card subject was an artist active in the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Christopher Tree (often referred to as Chris Tree) is an American avant-garde musician, percussionist, and sound artist who was active in the late 1960s and 1970s. He is best known for his solo performance project titled \"Spontaneous Sound,\" which featured a massive collection of over 150 to 200 instruments, including gongs, bells, chimes, timpani, flutes, and a six-foot Tibetan temple horn. Tree's performances were characterized by their lack of traditional structure and emphasis on pure improvisation and environmental interaction. He performed in a wide variety of settings, ranging from high-profile venues like the Cathedral of St. John the Divine in New York City and the Electric Circus to unconventional spaces such as San Quentin Prison and street corners. He was associated with the New York avant-garde and experimental art circles of the era, appearing in a 1968 catalogue for Experiments in Art and Technology (E.A.T.) and being featured in reports from the New York State Council on the Arts (NYSCA). His work was also the subject of a 1967 short documentary film by Les Blank and Pieter Van Deusen titled \"Christopher Tree.\" Notable recordings include his self-released 1970/1971 album \"Spontaneous Sound\" and a live recording at the Cathedral of St. John the Divine.",
+            "sources": [
+              "https://www.time.com/archive/6692135/composers-symphony-of-one/",
+              "https://www.discogs.com/artist/339454-Christopher-Tree",
+              "https://www.soundohm.com/product/at-the-cathedral-of-st-john-the-divine",
+              "https://www.ny.gov/new-york-state-council-arts-annual-report-1969-70"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Chris Tree\" artist 1960s 1970s",
+            "\"Chris Tree\" E.A.T. artist",
+            "Chris Tree artist Experiments in Art and Technology",
+            "\"Chris Tree\" drummer musician 1960s",
+            "\"Christopher Tree\" musician \"Experiments in Art and Technology\"",
+            "\"Chris Tree\" artist E.A.T.",
+            "\"Chris Tree\" Spontaneous Sound percussionist",
+            "\"Chris Tree\" jazz musician late 1960s early 1970s",
+            "\"Christopher Tree\" percussionist \"Spontaneous Sound\"",
+            "\"Christopher Tree\" \"Experiments in Art and Technology\" collaboration",
+            "\"Chris Tree\" Spontaneous Sound 1960s 1970s",
+            "Did Chris Tree work with Robert Rauschenberg or Billy Kluver?"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwsO2QpmgizpLhb_S9zrP_SIOQzE2HX71D4caHZMamEoshm4Kah8z8loWCrOdvbkxBnPTPq1T2S8SCIUhcyC164yza47GxGazIO6cgx3ZG6PpkLiQJq8n6uKw5Q2OaWlV7LcGP3c-owSLK-H1SF5yhgTIIoXtnrNLf97orIID6hDA_-iMFyNkC3LDDZ-HbubRKzJ8uRbiiSoVcQq_9sAw=",
+              "title": "bibliopolis.com",
+              "resolvedUri": "https://boo-hooray.cdn.bibliopolis.com/images/upload/boo-hooray-catalog-27-fluxus-and-minimalism.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-SXGdLDp8o64r4LVCG-wodpDrTsgPGN4C2999KrEnsjrPVkAfRUa57IiJ8V7tKomqPaJGpzA-P1rIM68PUAKdJPhzPsvCFnb0vG-IJBHXvAJXE-A65cptl-STt7DEw4oKx89mmHwwjycJh_Fz3r8XaY73EeDcKSV8l_8g5m_WZODHYz4aG9w8ZLM=",
+              "title": "upcdn.io",
+              "resolvedUri": "https://upcdn.io/FW25buD/raw/Zwiggelaar/Catalogus/zwiggelaarauctions_71_eng.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm4YEWrApfOGCypSCmJqIp1LSlWS8-ChSeL1EEcTuJyMF28mTfvWcxGhoeTOKTUwAhkXqFAWrNJIr5hNpoc-JY87B0KURtskUqrPWmHgmrRZVZCnCj9Nz8m4zr9QC84cEF_sM1CDcwU04TBJmVZ08ZamCUrVug",
+              "title": "time.com",
+              "resolvedUri": "https://time.com/archive/6637027/composers-symphony-of-one/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 213,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Christopher Tree (often referred to as Chris Tree) is an American avant-garde musician, percussionist, and sound artist who was active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 447,
+                "endIndex": 590,
+                "text": "Tree's performances were characterized by their lack of traditional structure and emphasis on pure improvisation and environmental interaction."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -72,6 +1151,194 @@
         "y1": 59.8,
         "x2": 33.4,
         "y2": 71.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q459699",
+          "label": "Denes Agay",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card 'A. Denes' implies that 'Denes' is the surname. In the Wikidata entity (Denes Agay), 'Dénes' is the given name. Furthermore, there is a very prominent artist named Agnes Denes who was active in 1971 and fits the 'A. Denes' format perfectly, making this Wikidata entry for a composer named Denes Agay an unlikely match."
+        },
+        {
+          "qid": "Q793931",
+          "label": "Dénes Berényi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'A. Denes' as an artist active in 1971. The Wikidata entity is Dénes Berényi, a prominent Hungarian nuclear physicist. Furthermore, in the Wikidata entry, 'Dénes' is a given name and 'Berényi' is the surname, whereas the card's 'A. Denes' likely refers to a person whose surname is Denes (most likely the artist Agnes Denes). The occupations and name structure do not align."
+        },
+        {
+          "qid": "Q871636",
+          "label": "Dénes Csengey",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card 'A. Denes' likely refers to the prominent conceptual artist Agnes Denes (where Denes is the surname). The Wikidata entity Q871636 is Dénes Csengey, where Dénes is the first name and Csengey is the surname. Furthermore, Dénes Csengey was only 18 years old in 1971 and was primarily known as a Hungarian politician and writer, which does not fit the artist context."
+        },
+        {
+          "qid": "Q910719",
+          "label": "Dénes Dudits",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'A. Denes', who is identified in context as an artist. This likely refers to Agnes Denes, a prominent conceptual/environmental artist active in the early 1970s. The Wikidata entity, Dénes Dudits, is a Hungarian biologist. Furthermore, 'Dénes' is his first name, whereas 'Denes' appears to be the surname on the card entry."
+        },
+        {
+          "qid": "Q1102446",
+          "label": "Dénes Jánossy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (D&#233;nes J&#221;nossy) died in 1966, making it impossible for them to be the subject of a card entry dated 1971. Furthermore, the Wikidata entity was a historian and archivist, not an artist."
+        },
+        {
+          "qid": "Q1106736",
+          "label": "Dénes Kemény",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Dénes Kemény was a 19th-century politician who died in 1849. The card entry is dated 1971 and describes an artist active in the late 1960s/early 1970s. These are clearly different individuals based on both the time period and profession."
+        },
+        {
+          "qid": "Q1111198",
+          "label": "Dénes Kislégi Nagy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity D\tnes Kisl\tgi Nagy is a Hungarian economist, philosopher, and academic. The card refers to 'A. Denes' in an artistic context in 1971. This almost certainly refers to the well-known conceptual artist Agnes Denes, who was active and prominent during that period, rather than an elderly Hungarian economist (who would have been 86 at the time)."
+        },
+        {
+          "qid": "Q1175318",
+          "label": "Dénes Mednyánszky",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity D\u0000nes Medny\u0000nszky died in 1911, which is sixty years before the date on the card (1971). Additionally, his occupations were geologist and politician, not an artist as specified in the context."
+        },
+        {
+          "qid": "Q1187034",
+          "label": "Denes de Holesch",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry 'A. Denes' likely refers to the prominent artist Agnes Denes, who was highly active in the early 1970s. The Wikidata entity provided is Denes de Holesch, where 'Denes' is the first name rather than the surname, and the initial 'A' does not match."
+        },
+        {
+          "qid": "Q1254530",
+          "label": "Dénes Bartha",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'A. Denes', suggesting a surname of Denes (most likely the artist Agnes Denes who was active in the early 1970s). The Wikidata entity is Dénes Bartha, where Dénes is the first name and Bartha is the surname. Furthermore, Bartha was primarily a musicologist and academic, which does not fit the typical profile of the artist described."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born May 31, 1931) is a Hungarian-born American artist widely recognized as a pioneer of conceptual, environmental, and ecological art. Often referred to in early professional records and publications as A. Denes, she became active in the late 1960s and early 1970s. Her work is characterized by the integration of science, philosophy, linguistics, and technology, a practice she terms \"Visual Philosophy.\" She was significantly involved with the intersection of art and technology during this period; she submitted project proposals to Experiments in Art and Technology (E.A.T.) around 1969 and 1970 and was featured in the seminal 1970 exhibition \"Software\" at the Jewish Museum in New York, which explored information technology's meaning for art. Her early landmark projects include \"Rice/Tree/Burial\" (1968), considered one of the first site-specific ecological works, and later the iconic \"Wheatfield — A Confrontation\" (1982). Denes was an early adopter of computer technology in art-making and also experimented with holograms and X-ray imagery in the early 1970s.",
+            "sources": [
+              "https://awarewomenartists.com/en/artiste/agnes-denes/",
+              "https://sitesantafe.org/artist/agnes-denes/",
+              "https://theshed.org/program/6-agnes-denes-absolutes-and-intermediates",
+              "https://www.getty.edu/research/tools/guides_inventories/eat_records.html",
+              "https://en.wikipedia.org/wiki/Agnes_Denes",
+              "https://direct.mit.edu/leon/article/58/4/357/124376/Hot-Software-Thermal-Media-and-the-Environment"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Agnes Denes\" early career 1960s 1970s",
+            "\"Agnes Denes\" Experiments in Art and Technology E.A.T.",
+            "\"A. Denes\" artist 1960s 1970s",
+            "artist \"A. Denes\" Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXXOFj2MrNzDyzKz6zG0bmrWnkw-PvZR76Q_U9mxY8M5kMQ1q0acMnul51Pwyb1ehfa668WwmKzOkPvTj9BuyCqYhOp8dR0TPu8S2v2siWePAtz7ozCwwhTn-UMS2SdltzH86Ao2QaFGQpMT_aADm4yZxGIZPEtl8RLDMpe0_VJlRGSHg3mErz-cPP94y8jL1wdA==",
+              "title": "theshed.org",
+              "resolvedUri": "https://www.theshed.org/program/6-agnes-denes-absolutes-and-intermediates?feed_item=166"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYNZ9m3gHRv9qu9QkGkHG-uGh25Qii6Q35NZ4LPC0CE5N2VEAAFL74ee5TEZ8QbT4hyKRqg4ncZD26q6B1WAnH_0hrWdogIvvFFbytp9QY-y66WToim8YxqZavxLsyxH4qBDTUNnKbrEVxWzsbjA==",
+              "title": "sitesantafe.org",
+              "resolvedUri": "https://www.sitesantafe.org/en/artists/agnes-denes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSOO5TX6quNQjxaY1_IeiAEGE-r16Ul78L23pfvcNLuIw2e3GeO2xyXlCrayvPaX_gDpuole4JJq-XflO2DB0LB1P3XpRysSGhdG_VFYRqaJmTBuUicknDEcKHjerNHqYwUOj_",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Agnes_Denes"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyNr0R-KaWdkJLKJRr8SVRuvFFRtsmbjXVH0VI0PWIeDM3seP-wALjyAsbPe5zljt6vG1xCZCtp9T8uiFYOrYnK484uK5iV8Xho00DA3eUpQLkC_akWMdcagQSXu0CPrxndfbkXpIg-Hd-OaOYJexjm299R2dqVCQ6d0UcxMsWSr8NgHnNTXni61py30XN1RqCJUMV7B-qpDFngQKQSYNXkFJgvwwmxjg3LXaQCHJOipmAcPZkmesshdHYXTzGOzP43bMjuSXh-F2mtGJkXSaxzCLTQw==",
+              "title": "usq.edu.au",
+              "resolvedUri": "https://research.usq.edu.au/download/deaba9e1b276389624c221a0d8e66c6ae8882f07924df96e384bdb7870c153a4/7920721/Johanna%20Guerin%20-%20Thesis_Redacted.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYEnw_f_8kgy5Wc4VtfMAy33tODfIfwiulYtBH6IpGtAHSmeM_eKd3wqmsU1dkkSZyBzDSILFcbR3UgLPvAV455VxTZaNrrdMVgmZbqE77vR-xG92lgh3eOEb7JAKDNM3muNVrv5aQzxYE9q6sSEM-tfHTVtCZqFjYlClI",
+              "title": "umass.edu",
+              "resolvedUri": "http://people.umass.edu/sig82art/Resources/pdfs/artTechnology.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF7T2PkQCmielvcTeeB3c6u1v23pAWsanET1Q-4ct8Drw55wOB7wJdO2cptGdcgL_E6Zl_qeBDuryGcGPPGZUB7CrRJ8tujSfkwU2xYuL0qjV8sF-pmoV5Uldwe0lPVUOc5vF0veDYJIsadrVuY31EBmg=",
+              "title": "whitney.org",
+              "resolvedUri": "https://whitney.org/essays/histories-of-the-digital-now"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWtk8iI045PnD0-fkHePsMkQ_DZ_60ksajnY88OzQFNhLwSJtQ9tC0EWJXlaoT9F-tewwvshsPrHoiFwtcwveDYfHFjS0eYnLTudlkWoDT9pvBKC3j5pWgHkCVlSw67fg4qIbGYnKvPI3Wl-nyrbt238IM0SIS7om4vJNwBgTkpGPl95U=",
+              "title": "mit.edu",
+              "resolvedUri": "https://direct.mit.edu/leon/article-pdf/58/4/403/2473119/leon_a_02614.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcPCzByGy89tHkgFwUz1jp9nTpOdMAunpWyEljC4VSUMYnGP7zazzW1nBXdO5c7A1y3HzhZtUvyog6ULDUsnvidDg1AZ8Biyi5FwrGaaewU65VamsdNU0urL9lTpowwZaYHrA0T-tOcGSKzRlOmBXg",
+              "title": "streamingmuseum.org",
+              "resolvedUri": "https://www.streamingmuseum.org/post/evo1-agnes-denes"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 198,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (born May 31, 1931) is a Hungarian-born American artist widely recognized as a pioneer of conceptual, environmental, and ecological art."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 645,
+                "endIndex": 817,
+                "text": "around 1969 and 1970 and was featured in the seminal 1970 exhibition \\\"Software\\\" at the Jewish Museum in New York, which explored information technology's meaning for art."
+              },
+              "groundingChunkIndices": [
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 818,
+                "endIndex": 1006,
+                "text": "Her early landmark projects include \\\"Rice/Tree/Burial\\\" (1968), considered one of the first site-specific ecological works, and later the iconic \\\"Wheatfield — A Confrontation\\\" (1982)."
+              },
+              "groundingChunkIndices": [
+                2,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1007,
+                "endIndex": 1666,
+                "text": "Denes was an early adopter of computer technology in art-making and also experimented with holograms and X-ray imagery in the early 1970s.\",\n      \"sources\": [\n        \"https://awarewomenartists.com/en/artiste/agnes-denes/\",\n        \"https://sitesantafe.org/artist/agnes-denes/\",\n        \"https://theshed.org/program/6-agnes-denes-absolutes-and-intermediates\",\n        \"https://www.getty.edu/research/tools/guides_inventories/eat_records.html\",\n        \"https://en.wikipedia.org/wiki/Agnes_Denes\",\n        \"https://direct.mit.edu/leon/article/58/4/357/124376/Hot-Software-Thermal-Media-and-the-Environment\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                6
+              ]
+            }
+          ]
+        }
       }
     }
   ]

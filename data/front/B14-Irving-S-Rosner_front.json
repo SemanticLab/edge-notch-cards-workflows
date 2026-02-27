@@ -23,5 +23,113 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "",
     "aestheticPhilosophicalInterests": ""
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q28311",
+      "label": "Rosner Television Systems",
+      "description": "company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Record 1 describes an individual person (Irving S. Rosner), whereas Record 2 describes a business entity (Rosner Television Systems). While the person is affiliated with the company, they are distinct types of entities."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q331559",
+      "label": "Boris Rösner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. Irving S. Rosner is an engineer or technical specialist in television facility design based in New York City, while Boris Rösner was a prominent Czech stage and film actor. Their first names, locations, and professions do not align."
+    },
+    {
+      "qid": "Q1577227",
+      "label": "Hans-Hermann Rösner-Mautby",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Record 1 describes an individual named Irving S. Rosner based in New York City working in television and electronics. Record 2 describes Hans-Hermann Rösner-Mautby, a German entrepreneur and citizen who lived and died in Germany. The names, locations, and specific professional focuses do not align."
+    },
+    {
+      "qid": "Q1819808",
+      "label": "Leopold Rosner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals from different centuries and locations. Irving S. Rosner was a 20th-century professional in the television and electronics industry based in New York (indicated by the 10022 zip code, which was created in 1963). Leopold Rosner (Q1819808) was a 19th-century Austrian publisher and writer who died in 1903."
+    },
+    {
+      "qid": "Q8046282",
+      "label": "Yaakov Rosner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different individuals. Irving S. Rosner was based in New York and worked in television systems engineering at an address with a zip code (indicating activity after 1963), whereas Yaakov Rosner was a photographer based in Israel who died in 1950."
+    },
+    {
+      "qid": "Q65928746",
+      "label": "Rösner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. Record 1 is Irving S. Rosner, a male based in New York involved in television systems and electronics. Record 2 is a female German badminton player (family name Rösner) born in 1964. They differ in gender, nationality, location, and profession."
+    },
+    {
+      "qid": "Q95303390",
+      "label": "Gyula Rosner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The person in the card data is Irving S. Rosner, an American electronics and television systems professional based in New York. The Wikidata entity is Gyula Rosner, a Hungarian archaeologist and museologist. They share a surname but have different given names, occupations, and locations."
+    },
+    {
+      "qid": "Q105650803",
+      "label": "Bela Rosner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Irving S. Rosner, a professional in the television and electronics industry based in New York City with a 10022 ZIP code (post-1963). The Wikidata entity refers to Bela Rosner, a Holocaust victim born in 1897 and deceased in 1940 who resided in Prague."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28311",
+      "label": "Rosner Television Systems",
+      "description": "company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names 'Rosner Television Systems Incorporated' and 'Rosner Television Systems' are nearly identical, with the card simply adding the legal 'Incorporated' suffix. Both are identified as businesses or companies, and the technical focus of the individual on the card (television systems) aligns perfectly with the organization's name."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Irving S. Rosner was a prominent New York-based electrical engineer and television systems specialist active from the early 1960s through the 1990s. He was the founder and president of Rosner Television Systems, Inc., a firm located in Manhattan (with offices at 250 West 57th Street) that specialized in turnkey installations, engineering consultation, and mobile vehicle construction for the television and film industries. Rosner's expertise spanned electronics, television, film, and the then-emerging field of cable television (CATV). In 1971, he served on the Mayor's Task Force on CATV in New York City, contributing technical expertise to the city's early cable policy. He was a Fellow of the Society of Motion Picture and Television Engineers (SMPTE) and a frequent contributor to its technical programs, serving as a topic chairman and moderating panels on subjects such as computer-aided design and high-definition television (HDTV). His publications include the co-authored 1974 paper 'A Portable Compact Color Television Facility' and the 1991 article 'The Changing Role of the Television Engineer.' Rosner was associated with the Experiments in Art and Technology (E.A.T.) engineering registry, which facilitated collaborations between technical experts and artists in New York during the late 1960s and 1970s. He was married to Risha Fraiberg in 1963 and was a long-time resident of Great Neck and Plainview, New York. He passed away prior to 2010.",
+        "sources": [
+          "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7201658",
+          "https://www.legacy.com/obituaries/nytimes/obituary.aspx?n=risha-rosner&pid=141344403",
+          "https://worldradiohistory.com/Archive-BC/BC-1969/BC-1969-02-24.pdf",
+          "https://worldradiohistory.com/Archive-BC/BC-1967/BC-1967-11-06.pdf",
+          "https://www.smpte.org/about/fellows",
+          "https://dokumen.pub/republic-on-the-wire-cable-television-pluralism-and-the-politics-of-new-technologies-1948.html"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Irving S. Rosner\"",
+        "\"Irving S. Rosner\" Rosner Television Systems",
+        "\"I. S. Rosner\" engineer",
+        "",
+        "\"Irving S. Rosner\" death date",
+        "\"Rosner Television Systems\" E.A.T.",
+        "\"Irving S. Rosner\" New York obituary",
+        "\"Irving Rosner\" engineer E.A.T.",
+        "\"Irving S. Rosner\" engineer directory E.A.T.",
+        "\"Rosner Television Systems\" E.A.T. project",
+        "",
+        "\"Irving S. Rosner\" Experiments in Art and Technology directory",
+        "\"Rosner Television Systems\" E.A.T. collaboration"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -15,5 +15,93 @@
     "technicalFields": [
       "Electrical Engineering"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q229013",
+      "label": "Sarah Silverman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals with distinct names (Wallace vs. Sarah), different genders, and entirely unrelated professional backgrounds (Electrical Engineer vs. famous comedian and actress)."
+    },
+    {
+      "qid": "Q919608",
+      "label": "David Silverman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals: Wallace Silverman is an electrical engineer associated with Bunker Ramo Corporation in Connecticut, while David Silverman is a well-known animator and film director known for his work on The Simpsons."
+    },
+    {
+      "qid": "Q1563108",
+      "label": "Fred Silverman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals with different first names (Wallace vs. Fred) and vastly different career paths. Wallace Silverman was an electrical engineer at Bunker Ramo in Connecticut, whereas Fred Silverman was a famous television producer at CBS and NBC who lived in New York and California."
+    },
+    {
+      "qid": "Q5239795",
+      "label": "David Silverman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Wallace Silverman, an Electrical Engineer at Bunker Ramo Corporation, while the Wikidata entry describes David Silverman, a contemporary atheist activist and blogger born in 1966. The names, occupations, and professional affiliations show no overlap."
+    },
+    {
+      "qid": "Q19933128",
+      "label": "Willa Z. Silverman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Wallace vs. Willa), and their professional identities are completely different. Wallace Silverman is an electrical engineer associated with Bunker Ramo Corporation, while Willa Z. Silverman was a professor and author. Additionally, the Wikidata entry is for a female born in 1959, which is incompatible with the career timeline of an established engineer using alphanumeric phone exchange codes like 'IU3-3745'."
+    },
+    {
+      "qid": "Q67475367",
+      "label": "J.M. Silverman",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "The names do not align, as the card identifies the person as Wallace Silverman while the Wikidata entity refers to J. M. Silverman. There are no shared details regarding location, employer, or specific field of work to suggest they are the same individual."
+    },
+    {
+      "qid": "Q134928890",
+      "label": "Brian Silverman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The given names (Wallace vs. Brian) do not match, and their occupations (Electrical Engineer vs. University Teacher) and locations (Connecticut vs. Toronto) are completely different."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2928226",
+      "label": "Bunker Ramo Corporation",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bunker Ramo Corporation' matches exactly. The Wikidata entity describes a business founded in 1964, which aligns with the historical timeframe of the card (indicated by the alphanumeric phone exchange). Furthermore, Bunker Ramo Corporation had major facilities in Stamford, Connecticut, which matches the location listed on the card for the employee."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Wallace Silverman (c. 1920 – 2013) was an electrical design engineer active during the late 1960s and 1970s, primarily known for his work at the Bunker Ramo Corporation in Stamford, Connecticut. During his career at Bunker Ramo, he played a significant role as a designer of the Nasdaq quotation system, which revolutionized the stock market with automated electronic trading. His technical expertise was in electrical engineering and complex telecommunications devices. Before his time at Bunker Ramo, Silverman served as a World War II veteran in the Army Signal Corps, where he earned two bronze medals for his work in decrypting codes. He also worked for Simon & Schuster's Golden Book Records. He was associated with the Experiments in Art and Technology (E.A.T.) organization, a collaboration-focused non-profit typical for engineers of his caliber in the New York-Connecticut technical corridor during that era. Silverman passed away on December 15, 2013, at the age of 93.",
+        "sources": [
+          "https://www.legacy.com/us/obituaries/nytimes/name/wallace-silverman-obituary?id=14986427"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Wallace Silverman\" engineer",
+        "Wallace Silverman E.A.T. artist engineer collaboration",
+        "\"Wallace Silverman\" Experiments in Art and Technology",
+        "\"Wallace Silverman\" Bunker Ramo Nasdaq",
+        "\"Wallace Silverman\" E.A.T. archive",
+        "",
+        "\"Wallace Silverman\" \"E.A.T.\" Connecticut"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

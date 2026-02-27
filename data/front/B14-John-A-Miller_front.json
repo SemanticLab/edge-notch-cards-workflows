@@ -23,5 +23,185 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art.",
     "aestheticPhilosophicalInterests": "null"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q513507",
+      "label": "John Miller",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The person in the Wikidata record died in 1941, while the person on the card was active at Bell Telephone Laboratories in Holmdel (a facility opened in 1962) and worked in semiconductor physics, a field that rose to prominence after the Wikidata individual's death."
+    },
+    {
+      "qid": "Q61714966",
+      "label": "John A. Miller",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card data refers to a John A. Miller who was an engineer and scientist at Bell Telephone Laboratories with expertise in semiconductor physics and network theory. In contrast, the Wikidata entity (Q61714966) refers to John Rick Miller, a religious activist, preacher, and businessman who worked for organizations like the IMF and AstraZeneca. Their career paths, middle names, and areas of expertise do not align."
+    },
+    {
+      "qid": "Q102148831",
+      "label": "John Anthony Miller",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity John Anthony Miller (1859-1946) died before the Bell Labs Holmdel site (where the card's John A. Miller worked) was even built in 1962. Furthermore, the technical fields of semiconductor physics and network theory do not align with the Wikidata entity's fields of astronomy and mathematics."
+    },
+    {
+      "qid": "Q102238857",
+      "label": "John A. Miller",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly. The card lists 'Network theory' as a technical field, which directly correlates with the Wikidata entity's doctoral advisor, Robert W. Newcomb, a prominent figure in network and system theory. It is highly probable that a Stanford-educated engineer specializing in network theory would work at Bell Telephone Laboratories."
+    },
+    {
+      "qid": "Q124846484",
+      "label": "John Anderson Miller",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (John Anderson Miller) was born in 1984, which is incompatible with the historical context of Bell Telephone Laboratories index cards and his stated fields of semiconductor physics and network theory. Additionally, the Wikidata entity is located in Kansas City and works for Rockhurst University, while the card data points to the Holmdel, NJ Bell Labs facility."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the full name for Bell Labs. While the card specifies the Holmdel, NJ location and the Wikibase entry mentions Murray Hill, NJ, both were primary facilities of the same organization. Furthermore, the Wikibase entity's association with Experiments in Art and Technology (E.A.T.) aligns with the employee's artistic interests noted on the card."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists 'Bell Telephone Laboratories' as an employer (an organization), whereas the Wikibase entity (Q22124) is defined as a 'publication' titled 'Bell Telephone Laboratories Reporter'. While the publication is likely produced by the organization, they are distinct types of entities."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the formal historical name of Bell Labs (Q217365). The location provided on the card (Holmdel, New Jersey) was home to a major Bell Labs facility, and the technical fields mentioned on the card (semiconductor physics and network theory) are core research areas associated with the organization."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' matches the employer on the card exactly. Although the Wikidata entity is categorized as a 'production company', this reflects a specific role the organization played in producing scientific and educational films; it refers to the same historical corporate entity where the engineer on the card was employed."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q59493148) represents an archival collection held by the National Archives and Records Administration (NARA), rather than the organization itself. While the collection is titled after Bell Telephone Laboratories, it is categorized as an 'instance of: collection' and has a specific date range (1926-1941) that does not encompass the full history or identity of the organization mentioned on the card."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58952200 identifies as Bell Telephone Laboratories, which is an exact name match for the employer listed on the card. Both refer to the research and development organization commonly known as Bell Labs."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950935 represents Bell Telephone Laboratories, Inc., which is the full name of the organization listed as the employer on the card. The location (Holmdel, New Jersey) and the technical fields (engineering and physics) are consistent with this organization."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950393 corresponds exactly to 'Bell Telephone Laboratories', which is the employer name listed on the card. This organization is the research and development subsidiary of the American Telephone and Telegraph Company (AT&T), often referred to as Bell Labs."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is a Wikimedia disambiguation page, not a corporate or research organization. While it shares the name 'Bell Telephone Laboratories' as its label, it is a navigational page used to distinguish between different topics rather than representing the actual employer entity mentioned on the card."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "John A. Miller is an electrical engineer and researcher who had a long career at Bell Telephone Laboratories (Bell Labs), particularly at its Holmdel, New Jersey facility. He was highly active during the late 1960s and 1970s, a period marked by his doctoral studies and subsequent technical contributions. Miller received his B.S. from Gonzaga University in 1966, followed by an M.S. (1967) and a Ph.D. (1971) in Electrical Engineering from Stanford University. He joined Bell Laboratories in 1966 and transitioned to technical staff roles where his work focused on network theory and communication systems. From 1971 to 1976, he worked on exploratory projects that led to the development of the Horizon communications system, an early electronic PBX system utilizing stored program control and solid-state memory. He served as the supervisor of the Horizon design group beginning in 1976. His technical expertise in semiconductor physics (applied to solid-state memory and communication devices) and network theory align with the specialized technical profiles associated with the Experiments in Art and Technology (E.A.T.) organization, which facilitated collaborations between Bell Labs engineers and contemporary artists.",
+        "sources": [
+          "https://www.bitsavers.org/pdf/att/techJournal/ATT_Technical_Journal_Vol_64_No_06_Part_2_Jul-Aug_1985.pdf",
+          "https://www.telephonecollectors.info/index.php/browse/doc_view/11790-bell-laboratories-record-vol-55-1977",
+          "https://justia.com/patents/inventor/john-a-miller/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"John A. Miller\" E.A.T. artist engineer",
+        "\"John A. Miller\" Bell Labs Holmdel",
+        "\"John A. Miller\" Bell Laboratories semiconductor physics network theory",
+        "",
+        "\"John A. Miller\" Bell Labs \"network theory\" semiconductor",
+        "\"John A. Miller\" \"9 Evenings\" engineering",
+        "\"John A. Miller\" Bell Laboratories \"semiconductor physics\"",
+        "\"John A. Miller\" Bell Labs Holmdel 1960..1975",
+        "\"John A. Miller\" E.A.T. Bell Labs",
+        "\"John A. Miller\" Bell Labs \"semiconductor physics\" 1960s",
+        "\"John A. Miller\" \"Network theory\" Bell Labs Holmdel",
+        "",
+        "\"John A. Miller\" E.A.T. index card",
+        "\"John A. Miller\" 1966 1967 1968 Bell Labs Holmdel",
+        "\"John A. Miller\" semiconductor Bell Labs network theory",
+        "\"John A. Miller\" PBX development Bell Labs semiconductor",
+        "",
+        "\"John A. Miller\" \"semiconductor physics\" 1968 1969 1970",
+        "\"John A. Miller\" \"E.A.T.\" Bell Labs Holmdel",
+        "",
+        "patent \"John A. Miller\" \"Bell Telephone Laboratories\"",
+        "\"John A. Miller\" \"semiconductor physics\" 1960s Bell Labs",
+        "\"John A. Miller\" Bell Labs Holmdel network theory semiconductor",
+        "\"John A. Miller\" \"semiconductor physics\" Bell Labs",
+        "\"John A. Miller\" \"semiconductor\" Bell Labs",
+        "\"John A. Miller\" \"network theory\" Bell Labs 1960s",
+        "",
+        "\"John A. Miller\" engineer E.A.T. member",
+        "\"John A. Miller\" \"semiconductor physics\" Bell Labs Holmdel 1970"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAkOKi7WvoyyPUXhtNjb4YuKIu3Sxe2EMp-1r9btaThn0GvNaY6-XuhasI1SLaWf6oIKnNG88OskMiNIm7wETkrFtPskmdXXgkq58LO1oQ6fjF_NWRxmdKrpw6oDZfiUkvDjbuji29Lst98qhZcOotCZhwdvEOarvsFVQV7MoC3XLwmw==",
+          "title": "veritaglobal.net",
+          "resolvedUri": "https://veritaglobal.net/documents/0911233/0911233100621000000000009.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 1175,
+            "endIndex": 1643,
+            "text": "organization, which facilitated collaborations between Bell Labs engineers and contemporary artists.\",\n      \"sources\": [\n        \"https://www.bitsavers.org/pdf/att/techJournal/ATT_Technical_Journal_Vol_64_No_06_Part_2_Jul-Aug_1985.pdf\",\n        \"https://www.telephonecollectors.info/index.php/browse/doc_view/11790-bell-laboratories-record-vol-55-1977\",\n        \"https://justia.com/patents/inventor/john-a-miller/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

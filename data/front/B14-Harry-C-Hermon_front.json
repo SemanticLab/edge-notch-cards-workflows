@@ -33,5 +33,86 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "light equipment/projection, audio-visual conversions, photography",
     "aestheticPhilosophicalInterests": ""
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q104518932",
+      "label": "Medicine Crow",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. Harry C. Hermon was a physician in Austin, Texas, whose record includes a modern zip code and phone numbers. Medicine Crow (Q104518932) was a member of the Crow Nation and an artist who died in 1915, long before the Austin record was created."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Harry Chramoy Hermon, M.D. (born c. 1927), was a Polish-born psychiatrist and researcher active in Austin, Texas, during the late 1960s and early 1970s. He was notable for being one of the only psychiatrists in the United States at the time licensed by the Federal Bureau of Narcotics and Dangerous Drugs to research and prescribe marijuana. His work focused on the use of marijuana as an adjunct to psychotherapy and the study of psychedelic phenomena. Dr. Hermon's background included medical education in the USSR, receiving his medical diploma in Poland (1951), and serving as a neuropsychiatrist in the Israeli Defense Army before moving to the United States in 1959. In Austin, he maintained a private practice and was a prominent figure in the local counter-culture, serving as a 'Consultant Guru' to the legalization group LeMar and as 'Primate of Texas' in the Neo-American Church. He was associated with the Experiments in Art and Technology (E.A.T.) organization, contributing technical expertise in fields such as psychology, sociology, optics, liquid crystals, fluorescence, and environmental simulation. His research often involved high-tech mixtures of electrophysiology and computer technology to study sensory deprivation and altered states of consciousness. In 1968, he became a subject of national interest following a controversial arrest by Texas state authorities for marijuana possession, despite his federal research licenses. By the late 1970s, he was practicing in New York City, where he was involved in staff psychiatry at the Unity Medical Center.",
+        "sources": [
+          "https://aimsinstitute.net/wp-content/uploads/2021/05/Preliminary-Observations-on-the-Use-of-Marihuana-in-Psychotherapy.pdf",
+          "https://www.texasobserver.org/archive/",
+          "https://law.justia.com/cases/federal/district-courts/FSupp/480/723/1531580/",
+          "https://www.druglibrary.net/schaffer/hemp/history/mjsmokers/mj5.htm",
+          "https://www.researchgate.net/publication/267683955_Psi-Favorable_Conditions"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Harry C. Hermon\" E.A.T. Experiments in Art and Technology",
+        "\"Harry C. Hermon\" physician Austin Texas",
+        "\"Harry C. Hermon\" doctor of medicine",
+        "\"Harry C. Hermon\" M.D. Austin",
+        "\"Harry Chramoy Hermon\" biography",
+        "\"Harry C. Hermon\" E.A.T. directory"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv0jl-tAYTxUx6ZViSAX-TV8R1E_a3lgfzTAGH_aaoVD-vm-iu_UxHFSil-BB052AwZT__2y0nSdnnFMziENrqsPR58-8Owl0ZPQVg2mk2yp8WYIc8xvrg4NOKaqqMN7cDUswiLya6QVOMaTvI3Y-F7H4=",
+          "title": "druglibrary.net",
+          "resolvedUri": "https://www.druglibrary.net/special/goode/mjsmokers5.htm"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc6FSlS0EV9Hx5KPsWKrQSyCuUedE3UGgswoW8csCd7Rghex2vy6vpiKe4LJzVaaS6zYR1NHmn9FNFAboFV-eezEz-TZFYFZZivjtPv6TETZe7N1_aB0SiKqza-lS5TnPoPABvAFBGEybRA2DLDdknQLU3tV9KTxaRWF4WuYhNjtqms31WA_ySVMLdRmV3dXqM67ZcY2wWOhpqILoAKA==",
+          "title": "aimsinstitute.net",
+          "resolvedUri": "https://www.aimsinstitute.net/wp-content/uploads/2020/05/2115cc_416dc32cac164643a3a8962b05d1d098.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 76,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Harry Chramoy Hermon, M.D."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 203,
+            "endIndex": 391,
+            "text": "He was notable for being one of the only psychiatrists in the United States at the time licensed by the Federal Bureau of Narcotics and Dangerous Drugs to research and prescribe marijuana."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 392,
+            "endIndex": 503,
+            "text": "His work focused on the use of marijuana as an adjunct to psychotherapy and the study of psychedelic phenomena."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

@@ -23,5 +23,65 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Interested in collaborating on computer art",
     "aestheticPhilosophicalInterests": "Computer art"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Joseph F. Petersack is an engineer and computer programmer who was active during the late 1960s and 1970s. He graduated from the Newark College of Engineering (now New Jersey Institute of Technology, or NJIT) in 1965 with a Bachelor of Science degree. As an undergraduate, he was involved in developing computer systems, including the NCE assembler and a 20K Load and Go processor for the 1620 Users Group. He was a member of the Theta Chi fraternity (Epsilon Psi chapter) at NJIT and has remained a long-term donor and alumnus. \n\nPetersack's professional career included a role as a computer programmer for the Esso Research and Engineering Company (now ExxonMobil Research and Engineering), where he was associated with facilities in Florham Park and Rockaway, New Jersey. His technical expertise covered digital computer systems, machine design, and automation. In the early to mid-1970s, he worked with Systems Control, Inc., and co-authored several technical publications for the U.S. Environmental Protection Agency (EPA) focused on the automation of wastewater treatment, such as 'Advanced automatic control strategies for the activated sludge treatment process' (1975) and 'Data Management and Computerized Control of a Secondary Waste-Water-Treatment Plant' (1974). He is also identified as potentially being associated with Experiments in Art and Technology (E.A.T.), a service organization that fostered collaborations between the technical and artistic communities.",
+        "sources": [
+          "https://njit.edu/njit-magazine-honor-roll-donors",
+          "https://hathitrust.org",
+          "https://researchgate.net/publication/265163155_A_dynamic_model_and_computer_compatible_control_strategies_for_wastewater_treatment_plants",
+          "https://zephyrcms.com",
+          "https://squarespace.com",
+          "https://uni-stuttgart.de"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Joseph F. Petersack\"",
+        "\"Joseph F. Petersack\" Esso",
+        "\"Joseph F. Petersack\" E.A.T.",
+        "\"Joseph F. Petersack\" Florham Park New Jersey",
+        "\"Joseph F. Petersack\" NJIT alumni biography",
+        "\"Joseph F. Petersack\" Getty Research Institute E.A.T.",
+        "\"Joseph Petersack\" E.A.T.",
+        "\"Joseph F. Petersack\" bibliography wastewater",
+        "\"Joseph F. Petersack\" Esso Research and Engineering",
+        "\"Joseph F. Petersack\" E.A.T. member"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7mhsMiTEz18GKDkMTwiuDhQkDbJ-NLT3XKoRhM1iCTZfVao24hX0NE5g9DKWLrXGVFFNHp32KvrYMnNOkKV0Qv32oN56qjb6k-f74SdWD6hr7UkJAHmcupkUVgTIBP8VVmZvWCp-ArYV4xLVRYb5xLkD9SvblEC7ty4tLu_0QSlnSc7IIu5vH5nRGC9yzqhqD77y0QmB0lnP5VdLR8IqNw6j1dg-Jx-2G51uVIFT7nbB8uI18CIrQmHuOh-RI3qHvb181oAF5z3o=",
+          "title": "researchgate.net",
+          "resolvedUri": "https://www.researchgate.net/publication/265206474_A_DYNAMIC_MODEL_AND_COMPUTER_COMPATIBLE_CONTROL_STRATEGIES_FOR_WASTEWATER_TREATMENT_PLANTS"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBjl14XlfNhzbmDPFsXpv7BbG0nLn2eoc5XYNBg6tTShZWRK90sSc79aEOWyQRyXM8Uc2bt_skoOgY3LBLw8d9PIpg-TNGBp8UAe_aqasjQp05-OnoijIupTQ-g3J50VOW81bIk1_rYTaFWfk3ryb5deY7Ucdl6nIqpG9do98CwZXYvRxR3luD7TrXLDvI2cWx2KUAjbx2qCo9UlWUFOTiO4Wl9YH_40_Seg==",
+          "title": "njit.edu",
+          "resolvedUri": "https://www.njit.edu/development/sites/njit.edu.development/files/NJIT%20MAgazine_Summer%202021_Honor%20Roll.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 156,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Joseph F. Petersack is an engineer and computer programmer who was active during the late 1960s and 1970s."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
   }
 }

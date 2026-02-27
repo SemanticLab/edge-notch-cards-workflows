@@ -8,6 +8,139 @@
         "y1": 8.1,
         "x2": 37.8,
         "y2": 22.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1727251",
+          "label": "Rice W. Means",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card record (1970) refers to Joan Webster Rice, likely a female artist. The Wikidata entity is for Rice W. Means, a male politician and lawyer who died in 1949, more than 20 years before the card's date. The names, genders, and occupations are completely different."
+        },
+        {
+          "qid": "Q22669757",
+          "label": "Charles M. Rice",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Joan Webster Rice' and 'Charles M. Rice' are completely different. Furthermore, the Wikidata entity describes a male Nobel Prize-winning virologist, while the card entry refers to a female artist."
+        },
+        {
+          "qid": "Q36549297",
+          "label": "Ellen L. Rice",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Joan Webster Rice' and 'Ellen L. Rice' (also known as Ellen Kenchington) do not match beyond the common surname Rice. Furthermore, the Wikidata entity is described as a botanist interested in algae, which does not align with the provided context that the person on the card is an artist."
+        },
+        {
+          "qid": "Q106922089",
+          "label": "Rice Munn Reynolds",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity lived in the 19th century (1838-1898) and died long before the 1970 date on the card. Furthermore, the names (Joan Webster Rice vs. Rice Munn Reynolds) and occupations (artist vs. politician) do not match."
+        },
+        {
+          "qid": "Q107108121",
+          "label": "Rice Shaw Munn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name, gender, and timeframe are completely different. The card entry refers to a Joan Webster Rice in 1970, whereas the Wikidata entity is for Rice Shaw Munn, a male politician who lived from 1814 to 1890."
+        },
+        {
+          "qid": "Q110613709",
+          "label": "Rice Jones",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Rice Jones) died in 1811, while the person on the card was active in 1970. Additionally, the names and genders do not match."
+        },
+        {
+          "qid": "Q111907355",
+          "label": "Rice Hooe III",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Rice Hooe III) lived in the 17th and 18th centuries (1661-1726), while the index card refers to an artist active around 1970. Furthermore, the names are completely different."
+        },
+        {
+          "qid": "Q111907356",
+          "label": "Rice Hooe, II, of Merchant's Hope",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a male born in 1636 who died in 1694, which completely contradicts the card entry for Joan Webster Rice, who was active as an artist around 1970. The names also do not match beyond the shared surname 'Rice'."
+        },
+        {
+          "qid": "Q111907357",
+          "label": "Rice Hooe, of Merchant's Hope",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a male individual named Rice Hooe who lived in the 17th century (1598-1655), while the card entry refers to an artist named Joan Webster Rice active in 1970. The names, genders, and time periods are completely inconsistent."
+        },
+        {
+          "qid": "Q114419790",
+          "label": "Rice Annotation Project",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity provided (Q114419790) corresponds to a 'Rice Annotation Project' or a researcher associated with it, which does not match the name Joan Webster Rice. There is no name overlap or shared professional context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joan Webster Price (born 1931) is an American abstract artist, printmaker, and educator who fits the description of being active in the late 1960s and 1970s and associated with interdisciplinary art-technology circles. She earned an Ed.D. from Columbia University and served as a professor in the Art Department at the City College of New York (CCNY), where she was involved in curricula related to digital design and the intersection of art and science. A member of the American Abstract Artists (AAA), her work—which often explores geometric abstraction and spatial dynamics—is held in the permanent collections of major institutions including the Whitney Museum of American Art, the Museum of Modern Art (MoMA), and the Smithsonian American Art Museum. She is frequently cited in academic journals such as Leonardo and MIT Press publications alongside pioneers of art and technology (e.g., in discussions of 'metadesign'), which aligns with the mission of Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://whitney.org/artists/10044",
+              "https://americanabstractartists.org/publications/aaa-journals/journal-no-5-aaa-journal-on-edge/",
+              "https://americanabstractartists.org/publications/print-portfolios/1987-aaa-50th-anniversary-print-portfolio/",
+              "https://www.moma.org/artists/4730",
+              "https://americanart.si.edu/artist/joan-webster-price-3878",
+              "https://www.researchgate.net/publication/319114383_Metadesign_as_an_Emergent_Design_Culture"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Joan Rice Webster artist",
+            "Joan Webster Rice artist",
+            "\"Joan Webster Price\" E.A.T.",
+            "",
+            "\"Joan Rice\" artist active 1960s 1970s",
+            "\"Joan Webster\" \"Rice\" artist 1960s 1970s",
+            "\"Joan Webster\" Rice Experiments in Art and Technology",
+            "\"Joan Webster\" Rice E.A.T.",
+            " \"Joan Webster Price\"",
+            " \"Joan Rice\"",
+            " \"Joan Webster\"",
+            "\"Joan Webster\" and \"Rice\" and \"artist\"",
+            "\"Joan Webster Price\" Experiments in Art and Technology member",
+            "\"Joan Webster Price\" E.A.T. member",
+            "\"Joan Webster Price\" artist 1960s 1970s",
+            "filetype:pdf \"Joan Webster Price\" E.A.T.",
+            "\"Joan Webster\" \"Rice\" art",
+            "\"Joan Webster Price\" E.A.T. membership",
+            "\"Joan Price\" Bell Labs",
+            "\"Joan Webster\" E.A.T. directory",
+            "\"Joan Webster\" Bell Labs"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7efS6wXcru63KCPCTRLcPCZzb59YdJn8-JIg9BCEI7lR8jqpgz6MBqQvcE7f6ye2XSodL6rqh5x7bcY3HxLhEDk_W-4yRH51WuuvVlAc_z7joXBvVnocwKkbTBVYKkCZ4Rg40m4Xb647ZDDpJvR53y8PqYGVuSHQgTuJGgULhsjDp7nos9C4uu5d0Q1UGg1yGz4VWWBBPX3DeoQktLHS47DC_B54mPOr1ukOyug==",
+              "title": "reaganlibrary.gov",
+              "resolvedUri": "https://www.reaganlibrary.gov/public/digitallibrary/smof/publicaffairs/oa15309/40-453-7890423-OA15309-002-2020.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 268,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Joan Webster Price (born 1931) is an American abstract artist, printmaker, and educator who fits the description of being active in the late 1960s and 1970s and associated with interdisciplinary art-technology circles."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

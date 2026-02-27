@@ -11,6 +11,127 @@
         "y1": 9.1,
         "x2": 46.5,
         "y2": 15.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q12049487",
+          "label": "Robert Fiala",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1971, which makes it chronologically impossible for him to be an artist active in the late 1960s and early 1970s. Furthermore, his profession is listed as an association football player, not an artist."
+        },
+        {
+          "qid": "Q132852783",
+          "label": "Robert A. Fiala",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match, the Wikidata entity describes a politician (mayor) with no mention of an artistic career or the name 'LOFT' mentioned on the card. Given the specific context of the card referring to an artist active in the 1960s/70s, it is unlikely to be the same person as a public official with a different primary occupation."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Fiala (also known as Bob Fiala) was an artist and filmmaker active in the late 1960s and 1970s, particularly within the experimental and intermedia art scenes in New York. In the late 1960s, he collaborated on the development of innovative techniques in cinemagraphics and film animation, utilizing Bolex Super 8 cameras, experimental macrophotography, and polarized light. He was associated with the Experiments in Art and Technology (E.A.T.) community through collaborations with engineers like Steve Bartok and Ted Wolf. His work included projects for Intermedia '68 at the Brooklyn Academy of Music, where he contributed to productions for Carolee Schneemann's kinetic dance group (notably the piece 'Illinois Central'). Fiala was a key member of the Multigravitational Aerodance Group (also known as the Multigravitational Group), an experimental performance collective founded by Stephanie Evanitsky that utilized scaffolding and aerial suspension. In this group, he served as the Company Manager and technical collaborator. During the late 1970s, he was also associated with the Pratt Institute in Brooklyn, where he was recognized in the film department alongside notable figures such as Babette Mangolte and Amy Taubin.",
+            "sources": [
+              "https://archive.org/stream/dancetouringprog1975nati/dancetouringprog1975nati_djvu.txt",
+              "https://e-yearbook.com/sp/eybb?school=620&year=1978",
+              "https://e-yearbook.com/sp/eybb?school=620&year=1979",
+              "https://digicoll.library.wisc.edu/cgi-bin/Arts/Arts-idx?type=article&did=Arts.ArtsActiv.i0014&id=Arts.ArtsActiv&isize=M"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Robert Fiala artist 1960s 1970s",
+            "\"Robert Fiala\" artist E.A.T.",
+            "Robert Fiala artist \"Experiments in Art and Technology\"",
+            "Robert Fiala artist bio",
+            "\"Arts in society\" \"Bob Fiala\" 1969 collaboration",
+            "\"Bob Fiala\" E.A.T. Experiments in Art and Technology",
+            "\"Robert Fiala\" artist animation film 1969",
+            "\"Bob Fiala\" \"Arts in Society\" 1969",
+            "\"Bob Fiala\" collaborated with me in the development of exciting techniques",
+            "\"Arts in society\" 1969 Volume 6 Issue 3 \"Bob Fiala\"",
+            "",
+            "\"Bob Fiala\" \"experimental macrophotography\" \"polarized light\"",
+            "\"Bob Fiala\" \"Bolex Super 8\" animation film",
+            "\"Steve Bartok\" \"Ted Wolf\" \"Arts in Society\" 1969 author",
+            "\"Steve Bartok\" E.A.T. engineer",
+            "\"Robert Fiala\" artist E.A.T. collaboration",
+            "\"Robert Fiala\" Experiments in Art and Technology 1960s",
+            "\"Steve Bartok\" \"Ted Wolf\" E.A.T. project 1968",
+            "",
+            "\"Robert Fiala\" E.A.T. member",
+            "\"Robert Fiala\" \"James Cunningham\" artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2P96XkVET_mywx6UsdUZ5egNN3BCDrmorOBGkbuffql8_kfHA6EcWYq6vQcyGTMvjHEoZ1mjSk25wvJbsFjhdJFY87_GL95MZd5KDFkb4dFYJjf0FzGrm9QqSz-vTrup36LMNg7Lw0k676OM1tgDa3N0_5BcVKN3_WQiNQIHsvzzUXLbI1_q5J1hptnz5cOZDBrA5x0fK_5KcR4kU",
+              "title": "wisc.edu",
+              "resolvedUri": "https://search.library.wisc.edu/digital/ABFN7VEVAFE3VJ8R/pages/A33CN7LVH74XPD8D?as=text&view=scroll"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsuUkTaMtqggAXUTsQldKZxvi9yD4tmuxn1iRX3zgsgr6gbFPp5EftVZaUfOXcZYI8SoouOmKFptgscJl7RQL5ox6JVE8pLgryq7zkO59u8HCiO0xfeVtXu2SugwPjoXYzUL5fPaaNUpowBultWS529ciIqWJ_HagLTHBGJZlPEoJdb3hCeJDNXOuC_O21EkQQqXrWKDkX-MTc9-8ox9ZpjkufIcXNjsKF4S-Fwwm03j7yOwEX7PwWeCMfsORx3mP1ZkSq",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/373489045/Christa-Sommerer-Laurent-Mignonneau-Eds-The-Art-and-Science-of-Interface-and-Interaction-Design"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbLPOAoBp9y3DgzBl1l3UlOkpT3r6zE7T9dGCEBuUvVG-07IzW9LL7Z5PXjKwQIYqoqZx9fHOOCQD3Agg0D6VVy3y3-O9k-3VN1fUmDTxOfadSN9uK54cWOaONMPKxi13-eyMF_rXa0DFZC4Fg512b78qZvwBMLJQBc68EG5ncJHvcIyq7Q_RcmpPIO1Mm5w==",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/dancetouringprog1976char/dancetouringprog1976char_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHJZUTu8HYJfHK4O95Lyp4wo50QFV-ZPSG4jqDdgn6yTvlcL4Cg3jE3V_VOW7NhNYGXrl2MDlusuTl9yrT68iiHIcwtX9z7aXn_Tsnv61T0pqZdFrXl-JeboYcVCB_KZD17BcaQ0uMOJjMyC1iBSCNR1H2QvHHR32euWJveWSZXRF6M-OjKjYI2ZeJ1Va_Uc-eLQ==",
+              "title": "e-yearbook.com",
+              "resolvedUri": "https://www.e-yearbook.com/yearbooks/Pratt_Institute_Prattonia_Yearbook/1979/Page_1.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 229,
+                "endIndex": 430,
+                "text": "In the late 1960s, he collaborated on the development of innovative techniques in cinemagraphics and film animation, utilizing Bolex Super 8 cameras, experimental macrophotography, and polarized light."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 431,
+                "endIndex": 500,
+                "text": "He was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1012,
+                "endIndex": 1087,
+                "text": "In this group, he served as the Company Manager and technical collaborator."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1088,
+                "endIndex": 1712,
+                "text": "During the late 1970s, he was also associated with the Pratt Institute in Brooklyn, where he was recognized in the film department alongside notable figures such as Babette Mangolte and Amy Taubin.\",\n      \"sources\": [\n        \"https://archive.org/stream/dancetouringprog1975nati/dancetouringprog1975nati_djvu.txt\",\n        \"https://e-yearbook.com/sp/eybb?school=620&year=1978\",\n        \"https://e-yearbook.com/sp/eybb?school=620&year=1979\",\n        \"https://digicoll.library.wisc.edu/cgi-bin/Arts/Arts-idx?type=article&did=Arts.ArtsActiv.i0014&id=Arts.ArtsActiv&isize=M\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +145,39 @@
         "y1": 11.6,
         "x2": 47.8,
         "y2": 24.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Tony Touraine artist",
+            "\"Tony Touraine\" musician",
+            "\"Anthony Touraine\" artist",
+            "\"Tony Towle\" \"Touraine\" poem",
+            "\"Tony Touraine\" poet artist",
+            "\"Tony\" \"Touraine\" artist 1960s 1970s",
+            "\"Tony Touraine\" artist biography",
+            "\"Tony\" \"Touraine\" engineer E.A.T.",
+            "",
+            " \"Touraine\"",
+            " \"Tony\"",
+            "",
+            "\"Tony Touraine\" -wine -hotel -region",
+            "\"Tony Touraine\" artist",
+            "\"Tony\" \"Touraine\" artist biography 1960s 1970s",
+            "",
+            "\"Tony Touraine\" art collective",
+            " \"Tony\" \"Touraine\" artist",
+            " \"Tony Touraine\"",
+            "",
+            "\"Tony Touraine\" artist New York School",
+            "sculpteur \"Tony Touraine\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -37,6 +191,162 @@
         "y1": 21.6,
         "x2": 43.1,
         "y2": 32.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26338",
+          "label": "Bob Howard",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Bob Howard' matches exactly. Furthermore, the Wikibase entity specifically identifies the person as being part of the E.A.T. Technical Services Program and the Edge-Notched Cards project, which corresponds to the archival context of the physical card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q44866",
+          "label": "Bob Holly",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q44866 (Bob Holly) was born in 1963 and did not begin his professional career until 1987. This makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card context. Additionally, his primary occupations are professional wrestling and auto racing, which do not align with the artistic context provided."
+        },
+        {
+          "qid": "Q207640",
+          "label": "Robert E. Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Robert E. Howard (Q207640) died in 1936. This contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s (specifically associated with the E.A.T. program)."
+        },
+        {
+          "qid": "Q888000",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name matches and Q888000 is an artist (musician), the card metadata specifically references the E.A.T. Technical Services Program. Q888000 is a traditional jazz pianist and singer active primarily in earlier decades, whereas the Bob Howard associated with E.A.T. is typically identified as a visual artist or sculptor involved in art-and-technology collaborations."
+        },
+        {
+          "qid": "Q4932855",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q4932855 describes a professional American football player (cornerback) who played for the LA Chargers and other teams. The card entry refers to a Bob Howard who is an artist associated with Experiments in Art and Technology (E.A.T.). While the name matches and the time period aligns, the professions are distinct and there is no evidence the athlete was also the artist in question."
+        },
+        {
+          "qid": "Q9174749",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q9174749) describes a freestyle skier born in 1955. This individual would have been a young child or teenager in the late 1960s, making it highly unlikely they were the professional artist or technical collaborator associated with Experiments in Art and Technology (E.A.T.) mentioned in the card's context."
+        },
+        {
+          "qid": "Q16104462",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Bob Howard in the Wikidata entity (Q16104462) is an Australian editor and academic, specifically known as the brother of former Australian Prime Minister John Howard. The card refers to a Bob Howard who was an artist associated with the E.A.T. (Experiments in Art and Technology) program in the late 1960s. These are two distinct individuals who share a common name."
+        },
+        {
+          "qid": "Q18510600",
+          "label": "Robert Boardman Howard",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name Bob Howard is a common diminutive of Robert Howard and both individuals were artists active in the late 1960s, the card metadata specifically identifies Wikibase entity Q26338 as the correct match due to its explicit connection to the E.A.T. Technical Services Program. Robert Boardman Howard (Q18510600) was a well-known California sculptor and muralist born in 1896, and there is no evidence in his record linking him to the E.A.T. projects mentioned in the archival context."
+        },
+        {
+          "qid": "Q100805762",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q100805762 describes a basketball player for Arizona State University, whereas the archival context specifically identifies Bob Howard as an artist associated with Experiments in Art and Technology (E.A.T.). Another entity, Q26338, is a much more direct match for the artist."
+        },
+        {
+          "qid": "Q108603231",
+          "label": "Robert T. Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an artist associated with the Experiments in Art and Technology (E.A.T.) program during the late 1960s and early 1970s. The Wikidata entity Q108603231 describes a career military officer (Major General) and civil servant. These are distinct individuals with conflicting professional backgrounds."
+        },
+        {
+          "qid": "Q137680296",
+          "label": "Bob Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q137680296 describes a Canadian politician and businessperson active in the 1980 Canadian federal election. The Bob Howard on the physical card is identified as an artist associated with Experiments in Art and Technology (E.A.T.) in the late 1960s. These are two distinct individuals who happen to share the same name."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Boardman Howard (1896–1983), often referred to as Bob Howard, was a prominent American sculptor and kinetic artist based in the San Francisco Bay Area. He was part of a famous family of artists and was married to the sculptor Adaline Kent. Howard was active throughout the mid-20th century, and his work remained highly relevant in the late 1960s and early 1970s. He is known for his pioneering kinetic sculptures, such as \"Semaphore\" (1947), and for creating large-scale, industrially fabricated works. In 1969, he was included in the exhibition \"California Sculpture\" at the School of Visual Arts in New York alongside other major figures of the period. His name appears on lists of artists who worked with the famous fabrication firm Lippincott, Inc. from 1966 onwards—a workshop that was a key partner for artists associated with Experiments in Art and Technology (E.A.T.), such as Robert Breer (who designed the kinetic \"Floats\" for the E.A.T. Pepsi Pavilion at Expo '70). Howard also experimented with film, creating abstract works like \"Meta\" and \"Number 6,\" which utilized flowing colored liquids to explore motion and light. His work is often cited in the context of the San Francisco \"6 Gallery\" and the intersection of art and technology in Northern California.",
+            "sources": [
+              "https://ethernet.edu.et/api/v1/records/Large%20Scale%20:%20Fabricating%20Sculpture%20in%20the%201960s%20and%201970s",
+              "https://sva.edu/archives/collections/milton-glaser-collection",
+              "https://www.centerforvisualmusic.org/MoritzNonObj.htm",
+              "https://dokumen.pub/art-in-the-san-francisco-bay-area-1945-1980-an-illustrated-history-1-ed-0520051939-9780520051935.html",
+              "https://www.usmodernist.org/AA/AA-1945-11.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert Howard (1930–2017) was an American sculptor and professor who served on the faculty of the University of North Carolina (UNC) at Chapel Hill's Art Department. He was active in the 1960s and 1970s, producing sculpture in a studio he shared with other artists in a dairy barn near campus. His work often involved the pursuit of modern forms and materials, and he was a contemporary of the artist and fabricator era that prioritized industrial processes in sculpture creation.",
+            "sources": [
+              "https://ceramicartsnetwork.org/ceramics-monthly/ceramics-monthly-magazines/Ceramics-Monthly-December-1987"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Howard\" artist E.A.T. 1960s 1970s",
+            "\"Bob Howard\" sculptor E.A.T.",
+            "\"Bob Howard\" Experiments in Art and Technology",
+            "\"Robert Howard\" kinetic art E.A.T.",
+            "\"Robert Howard\" artist E.A.T. \"Experiments in Art and Technology\"",
+            "\"Robert Howard\" artist kinetic 1960s 1970s",
+            "\"Bob Howard\" artist E.A.T.",
+            "\"Bob Howard\" Lippincott sculpture 1960s",
+            "\"Robert Howard\" sculptor Pepsi Pavilion E.A.T.",
+            "\"Robert Howard\" sculpture kinetic E.A.T.",
+            "\"Bob Howard\" E.A.T. 1968 1969 1970",
+            "\"Robert Howard\" Experiments in Art and Technology artist",
+            "\"Bob Howard\" Experiments in Art and Technology artist",
+            "\"Bob Howard\" engineer E.A.T. collaboration",
+            "\"Bob Howard\" member Experiments in Art and Technology",
+            "\"Robert Howard\" member Experiments in Art and Technology",
+            "\"Bob Howard\" artist E.A.T. bibliography",
+            "\"Robert Howard\" kinetic sculptor E.A.T. collaboration",
+            "",
+            "\"Robert Howard\" kinetic sculpture \"Experiments in Art and Technology\"",
+            "\"Robert Howard\" E.A.T. collaboration artist engineer",
+            "\"Bob Howard\" artist 1960s 1970s \"E.A.T.\"",
+            "\"Robert Howard\" sculptor Lippincott E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8zzUAn6LiTH8vaZM_fZatq4DR58UGLpS_3eayMwG5_azf8IrWTcDzsHd-9Fwr7lbVMimVVY5GV_wcnYxVkONZ8Nt4wdkFDMdZz7ahWutdeWxIqBgAWtRfjdU1NZNxdpziSRItae7RN2RRB1j2UCX4VibDxjkVyQ==",
+              "title": "ethernet.edu.et",
+              "resolvedUri": "http://ndl.ethernet.edu.et/bitstream/123456789/28596/1/10.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt6nx4nu8GpeUCjS4ZmOH5oHInjMoCzAQuaOKt7MhQgeOTNLvC5Te2E00gwK33J3UOqjp3MsAR_mPjk-GsftDVggtgp9VaqK3KjYFe2H-HqbhCmc3qEw8R_oisr2O3afn3V47B2cvb0cHtU-vDwhJqqL_OO_B_nWJIfw==",
+              "title": "wordpress.com",
+              "resolvedUri": "https://spraguedecampfan.wordpress.com/category/robert-e-howard/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2198,
+                "endIndex": 2574,
+                "text": "His work often involved the pursuit of modern forms and materials, and he was a contemporary of the artist and fabricator era that prioritized industrial processes in sculpture creation.\",\n      \"sources\": [\n        \"https://ceramicartsnetwork.org/ceramics-monthly/ceramics-monthly-magazines/Ceramics-Monthly-December-1987\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -50,6 +360,142 @@
         "y1": 28.6,
         "x2": 43.8,
         "y2": 40.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25067",
+          "label": "Agnes Denes",
+          "description": "American artist (1931–)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Agnes Denes is a well-known artist active during the late 1960s and early 1970s. Furthermore, the Wikibase entity specifically links her to the 'E.A.T. Technical Services Program Edge-Notched Cards,' which is the source collection for the physical index card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q394503",
+          "label": "Agnes Denes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Agnes Denes matches exactly. The Wikidata entity describes a prominent conceptual and land artist born in 1931 and active in New York City during the late 1960s and 1970s, which aligns perfectly with the metadata and context of the E.A.T. (Experiments in Art and Technology) collection."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born May 31, 1931) is a Hungarian-born American conceptual artist and a pioneer of environmental and land art who rose to international prominence in the late 1960s and 1970s. Her multidisciplinary practice, which she terms \"Visual Philosophy,\" integrates science, mathematics, philosophy, linguistics, and technology to address ecological and social concerns. Born in Budapest and raised in Sweden, she was educated in the United States at the New School and Columbia University. Denes was a founding member of A.I.R. Gallery in 1972 and is celebrated for seminal works such as \"Rice/Tree/Burial\" (first realized in 1968), which is considered one of the earliest examples of ecological art, and her iconic 1982 installation \"Wheatfield – A Confrontation.\" During the late 1960s and early 1970s, she was associated with the Experiments in Art and Technology (E.A.T.) organization; she is represented in E.A.T. archival records from 1969 and was featured in exhibitions exploring the intersection of art and information technology, such as \"Some More Beginnings\" (organized by E.A.T. in 1968) and \"Software\" (1970).",
+            "sources": [
+              "https://www.agnesdenesstudio.com/biography.html",
+              "https://www.theartstory.org/artist/denes-agnes/",
+              "https://awarewomenartists.com/en/artiste/agnes-denes/",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf2s200220/",
+              "https://history.siggraph.org/learning/art-in-the-information-age-technology-and-conceptual-art/",
+              "https://whitney.org/exhibitions/programmed?section=5#exhibition-artworks"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Agnes Denes artist biography E.A.T. Experiments in Art and Technology",
+            "Agnes Denes active years 1960s 1970s",
+            "Agnes Denes artwork 1960s 1970s",
+            "Agnes Denes \"Experiments in Art and Technology\" E.A.T.",
+            "Agnes Denes member E.A.T. organization"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYClNoQTBt4oSUwuJi85JVjEwfWHYHJCLjVxK6YUEC151PazUWPac7UNVXxuFAZjIWoAJJsaSIyXO5Ou85PV8hKSFB3blC43ssEXzKIiXnBBzfeRrYBNRW8v3l2R042xU=",
+              "title": "airgallery.org",
+              "resolvedUri": "https://www.airgallery.org/agnes-denes"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIco3bO5ebQPnJO4CkS9U_E92y-82UX5zpI8046lNf1NRIue2--Dq0yf4Pu6v2QLYlWAQ7lnKf1QII2xxpxviZvyHd8CmrUlsWQ6SD9EL8bnHGFdwCNO_t6DgHbSi_ilmJC0fqFv8=",
+              "title": "agnesdenesstudio.com",
+              "resolvedUri": "http://www.agnesdenesstudio.com/catalog.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG85Km-zrWPW5IAl3g4p3lJzTpw8hN8T56RCIV-MGZ2YPmzsJqIlWiZqCSQEMwaP49dA9Htz7N7GGGscJ5ccpMqks-amgtNCBhccBOO5AmY-E8FmXErJsRSVxkX-1b3SudnjP1OWXZaVHI6Ky5C88k=",
+              "title": "socratessculpturepark.org",
+              "resolvedUri": "https://socratessculpturepark.org/artist/agnes-denes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi8WlEo9eQ0nfvRSSwM6Or3lE84BLBdBk50vHeCr5kCRLBn2esyOVbxifJzPrb5SEIae5DxCaHEI_e483cOGRT6xaUeIRPpKbUrzI3vk3upty4dDSQ3xqQURBkD91KVVfr9YA=",
+              "title": "theartsection.com",
+              "resolvedUri": "https://www.theartsection.com/agnes-denes"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbWy2fSXxF6I8rvzVeUyTTXj_JE54V3TDMpO9T_DhhHEyo6PwNWDnRa4aoVJ-Wwy1InTNTd_cq2QtG2uJoPjE87e5TC4X4wAV4D-QtUhUgxRn7KSGePA2HqUWLhL5EXu5l9CxE_uOXNblXTEe9hWza8cRo-egAB_QBXA==",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTHkfxVLYXmkVVRvJyEbjD3pnLHl2MbPSdQ7lRjhfYQzYZoNBA8LQwUgan_EwgekMmd6G6o7CUbaClH-sHqvvkAIYdAPYxCYUC7HG4jasqpOJzumtd3LrF1b9dknexQbbP7MczSIJcFZy2QWfw1-QNlhefLtSKLfAUFMA5y8crhsTCvzsWOeA6UnbDAqN3KyQx9n6YvqYe0oV4wiqyjLAK1hGigLBfIE51o_Ff",
+              "title": "academia.edu",
+              "resolvedUri": "https://www.academia.edu/37479143/Building_Systems_Experiments_in_Art_and_Technology_Before_the_Collaborative_Turn"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzLNIuVMoGF19vSdsphSrbjsYv7UTx2Rst-mHKrx54nHl93vfnSYFY9YyHyIKIPOtd6dsqk1ooq3UMeeQXc7XURFJOA4w3HjReXq1X8FBvyFXni6fablCKtRTYrA1IP-VOMpaFptOh5Ke36HUQDoBSEb9kM__dByPqjL5ERIALGJV3Ae14b5bKVQt9G9GfV5iORpsz7UVicg==",
+              "title": "siggraph.org",
+              "resolvedUri": "https://history.siggraph.org/writing/art-in-the-information-age-technology-and-conceptual-art/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQinnSvcpDz-XDQCIcKvAgXE9WQ4rqttBP07t6mQpxzRz11NWiTRE7xvE578fUjX3erTCmO7r6l-aSGG2jKUXOK_ZyyWW0a97ZMgG-6_3bEecHhIpprROdtzqN0cpDtyaDmI8AYmZk4jyInPdhyCPP0llU",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/dsc/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 238,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (born May 31, 1931) is a Hungarian-born American conceptual artist and a pioneer of environmental and land art who rose to international prominence in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 546,
+                "endIndex": 583,
+                "text": "Denes was a founding member of A.I.R."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 938,
+                "endIndex": 980,
+                "text": "organization; she is represented in E.A.T."
+              },
+              "groundingChunkIndices": [
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 981,
+                "endIndex": 1700,
+                "text": "archival records from 1969 and was featured in exhibitions exploring the intersection of art and information technology, such as \\\"Some More Beginnings\\\" (organized by E.A.T. in 1968) and \\\"Software\\\" (1970).\",\n      \"sources\": [\n        \"https://www.agnesdenesstudio.com/biography.html\",\n        \"https://www.theartstory.org/artist/denes-agnes/\",\n        \"https://awarewomenartists.com/en/artiste/agnes-denes/\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf2s200220/\",\n        \"https://history.siggraph.org/learning/art-in-the-information-age-technology-and-conceptual-art/\",\n        \"https://whitney.org/exhibitions/programmed?section=5#exhibition-artworks\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                6,
+                7,
+                4
+              ]
+            }
+          ]
+        }
       }
     }
   ]

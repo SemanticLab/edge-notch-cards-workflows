@@ -14,5 +14,78 @@
     "technicalFields": [
       "microwaves"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q28771",
+      "label": "Pieter de Molijn",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals from entirely different centuries and professions. The card data refers to a 20th-century microwave engineer in New York, while the Wikidata entity refers to a 17th-century Dutch Golden Age painter who died in 1661."
+    },
+    {
+      "qid": "Q3063917",
+      "label": "Fabrice Moley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The first is Ed Moley, an American engineer specializing in microwaves, while the second is Fabrice Moley, a French photographer. Besides the shared last name, there are no overlapping details in their names, locations, or professions."
+    },
+    {
+      "qid": "Q136442368",
+      "label": "Moley Pang",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals. The first is an engineer specializing in microwaves working in New York, likely in the mid-20th century, while the second is a Hong Kong-based actor and rapper born in 1992."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q128831578",
+      "label": "AIL Systems Inc",
+      "description": "American engineering company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "AIL Systems Inc is the successor name for Airborne Instruments Laboratory (AIL). The acronym AIL stands for Airborne Instruments Laboratory. Both are engineering firms located on Long Island, New York (the card mentions Oakdale and the entity is headquartered in Deer Park)."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Edward Moley (frequently published as E. Moley) was an electronics engineer specializing in microwave technology at the Airborne Instruments Laboratory (AIL), a division of Cutler-Hammer, Inc. During the 1960s and early 1970s, he was based in Long Island, New York, specifically at AIL's facilities in Deer Park and Oakdale (the latter located at the historic Idle Hour estate). Moley's technical expertise focused on the development of microwave components, including Ku-band nondegenerate parametric amplifiers, tunable reactance amplifiers, and high-power microwave electronics. He frequently collaborated with colleague James Whelehan, co-authoring several technical papers and reports for the IEEE and the Defense Technical Information Center (DTIC). Moley was a member of the technical registry for Experiments in Art and Technology (E.A.T.), a non-profit organization founded to foster collaborations between the scientific and artistic communities. His E.A.T. technical service index card identifies him as an engineer from Oakdale, NY, with expertise in microwaves, reflecting the organization's efforts to pair artists with specialists in cutting-edge technology during the late 20th century.",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/1444773",
+          "https://apps.dtic.mil/sti/citations/AD0263632",
+          "https://archive.org/details/DTIC_AD0407136/page/n3/mode/2up",
+          "https://books.google.com/books?id=Y-m7BAAAQBAJ&pg=PA271"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Edward Moley\" Airborne Instruments Laboratory",
+        "\"Edward Moley\" E.A.T. Experiments in Art and Technology",
+        "\"Ed Moley\" E.A.T. Experiments in Art and Technology",
+        "\"Experiments in Art and Technology\" \"Moley\"",
+        "\"Edward Moley\" microwaves",
+        "\"E.A.T.\" engineer list \"Moley\"",
+        "",
+        "\"E. Moley\" Airborne Instruments",
+        "\"Ed Moley\" E.A.T. engineer",
+        "\"Edward Moley\" Experiments in Art and Technology archive",
+        "\"Airborne Instruments Laboratory\" \"Experiments in Art and Technology\"",
+        "\"Edward Moley\" microwave engineer obituary",
+        "\"Edward Moley\" microwave engineer biography",
+        "\"Ed Moley\" \"E.A.T.\" index card",
+        "\"Edward Moley\" \"E.A.T.\" index card",
+        "\"Ed Moley\" \"E.A.T.\" Technical Services",
+        "\"Edward Moley\" \"E.A.T.\" Technical Services"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

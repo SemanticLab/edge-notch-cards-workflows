@@ -9,6 +9,123 @@
         "y1": 13.5,
         "x2": 47.4,
         "y2": 20.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7364738",
+          "label": "Ronald Chase",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes a multi-disciplinary artist (painter, film director, photographer) born in 1934, which makes him the appropriate age to be active during the late 1960s and early 1970s. His presence in major museum collections and artist files further confirms his status as a documented artist."
+        },
+        {
+          "qid": "Q112976920",
+          "label": "6 Dogs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Ronald Chase Amick) was born in 1999 and was active as a rapper from 2016 to 2021. This contradicts the provided context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q130776295",
+          "label": "Ronald Chase",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Ronald Chase matches exactly in both records. The Wikidata entity's birth year (1940) aligns perfectly with the timeframe of an artist active in the late 1960s and early 1970s, making it highly probable that they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ronald Chase (December 29, 1934 – December 20, 2025) was an American multidisciplinary artist, filmmaker, and opera designer based in San Francisco. He is celebrated as a pioneer of \"film-opera,\" a technique he developed in the late 1960s that integrated film projections and slides onto scrims during live operatic performances. His breakthrough in this medium occurred in 1968 with a production of Benjamin Britten's 'The Turn of the Screw' for the Washington Opera. Chase was active in the experimental art scene of the late 1960s and early 1970s, collaborating with notable figures like composer Pauline Oliveros on the dance film 'The Covenant' (1965). His association with the Experiments in Art and Technology (E.A.T.) milieu is evidenced by his presence in experimental archives and his work's inclusion in contexts related to the E.A.T. publication 'Techne' (1970). Beyond opera, Chase was an accomplished painter and photographer whose work is held in the collections of the Metropolitan Museum of Art and SFMOMA. In 1972, he filmed 'Parade,' a documentary of San Francisco's first Gay Pride Parade. He was also a dedicated educator, founding the San Francisco Art & Film Program for Teenagers in 1993.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Ronald_Chase",
+              "https://www.macdowell.org/artists/ronald-chase",
+              "https://www.ebar.com/story.php?ch=news&sc=latest_news&id=336184",
+              "http://www.ronaldchaseart.com/biography",
+              "https://oac.cdlib.org/findaid/ark:/13030/kt467nf4ks/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Ronald Chase film opera artist bio",
+            "Ronald Chase artist 1960s 1970s biography",
+            "\"Ronald Chase\" artist E.A.T.",
+            "Ronald Chase artist \"Experiments in Art and Technology\"",
+            "\"Ronald Chase\" artist \"Pauline Oliveros\" E.A.T.",
+            "\"Ronald Chase\" \"Nine Evenings\"",
+            "\"Ronald Chase\" E.A.T. member list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6WTE7z1Yj92UIygMxLW11es_AhoNPKBi7ZiwMzNj95k4hb16y8w4vbG1FWwlUPV14S8MVe2zbzXWjpw6Jk36X1e510ZrzeAUcim_4AQ__1QXVOsv22s9wdjfzT2b-umJ3bsCYCP4d2_vP5N240A==",
+              "title": "epdf.pub",
+              "resolvedUri": "https://epdf.pub/the-san-francisco-mime-troupe.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7uOWX5TngRry3Iipyqk_AteFIhIUoo5dPMNrMdT2WqFotMN0AWGBhE39s4Z_EfIDl5i22V3IL4I83y4AocG_KBnC-Cpy-xBePwDVW_i28IkHAhssax3CgIt0rJI4Gaq8oK5lrpUhGuppUjv7DSzI=",
+              "title": "ucsd.edu",
+              "resolvedUri": "https://library.ucsd.edu/dc/object/bb00062953/_1.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsO4hU3wnLx9cBRSlpa6bZpu5wU_DhIVEIgxdn-gqebm-f-Z24lkiKQy1sqidV86LuGoEVqz55Nu7QaAcKS8y4H6Egt1aEPZj6KttPIF25QoCB33MjUzM2_3MM2_fjKgm2fdi0caAv2rayM4lB5oSU1AUjirA3wwM1vYNieIo=",
+              "title": "moma.org",
+              "resolvedUri": "https://assets.moma.org/documents/moma_catalogue_2034_300298306.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_J-n5M9R1v2euFNASIWnBUjgdQFy6-6GHmXuslQHlP19v13X-deBJYKXbw6LiIdB4DtTrVxS11HSxT6PGgfgvVkhEKvi_CaOHBZdmw7VdE_G6Zq9iSiRxTTfnktMvL6xvXCA-E79ybyM-xisz5i8rRvwgwKzBsXwUpUOgbrSiG-qvxlwpnN0nxcnJE5cDzKwSe4ngwDuI4ODViaP4_YU",
+              "title": "mit.edu",
+              "resolvedUri": "https://dspace.mit.edu/bitstream/handle/1721.1/150694/Downey-wdowney-PhD-Architecture-2022-thesis.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGARk9UqpkVKPR16Qkg-hg7ug67OEY-BaxHEbwty8WZO5qCFzcitQjq5hD6nZaDvt_aOXNIvGetWFos8OhpVLPjX7gxcvNMk7ygxVyHKDGYt0yL9eieJhdBI5a81s1ctTB94Q==",
+              "title": "ropac.net",
+              "resolvedUri": "https://ropac.net/gallery-documents/34/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG26RASYOex3RxvawLtQzcJ-GbcWTO78U-D_3XqwMZmKOHErPBfSQuVHAFMoB_tjf6JVPPLW_2-kodsgQX-quqwBLOgJWCgMxiIJDmx210e2QyqO61wwM6fAbqQ0-o0UCok4PLB56Mjes-kXtaALfGNL3UsXTA=",
+              "title": "ucsd.edu",
+              "resolvedUri": "https://library.ucsd.edu/speccoll/findingaids/mss0102.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 200,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ronald Chase (December 29, 1934 – December 20, 2025) was an American multidisciplinary artist, filmmaker, and opera designer based in San Francisco."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 712,
+                "endIndex": 779,
+                "text": "His association with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 900,
+                "endIndex": 928,
+                "text": "publication 'Techne' (1970)."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +137,64 @@
         "y1": 19.3,
         "x2": 41.5,
         "y2": 25.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Alan Kalker is a multi-disciplinary artist and technologist active from the late 1960s to the present. He was involved in the countercultural art and technology scene of the San Francisco Bay Area during the 1960s and 1970s. In January 1971, he participated in the \"Reject's art show\" at 165 Grove Street in San Francisco alongside artists such as Calvin Tondre and Marjorie Mount. His work in this era often blended art with technical processes; for instance, he registered a copyright for a \"Geometrical Model\" as a work of art in 1973. Kalker was a contributor and associate of Stewart Brand’s Whole Earth publications, appearing in \"The Last Supplement to The Whole Earth Catalog\" (1971) and later issues of \"CoEvolution Quarterly\" and \"Whole Earth Review.\" By the 1980s, he was associated with \"Microsculptor\" in Berkeley, California, where he worked with early microcomputer graphics and hardware (such as 68000 systems). His profile is consistent with the mission of Experiments in Art and Technology (E.A.T.), an organization dedicated to collaborations between artists and engineers. In his later career, Kalker relocated to Madison, Wisconsin, where he became a professional furniture maker under the name Alan's Fine Woodworking, specializing in functional, heirloom-quality wood art. He is an alumnus of the Center for Furniture Craftsmanship (2013) and is married to chemical engineer and author Abigail F. Cantor.",
+            "sources": [
+              "https://www.artfulhome.com/artist/Alan-Kalker/8486",
+              "https://oac.cdlib.org/findaid/ark:/13030/kt4p303530/entire_text/",
+              "https://archive.org/stream/Whole_Earth_Review_no_46_May_1985/Whole_Earth_Review_no_46_May_1985_djvu.txt",
+              "https://www.woodschool.org/alumni/intensive-alumni/",
+              "https://archive.org/details/catalogofcopyrig32812libr/page/364/mode/2up",
+              "https://www.mmoca.org/event/art-fair-on-the-square-2022/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Alan Kalker\" art",
+            "Alan Kalker artist",
+            "\"Alan Kalker\" 165 Grove Street 1971",
+            "\"Alan Kalker\" artist biography",
+            "Alan Kalker \"Experiments in Art and Technology\"",
+            "",
+            "\"Alan Kalker\" \"Geometrical Model\" 1973",
+            "\"Alan Kalker\" artist Berkeley",
+            "\"Alan Kalker\" E.A.T. Experiments in Art and Technology",
+            "",
+            "\"Alan Kalker\" \"Whole Earth Catalog\" artist",
+            "\"Alan Kalker\" \"Microsculptor\" Berkeley",
+            "\"Alan Kalker\" E.A.T. membership",
+            "\"Alan Kalker\" E.A.T. member list",
+            "Alan Kalker \"Experiments in Art and Technology\" catalog",
+            "\"Alan Kalker\" artist E.A.T. project",
+            "\"Alan Kalker\" 165 Grove Street show details"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF547xYj9pkg3M_YUu-QvGFbmsqIq759HDbzt0TdLxRMAOtp-6p2efgYUJTTzt4OYzL_gGtFl9faEX4NEsojqXT8JUGIlf5ZH5ZpRzMoWkdlSX8Shgy8Nd2HpAm1qAYBhqqsSIlizG0m1aXsbefdyoFVlJrHsxIny_8K8S7FWphHRqCIQ==",
+              "title": "zisska.de",
+              "resolvedUri": "https://de.zisska.de/wp-content/uploads/2021/11/BuchKatalog_78_WEB-1.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 992,
+                "endIndex": 1156,
+                "text": "His profile is consistent with the mission of Experiments in Art and Technology (E.A.T.), an organization dedicated to collaborations between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +206,58 @@
         "y1": 25.1,
         "x2": 54.8,
         "y2": 35.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q136343899",
+          "label": "Q136343899",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Kent Holloway' matches perfectly. The Wikidata entity is an American painter born in 1935, which makes him the appropriate age to have been active as an artist in the late 1960s and early 1970s as specified in the context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Kent Holloway (1935–2004) was an American artist active in the 1960s and 1970s, known for both traditional oil painting and experimental works that bridged art and technology. He was associated with the San Francisco and Portland bohemian art scenes, appearing in the records of North Beach beat poet ruth weiss and the journals of Philip Whalen, who described his style in the early 1960s as symbolist painting characterized by a \"thick overlay\" and a \"resurrection of ancestral totems.\" Holloway was notably involved with a group interested in Experiments in Art and Technology (E.A.T.), collaborating with artist Bob Miller at the Exploratorium in San Francisco. Together, they developed early exhibits such as light-based \"sun-paintings\" that used prisms and tracked the sun to create strokes of color in the air. He is also credited with creating a \"sun-tracking painting machine\" and was a contemporary and associate of claymation pioneer Bob Gardiner. His traditional works include portraits, landscapes, and nudes, often signed \"K. Holloway\" or \"Kent C. Holloway.\"",
+            "sources": [
+              "https://www.exploratorium.edu/sites/default/files/files/Facets_of_Light.pdf",
+              "https://www.invaluable.com/artist/holloway-kent-c-7t46p18v0g/sold-at-auction-prices/",
+              "https://www.veryimportantlot.com/en/auction/artist/kent-holloway-1935-2004-36720",
+              "https://oac.cdlib.org/findaid/ark:/13030/c88s4sx7/",
+              "https://scispace.com/papers/space-distance-as-i-require-the-journals-and-prose-fragments-of-philip-whalen-1950-1966-26u87l1u"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Kent Holloway\" artist",
+            "\"Kent Holloway\" Experiments in Art and Technology E.A.T.",
+            "\"Kent Holloway\" artist 1960s 1970s",
+            "\"Kent Holloway\" E.A.T. 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwcdOjLkTHIKmYdWXQKXaG7M1Q3P0rxf-c_Y2orXrd6S5dJr1fTZ9K-ZElV6-tzfUQwUoo10ehXf3-YIbknxM7pBAJ4MtUD1jV-KfsRh_u1yCJfR_NqY5ImnFwhLQK3qVZBLJmHVDpZtVx099laOVeJxJd9hr9I4CpagIaqrxaId6HbMx16ehhjg==",
+              "title": "exploratorium.edu",
+              "resolvedUri": "https://www.exploratorium.edu/sites/default/files/pdfs/facets_of_light1980.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 722,
+                "endIndex": 875,
+                "text": "Together, they developed early exhibits such as light-based \\\"sun-paintings\\\" that used prisms and tracked the sun to create strokes of color in the air."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -42,6 +269,293 @@
         "y1": 31.9,
         "x2": 50.8,
         "y2": 43.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q158",
+          "label": "Wardell Gray",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Jack Ward, while the Wikibase entry refers to Wardell Gray. Wardell Gray was a famous jazz saxophonist who died in 1955, making it impossible for him to be the person associated with a 1969 letter entry. Furthermore, 'Jack Ward' and 'Wardell Gray' are distinct names."
+        },
+        {
+          "qid": "Q20769",
+          "label": "Wardell Quezergue",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the index card (Jack Ward) does not match the name of the Wikibase entity (Wardell Quezergue). While both individuals may have been active in the arts/music scene during the late 1960s, there is no evidence to suggest that 'Jack Ward' was a known pseudonym or alternative name for the musician Wardell Quezergue."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q373968",
+          "label": "Jack Warden",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the index card is 'Jack Ward', while the Wikidata entity is the famous American actor 'Jack Warden'. Although Jack Warden was active in the late 1960s, 'Ward' and 'Warden' are distinct surnames, and there is no indication that the actor used the name Jack Ward professionally or as a pseudonym."
+        },
+        {
+          "qid": "Q1702104",
+          "label": "Jack Ward",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a historical pirate and privateer from the 16th and 17th centuries who died in 1622. This is chronologically impossible to match the Jack Ward from the card, who was active around 1969."
+        },
+        {
+          "qid": "Q6115660",
+          "label": "Jack Ward Thomas",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Jack Ward' on the index card matches the first and middle name of the Wikidata entity 'Jack Ward Thomas'. However, the Wikidata entity is a well-known biologist and civil servant (former chief of the U.S. Forest Service), whereas the person on the card is specifically associated with an artistic context. There is no evidence to suggest that the biologist Jack Ward Thomas was an artist active in the late 1960s artistic scene."
+        },
+        {
+          "qid": "Q7544732",
+          "label": "Smilin' Jack Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The surname on the index card (Ward) does not match the surname of the Wikidata entity (Smith). Jack Smith (Q7544732) was a well-known entertainer and actor, but there is no evidence to suggest he used the name Jack Ward."
+        },
+        {
+          "qid": "Q15998597",
+          "label": "Jerome Bonaparte \"Black Jack\" Ward",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Jerome Bonaparte 'Black Jack' Ward died in 1954, whereas the index card record documenting a letter is dated 1969. It is impossible for the individual on the card to be the same person."
+        },
+        {
+          "qid": "Q16019597",
+          "label": "Jack Wardlaw",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the index card (Jack Ward) does not match the name of the Wikidata entity (Jack Wardlaw). Additionally, the Wikidata entity is identified as a journalist, while the person on the card is described as an artist or creative practitioner."
+        },
+        {
+          "qid": "Q16093173",
+          "label": "Jack Wardrop",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the index card is 'Jack Ward', whereas the Wikidata entity is 'Jack Wardrop' (John Caldwell Wardrop). While the Wikidata entity is listed as a musician and has the nickname 'Jack', the difference in surnames (Ward vs. Wardrop) is significant, and there is no evidence in the record to suggest Wardrop used the shortened surname Ward."
+        },
+        {
+          "qid": "Q17514018",
+          "label": "Jack Ward",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Jack Ward' matches, but the Wikidata entity (Q17514018) describes a Canadian ice hockey player, whereas the card refers to an artist active in the late 1960s. There is no evidence in the Wikidata profile to suggest any involvement in the arts, and the hockey player associated with the Sault Ste. Marie Marlboros is from a significantly different historical context than the 1969 date on the card."
+        },
+        {
+          "qid": "Q66547372",
+          "label": "Jack Ward",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match (Jack is a common diminutive for John), the Wikidata entity is described as a chemist, environmentalist, and librarian. This conflicts with the provided context that the Jack Ward on the card was an artist active in the late 1960s. Since Jack Ward is a very common name, it is unlikely this specific Wikidata entity is the same person."
+        },
+        {
+          "qid": "Q75521619",
+          "label": "Jack Ward Lygon Chenevix-Trench",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the Wikidata entry was born in 2004, which makes it impossible for him to be the Jack Ward mentioned in a 1969 document."
+        },
+        {
+          "qid": "Q75951042",
+          "label": "Jack Ward",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Jack Ward matches the index card exactly. However, 'Jack Ward' is a very common name, and the Wikidata entity (Q75951042) lacks any information regarding his profession, birth/death dates, or active years. Without evidence that this specific individual was an artist active in the late 1960s, there is insufficient data to confirm a match."
+        },
+        {
+          "qid": "Q76208789",
+          "label": "Jack Matthew Wardlaw",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Jack Matthew Wardlaw was born in 2002, which makes it impossible for him to be the Jack Ward mentioned in the 1969 letter entry. Additionally, the surnames differ (Ward vs. Wardlaw)."
+        },
+        {
+          "qid": "Q76301736",
+          "label": "Jack Dylan Wardle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active in 1969, whereas the Wikidata entity (Jack Dylan Wardle) was born in 2006. It is chronologically impossible for them to be the same person. Furthermore, the surnames 'Ward' and 'Wardle' are distinct."
+        },
+        {
+          "qid": "Q99713112",
+          "label": "Jack Warden",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Jack Ward, whereas the Wikidata entity is Jack Warden. Furthermore, the Wikidata entity is a botanist and ecologist from New Zealand, which does not align with the provided context that the person on the card is an artist."
+        },
+        {
+          "qid": "Q100945764",
+          "label": "Jack Ward",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity is identified specifically as a basketball player for the Washington Huskies (NCAA). The person on the card is known to be an artist active in the late 1960s. Without any evidence that this specific athlete was also an artist or active in the art scene, the match is unlikely given the commonality of the name Jack Ward."
+        },
+        {
+          "qid": "Q107656315",
+          "label": "Jack Ward",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names match, but the Wikidata entity (Q107656315) is a professional rodeo rider and bull rider who was inducted into the National Rodeo Hall of Fame. The card subject is identified as an artist active in the late 1960s. It is highly unlikely that a world-class rodeo athlete would be the same person as the artist documented on the index card."
+        },
+        {
+          "qid": "Q133854848",
+          "label": "Jack Ward",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity for Jack Ward was born in 2005, whereas the index card record is dated 1969. Furthermore, the Wikidata entity is a professional cyclist, which does not align with the context of the card holder being an artist active in the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jack Ward (also known as John Ward) is an American artist and sculptor who was active in the late 1960s and 1970s, with a career that extended into later decades. He is specifically recognized for his modernist, geometric sculptures and his participation in significant exhibitions that explored the intersection of color and form. In June and July 1971, he was part of the 'Color' exhibition at the Palo Alto Cultural Center in California, alongside other notable artists such as Sam Richardson and Gurdon Woods. He also participated in the '1st Annual Sculpture Invitational' in Palo Alto in early 1973. In 1974, Ward was commissioned by the City of Detroit to create a monumental public sculpture for Gordon Park, located at the corner of 12th and Clairmount Streets (the site where the 1967 Detroit rebellion began). His sculpture, originally titled 'Untitled' and later renamed 'Detroit 1967' in the 1990s, is a polyhedron ironwork structure designed with a 'universal' abstract geometric form. His work in the Palo Alto art scene during the early 1970s placed him in a cultural hub known for collaborations between artists and technology researchers, a milieu closely aligned with the mission of Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.paloalto.gov/files/assets/public/v/1/community-services/arts-and-sciences/cultural-center/paccexhibitionhistory.pdf",
+              "https://arts.black/2018/02/movement-stasis-nari-ward-transforms-ride-it-sculpture-park/",
+              "https://digitalcommons.wayne.edu/oa_dissertations/1947/",
+              "https://www.alejandra-aeron.com/jack-ward"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Jack Ward is an electronic engineer and technical historian who has spent much of his career documenting and preserving the history of early electronics, specifically transistors. He is the principal of the 'Transistor Museum,' an online resource and physical collection dedicated to the historical development of semiconductors. Active in the electronics industry from the mid-20th century, Ward has collaborated extensively with the Computer History Museum (CHM) in Mountain View, California, donating numerous historic artifacts and contributing to oral history projects. His work involves interviewing pioneering engineers from organizations like Bell Labs and IBM, which were central to the collaborations fostered by Experiments in Art and Technology (E.A.T.) in the 1960s. While primarily known as an engineer and historian, his work in archiving the aesthetic and technical achievements of early computer technology represents a critical bridge between the arts, history, and science, matching the collaborative spirit of the E.A.T. organization.",
+            "sources": [
+              "https://www.computerhistory.org/collections/catalog/102737955",
+              "http://www.transistormuseum.com",
+              "https://www.allaboutcircuits.com/news/the-history-of-the-transistor-marches-on/",
+              "https://ibm-1401.info/JackWard-IBM-Transistors-History.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jack Ward\" artist 1960s 1970s",
+            "Jack Ward artist Experiments in Art and Technology E.A.T.",
+            "\"Jack Ward\" engineer artist E.A.T.",
+            "E.A.T. (Experiments in Art and Technology) member list Jack Ward",
+            "",
+            "\"Jack Ward\" Experiments in Art and Technology E.A.T.",
+            "\"Jack Ward\" artist E.A.T. member",
+            "\"Jack Ward\" artist 1971 Palo Alto \"Color\" exhibition",
+            "\"Jack Ward\" Pepsi Pavilion Osaka 1970",
+            "\"Jack Ward\" engineer E.A.T. artist",
+            "",
+            "\"Jack Ward\" Pepsi Pavilion E.A.T. 1970",
+            "\"Jack Ward\" Bell Labs E.A.T.",
+            "\"Jack Ward\" sculptor California 1970s",
+            "\"Jack Ward\" artist \"E.A.T.\" organization",
+            "",
+            " \"Jack Ward\"",
+            "\"Jack Ward\" artist Detroit \"Gordon Park\" 1967",
+            "\"Jack Ward\" engineer Bell Labs E.A.T.",
+            "\"Jack Ward\" engineer E.A.T. Bell Labs",
+            "\"Jack Ward\" Experiments in Art and Technology list",
+            "\"Jack Ward\" Pepsi Pavilion crew E.A.T.",
+            "\"Jack Ward\" artist Palo Alto Cultural Center 1971",
+            "\"Jack Ward\" artist \"E.A.T.\" 1960s 1970s",
+            "",
+            "\"Jack Ward\" \"E.A.T.\" engineer artist",
+            "\"John Ward\" \"Experiments in Art and Technology\" collaborations",
+            "\"Jack Ward\" artist \"E.A.T.\" participant",
+            "\"John Ward\" \"9 Evenings\" Theatre and Engineering",
+            "\"John Ward\" artist \"E.A.T.\" list",
+            "\"John Ward\" Bell Labs engineer E.A.T.",
+            "\"John Ward\" collaborator \"9 Evenings\"",
+            "\"John Ward\" Experiments in Art and Technology collaborations list",
+            "\"John Ward\" E.A.T. engineer list",
+            "\"John Ward\" engineer Bell Labs \"9 Evenings\" David Tudor",
+            "\"Jack Ward\" engineer \"9 Evenings\"",
+            "",
+            "\"Jack Ward\" E.A.T. newsletter",
+            "\"Jack Ward\" \"Techne\" E.A.T.",
+            "\"Jack Ward\" artist \"Gordon Park\" Detroit E.A.T.",
+            "\"Jack Ward\" sculptor Palo Alto E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBsuVXxnvQzwn-ZJgmDLDTVcRHsQRzxpQuwDe2k5fS__i-NspDxRD44O1pgmxLoWBf7gVOVsNeChsRHcgcDgD-ZlTPu_6ToAVoNoTDQ2SlX_Yk46S9GvSg7JkizPkspcvcEXjUSQVlqQHcLPA0EUY3RTxrqAGzdAnUOahz_zvdy8-GXAbcnNRTZEIDFzVaUoIe6GQRUfhu0vE=",
+              "title": "digifind-it.com",
+              "resolvedUri": "https://www.digifind-it.com/Redbank/data/newspapers/register/reg-1878-1969/1961/1961-03-30.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsYqnAW3g9IL2vLN-W5rDYUm-hyMLoQzceghqPOBHtflPU95LdmR9TMK0ho4OWqvZ1CaXQBBa18dJAxN1O7z4IU6mZW8Tc_739icG2qaXpptwV0VGXFjrxWJWAIR7dJlzaxzZw-DSg5kU=",
+              "title": "wwll.org",
+              "resolvedUri": "https://www.wwll.org/Default.aspx?tabid=1714843"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaYY7KqA99jjiI_eo2pBQcwmZMDP5LeFkml3KMMGEMFuYGt4eosGPRe7Occrlx3c4ovE4sqPCutzznpIShVLG6l0rxw1gf3hnUO91PvMXNnK9jDMigmx4KnkSHu_rIhY4zoyWD5bKhRCX1tFnbeMBLk9YLDFwpLHQpd2O_0QA8ftv6wzLTPE0cLAjk_CEe",
+              "title": "oregonstate.edu",
+              "resolvedUri": "https://scarc.library.oregonstate.edu/omeka/exhibits/show/forestryvoices/item/34846"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGJDQQGk3zCcFqKKUqAwrij_nW1UKQygnoxhYVm8amgDB_jQtS5z-XFcivqryX2Hj627vi6MHDdIAF9C0XWayg93-xIWKuhebst7XhF9XOq9YyhYOFCK6TEQ==",
+              "title": "nodontdie.com",
+              "resolvedUri": "https://nodontdie.com/jack-ward"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpFDSq2UpP8QyPvrQrOCl3gID6Fj2-BJRz8ElOU5JbylNNqkT-p4NBAquL0ETZZSrl98WgFOdpabvnaBiFjq5G9tSAL9AwGp5ywGfoanWy2nL5owZDEJjfgNtdWfWC-Cxh1TPEZNphSmJJdOm2UmbmmvOUT_H_3NkbR9kHGV2jBD6N7hSb2RwLmaDn",
+              "title": "battheatre.org",
+              "resolvedUri": "https://battheatre.org/2019/04/audition-importance-of-being-earnest-summer-2019/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7SgvdVodqHOkUV-VJeVF51AReXdTrT9wtHKzQcg2z-0YQnKv52D6-rLAYSg30ZZ9MO4mi_8vsv8CwcXKYzIW3PMjVbqS8Wdbgs_PLt24v-NGPQX5uNBrIBcO8qnEz-m_u54BMZhm-Szd8SiqVcnDB0r14SWgH_Elc1-fQDlgeoHjtTcua3YQg69TULZxKvxChIJMXgiyrCSEfqXzGictFWaAIrMdMQFGA1zUq7gPpiTPr-IBy-w==",
+              "title": "wandsworthguardian.co.uk",
+              "resolvedUri": "https://www.wandsworthguardian.co.uk/news/national/24993777.delivery-driver-inspired-hardest-geezer-quits-job-run-length-uk/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwl8mxK-182TSzW0fDTKQKUXPifp_AysBkPkfPhCISzanIZt5l5DqsJUEfys789CyZlbR2cpLDD5VvrhztFjUK-z9flEI2zsJ420mSmNOq4PRIpQCW1zB8iG4D8pXSleTl3XKJWHyNFQcVzc4J5a4-X8b1iERNhVTwxJoekdFNuzG7LFnabAKY4OQ9pfWFjdIhLlsF",
+              "title": "wayne.edu",
+              "resolvedUri": "https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=3049&context=oa_dissertations"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvy4PcvMzCj53aZx2JSRstaXBezbVQ86LxZa_ahUe4DROLkxh8Hax7ObAyNkxOLOb3WnUWX7H94KROb19lkjUHnuNkvQb0SfwyiODWGyesuWZTa8h_rAPtjvjtPI_Zn_s5VI-EtDTNOepMXfE2klKb08fT0ZvAxxLp7n4xh-uPg9c2PKotijAcpDLSO8uYxLh3XZ6Zja6sjYwVZbD-7qAh",
+              "title": "arts.black",
+              "resolvedUri": "https://arts.black/detroit-locale/2018/02/movement-stasis-nari-ward-transforms-ride-it-sculpture-park/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKixyVYobehX3SrlRoDp1MB2mM2BeXC51SGkSQa5gtPIsOFR2fh4bMuhloXc3W6y2jc5hHCcMnMkfJowDd8TuOoLMzrktN2kgRuGKJ9afU2g9lANGf-QVK6USBk9oED5uEJsZb3Af_G4s8tLE5nwJPTQ==",
+              "title": "orbiscascade.org",
+              "resolvedUri": "https://archiveswest.orbiscascade.org/ark:80444/xv24292"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2wQF6veY402yINk6-r36Pr_4EU-IXnS1HAEJaLYs1MDQPT6YrPOsn3Q5f0BWVXmmKJHdw25yMgD6OUp0h21OiCOPf4wMR_ElaGv9BUxpziw6ERQ_FNy6YxBwplcDTT43fMpwfEZo9McRdZdzgvydJ_2Ax711m8iRvoBlj9N5hmydJAG23Zx1uPvCDlv9vlNiXEi22AoJ7djPFbXkT0oKSaAIuzCjvJsXNXw==",
+              "title": "wikimedia.org",
+              "resolvedUri": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Glendale_Evening_News_1924-04-09_%28IA_cgl_005278%29.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG_mqlMaDgdKq8Tmx4TX8-61aGdJ5ArYUjOYriQCTBvGO3MLCW0KdfHo4uYk5zliGWQIiVW47xjKZ8M5WHZ9R8Eh87rimW_etsQ0t-U8KHYiR4d4uJZ4Lf-ESBPojNfVbjbCjiparoRLv_VI8ZHafflEJX1mXutpkThDrrwWX0fQKJ6ttFFo7DzG6PSlymM7oFXN0=",
+              "title": "thetedkarchive.com",
+              "resolvedUri": "https://www.thetedkarchive.com/library/various-authors-wild-earth-5-no-4-winter-1995-1996"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2796,
+                "endIndex": 3160,
+                "text": "organization.\",\n      \"sources\": [\n        \"https://www.computerhistory.org/collections/catalog/102737955\",\n        \"http://www.transistormuseum.com\",\n        \"https://www.allaboutcircuits.com/news/the-history-of-the-transistor-marches-on/\",\n        \"https://ibm-1401.info/JackWard-IBM-Transistors-History.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -54,6 +568,122 @@
         "y1": 39.3,
         "x2": 43.3,
         "y2": 48.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1070239",
+          "label": "Cherine Nouri",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Cherine Nouri was born in 2000, making it impossible for her to be the person mentioned in the card from 1969. Additionally, the names 'Lotte Cherin' and 'Cherine Nouri' do not match beyond a phonetic similarity between 'Cherin' and 'Cherine'."
+        },
+        {
+          "qid": "Q6010839",
+          "label": "Mercedes Fernández",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Lotte Cherin' and 'Mercedes Fernández' have no similarity. Furthermore, the Wikidata entity was born in 1960, making her only 8 years old at the time of the card entry in 1969, and she is identified as a Spanish politician rather than an artist."
+        },
+        {
+          "qid": "Q12156564",
+          "label": "Cherine Anderson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are entirely incompatible. The Wikidata entity, Cherine Anderson, was born in the 1980s and began her career in 1997, while the card entry is dated March 1969. Additionally, the names do not match; the Wikidata entry's first name is Cherine, while the card lists Lotte Cherin."
+        },
+        {
+          "qid": "Q28794099",
+          "label": "Chering Dorjay",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Lotte Cherin' is likely a Western (Germanic) female name, whereas 'Chering Dorjay' is a Ladakhi/Tibetan male name. Additionally, the Wikidata entity is a politician, which does not align with the context of the person being an artist."
+        },
+        {
+          "qid": "Q79050037",
+          "label": "Cherine Abdellaoui",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates and biographical details are completely incompatible. The card entry is from 1969, whereas the Wikidata entity (Cherine Abdellaoui) was born in 1998. Furthermore, the Wikidata entity is a judoka (athlete) rather than an artist, and the names do not match beyond a slight similarity in 'Cherin/Cherine'."
+        },
+        {
+          "qid": "Q84363440",
+          "label": "Chérine Bechara",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1986, which is 17 years after the date recorded on the card (1969). Additionally, the names and occupations (researcher vs. artist) do not match."
+        },
+        {
+          "qid": "Q85651137",
+          "label": "Cherine Fahd",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is dated 1969, while the Wikidata entity was born in 1974. This makes it chronologically impossible for them to be the same person. Furthermore, the names (Lotte Cherin vs. Cherine Fahd) are not a match."
+        },
+        {
+          "qid": "Q86836211",
+          "label": "Cherine A Ismail",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Lotte Cherin' and 'Cherine A Ismail' do not match, with 'Cherin' being a surname in the first record and 'Cherine' being a given name in the second. Additionally, the Wikidata entity is described as a medical researcher, which does not align with the artistic context provided for the card entry."
+        },
+        {
+          "qid": "Q90859991",
+          "label": "Cherine H Kim",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Lotte Cherin' and 'Cherine H Kim' are distinct. Additionally, the Wikidata entity is identified as a researcher, whereas the context for the card entry specifies the individual was an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q95742408",
+          "label": "Cherine Tannous",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'Lotte Cherin' (where Cherin is the surname), while the Wikidata entity is 'Cherine Tannous' (where Cherine is the first name). There is no biographical data in the Wikidata entry to suggest a connection to the name Lotte or the artistic activity mentioned on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lotte Cherin is a Los Angeles-based artist, arts administrator, and technologist who has been active in the Southern California arts community since at least the late 1960s. She is perhaps best known in the historical context for her association with the electronic music pioneer Ruth White (1925–2013). Cherin currently holds the copyright and manages the legacy of White's seminal electronic works, including the 1969 albums \"Flowers of Evil\" and \"7 Trumps from the Tarot Cards and Pinions,\" which were reissued in 2019 under her name. Her professional background bridges art and technology; she served as a Senior Client Technologies Analyst and User Consultant at Pepperdine University's Graduate School of Education and Psychology for many years. In the late 1960s and early 1970s, this intersection of disciplines aligned with the goals of the Experiments in Art and Technology (E.A.T.) organization. Cherin was also an active participant in the Los Angeles feminist art movement, with artist records dated 1980–1985 held in the Woman's Building archives at the Getty Research Institute. She is a metalsmith and jeweler whose work was featured in the 1995 exhibition \"ALCHEMY: Metals Made Precious\" at Cabrillo College. More recently, she has served as the Chair of the Malibu Arts Commission, where she has advocated for public art and the establishment of a Malibu Arts Center.",
+            "sources": [
+              "https://www.discogs.com/artist/7735399-Lotte-Cherin",
+              "https://www.discogs.com/release/17681161-Ruth-White-7-Trumps-From-The-Tarot-Cards-And-Pinions",
+              "https://www.getty.edu/research/collections/finding_aids/womans_building_records.html",
+              "https://www.ganoksin.com/article/metalsmith-95-fall-exhibition-reviews/",
+              "https://issuu.com/timespublications/docs/mt_100523/s/32766327",
+              "https://www.malibucity.org/AgendaCenter/ViewFile/Minutes/_08142017-1064"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Lotte Cherin\" biography artist",
+            "\"Lotte Cherin\" E.A.T.",
+            "\"Lotte Cherin\" Experiments in Art and Technology",
+            "Lotte Cherin artist",
+            "",
+            "\"Lotte Cherin\" Los Angeles artist history",
+            "\"Lotte Cherin\" 1960s 1970s artist",
+            "\"Lotte Cherin\" Getty Research Institute E.A.T.",
+            "",
+            "\"Lotte Cherin\" Tom Thumb records",
+            "\"Lotte Cherin\" E.A.T. directory",
+            "\"Lotte Cherin\" Los Angeles artist 1960s",
+            "\"Lotte Cherin\" jeweler metalsmith biography",
+            "",
+            "\"Lotte Cherin\" \"Woman's Building\" Los Angeles",
+            "\"Lotte Cherin\" \"Ruth White\" artist credit",
+            "\"Lotte Cherin\" \"Flowers of Evil\" album credit",
+            "\"Lotte Cherin\" E.A.T. member list",
+            "\"Lotte Cherin\" E.A.T. staff",
+            "\"Lotte Cherin\" \"Tom Thumb Records\" owner",
+            "\"Lotte Cherin\" Ruth White relationship"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

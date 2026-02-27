@@ -10,6 +10,105 @@
         "y1": 11.6,
         "x2": 54.9,
         "y2": 23.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27155",
+          "label": "Jefferson (La.)",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Everardo A Jefferson, whereas the Wikibase entity describes a city in Louisiana (Jefferson, La.)."
+        },
+        {
+          "qid": "Q26038",
+          "label": "Louisville Armory",
+          "description": "venue in Louisville, Kentucky",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Everardo A Jefferson, whereas the Wikibase entity describes a building/venue named the Louisville Armory. These are clearly different types of entities."
+        },
+        {
+          "qid": "Q1544",
+          "label": "Jefferson Parish",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Everardo A Jefferson' on the card and the name 'Jefferson Parish' in the Wikibase entry are distinct. Everardo Jefferson is a known architect, while the Wikibase entry refers to a musical artist associated with the Linked Jazz project. There is no indication that these represent the same individual."
+        },
+        {
+          "qid": "Q18858",
+          "label": "Jefferson Bar",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual person named Everardo A Jefferson, while the Wikibase entity describes a jazz venue or 'shrine' called Jefferson Bar. These are different entity types (a person versus a location)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q118141610",
+          "label": "Everardo Jefferson",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Everardo A Jefferson' on the card matches the Wikidata entity 'Everardo Jefferson' exactly. The Wikidata entity is identified as an architect, which fits the provided context of the person being an artist or creative professional. The card's date of 1964 is consistent with the career timeline of a professional active in the mid-to-late 20th century."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Everardo A. Jefferson (born Everardo Agosto Jefferson) is a Panamanian-American architect and industrial designer whose career is defined by a commitment to social equity and community-centered design. He immigrated to the United States from Panama at age 12 and was raised in the South Bronx. Jefferson earned a Bachelor of Industrial Design (BID) from Pratt Institute in 1968 and a Master of Architecture (MArch) from Yale University in 1973. During the late 1960s, he was part of the pivotal workshop led by James Hurley at Pratt that rediscovered the historic Weeksville Heritage Center in Brooklyn, a project he later returned to as an architect. In the early 1970s, he was involved with the National Organization of Minority Architects (NOMA), founded in 1971. In 1987, he co-founded the award-winning firm Caples Jefferson Architects with Sara Caples. His work often bridges the gap between art, technology, and sociology, as seen in projects like the Louis Armstrong Center and the Queens Theatre-in-the-Park. He has served as a Commissioner for the New York City Landmarks Preservation Commission since 2019 and was inducted as an Academician of the National Academy of Design in 2024. His career align with the era of the Experiments in Art and Technology (E.A.T.) movement, reflecting a similar focus on interdisciplinary collaboration and the use of technology to create public cultural anchors.",
+            "sources": [
+              "https://www.beyondthebuilt.com/everardo-jefferson",
+              "https://en.wikipedia.org/wiki/Caples_Jefferson_Architects",
+              "https://www.archnewsnow.com/features/Feature334.htm",
+              "https://www.nyc.gov/site/lpc/about/commissioner-everardo-jefferson.page",
+              "https://www.pratt.edu/news/black-history-is-pratt-history-weeksville/",
+              "https://www.architecture.yale.edu/alumni/updates",
+              "https://www.nationalacademy.org/academicians/everardo-jefferson"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Everardo A. Jefferson architect artist",
+            "\"Everardo Jefferson\" 1960s 1970s",
+            "Everardo Jefferson Experiments in Art and Technology E.A.T.",
+            "\"Everardo A Jefferson\" history",
+            "\"Everardo Jefferson\" Yale E.A.T.",
+            "\"Everardo Jefferson\" Pavilions Experiments in Art and Technology",
+            "\"Everardo Jefferson\" E.A.T. 1960s 1970s",
+            "\"Everardo Jefferson\" Experiments in Art and Technology 1968 1969 1970",
+            "\"Everardo Jefferson\" Pratt \"E.A.T.\"",
+            "\"Everardo A. Jefferson\" design art collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO74iUkSfoJzhGbu1JC9oUVnKPgfc7WIl3xbnu0-hr_LMeY3U7AJzxKkJmaE_-oYGMciDNlpFrfOusX1clLg2lqJOWk5wu4YcY-_sjnlClvYh1xd28A7VaKjqyzazhp2xX_g2C4qSa1SOOtx7iNnnpOdbT5m_5ZwI9njH89UqZybHh34OqtFnFZTCe-0rfzVxDmacbBNABTihBFHpkR0Pf9Ao=",
+              "title": "lars-mueller-publishers.com",
+              "resolvedUri": "https://www.lars-mueller-publishers.com/sites/default/files/20201019_verlagsprogramm_2020-21_100dpi.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzvnUvwPWKI10k_PI8dBh6_lKOkIRVjOm8v-UkQcYWeO3hMaTCkuIdWmU_PWxZwaO6BgsvwKZWYiJ3vPcTa78WSrIRL2b53eUxgEulgfIh6xt8Z7gjlCGc3hGGlGUoiB_uDyOQCD_jRJn7cNe37UPC6Kcg163G-oRPf2o=",
+              "title": "k-state.edu",
+              "resolvedUri": "https://apdesign.k-state.edu/arch/why_arch/naab/KSU_APR_2010.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1325,
+                "endIndex": 2022,
+                "text": "movement, reflecting a similar focus on interdisciplinary collaboration and the use of technology to create public cultural anchors.\",\n      \"sources\": [\n        \"https://www.beyondthebuilt.com/everardo-jefferson\",\n        \"https://en.wikipedia.org/wiki/Caples_Jefferson_Architects\",\n        \"https://www.archnewsnow.com/features/Feature334.htm\",\n        \"https://www.nyc.gov/site/lpc/about/commissioner-everardo-jefferson.page\",\n        \"https://www.pratt.edu/news/black-history-is-pratt-history-weeksville/\",\n        \"https://www.architecture.yale.edu/alumni/updates\",\n        \"https://www.nationalacademy.org/academicians/everardo-jefferson\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +121,119 @@
         "y1": 18.0,
         "x2": 31.8,
         "y2": 27.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1732044",
+          "label": "Karl Krägen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Karl Krägen died in 1879, making it impossible for him to be the individual referenced on the 1964 card. Additionally, the first names (Robert vs Karl) do not match."
+        },
+        {
+          "qid": "Q15147345",
+          "label": "Kragen Lum",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card lists 'Robert Kragen' while the Wikidata entity is 'Kragen Lum'. Furthermore, Kragen Lum is a guitarist born in 1971, making it chronologically impossible for him to be the author of a letter dated 1964."
+        },
+        {
+          "qid": "Q106818562",
+          "label": "Kragen Bradley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card refers to Robert Kragen (where Kragen is the surname), while the Wikidata entity refers to Kragen Bradley (where Kragen is the given name). Additionally, the Wikidata entity is a basketball player, which does not align with the provided artist context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Kragen (born c. 1945) is an American multimedia and electronic artist known for his pioneering work in television and video art during the late 1960s and early 1970s. He is most recognized for his association with Experiments in Art and Technology (E.A.T.), an organization that paired artists with engineers. In 1968, Kragen collaborated with Robert Lippman and electronics engineer Irv Rosner to create the interactive installation \"Come Near Unto Me\" (also referred to as \"Come Unto Me\"). The work featured a color television set modified to produce dynamic organic patterns of light and electronic sound (using a theremin-like antenna system) that responded to the physical movement of spectators. This piece was a featured part of the landmark E.A.T. exhibition \"Some More Beginnings\" held at the Brooklyn Museum from November 1968 to February 1969. Kragen articulated his artistic theories in the article \"ART AND TV,\" published in the inaugural issue of the video art journal Radical Software in 1970, where he argued for the use of television as a non-linear creative medium for the interplay of sound and light. Historical records also associate him with the \"Morning Light Co.\" in connection with the Gerd Stern/USCO papers and E.A.T. projects like the Pepsi-Cola Pavilion at Expo '70.",
+            "sources": [
+              "https://www.radicalsoftware.org/volume1nr1/pdf/VOLUME1NR1_0005.pdf",
+              "https://www.artist-info.com/curator/E-A-T",
+              "http://www.vasulka.org/archive/4001/VideoArt/RadicalSoftwareV1N1.pdf",
+              "https://oac.cdlib.org/findaid/ark:/13030/c8542rv6/",
+              "https://cmsw.mit.edu/wp-content/uploads/2016/10/The-Medium-is-the-Medium-Convergence-of-Video-Art-and-Television-at-WGBH.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Kragen\" E.A.T. art",
+            "\"Robert Kragen\" artist",
+            "Robert Kragen 1960s 1970s artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHDo1NfQHR8TKI3niT5Mvv7FU6XzkIWMrMCM5OqAxPvE7C_2b4uEWjyiv5Vs_RyWg26i0VeNPgcab7DLOQ5rMrvePGLTtReW8__oK_LxWIR_LYbVkrY2iRX_tQk_ytpzma5faOCaZDCXhaOGW8c7uZYiXa5P9oC-OOFFuuxCwJGEhJaQm16rFxzg5D8FqsJvNWj_uyvDTXS9AtdkqYtQOKzBqsmB_ADtBlEzSIiRh6ixfehSSepA93p6VlSmcztEBHy5BXA_57i1_zPvBYsaz_C0bvKTZJlM0funY=",
+              "title": "mit.edu",
+              "resolvedUri": "https://cmsw.mit.edu/wp/wp-content/uploads/2016/10/147696577-James-Nadeau-The-Medium-Is-the-Medium-The-Convergence-of-Video-Art-and-Television-at-WGBH-1969.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6VRignFXyDKGWwH7SVQOWKA3vz9TUx6LSp7viCamff3bqpuvFbFvmCOUQzG4_ACvRF_NBA70zmuRdKUVJ3rflFveZYt-Y951JupIZeBY46-Whg1bzNnbVe9SYrr90yV5yvotpxLp7PA==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Harry_Belafonte"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRqnxi7p7NrlhJH1Wb7gxsFLvnpwxyojyy61mLKHGrbPzwjPSyok9Wae5oNOYKtlN9XNvTtW5D7tOO6iqCyfKEZA4FbkPtZY2bDyfajMUGR1kTOrztSyLxuGkL4PYG_k9_Y1bNlJByI_mTbFjlbVg=",
+              "title": "vasulka.org",
+              "resolvedUri": "https://www.vasulka.org/archive/4-30c/AinA(9000).pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS4QY-YcctcmBt9_1-cfALus26VMgkv11EwiNuGsJy4-QDTs3vfCv0qPDK2rGV53X-uwLGAkW1mxKYoNVQh1OgLuNZH97Egp168GuiXgw-p_Iqk5OhnRD1kplkzCQvWSAjLdIdDbq5_f5D0L_yyWj1xRra",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/artist/Kragen-Lippman-Rosner"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDpYujBAM_XsBQ_uhpz3B0XgpQ9hJoYU7SfWvrkwkQP5fm7xe3vR2fxurZfXPBb3_IYlSL08dYwmTlrJfKCE3fprfhN8MHDgWwlXu5bLtW7E-Vx-X-eNZG7BMs0_vxqxUfMnw0YjqT6YYkh6NItj_8n4iDW7bmX0_evWaQ3g==",
+              "title": "radicalsoftware.org",
+              "resolvedUri": "https://www.radicalsoftware.org/volume1nr1/pdf/VOLUME1NR1_0006.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDV8r863p8QtpWm2mymK9wo1F2namzp34vqahCOJ-o7LerGOnaiMdo8xMBj9dzCypW4uQu0P8vWKsyPCFzoeRZbs2OE3QHni-N0eXkoKCX1HVb01bjI3eYXhOtEvUwAM9XtP7_jssLfy3I6A==",
+              "title": "stanford.edu",
+              "resolvedUri": "https://archives.stanford.edu/download/m1954.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 223,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robert Kragen (born c. 1945) is an American multimedia and electronic artist known for his pioneering work in television and video art during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 553,
+                "endIndex": 762,
+                "text": "The work featured a color television set modified to produce dynamic organic patterns of light and electronic sound (using a theremin-like antenna system) that responded to the physical movement of spectators."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1312,
+                "endIndex": 1844,
+                "text": "projects like the Pepsi-Cola Pavilion at Expo '70.\",\n      \"sources\": [\n        \"https://www.radicalsoftware.org/volume1nr1/pdf/VOLUME1NR1_0005.pdf\",\n        \"https://www.artist-info.com/curator/E-A-T\",\n        \"http://www.vasulka.org/archive/4001/VideoArt/RadicalSoftwareV1N1.pdf\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/c8542rv6/\",\n        \"https://cmsw.mit.edu/wp-content/uploads/2016/10/The-Medium-is-the-Medium-Convergence-of-Video-Art-and-Television-at-WGBH.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            }
+          ]
+        }
       }
     }
   ]

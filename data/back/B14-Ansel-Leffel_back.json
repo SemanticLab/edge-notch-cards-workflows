@@ -11,6 +11,121 @@
         "y1": 22.1,
         "x2": 35.9,
         "y2": 33.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21389714",
+          "label": "Fedor Mihajlovič Mauer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Giselle' and 'Fedor' are entirely different. Furthermore, the Wikidata entity died in 1963, which predates the late 1960s/early 1970s active period associated with the artist on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Giselle Mauer (born 1930) is a Romanian-born sculptor and artist active during the late 1960s and early 1970s. She was associated with the Experiments in Art and Technology (E.A.T.) organization, a group founded to foster collaborations between the arts and sciences. In 1968, she participated in the E.A.T. exhibition \"Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes\" held at the Brooklyn Museum, where she collaborated with artist and physicist Ben-Ami Kadish. Her work often involved technical materials, including modern metal sculpture, one of which was unveiled at the Hillel Center in New Jersey in 1972. In 1966, she also organized an international art exhibition titled \"Children of the World,\" which showcased children's artwork collected through cooperation with school teachers and ambassadors from various countries.",
+            "sources": [
+              "https://awarewomenartists.com/en/artiste/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/",
+              "https://www.artist-info.com/exhibition/Brooklyn-Museum-New-York-MoMA-27-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962",
+              "https://digifind-it.com/nj-newspapers/Metuchen/Sentinel/1972/1972-05-17.pdf",
+              "https://digifind-it.com/nj-newspapers/Cranford/Cranford%20Citizen%20and%20Chronicle/1966/1966-02-17.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Giselle Mauer\" E.A.T.",
+            "\"Giselle Mauer\" Experiments in Art and Technology",
+            "\"Giselle Mauer\" artist",
+            "\"Giselle Mauer\" biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3_t1QpLJ0GKN6ro2r1N_AfIedzajCmDB6C1ZM3szxryCQn6rkyVHGiUfQsTWqFRTw441O9hedw_FSmFTWBSj2P178J4fg34jSlV_Ds2aR4piF8N43nWpQIC8vV8IucIAESdw8jf8TTbxEYRyHB8qMsct-KLKocL-g2SJEu5NuUhZpnKWW_aoq6AXyKmP9ugCHcPjWf4ijH5P_FUPPcK1sgnktUjI7eqDOaPvbVTye",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElseXCaq_rvVvnobu1-VfdxcI-FMQQJk3ljSc1AbVnq4YgDgfTPpcoiSwJMElJn3UxQYVnClwqqulJXlL14-FQaqAjqr8JZ2w-v0_rsoeTOfa2u8a_YP-SdGahS5vrGUe7k1rNYdkyGSslGxDvx-YF4cexNhc=",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwZvmQxEmvwYahc5821ahA903q2Qq6igoqaWgtBkRfntMXqPtu979BP3cHU1-Rh9w7uB3jKdtCAKSqy9NrSiWBBpNfPgG3k6gfLqOL5G950yW7X_D_UudSp1Tb77vh5JI_Xah4FP8afw0x5GYfxYihU6lpWQdtI5jmVJ9NFtpxxxfIyTTcOsMdwmFECrT063-oNKuCygwnficbbLJQGk7wtgU-99xaZb7GnFHp",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6dXVoEhi6qPQFNL4hiqFiIaukUblw4cvupcQhBP08zdXQMfl2lmS5bzoTepn3PEUq0y68WgXgceImmajk161Jc7cRx-yC0yHeb32jtjx1v9TxdEx8E-d0b2d6Ryrho_9dHugGnnxLzG43nYN4DZuHJvLtbXkFPTXKqz-6U3TgV0cCSpQ59HvpbELPCdM85SzAD18T",
+              "title": "digifind-it.com",
+              "resolvedUri": "http://www.digifind-it.com/metuchen/data/newspapers/metuchen-recorder/1972/1972-05-17.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrJZdEpApj2OevUM0FWrMA4gOdvaW2IeN1se3Hq-IW88YJQs9q4MESotvcNF9X2kd8rVsa6pF0DPl-NDQJyS5NnvBRwDgNDWMLM7ycUh2bh2h7G2ID1ch9_Zb3eycSX2EhkART7aityUp7K45QIh-v84l6J7xPZD2Alv59BINhMzzPKKjuHs0Ve3kBI2s=",
+              "title": "digifind-it.com",
+              "resolvedUri": "https://www.digifind-it.com/cranford/data/newspapers/chronicle/1966/1966-02-17.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 161,
+                "endIndex": 231,
+                "text": "She was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 232,
+                "endIndex": 317,
+                "text": "organization, a group founded to foster collaborations between the arts and sciences."
+              },
+              "groundingChunkIndices": [
+                0,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 318,
+                "endIndex": 357,
+                "text": "In 1968, she participated in the E.A.T."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 566,
+                "endIndex": 714,
+                "text": "Her work often involved technical materials, including modern metal sculpture, one of which was unveiled at the Hillel Center in New Jersey in 1972."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 715,
+                "endIndex": 1523,
+                "text": "In 1966, she also organized an international art exhibition titled \\\"Children of the World,\\\" which showcased children's artwork collected through cooperation with school teachers and ambassadors from various countries.\",\n      \"sources\": [\n        \"https://awarewomenartists.com/en/artiste/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/\",\n        \"https://www.artist-info.com/exhibition/Brooklyn-Museum-New-York-MoMA-27-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962\",\n        \"https://digifind-it.com/nj-newspapers/Metuchen/Sentinel/1972/1972-05-17.pdf\",\n        \"https://digifind-it.com/nj-newspapers/Cranford/Cranford%20Citizen%20and%20Chronicle/1966/1966-02-17.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +139,91 @@
         "y1": 42.7,
         "x2": 40.8,
         "y2": 57.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26340",
+          "label": "Ronald Mallory",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Ronald Mallory' is identical in both records. The Wikibase entry explicitly links the person to the E.A.T. Technical Services Program and its edge-notched cards, which directly matches the format and context of the physical index card record."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7365091",
+          "label": "Ronald Mallory",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Ronald Mallory' is an exact match. The Wikidata entity describes an artist born in 1939, which would make him about 30 years old during the late 1960s, fitting the expected timeframe for activity. The fact that he is a professional artist with works in major collections like the Whitney Museum and SFMOMA strongly aligns with the context provided for the individual on the physical index card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ronald Mallory (June 17, 1932 – July 7, 2021) was an American architect and kinetic artist best known for his innovative 'mercury displacement' sculptures and paintings. Born in Philadelphia to Russian immigrant parents, Mallory initially studied architecture at the University of Florida and later worked in Brazil under modernist architect Oscar Niemeyer and landscape architect Roberto Burle Marx. Burle Marx encouraged him to pursue art, leading Mallory to relocate to Paris in the late 1950s, where he held early exhibitions, including a solo show at Galerie Iris Clert in 1961. Upon returning to New York, he shared a studio with the Belgian kinetic artist Pol Bury. Mallory gained significant acclaim in the mid-1960s for his kinetic mercury works—motor-driven acrylic or glass boxes containing liquid mercury that created fluid, shifting compositions. His debut solo exhibition for these works took place at the Stable Gallery in New York in 1966. He was actively associated with Experiments in Art and Technology (E.A.T.), an organization founded by Billy Klüver and Robert Rauschenberg, and is documented within their historical archives. Throughout his career, he explored various mediums, including digital art, holograms, and jewelry design. His work is held in the permanent collections of major institutions such as the Museum of Modern Art (MoMA), the Whitney Museum of American Art, and the San Francisco Museum of Modern Art. He was married to actress and model Carole Mallory from 1968 to 1971 and spent his final years in San Miguel de Allende, Mexico.",
+            "sources": [
+              "https://www.artsy.net/artist/ronald-mallory",
+              "https://en.wikipedia.org/wiki/Ronald_Mallory",
+              "https://whitney.org/artists/824",
+              "https://www.rauschenbergfoundation.org/art/archives/robert-rauschenberg-papers-projects-and-exhibitions-series",
+              "https://www.lamodern.com/auctions/2024/04/20-21-art-the-la-edition/186"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Ronald Mallory artist E.A.T. Experiments in Art and Technology",
+            "Ronald Mallory artist biography",
+            "Ronald Mallory kinetic art 1960s 1970s",
+            "Ronald Mallory mercury sculptures",
+            "\"Ronald Mallory\" E.A.T. Billy Kluver",
+            "Ronald Mallory artist \"Experiments in Art and Technology\"",
+            "Ronald Mallory artist \"mercury\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQCooDp9YjPC-eqJpvD6mJAIxmWCu955DKa1_7g_jIKqmSFf4BnurxBiAZXe21q_Zs__uYontLReAglYdARV6__PSniVUillwKrma5WcfJtrRkvaIz3Cw_Jfg=",
+              "title": "whitney.org",
+              "resolvedUri": "https://whitney.org/artists/824"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdUUdP49EO-YFLVqsYVqRSHaPDVZIYVYd-ulHgkGNw_tYx1UZS92PouBlXpvZWj6o5AU4crNyVtAWofx8AF3BsTP2sVemoPHu6Hy1kwDYWGvwbCnOi-44Jgwi3QCGz-sR_4-oBP0T8TfoZlSuzgRIHAT7wmyEIL-I=",
+              "title": "rssing.com",
+              "resolvedUri": "https://huffington1238.rssing.com/chan-24466587/all_p409.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv982O63q_oHm_EpaDk6NONO2PeuiJAbdByagVK00K141Xe3feMO3x3EW1irfGfxpluP6vuFsAhSxq8Zvs8l9Gga6OhCakzLwOvigPEKXQaC_b4mg9FR_GRovPcHP2NSRbkIyyJi9vp-ibnS0wdjk_nXlmDBNVBAgEcRm-fubZCejMrktBlGnzgoORUqUosBVVDXdjWoSMWwsxZSosQxgFedL8DXqCjnfNmDY=",
+              "title": "rauschenbergfoundation.org",
+              "resolvedUri": "https://www.rauschenbergfoundation.org/sites/default/files/2021-08/RRFA_01_ProjectsExhibitions-September2019.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 221,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ronald Mallory (June 17, 1932 – July 7, 2021) was an American architect and kinetic artist best known for his innovative 'mercury displacement' sculptures and paintings."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1010,
+                "endIndex": 1203,
+                "text": "He was actively associated with Experiments in Art and Technology (E.A.T.), an organization founded by Billy Klüver and Robert Rauschenberg, and is documented within their historical archives."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +237,455 @@
         "y1": 59.6,
         "x2": 35.4,
         "y2": 80.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19199",
+          "label": "Carl Andre",
+          "description": "",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical, and the Wikibase entity describes an artist active in the late 1960s (specifically citing involvement in the 1966 '9 Evenings' performance), which aligns perfectly with the context provided for the card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q72476",
+          "label": "Carl Andreas Koefoed",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q72476) died in 1948, which precludes them from being the artist active in the late 1960s and early 1970s mentioned in the card context. Furthermore, the entity was an anthropologist and state councillor, not an artist, and the names only partially overlap."
+        },
+        {
+          "qid": "Q84811",
+          "label": "Karl Andreas Geyer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Karl Andreas Geyer died in 1853, which is over a century before the person on the card was active in the late 1960s. Additionally, the Wikidata entity was a botanist, not an artist."
+        },
+        {
+          "qid": "Q103471",
+          "label": "Carl Andreas Naumann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q103471) describes Carl Andreas Naumann, a German ornithologist who lived from 1786 to 1854. This contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q123268",
+          "label": "Carl Hilty",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Carl Hilty' does not match 'Carl Andre'. Additionally, the Wikidata entity for Carl Hilty lived from 1833 to 1909, which is incompatible with the artist described in the card context as being active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q249664",
+          "label": "Karl Fabritius",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Karl Fabritius) died in 1881, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card entry. Additionally, the names do not match, as Fabritius is the family name of the Wikidata entity, not Andre."
+        },
+        {
+          "qid": "Q315348",
+          "label": "Carl Andre",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match perfectly. The Wikidata entity describes the famous minimalist sculptor Carl Andre, who was highly active in the New York art scene during the late 1960s and early 1970s, aligning exactly with the provided context."
+        },
+        {
+          "qid": "Q579115",
+          "label": "Carl Andrew Spaatz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry identifies a person named Carl Andre who is known to be an artist active in the late 1960s and early 1970s. The Wikidata entity Q579115 is for Carl Andrew Spaatz, a high-ranking United States Air Force general and military officer. Their professions and biographies do not align."
+        },
+        {
+          "qid": "Q1036745",
+          "label": "Carl Andreas August Goos",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Carl Andreas August Goos) lived from 1797 to 1855, which is completely incompatible with the context of an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q1036750",
+          "label": "Carl Andresen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Carl Andre', whereas the Wikidata entity is 'Carl Andresen'. Furthermore, the Wikidata entity is a theologian and Christian archaeologist, which does not match the provided context that the person is an artist active in the late 1960s. The sculptor Carl Andre (Q19199) is a separate and well-known individual who fits the profile perfectly, whereas this entity is a German academic."
+        },
+        {
+          "qid": "Q1730302",
+          "label": "Carl Andreas Duker",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q1730302 refers to a German-Dutch classical scholar and historian who died in 1752. This is inconsistent with the card context, which describes a Carl Andre who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q4579994",
+          "label": "Carl Andreas Fougstad",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Fougstad (Q4579994) died in 1871, which makes it impossible for him to be the artist Carl Andre who was active in the late 1960s and early 1970s as indicated by the context. Furthermore, the Wikidata entity's occupations were jurist and politician, not artist."
+        },
+        {
+          "qid": "Q4755593",
+          "label": "Andreas Petersen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Carl Andre vs. Andreas Petersen). Furthermore, the Wikidata entity describes a Danish boxer active in the 1920s, which does not align with the context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q5039823",
+          "label": "Carl Andrew Weinman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'Carl Andre', who is known in this context to be an artist active in the 1960s and 1970s. The Wikidata entity Q5039823 describes Carl Andrew Weinman, a federal judge and lawyer who was born in 1903 and died in 1979. The names are different (Andre vs. Weinman) and the occupations (artist vs. judge/lawyer) are incompatible."
+        },
+        {
+          "qid": "Q5039824",
+          "label": "Carl Andrew Capasso",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q5039824 (Carl Andrew Capasso) refers to a businessman, not the artist Carl Andre (Q19199) who is correctly identified in the candidate metadata as the likely match for this record. The names are different, and the profession of Capasso does not align with the artist context provided."
+        },
+        {
+          "qid": "Q5615777",
+          "label": "Carl Andreas Dahlström",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Dahlström died in 1869, which is approximately a century before the person on the card was active (late 1960s/early 1970s)."
+        },
+        {
+          "qid": "Q6088470",
+          "label": "Carl Sahlin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card, Carl Andre, was active in the late 1960s and early 1970s. The Wikidata entity, Carl Sahlin (Q6088470), died in 1943, making it impossible for him to be the same person. Additionally, the surnames are different."
+        },
+        {
+          "qid": "Q12305167",
+          "label": "Carl Andreas Rames",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Rames lived from 1809 to 1869, making it chronologically impossible for him to be the artist active in the late 1960s and early 1970s described in the card context."
+        },
+        {
+          "qid": "Q15897264",
+          "label": "Carl Andreas Goepfert",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the card entry is an artist active in the late 1960s or early 1970s. The Wikidata entity Q15897264 (Carl Andreas Goepfert) lived from 1768 to 1818, making it chronologically impossible for them to be the same person."
+        },
+        {
+          "qid": "Q16171453",
+          "label": "Anders Ekman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q16171453 (Karl Anders Ekman) lived from 1833 to 1855, which is over a century before the late 1960s/early 1970s timeframe established for the person on the card (Carl Andre). Furthermore, the names are distinct."
+        },
+        {
+          "qid": "Q18507961",
+          "label": "Carl Andreas Abt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Abt died in 1922, whereas the context for the card entry indicates the person was an artist active during the late 1960s and early 1970s. Additionally, the names are not an exact match (Andre vs. Andreas Abt)."
+        },
+        {
+          "qid": "Q18507966",
+          "label": "Carl Borromäus Andreas Ruthart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card is an artist active in the late 1960s/early 1970s (likely the minimalist sculptor Carl Andre, Q19199). The Wikidata entity Q18507966 describes Carl Borromäus Andreas Ruthart, a German Baroque painter who lived in the 17th century (c. 1630-1703). The dates and artistic styles are entirely incompatible."
+        },
+        {
+          "qid": "Q28554148",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s (noted as Carl Andre, the minimalist sculptor). The Wikidata entity Q28554148 describes a German military officer (Generalmajor) born in 1894 who served in WWI and WWII. Furthermore, the Wikidata entity explicitly contains a 'different from' property pointing to the artist Carl Andre, confirming they are distinct individuals."
+        },
+        {
+          "qid": "Q47505048",
+          "label": "Carl Andreas Grøntvedt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Carl Andre', which is the specific and full name of a famous minimalist artist active during the time period. The Wikidata entity Q47505048 refers to 'Carl Andreas Grøntvedt', which is a distinct name. While 'Andre' and 'Andreas' are related, they are not the same name, and there is no evidence to suggest the artist Carl Andre ever used the surname Grøntvedt."
+        },
+        {
+          "qid": "Q51725557",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in the late 1960s, while the Wikidata entity Q51725557 describes a researcher associated with 'Invasion Biology'. These represent two different individuals with distinct professional backgrounds."
+        },
+        {
+          "qid": "Q55194709",
+          "label": "Carl Rath",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Carl Andre' (surname Andre), whereas the Wikidata entity is 'Carl Andrew Rath' (surname Rath). Additionally, Carl Rath was born in 1953, meaning he would have been a young teenager in the late 1960s, making it highly unlikely he is the person described in the card entry, which almost certainly refers to the prominent minimalist artist Carl Andre (Q19199)."
+        },
+        {
+          "qid": "Q60841995",
+          "label": "Carl Andreae",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Carl Andreae) died in 1913, which is incompatible with the context of an artist active in the late 1960s and early 1970s. Additionally, the Wikidata entity is described as a politician, while the card subject is known to be an artist."
+        },
+        {
+          "qid": "Q75374174",
+          "label": "Carl-Andre Baron Wiedersperger von Wiedersperg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1986, which makes it impossible for them to have been an artist active in the late 1960s or early 1970s as described in the card context."
+        },
+        {
+          "qid": "Q87763789",
+          "label": "Carl Andreas Fürst",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s, whereas the Wikidata entity (Q87763789) is a Swedish physician named Carl Andreas Fürst who was born in 1888. The name and occupation do not align with the known context of the artist Carl Andre."
+        },
+        {
+          "qid": "Q94846447",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q94846447) describes a person who lived from 1763 to 1831 and worked as a teacher and civil servant. This is chronologically incompatible with the card entry context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q95636384",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q95636384) died in 1914, making it impossible for him to be the artist active in the late 1960s and early 1970s described in the card entry context."
+        },
+        {
+          "qid": "Q96677953",
+          "label": "Karl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity lived from the late 18th century to the late 19th century (1796-1876), making it chronologically impossible for them to be the artist active in the 1960s and 1970s mentioned in the card entry context."
+        },
+        {
+          "qid": "Q101074168",
+          "label": "Carl Andreasen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Carl Andre vs. Carl Andreasen), the occupations are unrelated (artist vs. sport cyclist), and the timeframe is completely incompatible, as the Wikidata entity was born in 1874 and would not be active as an artist in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q102245955",
+          "label": "Carl Andrew Hickman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to the artist Carl Andre, while the Wikidata entity is for a different individual named Carl Andrew Hickman. The Wikidata record describes an academic with a doctoral advisor and university education, which does not align with the profile of the minimalist sculptor Carl Andre active in the late 1960s."
+        },
+        {
+          "qid": "Q102251826",
+          "label": "Carl Andrew Gutwin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q102251826) refers to Carl Andrew Gutwin, a computer scientist associated with the University of Calgary, whereas the card refers to the minimalist artist Carl Andre. The names, professions, and active time periods do not align."
+        },
+        {
+          "qid": "Q102393859",
+          "label": "Carl Andrew Pearson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Carl Andre', whereas the Wikidata entity is 'Carl Andrew Pearson'. Furthermore, the Wikidata entity describes an academic with doctoral advisors, which does not align with the context of an artist active in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q104153535",
+          "label": "Carl André",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a cricketer who died in 1923, which makes it impossible for them to be the artist active in the late 1960s and early 1970s mentioned in the card's context."
+        },
+        {
+          "qid": "Q108683478",
+          "label": "Carl-André Poliquin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a Canadian politician (Carl-André Poliquin) active in the 2018 Quebec general election, whereas the card refers to an artist active in the late 1960s/early 1970s (likely the famous minimalist sculptor Carl Andre, Q19199). The surname Poliquin is missing from the card, and the age and professional profile of the Wikidata candidate do not match the historical context of the card."
+        },
+        {
+          "qid": "Q108812944",
+          "label": "Carl Andreas Josua Brückmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Josua Brückmann lived from 1750 to 1823, which is over a century before the person from the card was active as an artist (late 1960s/early 1970s)."
+        },
+        {
+          "qid": "Q109296469",
+          "label": "Carl Andreas Grill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Grill lived from 1735 to 1790, which is over 150 years before the period when the artist on the card was active (late 1960s/early 1970s)."
+        },
+        {
+          "qid": "Q110751813",
+          "label": "Carl Andreas Braunwart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity 'Carl Andreas Braunwart' is identified as a jurist, which does not align with the context that the card entry refers to an artist. Furthermore, the surnames are distinct ('Andre' vs 'Braunwart')."
+        },
+        {
+          "qid": "Q112107121",
+          "label": "Carl Andreas Hoel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Hoel died in 1954, which makes it impossible for him to be the person active in the late 1960s and early 1970s described in the card context."
+        },
+        {
+          "qid": "Q112506401",
+          "label": "Carl-Andreas Dalluege",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different (Carl Andre vs. Carl-Andreas Dalluege). Additionally, the Wikidata entity was born in 1955, making him only 11 years old in 1966, which is inconsistent with being an active artist during the late 1960s context provided for the card entry. His recorded occupations (manager, journalist) also do not match the artist profile."
+        },
+        {
+          "qid": "Q120431700",
+          "label": "Carl Andrew Bays",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Carl Andrew Bays, a writer with the surname Bays. The card entry specifically lists 'Carl Andre', which is the name of a famous minimalist sculptor active during the period described in the context. The names do not match sufficiently, as 'Andre' is the surname on the card, not a middle name for someone named Bays."
+        },
+        {
+          "qid": "Q124639973",
+          "label": "Carl Andreas Weichelt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas Weichelt died in 1926, which is several decades before the period of activity (late 1960s/early 1970s) specified for the artist on the card. Additionally, the Wikidata entity is identified as a businessperson, not an artist."
+        },
+        {
+          "qid": "Q126933903",
+          "label": "Carl Andreas Malmstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q126933903 refers to Carl Andreas Malmstein, who was associated with the Imperial University of Dorpat (active 1802-1893). This timeframe is inconsistent with an artist active in the late 1960s and early 1970s. Additionally, the name on the card is simply 'Carl Andre', which is a well-known minimalist artist (Q19199), whereas this entity includes the surname Malmstein."
+        },
+        {
+          "qid": "Q128072374",
+          "label": "Carl Andreas Gottlieb Hennig",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Carl Andre', which is the full name of a well-known minimalist artist. The Wikidata entity is for 'Carl Andreas Gottlieb Hennig', who has a different surname (Hennig) and no information linking him to the artistic context of the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q130784277",
+          "label": "Carl Andreas Behncke",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Carl Andre', whereas the Wikidata entity is 'Carl Andreas Behncke'. In the card entry, 'Andre' functions as the surname, while the Wikidata entity has the surname 'Behncke'. These are distinct individuals."
+        },
+        {
+          "qid": "Q132717991",
+          "label": "Carl Andreas von Wehner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carl Andreas von Wehner died in 1766, making it chronologically impossible for him to be the artist active in the late 1960s and early 1970s described in the card context."
+        },
+        {
+          "qid": "Q137037855",
+          "label": "Q137037855",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Carl Andre' is an exact match for the Wikidata entity 'Carl André' (ignoring the diacritic). Given the provided context of an artist active in the late 1960s, this aligns perfectly with the known identity of the sculptor Carl Andre. Although the Wikidata entity Q137037855 is currently sparse, it represents a person with the correct name and gender."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Carl Andre (1935–2024) was an influential American Minimalist artist and sculptor, recognized as a defining figure in the movement. He was most active beginning in the 1960s and 1970s, during which he redefined sculpture by shifting it away from traditional carving and modeling toward the arrangement of raw industrial materials such as bricks, metal plates, timber, and stone. He famously described his work as \"sculpture as place,\" creating low-lying, modular installations intended to be walked upon or experienced from within. Andre was associated with the circle surrounding Experiments in Art and Technology (E.A.T.) through his collaboration in the landmark 1966 event \"9 Evenings: Theatre & Engineering,\" where he provided materials for Yvonne Rainer's choreographed performance \"Carriage Discreteness.\" He was also a founding member of the Art Workers' Coalition in 1969. His career included major exhibitions at the Solomon R. Guggenheim Museum (1970) and the Whitney Museum. He is also noted for his involvement in a high-profile legal case following the 1985 death of his third wife, the artist Ana Mendieta, for which he was acquitted in 1988.",
+            "sources": [
+              "https://www.theartstory.org/artist/andre-carl/",
+              "https://en.wikipedia.org/wiki/Carl_Andre",
+              "https://www.paulacoopergallery.com/news/remembering-carl-andre-1935-2024",
+              "https://whitney.org/artists/38",
+              "https://www.britannica.com/biography/Carl-Andre"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Carl Andre artist Experiments in Art and Technology E.A.T.",
+            "Carl Andre artist biography 1960s 1970s",
+            "Carl Andre involvement with E.A.T. organization"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_0luURz-rsmdPiIpkMd4JNqmmhX25GRDsy4UwaZ2Xk8Cq9qIaHYL5Z47tGZdRsXcBv2wWtcRFLify0rpPcgNjKx0gQWPfsIPGuGaie2kRNTvsocc7KmCIM_5gCPaihYGlrhnLDAOuizzUKZdBOG7eJc3gySguGs=",
+              "title": "artnet.com",
+              "resolvedUri": "https://news.artnet.com/art-world/carl-andre-obituary-2423023"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv-Z1LRXjgznG6VN9fnK2hYyIUmx--inmZm1BIeXbomBvETp89orrKyadH5XMFIDnYb0Ccsw9lLO6TDU5aaRC2AKvL_up4y927SycOfCsRFQCyTISK8FqGOSmgkCg7IGNY1dQ=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Carl_Andre"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxe5zbLyTGPmycT9C-8eS-oSzqM1yrx9a3TGd3u5VZllp_5KE_TquNByQH2k3fOB8g4Lf8UlBAckiAhsW592n7Q8JK25PxCK6_BlWCbuHxIc4HQHJYH4DpczmV8H4CIQEJdkHAzHiYWA==",
+              "title": "qg-gallery.com",
+              "resolvedUri": "https://qg-gallery.com/artists/50-carl-andre/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLZifhHETI-id1A20f0am8NEhxh1vzZITBlYUl98DPn0dXYdfbm6jBgwOnsu1OcpkoPxFoxukjDsJ4nxkxU6MMZz6dpl2E0LF7vkmX4-6vS23InhBYuAYgaknUiRvwwNuO4CUvsOVA6uRuCD3ORd7w",
+              "title": "mnuchingallery.com",
+              "resolvedUri": "https://www.mnuchingallery.com/exhibitions/carl-andre"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQWtzgRAH4nuz_prP38xeC23RvAEuvGJcGiLaiQN-nphdp0HEDIT-7JNd24CuMOrFBogzlGrxDWDcXpQeN91vWMTxK9y48LIJK5KiNG7c9rQKsMPUHVOzTelZDZ017MCY3q8GGb6oSIRc=",
+              "title": "theartstory.org",
+              "resolvedUri": "https://www.theartstory.org/artist/andre-carl/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPGSnID8fjx6q59n6DhvcJAgdRM_48ETM1FKcW69_HXUY2SdIw7Q8rBzHieHJUGi7wT-M4BnQfOVADyfaTAhSVKiADDEjAGzJiP2hNuLDSe1IAFZpVjPa-gQ==",
+              "title": "whitney.org",
+              "resolvedUri": "https://whitney.org/artists/21"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 183,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Carl Andre (1935–2024) was an influential American Minimalist artist and sculptor, recognized as a defining figure in the movement."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 184,
+                "endIndex": 430,
+                "text": "He was most active beginning in the 1960s and 1970s, during which he redefined sculpture by shifting it away from traditional carving and modeling toward the arrangement of raw industrial materials such as bricks, metal plates, timber, and stone."
+              },
+              "groundingChunkIndices": [
+                5,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 431,
+                "endIndex": 585,
+                "text": "He famously described his work as \\\"sculpture as place,\\\" creating low-lying, modular installations intended to be walked upon or experienced from within."
+              },
+              "groundingChunkIndices": [
+                5,
+                3,
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

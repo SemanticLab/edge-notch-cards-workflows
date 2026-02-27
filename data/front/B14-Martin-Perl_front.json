@@ -19,5 +19,103 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Sculpture, wood and iron"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q107416",
+      "label": "Martin Lewis Perl",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records refer to Martin Perl. The card identifies him as working in elementary particle physics at the Stanford Linear Accelerator Center (SLAC) in Palo Alto. Wikidata entity Q107416 is Martin Lewis Perl, a Nobel-winning physicist who lived and died in Palo Alto and spent much of his career at SLAC."
+    },
+    {
+      "qid": "Q6776365",
+      "label": "Martin Perlich",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Martin Perl vs. Martin Perlich), and their professional profiles are completely different; the card describes a physicist at Stanford Linear Accelerator Center, while the Wikidata entity describes a writer and presenter."
+    },
+    {
+      "qid": "Q95246390",
+      "label": "Martin Perlík",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes a physicist at Stanford University (Martin Perl) interested in elementary particle physics, while the Wikidata entry describes a Czech civil engineer (Martin Perlík) born in 1979 who works in architectural reconstruction. The names, locations, and professional fields do not match."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Martin Lewis Perl (1927–2014) was a Nobel Prize-winning American physicist and chemical engineer best known for his discovery of the tau lepton in the mid-1970s. He earned a bachelor's degree in chemical engineering from the Polytechnic Institute of Brooklyn in 1948 and later worked as a chemical engineer for General Electric, where his work on electron vacuum tubes sparked an interest in electronics and atomic physics. He received his Ph.D. from Columbia University in 1955 under I.I. Rabi. In 1963, Perl joined the faculty of Stanford University and the Stanford Linear Accelerator Center (SLAC) in Palo Alto, California, where he spent the remainder of his career. His technical background was multifaceted, encompassing electronics (from his time at GE), mechanics (informed by his engineering training and what he called his 'mechanical view' of experimental design), and elementary particle physics. Perl had a lifelong interest in the intersection of science and art; he practiced sculpture in his youth, donated scientific equipment like spark chambers to the Exploratorium in San Francisco, and participated in public dialogues on the creative processes shared by artists and scientists with his son, the art critic Jed Perl. He was a technical participant in the Experiments in Art and Technology (E.A.T.) organization, where he was registered as an engineer/scientist interested in collaborating with artists.",
+        "sources": [
+          "https://www.britannica.com/biography/Martin-Lewis-Perl",
+          "https://en.wikipedia.org/wiki/Martin_Lewis_Perl",
+          "https://news.stanford.edu/2014/10/01/martin-perl-obit-100114/",
+          "https://www.lindau-nobel.org/research-profile-martin-perl/",
+          "https://www.symmetrymagazine.org/article/may-2013/a-knack-for-exploring"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Martin Perl SLAC biography elementary particle physics",
+        "Martin Perl Stanford Linear Accelerator Center E.A.T.",
+        "Martin Perl technical fields electronics mechanics",
+        "",
+        "\"Martin Perl\" E.A.T. engineer",
+        "\"Martin Perl\" Stanford SLAC E.A.T.",
+        "\"Martin Perl\" artist engineer collaboration SLAC",
+        "\"Martin Perl\" \"Jed Perl\" art connection",
+        "\"Martin Perl\" E.A.T. directory"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_R4Eyr3aoP0iw21fUJMixEYOB-F0v2BvAk_1O8cAqpS6c8-rzrBXf_uBo3TSWJYsqx5epWqiHfQBZnQBG7aaTsYVLFbYfFPWgaW4PLOfxDn_-8urp4ZQoBA9jephKV38mmpw9ZmMnYYwYRFxd4Q==",
+          "title": "azoquantum.com",
+          "resolvedUri": "https://www.azoquantum.com/Article.aspx?ArticleID=14"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmbKAMOoEBeZr_yWY2HLV8X8WKzCSDEU0uukH2xNz5byAjFt2PT1ny7NoVw9zg7ZElC9Xpak1ly3A5YsRLL4D3XO8PZbmyt-8MbGTDE-eIyDAZ85W2-L7QpBpLAAzGioK2WeNYyjTgLGAT-GlMmiZc5EQ=",
+          "title": "studyguides.com",
+          "resolvedUri": "https://studyguides.com/topics/cml7tqo2bpmwn01928j5sxfug"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEBIE8LZaFd7Cg8YZ5L1ooMtxqpxMTyuUHlXeosLzfkm6AS7DgUj0NkCPR52kxSByt0qS7RMVq4RAvE_zYNrLSKkaY7zjD6cjEu0rTMpX7UUjUdKtq6UUhjRdZcrvQ9vDG0m82aYbnab74-zLS",
+          "title": "biographicalmemoirs.org",
+          "resolvedUri": "http://biographicalmemoirs.org/pdfs/perl-martin.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqnFQGEsn9Ch-OxshVGM08QIXCZylszQuYvVVznj73u7PrttBf1ZNhvnxjaWJ6RLm-ZxcHY5p994nimZFCH_O0bDMA2yL9gMswIDCkFUCW7tbm255S1QovFyRGac7xfir_CTkbY5uoX7e83l2rKXEms8_rnCIZQlh_H6zFnFKdojMqvg==",
+          "title": "rockefeller.edu",
+          "resolvedUri": "https://hep-physics.rockefeller.edu/dino/myhtml/talks/moriond15_paper.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_gyS66TZ5WtMtBn0GcfjtJUGnRhku8tbNTIX6Oh4vwKO5BZiTsl46p3ACTFseAJwYnfMRKWh7K4t47b656syb9jy2GoslFH8uAMG6gYYl9eqev3ftCj4Wsf2HGbXQ8XsVS3eDYhMbiXQ=",
+          "title": "wikipedia.org",
+          "resolvedUri": "https://en.wikipedia.org/wiki/Martin_Lewis_Perl"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 213,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Martin Lewis Perl (1927–2014) was a Nobel Prize-winning American physicist and chemical engineer best known for his discovery of the tau lepton in the mid-1970s."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    }
   }
 }

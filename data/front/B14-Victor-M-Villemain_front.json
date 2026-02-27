@@ -12,5 +12,68 @@
     "technicalFields": [
       "Architecture"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q318337",
+      "label": "Abel-François Villemain",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity describes Abel-François Villemain, a 19th-century French politician, academic, and writer who died in 1870. The card data describes Victor M. Villemain, an architect based in New York City. The use of a ZIP code (10003) on the card confirms a 20th-century date, which is incompatible with the lifespan of the Wikidata entity."
+    },
+    {
+      "qid": "Q28017151",
+      "label": "Étienne Villequin",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals from different eras and locations. The card data refers to Victor M. Villemain, a modern architect in New York (indicated by a ZIP code and phone number format), whereas the Wikidata entity describes Etienne Villequin, a 17th-century French painter who died in 1688."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Victor M. Villemain was a New York-based architect and planning consultant active during the 1960s and 1970s. He was a member of the American Institute of Architects (AIA) and served on several professional committees within the New York State Association of Architects and the AIA New York Chapter, including the State Architect committee, the Hospital and Health Committee, and the Legislative committee. His work included residential projects such as a six-story apartment building at 1471 Watson Avenue in the Bronx and the River Plaza Housing Co., Inc. (both circa 1969). Villemain was also involved in early technical discussions regarding the integration of technology in the field, notably appearing on a committee or list related to \"Computers in Architecture\" in the early 1960s alongside other prominent architects. He maintained offices in Manhattan (157 West 57th Street) and resided or practiced in Brooklyn (417a 18th Street).",
+        "sources": [
+          "https://www.usmodernist.org/OCULUS/OCULUS-1962-09.pdf",
+          "https://www.usmodernist.org/ESA/ESA-1962-01.pdf",
+          "https://samflorman.com/construction-projects/",
+          "https://archive.org/stream/helmuthnathancol00leob/helmuthnathancol00leob_djvu.txt"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Victor M. Villemain\" obituary",
+        "\"Victor M. Villemain\" AIA architect",
+        "Victor M. Villemain architect New York",
+        "\"Victor M. Villemain\" Experiments in Art and Technology list",
+        "\"Victor M. Villemain\" architect E.A.T.",
+        "",
+        "\"Victor M. Villemain\" architect NYC housing projects",
+        "\"Victor M. Villemain\" E.A.T. membership"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPPrXFknLoPeTWs2aVYrrqEXe8IcrfMA05iK_DbwYYaiCsnf_9Ro-G2y3Jv8IXQ_IXa5EQZuIuyxIRT4KO2TC7VdU_aTXWVB7c5zoe5F1Wher1ewxUO7cQykgXj4tkHk9-_H6yUd90lg8GM-oTEg==",
+          "title": "samflorman.com",
+          "resolvedUri": "https://www.samflorman.com/professional-activities/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 159,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Victor M. Villemain was a New York-based architect and planning consultant active during the 1960s and 1970s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

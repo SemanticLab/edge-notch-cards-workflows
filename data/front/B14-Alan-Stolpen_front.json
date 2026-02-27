@@ -15,5 +15,100 @@
     "technicalFields": [
       "Electrical engineering"
     ]
+  },
+  "wikidata_candidates": [
+    {
+      "qid": "Q57945842",
+      "label": "Alan H Stolpen",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "The name 'Alan Stolpen' is quite rare. While the card identifies him as an electrical engineer in New Jersey and Wikidata identifies him as a researcher, these roles are often compatible in a technical career path (e.g., an engineer transitioning into academic or industrial research). The middle initial 'H' in Wikidata provides a more specific identifier that does not conflict with the card."
+    }
+  ],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Alan Harvey Stolpen (1937–2011) was an American electrical engineer based in New Jersey, active during the late 1960s and 1970s. He specialized in the design of computer power supplies, custom instrumentation, and liquid crystal display research. Stolpen earned his Bachelor of Science in Electrical Engineering (BSEE) in 1966 and his Master of Science in Electrical Engineering (MSEE) in 1970 from the Newark College of Engineering (now New Jersey Institute of Technology). Over his career, he held engineering and project leadership roles at several technical firms, including the Burroughs Corporation, Singer Kearfott (part of The Singer Company), Conrac, D.C.C., and Weston Instruments in Newark. His work at Singer in the late 1960s resulted in several patents for motor speed controllers and switching modules. Stolpen was a highly active member of the Institute of Electrical and Electronics Engineers (IEEE), serving as Chairman of the North Jersey Section and Editor of its newsletter. Given his tenure at Burroughs and Singer during the height of the Experiments in Art and Technology (E.A.T.) movement and his location in the New Jersey technology corridor, he is a likely candidate for the engineer associated with the organization. He resided in Union, New Jersey, for much of his professional life before moving to Branchburg, NJ, where he died in 2011 after retiring from Smiths Industries.",
+        "sources": [
+          "https://www.holcombefisher.com/obituaries/Alan-Stolpen-2579/#!/Obituary",
+          "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6431945",
+          "https://patents.google.com/patent/US3353424A/en",
+          "https://patents.google.com/patent/US3495082A/en"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Alan Stolpen\" electrical engineer New Jersey",
+        "\"Alan Stolpen\" E.A.T.",
+        "\"Alan Stolpen\" patents",
+        "\"Alan Stolpen\" Burroughs Fairchild",
+        "Alan Stolpen engineer \"Experiments in Art and Technology\"",
+        "",
+        "\"Alan Stolpen\" electrical engineer Union NJ",
+        "\"Alan Stolpen\" Fairchild Burroughs",
+        "\"Alan Stolpen\" E.A.T. member",
+        "\"Alan Stolpen\" patent \"power supply\"",
+        "",
+        "patent \"Alan Stolpen\"",
+        "\"Alan Stolpen\" Burroughs Corporation",
+        "\"Alan Stolpen\" Union New Jersey 1960s",
+        "\"Alan Stolpen\" E.A.T. Experiments in Art and Technology"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHonKSfxKARl6IYiOWoSniaxgYOItU-gIkdyPxr7DpjgxW62eSj4Cx32nAd0mwwR59tNXTlQmU_JGo6imER4IUT5-uZcahuwIVkmCVkd_4bEUQM0aHdRW577z31Cexm_h6BpewTEw19xgQ72w2vV6HPQjXN0zK-7bg1Gwvn64pOE5Vpz3ovDcoceypHWBjECw9J",
+          "title": "ovh.us",
+          "resolvedUri": "https://ethw-images.s3.us-east-va.perf.cloud.ovh.us/ethw/3/3f/IEEE_NNJ_1980-04_OCR.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 180,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Alan Harvey Stolpen (1937–2011) was an American electrical engineer based in New Jersey, active during the late 1960s and 1970s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 181,
+            "endIndex": 298,
+            "text": "He specialized in the design of computer power supplies, custom instrumentation, and liquid crystal display research."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 299,
+            "endIndex": 526,
+            "text": "Stolpen earned his Bachelor of Science in Electrical Engineering (BSEE) in 1966 and his Master of Science in Electrical Engineering (MSEE) in 1970 from the Newark College of Engineering (now New Jersey Institute of Technology)."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 527,
+            "endIndex": 753,
+            "text": "Over his career, he held engineering and project leadership roles at several technical firms, including the Burroughs Corporation, Singer Kearfott (part of The Singer Company), Conrac, D.C.C., and Weston Instruments in Newark."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

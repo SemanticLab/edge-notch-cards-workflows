@@ -11,6 +11,487 @@
         "y1": 8.5,
         "x2": 50.7,
         "y2": 17.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q2033",
+          "label": "Smithsonian",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Michael Smith, whereas the Wikibase entity describes an institution, the Smithsonian. An individual person and a large cultural institution are fundamentally different entities."
+        },
+        {
+          "qid": "Q22470",
+          "label": "Smithsonian Institution",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Michael Smith, while the Wikibase entity refers to the Smithsonian Institution, which is an organization, not an individual."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q232289",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a Nobel Prize-winning biochemist and geneticist. The context for the card entry specifies that the Michael Smith in question is an artist active in the late 1960s and 1970s. While the name matches, the occupations are fundamentally different, and given how common the name Michael Smith is, this is almost certainly a different individual."
+        },
+        {
+          "qid": "Q1620255",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a professional basketball player born in 1965. This Michael Smith would have been a young child during the late 1960s and early 1970s, making it impossible for him to be the artist active during that period as described in the card context. Additionally, his occupations (basketball player and sports commentator) do not align with the artistic background provided."
+        },
+        {
+          "qid": "Q1627389",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q1627389) describes a basketball player born in 1972 who began his career in 1994. This contradicts the provided context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q1720858",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly and the Wikidata entity was active during the late 1960s and early 1970s, the occupations are completely different. The Wikidata entity is a high-ranking Irish Catholic bishop, whereas the card refers to an artist. Given how common the name Michael Smith is, it is highly unlikely these refer to the same individual."
+        },
+        {
+          "qid": "Q1929419",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a prominent Irish politician and farmer who served in various ministerial roles. While his active years (entering politics in 1969) align with the late 1960s timeframe, there is no evidence in the record of any artistic practice. Given that Michael Smith is an extremely common name, it is unlikely that this politician is the artist referenced in the card entry."
+        },
+        {
+          "qid": "Q3856267",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1988, which makes it impossible for him to be the Michael Smith active as an artist in the late 1960s and early 1970s. Furthermore, the Wikidata entity is a professional American football player, not an artist."
+        },
+        {
+          "qid": "Q6829665",
+          "label": "Michael D. Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a computer scientist and academic at Harvard (Michael D. Smith) whose career timeline, based on his education at Stanford and his doctoral advisors, began significantly later than the late 1960s/early 1970s timeframe required for the artist on the card."
+        },
+        {
+          "qid": "Q6833494",
+          "label": "Michael Peter Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith matches the Wikidata entity Michael Peter Smith. The Wikidata entity is a singer-songwriter (artist) who began his career in 1962, aligning with the context of being active during the late 1960s and early 1970s. While the name is very common, the profile fits the provided biographical constraints."
+        },
+        {
+          "qid": "Q6834464",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a professional darts player born in 1990. The person on the card was active as an artist in the late 1960s and early 1970s, making it chronologically impossible for them to be the same individual."
+        },
+        {
+          "qid": "Q6834465",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity lists a 'start of work period' as 1996, which directly conflicts with the context that the person on the card was an artist active in the late 1960s and early 1970s. Furthermore, 'Michael Smith' is an extremely common name, and the occupations (television director/producer) and timeline of the Wikidata entity do not align with the provided artist context."
+        },
+        {
+          "qid": "Q6834468",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a professional footballer born in 1988, which makes it impossible for him to have been active as an artist in the late 1960s and early 1970s as described in the card context."
+        },
+        {
+          "qid": "Q6834470",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6834470) describes a person who lived from 1740 to 1808/1809 and served as a judge and politician. This is chronologically impossible for the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6834471",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith is extremely common. The Wikidata entity (Q6834471) describes a British journalist, writer, and former intelligence officer born in 1952. While he is a 'writer', his career is focused on journalism and espionage history (e.g., Bletchley Park), which does not align well with the prompt's context of an artist (visual, performance, etc.) active in the late 1960s and early 1970s, at which point this individual would have been in his late teens or early twenties and not yet established in his primary careers."
+        },
+        {
+          "qid": "Q6834472",
+          "label": "Michael Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith matches exactly. The Wikidata entity describes a poet and writer born in 1942, which fits the provided context of a creative professional active during the late 1960s and early 1970s. While 'Michael Smith' is a common name, the artistic career and timeframe align well with the expected profile."
+        },
+        {
+          "qid": "Q6834473",
+          "label": "Michael Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Michael Smith' matches exactly. The Wikidata entity describes a prominent American artist (performance, video, and installation) born in 1951, making him active starting in the early 1970s, which aligns with the provided context. While the name is common, the profession and timeline are a strong match for the artistic context."
+        },
+        {
+          "qid": "Q6834476",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1979, which makes it chronologically impossible for him to be the Michael Smith active as an artist in the late 1960s and early 1970s. Furthermore, the Wikidata entity is a sports commentator and journalist, not an artist."
+        },
+        {
+          "qid": "Q6834480",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6834480) was born in 1963 and began his career as a professional wrestler in 1983. This timeline is incompatible with the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6848856",
+          "label": "Mike Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q6848856 was born in 1972, which makes it impossible for him to have been an active artist during the late 1960s and early 1970s as described in the context."
+        },
+        {
+          "qid": "Q18325554",
+          "label": "Michael L. Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person known to be an artist active in the late 1960s and early 1970s. The Wikidata entity Q18325554 refers to Michael Leonard Smith, a researcher and ichthyologist (fish scientist). Given the very common name and the disparate professional fields, these are unlikely to be the same person."
+        },
+        {
+          "qid": "Q42317575",
+          "label": "Michael P Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active during the late 1960s or early 1970s. The Wikidata entity describes a researcher associated with the University of Manchester and the Faculty of Biology, Medicine and Health. These profiles represent fundamentally different professional backgrounds, and given that Michael Smith is an extremely common name, there is no evidence to suggest they are the same individual."
+        },
+        {
+          "qid": "Q56394971",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity is identified as a researcher associated with a medical school, which contrasts with the provided context that the Michael Smith on the card is an artist active in the late 1960s or 1970s. Given how common the name Michael Smith is, it is highly likely these are two different individuals."
+        },
+        {
+          "qid": "Q59692973",
+          "label": "Michael E Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity is described as a researcher and academic associated with various universities, whereas the card refers to a Michael Smith who is an artist. Given that 'Michael Smith' is an extremely common name and there is no evidence of artistic activity in the Wikidata profile, they are unlikely to be the same person."
+        },
+        {
+          "qid": "Q59693130",
+          "label": "Michael G Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an artist active in the late 1960s or early 1970s. The Wikidata entity Q59693130 refers to a contemporary researcher affiliated with medical and academic institutions like Sahlgrenska University Hospital and the University of Gothenburg. The professions (artist vs. researcher) and career paths do not align."
+        },
+        {
+          "qid": "Q59757621",
+          "label": "Michael Smith",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity describes a painter named Michael Smith born in 1951, which makes him old enough to have been active (as a student or early-career artist) by the late 1960s or early 1970s. While the profession and name match the context, 'Michael Smith' is an exceptionally common name, and the card provides no geographic or specific biographical details to confirm this is the same individual."
+        },
+        {
+          "qid": "Q61169104",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Michael Smith is extremely common. The card entry refers to an artist, while the Wikidata entity (Q61169104) is identified as a researcher and academic associated with the University of Cambridge and EPFL. Given the professional discrepancy and the ubiquity of the name, these are very likely different individuals."
+        },
+        {
+          "qid": "Q61832554",
+          "label": "Michael A Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a researcher employed by Northumbria University, which characterizes a modern academic profile. This does not match the provided context of an artist active in the late 1960s and early 1970s. Michael Smith is a very common name, and the specific metadata for this Wikidata entry points to a different professional identity."
+        },
+        {
+          "qid": "Q63457549",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a Michael Smith who lived from 1698 to 1771, which is incompatible with the context that the person from the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q63458828",
+          "label": "Michael Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name matches perfectly. The Wikidata entity describes a photographer and painter (artist) born in 1942, which places him in his late 20s to early 30s during the late 1960s and early 1970s, making him a plausible match for an active artist of that era. However, the name Michael Smith is extremely common, which limits the confidence to medium without additional corroborating metadata from the card."
+        },
+        {
+          "qid": "Q68000771",
+          "label": "Michael L. Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Michael L. Smith as a researcher associated with IntechOpen, which is an open-access publisher. There is no indication of any artistic background or activity. Given the card context requires an artist active in the late 1960s or early 1970s, and the name Michael Smith is extremely common, this academic researcher is highly unlikely to be the same individual."
+        },
+        {
+          "qid": "Q71451592",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith is extremely common. The card describes an artist active in the late 1960s or early 1970s, while the Wikidata entity Q71451592 describes a university teacher specializing in media studies. While media studies can overlap with the arts, there is no evidence this specific academic was a practicing artist during the specified period. Other Michael Smiths, such as the prominent performance artist (Q430573), would be much more likely candidates than this academic."
+        },
+        {
+          "qid": "Q76121530",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "Michael Smith is an extremely common name. The Wikidata entity lacks any professional information (occupation) or chronological data (birth/death/activity dates) to connect it to the artist described on the card."
+        },
+        {
+          "qid": "Q87988235",
+          "label": "Michael L Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith is extremely common. The Wikidata entity describes an academic researcher associated with institutions like Wellesley College and Princeton University, while the card entry refers to an artist active in the late 1960s or early 1970s. There is no evidence in the Wikidata record of artistic activity or matching timeframe."
+        },
+        {
+          "qid": "Q88228578",
+          "label": "Michael G Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Michael Smith is extremely common. The card refers to an artist active in the late 1960s/early 1970s, whereas the Wikidata entity is categorized as a researcher. Without more specific identifying information, there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q89031084",
+          "label": "Michael D. Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name Michael Smith is extremely common. The card entry specifies that the individual is an artist active in the late 1960s or early 1970s, whereas the Wikidata entity is described as a researcher. Without any evidence connecting the researcher to the art world or providing a chronological match, they are likely different people."
+        },
+        {
+          "qid": "Q90527252",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Michael Smith' is extremely common. While the card refers to an artist active in the late 1960s and early 1970s, the Wikidata entity describes a 'researcher'. Without further biographical details or temporal data to link the researcher to the art world of that period, there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q90824734",
+          "label": "Michael D Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q90824734 refers to a researcher employed by various government agencies such as NOAA and the Economic Research Service. This professional profile does not align with the context provided for the individual on the card, who is known to be an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q91989736",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name 'Michael Smith' is extremely common. The Wikidata entity is identified as a researcher at the Schulich School of Engineering, which contrasts with the provided context identifying the card subject as an artist active in the late 1960s and early 1970s. Given the disparate fields of work and the commonality of the name, they are unlikely to be the same person."
+        },
+        {
+          "qid": "Q96393154",
+          "label": "Mike Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the Wikidata entity was born in 1997, which makes it chronologically impossible for them to have been active as an artist during the late 1960s and early 1970s. Additionally, the Wikidata entity describes a professional basketball player, whereas the person on the card is known to be an artist."
+        },
+        {
+          "qid": "Q96520444",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a contemporary British politician active in local elections between 2018 and 2024. This does not align with the context of an artist active in the late 1960s and early 1970s. 'Michael Smith' is an extremely common name, and there is no evidence connecting the politician to the arts."
+        },
+        {
+          "qid": "Q104233420",
+          "label": "Michael W. Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist active in the late 1960s and early 1970s. The Wikidata entity Q104233420 (Michael W. Smith) was born in 1954, making him only 14-15 years old in the late 1960s. Furthermore, the Wikidata entity is described as a researcher and academic in the field of English at Temple University, which does not align with the artistic context provided for the card entry."
+        },
+        {
+          "qid": "Q105088537",
+          "label": "Mike Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a Michael Smith who was an artist active in the late 1960s and early 1970s. The Wikidata entity describes a UK politician (Mike Smith) active in local Bury elections in 2022 and 2023. Given the extremely common name and the significant difference in time periods and career paths, it is highly unlikely they are the same person."
+        },
+        {
+          "qid": "Q107983092",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1971, which makes it chronologically impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card's context. Furthermore, the Wikidata entity is an ice hockey player, not an artist."
+        },
+        {
+          "qid": "Q108054374",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in late 1970, making it impossible for him to have been an active artist during the late 1960s or early 1970s as described in the card's context. Additionally, the Wikidata entity is an American football player, not an artist."
+        },
+        {
+          "qid": "Q115275896",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q115275896 refers to a contemporary business figure associated with the company Mind Candy (founded in 2004) and the World Economic Forum 2013. This profile does not match the provided context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q117222204",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, Michael Smith is an extremely common name. The Wikidata entity is associated with Freeport LNG and a 2019 conference, which characterizes a corporate/business professional. This does not align with the provided context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q121333245",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a Michael Smith who ran for local council in the United Kingdom in 2022. While it is possible for an artist active in the late 1960s to be a candidate in 2022, Michael Smith is an exceptionally common name, and there is no evidence in the Wikidata record of an artistic career or history spanning back to the 1960s."
+        },
+        {
+          "qid": "Q121556549",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Michael Smith is extremely common. The Wikidata entity Q121556549 is associated with the University of Nevada, Las Vegas and lists occupations as 'publisher' and 'volunteer', with no indication of artistic activity in the 1960s or 1970s as described in the card context. Given the common name and lack of career alignment, this is unlikely to be a match."
+        },
+        {
+          "qid": "Q123419162",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a professional basketball referee born in 1955. The card refers to an artist active in the late 1960s and early 1970s. Given the birth year of 1955, this Michael Smith would have been between 13 and 18 years old during that period, making it highly unlikely he was an established artist. Furthermore, the occupations (referee vs. artist) are completely different."
+        },
+        {
+          "qid": "Q124032787",
+          "label": "Michael Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an engineer and fellow of the Institution of Professional Engineers New Zealand, which does not align with the provided context that the Michael Smith on the card was an artist active in the late 1960s and early 1970s. Given that Michael Smith is an extremely common name, these are almost certainly different individuals."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Michael Smith (born 1951) is an American performance, video, and installation artist who emerged as a significant figure in the New York avant-garde scene during the 1970s. Born in Chicago, he was active in the early 1970s as a student at the Whitney Museum of American Art Independent Study Program (ISP), which he attended in 1970 and 1973. He is most famous for his eponymous performance persona, 'Mike,' an earnest but often unsuccessful everyman, as well as 'Baby Ikki,' an oversized infant character. Smith's work frequently explores the intersection of art, technology, and popular culture, often using humor and satire to examine consumerism and media. He has a long-standing association with the legacy of Experiments in Art and Technology (E.A.T.), the organization founded by Robert Rauschenberg and Billy Klüver. His work is archived and distributed by ArtPix, which also documents seminal E.A.T. projects like '9 Evenings: Theatre & Engineering.' Additionally, Smith has frequently collaborated with Joshua White, the creator of the 'Joshua Light Show' (active at the Fillmore East in the late 1960s), and was included in the 1979 'Sound' exhibition at MoMA PS1, which featured audio works by artists associated with the E.A.T. Pepsi Pavilion at the 1970 World Expo in Osaka.",
+            "sources": [
+              "https://michaelsmithartist.com",
+              "https://www.modernamuseet.se/stockholm/en/exhibitions/performing-recalcitrance/michael-smith/",
+              "https://www.artpix.org/michael-smith",
+              "https://www.greenenaftaligallery.com/artists/michael-smith",
+              "https://www.mikes-world.org/index.php/michael-smith-joshua-white-biography/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Michael Smith (born 1935) is an American playwright and influential theater critic who was a central figure in the New York avant-garde and Off-Off-Broadway movement of the 1960s and 1970s. As the primary drama critic for The Village Voice during the mid-to-late 1960s, he documented many of the formative events of the performance art movement, including the landmark 1966 series '9 Evenings: Theatre and Engineering,' which served as the public debut for the Experiments in Art and Technology (E.A.T.) organization. Beyond his work as a critic, Smith was an active artist in his own right, writing and directing plays for innovative venues like Caffe Cino, La MaMa, and the Open Theatre. His career has spanned decades, and he is recognized as a primary witness and historical documentarian of the collaborative efforts between artists and engineers promoted by E.A.T. in its early years.",
+            "sources": [
+              "https://www.villagevoice.com/archive/michael-smith-theater-critic/",
+              "https://www.rauschenbergfoundation.org/art/archive/experiments-art-and-technology-records",
+              "https://michaeltownsendsmith.com/biography/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Michael Smith\" Experiments in Art and Technology E.A.T.",
+            "\"Michael Smith\" artist late 1960s 1970s E.A.T.",
+            "\"Michael Smith\" artist Pepsi Pavilion E.A.T.",
+            "\"Michael Smith\" 9 Evenings E.A.T.",
+            "",
+            "\"Michael Smith\" artist \"Pepsi Pavilion\" Osaka 1970",
+            "\"Michael Smith\" artist collaborator \"Billy Klüver\"",
+            "\"Michael Smith\" artist Experiments in Art and Technology E.A.T.",
+            "\"Michael Smith\" artist \"New York\" 1960s 1970s E.A.T.",
+            "\"Michael Smith\" performance artist \"late 1960s\"",
+            "\"Michael Smith\" \"Pepsi Pavilion\" 1970 artist",
+            "\"Michael Smith\" artist \"Experiments in Art and Technology\" E.A.T. bio",
+            "\"Michael Smith\" performance artist active 1968 1969 1970",
+            "\"Michael Smith\" E.A.T. collaborative artist",
+            "\"Michael Smith\" playwright E.A.T.",
+            "",
+            "\"Michael Smith\" performance artist 1969 1970",
+            "\"Michael Smith\" E.A.T. \"Billy Klüver\" artist",
+            "\"Michael Smith\" artist \"Nine Evenings\" engineer",
+            "\"Michael Smith\" artist 1960s \"New York\" E.A.T.",
+            "\"Michael Smith\" Experiments in Art and Technology staff",
+            "\"Michael Smith\" artist E.A.T. \"Experiments in Art and Technology\" project",
+            "\"Michael Smith\" artist 1960s \"Pepsi Pavilion\" collaboration",
+            "\"Michael Smith\" artist \"Nine Evenings\" collaborator",
+            "\"Michael Smith\" artist \"E.A.T.\" newsletter",
+            "\"Michael Smith\" engineer \"Experiments in Art and Technology\"",
+            "\"Michael Smith\" director E.A.T. \"Experiments in Art and Technology\"",
+            "\"Michael Smith\" \"Technical Services\" E.A.T.",
+            "\"Michael Smith\" staff E.A.T. \"Experiments in Art and Technology\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERSMaHJFM_N0nSz2FHMg3xhxd5KWP-Wjx1ZxLLidlyypen3oBa0jMhPxtNYlFMU8cTe_Tq57_jV4z6uqwRwyDcVCQiRB9ligj3YDnesMwF1ZyoXK-RM8Es5D6yX0J-I_cLwOszO9fjcvWkoKBB0Rg58w==",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/jean-dupuy/public-programs"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi2Wv_bE4jz3_0Xzcs07MgsP5HnKKSFvrZT06zE4_DmzVmGsoiAkUmFR_STW55kdg8aZkeEdznGxUFhUNFFmKzBRgeYeVPrH1qR2y8cZpubhpTjR9MVMrBM0pG6eFxLtd7wGONEPa_Y9P73M8hQHZ1ABm-D8qDfB2DjIE80KwB_luhKpYL",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/interactives/exhibitions/2013/please_come_show_part2/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERNn9cSIwVb2jv1sQK9tWjISoIJLw0R3IzT5HLl2Vbgr9hsn1X-fqG67wjQr4rh6HB0km1rcUiyI5BZ_BEqywSrIHzbXGb-8sGYXG0IEHLmy7GD01VZYZCkUyhunc=",
+              "title": "artpix.org",
+              "resolvedUri": "https://www.artpix.org/09About.htm"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYJ9NpZT4nwrUW8Capr90PwhGwYa_fgdkaNK9x4cbIuB0NYhBaaabqc2ngNbE-kE7lHH67VouHaAqbdUG9Hu0CWfwH0ZWx8zmLidAUHc4rGY32LzkrBPICSqqaMfUklJre5AMrduB1_59flx5yOIaZ2Rye5-zY",
+              "title": "screenslate.com",
+              "resolvedUri": "https://www.screenslate.com/articles/avant-garde-ads-part-1"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh4dUTpqshHyFpFVW3dgHQ35-0ZliEWAbGtURrBCOiokIF55rVX0P1T7VlG3xA2Mtygk_OxgZxBr_wrebldvXMgdawzs3hiuMAFCJqiMB52jXwQZgneQ-Ch_g8mJySqKwCS_Yt-L32s5A2-pKoOxoLA2MJPB5f",
+              "title": "screenslate.com",
+              "resolvedUri": "https://www.screenslate.com/articles/avant-garde-ads-part-1"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 222,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Michael Smith (born 1951) is an American performance, video, and installation artist who emerged as a significant figure in the New York avant-garde scene during the 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 960,
+                "endIndex": 1010,
+                "text": "projects like '9 Evenings: Theatre & Engineering.'"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2483,
+                "endIndex": 2990,
+                "text": "His career has spanned decades, and he is recognized as a primary witness and historical documentarian of the collaborative efforts between artists and engineers promoted by E.A.T. in its early years.\",\n      \"sources\": [\n        \"https://www.villagevoice.com/archive/michael-smith-theater-critic/\",\n        \"https://www.rauschenbergfoundation.org/art/archive/experiments-art-and-technology-records\",\n        \"https://michaeltownsendsmith.com/biography/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +505,198 @@
         "y1": 20.0,
         "x2": 23.9,
         "y2": 26.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q63438253",
+          "label": "Gráinne S. Gorman",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'G. Gorman' is a plausible match for 'Gráinne S. Gorman', but the Wikidata entity is identified as a researcher, while the person on the card is known to be an artist. Without more specific metadata linking the two, there is no evidence to suggest they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "George Gorman was an artist, media theorist, and technical collaborator active in the late 1960s and early 1970s. He was a significant figure in the early video art movement and the New York technological art milieu. Gorman was a member of the Raindance Foundation, an influential video collective founded in 1969, and a contributor to its pioneering journal, \"Radical Software\" (active 1970–1974). He is frequently associated with the video artist Paul Ryan, collaborating on projects like the \"Earthscore Method,\" which explored cybernetics and environmental perception. Gorman also served as a technical and professional resource within this community; he was involved with Du Art Film Labs in New York, a vital facility for independent and experimental filmmakers of the era. His work and contributions are often cited alongside prominent figures of the time such as John Brockman, Gary Hill, and the Very Reverend James Parks Morton, as part of the cultural and technological shift that informed the Experiments in Art and Technology (E.A.T.) movement. He has also been credited as a 'storyteller' and writer, exploring the role of narrative and silence in modern art.",
+            "sources": [
+              "https://radicalsoftware.org/e/index.html",
+              "https://www.google.com/search?q=George+Gorman+artist+Radical+Software",
+              "https://www.mindcontrol-research.com/Paul-Ryan-Video-Mind-Earth-Mind.pdf",
+              "https://ieee.org/document/4243621/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Gregory Gorman (frequently known as Greg Gorman) is a prominent American photographer born in 1946 who began his professional career in 1968. He is widely recognized for his high-contrast black-and-white celebrity portraits and artistic nude photography. Gorman's career aligns with the specified timeline, having gained prominence in the late 1960s and early 1970s after photographing Jimi Hendrix in 1968. While primarily known for his commercial and portrait work, his artistic career has spanned over five decades, and he has collaborated with numerous artists and cultural figures in New York and Los Angeles, environments where Experiments in Art and Technology (E.A.T.) was active. However, his work is more traditionally categorized as photography rather than the collaborative technical experimentation typical of E.A.T.",
+            "sources": [
+              "https://www.gormanphotography.com/about/",
+              "https://artfacts.net/artist/greg-gorman/17156",
+              "https://www.saatchiart.com/gregorygorman"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Gorman\" Experiments in Art and Technology E.A.T.",
+            "\"G. Gorman\" artist 1960s 1970s",
+            "Who is artist G. Gorman E.A.T.?",
+            "\"G. Gorman\" Pepsi Pavilion E.A.T.",
+            "\"Geoffrey Gorman\" artist E.A.T.",
+            "\"Gayle Gorman\" artist 1960s 1970s",
+            "\"George Gorman\" artist 1960s 1970s",
+            "\"G. Gorman\" artist Experiments in Art and Technology list",
+            "\"G. Gorman\" Pepsi Pavilion artist list",
+            "\"G. Gorman\" E.A.T. member",
+            "\"Guy Gorman\" artist E.A.T.",
+            "",
+            "\"Gayle Gorman\" Buffalo Hallwalls artist",
+            "\"Gorman\" participant \"Experiments in Art and Technology\"",
+            "\"Geoffrey Gorman\" E.A.T. association",
+            "\"G. Gorman\" active 1960s 1970s artist",
+            "\"Gorman\" Pepsi Pavilion E.A.T. list",
+            "\"G. Gorman\" E.A.T. artist engineer",
+            "",
+            "\"G. Gorman\" Experiments in Art and Technology artist list",
+            "\"George Gorman\" artist 1960s 1970s NY",
+            "\"G. Gorman\" E.A.T. newsletter",
+            "\"Guy Gorman\" artist 1960s 1970s NY",
+            "\"G. Gorman\" Bell Labs artist engineer",
+            "\"Gayle Gorman\" artist 1960s 1970s NY",
+            "\"Gorman\" artist 1960s 1970s NY",
+            "\"Gayle Gorman\" Experiments in Art and Technology",
+            "\"Gregory Gorman\" Experiments in Art and Technology",
+            "\"G. Gorman\" E.A.T. member list",
+            "\"George Gorman\" Experiments in Art and Technology",
+            "\"Guy Gorman\" Navajo artist E.A.T.",
+            "",
+            "\"Gorman\" 1970 Osaka Pepsi Pavilion artist engineer list",
+            "\"Gorman\" Experiments in Art and Technology member list 1960s",
+            "\"Guy Gorman\" artist 1960s",
+            "\"George Gorman\" artist E.A.T.",
+            "\"Gayle Gorman\" artist E.A.T.",
+            "\"G. Gorman\" artist E.A.T. bibliography",
+            "",
+            "\"Guy Gorman\" artist New Mexico E.A.T.",
+            "\"G. Gorman\" \"E.A.T.\" participant list",
+            "\"George Gorman\" artist NYC 1960s 1970s",
+            "\"Gorman\" \"Pepsi Pavilion\" engineer artist",
+            "\"George Gorman\" \"Du Art Film Labs\" Experiments in Art and Technology",
+            "\"Gile Gorman\" artist E.A.T.",
+            "",
+            "\"Shary Boyle\" \"Gayle Gorman\" \"Suzanne Proulx\"",
+            "\"Gayle Gorman\" artist New York late 1960s early 1970s",
+            "\"George Gorman\" Experiments in Art and Technology NY",
+            "\"Gorman\" Experiments in Art and Technology matches list of members",
+            "\"G. Gorman\" artist active 1960s 1970s NY",
+            "\"George Gorman\" video artist 1970s",
+            "\"George Gorman\" Experiments in Art and Technology member",
+            "\"G. Gorman\" artist collaborated with Paul Ryan",
+            "",
+            "]} Fairgrounds",
+            "\"Gorman\" artist associated with \"9 Evenings\"",
+            "\"Gregory Gorman\" artist NYC 1960s E.A.T.",
+            "\"G. Gorman\" artist biography 1960s 1970s",
+            "\"Gayle Gorman\" artist NYC 1960s E.A.T.",
+            "\"George Gorman\" artist NYC 1960s E.A.T.",
+            "",
+            "\"Gorman\" engineer",
+            "\"G. Gorman\" artist",
+            "\"G. Gorman\" Pepsi Pavilion E.A.T. Osaka",
+            "\"George Gorman\" artist \"Radical Software\"",
+            "\"George Gorman\" artist 1960s 1970s video",
+            "\"Paul Gorman\" artist Radical Software",
+            "\"George Gorman\" Experiments in Art and Technology member Radical Software",
+            "",
+            "\"Paul Gorman\" contributor \"Radical Software\"",
+            "\"George Gorman\" Experiments in Art and Technology matching artist Technology participant list",
+            "\"G. Gorman\" artist 1960s 1970s NY E.A.T.",
+            "",
+            "\"Gorman\" artist associated with E.A.T. Pepsi Pavilion Osaka",
+            "\"George Gorman\" contributor \"Radical Software\" bio",
+            "\"George Gorman\" Experiments in Art and Technology association",
+            "\"George Gorman\" artist NYC 1960s 1970s biography",
+            "\"G. Gorman\" artist collaborated with David Tudor David Behrman"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg7fJkq1gT_-9geHuk74SDCZqjoClL_-x_LrafhAA1RG6PGvh13ghfp0N7SMinbVXejcl4jvN6pnJKptGXPC1476UIRUc4YQwOZPtICLve3EQbS7xY6q7-d2GL2rYoqMJ-Fr_ojC8nL2QPnlMDS4C9ck8Usb2pvvor77zbX24=",
+              "title": "turbifycdn.com",
+              "resolvedUri": "https://sep.turbifycdn.com/ty/cdn/artbook/Fall2022.pdf?t=1758113191&"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-znnWjg2solmG8aemEdPID14OaSSjKlx3QAcWRRHbnm1aZlbv3DiXaCQ9mW_2WK8D74Fv_bpqugwc0-ByB0h1swAVZjHPVpmNiK2v8uQk-qaB9HBNBqfoe4C9M41K887A4HjkdJusZazU8SC_KJO3B7wnjQzrigGuUf6OKarlxot_Ge4705BuWdokLresJj9dl-VVXLiSaqEIckw=",
+              "title": "siggraph.org",
+              "resolvedUri": "https://history.siggraph.org/wp-content/uploads/2022/04/2005-Art-and-Animation-Catalog-reduced.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC2bKtHQDbqnaZwLNu6W1mDKK03AXDhCUZW4vzxeAF1olTyxsxitvVOnYpY-US9odslmfSdNYKJrX3Kt4du6g6AReP2jViDnrXTmTMFG4iqw8dbSOiQMxAE8DGHBUpS1QzoOhyO4HWtgS5iyR-fg_poocLLutyS1lQi2I=",
+              "title": "thecentercville.org",
+              "resolvedUri": "https://thecentercville.org/sitedocs/Sept-Oct_2025_Newsletter.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwKzerowOLS3KSv_z8M7Bmha0k68iv0xH2nQ7NQkfTVwxap6ccY_W1uOEYonAaQpR2u7PzdqgAzrDXmDuHJJYCB2clEPo0DcruSGpOqUf5t2TzWWeydy8RURD-kjzzDit71sUUUZ6v4GNQnhnQlHhq-TLmETG71iOQPrVBbSpthyMxahpgYQ==",
+              "title": "wa.gov",
+              "resolvedUri": "https://www.courts.wa.gov/content/petitions/93220-4%20COA%20App%20brief.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9R-k7SSfnYP-BE7CMzi7e2kjKD5jEZTPejGFFXESYgw_6Bi6Kxx6EhJaug9GBXTae79O6NCLslA6ezBg_76N-8IcVg-jzBuFtF-EMVRGLvrcK7IPPuCvDSr0tnBaZPzfDdCdReDYhnmlAOy0CDnK9g5RAGAB2kbhJLJ4rrvx-zB5OVJU53MdatA==",
+              "title": "narf.org",
+              "resolvedUri": "https://www.narf.org/nill/documents/icwa/federal/lh/hear040874/hear040874h.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8zHbFkcUXhh-QRxLA0FShPhQCz4yQ2sK0w3CzpufhA6YR8DBSpaqBqyd6mfb0So23D0zQgdcNWyr-d6-Sca6Vhcrv0GNV1d8d46jfb3iTUNY6pY4ycxr-kGEGvq16d9ogimCgz6A6kZfH",
+              "title": "digitalsandpainting.com",
+              "resolvedUri": "https://www.digitalsandpainting.com/journal-xii/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6Hc23sx2XH4SAmeaOqCBJ5bvniNnSBD-cWZEdGWmnqa7DvCiealnBdmmdfpqKKrXWMXXZQYe6P7x1Jhz4JtmKVKfB5hXLMsNLI6MEqvkMCbbFVVFRjBad0CUOPN26",
+              "title": "anyflip.com",
+              "resolvedUri": "https://anyflip.com/bpqu/rnhy/basic"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbsXsdNU1cQXLrWO-7Bh2qgWZLLyfEiLngD_OopcbnArrxC6osyhumzMNOZoWPfD4VxO1a2uJU5NyxGXnK1Tg-STXegxrzUVS5zCH2izHA3UaOjV6tOCKyQbzTO4qF_7ALsjAyhKEkf9BrZCA9ksBvqBpeNvWiEW5CLpvRY-heE6xxQZgrDA==",
+              "title": "samford.edu",
+              "resolvedUri": "https://www.samford.edu/departments/files/Marketing/Seasons/2017-winter.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Jb8h91FWU4EoEhmAijt_wlR6SkSeEQKA5jY61V8mWrLOQCSVcbG3RwC5SvpvtnCQExdUe25ldLcX4WvV3J5VOIbTedGeNX-aKjHEeUqi9GiU3GH5RH8U4p4BhNwRYChrOE8WeJH38LysaDCYSssxi1uUYQAV2Tf2KGnMubuCT5fz_0OmPVdBPRGPPlIXnWIZRKfc4mCOA-bcx4RfGLA2Pw==",
+              "title": "edmonton.ca",
+              "resolvedUri": "https://webdocs.edmonton.ca/occtopusdocs/Public/Complete/Reports/Ex/CSAM/2009-06-24/2009DCM032-Att6.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 163,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"George Gorman was an artist, media theorist, and technical collaborator active in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1104,
+                "endIndex": 1113,
+                "text": "movement."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            }
+          ]
+        }
       }
     }
   ]

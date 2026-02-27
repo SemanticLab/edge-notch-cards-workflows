@@ -19,5 +19,91 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art."
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q23880618",
+      "label": "Ron Farrell",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to a Chief Engineer for S.K.F. Industries living in Bremen, Indiana, while the Wikidata entity refers to a New Zealand rugby league player born in Gisborne."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q117115509",
+      "label": "S.K.F. Industries, Inc.",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'S.K.F. Industries' on the card is an exact match for the Wikidata entity 'S.K.F. Industries, Inc.' (excluding the corporate suffix). Both identify a major industrial organization involved in bearing manufacturing, which aligns with the 'Bremen Bearing Division' and 'Needle bearing design' mentioned on the card. Large industrial firms like SKF typically have multiple locations (e.g., Bremen and Hartford)."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Ron Farrell was an engineer and a prominent watercolorist based in Bremen, Indiana, during the late 1960s and 1970s. He served as the Chief Engineer of a division at S.K.F. Industries (specifically the Tyson Bearing division plant located in Bremen). In addition to his technical career, Farrell was a well-known artist specializing in Midwestern scenes. His dual background as a professional engineer and a recognized painter led to his association with Experiments in Art and Technology (E.A.T.), a non-profit organization that facilitated collaborations between the artistic and technical communities. Farrell's artwork received various accolades, including the Lester E. Munson Purchase Prize at the Union League Art Show in Chicago and awards from galleries in the Michiana area. He was also an artist member of several regional art societies and frequently conducted watercolor demonstrations.",
+        "sources": [
+          "https://www.culverahs.com/the-culver-citizen-index",
+          "https://www.buchananlibrary.org/buchanan-news-index",
+          "https://archive.org/details/sim_iron-and-steel-engineer_1958-05_35_5"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "\"Ron Farrell\" E.A.T. engineer",
+        "\"Ron Farrell\" Experiments in Art and Technology",
+        "\"Ron Farrell\" S.K.F. Industries Bremen Indiana",
+        "\"Ron Farrell\" Experiments in Art and Technology E.A.T.",
+        "\"Ron Farrell\" SKF Industries Bremen",
+        "\"Ron Farrell\" E.A.T. technical person",
+        "\"Ron Farrell\" engineer \"Bremen, Indiana\"",
+        "\"Ron Farrell\" Experiments in Art and Technology SKF",
+        "",
+        "\"Ronald Farrell\" E.A.T. engineer",
+        "\"SKF Industries\" Bremen Indiana \"Chief Engineer\"",
+        "\"Ron Farrell\" SKF engineer",
+        "\"Ron Farrell\" Tyson Bearing Bremen Indiana engineer",
+        "",
+        "\"Ron Farrell\" painter engineer Bremen Indiana",
+        "\"Ron Farrell\" SKF Industries artist",
+        "\"Ron Farrell\" Experiments in Art and Technology Bremen",
+        "",
+        "\"Ron Farrell\" engineer artist Bremen",
+        "\"Ron Farrell\" SKF Bremen Chief Engineer",
+        "",
+        "\"Ron Farrell\" watercolorist Bremen engineer",
+        "\"Ron Farrell\" SKF \"Bremen\"",
+        "\"Ron Farrell\" \"E.A.T.\" engineer artist",
+        "\"Ron Farrell\" SKF Industries chief engineer",
+        "\"Ronald Farrell\" SKF chief engineer",
+        "\"Ron Farrell\" watercolor painter Bremen Indiana engineer",
+        "\"Ron Farrell\" SKF Industries E.A.T.",
+        "\"Ron Farrell\" Bremen Indiana engineer SKF"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-OrvSDL1X26ar1NFmoExZf21oB5Hlo5DIx5mnbwlaoe7DhguC4Ubnd1fd-g6wed49Zr_Ci5m38hdI3U3lCraqkSoKTxgoaUeC16AwQy9g22Ib1pMSombr2NeUMaPC48IESELbmDndQzc2K60VczsLbPP16lBsW2DYYvlKjg==",
+          "title": "buchananlibrary.org",
+          "resolvedUri": "https://www.buchananlibrary.org/files/64c371a82/1980-09-25_BCR.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 295,
+            "endIndex": 398,
+            "text": "In addition to his technical career, Farrell was a well-known artist specializing in Midwestern scenes."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

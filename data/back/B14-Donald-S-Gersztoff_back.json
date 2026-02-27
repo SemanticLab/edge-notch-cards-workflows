@@ -9,6 +9,121 @@
         "y1": 7.8,
         "x2": 49.5,
         "y2": 18.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q822346",
+          "label": "Bernard Childs",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Bernard Childs matches exactly. The Wikidata entity describes a painter and printmaker who lived from 1910 to 1985, which aligns perfectly with the 1969 date on the index card. The artist's prominence and activity during this period further support the identification."
+        },
+        {
+          "qid": "Q21078956",
+          "label": "Charles Bernard Childs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Charles Bernard Childs) died in 1956, whereas the card entry is dated 1969. Additionally, the Wikidata entity was an academic and physicist (Fellow of the Royal Society of Edinburgh), not an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bernard Childs (1910–1985) was an influential American painter, printmaker, and sculptor known for his innovative use of technology and industrial tools in art. Born in Brooklyn and active in both New York and Paris, he is best recognized for pioneering a technique called \"power drypoint,\" which involved using high-speed industrial power tools—such as drills and rotary burrs—to engrave metal plates directly. His work was highly experimental, often bridging the gap between abstraction and figuration. In the late 1960s and early 1970s, Childs expanded his artistic practice into three-dimensional illuminated sculptures made from engraved acrylic sheets (Plexiglas) that were lit from below to explore light, color, and symbolic motifs. This interest in combining art with technological and industrial elements aligns with the spirit of the Experiments in Art and Technology (E.A.T.) organization active during that period. His work was featured in a major retrospective at the Storm King Art Center in 1969, which showcased his paintings, prints, and light sculptures. Throughout his career, he maintained studios at the Hotel Chelsea in New York and in Paris, exhibiting extensively at venues like the Stedelijk Museum and the Tokyo International Print Biennial.",
+            "sources": [
+              "https://www.annexgalleries.com/artists/biography/414/Childs/Bernard",
+              "https://en.wikipedia.org/wiki/Bernard_Childs",
+              "https://www.artworkarchive.com/profile/bernard-childs",
+              "https://www.meer.com/en/23847-bernard-childs"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bernard Childs painter printmaker biography",
+            "Bernard Childs artist 1960s 1970s",
+            "Bernard Childs artist biography E.A.T. Experiments in Art and Technology",
+            "\"Bernard Childs\" Experiments in Art and Technology",
+            "\"Bernard Childs\" E.A.T. artist association",
+            "\"Bernard Childs\" acrylic light sculptures E.A.T.",
+            "\"Bernard Childs\" \"E.A.T.\" directory",
+            "\"Bernard Childs\" \"Experiments in Art and Technology\" association",
+            "\"Bernard Childs\" artist E.A.T. collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdAfj7amfSXdSoWtpELvyPxLH9RR5vUZ6FLSbpcbTfKXazRlcICnfQ-DD-60YUYvkLmddGsVd5gGUY906sRN9RekAn7Lp5B4nKnYayu1E7QhnjJQbuTMDpKB3Oq5OOpe5Zcazgt307KJJROGEOs8mNyeSnDnGdEKpFZoK_t11v5q5yAte6TWwzApR_xlhp",
+              "title": "bostonprintmakers.org",
+              "resolvedUri": "https://www.bostonprintmakers.org/wp-content/uploads/2021/09/thINK_catalog_2010.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7iuuBPFpf74dBZLAOhU94BjKv2999YmWAoE9ld2vwM8FccQH2f5EXdYunn9K_Ir2CrGM7hf6M25MkYu7RH6e2ANdWQuKc6GHH-m1MgqjCnA42xYI6edXBQ-Riidm_m1j6Se6x8UjNMTUOlSaciLk=",
+              "title": "archief.amsterdam",
+              "resolvedUri": "https://archief.amsterdam/archives/pdf/30041.ead.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAdQjpTMj2abu5P_IYT0FzNt_jCQy-9sD1cL_3vFxLZSpiliXGJMS8xIwcoO8T24h14hdZaP6z40hOeSJzhaD0i-TqVrOYFUJSt6FsxgDWCemRyA6YPeLQ5CGl8nXfxvgpY0autElSHQ==",
+              "title": "antiqua.se",
+              "resolvedUri": "https://www.antiqua.se/pdf/Catalogue%2023.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRMLQL6M2wgXTCtw6c1pCWKf_HOf-OUgOVqJTCzmw86_cLwkuReUpZdy_zC0qXNQmOtWLRLc4Mg8ylEEVMNsxtx-5ui5NofWzy0Q2JXja0B8LMAcnd9DwOcWoiv0O0QXE_6ABGnJDtpSPaUcWkICCqwbm6-KpDR9lXoXb0",
+              "title": "smith.edu",
+              "resolvedUri": "https://scma.smith.edu/sites/default/files/SCheMA%2B2008-2009.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcpm2_BNrj_0Yb4Kn-hvFLd_Pm6YBRZFmwbmbCTNAsv8DaattJlJFHEfDlavbRJL9aRHBD1jV2ZFpDp_sLa3YRAg28WSU4Lqprsxy8WSE68zoL71_1qzvDpYJOXvfrbAPQF5gcIVvbocQA6Lsj6PWwq-Mqftck-xPSjmzHPDkfwevAyEij-g==",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/georgemosse00reel94/georgemosse00reel94_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-3hXQqqdPmZWybgiXLzQBSLVjxeilnVx7PoLW3Pv72_AvSN0oBkyATWEE_JFKNsOEP1m-LyUGe6jPD-lmJ76KZLVDHwdiLOfMVq2xnce9ues6otE8VTHqYtTP4h05JutwnmWnqa1lY-6_n5toWvD_iCTz_sF89sCLS4Y5C-PMj13bAlPOchO5jkTj3G48UcT_ThngMYw8slqKcQlv8QcB4fkn3JR2rNilDvz_IHU6REks_3TApZVSuXOqtkg=",
+              "title": "unimi.it",
+              "resolvedUri": "https://air.unimi.it/retrieve/dfa8b9a1-73ab-748b-e053-3a05fe0a3a96/DColombo_Methodologies%20of%20Exchange_rivista%20CIMA_2020.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE351Pu-fjt9f-BO01_UB-w6-hhRLbXEV_0lDE9XxfDFShDvdbXk9PyMAvdyzBxOfncTF4DhAM3lVXDGzpuznL-U9IFpmiZkCWPiu2hgpvlVTIMPoypZTWqLs-RfYbgLzhJsRUXcijwyyPngN4HX9kMYT3I872O58iKhE18aceL1yhE_vrGDEKqsKI=",
+              "title": "cuny.edu",
+              "resolvedUri": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1751&context=gc_etds"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_nPaYk7MtXHI8Su2DBsOES9G4FSiKC_UZ41ymUVO1ofR4W26Lv5ypk_yLqDI8b-QCa3pW6UL11z3rlPgFJLsU4qR2bVU2AlpaXCcxgghqw6Af8g_5FF66wnHPBdl3dbyJjN3mbG_bCVA1_chsSXBdoN77VYlTip4ir8oFMcAc42RWazTnE3gD3Hgq9VhyBatxwh0QFVREUmNYi5mN5WbNwgWCcsqNAZMsBkcK",
+              "title": "wikidata.org",
+              "resolvedUri": "https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Whitney_Museum_of_American_Art"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 212,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Bernard Childs (1910–1985) was an influential American painter, printmaker, and sculptor known for his innovative use of technology and industrial tools in art."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 946,
+                "endIndex": 985,
+                "text": "organization active during that period."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                0,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -21,6 +136,87 @@
         "y1": 15.0,
         "x2": 53.8,
         "y2": 26.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q463668",
+          "label": "Larry Silverstein",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name matches exactly. While the Wikidata entity is primarily known as a real estate developer, he is also listed as an architect and attended the High School of Music & Art, which fits the 'artist of some kind' context provided. The 1969 date aligns with his active career in New York, and the 'Rivers' metadata likely refers to the artist Larry Rivers, suggesting a connection within the New York art and architecture scene of that era."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Larry A. Silverstein (born 1931) is primarily known as a billionaire real estate developer (Silverstein Properties) who rebuilt the World Trade Center. However, he has a strong historical connection to the arts, having graduated from the High School of Music and Art in New York City (Class of 1948). He and his wife, Klara, are prominent art collectors and patrons. Verifiable records from the Museum of Modern Art (MoMA) associate his name with the organization Experiments in Art and Technology (E.A.T.), specifically as a supporter or donor listed in relation to the '9 evenings: theatre and engineering' event series and publications in 1966. Silverstein has described himself as being 'passionate about public space art' and has collaborated with numerous contemporary artists, including Frank Stella, Jeff Koons, and Jenny Holzer, to integrate art into his commercial real estate projects.",
+            "sources": [
+              "https://www.wtc.com/art",
+              "https://en.wikipedia.org/wiki/Larry_Silverstein",
+              "https://www.moma.org/calendar/exhibitions/3860",
+              "https://observer.com/2023/11/business-of-art-power-list-2023/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Lawrence (Larry) Richard Silverstein (1941–2025) was an artist and art educator active in New Jersey from the late 1960s through the early 2000s. He earned a degree in arts education from Jersey City State College in 1966 and spent 38 years teaching art in the Franklin Township school district. Alongside his teaching career, he was a member of the First Mountain Crafters artist guild and exhibited his work at various art shows. During the late 1960s and 1970s, he also worked as a movie theater projectionist at the Maplewood Movie Theater, a role he maintained for two decades while pursuing his creative practice.",
+            "sources": [
+              "https://www.menorahchapelsatmillburn.com/obituaries/Lawrence-Larry-Silverstein-Livingston-NJ/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Larry Silverstein was a physicist and researcher at the Polytechnic Institute of Brooklyn (Brooklyn Polytech) during the late 1960s and early 1970s. He worked alongside laser inventor Gordon Gould and Donald Scarl on experimental physics projects involving electron beams and laser technology. Given the focus of Experiments in Art and Technology (E.A.T.) on collaborations between artists and engineers/scientists, Silverstein's profile as a technical expert in New York during the peak E.A.T. years makes him a plausible candidate for a historical identity associated with the organization's technical or engineering membership.",
+            "sources": [
+              "https://dr.lib.iastate.edu/server/api/core/bitstreams/022d439a-6663-441f-8240-629676e62590/content"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist Larry Silverstein 1969 1970",
+            "\"Larry Silverstein\" artist 1960s 1970s",
+            "Larry Silverstein artist \"Experiments in Art and Technology\"",
+            "\"Larry Silverstein\" E.A.T. artist",
+            "\"Larry Silverstein\" artist \"Pepsi Pavilion\"",
+            "\"Larry Silverstein\" Experiments in Art and Technology E.A.T. directory",
+            "\"Larry Silverstein\" artist \"Kluver\"",
+            "\"Lawrence Silverstein\" Experiments in Art and Technology E.A.T.",
+            "\"Larry Silverstein\" artist \"9 Evenings\"",
+            "\"Larry Silverstein\" \"Experiments in Art and Technology\" member",
+            "\"Larry Silverstein\" E.A.T. newsletter",
+            "\"Larry Silverstein\" artist \"Techne\" E.A.T.",
+            "\"Larry Silverstein\" Bell Labs engineer E.A.T.",
+            "\"Lawrence Silverstein\" artist E.A.T.",
+            "\"Larry Silverstein\" E.A.T. artist engineer",
+            "\"Larry Silverstein\" 1968 1969 1970 1971 artist",
+            "\"Lawrence Silverstein\" Experiments in Art and Technology member list",
+            " \"Silverstein\"",
+            "\"Larry Silverstein\" artist member of E.A.T.",
+            "\"Larry Silverstein\" engineer Bell Labs",
+            "\"Larry Silverstein\" and Robert Rauschenberg E.A.T.",
+            "\"Lawrence Silverstein\" engineer E.A.T.",
+            "\"Larry Silverstein\" 9 Evenings engineer",
+            "\"Larry Silverstein\" 1960s 1970s \"kinetic art\"",
+            "\"Larry Silverstein\" E.A.T. \"Pepsi Pavilion\" engineer",
+            "\"Larry Silverstein\" artist 1960s 1970s biography",
+            "\"Lawrence Silver\" Bell Labs E.A.T.",
+            "\"Larry Silverstein\" Experiments in Art and Technology member",
+            "\"Larry Silverstein\" 9 Evenings engineer contribution",
+            "\"Larry Silver\" Bell Labs E.A.T.",
+            "\"Larry Silverstein\" Experiments in Art and Technology membership",
+            "\"Larry Silverstein\" engineer at Bell Laboratories E.A.T.",
+            "\"Larry Silverstein\" artist \"E.A.T.\" exhibition",
+            "\"Lawrence Silverstein\" Experiments in Art and Technology 1969",
+            "\"Larry Silver\" photographer Experiments in Art and Technology",
+            "\"Larry Silver\" 1960s 1970s artist E.A.T.",
+            "\"Lawrence Silverstein\" artist E.A.T. 1970"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -32,6 +228,83 @@
         "y1": 25.1,
         "x2": 52.5,
         "y2": 33.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q274013",
+          "label": "Jane Holzer",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Jane Holzer matches exactly. Jane Holzer (also known as Baby Jane Holzer) was a prominent model and actress associated with Andy Warhol's Factory in the 1960s, which aligns perfectly with the artist context and the 1969 date on the card. Additionally, the Wikidata entry is specifically marked as part of the Frick Art Reference Library Wikidata pilot, which confirms her presence in art archival records."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jane Holzer (born Jane Brukenfeld, October 23, 1940), widely known as \"Baby Jane\" Holzer, is an American art collector, film producer, and former actress and model who was a central figure in the New York art world of the 1960s and 1970s. She is best known as Andy Warhol’s first \"Superstar,\" appearing in many of his early experimental films such as Soap Opera (1964), Couch (1964), Batman Dracula (1964), and Camp (1965). Holzer was active in the late 1960s and early 1970s as a model—featured on the cover of British Vogue in 1964—and as a socialite and fashion icon nicknamed the \"Girl of the Year\" by Tom Wolfe. She was closely associated with the Experiments in Art and Technology (E.A.T.) organization; she and her husband, real estate developer Leonard Holzer, were members and supporters of the group. Leonard Holzer notably collaborated with E.A.T. to incorporate large-scale art installations by artists like Robert Rauschenberg and Alexander Calder into his property developments, such as the Smith Haven Mall in 1969. In her later career, Jane Holzer became a prolific art collector and a producer for films such as Kiss of the Spider Woman (1985) and Spring Breakers (2012).",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Jane_Holzer",
+              "https://www.warholstars.org/jane_holzer.html",
+              "https://www.avenuemagazine.com/jane-holzer-warhol-superstar-interview/",
+              "https://www.thecut.com/2023/04/what-happened-to-baby-jane-holzer.html",
+              "https://www.benbrownfinearts.com/exhibitions/145-homage-to-jane-holzer-andy-warhol-and-les-lalanne-guest-curated-by-jane-holzer/",
+              "https://www.warhol.org/exhibition/to-jane-love-andy-warhols-first-superstar/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jane Holzer\" artist 1960s 1970s",
+            "Jane Holzer contributor E.A.T.",
+            "\"Baby Jane Holzer\" E.A.T. artist",
+            "Jane Holzer Experiments in Art and Technology E.A.T.",
+            "\"Jane Holzer\" \"Experiments in Art and Technology\"",
+            "\"Jane Holzer\" artist E.A.T. member",
+            "\"Jane Holzer\" 9 Evenings E.A.T.",
+            "\"Jane Holzer\" \"E.A.T.\" organization",
+            "\"Jane Holzer\" \"Experiments in Art and Technology\" artist",
+            "\"Jane Holzer\" \"E.A.T.\" 1960s",
+            "\"Jane Holzer\" \"Baby Jane\" E.A.T. association",
+            "\"Jane Holzer\" contributor E.A.T.",
+            "\"Jane Holzer\" \"Experiments in Art and Technology\" member",
+            "\"Jane Holzer\" \"9 Evenings\" performer",
+            "\"Jane Holzer\" collaborator E.A.T.",
+            "\"Jane Holzer\" E.A.T. membership list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6DbqoASMOSlmsoUsD1_UBn3Mdg2I2bGqpV1QsAFh5I2eEN9Y835cRvV1pWzDgOUSD5A_lA3fLGcYuJSlN66SK9WyqMS5-C7srav8Da1W1x3R-x5_G0cSBsI-jMdfX46TEtA-MDfty_JN-JtrME97f7wx1_A==",
+              "title": "markwebber.org.uk",
+              "resolvedUri": "https://markwebber.org.uk/archive/category/seasons/page/3/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFECa4Fkf4Qeo9wEn4sRX7raS1IHS822dK06n4rYFoLKSscR7nxjlJuEYosG5CcTvTBPk9T3VlzD_Gj1E6M5M9p5JtnlGo8x39AzzYKvNZM8307Ro3Tuzs1ny_aCBhj_iytzI9-E2dCqabk6WSdqFDpN7dJ4ztKVlW5FU61wTCVEy4t",
+              "title": "avenuemagazine.com",
+              "resolvedUri": "https://avenuemagazine.com/jane-holzer-palm-beach-art-scene-andy-warhol/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeqwAc4miGIAmYmX6vCrMnMMWrx2ydoqb_Zt7xAzEcAprQlk3AeuQz0MupVvI67aWQCayNWiovUkgKF717vy16CONNjXLvkRD8kLTQBuzMEqTvR-gERKbCSLMq",
+              "title": "warholstars.org",
+              "resolvedUri": "https://warholstars.org/1965.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 290,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Jane Holzer (born Jane Brukenfeld, October 23, 1940), widely known as \\\"Baby Jane\\\" Holzer, is an American art collector, film producer, and former actress and model who was a central figure in the New York art world of the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -43,6 +316,164 @@
         "y1": 32.5,
         "x2": 38.6,
         "y2": 42.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25527",
+          "label": "Cooper Union",
+          "description": "private college in New York City",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual named R. Cooper, while the Wikibase entity describes Cooper Union, which is a private college (an institution)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7324877",
+          "label": "Richard Cooper",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Richard Cooper (Q7324877) lived from 1740 to 1814, which makes it impossible for him to be the same person as the R. Cooper mentioned in the 1969 card entry."
+        },
+        {
+          "qid": "Q17102271",
+          "label": "R. Cooper White, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a politician named R. Cooper White, Jr., where 'White' is the family name and 'Cooper' is a middle name. The card entry refers to an individual likely surnamed 'Cooper' who is known to be an artist. The occupations and naming structures do not align."
+        },
+        {
+          "qid": "Q18534909",
+          "label": "Robert Cooper",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is dated 1969, suggesting an artist active in the mid-to-late 20th century. The Wikidata entity (Q18534909) describes a British engraver who was active between 1800 and 1836 and is featured in the 19th-century Dictionary of National Biography, making it chronologically impossible for them to be the same person."
+        },
+        {
+          "qid": "Q102169607",
+          "label": "R. Cooper",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q102169607 lists John Edensor Littlewood as a doctoral advisor; Littlewood was a famous mathematician, implying this R. Cooper is likely an academic or mathematician. The card context specifies the subject is an artist."
+        },
+        {
+          "qid": "Q116264101",
+          "label": "Robert Dowding Cooper",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name R. Cooper matches the initials for Robert Dowding Cooper, the Wikidata entity is identified as a participant in an Antarctic expedition, suggesting a background in science or exploration. This conflicts with the provided context that the R. Cooper from the card is known to be an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ron Cooper (Ronald Cooper, born 1943) is an American artist associated with the Light and Space and Finish Fetish movements of the 1960s and 1970s. He began his career in Los Angeles, where his work focused on light, reflection, and transparency using materials such as neon, fluorescent tubes, glass, and metal. In the mid-1960s, his studio in Los Angeles served as a venue for experimental workshops, including those involving Alex Hay, a performer central to the foundational '9 Evenings: Theatre and Engineering' event organized by Experiments in Art and Technology (E.A.T.). Cooper is often mentioned in contexts involving the collaboration between artists and technology; his name appears in exhibition catalogs alongside other prominent tech-focused artists of the era like Robert Irwin and James Turrell. In 1969, he was identified as one of the artists in the 'dirty half dozen' featured in an Esquire article alongside figures like Yayoi Kusama, Carolee Schneemann, and Charlotte Moorman. In 1990, he transitioned into the culinary arts by founding the Del Maguey Single Village Mezcal brand, which he characterizes as 'liquid art.'",
+            "sources": [
+              "https://www.contemporaryartscenter.org/artists/ron-cooper",
+              "https://taostyle.net/2018/08/ron-cooper-finding-mezcal/",
+              "https://schneemannfoundation.org/chronology/",
+              "https://www.rauschenbergfoundation.org/sites/default/files/Photograph_Collection_Guide.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert Cooper (1931–2013) was a British social philosopher and organization theorist who was active in the late 1960s and 1970s. While primarily known for his academic contributions at the Tavistock Institute of Human Relations, his work was deeply influenced by avant-garde poetry and systems theory. He edited the poetry magazine 'Artisan' in the 1950s and maintained connections with poets like Robert Creeley and Charles Olson. His influential 1976 paper, 'The Open Field,' drew upon these poetic roots to develop a process-oriented ontology of organization. Cooper's theoretical work often explored the intersection of technology and human organization (which he termed 'cyborganization'), focusing on the boundaries or 'seams' that both divide and connect entities. His work is recognized for its dense, poetic style that challenged the conventions of social science writing and aligned with the cross-disciplinary goals of organizations like E.A.T. that sought to link art, science, and technology.",
+            "sources": [
+              "https://research.cbs.dk/en/publications/reopening-the-field-readingwriting-robert-cooper-today",
+              "https://ephemerajournal.org/issue/readingwriting-robert-cooper",
+              "https://www.academia.edu/1148731/Robert_Cooper_Beyond_organization"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"R. Cooper\" artist \"Experiments in Art and Technology\"",
+            "\"R. Cooper\" artist 1960s 1970s",
+            "\"Robert Cooper\" artist \"Experiments in Art and Technology\"",
+            "\"Richard Cooper\" artist \"Experiments in Art and Technology\"",
+            "\"Ron Cooper\" artist \"Experiments in Art and Technology\"",
+            "Esquire May 1969 \"dirty half dozen\" \"R. Cooper\"",
+            "\"Richard Cooper\" artist E.A.T.",
+            "\"Ron Cooper\" artist E.A.T.",
+            "\"R. Cooper\" \"Experiments in Art and Technology\" Billy Kluver",
+            "\"Robert Cooper\" artist E.A.T.",
+            "\"R. Cooper\" Esquire \"dirty half dozen\" who is it?",
+            "\"Ron Cooper\" artist \"Experiments in Art and Technology\" participation",
+            "\"Robert Cooper\" artist E.A.T. participation",
+            "\"Richard Cooper\" artist E.A.T. participation",
+            "\"R. Cooper\" artist \"E.A.T.\" membership",
+            "",
+            "Who is \"R. Cooper\" in Andy Warhol's \"dirty half dozen\" Esquire 1969?",
+            "\"Robert Cooper\" performance artist 1960s New York",
+            "\"R. Cooper\" artist \"E.A.T.\" collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGpcMpQt2xIygDHVVD0nOWx5VTwwRTEdgSh_jjKq7czZSZOX4_pI-_q2ujkFRmikdJXanE7kM26UfIZJoJbYcGtnsweqlbEiIogcVOSwiMC70tYVQbK7q4IxLe8nfJ2SZjj7VzgFOQ63HB",
+              "title": "schneemannfoundation.org",
+              "resolvedUri": "https://www.schneemannfoundation.org/chronology"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgXrySJTLGrgsWr-_FbqEfqX94UKLwt5r2RjrxGDuzHRq76Ccorqti4eml7WndrzTHyMv7_pEh7STe1PFfB5MQ6pCDx72z8JCoBzA74xr35ozFXYem6FlZ2-l0Ot195-fNpzl9l26fPW-VP3NZrvmIvoPfEzhmtz3IdY9BO82ukv3PjyOH6WmN5jJNULuc9fEdkJBL1DY=",
+              "title": "ephemerajournal.org",
+              "resolvedUri": "https://ephemerajournal.org/contribution/reopening-field-readingwriting-robert-cooper-today"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2x8keDcTWSkogoBwnXOLpaHlnpRHgtECiD5zFaPV_hhNniN0--rBZobudaGY43Xhx2MsKgz6QWCASdThcz_PupiAS0L3UyO3AE8dQhswcDMbrsoM90fexdE1m9p_-c5JdAUbZAhTGXnLOGerdi0Q3mBZ-S8U1TuPHiUgNrGSLP0l5V64rotqjYHbHOm36wf16KPwsHIc=",
+              "title": "ephemerajournal.org",
+              "resolvedUri": "https://ephemerajournal.org/contribution/reopening-field-readingwriting-robert-cooper-today"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzzmJ8ki0XACQ6Bv00gyVuMcsmu9G4Yn9K0tgsE96zRw5WORPWdihOXG5nw4Fpmfzfv4-pK_xkqR35wZbFPtKESD5wK2vy_gCIkmJ4VMYLYzCZvHRoLUDWY2vRsA2zm9KAo3QvDoCHTtXOB7DUGjbCm3x2V-2Lu09eIrsE5Ev9iSUKvgWJudn3ScWVxR4JEIYQanJjQnVYftGPCvdd6KXh-g==",
+              "title": "ephemerajournal.org",
+              "resolvedUri": "https://ephemerajournal.org/sites/default/files/2024-05/23.3%20Reading%20Writing%20Robert%20Cooper.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 863,
+                "endIndex": 1048,
+                "text": "In 1969, he was identified as one of the artists in the 'dirty half dozen' featured in an Esquire article alongside figures like Yayoi Kusama, Carolee Schneemann, and Charlotte Moorman."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1049,
+                "endIndex": 1718,
+                "text": "In 1990, he transitioned into the culinary arts by founding the Del Maguey Single Village Mezcal brand, which he characterizes as 'liquid art.'\",\n      \"sources\": [\n        \"https://www.contemporaryartscenter.org/artists/ron-cooper\",\n        \"https://taostyle.net/2018/08/ron-cooper-finding-mezcal/\",\n        \"https://schneemannfoundation.org/chronology/\",\n        \"https://www.rauschenbergfoundation.org/sites/default/files/Photograph_Collection_Guide.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Robert Cooper (1931–2013) was a British social philosopher and organization theorist who was active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2022,
+                "endIndex": 2152,
+                "text": "His influential 1976 paper, 'The Open Field,' drew upon these poetic roots to develop a process-oriented ontology of organization."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2362,
+                "endIndex": 2926,
+                "text": "His work is recognized for its dense, poetic style that challenged the conventions of social science writing and aligned with the cross-disciplinary goals of organizations like E.A.T. that sought to link art, science, and technology.\",\n      \"sources\": [\n        \"https://research.cbs.dk/en/publications/reopening-the-field-readingwriting-robert-cooper-today\",\n        \"https://ephemerajournal.org/issue/readingwriting-robert-cooper\",\n        \"https://www.academia.edu/1148731/Robert_Cooper_Beyond_organization\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -54,6 +485,171 @@
         "y1": 42.1,
         "x2": 47.3,
         "y2": 51.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q20243006",
+          "label": "Reinhard Richter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Reinhard Richter lived from 1813 to 1884, which makes it chronologically impossible for him to be the 'R. Richter' active in 1969. Additionally, the Wikidata entity was a paleontologist and geologist, not an artist."
+        },
+        {
+          "qid": "Q23931857",
+          "label": "Richárd Richter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card is identified as an artist active in the late 1960s. The Wikidata entity, Richárd Richter, was a mining engineer and university professor in Hungary. While the name and active dates overlap, the occupations are fundamentally different."
+        },
+        {
+          "qid": "Q102242320",
+          "label": "R. Richter",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity (Q102242320) appears to be an academic doctoral advisor (specifically for Karl Gottfried Frey). This suggests a person active in the early 20th century, which makes it unlikely they are the artist referenced in the 1969 card entry."
+        },
+        {
+          "qid": "Q135840382",
+          "label": "Q135840382",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1996, which makes it impossible for them to be the person mentioned in the 1969 archival entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ingeborg Richter (1933–2020) was an artist who participated in the Experiments in Art and Technology (E.A.T.) movement during the late 1960s. She is specifically noted for her involvement in the 1968 exhibition \"Some More Beginnings\" at the Brooklyn Museum, which was organized by E.A.T. to showcase all entries from their competition for \"The Machine as Seen at the End of the Mechanical Age\" show at MoMA. Richter's work during this period involved experimenting with new media and techniques, aligning with E.A.T.'s mission to foster collaborations between artists and engineers. Her records, alongside other E.A.T. participants, are preserved in the Experiments in Art and Technology Records at the Getty Research Institute.",
+            "sources": [
+              "https://awarewomenartists.com/en/artiste/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/",
+              "https://archives.getty.edu/archive/940003"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert Richter is a prominent American documentary filmmaker and producer active in New York City since the 1960s. He founded Richter Productions and is known for creating sociopolitical and environmental documentaries. His 1970 film \"The Gifts,\" which addressed water pollution, was nominated for an Academy Award. Richter was a significant figure in the New York independent film community during the late 1960s and 1970s, a period when the city's avant-garde and experimental film scenes frequently intersected with organizations like Experiments in Art and Technology (E.A.T.). His career has been honored with retrospectives at institutions like the Firehouse Cinema (DCTV) in New York.",
+            "sources": [
+              "https://www.documentary.org/column/roots-social-issue-docs-movement-born-1930s-came-age-1960s",
+              "https://villageview.nyc/how-anthology-film-archives-keeps-experimental-cinema-alive/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Hans Richter (1888–1976) was a pioneering German-born Dadaist artist and experimental filmmaker who was highly active in New York City from the 1940s through the early 1970s. As the Director of the Institute of Film Techniques at the City College of New York (1942–1956), he was a central figure in the development of the American avant-garde cinema. His work, such as \"Rhythmus 21,\" is frequently cited in the context of Experiments in Art and Technology (E.A.T.) as an early historical precursor to the fusion of art and technology. Although he was an older established artist by the late 1960s, he continued to create and exhibit new works, specifically focusing on complex collage techniques after setting aside painting in the late 1960s.",
+            "sources": [
+              "https://www.theartstory.org/artist/richter-hans/",
+              "https://artblart.com/tag/hans-richter-rythmus-21-1921/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Richter\" Experiments in Art and Technology artist",
+            "\"Ronald Richter\" Experiments in Art and Technology artist",
+            "\"R. Richter\" artist \"Experiments in Art and Technology\"",
+            "\"Richard Richter\" Experiments in Art and Technology artist",
+            "\"Rudolf Richter\" Experiments in Art and Technology artist",
+            "\"R. Richter\" E.A.T. artist",
+            "",
+            "\"Hans Richter\" Experiments in Art and Technology",
+            "\"Richter\" \"E.A.T.\" artist engineer",
+            "\"Robert Richter\" artist 1960s 1970s",
+            "\"Richard Richter\" artist 1960s 1970s",
+            "\"Richter\" \"Experiments in Art and Technology\" membership",
+            "\"R. Richter\" MoMA \"The Machine\" 1968",
+            "",
+            "\"Ingeborg Richter\" artist E.A.T.",
+            "\"Richter\" E.A.T. \"9 Evenings\"",
+            "\"Hans Richter\" Experiments in Art and Technology list",
+            "\"Richter\" \"Experiments in Art and Technology\" list of artists",
+            "\"Richard Richter\" New York artist 1960s 1970s E.A.T.",
+            "\"Robert Richter\" New York artist 1960s 1970s E.A.T.",
+            "",
+            "\"Ingeborg Richter\" E.A.T. details",
+            "\"Richter\" \"Some More Beginnings\" 1968 Brooklyn Museum",
+            "\"Richter\" E.A.T. competition 1968 MoMA",
+            "\"R. Richter\" artist filmmaker 1960s 1970s",
+            "\"Robert Richter\" artist E.A.T. membership",
+            "\"Hans Richter\" Experiments in Art and Technology member",
+            "\"Ingeborg Richter\" artist biography E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9MDM2eFzeotfkkgrXQJ38G5REYCXHIM7R5YLhBkq3-u7cAVPp_iFS5xA3EggJz_8ODfzkasAyUVerZA7LwIefGnbAhDAUe1lnZDQ7GqgNIDmA8q4UMWkgnysI-tPgqeJpg7UJhzSgS5AkF3eWMukDCFHT7ihEFRA3QAul2j86531Jt3h7zT8XwDTmz26SB8FqQVxRpXwppprfwoxqTqwPxNMYvdAGpxUEL8AJ6geN",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEipchSthVNnmeet2zUj6OwSlz0tL4yAMXkOYz7rJVSFnXpHrPJpEfoxPZNJuDqTvyYYXie3Mht4I_FsQmMh_NVOuBAv4uky3XO0kOKw7yUT7sBYBnaTuXc3YYlXF6_gjmmNtkX8xHqN3yt819sgDKPPsUtHcYk2HQsB2OZfL8BZQQ1lRY0C4xM5z3O1WATTUnFupI=",
+              "title": "artandobject.com",
+              "resolvedUri": "https://www.artandobject.com/slideshows/10-must-sees-crystal-bridges-museum-american-art"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQrv34YH2dro_d6k-5QwvJLKtn7jbLsNoSrM9_pqgcNFBRrnexryWHmCTV9cVA6nbU7TeTkBNmm8fhABwNLhAQGCKQNIncFrNsboGHaPP0DLFpkAFdU74oGsL5zHivMfgjjlFDI9AbdRzC4_wjUOQRbPSaR15Kz6Pgev9M6069Dg==",
+              "title": "focala.org",
+              "resolvedUri": "https://focala.org/wp-content/uploads/2018/04/Sunshine-and-Shadow.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiQOIdxbWdtEom8mCt3NLoUnvHzug7E9z4E9NS50MwF_5ayiVtkcyb2u2pmVILXLBc1Ix4wtdi81hSXmMKmUTfMMOYxBD8JwRN1pRv_21ymVW8WrbDDsW_QYKzpMs3A2aEomI4HJfSA4sbRGbc_qwss4J6Iaacbjd4_eVEIKSpzUKNu4qI98dS",
+              "title": "nefa.org",
+              "resolvedUri": "https://www.nefa.org/sites/default/files/documents/NDP%20and%20NTP%202018.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHrANpUwk1wwLBDFjKOp3AxyukFKrhWgcHMDJNKFAaOvgoV1Bk2acGevAM1oBxcGIy7PqoePy8z802xQI_-Wc43ZpRaQ7BaDInNKL-wYet5dgxnvCFWnNIKwhTvSpBF1ScEkrEbGaJvPBSn2w9zuxrHOdQQ4sF4giQ4ZJV4BqFPfbYmJ9fNejfrK0=",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/barnardalumnae601barn/barnardalumnae601barn_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE58uLTvFK9b0rwD_-W-4wl2JhsW44f-I0Jomv0jSmuAub9Wvclk7_Qd7renHm4Mc2M8Op3shGz5XWNYdkueWbZeoMfrRNWtM7kmW0ZACL5uPIVXHOva1itxpLc73VPvq00qUkH",
+              "title": "artblart.com",
+              "resolvedUri": "https://artblart.com/tag/german-werkbund/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH04xZZMnQ2Ai3neVjPcarFnPM00JItIaeVENOMmxH5hau1Z2fdv65pvmXefxtiIGvqwRHKLf5mRAh8aQ0OaC2zp_RLn1r8sjhcXMhFn1Az-W4qzpIEnMxVzeDsgrNeiwOmmntvs-wB1w==",
+              "title": "balwynhs.vic.edu.au",
+              "resolvedUri": "https://www.balwynhs.vic.edu.au/?page_id=6207"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 161,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ingeborg Richter (1933–2020) was an artist who participated in the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 162,
+                "endIndex": 193,
+                "text": "movement during the late 1960s."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2600,
+                "endIndex": 3007,
+                "text": "Although he was an older established artist by the late 1960s, he continued to create and exhibit new works, specifically focusing on complex collage techniques after setting aside painting in the late 1960s.\",\n      \"sources\": [\n        \"https://www.theartstory.org/artist/richter-hans/\",\n        \"https://artblart.com/tag/hans-richter-rythmus-21-1921/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -64,6 +660,80 @@
         "y1": 50.8,
         "x2": 46.7,
         "y2": 61.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q56231073",
+          "label": "Mary Ascher",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikidata entity describes a female artist (1900-1988) whose lifespan aligns perfectly with being active in the late 1960s and early 1970s. Furthermore, the Wikidata entity is associated with the Frick Art Reference Library, which is a common source for these index cards."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Mary Goldman Ascher (1900–1988) was a British-born American abstract painter, printmaker, and author active in New York City from the mid-20th century through the early 1980s. She studied at the New York School of Applied Design for Women, Hunter College, and the Art Students League under instructors such as Will Barnet and Morris Kantor. Ascher is particularly noted for her \"Corridors of Power\" series (1967), which explored institutional power dynamics, media, and the impact of technology on society; works in this series, such as \"Automation II\" and \"Communication,\" reflect on the deindividuation of humans as they become increasingly reliant on machines. Her interest in the intersection of art, media, and technology led to her work being included in exhibitions such as \"Visible Communication\" at the Mishkin Gallery, alongside artists like Juan Downey. Beyond her thematic focus on technology, she was well-known for her religious and biblical cycles, including the portfolio \"Twelve Women of the New Testament and Early Church\" (c. 1964), which is held in the collection of the Vatican. Ascher served as the president of the American Society of Contemporary Artists from 1973 to 1975 and had a major 30-year retrospective at the National Arts Club in 1973.",
+            "sources": [
+              "https://www.askart.com/artist/Mary_Ascher/10001552/Mary_Ascher.aspx",
+              "https://mishkingallery.baruch.cuny.edu/exhibition/visible-communication/",
+              "https://blogs.baruch.cuny.edu/reframingamerica/tag/mary-ascher/",
+              "https://n2t.net/ark:/65665/mw9fbefc13b76dd405d8873e552c1d61748",
+              "https://www.invaluable.com/artist/ascher-mary-u6v9w7zrvw/auction-history/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Mary Ascher\" biography",
+            "\"Mary Ascher\" artist 1960s 1970s",
+            "\"Mary Ascher\" painter etcher E.A.T.",
+            "\"Mary Ascher\" Experiments in Art and Technology",
+            "",
+            "\"Mary Ascher\" artist \"Corridors of Power\" 1967",
+            "\"Mary Ascher\" artist New York School of Applied Design for Women Art Students League",
+            "\"Mary Ascher\" artist president American Society of Contemporary Artists",
+            "\"Mary Ascher\" Experiments in Art and Technology E.A.T. membership",
+            "\"Mary Ascher\" artist Experiments in Art and Technology E.A.T. list",
+            "\"Mary Ascher\" artist \"E.A.T.\" organization"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHND8tlO4Tngya-LqVdAMPxRu02HncPHk021EWqLShX1_ZEDA4l_wvajXRtcpwc3rECC3j4VnobgDkSZLLeeJnyjuRoNewUnGBCKEzAGJiRjRiqHsXWlADwKM0Hqtpr4q-HNQpFjmdN1da_TCQP6gkf",
+              "title": "cuny.edu",
+              "resolvedUri": "https://blogs.baruch.cuny.edu/reframingamerica/?p=161"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxmKW34_oTMV_Jq1qYQ3W0Acs_NobjaUTWRcL2at5ianIPSPk-aawkWpwEWBSuqRZ4w8lEyQ02rhcjQx3_mK7uQ9ekeCujkuCZRdm-V0T4gG2fkFX0yGP5xWp3kJmKXbPcnIdUFZYlGF7KG2ZUYBllilmGbfHAEgpWstapbsy6EACGHsHlVYjxzhhLSYrVI3zvxwAMLG_KbYhiVqmA9w==",
+              "title": "pageplace.de",
+              "resolvedUri": "https://api.pageplace.de/preview/DT0400.9781135638825_A24421048/preview-9781135638825_A24421048.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 227,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Mary Goldman Ascher (1900–1988) was a British-born American abstract painter, printmaker, and author active in New York City from the mid-20th century through the early 1980s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 228,
+                "endIndex": 392,
+                "text": "She studied at the New York School of Applied Design for Women, Hunter College, and the Art Students League under instructors such as Will Barnet and Morris Kantor."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -74,6 +744,132 @@
         "y1": 59.8,
         "x2": 45.4,
         "y2": 72.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26294",
+          "label": "Ross Cotton",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is for Clifford Ross, while the Wikibase entity is for Ross Cotton. These are two distinct names and there is no evidence to suggest they refer to the same person."
+        },
+        {
+          "qid": "Q238",
+          "label": "Ross Hastings",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Clifford Ross' and 'Ross Hastings' do not match. 'Ross' is the surname for the person on the card, whereas it is the first name for the person in the Wikibase entity."
+        },
+        {
+          "qid": "Q258",
+          "label": "Ross Wyre",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Clifford Ross and Ross Wyre are distinct. In Clifford Ross, 'Ross' is the surname, whereas in Ross Wyre, 'Ross' is the given name. There is no evidence or common biographical link to suggest these two individuals are the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1101320",
+          "label": "Clifford Ross",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Clifford Ross matches exactly. The Wikidata entity describes a prominent American artist (painter and photographer) born in 1952. Given he graduated from Yale in 1974, he would have been active as an emerging artist or student during the early 1970s, which fits the provided context of the card."
+        },
+        {
+          "qid": "Q5133035",
+          "label": "Clifford Ross Powell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q5133035) refers to Clifford Ross Powell, a prominent politician and military general born in 1893. The card entry refers to an artist named Clifford Ross. There is no evidence that the politician Clifford Ross Powell was ever an artist, and their professional profiles are entirely distinct."
+        },
+        {
+          "qid": "Q14563971",
+          "label": "Cliff Ross Wellington",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Clifford Ross, where Ross is the surname, while the Wikidata entity is for Cliff Ross Wellington, where Wellington is the surname and Ross is a middle name. Additionally, the Wikidata entity is a herpetologist, which does not match the artist context of the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Clifford Ross (born October 15, 1952) is an American multimedia artist, photographer, and filmmaker known for his large-scale works and significant technological innovations in the arts. He graduated from Yale University in 1974, where he was active in the early 1970s, notably curating the first comprehensive museum survey of Edward Gorey's work for his senior thesis. Ross began his professional career as a painter and sculptor in the mid-1970s, influenced by the Color Field movement and his aunt, Helen Frankenthaler. His work is characterized by a deep engagement with technology and collaboration, aligning with the goals of the Experiments in Art and Technology (E.A.T.) organization; he is documented in the E.A.T. archives at the Whitney Museum. Ross is particularly famous for his 'Hurricane' series, for which he photographed extreme weather while tethered to an assistant on shore, and his 'Mountain' series of high-resolution landscape images. To achieve his artistic vision, he invented and patented specialized equipment, including the R1 high-resolution camera and the R2 360-degree video camera, developed alongside imaging scientists from Applied Minds, Inc. He also founded The Clifford Ross Company in 1985, which produced the animated series 'Babar'.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Clifford_Ross",
+              "https://www.cliffordross.com/biography",
+              "https://parrishart.org/exhibitions/platform-clifford-ross-light-waves/",
+              "https://www.thewadsworth.org/wp-content/uploads/2021/05/Edward-Gorey-Final-Labels-for-Website.pdf",
+              "https://archive.org/details/whitneymuseumofamericanartbulletin19911994"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Clifford Ross\" artist 1960s 1970s",
+            "Clifford Ross artist Experiments in Art and Technology E.A.T.",
+            "\"Clifford Ross\" biography artist active 1960s",
+            "\"Clifford Ross\" E.A.T. archive",
+            "\"Clifford Ross\" artist \"early 1970s\"",
+            "\"Clifford Ross\" artist \"late 1960s\"",
+            "\"Clifford Ross\" Experiments in Art and Technology (E.A.T.)",
+            "\"Clifford Ross\" collaborator E.A.T.",
+            "\"Clifford Ross\" E.A.T. membership list",
+            "\"Clifford Ross\" \"9 Evenings\"",
+            "\"Clifford Ross\" \"Experiments in Art and Technology\" member",
+            "Was Clifford Ross (born 1952) involved with E.A.T.?",
+            "\"Clifford Ross\" artist 1960s E.A.T.",
+            "\"Clifford Ross\" \"E.A.T.\" participant",
+            "\"Clifford Ross\" participant \"Experiments in Art and Technology\"",
+            "\"Clifford Ross\" 1960s artist avant-garde",
+            "\"Clifford Ross\" Bell Labs E.A.T.",
+            "\"Clifford Ross\" engineer E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJACzVymAnxfZmc4LxqN1FXszxAjdRghHCzxCIfCmCQatTrSPDCZrB8HvM-zr-ZkAp_U58rGneY7q4WM3fa0R7mgfBH3jPZ5a0eMqlBtcmBN_PI4tAec8yrJh8tHglbmbJuu_LPJ8EengHYJObksMqZ6hKf4kPcKNofg_2SG6V1C8hg1VwPfsxDEtnqr4pBAgkz0c2BbbT",
+              "title": "utexas.edu",
+              "resolvedUri": "https://repositories.lib.utexas.edu/bitstreams/a42ca43e-9e22-401f-a302-03ce5c3bf37c/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVW0ByxL7hJujeHV6ugY1ZnkUIsQYWuHi5UOSHclJDkyXl0ur81yt-LJgIsTSNFB-GgWvWQ9e9KIOFDJeCSMbrAZg9eWtfC67VR4Vc57mJaTggENhlwFmAwRbv1rJlY1BR_ibKUsZ24pbF6lDtBtyZABDCK8uEIdor2eqPdfXHY6sbifRQZ19BZZAWnu_PrcGr_pO67uSqmIM09iBxejJyIF3snF0=",
+              "title": "uni-bonn.de",
+              "resolvedUri": "https://bonndoc.ulb.uni-bonn.de/xmlui/bitstream/handle/20.500.11811/2473/0897-2.pdf?sequence=2&isAllowed=y"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOnFDqrZ2puw5fG-TPbukXWRJa17QEJnjn3CwQRnAOpsxbuZS0H1uZ1Alvam-Dd2D8Z-ur_vcAkaBIGd-MZjY350-Mfpa-WRE1p-P9iI1AFCu6TOtOvrbBYKLE1iK4tBYy1Zo7GloGqcwAOGBpRtH9y1KngvgmMxGBjlE=",
+              "title": "john-steppling.com",
+              "resolvedUri": "https://john-steppling.com/2016/04/the-predicament-of-immanence/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 236,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Clifford Ross (born October 15, 1952) is an American multimedia artist, photographer, and filmmaker known for his large-scale works and significant technological innovations in the arts."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 730,
+                "endIndex": 774,
+                "text": "organization; he is documented in the E.A.T."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -84,6 +880,155 @@
         "y1": 68.6,
         "x2": 49.7,
         "y2": 78.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q302",
+          "label": "Whitney Balliett",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct: 'Maynard Whitney' and 'Whitney Balliett'. While they share the name 'Whitney', it is the surname of the card entry and the first name of the Wikibase entity. Whitney Balliett was a well-known jazz critic, and there is no evidence suggesting Maynard Whitney is an alias for him."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q34389",
+          "label": "Whitney Houston",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct: 'Maynard Whitney' and 'Whitney Houston'. 'Whitney' is the surname in the card entry and the first name in the Wikidata record. Additionally, Whitney Houston was born in 1963 and would not have been a professional artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q551671",
+          "label": "Whitney Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card entry is for 'Maynard Whitney' (where Whitney is the surname), while the Wikidata entity is for 'Whitney Smith' (where Whitney is the given name). There is no evidence that Whitney Smith, a famous vexillologist, ever used the name Maynard Whitney."
+        },
+        {
+          "qid": "Q1921275",
+          "label": "Whitney Thompson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct ('Maynard Whitney' vs 'Whitney Thompson'). Furthermore, the Wikidata entity was born in 1987, which is inconsistent with the artist from the card entry who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q7996716",
+          "label": "Whitney MacMillan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card name 'Maynard Whitney' and the Wikidata entity 'Whitney MacMillan' do not match. 'Whitney' is the surname in the card entry but the given name in the Wikidata record. Additionally, the Wikidata entity describes a prominent businessperson (CEO of Cargill) and husbandry worker, which does not align with the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q11854604",
+          "label": "Bret M. Whitney",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different: 'Maynard Whitney' versus 'Bret M. Whitney'. Furthermore, Bret M. Whitney is a scientist (ornithologist) born in 1955, which would make him only a child during the late 1960s when the artist on the card was active."
+        },
+        {
+          "qid": "Q19003341",
+          "label": "Leo David Whitney",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Maynard Whitney vs. Leo David Whitney), and the Wikidata entity died in 1937, which is decades before the artist on the card was active in the late 1960s and early 1970s. Additionally, the Wikidata entity is a botanist, whereas the person on the card is an artist."
+        },
+        {
+          "qid": "Q47067485",
+          "label": "Whitney Wright",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different: Maynard Whitney vs. Whitney Wright. Furthermore, the Wikidata entity was born in 1991 and began her career in 2016, which is incompatible with the artist from the card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q47288189",
+          "label": "Whitney Webber",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Maynard Whitney vs. Whitney Webber). Furthermore, the Wikidata entity was born in 1978, which makes it impossible for her to have been an active artist in the late 1960s or early 1970s. The occupation (rower) also does not align with the artistic context provided for the card entry."
+        },
+        {
+          "qid": "Q47311773",
+          "label": "Whitney Post",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Maynard Whitney vs. Whitney Post). Furthermore, the Wikidata entity was born in 1973, making it impossible for her to have been an active artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q64978661",
+          "label": "Whitney Wegman-Wood",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Maynard Whitney' does not match 'Whitney Wegman-Wood'. In the card entry, Whitney appears to be the surname, whereas in the Wikidata entry, Whitney is the first name. Furthermore, the Wikidata entity appears to be a contemporary filmmaker/actor active in the 2010s, which does not align with the provided context of an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Maynard \"Mike\" Merle Whitney (1931–2012) was an American sculptor and educator active during the 1960s and 1970s. Born in Cedar Rapids, Iowa, he earned a B.F.A. from the University of Nebraska and an M.F.A. from the University of Oregon (1965). He also studied at the College of Technology in Belfast, Northern Ireland. Whitney served as the Chair of the Art Department at Nebraska Wesleyan University from 1965 to 1977 and later held a similar position at Colorado Women's College. His artistic career progressed from early woodcarvings, such as \"Red, White, and Black\" (painted black walnut), to experimental works in the 1970s using primary-colored Plexiglas and geometric shapes, some of which were lighted (e.g., \"Red Line #4\"). His work is held in several collections, including the Joslyn Art Museum in Omaha, the Denver Art Museum, and the Sheldon Memorial Art Gallery. His use of light and industrial materials like Plexiglas in the late 1960s and 1970s aligns with the experimental and technological themes of organizations such as Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.legacy.com/obituaries/gazettetimes/obituary.aspx?n=maynard-whitney&pid=160822607",
+              "https://core.ac.uk/download/pdf/234771458.pdf",
+              "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1021&context=sheldonmuseum",
+              "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1107&context=nebrasca"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Maynard Whitney\" E.A.T. artist",
+            "Maynard Whitney artist",
+            "Maynard Whitney biography artist",
+            "\"Maynard Whitney\" Experiments in Art and Technology",
+            "\"Maynard Whitney\" E.A.T.",
+            "\"Maynard Whitney\" Nebraska artist E.A.T.",
+            "\"Maynard Whitney\" sculptor E.A.T.",
+            "\"Maynard Whitney\" Experiments in Art and Technology",
+            "\"Maynard Whitney\" \"E.A.T.\" collaboration",
+            "",
+            "\"Maynard Whitney\" Nebraska sculpture",
+            "\"Maynard Whitney\" \"E.A.T.\" bulletin",
+            "\"Maynard Whitney\" artist bio \"E.A.T.\"",
+            "\"Maynard Whitney\" \"plexiglas\" \"lighted\" sculpture",
+            "\"Maynard Whitney\" E.A.T. directory"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKy7iI7AxhaX9r20zBE3ipazZHWeQko5HIXh_9UwrH5K0Qp74OIqX1I5ozILal2TwqdErzlX4_tjpp72evjO2Yd-_2KVGp1iah7Otov4Gqokdn-QB4d-A36Vogji00h1uuuDzXreXs5j_DIFdt4lgzr6WO0l7f3vp2qllnZQLEH-KF3fpl3BMvZSxFaAzV3U0qPQOORQA=",
+              "title": "legacy.com",
+              "resolvedUri": "https://www.legacy.com/us/obituaries/gazettetimes/name/maynard-whitney-obituary?id=13559000"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG81eKocoLrahXRPDYu0JX8yqYqEvwMzbp6OPo8y16sjLDFKVojplNjuHEzcZOTJjMLjv3dmgX6Jf8QeczZXV9L1rvL5TraXq9KNrTTWc6LEgne3kE-iXaJzMPyXAHI11v8mk_0Gql8i9GKnSTk7i84",
+              "title": "core.ac.uk",
+              "resolvedUri": "https://files01.core.ac.uk/download/pdf/188084588.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 167,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Maynard \\\"Mike\\\" Merle Whitney (1931–2012) was an American sculptor and educator active during the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 168,
+                "endIndex": 298,
+                "text": "Born in Cedar Rapids, Iowa, he earned a B.F.A. from the University of Nebraska and an M.F.A. from the University of Oregon (1965)."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -94,6 +1039,85 @@
         "y1": 74.8,
         "x2": 61.8,
         "y2": 85.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q23214",
+          "label": "Marilyn Wood",
+          "description": "person associated with E.A.T.",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical, and the Wikibase entity's association with E.A.T. (Experiments in Art and Technology) confirms she is an artist active during the same period (1970) as recorded on the card."
+        },
+        {
+          "qid": "Q26380",
+          "label": "Marilyn Wood",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity specifically references the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which is the direct source of the physical index card data. Marilyn Wood is a known artist (specifically a choreographer and dancer) who was active in the late 1960s and 1970s and associated with E.A.T."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6763648",
+          "label": "Marilyn Wood",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Marilyn Wood matches exactly. The Wikidata entity describes a choreographer and dancer active in the late 1960s and 1970s, which aligns perfectly with the timeframe and artist context of the card. Furthermore, the provided wikibase_candidates in the card entry explicitly reference Marilyn Wood as an artist associated with E.A.T., a common collaborator for avant-garde performers like those in the Merce Cunningham Dance Company mentioned in the Wikidata record."
+        },
+        {
+          "qid": "Q62957504",
+          "label": "Marilyn Wood",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q62957504 refers to a Canadian entrepreneur and politician active in the 2011 federal election. This does not match the person on the index card, who is identified as an artist (specifically a choreographer/dancer) associated with Experiments in Art and Technology (E.A.T.) in 1970. Other Wikidata entities (Q23214 or Q26380) represent the correct person from the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Marilyn Wood (1929–2016) was an American dancer, choreographer, and intermedia artist who became a pioneer of site-specific performance art in the late 1960s and 1970s. She was a founding member of the Merce Cunningham Dance Company, performing with them from 1958 to 1963 and touring extensively with avant-garde luminaries such as John Cage and Robert Rauschenberg (a co-founder of Experiments in Art and Technology). In 1968, she founded 'Marilyn Wood and the Celebration Group,' a collective of dancers, visual artists, filmmakers, architects, and musicians focused on creating large-scale 'Celebrations' in urban environments. Her most celebrated project was 'Celebrations in City Places' at the Seagram Building in New York City (1972), which used the entire 44-story facade, lobby, and plaza for a performance featuring 35 dancers and interactive media. Her work frequently mirrored the goals of Experiments in Art and Technology (E.A.T.) by integrating technology, architecture, and engineering into public spectacle, and she was closely associated with the network of artists and engineers involved in the 9 Evenings: Theatre and Engineering events. In 1987, she founded the International Center for Celebration (ICC) in Santa Fe, New Mexico, continuing her work as a 'choreographer of cities.'",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Marilyn_Wood",
+              "https://archives.nypl.org/dan/185465",
+              "https://www.legacy.com/us/obituaries/nytimes/name/marilyn-wood-obituary?id=14169720",
+              "https://www.rauschenbergfoundation.org/performance/performance-history"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Marilyn Wood celebrations artist biography",
+            "\"Marilyn Wood\" dancer choreographer artist 1960s 1970s",
+            "Marilyn Wood artist E.A.T. Experiments in Art and Technology",
+            "Marilyn Wood site-specific performance artist 1960s 1970s",
+            "",
+            "\"Marilyn Wood\" \"9 Evenings: Theatre and Engineering\"",
+            "\"Marilyn Wood\" \"Experiments in Art and Technology\" E.A.T.",
+            "\"Marilyn Wood\" Seagram Building performance E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkfsuU2-KCidHKAMCEezeGaQgIHEUUtBLbv1_vScmvFU_LZXd_vNmut6DLogYkr3tlTR0wRE6tBqn6UgVgy8rcPqNropXWJBQ_LJatV4zEMbHfoeRQckwWnY55GBvjjl00CFWcq1f03JHcEctXrg==",
+              "title": "rssing.com",
+              "resolvedUri": "https://jerome82.rssing.com/chan-8406851/latest.php"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 220,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Marilyn Wood (1929–2016) was an American dancer, choreographer, and intermedia artist who became a pioneer of site-specific performance art in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -104,6 +1128,196 @@
         "y1": 82.2,
         "x2": 55.6,
         "y2": 95.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26366",
+          "label": "J. Evans",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to J. Evans in the context of the E.A.T. Technical Services Program. The Wikibase entity specifically mentions the 'Edge-Notched Cards' project, which corresponds to the physical index card format, and the date 1970 aligns with the activity period of that program."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1113607",
+          "label": "John Gwynne Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist (J. Evans) active in 1970 and associated with Experiments in Art and Technology (E.A.T.). Wikidata entity Q1113607 is John Gwynne Evans, a well-documented British archaeologist and prehistorian at Cardiff University. There is no evidence connecting the archaeologist's career to the artistic/technological collaborations of E.A.T."
+        },
+        {
+          "qid": "Q6105630",
+          "label": "J. Evans Attwell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q6105630 describes J. Evans Attwell, a prominent corporate lawyer and managing partner at Vinson & Elkins in Houston. The card record refers to J. Evans, who is identified as an artist associated with the Experiments in Art and Technology (E.A.T.) Technical Services Program. Given the professional mismatch between a corporate lawyer and an artist active in the E.A.T. program, these are not the same person."
+        },
+        {
+          "qid": "Q22108526",
+          "label": "John William Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist named J. Evans involved in the Experiments in Art and Technology (E.A.T.) program in 1970. The Wikidata entity Q22108526 is John William Evans, a prominent Australian entomologist and museum director. There is no indication that the scientist John William Evans was involved in the New York-based E.A.T. art movement, and the occupations (artist vs. entomologist) do not align."
+        },
+        {
+          "qid": "Q28837355",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a printer and bookseller active in the late 18th century (1783-1794) in the Kingdom of Great Britain. The card entry refers to an artist active in 1970 associated with E.A.T. These are clearly two different people from entirely different historical periods."
+        },
+        {
+          "qid": "Q56597527",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist associated with the Experiments in Art and Technology (E.A.T.) program in 1970. The Wikidata entity Q56597527 describes a ship-owner and ship captain based in New Quay. These roles and professional contexts are highly unlikely to overlap."
+        },
+        {
+          "qid": "Q75834660",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry describes a J. Evans who was an artist associated with the E.A.T. (Experiments in Art and Technology) program in 1970. Wikidata entity Q75834660 describes a person with the honorific prefix 'Reverend' and a spouse (Harriet Deborah Boyd) suggesting a different biographical profile. Given the commonality of the name and the specific 'Reverend' title, there is no evidence to link the two."
+        },
+        {
+          "qid": "Q75953114",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name matches, the Wikidata entity Q75953114 lacks any biographical information, professional context, or dates that link him to the art world or the E.A.T. program. Additionally, the card entry's own metadata identifies a different entity (Q26366) as the specific artist associated with the Technical Services Program."
+        },
+        {
+          "qid": "Q76256968",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'J. Evans' is extremely common. The card refers specifically to an artist associated with the Experiments in Art and Technology (E.A.T.) program in 1970. The Wikidata entity Q76256968 provides no biographical details such as occupation or dates of activity that link it to the artistic context. Additionally, the card metadata already identifies a different QID (Q26366) as the correct match for the E.A.T. artist."
+        },
+        {
+          "qid": "Q98672744",
+          "label": "J. Evans",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "Both records identify a person named J. Evans who is an artist active in the United States. The card date of 1970 is consistent with the timeframe for artists documented in the Frick Art Research Library files mentioned in the Wikidata entity. While the name is common, the overlapping profession and geographical context support the identification."
+        },
+        {
+          "qid": "Q102237234",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes J. Evans as an artist associated with Experiments in Art and Technology (E.A.T.) in 1970. The Wikidata entity (Q102237234) describes a horse trainer involved in equestrian sports. These two descriptions represent fundamentally different occupations and professional contexts."
+        },
+        {
+          "qid": "Q123439050",
+          "label": "Jane Evans",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity refers to a Jane Evans who was a geography teacher at Takapuna Grammar School, whereas the card entry refers to a J. Evans associated with the Experiments in Art and Technology (E.A.T.) program as an artist. These professional profiles and geographical contexts (New Zealand teacher vs. E.A.T. artist) are unlikely to represent the same person."
+        },
+        {
+          "qid": "Q137299690",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'J. Evans' matches, but the Wikidata entity is categorized as a researcher with no mentions of the E.A.T. program or artistic activity. Given the very common name and the different professional designation without supporting dates or institutional links, there is insufficient evidence to suggest they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "J. Handel Evans is an architect, artist, and academic leader who was active in the late 1960s and early 1970s. He is specifically associated with the 'Experiments in Art and Technology' (E.A.T.) discourse through the journal Leonardo, where he appeared in a 1970 index under the E.A.T. heading. In 1966, he corresponded with Thomas Wilfred, a pioneer of kinetic art and 'Lumia' (art using electric light), regarding his thesis at the University of Oregon. Evans has a diverse background in architecture, having served as a professor of architecture and eventually the President of San Jose State University and the founding President of California State University Channel Islands (CSUCI). As an artist, he is known for creating large-scale abstract handwoven tapestries, which have been collected by institutions such as the Mingei Museum and the Art Institute of Chicago. He was also instrumental in establishing Studio Channel Islands, an art center on the CSUCI campus.",
+            "sources": [
+              "https://archive.org/stream/leonardo19681987vol120index/leonardo1968-1987vol1-20index_djvu.txt",
+              "https://muse.jhu.edu/article/606540/pdf",
+              "https://studiochannelislands.org/wp-content/uploads/2024/12/Emergence-Catalog-2025.pdf",
+              "https://www.csuci.edu/about/presidents-past-and-present.htm",
+              "https://www.latimes.com/archives/la-xpm-2001-jun-03-me-5867-story.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Evans (1932–2012) was a prominent New York-based collage and mail artist who was highly active in the late 1960s and early 1970s. Beginning in 1964, Evans famously committed to creating a small collage every single day in bound notebooks, a project he continued until the year 2000. These daily collages often incorporated 'flotsam and jetsam'—found objects and ephemera from the streets of the East Village, where he lived and worked. His work is closely associated with the New York avant-garde and mail art movements of the era. While primarily known for his daily practice, his association with the broader experimental art scene in New York during the peak of the Experiments in Art and Technology (E.A.T.) movement makes him a relevant historical identity. His archives and works are held in collections such as the Museum of Modern Art (MoMA) through the Political Art Documentation/Distribution (PAD/D) archive.",
+            "sources": [
+              "https://www.amny.com/news/john-evans-79-artist-whose-collages-were-a-diary/",
+              "https://www.moma.org/artists/34211",
+              "https://www.betonsalon.net/IMG/pdf/journal_jnh_web_en.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jerry Evans\" artist E.A.T.",
+            "\"Jan Evans\" artist E.A.T.",
+            "artist \"J. Evans\" \"Experiments in Art and Technology\" E.A.T.",
+            "\"John Evans\" artist Experiments in Art and Technology E.A.T.",
+            "\"Jean Evans\" artist E.A.T.",
+            "\"J. Evans\" artist 1960s 1970s E.A.T.",
+            "\"J. Handel Evans\" Leonardo journal",
+            "\"J. Handel Evans\" artist Experiments in Art and Technology",
+            "\"John Evans\" artist Experiments in Art and Technology E.A.T.",
+            "\"J. Evans\" artist \"Leonardo\" journal 1970",
+            "",
+            "\"Handel Evans\" artist architect",
+            "\"John Evans\" collage artist E.A.T.",
+            "\"John Evans\" artist Experiments in Art and Technology member",
+            "\"J. Handel Evans\" Experiments in Art and Technology E.A.T.",
+            "\"J. Evans\" artist E.A.T. Osaka Expo 70"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUvZ7zLVt_hE0zF4_pctuUYxvUqZPcprWjYe-wNfuM6XU-W8V0R0t7gjpFa6F2XjZH47ceHAlEt_hnhMkUUL483XVuO98RGKAq8GtBOuOOqtN9exqETpQAxfTCZGWQ53XjlIopQTxPY9my7ZvpmA3G3qqCBN7Q2-L3BRvv727WTfsltRk=",
+              "title": "csuci.edu",
+              "resolvedUri": "https://www.csuci.edu/about/facts-history/presidents-past-and-present.htm"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoqfn9DzsAx8h_OrjwgbBKoh1onbfQC1o2JlKoasqDznxMdBM0RN5RgKb2-P2y5f0av3VuCmshdQi6fASDSd7waYmFAW6JlaXU9MuPyFxdu_fAKq8M294tIYVnxLmPwXGd_CHNDKdxF2pwLxtBGX5klF8kH2GaotqK5KazktEhmExyr93tKw==",
+              "title": "amny.com",
+              "resolvedUri": "https://www.amny.com/news/john-evans-79-artist-whose-collages-were-a-diary/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcfAACaHksbGzRbzxJej15wELea9qH3byTbtPfa_nJlmR84h_fxMV9_Im7DE6BBz22FcwF_WY0Nk6Xi1n9nYWC8Quu3a_xiVpzlDG4yrjzYmdi24FTQpxp5Wyh381xBN_fI6084Fy9nXLrUpe8tCOmPITvmLGIYMAK9g==",
+              "title": "coolgrove.com",
+              "resolvedUri": "https://coolgrove.com/books/offbeats-lower-east-side-portraits/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 506,
+                "endIndex": 739,
+                "text": "Evans has a diverse background in architecture, having served as a professor of architecture and eventually the President of San Jose State University and the founding President of California State University Channel Islands (CSUCI)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1669,
+                "endIndex": 1821,
+                "text": "Beginning in 1964, Evans famously committed to creating a small collage every single day in bound notebooks, a project he continued until the year 2000."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1822,
+                "endIndex": 1976,
+                "text": "These daily collages often incorporated 'flotsam and jetsam'—found objects and ephemera from the streets of the East Village, where he lived and worked."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -114,6 +1328,202 @@
         "y1": 7.8,
         "x2": 86.8,
         "y2": 20.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q86",
+          "label": "Jimmy Scott",
+          "description": "",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names 'Don Little' and 'Jimmy Scott' (also known as 'Little Jimmy Scott') do not match. While both include the word 'Little', it is a surname for the person on the card and a nickname/prefix for the Wikibase entity. There is no evidence that Jimmy Scott used the name Don."
+        },
+        {
+          "qid": "Q109",
+          "label": "Little Willie John",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Don Little' and 'Little Willie John' do not match. Little Willie John was a well-known R&B singer who died in 1968, and there is no evidence to suggest he used the name Don Little or that these two records refer to the same individual."
+        },
+        {
+          "qid": "Q78",
+          "label": "Little Esther",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Don Little' and 'Little Esther' are distinct. The Wikibase entity refers to Little Esther (Esther Phillips), a woman, while 'Don Little' is typically a male name. There is no evidence suggesting they are the same person."
+        },
+        {
+          "qid": "Q1789",
+          "label": "Little Benny Harris",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Don Little' from the card does not match 'Little Benny Harris' (whose surname was Harris). 'Little' in the Wikibase entry is a nickname prefix, whereas in the card entry, it appears to be a surname. There is no historical or biographical evidence linking the jazz trumpeter Benny Harris to the name Don Little."
+        },
+        {
+          "qid": "Q1522",
+          "label": "Little Brother Montgomery",
+          "description": "",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Don Little' on the card does not strongly match the name 'Little Brother Montgomery' (real name Eurreal Wilford Montgomery). While both contain the word 'Little', Little Brother Montgomery is a well-known jazz/blues musician and is rarely if ever referred to as 'Don Little'."
+        },
+        {
+          "qid": "Q832",
+          "label": "Little Miss Cornshucks",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'Don Little', while the Wikibase entry is for 'Little Miss Cornshucks' (Mildred Jorman). Although they share the word 'Little', Don Little is a masculine name and Little Miss Cornshucks was a female jazz/blues singer. There is no evidence connecting the two names as aliases for the same person."
+        },
+        {
+          "qid": "Q28116",
+          "label": "Little Red School House",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Don Little, whereas the Wikibase entity describes an institution called the 'Little Red School House'. They are fundamentally different types of entities (person vs. institution)."
+        },
+        {
+          "qid": "Q22454",
+          "label": "Webster Young",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Don Little' and 'Webster Young' do not match, and there is no evidence to suggest they are the same individual."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q517",
+          "label": "Napoleon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual named Don Little active in the mid-20th century, while the Wikidata entity refers to the historical French Emperor Napoleon Bonaparte (1769-1821). The names, time periods, and occupations do not match."
+        },
+        {
+          "qid": "Q178943",
+          "label": "Little Boots",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an individual named Don Little who was likely active in the 1960s or 70s. The Wikidata entity, Little Boots, was born in 1984, began her career in 2005, and is a female synth-pop musician. The timelines and names do not align."
+        },
+        {
+          "qid": "Q1388443",
+          "label": "Little Willie John",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Don Little', while the Wikidata entity is 'Little Willie John' (birth name William Edward John). There is no biographical or historical evidence linking the singer Little Willie John to the name 'Don Little'. Additionally, Little Willie John died in May 1968, which makes it unlikely he is the individual referenced if they were active throughout the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q2917869",
+          "label": "Elbert Luther Little",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist named Don Little, whereas the Wikidata entity (Q2917869) is Elbert Luther Little, a renowned botanist and scientific collector for the United States Department of Agriculture. Their names and professions do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Donald Little is a musician and educator who was active as a performing artist beginning in the late 1960s and early 1970s. He is most notable for his work as a tuba artist and his involvement with the experimental new music ensemble BL Lacerta. The ensemble was known for its avant-garde performances and collaborated with high-profile experimental artists such as John Cage, Pauline Oliveros, and Stuart Dempster. Little received his Bachelor of Music in 1970 from the Peabody Conservatory and his Master of Music in 1971 from Northwestern University. In 1976, he joined the faculty of the University of North Texas College of Music. His career involves a intersection of music and experimental performance, which aligns with the spirit of organizations like Experiments in Art and Technology (E.A.T.) that promoted cross-disciplinary collaborations between artists and technical specialists.",
+            "sources": [
+              "https://music.unt.edu/faculty-and-staff/donald-little",
+              "https://txarchives.org/unt/finding_aids/00615.xml",
+              "https://www.chisham.com/tips/bbs/apr2005/msg00609.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Don Little was a technical specialist who served as the head of the instrumentation and photography section at the Suffield Experimental Station in Alberta, Canada, during the 1960s. In this role, he managed a team responsible for high-speed photography and complex instrumentation for scientific experiments, often collaborating with researchers from organizations like Bell Telephone (Bell Labs). Given that E.A.T. (Experiments in Art and Technology) was founded by Bell Labs engineers and specifically sought to connect artists with technical experts in fields like high-speed photography and electronics, this Don Little represents the type of technical collaborator frequently associated with the movement during the late 1960s.",
+            "sources": [
+              "https://www.warmuseum.ca/militaryhistory/oralhistory/transcripts/31D%2011%20ANDERSON.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "The name 'Don Little' may also be a reconciliation of the 'Don Banks Music Box' (DBMB), which was frequently referred to by its developers and users as 'Don's little grey box.' The device was one of the first portable electronic music synthesizers, developed in the late 1960s (circa 1967-1968) for the Australian composer and artist Don Banks (1923–1980) by the Electronic Music Studios (EMS) team in London. Don Banks was an artist active in the late 1960s and 1970s whose work focused on the intersection of traditional composition and new electronic technology, a mission very similar to that of E.A.T.",
+            "sources": [
+              "https://www.cambridge.org/core/journals/organised-sound/article/don-banks-music-box-to-the-putney-the-genesis-and-development-of-the-vcs3-synthesiser/5B8B1A00B7B7C6E8F1A9C8D9B4A0E6B2",
+              "https://www.modular-station.com/modulisme/ems-1/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "artist \"Don Little\" 1960s 1970s",
+            "\"Don Little\" E.A.T. artist collaboration",
+            "\"Don Little\" Experiments in Art and Technology",
+            "\"Don Little\" artist New York 1960s 1970s",
+            "\"Don Little\" engineer collaborator artist",
+            "\"Don Little\" E.A.T. archive",
+            "\"Don Little\" photographer E.A.T.",
+            "\"Don Little\" \"9 Evenings\" Theatre and Engineering",
+            " \"Don Little\"",
+            "\"Don Little\" Bell Labs engineer E.A.T.",
+            "\"Don Little\" experimental art 1970s",
+            "\"Don Little\" artist 1960s electronic music",
+            "\"Don Little\" E.A.T. membership list",
+            "\"Don Little\" E.A.T. collaboration",
+            "\"Don Little\" artist engineer E.A.T.",
+            "\"Don Little\" 9 Evenings E.A.T. collaboration",
+            "\"Don Little\" Pepsi Pavilion E.A.T.",
+            "",
+            "\"Don Little\" Bell Labs engineer collaboration",
+            "\"Don Little\" artist Toronto 1960s",
+            "\"Don Little\" sculptor 1960s 1970s",
+            "\"Don Little\" photographer New York 1970s",
+            "\"Don Little\" performance artist 1960s",
+            "\"Donald Little\" engineer E.A.T. collaboration",
+            "\"Don Little\" artist 1968 1969 1970 E.A.T.",
+            " \"Little\"",
+            "\"Don Little\" photographer E.A.T. collaboration",
+            "\"Don Little\" artist collaborator engineer 1960s",
+            "\"Don Little\" artist 9 Evenings Theatre and Engineering",
+            "\"Don Little\" Bell Labs E.A.T. 1966",
+            "\"Don Little\" Experiments in Art and Technology 1968",
+            "\"Don Little\" artist \"E.A.T.\" collaboration",
+            "\"Don Little\" engineer \"E.A.T.\" collaboration",
+            "\"Don Little\" Experiments in Art and Technology 1970",
+            "\"Don Little\" photographer E.A.T. artist collaboration 1966",
+            "\"Don Little\" Experiments in Art and Technology 1969",
+            "",
+            "\"Donald Little\" Experiments in Art and Technology list",
+            "\"Don Little\" artist New York 1968 1969",
+            "\"Don Little\" artist 1970 Osaka Expo",
+            "\"Don Little\" Pepsi Pavilion E.A.T. collaborator",
+            "\"Don Little\" filmmaker 9 Evenings engineer list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnjZQpEeQeK6QTXyVqcvCz9KHdfw6VQhxuOjGE_eJS660I1gzZaW--jl5kVuzV2hyP04May_kMtLEXd0bqIYOn9NOMS9BkXVmxPbdefx8EyuBnAOjxOWOBEbJbtg_7nlZtp8AH6X8HyB-UDma5cnKTzxnI",
+              "title": "orbiscascade.org",
+              "resolvedUri": "https://archiveswest.orbiscascade.org/ark:80444/xv245086"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpqDmkUQwstM6oLcPPsZUMSO6Y7c-i_Q7N-o8dJFao-ua0s6lF8Ck0G5l7G2obyPIsCC4NrFQX0cp9PmNRderTEuuJnOuV5OTsUtXKjfLYvB_leau2FpaawGKhX9PDujGV6DTPatNTzGCiQgRJycLEqGX7gLC7kl5r86XfIoNhYi5mIAjOLR9YeyT1sJwaiNDPSzSWrtx3CD3lFXjd6m3TCeABFZzu-UfAQPFyN--wB8gXHqaljJ1BuC_EgyGLqWargFbscYd7skeruDU8o3DDsqh_gze6MVv4ni4=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/949290249/Mark-J-P-Wolf-Editor-Encyclopedia-of-Video-Games-the-Culture-Technology-And-Art-of-Gaming-Volume-1-a-F-Greenwood-2021"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2585,
+                "endIndex": 3108,
+                "text": "Don Banks was an artist active in the late 1960s and 1970s whose work focused on the intersection of traditional composition and new electronic technology, a mission very similar to that of E.A.T.\",\n      \"sources\": [\n        \"https://www.cambridge.org/core/journals/organised-sound/article/don-banks-music-box-to-the-putney-the-genesis-and-development-of-the-vcs3-synthesiser/5B8B1A00B7B7C6E8F1A9C8D9B4A0E6B2\",\n        \"https://www.modular-station.com/modulisme/ems-1/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -124,6 +1534,91 @@
         "y1": 20.3,
         "x2": 93.7,
         "y2": 32.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26381",
+          "label": "Joan Webster Price",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical, and both records pertain to the same historical context: the E.A.T. Technical Services Program during the late 1960s and early 1970s. The card entry date of 1970 aligns perfectly with the Wikibase entity's association with the program."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q63090712",
+          "label": "Joan Webster Price",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names 'Joan Webster Price' match exactly. The Wikidata entity is identified as a printmaker (artist) born in 1931, which perfectly fits the profile of an artist active during the 1970 date found on the card entry. Furthermore, the Wikidata entity has works in major collections like the MoMA and the Whitney, establishing her as a significant artist of that era."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joan Webster Price (born 1931 in Camden, New Jersey) is an American abstract artist, sculptor, and educator known for her work in printmaking and her innovative \"solar energy sculptures.\" She was active from the late 1960s through the late 1990s and beyond, often collaborating with her husband, Herbert Price. Her artistic career is defined by her involvement in the American Abstract Artists (AAA) group and her interest in the intersection of art and technology. She and Herbert Price created stainless-steel sculptures that integrated solar panels or thermal hot water systems, such as the \"Solar Arch\" (1997), intended to serve as both aesthetic monuments and functional energy-capturing devices. Price was a long-time Professor in the Art Department at the City College of New York (CCNY). Her work is represented in major collections, including the Whitney Museum of American Art, the Museum of Modern Art (MoMA), the Smithsonian American Art Museum, and the Brooklyn Museum. She is frequently listed as a member and supporter of the Leonardo/ISAST network and YLEM, organizations dedicated to artists working with science and technology, aligning with the ethos of Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://americanabstractartists.org/member/joan-webster-price/",
+              "https://whitney.org/artists/10493",
+              "https://si.edu/object/SAAM_1998.32.25",
+              "https://leonardo.info/gallery/sun/price.html",
+              "https://www.moma.org/artists/28616",
+              "https://www.artcenternj.org/wp-content/uploads/2018/12/Exhibition-Timeline.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Joan Webster Price\" biography",
+            "\"Joan Webster Price\" sculptor painter",
+            "\"Joan Webster Price\" Experiments in Art and Technology",
+            "\"Joan Webster Price\" exhibition 1960s 1970s",
+            "\"Joan Webster Price\" E.A.T. artist",
+            "\"Joan Webster Price\" sculpture tech",
+            "\"Joan Webster Price\" Leonardo journal",
+            "\"Joan Webster Price\" computer art",
+            "\"Joan Webster Price\" E.A.T. member",
+            "\"Joan Webster Price\" solar sculpture Herbert Price",
+            "\"Joan Webster Price\" E.A.T. bibliography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfO9kkHQi9RlRPoSK2wN0gm5gZh_OPhiRRKpQFicD9keQdoLd-EVbeLCEnbBkH2ctqp200iLMdvgNJVcNA60OCaDMOYZeNSdzNOkBxW7Nbxn15jgXplewPJtWE6F56kzvOAPceznqBOuRBm_CTI4gNVBTWxg==",
+              "title": "berkeley.edu",
+              "resolvedUri": "http://people.eecs.berkeley.edu/~sequin/BIO/exhibits.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSW35RHb46mcAH5w57-_jOkZcETBbY2xazwEfYersNaENgeUsshQuUt0igvK8G5D4E0lu4uZn4Vl-dqLY7joHpxYBj8Jk5OefkATzJt6K5IqjRNnVApQj5EiTfeQgefRWHhTvA5yC3gMErgQEHxw==",
+              "title": "leonardo.info",
+              "resolvedUri": "https://leonardo.info/gallery/gallery312/price.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 362,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Joan Webster Price (born 1931 in Camden, New Jersey) is an American abstract artist, sculptor, and educator known for her work in printmaking and her innovative \\\"solar energy sculptures.\\\" She was active from the late 1960s through the late 1990s and beyond, often collaborating with her husband, Herbert Price."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 518,
+                "endIndex": 755,
+                "text": "She and Herbert Price created stainless-steel sculptures that integrated solar panels or thermal hot water systems, such as the \\\"Solar Arch\\\" (1997), intended to serve as both aesthetic monuments and functional energy-capturing devices."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

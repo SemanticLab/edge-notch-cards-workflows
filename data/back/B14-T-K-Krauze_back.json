@@ -11,6 +11,94 @@
         "y1": 6.6,
         "x2": 47.7,
         "y2": 18.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26384",
+          "label": "William Soghor",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records identify 'William Soghor'. The card entry date of 1969 matches the activity period of the E.A.T. (Experiments in Art and Technology) program, and the Wikibase entry specifically identifies him as a member of the Technical Services Program associated with the edge-notched cards."
+        }
+      ],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "William Soghor is an artist and industrial fabricator who was active in the New York art scene during the late 1960s and 1970s. He is closely associated with Milgo Industrial Inc. (now Milgo/Bufkin), a Brooklyn-based company renowned for fabricating large-scale sculptures for prominent artists such as Richard Serra, Robert Rauschenberg, and Donald Judd. Soghor's artistic career includes participation in the landmark 1973 exhibition 'Soft as Art' at the New York Cultural Center, where he was exhibited alongside major figures like Claes Oldenburg, Robert Mapplethorpe, and Hannah Wilke. His professional background also includes founding 'The William Soghor Company,' which produced specialized archival materials for the art community, specifically artwork inventory file cards designed to hold 35mm slides. His association with the Experiments in Art and Technology (E.A.T.) likely stems from Milgo Industrial's role in providing technical and industrial fabrication services for collaborative projects between artists and engineers. Soghor is married to the portrait painter Phyllis Herfield and resides in Manhattan.",
+            "sources": [
+              "https://artfacts.net/artist/william-soghor/76798",
+              "https://www.mullenbooks.com/pages/books/165696/mario-amaya-introduction/soft-as-art",
+              "https://www.northbrooklynnews.com/2016/06/01/evergreens-gala-raises-fundraising-roof/",
+              "https://www.wnyc.org/story/185854-tell-the-story-of-new-york-in-10-objects-report/",
+              "http://katherinekean.blogspot.com/2009/04/artwork-inventory-forms.html",
+              "https://www.legacy.com/us/obituaries/latimes/name/doris-soghor-obituary?id=47429141"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"William Soghor\" artist",
+            "\"The William Soghor Company\" art equipment",
+            "\"William Soghor\" artist biography",
+            "William Soghor \"Experiments in Art and Technology\"",
+            "",
+            "\"Soft as Art\" 1973 exhibition William Soghor artist",
+            "\"The William Soghor Company\" history",
+            "\"Phyllis Herfield\" William Soghor artist",
+            "\"William Soghor\" E.A.T. Brooklyn Museum",
+            "William Soghor \"Experiments in Art and Technology\" member",
+            "",
+            "\"William Soghor\" Milgo Industrial",
+            "\"Phyllis Herfield\" and \"William Soghor\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIJUl0Y4mQuo8WM7NMwVOXv-sA1e5ujScsXgCD_8sLCj3sVEmbqKGvo_-TSUz8Q1QpPSKW8daVKDMqdDiCWmzElWEnsg5preoobvYiWhM3PucqUR8n4s1ilv5I-nvpZ0zuwepG1fzlnxP_Cz4XIDMvHpnnEq5DzHDXcpfdHGOtH3mgfWJHR6eRTARWa-LLRdEs600C_tOU2owjPA==",
+              "title": "mullenbooks.com",
+              "resolvedUri": "https://www.mullenbooks.com/pages/books/165696/mario-amaya-introduction/soft-as-art?soldItem=true"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeh02u2X1UjAVHitlkLtyM2BEGKyquajd7D3E3oRvxN2cGsQQZq64FxhM1CYDGmI7naQ_NImBOt0U4_JI98uct9HMk9XOKNGAXtoXgA9e_hlXzTmhEZ3n6n-KTtFO6OiNm1DyjAKVx5xp7IkJer6icz4TjR7CP28Zkf0hqCNO4bCJVUg==",
+              "title": "nypl.org",
+              "resolvedUri": "https://www.nypl.org/sites/default/files/Pamphlet%20Files%20March2015.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 177,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"William Soghor is an artist and industrial fabricator who was active in the New York art scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 406,
+                "endIndex": 640,
+                "text": "Soghor's artistic career includes participation in the landmark 1973 exhibition 'Soft as Art' at the New York Cultural Center, where he was exhibited alongside major figures like Claes Oldenburg, Robert Mapplethorpe, and Hannah Wilke."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 863,
+                "endIndex": 930,
+                "text": "His association with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +112,128 @@
         "y1": 14.9,
         "x2": 42.1,
         "y2": 28.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25067",
+          "label": "Agnes Denes",
+          "description": "American artist (1931–)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity refers to the prominent American artist Agnes Denes, who was active during the required timeframe. Furthermore, the Wikibase entity specifically mentions the E.A.T. Technical Services Program edge-notched cards, which is the exact collection the physical card belongs to."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q394503",
+          "label": "Agnes Denes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes a prominent American artist born in 1931 and active in the late 1960s and early 1970s, which aligns perfectly with the context of the E.A.T. collection from which the card originates."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born 1931) is a Hungarian-born American conceptual artist, widely recognized as a pioneer of ecological, land, and environmental art. She became active in the late 1960s and rose to international prominence in the early 1970s. Her work is characterized by a \"visual philosophy\" that integrates diverse disciplines including science, mathematics, philosophy, and technology. Denes was associated with the Experiments in Art and Technology (E.A.T.) organization; archival records from 1969 show her involvement through forms, correspondence, and technical requests. Significant early works from this period include 'Rice/Tree/Burial' (1968), 'The World of Thorns' (1968), and 'The Human Argument' (1969–1970). She was also a participant in the landmark 1970 exhibition 'Software' at the Jewish Museum and was a founding member of the A.I.R. Gallery in 1972. Her practice often involves complex drawings on graph paper and large-scale site-specific interventions, such as 'Wheatfield — A Confrontation' (1982) in Lower Manhattan.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Agnes_Denes",
+              "https://theshed.org/program/6-agnes-denes-absolutes-and-intermediates",
+              "https://awarewomenartists.com/en/artiste/agnes-denes/",
+              "https://www.airgallery.org/artists/agnes-denes",
+              "https://www.getty.edu/research/tools/guides_inventories/eat_records.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Agnes Denes E.A.T. member",
+            "Agnes Denes artistic career 1960s 1970s",
+            "Agnes Denes biography late 1960s early 1970s Experiments in Art and Technology E.A.T.",
+            "Agnes Denes \"Experiments in Art and Technology\"",
+            "Agnes Denes \"E.A.T.\" association"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7i7oQw5Jts_xdlqd4Epb4E5Qtd6-WprP7q_2d1a_UA7PWK7STYA3nQ-rzosy3VfohvEMJ3a7dl5ufddKFfahhAq1rHPW5QH2Xhhnz5nO9pVVOb1n_kvcCjE9mv_rCuPtdoKV-Cq8mIRrbFd4GOvZGmFJzpqlSJOlCeNcj_XHO4sM41RfH",
+              "title": "artviewer.org",
+              "resolvedUri": "https://artviewer.org/agnes-denes-and-asa-sonjasdotter-at-lunds-konsthall/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9h0i4j_H_KIwCzOwjufTlYHBvF_Rgu6sB1AwI1LfnxD9vhspgj7V_kxjIdRMAyXqvi5hb688922xeVn3bCK-n1EqtnNuRb3LfEW-n9wwvcK9t7BjoCGi8AFkDrdybXvPOW_Xu2AhWN6STXd_MPM6PnsI=",
+              "title": "whitney.org",
+              "resolvedUri": "https://whitney.org/essays/histories-of-the-digital-now"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbhuAxvktMA3PbhfPfdjgHPfF-N-owVkuCEasafD_elYEOac3JeCWiCNhl8BQDSfgmvkeYSpLs3aEgROaz6uQmEwhCTSuV_Ex2UYFcGzt1LWU3Ru_X70_0-fXaAh5eWo7dJBIWJE_ptDTVOK0Eh__0iAeV3TkQzHg4x8t_mcvyJAzl8RJh0B9ch-wURal14BMd5pXE-Jn0Hs8SoBV-Z4NY0xHLsxUiUynyFa-1lPXvFWV4hw==",
+              "title": "academia.edu",
+              "resolvedUri": "https://www.academia.edu/37692488/AGNES_DENES_AND_THE_GLOBAL_IMAGINARY_VISIONS_FROM_THE_WORLD_PICTURE_TO_INTERDEPENDENCE"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJcU9Dh11j6i1zHIPRu2HpLfF4ZhUyXJpjm_ppl4rVp7fuxwfVvf0GHsWdciNviUrc0OSEnY7uiAouX2sqFz2RFFDnn8rdPDiFzdycXE77Hn4qOxGE0HuejKnvXKtciWsnkwtb7Q3FC_wNC8bBj2f4kzs9Aizs1u62xnk=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWMw9LLmlzadIVLKE-Ac00scoPhLlW8PCM8LB9NvYmYNNsenrW0_YG33W4iIxTPDvc_909EfroEZVmY7-zHp1bvSAER7O-Lxjtgesa4uhfEuwbK59IrXAkAXc7VMLmg7AXpemvlSnR7dr9JyNe53aTRI5q7MxR5vVSTimu",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdMHseW9fbQr5kj9lCfDSvJQopWVap87SjXKCjbwsYqHAH5SkW25wNXY-Pc4boPuyUudVuZEkUnYzffVQAeavl9hz2g-_5b35B3VxJ_Yvg_vHuKT06JdlqcQZ9TOhzrZvPvVvA6l741vPvPxdhLDdIy0kAc9cSciCkV7XcnitVbukI0x4pZZ4xbzDWVcFzEOMEhW3d06cASRYJ_2SUdE1Qj6FhwLF3TqG7JddOhA==",
+              "title": "academia.edu",
+              "resolvedUri": "https://www.academia.edu/37479143/Building_Systems_Experiments_in_Art_and_Technology_Before_the_Collaborative_Turn"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 196,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (born 1931) is a Hungarian-born American conceptual artist, widely recognized as a pioneer of ecological, land, and environmental art."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 197,
+                "endIndex": 289,
+                "text": "She became active in the late 1960s and rose to international prominence in the early 1970s."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 439,
+                "endIndex": 511,
+                "text": "Denes was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 512,
+                "endIndex": 628,
+                "text": "organization; archival records from 1969 show her involvement through forms, correspondence, and technical requests."
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +247,159 @@
         "y1": 27.6,
         "x2": 42.0,
         "y2": 39.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26360",
+          "label": "N. Siegel",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Furthermore, the Wikibase entity specifically references the 'E.A.T. Technical Services Program Edge-Notched Cards', which is the archival source for this index card entry. The date of 1970 on the card aligns with the active period of Experiments in Art and Technology (E.A.T.)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q14243",
+          "label": "Hava Siegelmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hava Siegelmann was born in 1964, making her only 6 years old at the time of the card entry (1970). Additionally, her surname is Siegelmann rather than Siegel, and she is a computer scientist, which does not align with the context of an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q380113",
+          "label": "Jerry Siegel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'N. Siegel', whereas the Wikidata entity is 'Jerry Siegel'. The initial 'N' does not match the first name 'Jerry'. Furthermore, Jerry Siegel was a famous comic book writer (co-creator of Superman), while the archival context of the card involves Experiments in Art and Technology (E.A.T.), which typically engaged avant-garde visual and performance artists. There is no evidence connecting Jerry Siegel to E.A.T. or the initial N."
+        },
+        {
+          "qid": "Q47126185",
+          "label": "John Siegel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a German botanist and microbiologist (John Siegel) who lived from 1861 to 1941. This contradicts the index card, which refers to an artist (N. Siegel) active in 1970, nearly 30 years after the Wikidata subject's death."
+        },
+        {
+          "qid": "Q57017157",
+          "label": "Michael P. Siegel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name initials do not match (N. Siegel vs. Michael P. Siegel). Additionally, the Wikidata entity describes a bioengineer whose academic profile suggests a contemporary career, whereas the index card refers to an artist active around 1970."
+        },
+        {
+          "qid": "Q95123386",
+          "label": "Siegel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is sourced from the 'Biographisches Lexikon des Kaiserthums Oesterreich', a biographical dictionary published between 1856 and 1891 covering figures from the Austrian Empire. This timeline is incompatible with a person active in 1970 as described on the index card."
+        },
+        {
+          "qid": "Q108291987",
+          "label": "Abraham Siegelaub",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'N. Siegel' and 'Abraham Siegelaub' do not match. The initial 'N' on the card does not align with 'Abraham', and 'Siegel' is a different surname than 'Siegelaub', although they share a common root. Additionally, the Wikidata entity is described as a researcher, whereas the context for the card identifies N. Siegel as an artist associated with E.A.T."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Paul N. Siegel (1916–2004) was a Marxist Shakespeare scholar and Professor Emeritus of English who was highly active in the late 1960s and 1970s. While not a visual artist himself, he is frequently associated with the radical art movements of that era through his seminal 1970 book, 'Leon Trotsky on Literature and Art' (Pathfinder Press). This publication, which included the 'Manifesto: Towards a Revolutionary Free Art,' provided a major theoretical and ideological foundation for artists seeking to align creative practice with social and technological change. His work is commonly cited in the bibliographies of historical studies related to Experiments in Art and Technology (E.A.T.) and the 1960s avant-garde, particularly concerning the role of the artist in a technological society.",
+            "sources": [
+              "https://www.marxists.org/archive/siegel-paul/index.htm",
+              "https://moma.org/documents/moma_catalogue_2119_300062327.pdf",
+              "https://www.pathfinderpress.com/products/leon-trotsky-on-literature-and-art"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Nathaniel Siegel is a New York-based artist, photographer, poet, and curator. While he is a visible figure in the contemporary New York art and poetry scene—particularly through his involvement with the Poetry Project at St. Mark's Church—he appears to have been born around 1967 (making him approximately 48 in 2015). This timeline would suggest he was too young to be an established artist in the late 1960s, though his work often engages with the historical legacies of that period. He has produced art installations such as '2,117 Days of Silence' and published poetry collections like 'Tony'.",
+            "sources": [
+              "https://www.boogcity.com/boog-reader-11/",
+              "https://www.poetryproject.org/newsletters/226",
+              "https://www.amny.com/news/marchers-remember-aids-victims-on-upper-west-side-1-11132049/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Norman Siegel is a prominent civil rights and civil liberties attorney in New York who began his legal career in 1968. Although he is a lawyer and not primarily an artist, he has a long historical association with the New York art community, often serving as a legal advocate for artists' rights and free expression. His work includes representing the sculptor Arturo Di Modica in the 'Charging Bull' vs. 'Fearless Girl' controversy and advocating for the rights of street performers. He has been a recognizable figure in public 'artistic' or performance-based activism since 1969, such as his annual public readings of the U.S. Constitution.",
+            "sources": [
+              "https://www.artsy.net/article/artsy-editorial-fearless-girl-face-off-poses-new-question-law-protect-artists-message",
+              "https://www.danceparade.org/norman-siegel-2024-grand-marshal/",
+              "https://www.nyclu.org/en/about/norman-siegel"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Neil F. Siegel is a legal scholar and attorney who wrote an influential historical analysis of the 'Resale Royalty Provisions of the Visual Artists Rights Act' (1988). He is noted for his work on the economic rights of artists, having been active in the discourse surrounding the legal protections sought by artists like Robert Rauschenberg—a co-founder of Experiments in Art and Technology (E.A.T.). Though not an artist himself, his scholarship is tied to the movement's efforts to reform the relationship between artists, technology, and the art market.",
+            "sources": [
+              "https://www.aph.gov.au/Parliamentary_Business/Committees/House_of_Representatives_Committees?url=atsia/aboriginalcreativity/subs/sub11.pdf",
+              "https://elibrary.law.psu.edu/dlr/vol93/iss1/2/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"N. Siegel\" late 1960s 1970s artist",
+            "\"N. Siegel\" artist Experiments in Art and Technology",
+            "\"N. Siegel\" E.A.T. artist",
+            "\"N. Siegel\" artist biography",
+            "\"Siegel\" Experiments in Art and Technology E.A.T.",
+            "\"Norman Siegel\" artist E.A.T.",
+            "\"Nathaniel Siegel\" artist E.A.T.",
+            "\"N. Siegel\" \"Experiments in Art and Technology\"",
+            "\"Neil Siegel\" artist E.A.T.",
+            "\"Nina Siegel\" artist E.A.T.",
+            "\"Nancy Siegel\" artist E.A.T.",
+            "\"N. Siegel\" \"E.A.T.\" artist",
+            "\"Nicholas Siegel\" artist 1960s",
+            "\"N. Siegel\" \"Experiments in Art and Technology\" member",
+            "\"Nathan Siegel\" artist 1960s",
+            "\"Nancy Siegel\" artist 1970s",
+            "\"N. Siegel\" artist 1960s 1970s",
+            "\"Norman Siegel\" artist 1960s",
+            "\"Netty Siegel\" artist",
+            "\"N. Siegel\" \"Pepsi Pavilion\"",
+            "\"N. Siegel\" \"9 Evenings\"",
+            "\"Nathaniel Siegel\" artist \"1960s\" \"1970s\"",
+            "\"Nancy Siegel\" artist \"1960s\" \"1970s\"",
+            "\"N. Siegel\" \"E.A.T.\" member list",
+            "\"E.A.T.\" member Siegel",
+            "\"N. Siegel\" artist E.A.T. Osaka 1970",
+            "\"N. Siegel\" \"9 Evenings\" participant",
+            "\"Experiments in Art and Technology\" membership list Siegel",
+            "\"N. Siegel\" E.A.T. member list",
+            "\"Nathan Siegel\" artist 1970s",
+            "\"Nina Siegel\" artist 1970s",
+            "\"Norman Siegel\" artist 1970s",
+            "\"Nancy Siegel\" artist 1970s",
+            "\"Nicholas Siegel\" artist 1970s",
+            "\"N. Siegel\" Experiments in Art and Technology member",
+            "\"N. Siegel\" Experiments in Art and Technology 1960s",
+            "\"N. Siegel\" E.A.T. 1970s",
+            " \"N. Siegel\"",
+            "\"Neil Siegel\" artist 1960s 1970s",
+            "\"Nathaniel Siegel\" artist 1960s 1970s",
+            "\"Norman Siegel\" artist 1960s 1970s",
+            " \"Siegel\" artist",
+            "\"N. Siegel\" artist 1968 1969 1970",
+            "\"Nathaniel Siegel\" Purchase College artist",
+            "\"N. Siegel\" \"E.A.T.\" News",
+            "\"Nathan Siegel\" artist 1960s 1970s",
+            "\"Nathan Siegel\" \"E.A.T.\"",
+            "\"Natalie Siegel\" artist \"E.A.T.\"",
+            "\"Neil Siegel\" artist \"E.A.T.\"",
+            "",
+            "\"N. Siegel\" artist active 1960s 1970s E.A.T.",
+            "\"N. Siegel\" E.A.T. Directory of Members 1970",
+            "\"Paul N. Siegel\" artist E.A.T. association",
+            "\"Nathan Siegel\" artist Brooklyn 1970"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

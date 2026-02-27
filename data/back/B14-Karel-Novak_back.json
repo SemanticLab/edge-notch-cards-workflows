@@ -11,6 +11,69 @@
         "y1": 5.5,
         "x2": 54.8,
         "y2": 20.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q20620",
+          "label": "trumpet",
+          "description": "musical instrument",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person (noted as sending a letter), while the Wikibase entity describes a musical instrument (trumpet). These are distinct categories of entities."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3713655",
+          "label": "Donald Trump Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s and early 1970s. The Wikidata entity is for Donald Trump Jr., who was born in 1977 and therefore could not have been active during that period."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Pres Trump\" artist bio",
+            "\"Pres Trump\" artist 1960s",
+            "\"Pres Trump\" engineer artist collaboration",
+            "\"Pres Trump\" Experiments in Art and Technology E.A.T.",
+            "artist \"Pres Trump\" late 1960s 1970s",
+            "\"John G. Trump\" Experiments in Art and Technology E.A.T.",
+            "\"Pres Trump\" 1960s artist",
+            "\"Pres Trump\" artist E.A.T. collaboration",
+            "\"Pres Trump\" engineer E.A.T.",
+            "\"John Trump\" artist 1960s 1970s",
+            "\"Preston Trump\" artist 1960s 1970s",
+            "\"Pres Trump\" Experiments in Art and Technology",
+            "\"Pres. Trump\" artist 1960s",
+            "\"Pres Trump\" art engineering",
+            "\"Pres Trump\" artist 1960s 1970s E.A.T.",
+            "\"Preston Trump\" artist E.A.T.",
+            "artist \"Pres Trump\"",
+            "\"Pres Trump\" 1960s",
+            "\"Pres Trump\" 1970s",
+            "\"Pres Trump\" engineer",
+            "\"Pres Trump\" E.A.T. artist engineer",
+            "\"Experiments in Art and Technology\" members \"Trump\"",
+            "\"Experiments in Art and Technology\" board \"Trump\"",
+            "\"Pres Trump\" artist 1960s 1970s",
+            "\"E.A.T.\" \"John G. Trump\"",
+            "\"Preston Trump\" artist 1960s 1970s art technology",
+            "",
+            "\"Preston Trump\" E.A.T.",
+            "\"Preston Trump\" artist 1960s",
+            "\"Pres Trump\" artist E.A.T. association",
+            "\"Preston Trump\" artist 1970s",
+            "\"John Trump\" engineer Experiments in Art and Technology",
+            "\"P. Trump\" artist 1960s 1970s",
+            "\"Preston Trump\" artist 1970s association",
+            "\"Pres Trump\" artist 1960s \"E.A.T.\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

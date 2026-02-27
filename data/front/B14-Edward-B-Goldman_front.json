@@ -28,5 +28,191 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Computer graphics/film",
     "aestheticPhilosophicalInterests": "null"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q79969",
+      "label": "Emma Goldman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Dr. Edward B. Goldman, a male academic in mechanical and aerospace science at the University of Rochester with modern technical skills like computer programming. The Wikidata entry refers to Emma Goldman, a famous female anarchist philosopher and activist who died in 1940, well before the technical fields and zip codes mentioned on the card became prevalent."
+    },
+    {
+      "qid": "Q506885",
+      "label": "William Goldman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Dr. Edward B. Goldman, a scientist/engineer at the University of Rochester with expertise in mechanical engineering, aerospace, and computer graphics. The Wikidata entity refers to William Goldman, a famous novelist and screenwriter known for 'The Princess Bride'. They have different first names and vastly different professional careers."
+    },
+    {
+      "qid": "Q510587",
+      "label": "Patricia S. Goldman-Rakic",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The first record is for a male, Dr. Edward B. Goldman, who specialized in mechanical and aerospace engineering at the University of Rochester. The second record is for a female, Patricia S. Goldman-Rakic, a renowned neuroscientist who worked at Yale University."
+    },
+    {
+      "qid": "Q1291546",
+      "label": "Edward Alphonso Goldman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals with distinct professional fields and timelines. The card record describes an Edward B. Goldman associated with mechanical engineering, aerospace, and computer graphics at the University of Rochester, likely in the mid-to-late 20th century. The Wikidata entity refers to Edward Alphonso Goldman (1873-1946), a prominent zoologist and botanist associated with the Smithsonian Institution and natural history exploration."
+    },
+    {
+      "qid": "Q12822531",
+      "label": "Goldman Naum Abramovich",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are completely different (Edward B. Goldman vs. Naum Abramovich Goldman). The Wikidata entity lacks any geographical or professional overlap with the American academic detailed in the card data."
+    },
+    {
+      "qid": "Q17130400",
+      "label": "Gold Man",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes an American scientist and professor (Dr. Edward B. Goldman) based in Rochester, N.Y., specializing in engineering and mathematics. The Wikidata entity describes a Japanese film director named 'Gold Man'. Despite a minor overlap in 'film', the names, nationalities, and primary careers are entirely different."
+    },
+    {
+      "qid": "Q21095026",
+      "label": "Marcus I. Goldman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The individuals have different first names and middle initials (Edward B. vs. Marcus I.). Furthermore, their professional fields are completely different: Edward Goldman is focused on Mechanical/Aerospace engineering and computers, while Marcus Goldman was a geologist and mining engineer."
+    },
+    {
+      "qid": "Q51527434",
+      "label": "Steven A. Goldman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. While both share the last name Goldman and are affiliated with the University of Rochester, their first names (Edward B. vs. Steven A.) and professional fields (Mechanical/Aerospace Engineering vs. Neurology/Medicine) are entirely distinct."
+    },
+    {
+      "qid": "Q74500965",
+      "label": "Rachel S. Goldman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Dr. Edward B. Goldman (male) at the University of Rochester, while the Wikidata entry refers to Rachel S. Goldman (female) at the University of Michigan."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q149990",
+      "label": "University of Rochester",
+      "description": "private, nonsectarian, research university in Rochester, New York, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'University of Rochester' is an exact match. Furthermore, both the card and the Wikidata entity place the organization in Rochester, New York, and the Wikidata entity is defined as a university, which aligns perfectly with the 'Department of Mechanical & Aerospace Science' listed on the card."
+    },
+    {
+      "qid": "Q7896217",
+      "label": "University of Rochester Medical Center",
+      "description": "The University of Rochester's main medical campus and its network of clinics, providers, and services",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card identifies the employer as the University of Rochester and the specific department as the Department of Mechanical & Aerospace Science. The Wikidata entity is the University of Rochester Medical Center (URMC), which is a medical-focused subset and subsidiary of the University of Rochester. Mechanical and Aerospace sciences are part of the university's engineering division, not the medical center."
+    },
+    {
+      "qid": "Q115620252",
+      "label": "UR Research",
+      "description": "Institutional repository at the University of Rochester",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q115620252 represents 'UR Research', which is an institutional repository service/platform. While it is 'part of' the University of Rochester, it is not the University itself, which is the organization listed as the employer on the card."
+    },
+    {
+      "qid": "Q100998823",
+      "label": "University of Rochester School of Medicine and Dentistry",
+      "description": "medical school in Rochester, New York, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is specifically the University of Rochester School of Medicine and Dentistry (a medical school), whereas the card identifies the employer as the University of Rochester and specifies the 'Department of Mechanical & Aerospace Science'. While the medical school is a part of the university, it is a distinct administrative unit that does not house the aerospace and mechanical engineering departments mentioned on the card."
+    },
+    {
+      "qid": "Q116719763",
+      "label": "University of Rochester",
+      "description": "power station with capacity >1MW in Monroe County, New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the University of Rochester academic institution (a university), while the Wikidata entity Q116719763 describes a natural gas-fired power station. While the power station is located in the same county and shares the name, it is a specific infrastructure asset and not the organization (the university itself) where a professor would be employed."
+    },
+    {
+      "qid": "Q101028445",
+      "label": "University of Rochester Department of Chemistry",
+      "description": "academic department",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as the University of Rochester (and specifically the Department of Mechanical & Aerospace Science). The Wikidata entity refers specifically to the Department of Chemistry, which is a different academic department within the university."
+    },
+    {
+      "qid": "Q115769037",
+      "label": "University of Rochester Department of Electrical and Computer Engineering",
+      "description": "academic department at the University of Rochester",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the University of Rochester, specifically the Department of Mechanical & Aerospace Science. The Wikidata entity represents the Department of Electrical and Computer Engineering at the same university. While they share a parent organization, they are distinct departments."
+    },
+    {
+      "qid": "Q115769115",
+      "label": "University of Rochester Department of Physics and Astronomy",
+      "description": "academic department at the University of Rochester",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the 'Department of Physics and Astronomy' at the University of Rochester. While it is part of the University of Rochester, it is a specific sub-unit that does not match the department mentioned on the card (Department of Mechanical & Aerospace Science) and is more specific than the parent organization 'University of Rochester' listed as the employer."
+    },
+    {
+      "qid": "Q16982626",
+      "label": "University of Rochester Department of Economics",
+      "description": "academic department at the University of Rochester",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the Department of Economics, while the card lists the University of Rochester as the employer and specifies the Department of Mechanical & Aerospace Science. These are distinct organizational units within the same parent university."
+    },
+    {
+      "qid": "Q115769206",
+      "label": "University of Rochester Institute of Optics",
+      "description": "academic department at the University of Rochester",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is a specific academic department (Institute of Optics) within the University of Rochester. While it is part of the employer listed on the card, it is not the employer itself, and the card explicitly mentions a different department (Department of Mechanical & Aerospace Science)."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Dr. Edward B. Goldman was a prominent research scientist and associate professor at the University of Rochester during the late 1960s and 1970s. He was a member of the Department of Mechanical and Aerospace Sciences and played a significant role in the university's Laser Fusion Feasibility Project (now the Laboratory for Laser Energetics). His technical expertise spanned mechanical engineering, aeronautics, aerospace sciences, and ultrasonics, with a particular focus on the hydrodynamic modeling of gases and plasmas. Goldman authored several influential papers in the Journal of the Acoustical Society of America regarding the absorption and dispersion of ultrasonic waves in gas mixtures. In the early 1970s, he focused on the physics of laser-driven fusion, developing numerical Lagrangian codes to simulate the dynamics of laser-imploded pellets and investigate thermonuclear neutron yields. His work often involved advanced mathematics and computer programming to perform numerical experiments. He is also noted for his potential association with Experiments in Art and Technology (E.A.T.), a non-profit organization that fostered collaborations between the technical community and artists during that era.",
+        "sources": [
+          "https://pubs.aip.org/asa/jasa/article-abstract/44/3/835/778619/Absorption-and-Dispersion-of-Ultrasonic-Waves-in",
+          "https://pubs.aip.org/asa/jasa/article-abstract/47/3B/768/742183/Absorption-and-Dispersion-of-Ultrasonic-Waves-in",
+          "https://pubs.aip.org/asa/jasa/article-abstract/46/5B/1132/740417/Evolution-of-an-Initial-Disturbance-in-a-Gas",
+          "https://www.researchgate.net/scientific-contributions/Edward-B-Goldman-2007797743",
+          "https://archive.org/details/sim_journal-of-the-acoustical-society-of-america_1969_45_index/page/n5/mode/2up"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Edward B. Goldman\" University of Rochester",
+        "\"Edward B. Goldman\" aeronautics aerospace mathematics",
+        "\"Edward B. Goldman\" Rochester NY engineer",
+        "\"Edward B. Goldman\" Mechanical Engineering Rochester",
+        "",
+        "\"Edward B. Goldman\" Rochester ultrasonics aeronautics",
+        "\"Edward B. Goldman\" E.A.T. artist collaboration",
+        "\"Edward B. Goldman\" University of Rochester \"Mechanical Engineering\"",
+        "",
+        "\"Edward B. Goldman\" E.A.T. bibliography",
+        "\"Edward B. Goldman\" computer programming Rochester 1970",
+        "",
+        "\"Edward B. Goldman\" ultrasonics 1968 1970",
+        "\"Edward B. Goldman\" E.A.T. collaborator",
+        "\"Edward B. Goldman\" \"University of Rochester\" mechanical aerospace programming"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

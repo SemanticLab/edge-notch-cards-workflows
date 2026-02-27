@@ -10,6 +10,153 @@
         "y1": 9.3,
         "x2": 32.29,
         "y2": 19.63
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3178928",
+          "label": "Jim Riggleman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Jim Riggleman, a professional baseball player and manager, whereas the card entry refers to Jim Rigg, who is identified as an artist. Additionally, the surnames are distinct (Rigg vs. Riggleman)."
+        },
+        {
+          "qid": "Q6197756",
+          "label": "Jim Riggs",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Jim Rigg' is a very close match to 'Jim Riggs', with the missing 's' being a common spelling variation. The Wikidata entity is a jazz musician/conductor born in 1941, making him approximately 28 years old and active during the late 1960s period mentioned on the card. This fits the artistic context provided."
+        },
+        {
+          "qid": "Q6197758",
+          "label": "Jim Riggs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Jim Riggs) was born in 1963, making him only 6 years old at the time of the card entry (1969). Furthermore, the Wikidata entity is a professional American football player, which does not align with the provided context that the person on the card is an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jim Rigg is a Kansas-based artist and graphic designer who was active in the late 1960s and 1970s. He is a graduate of Wichita State University (WSU) with a Fine Arts degree in Graphics. Rigg built a career that frequently involved collaborations between artistic and technical disciplines, fitting the mission of the Experiments in Art and Technology (E.A.T.) organization. He worked as a creative professional in broadcast design for approximately 20 years at KSN, a television station in Wichita, where he partnered with technical staff such as broadcast engineer Don Hogg. Rigg later served as the Design Director at Kansas State University (K-State) in Manhattan, Kansas, before his retirement. His artistic output includes monochromatic drawings of historic aircraft, such as the Travel Air Type R Racing Monoplane (circa 1980), and watercolors like \"Dance of the Tulips.\" His potential association with E.A.T. is supported by the significant E.A.T. presence in Wichita during the 1960s and 1970s, driven by figures like Boeing art director William Allan Fetter, who was an active E.A.T. member and pioneer of computer graphics.",
+            "sources": [
+              "https://wichitahistory.org",
+              "https://k-state.edu/perspectives",
+              "https://tcpalm.com",
+              "https://robinaveryartist.com",
+              "https://gracecathedraltopeka.org"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jim Rigg\" artist 1960s 1970s",
+            "\"Jim Rigg\" Experiments in Art and Technology",
+            "\"Jim Rigg\" sculptor painter photographer",
+            "\"James Rigg\" Experiments in Art and Technology",
+            "artist \"Jim Rigg\" E.A.T.",
+            "",
+            "\"Jim Rigg\" Vermont artist history",
+            "\"Jim Rigg\" E.A.T. artist",
+            "\"James Rigg\" E.A.T. artist",
+            "\"Jim Rigg\" artist Pepsi Pavilion",
+            "\"James Rigg\" E.A.T. member",
+            "\"Jim Rigg\" E.A.T. member",
+            "\"Jim Rigg\" artist E.A.T. newsletter 1960s 1970s",
+            "",
+            "\"Jim Rigg\" artist Wichita E.A.T.",
+            "\"James Rigg\" Pepsi Pavilion E.A.T.",
+            "\"Jim Rigg\" Pepsi Pavilion E.A.T.",
+            "\"Jim Rigg\" engineer E.A.T.",
+            "",
+            "\"Experiments in Art and Technology\" Wichita members",
+            "\"Jim Rigg\" Wichita state university E.A.T.",
+            "\"Jim Rigg\" E.A.T. Wichita",
+            "\"Jim Rigg\" E.A.T. Kansas",
+            "\"James Rigg\" E.A.T. Wichita",
+            "\"Jim Rigg\" Wichita artist E.A.T.",
+            "",
+            " \"James Rigg\"",
+            " \"Jim Rigg\"",
+            "\"Jim Rigg\" artist Wichita State University E.A.T.",
+            "\"James Rigg\" member E.A.T. directory",
+            "\"Jim Rigg\" graphic designer E.A.T.",
+            "\"Jim Rigg\" member E.A.T. directory",
+            "",
+            "\"Jim Rigg\" E.A.T. directory list",
+            "\"Jim Rigg\" artist E.A.T. collaboration",
+            "",
+            "\"Jim Rigg\" artist Wichita State University career",
+            "\"Jim Rigg\" Kansas State University Design Director biography",
+            "\"James Rigg\" artist E.A.T. collaboration 1960s",
+            "",
+            "\"Jim Rigg\" broadcast design Wichita",
+            "\"Jim Rigg\" video art Wichita",
+            "\"James Rigg\" Experiments in Art and Technology Wichita",
+            "\"Jim Rigg\" \"computer graphics\" Wichita",
+            "",
+            "\"Jim Rigg\" Wichita artist E.A.T. 1960s 1970s",
+            "\"James Rigg\" Pepsi Pavilion Expo 70 contribution",
+            "",
+            "\"Jim Rigg\" artist Wichita Boeing collaboration engineer 1960s",
+            "",
+            "\"James Rigg\" artist Wichita E.A.T.",
+            "\"Jim Rigg\" RIT artist",
+            "",
+            "\"James Rigg\" E.A.T. membership directory",
+            "\"Jim Rigg\" artist Wichita State University 1960s 1970s E.A.T.",
+            "\"Jim Rigg\" E.A.T. membership directory",
+            "",
+            "\"Jim Rigg\" artist Wichita State E.A.T. member",
+            "\"Jim Rigg\" \"Techne\" E.A.T.",
+            "\"Jim Rigg\" artist E.A.T. project collaboration 1968 competition"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1RAyOh95Xd0nHcW3ErNro6UE7ZcviN7fNwjUGlUOLIcGg0z28ZmsYDrZCIhMSczRjANWpLAgWMrOG1PryK6MhfsUrbLGEBMggaBMYrX2o59N0dyAh7Md0SMVhn06TeCSBIYo7RKEuiTpKEgVlv0UtQXXBhGNZxUra7xy7rxawBAG6LM3fAmZknk9U4MFB1HbKpLe-mwz89vWuP53R5SFP7AhZ9PoEU_3hokeRdNGvmAqMLQoSDnbMCTk8NV0z2F_LFRWJxe-NPrwJHKPAQD_G",
+              "title": "tcpalm.com",
+              "resolvedUri": "https://archive.tcpalm.com/specialty-publications/jupiter-courier/curenfwithjack-golf-tournament-39e01437-39c4-2c25-e053-0100007f909d-390015261.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAcqqadDxXPQKhfCQD5RtwCpWW8fkxMX-vcfsXWn3Cpf-vC40xyFYDFaVACSrwsdR_00oqNz3BdN1K81ZndGsET_l5hiou8Heq4scUgEeTvFXwwCyzok6pmkUDNE9nvvMlo-xguK9z_10j_A==",
+              "title": "robinaveryartist.com",
+              "resolvedUri": "https://www.robinaveryartist.com/kws_catalog.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 149,
+                "endIndex": 236,
+                "text": "He is a graduate of Wichita State University (WSU) with a Fine Arts degree in Graphics."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 425,
+                "endIndex": 626,
+                "text": "He worked as a creative professional in broadcast design for approximately 20 years at KSN, a television station in Wichita, where he partnered with technical staff such as broadcast engineer Don Hogg."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1146,
+                "endIndex": 1455,
+                "text": "member and pioneer of computer graphics.\",\n      \"sources\": [\n        \"https://wichitahistory.org\",\n        \"https://k-state.edu/perspectives\",\n        \"https://tcpalm.com\",\n        \"https://robinaveryartist.com\",\n        \"https://gracecathedraltopeka.org\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -21,6 +168,487 @@
         "y1": 15.5,
         "x2": 30.54,
         "y2": 23.76
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27808",
+          "label": "John Harris",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'John Harris' matches exactly between both records. The card date (October 1969) aligns with the active period of the E.A.T. (Experiments in Art and Technology) project associated with the Wikibase entity. Furthermore, the Wikibase entity specifically identifies the individual as an artist, which matches the provided context for the card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q253629",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q253629 refers to a professional Scottish football player and coach (John Harris, 1917-1988) who managed Sheffield United during the late 1960s. This does not align with the context that the John Harris on the card was an artist or creative practitioner. While the name matches and the person was active in the late 1960s, the profession is entirely different."
+        },
+        {
+          "qid": "Q314335",
+          "label": "John Harrison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harrison (1693–1776) was an 18th-century clockmaker and inventor who died nearly 200 years before the date on the card (1969). Furthermore, the names are not identical (Harris vs. Harrison)."
+        },
+        {
+          "qid": "Q562265",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q562265) describes a mathematician and philosopher who lived from 1666 to 1719. This is chronologically impossible to be the same person as the John Harris mentioned on the index card, who was active in 1969."
+        },
+        {
+          "qid": "Q6237911",
+          "label": "John Harris, Baron Harris of Greenwich",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist (linked to the E.A.T. project), while the Wikidata entity Q6237911 describes John Harris, Baron Harris of Greenwich, a well-documented British politician and journalist. There is no indication that the politician was also an artist active in the E.A.T. context during 1969."
+        },
+        {
+          "qid": "Q6237914",
+          "label": "John Harris, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris, Jr. (Q6237914) lived from 1727 to 1791, making it impossible for him to be the individual referenced in the 1969 card entry."
+        },
+        {
+          "qid": "Q6237925",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris (Q6237925) lived from 1754 to 1838, making it impossible for him to be the person mentioned in a 1969 card entry. Additionally, his occupations as a surgeon and settler do not match the artist context."
+        },
+        {
+          "qid": "Q6237930",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a United States Navy petty officer who served during the American Civil War and was born in 1839. This is chronologically incompatible with the artist on the card who was active in 1969."
+        },
+        {
+          "qid": "Q6237938",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a military officer who died in 1864, whereas the card describes an artist active in 1969. The dates and occupations are completely incompatible."
+        },
+        {
+          "qid": "Q6237940",
+          "label": "John Harris",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name John Harris matches exactly. The Wikidata entity Q6237940 describes a painter and illustrator born in 1948, making him 21 years old in October 1969. This aligns perfectly with the artist context and the timing of the card entry, as he would have been at the start of his professional career."
+        },
+        {
+          "qid": "Q6237949",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an 18th-century Anglican priest who lived from 1680 to 1738, which is entirely inconsistent with the card entry dated 1969."
+        },
+        {
+          "qid": "Q6237957",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name and timeframe align (John Harris, Q6237957, was active in the late 1960s), he was a prominent British architectural historian and curator rather than a creative artist. The name 'John Harris' is very common, and the specific context of the card (associated with the E.A.T. project) typically refers to practitioners of visual or performance arts, making this scholar an unlikely match compared to an actual artist of the same name."
+        },
+        {
+          "qid": "Q6237966",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name John Harris is extremely common. The Wikidata entity Q6237966 is a British novelist (writing as Max Hennessy and Mark Hebden), whereas the context provided for the card suggests an artist involved with the Experiments in Art and Technology (E.A.T.) project. While a novelist is a creative, they are not typically the type of 'artist' associated with E.A.T., and another artist named John Harris (Q27808) is already identified as a more likely candidate."
+        },
+        {
+          "qid": "Q6239439",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris (Q6239439) died in 1940, which is nearly 30 years before the 1969 date on the card. Furthermore, the Wikidata entity was a politician and missionary, not an artist as specified in the context."
+        },
+        {
+          "qid": "Q6251591",
+          "label": "John P. Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (John P. Harris) died in 1926, whereas the card entry is dated 1969. This chronological discrepancy, combined with the entity's occupations as a baseball player and politician rather than an artist, confirms they are not the same person."
+        },
+        {
+          "qid": "Q7940844",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q7940844 refers to a John Harris who lived from 1802 to 1856. This is chronologically impossible for the individual on the card, who was active in 1969."
+        },
+        {
+          "qid": "Q12059590",
+          "label": "John Harris, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris, Jr. (Q12059590) lived from 1791 to 1873. The John Harris on the card was active in 1969, making it chronologically impossible for them to be the same person."
+        },
+        {
+          "qid": "Q13416964",
+          "label": "John Harris, Sr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q13416964) lived from 1673 to 1748, which is completely incompatible with the card entry date of 1969 and the context of an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q16092729",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a John Harris who is identified as an artist and was active in the late 1960s (associated with the E.A.T. project). The Wikidata entity Q16092729 describes a British Anglican priest. Given that John Harris is a very common name and the occupations are entirely unrelated, it is highly unlikely these records describe the same person."
+        },
+        {
+          "qid": "Q16106974",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q16106974) refers to a Welsh Paralympic athlete known for weightlifting and athletics, whereas the card entry describes a John Harris who is an artist active in 1969 and associated with the Experiments in Art and Technology (E.A.T.) project. The occupations do not align."
+        },
+        {
+          "qid": "Q16857676",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q16857676) lived from 1756 to 1846. This is a complete chronological mismatch with the person on the card, who was active in 1969."
+        },
+        {
+          "qid": "Q18671792",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q18671792 refers to a John Harris who was an organ builder and died in 1743, which is over 200 years before the 1969 date recorded on the card."
+        },
+        {
+          "qid": "Q18671793",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q18671793 refers to a John Harris who was active in the early 18th century (1700-1740) and is documented in the Dictionary of National Biography (1885-1900). The card record dates to 1969, which is over two centuries after the Wikidata individual's work period ended."
+        },
+        {
+          "qid": "Q18671794",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q18671794) lived from 1767 to 1832, which means he could not have been active or available for contact in 1969 as indicated on the card."
+        },
+        {
+          "qid": "Q18671795",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q18671795) lived from 1802 to 1823, whereas the card entry is dated 1969. It is chronologically impossible for these to be the same person."
+        },
+        {
+          "qid": "Q21165839",
+          "label": "John Greathed Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Greathed Harris lived from 1774 to 1850, making it impossible for him to be the person mentioned on a card dated 1969. Additionally, his occupation is listed as a barrister rather than an artist."
+        },
+        {
+          "qid": "Q24090840",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris (Q24090840) lived from 1740 to 1812, which is chronologically impossible for the person on the card who was active in 1969. Additionally, the Wikidata entity's occupation is listed as a merchant, rather than an artist."
+        },
+        {
+          "qid": "Q39025156",
+          "label": "John A Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q39025156 describes a researcher associated with the University of Pittsburgh and Williams College. The individual on the card is specifically identified as an artist active in the late 1960s (associated with the E.A.T. project). While it is possible for a researcher to have an artistic practice, there is no evidence in the Wikidata record to support this connection, and John Harris is a very common name."
+        },
+        {
+          "qid": "Q45511201",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q45511201 refers to a John Harris who lived in the 18th century (1715-1755). This individual could not be the person described on the index card, which is dated 1969 and refers to an artist active during that period."
+        },
+        {
+          "qid": "Q56967076",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name 'John Harris' matches exactly, it is a very common name. The Wikidata entity is identified as a researcher, whereas the context for the card indicates the individual was an artist. Without additional biographical details such as birth dates or specific artistic fields on the Wikidata entry, there is insufficient evidence to support a match."
+        },
+        {
+          "qid": "Q61826029",
+          "label": "John P Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity Q61826029 describes a researcher associated with public health and medical institutions (e.g., London School of Hygiene & Tropical Medicine, Public Health England). This profile does not align with the provided context of a person who was an artist active in the late 1960s. Given that John Harris is a very common name, this is likely a different individual."
+        },
+        {
+          "qid": "Q70138275",
+          "label": "John P. Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in the late 1960s, whereas the Wikidata entity Q70138275 is identified as a professor of medicine and editor associated with the Royal Australasian College of Surgeons. These are distinct career paths, and there is no evidence to suggest the medical professional in the Wikidata record is the same person as the artist from the E.A.T. project."
+        },
+        {
+          "qid": "Q74127128",
+          "label": "John Harriss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes 'John Harris', an artist, whereas the Wikidata entity Q74127128 refers to 'John Harriss', an academic, political scientist, and professor. In addition to the spelling difference in the surname, the occupations are distinct and there is no evidence that this academic was involved in the late 1960s art scene specified in the card's context."
+        },
+        {
+          "qid": "Q75304331",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q75304331) lived from 1782 to 1850, which is over a century before the 1969 date on the card. They could not be the artist active in the late 1960s."
+        },
+        {
+          "qid": "Q75996303",
+          "label": "John Richard Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a British politician involved in elections in 2019 and 2024. The card entry refers to an artist active in the late 1960s. Given the name is extremely common and the occupations and active timelines are entirely different, it is highly unlikely they are the same person."
+        },
+        {
+          "qid": "Q76017176",
+          "label": "John Lance Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity John Lance Harris was born in 1957, making him only 12 years old at the time of the card entry in 1969. This is inconsistent with the context of a professional artist active in the late 1960s. Additionally, the Wikidata record provides no evidence of artistic profession, focusing instead on genealogical data."
+        },
+        {
+          "qid": "Q76023904",
+          "label": "John William Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John William Harris died in 1932, making it impossible for him to be the individual active in 1969 as recorded on the index card. Furthermore, the Wikidata entity's occupations (barrister and diplomat) do not align with the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q76088949",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q76088949 refers to a historical individual (associated with parents Lampen Harris and Elizabeth Spry) who lived in the late 18th and early 19th centuries. This does not align with the card entry from 1969, which describes an artist active in the mid-20th century."
+        },
+        {
+          "qid": "Q76123096",
+          "label": "John Archibald Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name 'John Harris' is extremely common. The Wikidata entity Q76123096 (John Archibald Harris) does not list any occupation or artistic background, which is the primary context for the person on the index card. Additionally, the card entry provided as context already identifies Q27808 (a known artist) as the likely match, suggesting that Q76123096 is a different individual."
+        },
+        {
+          "qid": "Q76153111",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q76153111 describes a historical figure with family links (Greathed) that place him in the 19th century (born 1808), whereas the card entry is dated 1969. John Harris is a common name, and the specific biographical details for this Wikidata entity do not match the artist context or the 20th-century timeframe of the card."
+        },
+        {
+          "qid": "Q76307095",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, the Wikidata entity Q76307095 describes a British judge and barrister (King's Counsel) who received a Distinguished Service Cross. This profession does not align with the context provided for the card entry, which specifies that the individual should be an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q90321378",
+          "label": "John E Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name John Harris is extremely common. The Wikidata entity Q90321378 is identified as a researcher, which conflicts with the established context that the individual on the card was an artist. Without any shared biographical details connecting this specific researcher to the arts or the 1969 date, it is unlikely they are the same person."
+        },
+        {
+          "qid": "Q106698252",
+          "label": "John H. Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name 'John Harris' matches, the Wikidata entity Q106698252 describes a WWII veteran and first sergeant involved in the liberation of concentration camps, with records archived at the US Holocaust Memorial Museum. There is no indication that this individual was an artist or involved in the late 1960s art scene as suggested by the card context."
+        },
+        {
+          "qid": "Q110181426",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris lived from 1813 to 1855, which makes it impossible for him to be the person mentioned on the card dated 1969."
+        },
+        {
+          "qid": "Q110181428",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1936, which makes it impossible for them to be the same person active in 1969 as indicated by the card entry."
+        },
+        {
+          "qid": "Q110939877",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, the Wikidata entity Q110939877 contains genealogical links (mother Alice le Abbe) that point to a historical figure from a significantly earlier time period (likely medieval or early modern England) rather than a 20th-century artist active in 1969."
+        },
+        {
+          "qid": "Q110939878",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name 'John Harris' matches exactly, the Wikidata entity Q110939878 lacks any biographical information regarding his occupation, birth/death dates, or active period. Given that 'John Harris' is a common name and the card specifically refers to an artist active in 1969, there is no evidence in this Wikidata record to confirm he is the same person as the creative practitioner mentioned."
+        },
+        {
+          "qid": "Q111065176",
+          "label": "John N Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q111065176) describes a person born in 1953 who is associated with the University of Washington Department of Chemistry and holds a PhD. In October 1969 (the date on the card), this individual would have been only 16 years old. Furthermore, the career path in chemistry and academia does not align with the artist context provided for the John Harris on the card."
+        },
+        {
+          "qid": "Q116954196",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'John Harris' is extremely common. The Wikidata entity Q116954196 lacks any information regarding occupation, birth/death dates, or active period that would link him to the artist mentioned in the card. Furthermore, the card entry already identifies Q27808 as a high-confidence match for the artist, making it unlikely that this separate entity refers to the same person."
+        },
+        {
+          "qid": "Q121040157",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'John Harris' is extremely common. While the Wikidata entity describes a 'producer' (which could be an artistic role), there is no chronological data or specific biographical detail provided in the Wikidata record to link this individual to the 1969 card entry or the E.A.T. project context."
+        },
+        {
+          "qid": "Q124339184",
+          "label": "John Harris Andrews",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris Andrews (Q124339184) died in 1907, making it chronologically impossible for him to be the individual mentioned on the card dated 1969."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Harris (born 1937) is an American artist recognized for his involvement in the Experiments in Art and Technology (E.A.T.) movement during the late 1960s and early 1970s. He is best known for his collaborative works with Fred Stern (born 1936), specifically the installation titled 'K.E.P.-1 Self' (1968). Harris was an active member of E.A.T., a non-profit organization founded to foster collaborations between artists and engineers. His work was featured in significant E.A.T. projects and exhibitions, including 'Some More Beginnings' at the Brooklyn Museum (1968–1969) and the Pepsi Pavilion at the 1970 World's Fair (Expo '70) in Osaka, Japan. He also participated in the 1968 competition sponsored by E.A.T. and the Museum of Modern Art (MoMA). His practice often intersected with electronic and kinetic media, reflecting the technological focus of the E.A.T. circle.",
+            "sources": [
+              "https://www.getty.edu/research/exhibitions_events/exhibitions/eat/checklist.pdf",
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E.A.T.-Billy-Kl%C3%BCver-Robert-Rauschenberg-Robert-Whitman",
+              "https://academiccommons.columbia.edu/doi/10.7916/D8445M18"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"John Harris\" \"Experiments in Art and Technology\"",
+            "\"John Harris\" E.A.T. artist 1960s 1970s",
+            "\"John Harris\" artist technical engineer E.A.T.",
+            "\"John Harris\" Pepsi Pavilion E.A.T.",
+            "",
+            "\"John Harris\" artist E.A.T. Pepsi Pavilion Osaka",
+            "\"John Harris\" and Fred Stern artist collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKSYoEsZNbIfdUcvhIch3ZPTfK35lz_5RaaDW11SrvrhF33VjkupTZCEl9x_0HNLrhjr-cQW0ikbVp9RhvfKPwWJsSZFVjwPvacwHs0zmr6BiGuymiE9plqLX3kbg04g9MK1fIW6gBqhDA8i3FUWz90EnFE8Ew6j23MY4VWWC21477OfxgLAb35AB9TTTbfjKpYeCnZ6FlzJ-MyhiMdZarMchup6E9T4uVl1bgr7W6QmMKJAxH2Ep9HQfb0GB115blGuKjaUFG5Kg4TDVjW4CabchFmd9W",
+              "title": "wordpress.com",
+              "resolvedUri": "https://deterritorialinvestigations.files.wordpress.com/2015/03/wisnioski-matthew-engineers-for-change-competing-visions-of-technology-in-1960s-america.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9uR_0Ff8SlrZwouqXE94OQxjycIvqirO88q97-GcvsPObIeEgYF5MPn28gg3eL54Vb9JXdu1ywUPIzBiVsn_ws1SgqC_DSM4Gon9vrW_rd_h1exGfokRs_zez0jnykpJpDshUMS9uEiZzx2RfKvzwUuntn5Ubnq5lZGU2W9P12SqAXKBy",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/402779081/McLuhan-s-Bulbs-Light-Art-and-pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCkNKDsmHQZSZ3SCW_XKScShcS01caduKxJQ0esoJBEYZb1uVfGl72mAcq1_SSvLOSDHhzMOua8fL3H3CrzJUcOLn-HFTvYOT1m3YJtygvMnLEdMSXYNfUdX5381tWSf2ph-f0OGmB15obouE-b4I=",
+              "title": "mcintoshgallery.ca",
+              "resolvedUri": "https://mcintoshgallery.ca/docs/The-Art-of-London.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2wWJf7xglybK2zbTmTLenlbWWR1zOhF0vZ0i2SZvRX9pa30vIFCS7fyUI0V2zzzLLBbQ89gYZm3aRI-aAkBNPeULyNEV8-3D3jGsNSQUHzj9U0BbEao9A7DgQ7NkDRFdU4-9VuHS_oMBVlqC3QuKSK5WRrTMF8gEfylzoe4d-nE69K23J5fYC",
+              "title": "sup.org",
+              "resolvedUri": "https://www.sup.org/books/middle-east-studies/showpiece-city/excerpt/prologue"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtpGDFRqddPjrKsj5lu0vS9QjFEXBsMpEocwlV8a_V32WZoMduFLWA18BsIgr5sRHdirbIDe8U4UYgBc_NIdilvIe5FmCkJhNwWvvqrFmEoMx8ytP4THc0wszwg9992qU=",
+              "title": "ourstate.com",
+              "resolvedUri": "https://www.ourstate.com/john-harris/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhu-WV90S0ykmHdKSOSQhajnObLz6xv-__GllFdnaFRm1J24JF5EYHu7uKXdIpRXbb4jdUwdmVC8EzXE6LHox8Pl4tkawZm-pZzgYhqaNlOEAoIMfh_BmLrdcXECEPTr0KISAgkjnrtWnoB1u_wcz96tDB97w=",
+              "title": "ngwebsolutions.com",
+              "resolvedUri": "https://tntech.scholarships.ngwebsolutions.com/Donors?Id=0"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2AaoyDvOcrLug8PODzlx4WP-XMJuB72frECJoWxO9rXC9OZRImETQQNdbGNPPw4gfEYy3NTv1d_6V5Wo-jHHlr3tqDiU3LGIZr7tOm7UE9W346drnrQPX7u0_2pUB3ngq3kZiN8T7Y3kxRfTFs_Pfq-SWyxPNHNK551-e1xpgYQremJjCMg==",
+              "title": "handelandhaydn.org",
+              "resolvedUri": "https://handelandhaydn.org/app/uploads/2023/06/FY23-MM-Program-BookPLRev.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAEFhkB0Av_y3lGA03ANYyMlnJ1qV2Jnq2HAP6N0o0RBMVa1ujxREpP7PeqgHF0kM2IMxH-GTbXW5LmuSjc0uED4lKx8wKlesfHNjr5i5EUj3XgxeNxJDl2qmpckoL1ZeJkWcA",
+              "title": "sdsu.edu",
+              "resolvedUri": "https://jonestown.sdsu.edu/?page_id=35695"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvm5EGZN1kFJXvYPVAS8Wfhpnc2Z_3FzEiLmarhvYeaXLUMJUS7QRofcnAyonvBUwdyadG1_9bI_4FfiQtXXDEfnJkPdP5Q0Nxa6UgbJG2O8iQfKy9cQF3TrRgyjiYBN_b7zGXLzTGYXvQZQmv2P1wuvCUowPwcC9L2sq-9B2hIiRf8jfcjYfMbFNV17Jtx28ZxLkEKEWnfA==",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/exhibitions_events/exhibitions/sensing_the_future/checklist.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLJRJiD0QjnpfNHw3I9LtT5F9ueYURbykkU3jbk7OtYFUv6ORD-BAcXt9cU_dY44GLz9rBz_wDwD7qSEYZir95Yn36nm7dmnRknkPButtYAXENQ_QEYSCGHw==",
+              "title": "etnow.com",
+              "resolvedUri": "https://www.etnow.com/news/2004"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3idNQHXvEylM4_ufI0h4pi4TiFuloJIrRNB9sNJCvQ-Z-o4P2ZbyrdX_yHf2WBBWoRZveQ8eDfC2N4i09QwiSJ2C7XzAcMrinZ4qqqybAg8F6j1xAlp03K6xLtbCA0cg=",
+              "title": "artblart.com",
+              "resolvedUri": "https://artblart.com/tag/tate-britain/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUTD6khKEEHfaGrKHeNGjAoFurxDs0ZSogt2xgcaL7-_iUwTQofzD5eg0qp-_0KwXy3M3p4JSppkoDBsJR10nkCDPAoY1lb0LMIt0jSA408cPb30a2HsMdQxPJAqesF8tx3UhrLOSjRMY6xXqFUKN0si8j_5bRHbVnRPo6u16ONkN6w2I6M4PIEg_mWv_WiDSraGXsBTM8vtlNM4ERFCDHPCxVltEJxtlS9i1iTatQqHNUv_qriFjJRnfvcf2JhhLFiFI=",
+              "title": "nga.gov",
+              "resolvedUri": "https://www.nga.gov/sites/default/files/migrate_images/content/dam/ngaweb/About/pdf/annual-reports/annual-reports/annual-report-1981.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 176,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John Harris (born 1937) is an American artist recognized for his involvement in the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 922,
+                "endIndex": 1303,
+                "text": "circle.\",\n      \"sources\": [\n        \"https://www.getty.edu/research/exhibitions_events/exhibitions/eat/checklist.pdf\",\n        \"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E.A.T.-Billy-Kl%C3%BCver-Robert-Rauschenberg-Robert-Whitman\",\n        \"https://academiccommons.columbia.edu/doi/10.7916/D8445M18\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                0,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +659,119 @@
         "y1": 23.76,
         "x2": 32.29,
         "y2": 36.16
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1043",
+          "label": "Sherrie Maricle",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Gloria Sher' and 'Sherrie Maricle' are distinct. While they share the string 'Sher', Sherrie Maricle is a well-known jazz musician whose first name is Sherrie, not Gloria, and there is no evidence linking the two names as aliases for the same person."
+        },
+        {
+          "qid": "Q747",
+          "label": "Sherman Ferguson",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Gloria Sher' and 'Sherman Ferguson' do not match. Additionally, the Wikibase entity describes a man, whereas Gloria is a traditionally female name, making a match highly unlikely."
+        },
+        {
+          "qid": "Q23484",
+          "label": "Sherman (Tex.)",
+          "description": "city in Texas",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Gloria Sher, whereas the Wikibase entity describes the city of Sherman, Texas. These are entirely different types of entities."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5571304",
+          "label": "Gloria",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card entry refers to 'Gloria Sher', while the Wikidata entity refers to a singer named Gloria (Gloria Smyth). There is no indication that Gloria Smyth ever used the name 'Sher' or that they are the same person despite both being active in the relevant timeframe."
+        },
+        {
+          "qid": "Q124303065",
+          "label": "Gloria Hope Sher",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Gloria Sher matches the Wikidata entity Gloria Hope Sher perfectly. The Wikidata entity describes a theatrical producer, which falls under the category of creative/artistic practitioners, and her lifespan (1928-2013) makes her active during the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Gloria Sher (born circa 1928) was a prominent American theatrical producer and media collaborator active from the late 1960s through the 1970s and beyond. She is most notably recognized for winning a Tony Award for Best Musical in 1975 as a producer of \"Shenandoah.\" During the late 1960s, she was involved in the experimental and underground film scene, serving in a publicity role for the Art Theatre Guild—an organization founded by her husband Louis K. Sher that operated a national chain of art-house cinemas. In this capacity, she worked closely with Mike Getz, the Underground Film Coordinator, who was a central figure in the distribution of experimental cinema. Her professional activities extended into multimedia design and production; she is cited as an employer and collaborator for artists working in multimedia design and staging techniques, such as the artist Vladimer. This background in theatrical production and multimedia technology aligns with the interdisciplinary goals of the Experiments in Art and Technology (E.A.T.) organization. Later in life, she resided in Manhattan and was married to Frederick Evans.",
+            "sources": [
+              "https://www.broadwayworld.com/tonyawardsproduction.cfm?id=1240",
+              "https://www.ranker.com/list/famous-theatrical-producers/reference",
+              "https://nypost.com/2010/07/16/manhattan-couple-booted-from-cruise-over-jew-slur-fight/",
+              "https://ohiomemory.org/digital/collection/p15005coll9/id/15720/rec/1"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Gloria Sher\" artist biography",
+            "\"Gloria Sher\" art collaborations",
+            "\"Gloria Sher\" E.A.T. 1960s 1970s",
+            "\"Gloria Sher\" artist Experiments in Art and Technology",
+            "\"Gloria Sher\" theatrical producer 1970s",
+            "\"Gloria Sher\" \"Pavilion\" E.A.T.",
+            "\"Gloria Sher\" E.A.T. artist",
+            "",
+            "\"Gloria Sher\" artist 1960s 1970s NY",
+            "\"Gloria Sher\" E.A.T. bibliography",
+            "\"Gloria Sher\" \"Staging Techniques\" multi-media",
+            "\"Gloria Sher\" Experiments in Art and Technology membership list",
+            "\"Gloria Sher\" E.A.T. 9 Evenings Theatre and Engineering"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKYBu7mpgeHTeJeg-PdwT0v4mdYLqRkuttZnYPT18Qx4ijLE2TDyYdg2W_Ag8XlqHzvcXf1W0RZxy6PJH5Ri7sSLXyD_9UxYuv7_w7a2ZZkZ41zOLwnyYe-7_om3fhv2SsEkjjI6COcgHRjg==",
+              "title": "broadwayworld.com",
+              "resolvedUri": "https://www.broadwayworld.com/tonyawardssearch.php"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF_Dye6NVZbQFFZT8fMMK1eNJkeBL5NpIbFaHPGC8t2pUDCDirIYmy22wJFy1ffHK6PIvwniULZ9xVbbdg-_c05yeyIxp55_31b7-wrRjRIcmcFR-26hdKEhzqmjpks8cMns0Zp4Xo5ZCNATX1__MOzJ5T0gdktg==",
+              "title": "broadwayworld.com",
+              "resolvedUri": "https://www.broadwayworld.com/tonyawardssearch.php?year=1990"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwqSZVP9HCcAgzZ_BCGj9bDziCUAZhFT7lipRRXGteWqGsa9KxW2KopIIwQjYDP3wrIDnLqTIo2NQa45pVhFr6OG34wWz-Ybflt4KD1YV6VZ4KTxbNKZnauONqCsRGW_sxRDXr24Bk",
+              "title": "broadwaystars.com",
+              "resolvedUri": "https://www.broadwaystars.com/?date=2015-05-25"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 204,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Gloria Sher (born circa 1928) was a prominent American theatrical producer and media collaborator active from the late 1960s through the 1970s and beyond."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1111,
+                "endIndex": 1588,
+                "text": "Later in life, she resided in Manhattan and was married to Frederick Evans.\",\n      \"sources\": [\n        \"https://www.broadwayworld.com/tonyawardsproduction.cfm?id=1240\",\n        \"https://www.ranker.com/list/famous-theatrical-producers/reference\",\n        \"https://nypost.com/2010/07/16/manhattan-couple-booted-from-cruise-over-jew-slur-fight/\",\n        \"https://ohiomemory.org/digital/collection/p15005coll9/id/15720/rec/1\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

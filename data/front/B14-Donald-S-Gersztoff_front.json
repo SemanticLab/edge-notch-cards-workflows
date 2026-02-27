@@ -16,5 +16,90 @@
       "light equipment/projection",
       "ultraviolet"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q891612",
+      "label": "BBN Technologies",
+      "description": "American research and development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card, 'Bolt Beranek and Newman', matches the names of the founders of BBN Technologies (Richard Bolt, Leo Beranek, and Robert B. Newman). BBN Technologies is the well-known modern name for the organization originally founded as Bolt, Beranek and Newman."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Donald S. Gersztoff was a prominent American architectural lighting designer based in New York City, active from the late 1960s through at least the 1990s. He was an alumnus of Carnegie Mellon University and a key figure in the professionalization of lighting design. In 1966, he co-founded the lighting design firm Gersztoff, Nuckolls & Warfell (later known as Gersztoff, Nuckolls & Warfel) alongside James Nuckolls and William Warfel. He later became a principal partner in the firm Wheel-Gersztoff Associates (and its successor, Wheel Gersztoff Friedman Shankar) with Lesley Wheel. Gersztoff was a charter member of the International Association of Lighting Designers (IALD), which was established in 1969. His technical expertise included light, light equipment, projection, and the use of ultraviolet light, fields he applied to both theatrical and architectural spaces. He is documented as having an association with the organization Experiments in Art and Technology (E.A.T.) and the engineering firm Bolt Beranek and Newman (BBN), for which his partner James Nuckolls also served as a consultant during the 1970s. His work received industry recognition, including an IALD Award of Excellence in 1984 for the lighting design of the Jefferson County Courthouse in Beaumont, Texas.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/James_Nuckolls",
+          "https://www.architectmagazine.com/design/al-30th-anniversary-issue-30-moments-in-lighting_o",
+          "https://www.usmodernist.org/AL/AL-1984-02.pdf",
+          "https://www.usmodernist.org/AL/AL-1984-10.pdf",
+          "https://www.usmodernist.org/AL/AL-1994-07.pdf",
+          "https://www.cmu.edu/alumni/news/1979/march-20.html",
+          "https://radianthistory.com/lesley-wheel-the-first-lady-of-architectural-lighting-design/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "\"Donald S. Gersztoff\" Experiments in Art and Technology",
+        "",
+        "\"Wheel-Gersztoff\" lighting New York",
+        "\"Donald S. Gersztoff\" E.A.T. engineer",
+        "",
+        "",
+        "\"Donald S. Gersztoff\" E.A.T. Pepsi Pavilion",
+        "\"Donald Gersztoff\" 9 Evenings technical staff",
+        "",
+        "\"Donald Gersztoff\" ultraviolet light projection",
+        "\"Gersztoff\" E.A.T. Pepsi Pavilion",
+        "\"Gersztoff\" Bolt Beranek and Newman lighting",
+        "",
+        "\"Donald Gersztoff\" ultraviolet projection lighting",
+        "",
+        " \"Gersztoff\"",
+        "",
+        "\"Donald S. Gersztoff\" E.A.T. NYC",
+        "",
+        "",
+        "\"Donald Gersztoff\" lighting \"ultraviolet\" NYC",
+        "\"Donald S. Gersztoff\" E.A.T. engineer card"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw3OrqFGI71x6ev4KiIFh_NhIBL-GHKhS_ya51HqnVKVPU0qODROZK0p0coUFaAubX-vxg-dMiRqOtjCVISwAr1jLgKL2JBfsVHo9Ew74SYDRb1RxwY3-iCSwKdHzdwrwOmGFabRN9",
+          "title": "wikipedia.org",
+          "resolvedUri": "https://en.wikipedia.org/wiki/James_Nuckolls"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 205,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Donald S. Gersztoff was a prominent American architectural lighting designer based in New York City, active from the late 1960s through at least the 1990s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 206,
+            "endIndex": 317,
+            "text": "He was an alumnus of Carnegie Mellon University and a key figure in the professionalization of lighting design."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

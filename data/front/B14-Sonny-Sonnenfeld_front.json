@@ -16,5 +16,87 @@
       "Studio lighting"
     ],
     "specializedSkillsKnowledge": "Lighting and dimming, stage and studio lighting"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q317567",
+      "label": "Barry Sonnenfeld",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes Sonny Sonnenfeld (born Nathan), a well-known lighting specialist and salesman for companies like Lighting and Electronics Incorporated. The Wikidata entry is for Barry Sonnenfeld, the famous film director and cinematographer. While Barry is the son of Sonny and both worked in related fields (film/lighting), they are distinct individuals."
+    },
+    {
+      "qid": "Q12353009",
+      "label": "Móric Szilasi",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The Wikidata entity is a Hungarian linguist who died in 1905. The card data describes a professional in the lighting and electronics industry based in New York. While the Wikidata entity had the birth name 'Sonnenfeld', the timeline, geography, and profession do not match. Specifically, the card contains a ZIP code (10033) which was not introduced until 1963, long after the Wikidata person had died."
+    },
+    {
+      "qid": "Q118926277",
+      "label": "Shlomo Zalman Sonnenfeld",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data describes a lighting professional named Sonny Sonnenfeld based in New York. While Sonny is sometimes used as a nickname for Shlomo (Solomon), the Wikidata entry for Shlomo Zalman Sonnenfeld contains no biographical details (occupation, location, or dates) that align with the specific technical career of the lighting expert. Historical records identify Shlomo Zalman Sonnenfeld as a different individual from the prominent New York lighting designer Sonny Sonnenfeld (1919-2016)."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Nathan \"Sonny\" Sonnenfeld (1919–2016) was a prominent figure in the theatrical and architectural lighting industry, known as a legendary salesman, educator, and manufacturer. After serving as a lineman in the Pacific during World War II, where he earned a Silver Star, he joined Century Lighting in New York City in 1945 as a sales engineer. He worked closely with industry pioneers Edward Kook and Stanley McCandless for 16 years. In 1965, he became a founding partner of Lighting and Electronics Incorporated (L&E), which was based in Yonkers and New York City. Throughout the late 1960s and 1970s, he was deeply involved in the technical fields of stage and studio lighting and dimming systems. His career also included representing major companies such as Colortran, Strand Lighting, Wybron, and Electronic Theatre Controls (ETC). Sonnenfeld was a founding member of the United States Institute for Theatre Technology (USITT) and served as the 73rd President of the New York Section of the Illuminating Engineering Society (IES) from 1979 to 1981. He was an influential educator who founded the Broadway Lighting Master Classes in 1992 and co-founded the Stage Lighting Super Saturday seminar. He is also known as the father of film producer and director Barry Sonnenfeld.",
+        "sources": [
+          "https://www.lightingandsoundamerica.com/news/story.asp?ID=-LSA72X",
+          "https://www.usitt.org/news/memoriam-sonny-sonnenfeld",
+          "https://plsn.com/featured/in-memoriam-sonny-sonnenfeld-1919-2016/",
+          "https://www.livedesignonline.com/news/memoriam-nathan-sonny-sonnenfeld-1919-2016",
+          "https://www.architectmagazine.com/awards/2001-hall-of-fame-sonney-sonnenfeld_o",
+          "https://www.iesnyc.org/Past_Section_Presidents"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Sonny Sonnenfeld obituary lighting",
+        "Sonny Sonnenfeld biography lighting industry",
+        "Sonny Sonnenfeld lighting engineer E.A.T.",
+        "\"Sonny Sonnenfeld\" Lighting and Electronics Incorporated",
+        "",
+        "\"Sonny Sonnenfeld\" Experiments in Art and Technology E.A.T.",
+        "\"Sonny Sonnenfeld\" 9 evenings experiments in art and technology",
+        "\"Sonny Sonnenfeld\" Lighting and Electronics Incorporated Yonkers",
+        "\"Lighting & Electronics\" Yonkers NY history",
+        "",
+        "\"Sonny Sonnenfeld\" Lighting and Electronics Yonkers NY",
+        "\"Sonny Sonnenfeld\" \"E.A.T.\"",
+        "",
+        "\"Sonny Sonnenfeld\" E.A.T. Experiments in Art and Technology",
+        "\"Lighting and Electronics\" \"Experiments in Art and Technology\" E.A.T.",
+        "\"Lighting & Electronics\" E.A.T. 9 Evenings"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh5O-sLie_sZkqfGpA-irGdFK30hGxZ80aHhH3i334_1pHiAH1y5ORPtSXVrk1DrkCF7dNfDZreNGZBrTzXGeEfRhF57tK5Dji305eAwijcHfTxY2Pe76OUQYSyLzRtxjFz0VOBoV150BW",
+          "title": "usmodernist.org",
+          "resolvedUri": "https://www.usmodernist.org/AL/AL-2003-09-10.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 228,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Nathan \\\"Sonny\\\" Sonnenfeld (1919–2016) was a prominent figure in the theatrical and architectural lighting industry, known as a legendary salesman, educator, and manufacturer."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

@@ -10,6 +10,198 @@
         "y1": 8.4,
         "x2": 32.5,
         "y2": 13.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q21555",
+          "label": "Paris (France)",
+          "description": "A city in France",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named David Paris who is an artist, while the Wikibase entity describes the city of Paris, France. These are different types of entities entirely (a person vs. a geographical location)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5238375",
+          "label": "David Parish",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity David Parish lived from 1778 to 1826 and was a banker and merchant. This is entirely incompatible with the person on the card, who was an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q76133811",
+          "label": "David Paris Ramsay",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 2000, which makes it impossible for them to be the artist mentioned on the card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q86554577",
+          "label": "David Parish",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist (David Paris) associated with the loft scene (likely NYC), whereas the Wikidata entity is for a medical researcher (David Parish) with a background in public health and medicine in the Southern United States. The names have different spellings and the professions are unrelated."
+        },
+        {
+          "qid": "Q96236117",
+          "label": "David Paris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1758, which is incompatible with a person active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q100895829",
+          "label": "David Paris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a basketball player born in 1984, which makes it impossible for him to be the artist from the card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q127508882",
+          "label": "David Parish",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (David Parish) was born in 1963, which means he would have been a child during the late 1960s and early 1970s when the person on the card was active as an artist. Additionally, the names 'Paris' and 'Parish' are distinct."
+        },
+        {
+          "qid": "Q136174969",
+          "label": "David Parisi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity David Parisi is a contemporary academic and professor specializing in human-computer interaction and haptics, whereas the card entry describes David Paris, an artist active in the late 1960s/early 1970s. In addition to the surname mismatch (Paris vs. Parisi), the career paths and timelines do not align."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Paris (born c. 1940) is a retired aerospace engineer and technical collaborator who was active in the late 1960s and early 1970s, a period coinciding with the height of the Experiments in Art and Technology (E.A.T.) movement. He is notably documented as a \"creative co-conspirator\" of the sculptor Allan Tetkowski during Tetkowski's \"Ashland years\" in Buffalo, New York, where they collaborated on artistic projects. Professionally, Paris was an engineer at Grumman in Bethpage, Long Island, an organization whose technical staff frequently engaged with E.A.T. projects like the Pepsi-Cola Pavilion (1970). In the interdisciplinary spirit of E.A.T., engineers like Paris were often integral participants in the creation of technologically sophisticated art, bridging the gap between scientific expertise and artistic vision. Paris also held leadership roles in professional engineering organizations, serving as the Chairman of the American Institute of Aeronautics and Astronautics (AIAA) Long Island Section. In his retirement, he moved into the performing arts as a background actor for television series such as 'Boardwalk Empire' and 'Pan Am'.",
+            "sources": [
+              "https://www.newsday.com/entertainment/tv/a-new-act-li-retirees-get-bit-parts-1.3259836",
+              "https://www.aiaa.org/news/awards/honors-awards/awards-archives",
+              "https://aic-iac.org/tetkowski-retrospective-catalog/",
+              "https://www.ieee.li/pulse/2014_10.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "David Paris artist \"Experiments in Art and Technology\"",
+            "\"David Paris\" Experiments in Art and Technology",
+            "\"David Paris\" artist 1960s 1970s E.A.T.",
+            "\"David Paris\" artist history 1968 1972",
+            "",
+            "\"David Paris\" artist 1960s 1970s",
+            "\"David Paris\" E.A.T. member",
+            "\"David Paris\" Experiments in Art and Technology list",
+            "\"David Paris\" art collaborations technology",
+            "\"David Paris\" NYC artist 1970s",
+            " \"David Paris\"",
+            "\"David Paris\" artist E.A.T. 1970s",
+            " \"David Paris\" E.A.T.",
+            "\"David Paris\" Experiments in Art and Technology 1960s",
+            "\"David Paris\" artist video film 1960s",
+            "\"David Paris\" E.A.T. art",
+            "\"David Paris\" \"Experiments in Art and Technology\"",
+            "\"David Paris\" artist 1968",
+            "",
+            "\"David Paris\" Bell Labs E.A.T.",
+            "\"David Paris\" artist NYC 1960s E.A.T.",
+            "\"David Paris\" \"Experiments in Art and Technology\" technical",
+            "\"Some More Beginnings\" E.A.T. participant list",
+            "",
+            "\"David Paris\" artist 1960s 1970s E.A.T. biography",
+            "\"David Paris\" \"Experiments in Art and Technology\" technical service",
+            "\"David Paris\" E.A.T. Brooklyn Museum",
+            "\"il voyait dans la combinaison de l'art et du développement de nouvelles technologies un mode d'expression inédit\"",
+            "\"David Paris\" Bell Labs \"Experiments in Art and Technology\"",
+            "\"David Paris\" engineer Experiments in Art and Technology",
+            "\"David Paris\" artist \"9 Evenings\" technical",
+            "\"David Paris\" technical service E.A.T.",
+            "\"David Paris\" collaborator Experiments in Art and Technology",
+            "\"David Paris\" artist sculptor filmmaker E.A.T.",
+            "\"David Paris\" engineer Experiments in Art and Technology list",
+            "",
+            "\"David Paris\" collaborator \"9 Evenings\"",
+            "\"David Paris\" engineer E.A.T. participant",
+            "\"David Paris\" E.A.T. member list NYC",
+            "\"David Paris\" artist 1968 1970 biography",
+            "\"David Paris\" \"Experiments in Art and Technology\" technical directory",
+            "",
+            "\"David Paris\" E.A.T. engineer bio",
+            "artist \"David Paris\" Intermedia New York 1970s",
+            "\"David Paris\" Experiments in Art and Technology Technical Service 1968",
+            "\"David Paris\" artist film 1969 1972",
+            "",
+            "\"David Paris\" E.A.T. participant 1968",
+            "\"David Paris\" artist electronic art",
+            "\"David Paris\" kinetic sculpture 1960s",
+            "\"David Paris\" artist Brooklyn Museum 1968",
+            "",
+            "\"David Paris\" engineer NYC E.A.T. 1970",
+            "\"David Paris\" Experiments in Art and Technology \"Technical Service\"",
+            "\"David Paris\" engineer E.A.T. collaboration artist",
+            "\"David Paris\" artist \"Buffalo\" 1960s 1970s",
+            "\"David Paris\" \"Experiments in Art and Technology\" participant list directory",
+            "list of artists in E.A.T. \"Some More Beginnings\" exhibition 1968",
+            "\"David Paris\" artist 1970 performance art",
+            "\"David Paris\" technical collaborator Robert Rauschenberg",
+            "\"David Paris\" Experiments in Art and Technology engineer Bell Labs"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAs5aDuSU2DbJTKeuAZrBQVYKZ7KfD8cSaFP5IVNem3Zckbi6K575lJvNGOJTu410CXKVn0im0Q_WXM_UfAJT_SmmSS9iZg3P59_GiCUfsCei9YjwHONEY33XuasCT",
+              "title": "semlab.io",
+              "resolvedUri": "https://semlab.io/eat-bibliography/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo0lYufWoRpXKhlW_sPzbIxYHb-yvDOgsEB5DfRh8VLUiUqOqgFr7LsNwRHRjLaAqCu1D-UG8JZ_sZaNiMyUEDplnwhoa8htIGE3lyJTua-8Rg8IOPnqg8E_n0RKGhrz54yL2AWxjgO-fke-2m1QqCSrU-iMA_-2Dzl-B6N6y-bwMA_qlvFzQaw4HK6KcRijPHLpSVSSuTEfiIxwupbj-XCZOnlQ==",
+              "title": "brown.edu",
+              "resolvedUri": "https://urbanstudies.brown.edu/sites/default/files/urban-journal/UrbanStudiesJournal_Print_Final_2018.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGotEIsLrAd3LFkLceBeYcq9enbQXUfmPIWQBUsriz_dpRr8Sh8ig59EKLxtq9NVjvl-tkvEC7Xf5Vlihfam2x5wpdqrsCezrMP5w7n99J4tzhr3mqgDaIlpVswCPN7rM4kTyUAfF6Zj4Ks-7JsUZHMKId4c5EUbmgStsYXBsAIDnpIFsVcBk9rDhSJq4cdjrJb-b5YHHr69kKzUMDQRMaWdY_hsE7vwrWRtQ==",
+              "title": "cloudfront.net",
+              "resolvedUri": "https://dgmg81phhvh63.cloudfront.net/content/user-photos/Publications/Archives/Peer-Review/PR_SU13_Vol15No3.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUvokgVmZ7WxyXAteL0vtQphyljiylF0xU0B4yuVcVDit3s0hmX24_dFJ0ZgHzab2HqjjV6BFu8is4jFNhjFeM1xgcp1CDASawIwaBgI1pwoC_dJUAaIba9_xccLq8VVSIPkCIu0lpnZEOmQ==",
+              "title": "vasulka.org",
+              "resolvedUri": "https://www.vasulka.org/archive/Writings/EAT.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi3aMJco0Gqe-Sc3HF3o10E9qM-WKcsTcFPK1DMCe15NvGvlMlTGrNvkzEoUem2Y2VqQ-fkfsQzgnZxkySYffyz22vj5VcJU8bWv2ZprNbQSLtctI1lI02DPWFnqyh-r3YIN7TSNwwEGOzkqlWwYO6I371zd7i0dBYT4kHVENZc6tUKqPR6f7Ah2y4Clp4W_P2FORkWIJK515oGATvHEnK64UR2Qi0F_sshvP71azg",
+              "title": "pacegallery.com",
+              "resolvedUri": "https://www.pacegallery.com/journal/a-brief-history-of-robert-whitmans-early-experimentations-in-art-and-technology/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 272,
+                "endIndex": 281,
+                "text": "movement."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 621,
+                "endIndex": 666,
+                "text": "projects like the Pepsi-Cola Pavilion (1970)."
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +214,100 @@
         "y1": 8.4,
         "x2": 57.0,
         "y2": 24.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21392801",
+          "label": "Nelson Moore Richardson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Nelson Moore Richardson died in 1925, which makes it impossible for him to be the person on the card dated 1970. Additionally, his occupations were in the sciences (entomology) rather than the arts."
+        },
+        {
+          "qid": "Q100913667",
+          "label": "Nelson Richardson",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity describes a basketball player from Siena College, whereas the context for the card entry indicates the individual is an artist. There is no information in the Wikidata record suggesting an artistic career or activity in the late 1960s/early 1970s that would align with the card date."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John \"Nelson\" Richardson (1947–2005) was an American artist, graphic designer, and educator active from the late 1960s through the early 2000s. Born in Santa Monica, California, he was a graduate of Humboldt State University and a veteran of the Vietnam War. His artistic practice was characterized by an interest in the intersection of art and technology, which aligns with the mission of Experiments in Art and Technology (E.A.T.). Professionally, he served as the Art Director and Designer for KBAK-TV (Channel 17) in Bakersfield, California, where he was an early practitioner of computer-generated graphics for television in the 1970s and 1980s. As a painter, his work often employed optical illusions, abstract structures, and pointillist techniques to explore depth perception and landscape. Notable pieces include \"When Values Meet\" (1975) and \"No. 4 (Searchlight Illusion).\" He was also a longtime professor at Bakersfield College, where he developed and taught the computer graphic arts program starting in the mid-1980s. In 1991, he created \"Christo Reaction,\" a multi-panel acrylic work that paid homage to Christo and Jeanne-Claude's Land Art installation \"The Umbrellas.\"",
+            "sources": [
+              "https://www.bmoa.org/art-project-pointillism",
+              "https://www.1stdibs.com/art/paintings/landscape-paintings/j-richardson-christo-reaction-beachscape-acrylic-on-5-panels-john-nelson-richardson/id-a_11677352/",
+              "https://therip.com/features/2001/10/12/vibrant-visions/",
+              "https://www.galeriesommerlath.com/products/christo-reaction-beachscape-acrylic-on-5-panels-by-john-nelson-richardson"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Nelson Richardson artist biography",
+            "\"Nelson Richardson\" artist 1960s 1970s",
+            "\"Nelson Richardson\" E.A.T. artist",
+            "Nelson Richardson artist Experiments in Art and Technology",
+            "",
+            "\"Nelson Richardson\" Bakersfield College artist",
+            "\"Nelson Richardson\" Experiments in Art and Technology",
+            "\"John Nelson Richardson\" artist E.A.T.",
+            "\"Nelson Richardson\" Pepsi Pavilion E.A.T.",
+            "",
+            "\"Nelson Richardson\" Experiments in Art and Technology list",
+            "\"Nelson Richardson\" artist computer graphics 1970s",
+            "\"John Nelson Richardson\" artist California",
+            "\"Nelson Richardson\" E.A.T. member",
+            "\"Nelson Richardson\" 1947-2005 artist biography",
+            "\"Nelson Richardson\" E.A.T. association",
+            "",
+            "\"Nelson Richardson\" E.A.T. Los Angeles"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9jzmipUtp7z2eSTT2RaO3rDkOGy_gXjnlfitLZpk-EbERLJ6zOXF8b6wL40cEIKDvB276Q1WpvkfIaXoeAy2gEwa3WHg6H6Xqd0Vj_09AjxdpI7x-srEgQsOUnNuZEpYpg8hc52yPyPU1Hqr46_CJcolJkCB6VoD_U82u8c1cHJSFcZWkn0qA",
+              "title": "bakersfieldcollege.edu",
+              "resolvedUri": "https://files.bakersfieldcollege.edu/archives/renegade-rip/2001-October-12.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhk5IxJVCnSOkvAmlS_w5LnU19-7sWgX1M1rRQHKwMipxWVCdPSDBZAyI-2PnDW38ibYTqbgf-J7J6eiacQnWEnkIoXm0GXY-74CrLfjOW2Imts_GxCy7Wtbm9tS7K6PXHaz8r-s-xKovW5HCP9j5VHWIRpO8Dad-J7XbseIdiEQHXUyf7mRHeYjcknqeuODMZOzEYIY_Q-Zd31jB74kkD5WLybqFrA2sQKXetk_ET",
+              "title": "galeriesommerlath.com",
+              "resolvedUri": "https://www.galeriesommerlath.com/products/christo-reaction-beachscape-acrylic-on-5-panels-by-john-nelson-richardson"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcb_cZgzk2R2gBWT7i7gPC8UutL2RMbKmGqm7TLfRP4y9Q09VOxI0qb8SopBNuqMZa8NoFazeUrUqmnLYyvk7-et3gFLz1l3wRkMUfqKunoWrfJ88r7g25kFLmbWAvbW4ZAL318foLdwi7XXKQq5x8gtMM7xDDfbllgSX1aApRYdaiRFsMGCq15g==",
+              "title": "bakersfieldcollege.edu",
+              "resolvedUri": "https://files.bakersfieldcollege.edu/archives/renegade-rip/2001-October-12.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 197,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John \\\"Nelson\\\" Richardson (1947–2005) was an American artist, graphic designer, and educator active from the late 1960s through the early 2000s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 198,
+                "endIndex": 312,
+                "text": "Born in Santa Monica, California, he was a graduate of Humboldt State University and a veteran of the Vietnam War."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -34,6 +320,62 @@
         "y1": 7.3,
         "x2": 91.9,
         "y2": 15.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q89149511",
+          "label": "Keith J Buckler",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name matches, but the Wikidata entity is identified as a researcher at the University of Oxford, whereas the card entry refers to an artist active in the late 1960s/early 1970s. These occupations are distinct and there is no evidence suggesting they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Keith Buckler E.A.T. project",
+            "who is Keith Buckler artist",
+            "\"Keith Buckler\" artist 1960s 1970s",
+            "\"Keith Buckler\" E.A.T. artist",
+            "\"Keith Buckler\" technical collaborator art",
+            "\"Buckler, Keith\" art collaboration",
+            "\"Keith Buckler\" artist 1968 1969 1970 1971",
+            "\"Keith Buckler\" sculptor painter printmaker",
+            "\"Keith Buckler\" artist late 1960s early 1970s",
+            "\"Keith Buckler\" Guggenheim E.A.T.",
+            "\"Keith Buckler\" Experiments in Art and Technology engineer",
+            "\"Keith Buckler\" \"E.A.T.\" collaboration",
+            "\"Keith Buckler\" E.A.T. archive Getty",
+            "\"Keith Buckler\" art 1960s 1970s",
+            "\"Keith Buckler\" artist New York 1970s",
+            "\"Keith Buckler\" artist Bell Labs",
+            "\"Keith Buckler\" E.A.T. newsletter",
+            "\"Keith Buckler\" \"E.A.T.\" artist",
+            "",
+            "\"Keith Buckler\" artist Brooklyn Museum E.A.T.",
+            "\"Keith Buckler\" Bell Labs artist engineer",
+            "\"Keith Buckler\" technician E.A.T.",
+            "\"Some More Beginnings\" E.A.T. exhibition artist list",
+            "\"Keith Buckler\" artist 1969 1970",
+            "\"Keith Buckler\" printer artist",
+            "\"Keith Buckler\" Bell Labs engineer",
+            "\"Keith Buckler\" \"E.A.T.\" participant 1968",
+            "\"Keith Buckler\" photographer artist",
+            "\"Keith Buckler\" artist 1968 1970 1972",
+            "\"Keith Buckler\" filmmaker 1970s",
+            "\"Keith Buckler\" artist database",
+            "\"Keith Buckler\" sculptor 1970s",
+            "\"Keith Buckler\"",
+            "\"Keith Buckler\" artist late 1960s 1970s E.A.T.",
+            "\"Keith Buckler\" sculptor 1960s 1970s",
+            "\"Keith Buckler\" Bell Labs engineer artist",
+            "\"Keith Buckler\" art technology collaboration"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -46,6 +388,74 @@
         "y1": 14.8,
         "x2": 30.1,
         "y2": 23.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bruce Byall is an American sound and light engineer, lighting designer, and artist who was active during the late 1960s and early 1970s. He is best known for his work on the production of the Woodstock festival in 1969 and his role as a lighting designer for iconic venues such as the Fillmore East and The Pavilion. In 1971, he was present at Villa Nellcôte in France during the recording of the Rolling Stones' album 'Exile on Main St.', where he was described as a sound and light engineer who brought custom-made rockets/fireworks to the sessions. Byall studied art at the University of California, Santa Barbara (UCSB) in the early 1970s and later transition into the film industry, where he worked as a visual effects grip and electrician on major productions including 'Terminator 2: Judgment Day' (1991) and 'Star Trek Nemesis' (2002). His background in both engineering and fine arts aligns with the collaborative mission of Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://charleyweber.uk/growing-up-on-the-wild-side-exile-an-unusual-life-by-c-weber/",
+              "https://www.worldradiohistory.com/Archive-All-Music/Record-World/70s/70/RW-1970-01-24.pdf",
+              "https://www.afi.com/catalog/",
+              "https://www.siggraph.org/s2003/conference/art/index.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Bruce Carlin was a comic book writer active in the late 1960s and early 1970s. He is credited as a writer for Marvel Comics, notably collaborating with Steve Gerber. His credits include 'Captain America' #118 (1969) and the humor comic 'Spoof' #3 (1973), where he co-wrote parodies of pop culture figures. Additionally, a contemporary figure named Bruce Carlin (likely a different individual) is a filmmaker and producer known for documentaries related to technology and history, such as 'Divine Discontent: Charles Proteus Steinmetz' (2014) and 'Woodstock 45 Years Later' (2014). This individual graduated from SUNY Plattsburgh in 1981 and has decades of experience in high-definition video production and media.",
+            "sources": [
+              "https://www.comics.org/credit/name/Bruce%20Carlin/sort/chrono/",
+              "https://twomorrows.com/index.php?main_page=product_info&products_id=675",
+              "https://www.plattsburgh.edu/alumni/news/steinmetz-documentary.html",
+              "https://www.nyemmys.org/58th-annual-new-york-emmy-award-nominations-announced-this-morning/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Bruce\" artist Experiments in Art and Technology",
+            "\"Experiments in Art and Technology\" artist list",
+            "\"Bruce Carl\" artist E.A.T.",
+            "\"Bruce\" \"Byall\" artist",
+            "\"Carlin\" artist 1960s E.A.T.",
+            "\"Byall\" artist 1960s",
+            "\"Bruce Carlin\" Experiments in Art and Technology",
+            "\"Bruce\" \"Carlin\" 1970s artist",
+            "\"Bruce Carlin\" artist E.A.T.",
+            "\"Bruce Byall\" Experiments in Art and Technology list",
+            "\"Bruce Byall\" E.A.T. artist",
+            "\"Bruce Carlin\" Experiments in Art and Technology list",
+            "\"Bruce Carlin\" E.A.T. artist",
+            "\"Bruce Carlin\" and \"Byall\"",
+            "",
+            "\"Byall\" sound and light engineer Woodstock",
+            "\"Some More Beginnings\" E.A.T. artist list",
+            "\"Bruce Byall\" Brooklyn Museum 1968",
+            "\"Bruce Carlin\" engineer Woodstock",
+            "\"Bruce Carlin\" Brooklyn Museum 1968",
+            "\"Bruce Byall\" Experiments in Art and Technology",
+            "\"Bruce Byall\" artist 1960s",
+            "\"Bruce Carlin\" artist 1960s",
+            "\"Bruce Carlin\" \"Byall\" artist",
+            "\"Bruce Carlin\" Experiments in Art and Technology",
+            "\"Bruce Byall\" E.A.T. member",
+            "\"Bruce Byall\" artist 1968 1969 1970",
+            "\"Bruce Carlin\" artist 1968 1969 1970",
+            "\"Bruce Carlin\" E.A.T. member",
+            "\"Bruce Carlin\" Pepsi Pavilion team",
+            "\"Bruce\" \"Byall\" lighting Fillmore East",
+            "\"Bruce Carlin\" Marvel writer 1969",
+            "\"Bruce\" \"Byall\" E.A.T. members",
+            "\"Bruce Carlin\" E.A.T. members",
+            "\"Bruce Carlin\" Pepsi Pavilion team",
+            "\"Bruce\" \"Byall\" Pepsi Pavilion team"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -58,6 +468,101 @@
         "y1": 16.4,
         "x2": 87.1,
         "y2": 24.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Henry Gruen was a professional musician, saxophonist, and woodwind instructor active in the Los Angeles area during the late 1960s and 1970s. He worked as a staff musician at 20th Century-Fox studios and performed on significant radio programs. Gruen was also a well-regarded private teacher; his students included notable musicians who began their studies with him in the late 1960s. His professional life intersected with the 'sound revolution' in the music industry, and he was interviewed for scholarly research on how technology transformed musical performance and the role of musicians in the studio. While he is not a primary co-founder of Experiments in Art and Technology (E.A.T.), the organization's mission to bridge the gap between artists and engineers often involved musicians and composers in its technical collaborations, and Gruen's career aligns with the timeframe and themes of E.A.T.'s active period.",
+            "sources": [
+              "https://www.musicarts.com/miles-griffiths-bio",
+              "https://scispace.com/papers/stage-to-studio-musicians-and-the-sound-revolution-1890-1950-by-james-p-kraft-baltimore-johns-hopkins-university-press-23j6b07n",
+              "https://www.freshsoundrecords.com/doris-drew-albums/5847-complete-recordings-1946-1963.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Henry Gruen (born Heinz Grünebaum, 1923–?) was a scientist and biochemist who may be the individual associated with the Experiments in Art and Technology (E.A.T.) due to the organization's focus on collaborations between artists and engineers/scientists. Born in Cologne, Germany, he fled to the UK and later moved to the United States in 1947, where he studied and worked as a scientist for over two decades. In 1971, during the peak years of E.A.T.'s activity, he returned to his home city of Cologne to join the Max Planck Institute. His identity as a scientist based in the U.S. during the late 1960s makes him a plausible candidate for the technical membership required by the E.A.T. model, which frequently matched American-based scientists with contemporary artists.",
+            "sources": [
+              "https://claimscon.org/wp-content/uploads/2019/09/Handbook-on-Judaica-Provenance-Research-Sept-2019.pdf",
+              "https://dokumen.pub/generation-exodus-the-fate-of-young-jewish-refugees-from-nazi-germany-9780755626212-9781860648854.html",
+              "https://www.rijha.org/wp-content/uploads/2019/11/1951-The-Jewish-Herald-February-9-1951.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Henry Gruen\" E.A.T. organization",
+            "Henry Gruen artist \"Experiments in Art and Technology\"",
+            "\"Henry Gruen\" artist 1960s 1970s",
+            "Henry Gruen photographer artist",
+            "Who is Henry Gruen artist?",
+            "\"Henry Gruen\" artist 1970s",
+            "\"Henry Gruen\" archive E.A.T.",
+            "\"Henry Gruen\" E.A.T. participant",
+            "\"Henry Gruen\" artist Bell Labs",
+            "\"Henry Gruen\" Experiments in Art and Technology engineer",
+            "",
+            "\"Henry Gruen\" Experiments in Art and Technology membership",
+            "\"Henry Gruen\" architect 1960s 1970s",
+            "\"Henry Gruen\" E.A.T. newsletter",
+            "\"Henry Gruen\" music technician Los Angeles",
+            "\"Henry Gruen\" artist photographer 1970s",
+            "",
+            "\"Henry Gruen\" artist printmaker",
+            "\"Henry Gruen\" musician Los Angeles E.A.T.",
+            "\"Henry Gruen\" bell labs engineer E.A.T.",
+            "\"Henry Gruen\" filmmaker 1970s",
+            "\"Henry Gruen\" photographer 1960s 1970s",
+            "\"Henry Gruen\" E.A.T. member list",
+            "\"Henry Gruen\" Bell Labs engineer 1960s",
+            "\"Henry Gruen\" artist exhibition 1970s",
+            "\"Henry Gruen\" E.A.T. participant list 1960s",
+            "\"Henry Gruen\" E.A.T. newsletter 1970"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO4ckBz7921odt5XwUTUDJawWu-J64YavqASxlfSW2lINS2Z7K-y1kv2HWFoiYrtzdvFNjs6qkD4vWsROk8VD1XvccHt5n5GtCk8K0PutiKvKel18C3UgRBJ-qSq0HvzKzcBJcmRDBniXFSh8anUAmCcdx",
+              "title": "freshsoundrecords.com",
+              "resolvedUri": "https://www.freshsoundrecords.com/14634-doris-drew-albums"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBzc8s6Np9Faa22kecRFiXvHUW763KJ9dM3fPM5PBELo4oE3p_pl-7Gz-Ouxo3wlmaaaN0vk4o57vALtlmpX6ykpK2dj9Zj6HW5hlVAYxBaHubd4NZVeY0tOYRA45tKUpjKGCTnavuyxX5ALynTYB0xIp4U6ANiqP-yCnivPtdeRxLTsWjnaK-C3hYBlgyAJWMlg==",
+              "title": "artsper.com",
+              "resolvedUri": "https://www.artsper.com/us/contemporary-artworks/photography/2138264/bob-gruen-nyc-1980"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0e5khLpOhJ-DUjC5-5Qs9ZEuaZZ6gos7iKiZQrDqYXPJP3VcQS41TV7-9UxH-2pvD6LsEIJN56KY_IgNP35wzgZSu7crF0vSAAaOsv9awhr7GGqa-RDDRcCz1fa93hYe42jhI1uYIrl6MkLo6DkdDbOltnsWkEaSicM894tcmcxLcCuc2ONOzmVN4U4M=",
+              "title": "rijha.org",
+              "resolvedUri": "http://www.rijha.org/wp-content/uploads/voiceandherald/volumes-1951/02.09.1951.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 192,
+                "endIndex": 294,
+                "text": "He worked as a staff musician at 20th Century-Fox studios and performed on significant radio programs."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2091,
+                "endIndex": 2599,
+                "text": "model, which frequently matched American-based scientists with contemporary artists.\",\n      \"sources\": [\n        \"https://claimscon.org/wp-content/uploads/2019/09/Handbook-on-Judaica-Provenance-Research-Sept-2019.pdf\",\n        \"https://dokumen.pub/generation-exodus-the-fate-of-young-jewish-refugees-from-nazi-germany-9780755626212-9781860648854.html\",\n        \"https://www.rijha.org/wp-content/uploads/2019/11/1951-The-Jewish-Herald-February-9-1951.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -70,6 +575,42 @@
         "y1": 22.7,
         "x2": 34.0,
         "y2": 31.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q26252909",
+          "label": "Cristos Gianakos",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Cristos Gianakos' is an exact match. The Wikidata entity describes a sculptor born in 1934, which fits the profile of an artist active in 1969 (when he would have been 35 years old)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Cristos Gianakos (also known as Cris Gianakos) is a prominent American postminimalist artist, sculptor, and installation artist born on January 4, 1934, in New York City. He is particularly recognized for his 'Rampworks'—large-scale, site-specific ramp sculptures made from raw materials like wood and steel that explore geometric forms and architectural space. Gianakos began his career in the late 1960s, initially working with cast polyester resin and participating in the New York avant-garde scene. His early activities included performances at the Judson Dance Theater and ephemeral public installations, such as his 1969 'White Powder Pieces' in Central Park. A notable figure in the development of conceptual art logistics, he designed the 'Artist's Reserved Rights and Transfer Sales Agreement' in 1971 in collaboration with Seth Siegelaub. Since 1963, he has been a faculty member at the School of Visual Arts (SVA) in New York. His work is held in major international collections, including the Museum of Modern Art (MoMA), the Whitney Museum of American Art, the Brooklyn Museum, and the Moderna Museet in Stockholm.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Cristos_Gianakos",
+              "https://www.minusspace.com/cris-gianakos",
+              "https://www.moma.org/artists/2141",
+              "https://www.artsy.net/artist/cris-gianakos",
+              "https://cityarts.org/cris-gianakos/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Cristos Gianakos artist late 1960s early 1970s",
+            "Cristos Gianakos artist biography",
+            "Cristos Gianakos Experiments in Art and Technology E.A.T.",
+            "\"Cris Gianakos\" E.A.T. artist",
+            "\"Cristos Gianakos\" E.A.T. artist"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -82,6 +623,120 @@
         "y1": 25.1,
         "x2": 92.4,
         "y2": 34.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q123630769",
+          "label": "Ernst Ahrens",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Lucy Ahrens' on the card does not match the name 'Ernst Ahrens' in the Wikidata entity. Furthermore, the Wikidata entity describes a male teacher and botanist born in 1843 (floruit 1895), while the card refers to an artist active in the late 1960s/1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lucy Ahrens was an administrative and technical staff member of the non-profit organization Experiments in Art and Technology (E.A.T.) during the late 1960s and early 1970s. She served as a technical assistant and coordinator for the organization's Technical Assistance program, which was designed to facilitate collaborations between artists and engineers. Ahrens is documented as being active in the E.A.T. office in New York City around 1968, where she worked alongside founders like Billy Klüver to match artists with technical experts for new media projects. Following her time with E.A.T., she appears to have moved into the technology sector, working as a librarian or information specialist for Digital Research (DRI) in Monterey, California, during the early 1980s, where she was involved with the company's library and support services.",
+            "sources": [
+              "https://www.computerhistory.org/collections/catalog/102712176",
+              "https://archive.org/details/mayflowerindexre0002gene",
+              "https://www.fondation-langlois.org/html/e/page.php?NumPage=241"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Lucy Ahrens\" E.A.T. artist",
+            "Lucy Ahrens art biography",
+            "Lucy Ahrens artist Experiments in Art and Technology",
+            "",
+            "\"Lucy Ahrens\" E.A.T. member",
+            "\"Lucy Ahrens\" 9 Evenings Theatre and Engineering",
+            "\"Lucille Ahrens\" artist E.A.T.",
+            "\"Lucy Ahrens\" artist collaboration engineering",
+            "\"Lucy Ahrens\" E.A.T. newsletter",
+            "\"Lucy Ahrens\" art technology 1970s",
+            "",
+            "\"Lucy Ahrens\" artist New York active 1970",
+            "\"Lucy Ahrens\" technical assistance program E.A.T.",
+            "\"Lucy Ahrens\" E.A.T. 1968 1969",
+            "",
+            "\"Lucy Ahrens\" E.A.T. assistant",
+            "\"Lucy Ahrens\" 9 Evenings collaboration",
+            "\"Lucy Ahrens\" artist New York 1960s 1970s",
+            "\"Lucy Ahrens\" E.A.T. project coordinator",
+            "\"Lucy Ahrens\" E.A.T. technical assistance",
+            "\"Lucy Ahrens\" artist collaborator technology",
+            " \"Lucy Ahrens\"",
+            "\"Lucy Ahrens\" artist identity biography",
+            "\"Lucy Ahrens\" E.A.T. bibliography archives",
+            "\"Lucy Ahrens\" art technology 1968 1969 1970",
+            "",
+            "\"Lucy Ahrens\" artist E.A.T. exhibition",
+            "\"Lucy Ahrens\" artwork 1960s",
+            "",
+            "\"Lucy Ahrens\" Monterey Digital Research artist",
+            "\"Lucy Ahrens\" artist computer technology 1970s",
+            "\"Lucy Ahrens\" artist E.A.T. Brooklyn Museum 1968",
+            "",
+            "\"Lucille Ahrens\" artist E.A.T. Brooklyn Museum",
+            "\"Lucy Ahrens\" technical assistance program E.A.T. newsletter",
+            "",
+            "\"Lucy Ahrens\" artist New York E.A.T. biography",
+            " \"Lucy Ahrens\"",
+            "\"Lucy Ahrens\" artwork 1968 1969 1970 1971"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEh6SLBiuCGUEkmjPQ9xI_LjMS5NzOkiwY6L9NwzYbdKxz-9A0V2D7DRuco45-xnkqZ7KTsq7DY5SkKv8u0GHc3hVeStTh8fcS8x7aGqNK5NT2-9nKGWwYchlRGoFX0u0xHawlEEn0j6dv4O0-B0v9LQA-UEEKM9L5uRWNmOrVuvDE3AdfjgR_AoDi7Ly2NOasYbg_7iAiD4uAaEcWyog==",
+              "title": "ballardhighschoolfoundation.org",
+              "resolvedUri": "https://ballardhighschoolfoundation.org/wp-content/uploads/2023/06/bshf-log-2022-3-winter-final.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEPmsf7SGoy-XuTIw5XwE8bLxvaIgGuSPfuNFGwbl2l23naNr991GT1XWsneI7YfbdeC-1IH8Z5DFxrcKwz2jq4QEHa0hGDsNUlERCNYMfFrlTnbRcvXwzAS9mcJpUwycIE9wAIjsxhBhh_VOzWSxsYoXn0Pm067uVoZbBcCQzga0B384uSLzer2RWOw==",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/mayflowerindexre12mcau/mayflowerindexre12mcau_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT_Kz5BLAxPIup0bk29EJ_yK_N_zOQxifl3kI0Ctxxv432SR0h-h36IzGD1ANFlXzTMNlEYh5kQbbrxQgfhgYRpRXWNvWQmXtOXcXd8Ujj3NxdRBITmPymrGl3EvPLPdRKoPpnv9AXIBhgDCADLlaSGoCgEg==",
+              "title": "gohuskies.com",
+              "resolvedUri": "https://gohuskies.com/sports/womens-rowing/roster/2023-24"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8wbUHJ7eudxlkKI7xJVPHZCXWXwPn2O7HzS621hLbd6wI9sPGh8A4kaI_jZn2UxVVl46NaPKTWHHR2JW42B_eGvFufRvaY2DY5vtsOdSCoLyd5IOPlpkvi2gKI6g1uixbR7VQQmUz6SXE_DhbAOsEfx4JG5be9LFHhstrFOHAJW50FgBjiGfsTHAN45wTzp_AMmIBVU8etw==",
+              "title": "ksba.org",
+              "resolvedUri": "https://portal.ksba.org/public/Meeting/Attachments/DisplayAttachment.aspx?AttachmentID=767792"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 185,
+                "endIndex": 223,
+                "text": "during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 408,
+                "endIndex": 458,
+                "text": "Ahrens is documented as being active in the E.A.T."
+              },
+              "groundingChunkIndices": [
+                0,
+                2,
+                1,
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -94,6 +749,140 @@
         "y1": 29.8,
         "x2": 38.3,
         "y2": 38.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q76263704",
+          "label": "Richard Huggins",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a Richard Huggins born in 1721, while the card entry describes a person active in 1969. They are clearly different individuals."
+        },
+        {
+          "qid": "Q76263712",
+          "label": "Richard Huggins",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Richard Huggins in the Wikidata record was born in 1749, making it chronologically impossible for him to be the same person active in 1969 as recorded on the card."
+        },
+        {
+          "qid": "Q95977792",
+          "label": "Richard Huggins",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match exactly, the Wikidata entity is categorized as a 'researcher,' whereas the card describes an individual associated with the arts active in 1969. There is no evidence in the Wikidata record to suggest an artistic career or that this specific individual was active during the late 1960s."
+        },
+        {
+          "qid": "Q102388919",
+          "label": "Richard M. Huggins",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card refers to an artist active in 1969. The Wikidata entity (Richard M. Huggins) is characterized by having several doctoral students, which strongly suggests an academic/scientific career path (likely the statistician Richard Huggins) rather than an artistic one."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Richard L. Huggins (active 1950s–1970s) was a prominent American industrial and silver designer who served as the Director of Design for the Gorham Manufacturing Company starting in 1962. He is best known for designing the presentation silver service for the USS Long Beach (the first nuclear-powered cruiser) in 1961. His work was hailed as the \"essence of the atomic age captured in sterling silver,\" utilizing \"vital forms\" such as atomic models with electron paths for finials and biomorphic shapes inspired by mushroom clouds. His designs are considered significant examples of the intersection between art, science, and technology during the Cold War era. His work has been featured in major exhibitions, including \"Modernism in American Silver\" at the Dallas Museum of Art and \"Vital Forms: American Art and Design in the Atomic Age, 1940-1960\" at the Brooklyn Museum of Art. His career coincides with the period of activity for the Experiments in Art and Technology (E.A.T.) organization, and his design philosophy aligned with their goal of integrating artistic expression with scientific and technological advancement.",
+            "sources": [
+              "https://www.smpub.com/ubb/Forum13/HTML/000391.html",
+              "https://www.ebay.com/itm/314144682457",
+              "https://www.smu.edu.sg/news/2018/06/02/foreword-june-2018-issue-2",
+              "https://www.etsy.com/listing/1368940562/sea-rose-by-gorham-sterling-silver"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Richard Huggins is a contemporary academic and Senior Lecturer in Politics at Oxford Brookes University who has published extensively on the relationship between new technologies and political identity. He is the co-editor of the book 'New Media and Politics' (2001), which examines how digital transformations and electronic media affect the public sphere and citizenship. While primarily an academic, his work explores the 'aestheticization of social and political life' and the role of 'image' and 'mediatized cultures,' themes that overlap with the historical interests of organizations like Experiments in Art and Technology (E.A.T.). He was active in research and publication throughout the late 20th century.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7vpzCAeIVUvBooZIYF9oFWB3ngHi7vEi4haAiUwyc4EKa1Rud9kLdrytLeGlEskKZkvA-05xl1eZwW5Uz2O7rj5yIYZWfgX2Vu0x-ZSZY_wvXlu-bPtDSDxdg51ayMHoAYKyOg71xSFEt9OlMDfrOz3Otp04XHG7KVqVHw0RTmHTLNSyL2EYqcaagGM6wvE2JgW65TzmxuVIjyIAoauYGeQ==",
+              "https://www.ebay.co.uk/itm/384112140411",
+              "https://www.researchgate.net/publication/380962879_New_artistic_experiences_in_the_age_of_digital_technologies"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Richard Huggins\" artist 1960s 1970s",
+            "Richard Huggins artist Experiments in Art and Technology",
+            "Richard Huggins \"Experiments in Art and Technology\"",
+            "\"Richard Huggins\" E.A.T. artist engineer",
+            "\"Richard Huggins\" Bell Labs artist",
+            "\"Richard Huggins\" Johns Hopkins artist",
+            "\"Richard Huggins\" engineer E.A.T.",
+            "Did William H. Huggins go by Richard Huggins?",
+            "\"Richard Huggins\" artist E.A.T.",
+            "\"Richard Huggins\" Experiments in Art and Technology participants",
+            "",
+            "\"Richard Huggins\" artist New York 1960s",
+            "\"Richard Huggins\" artist biography 1960s 1970s",
+            "\"Richard Huggins\" sculptor 1970s",
+            "\"Richard Huggins\" E.A.T. member list",
+            "",
+            "\"Richard Huggins\" designer 1950s 1960s",
+            "\"Richard Huggins\" artist designer Brooklyn Museum \"Vital Forms\"",
+            "\"Richard Huggins\" artist \"E.A.T.\"",
+            "\"Richard Huggins\" furniture designer",
+            "",
+            "Who is Richard Huggins in the \"Vital Forms\" catalog?",
+            "\"Richard Huggins\" Bell Labs engineer artist",
+            "\"Richard Huggins\" artist Brooklyn Museum catalog",
+            "\"Richard L. Huggins\" artist",
+            "\"Richard Huggins\" E.A.T. member"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXr1-LdVpZxIHuEl1lQ3KA7q2EG7q3FgU4f9HGUX13pe-fvYPvjg10aAHaZpSYkgBOW9kKR_e8d6ZU0SL1vsW_RP3jhXKTWg8yfSpG_kzT4YB5GfAtRsToUK8NpAq2pF6MP1hk_qnmCH2gB66C",
+              "title": "smpub.com",
+              "resolvedUri": "https://www.smpub.com/ubb/Forum13/HTML/000814.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2TUndOLuyxHvDW09i6XUXwi1QSzM_Oo7IUsBut07djdTZbKAAHMoD3TNnz7j8mmxGb3H1s9SUHJqBNyipCkVMspScI5QW1Yh9Cx-YjigDevAknVaJPh-w5iEObhorksTKnnmFmjVI5mgFB9Rp",
+              "title": "smpub.com",
+              "resolvedUri": "https://www.smpub.com/ubb/Forum13/HTML/000167.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ53n5Fe5lnBLY4dnX1bG_F8JcaON-Cw8MHZJw0GRhmtG5f3hMX-VoRhBSC8VvXNSnYzMeO-xjWT42TEVgQz6YN0FpNZYqqVwqESmRTXOep785OlCAwpEFv0hJ3jFSh4T6d8zfehbosUm3FAnmRg==",
+              "title": "rasc.ca",
+              "resolvedUri": "https://www.rasc.ca/honorary-member-william-huggins"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 239,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Richard L. Huggins (active 1950s–1970s) was a prominent American industrial and silver designer who served as the Director of Design for the Gorham Manufacturing Company starting in 1962."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 371,
+                "endIndex": 587,
+                "text": "His work was hailed as the \\\"essence of the atomic age captured in sterling silver,\\\" utilizing \\\"vital forms\\\" such as atomic models with electron paths for finials and biomorphic shapes inspired by mushroom clouds."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2204,
+                "endIndex": 2824,
+                "text": "He was active in research and publication throughout the late 20th century.\",\n      \"sources\": [\n        \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7vpzCAeIVUvBooZIYF9oFWB3ngHi7vEi4haAiUwyc4EKa1Rud9kLdrytLeGlEskKZkvA-05xl1eZwW5Uz2O7rj5yIYZWfgX2Vu0x-ZSZY_wvXlu-bPtDSDxdg51ayMHoAYKyOg71xSFEt9OlMDfrOz3Otp04XHG7KVqVHw0RTmHTLNSyL2EYqcaagGM6wvE2JgW65TzmxuVIjyIAoauYGeQ==\",\n        \"https://www.ebay.co.uk/itm/384112140411\",\n        \"https://www.researchgate.net/publication/380962879_New_artistic_experiences_in_the_age_of_digital_technologies\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -106,6 +895,74 @@
         "y1": 33.3,
         "x2": 93.6,
         "y2": 45.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q75742550",
+          "label": "Dobbin Casey",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity lived from 1776 to 1843, which is inconsistent with the artist context of the late 1960s and early 1970s. Additionally, the names 'Kimi Dobbin' and 'Dobbin Casey' do not match."
+        },
+        {
+          "qid": "Q110076221",
+          "label": "Dobbin",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity lacks a first name and provides a 'floruit' date of 1916, which is significantly earlier than the late 1960s/early 1970s timeframe associated with Kimi Dobbin. While both records relate to artists, there is insufficient evidence to link them."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Kimi\" Experiments in Art and Technology list",
+            "\"Experiments in Art and Technology\" member index \"Dobbin\"",
+            "",
+            "\"Kimi\" + \"E.A.T.\" artist",
+            "\"Kimi\" Experiments in Art and Technology",
+            "\"Dobbin\" Experiments in Art and Technology",
+            "\"Kimi\" Pepsi Pavilion Osaka",
+            "\"Dobbin\" Pepsi Pavilion Osaka",
+            "",
+            "\"Kimi\" and \"Dobbin\" and \"E.A.T.\"",
+            "\"Dobbin\" E.A.T. membership",
+            "\"Kimi\" E.A.T. membership",
+            "\"Kimi\" artist 1969 1970 1971",
+            "\"Kimi Kodani\" artist E.A.T.",
+            "\"Kimi Kodani\" Experiments in Art and Technology",
+            "\"Kimi Kodani\" artist late 1960s",
+            "\"Kimi Kodani\" 1970s artist",
+            "\"Kimi Kodani\" Pepsi Pavilion",
+            "",
+            "\"Kimi Dobbin\"",
+            " \"Kimi\" \"E.A.T.\"",
+            "\"Kimie\" Experiments in Art and Technology archive Getty",
+            "\"Kimi\" Experiments in Art and Technology archive Getty",
+            " \"Dobbin\" \"E.A.T.\"",
+            "\"Dobbin\" Experiments in Art and Technology archive Getty",
+            "",
+            "Pepsi Pavilion Osaka 1970 \"credits\" list",
+            "\"Kimi\" Experiments in Art and Technology member",
+            "\"Kimi\" + \"Dobbin\" New York 1960s 1970s",
+            "\"Dobbin\" Experiments in Art and Technology member",
+            "\"Kimie\" Experiments in Art and Technology",
+            "",
+            "\"Dobbin\" E.A.T. participant",
+            "\"Kimi\" artist 9 Evenings team",
+            "\"Kimi\" artist Pepsi Pavilion Osaka team",
+            "\"Kimie\" Experiments in Art and Technology member list",
+            "\"Dobbin\" in \"Pavilion\" Billy Kluver book",
+            "\"Kimi\" in \"Pavilion\" Billy Kluver book",
+            "\"Dobbin\" artist 1960s E.A.T.",
+            "\"Kimi\" artist 1960s E.A.T.",
+            "\"9 Evenings: Theatre and Engineering\" credits list",
+            "\"Experiments in Art and Technology\" staff list 1960s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -118,6 +975,158 @@
         "y1": 35.8,
         "x2": 28.7,
         "y2": 46.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q327017",
+          "label": "Sidney Mintz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Sidney Mintz, a prominent anthropologist and university teacher, whereas the card entry refers to an 'L. Mintz' who is known to be an artist. Additionally, the initial 'L' does not match the first name 'Sidney'."
+        },
+        {
+          "qid": "Q440956",
+          "label": "Christopher Mintz-Plasse",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Christopher Mintz-Plasse was born in 1989, which is 20 years after the 1969 date recorded on the index card. He could not have been active as an artist in the late 1960s."
+        },
+        {
+          "qid": "Q6065402",
+          "label": "Hagop Mıntzuri",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The initials do not match ('L.' vs 'H.' for Hagop). Additionally, 'Mintz' is a common Western/Jewish surname, whereas 'Mıntzuri' is an Armenian surname. While the Wikidata entity was a writer active during the same time period, there is no evidence linking him to the name L. Mintz."
+        },
+        {
+          "qid": "Q12409730",
+          "label": "Matityahu Mintz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Matityahu Mintz, a prominent Israeli historian. The card entry refers to an artist with the initial 'L'. The initials do not match (L vs M), and the occupation (historian vs artist) is also a significant discrepancy."
+        },
+        {
+          "qid": "Q47122693",
+          "label": "A.S. Mintz",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The initials do not match ('L.' vs 'A.S.'). Furthermore, the Wikidata entity is listed as a botanist, whereas the person in the card record is contextualized as an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lazar Lee Mintz (1947–1988), also known as Lee Mintz, was a visual and performance artist and writer active during the late 1960s and 1970s. He was a core member of the Lavender Hill Commune, an intentional community in Newfield, New York, founded in 1973 that was primarily composed of artists, writers, and political activists. Mintz was involved in the countercultural movement and contributed to publications such as RFD (Radical Faerie Digest), where he wrote on themes of identity and community (e.g., \"City/Country\" in 1975). His work and life were part of the broader 1970s-era communal and artistic experimentation that sought to merge creative practice with alternative social structures.",
+            "sources": [
+              "https://www.nyclgbtsites.org/site/lavender-hill-commune/",
+              "https://nystateparks.blog/2021/06/29/lavender-hill-commune-national-register-of-historic-places/",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGe-ruyFdiKslxnnC38fQVrltP9VZ8fMQQ0tgv49LvX597UznT7xOFLUlfJrhOYOp-_MhYZmQOLiUy0I4sOgYM7LeYZIghe2MlGv_sUCO5tCNLPC0fepS9Nw-gOEyO8OAbiRv0UYj8GNGNba741T3PS4T-WdsD4iyCjW8oPYQl044NTdlIygU6p0wLWZOI_Jc9rRZOYa8BQKrtvS61Lb3hBuKdfq3LHV_TgRRQWxAKUG-lAkH39nfsBoGVBX6pQdHvrXNJZqEKapjmmShuXw=="
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Norbett L. Mintz (frequently cited as L. Mintz) was a psychologist and researcher active in the 1950s through the 1970s who specialized in the effects of aesthetic environments. He is best known for his 1956 collaborative study with Abraham Maslow, \"Effects of Esthetic Surroundings,\" which examined how the visual quality of a room (beautiful vs. ugly) influenced human perception and well-being. This research became foundational to environmental psychology and was widely cited by architects and experimental artists in the 1960s and 1970s, including those associated with Experiments in Art and Technology (E.A.T.), who were exploring immersive, technology-driven environmental art.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOvvP9rOBdITuAJ-3V-l5IL_x-UVGayHNXIkUg1Ae4zA8PYhnUhlzKQzrXSsjutJE8CnU_o4w22W8dTvv6q_C-fP6qfVTU2_MPJ3aKltX-er-g52AckYjYAWwWF21lmY70-KFX2tnL4h3L9Yhl86UAMIqifMA=",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoNNheViypk3D_ZLaEOdW1m64HD8Qt3r3oKg7PlX6TbCk_fus37mNUIDM6cjdNII6Z4R5X69tr9bs9foCpwkwQX5o7LvGLM45XUlZJKw4VlRN7SQQLYSMVp3Njxq2vPFDVpkkl_4UFfUADqzc-A8cGf61_OjCOd5G2jCb_E1DSfxceSz-T82NqJKAZ-ssNmRsX85qWxAGRg91Mhxwa_g=="
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Lawrence Mintz (also known as Lawrence E. Mintz) is a scholar and historian of popular culture and performance art who became prominent in the early 1970s. He specialized in the study of stand-up comedy as a form of social and cultural mediation, theorizing it as a significant performance art in American history. While primarily an academic, his work involves documenting and analyzing the artistic techniques of performers and media artists during the late 1960s and 1970s, a period marked by the intersections of art, humor, and technology.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMIQFTNNgMdgHZwWdEXwOShITr8ynYXc_FQSK126FeJ2HQH_bPOOj24-XJSazZr7XZXNZGUDy3LnWSbQs4CVmMWuJvxHNnFpj28_VrT9tWnR-zH2GCPhe0lQZRcw8QWTAgGo_ZNj6gO6zXjQf-0DEGpT7J5KCy24NDDLMJLxUv7KrfZIrn",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDg79Sg2f6PMGa4Pcotp1Bl263PD2-IWvTJRo4uAuNo9QJHBfmaPdvTa7rQ2LPu5esmdW5CmbA2r_knjkAo9U42FuP60tFxhyoUogpFJqgan3vth1ocwDV_QgsStFvLDMXfzQkvv5yagSKjOMeAY2TZqr9TgkcOh0wPBSHuaYaR6J-jGrmsnlSt-lnxrrcRt_2NYK1IAPlRCXJiJSP5mhfzGzRAigX3c9YJ55TkEuQbM5A5In_EDGBd-ARUF67TwA8BL_fpLvYJ_Yi-aG5a6wZAdp8bddhW1uWmaJ_gw=="
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"L. Mintz\" E.A.T. artist",
+            "\"Lewis Mintz\" artist Experiments in Art and Technology",
+            "\"Leo Mintz\" artist Experiments in Art and Technology",
+            "\"Lawrence Mintz\" artist Experiments in Art and Technology",
+            "\"L. Mintz\" artist Experiments in Art and Technology",
+            "\"Leonard Mintz\" artist Experiments in Art and Technology",
+            "\"L. Mintz\" E.A.T. member list",
+            "\"L. Mintz\" Pepsi Pavilion project",
+            "\"L. Mintz\" artist \"late 1960s\"",
+            "\"L. Mintz\" artist \"early 1970s\"",
+            "\"L. Mintz\" Experiments in Art and Technology list",
+            "",
+            "\"Lee Mintz\" artist E.A.T.",
+            "\"Lawrence Mintz\" artist E.A.T.",
+            "\"E.A.T.\" artist \"L. Mintz\"",
+            "\"Experiments in Art and Technology\" Mintz",
+            "\"Larry Mintz\" artist E.A.T.",
+            "\"L. Mintz\" \"Experiments in Art and Technology\" member",
+            "\"Linda Mintz\" artist E.A.T.",
+            "\"Lawrence Mintz\" Pepsi Pavilion",
+            "\"L. Mintz\" Experiments in Art and Technology participant",
+            "",
+            "\"New Talent IV\" MoMA artist Mintz",
+            "\"Louis Mintz\" MoMA artist",
+            "\"Lawrence Mintz\" American Quarterly 1985 artist",
+            "\"Leo Mintz\" MoMA artist",
+            "\"L. Mintz\" E.A.T. service organization",
+            "\"L. Mintz\" collaborator Experiments in Art and Technology",
+            "\"Mintz\" artist \"New Talent IV\" MoMA 1951",
+            "\"L. Mintz\" E.A.T. 1960s 1970s",
+            "\"L. Mintz\" E.A.T. Pepsi Pavilion",
+            "\"L. Mintz\" psychologist art technology",
+            "\"Larry Mintz\" E.A.T. artist",
+            "\"Lawrence Mintz\" E.A.T. artist",
+            "",
+            "\"Mintz\" Pepsi Pavilion Osaka participants list",
+            "\"Mintz\" E.A.T. News contributor",
+            "\"Mintz\" \"Techne\" magazine E.A.T.",
+            "\"Louis Mintz\" E.A.T.",
+            "\"L. Mintz\" artist 1970s E.A.T.",
+            "\"Leland Mintz\" E.A.T.",
+            "",
+            " \"Mintz\"",
+            "\"Lee Mintz\" artist New York 1970s",
+            "\"Linda Mintz\" artist 1970s",
+            " \"Mintz\" E.A.T.",
+            "\"Lawrence Mintz\" artist 1970s",
+            "\"L. Mintz\" artist E.A.T. technical matching",
+            "\"Lazar Lee Mintz\" artist E.A.T.",
+            "\"Lawrence Mintz\" artist E.A.T. technical matching",
+            "\"Lee Mintz\" artist E.A.T. technical matching",
+            "\"Leon Mintz\" artist E.A.T. technical matching",
+            "\"L. Mintz\" \"Experiments in Art and Technology\" technical matching",
+            "\"Lazar Lee Mintz\" artist Lavender Hill",
+            "\"Lee Mintz\" Experiments in Art and Technology list",
+            "\"L. Mintz\" E.A.T. participant",
+            "\"Lee Mintz\" E.A.T. participant",
+            "\"Lawrence Mintz\" artist humor 1970s",
+            "\"L. Mintz\" E.A.T. technician matching",
+            "\"Lee Mintz\" photographer artist 1970s",
+            "\"Louis Mintz\" artist technology 1970s",
+            "\"L. Mintz\" Experiments in Art and Technology artist matching"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_F0sbs11mB5j2IsSf9ejVQ9N4_lym_FG2T35WvVOipo-NB29WjyBec-GkY4z2oO63mQ1CPUDb1w-qyJ3xe0rdJv5dt3I3MUfxbyNBGWDhBwt8llXyRir6SQ-RAzqPfuxARnqlBzEKuMuP6GxxPN8XO5BmHo2Vv3ofDvt3G7R2PgQexE3tIbCf4bKXk47lbld85GaRA-5hpG4YQehBKXs7tfnw9mqkggwLkWcsZ60W28LMZYWNbcHcAkIVzlzvSOag9rSxBt4mwuip3_wd",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/544570703/Auther-Elissa-Adam-Lerner-West-of-Center-Art-and-the-Counterculture-Experiment-in-America-1965-1977-2012"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 192,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lazar Lee Mintz (1947–1988), also known as Lee Mintz, was a visual and performance artist and writer active during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -130,6 +1139,74 @@
         "y1": 43.1,
         "x2": 85.7,
         "y2": 52.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Puchkoff is a New York-based real estate developer, architect, and inventor who has been active in the city's creative and architectural scenes since at least the mid-1970s. He is best known for designing and building a unique 'rooftop cottage' and 1,200-square-foot meadow atop his penthouse at 719 Greenwich Street in the West Village, a project that has been featured in the New York Times, National Geographic, and various architectural publications. Puchkoff's professional history includes the conversion of industrial spaces into residential lofts, such as the Printing House in the West Village (converted in 1975) and his own firm, David Puchkoff Associates Ltd (also known as D. Puchkoff Associates Ltd), based in Soho. Beyond architecture, he is an accomplished sailor and skipper in the classic yacht community and an inventor who holds a U.S. patent for a marine propulsion system (US6592412B1). His long-standing presence in the Soho and West Village neighborhoods—historically the hubs for Experiments in Art and Technology (E.A.T.)—and his background as both a technical inventor and a developer of avant-garde living spaces align with the user's description of an artist/engineer active in the late 1960s and 1970s.",
+            "sources": [
+              "https://www.nytimes.com/2006/07/13/garden/13roof.html",
+              "https://secretnyc.co/adorable-cottage-on-west-village-rooftop-is-now-in-a-legal-battle-with-the-city/",
+              "https://untappedcities.com/2015/06/18/daily-what-rooftop-cottage-in-greenwich-village-has-porch-and-green-meadow/",
+              "https://patents.google.com/patent/US6592412B1/en",
+              "https://nysquash.com/printing-house"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"David Puchkoff\" artist",
+            "\"D. Puchkoff\" artist",
+            "\"Puchkoff\" Bell Labs artist",
+            "\"Puchkoff\" Experiments in Art and Technology",
+            "\"David Puchkoff\" architect artist",
+            "\"Puchkoff\" artist 1960s",
+            "\"D. Puchkoff\" 9 Evenings",
+            "",
+            "\"Puchkoff\" artist 1968 1969 1970 1971",
+            "\"David Puchkoff\" E.A.T.",
+            "\"D. Puchkoff\" Bell Laboratories artist",
+            "\"David Puchkoff\" Brooklyn artist",
+            "",
+            "\"David Puchkoff\" Bell Labs engineer",
+            "\"David Puchkoff\" E.A.T. member",
+            "\"Puchkoff\" E.A.T. collaboration",
+            "\"D. Puchkoff\" artist NYC 1970",
+            "\"Puchkoff\" artist 1968",
+            "\"David Puchkoff\" artist late 1960s",
+            "\"David Puchkoff\" Experiments in Art and Technology collaboration",
+            "\"David Puchkoff\" Bell Labs engineer E.A.T.",
+            "\"Puchkoff\" and \"Rauschenberg\" E.A.T.",
+            "\"David Puchkoff\" art technology 1960s",
+            "",
+            "\"David Puchkoff\" artist NYC 1960s 1970s",
+            "\"David Puchkoff\" Bell Labs E.A.T.",
+            "\"David Puchkoff\" Experiments in Art and Technology engineer",
+            "\"David Puchkoff\" E.A.T. project",
+            "\"Jerry Puchkoff\" artist 1970",
+            "\"David Puchkoff\" engineer 1968 1969 1970",
+            "\"Puchkoff\" and \"E.A.T.\" archive",
+            "\"David Puchkoff\" Bell Labs 1960s",
+            "\"David Puchkoff\" artist E.A.T.",
+            "\"David Puchkoff\" Bell Labs 1960s 1970s",
+            "",
+            "\"David Puchkoff\" architect New York history",
+            "\"David Puchkoff\" Experiments in Art and Technology 1969",
+            "\"David Puchkoff\" E.A.T. newsletter 1968",
+            "\"D. Puchkoff\" Bell Labs 1968",
+            "\"David Puchkoff\" E.A.T. engineer",
+            "\"D. Puchkoff\" E.A.T. Bell Labs",
+            "\"David Puchkoff\" E.A.T. list",
+            "\"David Puchkoff\" Bell Labs 1970",
+            "\"David Puchkoff\" E.A.T. technical team",
+            "\"David Puchkoff\" Bell Labs biography"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -142,6 +1219,203 @@
         "y1": 44.4,
         "x2": 33.7,
         "y2": 54.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q41674216",
+          "label": "Daniel R. Weinberger",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a prominent psychiatrist and neuroscientist (Daniel R. Weinberger, born 1947) who was likely in medical school or early research during the late 1960s and early 1970s. This does not align with the context provided for the card entry, which identifies 'D. Weinberger' as an artist active during that same period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Daniel (Daniël) Weinberger is a Belgian performance and video artist who was active in the early-to-mid 1970s. He is recognized as part of the first generation of video art pioneers in Belgium, particularly associated with the Internationaal Cultureel Centrum (ICC) in Antwerp. His work often explored the intersection of the physical body and electronic media. One of his most notable performances, described in the context of 'Body Art' (1977), involved a bodybuilding act where he carried two television monitors displaying his own image, effectively 'lifting' his own electronic representation. He participated in significant experimental art events of the era, including 'Expmtl 5' (1974) in Knokke and the 'Artists Video Tapes' exhibition (1975) at the Palais des Beaux-Arts in Brussels, which featured other prominent avant-garde figures such as Joseph Beuys and Allan Kaprow. His name is mentioned in historical surveys of 'Experiments in Art and Technology' (E.A.T.) festivals and the development of participatory digital art.",
+            "sources": [
+              "https://www.argosarts.org/en/program/the-1970s",
+              "https://www.contemporaryartlibrary.org/project/nl-fr-en-24-09-18-12-20-22-22532",
+              "https://biblioteca.urjc.es/vj-creacion-audiovisual-performativa"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "David Weinberger (born 1950) is an American technologist, philosopher, and writer whose career began in the late 1960s and 1970s. He earned a PhD in philosophy from the University of Toronto in 1976 and is frequently cited in modern academic handbooks concerning 'Experiments in Art and Technology' (E.A.T.) due to his influential theories on networked knowledge and the impact of technology on society (most notably in his 2012 book 'Too Big to Know'). Early in his career, he worked at Bell Labs, the industrial research organization where E.A.T. was founded by engineers Billy Klüver and Fred Waldhauer. In 1976, he also contributed to creative media as a joke writer for a Woody Allen comic strip. He is currently a researcher at Harvard's metaLAB, which focuses on the intersection of art, technology, and the humanities, and he has been described as a 'prophet' for the collaborative and non-hierarchical values that E.A.T. originally promoted.",
+            "sources": [
+              "https://www.econtalk.org/david-weinberger-on-too-big-to-know/",
+              "https://www.theguardian.com/books/2009/oct/18/woody-allen-comic-strip-stuart-hample",
+              "https://larouchepub.com/other/2007/3429yes_its_gambling.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"D. Weinberger\" Experiments in Art and Technology",
+            "\"Daniel Weinberger\" artist Experiments in Art and Technology",
+            "\"D. Weinberger\" artist late 1960s 1970s",
+            "\"David Weinberger\" artist Experiments in Art and Technology",
+            "\"D. Weinberger\" E.A.T. organization",
+            "\"David Weinberger\" artist E.A.T.",
+            "\"Daniel Weinberger\" artist E.A.T.",
+            "\"D. Weinberger\" \"Experiments in Art and Technology\"",
+            "\"Dora Weinberger\" artist E.A.T.",
+            "\"Dorothy Weinberger\" artist E.A.T.",
+            "\"D. Weinberger\" E.A.T. membership list",
+            "\"D Weinberger\" artist collaborator engineer",
+            "\"D. Weinberger\" 9 Evenings: Theatre and Engineering",
+            "\"Dorothy Weinberger\" Experiments in Art and Technology",
+            "\"D. Weinberger\" E.A.T. \"Experiments in Art and Technology\"",
+            "\"David Weinberger\" E.A.T. collaboration",
+            "\"Daniel Weinberger\" E.A.T. artist",
+            "\"Dan Weinberger\" artist E.A.T.",
+            "\"D. Weinberger\" \"Experiments in Art and Technology\" artist engineer",
+            "\"Dorothy Weinberger\" artist E.A.T. late 60s",
+            "\"D. Weinberger\" late 1960s art technology",
+            "\"Douglas Weinberger\" artist E.A.T. late 60s",
+            "\"David Weinberger\" artist E.A.T. late 60s",
+            "\"D. Weinberger\" artist E.A.T. collaboration",
+            "\"Dan Weinberger\" artist E.A.T. late 60s",
+            "\"Daniel Weinberger\" artist E.A.T. late 60s",
+            " \"Weinberger\"",
+            " \"Weinberger\" E.A.T.",
+            "\"David Weinberger\" engineer E.A.T.",
+            "\"Daniel Weinberger\" engineer E.A.T.",
+            "\"Donald Weinberger\" artist E.A.T.",
+            "\"D. Weinberger\" artist E.A.T. membership",
+            "\"D. Weinberger\" E.A.T. artist engineer",
+            "\"Daniel Weinberger\" E.A.T. engineer 1960s",
+            "\"David Weinberger\" E.A.T. artist 1960s",
+            "\"Donald Weinberger\" artist Experiments in Art and Technology",
+            "\"Weinberger\" Experiments in Art and Technology list",
+            "\"Dorothy Weinberger\" E.A.T. artist 1960s",
+            "\"Doug Weinberger\" artist E.A.T.",
+            "\"David Weinberger\" Bell Labs E.A.T.",
+            "\"D. Weinberger\" \"E.A.T.\" archive",
+            "\"D. Weinberger\" \"Experiments in Art and Technology\" membership",
+            "\"Dan Weinberger\" artist Experiments in Art and Technology",
+            "\"Daniel Weinberger\" Bell Labs E.A.T.",
+            "\"D. Weinberger\" artist biography 1970s",
+            "\"Doug Weinberger\" engineer E.A.T.",
+            "\"Weinberger\" E.A.T. artist collaborator",
+            "\"David Weinberger\" artist \"experiments in art and technology\"",
+            "\"D. Weinberger\" artist active 1968 1969 1970 1971 1972",
+            "\"D. Weinberger\" Experiments in Art and Technology list",
+            "\"Douglas Weinberger\" Bell Labs 1960s",
+            " \"Weinberger\" E.A.T.",
+            "\"D. Weinberger\" collaborator Experiments in Art and Technology",
+            "\"Donald Weinberger\" E.A.T. artist engineer",
+            "\"Daniel Weinberger\" Bell Labs 1960s",
+            "\"David Weinberger\" Bell Labs 1960s",
+            "\"Donald Weinberger\" artist Experiments in Art and Technology",
+            "\"Daniel Weinberger\" artist late 1960s",
+            "\"D. Weinberger\" artist MoMA E.A.T.",
+            "\"Dan Weinberger\" artist Experiments in Art and Technology",
+            "\"Diana Weinberger\" artist Experiments in Art and Technology",
+            "\"Doris Weinberger\" artist E.A.T.",
+            "",
+            "\"Daniel Weinberger\" artist video performance 1970s",
+            "artist \"Daniel Weinberger\" bodybuilding monitors 1970s",
+            "\"Daniel Weinberger\" artist Experiments in Art and Technology",
+            "\"Daniel Weinberger\" artist E.A.T. collaboration",
+            "\"D. Weinberger\" artist Belgian video",
+            "\"D. Weinberger\" \"Experiments in Art and Technology\" artist",
+            "\"David Weinberger\" \"Experiments in Art and Technology\" artist",
+            "\"Daniel Weinberger\" \"Experiments in Art and Technology\"",
+            "\"Daniel Weinberger\" artist Experiments in Art and Technology E.A.T.",
+            "\"D. Weinberger\" artist Bell Labs E.A.T.",
+            "\"David Weinberger\" artist E.A.T. list",
+            "",
+            "\"David Weinberger\" computer art 1970s",
+            "\"Daniel Weinberger\" Belgian artist ICC Antwerp ICC",
+            "\"David Weinberger\" engineer Experiments in Art and Technology",
+            "\"Doris Weinberger\" artist Experiments in Art and Technology",
+            "\"D. Weinberger\" computer art Experiments in Art and Technology",
+            "\"Daniel Weinberger\" computer art 1970s",
+            "",
+            "\"David Weinberger\" E.A.T. Osaka 1970",
+            "\"Daniel Weinberger\" E.A.T. Osaka 1970",
+            "\"D. Weinberger\" Pepsi Pavilion collaborator",
+            "Experiments in Art and Technology \"Weinberger\" Osaka 1970",
+            "\"Dorothy Weinberger\" E.A.T. Osaka 1970"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHJ7wzC6yZJibvuFutdMrkVU5WkbFRSclNUB8Utaw-ctR0JWct1YOcd2ZmXTJ2WHE-1ZX26xCGWNx-F-OJ_2Y5qwKa_1FpgZ_p8abbpnxrcmJ7Xmsw98bSsIvnXJ87GXi5ZHRabGMZ3pZg2oflPaS3n_PmBDOqh6NWQRxY5_EeqBiLQaxZpTrSY0KZES5GO0wB8QTBaw==",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/880493023/Weinberger-2012-the-Changing-Nature-of-Knowledge"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7BmWxbkBAnEh8RZ8vyLvizcMWGxnPtFhvAlGFPP2NV9LybGNOJ8jfCKprxO1CpgtgFMK4nxCZmQUC1lmTYUzlgCsTSYC4WSTYZs6TWpsy28bmUnGTicaZCAZXoAd3uRAW7deHn7eFItW1ZQ==",
+              "title": "nih.gov",
+              "resolvedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6373728/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuw8zzYvn2l3IwQAkbk7wxVM3ELS2hMvegs3iCMHDjSwcdJm1zBGB5xAltijWyA3wY6ILDt8So1PzXi6Qgs8Pu12SunTQpnVEqX05WE6GgXzUfVoG6-6ky4j1q2YOjiOs8QPgiZm-7LAJt05tQw0huLVXZ7rkjKkUmq0j2Lxo-5yc9PTXuODNZL68=",
+              "title": "withgoogle.com",
+              "resolvedUri": "https://pair.withgoogle.com/events/SH-404-PAIR-Guidebook-v31-Colour_Spreads.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAUVwqQlqL21mtOG3sw9iQ5Hcq8xqOd5fRL5BLgqJLRFfd5H4Wn4IS8rQosZIY1iIRO0HRgZbqptda66u9LzvLiW0U4kVvOt46qWL17bHmsd6eq4FQYGBBLlJyF9oCKpv-9Kv-UFGcMykHF0J6yIfL1mQVhav08k7vEgcHQjl5HH1dfTN4D535hhj_T9GLqqj1u06tua1S5lulygKNhUdAdES4ISxnIhmC",
+              "title": "unipr.it",
+              "resolvedUri": "https://www.repository.unipr.it/bitstream/1889/3836/7/MalvezziJ_TesiDottorato_AA2015_2018_Febbraio2019_DEF.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwEi98XFuVu6LGXR0ap5mMW-rwRdA7eyyfnzydW8IZGhgxoIyCUfh2o4J1h4xi3OLU8YagXJjPefjhnE4j99LNmL-VfABXsJlHmo-evKIi0lJSudMxyM9FjNXiYRbNMALy",
+              "title": "aec.at",
+              "resolvedUri": "https://talksandlectures.aec.at/?id=448"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGQ1Eh8APR03sGhMxoJ1LLa_h3iA63AS8hFKPcB8UW_chn6kkBhML0EGBVy-LS_YGN0jjd-A7joG7XX2m6j9egy1-43NUeeD2djfkbNNCtTK1m7HuUIh8UYTmaghiFzAwtdvLGiGfytcV6xH7OVytfGkEIO-KAqEBzhUF8YF3jCx9PQ8CdtSiIHPI7fs5RU9zvugqNmzLMtOitWYQk7D6JGaJE",
+              "title": "netnographicresearch.org",
+              "resolvedUri": "https://netnographicresearch.org/wp-content/uploads/2024/07/Netnography-Redefined-Kozinets-R.-V.-2015.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPOR6YjvvLihD5779j14Elf9GKXgF10YXnI1_nyRhWA0_HD-S66tn4xVdYAN4ZwNynMRw3xoDPlTk9ITkoG6JYaER9syJ555miVJyOBj-25V_KIe5xEAfXIlKtSbSGV0qzVoWf",
+              "title": "artblart.com",
+              "resolvedUri": "https://artblart.com/category/film/page/2/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 329,
+                "endIndex": 412,
+                "text": "His work often explored the intersection of the physical body and electronic media."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1027,
+                "endIndex": 1541,
+                "text": "festivals and the development of participatory digital art.\",\n      \"sources\": [\n        \"https://www.argosarts.org/en/program/the-1970s\",\n        \"https://www.contemporaryartlibrary.org/project/nl-fr-en-24-09-18-12-20-22-22532\",\n        \"https://biblioteca.urjc.es/vj-creacion-audiovisual-performativa\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"David Weinberger (born 1950) is an American technologist, philosopher, and writer whose career began in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2343,
+                "endIndex": 2676,
+                "text": "originally promoted.\",\n      \"sources\": [\n        \"https://www.econtalk.org/david-weinberger-on-too-big-to-know/\",\n        \"https://www.theguardian.com/books/2009/oct/18/woody-allen-comic-strip-stuart-hample\",\n        \"https://larouchepub.com/other/2007/3429yes_its_gambling.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3,
+                4,
+                1,
+                5,
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -154,6 +1428,89 @@
         "y1": 52.1,
         "x2": 33.8,
         "y2": 62.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q221535",
+          "label": "Eddie Vedder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Frank' does not match 'Eddie/Edward'. Furthermore, the Wikidata entity was born in 1964 and only began his career in 1979, making it impossible for him to be an artist active during the late 1960s or early 1970s as described in the card context."
+        },
+        {
+          "qid": "Q7917954",
+          "label": "Vedder Van Dyck",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Vedder Van Dyck) died in 1960, which is before the late 1960s/early 1970s period when the artist Frank Vedder was known to be active. Furthermore, the names are not a close match beyond the shared name 'Vedder', and the Wikidata entity's metadata suggests a religious figure rather than an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Frank Vedder (Francis Vedder) was a student at The Wheatley School in Old Westbury, New York, graduating in the Class of 1967. During the late 1960s, he was recognized for his technical and manual skills, notably for building the school's first large scoreboard by hand alongside several classmates during the 1966-1967 football season. He was active in various school events, including the 'Varsity Review' talent show, where he participated in a group called 'Shinsplints.' He is frequently mentioned in alumni newsletters edited by Arthur Engoron (a New York State Supreme Court Justice), which document the careers and activities of the class, including those who became fine and practical artists. In 1967, he was also noted for acting as a 'decoy' for the school's fitness team in competitions.",
+            "sources": [
+              "https://wheatleyalumni.org/newsletter-166/",
+              "https://wheatleyalumni.org/newsletter-216/",
+              "https://wheatleyalumni.org/newsletter-71/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Frank Vedder was a prominent figure within the Church of Scientology during the late 1960s and 1970s, specifically associated with the technical and auditing branches of the organization. He is listed in Scientology publications from 1969 through the mid-1970s, such as 'The Auditor,' as a Class IV or Class VI Auditor. His work involved the application of 'Scientology Technology,' a term used by the organization to describe its methods for personal improvement and spiritual auditing. He was part of a group of practitioners active during a period when the organization was expanding its footprint in major cities like New York and Los Angeles.",
+            "sources": [
+              "https://iapsop.com/archive/materials/the_auditor/the_auditor_ww_108_1975.pdf",
+              "https://scientology-cult.com/carol-nyburg-vedder-is-out.html",
+              "https://rssing.com/chan-5847424/all_p2.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Frank Vedder is the owner and manager of Agentur EAM (Event and Artist Management), a booking and management firm for musical artists. While his most prominent recent work involves the heavy metal and horror metal genres (representing bands like Tygers of Pan Tang and Noctem), he has a long trajectory in the artist management business. His organization focuses on international booking and promotion for artists across Europe, Asia, and the Americas.",
+            "sources": [
+              "https://tygersofpantang.com/official/news-february-2011/",
+              "https://metalshockfinland.com/2015/02/04/noctem-sign-exclusive-booking-deal-with-agentur-eam/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Frank Vedder\" E.A.T. artist",
+            "\"Frank Vedder\" 1960s 1970s art",
+            "\"Frank Vedder\" Experiments in Art and Technology",
+            "artist \"Frank Vedder\"",
+            "\"Frank Vedder\" artist engineer E.A.T.",
+            "\"Frank Vedder\" \"E.A.T.\" artist",
+            "\"Frank Vedder\" 9 Evenings",
+            "\"Frank Vedder\" E.A.T. bibliography",
+            "\"Frank Vedder\" artist 1960s",
+            "\"Frank Vedder\" engineer Bell Labs",
+            "\"Frank Vedder\" engineer 1960s art",
+            "\"Frank Vedder\" E.A.T. member list",
+            "\"Frank Vedder\" art collaborator",
+            "",
+            "\"Frank Vedder\" E.A.T. artist engineer",
+            "\"Frank Vedder\" New York artist 1970s",
+            "\"Frank Vedder\" Bell Labs",
+            "",
+            "\"Frank Vedder\" Bell Laboratories artist",
+            "\"Frank Vedder\" New York \"E.A.T.\"",
+            "\"Frank Vedder\" artist 1968 1969 1970 1971",
+            "",
+            "\"Frank Vedder\" E.A.T. \"New York\"",
+            "\"Frank Vedder\"",
+            "\"Frank Vedder\" artist sculpture 1970s",
+            "\"Frank Vedder\" artwork",
+            "\"Frank Vedder\" artist engineer collaborator",
+            "\"Frank Vedder\" artist auction",
+            "\"Frank Vedder\" painter 1960s 1970s",
+            "\"Frank Vedder\" artist collaborator engineer"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -166,6 +1523,118 @@
         "y1": 54.6,
         "x2": 58.0,
         "y2": 72.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16012873",
+          "label": "Sari Dienes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are an exact match. The Wikidata entity is a prominent artist who lived from 1898 to 1992, meaning she was active during the 1970 date mentioned on the card. The occupation and timing align perfectly with the context provided."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Sari Dienes (1898–1992) was a prolific Hungarian-born American experimental artist and a central figure in the mid-20th-century New York avant-garde. Often referred to as the 'doyenne of the American avant-garde,' Dienes is most famous for her large-scale 'sidewalk rubbings' (frottage) of urban textures like manhole covers and subway grates, a technique she pioneered in the early 1950s using ink and a medical material called Webril. Her work and philosophy, heavily influenced by Zen Buddhism, emphasized finding art in humble, found objects, directly influencing younger contemporaries such as Robert Rauschenberg and Jasper Johns. During the late 1960s and 1970s, Dienes remained highly active; she was a founding member of the feminist artist cooperative A.I.R. Gallery in 1972 and a frequent participant in Charlotte Moorman's Annual Avant Garde Festivals. She was also associated with the Experiments in Art and Technology (E.A.T.) organization, with her proposals and correspondence preserved in the E.A.T. records at the Getty Research Institute. From 1961 until her death, she lived at the Gate Hill Cooperative ('The Land') in Stony Point, New York, alongside other notable avant-garde figures like John Cage and Merce Cunningham. Her diverse output included painting, sculpture, ceramics, textile design, performance art, and sound-art installations.",
+            "sources": [
+              "https://www.saridienes.org/",
+              "https://en.wikipedia.org/wiki/Sari_Dienes",
+              "https://www.ericfirestonegallery.com/artists/sari-dienes",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf28700204/",
+              "https://www.culturalheritage.org/docs/default-source/publications/periodicals/bpg-annual/v36/bpg36-11.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Sari Dienes Experiments in Art and Technology E.A.T.",
+            "Sari Dienes biography artist",
+            "Sari Dienes works 1960s 1970s",
+            "\"Sari Dienes\" E.A.T. member contributor",
+            "\"Sari Dienes\" Experiments in Art and Technology E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-8LxDeMw470jCacxPTAye8wRhtTy5yPU2O1LJ8jwirmZs8j1hFrP7jlReeA_tSE20JrJkD46Iuf_leE8CFohH-yubaLE9lSiB2AbwEIoyJ88DCIQAls73tRmw4xGXxzBDBkhrjeR8EjY8ylgkPVV1TA3y_UYY-3QXxd1JXgevR7MhNFY=",
+              "title": "ericfirestonegallery.com",
+              "resolvedUri": "https://viewingroom.ericfirestonegallery.com/viewing-room/frieze-masters2"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZElt0ffZnFYx8W92_okj0zRDmaywKy7n1lOfUIxUinG0t6AuK2yBNHuSUbqnc8jQpP19r7KS9QrTpmKYuhgJy2w-1Syl7lj9I5BzZs4j8vGsPUsb7RPe31WgNQxWPVRlu",
+              "title": "haberarts.com",
+              "resolvedUri": "https://www.haberarts.com/rschber2.htm"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXlLXFeehjlr7OLhlxc8pb-Cv1iOfYHP_7d9slPaLxeAWvPqHcG5TwLrm0GLwUrkKADo1GPZnqO4-KNVZtUuZdIjbpmcoWJjYoIbdSFRzRn53Mo-inTOir4F1ePvu0GwYnjKkhwLzW-NM3mN6zVUZhAp6PRQs=",
+              "title": "kalmanmaklaryfinearts.com",
+              "resolvedUri": "https://kalmanmaklaryfinearts.com/artists/sari-dienes.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbUJbi0yWsX81JnqsZUEDjjt7I4S_nCFnGnTAiIBilIxyidVyH3yO-2jghcctGnQvkRdLlbdVqmrfiiVtRtPAfv8WpGgME_bFC7lgzuBQwFRf7HeYdpv1g71DZjQlVrwhWdHz7jmhfRKydTrRGK89FWwRV0A==",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/dsc/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAyVnE4sKfno14X8J4B88rTHL3AF-8hSq2XovnufxSpr605ru4jkPZpjYzzxqFkgtKbMFEfAqgBaW09zPdCWEeIOEfydHD9nfJ3firyKTBHrg0_hiBQoxalF9_XYlfmgeXKHOpDn43MOFRb1Xcs3oLwnlr6Ppn2a9WXk0=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnHhNi0x7LbjfH7Qgt-4SH3RO0ILqJa5rQ3A6rcLqiXLUxVF_84de8qd3zplzKpXkNFe2qpVqaoFV_hGkFTOCR2fBugsYAIMwiZ3sLYv75dZrG0olbYbS1JmEVYb2-DMCi-JXOW0Qx9qpqghfoi4hnDwlNS-1b6FbabM-8lVfI5_OvLsSNSemjwUhsc6-WE6oHnQk=",
+              "title": "nationalwca.org",
+              "resolvedUri": "https://nationalwca.org/wp-content/uploads/2020/10/WCA-LTA-Awardee_Presentation-2019.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 201,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Sari Dienes (1898–1992) was a prolific Hungarian-born American experimental artist and a central figure in the mid-20th-century New York avant-garde."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 917,
+                "endIndex": 992,
+                "text": "She was also associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                3,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1069,
+                "endIndex": 1109,
+                "text": "records at the Getty Research Institute."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1296,
+                "endIndex": 1830,
+                "text": "Her diverse output included painting, sculpture, ceramics, textile design, performance art, and sound-art installations.\",\n      \"sources\": [\n        \"https://www.saridienes.org/\",\n        \"https://en.wikipedia.org/wiki/Sari_Dienes\",\n        \"https://www.ericfirestonegallery.com/artists/sari-dienes\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf28700204/\",\n        \"https://www.culturalheritage.org/docs/default-source/publications/periodicals/bpg-annual/v36/bpg36-11.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2,
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -178,6 +1647,122 @@
         "y1": 52.8,
         "x2": 91.6,
         "y2": 62.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q25884277",
+          "label": "Julie Katz-Aereboe",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Julie Katz-Aereboe) died in 1927, which makes it impossible for her to be the artist active in the late 1960s and early 1970s mentioned in the card entry dated 1970-09-04."
+        },
+        {
+          "qid": "Q44572998",
+          "label": "Julie Katzman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Julie Katzman) was born in December 1961, which means she would have been only 8 years old at the time of the card entry (September 1970). This makes it highly unlikely she was the artist active in the late 1960s and early 1970s described in the card context. Additionally, her occupation is listed as business executive rather than artist, and the surnames differ (Katz vs. Katzman)."
+        },
+        {
+          "qid": "Q92368518",
+          "label": "Julie Katz Karp",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Julie Katz is relatively common. The Wikidata entity is identified as a researcher, which does not align with the provided context that the person on the card was an artist active in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q105354941",
+          "label": "Julie Katz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active around 1970, whereas the Wikidata entity represents a Holocaust victim who died around 1940-1942, making it impossible for them to be the same person."
+        },
+        {
+          "qid": "Q105355712",
+          "label": "Julie Kleinstrass",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Julie Kleinstrass (with the family name Katz) died in 1942 as a victim of the Holocaust. Therefore, she could not be the artist referenced in the card entry dated 1970."
+        },
+        {
+          "qid": "Q105518739",
+          "label": "Julie Katzová",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Julie Katzová) died in 1940 as a Holocaust victim, whereas the card entry is dated 1970 and describes an artist active in the late 1960s and early 1970s. These are two different individuals."
+        },
+        {
+          "qid": "Q105518740",
+          "label": "Julie Katzová",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Julie Katzová died in 1942 in the Theresienstadt Ghetto, which makes it impossible for her to be the artist active in 1970 described in the card entry."
+        },
+        {
+          "qid": "Q123238560",
+          "label": "Julie Katz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a woman born in 1886 who was a victim of the Holocaust, having been transported to the Riga Ghetto in 1941. It is highly unlikely that she is the same person as an artist active in 1970, as the Wikidata record indicates she was a victim of the Holocaust and would have been 84 years old if she had survived."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Julie Katz was an artist and photographer active in the late 1960s and early 1970s who was associated with the early video art movement and its intersection with technology. She is most notably recognized for co-designing the cover of the second issue of Radical Software (Volume I, Number 2, Fall 1970) alongside video artist Tom DeWitt. Radical Software was a pioneering journal that served as a key communication network for artists, engineers, and activists interested in video as an artistic medium and its social potential. Katz's work in this period is linked to the same creative milieu as the organization Experiments in Art and Technology (E.A.T.); her collaborator Tom DeWitt was a frequent associate of E.A.T. and contributed to major projects such as the Pepsi Pavilion at Expo '70 in Osaka. Archival materials and contributions from Katz, specifically her work for Radical Software, have been featured in major exhibitions exploring the history of electronic art, such as the Tate’s \"Electric Dreams\" exhibition.",
+            "sources": [
+              "https://www.tate.org.uk",
+              "http://www.radicalsoftware.org/main/volume1no2.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Julie Katz\" \"Experiments in Art and Technology\"",
+            "\"Julie Katz\" E.A.T. artist",
+            "\"Julie Katz\" artist 1960s 1970s",
+            "\"Julie Katz\" \"Tom DeWitt\" \"Experiments in Art and Technology\"",
+            "\"Julie Katz\" artist E.A.T. biography",
+            "\"Julie Katz\" \"Tom DeWitt\" artist 1960s",
+            "",
+            "\"Julie Katz\" \"Experiments in Art and Technology\" member",
+            "\"Julie Katz\" photographer 1970s NY",
+            "\"Julie Katz\" video artist 1970s",
+            "\"Julie Katz\" Raindance Corporation",
+            "\"Julie Katz\" artist bio \"Radical Software\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7Xmv6geczHheV9yuykmo-gUZEYDO-ywJrkmTtQ5NdT-6IpnV2FruPE-O5jimQ4ctm4zrXtxWTPR-r7ZtqEX0XKqcADegMaEo31f2Fi8AR0pGX5fT4_IxZWcZsCgcZWFe4TOGWwA2Jcz_ab9sI_xA4-Y3e-UwlMTv6w7jFboqkzcnqFyw1iFUxr-vX9itF",
+              "title": "tate.org.uk",
+              "resolvedUri": "https://www.tate.org.uk/documents/2079/TM_EXH_0096_Electric_Dreams_LPG_web_AW_1.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 223,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Julie Katz was an artist and photographer active in the late 1960s and early 1970s who was associated with the early video art movement and its intersection with technology."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 580,
+                "endIndex": 854,
+                "text": "Katz's work in this period is linked to the same creative milieu as the organization Experiments in Art and Technology (E.A.T.); her collaborator Tom DeWitt was a frequent associate of E.A.T. and contributed to major projects such as the Pepsi Pavilion at Expo '70 in Osaka."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -190,6 +1775,125 @@
         "y1": 62.6,
         "x2": 33.4,
         "y2": 74.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q121842677",
+          "label": "Lynn Chapman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a midwife and academic researcher who completed a PhD at the Auckland University of Technology. This profile does not align with the provided context of an artist active in the late 1960s and early 1970s. While the names match (Lynn/L. Chapman), the occupations are entirely different."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John L. Chapman (born 1946) is a British artist known for his oil, acrylic, and gouache paintings of urban landscapes, townscapes, and transport scenes, including railways and maritime subjects. He began his career in the late 1960s and early 1970s, producing works that often evoke a sense of nostalgia for industrial and rural Britain. His art has been featured in commercial products such as Wedgwood fine bone china plates (e.g., 'The Wheelwright' and 'Life on the Farm' series). He is a well-exhibited painter with a career spanning over 50 years, and his works are frequently sold at major auction houses like Adam Partridge and Capes Dunn.",
+            "sources": [
+              "https://www.onelook.com/thesaurus/?w=John+L.+Chapman",
+              "https://www.mutualart.com/Artist/John-L--Chapman/1C21A79B6C79A731",
+              "https://www.etsy.com/uk/market/chapman_original"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Laura H. Chapman (often cited as L. Chapman) is a highly influential American art educator and author whose career began in the late 1960s. She is widely recognized for her contributions to art curriculum development and the philosophy of art education. Her books, such as 'Approaches to Art in Education' (1978) and the K-12 textbook series 'Discover Art' (first published in 1985), are foundational texts in the field. Her research focuses on how children conceptualize art and the importance of structured art programs in schools. While primarily known as an educator and scholar, her name is the most prominent 'L. Chapman' appearing in artistic and educational literature from the 1970s.",
+            "sources": [
+              "https://core.ac.uk/download/pdf/53930438.pdf",
+              "https://www.researchgate.net/publication/234764835_Reconsidering_the_Role_of_Creativity_in_Art_Education"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Linn Chapman (also referred to as Linnie Chapman) was a central staff member of the organization Experiments in Art and Technology (E.A.T.) during its most active period in the late 1960s and early 1970s. She served as the Matching Service Coordinator and Executive Secretary, playing a critical role in facilitating collaborations between artists, engineers, and scientists by pairing them based on technical needs. She was involved in the organization's administration at their loft office in New York and was a key figure in managing requests for technical assistance from thousands of members worldwide. While primarily documented as an administrative coordinator, E.A.T. staff were deeply integrated into the collaborative projects of the era.",
+            "sources": [
+              "http://www.vasulka.org/archive/Artists4/Kluver/KluverText.pdf",
+              "http://www.experimentsinartandtechnology.org/history.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"L. Chapman\" E.A.T. member list",
+            "\"L. Chapman\" artist 1960s 1970s",
+            "Who is L. Chapman artist E.A.T.?",
+            "L. Chapman artist Experiments in Art and Technology E.A.T.",
+            "\"L. Chapman\" artist collaboration science technology",
+            "\"Leslie Chapman\" artist E.A.T.",
+            "\"Linda Chapman\" artist E.A.T.",
+            "\"Linn Chapman\" artist E.A.T.",
+            "\"Lloyd Chapman\" artist E.A.T.",
+            "\"Laura Chapman\" artist E.A.T.",
+            "\"Larry Chapman\" artist E.A.T.",
+            "\"L. Chapman\" Experiments in Art and Technology",
+            "\"L. Chapman\" E.A.T. artist",
+            "\"L. Chapman\" artist 1960s 1970s E.A.T.",
+            "\"L. Chapman\" artist collaboration technology 1960s",
+            "\"Linda Chapman\" artist Pepsi Pavilion E.A.T.",
+            "\"Linda Chapman\" E.A.T. 1960s",
+            "\"L. Chapman\" artist 1960s 1970s collaborations",
+            "\"Linn Chapman\" 9 Evenings",
+            "\"Linn Chapman\" artist Experiments in Art and Technology",
+            "\"Linda Chapman\" artist member Experiments in Art and Technology",
+            "\"L. Chapman\" artist member Experiments in Art and Technology",
+            "\"Linn Chapman\" Experiments in Art and Technology E.A.T.",
+            "\"Linn Chapman\" 9 Evenings Theatre and Engineering",
+            " \"Chapman\"",
+            "\"L. Chapman\" artist collaboration science 1968 1969 1970 1971",
+            "\"L. Chapman\" E.A.T. member",
+            "\"L. Chapman\" artist E.A.T. 9 Evenings",
+            "\"Linn Chapman\" Experiments in Art and Technology staff",
+            "\"Linn Chapman\" E.A.T. manager secretary",
+            "\"Linn Chapman\" artist collaboration 1968",
+            "\"L. Chapman\" art educator E.A.T.",
+            "\"Linn Chapman\" E.A.T. staff artist",
+            "\"Linn Chapman\" 9 Evenings Theatre & Engineering",
+            "\"Linn Chapman\" New York artist 1960s",
+            "\"Linn Chapman\" artist Experiments in Art and Technology staff",
+            "\"Linn Chapman\" 9 Evenings Theatre Engineering staff",
+            "\"Chapman\" E.A.T. News",
+            "\"Chapman\" Experiments in Art and Technology Newsletter",
+            "\"Linnie Chapman\" E.A.T.",
+            "\"L. Chapman\" artist technical matching E.A.T.",
+            "\"Some More Beginnings\" E.A.T. \"Chapman\"",
+            "\"L. Chapman\" artist Experiments in Art and Technology staff member",
+            "\"L. Chapman\" E.A.T. staff member biography",
+            "\"L. Chapman\" artist technical assistance E.A.T.",
+            "\"Linn Chapman\" E.A.T. executive secretary",
+            "\"Linn Chapman\" matching service E.A.T.",
+            "Who is \"Linn Chapman\" E.A.T.?",
+            "\"L. Chapman\" Experiments in Art and Technology 1970",
+            "",
+            "\"L. Chapman\" engineer E.A.T. collaboration",
+            "\"L. Chapman\" artist member E.A.T. directory",
+            "\"Linn Chapman\" artist New York 1960s",
+            "\"Linn Chapman\" matching coordinator E.A.T.",
+            "\"L. Chapman\" artist 1960s 1970s E.A.T. collaboration",
+            "\"L. Chapman\" artist technician E.A.T.",
+            "\"Linn Chapman\" E.A.T. biography staff artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTKtnm62GFP06oi47pdqCOmB0cEi54RnNgxdNMx0ZzPBmJ_CNaVR8kZOu6WL1mbIWWOfYzzq9FdLBPFkOn4RkeDioOGlbZcGRXqb4eiv4xyqcGLEcaNjyCLdmAp-4yCqJRUJBQBAKEAKko9Bq4b8FZ5BJBAQvO",
+              "title": "vt.edu",
+              "resolvedUri": "https://www.archive.vtmag.vt.edu/winter14/VTMag-winter14.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2640,
+                "endIndex": 2927,
+                "text": "staff were deeply integrated into the collaborative projects of the era.\",\n      \"sources\": [\n        \"http://www.vasulka.org/archive/Artists4/Kluver/KluverText.pdf\",\n        \"http://www.experimentsinartandtechnology.org/history.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -202,6 +1906,43 @@
         "y1": 64.9,
         "x2": 94.7,
         "y2": 75.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q107693004",
+          "label": "Stephanie Evanitsky",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity is a choreographer, which fits the 'artist' context provided for the card. The card date of 1970 aligns perfectly with the career trajectory of this person, who was awarded a Guggenheim Fellowship in 1975."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stephanie Evanitsky is a New York-based choreographer, dancer, and artist who is widely recognized as a pioneer and founder of \"Aerial Dance.\" In 1969, she founded the Multigravitational Experiment Group (also known as the Multigravitational Group), an experimental dance company that performed off the ground using a self-standing 16-foot high aluminum scaffold. Her work, which she termed \"Aerodance,\" utilized various apparatuses such as elastic tightropes, trapezes, rope webs, clear plastic sacks, and pulleys to create the illusion of movement in zero gravity and explore the intersection of dance, sculpture, and technology. She was active throughout the late 1960s and 1970s, with notable performances at the O.K. Harris Gallery (1969) and the Museum of Modern Art (1973). In 1974, she was awarded a Guggenheim Fellowship for Choreography. Her work is documented in the Jerome Robbins Papers at the New York Public Library, where her records are archived alongside other experimental organizations from the same era, including Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.gf.org/fellows/all-fellows/stephanie-evanitsky/",
+              "https://archives.nypl.org/dan/19793",
+              "https://digitalcommons.montclair.edu/cgi/viewcontent.cgi?article=2015&context=etd",
+              "https://www.moma.org/calendar/events/2704",
+              "https://archive.org/details/dancetouringprog197475nati/page/220/mode/2up"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Stephanie Evanitsky\" Experiments in Art and Technology",
+            "Stephanie Evanitsky Multigravitational Experiment Group",
+            "\"Stephanie Evanitsky\" \"Experiments in Art and Technology\"",
+            "\"Stephanie Evanitsky\" E.A.T. membership",
+            "\"Multigravitational Experiment Group\" engineers collaboration",
+            "\"Multigravitational Experiment Group\" E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -214,6 +1955,138 @@
         "y1": 69.8,
         "x2": 33.3,
         "y2": 80.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q94753036",
+          "label": "Alice Strauss",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name matches exactly and the lifespan of the Wikidata entity (1904-1991) covers the late 1960s/1970s, this specific Wikidata individual is primarily known as the daughter-in-law of composer Richard Strauss and for managing his estate. She is not identified as an artist in her own right, which conflicts with the card's context specifying the person was an artist (visual, performance, music, etc.). Alice Strauss is a relatively common name, making a mismatch likely."
+        },
+        {
+          "qid": "Q105610730",
+          "label": "Alice Straussová",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Alice Straussová died in 1940 as a Holocaust victim, which makes it impossible for her to be the artist active in the late 1960s and early 1970s mentioned in the card's context."
+        },
+        {
+          "qid": "Q114407956",
+          "label": "Alice Meyszner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Alice Meyszner (née Strauß) died in 1945. The provided context states that the person on the card was an artist active during the late 1960s and early 1970s, which is chronologically impossible for the Wikidata individual."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Alice Strauss was a key administrative and editorial figure associated with Experiments in Art and Technology (E.A.T.), the influential organization co-founded by Billy Klüver and Robert Rauschenberg in 1966. Active in the late 1960s and early 1970s, she served as the Managing Editor for E.A.T.'s periodical, Techne (published in 1969), and the E.A.T. Directory of Artists and Engineers. Her role was central to the organization's mission of fostering collaboration between the arts and scientific/technological communities, as she helped document and coordinate projects involving hundreds of artists and technical professionals. She was also part of the extensive team that worked on the E.A.T.-designed Pepsi Pavilion for Expo '70 in Osaka, Japan, where she participated in the complex logistics and documentation of the project.",
+            "sources": [
+              "https://www.fondation-langlois.org/html/e/page.php?NumPage=2115",
+              "https://www.nypl.org/archives/finding-aids/eat",
+              "https://archives.nypl.org/mss/944"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Alice Strauss\" artist 1960s 1970s",
+            "\"Alice Strauss\" Experiments in Art and Technology",
+            "\"Alice Strauss\" artist biography",
+            "\"Alice Strauss\" artist E.A.T.",
+            "",
+            "\"Alice Strauss\" Experiments in Art and Technology E.A.T.",
+            "\"Alice Strauss\" artist New York 1960s 1970s",
+            "\"Alice Strauss\" artist E.A.T. collab",
+            "\"Alice Strauss\" Pavilion Expo '70 E.A.T.",
+            "\"Alice Strauss\" 9 Evenings: Theatre and Engineering",
+            "",
+            "\"Alice Strauss\" performer E.A.T.",
+            "\"Alice Strauss\" 9 Evenings attendee or staff",
+            "\"Alice Strauss\" artist 1960s 1970s New York",
+            "\"Alice Strauss\" E.A.T. index",
+            "\"Alice Strauss\" artist \"E.A.T.\" archive",
+            "\"Alice Strauss\" artist \"E.A.T.\" 1968 1969 1970 1971",
+            "\"Alice Strauss\" artist works gallery",
+            "",
+            "\"Alice Strauss\" artist video film 1970s",
+            "\"Alice Strauss\" artist \"E.A.T.\" New York City",
+            "\"Alice Strauss\" photographer 1960s 1970s",
+            "",
+            "\"Alice Strauss\" E.A.T. exhibition 1968",
+            "\"Alice Strauss\" artist technical collaboration",
+            "\"Alice Strauss\" artist biography 1970s",
+            "\"Alice Strauss\" E.A.T. 1968 competition winner",
+            "\"Alice Strauss\" artist 1960s 1970s \"technology\"",
+            "\"Alice Strauss\" artist engineer collaboration E.A.T.",
+            "\"Alice Strauss\" artist E.A.T. biography",
+            "",
+            "\"Alice Strauss\" artist 1970s biography",
+            "\"Alice Strauss\" artist technology late 1960s",
+            "\"Alice Strauss\" artist project E.A.T.",
+            "\"Alice Strauss\" artist 1960s associate",
+            "\"Alice Strauss\" E.A.T. staff",
+            "\"Alice Strauss\" E.A.T. membership secretary",
+            "\"Alice Strauss\" Techne E.A.T.",
+            "",
+            "\"Alice Strauss\" artist \"New York\" 1968 1969 1970 1971",
+            "",
+            "\"Alice Strauss\" artist association Experiments in Art and Technology",
+            "\"Alice Strauss\" artist New York 1966 1967 1968 1969 1970 1971",
+            "",
+            "\"Alice Strauss\" administrator E.A.T.",
+            "\"Alice Strauss\" E.A.T. project director",
+            "\"Alice Strauss\" Experiments in Art and Technology newsletter staff 1968",
+            "\"Alice Strauss\" artist New York gallery 1970s",
+            "",
+            "\"Alice Strauss\" artist collaboration 1960s",
+            " \"Alice Strauss\"",
+            "\"Alice Strauss\" E.A.T. archives New York",
+            "",
+            "\"Alice Strauss\" artist New York association",
+            "\"Alice Strauss\" E.A.T. Pavilion Osaka staff",
+            "\"Alice Strauss\" E.A.T. editor Techne",
+            "\"Alice Strauss\" artist photographer E.A.T.",
+            "\"Alice Strauss\" E.A.T. executive secretary",
+            "\"Alice Strauss\" \"Techne\" E.A.T. managing editor",
+            "\"Alice Strauss\" artist Osaka Expo '70 E.A.T.",
+            "\"Alice Strauss\" artist E.A.T. performance",
+            "\"Alice Strauss\" Experiments in Art and Technology E.A.T. \"Auftritt\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcocw6YierwyaCAjffM7euW0pg_ZeapkIqTwK7bTBo5eL-KTtjMIwZ-jnU9qhB7_vCNRIekcGn0_yyFxBmFIBT_xm7gdJo580KEvLVLkToCAPBR3m7tDhCdTXTprHPzLa_30Aa2TNC4nHsHdooLvzJWO6q48BhP0=",
+              "title": "geni.com",
+              "resolvedUri": "https://www.geni.com/people/Alice-Meyszner/6000000007935140748"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 260,
+                "endIndex": 403,
+                "text": "Active in the late 1960s and early 1970s, she served as the Managing Editor for E.A.T.'s periodical, Techne (published in 1969), and the E.A.T."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 683,
+                "endIndex": 1135,
+                "text": "She was also part of the extensive team that worked on the E.A.T.-designed Pepsi Pavilion for Expo '70 in Osaka, Japan, where she participated in the complex logistics and documentation of the project.\",\n      \"sources\": [\n        \"https://www.fondation-langlois.org/html/e/page.php?NumPage=2115\",\n        \"https://www.nypl.org/archives/finding-aids/eat\",\n        \"https://archives.nypl.org/mss/944\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -226,6 +2099,75 @@
         "y1": 73.1,
         "x2": 57.5,
         "y2": 90.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28167",
+          "label": "Oliver Selfridge",
+          "description": "",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The card is dated November 1970, which aligns perfectly with the period when Experiments in Art and Technology (E.A.T.) was active. Oliver Selfridge, a pioneer in artificial intelligence, was a known collaborator with artists within the E.A.T. framework during the late 1960s and early 1970s, making it highly likely these records refer to the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2651957",
+          "label": "Oliver Selfridge",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Oliver Selfridge, the artificial intelligence researcher described in the Wikidata entry, was a well-known collaborator with artists through the Experiments in Art and Technology (E.A.T.) group during the late 1960s and early 1970s. The date on the card (1970) fits perfectly with this period of interdisciplinary activity."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Oliver Gordon Selfridge (1926–2008) was a mathematician and computer scientist who is primarily recognized as a pioneer in Artificial Intelligence (AI) and the 'Father of Machine Perception.' Although a scientist by profession, his historical identity in the art world stems from his active participation in the 'Art and Technology' movement of the late 1960s and early 1970s. During this period, he was a key associate of the prominent art theorist and artist Jack Burnham. Selfridge worked with Burnham at the MIT Center for Advanced Visual Studies (CAVS), where they explored the intersection of cybernetics, computer systems, and art. Their collaboration resulted in the influential essay 'The Aesthetics of Intelligent Systems' (1970), which investigated how computer logic and AI could inform artistic processes and systems aesthetics. Selfridge’s conceptual work on the 'Pandemonium' architecture—a model of parallel processing involving 'demons' that recognize patterns—was frequently referenced in early digital and systems-based art discourse. Additionally, Selfridge had a direct creative output as the author of several children's books, including 'All About Signals,' 'The Fingerprint,' and 'Trouble with Ticks.' He was a graduate of MIT under Norbert Wiener and spent a significant portion of his career at the MIT Lincoln Laboratory, Project MAC, and Bolt, Beranek and Newman (BBN).",
+            "sources": [
+              "https://www.theguardian.com/technology/2008/dec/16/oliver-selfridge-obituary",
+              "https://en.wikipedia.org/wiki/Oliver_Selfridge",
+              "https://www.research.manchester.ac.uk/portal/en/publications/jack-burnham-redux-the-obsolete-in-reverse(5629f123-455b-4220-8041-356c9d799049).html",
+              "https://doi.org/10.7551/mitpress/7473.001.0001",
+              "https://www.nytimes.com/2008/12/04/business/04selfridge.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Oliver Selfridge\" art 1960s 1970s",
+            "Oliver Selfridge artist Experiments in Art and Technology",
+            "Oliver Selfridge AI artist",
+            "\"Oliver Selfridge\" 9 Evenings Theater and Engineering",
+            "\"Oliver Selfridge\" E.A.T. artist engineer",
+            "\"Oliver Selfridge\" artist bio 1960s 1970s",
+            "\"Oliver Selfridge\" Experiments in Art and Technology",
+            "\"Oliver Selfridge\" association with Robert Rauschenberg or Billy Klüver",
+            "\"Oliver Selfridge\" artist \"late 1960s\"",
+            "\"Oliver Selfridge\" children's books list",
+            "\"Oliver Selfridge\" Software exhibition 1970 catalog",
+            "\"Oliver Selfridge\" E.A.T. member list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xSufcexhffIBvggh7qqJt16fMLwrBgrV4vtAZP2gwvJLc7ZXhYkiF5c58cK-ZU6y--p-TyP1PHuMC_MAOUaA-ZyFWSCr4tlLsqb6T0b4ZhTyAASBaQexcXMIF0VVOk20jYAhs0SbOstMSF4hg6G6DfUk7ZAl0eI0c-bsw1kGJZsuC5iu9MWVx3OMfzYW_nzFA5jyoVRaMBThs2lOghI=",
+              "title": "medium.com",
+              "resolvedUri": "https://pemey.medium.com/whos-that-kid-laughing-with-high-socks-in-the-middle-of-summer-7801a34feeef"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 243,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Oliver Gordon Selfridge (1926–2008) was a mathematician and computer scientist who is primarily recognized as a pioneer in Artificial Intelligence (AI) and the 'Father of Machine Perception.'"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -238,6 +2180,167 @@
         "y1": 75.8,
         "x2": 83.2,
         "y2": 85.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q123902098",
+          "label": "Hera",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q123902098 refers to the artist known as 'Hera', whose birth name is documented as Betty Voelker. She is an American sculptor born in 1940, making her active during the 1970 date mentioned on the card. The biographical source 'American Women Artists' confirms the identity of the person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Elizabeth \"Betty\" Voelker (born 1931) was an internationally recognized painter and colorist originally from Pittsburgh, Pennsylvania. She earned her Bachelor of Fine Arts in 1953 from the Carnegie Institute of Technology (now Carnegie Mellon University), where she was a student of Samuel Rosenberg. In 1958, she moved to San Francisco, California. Her artistic practice focused on abstract nature paintings and formal abstracted collages. From 1972 to 1987, she served as a lecturer for various California museums and the University of California. Her work has been acquired by major institutions, including the National Museum of American Art in Washington D.C., the San Francisco Museum of Modern Art, and the Carnegie Institute Art Museum. She received prestigious awards and residencies throughout her career, including three grants from the Pollock-Krasner Foundation, a Rockefeller Foundation Grant for the Bellagio Study and Conference Center in Italy, and residencies at the American Academy in Rome and the Djerassi Foundation.",
+            "sources": [
+              "https://historicpittsburgh.org/islandora/object/pitt:MSS.0611",
+              "https://heinzhistorycenter.wordpress.com/2012/03/09/elizabeth-betty-voelker-papers-and-photographs/",
+              "https://www.sbma.net/sites/default/files/Library-Archive-Finding-Aid.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Betty Voelker is a conceptual artist, born Betty Calvert in New Orleans, who was active under the name Betty Voelker until approximately 1977, after which she began working under the name Hera. In the 1970s, her work transitioned into the exploration of \"tent forms\" and environmental constructions. Notable works created during this period include \"Sweet Skirt\" (1977), a large taffeta structure containing objects related to womanhood, and \"Death Singer,\" both of which were featured in the \"Locations\" exhibition at the Rose Art Museum at Brandeis University in 1977. Her work is often associated with feminist art collectives and social/political documentation, such as the West East Bag (W.E.B.) and the Political Art Documentation/Distribution (PAD/D). Her artistic transition and focus on structural, conceptual environments align with the collaborative interests of the Experiments in Art and Technology (E.A.T.) organization during the late 1960s and 1970s.",
+            "sources": [
+              "https://www.scribd.com/document/398711319/The-Tent-Book-by-E-M-Hatton-1979-Book-PDF",
+              "https://www.getty.edu/vow/gettyFindingAid?id=3839217823",
+              "https://www.moma.org/research/padd-archive/index",
+              "https://sinclaire.libraries.rutgers.edu/finding-aids/iwaf.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Betty Voelker\" E.A.T. artist",
+            "\"Betty Voelker\" Experiments in Art and Technology",
+            "\"Elizabeth Voelker\" artist E.A.T.",
+            "artist \"Betty Voelker\"",
+            "\"Elizabeth Voelker\" artist 1960s 1970s",
+            "\"Betty Voelker\" tent forms artist",
+            "\"Hera\" artist Betty Voelker E.A.T.",
+            "\"Betty Voelker\" Hera artist",
+            "\"Betty Voelker\" artist \"Hera\" E.A.T.",
+            "\"Betty Voelker\" E.A.T. member",
+            "\"Elizabeth Voelker\" E.A.T. member",
+            "\"Hera\" artist E.A.T.",
+            " \"Betty Voelker\"",
+            "\"Betty Voelker\" \"E.A.T.\" archive"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc1FPOuzPvHDj6deQrTx4I6puL-VDtTgDIz6D10HMEEj5sYphYWZL49IWpHbqn-bvFd4iHRYx6OpdA728-vfULHDnPzqiV6VVM2zKZgpeAuslmjkdYl59tvRoK0cKs_DhHroZmfudPgeonIg2qCstJ1l6lH1VS3QgyePmErA==",
+              "title": "historicpittsburgh.org",
+              "resolvedUri": "https://historicpittsburgh.org/islandora/object/pitt:US-QQS-mss611"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj4UvT7nDlMKjsrjPZCvr8TwlyI8lGh8StG_BnQoHrTrVH7kR0u8HKDaQtbVFyi8ZTAcIO-19WW3Ji7Kt3GA2caw1WGXHP4PO_g3ca5XqX9VYXIEZTlcQ6DMaguGWgGB0FYNnQluCDU8pwAofoDnfZmldAFVUwToCkaJgfVSiGOFs5Cq5-WXL8jobCzrXDw9Wg9nthLqHCWQ==",
+              "title": "wordpress.com",
+              "resolvedUri": "https://heinzhistorycenter.wordpress.com/2012/03/09/elizabeth-voelker-papers-and-photographs/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExniWsvLCvClaMsEZ2LwjQIvMZufPlYBv2z_M07bVTvifSeVJCI6gGe-55pxTDZVSfMcY0rLR6zVkYdsoAMeLF3AxzGOlec2xOKDYRi1W7Ufzh4cj5_RMTx1OzdF8j8k4x5v0l6b5OT1f2is_T1Odx7NxsqyJs5j0L1QYaOiA6zxvtikl2SBjelQ==",
+              "title": "rutgers.edu",
+              "resolvedUri": "https://archives.libraries.rutgers.edu/repositories/11/archival_objects/374025"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbDUUrEDLat3SugllmLs7PINgd_Hk3uCgsLbWqeUU4E4E3e-V5ZALU1r8n553L3KdyE6eiylpKIU06AvUisd4SwY8ipYCu388GxBuokm2OjBg0mAiCPn8zJlUXReblMBhls9yNu71M71C6bnEeKeejUZZO6UJiHkB-iWb8rxyM9g==",
+              "title": "wordpress.com",
+              "resolvedUri": "https://herasayssheshouldbethestarnow.wordpress.com/lets-eat-grandma/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK3RC3rRJoMSIc9Ueu24adj86I8D7JaIHFb525Ia9-Sl9VOh3_tGjVKyRFI2n8O4BWS_8d-RpZDs3XjAxHWSJOWmpCHjNFPKKOV9Ct52yW8ezstr-nYiMNzcC-JYa05MwycTwGTifpEOSq26e8wEuPvw3PVQ8LG87RSHqHVoF1A5NZY9wtftB6-zS9wHBfyjWayYOyUGWNvWDc24kLoc7P",
+              "title": "llnl.gov",
+              "resolvedUri": "https://www.llnl.gov/community-education/employee-retirement-resources/in-memoriam/betty-jean-voelker"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPtF2DAdK7ewhFWZY7FjAFjJiEq9YyeSioDu0-ei9ZH853k4VHS4Gr69ToOy4HtE77ax3wx3BIAR3PQP4ocbio4ZiJbm66fnp9z4YqXQ14oJ7_WH4oZxzMqVsLxnq1FtlgDS3Wr3xWrrvQpXi0w41iI-PFESNscI7KA6I=",
+              "title": "euclidlibrary.org",
+              "resolvedUri": "https://cdn.euclidlibrary.org/cdn/esj/1972/19720916/19720916.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 186,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Elizabeth \\\"Betty\\\" Voelker (born 1931) was an internationally recognized painter and colorist originally from Pittsburgh, Pennsylvania."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 187,
+                "endIndex": 352,
+                "text": "She earned her Bachelor of Fine Arts in 1953 from the Carnegie Institute of Technology (now Carnegie Mellon University), where she was a student of Samuel Rosenberg."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 353,
+                "endIndex": 401,
+                "text": "In 1958, she moved to San Francisco, California."
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 402,
+                "endIndex": 492,
+                "text": "Her artistic practice focused on abstract nature paintings and formal abstracted collages."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 493,
+                "endIndex": 601,
+                "text": "From 1972 to 1987, she served as a lecturer for various California museums and the University of California."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 602,
+                "endIndex": 796,
+                "text": "Her work has been acquired by major institutions, including the National Museum of American Art in Washington D.C., the San Francisco Museum of Modern Art, and the Carnegie Institute Art Museum."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2389,
+                "endIndex": 2803,
+                "text": "organization during the late 1960s and 1970s.\",\n      \"sources\": [\n        \"https://www.scribd.com/document/398711319/The-Tent-Book-by-E-M-Hatton-1979-Book-PDF\",\n        \"https://www.getty.edu/vow/gettyFindingAid?id=3839217823\",\n        \"https://www.moma.org/research/padd-archive/index\",\n        \"https://sinclaire.libraries.rutgers.edu/finding-aids/iwaf.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2,
+                3,
+                4,
+                0,
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -250,6 +2353,73 @@
         "y1": 78.4,
         "x2": 19.5,
         "y2": 85.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Eric Orr (1939–1998) was an American artist primarily active in Venice, California, from the mid-1960s until his death. He was a central figure in the Southern California Light and Space movement and was known for his conceptual, perceptual-based installations, sculptures, and performances. Orr frequently collaborated with other artists and engineers, aligning with the goals of Experiments in Art and Technology (E.A.T.). Between 1967 and 1971, he was part of the group of Californian artists who joined the E.A.T. initiative at the Los Angeles County Museum of Art (LACMA), where artists were paired with scientists and engineers to explore psychological and physical phenomena. His work often utilized unconventional and scientific materials, including dry ice, gas, fire, water, gold, volcanic ash, and even his own blood. In 1966, he co-founded the 'Rooms Company' with Judy Chicago and Lloyd Hamrol, through which they created the seminal work 'Feather Room' (1966). His own notable works from the late 1960s and early 1970s include 'Zero Mass' (1969), an immersive installation designed to create a total visual void, and 'Sound Tunnel' (1969). He later participated in the 'C Project,' a collaboration focused on holography that involved other major artists such as James Turrell and Larry Bell.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Eric_Orr",
+              "https://www.getty.edu/research/collections/highlights/eat/index.html",
+              "https://unsw.edu.au/research/niea/experimental-arts-conference",
+              "https://www.chapman.edu/wilkinson/art/escalette-collection/featured-exhibitions/light-and-space.aspx",
+              "https://www.getty.edu/research/collections/highlights/c_project/index.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Eric Orr\" Experiments in Art and Technology",
+            "\"Orr\" artist active 1960s 1970s",
+            "\"Chris Orr\" Experiments in Art and Technology",
+            "\"John Orr\" artist E.A.T.",
+            "artist \"Mr. Orr\" Experiments in Art and Technology",
+            "\"Eric Orr\" \"Experiments in Art and Technology\"",
+            "\"Experiments in Art and Technology\" \"Orr\"",
+            "\"Chris Orr\" \"Experiments in Art and Technology\"",
+            "\"Mr. Orr\" artist collaboration technology",
+            "\"E.A.T.\" \"Orr\" artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbCPUJWYeTc1nWDq6Gla-HhT3LKI8PU7VCDx5hkeZmBe8gRnQIErDedM6oAvThZhVeu3kn4YpDi6IbhZBhalFBxUF9KwEjA5lkzpUl3CeULHrXELymK4k_z-L0CObDabBJDSYC4iwSDB99dvtPdgrUc8JJuUWl4s_BYzU7WwV06YqgXQWrjZ4MeyypCI9p7aavS8qTjfwcmlCHqTmDgYqIcJZiHfFdJzMjSD4Pvg9DnK5lfpD5-fxkxw==",
+              "title": "unsw.edu.au",
+              "resolvedUri": "https://blogs.unsw.edu.au/niea-experimentalartsconference/files/2011/08/TERRY-SMITH-Experimentality-Theories-and-Practices.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECjRw5B2lAANRI4QlFwuli2MbKN0f8QWJY0iTkrvj3J81dkWaoJx58Efed_IHVt4hSlQD5eDGDOrGYZfU5lHtmpp2M1wssVkub16y0MuZcSJQ5bT_SoZWJHhQAw7gvwUlsFUPxgGgg7FgWm8EO1TEk7_DzmCuaZ1R8jbkQQgYhLsGNwaKitWyjkkU8-8o=",
+              "title": "aut.ac.nz",
+              "resolvedUri": "https://materialthinking.aut.ac.nz/sites/default/files/papers/SMT_V8_P01_Smith.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 344,
+                "endIndex": 476,
+                "text": "Orr frequently collaborated with other artists and engineers, aligning with the goals of Experiments in Art and Technology (E.A.T.)."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 477,
+                "endIndex": 569,
+                "text": "Between 1967 and 1971, he was part of the group of Californian artists who joined the E.A.T."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -262,6 +2432,84 @@
         "y1": 83.1,
         "x2": 73.6,
         "y2": 91.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q22518",
+          "label": "Peck Morrison",
+          "description": "",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card name 'Lennis Peck' and the Wikibase entity 'Peck Morrison' do not appear to refer to the same person. While they share the name 'Peck', Peck Morrison was a well-documented jazz bassist (John Peck Morrison), and there is no indication that he used the name 'Lennis'. 'Lennis Peck' is likely a distinct individual."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1064899",
+          "label": "Charles Horton Peck",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Lennis Peck' and 'Charles Horton Peck' do not match. Furthermore, the Wikidata entity describes a mycologist and botanist who died in 1917, whereas the artist from the card was active in the late 1960s and early 1970s. These are two different people from different centuries and fields."
+        },
+        {
+          "qid": "Q23724003",
+          "label": "Peck Yen Wei",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Peck Yen Wei, a Malaysian badminton player born in 1996. The individual on the card was active as an artist in the late 1960s or early 1970s, making a match chronologically impossible. Furthermore, the names 'Lennis' and 'Yen Wei' are distinct."
+        },
+        {
+          "qid": "Q96072702",
+          "label": "Peck",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card specifies the name 'Lennis Peck', whereas the Wikidata entity only contains the surname 'Peck'. Additionally, the Wikidata entity's primary identifying feature is being the spouse of Rachel Auden, and there is no biographical information linking Lennis Peck to Rachel Auden or confirming he is the individual referred to in the Wikidata stub."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lennis Peck artist Experiments in Art and Technology (E.A.T.)",
+            "Lennis Peck biography artist",
+            "\"Lennis Peck\" E.A.T.",
+            " \"Lennis Peck\"",
+            " \"Peck\"",
+            " \"Lennis\"",
+            "\"Lennis Peck\" bibliography art",
+            "\"Peck\" E.A.T. foundation langlois",
+            "\"Dennis Peck\" artist E.A.T.",
+            "\"Lennis\" E.A.T. archive",
+            "\"Dennis Peck\" Experiments in Art and Technology",
+            "",
+            "\"Dennis Peck\" engineer Bell Labs",
+            "\"Dennis Peck\" E.A.T. artist",
+            "\"Lennis Peck\" artist New York",
+            "\"Lennis\" artist Experiments in Art and Technology",
+            "\"Peck\"",
+            "\"Dennis Peck\" E.A.T. engineer artist",
+            "\"Lennis\"",
+            "\"Lennis Peck\" E.A.T. newsletter",
+            "",
+            "\"Glennis Peck\" artist",
+            "\"Glennis Peck\" E.A.T.",
+            "\"Lennis\" E.A.T. artist New York",
+            "\"Lennis Peck\" book",
+            "",
+            "\"Peck\" artist 1960s 1970s NY",
+            "\"Dennis Peck\" engineer E.A.T. Bell Labs",
+            "\"Lennis Peck\" Gregory Peck family",
+            "\"Lennis Peck\" art tech",
+            "",
+            "\"Lennis\" and \"Peck\" and \"artist\"",
+            "\"Dennis Peck\" engineer Experiments in Art and Technology",
+            "\"Lennis Peck\" Gregory Peck sister mother",
+            "inauthor:\"Lennis Peck\"",
+            "\"Lennis Peck\" art history"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -274,6 +2522,72 @@
         "y1": 85.6,
         "x2": 29.5,
         "y2": 93.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26381",
+          "label": "Joan Webster Price",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are an exact match, and both records are associated with the Experiments in Art and Technology (E.A.T.) Technical Services Program. The date on the card (1970) falls within the active period of the program, and the Wikibase entity specifically refers to the edge-notched cards from which the card entry is derived."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q63090712",
+          "label": "Joan Webster Price",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are an exact match. The Wikidata entity describes a female printmaker born in 1931, which places her at a plausible age (39) during the 1970 date recorded on the card. Furthermore, the Wikidata entity lists works in major institutions like MoMA and the Whitney, identifying her as a professional artist of the period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joan Webster Price (born 1931) is an American abstract artist, sculptor, printmaker, and educator known for her work in geometric abstraction and abstract spatial dynamics. Born in Camden, New Jersey, and also known as Joan Diane Webster, she has been a long-standing figure in the New York art scene, serving as a Professor Emerita at the City College of New York (CCNY). Her artistic practice often features bold lines, geometric forms, and vibrant colors, and she is a member of the American Abstract Artists (AAA). Price's work is held in the permanent collections of prestigious institutions including the Whitney Museum of American Art, the Museum of Modern Art (MoMA), the Smithsonian American Art Museum, the Phillips Collection, and the McNay Art Museum. She was active during the late 1960s and 1970s as both an artist and an educator, notably influencing other artists such as Ellen Lee Klein. Her interest in the intersection of art and technology is reflected in her involvement with 'Leonardo' (the journal of the International Society for the Arts, Sciences and Technology), where she and Herbert Price are frequently listed as donors and supporters. Notable works include 'Tower Fantasy' (1987) and 'To Mars and Beyond' (1997).",
+            "sources": [
+              "https://americanart.si.edu/artist/joan-webster-price-3887",
+              "https://www.whitney.org/artists/1045",
+              "https://www.moma.org/artists/37397",
+              "https://www.phillipscollection.org/collection/tower-fantasy-american-abstract-artists-50th-anniversary-print-portfolio",
+              "https://www.cuny.edu/about/administration/offices/registrar/bulletins/ccny-graduate-bulletin-2021-2022.pdf",
+              "https://www.researchgate.net/publication/269502691_Screens_-_The_Place_of_the_Image_in_Digital_Culture"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Joan Webster Price artist",
+            "\"Joan Webster Price\" sculpture artist biography",
+            "Joan Webster Price artist 1960s 1970s",
+            "\"Joan Webster Price\" E.A.T. Experiments in Art and Technology",
+            "\"Joan Webster Price\" sculpture 1960s 1970s",
+            "\"Joan Webster Price\" teacher CCNY",
+            "\"Joan Webster Price\" E.A.T. artist",
+            "\"Joan Webster Price\" sculpture 1968 1969 1970"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsgCJELIbX3FRXbnQ7aoge2QgroyahPjkHK-S14p9wm85IslPq00poA4h3TOmLd1XxJqa3e-7iLS3dww03QS9Mw-l0yoPAausaCPV8CN2K3tWmw0zT2DEmYGUbzXm0f25BhKe3iHiIF2zXLF1d4pX3OFg=",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/interactives/modern_women/artists/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1216,
+                "endIndex": 1891,
+                "text": "Notable works include 'Tower Fantasy' (1987) and 'To Mars and Beyond' (1997).\",\n      \"sources\": [\n        \"https://americanart.si.edu/artist/joan-webster-price-3887\",\n        \"https://www.whitney.org/artists/1045\",\n        \"https://www.moma.org/artists/37397\",\n        \"https://www.phillipscollection.org/collection/tower-fantasy-american-abstract-artists-50th-anniversary-print-portfolio\",\n        \"https://www.cuny.edu/about/administration/offices/registrar/bulletins/ccny-graduate-bulletin-2021-2022.pdf\",\n        \"https://www.researchgate.net/publication/269502691_Screens_-_The_Place_of_the_Image_in_Digital_Culture\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

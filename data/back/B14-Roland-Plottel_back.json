@@ -8,6 +8,144 @@
         "y1": 11.4,
         "x2": 24.8,
         "y2": 23.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7294",
+          "label": "Johannes Brahms",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Johannes Brahms, a famous 19th-century composer who died in 1897. The card entry describes an artist named Jerry Marks who was active in the late 1960s and early 1970s. While Brahms used the pseudonym 'G.W. Marks', the temporal difference makes a match impossible."
+        },
+        {
+          "qid": "Q310073",
+          "label": "Mark Henry",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Jerry Marks' and 'Mark Henry' are distinct. Furthermore, the Wikidata entity was born in 1971, which makes it impossible for him to have been an active artist in the late 1960s and early 1970s as indicated by the card context. Finally, their occupations (athlete/wrestler vs artist) do not align."
+        },
+        {
+          "qid": "Q359506",
+          "label": "Mark Gertler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the Wikidata entry, Mark Gertler, died in 1939, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card's context. Furthermore, the names (Jerry Marks vs. Mark Gertler) are significantly different."
+        },
+        {
+          "qid": "Q4119217",
+          "label": "Jonathan M. Marks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Jonathan M. Marks) is a well-known biological anthropologist born in 1955. The card refers to an artist ('Jerry Marks') active in the late 1960s and early 1970s. Jonathan Marks would have been a young teenager during that period, and his career path is strictly academic/scientific rather than artistic. Furthermore, 'Jerry' is not a typical diminutive for 'Jonathan'."
+        },
+        {
+          "qid": "Q6771380",
+          "label": "Marks",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Jerry Marks' matches the Wikidata entity name. The Wikidata entity is a composer and record producer, which fits the artist profile provided in the context. Additionally, the career of this individual aligns with the late 1960s/1970s timeframe."
+        },
+        {
+          "qid": "Q23035502",
+          "label": "Elizabeth Nesta Marks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist named Jerry Marks, while the Wikidata entity refers to Elizabeth Nesta Marks, a prominent Australian scientist (entomologist) known by the nickname Pat. The names and professional fields do not align."
+        },
+        {
+          "qid": "Q23809228",
+          "label": "Debora Marks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Jerry Marks vs. Debora Marks). Furthermore, the Wikidata entity describes a scientist (biologist/bioinformatician) whose career and awards are in the field of structural biology, which does not align with the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q67378226",
+          "label": "Jörg Marks",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names Jerry and Jörg are different, and the Wikidata entity is described as a researcher at Heidelberg University, which does not match the artistic background provided for the card entry."
+        },
+        {
+          "qid": "Q102282314",
+          "label": "Marks R. Nester",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different: the card refers to 'Jerry Marks', whereas the Wikidata entity is 'Marks R. Nester'. Furthermore, the Wikidata entity is associated with academic research (doctoral studies at the University of Queensland under a mathematician), which does not align with the context of 'Jerry Marks' being an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q106828272",
+          "label": "Marks Moore",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Jerry Marks', where Marks is the surname. The Wikidata entity is 'Marks Moore', where Moore is the surname. Furthermore, the Wikidata entity is a judge, which does not align with the context that the individual on the card was an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jerry Marks is an artist and pioneer in 3-D media and stereoscopic imaging whose career began in the late 1960s. He is closely associated with the organization Experiments in Art and Technology (E.A.T.), founded by Billy Klüver and Robert Rauschenberg. Marks was interviewed by E.A.T. staff Julie Martin and Claudio Badal on June 12, 1968, as part of the organization's efforts to document collaborations between artists and engineers. His work is characterized by the intersection of art and science, specializing in 3-D silk screen printmaking, virtual reality, and perception-based laboratory art. Among his notable public works is a 3-D mural project for the 28th Street subway station in New York City (referenced as \"7 waves 4 twenty eight\"), which utilizes the lenticular properties of glass blocks to create an illusion of movement for passing riders. Over his career, he has also worked on 3-D effects for music videos (including for the Rolling Stones), theatre sets, and exhibits for the New York Hall of Science.",
+            "sources": [
+              "https://www.getty.edu/research/tools/findingaids/eat_records_m1.html",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf7v19n989/entire_text/",
+              "https://illustrationconcepts.wordpress.com/2011/03/03/jerry-marks-class-visit-in-3-d/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jerry Marks\" E.A.T. artist 1960s 1970s",
+            "\"Jerry Marks\" Pepsi Pavilion Expo 70",
+            "\"Jerry Marks\" artist biography 1960s 1970s",
+            "artist \"Jerry Marks\" Experiments in Art and Technology",
+            "\"Jerry Marks\" Julie Martin Claudio Badal interview 1968",
+            "\"Jerry Marks\" artist \"Pepsi Pavilion\"",
+            "\"Jerry Marks\" artist \"3-D\" E.A.T.",
+            "\"Jerry Marks\" mural \"28th Street\" subway"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2vzBBlRSxhwY6twuvYK5fo2Tzkg71hSUpKAJeVkrjEPSSAqXdb34sIyL9SciKblD9CMKJapClD3TU70zVvajDA1qAedJO0N-CpKFupK3GNEwqcIsyFJahIHzwbydgP4TEKILCk-LwWm1geJOs4gkl0YjKzwHr-gsPFp2R",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6dOrNoMJWUBmV14n8YtyXwWoM_YVvmlSl7ydqdLR_CXmoZ9SfTtli6J2Hx4YwMAXC392Fg3IzAQqbriAfeNXiSdHrNgNiq-GXAPibixoTwZ3lCVrglK6zFtOu7nIRM4gy8lKPDy3H9dBjO-58DWAXL33hmA==",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/dsc/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRmC2sbC0ZVwKqU_E_D69DA3TXGWmslpyQlfY7BbsB32e3Lx60o8a60ywOn_QnFNBLJs6HpvJHX_CGTEkUFVzcafj81T4x7qNbUVfvlqFoEbOodNAaCd7k8bbP17R-U7-tuhBiZgm6GD-GFC1HsgpTrLXyJ5FcxWJcjFT5b9kvtLYzL9h74mbHE5X3aZgk",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/download/americanindianpa00king/americanindianpa00king_djvu.txt"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 304,
+                "endIndex": 335,
+                "text": "Marks was interviewed by E.A.T."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 913,
+                "endIndex": 1403,
+                "text": "Over his career, he has also worked on 3-D effects for music videos (including for the Rolling Stones), theatre sets, and exhibits for the New York Hall of Science.\",\n      \"sources\": [\n        \"https://www.getty.edu/research/tools/findingaids/eat_records_m1.html\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf7v19n989/entire_text/\",\n        \"https://illustrationconcepts.wordpress.com/2011/03/03/jerry-marks-class-visit-in-3-d/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +157,136 @@
         "y1": 24.3,
         "x2": 19.8,
         "y2": 29.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q895886",
+          "label": "Boyce McDaniel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'L. Boyce', where Boyce appears to be the surname. The Wikidata entity is Boyce McDaniel, where Boyce is the given name. Furthermore, the card refers to an artist, whereas Boyce McDaniel was a prominent nuclear physicist and Manhattan Project participant, which does not align with the provided context."
+        },
+        {
+          "qid": "Q2058704",
+          "label": "Paul Anderson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (L. Boyce vs. Paul Anderson). Furthermore, the Wikidata entity was born in 1978 and began working in 2005, making it impossible for them to be the artist from the late 1960s/early 1970s described in the card context."
+        },
+        {
+          "qid": "Q4090472",
+          "label": "Martin Boyce",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Martin Boyce was born in 1967, which makes it impossible for him to have been an active artist in the late 1960s or early 1970s as required by the card context. Furthermore, the card specifies the initial 'L.', while the Wikidata entity is 'Martin'."
+        },
+        {
+          "qid": "Q4952252",
+          "label": "Boyce F. Martin Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not align: the card entry likely refers to someone with the surname Boyce (initial L), whereas the Wikidata entity is a judge whose first name is Boyce and surname is Martin. Furthermore, the Wikidata entity's occupation as a judge and lawyer does not match the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q11845318",
+          "label": "Tommy Boyce",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The initial 'L' on the card entry ('L. Boyce') does not align with the Wikidata entity's names (Sidney Thomas Boyce, known as Tommy Boyce). Additionally, Tommy Boyce was a mainstream pop songwriter and singer, while the 'LOFT' metadata on the card often suggests an association with the New York downtown art scene of that era."
+        },
+        {
+          "qid": "Q21506389",
+          "label": "John Shaw Boyce",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The initials do not match ('L' vs 'J'). Furthermore, the Wikidata entity is a botanist who died in 1971, while the card context specifies an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q64399332",
+          "label": "Boyce Makhosonke Maneli",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Boyce Makhosonke Maneli is a contemporary South African politician, which does not align with the card's context of an artist active in the late 1960s and 1970s. Additionally, the initial 'L' on the card does not match the name 'Boyce Makhosonke Maneli'."
+        },
+        {
+          "qid": "Q75339624",
+          "label": "Boyce Combe",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Boyce Combe died in 1939, which is decades before the artist referred to in the card context (active late 1960s/early 1970s). Furthermore, 'Boyce' is the given name for the Wikidata entity, while 'Boyce' appears to be the surname for the person on the card."
+        },
+        {
+          "qid": "Q75713659",
+          "label": "Boyce Schulze",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Boyce Schulze died in 1964, which is before the late 1960s/early 1970s period when the artist on the card was known to be active. Furthermore, in the Wikidata record, Boyce is a first name, while the card 'L. Boyce' implies Boyce is the surname."
+        },
+        {
+          "qid": "Q84010130",
+          "label": "Boyce E Griffith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not align correctly; the Wikidata entity has 'Boyce' as a first name and 'Griffith' as a family name, whereas the card entry specifies 'Boyce' as the surname. Additionally, the Wikidata entity is identified as a researcher, which does not match the artistic context required for the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Larry Boyce (1946–1992) was a prominent decorative artist and painter active in the late 1960s and early 1970s. Originally from Detroit, he studied art at Oakland University in the late 1960s, where he was known for experimental work and painting on canvas. He gained widespread fame in the 1970s and 1980s as a champion of Victorian-style stenciled friezes and murals, famously traveling over 250,000 miles by bicycle with his art supplies to decorate historic buildings across the United States. His work is preserved in several archival collections, most notably the Jack Eyerly collection on Pacific Northwest Art at Willamette University, which contains records of his work from 1971–1975. This same archival collection includes materials related to the Experiments in Art and Technology (E.A.T.) organization and their 1970 'Symphony Ball,' suggesting a potential association with E.A.T. during his time in the Portland art scene.",
+            "sources": [
+              "https://www.collectorsweekly.com/articles/the-paint-pedaler/",
+              "https://archiveswest.orbiscascade.org/ark:80444/xv23573",
+              "https://good-times-rollin.blogspot.com/2023/01/hotel-congress-and-happy-new-year.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "David Boyce was a young artist active in the late 1960s who was associated with Jasper Johns, a foundational figure in the New York art scene and a close collaborator of Robert Rauschenberg (co-founder of E.A.T.). In 1968, David Boyce was commissioned by Johns to design the layout for an exhibition catalogue at a time when Johns was involved with major institutional projects, including the 'The Machine as Seen at the End of the Mechanical Age' exhibition at MoMA (1968). This exhibition was closely tied to the emergence of E.A.T., and Boyce's role in Johns' circle places him within the specific artist-technology collaborative milieu of that era.",
+            "sources": [
+              "https://www.moma.org/momaorg/shared/pdfs/docs/learn/archives/transcript_christie.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Linda Boyce\" artist E.A.T.",
+            "\"L. Boyce\" E.A.T. artist",
+            "\"Leonard Boyce\" artist E.A.T.",
+            "\"L. Boyce\" art 1960s 1970s",
+            "\"Lawrence Boyce\" artist E.A.T.",
+            "\"L. Boyce\" 9 evenings art technology",
+            "\"L. Boyce\" Experiments in Art and Technology E.A.T.",
+            "\"Larry Boyce\" artist E.A.T.",
+            "\"Lawrence Boyce\" artist 1960s 1970s",
+            "\"Leslie Boyce\" artist E.A.T.",
+            "\"L. Boyce\" artist 1968 1969 1970",
+            "\"Larry Boyce\" E.A.T. artist",
+            "\"Some More Beginnings\" exhibition Boyce",
+            "\"The Machine as Seen at the End of the Mechanical Age\" Boyce",
+            "\"Linda Boyce\" E.A.T. artist",
+            "\"L. Boyce\" Experiments in Art and Technology directory",
+            "\"L. Boyce\" E.A.T. member list",
+            "\"Leslie Boyce\" E.A.T. artist",
+            "\"Lawrence Boyce\" E.A.T. artist",
+            "\"Larry Boyce\" artist E.A.T.",
+            "\"Linda Boyce\" artist E.A.T.",
+            "\"David Boyce\" artist E.A.T.",
+            "\"Leslie Boyce\" artist E.A.T.",
+            "\"Lawrence Boyce\" artist E.A.T.",
+            "\"L. Boyce\" E.A.T. archive",
+            "",
+            "\"Leonard Boyce\" E.A.T. member",
+            "\"L. Boyce\" artist MoMA 1968",
+            "\"David Boyce\" Jasper Johns \"E.A.T.\"",
+            "\"Lawrence Boyce\" E.A.T. member",
+            "\"Larry Boyce\" Portland artist 1970s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -30,6 +298,166 @@
         "y1": 33.6,
         "x2": 37.9,
         "y2": 38.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q24387",
+          "label": "Hans Haacke",
+          "description": "conceptual political artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Hans Haacke' matches exactly between the card entry and the Wikibase entity. Hans Haacke is a prominent conceptual artist who was highly active in the late 1960s and early 1970s, fitting the provided context perfectly. The Wikibase entity's association with the E.A.T. project further confirms the match, as Haacke was part of that artistic circle."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q657647",
+          "label": "Hans Haacke",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Hans Haacke is an exact match. The Wikidata entity describes a world-renowned conceptual and visual artist whose career began in 1965, fitting the required timeframe of the late 1960s and early 1970s perfectly."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Hans Haacke (born August 12, 1936, in Cologne, Germany) is a highly influential conceptual artist and a pioneer of 'institutional critique.' Living and working in New York City since 1965, he became prominent in the late 1960s and early 1970s for art that explored physical, biological, and eventually social systems. His early works, influenced by his time with the German Zero group, utilized elemental materials like water and air to demonstrate real-time processes, such as in 'Condensation Cube' (1963–65). By the late 1960s, his focus shifted toward exposing the political and economic structures of art institutions. Notable works from this period include 'MoMA Poll' (1970) and 'Shapolsky et al. Manhattan Real Estate Holdings, A Real-Time Social System, as of May 1, 1971,' the latter of which led to the cancellation of his solo exhibition at the Guggenheim Museum. Haacke was also associated with the Experiments in Art and Technology (E.A.T.) organization, having expressed interest in collaborating with the group and producing works like 'Ice Table' that aligned with their mission of merging art with science and technology. He served as a professor at the Cooper Union in New York from 1967 to 2002.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Hans_Haacke",
+              "https://www.paulacoopergallery.com/artists/hans-haacke",
+              "https://www.belvedere.at/en/hans-haacke-0",
+              "https://smak.be/en/artists/hans-haacke",
+              "https://news.artnet.com/art-world/sensing-the-future-eat-getty-2554767"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Hans Haacke artist biography 1960s 1970s",
+            "Hans Haacke artistic style and works 1960s 1970s",
+            "Hans Haacke Experiments in Art and Technology E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0LXEfJnTgBNSl_4oW4jV2Cg86rnkWzNX6mCbJtDi4iiPZ1kh_ygLQVTwm7qx3d3G40q-opaYKIu9D9CuqK9PHI7Whc2jJ2sF8ZfAWopThHbnjxaNYNUG7wbZ-AGNNV5BUK1iHp6XA94Mjp-XwnhUggA==",
+              "title": "paulacoopergallery.com",
+              "resolvedUri": "https://www.paulacoopergallery.com/artists/hans-haacke"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTjitrRsf-HSdsTdxcJ8yIdNEyqsN48EZakRHr66zPH04ZAepEYZbTkINBvBhiAWtMQSrk7kjve4F2cdK7Tj69dO66L6zG6OaW4dd2uVK_R3QFlwNjLZoL7-QMjiT10U_PQ_51",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Hans_Haacke"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy1b46j8YA8BXox886CKweTUSVWikTrRsDXL55zFDBPgBNW3h6oBJnkTZfTGXhwXx5KOasyNvBgTa4zqDAURgGVSYfca0SgVlsUrx9D4KTIaR8XuDVq3ufkbOHP1qzgxPOGQ==",
+              "title": "belvedere.at",
+              "resolvedUri": "https://www.belvedere.at/en/hans-haacke"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdlcRnfeM-w5X1e1kzh3bZlrq_4PDYUdNbxW806EJD6VsW74sjWTPZTnhobv6pud1XZWhk3UXLvJmHpR69jRbySPPKa-raonKNIKaFAemVQCfvOR5q_AexHzhAYGvLCI-FmgwY",
+              "title": "dreamideamachine.com",
+              "resolvedUri": "http://www.dreamideamachine.com/?p=102036"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhYmOz8UrRoLzx3IQtdrs-v6RIyMRxPC6mtgwpXuzlLQP9qUkY3TY5Y-a4oItDF_CcBKEsG4g4lpY5GkQq0v-VP5D9O7Uzt3sQFiXiTaHdR0CQuHOKws28YJfihzbTQD8thkf1Zft0mFGprMhBEDl7co2QzvOILcNBYeLD-ZJJbbdwB8ZyoIOqkDw0",
+              "title": "google.com",
+              "resolvedUri": "https://artsandculture.google.com/story/hans-haacke-7-works/VwUhzpTAZoGtiA?hl=en"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Xp3OaOrZvmyWdpZqZn3YT8apJuilxE0j5tW-xHd_aZzdfZMjSiLufHLHI2iiw__6eyITIL5wJJ6JrEhE0561Aigj0pR_a2RriO09CUQdxaWkpkDqhFrYefufD3yzh-Du",
+              "title": "smak.be",
+              "resolvedUri": "https://smak.be/en/artists/hans-haacke"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFwCq9_fK743VdFIz4Ni7JBfm-bruNXWjtAH5JdisXEdgfENT0zw4nhD0CstGsiIVe0BaV_VmxESV99zw0fbeZrl2douY5mnzwTV1CGtoVqpZtURKwhdMGvCFqb8C1mlB-dqfwL8s-g4Qi9itG6jY=",
+              "title": "iesa.edu",
+              "resolvedUri": "https://www.iesa.edu/paris/news-events/brazina-maria"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPBjHKkdXvQnsaShdqli5hMT2S5z6Jx0YlfmJ1cPG2BrMj8Jxy9BFP-4OQDhUM0AVRrZbljyfm34gStJb9j2iwUiU3nXknl5-Pa9ujTKiABuQCsJuSncDoewt4GvZHjfJ0ts821CXOCCcUGGbJLZqjnXulmwjha3ZtKguhUdc0J-H48lJvYZjXNs2ezE4S",
+              "title": "artnet.com",
+              "resolvedUri": "https://news.artnet.com/art-world/experiments-art-technology-eat-getty-show-2555785"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcWswMKpt7a1ugLt30NZcBDZXOplsmTxJcbbyRMQdB5IeBTiXUbnttp1TJIgrL3BTqtTZFnk2IF0s4gb_3K4sscDugTPjZbodPe8b9MmDmiFnOwm4DLhN2_wBmn99ACBFzRcs-3GkDF1rYms7_85VXCiLy7FAweL0QVA3YgUt6c0M0-w==",
+              "title": "sabinebreitwieser.net",
+              "resolvedUri": "https://sabinebreitwieser.net/e-a-t-experiments-in-art-and-technology-3/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 190,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Hans Haacke (born August 12, 1936, in Cologne, Germany) is a highly influential conceptual artist and a pioneer of 'institutional critique.'"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 191,
+                "endIndex": 367,
+                "text": "Living and working in New York City since 1965, he became prominent in the late 1960s and early 1970s for art that explored physical, biological, and eventually social systems."
+              },
+              "groundingChunkIndices": [
+                2,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 368,
+                "endIndex": 563,
+                "text": "His early works, influenced by his time with the German Zero group, utilized elemental materials like water and air to demonstrate real-time processes, such as in 'Condensation Cube' (1963–65)."
+              },
+              "groundingChunkIndices": [
+                1,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 564,
+                "endIndex": 675,
+                "text": "By the late 1960s, his focus shifted toward exposing the political and economic structures of art institutions."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 928,
+                "endIndex": 1006,
+                "text": "Haacke was also associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                7,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1192,
+                "endIndex": 1644,
+                "text": "He served as a professor at the Cooper Union in New York from 1967 to 2002.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Hans_Haacke\",\n        \"https://www.paulacoopergallery.com/artists/hans-haacke\",\n        \"https://www.belvedere.at/en/hans-haacke-0\",\n        \"https://smak.be/en/artists/hans-haacke\",\n        \"https://news.artnet.com/art-world/sensing-the-future-eat-getty-2554767\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

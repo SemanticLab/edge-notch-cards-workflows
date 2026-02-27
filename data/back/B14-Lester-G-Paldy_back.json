@@ -11,6 +11,43 @@
         "y1": 8.4,
         "x2": 48.4,
         "y2": 17.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q464258",
+          "label": "Johann Ludwig Hektor von Isolani",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a 17th-century military general who lived from 1586 to 1640, which is completely inconsistent with the card context of an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lucio Isolani (often referred to as Licio Isolani, 1931–2015) was an Italian-born sculptor and educator based in New York. He was a pioneer in the intersection of art, science, and technology. He became a significant figure in the 1960s art scene, joining the Experiments in Art and Technology (E.A.T.) group founded by Robert Rauschenberg and Billy Klüver. Isolani was known for his innovative use of modern industrial materials, particularly plastics, fiberglass, polyester resins, and metallic pigments. His work explored optical effects, transparency, and the physical properties of polymers. He held a long-time faculty position as an Associate Professor at the Pratt Institute, where he also conducted research into new materials starting in 1964. His artistic career included participation in major exhibitions such as 'Volterra 73' in Italy and performances at the Guggenheim and Whitney Museums. His works are held in the collections of the Smithsonian Design Museum (Cooper Hewitt), the Whitney Museum of American Art, and the Newark Museum. Following his death, the 'Licio Isolani Study Archive' was established at the Pratt Institute to preserve his notebooks and cross-disciplinary research.",
+            "sources": [
+              "https://www.pratt.edu/liberal-arts-and-sciences/math-and-science/projects/licio-isolani-study-archive/",
+              "https://www.pratt.edu/news/light-color-and-science-licio-isolani-sculptures-from-the-1960s/",
+              "https://www.villa-palagione.org/licio.htm",
+              "https://riccardovecchio.com/about/",
+              "https://wetheitalians.com/index.php/default/strange-road-materials-exhibition-avant-garde-work-licio-isolani"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lucio Isolani artist",
+            "Lucio Isolani Experiments in Art and Technology E.A.T.",
+            "Lucio Isolani bio biography",
+            "",
+            "\"Lucio Isolani\" artist",
+            "\"Lucio Isolani\" Pratt Institute"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

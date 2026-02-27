@@ -12,5 +12,143 @@
   },
   "professionalIdentityExpertise": {
     "jobTitleOccupation": "Film maker & designer"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q6914872",
+      "label": "Morton Heilig",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records refer to Morton Heilig. The card lists his employer as Sensorama Incorporated, and Morton Heilig is historically known as the inventor of the Sensorama. His occupations as a film maker, designer, cinematographer, and director also align perfectly."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1093450",
+      "label": "Sensorama",
+      "description": "early virtual reality system",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The Wikidata entity Q1093450 refers specifically to the 'Sensorama' as a virtual reality system and invention, whereas the card lists 'Sensorama Incorporated' as a professional organization/employer. Although they share the same name and are both directly associated with Morton Heilig, the Wikidata entry describes a product/device rather than a business entity or organization."
+    },
+    {
+      "qid": "Q15847264",
+      "label": "Sensorama",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q15847264 refers to a German musical duo, whereas the organization on the card is 'Sensorama Incorporated,' which refers to the American company associated with Morton Heilig's invention of the Sensorama simulator. These are different entities in different industries and countries."
+    },
+    {
+      "qid": "Q57506628",
+      "label": "Q57506628",
+      "description": "performing arts production",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q57506628 refers to a performing arts production from 2009 created by Lawrence Malstaf and others. The employer on the card, 'Sensorama Incorporated,' was the company founded by Morton Heilig in the 1950s/1960s to develop his immersive multi-sensory simulator technology. While they share the name, they are distinct entities from different time periods and industries."
+    },
+    {
+      "qid": "Q1475639",
+      "label": "Sensorama",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q1475639 is a Wikimedia disambiguation page, not a record for a specific organization. While it contains the name 'Sensorama', it is a navigational tool rather than the legal entity 'Sensorama Incorporated' mentioned on the card."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Morton Leonard Heilig (1926–1997) was a pioneering American filmmaker, designer, and inventor, widely regarded as the \"Father of Virtual Reality.\" He was active in New York City during the late 1950s, 1960s, and 1970s. In 1963, he founded Sensorama, Inc. (also referred to as Sensorama Incorporated) in New York to develop and market his multi-sensory simulator, the Sensorama, which he patented in 1962. This device offered an immersive \"experience theater\" through 3D visuals, stereo sound, wind, vibrations, and scents. He also patented the Telesphere Mask (1960), the first head-mounted display, and the Experience Theater (1969), a multi-person sensory booth. As a filmmaker and designer, he directed award-winning works such as \"Assembly Line\" (1961) and the feature film \"Once\" (1974). He is historically associated with the Experiments in Art and Technology (E.A.T.) movement, a collaboration between artists and engineers that gained prominence in the late 1960s, and his work is frequently cited alongside E.A.T. figures like Billy Klüver and Stan VanDerBeek for its integration of technology and sensory art.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Morton_Heilig",
+          "https://www.hmharchive.com/morton-heilig-biography/",
+          "http://www.medienkunstnetz.de/works/sensorama/",
+          "https://computer-timeline.com/timeline/morton-heilig/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Morton Heilig biography and career",
+        "Morton Heilig Sensorama Incorporated filmmaker designer New York",
+        "Morton Heilig Experiments in Art and Technology E.A.T.",
+        "",
+        "\"Morton Heilig\" \"Experiments in Art and Technology\"",
+        "\"Sensorama Incorporated\" Morton Heilig",
+        "\"Morton Heilig\" New York \"film maker\" designer",
+        "\"Sensorama Inc\" Morton Heilig",
+        "\"Sensorama Incorporated\" company Morton Heilig",
+        "\"Morton Heilig\" Experiments in Art and Technology member"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF28XdK6Zomh5z-v70jQ962bSVzkIjBW9Dc9eVdAOL0TAFWATshZhmWe_9E9-hDFbrL0D0jxJApi73WiimGOtme__crrx2Vpf7CePf_w7CUhxJuXR5pB6NjjWr0dZ7fug1yfGAAd_3gI0k49SJUz8TGP-AG",
+          "title": "computer-timeline.com",
+          "resolvedUri": "http://www.computer-timeline.com/timeline/morton-heilig/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOhDmEozCi8wu24wehF_Zjqn9Y7zRkzfaYI-Wu6ViOcmBElDkYsYNlvq6GKSUtwo7PtBJ6bpfCYDTFQQU6gFii_TfKO0fhNg3TIwC78tERKEgihhptryNJrFfAAanXiBg506vGTH1zhzvyLJuzq61Jvs5Xu7SHQr1ImaR-mVydIHQ-89poX1YzdonoOYIcKKAAYr7mTtVJey3Kin4cW8EZhEuPxpmEhyDwpC0QgZdEwno=",
+          "title": "inairspace.com",
+          "resolvedUri": "https://inairspace.com/blogs/learn-with-inair/who-made-augmented-reality-the-unsung-architects-of-a-digital-revolution"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKs_HxxgHYXI5cqGw9WVAr_HVNg4t4r3PMem4WDPcPtfB30-hSCOehYOlQH8mZAK2KZND-1xyEW6oQOO8aXwY5HazQ5ee_NwxGDwFww4peqs2_VZTojZ7kroZWNcO2a4cYnpL5yj3dGGM=",
+          "title": "medienkunstnetz.de",
+          "resolvedUri": "http://www.medienkunstnetz.de/works/sensorama/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk1W-QHrdmPfYL5NL7MWOBwK4lL9QQFiFou7F7yPlX1Wm-5UghCSSaF5hxnCqIZeiom6z8L9KJt4dXDKSAC69kri78zUUYmJ6ttXVjELTgBv_lz7Z26U6-dLNdYDFy4bRdS_CYMS-AyXbeUT5bildDdKf7XviOO-OfLo6gLEEE_FVGMseUQLWHTRA45cfyLlHhz7hznodXErwYjGUHCPXGx_3LMi7kEgRTWLtE",
+          "title": "skillbox.ru",
+          "resolvedUri": "https://skillbox.ru/media/code/istoriya-vr-ot-nelovkikh-popytok-do-otslezhivaniya-zhestov-i-polnogo-pogruzheniya/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwR0Dh08mzFvKewuoxuXeFVuZO6uLeun_dYRNuW-nckajHQZiq923ZJdEEnxx8ToSN75djvaAbWpeuk-j7_eFLLBvolFux8v7dCoNTF1FKrXJpMOg4oLi4NeGQg0C2-3juYZw2SHLKoBFUSDpy1vfe4Nb78W4NKryF0G18bWlPCJqWgccYv6WTk_3HMrHgbFQefq1DP_aom9hD",
+          "title": "computer-timeline.com",
+          "resolvedUri": "http://www.computer-timeline.com/wp-content/uploads/2022/08/SaturdayEveningPostForSENSORAMA.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH79DpnPqIkT1NG0ukhHN3qXHtgHcHuVI6gLwayMAmJp-JwXblOtjQENHGovYFij3BCwBBW9eLMiHOtqrDQRjxWWUbrqBn1gy5OveyxkgpkShBLg2gye2GRcSagVMhUmo0qJnN4RXUkrOoYrLcIN4fXtrs35qoeqEvhRpsUdCeCSJQeRHHLMUN23QIh-vcy3mcqLu9DtUBxYj-gnsTOlytws67olJycAS3wCZmH",
+          "title": "inairspace.com",
+          "resolvedUri": "https://inairspace.com/blogs/learn-with-inair/first-vr-headset-the-complete-history-and-future-of-virtual-reality"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpg2bWA8PAGEOT6htzggDCMEpd9ZsO2H-mL8Q5nSXEC4NA5fuT-l3z-2pkz625GntnQdlhyqxT2bQa8RsRJRs4LdHUlRQCYRUgC4jtohMxqu4O8ykE76k8r2BCq7VjeyP1euexVdWU2w==",
+          "title": "binance.com",
+          "resolvedUri": "https://www.binance.com/en/square/post/666548"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 272,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Morton Leonard Heilig (1926–1997) was a pioneering American filmmaker, designer, and inventor, widely regarded as the \\\"Father of Virtual Reality.\\\" He was active in New York City during the late 1950s, 1960s, and 1970s."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 459,
+            "endIndex": 578,
+            "text": "This device offered an immersive \\\"experience theater\\\" through 3D visuals, stereo sound, wind, vibrations, and scents."
+          },
+          "groundingChunkIndices": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    }
   }
 }

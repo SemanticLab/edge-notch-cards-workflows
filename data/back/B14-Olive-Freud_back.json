@@ -11,6 +11,119 @@
         "y1": 11.7,
         "x2": 46.8,
         "y2": 27.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25067",
+          "label": "Agnes Denes",
+          "description": "American artist (1931–)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Agnes Denes' matches exactly. The Wikibase entity describes a well-known conceptual artist born in 1931, fitting the active timeframe of the late 1960s and 1970s. Furthermore, the Wikibase entity explicitly links to the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which corresponds to the source of the physical index card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q394503",
+          "label": "Agnes Denes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Agnes Denes matches exactly. The Wikidata entity describes a highly influential conceptual and land artist active during the late 1960s and early 1970s, which aligns perfectly with the timeframe and artist context provided for the index card from the Experiments in Art and Technology (E.A.T.) program."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born May 31, 1931, in Budapest, Hungary) is a pioneering Hungarian-born American conceptual, ecological, and land artist based in New York City. She rose to international prominence in the late 1960s and 1970s for her multi-disciplinary approach, which integrates science, philosophy, mathematics, linguistics, and ecology. Denes is widely regarded as a founding figure of the environmental art movement, notably for her work 'Rice/Tree/Burial' (1968), recognized as one of the first site-specific ecological performance pieces. During the early 1970s, she was a founding member of the A.I.R. Gallery, the first artist-run cooperative gallery for women in the United States. Her work from this period includes the 'Philosophical Drawings' (1969–80), the 'Pyramid Series' (1970–), and 'Map Projections' (1973–79). Denes has a history of collaborating with technological and scientific institutions; she participated in the landmark 'Software' exhibition at the Jewish Museum in 1970, where she worked with the computer scientist group R.E.S.I.S.T.O.R.S. to produce computational experiments. Her association with technology-driven art is further evidenced by her attendance at AT&T Bell Laboratories—the institution where the Experiments in Art and Technology (E.A.T.) organization was rooted—where she experimented with X-ray technology, computer animation, and early digital matrices. She is perhaps best known for 'Wheatfield — A Confrontation' (1982), a monumental two-acre field of wheat she planted on a landfill in lower Manhattan near Wall Street and the World Trade Center.",
+            "sources": [
+              "https://theshed.org/program/6-agnes-denes-absolutes-and-intermediates",
+              "http://www.agnesdenesstudio.com/biography.html",
+              "https://en.wikipedia.org/wiki/Agnes_Denes",
+              "https://www.theartstory.org/artist/denes-agnes/",
+              "https://arshake.com/en/agnes-denes-data-analysis-abstraction/",
+              "https://www.airgallery.org/agnes-denes"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Agnes Denes career history 1960s 1970s",
+            "Agnes Denes artist biography late 1960s 1970s E.A.T.",
+            "Agnes Denes Experiments in Art and Technology association",
+            "Agnes Denes member of Experiments in Art and Technology E.A.T.",
+            "\"Agnes Denes\" AT&T Bell Laboratories E.A.T.",
+            "\"Agnes Denes\" E.A.T. association"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNonQTYMnUfXJ7cywwi6SUOnoSkMgS6ypBQOKakgTy3KWgyBbhyvkd49RSYfadujFvj_OW-w5yyJ4kXtzTwKozQZrKVARktivnopxERdPJFbuiUVcs8auy9AbsuwpAvjOomrtL",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Agnes_Denes"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkyeLU7p7YJuB1bbPGaztYaHrkLvusyoV4CUxO7dfhtFVSKxaHNSMKtWSoEoQ1fWdSnuITX7pgXEUq9bIFvfAnX8BMbkcaubQJZqxDFp52RWAmcuJh2zukSnYo",
+              "title": "agnesdenesstudio.com",
+              "resolvedUri": "http://www.agnesdenesstudio.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-c5yGzrRLETwc9_KGpr7d3CSB59Gi3xx1njFYXqVLbyN7J1hES0JZ72nJN0PRGfzB6H7wcrBenrTvM9F1YmpvLFLNkoqP9SxEqOzHItBbD2PrEyP2hp243Hcl80U-6of7vzM3kvR70xSmiQidnh1EKlDnFUCfeb1CXlPdQNOZKnt_NY3zyeckUiWS8GeGi8wMMw==",
+              "title": "gagosian.com",
+              "resolvedUri": "https://gagosian.com/quarterly/2024/09/09/essay-artists-confronting-the-climate-crisis/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwZgb_e6xrEIFi3UeYhbCkhM26INy7vBHKcRcNIMXUtJFktDZwRS4yvWWF_t6PcPQoNo4fMyTebBc38LdPg1t1LGRMwVCQONhc6BhB95h6f4IZNFNIkmJd5zpxZBv9dZMyyKfpI-iOsQcj",
+              "title": "theartstory.org",
+              "resolvedUri": "https://www.theartstory.org/artist/denes-agnes/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 207,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (born May 31, 1931, in Budapest, Hungary) is a pioneering Hungarian-born American conceptual, ecological, and land artist based in New York City."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 208,
+                "endIndex": 386,
+                "text": "She rose to international prominence in the late 1960s and 1970s for her multi-disciplinary approach, which integrates science, philosophy, mathematics, linguistics, and ecology."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 387,
+                "endIndex": 591,
+                "text": "Denes is widely regarded as a founding figure of the environmental art movement, notably for her work 'Rice/Tree/Burial' (1968), recognized as one of the first site-specific ecological performance pieces."
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1459,
+                "endIndex": 2103,
+                "text": "She is perhaps best known for 'Wheatfield — A Confrontation' (1982), a monumental two-acre field of wheat she planted on a landfill in lower Manhattan near Wall Street and the World Trade Center.\",\n      \"sources\": [\n        \"https://theshed.org/program/6-agnes-denes-absolutes-and-intermediates\",\n        \"http://www.agnesdenesstudio.com/biography.html\",\n        \"https://en.wikipedia.org/wiki/Agnes_Denes\",\n        \"https://www.theartstory.org/artist/denes-agnes/\",\n        \"https://arshake.com/en/agnes-denes-data-analysis-abstraction/\",\n        \"https://www.airgallery.org/agnes-denes\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

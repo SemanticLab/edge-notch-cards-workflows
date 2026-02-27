@@ -9,6 +9,116 @@
         "y1": 8.5,
         "x2": 60.2,
         "y2": 16.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q215905",
+          "label": "Itzhak Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The given names 'Marilyn' and 'Itzhak' are completely different, and the Wikidata entity is for a well-known male violinist, whereas the card name is typically female."
+        },
+        {
+          "qid": "Q2077508",
+          "label": "Peter Perlmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Marilyn Perlman' from the card entry does not match the name 'Peter Perlmann' from the Wikidata entity. Furthermore, the card entry describes a female artist, while the Wikidata entity refers to a male immunologist and professor."
+        },
+        {
+          "qid": "Q2884770",
+          "label": "Baron Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry name 'Marilyn Perlman' and the Wikidata entity name 'Baron Perlman' are distinct, as are their genders (Marilyn is female, Baron is male) and occupations (artist vs. psychologist)."
+        },
+        {
+          "qid": "Q7053311",
+          "label": "Samuel Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is for a male named Samuel Perlman who died in 1958, whereas the index card refers to a woman named Marilyn Perlman who was active as an artist in the late 1960s or 1970s."
+        },
+        {
+          "qid": "Q18155509",
+          "label": "Steven Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Marilyn vs. Steven), and the gender and occupation (artist vs. botanist) are also distinct."
+        },
+        {
+          "qid": "Q78830977",
+          "label": "Robert L. Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marilyn Perlman' and 'Robert L. Perlman' are entirely different, representing different genders and individuals."
+        },
+        {
+          "qid": "Q118914228",
+          "label": "Tsevi Hirsh ben Barukh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different. Furthermore, the Wikidata entity died in 1882, which is incompatible with the person on the card being active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q118926154",
+          "label": "Micael Perlman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marilyn' and 'Micael' are distinct. Additionally, the name Marilyn is typically female, whereas the Wikidata entry for Micael Perlman is identified as male."
+        },
+        {
+          "qid": "Q133721895",
+          "label": "Q133721895",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity lists a date of birth in 1888. While possible, it is unlikely that a person born in 1888 would be named Marilyn (a name that peaked much later) and be the primary artistic contact described in the context of the late 1960s and early 1970s, as they would be in their 80s at the time."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Marilyn Perlman (1925–2010) was an accomplished artist based in New York, active during the late 1960s, 1970s, and into the 1980s. Her work was included in the Art Lending Service (ALS) and Art Advisory Service (AAS) at the Museum of Modern Art (MoMA) between 1973 and 1974. These services were designed to promote contemporary artists by renting and selling their works to individuals and corporations. She had a notable exhibition titled \"Continuous Heavens\" which ran from June 29 to August 18, 1985. Evidence of her career is preserved in the archives of the prominent art critic Nicolas Calas, who was a significant figure in the New York art scene and closely involved with the Experiments in Art and Technology (E.A.T.) organization. Perlman lived in New York City and later in Upper Montclair, New Jersey, and passed away on November 23, 2010, at the age of 85.",
+            "sources": [
+              "https://www.moma.org/research-and-learning/archives/finding-aids/ALS_AAS.html",
+              "https://www.legacy.com/obituaries/nytimes/obituary.aspx?n=marilyn-perlman&pid=146788320",
+              "http://www.norlib.gr/sites/default/files/Nicolas_Elena_Calas_Archive_Catalogue.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Marilyn Perlman\"",
+            "\"Marilyn Perlman\" artist 1960s 1970s",
+            "\"Marilyn Perlman\" Experiments in Art and Technology E.A.T.",
+            "\"Marilyn Perlman\" E.A.T. member",
+            "\"Marilyn Perlman\" artist MoMA Art Lending Service",
+            "\"Marilyn Perlman\" E.A.T. artist",
+            "\"Marilyn Perlman\" 1960s artist E.A.T.",
+            "",
+            "\"Marilyn Perlman\" \"Art Lending Service\" MoMA",
+            "\"Marilyn Perlman\" artist tech art",
+            "\"Marilyn Perlman\" New York artist 1960s 1970s",
+            "\"Marilyn Perlman\" E.A.T. bibliography",
+            "",
+            "\"Marilyn Perlman\" Brooklyn Museum 1968 E.A.T.",
+            "\"Marilyn Perlman\" artist E.A.T. project",
+            "\"Marilyn Perlman\" artist \"E.A.T.\" 1968",
+            "\"Marilyn Perlman\" artist \"E.A.T.\" 1969",
+            "\"Marilyn Perlman\" artist tech",
+            "\"Marilyn Perlman\" Experiments in Art and Technology E.A.T. Getty",
+            "\"Marilyn Perlman\" MoMA artist 1970s biography",
+            "\"Marilyn Perlman\" artist \"E.A.T.\" newsletter",
+            "\"Marilyn Perlman\" \"E.A.T.\" participant",
+            "\"Marilyn Perlman\" artist \"Continuous Heavens\"",
+            "\"Marilyn Perlman\" artist E.A.T. member",
+            "\"Marilyn Perlman\" \"E.A.T.\" 1968 participants"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -20,6 +130,55 @@
         "y1": 13.8,
         "x2": 52.8,
         "y2": 26.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Vera\" Experiments in Art and Technology artist",
+            "\"Vera\" E.A.T. member list",
+            "\"Ferigold\" artist",
+            "\"Vera Simons\" Experiments in Art and Technology",
+            "\"Vera\" artist Experiments in Art and Technology 1960s 1970s",
+            "\"Vera\" and \"Experiments in Art and Technology\" participant list",
+            "\"Vera Frenkel\" Experiments in Art and Technology",
+            "\"Vera Feingold\" artist 1960s 1970s",
+            "\"Vera\" AND \"Ferigold\"",
+            "",
+            "\"Vera Feingold\" artist",
+            "\"Vera\" artist \"Experiments in Art and Technology\" participant",
+            "\"Vera\" artist \"9 Evenings\" Manhattan",
+            "\"Vera\" artist \"Pepsi Pavilion\" Osaka",
+            "\"Vera\" artist \"E.A.T.\" member",
+            "",
+            "\"Vera\" artist Experiments in Art and Technology Osaka Pavilion",
+            "\"Vera\" artist E.A.T. 1968 1969 1970 1971 1972",
+            "\"Vera\" + \"Feingold\" E.A.T. artist",
+            "\"Vera\" E.A.T. Directory of Members 1967",
+            " \"Experiments in Art and Technology\" \"Vera\"",
+            "\"Vera\" artist \"Experiments in Art and Technology\" 1960s",
+            "\"Vera Simons\" E.A.T. connection",
+            " \"E.A.T.\" \"Vera\"",
+            "\"Vera Feingold\" E.A.T.",
+            "\"Vera Simons\" Ferigold",
+            "\"Vera\" artist \"Ferigold\"",
+            "",
+            "",
+            "\"Vera\" artist \"Osaka\" Expo 1970 E.A.T.",
+            "\"Experiments in Art and Technology\" \"Vera\" member list",
+            "\"E.A.T.\" participant \"Vera\" -Molnar -Simons -Frenkel -Williams",
+            "\"Vera\" + \"Feingold\" Experiments in Art and Technology member",
+            "\"Vera\" \"Feingold\" artist technology",
+            "\"Vera Feingold\" E.A.T. 1960s",
+            "\"Experiments in Art and Technology\" \"Fer*\" artist member",
+            "\"E.A.T.\" directory \"Fer*\"",
+            "\"E.A.T.\" artist \"Vera F*\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -31,6 +190,134 @@
         "y1": 23.2,
         "x2": 46.8,
         "y2": 34.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q272579",
+          "label": "Glynis Johns",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different. The index card refers to 'Cliff Glynn' (likely male), while the Wikidata entity is 'Glynis Johns' (female). There is no phonetic or structural similarity between the names that would suggest they are the same person."
+        },
+        {
+          "qid": "Q459678",
+          "label": "Glynnis O'Connor",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Cliff Glynn' from the card does not match 'Glynnis O'Connor' from the Wikidata record. 'Cliff' is typically a male name, while Glynnis O'Connor is female. Furthermore, Glynnis O'Connor was born in 1955/1956, making her only 12 or 13 years old at the time of the card entry in early 1969, and her career is listed as starting in 1973."
+        },
+        {
+          "qid": "Q1532526",
+          "label": "Glynn Isaac",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Cliff Glynn' on the card does not match the Wikidata entity 'Glynn Isaac'. In the Wikidata entry, Glynn is the first name and Isaac is the surname, whereas 'Cliff' is not mentioned at all. Furthermore, the Wikidata entity is a prominent archaeologist and academic, whereas the card entry is identified as an artist."
+        },
+        {
+          "qid": "Q1532531",
+          "label": "Glynn Turman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different. The card entry refers to 'Cliff Glynn', while the Wikidata entity is 'Glynn Turman'. Although Glynn Turman was active as an actor during the late 1960s, there is no evidence linking him to the name Cliff Glynn, as 'Glynn' is his given name and 'Turman' is his surname."
+        },
+        {
+          "qid": "Q3109371",
+          "label": "Glynn Speeckaert",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The birth year of Glynn Speeckaert (1964) makes it impossible for him to be the artist active in 1969 mentioned on the card, as he would have been only five years old. Furthermore, 'Glynn' is the first name of the Wikidata entity but appears to be the surname of 'Cliff Glynn' on the card."
+        },
+        {
+          "qid": "Q5572967",
+          "label": "Glynn Edwards",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different. On the card, 'Cliff Glynn' identifies 'Glynn' as the surname, whereas the Wikidata entity 'Glynn Edwards' uses 'Glynn' as a given name and has a different surname ('Edwards')."
+        },
+        {
+          "qid": "Q5572983",
+          "label": "Glynn Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card record is for a person named Cliff Glynn (where Glynn is the surname), while the Wikidata record is for Glynn Williams (where Glynn is the first name). There is no evidence suggesting they are the same individual."
+        },
+        {
+          "qid": "Q5572988",
+          "label": "Glynn Snodin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Glynn Snodin) was born in 1960, making him only 9 years old at the time of the 1969 card entry. Furthermore, his occupation is a professional association football player, which does not match the artist context provided for Cliff Glynn."
+        },
+        {
+          "qid": "Q7526983",
+          "label": "Sir Glynne Welby, 3rd Baronet",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Sir Glynne Welby) died in 1875, which makes it impossible for him to be the person referenced in the 1969 card entry. Furthermore, the Wikidata entity was a 19th-century politician, while the card entry refers to an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q23762488",
+          "label": "Glynn Watson Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Glynn Watson Jr.) was born in 1997, which makes it chronologically impossible for them to be the subject of a record dated 1969. Additionally, the Wikidata entity is a professional basketball player, whereas the card entry refers to an artist active in the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Clifford Hallett Glynn, Jr. (known as Cliff Glynn) was a New York-based artist, sculptor, and designer active during the mid-20th century. Born on July 8, 1916, in Leominster, Massachusetts, he later settled in Manhattan where he pursued a multi-faceted career. In 1958, he served as the first vice president of the Artists Guild of New York and worked as a freelance designer specializing in promotion. By the late 1960s and early 1970s, Glynn was recognized as a sculptor and artist, working with found materials, metal, clay, and wood, as well as producing paintings and drawings in media such as watercolors and pastels. His work was reviewed in the mid-1960s by art critics like Michael Benedikt and appeared in contexts alongside trends in modern French painting. In 1974, he registered a copyright for 'Cliff Glynn corporate graphics,' reflecting his ongoing work in design. He was married to Eunice Geraldine Blum until the early 1970s and later married Marilyn Fish in 1983. He continued his artistic practice until his death on August 9, 1996, in New York City. While his name is frequently associated with late 1960s technology and engineering due to the prominence of NASA flight directors Cliff Charlesworth and Glynn Lunney during the Apollo missions, the historical artist Cliff Glynn was a distinct figure in the New York art and design community of that era.",
+            "sources": [
+              "https://ladyheydecker-heritage.com/clifford-hallett-glynn-jr/",
+              "https://archive.org/details/sim_art-direction_1958-11_10_8/page/n9/mode/2up",
+              "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00877",
+              "https://archive.org/stream/catalogofcopyrig2821libr/catalogofcopyrig2821libr_djvu.txt"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Cliff Glynn\" artist",
+            "\"Cliff Glynn\" E.A.T. artist",
+            "\"Clifford Glynn\" artist E.A.T.",
+            "\"Cliff Glynn\" E.A.T.",
+            "\"Cliff Glynn\" artist sculptor 1960s 1970s",
+            "\"Cliff Glynn\" corporate graphics designer",
+            "",
+            "\"Cliff Glynn\" artist sculptor metal clay wood",
+            "\"Cliff Glynn\" artist New York 1960s",
+            "\"Cliff Glynn\" E.A.T. member list",
+            "",
+            "\"Cliff Glynn\" 9 Evenings",
+            "\"Cliff Glynn\" E.A.T. artist engineer",
+            "\"Clifford Glynn\" sculptor NYC 1970s",
+            "",
+            "\"Cliff Glynn\" \"Trends in French Painting\" exhibition",
+            "\"Cliff Glynn\" \"Art Direction\" magazine designer",
+            "\"Cliff Glynn\" sculpture 1960s NY"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlWLiZ7QXK-Pb4yXJt-PVE6QPxo4ZRmNNgQNy0ApQUQcIMJ32P1BQjeJ1R69ERLwCXc8kNqssF8oqIAgmnClj5cV5hvNljPZptvrJK43AqFE8NpN8YyKtJED6CquzbgPuHnLhcJsWm8cisIvn-xo2aAin7v-B_g3l6-0oKbQXLDuPWxNXwOmcUZkqQtFFDDSOTxX9HVU0b6Bpl6w==",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/sim_art-direction_1958-11_10_8/sim_art-direction_1958-11_10_8_djvu.txt"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 312,
+                "endIndex": 453,
+                "text": "In 1958, he served as the first vice president of the Artists Guild of New York and worked as a freelance designer specializing in promotion."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

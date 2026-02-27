@@ -18,5 +18,56 @@
       "foam",
       "elastomers"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q34371219",
+      "label": "Nathan Levine",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The Wikidata entity describes a lawyer who died in 1972, whereas the card data describes a professional with technical expertise in chemistry, plastics, and aerospace engineering. While the names are identical, the professional fields are highly divergent and unlikely to describe the same individual."
+    },
+    {
+      "qid": "Q124002227",
+      "label": "Nathan LeVine",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes a technical professional specializing in aerospace, chemistry, and polymers based in New Jersey. The Wikidata entry describes a contemporary student-athlete who plays lacrosse for Syracuse University. These are two different individuals from different generations and professional backgrounds."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Nathan B. Levine was a materials scientist and chemical engineer active in the 1960s and 1970s, based in Colonia, New Jersey. He spent much of his career at the Thiokol Chemical Corporation's Reaction Motors Division in Denville, New Jersey, where he specialized in high-performance polymers and elastomers for aerospace and defense applications. His research, often supported by NASA and the U.S. Air Force, focused on developing thermally stable and chemically resistant materials, such as nitroso rubbers and perhaloalkylene polymers, capable of withstanding corrosive rocket propellants like nitrogen tetroxide and hydrazine-type fuels. His technical expertise spanned fields including chemistry, adhesives, plastics, acrylics, foam, and fiberglass. Given his location and specialized knowledge in industrial materials, he was likely associated with the Experiments in Art and Technology (E.A.T.) organization, which maintained a registry of engineers and scientists to collaborate with artists on projects requiring expertise in advanced materials like foams and plastics.",
+        "sources": [
+          "https://patents.google.com/patent/US3282884A/en",
+          "https://ntrs.nasa.gov/citations/19630006240",
+          "https://www.njacs.org/wp-content/uploads/2013/05/IndicatorMay2013.pdf",
+          "https://arc.aiaa.org/doi/abs/10.2514/6.1963-18122"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Nathan B. Levine\" chemistry polymers aerospace",
+        "\"Nathan B. Levine\" E.A.T. artist engineer",
+        "",
+        "\"Nathan B. Levine\" \"Reaction Motors\" Thiokol",
+        "\"Nathan B. Levine\" Colonia NJ",
+        "\"Nathan B. Levine\" polymer chemist New Jersey",
+        "\"Nathan B. Levine\" E.A.T. project",
+        "\"Nathan B. Levine\" E.A.T. archive",
+        "\"Nathan B. Levine\" engineer art collaboration",
+        "",
+        "\"Joseph Green\" \"Nathan B. Levine\" E.A.T.",
+        "\"Thiokol\" \"Experiments in Art and Technology\"",
+        "\"Nathan B. Levine\" \"fiberglass\" \"foam\" NJ"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

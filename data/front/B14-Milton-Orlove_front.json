@@ -21,5 +21,58 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "None mentioned",
     "aestheticPhilosophicalInterests": "None mentioned"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Milton Orlove was a technical professional active in the plastic extrusion industry during the late 1960s and early 1970s. He was employed in sales at World Plastics Extruders, Inc., a company with operations in the Bronx, New York, and Moonachie, New Jersey. Orlove is recognized for his collaboration with artists through the organization Experiments in Art and Technology (E.A.T.), which facilitated partnerships between the technical and artistic communities. Notably, a business card for World Plastics Extruders is held in the Eva Hesse Archive at Oberlin College, reflecting the firm's role in providing technical assistance and materials (such as fiberglass and plastics) to prominent artists of the era like Hesse. Milton and his wife Helen (née Jacobson) lived in the Bronx, where their son, the biologist and researcher Michael J. Orlove, was born in 1948.",
+        "sources": [
+          "https://www.legacy.com/us/obituaries/theithacajournal/name/michael-orlov-obituary?id=14187311",
+          "https://www.bangsfuneralhome.com/obituary/michael-orlov",
+          "https://www.oberlin.edu/allen-art-museum/eva-hesse-archive",
+          "https://rmc.library.cornell.edu/EAD/xml/dlxs/KCL05305.xml"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "",
+        "\"World Plastics Extruders\" Bronx NY history",
+        "",
+        "\"Milton Orlove\" Bronx",
+        "",
+        "\"Milton Orlove\" Bronx New York",
+        "",
+        "\"World Plastics Extruders\" Moonachie NJ contact",
+        "",
+        "\"World Plastics Extruders\" 1960s 1970s",
+        "\"Milton Orlove\" Helen Orlove Bronx"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeIG_HLagH158s7ZEAC83MPI-NYINTfHwUt2eSFQTXE-YqCkjNzJxPhI2VquhU_kPbJjtHM64wZ8g2bFxi8MVFHmdTMffIlCnZnk7-vWgyVGbmSLt72mrW8jPaNNB1xwpJ2zDjD54xNiLVE0OnuIcWvCRfPg==",
+          "title": "bangsfuneralhome.com",
+          "resolvedUri": "https://www.bangsfuneralhome.com/obituaries/michael-orlov"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 774,
+            "endIndex": 1302,
+            "text": "Milton and his wife Helen (née Jacobson) lived in the Bronx, where their son, the biologist and researcher Michael J. Orlove, was born in 1948.\",\n      \"sources\": [\n        \"https://www.legacy.com/us/obituaries/theithacajournal/name/michael-orlov-obituary?id=14187311\",\n        \"https://www.bangsfuneralhome.com/obituary/michael-orlov\",\n        \"https://www.oberlin.edu/allen-art-museum/eva-hesse-archive\",\n        \"https://rmc.library.cornell.edu/EAD/xml/dlxs/KCL05305.xml\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

@@ -17,5 +17,98 @@
       "computers",
       "electronics"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q1043",
+      "label": "Sherrie Maricle",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. Sol Sherr is an engineer specializing in electronics and displays, whereas Sherrie Maricle is a jazz musician associated with the Linked Jazz project. The names, professional fields, and likely genders do not match."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q108755050",
+      "label": "Sol Sherry",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes Sol Sherr, an electronics engineer working at Hazeltine Corporation in Hartsdale, NY. The Wikidata entry (Q108755050) describes Sol Sherry, a medical doctor (internist) who specialized in internal medicine. The names and professional fields are fundamentally different."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5688109",
+      "label": "Hazeltine Corporation",
+      "description": "American defense electronics company (1924–1986)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization name matches exactly ('Hazeltine Corporation'). The industry (electronics) also matches the technical fields listed on the index card (electronics, computers, displays). Furthermore, both the employee and the corporation are located in New York state."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Sol Sherr was a prominent electronic engineer and a leading authority on electronic display technology during the late 20th century. He was heavily involved with the Society for Information Display (SID), serving as its Vice President in the mid-1960s and eventually as its President. Sherr was a recipient of the Beatrice Winner Award for Distinguished Service to the Society in 1985 and was a Life Member of the IEEE. His professional career included roles at Sperry Gyroscope in the 1960s and later as the President of Westland Electronics, a consultancy based in Old Chatham, New York. He is also associated with the Hazeltine Corporation and was located in Hartsdale, New York. Sherr is perhaps best known for his extensive academic contributions to the field of display engineering, authoring foundational textbooks such as \"Fundamentals of Display System Design\" (1970), \"Electronic Displays\" (1979, revised 1993), and \"Applications for Electronic Displays: Technologies and Requirements\" (1998). His work on output devices and hardcopy systems, including pen plotters, has been cited in the context of early computer art and technological experimentation, aligning with the activities of organizations like Experiments in Art and Technology (E.A.T.) which sought to bridge the gap between technical engineering and the arts.",
+        "sources": [
+          "https://www.sid.org/About-Us/Archives/History-50th-Anniversary",
+          "https://informationdisplay.org/Portals/InformationDisplay/PDF/1987_SID_Vol03_No05.pdf",
+          "https://informationdisplay.org/Portals/InformationDisplay/PDF/1966_SID_Vol03_No03.pdf",
+          "https://ieeexplore.ieee.org/document/1151399",
+          "https://www.google.com/books/edition/Applications_for_Electronic_Displays/jY7jAAAAMAAJ"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Sol Sherr display technology books",
+        "\"Sol Sherr\" E.A.T. Experiments in Art and Technology",
+        "Sol Sherr \"Hartsdale, New York\"",
+        "Sol Sherr computer electronics engineer",
+        "",
+        "\"Sol Sherr\" Hazeltine Corporation",
+        "\"Sol Sherr\" obituary",
+        "\"Sol Sherr\" E.A.T. engineer",
+        "",
+        "\"Sol Sherr\" Experiments in Art and Technology",
+        "\"Sol Sherr\" E.A.T. collaborator",
+        "\"Sol Sherr\" Hartsdale NY engineer",
+        "\"Sol Sherr\" obituary display technology",
+        "\"Sol Sherr\" Hazeltine engineer",
+        "",
+        "\"Sol Sherr\" biography displays electronics",
+        "\"Sol Sherr\" Hazeltine \"Hartsdale\"",
+        "\"Sol Sherr\" E.A.T. New York"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhlLM9S43JFM8cm3u4ed9o5dDUnyrq4uHnbG42A88KaTMjB7sPnTXbuCt1MwsFm2ERqp3uXM99Kq6hjMxVQ6nuWFIc0A9UOessuy6KaZdlLAUvUvP7Pk-9NqiQt0DIEdivAZg7gGfxgfcQA7bSTAcJUqvOD_26qlm8mPqQQ82ScAp5rAbmNLGoRsAa_aKqxtJi5iZ5A-nk6F22TXk=",
+          "title": "informationdisplay.org",
+          "resolvedUri": "http://archive.informationdisplay.org/Portals/InformationDisplay/IssuePDF/V00N00-1985-6%20June.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdelGyqajAidoBEx8m6LxrJiMXzhVe5STJiUqf73ixaaVGKyGUS0W5FY4L-wWavhjM37Gqnoi9mvSwxYnWXLayE-DKNc-WtliseYEjg9Y9sa-KSwGRhPCBjfF9P5ttuvtYcPCgVBh6pt6u9PFv2gvrCEIlF29BxA_D",
+          "title": "sid.org",
+          "resolvedUri": "https://www.sid.org/About-Us/Archives/History-50th-Anniversary"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 182,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Sol Sherr was a prominent electronic engineer and a leading authority on electronic display technology during the late 20th century."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
   }
 }

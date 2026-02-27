@@ -11,6 +11,91 @@
         "y1": 7.3,
         "x2": 20.6,
         "y2": 15.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5732793",
+          "label": "Herb Aach",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Herb Aach' is identical in both records. The Wikidata entity describes a painter and artist active in the United States between 1923 and 1985, which aligns perfectly with the 1969 date and the artist context provided for the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Herbert (Herb) Aach (1923–1985) was a German-born American painter, writer, and color theorist who became a prominent figure in the New York art scene from the 1960s through the early 1980s. Born in Cologne, he fled Nazi persecution in 1938, eventually settling in New York City. After serving in the U.S. Army during WWII, he studied at the Brooklyn Museum Art School under John Ferren and Rufino Tamayo, and later in Mexico City. Aach is best known for his 'color expressionism' and his pioneering use of intense, fluorescent, and phosphorescent pigments, which he often formulated himself while working for the Art Crayon Company. His career-long obsession with color led him to edit and translate a notable 1971 edition of Goethe's 'Theory of Colours'. He was a dedicated educator, teaching at the Pratt Institute and serving as the chairman of the arts department at Queens College (CUNY). Aach's technical expertise in materials was further reflected in his role as president of the Artists Technical Research Institute. His work was featured in the landmark 1968 exhibition 'Some More Beginnings,' organized by the Experiments in Art and Technology (E.A.T.) at the Brooklyn Museum, which highlighted his use of light and phosphorescent materials. Notable series of his work include 'Precession of the Equinoxes' and 'Split Infinity'. In 1979, he notably collaborated with New York City officials to paint the Madison Avenue Bridge a bright lavender. He died of cancer in 1985.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Herb_Aach",
+              "https://www.herbaach.com/",
+              "https://www.artsy.net/artist/herb-aach",
+              "https://academiccommons.columbia.edu/doi/10.7916/D84M948M",
+              "https://www.villagepreservation.org/2014/12/22/2014-year-in-review-gvshp-programs/",
+              "https://www.leilahellergallery.com/artists/herb-aach"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Herb Aach artist biography",
+            "Herb Aach art career 1960s 1970s",
+            "Herb Aach Experiments in Art and Technology E.A.T.",
+            "\"Herb Aach\" E.A.T. artist",
+            "\"Herb Aach\" \"Experiments in Art and Technology\"",
+            "\"Herb Aach\" color theory E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbY9oGT3OW34svGaqNAiSPdbjotNUiblXtuW35VqbgpbvtR9I2AXNEriU_ZDoemwu8-2jlDpyna2Cw-mJbFGW16ZW99KOIWPAg1TDS-QQkje8TBR3wFyJ4Bg==",
+              "title": "blogspot.com",
+              "resolvedUri": "http://nihalunal.blogspot.com/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 242,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Herbert (Herb) Aach (1923–1985) was a German-born American painter, writer, and color theorist who became a prominent figure in the New York art scene from the 1960s through the early 1980s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 243,
+                "endIndex": 331,
+                "text": "Born in Cologne, he fled Nazi persecution in 1938, eventually settling in New York City."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 947,
+                "endIndex": 1078,
+                "text": "Aach's technical expertise in materials was further reflected in his role as president of the Artists Technical Research Institute."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1509,
+                "endIndex": 1973,
+                "text": "He died of cancer in 1985.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Herb_Aach\",\n        \"https://www.herbaach.com/\",\n        \"https://www.artsy.net/artist/herb-aach\",\n        \"https://academiccommons.columbia.edu/doi/10.7916/D84M948M\",\n        \"https://www.villagepreservation.org/2014/12/22/2014-year-in-review-gvshp-programs/\",\n        \"https://www.leilahellergallery.com/artists/herb-aach\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

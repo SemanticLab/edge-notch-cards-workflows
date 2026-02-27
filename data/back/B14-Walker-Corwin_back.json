@@ -11,6 +11,67 @@
         "y1": 7.0,
         "x2": 39.5,
         "y2": 17.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q94619895",
+          "label": "Clyde Lynds",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical and relatively unique. The Wikidata entity is a confirmed artist born in 1936, making him 33 years old at the time of the 1969 card entry, which fits the profile of an active artist from that period perfectly."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Clyde Lynds (born 1936 in Jersey City, New Jersey) is an American artist and sculptor known for his pioneering work in kinetic and technological art. Active since the late 1960s, Lynds initially worked with oil paintings and constructions, such as his 1966 piece 'Doll with Music Machine' and 1968 work 'Love Machine #2'. He became a prominent figure in the intersection of art and engineering, particularly through his innovative use of fiber optics embedded in cast concrete and stone. His sculptures, such as the 'Stele' series, utilize programmed light sources and color wheels to create shifting light patterns that appear to emerge from within the solid materials, often evoking themes of astronomy and ancient glyphs. Lynds is associated with the movement of technological art that flourished in the late 1960s and 1970s and has been linked to the Experiments in Art and Technology (E.A.T.) organization. His work has been widely exhibited in major shows like 'P.U.L.S.E.' (People Using Light, Sound, and Energy) and is held in permanent collections including the Smithsonian American Art Museum, the National Building Museum, and the Wadsworth Atheneum. He has received numerous public commissions from the General Services Administration (GSA) and the states of New Jersey and Connecticut, including major installations at the Foley Square Federal Office Building in New York and the United States Courthouse in Montgomery, Alabama.",
+            "sources": [
+              "https://www.askart.com/artist/Clyde_William_Lynds/107055/Clyde_William_Lynds.aspx",
+              "https://americanart.si.edu/artwork/stele-xiv-33159",
+              "https://www.clydelynds.com/biography.html",
+              "https://www.invaluable.com/artist/lynds-clyde-4g2r5i9qf9/auction-lots/",
+              "https://www.nyc.gov/site/designcommission/review/percent-for-art/projects/clyde-lynds.page"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Clyde Lynds artist biography",
+            "Clyde Lynds fiber optic art",
+            "Clyde Lynds kinetic artist",
+            "Clyde Lynds Experiments in Art and Technology E.A.T.",
+            "\"Clyde Lynds\" Experiments in Art and Technology",
+            "\"Clyde Lynds\" kinetic art 1960s 1970s",
+            "\"Clyde Lynds\" E.A.T. member"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAKY_BSvEKVAA0MuzfOQ2PTNko4DspwW12JyNAXY7LC12voXvLMpmXuG3yV9xjgI3kJhQkdpNxUbv5vLzpVFBXbrXwF8AwtlUKtfVeg5o132-M9tc8Mg==",
+              "title": "cermakplaza.com",
+              "resolvedUri": "https://cermakplaza.com/art/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9x0h29WG_m4JsZZlTWs2Qq9KYGybxPh8pGUCJJPDsF1X4sU4cUT9CXUQ8EsTn7xZyR0YMq5xn-Hw6DcBe3CCOjv9iecZBI0TYaUzDuyKB05sM1if99TVyqyGQe_3gXBn8coha8cgn8dnMdXR6Lp8rdUXcx96BzY-QoXBJe4dY4C8lWvv62p0Y1bPqh0dPd0sv02RMYn0wmg==",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/57783925/Contemporary-American-Painting-and-Sculpture-1969univ"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 199,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Clyde Lynds (born 1936 in Jersey City, New Jersey) is an American artist and sculptor known for his pioneering work in kinetic and technological art."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

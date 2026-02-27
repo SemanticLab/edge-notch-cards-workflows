@@ -9,6 +9,145 @@
         "y1": 9.8,
         "x2": 44.1,
         "y2": 15.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1002",
+          "label": "Paul Stookey",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Hans Noe) does not match the name of the Wikibase entity (Paul Stookey). These are two distinct individuals."
+        },
+        {
+          "qid": "Q25388",
+          "label": "Noel Shaw",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Hans Noe' and 'Noel Shaw' are distinct and do not share any obvious linguistic similarities. While both appear to be related to the arts, there is no evidence to suggest they refer to the same individual."
+        },
+        {
+          "qid": "Q24932",
+          "label": "Noelle Tan",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Hans Noe' and 'Noelle Tan' are significantly different. 'Hans' is a masculine name while 'Noelle' is feminine, and the Wikibase entry identifies the person as a woman. Furthermore, Noelle Tan's professional career is generally associated with a later period than the late 1960s/early 1970s context provided for Hans Noe."
+        },
+        {
+          "qid": "Q22237",
+          "label": "Noel Towers",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Hans Noe' and 'Noel Towers' are significantly different and do not suggest the same individual, despite both potentially being associated with the arts."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q111164",
+          "label": "Hans Noever",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Hans Noe' on the card is a highly plausible shortening or transcription of 'Hans Noever'. The Wikidata entity describes a male artist (film director, screenwriter, and composer) who began his work period in 1967, which aligns perfectly with the late 1960s context of the card."
+        },
+        {
+          "qid": "Q18348294",
+          "label": "Hans Noel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hans Noel was born in 1971, which makes it impossible for him to be an artist active in the late 1960s and early 1970s. Additionally, the Wikidata entity is a political scientist, which does not match the artistic background associated with the individual on the card."
+        },
+        {
+          "qid": "Q94916344",
+          "label": "Hans Noesske",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hans Noesske lived from 1871 to 1913, which does not overlap with the context provided for Hans Noe, who was active as an artist in the late 1960s and early 1970s. Furthermore, the occupations (physician/surgeon vs. artist) and the surnames do not match."
+        },
+        {
+          "qid": "Q95290854",
+          "label": "Hans Noelpp",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hans Noelpp was born in 1876 and was a student of Gabriel von Hackl (who died in 1926), placing his primary artistic career in the late 19th or early 20th century. This does not align with the context of Hans Noe, who was active in the late 1960s and early 1970s, as Noelpp would have been over 90 years old at that time."
+        },
+        {
+          "qid": "Q134572086",
+          "label": "Hans Noë",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Hans Noe' on the card perfectly matches the Wikidata entity 'Hans Noë' (with the common omission of the diacritic on the card). The Wikidata entity describes a male architect and sculptor born in 1928, which places him at an appropriate age and career stage to be active during the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Hans Noe (1928–2025) was a distinguished architect and sculptor based in Garrison, New York, who was a significant collaborator and associate of the prominent sculptor Tony Smith during the 1950s, 60s, and 70s. Born in Czernowitz, Austro-Hungary, Noe moved to the United States and became deeply involved in the technical and mathematical aspects of minimalist and modular sculpture. He is particularly noted for assisting Tony Smith with the complex numerical calculations and diagrams required for Smith's modular systems, which were based on tetrahedra and octahedra. This collaborative work was central to pieces such as 'Bat Cave,' which was featured in the 1971 Experiments in Art and Technology (E.A.T.) exhibition at the Los Angeles County Museum of Art (LACMA). As an architect, Noe is recognized for designing the studio of Abstract Expressionist painter Elaine de Kooning in East Hampton in 1968. He was also a lender of Tony Smith's works to major institutions like the Museum of Modern Art (MoMA) for retrospectives. His career bridged the gap between architecture, engineering, and fine art, aligning with the interdisciplinary goals of organizations like E.A.T.",
+            "sources": [
+              "https://www.askart.com/artist/Hans_H_Noe/11333333/Hans_H_Noe.aspx",
+              "https://www.moma.org/documents/moma_catalogue_195_300063259.pdf",
+              "https://www.moma.org/research/finding-aids/exhibitions_1998-2000.html",
+              "https://www.calameo.com/books/0061214309312e8473873",
+              "https://journals.openedition.org/rhms/456"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Hans Noe artist biography",
+            "Hans Noe artist Experiments in Art and Technology (E.A.T.)",
+            "Hans Noe E.A.T. Pepsi Pavilion",
+            "\"Hans Noe\" artist 1960s 1970s",
+            "",
+            "\"Hans Noe\" Tony Smith sculptor assistant",
+            "\"Hans Noe\" Experiments in Art and Technology E.A.T.",
+            "\"Hans Noe\" artist 1960s 1970s collaborations",
+            "\"Hans Noe\" architect sculptor Garrison NY"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV4JbEUr-1WlUm59YyK2nifqhcliIUgUxeKNU4y2-Gv3BcW_11ye2Km1K3hd0SedUTlrIy0dARM8_p2E_dk-A5utihkukjvDWP_xm2yvPGO5p1ufqM6geahhK414a0yI8PWXh5VSeTbx4ge942483_akiaGcv-4UdWOw==",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/documents/moma_catalogue_215_300024882.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGutUzl3h6GnNuYdhHmblakyEAcVZyMhzrX-AUJqq0kCNXVPYHd7uf9dbMB47bnbNryoBC6Hx4IAdrTRFv0KEwGNmdAcuDk-9l7AS2AMl945fztMFzV_kBYXhWqmjU8ZIXA0eFF3v8tBhG3M2C9Yb823mv3S84NwnVnOLx49KcWPqsJhA==",
+              "title": "yorku.ca",
+              "resolvedUri": "http://www.yorku.ca/caitlin/futurecinemas/resources/coursepack/pepsi.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWZd7a61Fwtoz4shzgcOaOBkdIkAWjK5a6H8tVea-MHDCzNcTKssLlWaCx_iOKW9sGU-D2HsfTBsf1Hsh2dZd-Ucd9bcq-EUEeQWqDJJK2e0KRFauEr6jTbjimVKz-zNO7tK5mevtWiz2MPq7BxVuauyedTCA0wKcyDm_7Z3noFKUo0mQ=",
+              "title": "interstices.ac.nz",
+              "resolvedUri": "https://interstices.ac.nz/index.php/Interstices/article/download/414/406/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 763,
+                "endIndex": 822,
+                "text": "exhibition at the Los Angeles County Museum of Art (LACMA)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1082,
+                "endIndex": 1650,
+                "text": "His career bridged the gap between architecture, engineering, and fine art, aligning with the interdisciplinary goals of organizations like E.A.T.\",\n      \"sources\": [\n        \"https://www.askart.com/artist/Hans_H_Noe/11333333/Hans_H_Noe.aspx\",\n        \"https://www.moma.org/documents/moma_catalogue_195_300063259.pdf\",\n        \"https://www.moma.org/research/finding-aids/exhibitions_1998-2000.html\",\n        \"https://www.calameo.com/books/0061214309312e8473873\",\n        \"https://journals.openedition.org/rhms/456\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

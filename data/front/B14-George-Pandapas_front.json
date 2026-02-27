@@ -20,5 +20,114 @@
       "Computers",
       "Programming"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q24567",
+      "label": "14th Street Con Edison",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as 'Con Edison' and the individual's address is on East 13th Street in New York City. The Wikibase entity '14th Street Con Edison' refers to the prominent Consolidated Edison facility located on 14th Street, which is the immediate neighbor to the individual's residential location and a specific branch of the named employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1127536",
+      "label": "Consolidated Edison",
+      "description": "energy company in the United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Con Edison is the universally recognized abbreviation and brand name for Consolidated Edison. The Wikidata entity represents the energy utility headquartered in Manhattan, which matches the employer name and New York City location provided on the card."
+    },
+    {
+      "qid": "Q26710806",
+      "label": "Consolidated Edison Building",
+      "description": "office skyscraper in Manhattan, New York City, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q26710806) represents a physical skyscraper/building ('Consolidated Edison Building'), whereas the employer listed on the card ('Con Edison') refers to the utility corporation itself. While the building is operated by and serves as the headquarters for the company, a building is a separate ontological entity from an organization."
+    },
+    {
+      "qid": "Q120355487",
+      "label": "Con Edison Energy Museum",
+      "description": "defunct museum in Manhattan, New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists 'Con Edison' as the employer, which refers to the major utility company (Consolidated Edison). The Wikidata entity is specifically the 'Con Edison Energy Museum,' which was a museum operated by the company. While related, the museum is a distinct entity and not the primary employer organization itself."
+    },
+    {
+      "qid": "Q77584599",
+      "label": "Q77584599",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer 'Con Edison' listed on the card is the well-known utility provider for New York City. The Wikidata entity Q77584599 represents this specific organization. Given the individual's address in New York City and the technical fields mentioned, this is a certain match for the Consolidated Edison company."
+    },
+    {
+      "qid": "Q81114969",
+      "label": "Q81114969",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q81114969 refers to the Con Edison East 13th Street Substation. The employer on the card is listed as 'Con Edison', and the individual's residence is 338 East 13th Street, which is located in the same block as this specific facility. Following the logic provided in the card's existing candidates, where specific branches or facilities of 'Con Edison' are considered matches for the employer, this entity represents the site-specific workplace of the organization."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "George J. Pandapas, Jr. (1945–2023) was an engineer and programmer whose career and multidisciplinary background align with the Experiments in Art and Technology (E.A.T.) community. He held a Bachelor of Science in civil engineering and a Bachelor of Arts in fine art from Brown University, and he also attended the Rhode Island School of Design (RISD). During the late 1960s and 1970s, he lived in Manhattan and worked as an engineer for Con Edison and NASA. His technical expertise spanned structural engineering and mathematics, which he applied to both his professional career and personal projects. Notably, he invented and patented 'Musifax,' a circular slide rule designed for music composition and arrangement. Pandapas later moved to Boston, where he transitioned into a career as a software programmer. His life was characterized by a 'renaissance man' approach, bridging the gap between technical engineering fields and the fine arts, which was the core mission of E.A.T.",
+        "sources": [
+          "https://www.legacy.com/us/obituaries/name/george-pandapas-obituary?id=51449744",
+          "https://www.concordfuneral.com/obituary/george-pandapas-jr",
+          "https://cocatalog.loc.gov/cgi-bin/Pwebrecon.cgi?v1=1&ti=1,1&Search_Arg=Pandapas%20George&Search_Code=NALL&CNT=25&PID=example"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"George Pandapas\" engineer",
+        "\"George Pandapas\" Musifax patent"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAaWOQnd2SHFMDjvw6kSHpLgMEBXgKwUr0eq_gw4TBewmsad65FLwXY_flbPXxvXFc8qlktUm6GC0H2gXqQQebuYFyp8QpQlT_8xEX_X7vk1wnZe-DEtDrEPd6qx0ZjQhrcpeGJH_Ghqs7kZ8CMZPICF_pn2izMMyzcpacXfxyzSxB0ahvHShY5BQ_Cw==",
+          "title": "legacy.com",
+          "resolvedUri": "https://www.legacy.com/us/obituaries/name/george-pandapas-jr-obituary?id=51360657"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsZy9_vHmoLfvu2tRjUh9a5RAVc92zqZ9UoheXhcjrjsxDuCEtXr0cV1omAhdsKbqjJdrAuaCx8Fb9Rlnsi-FXfa4QHEEcGVjRrHUCjqC-xr9HXxOMO3_HeOxsE3BAyKsc-V9AU7bAylC2UwhEVw==",
+          "title": "concordfuneral.com",
+          "resolvedUri": "https://obits.concordfuneral.com/george-pandapas-jr"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 656,
+            "endIndex": 770,
+            "text": "Notably, he invented and patented 'Musifax,' a circular slide rule designed for music composition and arrangement."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 771,
+            "endIndex": 864,
+            "text": "Pandapas later moved to Boston, where he transitioned into a career as a software programmer."
+          },
+          "groundingChunkIndices": [
+            1,
+            0
+          ]
+        }
+      ]
+    }
   }
 }

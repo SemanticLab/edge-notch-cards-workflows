@@ -13,5 +13,129 @@
     "technicalFields": [
       "light"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q28593660",
+      "label": "Edward Samuels",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to an Australian cricketer born in 1833, whereas the card data describes a person associated with the Tube Light Company in New Jersey with a modern phone number, indicating they are from different eras and locations."
+    },
+    {
+      "qid": "Q76051263",
+      "label": "Edward Samuels",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "While the names are an exact match, the Wikidata record contains no professional, geographic, or contact information to correlate with the specific details on the index card (Tube Light Company, Moonachie, New Jersey). Without overlapping identifiers like birth date or location, there is insufficient evidence to confirm they are the same person."
+    },
+    {
+      "qid": "Q76160444",
+      "label": "Edward Samuelson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity died in 1898, which is incompatible with the index card record featuring a 20th-century phone number (Area Code 201 was established in 1947) and a professional affiliation with a lighting company likely from the mid-to-late 20th century. Furthermore, the surnames are different (Samuels vs. Samuelson)."
+    },
+    {
+      "qid": "Q76319686",
+      "label": "Edward Percy Proctor Samuels",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names match, but the geographic and biographical data strongly suggest these are different individuals. The Wikidata entity lived and died in Australia (Murgon, Queensland), whereas the index card describes an Edward Samuels located in Moonachie, New Jersey, working for a local business (Tube Light Company)."
+    },
+    {
+      "qid": "Q136893040",
+      "label": "Q136893040",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "The card identifies Edward Samuels working in the 'light' field at 'Tube Light Company' in Moonachie, NJ. The Wikidata entity describes a sculptor and artist born in The Bronx (near Moonachie). These records likely refer to the same individual, as Edward Samuels is a known neon and light artist who operated in the New York/New Jersey area before moving to Santa Fe."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Edward Samuels was a technical specialist and engineer active in the late 1960s and early 1970s, specializing in lighting technology. He was employed by the Tube Light Company (now known as Tube Light Company, Inc.), a sign manufacturing firm based on East Park Street in Moonachie, New Jersey. Samuels is recognized for his collaboration with artists through the Experiments in Art and Technology (E.A.T.) organization, which aimed to facilitate partnerships between the technical and artistic communities. Most notably, he provided engineering expertise to the neon artist Victor Millonzi. Their collaborative project was featured in the E.A.T.-organized exhibition titled \"Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes,\" which was held at the Brooklyn Museum in late 1968. This exhibition was a major showcase of works where engineers from industrial companies, such as the Tube Light Company, applied their professional knowledge to creative art installations.",
+        "sources": [
+          "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-",
+          "https://www.artist-info.com/exhibition/MoMA-27-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962",
+          "https://ppp.directory/loan/tube-light-company-inc-moonachie-nj-07074-237-2020-04-15",
+          "https://legistar.com/LegislationDetail.aspx?ID=510825&GUID=12D8C30C-726A-46EB-8A69-637E4C3AF27F"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Tube Light Company\" Park Street Moonachie NJ",
+        "Edward Samuels \"Experiments in Art and Technology\"",
+        "\"Edward Samuels\" engineer light 1960s 1970s",
+        "\"Edward Samuels\" E.A.T. artist engineer collaboration",
+        "",
+        "\"Edward Samuels\" light engineer E.A.T.",
+        "\"Edward Samuels\" light art collaboration 1960s 1970s",
+        "",
+        "\"Edward Samuels\" \"E.A.T.\" neon light",
+        "",
+        "\"Tube Light Company\" Moonachie NJ Park Street history",
+        "\"Edward Samuels\" \"Experiments in Art and Technology\" technical",
+        "\"Edward Samuels\" light engineering E.A.T. collaboration",
+        "",
+        "",
+        "\"Millonzi\" and \"Samuels\" Brooklyn Museum 1968",
+        "\"Edward Samuels\" light engineer New Jersey",
+        "\"Victor Millonzi\" E.A.T. engineer",
+        "",
+        "\"Edward Samuels\" light engineering technical fields",
+        "\"Edward Samuels\" E.A.T. engineer profile",
+        "\"Edward Samuels\" Victor Millonzi \"Some More Beginnings\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ5s5SkCbF3HjBOU0-AXZBBYlXt-YsywjdVGC2RiKr7oB7rrHXKpbHbLfHMimzomTaKpQajI33Qzaz5gNf9kfLjBcGSI3mjOjTdkWQLohF2rHOTCYGflSYruGdGyj_SKgmdmSMV8k8mhC3WN7B06C29kgGMsWWK-HZBfy0tzLFEP6_7Xx5vojCXhRz",
+          "title": "uga.edu",
+          "resolvedUri": "https://digitalcommons.law.uga.edu/cgi/viewcontent.cgi?article=1241&context=jipl"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmoolCBbFA3ZD35XW3B0c2eyhL1oGLrgnfP4a11pKFW5x-PIfA9-ohj4kqyGRxHQVTg3UOiRi30sGbhEoWf_OzRdXbV-_p2FOuV7bY--LwokuLq_W2QwRWvFAJFRT5CKYyEtscrzMTnFYa1ikK2wc=",
+          "title": "oup.com",
+          "resolvedUri": "https://academic.oup.com/book/6068/chapter/149515848"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFREX5BJ3-EPa5h_qK2HomJrgWzMeK3TJqW0teLZC4pOD7Ot4avWPqdhegGn4guvLXZNCVORNQqtGYhAm2vomiucJs9DKaLa_YS3N6gnFIpKuE4CvJpOx8sKAqDJy7lqaXxXiwFUqjOvdFxl2a2PzZZXqw=",
+          "title": "artist-info.com",
+          "resolvedUri": "https://www.artist-info.com/exhibition/MoMA-27-Id373962"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0Khjai5F4_XT2jdHAPf6HAj4MFO-7Phxpk934jxnXbRQIiQjYlFChV31eR4skiFvkxOc65LYR68daHJauAbCbxBgFl-8RscJ7ygloAQ9wABOdehsAnsPGf2vPJ4C-LM5ct--C1n0L",
+          "title": "core.ac.uk",
+          "resolvedUri": "https://core.ac.uk/download/pdf/76623826.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKOQ8_4uqq-agqnm22GJc11b8mlms2TbCPj_U5YWGjJ0AqAyhEpwnrdt4ml63e06dfiQWYPd0CB3Lqw4aX8z5VrGawf8oST4zugfUSOT6CIfNrJFrsvQMkwcUAju-gb1tzwIJcmw0so3H5WGJFR01pKNEr2PX6iwj7A4A9xjONXybucJTrHxaZL9eM",
+          "title": "ssrn.com",
+          "resolvedUri": "https://papers.ssrn.com/sol3/Delivery.cfm/6103266.pdf?abstractid=6103266&mirid=1"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 881,
+            "endIndex": 1597,
+            "text": "This exhibition was a major showcase of works where engineers from industrial companies, such as the Tube Light Company, applied their professional knowledge to creative art installations.\",\n      \"sources\": [\n        \"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-\",\n        \"https://www.artist-info.com/exhibition/MoMA-27-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962\",\n        \"https://ppp.directory/loan/tube-light-company-inc-moonachie-nj-07074-237-2020-04-15\",\n        \"https://legistar.com/LegislationDetail.aspx?ID=510825&GUID=12D8C30C-726A-46EB-8A69-637E4C3AF27F\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    }
   }
 }

@@ -15,5 +15,110 @@
     "technicalFields": [
       "Electronics"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q1806079",
+      "label": "Larry Klein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Larry Klein on the card was a Technical Editor for HiFi/Stereo Review, an electronics-focused magazine active in the mid-20th century. The Wikidata entity (Q1806079) refers to the record producer and musician born in 1959 who is associated with the California music scene and Joni Mitchell. Given the birth year of 1959 for the musician, he would have been a child during the era when the card's Larry Klein was likely established as an editor in New York."
+    },
+    {
+      "qid": "Q106664442",
+      "label": "Larry Klein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the names match, the professions are entirely distinct. The index card describes a technical editor in the electronics and high-fidelity audio field (HiFi/Stereo Review), whereas the Wikidata entity describes a comedy writer and television producer. These represent two different prominent individuals with the same name."
+    },
+    {
+      "qid": "Q109313485",
+      "label": "Larry Klein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card identifies Larry Klein as a Technical Editor in the field of electronics and HiFi/Stereo Review, based in New York. The Wikidata entity describes a Larry Klein who is a competitive sailor and athlete. These represent two distinct individuals with different professional careers and areas of expertise."
+    },
+    {
+      "qid": "Q111968046",
+      "label": "Larry Klein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the names match, the professional and geographic details are entirely different. The index card describes a Technical Editor for HiFi/Stereo Review based in New York City, while the Wikidata entity describes a local politician and Mayor of Sunnyvale, California."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Lawrence \"Larry\" Klein (1928–2013) was a prominent technical editor and director in the field of high-fidelity (Hi-Fi) audio and consumer electronics. He is best known for his long tenure at the magazine HiFi/Stereo Review (later renamed Stereo Review), where he served as Technical Editor in the late 1960s and eventually became Technical Director. Based in New York, Klein was a leading authority on audio technology during the formative years of the consumer electronics industry, authoring columns such as \"Audio Questions and Answers\" and \"Audio News.\" He worked closely with the Hirsch-Houck Laboratories to provide technical evaluations of audio equipment and was a frequent panelist at major industry events, such as the New York High Fidelity Music Show. In the early 1960s, he produced the well-regarded reference recording \"Art of the Koto\" for Elektra Records. Given his role as a central technical figure in the New York electronics scene in the late 1960s and 1970s, he is a likely candidate for association with Experiments in Art and Technology (E.A.T.), an organization that sought to pair technical experts with artists, although some E.A.T. records may also refer to a contemporary designer of the same name.",
+        "sources": [
+          "https://www.legacy.com/us/obituaries/thejournalnews/name/lawrence-klein-obituary?id=14115162",
+          "https://www.strata-gee.com/rip-lawrence-klein-former-technical-director-of-stereo-review-magazine/",
+          "https://www.analogplanet.com/content/analog-corner-99",
+          "https://www.positive-feedback.com/Issue79/transfiguration_proteus.htm"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "\"Larry Klein\" Stereo Review obituary",
+        "Larry Klein HiFi/Stereo Review Technical Editor",
+        "\"Larry Klein\" Experiments in Art and Technology",
+        "Larry Klein electronics engineer E.A.T.",
+        "\"Larry Klein\" \"Experiments in Art and Technology\"",
+        "\"Larry Klein\" E.A.T. electronics",
+        "\"Larry Klein\" designer 1984 Olympics E.A.T.",
+        "\"Larry Klein\" E.A.T. \"Stereo Review\"",
+        "\"Larry Klein\" Experiments in Art and Technology engineer",
+        "",
+        "\"Larry Klein\" E.A.T. member engineer",
+        "\"Larry Klein\" electronics engineer New York 1970s",
+        "\"Larry Klein\" \"Stereo Review\" E.A.T. connection",
+        "",
+        "\"Larry Klein\" E.A.T. \"technical service\"",
+        "\"Larry Klein\" Stereo Review E.A.T. member",
+        "\"Lawrence Klein\" engineer E.A.T.",
+        "\"Larry Klein\" E.A.T. \"Technical Editor\"",
+        "\"Larry Klein\" New York electronics engineer 1968",
+        "\"Larry Klein\" \"Stereo Review\" membership E.A.T."
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgrqI8DBNjrKJMrjpLhv3gSKEaqYivSoJi5u4rZrCWeKDvuaMxnehQfvz-OG4lDhIJZyx6jejxvof5luTQ5-3Uxa3RL2tclIokcuw2NqaBqdBJEja1T12L0g0s_MH7dnYoqrHtxP_qgtJTTGbntmw=",
+          "title": "scribd.com",
+          "resolvedUri": "https://www.scribd.com/document/969169341/Pop-1958-10"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESPeZuChJYAr0o2teWS4uxoM6lzcu_ysKjJh0SW0qem56TOhurgEu10CMtbrFhu6HMCExBmiR59iCLBrXMZtbIYFqKPrTgJiaXbVC5wF1rVNm9JMNzC_aWjOcOBMWZEhvHlfrYiiE0_ukmCxeOmshbeQ==",
+          "title": "nd.edu",
+          "resolvedUri": "https://archives.nd.edu/observer/1968-03-08_v02_050.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 204,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lawrence \\\"Larry\\\" Klein (1928–2013) was a prominent technical editor and director in the field of high-fidelity (Hi-Fi) audio and consumer electronics."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1220,
+            "endIndex": 1720,
+            "text": "records may also refer to a contemporary designer of the same name.\",\n      \"sources\": [\n        \"https://www.legacy.com/us/obituaries/thejournalnews/name/lawrence-klein-obituary?id=14115162\",\n        \"https://www.strata-gee.com/rip-lawrence-klein-former-technical-director-of-stereo-review-magazine/\",\n        \"https://www.analogplanet.com/content/analog-corner-99\",\n        \"https://www.positive-feedback.com/Issue79/transfiguration_proteus.htm\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

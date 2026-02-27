@@ -11,6 +11,136 @@
         "y1": 8.0,
         "x2": 60.7,
         "y2": 15.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q58824287",
+          "label": "Donald Fleming Squires",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Norma Jean Squires) does not match the Wikidata entity (Donald Fleming Squires). Additionally, the Wikidata entity is male and a marine biologist, whereas the card entry name is typically female and the person is described as an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Norma Jean Squires (also known as Norma-Jean Squires) is a 20th-century American artist primarily active in Southern California. She graduated from The Cooper Union for the Advancement of Science and Art in 1961 (BFA). Squires is known for her work in sculpture, painting, and teaching, often utilizing acrylics and interference (iridescent) colors on wood and paper. Her artistic style frequently involves abstract themes, exploring concepts such as energy, light, and nature, as seen in works like \"Solar Cadence\" (1994), \"Triplicity\" (2009), and \"Synergies\" (2011). Squires has a long exhibition history in Southern California, including a 1975 show titled \"4x8+4x4\" at the Newport Harbor Art Museum and numerous exhibitions at the Orlando Gallery in Tarzana/Sherman Oaks. She has been an active member of the Southern California Women's Caucus for Art (SCWCA) and participated in the 2013 \"Plenty\" exhibition at the CSUN West Gallery. Based on her background as a Cooper Union graduate in the early 1960s and her multidisciplinary practice, she is associated with the era and activities of Experiments in Art and Technology (E.A.T.), a non-profit organization that promoted collaborations between artists and engineers during the late 1960s and 1970s.",
+            "sources": [
+              "https://www.askart.com/artist/Norma-Jean_Squires/11267812/Norma-Jean_Squires.aspx",
+              "https://cooper.edu/sites/default/files/uploads/assets/alumni/publications/Cooper_Union_Alumni_Report_Fall_2008.pdf",
+              "https://www.artworkarchive.com/profile/norma-jean-squires",
+              "http://scwca.org/exhibitions/archive/",
+              "https://www.latimes.com/archives/la-xpm-1994-11-11-ca-61430-story.html",
+              "https://oac.cdlib.org/findaid/ark:/13030/c89k4bdz/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Norma Jean Squires\"",
+            "\"Norma Jean Squires\" exhibition history",
+            "\"Norma Jean Squires\" E.A.T. Experiments in Art and Technology",
+            "\"Norma Jean Squires\" artist E.A.T. directory",
+            "\"Norma Jean Squires\" E.A.T. membership",
+            "\"Norma Jean Squires\" artist biography California 1970s",
+            "\"Norma Jean Squires\" Bell Labs E.A.T.",
+            " \"Squires\"",
+            "\"Norma Jean Squires\" artist profile 1960s 1970s E.A.T.",
+            "",
+            "\"Norma Jean Squires\" \"Playa del Rey\" artist biography",
+            "\"Norma Jean Squires\" E.A.T. newsletter directory",
+            "",
+            "\"Norma Jean Squires\" E.A.T. participant",
+            "\"Norma Jean Squires\" Getty Research Institute E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx8vIzRmuYHcIf1fG1S8vzQhR0V0lG43YE-L4FvJj67ac_eA6-WM0fNfn9eUJv3hXOAcTx9jJUypoaTysT1kdVDKOr4vu4Hckjm21qhKgo9APPfQkg2Qac-ioSsp1U9nUDyC5d491CxIxElXVtij0WyDA=",
+              "title": "artworkarchive.com",
+              "resolvedUri": "https://www.artworkarchive.com/discovery?medium=collage"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzgItyyusO15LFUIQYXrrgv7qgD58NZgNc3aMjCRAEE9XLSDnQ0PgMhQjFIbiRmwjw-oWv8_7wBwaPVJndWN9SZfhCSkI7O_kqDjKM6sVThuvzLsedg8Io3DKtUwHXLJNQxxonLhSnNkIUHn4UkhYdNLvjEjlfLLtAOdTey83FsA==",
+              "title": "newportbeachlibrary.org",
+              "resolvedUri": "https://archive.newportbeachlibrary.org/NBPL/0/doc/1229590/Page4.aspx"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEkkaEMOgSRzF519C4ZmSQBG1hPwuJraHNG2lM_payPx_UTdjZttsh-pYbDUQJyBuFnJY-QDHm_CDRxpBUomUAV58GuEC1zryVXPWyKND-F-uWitl_fkOJuuZ7GgleROwNnNxPi_x53RGsR8EKW7iLptYE25vnNvuhFdqj91U9",
+              "title": "newportbeachlibrary.org",
+              "resolvedUri": "https://archive.newportbeachlibrary.org/NBPL/0/doc/1229590/Page4.aspx"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG79L_F27OYVtXnX_orQKjXn_D0LXuSnIbp9YC-0NX5kW9ZztT1eQIzH3vjx1mTJtzAmJ4-hdk7YhGtWtdPSkYdO0J6Mvhs3pZejZvJKXYKCRJ7cRD9NvJQzePth_nLchyiLSBSZm6LYTvDZSm4ADCdVi-L_T_8wPYjdIRNIXS0WQ==",
+              "title": "latimes.com",
+              "resolvedUri": "https://www.latimes.com/archives/la-xpm-1993-04-11-ca-21753-story.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZk_9ZtFwpgs1vgQL23NMqqsBFbrZfpqZSWYhRTax6yee82mHcRGd2hZDE7khETTENcn45gzdEJq1ZDMk_16T9-QImMvaMXDRHVn4nBPeeNSEdy-56-L3yhhW9qNiJp9R7hoBJaTmdprRc2sauQZxPA6DyeKEknfP-DBQnhb0X9EdJQw==",
+              "title": "santaclaritaarts.com",
+              "resolvedUri": "https://santaclaritaarts.com/category/galleries/past-exhibitions/page/25/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE06Jeh9vWpEkAx4WN55zbzYNRDoAzguEFI9gXLVdHRTJR8ipZeHOaIy7A40iG-AS6CKbR6p69eHtkLENmfARqfitPIYEWS6APPwgUAxyzQKng5JjwXldV1aygeUnxIPFzeP6ZGW_b44HPvCiY=",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac.cdlib.org/findaid/ark:/13030/c8j67m30/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU5IQcyKk3lsgyatF2oAH6bTsGH6NxBv70VWOgh3HdhEKRAJi1XGzmi1ZTQDha6JU2JqMcZdH96KnMYLAenrUYsKFkoUBMQccjjKtJHTUu7fagyMTsef-H7WQGRbRq1zqob3RkLKkRDEtEE58KqeVesJbQ3xC-Z--UFIUoROufZY_h7SqnfWuE",
+              "title": "cooper.edu",
+              "resolvedUri": "https://cooper.edu/sites/default/files/uploads/assets/site/files/ACUSum09.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHORxF-wrtxa7wr2YAYuK1v5lWXxs1AhdRADHxnn5yfMrp3a3lCGD9d2JdwxTCrGmhYPDnKAOIuFA7vxwKzMl3SAddDMsu4OTba5eYKlI105kEab3NDkW5EZJWDacbB8BxYmEGJK9kRPDLCWRrnWEvSLztN75qSshm6qdFuscLOSVoBTck_uv7-",
+              "title": "cooper.edu",
+              "resolvedUri": "https://cooper.edu/sites/default/files/uploads/assets/site/files/ACUSum09.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEl3a_Rs14MMEd_XYL1Igwj4q6XZD_Wu21I3H56RsOG0O2FDQDAv7ounvKUBHb1bXWYifNb3mXaXmkWymHII1uo4EiqyEyjIbQ5PJAQX4_sEoK8A7LHfkbyI-ea9ClZ672LFrEYoF3vsrTLn92t87pg-QkpDQDf9zmKH-2bqVTgg==",
+              "title": "newportbeachlibrary.org",
+              "resolvedUri": "https://archive.newportbeachlibrary.org/NBPL/0/doc/1229590/Page4.aspx"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1Wt_0oz7XPZiClz5QEVWyhPK190AZtjhgh4Ug458nniy0uWT9KLR-MiijJHTnEyI4fSAqf-DTEPfLCk6LO1Z6TcU837LDY8FMgSE5LGBHKdZL-tWckBrGMLthGTrOxPHPYsbqzPULldQcp1cIEA1gzDmWENFF0YrtbzCk1dDOeQ==",
+              "title": "newportbeachlibrary.org",
+              "resolvedUri": "https://archive.newportbeachlibrary.org/NBPL/0/doc/1229590/Page4.aspx"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 178,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Norma Jean Squires (also known as Norma-Jean Squires) is a 20th-century American artist primarily active in Southern California."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 999,
+                "endIndex": 1869,
+                "text": "Based on her background as a Cooper Union graduate in the early 1960s and her multidisciplinary practice, she is associated with the era and activities of Experiments in Art and Technology (E.A.T.), a non-profit organization that promoted collaborations between artists and engineers during the late 1960s and 1970s.\",\n      \"sources\": [\n        \"https://www.askart.com/artist/Norma-Jean_Squires/11267812/Norma-Jean_Squires.aspx\",\n        \"https://cooper.edu/sites/default/files/uploads/assets/alumni/publications/Cooper_Union_Alumni_Report_Fall_2008.pdf\",\n        \"https://www.artworkarchive.com/profile/norma-jean-squires\",\n        \"http://scwca.org/exhibitions/archive/\",\n        \"https://www.latimes.com/archives/la-xpm-1994-11-11-ca-61430-story.html\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/c89k4bdz/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3,
+                4,
+                5,
+                2,
+                1,
+                6,
+                7,
+                8,
+                9,
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +154,53 @@
         "y1": 15.7,
         "x2": 50.7,
         "y2": 22.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q822346",
+          "label": "Bernard Childs",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly and the Wikidata entity describes a prominent American artist (painter and printmaker) who was active during the late 1960s and early 1970s, aligning perfectly with the provided context."
+        },
+        {
+          "qid": "Q21078956",
+          "label": "Charles Bernard Childs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Charles Bernard Childs) died in 1956, which contradicts the context that the Bernard Childs on the card was active in the late 1960s and early 1970s. Furthermore, the Wikidata entity was a physicist and teacher, not an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bernard Childs (1910–1985) was an influential American painter, printmaker, and sculptor who was active in both Paris and New York. He is particularly recognized for his pioneering integration of industrial technology into the fine arts, most notably through his development of \"power drypoints\"—a technique where he used electric power tools to engrave metal plates for printmaking. In the late 1960s and early 1970s, Childs expanded his experimentation into the realm of light and three-dimensional form, creating \"light sculptures\" (also known as kinetic light sculptures). These works consisted of engraved acrylic sheets or blocks that were illuminated from below to explore the interplay of line, space, and color. His work from this period was featured in a major retrospective at the Storm King Art Center in 1969. Childs' focus on the intersection of art and technology aligns with the goals of the Experiments in Art and Technology (E.A.T.) organization, and his name appears in historical archives and literature alongside other tech-forward artists and E.A.T. activities. He spent much of his later career commuting between his studios in Paris and the Hotel Chelsea in New York.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Bernard_Childs",
+              "https://www.annexgalleries.com/artists/biography/415/Childs/Bernard",
+              "https://whitney.org/artists/241",
+              "https://www.invaluable.com/artist/childs-bernard-u168o6z3b3/sold-at-auction-prices/",
+              "https://www.meer.com/en/25842-bernard-childs",
+              "https://americanart.si.edu/artist/bernard-childs-854"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bernard Childs printmaker painter",
+            "Bernard Childs obituary or biography",
+            "Bernard Childs artist late 1960s 1970s",
+            "Bernard Childs artist biography E.A.T. Experiments in Art and Technology",
+            "\"Bernard Childs\" E.A.T. artist",
+            "\"Bernard Childs\" \"Experiments in Art and Technology\"",
+            "\"Bernard Childs\" tech art 1960s 1970s",
+            "\"Bernard Childs\" light sculpture E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

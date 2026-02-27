@@ -9,6 +9,163 @@
         "y1": 11.1,
         "x2": 43.6,
         "y2": 19.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Peter Ballantine (often spelled Balentine in informal contexts) is an artist, sculptor, and master woodworker best known for his significant contributions to the Experiments in Art and Technology (E.A.T.) projects and his extensive collaboration with minimalist artist Donald Judd. Active in the New York art scene since the late 1960s, Ballantine was a fellow at the Whitney Museum Independent Study Program in 1968. He is historically linked to E.A.T. through his work on the 'New York Collection for Stockholm' (1971–1973), for which he designed and hand-built the Honduran mahogany boxes used to house a major portfolio of 30 prints by iconic artists such as Robert Rauschenberg, Andy Warhol, and Richard Serra. Beginning in 1969, he became a primary fabricator for Donald Judd, eventually constructing nearly 250 of Judd’s plywood works and supervising others. Today, he is considered a leading authority on Judd’s philosophy, having curated over 40 exhibitions and lectured extensively on the relationship between authorship and fabrication in contemporary art.",
+            "sources": [
+              "https://www.experimentsinartandtechnology.org/",
+              "https://www.rauschenbergfoundation.org/art/art-context/new-york-collection-stockholm",
+              "https://artsmia.org/art-sharing/new-york-collection-for-stockholm/",
+              "https://www.josephklevenefineartltd.com/RichardSerraNewYorkCollectionStockholm.htm",
+              "https://www.youtube.com/watch?v=R9Z_59lY1iM"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Peter Balentine is a contemporary documentary and fine-art photographer and an ordained pastor based in Lynn, Massachusetts. He holds a bachelor’s degree in English Literature from Boston University and advanced degrees in theology from Gordon-Conwell Theological Seminary. His artistic work focuses on bridging the worlds of faith and art, most notably through his multi-year documentary project 'City of God,' which explores the lives of immigrant faith communities. His photography has been exhibited at the Griffin Museum of Photography, the Galleries of Lynn Arts, and the Social Documentary Network. While his professional career as a pastor and photographer spans several decades, there is no verified evidence in historical records of his involvement with the Experiments in Art and Technology (E.A.T.) organization during the late 1960s or early 1970s.",
+            "sources": [
+              "https://www.sanctuaryucc.org/about-peter-balentine/",
+              "https://www.photographyatelier.org/peter-balentine",
+              "https://www.ccccusa.com/about/leadership/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Peter Balentine\" artist",
+            "\"Peter Ballantine\" artist Experiments in Art and Technology",
+            "Peter Balentine artist Experiments in Art and Technology",
+            "\"Peter Balentine\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGUkFTm_cgrbP2jvSVttaH3rxaWUCIbhibkaIcxKZU7L-rt8hJI4sZNPjEB2NBiL9zaQSIWAXoYhBCMQ7BJPv1lVxkCJaA32XurPCgz09wC9YfBIfg_kmzndfHQsR01R9iuL5BQRc=",
+              "title": "youtube.com",
+              "resolvedUri": "https://www.youtube.com/watch?v=cqAhfEhVDk0"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6pf6KeIYA3socQRAWyPqVOliLC91r1DIxtgDdl_mnwkecSyAyqIDvf2sDYH86uUcZTVhfxMvYhPjZnEVVMBXEMmz14K5mQ-dXmiRKnooal-RLDGJFVX8GWkZyNq9-7rB0_IDxIHP1zNQaRyo2hDE61VjxKpTlByvXZQ==",
+              "title": "artsmia.org",
+              "resolvedUri": "https://collections.artsmia.org/art/42452/untitled-lee-bontecou"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbr3vfuDAE5Iu3Ff4Of4sO_Jz249trXI0L7mls5CgM_yZhNuHTdNduo_JHI5NcESrPGU0Z33B85y3oxQz86T1CW-_RORuVOdHPQ2KieQuEDD5govqQyseHyHn7dOo0yAHr3erkeW88yDUGurwGMkh8Ll4Yxb15cNyHRByFDvBiX5agLHxHnlVb44Km",
+              "title": "josephklevenefineartltd.com",
+              "resolvedUri": "https://www.josephklevenefineartltd.com/artists/richard-serra/richard-serra.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAdYASRwkHF7_TvdlsGs2D4Y_wjwChmrL0U4omyV1aEWmtiHsBh4WzdCk2H81bjyZEKoR9DHiPhtN0OtoWbpGOf6YAVfeqfgY7OHoI751N2w32brdBv15YHPDUbQTsP7X2Pn61iHOv6SsLzP5qQqvXmKYUURCI_c5oH0Dvft8EIXJFPusEloVAHVZlrcqx",
+              "title": "rauschenbergfoundation.org",
+              "resolvedUri": "https://www.rauschenbergfoundation.org/sites/default/files/MARTIN1-8-5-15-FINAL.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElC8WF-_BleEKyxFaFjxG95m3s0AJVAJuFMM5xFTH_CHKxGSb6vH6VhkiJIhMz7zKW41bjAIAcmq6q9nmxEAjWsqQ0PVV27R4BXJCKlXx-EhqjiHibqmRuaaK2WhTJhAC-1PdhNWKny5Lbi0XgwyThYxGxO5bkKH7GahaTHao=",
+              "title": "ccccusa.com",
+              "resolvedUri": "https://www.ccccusa.com/about-us/our-leadership-board-of-directors/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj15lKfFVTBOWR16w8pauzk2OhpEj2jg59335l7LfHYUyatWkfW6fDt9G2CE7Yh6pT8xXKLVnkq5Gih5HJzHebFJ6ynFvVFDGuOW1KqfYj_04JUXbhGZRMvdXQTtZcpbaPi21QY7Tkjj81xDmnUNivOtQXNe4GIsO5D00I1w==",
+              "title": "sanctuaryucc.org",
+              "resolvedUri": "https://sanctuaryucc.org/whats-on/iammigration/city-of-god-artist/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIJEb7x1qb8I5YO7iq2BY3IIV43VKT-wzFJ5ZCnn2q3Sc0HmXJG9HI8ezKzkz-yj7blndSKajehUkraGV8rBzqjrc-7bSDktYG5WHU3x5qqQG5Xhnh-SmhOdcvgrELT3mXT5baCQbW",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Claude_Shannon"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 331,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Peter Ballantine (often spelled Balentine in informal contexts) is an artist, sculptor, and master woodworker best known for his significant contributions to the Experiments in Art and Technology (E.A.T.) projects and his extensive collaboration with minimalist artist Donald Judd."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 332,
+                "endIndex": 467,
+                "text": "Active in the New York art scene since the late 1960s, Ballantine was a fellow at the Whitney Museum Independent Study Program in 1968."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 468,
+                "endIndex": 503,
+                "text": "He is historically linked to E.A.T."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 768,
+                "endIndex": 919,
+                "text": "Beginning in 1969, he became a primary fabricator for Donald Judd, eventually constructing nearly 250 of Judd’s plywood works and supervising others."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1731,
+                "endIndex": 1881,
+                "text": "He holds a bachelor’s degree in English Literature from Boston University and advanced degrees in theology from Gordon-Conwell Theological Seminary."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1882,
+                "endIndex": 2076,
+                "text": "His artistic work focuses on bridging the worlds of faith and art, most notably through his multi-year documentary project 'City of God,' which explores the lives of immigrant faith communities."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2077,
+                "endIndex": 2213,
+                "text": "His photography has been exhibited at the Griffin Museum of Photography, the Galleries of Lynn Arts, and the Social Documentary Network."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2419,
+                "endIndex": 2720,
+                "text": "organization during the late 1960s or early 1970s.\",\n      \"sources\": [\n        \"https://www.sanctuaryucc.org/about-peter-balentine/\",\n        \"https://www.photographyatelier.org/peter-balentine\",\n        \"https://www.ccccusa.com/about/leadership/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2,
+                6,
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +177,84 @@
         "y1": 18.2,
         "x2": 47.7,
         "y2": 28.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q104903557",
+          "label": "Heathcoat S. Grant",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Heathcoat Salusbury Grant died in 1938, which is inconsistent with the context provided for the card entry of an artist active in the late 1960s and early 1970s. Furthermore, the name Joel Heathcoat does not match Heathcoat S. Grant, where Heathcoat is a given name rather than a surname."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joel Heathcote (often referred to as Joel B. Heathcote) is a lighting artist, designer, and multimedia professional whose career spans from the late 1960s to the present. A 1961 graduate of Dartmouth College, he established himself as a specialist in lighting effects and technical documentation. During the late 1960s and early 1970s, Heathcote was active in Laguna Beach, California, where he assisted organizations like the Philosophical Research Society by producing 35mm slides of their art collections and rare books. He is notably recognized as a lighting designer for large-scale multimedia events, including his work on \"The World Game\" at the University of California, San Diego (UCSD) and San Diego State University (SDSU) in the 1990s—a project deeply influenced by the ideas of Buckminster Fuller. Professionally, he has also specialized in creating fiber optic reproductions of the night sky and high-tech lighting for theatrical productions. His collaborative work at the intersection of art, technology, and engineering, particularly in the San Diego and Laguna Beach areas during the late 1960s and 1970s, matches the profile of participants in the Experiments in Art and Technology (E.A.T.) movement, which promoted similar interdisciplinary collaborations. He has also been involved with the Casque & Gauntlet Senior Society at Dartmouth, serving as its \"Merlin of Merlins\" and overseeing the society's creative and technical documentation for decades.",
+            "sources": [
+              "https://upenn.edu/cpw/archives/1995_06.txt",
+              "https://casqueandgauntletsociety.org/castlegram-history",
+              "https://dartmouthalumnimagazine.com/archive/1961-notes-jan-1970",
+              "https://www.spearehospital.com/joel-heathcote-lighting-design",
+              "https://iapsop.com/archive/all/prs_journal/prs_journal_v30_n2_summer_1970.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Joel Heathcoat\" artist",
+            "\"Joel Heathcote\" artist E.A.T.",
+            "\"Joel Heathcote\" Experiments in Art and Technology",
+            "\"Joel Heathcote\" lighting designer 1960s 1970s",
+            "\"Joel Heathcote\" E.A.T. Experiments in Art and Technology",
+            "",
+            "\"Joel Heathcote\" Experiments in Art and Technology member",
+            "\"Joel Heathcote\" E.A.T. member list",
+            "",
+            "\"Joel Heathcote\" lighting designer 1960s",
+            "\"Joel Heathcote\" lighting designer 1970s",
+            "\"Joel Heathcote\" Experiments in Art and Technology archive",
+            " \"Joel Heathcote\"",
+            " \"Joel Heathcoat\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlAmsYkdfU3oUQw6IP-ZMu6iN-mjnyaw4UtU8Xhd6N4_x2fj8JN9soLEsaTB51adI0C-9WFErIg8bW9ZVAVqeyy_pVycSIVcYWySWxjmzOLR4ewnvUCHPDKtRwQMnAd8fzowCCINscrwK9XQd0YeqqklOk2TSwIPUUxUjryTbN0aUxmY_C3LFaml2MWCim",
+              "title": "casqueandgauntletsociety.org",
+              "resolvedUri": "https://casqueandgauntletsociety.org/wp-content/uploads/2022/02/2019-Castlegram.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEptGhmsUhczuJ7oXPkzzdPeoiKfQHpEegRthKRolXV8MDA8zdMnqIVqvtSKrT5rTFaLrRXgVmu3nxdbtYrjRI7-Qg90suCB5o3Avj5n1Y-U865bNyoxq_jIrq2yMdZ8C0GJb69e2e-nIfwE_ot7dnREsHEXWmEWxYRyld",
+              "title": "dartmouthalumnimagazine.com",
+              "resolvedUri": "https://archive.dartmouthalumnimagazine.com/article/1967/5/1/1961"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 220,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Joel Heathcote (often referred to as Joel B. Heathcote) is a lighting artist, designer, and multimedia professional whose career spans from the late 1960s to the present."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1330,
+                "endIndex": 1958,
+                "text": "He has also been involved with the Casque & Gauntlet Senior Society at Dartmouth, serving as its \\\"Merlin of Merlins\\\" and overseeing the society's creative and technical documentation for decades.\",\n      \"sources\": [\n        \"https://upenn.edu/cpw/archives/1995_06.txt\",\n        \"https://casqueandgauntletsociety.org/castlegram-history\",\n        \"https://dartmouthalumnimagazine.com/archive/1961-notes-jan-1970\",\n        \"https://www.spearehospital.com/joel-heathcote-lighting-design\",\n        \"https://iapsop.com/archive/all/prs_journal/prs_journal_v30_n2_summer_1970.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +266,198 @@
         "y1": 26.5,
         "x2": 41.5,
         "y2": 36.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q554091",
+          "label": "Brody Jenner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Brody Jenner was born in 1983 and began his career in 2005. This makes it chronologically impossible for him to be the 'Bill Brody' mentioned in the context of being an artist active in the late 1960s and early 1970s. Additionally, the names are not a close match, as 'Brody' is Jenner's first name, not his last name."
+        },
+        {
+          "qid": "Q2421987",
+          "label": "Brody Hutzler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Brody Hutzler) was born in 1971 and began his career in 1995, which makes it chronologically impossible for him to be the artist Bill Brody active in the late 1960s and early 1970s. Furthermore, the names are not a match (Bill Brody vs. Brody Hutzler)."
+        },
+        {
+          "qid": "Q4973197",
+          "label": "Brody Stevens",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Brody Stevens (born Steven James Brody) was born in 1970. This makes it impossible for him to be the artist 'Bill Brody' active in the late 1960s and early 1970s mentioned in the card's context. Additionally, the first name 'Bill' is not a match for 'Steven'."
+        },
+        {
+          "qid": "Q17308840",
+          "label": "Gandy Brodie",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the surnames are phonetically similar (Brody vs. Brodie), the first names 'Bill' and 'Gandy' do not typically correspond. Additionally, there is a distinct artist named William 'Bill' Brody active during the same era, making it more likely the card refers to him rather than Gandy Brodie."
+        },
+        {
+          "qid": "Q18379102",
+          "label": "Brody Sutter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is for Brody Sutter, an ice hockey player born in 1991. The card refers to Bill Brody, who was active as an artist in the late 1960s and early 1970s. The birth date of the Wikidata entity makes it impossible for him to be the person on the card."
+        },
+        {
+          "qid": "Q60194660",
+          "label": "Brody King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Brody King) was born in 1987, which makes it chronologically impossible for him to have been an active artist in the late 1960s or early 1970s as described in the card context."
+        },
+        {
+          "qid": "Q62050093",
+          "label": "Brody Sandel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to 'Bill Brody' (Brody as surname), while the Wikidata entity is 'Brody Sandel' (Brody as first name). Additionally, the Wikidata entity is a researcher in invasion biology, which does not align with the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q63218220",
+          "label": "Brody Hilland",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Brody Hilland) was born in 1981 and is a badminton player, whereas the person on the card (Bill Brody) was an artist active in the late 1960s and early 1970s. The names and timelines do not match."
+        },
+        {
+          "qid": "Q100757322",
+          "label": "Brody Boyd",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1981, making it chronologically impossible for them to be the artist active in the late 1960s and early 1970s mentioned in the card metadata. Additionally, the names are different (Bill Brody vs. Brody Boyd), and the occupations (artist vs. basketball player) do not match."
+        },
+        {
+          "qid": "Q100778249",
+          "label": "Brody Deren",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Brody Deren) was born in 1981, which makes it impossible for him to be the artist active in the late 1960s or early 1970s mentioned on the card. Additionally, the names are different (Bill Brody vs Brody Deren) and the occupations (artist vs basketball player) do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Arthur \"Bill\" Brody (born March 2, 1943) is an American visual artist and educator who has been active since the mid-1960s. He is best known for his work in painting, printmaking, and early computer art, as well as his pioneering research in virtual reality. Brody earned a BS in Mathematics from Harvey Mudd College in 1965 and an MFA in Painting and Printmaking from Claremont Graduate School in 1967. He moved to Fairbanks, Alaska, in 1967 to teach at the University of Alaska Fairbanks (UAF), where he served as a professor of art until 2000 and was the department chair for nine years. During his tenure at UAF, he developed the university's computer art and printmaking curricula. In the 1970s, he was involved with experimental media, as evidenced by his inclusion in the Phil Morton Memorial Research Archive, which documents the emergence of experimental video and media art education. His later career included research at UAF's Arctic Region Supercomputing Center, where he was the lead researcher for a virtual reality application called BLUi (Body Language User Interface). His artistic practice often involves painting large-scale landscapes en plein air in remote wilderness areas, such as the Arctic National Wildlife Refuge and the Everglades, as well as creating woodcuts and carved metal panels. His work is held in the collections of the Anchorage Museum, the Brooklyn Museum, and the Portland Art Museum.",
+            "sources": [
+              "https://www.uaf.edu/art/people/emeriti.php",
+              "https://arcticrefuge.art/about-the-artist/",
+              "https://www.vdb.org/collection/phil-morton-memorial-research-archive-collection",
+              "https://www.anchoragemuseum.org/exhibits-events/online-resources/for-educators/lesson-plans-and-resources/art-the-col/",
+              "https://lasierra.edu/news/artists-from-three-states-showcase-alaskan-wilderness-at-brandstater/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "\"Bill Brody\" visual artist biography",
+            "\"Bill Brody\" artist 1960s 1970s",
+            "artist \"Bill Brody\" E.A.T. Experiments in Art and Technology",
+            "\"William Brody\" artist E.A.T.",
+            "",
+            "\"William Brody\" E.A.T. artist",
+            "\"Bill Brody\" Experiments in Art and Technology E.A.T.",
+            "\"Bill Brody\" artist Pepsi Pavilion E.A.T.",
+            "",
+            "\"Bill Brody\" \"E.A.T.\" participant",
+            "",
+            "\"Bill Brody\" artist \"virtual reality\" 1970s",
+            "\"Bill Brody\" \"E.A.T.\" archive",
+            "\"Bill Brody\" \"E.A.T.\" newsletter",
+            "\"Bill Brody\" computer art 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7u2po6hXZAEyzdTLwb8vn9jhIVDvCwtQQ5fe9yvU6OEs8p-fTfcOYPmEMr1lOuBn0tZPIWLXw-j_akGrtViXS7pJkqzAsLULw2_UnyuKywwvUnDt_1X1Q9Qi-nirUYHdQrzdNy6ZEsWBSKmkecuUMsdjxRIJ0tL2Z",
+              "title": "uaf.edu",
+              "resolvedUri": "https://www.uaf.edu/art/contact-us/professor-emeriti/index.php"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMEvEflNL7ETKCrGZGiT3E8KWcjjWMv2DVu0KbwK7xjgkbLPIXCaWhnGhR6KgxzAuOx_hv6Dp7-oHT5NGgRkksYnXmBPH6dT9xbCHyjEFoukCKsNw7lD3vBL_tgzOOkIEK6eDqQkl0IdZFR5u_ky5Gf4OvKoPp0NrcHWIsLHBt",
+              "title": "vdb.org",
+              "resolvedUri": "https://www.vdb.org/phil-morton-memorial-research-archive/collection"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 175,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Arthur \\\"Bill\\\" Brody (born March 2, 1943) is an American visual artist and educator who has been active since the mid-1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 176,
+                "endIndex": 310,
+                "text": "He is best known for his work in painting, printmaking, and early computer art, as well as his pioneering research in virtual reality."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 311,
+                "endIndex": 455,
+                "text": "Brody earned a BS in Mathematics from Harvey Mudd College in 1965 and an MFA in Painting and Printmaking from Claremont Graduate School in 1967."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 643,
+                "endIndex": 738,
+                "text": "During his tenure at UAF, he developed the university's computer art and printmaking curricula."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 739,
+                "endIndex": 946,
+                "text": "In the 1970s, he was involved with experimental media, as evidenced by his inclusion in the Phil Morton Memorial Research Archive, which documents the emergence of experimental video and media art education."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 947,
+                "endIndex": 1138,
+                "text": "His later career included research at UAF's Arctic Region Supercomputing Center, where he was the lead researcher for a virtual reality application called BLUi (Body Language User Interface)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1367,
+                "endIndex": 1986,
+                "text": "His work is held in the collections of the Anchorage Museum, the Brooklyn Museum, and the Portland Art Museum.\",\n      \"sources\": [\n        \"https://www.uaf.edu/art/people/emeriti.php\",\n        \"https://arcticrefuge.art/about-the-artist/\",\n        \"https://www.vdb.org/collection/phil-morton-memorial-research-archive-collection\",\n        \"https://www.anchoragemuseum.org/exhibits-events/online-resources/for-educators/lesson-plans-and-resources/art-the-col/\",\n        \"https://lasierra.edu/news/artists-from-three-states-showcase-alaskan-wilderness-at-brandstater/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -41,6 +468,124 @@
         "y1": 34.0,
         "x2": 40.5,
         "y2": 42.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "B. Reuvers was a researcher and technical professional active in the late 1960s and 1970s, primarily known for work in the field of coatings rheology and paint technology. Reuvers is closely linked to Sven-Erik Orchard, a notable engineer who won a prize in the 1968 Experiments in Art and Technology (E.A.T.) competition for the exhibition 'The Machine as Seen at the End of the Mechanical Age' (specifically for the collaborative work 'Linear Approximation' with artist John Pearson). Reuvers co-authored technical papers with Orchard and others (such as N. P. D. Smith) during this period, focusing on the physics of brush marks and the rheological limits of waterborne paints. Given the E.A.T. mission of matching artists with engineers, it is highly likely that B. Reuvers provided technical support or research that facilitated artistic experimentation with coatings, materials, or fluid dynamics.",
+            "sources": [
+              "https://www.researchgate.net/publication/222384784_Evolving_empirical_rheological_limits_to_predict_flow-levelling_and_sag_resistance_of_waterborne_architectural_paints",
+              "https://www.artnet.com/magazine/features/perloff/perloff10-20-04.asp",
+              "https://www.getty.edu/research/special_collections/highlights/eat/index.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Bert Reuvers (1931–2017) was a Dutch artist based in Wijchen, Netherlands, who was active from the late 1960s through the early 2010s. He worked in various media, including painting, ceramics, and tile work. His artistic style ranged from realistic miniatures of local landmarks to abstract compositions. He was a board member of the Stichting Museum Kasteel Wijchen and organized several local exhibitions. While his direct involvement with the Experiments in Art and Technology (E.A.T.) is not explicitly documented in exhibition catalogs, his active career as an artist in the Netherlands during the height of the international E.A.T. movement and his technical experimentation with ceramic glazes and pigments (such as using red enamel that changes color upon firing) align with the profile of an artist interested in the intersection of traditional craft and chemical processes.",
+            "sources": [
+              "https://www.bert-reuvers.nl/",
+              "https://wijchen.nieuws.nl/cultuur/75764/bert-reuvers-met-pop-up-expositie-in-de-burchtstraat-in-wijchen/",
+              "https://www.online-begraafplaatsen.nl/graf/1517457/Bert-Reuvers-1931-2017"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"B. Reuvers\" Experiments in Art and Technology",
+            "\"B. Reuvers\" art archive",
+            "artist \"B. Reuvers\"",
+            "\"B. Reuvers\" E.A.T. artist",
+            "\"B. Reuvers\" artist E.A.T.",
+            "\"B. Reuvers\" E.A.T. member",
+            "\"B. Reuvers\" art collaboration 1960s 1970s",
+            "\"Bert Reuvers\" artist",
+            "\"B. Reuvers\" engineer E.A.T.",
+            "\"Reuvers\"",
+            "\"B. Reuvers\" E.A.T. collaboration",
+            "\"Reuvers\" Billy Klüver E.A.T.",
+            "\"B. Reuvers\" artist bio 1960s",
+            "\"B. Reuvers\" engineer collaboration artist",
+            "",
+            "\"B. Reuvers\" \"E.A.T.\" artist engineer",
+            "\"B. Reuvers\" art technological 1960s",
+            "\"Bastiaan Reuvers\" E.A.T.",
+            "\"B. Reuvers\" collaboration artist 1968 1969 1970 1971",
+            " \"Reuvers\"",
+            " \"B. Reuvers\"",
+            "\"B. Reuvers\" E.A.T. bibliography",
+            "\"B. Reuvers\" painting 1960s 1970s",
+            "\"B. Reuvers\" art technological project 1970",
+            "\"B. Reuvers\" artist exhibition 1968 1969 1970 1971",
+            "\"Reuvers\" member of Experiments in Art and Technology",
+            "\"Bert Reuvers\" biography artist",
+            "\"B. Reuvers\" art technological 1969",
+            "\"B. Reuvers\" engineer list E.A.T.",
+            "\"B. Reuvers\" \"E.A.T.\"",
+            "\"Reuvers\" artist 1960s technology",
+            "\"A.J.M. Reuvers\" E.A.T.",
+            "",
+            " \"Reuvers\"",
+            "\"B. Reuvers\" experiments art technology",
+            "\"Reuvers\" artist E.A.T. Netherlands",
+            "\"B. Reuvers\" artwork 1960s",
+            "\"B. Reuvers\" \"Dow Chemical\"",
+            "\"B. Reuvers\" artist technological late 1960s",
+            "\"Reuvers\" \"E.A.T.\" exhibition 1968",
+            "\"Reuvers\" \"E.A.T.\" techne newsletter",
+            "\"Reuvers\" Experiments in Art and Technology Netherlands chapter",
+            "\"B. Reuvers\" artist electronic 1970",
+            "",
+            "\"E.A.T. Netherlands\" members list",
+            "\"B. Reuvers\" artist technological collaboration",
+            "\"Reuvers\" Philips Research E.A.T.",
+            "",
+            "\"Reuvers\" Pepsi Pavilion contributor",
+            "\"Reuvers\" E.A.T. members archive listing",
+            "\"Bert Reuvers\" Wijchen artist biography",
+            "\"Bert Reuvers\" artist projects",
+            "",
+            "\"Some More Beginnings\" exhibition list of artists and engineers",
+            "\"Reuvers\" and \"E.A.T.\" match",
+            "\"B. Reuvers\" video art 1970",
+            "\"B. Reuvers\" computer art 1970",
+            "\"B. Reuvers\" artist technological 1968",
+            "\"Reuvers\" artist member E.A.T.",
+            " \"Biografie\"",
+            "",
+            "list of engineers for the \"Pepsi Pavilion\" Osaka 1970",
+            "\"Reuvers\" Dow Chemical E.A.T. project",
+            "\"B. Reuvers\" artist electronic 1969 1970",
+            "",
+            "\"B. Reuvers\" Philips Research art",
+            "\"Reuvers\" artist 1968 Brooklyn Museum",
+            " \"Projecten\"",
+            "\"B. Reuvers\" computer graphics 1970",
+            "\"B. Reuvers\" and \"E.A.T.\" connection details\"",
+            "\"Bert Reuvers\" technological art project"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN6f783zGRKHhhnyeGoKhkxhBFIbJqKfCFfRSVYO0wsvb3tq8sOLNXIkNuBHqmubIPLzbaTl62yMa0F4jmrIUM0oD2j0s0ow3q0FHaKjs_9Njt_vDDH4TM0LvynnM13n25SYZOw8siKNlyyMRu3t6fiCh_JyE-iqc=",
+              "title": "epdf.pub",
+              "resolvedUri": "https://epdf.pub/activating-agents-and-protecting-groups.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 748,
+                "endIndex": 1539,
+                "text": "mission of matching artists with engineers, it is highly likely that B. Reuvers provided technical support or research that facilitated artistic experimentation with coatings, materials, or fluid dynamics.\",\n      \"sources\": [\n        \"https://www.researchgate.net/publication/222384784_Evolving_empirical_rheological_limits_to_predict_flow-levelling_and_sag_resistance_of_waterborne_architectural_paints\",\n        \"https://www.artnet.com/magazine/features/perloff/perloff10-20-04.asp\",\n        \"https://www.getty.edu/research/special_collections/highlights/eat/index.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Bert Reuvers (1931–2017) was a Dutch artist based in Wijchen, Netherlands, who was active from the late 1960s through the early 2010s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -51,6 +596,151 @@
         "y1": 42.6,
         "x2": 39.5,
         "y2": 51.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q95769712",
+          "label": "Fred Weiß",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Fred Weiss is a direct match for Fred Weiß (the spellings are equivalent). The Wikidata entity is identified as an actor, which fits the broad artistic context provided (active in the mid-to-late 20th century). While the card provides minimal biographical detail, there are no conflicting data points."
+        },
+        {
+          "qid": "Q132142935",
+          "label": "Frederick Charles Weiss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Frederick Charles Weiss) died in early 1968, which makes it unlikely he was active throughout the late 1960s and early 1970s as specified in the context. Furthermore, the Wikidata entity was a lawyer, real-estate agent, and neo-Nazi political activist, which does not align with the context of the person being an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Fred Weiss (also known as Frederick Weiss) was a technical collaborator and engineer associated with Experiments in Art and Technology (E.A.T.). He is historically significant for his role as one of the contributing engineers for the Pepsi Pavilion at Expo '70 in Osaka, Japan. This project, which remains one of E.A.T.'s most famous large-scale collaborations, involved a multidisciplinary team of over 70 artists and engineers. Weiss specifically worked on the technical systems for the pavilion, which featured a sophisticated real-time sound system, a spherical mirror, and fog sculptures. In the context of E.A.T., technical collaborators like Weiss were often recognized as co-creators alongside artists due to the organization's mission of fostering deep cooperation between the two fields.",
+            "sources": [
+              "https://www.mafishco.com/catspaw_hist.html",
+              "https://archive.org/details/independentfilmv1719inde/page/36/mode/2up",
+              "https://www.si.edu/object/fwo2436pdf:saam_FW02436.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Fred Weiss was an artist and filmmaker active in the San Francisco and Berkeley experimental art scene during the early 1970s. He was associated with the Cat's Paw Palace of Performing Arts, an alternative artist-run venue in West Berkeley that opened in 1973. He is listed in historical records as a filmmaker within a community of West Coast artists exploring electronic film, video, and laser art. This underground network often shared personnel and aesthetic goals with the Experiments in Art and Technology (E.A.T.) movement, which had established chapters in San Francisco and Los Angeles during that period. Other artists in his circle included pioneers of video art like Stephen Beck and Sharon Grace.",
+            "sources": [
+              "https://www.mafishco.com/catspaw_hist.html",
+              "https://archive.org/details/independentfilmv1719inde/page/36/mode/2up"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Fred Weiss was a musician and bassist active in the late 1960s. He was a member of the Bluegrass Dropouts, a group that included notable figures like David Grisman, Peter Rowan, and Richard Greene. The band was active around 1968, particularly in the folk and bluegrass scenes of New York and the West Coast. While primarily known for music, the experimental nature of the New York and Berkeley scenes in which he operated often overlapped with the technological and multimedia experiments championed by organizations like E.A.T.",
+            "sources": [
+              "https://www.si.edu/object/fwo2436pdf:saam_FW02436.pdf",
+              "https://www.ryanfbaker.com/RyanBakersLiveConcertRecordingList.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Fred Weiss artist Experiments in Art and Technology",
+            "Fred Weiss artist late 1960s 1970s",
+            "\"Fred Weiss\" E.A.T. Osaka Expo 70",
+            "Fred Weiss engineer E.A.T. Pepsi Pavilion",
+            "\"Fred Weiss\" collaboration engineer artist",
+            "\"Fred Weiss\" Experiments in Art and Technology",
+            "\"Fred Weiss\" artist 1969 1970 1971",
+            "\"Fred Weiss\" Bell Labs artist engineer",
+            "\"Fred Weiss\" 9 Evenings Experiments in Art and Technology",
+            "\"Fred Weiss\" Experiments in Art and Technology E.A.T. collaboration",
+            "\"Fred Weiss\" artist Pepsi Pavilion Osaka",
+            "\"Fred Weiss\" musician bassist 1960s 1970s",
+            "\"Fred Weiss\" collaborator E.A.T. Billy Kluver",
+            "\"Fred Weiss\" electronic artist 1970s",
+            "\"Fred Weiss\" artist engineer Bell Labs",
+            "",
+            "\"Fred Weiss\" artist Bell Labs collaboration",
+            "\"Fred Weiss\" filmmaker San Francisco 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQNVn8HfT4pmgOR6UeVQUbvVACIiKIQ8K1-wiSGFFuRCVCyNin0K7uwy1MqBhAuZ_w05jfYC_P10u4bvulheNbBQf28DnkphkviGCKkypYNQhxkE0TFvg69ZkWU-oHBh8zyXYeHu8inYKy",
+              "title": "discogs.com",
+              "resolvedUri": "https://www.discogs.com/artist/255831-Fred-Wise"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ_xz5ssCfUASG7bmyvqvikaLQ3ZMh22WzR_dmjd76i_z-MTP3nrIwlAsWtCX_CZVLOhqpIFZHu1QO7Tnqsf8jhPIyEjbWM_jnuVkDA7HAlKQ4B_o6SYIMoYEbNidQeA==",
+              "title": "mafishco.com",
+              "resolvedUri": "https://www.mafishco.com/catspaw.htm"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2EuIjNn0aNhIorYHQHzsjwG0CJb0L1xGEarZdIG0W9BpL7tpm2dcqVOs7WJnoAxd02ieJUdIac_gmLnka6hSaUv9zh-junmD_2wNleDC8hwhlJJ-_mBVvHby5P5701KnnraWr3Peqles-YaU_8X6TS3-FZVfoaSNk0Q==",
+              "title": "si.edu",
+              "resolvedUri": "https://folkways-media.si.edu/docs/folkways/artwork/FW02436.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ0Yi_mEdNjcpbA7Uhbj5nh2fvepZl5wjo2M-a8K-fYQVMhtYjJ0FIJMi1yadc4OdLlzQA0Qs_XIUp05Ij8139uysx8BDSpT2ZCoMkghjf9f43gHnauUeSqiY-dqz5hMNWVfmENHnMxgw_oEEtVS6mEgdtcrYXY811LasOi2uBeCrE_FeBAjgAQbkxc62yePggembmDf7cMgCQB_PaSn_5",
+              "title": "relachechronicles.org",
+              "resolvedUri": "https://www.relachechronicles.org/wp-content/uploads/2025/07/NewMusicAmerica-1987-Catalog-reduced.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 194,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Fred Weiss (also known as Frederick Weiss) was a technical collaborator and engineer associated with Experiments in Art and Technology (E.A.T.)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1276,
+                "endIndex": 1409,
+                "text": "He was associated with the Cat's Paw Palace of Performing Arts, an alternative artist-run venue in West Berkeley that opened in 1973."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1410,
+                "endIndex": 1549,
+                "text": "He is listed in historical records as a filmmaker within a community of West Coast artists exploring electronic film, video, and laser art."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1670,
+                "endIndex": 1763,
+                "text": "movement, which had established chapters in San Francisco and Los Angeles during that period."
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1764,
+                "endIndex": 2158,
+                "text": "Other artists in his circle included pioneers of video art like Stephen Beck and Sharon Grace.\",\n      \"sources\": [\n        \"https://www.mafishco.com/catspaw_hist.html\",\n        \"https://archive.org/details/independentfilmv1719inde/page/36/mode/2up\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Fred Weiss was a musician and bassist active in the late 1960s."
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -61,6 +751,195 @@
         "y1": 51.9,
         "x2": 41.0,
         "y2": 63.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1241",
+          "label": "Rosemary Clooney",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Alford Rose' from the card does not match 'Rosemary Clooney' from the Wikibase entity. They are clearly different individuals."
+        },
+        {
+          "qid": "Q19568",
+          "label": "Rose Marie Castoro",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Alford Rose' does not match 'Rose Marie Castoro'. While both entities relate to artists active in the late 1960s, there is no evidence to suggest that Alford Rose is a pseudonym or misspelling of Rose Marie Castoro; the name structures are entirely different."
+        },
+        {
+          "qid": "Q19569",
+          "label": "Rose Petrock",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Alford Rose' and 'Rose Petrock' are fundamentally different. While 'Rose' appears in both, it is a surname in the card entry and a given name in the Wikibase entity, and there is no other biographical data to suggest they are the same individual."
+        },
+        {
+          "qid": "Q25181",
+          "label": "Rose Slivka",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card lists the name 'Alford Rose' (likely First: Alford, Last: Rose), whereas the Wikibase entity is for 'Rose Slivka'. These names do not correspond, as 'Rose' is used as a surname in one and a first name in the other, and 'Alford' bears no resemblance to 'Slivka'."
+        },
+        {
+          "qid": "Q27946",
+          "label": "Rosemary Stroer",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card ('Alford Rose') and the name of the Wikibase entity ('Rosemary Stroer') are entirely different. There is no linguistic or historical evidence provided to suggest they are the same individual."
+        },
+        {
+          "qid": "Q29247",
+          "label": "Rosemary Clifford Wilson",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Alford Rose' and 'Rosemary Clifford Wilson' are significantly different. While they share the string 'Rose', one appears to be a first name or part of a first name and the other a surname. Additionally, the Wikibase entry identifies the person as a woman, whereas 'Alford' is typically a masculine name."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q60772",
+          "label": "Ursula von der Leyen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Alford Rose' from the card does not match 'Ursula von der Leyen'. Furthermore, the Wikidata entity was born in 1958, making her a child during the late 1960s/early 1970s, and she is a high-profile politician and physician, not an artist matching the name Alford Rose."
+        },
+        {
+          "qid": "Q65990",
+          "label": "Rosemarie Trockel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Alford Rose' and 'Rosemarie Trockel' do not match. Additionally, Rosemarie Trockel was born in 1952, making her a teenager during the late 1960s; her professional career and significant artistic activity began in the late 1970s and 1980s, which does not align well with the timeframe described for the person on the card."
+        },
+        {
+          "qid": "Q211040",
+          "label": "Rose McGowan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Alford Rose' does not match 'Rose McGowan'. Furthermore, the person on the card was active in the late 1960s/early 1970s, whereas Rose McGowan was born in 1973 and did not begin her professional career until the 1990s."
+        },
+        {
+          "qid": "Q228717",
+          "label": "Rose Byrne",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Alford Rose' from the card is a poor match for 'Rose Byrne' (born Mary Rose Byrne). More importantly, the Wikidata entity was born in 1979 and began her career in 1994, making it chronologically impossible for her to be the artist active in the late 1960s and early 1970s mentioned in the card context."
+        },
+        {
+          "qid": "Q232301",
+          "label": "Roseanne Barr",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Alford Rose', while the Wikidata entity is 'Roseanne Barr'. These names are completely different. Furthermore, Roseanne Barr's professional career began in 1985, whereas the individual on the card was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q234080",
+          "label": "Diane Ladd",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card, 'Alford Rose', does not match the Wikidata entity for Diane Ladd. While Diane Ladd has 'Rose' as a middle name, there is no evidence that she ever used the name 'Alford'. Additionally, 'Alford' is typically a masculine name, whereas Diane Ladd is female."
+        },
+        {
+          "qid": "Q431350",
+          "label": "Rose",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a French singer-songwriter born in 1978 who began her career in 2006. This is chronologically incompatible with the card entry artist, who was active in the late 1960s/early 1970s. Furthermore, the names (Alford Rose vs. Keren Meloul) do not match."
+        },
+        {
+          "qid": "Q466508",
+          "label": "Rosemary Clooney",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Alford Rose' and 'Rosemary Clooney' are entirely different. Rosemary Clooney was a world-famous singer and actress whose biography is well-documented, and there is no evidence to suggest she ever used the name Alford Rose, which appears to be a masculine name."
+        },
+        {
+          "qid": "Q470655",
+          "label": "Philipp Peter Roos",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the Wikidata entity, Philipp Peter Roos, lived from 1657 to 1706 and was a Baroque-era painter. The person on the card was active in the late 1960s and early 1970s. Furthermore, the names 'Alford Rose' and 'Philipp Peter Roos' are not a close match."
+        },
+        {
+          "qid": "Q1336049",
+          "label": "Joseph Nelson Rose",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Joseph Nelson Rose describes a botanist who died in 1928, which is well before the active period of the late 1960s/early 1970s associated with the artist on the card. Additionally, the names 'Alford Rose' and 'Joseph Nelson Rose' do not match."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Alford Rose\" 1960s 1970s artist",
+            "artist \"Alford Rose\"",
+            "\"Alford Rose\" E.A.T. artist",
+            "\"Alford Rose\" Experiments in Art and Technology",
+            "\"Alford Rose\" photographer",
+            "\"Rose Alford\" artist biography",
+            "\"Rose Alford\" Experiments in Art and Technology",
+            "\"Rose Alford\" artist E.A.T.",
+            "\"Alford Rose\" artist biography",
+            "\"Alford Rose\" artist E.A.T.",
+            "\"Alford Rose\" filmmaker",
+            "\"Alford Rose\" Experiments in Art and Technology",
+            "\"Alford Rose\" collaboration artist engineer",
+            "\"Alford Rose\" E.A.T.",
+            "\"Alford Rose\" 1968 1969 1970 1971 artist",
+            "\"Rose Alford\" 1960s 1970s artist",
+            "\"Rose Alford\" E.A.T. collaboration",
+            "\"Alford Rose\" member E.A.T.",
+            "\"Alford Rose\" Experiments in Art and Technology biography",
+            "\"Alford Rose\" filmmaker E.A.T.",
+            "\"Alford Rose\" E.A.T. project",
+            "\"Alford Rose\" E.A.T. artist collaboration",
+            "\"Alford Rose\" 9 Evenings E.A.T.",
+            "\"Alford Rose\" sculptor E.A.T.",
+            "\"Alford Rose\" painter E.A.T.",
+            "\"Alford Rose\" dancer E.A.T.",
+            " \"Alford\"",
+            " \"Alford Rose\"",
+            " \"Rose Alford\"",
+            "\"Alford Rose\" artist 1960s",
+            "\"Alford Rose\" E.A.T. member",
+            "\"Alford Rose\" 1970s artist collaboration",
+            "\"Alford Rose\" Experiments in Art and Technology list",
+            "\"Alford Rose\" artist collaboration 1960s 1970s",
+            "\"Alford Rose\" Pepsi Pavilion",
+            "\"Alford Rose\" 9 Evenings participant",
+            "\"Rose Alford\" Experiments in Art and Technology archive",
+            "\"Alford Rose\" artist E.A.T. membership",
+            "\"Rose Alford\" artist E.A.T. membership",
+            "\"Alford Rose\" Experiments in Art and Technology archive",
+            "\"Rose Alford\" collaborative artist",
+            "\"Alford Rose\" collaborative artist",
+            "\"Rose Alford\" \"E.A.T.\"",
+            "\"Alford Rose\" \"E.A.T.\"",
+            "\"Rose Alford\" \"E.A.T\" artist",
+            "\"Alford Rose\" \"E.A.T\" artist",
+            "\"Experiments in Art and Technology\" membership directory \"Alford\"",
+            "\"Experiments in Art and Technology\" membership directory \"Rose\"",
+            "\"E.A.T.\" directory \"Alford\"",
+            "\"E.A.T.\" directory \"Rose\"",
+            "\"Alford Rose\" artist 1968 1969 1970 1971 1972",
+            "\"Alford Rose\" member of E.A.T.",
+            "\"Alford Rose\" artist 1970",
+            "\"Alford Rose\" video artist",
+            "artist \"Rose\" Experiments in Art and Technology collaboration",
+            "artist \"Alford\" Experiments in Art and Technology",
+            "\"Alford Rose\" multimedia artist",
+            "\"Rose Alford\" member of E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -71,6 +950,77 @@
         "y1": 61.2,
         "x2": 51.0,
         "y2": 71.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Daina Krumins (often spelled Krumins, born 1947) is a Latvian-American experimental filmmaker, animator, and visual artist who became active in the late 1960s and early 1970s. Born in a refugee camp in Munich, Germany, she immigrated to the U.S. and studied at the NYU Film School before receiving her MFA from the California Institute of the Arts (CalArts) in 1972, where she specialized in optical printing and special effects. Her work is frequently described as \"homegrown Surrealism\" and is noted for its meticulous focus on textures and the use of labor-intensive techniques. Her filmography includes 'The Divine Miracle' (1972), which won numerous awards, and 'Babobilicons' (1982), a surreal stop-motion project that took nine years to complete and famously utilized cultivated slime molds and live ladybugs. Professionally, she worked as a rotoscoper and optical printer operator at Lookout Mountain Films for Pat O'Neill and contributed special effects to 'The Empire Strikes Back' (1980), specifically painting auras. She identifies as neurodivergent (Asperger's syndrome), which she cites as a primary influence on her non-linear and texture-based artistic vision. Her connection to Experiments in Art and Technology (E.A.T.) is consistent with her technical experimentation and her involvement in early multimedia spaces like The Kitchen in New York, where her work was featured as early as 1971.",
+            "sources": [
+              "https://alternativeprojections.com/people/daina-krumins/",
+              "https://366weirdmovies.com/director-retrospective-the-films-of-daina-krumins/",
+              "https://dainakrumins1.online/",
+              "https://oac.cdlib.org/findaid/ark:/13030/c88s4scj/",
+              "https://artsy.net/artist/daina-krumins"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Daina Krumens artist",
+            "Daina Krumens Experiments in Art and Technology",
+            "",
+            "\"Daina Krumins\" E.A.T. Experiments in Art and Technology",
+            "\"Daina Krumins\" E.A.T. artist",
+            "\"Daina Krumins\" Experiments in Art and Technology artist list",
+            "",
+            "\"Daina Krumins\" E.A.T. member",
+            "\"Daina Krumins\" 1968 Brooklyn Museum"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY9LW0vNji3PLMJ9_3JvZBq_VMLks0jC_MbvC3F9imLyReUzm-ar7ND3ye7USSK3T_fC1Sp2rFgtQJuyRLVbsaVR_jMUKCGyUAFiR8ErN04HUs-ZkP5Eoqlyxh9gAcyC70I-03h_muNmt2f1KxT74-CH59oBJMoCcBk-wRaT-RUSiXFYp0gIc=",
+              "title": "366weirdmovies.com",
+              "resolvedUri": "https://366weirdmovies.com/director-retrospective-the-films-of-daina-krumins/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpU4VRQEbCyCyY6edZR5FGSw1j6yzXAZW66WsgiwHN8ABBwDpk0sp2wxJ_HhI-eUcp_I4U2u_xcgCijt63Jfy_OfHTEFBXQ9ywTft5nQ4CsOrPIUbbkgsJ0h7JWnwl4Zb1WolzmU4j5O7p",
+              "title": "gutenberg.org",
+              "resolvedUri": "https://www.gutenberg.org/ebooks/66625.txt.utf-8"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD-xLvXQmxeHc2531gIrExUbgSyyX9EZ6hpRasxYRJ-x7WeArnW8L8p_62C6ybQlqa3F7PGJTd592MQqVEsjs61pgF05cOIOdNw67sKMg_vxax5U5nbgP8wOYADeOJ6lbtqY-obtODi-bp",
+              "title": "calarts.edu",
+              "resolvedUri": "https://thepool.calarts.edu/class-notes-issue-6/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 225,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Daina Krumins (often spelled Krumins, born 1947) is a Latvian-American experimental filmmaker, animator, and visual artist who became active in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 480,
+                "endIndex": 633,
+                "text": "Her work is frequently described as \\\"homegrown Surrealism\\\" and is noted for its meticulous focus on textures and the use of labor-intensive techniques."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -81,6 +1031,56 @@
         "y1": 69.4,
         "x2": 45.5,
         "y2": 76.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q56461176",
+          "label": "Amy Stromsten",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Amy Stromsten' is quite distinctive and matches exactly. The Wikidata entity describes a photographer (an artist) born in 1942, which aligns perfectly with the timeframe of being active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Amy Stromsten is an American photographer, writer, and educator born on December 5, 1942, in Detroit, Michigan. She has been an influential figure in the art scene at Rutgers University, specifically Douglass College and the Mason Gross School of the Arts, where she has taught since 1977. Stromsten became active in the late 1960s, receiving a certificate from the Cooper Union School of Art in 1969 and working on art and public relations projects for the New York City Department of Parks in 1967. Throughout the 1970s, she held various teaching positions at the School of Visual Arts, the New School for Social Research, and Parsons School of Design. Her artistic practice is noted for documentary photography and the use of non-silver processes such as cyanotype and Vandyke brown. She was included in the notable Women Artists Series at Douglass College in 1972 and was part of the avant-garde circle at Rutgers that intersected with the Experiments in Art and Technology (E.A.T.) movement and its co-founder Billy Klüver. Her other professional contributions include producing a documentary on Diane Arbus for WBAI radio in 1973 and directing the Art Center Program at the New Jersey Institute of Technology in 1975.",
+            "sources": [
+              "https://prabook.com/web/amy.stromsten/635678",
+              "https://dokumen.pub/women-artists-on-the-leading-edge-visual-arts-at-douglass-college-9780813593388.html",
+              "https://www.moma.org/calendar/exhibitions/history/identities/10631"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Amy Stromsten photographer",
+            "\"Amy Stromsten\" Billy Klüver",
+            "\"Amy Stromsten\" \"E.A.T.\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA7CmLoa7Z1CGX5AtyKH_-j5CU4lo2JafvbHUtJch1T-Z6y8nvbzafbnSev4wY4WmnBS2Ek-fTbKYHu5erxj0KSHO63nS0VjhPrF5N9bZb6zGtGMLgTMkeP10TdhY5ws6bmCkk_L2nauHXfzi97xQ_aPFLw7xgMOgqTDJjMhyEeCC9NGNL7evA5sn4jwkNyb12E9YOAvUqAVOeG8zwUnFEuaM=",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/women-artists-on-the-leading-edge-visual-arts-at-douglass-college-9780813593388.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 161,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Amy Stromsten is an American photographer, writer, and educator born on December 5, 1942, in Detroit, Michigan."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -91,6 +1091,68 @@
         "y1": 76.1,
         "x2": 54.5,
         "y2": 83.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stephen Kaltenbach (born 1940) is a prominent American conceptual artist, sculptor, and painter who was a key figure in the New York avant-garde during the late 1960s. After studying at the University of California, Davis, he moved to New York City in 1967, where he became known for experimental and process-oriented works. His practice during this period included his 'Time Capsules' (sealed metal containers with cryptic instructions), bronze 'Sidewalk Plaques' embedded in city pavements, and a series of twelve anonymous advertisements published in Artforum magazine between 1968 and 1969 with 'micro-manifestos' such as 'Become a Legend' and 'Tell a Lie.' Kaltenbach was part of the dynamic conceptual milieu that overlapped with organizations like Experiments in Art and Technology (E.A.T.); he participated in seminal exhibitions of that era, including '9 at Leo Castelli' (1968), Harald Szeemann’s 'When Attitudes Become Form' (1969), and the 'Information' exhibition at the Museum of Modern Art (1970). In 1970, at the height of his recognition, he abruptly left the New York art scene and returned to California to teach at California State University, Sacramento, a move he later described as a conceptual act of 'relinquishment' to subvert his own reputation. In California, he continued his work under various personas and produced large-scale paintings such as 'Portrait of My Father' (1972–1979).",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Stephen_Kaltenbach",
+              "https://www.pierogi2000.com/2019/01/stephen-kaltenbach-at-pierogi/",
+              "https://www.moma.org/calendar/exhibitions/2686",
+              "https://www.konradfischergalerie.de/artists/stephen-kaltenbach",
+              "https://bgfa.us/artists/kaltenbach/index.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Stephen Kaltenbach artist biography",
+            "Stephen Kaltenback artist biography",
+            "Stephen Kaltenbach Experiments in Art and Technology E.A.T.",
+            "Stephen Kaltenback Experiments in Art and Technology E.A.T.",
+            "\"Stephen Kaltenbach\" \"E.A.T.\" artist",
+            "\"Stephen Kaltenbach\" E.A.T. collaboration",
+            "\"Stephen Kaltenbach\" \"Experiments in Art and Technology\"",
+            "\"Stephen Kaltenbach\" E.A.T. Pepsi Pavilion",
+            "\"Stephen Kaltenbach\" \"Experiments in Art and Technology\" project",
+            "\"Stephen Kaltenbach\" E.A.T. membership"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLdmIg-qFb4oDeNyWnrnxEV-b-PHSEntO4ROylVRX-j3grclvxvOAs0Ur6TDBuLLB94AyvJS37fLzqIC9ynQSq7v3BtDzTdoPdTZu2HFDO883ouSrNyc3mtjN4yKxbKpXhZ4ifx0UW3TxQr5OU4TgfvAdqrcRtemtWlceSErN9i-dtq18q1txMKjmfHKWj4JU_mxQEivbFlB3IF1h3ZjfSHdVSaZgCzDgisaE2aIxnEGzSng09FBQYWuA6UkKnHXs=",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/biennials-and-beyond-exhibitions-that-made-art-history-1962-2002-salon-to-biennial-0714864951-9780714864952.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq8A2PNcj1xDCPGf0BS5h8ceBakLLsnJT9LxMccF25T0xiG05nQuP4E52zpRWHF23cpNtsEodOf8zE-knQlGbpho7Mtg18vfCAAxPHe27ytJ34Znzx1ExYEuz3_Gx8O3pugxJvsA7sDMh2amRiGyztOUeyDbzej3TLSZWiT8THoMEc",
+              "title": "squarecylinder.com",
+              "resolvedUri": "https://www.squarecylinder.com/2009/03/stephen-kaltenbach-verge-gallery/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHxLCFgjwAlsdItNMDWd9mYSn3ErM8MvjL7gmj8bJfEO395FnJiK8YugGjkJBS3iKvlopZ1xxt-Yw6yuNee1PMkvwpXAMxdlzsiScB5E8PNTc__PYXUbcGFSIuNgavwneZlGwyQ-L9Y4lnBHRZT8nTjKsYB85CcDp5TuLvMFFkBTm9h4el73zBf1Rz1ifPTDITORX7SBhSjDcKQZE5m0CvJn_rmXdwcloSkoDajSd0RTNTMuAXqHej648O_FCRVwxLRHBBQaxFR5GI2xvTjbFeIR1MTWMSjSHp07vz9rKfMNwDQOfZea1a_AlH8G1BZcCuokA=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/790085903/Recording-Conceptual-Art-Early-Interviews-With-Barry-Huebler-KaltenbaMorris-Oppenheim-Siegelaub-Smithson-and-Weiner-by-Patricia-Norvell-Rober"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 217,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Stephen Kaltenbach (born 1940) is a prominent American conceptual artist, sculptor, and painter who was a key figure in the New York avant-garde during the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -101,6 +1163,102 @@
         "y1": 83.1,
         "x2": 53.5,
         "y2": 91.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Gerda Tasgal Kliegman (1908–1996) was an artist who lived and worked on the North Fork of Long Island, New York. She is recognized by the Southold Historical Museum as part of a significant group of artists active in the region before 1970. Her life and work are documented in the publication 'A Shared Aesthetic: Artists of Long Island's North Fork' (2008). During the late 1960s and early 1970s, she was part of the local artistic community that intersected with the broader New York art scene, which at the time included organizations like Experiments in Art and Technology (E.A.T.). She was married to Israel Kliegman, with whom she was also associated in business ventures such as the Gerdan Realty Corp.",
+            "sources": [
+              "https://www.southoldhistorical.org/north-fork-artist-list",
+              "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Arts/Article_alerts/Archive_4",
+              "https://commons.wikimedia.org/wiki/File:Gerda_%26_Jonny_Kliegman.jpg",
+              "https://findingaids.unl.edu/n_rankin_jlee.php"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Tasgal-Kliegman\" artist",
+            "\"Gerda Tasgal\" Kliegman",
+            "\"Gerda Tasgal Kliegman\"",
+            "\"Gerda Tasgal Kliegman\" Experiments in Art and Technology",
+            "",
+            "\"Gerda Tasgal\" Southold Historical Museum biography",
+            "\"Gerda Tasgal Kliegman\" artist biography",
+            "\"Gerda Tasgal Kliegman\" exhibit 1960s 1970s",
+            "\"Gerda Tasgal Kliegman\" film video",
+            "\"Gerda Tasgal Kliegman\" artworks",
+            "",
+            "\"Gerda Tasgal\" painter Long Island",
+            "",
+            "\"Experiments in Art and Technology\" \"Long Island\" member",
+            "\"Gerda Tasgal Kliegman\" painter or sculptor?",
+            "\"Gerda Tasgal Kliegman\" Southold artist",
+            "\"Israel Kliegman\" Long Island artist",
+            "\"Gerda Tasgal Kliegman\" exhibitions 1968 1969 1970",
+            "",
+            "\"Gerda Tasgal Kliegman\" biography Long Island",
+            "\"Draft:Gerda Tasgal Kliegman\" wikipedia",
+            "\"Gerda Tasgal Kliegman\" Experiments in Art and Technology member",
+            "\"Gerda Tasgal Kliegman\" painter sculptor",
+            "\"Gerda Tasgal Kliegman\" artist",
+            "",
+            "\"Gerda Tasgal Kliegman\" medium art",
+            "\"Gerda Tasgal Kliegman\" painting sculpture",
+            "\"Gerdan Realty\" Israel Kliegman Long Island"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDyo4lI71XKMN49NrzIKpB0w9tS636VLWB2v_0i_sxF73hap_fKI3fYWjllfm6E9h87ZyAd-mufdQFhGpsVG7H5wpvVUBkBj0VENzjeIuCz1j1o_3Z8MMQOFrs8B7Sj8jvIeAzh_I6tXXEWOeYc3rMN2t-qw==",
+              "title": "southoldhistorical.org",
+              "resolvedUri": "https://www.southoldhistorical.org/north-fork-artist-list"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfEg4EQOimASy3rJd_dwOIJfc2IALkZ_OEKQtW8RX8DXuWcccG9ROENxOIddyhiXftMs6SCWIQYxi2c_el44nYzbpur4bPw-asekC5gbbaCPSI8t4MD9vWmkm8wfe-Ava1B2vP7BNz5ppPHkzuo8Vn5pud4IoCbg==",
+              "title": "southoldhistorical.org",
+              "resolvedUri": "https://www.southoldhistorical.org/de/north-fork-artist-list"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpydx9g7fFbM7yijNpU4GPDYgJlcdMAGZ5C3Ub0VSMXb1G78sHlIHA7ugdVOEeMzaSQsStdx705ZjD_gyClKbMQeMRS3TtejAT9hn5AuAcN6XZWALYKHH-1Jab0893mFgVMfPCJImDuVN7Jr9uUpHNVtfZ_g==",
+              "title": "southoldhistorical.org",
+              "resolvedUri": "https://www.southoldhistorical.org/north-fork-artist-list"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQW5OYozS5f0VmTjh_XRkkW9mEFuIKQjKH6ThQ5VZe96_23-BaIEHXVrUahjhQC7FYE0R_nprArD2X4hHiXjMUDs8GVMeDbT_HeWph-Lj9LeS-c0_Ii6t89xu8Lz3s7Q6LGt5EBVMsRqEQlAImfpI7L-FT4YH8Sw==",
+              "title": "southoldhistorical.org",
+              "resolvedUri": "https://www.southoldhistorical.org/de/north-fork-artist-list"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 164,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Gerda Tasgal Kliegman (1908–1996) was an artist who lived and worked on the North Fork of Long Island, New York."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 293,
+                "endIndex": 410,
+                "text": "Her life and work are documented in the publication 'A Shared Aesthetic: Artists of Long Island's North Fork' (2008)."
+              },
+              "groundingChunkIndices": [
+                0,
+                2,
+                1,
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

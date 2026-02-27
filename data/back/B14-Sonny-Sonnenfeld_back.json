@@ -11,6 +11,117 @@
         "y1": 13.4,
         "x2": 28.5,
         "y2": 20.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5732793",
+          "label": "Herb Aach",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity identifies Herb Aach as a painter and artist active during the mid-20th century (1923-1985), which aligns perfectly with the date 1968 on the card and the provided context that the person was an artist active in the late 1960s/early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Herbert (Herb) Aach (1923–1985) was an American painter, writer, and color theorist known for his pioneering work with fluorescent pigments and color engineering. Born in Cologne, Germany, he immigrated to the United States in 1938 to escape Nazi persecution. After serving in the U.S. Army during World War II, he studied at the Brooklyn Museum Art School under artists like John Ferren and Rufino Tamayo, and later in Mexico City. Aach is particularly recognized for his deep engagement with color theory; he translated and edited a notable edition of Goethe's \"Theory of Colours\" (1971) and developed a signature style known as \"Color Expressionism.\" He was highly active during the 1960s and 1970s, producing major series such as \"Precession of the Equinoxes\" and \"Split Infinity.\" Aach was a member of Experiments in Art and Technology (E.A.T.), a collaboration that aligned with his technical background in pigment formulation (honed while working at the Art Crayon Company). His involvement with E.A.T. included working on projects for the Pepsi Pavilion at Expo '70 in Osaka, Japan, where he applied his expertise in fluorescent paints. He was also a respected educator, teaching at Queens College from 1966 until his death in 1985.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Herb_Aach",
+              "https://www.leilahellergallery.com/artists/herb-aach",
+              "https://www.artsy.net/artist/herb-aach",
+              "https://www.gestaltrevision.be/en/herb-aach/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Herb Aach artist Experiments in Art and Technology",
+            "Herb Aach painter biography color theory",
+            "Herb Aach Queens College artist",
+            "Herb Aach Pepsi Pavilion Expo '70",
+            "\"Herb Aach\" Pepsi Pavilion Expo '70"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCPrplf2ZWLygVDvOwFzuxLxFPg6BgZdCgoIqXZKqXc4SIW1Xfp-Ia1bdC1MCrqj402x-7v7IlCQ08-_lYCicq7C-SQGolDWOC5mWuHf3cxnlqMMscFGz14gGK6CFv-BiOBA==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Herb_Aach"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3J3U955_VoXzC0nmVPggZB0Y1b707Fh3jXzwRsK4Kw2MPJnEQ507XajI5O7Nb-6zQX-rR46XJueOpXOAs9uxUZpgmjMPIdmx0Tv-loweMdvViXNdGFBsQo5XPK0I7ij8oahY=",
+              "title": "artsy.net",
+              "resolvedUri": "https://www.artsy.net/artist/herb-aach-1"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFi6nE7z0w5Nd0w6pBAqp-3J2hUl5fuPVgtHNwTtIIPpiVj46Qy3zKLVJs71Ci0vO3La0B7x5zrbu2giBep8B6Y1igkycNNfZNzuYxTN0xIeToQR2i3GDBd2dxp6gwlhtQ=",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/herb_aach"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyKWb8U0B3TFMcUPosm6HnIhtDjHHc8TToFyi6lJle1sLSCTkcH3_gJKOeJSs-MZI6lybmA4T85nLTX-OSprQ6_qolEkEpYT9RfWbn7ssUY5YjRjhN0RxgbssdXiaRibtRJDsMf0bvnRO4bHdtVBYh",
+              "title": "leilahellergallery.com",
+              "resolvedUri": "https://www.leilahellergallery.com/artists/herb-aach2"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRIbhQ9X2JOKg1torCA23ISIPD80gz1Wh2J-bun2HAPfLvVZoJj0jIq1pOx1CjJolCEgYGD7Y-93H-a8S4ilYuKJ5tYOZmgk7wPb-qwlxCFIcR544d9igANgZiAe2vTOantfwwEkQwgpKQ",
+              "title": "gestaltrevision.be",
+              "resolvedUri": "https://gestaltrevision.be/vsac2019/artist.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 214,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Herbert (Herb) Aach (1923–1985) was an American painter, writer, and color theorist known for his pioneering work with fluorescent pigments and color engineering."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 215,
+                "endIndex": 311,
+                "text": "Born in Cologne, Germany, he immigrated to the United States in 1938 to escape Nazi persecution."
+              },
+              "groundingChunkIndices": [
+                3,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 312,
+                "endIndex": 484,
+                "text": "After serving in the U.S. Army during World War II, he studied at the Brooklyn Museum Art School under artists like John Ferren and Rufino Tamayo, and later in Mexico City."
+              },
+              "groundingChunkIndices": [
+                3,
+                1,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1205,
+                "endIndex": 1594,
+                "text": "He was also a respected educator, teaching at Queens College from 1966 until his death in 1985.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Herb_Aach\",\n        \"https://www.leilahellergallery.com/artists/herb-aach\",\n        \"https://www.artsy.net/artist/herb-aach\",\n        \"https://www.gestaltrevision.be/en/herb-aach/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +135,547 @@
         "y1": 29.1,
         "x2": 23.0,
         "y2": 35.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q2030",
+          "label": "David Ritz",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'Michael David', while the Wikibase entity is for 'David Ritz'. There is no overlap in the names beyond the name 'David' being used as a surname in one and a given name in the other."
+        },
+        {
+          "qid": "Q1698",
+          "label": "David Murray",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Michael David' and 'David Murray' are distinct. While they share the name 'David', the Wikibase entity refers to a specific jazz saxophonist (David Murray, born 1955) whose professional and legal name does not include 'Michael'. Furthermore, David Murray would have been only 14 years old at the time of the 1969 date on the card, making him an unlikely candidate for the artist referenced."
+        },
+        {
+          "qid": "Q2083",
+          "label": "David Murray Hamilton College Interview",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card entry is for 'Michael David', while the Wikibase entity describes an interview with 'David Murray', a jazz musician. Although 'David' appears in both, they are distinct names."
+        },
+        {
+          "qid": "Q19233",
+          "label": "David Tudor",
+          "description": "American pianist and composer (1926–1996)",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Michael David, while the Wikibase entity is David Tudor. Although both names contain 'David', they are distinct individuals. David Tudor was a famous pianist and composer, and there is no indication that he used the name Michael David."
+        },
+        {
+          "qid": "Q1625",
+          "label": "David Jones",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinctly different: 'Michael David' on the card and 'David Jones' in the Wikibase entry. While both contain the name 'David', one uses it as a surname and the other as a given name, and there is no evidence to suggest they are the same individual."
+        },
+        {
+          "qid": "Q19228",
+          "label": "David Behrman",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card lists the name 'Michael David', whereas the Wikibase entity describes 'David Behrman'. These are two different individuals, despite both being artists active during the same era."
+        },
+        {
+          "qid": "Q19229",
+          "label": "David Bourdon",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Michael David, whereas the Wikibase entity is for David Bourdon. These are two distinct names, and although both are associated with the art world in the late 1960s (David Bourdon as a critic), there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q19234",
+          "label": "David White",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'Michael David', while the Wikibase entity refers to 'David White'. Although both individuals are connected to the same artistic timeframe and context, there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q114",
+          "label": "David Lynch",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Michael David' and 'David Lynch' are distinct. While David Lynch is a famous artist/filmmaker active during the relevant time period, his name does not match 'Michael David' provided on the card."
+        },
+        {
+          "qid": "Q1096",
+          "label": "David Baker",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Michael David, whereas the Wikibase entity is David Baker. While both are artistic figures active in the mid-to-late 20th century, the names do not match and there is no evidence suggesting they are the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q342252",
+          "label": "Michael Rapaport",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The chronology is impossible. The card entry is dated February 16, 1969, but the Wikidata entity Michael Rapaport was born on March 20, 1970. Additionally, the surnames (David vs. Rapaport) do not match."
+        },
+        {
+          "qid": "Q350717",
+          "label": "Michael Apted",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is 'Michael David', whereas the Wikidata entity is for Michael Apted (birth name Michael David Apted). While Apted was active as a director/artist in 1969, 'David' is his middle name, not his surname. It is more likely the card refers to an individual whose surname is David."
+        },
+        {
+          "qid": "Q1927021",
+          "label": "Michael Bordo",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Michael David', while the Wikidata entity is 'Michael Bordo'. Not only do the surnames differ, but the Wikidata entity describes a prominent economist and academic, which does not align with the context of the card referring to an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q1927214",
+          "label": "Michael D. Fayer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Michael David', whereas the Wikidata entity is for 'Michael D. Fayer', a prominent chemist and professor at Stanford. The Wikidata record shows a career entirely focused on physical chemistry and spectroscopy, with no indication of the artistic activity associated with the context of the card collection."
+        },
+        {
+          "qid": "Q1927219",
+          "label": "Michael Reeve",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card identifies the individual as 'Michael David' (implying David is the surname), while the Wikidata entity is Michael David Reeve, a prominent British classical philologist and scholar of Latin. There is no evidence that Michael Reeve used the name 'Michael David' professionally or was involved in the arts scene relevant to the card context."
+        },
+        {
+          "qid": "Q3308132",
+          "label": "Michael David",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Michael David' matches the card entry exactly. The Wikidata entity describes a film actor who was professionally active during the late 1960s (the date on the card is 1969), fitting the profile of an artist or creative practitioner from that era. While the name is somewhat common, the alignment in timeframe and professional field supports a likely match."
+        },
+        {
+          "qid": "Q3313530",
+          "label": "Mike Sawatzky",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Mike Sawatzky, born Michael David Sawatzky) was born in September 1968. The card entry is dated February 1969. It is impossible for a five-month-old infant to be the artist or correspondent referenced on the card."
+        },
+        {
+          "qid": "Q3856181",
+          "label": "Michael Holton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Michael Holton was born in 1961, making him only 7 years old at the time of the card's date (1969). Additionally, Michael Holton is a professional basketball player and coach, which does not align with the artistic context of the card collection."
+        },
+        {
+          "qid": "Q6829721",
+          "label": "Michael David",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity Michael David (Q6829721) was born in 1954, making him only 14 years old at the time of the 1969 card entry. Furthermore, his professional work period is documented as starting in 1979. It is unlikely that a 14-year-old would be the subject of these specific artist records, which typically track established or emerging adult practitioners."
+        },
+        {
+          "qid": "Q6829722",
+          "label": "Michael David",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Michael David' matches the card exactly. The Wikidata entity is a theatrical producer, which fits the broad artistic/creative professional context provided. The 1969 date on the card aligns with the active career span of this individual."
+        },
+        {
+          "qid": "Q15835010",
+          "label": "Michael David",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Michael David' matches, but the Wikidata entity (Q15835010) describes a person who lived from 1685 to 1758 and was a banker. The card indicates activity in 1969, making it impossible for them to be the same person."
+        },
+        {
+          "qid": "Q46169497",
+          "label": "Michael D. Ward",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Michael David vs Michael D. Ward). Furthermore, the Wikidata entity describes a chemist and researcher, whereas the card refers to an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q56034884",
+          "label": "Michael David",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match exactly, the Wikidata entity describes a prominent Australian judge and lawyer (King's Counsel). The context for the card entry indicates the individual is an artist. It is highly unlikely that a high-ranking member of the Australian judiciary is the same individual as the artist referenced in 1969."
+        },
+        {
+          "qid": "Q56811308",
+          "label": "Michael Z. David",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s. The Wikidata entity Q56811308 describes Michael Z. David, an infectious disease physician and medical researcher associated with institutions like the University of Chicago and the University of Pennsylvania. These are distinct individuals with unrelated career paths."
+        },
+        {
+          "qid": "Q57175275",
+          "label": "Michael Werner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Michael David, whereas the Wikidata entity is for Michael Werner. Beyond the shared first name, there is no overlap in biographical details. Furthermore, the Wikidata entity is described as a programmer and researcher, which does not align with the artistic context associated with the card index."
+        },
+        {
+          "qid": "Q58425141",
+          "label": "Michael C David",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card is an artist active in the late 1960s. The Wikidata entity Q58425141 describes an Australian epidemiologist, biostatistician, and researcher. These are distinct occupations, making it highly unlikely they are the same individual."
+        },
+        {
+          "qid": "Q75983417",
+          "label": "Michael David Llewellyn",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is 'Michael David', which suggests 'David' is the surname. The Wikidata entity is for 'Michael David Llewellyn', where 'Llewellyn' is the family name. Furthermore, there is no indication in the Wikidata record that this individual was an artist, and his name is structured differently than the record on the card."
+        },
+        {
+          "qid": "Q88930805",
+          "label": "Michael David",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name 'Michael David' matches exactly. However, the Wikidata entity is identified as a researcher at the Institute for Myeloma & Bone Cancer Research, which is a highly specialized medical field. Given the context that the card entry likely refers to an artist active in the late 1960s, it is improbable that they are the same individual as a modern cancer researcher."
+        },
+        {
+          "qid": "Q92507743",
+          "label": "Michael David",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name matches, but the Wikidata entity (Q92507743) describes a researcher/scientist affiliated with the University of California, San Diego and the University of Vienna, likely in the field of molecular biology. The card refers to an artist active in 1969. A researcher whose career is documented in academic databases usually doesn't align with the artistic context of the card, and the specific Michael David at UCSD is a contemporary scientist whose professional activity began decades after the 1969 date on the card."
+        },
+        {
+          "qid": "Q100959601",
+          "label": "Michael Davidovitch",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name on the card is 'Michael David', whereas the Wikidata entity is 'Michael Davidovitch'. While 'David' could be a shortened version of 'Davidovitch', the Wikidata entity is listed as a researcher rather than an artist, and there is no specific biographical data (like active dates) to link the two individuals."
+        },
+        {
+          "qid": "Q101943762",
+          "label": "Michael Davide Semeraro",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Michael Davide Semeraro) was born in 1964, making him only five years old at the time of the 1969 date mentioned on the card. Furthermore, the Wikidata entity is identified as a theologian and monk, which does not align with the expected context of an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q102116689",
+          "label": "Michael David Dunn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Michael David Dunn was born in 1967 and is known for a criminal case in 2012. The card entry is dated 1969, at which point the person in the Wikidata record would have been only two years old. Therefore, they cannot be the same person."
+        },
+        {
+          "qid": "Q102164461",
+          "label": "Michael David Sanford",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card refers to an artist active in 1969 under the name 'Michael David'. The Wikidata entity describes Michael David Sanford, who is associated with a doctoral advisor and a university education, suggesting an academic career path rather than an artistic one. Furthermore, the Wikidata entity includes a surname (Sanford) not present on the card, and 'Michael David' is a common name combination."
+        },
+        {
+          "qid": "Q102185418",
+          "label": "Michael David Hirsch",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q102185418 describes Michael David Hirsch, who is associated with doctoral advisors Stephen Smale and Robion Kirby, both of whom are prominent mathematicians. This indicates the Wikidata entity is a mathematician. The card context identifies the subject as an artist. Additionally, the card name is 'Michael David', whereas the Wikidata entity is 'Michael David Hirsch', and there is no evidence the mathematician was active as an artist in 1969."
+        },
+        {
+          "qid": "Q102195677",
+          "label": "Michael David Slack",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Michael David', whereas the Wikidata entity is 'Michael David Slack'. The Wikidata entity is associated with academic metadata (doctoral advisor James Peicheng Lin, who is a mathematician), suggesting Slack is an academic. Furthermore, Michael David Slack's doctoral work typically dates to the early 1990s, making him far too young to be the person referenced on a 1969 index card."
+        },
+        {
+          "qid": "Q102196287",
+          "label": "Michael David Conerly",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes Michael David Conerly, who appears to be an academic given the list of doctoral students he supervised. This professional profile does not align with the context provided for the card entry, which refers to an artist active in the late 1960s. While they share the first and middle names, the lack of artistic credentials in the Wikidata record makes a match unlikely."
+        },
+        {
+          "qid": "Q102202086",
+          "label": "Michael David Vose",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a 'Michael David' in an artistic context (likely an artist, performer, or musician active in 1969). The Wikidata entity (Q102202086) describes Michael David Vose, an academic associated with the University of Texas at Austin with doctoral students and an advisor, which suggests a career in research or mathematics rather than the arts. Additionally, Vose's professional career appears to be more contemporary than the 1969 date on the card."
+        },
+        {
+          "qid": "Q102216812",
+          "label": "Michael David Pore",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Michael David Pore, who appears to be an academic with a background in mathematics or statistics (indicated by his doctoral advisor Truman Orville Lewis). The card refers to an artist named Michael David active in 1969. There is no indication that Michael David Pore was an artist, and the surname 'Pore' is absent from the card record."
+        },
+        {
+          "qid": "Q102245418",
+          "label": "Michael David Zoltowski",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Michael David Zoltowski is a professor of electrical and computer engineering (as evidenced by the list of doctoral students and educational background). His career timeline (earning a B.S. in 1982) indicates he would have been a child in 1969, and his profession does not match the artistic context associated with the card."
+        },
+        {
+          "qid": "Q102252082",
+          "label": "Michael David Rannie",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Michael David Rannie, a psychologist and academic specializing in psychometrics. The person on the card is contextualized as an artist active in the late 1960s. Additionally, the Wikidata entity has a surname (Rannie) not present on the card, and there is no evidence that this psychologist was involved in the art world during the relevant timeframe."
+        },
+        {
+          "qid": "Q102276558",
+          "label": "Michael David De Villiers",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q102276558 refers to Michael David De Villiers, a South African academic known for mathematics education. The card entry refers to an artist named Michael David active in 1969. There is no evidence connecting the academic Michael De Villiers to the artistic context of the card, and the names only partially overlap."
+        },
+        {
+          "qid": "Q102277237",
+          "label": "Michael David Wills",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Michael David', while the Wikidata entity refers to 'Michael David Wills'. Additionally, the Wikidata entity is associated with a doctoral advisor (Charles A. Akemann) in a likely academic/mathematical context, which does not align with the provided context of the card entries representing artists active in the late 1960s."
+        },
+        {
+          "qid": "Q102279939",
+          "label": "Michael David Rice",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Michael David Rice, an academic researcher likely in the field of engineering or communications (based on his doctoral advisor and student). His career timeline, with an advisor who graduated in 1987, suggests he would have been too young to be the 'Michael David' referenced in a 1969 document. Furthermore, there is no evidence that this individual is an artist."
+        },
+        {
+          "qid": "Q102306326",
+          "label": "Michael David Waterworth",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q102306326 (Michael David Waterworth) is an academic physicist associated with Imperial College London, as evidenced by properties like 'doctoral advisor' (Harold Hopkins) and 'doctoral students'. The card refers to 'Michael David' in an artistic context in 1969. The difference in profession and the use of 'Waterworth' as a surname for the Wikidata entity makes this match highly unlikely."
+        },
+        {
+          "qid": "Q102314542",
+          "label": "Michael D. Siegel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person named 'Michael David' who is expected to be an artist active in the late 1960s. The Wikidata entity is for Michael David Siegel, a computer security researcher and professor at MIT Sloan School of Management. The vocational mismatch (artist vs. computer scientist) and the name difference (David as a surname vs. David as a middle name) make it highly unlikely they are the same person."
+        },
+        {
+          "qid": "Q102321086",
+          "label": "Michael David Mitton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Michael David', whereas the Wikidata entity is for 'Michael David Mitton'. Furthermore, the Wikidata entity describes an individual with a doctoral advisor at the University of Oxford (likely in the field of mathematics or science), which does not align with the context of the person on the card being an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q102338266",
+          "label": "Michael David Engelhardt",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card refers to 'Michael David' within an artistic context in 1969. The Wikidata entity describes Michael David Engelhardt, who appears to be an academic or researcher in engineering (noting his doctoral advisor Egor Popov and various doctoral students). There is no evidence connecting this specific individual to the art world of the late 1960s."
+        },
+        {
+          "qid": "Q102351190",
+          "label": "Michael David Barrus",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a Michael David active in 1969, likely within an artistic context. The Wikidata entity Q102351190 describes Michael David Barrus, a mathematician specializing in graph theory. Given that his doctoral advisor graduated in 1978, Barrus's professional career began much later than the 1969 date on the card, and his field of work (mathematics) does not align with the artistic context of the collection."
+        },
+        {
+          "qid": "Q102393254",
+          "label": "Michael David Sonksen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in 1969 named 'Michael David'. The Wikidata entity Q102393254 (Michael David Sonksen) is an academic associated with Ohio State University, whose doctoral advisor (Mario Peruggia) received his PhD in 1990. This makes the Wikidata entity a much younger individual than the person referenced in the 1969 record, and their professional field (Statistics/Mathematics) does not align with the artistic context of the card."
+        },
+        {
+          "qid": "Q102597018",
+          "label": "Michael David Creel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a 'Michael David' (where David is likely the surname) active in the arts in 1969. The Wikidata entity, Michael David Creel, is an academic (economist) who received his PhD in 1994, making him too young to be the person referenced on a 1969 archival card. Furthermore, the Wikidata entity's professional field does not align with the artistic context of the card."
+        },
+        {
+          "qid": "Q102711259",
+          "label": "Michael David Gechter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Michael David Gechter, a contemporary academic/economist who received his PhD in the 2010s. This is chronologically incompatible with the person on the card, who was active and corresponding via letter in 1969. Furthermore, the Wikidata entity is not an artist."
+        },
+        {
+          "qid": "Q102852561",
+          "label": "Michael David Giandrea",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q102852561 refers to Michael David Giandrea, who is an academic (indicated by the presence of a doctoral advisor and specific university education at Boston College). The card entry identifies a 'Michael David' who is known within this context to be an artist active in 1969. There is no evidence that the academic Giandrea is the same person as the artist Michael David."
+        },
+        {
+          "qid": "Q103043198",
+          "label": "Michael David Karcher",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry for 'Michael David' dates to 1969. The Wikidata entity describes Michael David Karcher, an academic/scientist who was a doctoral student of Vladimir N. Minin (whose own career is contemporary). The professional fields (artist vs. biostatistician) and the timeline do not align, as Karcher's academic activity is much more recent than 1969."
+        },
+        {
+          "qid": "Q103339720",
+          "label": "Michael David Thomure",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Michael David Thomure appears to be a contemporary academic or professional (associated with Melanie Mitchell, a computer scientist active from the late 1980s onward) and works for Sony Group. The card entry refers to an artist active in 1969. Additionally, the Wikidata entity has the surname Thomure, while the card uses David as the surname."
+        },
+        {
+          "qid": "Q108512716",
+          "label": "Michael Davidson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Michael Davidson died in 1942, while the card entry is dated 1969. This temporal conflict, combined with the difference in surnames (David vs. Davidson) and the profession (soldier vs. artist), confirms they are not the same person."
+        },
+        {
+          "qid": "Q108753689",
+          "label": "Michael David Henry Holdaway",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card lists the name 'Michael David', implying David is the surname. The Wikidata entity is for 'Michael David Henry Holdaway', where David is a middle name and Holdaway is the surname. Furthermore, there is no evidence provided that the Wikidata individual was an artist or was professionally known as Michael David."
+        },
+        {
+          "qid": "Q110717210",
+          "label": "Michael David Garrison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Michael David Garrison, a bioengineering academic associated with the University of Washington whose thesis date (1998) indicates he would have been far too young to be an active artist in 1969. Furthermore, the name on the card is 'Michael David', where 'David' is most likely the surname, whereas 'David' is a middle name for the bioengineer."
+        },
+        {
+          "qid": "Q113248357",
+          "label": "Michael David Olien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to 'Michael David', while the Wikidata entity is for 'Michael David Olien', a university professor and anthropologist. Given the context that the individuals on these cards are generally artists active in the late 1960s, it is unlikely that a professor of anthropology would be listed simply as 'Michael David' in this artistic context."
+        },
+        {
+          "qid": "Q113552907",
+          "label": "Michael David Beattie",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist named Michael David active in the late 1960s, while the Wikidata entity is for Michael David Beattie, a researcher associated with the University of Lancaster. The names and occupations do not align sufficiently to suggest they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Michael David is a prominent American theatrical producer and arts administrator who was a key figure in experimental theater during the late 1960s and 1970s. From 1969 to 1978, he served as the executive director of the Chelsea Theater Center in Brooklyn (based at the Brooklyn Academy of Music), alongside artistic director Robert Kalfin. Under his leadership, the Chelsea Theater Center became a hub for avant-garde and technologically integrated productions. In 1971, he facilitated a residency for the video collective Video Free America (led by Arthur Ginsberg), which resulted in landmark multimedia theatrical works such as Allen Ginsberg's 'Kaddish' (1972) and Peter Handke's 'Kaspar' (1973). These collaborations are often cited in the context of the Experiments in Art and Technology (E.A.T.) movement, as they focused on the intersection of artistic performance and technical engineering (specifically early video technology). David later went on to co-found the successful producing partnership Dodger Theatricals (originally the Dodger Theater) in 1978 at BAM.",
+            "sources": [
+              "https://www.playbill.com/article/a-life-in-the-theatre-michael-david-com-162016",
+              "https://en.wikipedia.org/wiki/Michael_David_(producer)",
+              "https://www.broadwayworld.com/article/Photos-Broadway-Producer-Michael-David-Honored-by-UJA-20121127",
+              "https://en.wikipedia.org/wiki/Chelsea_Theater_Center",
+              "https://www.nypl.org/research-catalog/search?q=Michael%20David%20Chelsea%20Theater%20Center"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Michael David (born 1954) is a well-known American abstract painter primarily recognized for his mastery of the encaustic (wax-based) painting technique. While his professional career reached national prominence in the early 1980s, he was active as a student and emerging artist in the mid-1970s. He first encountered encaustic painting in an undergraduate course at the Parsons School of Design in 1975. His work often incorporates iconographic symbols and a physical, aggressive approach to the medium that he likens to the energy of the 1970s New York punk scene, in which he also participated as a bass player for the band the Plasmatics. His work is held in the permanent collections of major institutions, including the Metropolitan Museum of Art, the Guggenheim Museum, and the Museum of Modern Art (MoMA). He currently operates M. David & Co., a gallery and residency program in Brooklyn.",
+            "sources": [
+              "https://www.artnet.com/artists/michael-david/biography",
+              "https://provincetownindependent.org/arts-ideas/2021/05/26/michael-david-discusses-his-life-as-an-artist-and-teacher/",
+              "https://www.yellowchairsalon.com/faculty/michael-david",
+              "https://www.mdavidandco.com/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Michael David\" artist 1960s 1970s biography",
+            "\"Michael David\" painter or sculptor 1960s 1970s",
+            "artist \"Michael David\" \"Experiments in Art and Technology\"",
+            "\"Michael David\" E.A.T. artist",
+            "\"Michael David\" \"Experiments in Art and Technology\" engineer artist",
+            "\"Michael David\" \"The Matter\" David Gordon",
+            "\"Michael David\" dancer David Gordon company 1970s",
+            "\"Michael David\" artist active 1960s 1970s",
+            "\"Michael David\" artist E.A.T. 1960s",
+            "\"Michael David\" artist \"Pepsi Pavilion\" E.A.T.",
+            "\"Michael David\" producer E.A.T. \"Experiments in Art and Technology\"",
+            "\"Michael David\" \"Chelsea Theater Center\" biography",
+            "\"Michael David\" engineer \"Experiments in Art and Technology\"",
+            "\"Michael David\" \"Video Free America\" Chelsea Theater Center",
+            "",
+            "\"Michael David\" Chelsea Theater Center E.A.T. association",
+            "\"Michael David\" artist \"Detroit Institute of Arts\" 1968",
+            "\"Michael David\" Experiments in Art and Technology member",
+            "\"Michael David\" E.A.T. Pepsi Pavilion",
+            "\"Michael David\" artist \"9 Evenings\"",
+            "\"Michael David\" artist \"Pepsi Pavilion\" list",
+            "\"Michael David\" list of artists \"Experiments in Art and Technology\"",
+            "\"Michael David\" engineer E.A.T.",
+            "\"Michael David\" Chelsea Theater Center video art"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwGlVmfLVykyuxrWz-QscfMYJXjErwq55_s1zOzaxZfVbzpELvo593L8-nFulQeL8MA699ltDOdVg8YPjKXYx-0Vz-R4RB8KOfcnmC_wGl_8YzQVeHLAo0sHIRtIS_H8WJVznexqkqafoUiobI0EvCoY75dRhvlFt-AEaDmNe-Lb1BEFUIqw==",
+              "title": "playbill.com",
+              "resolvedUri": "https://playbill.com/article/a-life-in-the-theatre-michael-david-com-161036"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPzjHe5ZQpAl2W1sy1l9DpzyhCGcuRDHRpjXk2_mS8DaGe9CNLChUr-4CNZx3T9qEQz8W60qgArJtW42kEZK7HjdRpFjpYnKIoK24msyDZ5IDnobpniUEQRK1phpBdFnuqvA3Tz-TJvwZD4SSaO2wwPfgap00oYn7OVMkU8nr2XS7WaxN8hBfHPR7FVk67e110Z7Oc5UY0f9o2yfgsi9WCmMH-Pu99iEbEsSQffYGy4VUCK-qa4vm39rebm4WL",
+              "title": "broadway.com",
+              "resolvedUri": "https://www.broadway.com/buzz/205020/broadway-league-honors-michael-david-lauren-reid-and-david-stone-with-2024-leadership-awards/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqYH3pU_dV68hndO9RmFyT5DMyyJSPxcjk2mSGVTmEVIZ_HcbgvMKv9hiiJId_U425iiAEawu_QFQ3j20coZ9aFvvTgDLvsB-PlR8MI3rJzgzAN5Dqa_v1qT44gKva8UbfjL596fds45wAJZABO2WV1bZTnD-IKk09IgYKA3_4blC08u_vKOZWxKofPB4BG-ne5pwTsoRzy8ryM_QFcxJAnEG8vlTk1g==",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/entangled-technology-and-the-transformation-of-performance-0262195887-9780262195881.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHrv7jlRL51pbsaOdcTvOTWfpVBarrB0eQgBp-QAqOyK9BxwlqcwDD7Z1OUbfz0sl9_p5459BL7MNX5xumbSPehgyJaFPNEcnwqXVFWprrg-wfWUEGGi2TMO1sUNhhtAF93ECGaIDPtW_xJQBX54I88Hec2UoltzhzgMaYqnwqWKMDEV-gxFt33w9dMH6ztgO3RYm_yU2dodUxkfA9as-MSMEXu4VriQ==",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/entangled-technology-and-the-transformation-of-performance-0262195887-9780262195881.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs28ObXeq9-GxCsuBbnNZggPYmTtJ6J6RclfElJ2Sw2qG10Sc8ATJdUkYx3bSyKNpVe3dZ_QNxLcRWn9VqECFy6fCDOaVexFAIedOyhFYfDAbyKWrslE0RAT0ba9W3DL_bURVAcA3N63ipDa2p8Gqmlnnmpb19dvv-t_0uUQMb_HF-KkQiy3hq2qwvUwXiFNtYGin_mJl9nCSEUWj5DF1a_LGzyc_o2DnXJtt2X6CCZ9CKQKHPBiQfgVnYqdDkFhI=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/793198018/Chris-Salter-Entangled-Technology-and-the-Transformation-of-Performance-The-MIT-Press-2010"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 208,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Michael David is a prominent American theatrical producer and arts administrator who was a key figure in experimental theater during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 513,
+                "endIndex": 751,
+                "text": "In 1971, he facilitated a residency for the video collective Video Free America (led by Arthur Ginsberg), which resulted in landmark multimedia theatrical works such as Allen Ginsberg's 'Kaddish' (1972) and Peter Handke's 'Kaspar' (1973)."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 854,
+                "endIndex": 988,
+                "text": "movement, as they focused on the intersection of artistic performance and technical engineering (specifically early video technology)."
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +689,115 @@
         "y1": 35.5,
         "x2": 34.8,
         "y2": 47.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q23214",
+          "label": "Marilyn Wood",
+          "description": "person associated with E.A.T.",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the date on the card (1970) aligns with the active period of E.A.T. (Experiments in Art and Technology), an organization the Wikibase entity is associated with. Marilyn Wood was a well-known dancer and choreographer active in this artistic circle during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q26380",
+          "label": "Marilyn Wood",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records share the same name (Marilyn Wood) and are explicitly linked to the E.A.T. Technical Services Program and its edge-notched card project. The card date of 1970 also matches the active period of the artist mentioned in the Wikibase entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6763648",
+          "label": "Marilyn Wood",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes a choreographer and dancer active during the late 1960s and 1970s, which perfectly fits the artistic context of the index card and the date of 1970. Marilyn Wood is well-documented as an artist associated with the Experiments in Art and Technology (E.A.T.) movement."
+        },
+        {
+          "qid": "Q62957504",
+          "label": "Marilyn Wood",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Marilyn Wood in the card entry is associated with the artistic community of E.A.T. in the late 1960s and early 1970s, specifically as a choreographer and performance artist. The Wikidata entity (Q62957504) describes a Canadian entrepreneur and political candidate for the 2011 federal election, which is a different professional profile and geographic context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Marilyn Wood (1929–2016) was a prominent American choreographer, dancer, and intermedia artist celebrated for her pioneering site-specific performances known as \"Celebrations.\" Her career began in the late 1950s as a member of the Merce Cunningham Dance Company (1958–1963), where she performed with influential figures such as John Cage and Robert Rauschenberg. In 1968, she founded \"Marilyn Wood and the Celebration Group,\" a collaborative collective featuring dancers, architects, filmmakers, and musicians dedicated to transforming urban environments into performance spaces. Her most famous work, \"Celebrations in City Places: The Seagram Building\" (1972), utilized all 44 stories of the Mies van der Rohe-designed skyscraper, involving 35 dancers and multimedia elements like film projection and original music. Her work is historically associated with the experimental art movements of the late 1960s and early 1970s, including the milieu of Experiments in Art and Technology (E.A.T.), as her \"intermedia\" approach emphasized the collaboration between art, technology, and community participation. Wood later established the International Center for Celebration (ICC) in 1987 in Santa Fe, New Mexico, to continue her work on environmental and cultural festivals globally.",
+            "sources": [
+              "https://archives.nypl.org/dan/18520",
+              "https://www.legacy.com/us/obituaries/nytimes/name/marilyn-wood-obituary?id=14811904",
+              "https://www.nypl.org/blog/2016/05/04/gus-solomons-jr-dances",
+              "https://adriaballetbeat.com/a-pointed-look-at-ballet-from-the-inside-out/2/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Marilyn Wood and the Celebration Group history",
+            "Marilyn Wood choreographer biography late 1960s 1970s",
+            "\"Marilyn Wood\" artist dancer E.A.T.",
+            "Marilyn Wood artist Experiments in Art and Technology E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElFTnEmZG-976pls6m3j4t8nzgaNj6WnbIArmSXnnPk9sx8N0XOY7n0u6QxrjmpcrhDzm1FDORKCqWGJlaSaMe132KMu6XWXxugHHdrN7bfNlCkn1a-HxLJvBVjHikNKDlhaFZ5T2R-NEjZuUOr6Br1GLqLHbRSTfA767gCHh6uEPDKt3vSgw90PAnlZki",
+              "title": "legacy.com",
+              "resolvedUri": "https://www.legacy.com/us/obituaries/nytimes/name/marilyn-wood-obituary?id=10695792"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVcyA0pDOseiX6zrmZX9WQ1bwqiHJWG-A5BcbjJoh35YwAGq5sAT4D_TdF8XxsA5V966OjtGvyN2dFNrmPUfWzIGy7YtlUEA3QtOFTlktDAKjlDlc-dlEgz5sNgu7k",
+              "title": "nypl.org",
+              "resolvedUri": "https://archives.nypl.org/dan/25771"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwJMwotidoV_VWX8NDbEm-Xr1hJFxexaTR5C8M8GC31rEIesSkFngCsG6RpgNsFdqLBMZ6N6hH8WWF0yyhatAKR1YD1t9rRBmaDV1_y-bjTVb9DCu5e-alwDmG2C919ANZooDFFA==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Marilyn_Wood"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 418,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Marilyn Wood (1929–2016) was a prominent American choreographer, dancer, and intermedia artist celebrated for her pioneering site-specific performances known as \\\"Celebrations.\\\" Her career began in the late 1950s as a member of the Merce Cunningham Dance Company (1958–1963), where she performed with influential figures such as John Cage and Robert Rauschenberg."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 419,
+                "endIndex": 637,
+                "text": "In 1968, she founded \\\"Marilyn Wood and the Celebration Group,\\\" a collaborative collective featuring dancers, architects, filmmakers, and musicians dedicated to transforming urban environments into performance spaces."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1167,
+                "endIndex": 1713,
+                "text": "Wood later established the International Center for Celebration (ICC) in 1987 in Santa Fe, New Mexico, to continue her work on environmental and cultural festivals globally.\",\n      \"sources\": [\n        \"https://archives.nypl.org/dan/18520\",\n        \"https://www.legacy.com/us/obituaries/nytimes/name/marilyn-wood-obituary?id=14811904\",\n        \"https://www.nypl.org/blog/2016/05/04/gus-solomons-jr-dances\",\n        \"https://adriaballetbeat.com/a-pointed-look-at-ballet-from-the-inside-out/2/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -50,6 +811,205 @@
         "y1": 46.5,
         "x2": 26.5,
         "y2": 66.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26366",
+          "label": "J. Evans",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records identify 'J. Evans' within the same artistic and historical context. The card date (1970) aligns with the active period of E.A.T., and the Wikibase entity specifically mentions membership in the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which directly corresponds to the source of the physical index card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1113607",
+          "label": "John Gwynne Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist associated with the Experiments in Art and Technology (E.A.T.) program in 1970. The Wikidata entity (Q1113607) refers to a British prehistorian and archaeologist who worked at Cardiff University. These are two distinct professional profiles with no overlapping biographical evidence."
+        },
+        {
+          "qid": "Q6105630",
+          "label": "J. Evans Attwell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6105630) is a corporate lawyer and partner at a law firm (Vinson & Elkins), whereas the person on the card is specifically identified as an artist active in the late 1960s and early 1970s within the context of Experiments in Art and Technology (E.A.T.). It is unlikely that a career lawyer in Houston would be the same individual as the artist 'J. Evans' mentioned on the technical services card."
+        },
+        {
+          "qid": "Q22108526",
+          "label": "John William Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a 'J. Evans' associated with the Experiments in Art and Technology (E.A.T.) program, explicitly identified in the context as an artist. Wikidata entity Q22108526 is a prominent Australian entomologist (John William Evans). While the dates align, the professional backgrounds (science vs. art) and geographical locations (Australia vs. the E.A.T. program, which was primarily US-based) do not match, especially since another QID (Q26366) exists specifically for the artist J. Evans."
+        },
+        {
+          "qid": "Q28837355",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q28837355) was a printer and bookseller active in the late 18th century (1783-1794) in the Kingdom of Great Britain. The card entry is dated 1970 and refers to a person associated with the Experiments in Art and Technology (E.A.T.) program, making these two individuals from entirely different centuries."
+        },
+        {
+          "qid": "Q56597527",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a ship-owner and ship captain, whereas the context for the card entry identifies J. Evans as an artist associated with the Experiments in Art and Technology (E.A.T.) program. These are distinct and incompatible professional identities."
+        },
+        {
+          "qid": "Q75834660",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q75834660 identifies a 'Reverend' J. Evans with a spouse, Harriet Deborah Boyd (who historically lived in the late 19th/early 20th century). This does not align with the card's context of an artist active in the Experiments in Art and Technology (E.A.T.) program in 1970. 'J. Evans' is an extremely common name, and there is no indication that the person on the card was a clergyman from an earlier era."
+        },
+        {
+          "qid": "Q75953114",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'J. Evans' is common. The Wikidata entity Q75953114 lacks any biographical information, such as an occupation (artist) or a time period of activity, that would connect it to the 1970 card entry. Additionally, the card entry's metadata already identifies a different entity (Q26366) as a high-confidence match for the artist in question."
+        },
+        {
+          "qid": "Q76256968",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'J. Evans' is identical, but the Wikidata entity Q76256968 provides no biographical details—such as occupation, active years, or location—that align with the artistic context of the E.A.T. record. Given the commonality of the name and the fact that the card entry already points to a more specific entity (Q26366) for this artist, there is insufficient evidence to identify Q76256968 as the same person."
+        },
+        {
+          "qid": "Q98672744",
+          "label": "J. Evans",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'J. Evans' matches exactly, and both sources identify the individual as an artist. The Wikidata entity's inclusion in the Frick Art Research Library archives suggests a documented artist from a similar historical period, which aligns with the card's 1970 date and context of artistic activity. While the name is common, the professional and geographical context (USA/artist) makes the match plausible."
+        },
+        {
+          "qid": "Q102237234",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'J. Evans' is common, and the occupations do not align. The person on the card is specifically contextualized as an artist associated with the Experiments in Art and Technology (E.A.T.) program in the late 1960s/1970, while the Wikidata entity refers to a horse trainer involved in equestrian sports."
+        },
+        {
+          "qid": "Q123439050",
+          "label": "Jane Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a J. Evans who was an artist associated with Experiments in Art and Technology (E.A.T.) in 1970. The Wikidata entity describes a Jane Evans who was a geography teacher at Takapuna Grammar School in New Zealand. These are distinct professions and geographical contexts."
+        },
+        {
+          "qid": "Q137299690",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'J. Evans' is very common, and the Wikidata record Q137299690 lacks any temporal or contextual information linking it to the 1970 E.A.T. (Experiments in Art and Technology) record. Additionally, the card entry itself identifies the specific individual as Q26366, making it unlikely that this separate researcher entry refers to the same person without further evidence."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "James Evans was an artist and a figure in the mail art movement who was active from the early 1970s through the late 1980s. He is specifically associated with the Los Angeles chapter of Experiments in Art and Technology (E.A.T.). His involvement with E.A.T. is documented in his personal collection, which is now housed at the Getty Research Institute. This collection includes archival materials and records related to E.A.T. Los Angeles, an organization that, while operating largely independently of the New York-based E.A.T. founded by Billy Klüver and Robert Rauschenberg, shared the goal of fostering collaborations between artists and engineers. Evans' work and collections reflect a broader engagement with the experimental art scenes of the late 1960s and 1970s, particularly those focused on network-based and technology-interfacing artistic practices.",
+            "sources": [
+              "https://oac.cdlib.org/findaid/ark:/13030/kt4p3005vj/",
+              "https://www.getty.edu/research/special_collections/collections/index.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Evans (1932–2012) was a prominent New York-based artist active in the late 1960s and 1970s, primarily known for his conceptual collage work and participation in the international mail art movement. He began a daily collage project in 1964, which he continued for 36 years, creating a visual diary of everyday life in the East Village using found ephemera and mixed media. Evans was a peer of other major figures in the 1960s avant-garde, such as On Kawara, who sent him postcards as part of his 'I GOT UP' series in 1968 and 1969. While primarily a collage artist, his work was part of the same conceptual and communicative network that informed organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.amny.com/news/john-evans-79-artist-whose-collages-were-a-diary/",
+              "https://onkawara.co.uk/1969-2-moon-landing/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert J. Evans was a museum director, curator, and art historian who documented and supported artists associated with the technological and collaborative movements of the late 1960s. He served as the Director of the Danforth Museum of Art in Massachusetts and was a curator for the Illinois State Museum. In 1978, he authored the introduction for a retrospective exhibition catalog for sculptor Virginio Ferrari, an artist who was a participant in the landmark 1968 Experiments in Art and Technology (E.A.T.) exhibition 'Some More Beginnings' at the Brooklyn Museum. Evans’ scholarly work in the 1970s focused on the intersection of modern sculpture, technical materials, and the evolving relationship between the artist and institutional spaces.",
+            "sources": [
+              "https://www.virginioferrari.com/bibliography-1957-2016/",
+              "https://www.instantdreams.com/stefanieschneider/arthaus2009.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jerry Evans\" artist E.A.T.",
+            "\"J. Evans\" E.A.T. artist",
+            "\"Jim Evans\" artist E.A.T.",
+            "\"John Evans\" artist E.A.T.",
+            "\"James Evans\" Experiments in Art and Technology",
+            "\"Joan Evans\" artist E.A.T.",
+            "artist \"J. Evans\" \"Experiments in Art and Technology\"",
+            "\"Robert J. Evans\" artist Experiments in Art and Technology",
+            "\"John Evans\" artist Experiments in Art and Technology",
+            "\"James Evans\" artist Experiments in Art and Technology",
+            "\"J. Evans\" Experiments in Art and Technology member list",
+            "\"J. Evans\" Experiments in Art and Technology participants",
+            "\"John Evans\" artist E.A.T. member",
+            "\"J. Evans\" \"Some More Beginnings\" exhibition 1968",
+            "\"James Evans\" artist E.A.T. member",
+            "\"J. Evans\" artist 1960s 1970s E.A.T.",
+            "\"J. Evans\" artist Pepsi Pavilion 1970",
+            "\"John Evans\" artist E.A.T. 1960s 1970s",
+            "\"James Evans\" artist E.A.T. 1960s 1970s",
+            "\"J. Evans\" member E.A.T. 1969",
+            "\"J. Evans\" artist \"Experiments in Art and Technology\" 1968",
+            "\"J. Evans\" artist E.A.T. membership 1968",
+            "\"J. Evans\" artist 1960s 1970s collaborated with engineers",
+            "\"John Evans\" collage artist Experiments in Art and Technology",
+            "\"James Evans\" mail artist E.A.T. Los Angeles",
+            "\"J. Evans\" Experiments in Art and Technology member list 1960s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp_iqYpzg2FMO9JfkP8z1aL-fbDLSD3PqvAegqGV8KUJKzowtDANEqwCEJFcuCW01QGpFoUA4M6y2R7RWFUAaHnLMaKuqi7tJwB_-LhEDi84WL-9yWSlTxQG0qq2uHHw8djFnC0YIzs42EUQQ0l5cnSivaw2AYHsDZTsY2aO_5iA9quQLV5i17fk0b8eezeKX8JuH-O2EIcWUAA9Ty",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/institutions/Getty+Research+Institute::Special+Collections?descriptions=show"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQrULyUVoPmHZDHlSEdLZNu0s1jM8IKsfobiSok8eQGsWRxcflWgcmuBFjAi6lgzr1o8Q8Ek9vawtuYo6yWOW8KU8TgxEHKKIywcFL0SnBSs6LPkyShJnubL9Opxx4P5BVJtVlSyAblfqzNPEeiLO9wQ==",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/c8kp895p/dsc/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 173,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"James Evans was an artist and a figure in the mail art movement who was active from the early 1970s through the late 1980s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 403,
+                "endIndex": 476,
+                "text": "This collection includes archival materials and records related to E.A.T."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 477,
+                "endIndex": 578,
+                "text": "Los Angeles, an organization that, while operating largely independently of the New York-based E.A.T."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -63,6 +1023,273 @@
         "y1": 58.5,
         "x2": 30.1,
         "y2": 72.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q86",
+          "label": "Jimmy Scott",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Don Little' and 'Jimmy Scott' (also known as 'Little Jimmy Scott') are distinct. While they share the word 'Little', it is used as a moniker for Jimmy Scott, whereas 'Don' and 'Jimmy/James' are different given names. The Wikibase entity describes the famous jazz singer Little Jimmy Scott, and there is no evidence in the record that he used the name Don Little."
+        },
+        {
+          "qid": "Q109",
+          "label": "Little Willie John",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Don Little' from the card does not match the Wikibase entity 'Little Willie John' (William Edward John). Little Willie John was a famous R&B singer who died in 1968, and there is no known connection or alias linking him to the name 'Don Little'."
+        },
+        {
+          "qid": "Q78",
+          "label": "Little Esther",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Don Little' on the card does not match 'Little Esther' (a stage name for the female singer Esther Phillips). The gender and first name are distinct, and while they share the word 'Little', they are clearly different individuals."
+        },
+        {
+          "qid": "Q1789",
+          "label": "Little Benny Harris",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Don Little' and 'Little Benny Harris' are distinct. While they share the word 'Little', it serves as a surname for the former and a nickname for the latter (Benny Harris). There is no evidence connecting the jazz musician Benny Harris to the name Don Little."
+        },
+        {
+          "qid": "Q1522",
+          "label": "Little Brother Montgomery",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Don Little' and 'Little Brother Montgomery' are not equivalent. While they share the word 'Little', Little Brother Montgomery (Eurreal Wilford Montgomery) is a distinct, well-known jazz and blues musician whose stage name and real name do not align with 'Don Little'."
+        },
+        {
+          "qid": "Q832",
+          "label": "Little Miss Cornshucks",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Don Little' on the card does not match the Wikibase entry for 'Little Miss Cornshucks'. The card name implies a male individual, while the Wikibase entry describes a woman. Aside from the common word 'Little', there is no biographical or contextual link between these two entities."
+        },
+        {
+          "qid": "Q28116",
+          "label": "Little Red School House",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person (Don Little), while the Wikibase entity describes an institution (Little Red School House). These are distinct entity types."
+        },
+        {
+          "qid": "Q22454",
+          "label": "Webster Young",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Don Little) does not match the Wikibase entity name (Webster Young), and there is no evidence to suggest they are the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q517",
+          "label": "Napoleon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The two records describe completely different individuals from different centuries. The card refers to 'Don Little', likely an artist active in the mid-20th century, whereas the Wikidata entity (Q517) describes Napoleon Bonaparte, the 18th/19th-century French Emperor. There is no overlap in name, dates, or professional activities."
+        },
+        {
+          "qid": "Q178943",
+          "label": "Little Boots",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The individual on the card ('Don Little') was active as an artist in the late 1960s/early 1970s, whereas the Wikidata entity 'Little Boots' (Victoria Hesketh) was born in 1984 and began her career in 2005. Furthermore, the names and genders do not match."
+        },
+        {
+          "qid": "Q1388443",
+          "label": "Little Willie John",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card, 'Don Little', does not match the Wikidata entity 'Little Willie John' (whose real name was William Edward John). While both share the word 'Little', it is a common stage prefix for musicians and there is no evidence linking the two names to the same person. Additionally, Little Willie John died in 1968, while the provided context suggests the artist on the card was likely active into the 1970s."
+        },
+        {
+          "qid": "Q2917869",
+          "label": "Elbert Luther Little",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Don Little' on the card does not match 'Elbert Luther Little' in the Wikidata entry; 'Don' is typically a nickname for Donald, whereas 'Elbert Luther' is a distinct set of given names. Furthermore, the Wikidata entity is a prominent botanist and dendrologist who worked for the USDA, which does not align with the context that the person on the card is an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Don Little (also referred to as Donald Little) was an engineer associated with Bell Laboratories (Bell Labs) during the mid-to-late 20th century. Given his position at Bell Labs, which was the primary source of technical expertise for the Experiments in Art and Technology (E.A.T.) organization, he is a likely candidate for the technical collaborators E.A.T. sought to pair with artists. Records indicate he was involved in technical research related to wireless technology and radio systems, and he has been cited in Bell Labs-affiliated presentations alongside other engineers such as Jim Kile and Samir Shah. His activity aligns with the E.A.T. era of the late 1960s and 1970s, during which Bell Labs staff were frequently recruited for artistic collaborations.",
+            "sources": [
+              "https://www.slideserve.com/keltron-wireless/go-wireless-save-money-with-radio-monitoring-of-your-fire-alarm-system",
+              "https://www.scgen.org/obit2008.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Donald Little is a prominent musician and professor of tuba who has been active since the late 1960s. He earned his Bachelor of Music Education from the Peabody Conservatory in 1970 and his Master of Music from Northwestern University in 1971. He served as the principal tubist for the Fort Worth Symphony Orchestra and the Dallas Opera Orchestra for over 45 years. Notably, he has held artistic leadership roles within the Tubists Universal Brotherhood Association (T.U.B.A., now I.T.E.A.), an organization founded in 1973 dedicated to the artistry of the tuba and euphonium. His career as a performing artist and artistic director fits the time frame of being active in the late 1960s and early 1970s.",
+            "sources": [
+              "https://music.unt.edu/faculty-and-staff/donald-little",
+              "https://www.ibew.org.uk/misc107.htm",
+              "https://txarchives.org/unt/finding_aids/00140.xml"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Don Little was a technical professional and head of an Instrumentation and Photography section at a research establishment during the 1960s and 1970s. Oral history records from the Canadian War Museum describe him as managing a team of 'instrumentation photography' specialists who were responsible for measuring the physical effects of experiments, such as blast impacts on structures. This role combined high-level photography with scientific measurement and technology, a multidisciplinary focus characteristic of the Experiments in Art and Technology (E.A.T.) community.",
+            "sources": [
+              "https://www.warmuseum.ca/learn/dispatches/oral-history-program-interview-transcript-anderson/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Donald Little\" artist Experiments in Art and Technology",
+            "\"Don Little\" artist 1960s 1970s",
+            "artist \"Don Little\" Experiments in Art and Technology E.A.T.",
+            "\"Don Little\" E.A.T. member",
+            "\"Don Little\" artist 1960s 1970s E.A.T.",
+            "\"Don Little\" collaborative artist E.A.T.",
+            "\"Don Little\" E.A.T. member list",
+            "\"Don Little\" \"E.A.T.\" engineer",
+            "\"Don Little\" filmmaker 1960s 1970s",
+            "\"Don Little\" artist 1968 1969 1970 1971 1972",
+            "\"Donald Little\" \"E.A.T.\" artist",
+            "",
+            "\"Don Little\" filmmaker experimental 1960s 1970s",
+            "\"Don Little\" \"Bell Labs\"",
+            "\"Don Little\" artist New York 1960s 1970s",
+            "\"Don Little\" \"9 Evenings\" theatre engineering",
+            "\"Don Little\" \"E.A.T.\" artist engineer",
+            "\"Don Little\" filmmaker 1960s",
+            "\"Don Little\" video artist 1970s",
+            "\"Don Little\" painter 1960s 1970s",
+            "\"Don Little\" \"E.A.T.\" engineer Bell Labs",
+            "\"Donald Little\" artist 1960s 1970s",
+            "\"Don Little\" sculptor E.A.T.",
+            "",
+            "\"Don Little\" artist New York 1968 1969 1970",
+            "\"Don Little\" collaborative artist tech",
+            "\"Don Little\" engineer Bell Labs 1960s 1970s",
+            "\"Don Little\" engineer Bell Labs E.A.T.",
+            " \"Donald Little\"",
+            "\"Don Little\" artist collaborator tech 1960s 1970s",
+            " \"Don Little\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuIfRjQnegDxk0BV5fxdahYsrsw4poLil4h3fTE_4R60QYiEGJTOvfNqAHNI5okRhDvF7c2AkMgo0BX-lQV2SIeDs7MHcBinuiG3MEV8tslHvSg6UC9PrtTpsxbg9B7jUCgovSQmkAIM0=",
+              "title": "unt.edu",
+              "resolvedUri": "https://music.unt.edu/people/donald-little.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERrko5CKKFDy0lE1d6r8HxIxHzCqCm4H0WsxXZ2eDl1t_yO53X54QugP6LjlbgD7t92FAaY-GxF6DfkXhoR7GHqaT_83e7-wRGv4Jd93v2zUq3qo3QupRCBqxzIv2UfYJ_UiuFTEUrvyeRh7SQVWvpDf-uDM1WT2Ylew5cwRo2RsLYt65bQd6XvmjZWROY",
+              "title": "navysite.de",
+              "resolvedUri": "https://www.navysite.de/crewlist/crewlist.php?&start=M%&startat=25440&order=command"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa-ULE8_CM4fYVCj3aYchxsUf7HqXxajUuxryq6WzFTFSAW5frbI-5ONIHoWIxrunuzRrAdBWQZJQi-mF7j43ugW9lsAwr1PsCHF5nXxkSipI-5hAsforAH1P5klloAu8koSJIZX6Eus3-gv8bQ-WOn7hQdkP5my0SBtdhWO1A5DnFC7b4",
+              "title": "neal-tarpley.com",
+              "resolvedUri": "https://www.neal-tarpley.com/obituaries/Msg-Ret-Donald-Little?obId=46158200"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFum5JY7sqgt6mDrN-T52XNl7YCEwV92rKo7zTRWse-ZbEhxzDDRvNdTBPLko_7ktpM2LjVBtaapcodJ0PZe0NUOiR_00ZAm80N-ejE1xRtYjgoB_YsfaDZGWbg_8FK0cQ3juNsG7V_IqHXYNHRaKjdETI=",
+              "title": "orbiscascade.org",
+              "resolvedUri": "https://archiveswest.orbiscascade.org/ark:80444/xv245086"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOAoNr6AKEYu3oVwuSaf86vGQ_OPSucbXT4WGf-A4Wlm24ZraWGVFlooHwxwp2e7xfdbAIXgPL9Mw6lLSkg-T147iDJe0h86qvFHQ_t5ce3vGpaUTISPFGBxTetVU4FPkXCpyXOjQCAPMVFLokd472mj9NyQ==",
+              "title": "memorylanesunbury.com",
+              "resolvedUri": "https://www.memorylanesunbury.com/obituaries/donald-little"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-PAMWSBylQDCuM1NzA8Dzpts79RiZkN2OK6_h67npLtpmlL7aFS4Rx3mrhSlz9CM-UIjp_5D47Ht8fmKo_LIKmgogY7_2NG4BBibaYJrT-FYYHqPRh3XcrJ-NJWbkGJaY9PJ7V_h3oJ5o2WVhf8dRACxfzp9YtLvdlmDAyJyxPiUwzLs=",
+              "title": "geneva.edu",
+              "resolvedUri": "https://www.geneva.edu/faculty-staff/faculty/biology/faculty-donald-little"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMespvTOrjjB_PC5OI7IlYgJnUH39SmtoxbL2bzai7B02IR2XqIdBykbKn0TvvonVQ9Ll17mVC2-xKujEmeXa6YviaXAWgHZg5iyGIfk0FNarN6HpNzPGw1Nx7qXEkVM088hWpVYd0sUM1coBYwMSQvhIBXMjD4C3sPL4St2lFntww3aotw64IbJRNWL4yk4pJmw==",
+              "title": "museumofportablesound.com",
+              "resolvedUri": "https://museumofportablesound.com/wp-content/uploads/2020/11/mops-2020-annual-report.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7fAqkgqjMlh6XUEe9qsLDew0w-HlBb7BqkT1VIobwt1eBGm9XRNBwOhMkH0OJ2g5PceX5wz18UO6hQg0W-rVUMa2Rw6TryE4SXClMFpLqjWVoKbaFh2nllf3uigiGnW-DctwrBVwiZgSUtEOJK57OtVKwld_BXHeskvO-OuyrCWpoKo7LEvJ-S2W6A1ftkxf6_EQWp2KyQ1QEHBV5i3mBnUiibrMQvqqICGum7WboQQ_pwOehlzBKdCaR9XhYwrT--0HF_lG0KqYJ",
+              "title": "furman.edu",
+              "resolvedUri": "https://www.furman.edu/osher-lifelong-learning-institute/wp-content/uploads/sites/147/2025/07/251163-Furman-OLLI25-26-Fall-Schedule-PROOF-1.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7JHVbWX5rDnk_fQTB-t4Ngzf3DMDJMyaQIKErg9fxqSYPLieP-I5EL2nt_ocUzvrPxsKuhNpamyReb3iq9Or9wqrqTczIySSG_6B41EhVdQQcztuDSgEowt2jc_KMUtHrFQVJiKpBfeNLHYFJWZg=",
+              "title": "tolandherzig.com",
+              "resolvedUri": "https://www.tolandherzig.com/obituaries/donald-little"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhiFc2H81PbqwCs6HhW43dU0RaRKVem7u1HCKKx0tt1GhELXAeKgbW4T0f5ZJy-T6Zdss2MGVJFzMAVHUyY8eZzWU7GilQyw-l05TpKO3-9kRFnSsyEnG37ryLAHleMFeDi-yTsV_20z2bdRFcor6qDAv0OYTyDMz9pkEL1lZdbLJMCdr3_vHFELaV4t34tw5T5SPvW0pj-a26MCPV49zNjZMp",
+              "title": "oswego.edu",
+              "resolvedUri": "https://alumni.oswego.edu/s/1552/images/editor_documents/magazine/fall_2025_oswego_magazine_sm_single.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqIc1PhxFM9YNloaYeW-ayA7Qgxl0WMuaXLCkYBSLscHSNrvFLmSoEWBoEMwGC2FMCkdVEn7dFwuBv89Yak3DbovsZmaFfzaH53zqm9KxdxNujYTqrRIGnDl6lbLeyqgeMv-Yhsqt6Xj7_dRDMi1OtmjVZYilh1hwiwUxc1tL9VR7DiEKJztK-1i4RfChOHD0=",
+              "title": "modelaircraft.org",
+              "resolvedUri": "https://www.modelaircraft.org/sites/default/files/MinneapolisModelAeroClubHistory.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 699,
+                "endIndex": 1191,
+                "text": "era of the late 1960s and 1970s, during which Bell Labs staff were frequently recruited for artistic collaborations.\",\n      \"sources\": [\n        \"https://www.slideserve.com/keltron-wireless/go-wireless-save-money-with-radio-monitoring-of-your-fire-alarm-system\",\n        \"https://www.scgen.org/obit2008.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Donald Little is a prominent musician and professor of tuba who has been active since the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1192,
+                "endIndex": 1333,
+                "text": "He earned his Bachelor of Music Education from the Peabody Conservatory in 1970 and his Master of Music from Northwestern University in 1971."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1334,
+                "endIndex": 1455,
+                "text": "He served as the principal tubist for the Fort Worth Symphony Orchestra and the Dallas Opera Orchestra for over 45 years."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2632,
+                "endIndex": 2820,
+                "text": "community.\",\n      \"sources\": [\n        \"https://www.warmuseum.ca/learn/dispatches/oral-history-program-interview-transcript-anderson/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            }
+          ]
+        }
       }
     }
   ]

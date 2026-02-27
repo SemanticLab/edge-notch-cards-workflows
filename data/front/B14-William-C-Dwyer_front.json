@@ -26,5 +26,109 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "graphics, computer animation, film",
     "aestheticPhilosophicalInterests": "Moved to San Diego 1968-07-01"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q8008165",
+      "label": "William Dwyer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity died in 1951, whereas the individual on the index card moved to San Diego in 1968. Furthermore, the Wikidata entity was an Irish politician, while the person on the index card was an American computer programmer and graphics expert."
+    },
+    {
+      "qid": "Q75354825",
+      "label": "William Dwyer",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "While the names match (William Dwyer/William C. Dwyer), the name is very common. The Wikidata entity lacks any professional or geographical details (such as his role as a programmer at Stromberg Carlson or his locations in New York and San Diego) to confirm a connection to the specific individual on the index card."
+    },
+    {
+      "qid": "Q75630690",
+      "label": "William Dwyer Ferguson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different people from entirely different eras. The Wikidata entity lived from 1816 to 1890, while the index card describes a programmer working with digital computers and animation who moved to San Diego in 1968. Additionally, the surnames differ (Dwyer vs. Ferguson)."
+    },
+    {
+      "qid": "Q105809091",
+      "label": "William F. Dwyer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The middle initials differ (C. vs F.). Furthermore, the professions and timeframes are incompatible: the index card refers to a computer programmer active in the late 1960s, whereas the Wikidata entity describes a Massachusetts politician active in the early 20th century (1918)."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q7624369",
+      "label": "Stromberg-Carlson",
+      "description": "telecommunications equipment and electronics manufacturing company in the United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name is an exact match. Stromberg-Carlson was a well-known electronics and telecommunications company with a significant facility in San Diego (as noted on the card). Specifically, their San Diego division was famous for developing the SC-4020 digital film recorder, which aligns perfectly with the specialized skills listed on the card such as 'Digital film recorders', 'computer animation', and 'graphics'."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "William C. Dwyer was a computer programmer and graphics specialist active during the late 1960s and early 1970s. He was employed by the Stromberg Carlson Corporation (specifically its Data Products Division, later known as DatagraphiX) in San Diego, California. Dwyer specialized in the field of digital computers, software design, and computer animation, particularly in relation to digital film recorders such as the S-C 4020 and S-C 4060. In 1968, while associated with the Polytechnic Institute of Brooklyn, he presented a technical paper titled \"WINDOWS, SHIELDS, AND SHADING\" at the annual conference of UAIDE (Users of Automatic Information Display Equipment), the primary user group for Stromberg-Carlson equipment. His expertise in computer graphics and film recording led to his association with Experiments in Art and Technology (E.A.T.), a non-profit organization that brokered collaborations between technical professionals and artists. Dwyer likely provided technical support and programming assistance to artists utilizing Stromberg-Carlson's microfilm and film recording technology for early computer-generated art and animation.",
+        "sources": [
+          "http://www.chilton-computing.org.uk/acl/applications/computer_animation/p005.htm",
+          "https://www.chilton-computing.org.uk/acl/applications/computer_animation/uaide_contents.htm"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"William C. Dwyer\" E.A.T. engineer",
+        "\"William C. Dwyer\" San Diego programmer",
+        "\"William C. Dwyer\" computer animation film recorder",
+        "",
+        "\"William Dwyer\" computer graphics film recorder",
+        "\"Bill Dwyer\" Stromberg Carlson programmer",
+        "\"William C. Dwyer\" computer animation San Diego",
+        "",
+        "\"William Dwyer\" \"Stromberg Carlson\" San Diego graphics",
+        "\"William Dwyer\" SC-4020 programmer",
+        "\"William C. Dwyer\" film recorder computer animation",
+        "",
+        "\"William C. Dwyer\" animation film recorder E.A.T.",
+        "\"William C. Dwyer\" computer film San Diego",
+        "",
+        "\"William Dwyer\" E.A.T. archive",
+        "\"William C. Dwyer\" E.A.T. archive",
+        "",
+        "\"William Dwyer\" \"Stromberg Carlson\" E.A.T.",
+        "\"William C. Dwyer\" SC-4020 graphics",
+        "",
+        "\"William Dwyer\" \"Stromberg Carlson\" computer art",
+        "\"William C. Dwyer\" E.A.T. member",
+        "\"William Dwyer\" E.A.T. engineer list",
+        "\"William C. Dwyer\" graphics programmer San Diego",
+        "\"William Dwyer\" SC-4020 film animation"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHic08WgJNE3IvNtmYqs2iG8MffFjdEYV2Ps8V7jIlTLhrkKDjecf-cClf_graJAQLR_UFazCZ-Y8sJHHxdW701V1O80NtEE_dkqkfbb3W20W-xjtClla9ZViwaDsTMR_m1yhH8OwPyzY9npQObheiwsTrLkmwL3MGQhEF63w==",
+          "title": "chilton-computing.org.uk",
+          "resolvedUri": "http://www.chilton-computing.org.uk/acl/technology/sc4020/p013.htm"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 1002,
+            "endIndex": 1465,
+            "text": "Dwyer likely provided technical support and programming assistance to artists utilizing Stromberg-Carlson's microfilm and film recording technology for early computer-generated art and animation.\",\n      \"sources\": [\n        \"http://www.chilton-computing.org.uk/acl/applications/computer_animation/p005.htm\",\n        \"https://www.chilton-computing.org.uk/acl/applications/computer_animation/uaide_contents.htm\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

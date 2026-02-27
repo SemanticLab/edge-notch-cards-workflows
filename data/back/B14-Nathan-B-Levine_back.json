@@ -9,6 +9,92 @@
         "y1": 35.7,
         "x2": 95.1,
         "y2": 84.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3127488",
+          "label": "Harley Jones Van Cleave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Harley Jones Van Cleave died in 1953, which is well before the 1969 date on the card. Additionally, he was a scientist (zoologist) rather than an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q116947430",
+          "label": "Harley Jones",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match and the Wikidata entity is a musician (accordionist), which fits the artist context, the individual would have been only 16 years old in 1969 according to the birth date. It is more likely the card refers to a different Harley Jones, such as the UK-based filmmaker and graphic artist active in the late 1960s, rather than a young accordionist from New Zealand."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Harley Jones was a British filmmaker, film editor, and educator who was a prominent figure in the experimental film scene during the late 1960s and 1970s. He began his career as a film editor for Scottish Television from 1963 to 1966, working on John Grierson's program 'This Wonderful World.' In 1966, he became a co-founder and the first course leader of the Newport Film Unit (later the Newport Film School) at the Newport College of Art and Design, where he shaped the curriculum until 1982. Jones is known for his experimental and documentary films, including 'Resurrection' (1966), an impressionistic homage to steam engines, and 'After Many a Summer' (1968), which documented the redevelopment of the Tiger Bay community in Cardiff and was purchased by the Contemporary Art Society for Wales. His work frequently combined documentary styles with animation. He later worked as an independent producer for the Welsh-language channel S4C and remained active in community cinema projects into the 21st century. His films are preserved in the National Screen and Sound Archive of Wales and the BFI National Archive. Given his role at the Newport College of Art—a notable hub for experimental media and collaboration between art and technology—he is a strong candidate for an association with the Experiments in Art and Technology (E.A.T.) movement or similar initiatives that flourished in art schools during the late 1960s.",
+            "sources": [
+              "https://www.bfi.org.uk/player/uk/film/watch-resurrection-1966-online",
+              "https://filmhubnorth.org.uk/shifting-ground-exhibitors",
+              "https://www.casw.org.uk/filmed-talks/",
+              "https://www.youtube.com/watch?v=FeJIeJXjWZj",
+              "https://filmhubwales.org/project/britain-on-film-coast-and-sea/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Harley Jones\" artist 1960s 1970s",
+            "\"Harley Jones\" technical artist E.A.T.",
+            "artist \"Harley Jones\" E.A.T. Experiments in Art and Technology",
+            "\"Harley Jones\" video artist E.A.T.",
+            "\"Harley Jones\" video art 1970s",
+            "\"Harley Jones\" electronic art 1960s",
+            "\"Harley Jones\" Experiments in Art and Technology project",
+            "\"Harley Jones\" E.A.T. member artist",
+            "",
+            "\"Harley Jones\" Newport College of Art E.A.T.",
+            "\"Harley Jones\" E.A.T. engineer",
+            "\"Harley Jones\" film Newport E.A.T.",
+            "\"Harley Jones\" \"E.A.T.\" artist",
+            "\"Harley Jones\" 9 Evenings E.A.T.",
+            "\"Harley Jones\" film Newport Art College",
+            "\"Harley Jones\" engineer E.A.T.",
+            "\"Harley Jones\" E.A.T. member",
+            "\"Harley Jones\" video art E.A.T.",
+            "\"Harley Jones\" Getty E.A.T.",
+            "\"Harley Jones\" E.A.T. archives",
+            "\"Harley Jones\" artist \"late 1960s\" \"early 1970s\"",
+            "\"Harley Jones\" Guggenheim E.A.T.",
+            "",
+            "\"Harley Jones\" E.A.T. engineer participant",
+            "\"Harley Jones\" video art E.A.T. London",
+            "",
+            "\"Harley Jones\" artist \"Estate of Harley Jones\" Harlem",
+            "\"Harley Jones\" animator Newport E.A.T.",
+            "\"Harley Jones\" engineer Bell Labs E.A.T.",
+            "\"Harley Jones\" animator E.A.T.",
+            "\"Harley Jones\" filmmaker E.A.T. connection"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwfX-4ThupScLiaI5djkilMHqvGvkpEcxDIJ5yHB32j_0Xazw9NMtB4eWlEhQPg_b46pdcjl3Pof2WaRSJ_LUhCvRwqAKdXB60clVkUKLhyeqH6DAYoUv2-2rCLouJhmG15c1rbx3S_NzkJQ==",
+              "title": "illinois.edu",
+              "resolvedUri": "https://las.illinois.edu/alumni/awards/quadrangle"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1395,
+                "endIndex": 1878,
+                "text": "movement or similar initiatives that flourished in art schools during the late 1960s.\",\n      \"sources\": [\n        \"https://www.bfi.org.uk/player/uk/film/watch-resurrection-1966-online\",\n        \"https://filmhubnorth.org.uk/shifting-ground-exhibitors\",\n        \"https://www.casw.org.uk/filmed-talks/\",\n        \"https://www.youtube.com/watch?v=FeJIeJXjWZj\",\n        \"https://filmhubwales.org/project/britain-on-film-coast-and-sea/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +106,79 @@
         "y1": 13.6,
         "x2": 91.1,
         "y2": 51.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2061431",
+          "label": "Paul Nancekievill",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is 'Paul Nance', while the Wikidata entity is 'Paul Nancekievill'. While both involve the first name Paul and the first five letters of the surname, Nance is a common distinct surname and not a standard abbreviation for Nancekievill. Without more specific evidence linking the two, they are likely different individuals."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Paul Nance is an interdisciplinary artist and engineer who has been active since the late 1960s. He describes himself as an engineer, artist, maker, writer, and teacher with a career in photography spanning over fifty years. Based in Edison, New Jersey—a historical hub for technological research like Bell Labs—he has worked as a commercial photographer for decades and has also served as a programmer and network technician. His artistic practice often bridges the gap between technology and art, a hallmark of the Experiments in Art and Technology (E.A.T.) organization. He has written extensively on the technical and aesthetic evolution of photography from the 1960s to the digital age, including early experiments with homemade pinhole cameras. His background as a 'maker' and engineer, combined with his long-term practice in visual arts (specifically photography and cinematography), aligns with the collaborative spirit of the E.A.T. movement that promoted partnerships between artists and engineers.",
+            "sources": [
+              "https://www.quora.com/profile/Paul-Nance-2",
+              "https://www.quora.com/Why-were-B-W-pics-still-so-popular-in-the-1960s-if-colored-pics-already-existed-by-that-time",
+              "https://www.quora.com/Why-didnt-color-photography-become-popular-among-artists-until-the-1960s",
+              "https://www.quora.com/Why-do-some-feel-that-a-newer-or-different-camera-will-make-you-a-better-photographer"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Paul Nance artist Experiments in Art and Technology",
+            "\"Paul Nance\" artist 1960s 1970s",
+            "\"Paul Nance\" E.A.T. organization",
+            "Who is Paul Nance artist?",
+            "\"Paul Nance\" artist engineer 1966",
+            "\"Paul Nance\" Bell Labs engineer artist",
+            "\"Paul Nance\" Experiments in Art and Technology",
+            "\"Paul Nance\" 9 Evenings Theater and Engineering",
+            "\"Paul Nance\" E.A.T. Billy Kluver",
+            "\"Paul Nance\" engineer E.A.T.",
+            "\"Paul Nance\" artist 1960s 1970s technology",
+            "\"Paul Nance\" Bell Labs E.A.T.",
+            "",
+            "\"Paul Nance\" Experiments in Art and Technology E.A.T. bibliography",
+            "\"Paul Nance\" E.A.T. collaboration",
+            "\"Paul Nance\" artist \"Bell Labs\" 1960s",
+            "\"Paul Nance\" 9 Evenings engineer list",
+            "\"Paul Nance\" E.A.T. member list",
+            "\"Paul Nance\" Bell Labs engineer 1960s artist",
+            "\"Paul Nance\" artist engineer E.A.T. newsletter",
+            "\"Paul Nance\" artist multimedia 1960s",
+            "\"Paul Nance\" Bell Labs artist E.A.T.",
+            "\"Paul Nance\" Experiments in Art and Technology artist profile",
+            "\"Paul Nance\" E.A.T. engineer artist",
+            "\"Paul Nance\" artist photography multimedia 1970s",
+            "\"Paul Nance\" Bell Labs artist tech 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeJNAIJdNJq7P1_vYQBnhDaV6P-i7A3iPIInZlrMybwvx9XJxMOBQOjsxc_9VXiYWCMF9b3kYK3wDaYOI9lROGId5_-mKffCzfWEtU5lUFVlccMcC0o1BXJpgKiGPdsyF28afPv-qCXseT0fukF7kOT5HnUg==",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/311885112/Medical-Catalog"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 997,
+                "endIndex": 1541,
+                "text": "movement that promoted partnerships between artists and engineers.\",\n      \"sources\": [\n        \"https://www.quora.com/profile/Paul-Nance-2\",\n        \"https://www.quora.com/Why-were-B-W-pics-still-so-popular-in-the-1960s-if-colored-pics-already-existed-by-that-time\",\n        \"https://www.quora.com/Why-didnt-color-photography-become-popular-among-artists-until-the-1960s\",\n        \"https://www.quora.com/Why-do-some-feel-that-a-newer-or-different-camera-will-make-you-a-better-photographer\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -30,6 +189,22 @@
         "y1": 36.1,
         "x2": 83.5,
         "y2": 80.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Experiments in Art and Technology\" \"Playhouse\"",
+            "\"Experiments in Art and Technology\" \"Aero\"",
+            "\"Aero Playhouse\"",
+            "\"Aero\" artist group 1960s",
+            "\"Aero\" \"Playhouse\" \"Experiments in Art and Technology\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -40,6 +215,268 @@
         "y1": 9.5,
         "x2": 79.5,
         "y2": 66.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q22690",
+          "label": "White Foam",
+          "description": "artwork created by Les Levine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person named Douglas White, while the Wikibase entity describes an artwork titled 'White Foam' created by Les Levine. There is no correlation between the person and the artwork entity."
+        },
+        {
+          "qid": "Q29497",
+          "label": "white screen",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity describes a physical object (a white screen/projection device) used as theatrical scenery, while the card entry refers to a human artist named Douglas White. There is no possibility of a match between a person and a piece of equipment."
+        },
+        {
+          "qid": "Q29496",
+          "label": "white paper",
+          "description": "paper product",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person named Douglas White, while the Wikibase entity describes a material (white paper) used as a prop or material in a performance. They are not the same entity type."
+        },
+        {
+          "qid": "Q25522",
+          "label": "WhiteBox",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Douglas White, whereas the Wikibase entity describes an art gallery and organization named WhiteBox. They are different types of entities."
+        },
+        {
+          "qid": "Q23323",
+          "label": "White City Ballroom",
+          "description": "venue in Chicago, Illinois",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Douglas White, whereas the Wikibase entity describes a venue called the White City Ballroom. A person and a physical location are distinct entity types."
+        },
+        {
+          "qid": "Q23026",
+          "label": "White Sulphur Springs (W. Va.)",
+          "description": "city in West Virginia",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity refers to a city (White Sulphur Springs, West Virginia) rather than a person. There is no overlap between a person named Douglas White and a geographic location."
+        },
+        {
+          "qid": "Q21161",
+          "label": "Whites",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity 'Whites' (Q21161) refers to a demographic category within a specific project ('The International Sweethearts of Rhythm Project'), not a specific individual person named Douglas White. Additionally, the instance type is 'demographica', confirming it is not a record for a human artist."
+        },
+        {
+          "qid": "Q27515",
+          "label": "White Star",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The index card describes a person named Douglas White, whereas the Wikibase entity Q27515 is for 'White Star', which is identified as an organization, not a person."
+        },
+        {
+          "qid": "Q19671",
+          "label": "White Painting",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person (Douglas White), whereas the Wikibase entity (Q19671) is explicitly labeled as an 'instance of' a 'painting'. A person cannot be the same entity as an inanimate object like a painting."
+        },
+        {
+          "qid": "Q29743",
+          "label": "White House",
+          "description": "official residence and office of the President of the United States",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity describes the White House, the official residence and office of the President of the United States, which is a building/institution and not a person named Douglas White."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5301910",
+          "label": "Douglas R. White",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names match, but the Wikidata entity (Q5301910) is a well-documented anthropologist and sociologist specializing in social network analysis and mathematical anthropology. There is no indication in his professional history that he was an artist or involved in the artistic/performance circles typical of the index card's context."
+        },
+        {
+          "qid": "Q5302101",
+          "label": "Douglas Whiteway",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name in the Wikidata entity is 'Douglas Whiteway', which differs from 'Douglas White' on the card. Furthermore, the Wikidata entity was born in 1961, making him too young to be an artist active in the late 1960s or early 1970s as described in the context."
+        },
+        {
+          "qid": "Q42412113",
+          "label": "Douglas W White",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity describes a 'researcher' named Douglas W White. While the names are similar, the card entry identifies an individual likely involved in the arts during the late 1960s and early 1970s. Without further evidence connecting this researcher to the art community or specific dates of activity, there is no strong basis to assume they are the same person."
+        },
+        {
+          "qid": "Q60142969",
+          "label": "Douglas Whiteside",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card refers to Douglas White, while the Wikidata entity is for Douglas Whiteside. Furthermore, the Wikidata entity describes a researcher and veterinary professional at the Calgary Zoo, which does not align with the artist context provided for the individual on the card."
+        },
+        {
+          "qid": "Q61988965",
+          "label": "Douglas White",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a medical researcher and academic associated with medical schools in New Zealand and Scotland. The card refers to a person identified as an artist active in the late 1960s/early 1970s. The commonality of the name Douglas White combined with the starkly different professional backgrounds makes a match highly unlikely."
+        },
+        {
+          "qid": "Q66336869",
+          "label": "Douglas White",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity describes a prominent New Zealand jurist and lawyer, whereas the context for the card suggests the subject is an artist active in the late 1960s or early 1970s. Furthermore, the birth date provided in Wikidata (September 5) does not match the date on the card (November 24)."
+        },
+        {
+          "qid": "Q67173452",
+          "label": "Douglas White",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Douglas White' matches exactly. The Wikidata entity is identified as a human and a professor specializing in the history of architecture. Given the context that the person on the card is an artist or creative practitioner active in the 1960s-1970s, a specialist in architectural history fits within this professional and cultural milieu, as architects and architectural scholars are often included in art-related archives of that period."
+        },
+        {
+          "qid": "Q76079188",
+          "label": "Douglas Andrew White",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q76079188) was born in 1959, meaning he would have been between 9 and 15 years old during the late 1960s and early 1970s. It is highly improbable that he is the artist documented in the archive, as that person was an active creative professional during that era. Furthermore, the Wikidata entry appears to be a genealogical record with no mention of artistic activity."
+        },
+        {
+          "qid": "Q82095240",
+          "label": "Douglas M Whiteside",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Douglas White', whereas the Wikidata entity is for 'Douglas M Whiteside'. These are distinct surnames. Furthermore, the Wikidata entity is described as a researcher associated with medical and university systems, which does not align with the artistic context provided for the individual on the card."
+        },
+        {
+          "qid": "Q94374020",
+          "label": "Douglas White",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name matches exactly and a birth year of 1906 would make the individual a plausible age (60s) for activity in the late 1960s/early 1970s, the name 'Douglas White' is very common. The Wikidata record lacks any occupation, location, or biographical details that connect the individual to the arts. Furthermore, the card specifies a date of November 24, while the Wikidata record lists January 1 (though this is often a placeholder for just the year)."
+        },
+        {
+          "qid": "Q94935700",
+          "label": "Douglas B White",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity (Q94935700) refers to a contemporary academic researcher at the University of Pittsburgh, likely in the medical or ethics field. In contrast, the card entry is part of an archive related to artists active in the late 1960s and early 1970s (evidenced by the candidate matches like Les Levine's 'White Foam'). An academic researcher at Pitt is unlikely to be the same person as the artistic practitioner described in the archival context."
+        },
+        {
+          "qid": "Q98766411",
+          "label": "Douglas White",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1977, which contradicts the context that the Douglas White on the card was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q100954083",
+          "label": "Doug White",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist named Douglas White who was active in the late 1960s and early 1970s. The Wikidata entity Q100954083 describes a basketball player who played for Drexel University. There is no information connecting this athlete to the artistic field or timeframe mentioned in the card's context."
+        },
+        {
+          "qid": "Q110275522",
+          "label": "Douglas White",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a researcher at La Trobe University, whereas the person on the index card is expected to be an artist active in the late 1960s or early 1970s. While the names match, the professional descriptions do not align."
+        },
+        {
+          "qid": "Q112167736",
+          "label": "Douglas White Ambridge",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person named Douglas White who is expected to be an artist active in the late 1960s or 1970s. The Wikidata entity is Douglas White Ambridge, a businessperson and engineer born in 1898. The mismatch in occupation and the difference in the primary surname ('White' vs 'Ambridge') indicate they are not the same person."
+        },
+        {
+          "qid": "Q120837868",
+          "label": "Douglas White",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names match exactly. The Wikidata entity describes a person with occupations (film director and editor) that align with the artistic context provided (which includes filmmakers). Without more specific biographical details on the card, this is a plausible match for an artist active during the specified era."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Douglas White was a multimedia artist, video pioneer, and architectural historian active in the late 1960s and early 1970s. He was a co-founding member of the influential media collective Environmental Communications (EC), established in 1969 in Venice, California. The collective focused on documenting the urban environment, pop architecture, and experimental structures using then-emergent technologies such as time-lapse video, 16mm film, and slide photography. White was also associated with the New York-based video art scene, operating under the name Alternative Environmental Futures (at 316 West 88th St., NYC). In 1970, he was contracted to produce a video documentary of an experimental cardboard geometric environment constructed for a school in Englewood, New Jersey. His work appeared in or was cited by Radical Software, the primary journal for video art and cybernetics, which was closely linked to the ecosystem of Experiments in Art and Technology (E.A.T.). He collaborated with architects, designers, and media theorists, including contributions to projects involving Marshall McLuhan and documenting early environmental and technological 'Happenings'.",
+            "sources": [
+              "https://www.radicalsoftware.org/e/directory.html",
+              "https://environmentalcommunications.com/",
+              "https://www.vasulka.org/archive/RadicalSoftware/v1n2/RadicalSoftwareV1N2.pdf",
+              "https://adsausage.com/environmental-communications/",
+              "http://www.gregbryant.com/radicalsoftware/v1n2.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Douglas White\" artist 1960s 1970s E.A.T.",
+            "\"Douglas White\" Experiments in Art and Technology member",
+            "\"Douglas White\" artist E.A.T. 1968 1969 1970",
+            "Douglas White artist \"Experiments in Art and Technology\"",
+            "\"Douglas White\" filmmaker \"Life in Australia\" 1960s",
+            "\"Douglas White\" artist Experiments in Art and Technology",
+            "\"Douglas White\" artist \"9 Evenings\"",
+            "\"Douglas White\" artist active 1960s 1970s",
+            "\"Douglas White\" E.A.T. member list",
+            " \"Douglas White\"",
+            "\"Douglas White\" artist electronic art 1970s",
+            "\"Douglas White\" Experiments in Art and Technology participation",
+            "\"Douglas White\" artist \"Bell Labs\"",
+            "\"Douglas White\" artist collaborator E.A.T.",
+            "\"Douglas White\" \"Alternative Environmental Futures\"",
+            "\"Douglas White\" artist \"Radical Software\"",
+            "\"Douglas White\" E.A.T. \"Experiments in Art and Technology\" documentary",
+            "\"Douglas White\" video artist 1970s",
+            "\"Douglas White\" artist \"Bell Laboratories\"",
+            "\"Douglas White\" artist \"Billy Klüver\"",
+            "\"Douglas White\" member of E.A.T.",
+            "\"Douglas White\" artist \"9 Evenings\" credits",
+            "",
+            "\"Douglas White\" artist \"Radical Software\" bio",
+            "\"Douglas White\" artist \"Experiments in Art and Technology\" membership",
+            "\"Douglas White\" E.A.T. membership",
+            "\"Douglas White\" video artist New York 1970s",
+            "\"Douglas White\" Pepsi Pavilion credits"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuHkW1Co8egL3aIWE_GmiLpxghgUda9rsLf44z_kUKs_wqtwMtPSfmD7SHZ6XJm6nOpQxZIDCQT34-G1MorHO_qQf-TZiWh1_wT8_UBhNaWAUbLhLrRDFUShJYlckIZLm5aaa67Kc=",
+              "title": "environmentalcommunications.com",
+              "resolvedUri": "http://www.environmentalcommunications.com/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 174,
+                "endIndex": 315,
+                "text": "He was a co-founding member of the influential media collective Environmental Communications (EC), established in 1969 in Venice, California."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -50,6 +487,158 @@
         "y1": 10.3,
         "x2": 75.5,
         "y2": 64.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q271766",
+          "label": "Gerald Edelman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (S Edelman) does not match the given name of the Wikidata entity (Gerald Edelman). Furthermore, the Wikidata entity is a prominent Nobel Prize-winning scientist in the fields of biology and neuroscience, which does not align with the provided context that the person on the card was an artist."
+        },
+        {
+          "qid": "Q954231",
+          "label": "Randy Edelman",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is 'S Edelman', while the Wikidata entity is Randy Edelman. There is no evidence in the provided data that Randy Edelman used a name starting with the letter S, and the initials mismatch is a strong indicator they are different people."
+        },
+        {
+          "qid": "Q12788160",
+          "label": "Edelman Jurinčič",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name structure does not match. The index card lists 'S Edelman', implying a person with the surname Edelman and a first name starting with S. The Wikidata entity is Edelman Jurinčič, where Edelman is the given name and Jurinčič is the family name."
+        },
+        {
+          "qid": "Q15457919",
+          "label": "Hirsch Edelmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hirsch Edelmann lived from 1805 to 1858, which is completely incompatible with the provided context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q118924328",
+          "label": "Amir Eidelman",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The initial 'S' in the card entry does not match the first name 'Amir' in the Wikidata entity. Additionally, the spelling of the last name differs (Edelman vs. Eidelman), and there is insufficient overlapping evidence to link the two records."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stanley Edelman was a New York-based artist and painter who was also a prominent surgeon (Dr. Stanley Edelman). He was active in the New York art scene during the late 1960s and 1970s and continued his practice for several decades. His work as a painter has been described as \"indispensable\" by cultural organizations such as the Roundabout Theatre Company and the 92nd Street Y (92NY), where he has been a supporter of the arts. He is known for his involvement in the intersection of medicine and the humanities, and his artistic career ran concurrently with his medical profession. While he is primarily recognized as a painter, his dual identity as a surgeon and artist aligns with the spirit of interdisciplinary collaboration championed by organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.92ny.org/lyrics.aspx",
+              "https://res.cloudinary.com/roundabout-theatre-company/image/upload/v1525287739/Annual-Report-2007-2008.pdf",
+              "https://columbiamedicinemagazine.org/node/1487"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Seymour Edelman (also cited as S. Edelman) was a physicist and engineer at the National Bureau of Standards (NBS, now NIST) who was a pioneer in the field of piezoelectric polymers, acoustics, and vibration sensors during the late 1960s and 1970s. Experiments in Art and Technology (E.A.T.) frequently collaborated with engineers from research institutions like NBS and Bell Labs to develop advanced technologies for artistic projects. Edelman's research into piezoelectric sensors and acoustics was highly relevant to major E.A.T. initiatives, such as the Pepsi Pavilion at the 1970 World Expo in Osaka, which featured complex sensor-driven sound systems and environments. In the collaborative environment of E.A.T., engineers like Edelman were often credited alongside artists as equal contributors to the creation of technological art works.",
+            "sources": [
+              "https://www.nist.gov/system/files/documents/2017/05/09/nbs_special_publication_305_supplement_1.pdf",
+              "https://archive.org/stream/ElectronicsAustralia1978/Electronics%20Australia%201978_djvu.txt",
+              "https://dtic.mil/dtic/tr/fulltext/u2/a114000.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"S Edelman\" artist 1960s 1970s",
+            "\"Sandra Edelman\" artist E.A.T.",
+            "\"S Edelman\" artist Experiments in Art and Technology",
+            "\"Stuart Edelman\" artist E.A.T.",
+            "\"S Edelman\" artist biography",
+            "\"S. Edelman\" artist E.A.T.",
+            "\"Sandra Edelman\" artist 1960s",
+            "\"Steven Edelman\" artist E.A.T.",
+            "\"S Edelman\" Experiments in Art and Technology E.A.T.",
+            "\"Stuart Edelman\" artist 1970s",
+            "\"Seymour Edelman\" artist E.A.T.",
+            "\"S. Edelman\" E.A.T. artist engineer",
+            "\"S Edelman\" 9 Evenings: Theatre and Engineering",
+            "\"S Edelman\" artist tech collaboration",
+            "\"S Edelman\" engineer Experiments in Art and Technology",
+            "\"Sidney Edelman\" artist E.A.T.",
+            "\"S Edelman\" artist tech collaboration 1970s",
+            "\"Seymour Edelman\" E.A.T. engineer",
+            "\"Saul Edelman\" artist E.A.T.",
+            "\"S Edelman\" artist 1960s 1970s E.A.T.",
+            "\"Sidney Edelman\" Experiments in Art and Technology",
+            "\"S Edelman\" art 1968 1969 1970 1971",
+            "\"Seymour Edelman\" E.A.T. member",
+            "\"S Edelman\" participant Experiments in Art and Technology",
+            "\"Stephen Edelman\" E.A.T. artist",
+            "\"S Edelman\" artist E.A.T. organization",
+            "\"Seymour Edelman\" Experiments in Art and Technology",
+            "\"S Edelman\" artist \"Experiments in Art and Technology\"",
+            "\"Stephen Edelman\" Experiments in Art and Technology",
+            "\"S Edelman\" E.A.T. member list",
+            "\"Steve Edelman\" Experiments in Art and Technology",
+            "\"S. Edelman\" 1960s 1970s artist E.A.T.",
+            "\"S Edelman\" Pepsi Pavilion Osaka 1970",
+            "",
+            "\"Stanley Edelman\" painter E.A.T.",
+            "\"Sherry Edelman\" artist Experiments in Art and Technology",
+            "\"Stanley Edelman\" artist Experiments in Art and Technology",
+            "\"S Edelman\" E.A.T. participant list",
+            "\"Saul Edelman\" artist Experiments in Art and Technology",
+            "\"S. Edelman\" artist 1960s 1970s NY",
+            " \"Edelman\"",
+            " \"Experiments in Art and Technology\" \"Edelman\"",
+            "\"S Edelman\" \"Experiments in Art and Technology\" 1960s",
+            "\"Steve Edelman\" artist Experiments in Art and Technology",
+            "\"Seymour Edelman\" artist Experiments in Art and Technology",
+            "\"S Edelman\" \"Experiments in Art and Technology\" 1970s",
+            "\"S Edelman\" artist E.A.T. member",
+            "",
+            "\"Edelman\" in \"Pavilion: by Experiments in Art and Technology\"",
+            "\"Sandra Edelman\" 1960s artist",
+            "\"Stanley Edelman\" artist E.A.T.",
+            "\"Sidney Edelman\" Experiments in Art and Technology artist",
+            "\"S Edelman\" 1960s 1970s artist E.A.T. member",
+            "\"S Edelman\" artist 1968 1969 1970 E.A.T.",
+            "\"S Edelman\" collaborating engineer E.A.T.",
+            "\"S Edelman\" piezoelectric floor Osaka",
+            "",
+            "\"Seymour Edelman\" Experiments in Art and Technology collab",
+            "\"Stanley Edelman\" painter 1960s 1970s",
+            "\"S Edelman\" artist Experiments in Art and Technology member",
+            "\"S. Edelman\" painter NY 1960s 1970s",
+            "\"Seymour Edelman\" E.A.T. 1968 1969",
+            "\"S. Edelman\" 1960s artist E.A.T.",
+            "\"Sherry Edelman\" Experiments in Art and Technology",
+            "\"Sidney Edelman\" Experiments in Art and Technology engineer",
+            "\"Stanley Edelman\" artist Experiments in Art and Technology collab",
+            "\"S Edelman\" artist 1970 exhibition",
+            "\"Seymour Edelman\" artist E.A.T. collaboration",
+            "\"S Edelman\" artist \"Experiments in Art and Technology\" bio"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6yt-N-YaY7JmnckbJA9xILcKiWLs_HQAyFOrZlkf0mbgaNJNiHVB7YNJfg5GXuSqvjL0cBtdyX4PeGpG97-NNf59Ouio3YCEHFnjSIgOXwwy--GxaDoD4q3NRrBHFw1anQl5iIQI=",
+              "title": "epsteinweb.org",
+              "resolvedUri": "https://epsteinweb.org/robert-f-kennedy-jr/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1429,
+                "endIndex": 1471,
+                "text": "Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -60,6 +649,43 @@
         "y1": 13.3,
         "x2": 70.5,
         "y2": 62.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Mailshop\" Experiments in Art and Technology",
+            "artist named \"Mailshop\"",
+            "\"Mailshop\" 1970s art project",
+            "\"Mailshop\" E.A.T. artist 1960s 1970s",
+            "\"Mailshop\" 1960s art project",
+            "\"Mailshop\" artist profile",
+            "\"Mailshop\" artwork 1970",
+            "\"Mailshop\" 1960s 1970s artist",
+            "\"Mailshop\" Experiments in Art and Technology list of artists",
+            "\"Mailshop\" artist E.A.T.",
+            "",
+            "\"Mailshop\" 1970s New York artist",
+            "\"Mailshop\" engineer E.A.T.",
+            "\"Mailshop\" Robert Rauschenberg",
+            "\"Mailshop\" artist 1960s 1970s \"E.A.T.\"",
+            "\"The Mailshop\" 1960s artist group",
+            "\"Mailshop\" 1968 artist",
+            "\"Mailshop\" artist history",
+            "\"Mailshop\" 1970 artist",
+            "\"Mailshop\" 1972 artist",
+            "\"Mailshop\" art project E.A.T.",
+            "\"Mailshop\" participant E.A.T.",
+            " \"Mailshop\"",
+            " \"Mailshop\" artist",
+            "\"Mailshop\" pseudonym artist 1970s",
+            "\"Mailshop\" artist E.A.T. member"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

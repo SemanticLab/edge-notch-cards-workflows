@@ -9,6 +9,112 @@
         "y1": 10.6,
         "x2": 37.7,
         "y2": 17.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1854",
+          "label": "Gordon Parks",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinctly different. The card refers to Juliette Gordon, whereas the Wikibase entity refers to Gordon Parks, a well-known male photographer and filmmaker. While both are in the artistic realm, there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q19297",
+          "label": "Gordon Hyatt",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Juliette Gordon' and 'Gordon Hyatt' do not match. While both individuals were likely active in the same artistic circles of the late 1960s, they are distinct people."
+        },
+        {
+          "qid": "Q24424",
+          "label": "Gordon Garmire",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Juliette Gordon' and 'Gordon Garmire' are distinct. While both individuals were active in the late 1960s and early 1970s and associated with the E.A.T. (Experiments in Art and Technology) network, they are different people."
+        },
+        {
+          "qid": "Q24187",
+          "label": "Gordon Mumma",
+          "description": "American composer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to Juliette Gordon, whereas the Wikibase entity refers to Gordon Mumma. These are two different individuals; 'Gordon' is a surname for the person on the card and a given name for the composer in the Wikibase entity."
+        },
+        {
+          "qid": "Q25456",
+          "label": "Gordon M. Sasaki",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a poor match: 'Juliette Gordon' uses Gordon as a surname, while 'Gordon M. Sasaki' uses Gordon as a given name. Furthermore, the Wikibase entity is categorized as male, while Juliette is a female name."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3269439",
+          "label": "Juliette Gordon Low",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Juliette Gordon Low died in 1927, while the card entry records a communication (letter) involving a Juliette Gordon in 1969. This nearly 40-year discrepancy between the death date and the activity date makes it impossible for them to be the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Juliette Gordon (born 1934) is a New York-based feminist artist, writer, and activist who was a central figure in the radical art movements of the late 1960s and early 1970s. She is best known as a founding member of Women Artists in Revolution (W.A.R.), established in 1969 to protest the underrepresentation of women in museums and galleries. Gordon was also deeply involved in the Art Workers Coalition (A.W.C.) and radical anti-war politics, notably demanding a \"women's wing\" at the Museum of Modern Art during an Art Workers Union meeting. Her artistic practice spanned collage, photocollage, assemblage, painting, drawing, and printmaking, often characterized by a witty and political edge. In 1968, she worked on large-scale assemblages in Yoko Ono's loft at 112 Chambers Street. She held numerous solo exhibitions at the Star Turtle Gallery, Alan Stone Gallery, and her own Juliette Gordon Gallery on East 73rd Street, and participated in the 1972 'Ten Downtown' artist-run studio initiative. In 1971, her work was featured in the 17th biennial print exhibit at the Brooklyn Museum. Although she was a prominent voice in the early feminist art movement, she was considered a 'lost pioneer' for many years until being re-recognized by organizations like the Veteran Feminists of America.",
+            "sources": [
+              "https://veteranfeministsofamerica.org/vfa-fabulous-feminist-found-another-pioneer-feminist-juliette-gordon-artist-and-feminist-activist-a-founder-of-women-artists-in-revolution/",
+              "https://hyperallergic.com/621532/the-story-of-women-artists-in-revolution-a-movement-against-patriarchy/",
+              "https://www.1stdibs.com/art/collages-mixed-media/juliette-gordon-untitled-modern-woman-juliette-gordon-new-york-feminist-collage-art-war/id-a_10403322/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Juliette Gordon artist Experiments in Art and Technology E.A.T.",
+            "\"Juliette Gordon\" E.A.T. archive",
+            "Juliette Gordon artist 9 Evenings",
+            "\"Juliette Gordon\" artist 1960s 1970s",
+            "\"Juliette Gordon\" artist biography E.A.T.",
+            "\"Juliette Gordon\" Sam Weinreb E.A.T.",
+            "\"Juliette Gordon\" Experiments in Art and Technology E.A.T.",
+            "Did Juliette Gordon participate in E.A.T. projects?",
+            "\"Juliette Gordon\" E.A.T. Pepsi Pavilion",
+            "\"Juliette Gordon\" and \"Julie Martin\" E.A.T.",
+            "\"Sam Weinreb\" artist E.A.T.",
+            "\"Juliette Gordon\" participant Experiments in Art and Technology",
+            "\"Juliette Gordon\" artist E.A.T. list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw2cZeXJzkMKg1Fzi7kFqYQMzFErK0Eyyqy2MNFa2XfrqovvAurK1lmWBuzzl-Xa3P0-IL4GsMdS4rv6h1oT18xGQ0FMsBKw0cpIEfN3YmyI_WdRnD1zS3W6b7WHq6Rt82pZzdii2YpKcE4H-rlKfrKGvUye0RUnb1A7DKk1EVCqPACBxY0cWACpJ65BqU9OgpOOjSO2gTu9kTazYBgcHntsZLQqlf3gE6STKe8VgjBJUj",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/popular-culture-and-the-civic-imagination-case-studies-of-creative-social-change-9781479891252.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCoHhAVjFKQzp0U19x18UUJ0kZOCnPPG7fj0qK3j8MxQWwmengvpjYX4EQua-4BMa5h2__94BKp2exX-GLBYuMrcpxbDoZAcCBlFzm_ZvGwWg4yGrqmYNw8FV1EVx46xLdVh4-8oJi7wL7JWgKhZx_ezn5De-sAUPoud0K-BmUmcMQzOVUaMRgi4kdZeLLtmqpXnJep8P97Yh9wh43ACnfDM=",
+              "title": "gshom.org",
+              "resolvedUri": "https://www.gshom.org/content/dam/gshom-redesign/documents/the-source/2022/2022-2023%20The%20Source.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1144,
+                "endIndex": 1888,
+                "text": "Although she was a prominent voice in the early feminist art movement, she was considered a 'lost pioneer' for many years until being re-recognized by organizations like the Veteran Feminists of America.\",\n      \"sources\": [\n        \"https://veteranfeministsofamerica.org/vfa-fabulous-feminist-found-another-pioneer-feminist-juliette-gordon-artist-and-feminist-activist-a-founder-of-women-artists-in-revolution/\",\n        \"https://hyperallergic.com/621532/the-story-of-women-artists-in-revolution-a-movement-against-patriarchy/\",\n        \"https://www.1stdibs.com/art/collages-mixed-media/juliette-gordon-untitled-modern-woman-juliette-gordon-new-york-feminist-collage-art-war/id-a_10403322/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +126,117 @@
         "y1": 19.3,
         "x2": 43.8,
         "y2": 28.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25144",
+          "label": "Carter Hodgkin",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Haydon Ross Carter' and 'Carter Hodgkin' are distinct, only sharing the name 'Carter'. Additionally, the Wikibase entity is identified as female, while 'Haydon Ross' is traditionally a male name. The date and artistic context do not align sufficiently to overcome the significant name discrepancy."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q295333",
+          "label": "Carter Harrison III",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1893, making it impossible for them to have sent a letter in 1969. Furthermore, the names (Haydon Ross Carter vs. Carter Harrison III) and occupations (artist vs. lawyer/politician) do not align."
+        },
+        {
+          "qid": "Q374754",
+          "label": "Carter Burwell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different. The card refers to 'Haydon Ross Carter' (where Carter is the surname), while the Wikidata entity is 'Carter Benedict Burwell' (where Carter is the given name). Additionally, Carter Burwell was born in 1954/1955, making him only 14 or 15 at the time of the 1969 entry, and his professional career did not begin until the 1980s."
+        },
+        {
+          "qid": "Q381841",
+          "label": "Carter Jenkins",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carter Jenkins was born in 1991 and began his career in 2003, making it chronologically impossible for him to be the Haydon Ross Carter mentioned in a 1969 record. Additionally, the names are distinct beyond sharing the name 'Carter'."
+        },
+        {
+          "qid": "Q647979",
+          "label": "Carter Braxton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Carter Braxton was an 18th-century American politician who died in 1797. The card entry refers to a Haydon Ross Carter who was active in 1969. They are entirely different people from different centuries."
+        },
+        {
+          "qid": "Q709012",
+          "label": "Carter Brown",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card, 'Haydon Ross Carter', does not match the Wikidata entity 'Carter Brown' (whose real name was Alan Geoffrey Yates). The Wikidata entity is a well-known detective fiction writer, and 'Haydon Ross Carter' is not among his known pseudonyms or biographical names."
+        },
+        {
+          "qid": "Q1045879",
+          "label": "Carter Glass",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity, Carter Glass, died in 1946, which makes it impossible for him to be the individual associated with the card date of 1969. Furthermore, Carter Glass was a prominent American politician and Secretary of the Treasury, whereas the card entry refers to an artist named Haydon Ross Carter."
+        },
+        {
+          "qid": "Q2656047",
+          "label": "Carter Bays",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity, Carter Bays, was born in 1975, making it impossible for him to be the subject of a record dated 1969. Furthermore, the names are completely different, with the Wikidata entity's given name ('Carter') being the same as the card subject's surname."
+        },
+        {
+          "qid": "Q5537718",
+          "label": "George Carter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Haydon Ross Carter' and 'George Carter' are different, and the Wikidata entity (Q5537718) lived in the 18th century (1737-1794), whereas the card record is dated 1969, representing an artist active in the mid-20th century."
+        },
+        {
+          "qid": "Q6256198",
+          "label": "John S. Carter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Haydon Ross Carter' and 'John S. Carter' are substantially different, sharing only the common surname 'Carter'. There is no indication that the Wikidata entity John S. Carter, a musician and record producer, used the name Haydon Ross."
+        },
+        {
+          "qid": "Q18637272",
+          "label": "Carter Cruise",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are entirely incompatible. The index card is dated 1969, but the Wikidata entity (Carter Cruise) was not born until 1991 and began her career in 2013. Additionally, the names 'Haydon Ross Carter' and 'Carter Cruise' do not match."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Ross Carter\" Experiments in Art and Technology",
+            "\"Experiments in Art and Technology\" directory artist Carter",
+            "\"Haydon Carter\" Experiments in Art and Technology",
+            "\"Hayden Ross Carter\"",
+            "\"Ross Carter\" artist Experiments in Art and Technology",
+            "\"Haydon Carter\" artist E.A.T.",
+            "\"Ross Carter\" artist 1960s 1970s",
+            "\"Ross Carter\" engineer E.A.T.",
+            "\"H. Ross Carter\"",
+            " \"Ross Carter\"",
+            " \"Haydon\"",
+            "\"Ross Carter\" Experiments in Art and Technology artist",
+            "\"Some More Beginnings\" exhibition \"Carter\"",
+            "\"Haydon\" \"Experiments in Art and Technology\"",
+            "\"Ross Carter\" E.A.T. engineer artist",
+            "\"John Randolph Carter\" Haydon",
+            "\"Brownlee Haydon\" Carter",
+            " \"Ross Carter\" artist",
+            " \"Ross Carter\" engineer",
+            " \"Haydon Carter\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

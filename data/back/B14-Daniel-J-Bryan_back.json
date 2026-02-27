@@ -9,6 +9,184 @@
         "y1": 10.5,
         "x2": 43.3,
         "y2": 15.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28391",
+          "label": "Lillian Schwartz",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Lillian Schwartz' is an exact match. The Wikibase entity is identified as an artist associated with Experiments in Art and Technology (E.A.T.), a prominent organization active in the late 1960s and early 1970s, which aligns perfectly with the provided context."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q15503703",
+          "label": "Lillian Schwartz",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Lillian Schwartz' is an exact match. The Wikidata entity describes a prominent artist and pioneer of computer art who was active during the late 1960s and 1970s (notably at Bell Labs), which fits the timeframe and profession of the person described on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lillian Feldman Schwartz (1927–2024) was an American artist and a seminal pioneer in computer-mediated art, kinetic sculpture, and digital filmmaking. Active primarily from the late 1960s through the 1970s and beyond, she was an early member of the Experiments in Art and Technology (E.A.T.) group, joining in 1966. Her breakthrough came in 1968 with her kinetic sculpture 'Proxima Centauri', which was featured in the Museum of Modern Art's influential exhibition 'The Machine as Seen at the End of the Mechanical Age'. This sculpture also gained pop-culture fame as a prop in the original 'Star Trek' series. In 1968, she began a 34-year tenure as a resident visitor at AT&T Bell Laboratories, where she collaborated with engineers and scientists like Leon Harmon and Kenneth Knowlton. During this period, she created some of the first digitally animated films, including 'Pixillation' (1970), 'UFOs' (1971), 'Enigma' (1972), and 'Googolplex' (1972), often using the BEFLIX programming language. Schwartz is also famous for her 'Mona/Leo' study, which used computer analysis to suggest a structural alignment between Leonardo da Vinci's self-portrait and the Mona Lisa. Her work is held in major collections such as MoMA and the Whitney Museum of American Art, and her archive is preserved at The Henry Ford Museum.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Lillian_Schwartz",
+              "https://www.computerhistory.org/fellows/lillian-schwartz/",
+              "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/",
+              "https://topicalcream.org/features/lillian-schwartz-pioneer-of-computer-art/",
+              "https://hyperallergic.com/705626/lillian-schwartz-pioneer-of-tech-art-gets-a-museum-archive/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lillian Schwartz biography computer art",
+            "Lillian Schwartz artist Experiments in Art and Technology E.A.T.",
+            "Lillian Schwartz artist active 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMNyDAck-OHNZ9wdKUQkjFit4Qj0HczAaXrKGM3EC_ymuUBkNWi0yLL073M9Nk2XhBTMxfXpTJ1GTNBLh8wY47rnLXnuOxQq7fWrzL9fI9L5ryCAODeEkU2C-fqd9_50-65t_dpUc5Qw==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Lillian_Schwartz"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH939il-RBChX47mnuF18ZgDxOlYEc_EjTHBlsiJh8cUNxHuKFfNxhW5vrqqrKQPcWK4ZVjzhjI3fF4rgTipyAWDQN29xFYjpu_T9IwtBIAM04hGmaLr29WZ_oO9v-OAglUC8dtwZINnikEqpI8iSfUGtMG0bAgDBj6bYxxaATXG6Jq6A==",
+              "title": "askart.com",
+              "resolvedUri": "https://www.askart.com/bio/Lillian_F_Schwartz/11383882/Lillian_F_Schwartz"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF1sT-ORNF_8ZM4QTbLcHiFyELn4Qm0SL4Xw0GRnE0v16GihjuimI9SE4WCmxcnTEj_hnf9ROqByQGJbb5vyqswQ9sicQGlmaeVkvV_yKvr_9cjNpNrOFC-FWRTZ7I1L4ZwZoXAj0FHgBBSJ2O-xvBWD6ggS9hv6S8Aw==",
+              "title": "arkmfa.org",
+              "resolvedUri": "https://arkmfa.org/art/exhibitions/lillian-schwartz-pixillation/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBey2RDjVFqe6o88g5MqkJGiVioSz_Thfn3W-XTSXbrA7t1bOuKqt5qEcTcKem7Gbx5UbalNF-JLTOT6iK3eQ-xEYxPyh27bKxV9iUtNuQ3zdOuwi6C1Q3mtgpxo4evGiEqDSEM0lmpjGiZmJt8CTKCeS6DpSzKGWfc6Q=",
+              "title": "hyperallergic.com",
+              "resolvedUri": "https://hyperallergic.com/lillian-schwartz-gets-a-museum-archive/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFug-7JQpIW3RqliIfU29sXZfa3IruRbeqRz6zY-I1fAfDq6-e7jD2INZH9uO2jDVGpXqPjFg9SnHmgXOPLuRuu20sjVbEzwLBagMZANHipZdenz221kcZkXfxEnXvbbjT3v4xOdJ0k-1-n0I_xucMSjJfj86Na6zY1i33jhsOL0coDeh8lPkvQ8c4=",
+              "title": "artwindsoressex.ca",
+              "resolvedUri": "https://artwindsoressex.ca/exhibitions/lillian-schwartz-whirlwind-of-creativity/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt8hFqCjJN9W8rMillXcj5YK5xtMbbgKnKa6agtOpvFAHa9OYqlla8UWDCoUrpSd-ej19GukceQlqFaVMhcAY23a8eCoQhOdK21B9NLf-8w0fGwPDuTZL61FZxvDMkrgE=",
+              "title": "mudam.com",
+              "resolvedUri": "https://www.mudam.com/lillian-schwartz"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-Nqlw4nTCV1zuxDT-PT7YtCb6JNsrt3oLzOQp3nmJoNGGxxiQXoMDi0J2EoiSkySnsDQ-dFEhHXZVIW6r2-nQZqb0MIW-tgx4_GMwScXPFtmxWEhpnDMpW2DhUHeVn8GWyYseZtJk_sWDmIQGfUUh9BGFa90hvpHvEKlagYR_9j2Ktjk_q7MyF-zk-HKuyY2A3DtXscgWZD_2g-8Tyn9hOaaqCOmfSYuDVbCe_SU=",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2sEKrrhxTSvox_hC72QS48L-HrIeX-uxEPWuLaWWLcvs9Dfex-hHVaTiLIQu8uFYI1cpD2-b7Ahqsi6JnKGk8jSTmRwTrPwa7mfyntw97ksBIt1DT38omSe-xYVvDzMrCWcJCC49RaJVnY5-iGClwVqQEFpImV5rhAF35wVHt",
+              "title": "computerhistory.org",
+              "resolvedUri": "https://computerhistory.org/blog/lillian-schwartz-pushing-the-medium/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG35eW_fA9MsQw2la0OopVmHn80XidaK6g_RdPtLxBQiNss7Hw3eqTM15Xvo3cZWK6dpvn2n7lvDNFN20pWwUj-3ox5ILCxOSKiUWj3edPKgdjOTlMc-vXz1oqGEvqScVGShdCyvM5hQ7ALqE4V_iEPw8Tertqa0DhMhaXWqEHmh8WzqQ05vKU6YiAqFiJQtJZqW_UQvEclAJR8cA_bAnAddPhd-jT_khZVcMsYzQ==",
+              "title": "thebubble.org.uk",
+              "resolvedUri": "https://www.thebubble.org.uk/culture/pixel-pioneer-lillian-schwartzs-impact-on-the-world-of-computer-generated-art/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg3S0lxSFNpsD20dt1gHFAHZkpWRnQLAQvaKyW414rS_LicbPbbJK916rFUoeqdy8sPdiyRjrjNc20XWFQ1EmvQJf-K2kF62GhfpzukzxkWIoNEEexdq6WRE-a3bZXGu0hfyyc5WeXVe9mt01_EGZV-A==",
+              "title": "computerhistory.org",
+              "resolvedUri": "https://computerhistory.org/profile/lillian-f-schwartz/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKwQGn23kK4jex-H1S--vZR64CYVTYzg4P4wgI3hGz6Dbf2wPO8C_Gz63XtvM42k9JQ1oyIkJTLGvkScbSh8q2oyBmODtcaedTo4cpIYzsyn9gNBmfgoCWfetk02D3zMES15UlPCFDzzdE_MmwDpJGehEoH6mx38B1Bpt4Y-4nwPY6ujYv",
+              "title": "topicalcream.org",
+              "resolvedUri": "https://topicalcream.org/features/lillian-schwartz-pioneer-of-computer-art/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 202,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lillian Feldman Schwartz (1927–2024) was an American artist and a seminal pioneer in computer-mediated art, kinetic sculpture, and digital filmmaking."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 203,
+                "endIndex": 343,
+                "text": "Active primarily from the late 1960s through the 1970s and beyond, she was an early member of the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                9,
+                3,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 344,
+                "endIndex": 367,
+                "text": "group, joining in 1966."
+              },
+              "groundingChunkIndices": [
+                0,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 368,
+                "endIndex": 572,
+                "text": "Her breakthrough came in 1968 with her kinetic sculpture 'Proxima Centauri', which was featured in the Museum of Modern Art's influential exhibition 'The Machine as Seen at the End of the Mechanical Age'."
+              },
+              "groundingChunkIndices": [
+                8,
+                10,
+                9,
+                3,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1050,
+                "endIndex": 1223,
+                "text": "Schwartz is also famous for her 'Mona/Leo' study, which used computer analysis to suggest a structural alignment between Leonardo da Vinci's self-portrait and the Mona Lisa."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1224,
+                "endIndex": 1885,
+                "text": "Her work is held in major collections such as MoMA and the Whitney Museum of American Art, and her archive is preserved at The Henry Ford Museum.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Lillian_Schwartz\",\n        \"https://www.computerhistory.org/fellows/lillian-schwartz/\",\n        \"https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/\",\n        \"https://topicalcream.org/features/lillian-schwartz-pioneer-of-computer-art/\",\n        \"https://hyperallergic.com/705626/lillian-schwartz-pioneer-of-tech-art-gets-a-museum-archive/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                7,
+                9
+              ]
+            }
+          ]
+        }
       }
     }
   ]

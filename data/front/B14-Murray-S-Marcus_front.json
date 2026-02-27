@@ -14,5 +14,89 @@
     "technicalFields": [
       "Electronics"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q1456",
+      "label": "Marcus Roberts",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names Murray S. Marcus and Marcus Roberts are distinct individuals with no overlapping biographical data. Record 1 describes an electronics professional on Long Island, while Record 2 describes a jazz musician associated with the Linked Jazz project."
+    },
+    {
+      "qid": "Q22270",
+      "label": "Marcus Strickland",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names Murray S. Marcus and Marcus Strickland are distinct, with 'Marcus' appearing as a surname in one and a first name in the other. Furthermore, the professional backgrounds—electronics/engineering versus jazz music—do not align."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q110136112",
+      "label": "Murray Marcus Copeland",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The individual on the card has the surname Marcus, whereas the Wikidata entity is for Murray Marcus Copeland. The card describes an electronics professional at Airborne Instruments Laboratory, while Murray Marcus Copeland was a prominent medical doctor and oncologist."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q128831578",
+      "label": "AIL Systems Inc",
+      "description": "American engineering company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Airborne Instruments Laboratory (AIL) was a well-known electronics and defense engineering company headquartered in Deer Park, Long Island, New York. The Wikidata entity Q128831578 (AIL Systems Inc) matches the name (AIL is the acronym), location (Deer Park), and industry (engineering/electronics) specified on the card."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Murray S. Marcus (frequently cited as Murray Marcus) was an electronics engineer and technical program manager active during the 1960s and 1970s. He was employed by the Airborne Instruments Laboratory (AIL), a division of Cutler-Hammer located in Deer Park, Long Island, New York. Marcus was notably involved in the development of the Ionospheric Explorer XX (IE-XX) topside sounder spacecraft for NASA, which was launched in August 1964. His work on this project encompassed the design, fabrication, testing, and launch checkout of the fixed-frequency spacecraft. Professionally, he was an active member of the Institute of Electrical and Electronics Engineers (IEEE), where he contributed to the management and technical programming of large-scale electronic programs, including serving as a session chair or technical program committee member for IEEE international conventions in the mid-1960s. He is also identified as a technical person associated with the Experiments in Art and Technology (E.A.T.), an organization founded by Billy Klüver and Robert Rauschenberg to facilitate collaborations between artists and the scientific/engineering community, reflecting the typical profile of industry engineers who provided technical expertise for artistic projects during that era.",
+        "sources": [
+          "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5231713",
+          "https://archive.org/details/bitsavers_cutlerhammAIL60YearsAtAILJul95_17311142/page/n1/mode/2up"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Murray S. Marcus Airborne Instruments Laboratory",
+        "\"Murray Marcus\" electronics Deer Park Long Island",
+        "",
+        "\"Murray Marcus\" Airborne Instruments Laboratory electronics",
+        "\"Murray Marcus\" Experiments in Art and Technology",
+        "\"Murray Marcus\" E.A.T. engineer",
+        "",
+        "\"Murray Marcus\" \"Airborne Instruments Laboratory\" biography",
+        "\"Murray Marcus\" Experiments in Art and Technology newsletter",
+        "\"Murray Marcus\" Airborne Instruments Laboratory patents",
+        "\"Murray Marcus\" engineer Deer Park NY electronic",
+        "",
+        "\"Murray Marcus\" Airborne Instruments Laboratory E.A.T. newsletter",
+        "\"Murray Marcus\" Experiments in Art and Technology artist",
+        "\"Murray Marcus\" E.A.T. collaboration",
+        "",
+        "\"Murray Marcus\" Airborne Instruments Laboratory Long Island",
+        "\"Murray Marcus\" Experiments in Art and Technology engineering",
+        "\"Murray Marcus\" AIL electronics engineer",
+        "\"Murray Marcus\" 1960s electronics engineer NY",
+        "\"Murray Marcus\" E.A.T. matching service",
+        "\"Murray Marcus\" engineer artist collaboration",
+        "",
+        "\"Murray Marcus\" electronics engineer Deer Park NY biography",
+        "",
+        "\"Murray Marcus\" Experiments in Art and Technology engineer artist",
+        "\"Murray Marcus\" E.A.T. match list"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

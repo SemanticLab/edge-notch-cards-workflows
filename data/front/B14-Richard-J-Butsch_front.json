@@ -20,5 +20,75 @@
       "environmental simulation",
       "systems simulation"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q112408426",
+      "label": "Richard Butsch",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes an engineer and researcher at Esso Research & Engineering with technical expertise in civil engineering, hydraulics, and environmental simulation. The Wikidata entity refers to a Richard Butsch who is a professor; this Wikidata ID (Q112408426) typically identifies the sociologist and media historian Richard Butsch. The professional fields (engineering/physics vs. sociology/media studies) are incompatible, indicating they are two different individuals with the same name."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q21996",
+      "label": "Engineering and Theatre Fused for '9 Evenings'",
+      "description": "bibliographic reference for article listed in the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is an organization ('Esso Research & Engineering Company'), whereas the Wikibase entity is a bibliographic reference for an article titled 'Engineering and Theatre Fused for 9 Evenings'. They are entirely different types of entities."
+    },
+    {
+      "qid": "Q21992",
+      "label": "Engineering Goes to the Theatre",
+      "description": "bibliographic reference for article listed in the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card identifies 'Esso Research & Engineering Company' as an employer organization. The Wikibase entity (Q21992) is a bibliographic reference for an article titled 'Engineering Goes to the Theatre'. These are entirely different entity types (an organization versus a publication/reference)."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q30645773",
+      "label": "Esso Research Centre",
+      "description": "chemical Research Centre in Oxfordshire",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card identifies 'Esso Research & Engineering Company', which was the American research arm of Standard Oil (New Jersey) headquartered in New Jersey. The Wikidata entity (Q30645773) refers specifically to a chemical research center (building) located in Oxfordshire, United Kingdom. While they share the same parent brand, they are distinct entities based in different countries."
+    },
+    {
+      "qid": "Q921773",
+      "label": "engineering activities and related technical consultancy",
+      "description": "company of engineers in practice",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q921773) represents a general classification of business activities (engineering and technical consultancy, specifically NACE code 71.12) rather than a specific corporate organization. The employer on the card, 'Esso Research & Engineering Company', is a specific historical entity (the research branch of Standard Oil/Exxon), not a general category of engineering services."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Richard J. Butsch was a Research Engineer specializing in environmental control and hydraulics during the late 1960s and early 1970s. He was employed by the Esso Research and Engineering Company, based in Florham Park, New Jersey (near Morristown). His work focused on the application of mathematical optimization techniques, such as linear and dynamic programming, to civil engineering and environmental systems. In 1970, he published a significant paper titled \"Reservoir System Design Optimization\" in the Journal of the Hydraulics Division of the American Society of Civil Engineers (ASCE), where he was an Associate Member. His expertise encompassed civil engineering, physics, hydraulics, computer programming, and the simulation of environmental and systems models. He is noted as a potential participant in Experiments in Art and Technology (E.A.T.), an organization that matched technical professionals from companies like Esso with artists for collaborative projects.",
+        "sources": [
+          "https://ascelibrary.org/doi/10.1061/JYCEAJ.0002253",
+          "https://ascelibrary.org/doi/abs/10.1061/JYCEAJ.0002253"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Richard J. Butsch\" Experiments in Art and Technology",
+        "",
+        "\"Richard J. Butsch\" Esso Research",
+        "\"Richard J. Butsch\" environmental simulation hydraulics",
+        "\"Richard Butsch\" engineer artist collaboration"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

@@ -20,5 +20,161 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "computer music"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q105724806",
+      "label": "Didier De Fontaine",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly and are quite distinctive. The professional affiliation with Bell Telephone Laboratories (Murray Hill) and the expertise in physical metallurgy align perfectly with the career of the known scientist Didier de Fontaine, who worked there before becoming a professor. The Wikidata occupation 'writer' is a common generic classification for academics who have published scientific works."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization 'Bell Telephone Laboratories' is the full historical name of 'Bell Labs' (Q19173). The Wikibase entity matches the name, the specific location (Murray Hill), and its involvement in technical and creative fields mentioned on the card (computer music). Additionally, Wikidata QID Q217365 definitively identifies Bell Labs."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the organization 'Bell Telephone Laboratories' as an employer, whereas the Wikibase entity Q22124 represents a 'publication' titled 'Bell Telephone Laboratories Reporter.' While the publication is associated with the organization, they are distinct entities (an organization vs. a document/periodical)."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the former official name of Bell Labs (Q217365). The Wikidata entity lists its headquarters in Murray Hill, New Jersey, which matches the location listed on the card. Additionally, the industrial research focus described on the card aligns with the activities of this research institute."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the name 'Bell Telephone Laboratories' is identical, the Wikidata entity Q121035736 is specifically categorized as a 'production company,' which is a niche classification used for film and media credits. The employer listed on the card is the scientific research laboratory (Bell Labs, Q19173) where the subject worked as a metallurgist. Therefore, this specific Wikidata entry is not the correct representation of the organization in the context of scientific employment."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is an organization (Bell Telephone Laboratories), whereas the Wikidata entity (Q59493148) is a specific archival collection (a fonds) of documents and motion pictures held by the National Archives and Records Administration. While the collection pertains to the organization, they are distinct types of entities (an organization vs. an archival collection)."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58952200 refers specifically to Bell Telephone Laboratories (often the corporate entity or a specific historical designation for Bell Labs), which is an exact match for the employer name 'Bell Telephone Laboratories' listed on the card."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950935 is explicitly for 'Bell Telephone Laboratories', which matches the employer name on the card exactly. It is the historical name for the research organization commonly known as Bell Labs."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Wikidata entity Q58950393 refers to the individual person (Didier de Fontaine) whose card this is, rather than the employer organization (Bell Telephone Laboratories) mentioned on the card."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is a disambiguation page, which is a meta-entity used for navigation rather than an entity representing the actual organization. While the name matches, a disambiguation page cannot be an employer."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Didier de Fontaine (1931–2021) was a prominent materials scientist and engineer known for his pioneering work in computational materials science and alloy theory. Born in Giza, Egypt, to a Belgian diplomat, he spent his early years in Europe and Africa before moving to the United States for graduate studies. He earned his PhD in materials science from Northwestern University in 1967. Following his doctorate, he worked as a postdoctoral researcher at Bell Telephone Laboratories in Murray Hill, New Jersey, during the late 1960s (approximately 1966–1969). While at Bell Labs, he resided in Chatham, New Jersey. His technical expertise spanned physical metallurgy, thermodynamics, and computer simulation, particularly the development of first-principles methods for calculating phase diagrams. In 1969, he joined the faculty at the University of California, Los Angeles (UCLA), where he taught for ten years before moving to the University of California, Berkeley in 1979. At Berkeley, he was a Professor of Materials Science and Engineering until his retirement in 1994. Throughout his career, he authored over 220 publications and received numerous honors, including the Turnbull Award from the Materials Research Society and the Hume-Rothery Award from TMS. In his personal life, he was a patron of the arts, supporting organizations such as the Berkeley Repertory Theatre, which aligns with potential interests in collaborations like Experiments in Art and Technology (E.A.T.) during his time at Bell Labs.",
+        "sources": [
+          "https://www.legacy.com/us/obituaries/sfgate/name/didier-de-fontaine-obituary?id=31659178",
+          "https://mse.berkeley.edu/passing-of-emeritus-professor-didier-de-fontaine/",
+          "https://mse.berkeley.edu/didier-de-fontaine-honored-by-northwestern-university/",
+          "https://www.researchgate.net/profile/Didier-De-Fontaine"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "Didier De Fontaine Bell Telephone Laboratories",
+        "Didier De Fontaine biography engineer scientist",
+        "Didier De Fontaine physical metallurgy materials science",
+        "Didier De Fontaine Experiments in Art and Technology E.A.T.",
+        "",
+        "Didier de Fontaine metallurgy computer programming",
+        "Didier de Fontaine \"E.A.T.\" Bell Labs",
+        "Didier de Fontaine \"Experiments in Art and Technology\"",
+        "\"Didier de Fontaine\" Chatham New Jersey",
+        "\"Didier de Fontaine\" Bell Labs art collaboration",
+        "\"Didier de Fontaine\" E.A.T. project",
+        "\"Didier de Fontaine\" Experiments in Art and Technology member"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ-TrUVjgQgm5o_Y_L_m44rT1H8YijfPF5EAoQlmEXgcyqbKngAyI9t6A2Vug697agNRSNsVtUYYxT5h1sY4dp4w6XBj5SBihg5xbWGbCwQh9X3lkmyOEuJkXVlJrdnRx9EMniN-AE022KgjoygtYapy3HUGcMbSfe0I9Kug7UOKbbAQAu5BI=",
+          "title": "berkeley.edu",
+          "resolvedUri": "https://coesandbox.berkeley.edu/wp-content/uploads/2022/04/BE_Spring2022.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRiAQ-yBZxyuaqOxlMZsDwo4zvxesiCOujRBee6BqB61ogc-n5rW5Sa50W6XwojykEiofz3oN4X97N_Ouz___vy9ivvC2QnzGV9AhUF_FJzvKClvjH5RdpHbXsEZ4nhHWE-bzhi2BjCrbLcYQaG6_qorAAk_ezh2CEU28FCm7HTwfpkTEuJ8Z64otXXA==",
+          "title": "berkeley.edu",
+          "resolvedUri": "https://olli.berkeley.edu/sites/default/files/files/docs/brochure-winter_2010.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB9RCYui75jKkLaG6FJITIaOsJpFIPP0DmMiDnYqQ_PA3dmS3H1KwqWy_1zpwBQifRuegJ8XTaAU2UcfSXmTy-ahmzSp5jLV-DPgXUCZhWp2oZqCTdaWW-dFrmJ4mFSa-sARqQh7lVrmZfPSLuZBY-bht0msUousqtn2898LjdbrYl1nfjMITpzveVPiPVNaK1ByQt1YHnRpti885sKGY=",
+          "title": "escholarship.org",
+          "resolvedUri": "https://escholarship.org/content/qt5k02468n/qt5k02468n_noSplash_9a3aad055e0d5b9ea18a4417002c2588.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 214,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Didier de Fontaine (1931–2021) was a prominent materials scientist and engineer known for his pioneering work in computational materials science and alloy theory."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1538,
+            "endIndex": 1984,
+            "text": "during his time at Bell Labs.\",\n      \"sources\": [\n        \"https://www.legacy.com/us/obituaries/sfgate/name/didier-de-fontaine-obituary?id=31659178\",\n        \"https://mse.berkeley.edu/passing-of-emeritus-professor-didier-de-fontaine/\",\n        \"https://mse.berkeley.edu/didier-de-fontaine-honored-by-northwestern-university/\",\n        \"https://www.researchgate.net/profile/Didier-De-Fontaine\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1,
+            2
+          ]
+        }
+      ]
+    }
   }
 }

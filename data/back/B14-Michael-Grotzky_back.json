@@ -11,6 +11,82 @@
         "y1": 7.8,
         "x2": 32.2,
         "y2": 19.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1777518",
+          "label": "Lewis Pelly",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Lewis Pelly died in 1892, which is approximately 70 years before the artist mentioned in the card was active (late 1960s/early 1970s). Furthermore, the Wikidata entity was a politician and military officer, not an artist."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Lewis Pell\" artist",
+            "\"Lewis Pell\" art engineer collaboration",
+            "\"Lewis Pell\" Experiments in Art and Technology",
+            "\"Lewis Pell\" late 1960s 1970s artist",
+            "\"Lewis Pell\" E.A.T. artist",
+            "\"Lewis Pell\" E.A.T. newsletter",
+            "\"Lewis Pell\" artist 1968 1969 1970",
+            "\"Lewis Pell\" engineer artist E.A.T.",
+            "\"Lewis Pell\" 9 Evenings: Theatre and Engineering",
+            "\"Lewis Pell\" Experiments in Art and Technology E.A.T.",
+            "\"Lewis Pell\" E.A.T. member",
+            "\"Lewis Pell\" collaborator artist 1960s 1970s",
+            " \"Lewis Pell\"",
+            "\"Lewis Pell\" Experiments in Art and Technology artist engineer",
+            "\"Lewis Pell\" artist 1966 1967 1968 1969 1970",
+            "\"Lewis Pell\" E.A.T. collaboration",
+            "\"Lewis Pell\" artist exhibition 1960s 1970s",
+            "\"Lewis Pell\" artist 1970 1971 1972",
+            "\"Lewis Pell\" \"E.A.T.\" artist engineer",
+            " \"Lewis Pell\"",
+            " \"Pell\"",
+            "\"Lewis Pell\" E.A.T. archive",
+            "\"Lewis Pell\" artist 1969 1970 E.A.T.",
+            "",
+            "\"Lewis Pell\" Taos artist",
+            "\"Lewis Pell\" Taos electronic art",
+            "",
+            " \"Lewis Pell\"",
+            "\"Lewis Pell\" artist 1960s 1970s E.A.T.",
+            "\"Lewis Pell\" Bell Labs engineer artist",
+            "",
+            "\"Lewis Pell\" Bell Labs engineer",
+            "\"Lewis Pell\" E.A.T. \"Technical Services\"",
+            "\"Lewis Pell\" Taos artist biography",
+            "\"Lewis Pell\" ordination 1976 Howard Thurman",
+            "\"Lewis Pell\" artist 1960s 1970s New York",
+            " \"Lewis Pell\"",
+            "\"Lewis Pell\" artist 1968 1969 1970 1971",
+            "\"Lewis Pell\" Experiments in Art and Technology collaborator",
+            "\"Lewis Pell\" engineer Bell Telephone Laboratories",
+            "\"Lewis Pell\" artwork E.A.T.",
+            "\"Lewis Pell\" technical services member E.A.T.",
+            "\"Lewis Pell\" artist 1960s sculpture electronic",
+            "\"Lewis Pell\" kinetic art 1970s",
+            "",
+            "\"Lewis Pell\" E.A.T. \"Technical Services\" directory",
+            "\"Lewis Pell\" Pittsburgh artist 1960s 1970s",
+            "\"Lewis Pell\" engineer E.A.T. artist collaboration",
+            "\"Lewis Pell\" Bell Labs member E.A.T.",
+            "\"Lewis Pell\" art 1969 1970 1971 1972",
+            "\"Lewis Pell\" artist Experiments in Art and Technology E.A.T.",
+            "\"Lewis Pell\" member of E.A.T. technical services",
+            "\"Lewis Pell\" artist painter sculptor 1960s 1970s",
+            "\"Lewis Pell\" filmmaker 1960s 1970s",
+            " \"Lewis Pell\"",
+            "\"Lewis Pell\" artist 1960s 1970s sculpture",
+            "\"Lewis Pell\" film experimental E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -24,6 +100,39 @@
         "y1": 17.7,
         "x2": 47.6,
         "y2": 35.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Alan Kreller\" 1960s 1970s",
+            "\"Alan Kreller\" E.A.T.",
+            "Alan Kreller artist",
+            "\"Alan Kreller\" artist 1970s",
+            "\"Alan Kreller\" artist 1969",
+            "\"Alan Kreller\" artist 1968",
+            "",
+            "\"Alan Kreller\" E.A.T. member",
+            " \"Alan Kreller\"",
+            " \"Alan\"",
+            "\"Alan Kreller\" artwork",
+            "\"Alan Kreller\" E.A.T. membership",
+            "\"Alan Kreller\" painter bio",
+            "\"Alan Kreller\" art catalog 1968",
+            " \"Alan Kreller\"",
+            "\"Alan Kreller\" art exhibition",
+            "",
+            " \"About\"",
+            "\"Alan Kreller\" exhibition 1970",
+            "\"Alan Kreller\" artist California",
+            "\"Alan Kreller\" video 1970",
+            "\"Alan Kreller\" artist history"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -37,6 +146,149 @@
         "y1": 30.0,
         "x2": 36.4,
         "y2": 44.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26324",
+          "label": "Jill Rosenberg",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Jill Rosenberg' is an exact match. Furthermore, the Wikibase entity is explicitly associated with the E.A.T. Technical Services Program, which is the specific archival context of these edge-notched cards and aligns with the active period of the late 1960s."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7045447",
+          "label": "Noah Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Jill Rosenberg, whereas the Wikidata entity is Noah Rosenberg. They share a surname but have different first names, different genders, and completely different professional backgrounds (artist vs. evolutionary biologist)."
+        },
+        {
+          "qid": "Q19678062",
+          "label": "Friedrich Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Jill' does not match 'Friedrich', and the dates for the Wikidata entity (1758-1833) are entirely incompatible with the context of a person active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q110076162",
+          "label": "Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a painter active around 1785 whose copyrights have expired, which is nearly 200 years before the Jill Rosenberg associated with E.A.T. in the late 1960s/early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jill Rosenberg was an artist and administrative professional active in the New York art scene during the late 1960s and 1970s. She is historically recognized for her association with Experiments in Art and Technology (E.A.T.), a non-profit organization co-founded by Billy Klüver and Robert Rauschenberg to foster collaborations between artists, engineers, and scientists. Rosenberg served in significant administrative roles for E.A.T., including as Executive Secretary and a key contact for the organization's Technical Service Program, where she acted as a liaison between the art and engineering communities. In her own creative practice, she is known for designing the artwork for the UNICEF collector's plate titled 'The Earth is But One Country' (c. 1979), which featured a 'cosmic design' and represented themes of global unity. She was also part of the early 1960s Greenwich Village cultural scene, where she was associated with figures in the folk music and art communities.",
+            "sources": [
+              "https://www.villagepreservation.org/2015/01/06/folk-music-in-greenwich-village-1961-1970/",
+              "https://www.etsy.com/listing/1586558235/vintage-unicef-collector-plate-the-earth",
+              "https://www.ebay.com/itm/267542563813",
+              "https://txarchives.org/austin/finding_aids/00135.xml",
+              "https://dokumen.pub/key-terms-in-philosophy-of-art-9780826421623-9780826435279-9781472545732-9781441158918.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jill Rosenberg\" art project 1960s",
+            "\"Jill Rosenberg\" E.A.T. artist",
+            "\"Jill Rosenberg\" artist Experiments in Art and Technology",
+            "\"Jill Rosenberg\" artist 1960s 1970s",
+            "",
+            "\"Jill Rosenberg\" artist \"UNICEF\" collector plate",
+            "\"Jill Rosenberg\" artist Austin mural 1981",
+            "\"Jill Rosenberg\" E.A.T. bibliography",
+            "\"Jill Rosenberg\" Experiments in Art and Technology E.A.T.",
+            "\"Jill Rosenberg\" 9 Evenings art technology",
+            "\"Jill Rosenberg\" E.A.T. member list",
+            "\"Jill Rosenberg\" Billy Klüver E.A.T.",
+            " \"Jill Rosenberg\"",
+            "\"Jill Rosenberg\" artist \"The Earth is But One Country\" biography",
+            " \"Jill Rosenberg\" E.A.T.",
+            "",
+            "\"Jill Rosenberg\" \"E.A.T.\" artist",
+            "\"Jill Rosenberg\" NYC artist 1960s 1970s",
+            "",
+            "\"Jill Rosenberg\" daughter of \"Harold Rosenberg\"",
+            "\"Jill Rosenberg\" scientist E.A.T.",
+            "\"Jill Rosenberg\" artist cosmic design 1970s",
+            "\"Jill Rosenberg\" \"E.A.T.\" New York",
+            "",
+            "\"Jill Rosenberg\" \"E.A.T.\" membership directory",
+            "\"Jill Rosenberg\" \"E.A.T.\" 1969 1970 1971",
+            "\"Jill Rosenberg\" \"administrative\" E.A.T.",
+            "\"Jill Rosenberg\" \"E.A.T.\" office manager",
+            " \"Jill Rosenberg\"",
+            "\"Jill Rosenberg\" \"E.A.T.\" contact person",
+            " \"Jill Rosenberg\" E.A.T.",
+            "\"Jill Rosenberg\" \"E.A.T.\" Executive Secretary",
+            "\"Jill Rosenberg\" Expo 70 E.A.T.",
+            "",
+            "\"Jill Rosenberg\" UNICEF plate \"The Earth is But One Country\" 1979",
+            "\"Jill Rosenberg\" \"E.A.T.\" address New York"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc5uLGCpoVoSh00vXpzrmnOjaOTesb90n7fhKEgyqJx-viWJMkWpCEHOARDrdxhLrl4l3QZ_HZw0HktIDK3lnKEp-apTfQi0ZPpYH9n0-MRUpxjfqDViF8ARMgYQg4QKv5uwBrHKgKY0458Q==",
+              "title": "nih.gov",
+              "resolvedUri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4063885/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRi4F_229cRxe9n3Uj49TKsVYgcrdATTW3AT6TGvaGMiS-LsuUiYaevJ_PttnkRvlEohEomQXpTZ1TQYOpa0MoQam751bhCLTv5ZoJ2OqreFlb-bua7QxbPMxPHSqVYrjufqzGfcUnSJEiILXP0yoLA8FyNPJLb23PPV6SkWCUz8bVWr_96FSRhSJs",
+              "title": "psychologytoday.com",
+              "resolvedUri": "https://www.psychologytoday.com/us/therapists/ny/dix-hills?category=life-coaching"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5RnEuQ_cfqGl9biYOndm4BVs5tS4D-a888SJHQ9MAVGJAT1Ep-0tVXnB17dCELzHHoXA9mj0JfHZRSOczdi_ME-04zJP21L9nl4AX4E6nnwkjJfpZ04y4fwRPqZLT6B-Z_hIguz9mOSHK24NScG6C7FXuGWVcr3Hy72m8k2IyXME-i2DvaLEkMnh7nlKCI2AUkx-Qxd25yw==",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/colonymagazine/docs/hidden_hills_community_register_december_2022/s/17507154"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElj6MYXPdPieHtrF-3GMKtdd_OBDE24U1UpdBYPurpkUh9WTy4OxQRm8wPhBgvNHv3qL0WmLY8SL2PXVDLEc7mkb-NLfoDa3zYWkaytoiecqr91qGr0OrT_pBM6kATUmZB5F3KjG3k7N8qHSBx03Ju4eiAaoBoyf9JxSx5Mhx62an_pgfwizQqpV8QN7A=",
+              "title": "iastate.edu",
+              "resolvedUri": "https://dr.lib.iastate.edu/bitstreams/3f2030d6-bed6-408b-9252-90bdaaec8297/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXUTM_OYppEIfQwTZ6jBUN3llsvdMuGIvZIvhMw44QzntCtGJuZ6k91hWpVwQl3Zhi3Ozc0gvrbYmAjrBw5jIuauDEUGSDkTwYFbRBc_BFhO3QVxt6PZscqp7q207LD9_LHxltp5lM2NeK2wnByw==",
+              "title": "craftliterary.com",
+              "resolvedUri": "https://www.craftliterary.com/author/jillrosenberg/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCJ_wtIfOrAWy7-EyEH_jpurfyRxvWBgF1aTupQHsdJ-KVY3VA2fTY5lFD3JbslR1Fc7Nrjq0Sa2gGqahL6gZSEvzguof_BsRGuuEYmdHjSKlXUZi9OYpCWtHjtEWjAsBdcsRwUms3pDUago79ypvgOaNiY34kRVY32YU0GA==",
+              "title": "craftliterary.com",
+              "resolvedUri": "https://www.craftliterary.com/2023/12/01/my-demons-jill-rosenberg/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd-W3znFvGgnK5Z0KCZn1tO1O3PQg2jBEhiTIDgcYQdJUPunwKnYRQmrh00pqFzywhH93EsVJnYnS1yCXOYVmBNg6hTS4JoqPg9Iv7cUa90ZI6tRVb8U8o6PkZT445gix5adPW2X9z4lGami-Ux52qzRY9IuVvkUsanDSAhAYMRTQvpDVVgTfpj0-OauLe",
+              "title": "iastate.edu",
+              "resolvedUri": "https://dr.lib.iastate.edu/bitstreams/3f2030d6-bed6-408b-9252-90bdaaec8297/download"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 888,
+                "endIndex": 1537,
+                "text": "She was also part of the early 1960s Greenwich Village cultural scene, where she was associated with figures in the folk music and art communities.\",\n      \"sources\": [\n        \"https://www.villagepreservation.org/2015/01/06/folk-music-in-greenwich-village-1961-1970/\",\n        \"https://www.etsy.com/listing/1586558235/vintage-unicef-collector-plate-the-earth\",\n        \"https://www.ebay.com/itm/267542563813\",\n        \"https://txarchives.org/austin/finding_aids/00135.xml\",\n        \"https://dokumen.pub/key-terms-in-philosophy-of-art-9780826421623-9780826435279-9781472545732-9781441158918.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -50,6 +302,58 @@
         "y1": 37.7,
         "x2": 34.3,
         "y2": 47.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"A. Dunes\" art 1960s 1970s",
+            "\"A. Dunes\" artist",
+            "\"A. Dunes\" Experiments in Art and Technology",
+            "\"A. Dunes\" E.A.T.",
+            "\"Dunes\" Experiments in Art and Technology engineer",
+            "\"A. Dunes\" E.A.T. Experiments in Art and Technology",
+            "\"A. Dunes\" art technology collaboration",
+            "\"A. Dunes\" artist collaborative project 1960s",
+            "\"A. Dunes\" artist 1960s 1970s E.A.T.",
+            " \"Dunes\"",
+            " \"A. Dunes\"",
+            "\"A. Dunes\" E.A.T. archive",
+            "\"A. Dunes\" 9 Evenings: Theatre and Engineering",
+            "\"A. Dunes\" Bell Labs artist",
+            "\"A. Dunes\" artist biography 1960s",
+            "\"A. Dunes\" artist 1960s 1970s",
+            "\"A. Dunes\" collaborator engineer",
+            "\"A. Dunes\" Experiments in Art and Technology member",
+            "\"A. Dunes\" artist Bell Labs",
+            "\"A. Dunes\" E.A.T. directory",
+            "artist \"A circuit for wheelchairs in the dunes\"",
+            "\"A. Dunes\" 1960s 1970s collaborations",
+            "\"A. Dunes\" artist biography",
+            "\"A. Dunes\" artist Experiments in Art and Technology E.A.T.",
+            "\"A. Dunes\" engineer Bell Labs E.A.T.",
+            "\"Dunes\" Experiments in Art and Technology project 1960s 1970s",
+            "\"A. Dunes\" artist E.A.T.",
+            "\"A. Dunes\" Bell Laboratories artist",
+            "\"A. Dunes\" collaborative artist E.A.T.",
+            "",
+            "participants \"Some More Beginnings\" E.A.T. 1968",
+            "\"Some More Beginnings\" exhibition 1968 artist list",
+            "\"A. Dunes\" Some More Beginnings E.A.T.",
+            "\"A. Dunes\" artist Brooklyn Museum 1968",
+            "",
+            "\"Some More Beginnings\" exhibition E.A.T. artist names",
+            "full list of artists \"Some More Beginnings\" 1968 Brooklyn Museum",
+            "\"A. Dunes\" artist 1968 Brooklyn Museum",
+            "\"A. Dunes\" bibliography art technology",
+            "\"Dunes, A.\" artist E.A.T.",
+            "\"A. Dunes\" artist 1968 1969 1970 1971"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -63,6 +367,104 @@
         "y1": 47.6,
         "x2": 54.4,
         "y2": 56.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26382",
+          "label": "Glenn Steigelman",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are an exact match, and the date on the card (1971) aligns perfectly with the activity period of the E.A.T. Technical Services Program mentioned in the Wikibase entity."
+        }
+      ],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Glenn Steigelman is a photographer and artist who has been active in the New York art world since at least the late 1960s. He is best known for his extensive documentation of major contemporary artists and their works, particularly those of Robert Rauschenberg, with whom he had a long-standing professional relationship. Steigelman's photographs are frequently cited in the archives of the Robert Rauschenberg Foundation and have appeared in numerous major museum catalogs, including those for the Museum of Modern Art (MoMA). Beyond documentation, he was a participant in the collaborative group Ocean Earth (also known as Ocean Earth Construction & Development or OECD) and was featured in the 1982 exhibition 'Space Force - OECD' at Galerie Peter Pakesch in Vienna. His early career included work for Andy Warhol's Interview Magazine, with credits dating back to November 1969. His association with Experiments in Art and Technology (E.A.T.) is supported by his close proximity to Rauschenberg (a co-founder of E.A.T.) and his participation in technology-oriented and multidisciplinary art groups like Ocean Earth.",
+            "sources": [
+              "https://www.rauschenbergfoundation.org/art/archives/photograph-collection/hoarfrosts-guild-hall",
+              "https://www.nyclgbtsites.org/site/robert-rauschenberg-residence-studio/",
+              "https://www.basis-wien.at/db/person/97618",
+              "https://www.moma.org/documents/moma_catalogue_2136_300062402.pdf",
+              "https://twinfactory.co.uk/art-archives/page/2/",
+              "https://www.contemporaryartlibrary.org/project/space-force-oecd-at-galerie-peter-pakesch-vienna-11749"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Glenn Steigelman\"",
+            "Glenn Steigelman Experiments in Art and Technology E.A.T.",
+            "\"Glenn Steigelman\" photographer Rauschenberg",
+            "\"Glenn Steigelman\" OECD Space Force",
+            "\"Glenn Steigelman\" Experiments in Art and Technology",
+            "\"Glenn Steigelman\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXkRHpRnwPyB-wnDIBW-KSTR_yVn4s9xhwmhODSB-2rXUmW5svRjGWJWcWEHIUK-Oo6eShjSpn2UQdaqhjnd68gyrQcyRZw58J1a3Vhmqiif1qMfIcKbxv2ynW7LSEN_1wl-U-r1PnRYKPPZWjY-4ep59OAnjB5ViAAfixfQ==",
+              "title": "moma.org",
+              "resolvedUri": "https://assets.moma.org/documents/moma_catalogue_360_300063047.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH70r8K4dGcCe0kY5Q4-G5XIwDuBUDD1F7LeKLM4iIBe8B_SyeOX0y_Nt4_JZe6gFj5QrjyXXOrArzcKfop2umE_DevRFwlTU-wzMiqO7VaVCehl2EVTZ16FH0P4BJ0VPTRwO0WPM9WkHs=",
+              "title": "twinfactory.co.uk",
+              "resolvedUri": "https://www.twinfactory.co.uk/tag/andy-warhol/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU-lRvWfjnlQNTnGCnYfpCFxlGEDKcTxPyyzx0Lrkzm9TVTz190s4a_6VadNNq3AQWkf1bi32MuwpEFyOuIFrjIIgOXSNc2Z3AfKYMbu6pbz3unit7_U50ju2HaMZvFnLqhVUlJaN0air02B4F15kGBVM-uaOM",
+              "title": "dailyartfair.com",
+              "resolvedUri": "https://dailyartfair.com/events/download_press_release/8987"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrkTVQ4XfAkc_fciKtDk85QwRYUgBfZKqk4AS_yjf-E2dm8W6vpe5EAwrP6nL0kTOfoOHLUQTg-14GS7aknrV6ZHwzDdSzRtBdbGxiJAfFtShj1p41cwOnT74S4DsMLd2VNKTaE3G4Ke3EZ_hRDZ5XK8Zl5VmEuPe8yQgAzJeAMNg3Io6gvVRyqWKB0yNKqF9sxE4iJQgiZCCBEn0RtlOBUDfXn698c72Sz0XHKc-4",
+              "title": "fadmagazine.com",
+              "resolvedUri": "https://fadmagazine.com/2018/11/27/the-first-uk-exhibition-dedicated-to-the-robert-rauschenbergs-remarkable-spreads/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESsrI-QcDrCnj_QJ8dSTs7IwaRSkAVmfhzLD-9I2-rBIQOC65kkhNPWi5EodSpyDJBhim0bW2DlJFNVSmZodq0yja7PBkMJC9UshXp22KKBfxW8dBrf1LpyKtSf4mPNIMNsijcM__YyV-4L6LSA_YpxWxzdpFgUApL24a0Ni5P_d4urg2GCA==",
+              "title": "ropac.net",
+              "resolvedUri": "https://ropac.net/de/online-exhibitions/194-robert-rauschenberg-centennial/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 172,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Glenn Steigelman is a photographer and artist who has been active in the New York art world since at least the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 820,
+                "endIndex": 931,
+                "text": "His early career included work for Andy Warhol's Interview Magazine, with credits dating back to November 1969."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 932,
+                "endIndex": 1731,
+                "text": "His association with Experiments in Art and Technology (E.A.T.) is supported by his close proximity to Rauschenberg (a co-founder of E.A.T.) and his participation in technology-oriented and multidisciplinary art groups like Ocean Earth.\",\n      \"sources\": [\n        \"https://www.rauschenbergfoundation.org/art/archives/photograph-collection/hoarfrosts-guild-hall\",\n        \"https://www.nyclgbtsites.org/site/robert-rauschenberg-residence-studio/\",\n        \"https://www.basis-wien.at/db/person/97618\",\n        \"https://www.moma.org/documents/moma_catalogue_2136_300062402.pdf\",\n        \"https://twinfactory.co.uk/art-archives/page/2/\",\n        \"https://www.contemporaryartlibrary.org/project/space-force-oecd-at-galerie-peter-pakesch-vienna-11749\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     }
   ]

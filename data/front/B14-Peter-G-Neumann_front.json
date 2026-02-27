@@ -19,5 +19,178 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "computer poetry"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q7174137",
+      "label": "Peter G. Neumann",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly. The card identifies the subject as working in computer programming at Bell Labs in Murray Hill, New Jersey. Peter G. Neumann is a highly prominent computer scientist who historically worked at Bell Labs (notably on the Multics project) during the 1960s, aligning perfectly with the professional profile in the record."
+    },
+    {
+      "qid": "Q130936808",
+      "label": "Peter G. Neumann",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names are an exact match. Peter G. Neumann is a well-known computer scientist who historically worked at Bell Telephone Laboratories in Murray Hill, New Jersey, during the 1960s. The card's technical fields (computers, programming) align perfectly with his career as a researcher."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Labs is the standard shortened name for Bell Telephone Laboratories. The geographic location (Murray Hill, N.J.) matches exactly between the card and the Wikibase entity. Furthermore, the Wikidata QID Q217365 associated with the Wikibase entity corresponds to Nokia Bell Labs, which was historically known as Bell Telephone Laboratories."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the employer organization (Bell Telephone Laboratories), while the Wikibase entity is specifically identified as a 'publication' (Bell Telephone Laboratories Reporter) rather than the organization itself."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card, 'Bell Telephone Laboratories', is the historical name for the Wikidata entity 'Bell Labs' (Q217365). The card's geographic location (Murray Hill, New Jersey) matches the headquarters location listed in the Wikidata profile exactly. Additionally, the technical fields mentioned on the card (computers, programming) align with the research and software industry activities of Bell Labs."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' is an exact match. While the Wikidata entity is specifically categorized as a 'production company', this is a common facet used in databases to describe Bell Labs' output of technical and educational films. It refers to the same organization in Murray Hill, New Jersey, where Peter G. Neumann was employed as a computer scientist."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q59493148 refers specifically to an archival collection (a fonds) held by the National Archives and Records Administration, rather than the corporate entity 'Bell Telephone Laboratories' itself."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58952200 is specifically identified as 'Bell Telephone Laboratories'. This matches the employer name on the card exactly. Bell Telephone Laboratories is well-known for its primary facility in Murray Hill, New Jersey, which aligns perfectly with the location provided on the card."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' on the card is an exact match for the label of the Wikidata entity Q58950935. This entity specifically represents the historical research and development organization known as Bell Telephone Laboratories."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950393 is the specific record for Bell Telephone Laboratories, which matches the employer name on the card exactly. Both the card and the historical organization are associated with Murray Hill, New Jersey, and research in computer science and programming."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is a disambiguation page rather than the entity representing the actual organization itself. While the name matches, a disambiguation page is a navigational tool and does not represent the real-world company or research laboratory listed on the card."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Peter Gabriel Neumann (born 1932) is a renowned American computer scientist and researcher who has made significant contributions to computer security, reliability, and risk management. He spent a decade at Bell Telephone Laboratories (Bell Labs) in Murray Hill, New Jersey, from 1960 to 1970, where he was a key figure in the development of the Multics operating system, specifically co-designing its file system with Bob Daley. His technical expertise spans computers, information systems, and programming. In 1971, he joined SRI International in Menlo Park, California, where he continues to serve as a Senior Principal Scientist. Neumann is most widely known as the moderator of the ACM RISKS Forum (RISKS Digest), an online dialogue he founded in 1985 to discuss the impacts of computer-related risks on society. He is also the author of the influential book 'Computer-Related Risks' (1995). Throughout his career, Neumann has shown an interest in the intersection of technology and the arts; he was involved in early generative music research at Harvard in 1957 and authored a notable 1969 paper titled 'The Role of Motherhood in the Pop Art of System Programming.' His presence at Bell Labs during the late 1960s coincides with the formation and peak activity of the Experiments in Art and Technology (E.A.T.) organization, which was frequently supported by Bell Labs engineers and scientists.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Peter_G._Neumann",
+          "https://www.csl.sri.com/users/neumann/",
+          "https://www.ithistory.org/honor-roll/dr-peter-g-neumann",
+          "https://www.acm.org/articles/people-of-acm/2013/peter-neumann",
+          "https://computerhistory.org/profile/peter-neumann/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "\"Peter G. Neumann\" computer scientist biography",
+        "Peter G. Neumann Bell Telephone Laboratories Murray Hill",
+        "Peter G. Neumann Bell Labs 1960s 1970s",
+        "\"Peter G. Neumann\" Experiments in Art and Technology",
+        "\"Peter G. Neumann\" Bell Labs E.A.T.",
+        "\"Peter G. Neumann\" E.A.T. Murray Hill"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUpYbstGtmZouFvlLTYoMlXy16sYw9kzdCpee-mECvUrTZy0UnPvjfjKls-osEU7OvpSFU3QvevLWaOCoqbIzgcKYAzyWNdLT5i05Q-hwV6jn21ud_PDE1a8GWaxaQjrpTIj0ZD-w10VdRS-LOkbBZHp8=",
+          "title": "cam.ac.uk",
+          "resolvedUri": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-987.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOlw1U_6l94MAJ9u4ZZNmlQzOyKLO17d6K6fFLcNuerqLlUQCSafh6P5kRIkQ_k2X-yWc4EA3gwxwsG3QtIC8Ng7V32JhNueOX3CRtTdMeFxO4W1BADSeP3CRzCCMsRfe0",
+          "title": "sri.com",
+          "resolvedUri": "https://www.csl.sri.com/users/neumann/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZvwq34IX30FHdjEL1AYXLHKlgH5tCbizTurMGwnzCKyF-jZE-rJXVet065yVANkQxSrKyjT_-vPiid9kBVVsUbGw1_Yzkqb6VdrYS7mCxUUIWQB_DxNNjfoJyBSaKgYwg4QQlNTYZ6JAlyVNokYaLWUIHqVKMKb90or3NUtyOYsT09EZmpPxz",
+          "title": "isodarco.it",
+          "resolvedUri": "https://www.isodarco.it/wp-content/uploads/2020/10/trento02_neumann_risks.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtKvw3XmuZFv50CmTttc-sqD80nKU7VyMMqsd5V7bHhKMAXRBNhyv6OOfuoPuIVQNj2y99063CDa7cuJiExyt5noY2hLclEXu7tB0X4TveB54EPpHxP19f3WypSAjqYNqClbt3yvWvObzAQw==",
+          "title": "sri.com",
+          "resolvedUri": "https://www.csl.sri.com/~neumann/references.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRzOIA99_914YQHLkElgWSPBKRrBtdHCX1r74vicSb0hkivRpvEP6H9ebPWwQCNGQzLqv_qIAlezEVb0ggbHTK8hofkP2Er3gG99i1vuOYtdomkfPDT_aN6rLTnnabqd0a2CFQkwhC5sZylsaTuNpTorzvAMLz-MLLnR_AGY1Z-phqXUFmgMVS8akaEBuU4Rw2GM9thQrCCg==",
+          "title": "researchgate.net",
+          "resolvedUri": "https://www.researchgate.net/publication/385140042_Creativity_in_AI_Progresses_and_Challenges"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZXUjxZUmPYLNS1UoztcLYlTQDw-5iVt-Ld5RvOCCLaaJOb942DZadxGFY8AQrodTSX0invCbxeL2BQWXMuy59CLgDqxXLbVRgSQwLa_dG3j-TXFYZgGcX4Dj7-MgLmS2aZjAy0OGBhEeqjhIHYqOFyuagByDiJJylDg==",
+          "title": "acm.org",
+          "resolvedUri": "https://cacm.acm.org/opinion/computer-science-is-not-a-science/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyZePmvg9Cb3SS5vctbeACjdxjLZGX0H7d2I97ipH4fL6WmzdzkRka4yROwoOSGHXMqV-JDKMg7VwS0FrO7kVn4vdkXxRY5dtkydliqVhiPiGpHk9X8PUnExre7cHRIg==",
+          "title": "mekabay.com",
+          "resolvedUri": "http://www.mekabay.com/iyir/2002.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 235,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Peter Gabriel Neumann (born 1932) is a renowned American computer scientist and researcher who has made significant contributions to computer security, reliability, and risk management."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    }
   }
 }

@@ -13,5 +13,72 @@
     "technicalFields": [
       "X-rays"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q117119578",
+      "label": "Herbert R. Isenburger",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match perfectly, including the middle initial. Herbert R. Isenburger is a relatively unique name, and although the Wikidata entry is sparse, the identity of the person associated with St. John X-Ray Laboratory is well-documented as Herbert R. Isenburger."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Herbert Rudolf Isenburger (fl. 1930s–1970s) was a prominent engineer and pioneer in the field of industrial radiography and X-ray technology. He was the President of the St. John X-Ray Laboratory (also known as St. John X-Ray Service), which operated out of Califon, New Jersey (ZIP 07830) from at least the 1940s through the early 1970s. Isenburger co-authored the foundational textbook 'Industrial Radiology: X-rays and Gamma Rays' with Ancel St. John, first published in 1934, and authored several technical bibliographies for the Atomic Energy Commission and professional societies. He was a member of the American Society of Mechanical Engineers (ASME) and the American Society for Nondestructive Testing (ASNT), representing the latter on the American National Standards Committee for radiological safety as late as 1970. His work bridged the technical and artistic fields; he was featured in the Museum of Modern Art (MoMA) exhibition 'Abstract Photography' (c. 1951-1952) for his 'Gamma Ray Photograph' of aviation spark plug insulators. He is associated with Experiments in Art and Technology (E.A.T.), an organization that fostered collaborations between artists and engineers, and is recorded in their archives as a technical expert available for collaboration.",
+        "sources": [
+          "https://www.clemson.edu/science/departments/physics-astronomy/giving/index.html",
+          "https://www.moma.org/documents/moma_catalogue_2803_300062402.pdf",
+          "https://archive.org/details/sim_mechanical-engineering_1958-11_80_11/page/n129/mode/2up",
+          "https://catalog.hathitrust.org/Record/001476103",
+          "https://apps.dtic.mil/sti/citations/AD0263388",
+          "https://commons.wikimedia.org/wiki/File:Radiological_safety_in_the_design_and_operation_of_particle_accelerators_(IA_radiologicalsafe107brad).pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Herbert R. Isenburger X-ray specialist biography",
+        "",
+        "\"Herbert R. Isenburger\" Industrial Radiography book",
+        "\"Herbert R. Isenburger\" \"St. John X-Ray Laboratory\"",
+        "\"Herbert R. Isenburger\" Califon NJ",
+        "\"Herbert R. Isenburger\" obituary or death date",
+        "\"Herbert R. Isenburger\" Experiments in Art and Technology E.A.T.",
+        "",
+        "\"St. John X-Ray Laboratory\" Califon NJ history",
+        "\"Herbert R. Isenburger\" E.A.T.",
+        "\"Herbert R. Isenburger\" death date obituary",
+        "",
+        "\"St. John X-Ray Laboratory\" history Califon NJ",
+        "\"Herbert R. Isenburger\" 1898 1980",
+        "\"Herbert R. Isenburger\" birth death"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhbPRThkyzQXP0HmKv4E4Sz70T6L6DdqdlOEGNL9b2hWIMUjna52QHzwveW796bn8-o02wVFheUdI3kCPl-FMabvjXwmvcc9_Ed6xP6LSuofm24ooNn0Ms1k_wrApwSp17ndMG9Yhfc-EfaL2ENvbKQ1ChSvPSV2PMZtASm0JCN6LajMRyto0AuuX1_Q==",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/catalogueofcopy311libr/catalogueofcopy311libr_djvu.txt"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 80,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Herbert Rudolf Isenburger (fl."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

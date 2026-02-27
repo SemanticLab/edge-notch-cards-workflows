@@ -17,5 +17,113 @@
       "Architecture"
     ],
     "specializedSkillsKnowledge": "Building systems"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q28385",
+      "label": "Schwartz-Wassyng, Incorporated",
+      "description": "company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes an individual person, Kenneth Schwartz, while the second record describes a business entity, Schwartz-Wassyng, Incorporated. Although they share the name 'Schwartz', they represent different types of entities (a human vs. a company)."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q102194958",
+      "label": "Kenneth A. Schwartz",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Kenneth Schwartz on the index card is an architect and building systems expert. The Wikidata entity Q102194958 (Kenneth A. Schwartz) is associated with Steven Paul Plotnick as a doctoral advisor; Steven Plotnick is a professor of mathematics. This indicates the Wikidata entity is likely a mathematician or academic in a scientific field, which does not align with the career of the architect described on the card."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Kenneth Schwartz is an architect who was active in the late 1960s and 1970s. He graduated from the Rhode Island School of Design (RISD) in 1970 with a Bachelor of Architecture and a Bachelor of Fine Arts in Architecture. During his early career, he was based in Waterbury, Connecticut, residing at 135 Farmington Avenue. Schwartz was associated with the Institute of Applied Technology (IAT) of the National Bureau of Standards (NBS), which in the late 1960s and early 1970s was heavily involved in building research and technical evaluation for federal housing programs such as HUD's 'Operation Breakthrough'. His professional focus was on architecture and building systems. His association with the Experiments in Art and Technology (E.A.T.) likely stems from the organization's Technical Services program, which maintained a network of thousands of engineers, scientists, and technical professionals to consult with artists on collaborative projects. In later years, he established the architectural firm Kenneth Schwartz & Associates in Waterbury, Connecticut.",
+        "sources": [
+          "https://www.e-yearbook.com/sp/eybb?school=71550&year=1970&startpage=297",
+          "https://www.homeyou.com/ct/architects-waterbury-pro",
+          "https://www.nist.gov/history/national-bureau-standards-institute-applied-technology",
+          "https://www.usmodernist.org/AIAJ/AIAJ-1969-09.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Kenneth Schwartz \"Experiments in Art and Technology\" E.A.T.",
+        "Kenneth Schwartz architect Waterbury Connecticut 1960s 1970s",
+        "Kenneth Schwartz \"Institute of Applied Technology\" \"National Bureau of Standards\"",
+        "Kenneth Schwartz \"National Bureau of Standards\" architect",
+        "\"Kenneth Schwartz\" architect NBS IAT",
+        "",
+        "\"Kenneth Schwartz\" \"National Bureau of Standards\" architecture",
+        "\"Kenneth Schwartz\" architect Connecticut E.A.T.",
+        "",
+        "\"Kenneth Schwartz\" architect \"Operation Breakthrough\"",
+        "\"Kenneth Schwartz\" \"National Bureau of Standards\" Building Research",
+        "",
+        "\"Kenneth Schwartz\" architect Waterbury Connecticut architect",
+        "\"Kenneth Schwartz\" \"National Bureau of Standards\" 1969 1970",
+        "\"Kenneth Schwartz\" Experiments in Art and Technology list",
+        "\"Kenneth Schwartz\" architect Waterbury CT 1960s",
+        "",
+        "\"Kenneth Schwartz\" E.A.T. NBS",
+        "\"Kenneth Schwartz\" \"National Bureau of Standards\" IAT architect",
+        "",
+        "\"Kenneth Schwartz\" NBS building research architect",
+        "",
+        " \"Kenneth Schwartz\" architect",
+        "\"Kenneth Schwartz\" \"National Bureau of Standards\" building architect",
+        "\"Kenneth Schwartz\" architect Connecticut NBS IAT",
+        "",
+        "\"Kenneth E. Schwartz\" architect Cal Poly biography",
+        "\"Kenneth E. Schwartz\" Waterbury Connecticut",
+        "\"Kenneth Schwartz\" National Bureau of Standards IAT architect",
+        "",
+        "\"Kenneth Schwartz\" architect \"Waterbury\" history",
+        "\"Kenneth Schwartz\" \"National Bureau of Standards\" architecture CT",
+        "\"Kenneth Schwartz\" NBS architect IAT 1970",
+        "\"Kenneth Schwartz\" building research NBS",
+        "",
+        "\"Kenneth Schwartz\" Waterbury Connecticut architect biography",
+        "\"Kenneth Schwartz\" Experiments in Art and Technology member architect",
+        "",
+        "\"Kenneth Schwartz\" \"135 Farmington Avenue\" Waterbury",
+        "\"Kenneth Schwartz\" \"National Bureau of Standards\" Connecticut architect",
+        "\"Kenneth Schwartz\" IAT NBS architect",
+        "",
+        "\"Kenneth Schwartz\" \"135 Farmington Avenue\" architect"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSq9nWyGH6UL6pome-SDltqbIS03HnF81RVA_xkPKWq-E31uYI1lK3c9eS3b8xzFYw7_fqiHjNrWr4TRpmtR9thp9s2cPIY7gI-pGdx1M9hXcLLfI5hzbRmoWhKdne5AWTq3-a_-rJMDKSp7J7fkeAQV2weR1wsfqkshsu6XBnCUJKipaxNjOzETM_joIOX1W_gHs=",
+          "title": "e-yearbook.com",
+          "resolvedUri": "https://www.e-yearbook.com/yearbooks/Rhode_Island_School_Design_Yearbook/1970/Page_1.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxCeuhim-Xr1wAp_wHEFKSGVfm4oSJA8Ne2IbITcWMqWOdb_qCLJlSWqUc5C-VQcp1Eej2X-9manXpUZPO6eaasfVSa-zvUJjpJ8LMsFClig1TanMSzibRaBVKqsNn2IW0IXsLQT_VyiE_DvhSai8iVQF54KOvckflcUjOwy37MvdJZu18WDy7Em-yJrLkTNxmZ-Kw",
+          "title": "e-yearbook.com",
+          "resolvedUri": "https://www.e-yearbook.com/yearbooks/Rhode_Island_School_Design_Yearbook/1970/Page_1.html"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 271,
+            "endIndex": 370,
+            "text": "During his early career, he was based in Waterbury, Connecticut, residing at 135 Farmington Avenue."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
   }
 }

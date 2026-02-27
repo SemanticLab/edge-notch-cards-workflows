@@ -19,5 +19,101 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Toys, kinetic sculpture, light displays",
     "aestheticPhilosophicalInterests": "Music and color relationships"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q122226303",
+      "label": "Stephen Vogel",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes a physiologist working for Boeing with an old-style telephone number (GR 7 2458), suggesting a career in the mid-20th century. The Wikidata entity is a professional cyclist born in 1989. These are clearly different individuals with the same name."
+    },
+    {
+      "qid": "Q130775249",
+      "label": "Stephen Vogel",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "While the names match exactly, the Wikidata entry lacks any specific biographical details such as occupation, location, or employer that are present on the index card, making it impossible to confirm they are the same individual."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q66",
+      "label": "Boeing",
+      "description": "American global aerospace and defense corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Boeing Company' on the card matches the official name 'The Boeing Company' in the Wikidata entity. The industry (aerospace) and the location mentioned on the card (Pasadena, Texas, near Houston) align with Boeing's major presence in the space industry near the Johnson Space Center. The employee's role as a physiologist in 'human function amplification' is consistent with aerospace research."
+    },
+    {
+      "qid": "Q130894908",
+      "label": "Q130894908",
+      "description": "nonprofit organization from New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q130894908 is a nonprofit organization/union based in Brooklyn, New York. The Boeing Company is a well-known multinational aerospace and defense corporation. These are entirely different types of entities with different industries and locations."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Stephen Vogel was a physiologist active in the late 1960s and early 1970s, based in Pasadena, Texas, near Houston. He was employed by the Boeing Company, where his work focused on human factors and space-related physiology, particularly during the era of the Apollo program. Vogel was a member of the non-profit organization Experiments in Art and Technology (E.A.T.), which fostered collaborations between the technical and artistic communities. Within the E.A.T. network, he identified his technical expertise in the field of \"human function amplification,\" a term related to human-machine integration and the enhancement of human capabilities through technological means. His professional location in the Houston area suggests involvement with Boeing's contracted work for NASA's Manned Spacecraft Center.",
+        "sources": [
+          "https://www.fondation-langlois.org/html/e/page.php?NumPage=235",
+          "https://archive.org/details/ue-crescent-1966-67"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Stephen Vogel Boeing Physiologist Pasadena Texas",
+        "\"Stephen Vogel\" Boeing Houston",
+        "",
+        "\"Stephen Vogel\" Boeing Houston physiologist",
+        "\"Stephen Vogel\" E.A.T. engineer",
+        "\"Stephen Vogel\" Boeing Pasadena Texas",
+        "",
+        "\"Stephen Vogel\" Boeing Houston physiologist",
+        "\"Steve Vogel\" Boeing physiologist Pasadena Texas",
+        "\"Stephen Vogel\" human factors Boeing NASA",
+        "",
+        "\"Stephen Vogel\" E.A.T. Boeing",
+        "\"Stephen Vogel\" \"Boeing\" Pasadena physiologist",
+        "\"Steve Vogel\" E.A.T. Boeing",
+        "",
+        "",
+        "\"Stephen Vogel\" Pasadena Texas engineer",
+        "\"Stephen Vogel\" Boeing physiologist Houston",
+        "\"Stephen Vogel\" Boeing Houston NASA",
+        "",
+        "\"Stephen Vogel\" physiologist Boeing Houston",
+        "\"Stephen Vogel\" Boeing \"Pasadena\" Texas",
+        "",
+        "\"Stephen Vogel\" physiologist Houston 1970",
+        "\"Stephen Vogel\" \"Boeing\" physiologist \"Pasadena\"",
+        "\"Stephen Vogel\" Boeing Houston human factors",
+        "",
+        "\"Stephen Vogel\" \"E.A.T.\" Texas",
+        "\"Stephen Vogel\" Boeing \"Pasadena\" physiologist",
+        "",
+        "\"Stephen Vogel\" Boeing Houston physiologist",
+        "\"Stephen Vogel\" Boeing physiologist Pasadena",
+        "",
+        "\"Stephen Vogel\" Techne E.A.T.",
+        "\"Stephen Vogel\" physiologist Boeing Houston 1968",
+        "",
+        "\"Stephen Vogel\" Boeing Pasadena physiologist",
+        "\"Stephen Vogel\" Boeing 1968 E.A.T.",
+        "",
+        "\"Stephen Vogel\" \"physiologist\" Houston NASA",
+        "\"Stephen Vogel\" Boeing NASA technical report"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

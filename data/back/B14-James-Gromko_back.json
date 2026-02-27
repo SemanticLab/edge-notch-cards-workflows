@@ -8,6 +8,167 @@
         "y1": 7.3,
         "x2": 45.6,
         "y2": 21.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28385",
+          "label": "Schwartz-Wassyng, Incorporated",
+          "description": "company",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an individual person named Charles Schwartz, whereas the Wikibase entity describes a business entity called Schwartz-Wassyng, Incorporated. Although they share the surname 'Schwartz', they are distinct types of entities (person vs. company)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5082402",
+          "label": "Charles Schwartz, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q5082402 describes a prominent lawyer and federal judge from New Orleans. The context provided for the card entry specifies that the person is an artist (musician, visual artist, etc.) active in the late 1960s/early 1970s. Given the distinct professional fields and the existence of other individuals named Charles Schwartz (as noted by the 'different from' property in the Wikidata entry), it is unlikely that the judge is the artist in question."
+        },
+        {
+          "qid": "Q16012690",
+          "label": "Charles W. Schwartz",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Charles W. Schwartz (1914-1991) was a painter, illustrator, and filmmaker, which aligns perfectly with the artist context and the activity period of the late 1960s and early 1970s. While the name is common, the specific combination of artistic occupations makes him a very strong candidate, though confidence remains medium due to the existence of other individuals with the same name."
+        },
+        {
+          "qid": "Q16539340",
+          "label": "Charles Schwartz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a gymnast who participated in the 1904 Summer Olympics, making him far too old to be the artist active in the late 1960s and early 1970s mentioned in the card's context."
+        },
+        {
+          "qid": "Q20898005",
+          "label": "Charles Schwartz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Charles Schwartz (Q20898005) died in 1917. This contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q89811371",
+          "label": "Charles E. Schwartz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a medical doctor and researcher specializing in genetics and psychiatry with academic affiliations at various universities. The card refers to a person known to be an artist active in the late 1960s and early 1970s. These are two distinct career paths that are highly unlikely to describe the same person."
+        },
+        {
+          "qid": "Q102149351",
+          "label": "Charles Schwartz",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a mathematician associated with Rutgers and Rider University, whereas the provided context for the card entry specifies the individual was an artist active during the late 1960s and early 1970s. These primary occupations do not align."
+        },
+        {
+          "qid": "Q110089457",
+          "label": "Charles Schwartz",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name matches perfectly. The Wikidata entity refers to a person whose archives are held at the New York Public Library for the Performing Arts, confirming they were an artist or practitioner in the performing arts. Furthermore, their lifespan (1922-1998) aligns perfectly with the expected period of activity in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q113804975",
+          "label": "Charles Schwartz",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity (Q113804975) died in 1969, which contradicts the provided context that the artist was active during the late 1960s and early 1970s. While they share the same name, the temporal mismatch and lack of professional identification as an artist in the Wikidata record make it unlikely to be the same person."
+        },
+        {
+          "qid": "Q136384653",
+          "label": "Charles Schwartz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q136384653) died in 1893, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card's context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Charles Schwartz (1922–1998) was a prominent New York-based composer, author, and music impresario active from the late 1950s through the 1990s. He is best known for spearheading the \"Composers' Showcase,\" a landmark concert series that began in 1957 and found a permanent home at the Whitney Museum of American Art in 1968. The series was a major venue for avant-garde, jazz, and contemporary classical music, featuring collaborations and performances by iconic figures such as John Cage, Merce Cunningham, David Tudor, Ornette Coleman, and Charles Mingus. Schwartz's association with Experiments in Art and Technology (E.A.T.) is evidenced by his frequent moderation of public discussions and events involving E.A.T. founders and key figures like John Cage and David Tudor. He was a resident of Westbeth Artists Housing, a community known for its concentration of experimental and E.A.T.-affiliated artists. Beyond his work as a producer, Schwartz was a noted biographer of George Gershwin (1973) and Cole Porter (1977), and a composer of \"jazz symphonies\" like \"Professor Jive.\" In 1972, he also co-founded \"Let There Be Neon\" in SoHo with artist Rudi Stern, a gallery and studio that explored neon as a medium for both art and commercial design.",
+            "sources": [
+              "https://www.nypl.org/finding-aids/archives/18420",
+              "https://westbeth.org/memoriam/charles-schwartz/",
+              "https://www.wnyc.org/story/sun-ras-omniverse/",
+              "https://www.iphotocentral.com/news/news_detail.php?id=361",
+              "https://www.signsofthetimes.com/rudi-remembered/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Charles Schwartz was a physicist at the University of California, Berkeley, during the late 1960s and 1970s. While primarily a scientist, he was a radical activist and a founding member of Scientists and Engineers for Social and Political Action (SESPA), also known as \"Science for the People.\" He was deeply involved in the era's movement to bridge science with social and political action, often opposing military-funded research on campuses. His profile fits the scientist/engineer side of the collaborations promoted by the Experiments in Art and Technology (E.A.T.) organization, which actively sought to pair artists with researchers and engineers to explore the social and creative implications of new technology.",
+            "sources": [
+              "https://www.marxists.org/history/usa/science/sftp/index.htm",
+              "https://www.annualreviews.org/doi/full/10.1146/annurev-nucl-101917-020959"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Charles Schwartz\" composer jazz 1970s",
+            "\"Charles Schwartz\" musician artist 1960s 1970s",
+            "\"Charles Schwartz\" artist \"Experiments in Art and Technology\"",
+            "\"Charles Schwartz\" Experiments in Art and Technology scientist",
+            "\"Charles Schwartz\" E.A.T. artist",
+            "",
+            "\"Charles Schwartz\" artist \"9 Evenings\"",
+            "\"Charles Schwartz\" \"Composers' Showcase\" Experiments in Art and Technology",
+            "\"Charles Schwartz\" \"Experiments in Art and Technology\" member",
+            "\"Charles Schwartz\" \"E.A.T.\" collaboration",
+            "\"Charles Schwartz\" artist \"Pepsi Pavilion\"",
+            "\"Charles Schwartz\" Experiments in Art and Technology collaborator",
+            "\"Charles Schwartz\" E.A.T. scientist collaboration",
+            "\"Charles Schwartz\" Westbeth artist E.A.T.",
+            "\"Charles Schwartz\" engineer E.A.T.",
+            "",
+            "\"Charles Schwartz\" \"Composers' Showcase\" Whitney Museum 1960s",
+            "\"Charles Schwartz\" musician New York 1970s",
+            "\"Charles Schwartz\" \"Experiments in Art and Technology\" technician engineer",
+            "\"Charles Schwartz\" \"E.A.T.\" member list",
+            "",
+            "\"Charles Schwartz\" neon artist NYC",
+            "\"Charles Schwartz\" E.A.T. \"Pepsi Pavilion\"",
+            "\"Charles Schwartz\" \"Experiments in Art and Technology\" Osaka",
+            "\"Charles Schwartz\" rotoscope artist E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO_h16L66d1__G-9rm48bs2dXw3N1gbSGa3r5apkrfrVC1Ii7sH7ISmrMMvWJb4h54qhlfh4rOf1YCSKB9qBnQIIWFC-mx2OzWs_1YnCmdYLEuY7S0wocds4qo8A==",
+              "title": "westbeth.org",
+              "resolvedUri": "https://westbeth.org/in-memoriam/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjAyj6IjeqogxJ9GiCf6eBoykxx7_4tprxif9qzvZ4KCM32M8aeyjvPl4DtNYuik2lRZYG0082WZG5q7DISZLDQ1wKU1HAq5MEQr2aH9fwRl9Ebthj97Zh1lSAmQRtSWKBuKUOY-OGRmUmCqZb3ukXWpWLL4EwfnfFQ_zM4toBV8g=",
+              "title": "fandom.com",
+              "resolvedUri": "https://starwars.fandom.com/wiki/Star_Wars:_Episode_VIII_The_Last_Jedi"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 196,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Charles Schwartz (1922–1998) was a prominent New York-based composer, author, and music impresario active from the late 1950s through the 1990s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2289,
+                "endIndex": 2667,
+                "text": "organization, which actively sought to pair artists with researchers and engineers to explore the social and creative implications of new technology.\",\n      \"sources\": [\n        \"https://www.marxists.org/history/usa/science/sftp/index.htm\",\n        \"https://www.annualreviews.org/doi/full/10.1146/annurev-nucl-101917-020959\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -18,6 +179,189 @@
         "y1": 18.2,
         "x2": 46.1,
         "y2": 38.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q115547",
+          "label": "Bill Goldberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names (Helen vs. Bill/William), genders, and timelines do not match. Bill Goldberg was born in 1966 and began his career in the 1990s, whereas the person on the card was an artist active in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q505850",
+          "label": "Rube Goldberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Helen Goldberg' while the Wikidata entity is 'Rube (Reuben) Goldberg'. Helen is typically a female name, and the Wikidata entity is male. There is no indication that Helen was a known name or pseudonym for Rube Goldberg."
+        },
+        {
+          "qid": "Q4828464",
+          "label": "Avi Gopher",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Helen Goldberg' and 'Avi Gopher' do not match. Additionally, the Wikidata entity is a male archaeologist and university professor, whereas the card describes an artist named Helen Goldberg."
+        },
+        {
+          "qid": "Q13405847",
+          "label": "Aaron Goldberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names (Helen vs. Aaron) and genders do not match. Additionally, the card entry refers to an artist, while the Wikidata entity is a botanist."
+        },
+        {
+          "qid": "Q54065446",
+          "label": "Ethan M Goldberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Helen Goldberg' from the card does not match the name 'Ethan M Goldberg' from the Wikidata entity. Furthermore, the Wikidata entity describes a contemporary medical researcher, which contradicts the context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q56501943",
+          "label": "Ilya Goldberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Helen' and 'Ilya' are completely different, and the Wikidata entity describes a medical researcher rather than an artist."
+        },
+        {
+          "qid": "Q89189656",
+          "label": "Mickey Goldberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Helen Goldberg, whereas the Wikidata entity is for Michael (Mickey) Goldberg, a male medical researcher. The names, genders, and professional backgrounds (artist vs. medical researcher) do not align."
+        },
+        {
+          "qid": "Q91528624",
+          "label": "Goldberg",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Helen Goldberg matches the Wikidata entity which is identified as a human and a painter. This aligns with the context that the card subject is an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q114446411",
+          "label": "Goldberg Mangwadu",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match; 'Helen Goldberg' and 'Goldberg Mangwadu' are distinct identities. Furthermore, the Wikidata entity is listed as a researcher, while the individual on the card is identified as an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Helen Goldberg (also identified as Helen G. Goldberg) was an artist-craftsman active in New York during the late 1960s and 1970s. She was a member of the Artist-Craftsmen of New York, Inc., and participated in their annual exhibitions, including the third annual exhibition in 1970 where she was listed as a participant from Hewlett Harbor, N.Y. Her work in this period focused on textile arts, specifically tie-dye and fiber techniques. In August 1970, she was a participant in the Fourth Biennial Meeting of the World Crafts Council in Dublin, Ireland, where she was documented discussing tie-dye techniques with international artists. Her artistic practice expanded into hand papermaking, and her work was later included in the Hand Papermaking Artist Registry. She is also recorded as a donor of artwork (such as an Alison Saar woodcut) to the Hofstra University Museum of Art.",
+            "sources": [
+              "https://archive.org/stream/secondannualexhi00arti/secondannualexhi00arti_djvu.txt",
+              "https://archive.org/stream/currentcraftpers00arti/currentcraftpers00arti_djvu.txt",
+              "https://www.craftcouncil.org/sites/default/files/media-library/acc_newsletters_1970_v11_n6.pdf",
+              "https://handpapermaking.org/newsletter/issue-71",
+              "https://issuu.com/hofstrauniversitymuseumofart/docs/off_the_press_8.17.22_revised_digital_version"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Helen Goldberg (born 1930) was the second wife of the influential contemporary art curator and museum director Walter Hopps. They were married in 1970 and divorced in 1977. Hopps was a seminal figure in the post-war art world, co-founding the Ferus Gallery and serving as the director of the Corcoran Gallery of Art and the Menil Collection. He was a close collaborator and personal friend of artist Robert Rauschenberg, a co-founder of Experiments in Art and Technology (E.A.T.). Given her marriage to Hopps during the peak years of his involvement with Rauschenberg and the contemporary avant-garde scene in Washington D.C. and New York, she was deeply integrated into the artistic circle associated with E.A.T. during the late 1960s and early 1970s.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Walter_Hopps",
+              "https://arthistorians.info/hoppsw",
+              "https://www.nytimes.com/2005/03/23/arts/design/walter-hopps-72-curator-with-a-flair-for-the-modern-is-dead.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Helen Goldberg New York artist 1960s 1970s",
+            "\"Helen Goldberg\" artist 1960s 1970s",
+            "Helen Goldberg E.A.T. collaboration",
+            "Helen Goldberg artist Experiments in Art and Technology E.A.T.",
+            "\"Helen Goldberg\" Walter Hopps artist",
+            "\"Helen Goldberg\" \"Experiments in Art and Technology\"",
+            "\"Helen Goldberg\" artist exhibition 1960s 1970s",
+            "\"Helen Goldberg\" \"E.A.T.\" artist",
+            "\"Helen Goldberg\" 9 Evenings art technology",
+            "\"Helen Goldberg\" artist 1968 1969 1970",
+            "\"Helen Goldberg\" artist \"9 Evenings\"",
+            "\"Helen Goldberg\" E.A.T. archive",
+            "\"Helen Goldberg\" Experiments in Art and Technology member",
+            "\"Helen Goldberg\" Billy Kluver",
+            "\"Helen Goldberg\" dancer 1960s 1970s",
+            "\"Helen Goldberg\" performer 1960s 1970s",
+            "\"Helen Goldberg\" Experiments in Art and Technology staff",
+            "\"Helen Goldberg\" 9 Evenings performer",
+            "\"Helen Goldberg\" E.A.T. \"Experiments in Art and Technology\" staff",
+            "\"Helen Goldberg\" Getty E.A.T. archive",
+            "\"Helen Goldberg\" Rauschenberg assistant",
+            "\"Helen Goldberg\" Experiments in Art and Technology coordinator",
+            "\"Helen Goldberg\" artist Expo '70 E.A.T.",
+            "\"Helen Goldberg\" photographer 1960s 1970s",
+            "\"Helen Goldberg\" E.A.T. member list",
+            "\"Helen Goldberg\" E.A.T. newsletter",
+            "\"Helen Goldberg\" artist exhibition 1969 1970",
+            "\"Helen Goldberg\" Experiments in Art and Technology 1968 1969 1970 1971",
+            "\"Helen Goldberg\" Robert Rauschenberg E.A.T.",
+            "\"Helen Goldberg\" artist E.A.T. -psychoanalysis -social -medical -oncology",
+            "\"Helen Goldberg\" Billy Kluver E.A.T. assistant",
+            "\"Helen Goldberg\" E.A.T. \"Experiments in Art and Technology\" artist",
+            "\"Helen Goldberg\" artist New York 1968 1969 1970 1971",
+            "\"Helen Goldberg\" \"9 Evenings\" staff",
+            "\"Helen Goldberg\" \"E.A.T.\" Bell Labs",
+            "\"Helen Goldberg\" artist Experiments in Art and Technology staff coordinator",
+            "\"Helen Goldberg\" artist exhibition 1968 1969 1970 New York",
+            "\"Helen Goldberg\" Experiments in Art and Technology member profile",
+            "\"Helen Goldberg\" Experiments in Art and Technology technical assistant",
+            "",
+            "\"Helen Goldberg\" artist textile E.A.T.",
+            "\"Helen Goldberg\" artist photography E.A.T.",
+            "\"Helen Goldberg\" E.A.T. office manager New York",
+            "\"Helen Goldberg\" Experiments in Art and Technology staff list",
+            "\"Helen Goldberg\" Billy Kluver E.A.T. coordinator"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMExbATss9tSb4mzPqpSMFsPJS3Tu12mNUDjyoU0SsxSmiA9ocvsXnFppOpTup5XhXidZnzmFxOgAhKcjUy13dKzD9Xe3IpkMS89DAv611LrRtUiPFTk5C_kiWSJn1YeZxR2iKwiEhlBZIJnbOM1zist7pfbUN1p0C8xSd76FuJLnj6wRCYnwRxKTbSHejmCsR0M0eVpK8",
+              "title": "scispace.com",
+              "resolvedUri": "https://scispace.com/pdf/synthetic-conception-artificial-insemination-and-the-1ywj5hdaru.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnyQBaAOnE1uQ7c7owMAc3UAm89E3_DjNcapCxkdK9VRoZVMhXtSsNME8QtLW2wHDtjsHx4Z-TqYHtmnwTDz6F0B6ItJhcJdH1aFHFkE1FWb9iKfgRDVHIvFAxsOd7qUSRNg-auYfiNYQyB8BQ9joZbIDxEI9AlP0msm3rreQRSzE1KLwkaRE34y-W-F8oKdSd-mQ=",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/hofstra/docs/92540_off_press_checklist_v.2_-_final?fr=sMWNjODUyOTQ1MjM"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo4eeNaMXsjvKEEdELzqDR5AeNR_IXLQ3PRwAn4bR-VM7m2GzY7_U70Xfom0w40GWebwZus3HUpW9gvN7ylkOP9zCubAf5lPKfK_C4pf0YqKahbuNjI_acNDnKjFcdNPaA",
+              "title": "eopl.org",
+              "resolvedUri": "https://www.eopl.org/download/1937.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4kAOYyb8_Vf6ZCu9QqvYQN1ZtdWCzugF1EF7ETNsTOpVrx7Cbof_inqULNsoSgxXWNF2aprBbowKpPsvByixO862Uc19vw2JW5Lq3gsbFdfij8nq4Hlop1tmQo-Y4h08qbfpzKjDJs9IYB9trAeirFzEh9AuICEFSDpbp3xpi-Ej-qLc0J1om9cdmHURhXe37IA==",
+              "title": "reachoutandread.org",
+              "resolvedUri": "https://reachoutandread.org/wp-content/uploads/2024/05/Leadership-Conf-Bios-export-.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg3bWzOyuyF-RnnxYApjmeY349ShWQ2681F4VEeLxCXjCpNSIq6Va56au_qaQ1xtwZ6sSuAsTQVusJpdq2bKjpNuzJ3NaySyc5-o0z38aHx3lxOBoGnG0mg-ms4UbG-S-KT1rpIVCZj0bODQ35XKku8Dhbu7x46YQOZpmIB6gfFsfy4hoAR9mbg3lPtGodFVo=",
+              "title": "tbsroslyn.org",
+              "resolvedUri": "http://tbsroslyn.org/images/stories/downloads_files/Bulletins/March-Bulletin-2014.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2207,
+                "endIndex": 2540,
+                "text": "during the late 1960s and early 1970s.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Walter_Hopps\",\n        \"https://arthistorians.info/hoppsw\",\n        \"https://www.nytimes.com/2005/03/23/arts/design/walter-hopps-72-curator-with-a-flair-for-the-modern-is-dead.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -28,6 +372,200 @@
         "y1": 30.5,
         "x2": 41.0,
         "y2": 40.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q29231",
+          "label": "Frans Snyders",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Frans Snyders (1579-1657) lived and worked in the 16th and 17th centuries. This is entirely incompatible with the artist described on the card, who was active in the late 1960s and early 1970s. Additionally, the initials 'E.C.' do not match the name 'Frans'."
+        },
+        {
+          "qid": "Q385997",
+          "label": "Jonas Suyderhoef",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Jonas Suyderhoef (1613–1686) lived in the 17th century, whereas the card entry describes a person active in the late 1960s or early 1970s. Furthermore, the names 'E.C. Snyder' and 'Jonas Suyderhoef' do not match."
+        },
+        {
+          "qid": "Q1370998",
+          "label": "Snyder Rini",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Snyder Rini, a Solomon Islands politician whose given name is Snyder and surname is Rini. The card entry is for an artist named E.C. Snyder, where Snyder is the surname. There is no correspondence between the initials 'E.C.' and the name 'Snyder Rini', nor between their primary occupations."
+        },
+        {
+          "qid": "Q1681665",
+          "label": "Solomon H. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names and initials do not match: the card refers to 'E.C. Snyder' while the Wikidata entity is 'Solomon H. Snyder'. Furthermore, the Wikidata entity describes a highly prominent neuroscientist and medical researcher, which does not align with the context of the person being an artist."
+        },
+        {
+          "qid": "Q2296146",
+          "label": "Snyder S. Kirkpatrick",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Snyder S. Kirkpatrick) died in 1909, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card entry. Furthermore, 'Snyder' is his given name, whereas in 'E.C. Snyder' it is likely the surname."
+        },
+        {
+          "qid": "Q3182230",
+          "label": "John Otterbein Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Otterbein Snyder died in 1943, which makes it impossible for him to be an artist active in the late 1960s and early 1970s. Additionally, his initials (J.O.) do not match the initials (E.C.) on the card, and his profession was zoology/ichthyology rather than art."
+        },
+        {
+          "qid": "Q14954619",
+          "label": "Leon C. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The initials do not match: the card lists 'E.C. Snyder' while the Wikidata entity is 'Leon C. Snyder' (L.C. Snyder). Additionally, the Wikidata entity describes a botanist and horticulturist, which does not align with the provided context that the person on the card was an artist."
+        },
+        {
+          "qid": "Q25035800",
+          "label": "Abraham Z. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The initials 'E.C.' from the card do not match the name 'Abraham Z. Snyder' from the Wikidata entity. Furthermore, the Wikidata entity is a contemporary academic researcher in neuroimaging, which does not align with the context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q70250411",
+          "label": "Lillian Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The initials 'E.C.' do not match the name 'Lillian Snyder'. Additionally, the Wikidata entity describes a botanical collector and mycologist born in 1874, which is inconsistent with the profile of an artist active in the late 1960s and 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ellsworth Snyder (1931–2005), who often styled his name in lowercase as 'ellsworth snyder,' was an American abstract painter, professional pianist, conductor, and scholar. He was active in the late 1960s and 1970s as a champion of avant-garde art and music. Snyder was a close associate and lifelong friend of composer John Cage, who was a key figure in the founding of Experiments in Art and Technology (E.A.T.). Snyder's association with E.A.T. is documented through collaborative publications and archives, including a 1992 publication titled 'E.A.T. (Experiments in Art and Technology), John Cage & Ellsworth Snyder, Two Texts Concerning John Cage; Chronology and Autobiography.' He wrote the first doctoral dissertation on John Cage (1970) and was involved in the Fluxus movement, curated Fluxus archives, and performed unconventional new music lectures during the late 1960s. Although often cited as Ellsworth J. Snyder, his prominent role in the E.A.T.-related avant-garde scene of that era makes him the most likely artist match.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Ellsworth_Snyder",
+              "https://gallery98.org/experiments-in-art-and-technology-inc/",
+              "https://www.getty.edu/research/collections/david_tudor/resources.html",
+              "https://www.foundationforcontemporaryarts.org/about/fca-events-timeline/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "E. C. Snyder, Jr. was an engineer at Bell Telephone Laboratories (Bell Labs) during the early 1960s and 1970s. Bell Labs was the primary technical partner for Experiments in Art and Technology (E.A.T.), providing the engineers who collaborated with artists like Robert Rauschenberg and John Cage. Snyder is documented in the 'Bell System Technical Journal' (1963) for his role in coordinating technical systems for the Telstar satellite project, specifically the autotrack system at Andover, Maine. He later contributed to research on DC-DC converters (1977). In the context of E.A.T., which formalised the 'Artist-Engineer' collaboration model, engineers were frequently credited alongside artists in project directories and catalogs, such as the membership lists for 'Some More Beginnings' (1968) and the 'Pepsi Pavilion' (1970).",
+            "sources": [
+              "http://www.bitsavers.org/magazines/bell_system_technical_journal/bstj42-4-1963-07.pdf",
+              "https://ieeexplore.ieee.org/document/4221764",
+              "https://www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&subjectid=500350419"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"E.C. Snyder\" artist 1960s 1970s",
+            "\"E.C. Snyder\" artist biography",
+            "\"E.C. Snyder\" artist E.A.T.",
+            "\"E.C. Snyder\" Experiments in Art and Technology",
+            "\"E.C. Snyder\" artist \"late 1960s\"",
+            "\"E.C. Snyder\" participant in E.A.T. projects",
+            "\"E.C. Snyder\" \"E.A.T.\" artist",
+            "\"E.C. Snyder\" artist \"1970s\"",
+            "\"Ellsworth Snyder\" artist late 1960s",
+            "\"Ellsworth Snyder\" E.A.T.",
+            "\"E.C. Snyder\" artist E.A.T. archive",
+            "\"E.C. Snyder\" collaborator Experiments in Art and Technology",
+            "\"E. C. Snyder\" artist E.A.T.",
+            "\"E.C. Snyder\" artist E.A.T. 1968 1969 1970 1971",
+            "\"E.C. Snyder\" E.A.T. member list",
+            "\"Snyder\" participant list \"9 Evenings\" E.A.T.",
+            "\"Snyder\" participant list \"Pepsi Pavilion\" E.A.T.",
+            "\"E. C. Snyder\" Experiments in Art and Technology 1970",
+            "\"E.C. Snyder\" artist late 1960s 1970s E.A.T.",
+            "\"Ellsworth C. Snyder\" artist",
+            "\"Ellsworth Snyder\" E.A.T. participant",
+            "\"Edward Snyder\" E.A.T.",
+            "\"Elizabeth Snyder\" E.A.T.",
+            "\"E.C. Snyder\" E.A.T. artist 1960s 1970s",
+            "\"E. C. Snyder\" Experiments in Art and Technology list",
+            "\"Ernest Snyder\" E.A.T.",
+            "\"E.C. Snyder\" Bell Labs E.A.T.",
+            "\"E.C. Snyder\" E.A.T. \"Technical Services\"",
+            "\"E.C. Snyder\" E.A.T. engineer",
+            "\"E.C. Snyder\" Pepsi Pavilion engineer",
+            "\"Ellsworth Snyder\" E.A.T. chronology",
+            "\"E. C. Snyder\" Bell Labs art technology",
+            "\"E. C. Snyder\" E.A.T. participant list",
+            "\"E. C. Snyder\" artist late 1960s early 1970s",
+            "\"E. C. Snyder\" E.A.T. Bell Labs engineer list",
+            "\"E. C. Snyder\" engineer Experiments in Art and Technology",
+            "\"E. C. Snyder\" 9 Evenings participant list",
+            "",
+            "\"E. C. Snyder\" E.A.T. participant \"Pavilion\"",
+            "\"E. C. Snyder\" E.A.T. engineer 1970",
+            "\"E. C. Snyder\" John Cage E.A.T.",
+            "\"E. C. Snyder\" artist New York 1966 1967 1968 1969 1970 1971",
+            ",",
+            "\"E. C. Snyder\" technical services E.A.T.",
+            "\"E. C. Snyder\" Experiments in Art and Technology member",
+            "\"E. C. Snyder\" E.A.T. archive Daniel Langlois Foundation",
+            "\"E. C. Snyder\" artist composite 1960s",
+            "\"Snyder\" Experiments in Art and Technology \"Pepsi Pavilion\"",
+            "\"Ellsworth Snyder\" middle name initial",
+            "\"Snyder\" E.A.T. \"9 Evenings\" collaborator",
+            "\"Ernest Snyder\" Experiments in Art and Technology",
+            "\"E. C. Snyder\" artist E.A.T. 1968 1969 1970 1971",
+            "\"Ernest C. Snyder\" artist",
+            "\"Snyder\" in \"Techne\" E.A.T. bulletin",
+            "\"Edward C. Snyder\" artist E.A.T.",
+            "\"E. C. Snyder\" artist E.A.T. directory",
+            "\"E. C. Snyder\" Experiments in Art and Technology 1968 1969 1970",
+            "\"Ellsworth Snyder\" E.A.T. projects list",
+            "\"E. C. Snyder\" artist E.A.T. newsletter",
+            "\"E. C. Snyder\" artist 9 Evenings collaboration",
+            "\"E. C. Snyder\" Experiments in Art and Technology member list 1960s 1970s",
+            "\"E. C. Snyder\" artist E.A.T. archive collection",
+            "\"E. C. Snyder\" engineer 9 Evenings list",
+            "",
+            "\"Some More Beginnings\" E.A.T. Snyder participant",
+            "\"Some More Beginnings\" artist list 1968 E.A.T. Snyder",
+            "\"Ellsworth Snyder\" artist E.A.T. exhibition",
+            "\"E. C. Snyder\" artist E.A.T. Brooklyn Museum 1968",
+            "",
+            "\"Ellsworth Snyder\" Cage E.A.T. John Cage 1992 book",
+            "\"Some More Beginnings\" Brooklyn Museum list Snyder",
+            "\"E. C. Snyder\" artist E.A.T. technical collaborator"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeln7JZ6ut7U-HZygHIiUmHPP4T8q9UnqyUZJuBZMJxXgikORIOGMeAtxnUbjaHZYGK40Go051e5IJbQhHTc0IOZeWPiTCvVWZ7PfkGguwSYPTxmJHUpZ-jFlihX-XMiqyzDePIZ1UN_LrSPabEMDU_kgPCK4mWIoxb-sFg6Bpjw==",
+              "title": "gallery98.org",
+              "resolvedUri": "https://gallery98.org/category/experiments-in-art-and-technology-inc/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 466,
+                "endIndex": 605,
+                "text": "Snyder's association with E.A.T. is documented through collaborative publications and archives, including a 1992 publication titled 'E.A.T."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 606,
+                "endIndex": 735,
+                "text": "(Experiments in Art and Technology), John Cage & Ellsworth Snyder, Two Texts Concerning John Cage; Chronology and Autobiography.'"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -38,6 +576,195 @@
         "y1": 36.6,
         "x2": 34.5,
         "y2": 46.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26370",
+          "label": "J. Weissman",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to J. Weissman. The Wikibase entity is specifically linked to the E.A.T. Technical Services Program Edge-Notched Cards project, which matches the context of the physical card. The date on the card (1971) also fits the historical timeline of the E.A.T. organization."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1082269",
+          "label": "Christian Weissmantel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (J. Weissman vs. Christian Weissmantel), and the Wikidata entity describes a prominent East German physicist and university teacher, which does not align with the card context of an artist involved with the E.A.T. (Experiments in Art and Technology) program in 1971."
+        },
+        {
+          "qid": "Q2261293",
+          "label": "Chaim Michael Dov Weissmandl",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Chaim Michael Dov Weissmandl) died in 1957, which makes it impossible for him to be the J. Weissman active in the E.A.T. project in 1971. Furthermore, the Wikidata entity was a rabbi and rosh yeshiva, not an artist."
+        },
+        {
+          "qid": "Q5564815",
+          "label": "Endre Weissmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (J. Weissman) does not match the given name (Endre) or the spelling of the surname (Weissmann) in the Wikidata entry. Additionally, the Wikidata entity is a physicist, which does not align with the context that the individual on the card is an artist."
+        },
+        {
+          "qid": "Q7038531",
+          "label": "Gabriel Waisman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (J. Weissman) does not match the Wikidata entity Gabriel Waisman, both in the initial and the spelling of the surname. Furthermore, Gabriel Waisman was an Israeli Yiddish writer and editor born in 1900, which does not fit the profile of the artists typically associated with E.A.T. (Experiments in Art and Technology) in the early 1970s."
+        },
+        {
+          "qid": "Q37392598",
+          "label": "Myrna M. Weissman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q37392598 refers to Myrna M. Weissman, a prominent epidemiologist and psychiatrist. The person on the card, J. Weissman, is identified as an artist associated with Experiments in Art and Technology (E.A.T.). Not only do the initials ('J' vs 'M') mismatch, but the professional fields (medical research/psychiatry vs. artistic practice) are fundamentally different."
+        },
+        {
+          "qid": "Q51120582",
+          "label": "Norbert Weissmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match as the card specifies an initial 'J' while the Wikidata entity is 'Norbert'. Furthermore, the professions are entirely different; the card refers to an artist involved in the E.A.T. program in the early 1970s, whereas the Wikidata entity is a contemporary medical researcher."
+        },
+        {
+          "qid": "Q88608402",
+          "label": "Drew Weissman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The J. Weissman on the card was an artist active in 1971, while the Wikidata entity refers to Drew Weissman, a famous molecular biologist born in 1959. In 1971, Drew Weissman would have been only 11 years old, making it impossible for him to be the artist mentioned in the context of the E.A.T. Technical Services Program."
+        },
+        {
+          "qid": "Q108803487",
+          "label": "Hans Schneider",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'J. Weissman' does not match 'Hans Schneider'. Furthermore, the Wikidata entity lived in the late 16th and early 17th centuries, while the card entry is dated 1971."
+        },
+        {
+          "qid": "Q118926069",
+          "label": "Moshe Weissman",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name on the card (J. Weissman) and the Wikidata entity (Moshe Weissman) have conflicting first initials. Additionally, the Wikidata record for Moshe Weissman lacks any occupation or chronological data to link him to the artistic activities or the 1971 date mentioned on the card."
+        },
+        {
+          "qid": "Q118927798",
+          "label": "Aryeh Levanon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names J. Weissman and Aryeh Levanon do not match, and there is no evidence provided to suggest they are the same individual."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jane Weissman is an American artist, writer, and historian who has been active in the New York City art scene since the late 1960s. She is best known for her documentation and leadership within the community mural movement, which began in New York around 1968. Weissman is the co-author of the seminal book \"On the Wall: Four Decades of Community Murals in New York City\" (2009) and served as the longtime administrative director of Artmakers Inc., a community mural collective founded in 1985. She has curated numerous exhibitions, including \"Images of the African Diaspora in New York City Community Murals\" and \"La Lucha Continua The Struggle Continues: 1985 & 2017.\" Her work often focuses on the social, political, and cultural context of public art collaborations between artists and neighborhood residents, a theme that mirrors the collaborative goals of organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.nypl.org/events/programs/2021/05/18/protest-celebration-history-lower-east-side-murals",
+              "https://www.gothamcenter.org/blog/on-the-wall-four-decades-of-community-murals-in-new-york-city",
+              "https://laluchaartmakers.org/the-exhibition/",
+              "https://mural.ch/index.php?kat_id=141&lan_id=deu&literatur_id=2081"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Julian Weissman was a New York-based art writer, critic, and gallery director active during the 1970s. He frequently published reviews and articles in major art journals under the name J. Weissman, including a notable piece on the photographer Eugène Atget for \"Art News\" in January 1976. Julian Weissman was deeply embedded in the postwar New York art world, maintaining professional and personal relationships with prominent artists such as Elaine and Willem de Kooning, Sol LeWitt, and Grace Hartigan. He served as a director for galleries like the Gruenebaum Gallery and later founded Julian Weissman Fine Art. His activities during the late 1960s and early 1970s included managing artist relationships and participating in the critical discourse surrounding contemporary art and photography.",
+            "sources": [
+              "https://www.spenational.org/resources/exposure/15-2-summer-1977/at-moma-the-atget-exhibition",
+              "https://www.karengunderson.com/chronology/",
+              "https://jonathanandbarbarasilverfoundation.org/chronology/",
+              "https://www.mutualart.com/Gallery/Julian-Weissman/563223028308871E"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Ken Weissman (Kenneth Weissman) is a film and video editor who is historically associated with Experiments in Art and Technology (E.A.T.). He is a primary member of the preservation team that restored and edited the archival film and audio recordings of E.A.T.'s foundational 1966 series \"9 Evenings: Theatre and Engineering.\" Working alongside E.A.T. founders Billy Klüver and Julie Martin, Weissman was responsible for completing the performance sections of films documenting artists like Robert Rauschenberg, John Cage, and Öyvind Fahlström. While his most visible work on these projects took place during the 1990s and 2000s to create a permanent historical record, his name is often cited in the context of E.A.T.'s primary collaborative projects from the late 1960s.",
+            "sources": [
+              "https://www.experimentsinartandtechnology.org/9-eves-preservation",
+              "https://www.rauschenbergfoundation.org/art/archive/select-audiovisual-bibliography",
+              "https://www.dance-enthusiast.com/get-involved/impressions/view/EAT-9-Evenings-Anthology-Film-Archives"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Joe Weissman\" artist E.A.T.",
+            "\"J. Weissman\" artist 1960s 1970s",
+            "\"J. Weissman\" artist Experiments in Art and Technology",
+            "\"Jane Weissman\" artist E.A.T.",
+            "\"Joseph Weissman\" artist E.A.T.",
+            "\"J. Weissman\" E.A.T. artist",
+            "\"Weissman\" E.A.T. artist collaboration",
+            "\"Jane Weissman\" E.A.T.",
+            "\"John Weissman\" E.A.T.",
+            "\"Joel Weissman\" artist E.A.T.",
+            "\"Jeffrey Weissman\" artist E.A.T.",
+            "\"Joe Weissman\" E.A.T.",
+            "\"James Weissman\" E.A.T. artist",
+            "\"Jane Weissman\" Experiments in Art and Technology",
+            "\"Jack Weissman\" artist E.A.T.",
+            "\"J. Weissman\" E.A.T. membership",
+            "\"J. Weissman\" artist 1968 1969 1970 1971 1972",
+            "\"Jonathan Weissman\" artist E.A.T.",
+            "",
+            "\"Jane Weissman\" artist New York 1960s 1970s",
+            "\"Jeffrey Weissman\" artist photographer",
+            "\"Joan Weissman\" artist 1960s",
+            "\"James Weissman\" artist 1960s",
+            "\"Joe Weissman\" artist 1960s",
+            "\"J. Weissman\" artist Experiments in Art and Technology 1966 1970",
+            "\"Weissman\" E.A.T. member list",
+            "\"Jane Weissman\" artist 1970s",
+            "\"Weissman\" participant \"9 Evenings\"",
+            "\"Julian Weissman\" art critic",
+            "\"Jeffrey Weissman\" photographer E.A.T.",
+            "\"J. Weissman\" Experiments in Art and Technology 1968 1969",
+            "\"J. Weissman\" Pepsi Pavilion E.A.T.",
+            "\"Joseph Weissman\" artist Experiments in Art and Technology",
+            "\"Jane Weissman\" photographer Experiments in Art and Technology",
+            "\"Julian Weissman\" artist 1960s 1970s",
+            "\"John Weissman\" artist Experiments in Art and Technology",
+            "\"J. Weissman\" Bell Labs E.A.T.",
+            "\"Jeffrey Weissman\" Experiments in Art and Technology photographer",
+            "\"J. Weissman\" artist \"E.A.T.\"",
+            "",
+            "\"Julian Weissman\" artist 1966 1967 1968",
+            "\"Jeffrey Weissman\" artist 1966 1967 1968",
+            "\"Weissman\" engineer E.A.T. Bell Labs",
+            "\"J. Weissman\" artist Experiments in Art and Technology participant",
+            "\"Jane Weissman\" artist E.A.T. 1966 1967 1968",
+            "\"J. Weissman\" artist Pepsi Pavilion E.A.T.",
+            "\"Joseph Weissman\" conceptual artist 1960s 1970s",
+            "\"Julian Weissman\" artist writer 1960s",
+            "\"Jane Weissman\" artist Experiments in Art and Technology collaboration",
+            "\"John Weissman\" artist 1960s 1970s",
+            "Experiments in Art and Technology \"Pepsi Pavilion\" participant list Weissman",
+            "\"J. Weissman\" artist Experiments in Art and Technology 1960s",
+            "",
+            "\"Jane Weissman\" E.A.T. collaboration",
+            "\"J. Weissman\" engineer Bell Labs E.A.T.",
+            "\"Julian Weissman\" E.A.T. participant",
+            "\"J. Weissman\" artist New York 1969 1970",
+            "\"John Weissman\" E.A.T. Bell Labs",
+            "\"Jeffrey Weissman\" E.A.T. participant",
+            "\"Weissman\" artist 1969 \"Experiments in Art and Technology\"",
+            "\"Joan Weissman\" artist E.A.T.",
+            "\"Jackie Weissman\" artist E.A.T.",
+            "\"J. Weissman\" E.A.T. list of members",
+            "\"J. Weissman\" Pepsi Pavilion participant",
+            "\"J. Weissman\" Experiments in Art and Technology engineer",
+            " \"Weissman\"",
+            "\"Jane Weissman\" and \"Experiments in Art and Technology\"",
+            "\"J. Weissman\" artist Expo 70 Pepsi Pavilion"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

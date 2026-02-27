@@ -11,6 +11,138 @@
         "y1": 10.5,
         "x2": 43.8,
         "y2": 17.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q178403",
+          "label": "Irvine Welsh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different: 'Dennis Irvine' vs. 'Irvine Welsh'. Additionally, Irvine Welsh's professional career began in the 1990s (best known for 'Trainspotting'), which does not align with the context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q887757",
+          "label": "Robert Allen",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card is Dennis Irvine, whereas the Wikidata entity is Robert Allen, whose birth name was Irvine E. Theodore Baehr. While the name 'Irvine' appears in both, the first name 'Dennis' is completely absent from the Wikidata record, and there is no evidence to suggest Robert Allen used Dennis as an alias or stage name."
+        },
+        {
+          "qid": "Q1673264",
+          "label": "Irvine Lenroot",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Dennis Irvine vs. Irvine Lenroot). Furthermore, the Wikidata entity was a politician and judge who died in 1949, which contradicts the card's description of an artist active in the late 1960s/1970s."
+        },
+        {
+          "qid": "Q5558767",
+          "label": "Irvine Arditti",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different. The card refers to a 'Dennis Irvine' (where Irvine is likely the surname), whereas the Wikidata entity is 'Irvine Arditti' (where Irvine is the first name). There is no indication that these are the same individual."
+        },
+        {
+          "qid": "Q6074326",
+          "label": "Irvine Dearnaley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Dennis Irvine, while the Wikidata entity is Irvine Dearnaley. Furthermore, the Wikidata subject died in 1965, making it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card's context. Their occupations (athlete vs. artist) also do not align."
+        },
+        {
+          "qid": "Q6074388",
+          "label": "Irvine Thornley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: 'Dennis Irvine' versus 'Irvine Thornley'. Furthermore, the Wikidata entity died in 1955, which is before the period of activity (late 1960s/early 1970s) specified for the artist on the card. The occupations (artist vs. professional footballer) also do not align."
+        },
+        {
+          "qid": "Q18670678",
+          "label": "Alexander Irvine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Dennis vs. Alexander). Furthermore, the Wikidata entity died in 1873, which is inconsistent with the context provided that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q102149758",
+          "label": "Irvine Rudsdale Pounder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different: 'Dennis Irvine' versus 'Irvine Rudsdale Pounder'. Additionally, the Wikidata entity describes a person associated with academia and mathematics (doctoral student of Gilbert Ames Bliss), whereas the card refers to an artist."
+        },
+        {
+          "qid": "Q102272280",
+          "label": "Irvine Joseph Warrington Robinson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Dennis Irvine) does not match the Wikidata name (Irvine Joseph Warrington Robinson). Furthermore, the Wikidata entity appears to be an academic associated with mathematics (indicated by his doctoral advisor David Borwein), which contradicts the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q104412051",
+          "label": "Irvine Drimmie",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Dennis Irvine vs. Irvine Drimmie). Additionally, the Wikidata entity is identified as a cricketer, whereas the card entry refers to an artist active in the late 1960s/early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Dr. Dennis H. Irvine was a Jamaican scientist, educator, and academic administrator who was active in the late 1960s and early 1970s. He served as the Vice-Chancellor of the University of Guyana from 1969 to 1982 and was a prominent figure in the Caribbean scientific and cultural landscape. Originally a Professor of Chemistry who studied at the University of Leeds and Cambridge, his career was defined by efforts to integrate science and technology into Caribbean education and society. He was associated with the development of the Caribbean Examinations Council (CXC) and later served as the Director of Caribbean Programmes for the Commonwealth of Learning and a UNESCO consultant. His association with Experiments in Art and Technology (E.A.T.) likely stems from his high-level involvement in regional science and technology policy and his patronage of the arts; the University of Guyana established the 'Dennis Irvine Award' for students who make the greatest contribution to the university's cultural life. Historical records from LACMA's 'All Impossible Deeds' exhibit link the name Irvine to E.A.T. projects in Jamaica during this period, where E.A.T. sought to foster collaborations between technological development and artistic expression in local communities.",
+            "sources": [
+              "https://nlj.gov.jm",
+              "https://www.uog.edu.gy/newsletters/dennis-irvine-hall-residence",
+              "https://www.lacma.org/art/exhibition/all-impossible-deeds",
+              "https://www.cxc.org/about/history-of-cxc/",
+              "https://unesdoc.unesco.org/ark:/48223/pf0000104861"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Dennis Irvine\" artist biography",
+            "\"Dennis Irvine\" art 1960s 1970s",
+            "Dennis Irvine artist Experiments in Art and Technology",
+            "\"Dennis Irvine\" E.A.T. organization",
+            "\"Dennis Irvine\" architect Antigua Government House",
+            "\"Dennis Irvine\" artist 1960s 1970s exhibition",
+            "\"Dennis Irvine\" E.A.T. collaborator",
+            "\"Dennis Irvine\" artist Experiments in Art and Technology E.A.T.",
+            "",
+            "\"Dennis Irvine\" artist Canada 1960s",
+            "\"Dennis Irvine\" artist E.A.T. collaboration",
+            "\"Dennis Irvine\" engineer E.A.T.",
+            "\"Dennis Irvine\" artist US 1960s",
+            "\"Dennis Irvine\" architect Antigua",
+            "\"Dennis Irvine\" artist 1960s 1970s",
+            "\"Dennis Irvine\" E.A.T. artist engineer",
+            "\"Dennis Irvine\" collaboration E.A.T.",
+            "\"Dennis Irvine\" artist botanical art",
+            "\"Dennis Irvine\" artist E.A.T. 1968 1969 1970 1971",
+            "\"Dennis Irvine\" artist Royal Society of Portrait Painters",
+            "\"Dennis Irvine\" artist 1960s 1970s E.A.T.",
+            "\"Dennis Irvine\" E.A.T. membership list",
+            "",
+            "\"Dennis Irvine\" architect 1960s 1970s",
+            "\"Dennis Irvine\" artist painter biography 1960s 1970s",
+            "\"Dennis Irvine\" artist National Portrait Gallery NPG",
+            "\"Dennis Irvine\" artist UK E.A.T.",
+            "\"Dennis Irvine\" artist Canada E.A.T.",
+            "",
+            "\"Experiments in Art and Technology\" Jamaica Dennis Irvine",
+            "\"Dennis Irvine\" artist Guyana 1970s",
+            "\"Experiments in Art and Technology\" Barbados Dennis Irvine",
+            "\"Dennis Irvine\" artist Barbados 1970s",
+            "",
+            "\"Dennis Irvine\" architect \"Government House\" Antigua historical",
+            "\"Dennis Irvine\" painter Caribbean leaders",
+            "\"Dennis Irvine\" artist Experiments in Art and Technology collaboration",
+            "\"Dennis Irvine\" artist Carifesta 1972 Guyana"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -24,6 +156,111 @@
         "y1": 15.8,
         "x2": 45.8,
         "y2": 28.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q57529439",
+          "label": "Daniel Rothenberg",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity describes a researcher associated with MIT and Cornell, which likely refers to a contemporary academic. This does not align with the context of an artist active in the late 1960s or early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Rothenberg is a mathematician, computer scientist, composer, and theorist who was active in the late 1960s and 1970s. He is recognized as a pioneer in the application of mathematical models and pattern recognition to music theory and perception. His historical significance is notably linked to his work on 'adaptive pattern recognition' and the development of formal languages for both audio and visual perception. In 1969, he published a seminal technical report titled 'A Pattern-Recognition Model Applied to the Perception of Pitch' for the Air Force Office of Scientific Research (AFOSR), followed by a 1970 report on an 'Adaptive Pattern Representation and Recognition System.' He was associated with the Experiments in Art and Technology (E.A.T.) organization, specifically through the Los Angeles branch (E.A.T.–LA), where he collaborated with and was cited alongside computer art pioneers like John Whitney (Sr.). His research often sought to create inter-meshed audio-visual languages and explored the boundaries between art, science, and communication, including government-contracted work on communication formats for potentially exchanging ideas with non-human or alien species. His theoretical work, such as his 'Mathematical Model for the Perception of Tones,' is archived in collections of major 20th-century composers like Otto Luening.",
+            "sources": [
+              "https://www.researchgate.net/publication/349472300_Avenues_to_Higher_Levels_of_Psychic_Communication_and_Neurological_Referencing_An_Outline_of_Recent_Developments_in_the_Fine_Arts",
+              "https://www.archives.nypl.org/mus/18447",
+              "https://math.dartmouth.edu/~ahb/mills_formal_methods.html",
+              "https://dtic.mil/docs/citations/AD0647270"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Diane Rothenberg is an anthropologist and author who was active in the late 1960s and 1970s, particularly within the 'ethnopoetics' movement. Often working alongside her partner, the poet Jerome Rothenberg, she conducted extensive field research on the Allegany Seneca Reservation in New York during this period. Her work focused on the intersections of oral tradition, female identity (as seen in her book 'The Mothers of the Nation'), and the adaptation of indigenous art and culture into modern poetic and performance contexts. While primarily known as a scholar and anthropologist, her contributions to the emerging discourse on cross-cultural poetics and her collaborative editing of influential anthologies like 'Symposium of the Whole' place her within the historical artistic and intellectual circles of the 1970s.",
+            "sources": [
+              "https://jacket2.org/article/diane-rothenberg-corn-soup-fry-bread-reminiscence",
+              "https://www.ethnopoetics.org/ethnopoetics_overview",
+              "https://openedition.org/journals/ebss/1183"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"David Rothenberg\" artist 1960s 1970s",
+            "\"Diane Rothenberg\" artist 1960s 1970s",
+            "\"D. Rothenberg\" artist 1960s 1970s",
+            "\"D. Rothenberg\" artist \"Experiments in Art and Technology\"",
+            "\"D. Rothenberg\" E.A.T. artist",
+            "\"David Rothenberg\" \"Pattern-Recognition Model\" artist",
+            "\"David Rothenberg\" \"Experiments in Art and Technology\"",
+            "\"David Rothenberg\" composer mathematician E.A.T.",
+            "\"David Rothenberg\" artist 1960s 1970s E.A.T.",
+            "\"D. Rothenberg\" E.A.T. member",
+            "\"David Rothenberg\" \"Pattern-Recognition Model\" E.A.T.",
+            "\"David Rothenberg\" composer mathematician 1969",
+            "\"David Rothenberg\" \"Experiments in Art and Technology\" member",
+            "\"D. Rothenberg\" E.A.T. artist collaborator",
+            "\"David Rothenberg\" \"inter-meshed audio-visual language\"",
+            "\"David Rothenberg\" composer mathematician 1970s",
+            "\"David Rothenberg\" E.A.T. artist engineer",
+            "\"D. Rothenberg\" member \"Experiments in Art and Technology\"",
+            "\"David Rothenberg\" \"pattern recognition\" music E.A.T.",
+            "\"David Rothenberg\" \"A Pattern-Recognition Model\" pioneer",
+            "\"David Rothenberg\" mathematician composer bio 1960s 1970s",
+            "\"D. Rothenberg\" Experiments in Art and Technology member list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3-JNQJZVTwEnz9mvYzT8brajRHXJPNvu-1ry-oKdMDLQ8x3AlZ7e04_MhVopoNpqCdYWPrLWYcjFODXlMmXzAyxxTuk-1joa7_9TJBd5TuZsw2IvZ3RRLuloKlgaIAAJz2y4WzDSfd0gu2aqFuyI8yBhpYyHS4cwC1mi3SLEvVcZpojP5r33OZ07lWQ4E1zPNqJMGbBxbM5Y3UV1uPqTIL7XzrDGikw-v-foXeTRKcM5W1Opu6mQkbDIfQRD5jwYj1oeEth8VQB-zDtK8wo9QE2iVx7V-iOXoWtxwheQn8iWp9liRwoHORlbnX-cKqtDjRkDBUbWAf7I2fhAtNBMrmCkZ1CtNu7cL2AxzGwat1YP4JitTk9zxEco6vmRlaY7kOWRgPP7QY6BD5RWYnNM1_zvNCgpqb8R4PSYg0MzlGhAkknM=",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/profile/Anastasia-Chernysheva-7/publication/387123501_Grayson_J_1971_Avenues_to_Higher_Levels_In_Pieces_A_Second_Anthology_1976/links/67613dc92d60b863e276ae63/Grayson-J-1971-Avenues-to-Higher-Levels-In-Pieces-A-Second-Anthology-1976.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVVZPO_FRJEgOAy81VHM1bxcr0qlPBb07Vog6f0pVdzVXVRZBKPIZ4yM8x7PWcKKzmrV4GQjwKk4dj1TRfN_giuZsKW_sRNBr0Q6T3HIo1bf4ghlQNQhIxKf4YawvbtK9PklysimA-BaLWwn4yPpqHTzGZThN2SnpHzJd6pnQz-fFaNzVT4yBvcLrKatq6j_SC2XRyNY0l1C5twCjeQ5ts90BAlvt3zAkv3BmhHv2ex_Jvw0PCdA==",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/387123501_Grayson_J_1971_Avenues_to_Higher_Levels_In_Pieces_A_Second_Anthology_1976"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 173,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"David Rothenberg is a mathematician, computer scientist, composer, and theorist who was active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 472,
+                "endIndex": 739,
+                "text": "In 1969, he published a seminal technical report titled 'A Pattern-Recognition Model Applied to the Perception of Pitch' for the Air Force Office of Scientific Research (AFOSR), followed by a 1970 report on an 'Adaptive Pattern Representation and Recognition System.'"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 981,
+                "endIndex": 1249,
+                "text": "His research often sought to create inter-meshed audio-visual languages and explored the boundaries between art, science, and communication, including government-contracted work on communication formats for potentially exchanging ideas with non-human or alien species."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +274,174 @@
         "y1": 24.2,
         "x2": 44.6,
         "y2": 36.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26339",
+          "label": "Aaron Marcus",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikibase entity explicitly links this Aaron Marcus to the E.A.T. Technical Services Program and the 'Edge-Notched Cards' project, which corresponds to the physical index card collection described."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q4662235",
+          "label": "Aaron Marcus",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name matches exactly. Aaron Marcus (Q4662235) is a pioneer in computer graphics and graphic design who received his MFA from Yale in 1968, placing him as an active artist/designer during the late 1960s and early 1970s. His involvement in early computer art aligns perfectly with the context of the E.A.T. (Experiments in Art and Technology) records."
+        },
+        {
+          "qid": "Q23306244",
+          "label": "Aaron Marcus",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity Q23306244 is identified as an actor. The Aaron Marcus associated with the E.A.T. Technical Services Program (as noted in the card's existing candidate metadata) is a well-known computer artist and designer (Wikidata Q26339). It is unlikely that the actor profile refers to the same individual as the artist from the E.A.T. context."
+        },
+        {
+          "qid": "Q76013941",
+          "label": "Marcus Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Aaron Marcus vs. Marcus Evans). Furthermore, the Wikidata entity was born in 1996, meaning they could not have been active as an artist during the late 1960s or early 1970s as described in the card context."
+        },
+        {
+          "qid": "Q117264608",
+          "label": "Aaron Marcuse-Kubitza",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card is for Aaron Marcus, while the Wikidata entity is for Aaron Marcuse-Kubitza. Additionally, the Wikidata entity is described as a researcher, which does not align with the artist context of the card, and the hyphenated surname is distinct from the name on the record."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Aaron Marcus (born May 22, 1943) is an American artist, graphic designer, and pioneer in computer graphics and human-computer interaction who was highly active during the late 1960s and 1970s. He is recognized as the first professional graphic designer to work full-time with computer graphics, beginning as a research intern at AT&T Bell Laboratories in 1967. During his time at Bell Labs, he was part of the influential community of artists and engineers that intersected with Experiments in Art and Technology (E.A.T.), an organization founded by Billy Klüver. Marcus's early work included creating ASCII art and programming some of the first virtual reality art/design spaces, such as 'Cybernetic Landscape I' (1971–1973), which he developed while a faculty member at Princeton University (1968–1977). His artistic output from the 1970s includes computer-assisted works like 'Noise Barrier' (1974) and 'Radioactive Jukebox' (1972). His art has been exhibited at major venues, including the Victoria and Albert Museum and the San Francisco Museum of Modern Art, and he is widely cited as a seminal figure in the transition of graphic design into the digital age.",
+            "sources": [
+              "https://www.siggraph.org/about/history/people/aaron-marcus",
+              "https://en.wikipedia.org/wiki/Aaron_Marcus",
+              "https://spalterdigital.com/artists/aaron-marcus/",
+              "https://americanhistory.si.edu/collections/search/object/nmah_1443653",
+              "https://computerhistory.org/blog/oral-history-of-aaron-marcus/",
+              "https://letterformarchive.org/news/this-just-in-aaron-marcus/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Aaron Marcus computer artist 1960s 1970s",
+            "Aaron Marcus artist 1960s 1970s biography",
+            "\"Aaron Marcus\" artist E.A.T. association",
+            "Aaron Marcus artist Experiments in Art and Technology E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiWxHTGTl92KorcEghxbuoXte4myAnfw5bR6wi8-j5V_dVvG4i1PjjylzcHboLxP9mSCC4t3Jqnf4FMIBaymX--XmVjs7mcxqvZqwGBM55PSFxzbq7GzSclM84NZf8MfsedJV-otKBAxQsyR8=",
+              "title": "siggraph.org",
+              "resolvedUri": "https://history.siggraph.org/person/aaron-marcus/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLBZQfBLgCM7I5QFDYGUQvCcp5X0oh9fB1fIxThb9AfWVa9tYBYRsJdHWFD6WT9M9CVyjkoksHHnK_BCqt_cgoI8o_BMnlq0FRvrlAJGBR2SMuxdtqqv39NdvTGA_Flu0E-Ak=",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/aaron_marcus"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4Wk6KpXD-MZFCtNMluHRUATgO78tnkVCvj8Xrf44RGS4ftfx_21TVa6l1by_ViSfzzVOi9_nhFn3FSZfIL4zdCngwWJFP8QyblT4goByyhadu8exygDFFiAQ7yxIruVZ0rgR3sFyzEMo2lRkoF0D-JqngtQ==",
+              "title": "wordpress.com",
+              "resolvedUri": "https://hcipioneers.wordpress.com/portfolio/marcus-aaron/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcnzMoZAyFy5WGzN5aoVtc91wDTwZkW1TCTuh9nS4J4Ymzy-R_IreJVlfl0131Lk3IQPnHPqQX81s9TcukT6-rtvP3DVU309Jhlbv7wCBwu2VApWjkNSipdIXfsBB37FINpJEa297im462L9cXc_Mbc_zSYfUp-A==",
+              "title": "letterformarchive.org",
+              "resolvedUri": "https://letterformarchive.org/news/the-work-of-aaron-marcus/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNhuFaUbHZgWeCDbc61cWHgXula4mPUI-bmY9WTr6h2SOzI3lw7YwcR4nNXiianFtuvsNzKfZawGrcQs11fl_hi1sVN1vYFlIYXAc5Sbk5okOtV_m0Vmot4wQ2sU-jMPAIE4ze_vyl_IlJ0w==",
+              "title": "spalterdigital.com",
+              "resolvedUri": "https://spalterdigital.com/artists/aaron-marcus/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHA4lBMF7X3e0p4GBsHVONoKWs4TgfWFkquiTJqNPvoqlEZZHVR63AJbXfbxKjbw4Yc4K4PIIWDJSCof8HWL9dD4F4i60inOn2aPmPKv6loxD9o461gu9PnU_A73GEY2H9HMNGnQEXMZ_fxhv4WNqEp-Dak8Ic_xyhd2MrWflE=",
+              "title": "rightclicksave.com",
+              "resolvedUri": "https://www.rightclicksave.com/article/the-interview-a-michael-noll"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNn2p5gm9U7Xm-HWZQlPdq6rV-VWTbsDzUyLQLiQculnGWC__80FTROyIyIcmefbQZDUdTFxwcjDoZAxaSY8Fve3lJIL72Z3zqWYnUb5DJn90sLzXJcM-GzaiM7MRSHch4WjuiH-I7_igrp8xjKzenvaxoJC6pRzLh9_7XEP1cZrwSUBEd693N8yVULrEV0bs8Qhs=",
+              "title": "computerhistory.org",
+              "resolvedUri": "http://archive.computerhistory.org/resources/access/text/2021/03/102795827-05-01-acc.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVWgqkzUAHjoPMYgjhYXAZj2F2HGGbJ5sNcevo21NhH8sdLzOLEkF8KJc2net5vW23z7nsNbu8s5cGDu78CyYU77xY87QMvhqCRscT_AtOKEkjKhqj7lxSsOgLl01SMmk3GcndpA==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Aaron_Marcus"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbwJDIO077MpzzmSjtwQIlPU_PSV2z0SZtLuRQ6iDPiUjq32erQSxsFARjG0rOvPnYYTTzQFwWIEP7kdnie5wjoKusgC7I4ryNIbwx9bWPOtKdf2i25Qnm_YLJBjQaE8eQJe4MZ4dIt05XzeXfhj4=",
+              "title": "ithistory.org",
+              "resolvedUri": "https://www.ithistory.org/honor-roll/mr-aaron-marcus"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmX5FulfFch6bnwTcovVNsRIAop5Yds42S20DNy773s-AmseDIhGEXjCJQXm3uqQkw7prCAlqv5VytJivNxqlL3mBaf96zqxVJKbClcC3isRjbA5l5IVvDSTeOkrSXgtBr8Ncy0yKEwtwq3lOwX_LISDSbaW8c1F1w7m4Sm5ksP4SUfDGgxjZeiPgN_vvyvCgX9UZWWhsjZSVTDoVTQMV14UgaeA59y7qJrFvQpt4=",
+              "title": "wordpress.com",
+              "resolvedUri": "https://designandtheory.wordpress.com/wp-content/uploads/2017/01/a-michael-noll-early-digital-computer-art-2016.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 242,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Aaron Marcus (born May 22, 1943) is an American artist, graphic designer, and pioneer in computer graphics and human-computer interaction who was highly active during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 243,
+                "endIndex": 410,
+                "text": "He is recognized as the first professional graphic designer to work full-time with computer graphics, beginning as a research intern at AT&T Bell Laboratories in 1967."
+              },
+              "groundingChunkIndices": [
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 411,
+                "endIndex": 614,
+                "text": "During his time at Bell Labs, he was part of the influential community of artists and engineers that intersected with Experiments in Art and Technology (E.A.T.), an organization founded by Billy Klüver."
+              },
+              "groundingChunkIndices": [
+                9
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 991,
+                "endIndex": 1705,
+                "text": "His art has been exhibited at major venues, including the Victoria and Albert Museum and the San Francisco Museum of Modern Art, and he is widely cited as a seminal figure in the transition of graphic design into the digital age.\",\n      \"sources\": [\n        \"https://www.siggraph.org/about/history/people/aaron-marcus\",\n        \"https://en.wikipedia.org/wiki/Aaron_Marcus\",\n        \"https://spalterdigital.com/artists/aaron-marcus/\",\n        \"https://americanhistory.si.edu/collections/search/object/nmah_1443653\",\n        \"https://computerhistory.org/blog/oral-history-of-aaron-marcus/\",\n        \"https://letterformarchive.org/news/this-just-in-aaron-marcus/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                4,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

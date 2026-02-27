@@ -9,6 +9,34 @@
         "y1": 6.8,
         "x2": 51.2,
         "y2": 17.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q119553066",
+          "label": "Dalesia Booth",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Dalesia Booth) was born in 1997, which makes it chronologically impossible for them to be the artist Lora Dales, who was active in the late 1960s and early 1970s. Furthermore, the names and occupations (basketball player vs. artist) do not match."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lora Dales artist \"Experiments in Art and Technology\"",
+            "\"Lora Dales\" artist",
+            " \"Dales\"",
+            " \"Lora Dales\"",
+            "\"Lola Dales\" artist",
+            "\"Lora Dale\" artist E.A.T.",
+            "",
+            "\"Lora Dales\" book",
+            " \"Lora Dales\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -20,6 +48,128 @@
         "y1": 16.5,
         "x2": 54.7,
         "y2": 27.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27023",
+          "label": "Lee Jaffe",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Lee Jaffe' is an exact match. The card date of 1970 aligns perfectly with the activity of E.A.T. (Experiments in Art and Technology). Furthermore, the Wikibase entity specifically mentions the 'Technical Services Program Edge-Notched Cards,' which is the physical format from which the card entry was derived."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1811847",
+          "label": "Lee Jaffe",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Lee Jaffe' is an exact match. The Wikidata entity (Q1811847) describes an artist (painter, filmmaker, photographer) born in 1950, which fits perfectly with the 1970 date on the card (when he would have been 20 and starting his career). The context of the E.A.T. cards (Experiments in Art and Technology) is highly consistent with an artist whose work involves video and film."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lee Jaffe (born 1950) is an American multidisciplinary artist, photographer, filmmaker, musician, and producer who was highly active in the experimental art scenes of the late 1960s and early 1970s. Born in the Bronx and educated at Penn State University, Jaffe dropped out in 1969 to travel to Brazil, where he collaborated with key figures of the Tropicália movement, including Hélio Oiticica and Neville d'Almeida. Upon returning to New York in 1971, he became a central figure in the conceptual art and experimental film community centered around the alternative space 112 Greene Street. During this period, he was associated with the Experiments in Art and Technology (E.A.T.) milieu and participated in the landmark 1971 MoMA exhibition 'Projects: Pier 18,' where he presented a work titled 'Parallel Fears.' His early film collaborations included 'Impact' with Vito Acconci and 'Brooklyn Bridge' with Gordon Matta-Clark. In 1972, Jaffe transitioned into the music world after meeting Bob Marley; he moved to Jamaica, became a member of the Wailers (playing harmonica), and produced seminal reggae albums such as Peter Tosh's 'Legalize It.' In the 1980s, he returned to visual arts, focusing on large-scale multi-media historical paintings and collaborating closely with Jean-Michel Basquiat. His work is held in major collections, including the Museum of Modern Art (MoMA) and the Metropolitan Museum of Art.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Lee_Jaffe",
+              "https://www.getty.edu/research/collections/shunk_kender/",
+              "https://www.leejaffe.com/",
+              "https://www.interviewmagazine.com/art/lee-jaffe-jean-michel-basquiat-bob-marley",
+              "https://www.modernamuseet.se/stockholm/en/exhibitions/lee-jaffe/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lee Jaffe filmmaker musician artist biography",
+            "\"Lee Jaffe\" artist 1960s 1970s biography",
+            "Lee Jaffe artist Experiments in Art and Technology E.A.T.",
+            "",
+            "\"Lee Jaffe\" \"Experiments in Art and Technology\"",
+            "\"Lee Jaffe\" Getty Research Institute E.A.T. archive",
+            "\"Lee Jaffe\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtcaImlN_Iy-JdxO-dzE0XquWjKC8NTaUiMZyt46NcXr2a6xoXhRv5Tx60_q3FH7toSq6czSo8903kLQ2pGiVd-LTsylfjMb6lkEN7J6NiNxxeAVAX18PbU9Rd5piz0LaRhhtq6oeKl-nbZveOkoIES8iUkB1V356YBYkfVe4rJlNKJ15_w4xzqGWNFOCnygZ6gp_vsqPW4iGWYra503wrFmI=",
+              "title": "clintonlindsay.com",
+              "resolvedUri": "https://clintonlindsay.com/2016/11/15/forever-loving-jamaica-says-photographermusicianartist-lee-jaffe/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwHoyd8nSSQFKvMsfWRf6FSz8eonqZ_D8jIIwdpl7WV9bQBCq_3HyKDe6Y2RAAl0vRw9z5t_TgMUV6fT2uiteXO9bTp-ADSoODRf6luW2TOAaliIbTmhwjCnJk23XSGVW35IRaU3sCmPyY",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/rizzoli/docs/fa24_catalog_red"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32VGzU33qHiEbG4n66mLRDuPl-UxoC-5EgV3tszvjHL0sxUoT4slYVGc_EWL7sp1GoBy6rzrUVBo7U-4gDvIkLtzOkoTvf4ecAyZ4nYPJig2WwWxbN5IgeGn-ysqBOuKlz75Gx-npgXopewL6fPmMD_wozljzipZmA3nLjvgmxsUe-goxHYiuiOkTdQcOtWZeojA=",
+              "title": "charlestoncitypaper.com",
+              "resolvedUri": "https://charlestoncitypaper.com/2025/11/07/reggae-legends-are-topic-of-nov-13-cofc-talk/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFhTKy81b_ltS0_czzpMv7ieRHbZzNdkKt4g8EyDZtDq3mH9sQFMQtzjs6biW6HU3F1AVmtqLXgiCRui86JlkgZXsHmefF1VgO6ZBOaNURBNC4OQgh6ZWNPzY8GAvpFLaYrxN-0Q==",
+              "title": "nighthawknyc.com",
+              "resolvedUri": "https://www.nighthawknyc.com/tag/basquiat/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQnT6_0FfxXIUAZKyi7QcsAXQMA6x84rbEdFdwPsr3JTPomx--0P4P7_VxDiC7YmpLDeUaKHLmZfTsj7wGmQASG8V4x3BjTZxZf0bP2nT8speMeNW5SeV7T30Qrz7JyFbMGrVkyX2QCYjsp-xfLxNir_yrr4QR0c43AytzJtxBIPvxn32sHC5MBEWDecDzTlS18wzcgYqBRMb8u_tbvq6ZUCpNgq-wMD6F8Qf823HuWt7fNeYa3Sr0dw==",
+              "title": "modernamuseet.se",
+              "resolvedUri": "https://www.modernamuseet.se/stockholm/wp-content/uploads/sites/3/2025/02/thehistorybook_14_chronology_publications_index1.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOK9ubEkfewztOI-5ii3qWxots_x-5LO2kVef6-vIOOmLLZV2puVj5y_L2twfaEK4UA39enTtPELIGEzfHlkjDdEbYhow1MilGHMTKXdG2fGtW_uyu6M9-07Pmvr4Rk44FBjQ_59UDK1TuwJJwv9boUyN4A12j6frhqBqlKe0=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/2014.R.20.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 248,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lee Jaffe (born 1950) is an American multidisciplinary artist, photographer, filmmaker, musician, and producer who was highly active in the experimental art scenes of the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 644,
+                "endIndex": 733,
+                "text": "During this period, he was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 734,
+                "endIndex": 866,
+                "text": "milieu and participated in the landmark 1971 MoMA exhibition 'Projects: Pier 18,' where he presented a work titled 'Parallel Fears.'"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 980,
+                "endIndex": 1198,
+                "text": "In 1972, Jaffe transitioned into the music world after meeting Bob Marley; he moved to Jamaica, became a member of the Wailers (playing harmonica), and produced seminal reggae albums such as Peter Tosh's 'Legalize It.'"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

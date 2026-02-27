@@ -15,5 +15,148 @@
     "technicalFields": [
       "Production Engineering"
     ]
+  },
+  "wikidata_candidates": [
+    {
+      "qid": "Q2895283",
+      "label": "Ben-ami Kadish",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names are identical and highly unique. Both records identify the individual as an engineer. The physical card specifies his employment at Picatinny Arsenal in New Jersey, and the Wikidata entry confirms he was a US citizen who died in New Jersey."
+    }
+  ],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5620894",
+      "label": "Picatinny Arsenal",
+      "description": "American military research and manufacturing facility",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Picatinny Arsenal' matches exactly. The Wikidata entity is identified as a military research and manufacturing facility in New Jersey, which aligns perfectly with the card's description of a 'Production Engineer' employed there."
+    },
+    {
+      "qid": "Q64183488",
+      "label": "Picatinny Arsenal Reports (NAID 7829722)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the Picatinny Arsenal (a military research and manufacturing facility), whereas the Wikidata entity Q64183488 refers to a specific archival collection of reports held by the National Archives (NARA) related to that organization, rather than the organization itself."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28338",
+      "label": "Picatinny Arsenal",
+      "description": "laboratory",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Picatinny Arsenal' is an exact match. Both the card and the Wikibase entity (described as a laboratory) refer to the unique military research and manufacturing facility in New Jersey where Ben-Ami Kadish worked as an engineer."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Ben-Ami Kadish (1923–2012) was an American mechanical and production engineer who worked for the U.S. Army at the Picatinny Arsenal in Dover, New Jersey, from 1963 to 1990. During the late 1960s and 1970s, he resided in Clifton, New Jersey, where he was a prominent member of the local community, serving as the president of the Men's Club at the Clifton Jewish Center. Professionally, he was a supervisory engineer in the Fuze Division of the Army Armament Research, Development and Engineering Center. In 1968, he participated in the Experiments in Art and Technology (E.A.T.) movement, collaborating with artist Giselle Mauer on a project titled 'Mauer & Kadish' for the exhibition 'Some More Beginnings' held at the Brooklyn Museum. In 2008, Kadish gained international attention when he was arrested and subsequently pleaded guilty to acting as an unregistered agent for the government of Israel. He admitted to providing classified documents—including information on nuclear weapons, the Patriot missile system, and the F-15 fighter jet—to an Israeli handler between 1979 and 1985, a case that was linked to the Jonathan Pollard espionage scandal.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Ben-Ami_Kadish",
+          "https://www.jewishvirtuallibrary.org/ben-ami-kadish",
+          "https://www.justice.gov/archive/opa/pr/2008/December/08-nsd-1154.html",
+          "https://www.artist-info.com/users/public_curator_detail/1402",
+          "https://www.timesofisrael.com/ben-ami-kadish-88-of-monroe-township-died-july-16-2012/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Ben-Ami Kadish Picatinny Arsenal engineer",
+        "Ben-Ami Kadish Clifton New Jersey biography",
+        "\"Ben-Ami Kadish\" Experiments in Art and Technology"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3Y7q3QH_fExgEGPkLneIA3oEaVdpoSix-a3RjbDT2TF16XlMm7pF8JszbUj_cfH0_xcUG0EY0BeqdxOrynq71skBFGAvWBXDer876jmn5CJ2z7hLnN_pXV66hQ69msFYLcMamx40vRh607E4ABUurTXHqXEmn6RyueQ==",
+          "title": "courthousenews.com",
+          "resolvedUri": "https://www.courthousenews.com/man-85-admits-spying-for-israel/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG06TzseZUlSxKTpjAmO1B_cIIARY75HBj2JFLUzjXs5eyDHeDlUir6a1mRpOw0xhQH7NiHSgb-3yAJ0IEiGh_LO8umAtHWtlOZ0KlNM_z3W1AJ0Cgvph-DE1SlAKTHdziZ6ioA6zg6",
+          "title": "wikipedia.org",
+          "resolvedUri": "https://en.wikipedia.org/wiki/Ben-Ami_Kadish"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOLUGTRGnFmsWLrLGau4qtVUqjHNvPbwjHeV9NtOVVMkxPH5SxMwnLnVkc-Ge0gsmSUzozm8ZyI2b91zy1NNNBXqoOim1rsyqdQ2x-NimEIDpjMDGDhXT3v-3_7Bipube46GmxZi7D-M7EwJYn7zSRPRwgqMg=",
+          "title": "artist-info.com",
+          "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm-ZXaOi0q2CYmXmpuDhVUimKnitSgYagff9NaOEuc7rbgKCA931AlhAkJfWaLYqzds0RXEeQr3Y4fMGZg5HMLQNRDJAQNjynlKi84WPV2xaM0A1IbMCabBPDL5TixfCXwgKU5gA==",
+          "title": "grokipedia.com",
+          "resolvedUri": "https://grokipedia.com/page/ben_ami_kadish"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGstMrjs0GCNXzmUZcrw7USS8C71rVqkzXwilvBWcj83T6O6H-TKln7PinfEGTzC5D6ULgdLF4Z_EWLEmT3IUPxyWsuEBL0YjTJVs9dUOGQfhn9w3pwKBCM9cq_Uj8WZkuTEvnh2xJFDFOz_Tnv9IScrRWWHqv-sLM7dbWLc-c=",
+          "title": "cbsnews.com",
+          "resolvedUri": "https://www.cbsnews.com/news/nj-man-charged-with-spying-for-israel/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 224,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ben-Ami Kadish (1923–2012) was an American mechanical and production engineer who worked for the U.S. Army at the Picatinny Arsenal in Dover, New Jersey, from 1963 to 1990."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 422,
+            "endIndex": 555,
+            "text": "Professionally, he was a supervisory engineer in the Fuze Division of the Army Armament Research, Development and Engineering Center."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 556,
+            "endIndex": 630,
+            "text": "In 1968, he participated in the Experiments in Art and Technology (E.A.T.)"
+          },
+          "groundingChunkIndices": [
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 789,
+            "endIndex": 953,
+            "text": "In 2008, Kadish gained international attention when he was arrested and subsequently pleaded guilty to acting as an unregistered agent for the government of Israel."
+          },
+          "groundingChunkIndices": [
+            3
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 954,
+            "endIndex": 1651,
+            "text": "He admitted to providing classified documents—including information on nuclear weapons, the Patriot missile system, and the F-15 fighter jet—to an Israeli handler between 1979 and 1985, a case that was linked to the Jonathan Pollard espionage scandal.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Ben-Ami_Kadish\",\n        \"https://www.jewishvirtuallibrary.org/ben-ami-kadish\",\n        \"https://www.justice.gov/archive/opa/pr/2008/December/08-nsd-1154.html\",\n        \"https://www.artist-info.com/users/public_curator_detail/1402\",\n        \"https://www.timesofisrael.com/ben-ami-kadish-88-of-monroe-township-died-july-16-2012/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            3,
+            1,
+            4
+          ]
+        }
+      ]
+    }
   }
 }

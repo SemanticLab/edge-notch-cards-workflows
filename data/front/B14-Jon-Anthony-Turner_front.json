@@ -24,5 +24,142 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q159758",
+      "label": "J. M. W. Turner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Record 1 describes a 20th-century American electrical engineer named Jon Anthony Turner who works in avionics and data processing. Record 2 describes the famous 19th-century British painter J. M. W. Turner (1775-1851). They share a surname and an interest in art, but are different people from different centuries and professions."
+    },
+    {
+      "qid": "Q377313",
+      "label": "Turner M. Marquett",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals from different centuries. The index card describes Jon Anthony Turner, a 20th-century electrical engineer in New York, while the Wikidata entity describes Turner M. Marquett, a 19th-century politician and lawyer who died in 1894."
+    },
+    {
+      "qid": "Q21117631",
+      "label": "Francis Calcraft Turner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card record describes Jon Anthony Turner, a modern-day electrical engineer in New York (working with computers and avionics at ITT), while the Wikidata entry describes Francis Calcraft Turner, a British painter who lived from 1772 to 1846."
+    },
+    {
+      "qid": "Q23781446",
+      "label": "Turner Elson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Jon Anthony Turner vs. Turner Elson), and their occupations are completely unrelated: one is an electrical engineer and the other is a professional ice hockey player."
+    },
+    {
+      "qid": "Q23903019",
+      "label": "Daniel Turner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals from different centuries. The card data refers to Jon Anthony Turner, a modern electrical engineer working with computers and avionics in New York. The Wikidata entity refers to Daniel Turner, a British painter who lived from 1770 to 1820."
+    },
+    {
+      "qid": "Q27906654",
+      "label": "Turner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different individuals. The index card refers to Jon Anthony Turner, a male electrical engineer based in New York. The Wikidata entry refers to a female badminton player from Australia named Turner (likely J. Turner)."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q582418",
+      "label": "ITT Corporation",
+      "description": "American worldwide manufacturing company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "ITT Corporation is the standard name and successor for International Telephone and Telegraph. The Wikidata entity lists its headquarters in New York City, matching the location of the individual on the card, and its history as a major electronics and avionics manufacturer aligns with the employer and department listed."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Jon Anthony Turner (also known as Jon A. Turner) was an electrical engineer and later a prominent professor of Information Systems. During the late 1960s and early 1970s, he worked as an electrical engineer for International Telephone and Telegraph (ITT) in New York City. His technical expertise included data processing, information processing, systems analysis, simulation, and data display, particularly the ergonomics of visual display terminals (VDTs). He was associated with Experiments in Art and Technology (E.A.T.), a non-profit organization promoting collaborations between artists and engineers. Turner's work in telecommunications and information systems aligned with E.A.T.'s technical services, particularly projects involving telex and global communications networks such as 'Utopia: Q&A 1981' (1971), which utilized telex machines to connect participants in New York, Stockholm, Tokyo, and Ahmedabad. Turner transitioned to academia, earning a B.E. from Yale University in 1958 and a Ph.D. from Columbia University in 1980. He became a Professor of Information Systems at the New York University (NYU) Stern School of Business, where he authored numerous studies on the organizational impact of information technology and the efficiency of programming projects, including a significant study of 44 ITT programming projects.",
+        "sources": [
+          "https://www.researchgate.net/profile/Jon-Turner-11",
+          "https://experimentsinartandtechnology.org/telex-qa",
+          "https://www.nyu.edu/registrar/bulletins/stern/graduate/02-04/faculty.html",
+          "https://en.wikipedia.org/wiki/Experiments_in_Art_and_Technology",
+          "https://www.semanticscholar.org/paper/The-Relationship-between-Organization-Size-and-the-Turner/5f94957e878563725586617094e9960243670987"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Jon A. Turner\" Experiments in Art and Technology",
+        "\"Jon Anthony Turner\" ITT engineer",
+        "",
+        "",
+        "\"Jon Anthony Turner\" PhD dissertation Columbia",
+        "",
+        "\"Jon A. Turner\" ITT 1960s",
+        "\"Jon Anthony Turner\" Data Display engineer",
+        "\"Jon Anthony Turner\" E.A.T. engineer",
+        "\"Jon Anthony Turner\" Experiments in Art and Technology",
+        "",
+        "\"Jon Anthony Turner\" E.A.T. New York",
+        "",
+        "",
+        "\"Fourteen factors that influence the efficiency of programming projects\" ITT",
+        "\"Jon A. Turner\" Yale 1958 ITT",
+        "",
+        "\"Jon Anthony Turner\" E.A.T. archive",
+        "",
+        "\"Utopia Q&A\" E.A.T. engineers",
+        "\"John A. Gosden\" E.A.T. project"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFihdUeG2WuzZKyIZU0gzmJU6d6z1qlKJ_YCLt_rf10OteQDgxrEhmUPsA5EKSCUv6b0tHaVAGu9Ashn8AdbdJamFrALfv-AFsv9LU2fGirFPBcP_GDRtCw519EkxWI",
+          "title": "encyclopedia.pub",
+          "resolvedUri": "https://encyclopedia.pub/entry/38340"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELIxfWpm7FZNZL39NhOVacIddX7Kde5USaYPIhoo9aB7q9hx_MRExOxrKdoV7WXQl8nG5BNC4znXQpaMC9CxoWCuFFd0UtJX0PtetneU9rIHfctUQfX6B8Hikhrn0FiYXl1LVvqsWhzM725KupAgSRTn2hUT15EBIb",
+          "title": "wikipedia.org",
+          "resolvedUri": "https://en.wikipedia.org/wiki/Experiments_in_Art_and_Technology"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXuURWMXNRjNF43xttsh0kv0nLDQ3KD9KXvixY0Mg-MKaD87wZd9dUOINaqTco53NKedYkQBRA13z5qiP2wbqA5BSvxH6Amm1D56nEWh6ywOeYN2ZHw7KaWYBnLQRb9wKloG3tJMytFnWNQXjFpp8-T-UMioyKTcQzEhNYAUSsqCauUbl8yyMY-6_kdnvPbBVeNlE=",
+          "title": "nyu.edu",
+          "resolvedUri": "https://web-docs.stern.nyu.edu/old_web/aboutstern/publications/mba_bulletin2003-2004.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 509,
+            "endIndex": 657,
+            "text": "He was associated with Experiments in Art and Technology (E.A.T.), a non-profit organization promoting collaborations between artists and engineers."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 968,
+            "endIndex": 1090,
+            "text": "Turner transitioned to academia, earning a B.E. from Yale University in 1958 and a Ph.D. from Columbia University in 1980."
+          },
+          "groundingChunkIndices": [
+            2
+          ]
+        }
+      ]
+    }
   }
 }

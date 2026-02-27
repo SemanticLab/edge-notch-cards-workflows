@@ -15,5 +15,124 @@
     "technicalFields": [
       "Physics"
     ]
+  },
+  "wikidata_candidates": [],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1709596",
+      "label": "New York Institute of Technology",
+      "description": "private university in New York, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly. The card mentions the individual is a 'Physics major' at the organization, which perfectly aligns with the Wikidata entity being a university. Additionally, the residential location on the card (Williston Park, NY) is just a few miles away from the university's main campus in Old Westbury, NY."
+    },
+    {
+      "qid": "Q7013621",
+      "label": "New York Institute of Technology College of Osteopathic Medicine",
+      "description": "Medical school in New York, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is the College of Osteopathic Medicine (NYITCOM), which is a specific medical school within the New York Institute of Technology. The card refers to the parent organization (NYIT) as a whole, and the individual is a 'Physics major', which would not be part of a medical school."
+    },
+    {
+      "qid": "Q7013623",
+      "label": "New York Institute of Technology School of Management",
+      "description": "business school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the 'School of Management' within the New York Institute of Technology, whereas the card lists the 'New York Institute of Technology' as a whole. Additionally, the individual on the card is a 'Physics major', which would not be part of the School of Management."
+    },
+    {
+      "qid": "Q111490871",
+      "label": "New York Institute of Technology - Long Island Campus",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card lists 'New York Institute of Technology' and the person resides in Williston Park, NY. The Wikidata entity is the Long Island campus (Old Westbury) of the New York Institute of Technology, which is located in the immediate vicinity of the individual's residence and is the specific branch of the parent organization they would be affiliated with."
+    },
+    {
+      "qid": "Q16975046",
+      "label": "NYIT Bears",
+      "description": "former athletics program in the United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the athletic program (NYIT Bears) of the New York Institute of Technology, whereas the card refers to the educational institution itself. While related, they are distinct ontological entities."
+    },
+    {
+      "qid": "Q111491105",
+      "label": "New York Institute of Technology - Manhattan Campus",
+      "description": "Manhattan campus for NYIT",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The Wikidata entity (Q111491105) refers specifically to the Manhattan campus of the New York Institute of Technology, whereas the card lists the organization as the 'New York Institute of Technology' broadly. Additionally, the individual's residential address in Williston Park is significantly closer to the university's Long Island (Old Westbury) campus than the Manhattan campus, making this specific entity an unlikely direct match for the primary affiliation."
+    },
+    {
+      "qid": "Q111491425",
+      "label": "New York Institute of Technology College of Arts & Sciences",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the 'College of Arts & Sciences', which is a faculty or sub-unit of the 'New York Institute of Technology'. The card identifies the parent organization (the university) as the employer, not this specific sub-division."
+    },
+    {
+      "qid": "Q111491489",
+      "label": "New York Institute of Technology College of Engineering & Computer Sciences",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents a specific faculty (College of Engineering & Computer Sciences) within the New York Institute of Technology, whereas the card lists the university as a whole. Additionally, the individual on the card is a Physics major, a subject typically housed in a College of Arts and Sciences rather than the College of Engineering & Computer Sciences."
+    },
+    {
+      "qid": "Q111492005",
+      "label": "New York Institute of Technology School of Health Professions",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the School of Health Professions, which is a subdivision of the New York Institute of Technology. The card lists the parent organization (New York Institute of Technology). Additionally, the individual is a Physics major, which would not be part of the School of Health Professions."
+    },
+    {
+      "qid": "Q99475474",
+      "label": "New York Institute of Technology - Manhattan Campus Bookstore",
+      "description": "bookshop in New York, NY, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the New York Institute of Technology, which is a university where the individual is a physics major. The Wikidata entity refers specifically to the Manhattan Campus Bookstore, which is a retail shop within the university rather than the educational institution itself."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Andrew D. Plivka was a physicist and technical collaborator active in the late 1960s and early 1970s. During this period, he was a physics major at the New York Institute of Technology (NYIT) and resided in Williston Park, New York. Plivka was associated with Experiments in Art and Technology (E.A.T.), a non-profit organization established to foster collaborations between artists, engineers, and scientists. He was recorded in E.A.T.'s technical registry as a volunteer with expertise in physics. Prior to his collegiate studies, he graduated from Herricks High School in New Hyde Park/Williston Park, New York, in 1966. In his later life, Plivka relocated to Florida, where he resided in the Miami and Fort Lauderdale areas. In Florida, he was involved in real estate investment and served as the registered agent for a business named Yes We Do Windows, Inc. He was also an active member of SAGE of South Florida, an organization for LGBT seniors.",
+        "sources": [
+          "https://www.herrickshighschool.org/alumni/P.html",
+          "https://www.alumniclass.com/herricks-high-school-highlanders-ny/alumni-directory/p/",
+          "http://www.sagewebsite.org/Newsletters/SAGE_April_2020_Final.pdf",
+          "https://www.sunbiz.org/pdf/70105374.pdf",
+          "https://www.homes.com/property/1901-oak-cir-tavares-fl-32778/id-200007804473/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Andrew Plivka\" Williston Park New York",
+        "",
+        "\"Andrew Plivka\" New Hyde Park high school yearbook",
+        "",
+        "",
+        "\"Andrew Plivka\" E.A.T. membership list",
+        "",
+        "",
+        "\"Andrew D. Plivka\"",
+        "",
+        "",
+        "\"Andrew Plivka\" \"E.A.T.\" newsletter"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

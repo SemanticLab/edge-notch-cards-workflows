@@ -27,5 +27,83 @@
       "X-rays",
       "audio systems"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q75895331",
+      "label": "Sprott Boyd",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data describes a scientist active in the mid-to-late 20th century, mentioning technology such as lasers (invented in 1960) and programming. The Wikidata entity Sprott Boyd died in 1902, making it chronologically impossible for them to be the same person."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Dr. George F. Sprott (1940–2018) was a physicist and engineer who earned his Ph.D. in physics from Columbia University. During his doctoral studies, he was a member of the Columbia Radiation Laboratory, where he conducted research in atomic physics, including studies on the lifetime of atomic states. He was active in the late 1960s and early 1970s and was associated with the nonprofit organization Experiments in Art and Technology (E.A.T.), which fostered collaborations between the scientific and artistic communities. His technical expertise, as documented on his E.A.T. professional index card, spanned a wide range of fields including mathematics, atomic physics, computers, cybernetics, programming, fluorescence, optics, spectroscopy, color theory, light, lasers, X-rays, and audio systems. Following his time at Columbia, Sprott completed a four-year post-doctoral fellowship at the Massachusetts Institute of Technology (MIT), where he focused on X-ray astronomy and was involved in the launch and data analysis of the OSO-7 satellite. He later enjoyed a long and successful career in the computer and instrumentation industry, most notably at General Radio (later GenRad) in Concord, Massachusetts, where he served in management roles and contributed to the development of technical standards such as the IEEE ATLAS test language.",
+        "sources": [
+          "https://www.legacy.com/us/obituaries/concordjournal/name/george-sprott-obituary?id=1626079",
+          "https://www.semanticscholar.org/paper/Extended-X-ray-and-radio-observations-of-Scorpius-Schnopper-Sprott/191b48b64e0306126607e15e8654c5e3d937084c",
+          "https://ieeexplore.ieee.org/document/26607",
+          "https://www.wisc.edu/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"George F. Sprott\" physicist",
+        "\"George F. Sprott\" PhD Columbia University",
+        "\"George F. Sprott\" E.A.T.",
+        "",
+        "\"George F. Sprott\" E.A.T. artist collaboration",
+        "",
+        "\"George F. Sprott\" E.A.T. archive",
+        "",
+        "\"George F. Sprott\" E.A.T. technical consultant",
+        "",
+        "\"George F. Sprott\" General Radio GenRad biography",
+        "\"George F. Sprott\" E.A.T. technical services",
+        "George F. Sprott \"Columbia University\" dissertation"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJ3qz0pPVVzUi2MtoAKxteuz0E7fgbZDbaN9ESNxCbPO70HgYQ_KORR079TV8GdZXtG90i6tTnAnQPlmtCRW6iEUMIZbrbTyI3n4oLyRCr-chzQof2EVR4cVncNecCTM_A7lAz16h7Va--v7rqnyMiRQSnN6fKPxfXZ0Q2JM2I3XDsdqLVBavNi3xTEYxrLSMt8n7_onvkIyg-kLSu4n5LKg==",
+          "title": "legacy.com",
+          "resolvedUri": "https://www.legacy.com/us/obituaries/wickedlocal-concordjournal/name/george-sprott-obituary?id=9328588"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGELNzxKhuTfo9vq0mcu_JWC34Besl4C9OZCCccuyKiTvjRyYWNYKJdCsSXxQIJzLEYBoY2zlicnn8OI_qaau8eWlv4DROGHZxgw3EKEcrBdCknCyEDSd8aQ815Dfff67j0l9j__tCMM0Ld65hQ",
+          "title": "sprott.com",
+          "resolvedUri": "https://sprott.com/media/z5wdlv2z/sii-2025-mic.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 165,
+            "text": "{\n \"results\": [\n  {\n   \"possibleIdentity\": \"Dr. George F. Sprott (1940–2018) was a physicist and engineer who earned his Ph.D. in physics from Columbia University."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1094,
+            "endIndex": 1780,
+            "text": "He later enjoyed a long and successful career in the computer and instrumentation industry, most notably at General Radio (later GenRad) in Concord, Massachusetts, where he served in management roles and contributed to the development of technical standards such as the IEEE ATLAS test language.\",\n   \"sources\": [\n    \"https://www.legacy.com/us/obituaries/concordjournal/name/george-sprott-obituary?id=1626079\",\n    \"https://www.semanticscholar.org/paper/Extended-X-ray-and-radio-observations-of-Scorpius-Schnopper-Sprott/191b48b64e0306126607e15e8654c5e3d937084c\",\n    \"https://ieeexplore.ieee.org/document/26607\",\n    \"https://www.wisc.edu/\"\n   ],\n   \"accuracyLevel\": \"normal\"\n  }\n ]\n}"
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

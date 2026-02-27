@@ -16,5 +16,72 @@
       "data processing"
     ],
     "specializedSkillsKnowledge": "three years of general data processing"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q23209",
+      "label": "Alban Berg",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names 'Richard Alba' and 'Alban Berg' are distinct. Furthermore, the first record describes a computer professional working at Columbia University, while the second record (linked to Wikidata Q78475) refers to the famous Austrian composer Alban Berg."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q16002370",
+      "label": "Richard Alba",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records share the same name (Richard Alba) and are centered on New York City and Columbia University. The address on the card (629 West 115th Street) is directly adjacent to the Columbia University campus. While the Wikidata record identifies him as a sociologist/demographer and the card identifies him as a data processor at the Columbia University Computer Centre, these are highly consistent: Richard Alba earned his PhD from Columbia in 1974 and is a quantitative sociologist whose early career would have involved the technical data processing skills described on the card."
+    },
+    {
+      "qid": "Q27517447",
+      "label": "Richard Albano",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Richard Alba, a computer graphics and data processing professional at Columbia University in New York. The Wikidata entry (Q27517447) refers to Richard Albano, a Filipino police officer and military general educated in the Philippines. Their names, professions, and geographical locations are not compatible."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Richard Alba (Richard D. Alba, 1942–2025) was an American sociologist and demographer who began his career in the technical and computing fields in New York City. During the late 1960s and early 1970s, he was a senior staff member and computer programmer at the Columbia University Computer Center and the Bureau of Applied Social Research. His technical work focused on data processing and the development of algorithms for social network analysis (sociometry). He served as the chief programmer for projects involving the identification of sociometric cliques and developed software, such as the programs CHUN and CLIQUE, to generate sociograms—a pioneering form of computer-generated graphics used to visualize social networks. This technical background at Columbia University led to his association with the Experiments in Art and Technology (E.A.T.) organization, which promoted collaborations between technical professionals and artists. Alba earned his Ph.D. from Columbia University in 1974 and eventually became a Distinguished Professor at the City University of New York (CUNY) Graduate Center and the University at Albany, SUNY. He was a member of the National Academy of Sciences and is widely recognized for his theories on immigrant assimilation.",
+        "sources": [
+          "https://www.gc.cuny.edu/people/richard-alba",
+          "https://eric.ed.gov/?id=ED066446",
+          "https://www.tandfonline.com/doi/full/10.1080/01419870.2023.2269389",
+          "https://www.researchgate.net/publication/249112999_A_graph-theoretic_definition_of_a_sociometric_clique",
+          "https://en.wikipedia.org/wiki/Richard_Alba"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Richard Alba Columbia University Computer Centre",
+        "\"Richard Alba\" Experiments in Art and Technology",
+        "\"Richard Alba\" computer graphics E.A.T.",
+        "\"Richard Alba\" New York computer graphics 1960s 1970s",
+        "\"Richard Alba\" computer graphics 1968 1969 1970 1971",
+        "\"Richard Alba\" computer graphics Columbia University",
+        "\"Richard Alba\" E.A.T. engineer",
+        "\"Richard Alba\" Experiments in Art and Technology E.A.T.",
+        "\"Richard Alba\" Experiments in Art and Technology member",
+        "\"Richard Alba\" E.A.T. directory",
+        "\"Richard Alba\" Columbia University Computer Center graphics",
+        "\"Richard Alba\" computer graphics E.A.T. 1968 1969 1970 1971",
+        "\"Richard Alba\" E.A.T. Experiments in Art and Technology",
+        "\"Richard Alba\" Getty Research Institute E.A.T.",
+        "\"Richard Alba\" computer graphics E.A.T. project",
+        "\"Richard Alba\" E.A.T. artist engineer collaboration",
+        "\"Richard Alba\" Experiments in Art and Technology membership index card"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

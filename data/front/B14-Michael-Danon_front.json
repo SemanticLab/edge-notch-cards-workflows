@@ -18,5 +18,77 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art, sculpture"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q33101950",
+      "label": "Michaël Danon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes a professional established in New York City (Mechanical Engineering/Architecture) likely in the mid-20th century, as indicated by the 'PLaza' alphanumeric phone exchange. The Wikidata entity was born in 1959 in France, which would make him a child during the era of the index card and suggests a different geographical and professional background."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Michael Danon (born c. 1937–1938) is an engineer and industrialist associated with Automatic Steam Products Corporation and Experiments in Art and Technology (E.A.T.). Born in Zagreb, Croatia, to a Sephardic Jewish family, he became a refugee during the Nazi occupation, eventually settling in Long Beach, New York. He graduated from the Stevens Institute of Technology in 1960 with a background in mechanical engineering. Professionally, Danon was a key figure at Automatic Steam Products Corporation (later known as Sussman-Automatic Corp.), located at 3 West 61st Street in New York City. The company specialized in the manufacturing of steam generators, industrial boilers, and water demineralizers, such as the 'Midget Aqualab.' In the late 1960s and early 1970s, Danon was active in technical fields spanning mechanical engineering and architecture, and he was part of the collaborative movement between the arts and sciences facilitated by Experiments in Art and Technology (E.A.T.). In his later years, he has been recognized as a donor to his alma mater, Stevens Institute of Technology, and has been involved with the Jasenovac Research Institute in New York.",
+        "sources": [
+          "https://www.stevens.edu",
+          "https://www.slideshare.net/PatrickABerzinski/record-of-philanthropy-2005",
+          "https://archive.org/details/manualofmodernph0000wind",
+          "https://www.scribd.com/document/9623835/Research-Institute-Quaterly-Vol-I-Nr-3-New-York-Winter-Spring-2006",
+          "https://www.westsiderag.com/2019/07/26/big-nick-imirziades-a-fixture-on-the-uws-for-five-decades-dies-in-greece"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Michael Danon \"Experiments in Art and Technology\"",
+        "\"Michael Danon\" mechanical engineer architecture",
+        "\"Michael Danon\" engineer New York 1960s 1970s",
+        "\"Michael Danon\" 3 West 61st Street New York",
+        "",
+        "\"Michael Danon\" Stevens Institute of Technology 1960",
+        "\"Michael Danon\" architect mechanical engineer New York",
+        "\"Automatic Steam Products\" 3 West 61st Street New York history",
+        "",
+        "\"Automatic Steam Products\" E.A.T. collaboration",
+        "\"Michael Danon\" architecture engineer New York 1960s",
+        "",
+        "\"Michael Danon\" \"E.A.T.\" collaborator",
+        "\"Michael Danon\" architect NYC late 1960s",
+        "\"Automatic Steam Products\" history 3 West 61st St New York",
+        "",
+        "\"Michael Danon\" architect architecture NYC 1970s",
+        "\"Michael Danon\" E.A.T. engineer artist collaboration",
+        "\"Michael Danon\" architecture engineering E.A.T.",
+        "",
+        "\"Michael Danon\" architecture E.A.T. project"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK62g0GgDsBA5a88HL4LDL6V7ZsvHCrAq-3iOBSQj-HHFB4lFPvczppEdrvpWjLHldTzx5m7_BvAO5snY2aigN_y124NTRQ6sXnD4cd0MSmKjAt_WmpB27Y8JDLVWKSXvyi4FWMj5Hr6WbS30GzPTCc-yFQ4mcrpD7qJaAH28swtGNv-MVCARD172my3KJLki81b1CSI0=",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/TheManualOfModernPhotographyTheTechnique/windisch_small_djvu.txt"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 644,
+            "endIndex": 785,
+            "text": "The company specialized in the manufacturing of steam generators, industrial boilers, and water demineralizers, such as the 'Midget Aqualab.'"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

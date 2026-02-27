@@ -20,5 +20,69 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "music, poetry",
     "aestheticPhilosophicalInterests": "programming performing constructions, automated architecture"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q45841521",
+      "label": "Herbert G. Bohnert",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records share the identical and relatively unique name 'Herbert G. Bohnert'. The expertise listed on the card (linguist, computer languages) aligns perfectly with the Wikidata profile of a philosopher of language and logician influenced by Carnap and Tarski. Historically, Herbert G. Bohnert was a researcher at IBM Yorktown Heights who worked on formal languages and logic before moving into academia (Michigan State University), which explains the overlap in locations and occupations."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Herbert Gaylord Bohnert (1918–1984) was an American analytic philosopher, logician, and computer scientist who worked at the IBM Thomas J. Watson Research Center in Yorktown Heights, New York, during the 1960s. He earned his PhD from the University of Pennsylvania in 1961 under Nelson Goodman, focusing on 'Ramsey sentences' and the interpretation of scientific theories. At IBM, Bohnert served as a computer programmer and linguist, leading research on natural language processing (NLP) through Project LOGOS (Logical Optimization of Grammar for Organized Systems). His work focused on the 'Logic of English grammar' and creating algorithms for the automatic translation of natural language into formal logical notation. In 1969, he transitioned to academia, becoming a Professor of Philosophy at Michigan State University, where he taught until his retirement in 1982. He was a significant figure in the history of analytic philosophy, particularly for his defense of Carnapian views and his contributions to the logic of grammar, which intersected with early computer science and information retrieval. His location in the late 1960s was Yorktown Heights and the nearby town of Mount Kisco, New York.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Herbert_G._Bohnert",
+          "https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/herbert-g-bohnert-and-paul-d-backer-automatic-englishtologic-translation-in-a-simplified-model-a-study-in-the-logic-of-grammar-computers-in-language-research-formal-methods-edited-by-walter-a-sedelow-jr-and-sally-yeates-sedelow-trends-in-linguistics-studies-and-monographs-no-5-mouton-publishers-the-hague-paris-and-new-york-1979-pp-165223-a-preface-notes-that-the-article-was-originally-issued-in-1967-as-a-research-paper-by-the-ibm-watson-research-center/96A1359D90D90D4D3A1B3097C236E08D",
+          "https://www.researchgate.net/publication/383188582_Herbert_G_Bohnert_The_Last_Carnapian",
+          "https://dblp.org/pid/110/5078.html",
+          "https://msu.edu/unit/facultysenate/Archive/Trustees/1972/06-23-72.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Herbert G. Bohnert\" IBM Research",
+        "\"H. G. Bohnert\" linguistics IBM",
+        "\"H. G. Bohnert\" computer languages linguist",
+        "\"H. G. Bohnert\" IBM Research",
+        "\"Herbert G. Bohnert\" Experiments in Art and Technology",
+        "\"Herbert Bohnert\" artist engineer collaboration",
+        "\"Herbert Bohnert\" E.A.T. IBM"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENrcTQ8VZeis6WIcP18csPFUm7C0RdWvUEGTNLd4ZPWuAZOz1hER4GlSXlY5adLd846cFytzsAGpWY3XRvYfjo082Vo1SC1fEgAEX5XQAK6E4h0hReBfmSp1Kr7PKwkWVixM2v28NApwo3rWY=",
+          "title": "utah.edu",
+          "resolvedUri": "http://ftp.math.utah.edu/pub/tex/bib/cacm1960.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHn6OAF5FGFB3k7usuk2DTPejlcPNF04x5voRta637R0NOQu5icDTbmI_u8vz7Lb8z0IiuuXMFdH5OTAJo5Xx3J8qwRjltRSY8yYZOajWerU4JGezb-rBcROveCwjzRaIW5j1P3L_wgwA4S54NMKU0kzhO4OcCcdalpxtTileUpAE7FCQ==",
+          "title": "worrydream.com",
+          "resolvedUri": "https://worrydream.com/refs/Licklider_1965_-_Libraries_of_the_Future.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 262,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Herbert Gaylord Bohnert (1918–1984) was an American analytic philosopher, logician, and computer scientist who worked at the IBM Thomas J. Watson Research Center in Yorktown Heights, New York, during the 1960s."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
   }
 }

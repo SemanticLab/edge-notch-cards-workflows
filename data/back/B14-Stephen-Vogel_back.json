@@ -10,6 +10,95 @@
         "y1": 11.3,
         "x2": 42.1,
         "y2": 18.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q94618119",
+          "label": "Herb Rogalla",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Herb Rogalla' is an exact match and relatively unique. The birth year of 1925 in the Wikidata entry aligns perfectly with a person active as an artist in the late 1960s (at age 44), matching the card's 1969 date."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Herb Rogalla (1925–2006) was a prominent American painter, sculptor, and educator primarily active in Dallas, Texas, from the 1950s through the 1990s. He earned his BFA in sculpture from Southern Methodist University and also studied at Columbia University and under the influential artist Hans Hofmann. Rogalla was a central figure in the experimental Dallas art scene of the 1960s and 1970s, frequently associated with the Dallas Museum for Contemporary Arts (DMCA) and its director Douglas MacAgy. He was part of a collaborative circle of artists that included David McManaway, Roy Fridge, Jim Love, and Roger Winter, a group characterized by their \"craftsman\" work ethic and exploration of innovative materials and techniques. Rogalla is noted for having \"produced\" the collaborative catalog for the group's 1971 memorializing exhibition, \"One i at a Time.\" His association with Experiments in Art and Technology (E.A.T.) is supported by his involvement in this avant-garde circle and his work with MacAgy, who curated E.A.T.-related projects like the \"Some More Beginnings\" exhibition in 1968. Beyond his studio practice, Rogalla had a long career as an educator, serving as the Head of Fine Arts at St. Mark's School of Texas for 28 years until his retirement in 1994. His public works in Dallas include the sculpture series \"A Celebration of Water.\"",
+            "sources": [
+              "https://www.dallasnews.com/obituaries/2006/01/29/herbert-rogalla-obituary/",
+              "https://www.herbrogallaart.com/about",
+              "https://www.tshaonline.org/handbook/entries/dallas-museum-for-contemporary-arts",
+              "https://dma.org/sites/default/files/publication/pdf/DallasSITES_Essays_6_Kutner.pdf",
+              "https://publicartarchive.org/artwork/a-celebration-of-water-ii"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Herbert Rogalla\" artist",
+            "\"Herb Rogalla\" artist",
+            "\"Herb Rogalla\" Some More Beginnings",
+            "\"Herb Rogalla\" Pepsi Pavilion",
+            "",
+            "\"Herb Rogalla\" artist 1960s 1970s \"E.A.T.\"",
+            "\"Herb Rogalla\" E.A.T. archive",
+            "\"Herb Rogalla\" Brooklyn Museum 1968",
+            "",
+            "\"Herb Rogalla\" engineer Dallas",
+            "\"Herb Rogalla\" Pepsi Pavilion collaborator",
+            "\"Herb Rogalla\" E.A.T. member",
+            " \"Herb Rogalla\"",
+            "\"Herb Rogalla\" Experiments in Art and Technology collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET02bgzY940kBBcrQIfyOxhPqayUy-Gj0uQ30kNARV1F2sSqvHmZYZNm2vZFQzMQulolqSLCkCEW9BUIriMkuSYv3FT_JtLWQ-QzKAU9QphGi5FvoJsd1fkQ==",
+              "title": "herbrogallaart.com",
+              "resolvedUri": "https://www.herbrogallaart.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ-3W5Q5zHCKRXEMR7q_zdxLI7dkOrHjYaSd01oSx3ITBXF2ZaG3JijoxWAH9bqeEtrHVlOnWHv8IuF_DI7-y-hBmWdN30Bt4iJDGBe3tHHHB6iBqcdoQG_TsyrOY8IEKJ5jq-aCpon_7mvSwrU5C0ymnJPKEoj8vR4PJcSPWX8V9z4wvyIUkFDw==",
+              "title": "tshaonline.org",
+              "resolvedUri": "https://www.tshaonline.org/handbook/entries/dallas-museum-for-contemporary-arts"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdEkq3UWzlk8XusLuW8ButcwqnpDELK2OpGt_-LDEI57cob6sXdUPS6J4mLtKmqfH-nwGjlKmZxvV36aWalr3rfV5hIgXC0sAg67M6s3O4ai_outnheZc=",
+              "title": "dma.org",
+              "resolvedUri": "https://blog.dma.org/2015/03/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2BSOvs-6C9x2-Z0k6fzKEhDBk0js-vZNxAI6bILw7goYXv9DhDu9Ulvx2v4YFfG8key8ZoprJnV-2F8DSDWSGMAwTtIhJ_SYftm_ve3QIQKF0u4t0YsAqh18TvjRn5qJWpw8TJF69NVbSsps=",
+              "title": "publicartarchive.org",
+              "resolvedUri": "https://publicartarchive.org/artist/Herb%20Rogalla"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 202,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Herb Rogalla (1925–2006) was a prominent American painter, sculptor, and educator primarily active in Dallas, Texas, from the 1950s through the 1990s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1335,
+                "endIndex": 1885,
+                "text": "His public works in Dallas include the sculpture series \\\"A Celebration of Water.\\\"\",\n      \"sources\": [\n        \"https://www.dallasnews.com/obituaries/2006/01/29/herbert-rogalla-obituary/\",\n        \"https://www.herbrogallaart.com/about\",\n        \"https://www.tshaonline.org/handbook/entries/dallas-museum-for-contemporary-arts\",\n        \"https://dma.org/sites/default/files/publication/pdf/DallasSITES_Essays_6_Kutner.pdf\",\n        \"https://publicartarchive.org/artwork/a-celebration-of-water-ii\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +111,121 @@
         "y1": 16.3,
         "x2": 35.1,
         "y2": 36.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q41674216",
+          "label": "Daniel R. Weinberger",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a prominent psychiatrist and neuroscientist (Daniel R. Weinberger), which does not align with the provided context that the person on the card is an artist. Although the name 'D. Weinberger' matches and the age profile is plausible (born 1947), their career path is strictly medical and scientific."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Daniel von Weinberger (also known as Daniël Weinberger, born 1950) is a Belgian multimedia artist, jeweler, and teacher based in Antwerp. He was active in the experimental art scene during the late 1960s and early 1970s, studying at the Royal Academy of Fine Arts Antwerp from 1965 to 1972. Weinberger is particularly noted for his early involvement in video and performance art; in 1971, he participated in \"Propositions d'artistes pour un circuit fermé de télévision,\" the first video art event in Belgium. One of his notable performances during this period involved a bodybuilding act where, instead of weights, he lifted television monitors displaying his own image. His work, which explores the \"utopian potential\" of emerging media, is archived and preserved by the Argos Centre for Audiovisual Arts. In addition to his performance work, he is an accomplished jeweler known for avant-garde, narrative pieces that combine fine art and fashion.",
+            "sources": [
+              "https://www.argosarts.org/en/collections/1970s",
+              "https://danielvonweinberger.weebly.com/1950-1970.html",
+              "https://www.mas.be/en/content/jan-cox-and-daniel-von-weinberger",
+              "https://www.jackcunningham.co.uk/Daniel-von-Weinberger"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"D. Weinberger\" artist \"Experiments in Art and Technology\"",
+            "\"D. Weinberger\" artist 1960s 1970s",
+            "\"D. Weinberger\" artist E.A.T.",
+            "\"Daniel Weinberger\" artist E.A.T.",
+            "\"Dan Weinberger\" artist E.A.T.",
+            "\"Dorothy Weinberger\" artist E.A.T.",
+            "\"David Weinberger\" artist E.A.T.",
+            "\"Douglas Weinberger\" artist",
+            "\"Donald Weinberger\" artist",
+            "\"D. Weinberger\" \"Experiments in Art and Technology\"",
+            "\"D. Weinberger\" artist exhibition 1968 1969 1970",
+            "\"Daniel Weinberger\" artist E.A.T.",
+            "\"D. Weinberger\" E.A.T. membership list",
+            "\"Dan Weinberger\" artist E.A.T. membership",
+            "\"D. Weinberger\" \"Experiments in Art and Technology\" member",
+            "\"David Weinberger\" artist 1970",
+            "\"Daniel Weinberger\" artist 1970",
+            "\"D. Weinberger\" artist 1968 1969 1970 exhibition",
+            "\"D. Weinberger\" \"E.A.T.\" archive",
+            "\"Dorothy Weinberger\" artist 1970",
+            "\"Donald Weinberger\" artist E.A.T. membership",
+            "\"Daniel Von Weinberger\" artist E.A.T.",
+            "\"Dan Weinberger\" artist performance 1960s 1970s",
+            "\"D. Weinberger\" Experiments in Art and Technology membership",
+            "\"Daniel Weinberger\" artist E.A.T. member",
+            "\"Daniël Weinberger\" artist E.A.T.",
+            "",
+            "\"D. Weinberger\" artist exhibition New York 1970",
+            "\"D. Weinberger\" E.A.T. \"Experiments in Art and Technology\"",
+            "\"David Weinberger\" E.A.T. membership",
+            "\"Dan Weinberger\" E.A.T. engineer",
+            "\"D. Weinberger\" artist Guggenheim 1970",
+            " \"Weinberger\"",
+            "\"Dan Weinberger\" artist 1960s E.A.T.",
+            "\"David Weinberger\" artist 1960s E.A.T.",
+            "\"Donald Weinberger\" artist 1960s E.A.T.",
+            "\"Daniel Weinberger\" artist 1960s E.A.T.",
+            "\"D. Weinberger\" artist Experiments in Art and Technology list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5tJUgGplypmn3IaNVVdj7cqPjf6dPnNsjj46o9rwSCjUg79vtKD6QJVb-iSbKqQCoNl7Dl_fpfkxcS9lYO5Zhft0OBzXJBqHyAFneEF8e3TKAkxOarRSH8_mA-622Gj3pNBt7m2aksXZm0X2ZJ7TA-Yhd41oekxRxHXt_2xsbarwL",
+              "title": "lafayette.edu",
+              "resolvedUri": "https://archives.lafayette.edu/wp-content/uploads/2016/01/gaertner_0.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 188,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Daniel von Weinberger (also known as Daniël Weinberger, born 1950) is a Belgian multimedia artist, jeweler, and teacher based in Antwerp."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 342,
+                "endIndex": 564,
+                "text": "Weinberger is particularly noted for his early involvement in video and performance art; in 1971, he participated in \\\"Propositions d'artistes pour un circuit fermé de télévision,\\\" the first video art event in Belgium."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 565,
+                "endIndex": 726,
+                "text": "One of his notable performances during this period involved a bodybuilding act where, instead of weights, he lifted television monitors displaying his own image."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 865,
+                "endIndex": 1343,
+                "text": "In addition to his performance work, he is an accomplished jeweler known for avant-garde, narrative pieces that combine fine art and fashion.\",\n      \"sources\": [\n        \"https://www.argosarts.org/en/collections/1970s\",\n        \"https://danielvonweinberger.weebly.com/1950-1970.html\",\n        \"https://www.mas.be/en/content/jan-cox-and-daniel-von-weinberger\",\n        \"https://www.jackcunningham.co.uk/Daniel-von-Weinberger\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -34,6 +238,225 @@
         "y1": 25.5,
         "x2": 29.6,
         "y2": 34.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q22337",
+          "label": "Berkeley Heights (N.J.)",
+          "description": "township in Union County, New Jersey",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named B Berke, while the Wikibase entity describes a geographic location (Berkeley Heights, New Jersey). These are fundamentally different types of entities."
+        },
+        {
+          "qid": "Q27064",
+          "label": "Berkeley Unified School District",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual (B Berke), likely an artist, while the Wikibase entity describes an institution (Berkeley Unified School District). These are entirely different types of entities."
+        },
+        {
+          "qid": "Q19176",
+          "label": "Berkeley Heights School",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an individual named B Berke, whereas the Wikibase entity describes a school (Berkeley Heights School). A person and an institution are not the same entity."
+        },
+        {
+          "qid": "Q27066",
+          "label": "Berkeley (C.A.)",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual (likely a person named B Berke), while the Wikibase entity describes the city of Berkeley, California."
+        },
+        {
+          "qid": "Q27647",
+          "label": "Berkeley St. Church",
+          "description": "1861-1892 church",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The index card describes a person (likely an artist), while the Wikibase entity describes a 19th-century church building (Berkeley St. Church) that existed from 1861 to 1892. These are fundamentally different entity types."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q126264",
+          "label": "Berkeley L. Bunker",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry identifies an individual named B Berke who is known to be an artist. The Wikidata entity, Berkeley L. Bunker, was a prominent American politician (Senator and Representative) and a priest. Beyond the name mismatch (Berke vs. Bunker), the professional backgrounds are entirely different."
+        },
+        {
+          "qid": "Q314056",
+          "label": "Berke",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Berke Khan, a 13th-century ruler of the Golden Horde who died in 1266. This is chronologically incompatible with the card entry, which refers to a person likely active in the mid-20th century (1960s-70s) and associated with the arts."
+        },
+        {
+          "qid": "Q576025",
+          "label": "Gerrit Adriaenszoon Berckheyde",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Gerrit Adriaenszoon Berckheyde, a Dutch Golden Age painter who lived in the 17th century (1638-1698). This is incompatible with the context that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q711737",
+          "label": "Nicolaes Pieterszoon Berchem",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Nicolaes Pieterszoon Berchem was a 17th-century Dutch Baroque painter who lived from approximately 1620 to 1683. The context provided for the card entry states that the individual was an artist active in the late 1960s and early 1970s, creating a chronological impossibility for them to be the same person."
+        },
+        {
+          "qid": "Q2522381",
+          "label": "Edwy Searles Brooks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Edwy Searles Brooks) died in 1965, which contradicts the provided context that the person on the card was active during the late 1960s and early 1970s. Furthermore, while Brooks had the given name 'Berkeley', there is no strong evidence connecting him to the name 'B Berke' in a professional artistic capacity during that later period."
+        },
+        {
+          "qid": "Q4892066",
+          "label": "Berkeley Moynihan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity, Berkeley Moynihan, was a British surgeon and politician who died in 1936. This contradicts the provided context that the person on the card was an artist active in the late 1960s and early 1970s. Furthermore, the name 'B Berke' on the card does not align well with 'Berkeley Moynihan'."
+        },
+        {
+          "qid": "Q30111941",
+          "label": "Berke Özer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Berke Özer) was born in 2000, making it impossible for him to be the person from the card, who was active in the late 1960s/early 1970s. Additionally, the Wikidata entity is an athlete, whereas the card refers to an artist."
+        },
+        {
+          "qid": "Q57756911",
+          "label": "Berker Bilgin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named B Berke, likely an artist active in the 1960s or 70s. The Wikidata entity, Berker Bilgin, is a contemporary Turkish electrical engineer and academic whose research focuses on power electronics and electric motors. These are distinct individuals with different professional backgrounds and likely different time periods of activity."
+        },
+        {
+          "qid": "Q61433553",
+          "label": "Berker İnanoğlu",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name on the card, 'B Berke', suggests a person whose surname is Berke. In contrast, the Wikidata entity Berker İnanođlu has the given name Berker and the surname İnanođlu. It is unlikely that someone would be indexed as 'B Berke' if their last name was İnanođlu."
+        },
+        {
+          "qid": "Q88613490",
+          "label": "Berker Nacak",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'B Berke' on the card does not align well with 'Berker Nacak'. Furthermore, the Wikidata entity describes a Turkish researcher and academic associated with universities established in the 21st century (e.g., Uşak University, founded in 2006), which makes it highly improbable that they were an artist active in the late 1960s or early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bradley Berke is a theorist and artist who was active in the late 1960s and 1970s, specifically associated with the intersection of art, technology, and linguistics. He is best known for his work in structuralism and generative theory, applying the concepts of generative grammar (pioneered by Noam Chomsky) to the analysis of artistic texts and myths. In 1971, he was associated with Experiments in Art and Technology (E.A.T.) and participated in their project 'Utopia Q&A' (also known as 'Telex: Q&A'), a pioneering telecommunications art project that used Telex to exchange questions and answers about the future among participants in New York, Stockholm, Tokyo, and Ahmedabad. His scholarly contributions include 'A Generative View of Mimesis' (published in 'Poetics', 1978) and the book 'Tragic Thought and the Grammar of Tragic Myth' (1982), which explored the formal structures of drama and myth through a structuralist lens. His work aligns with the E.A.T. mission of fostering collaborations between artists, engineers, and scientists by utilizing scientific methodologies (linguistics and systems theory) to investigate the nature of art.",
+            "sources": [
+              "https://www.researchgate.net/publication/249339308_A_generative_view_of_mimemis",
+              "https://www.scribd.com/document/422247659/Tragic-Eikonografy-A-Conceptual-History-pdf",
+              "https://www.ebay.com/itm/334954610463",
+              "https://ddd.uab.cat/pub/tesis/2019/hdl_10803_668045/mrp1de1.pdf",
+              "https://dokumen.pub/international-relations-narratives-plotting-world-politics-new-international-relations-1-ed-0367027992-9780367027995-9780429397721.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"B Berke\" artist 1960s 1970s",
+            "\"B Berke\" artist Experiments in Art and Technology",
+            "\"B Berke\" E.A.T. artist",
+            "\"Experiments in Art and Technology\" directory \"Berke\"",
+            "\"B. Berke\" Experiments in Art and Technology",
+            "\"B Berke\" E.A.T. collaboration",
+            "\"Barbara Berke\" artist 1960s 1970s",
+            "\"B Berke\" artist 1960s",
+            "\"B Berke\" list of E.A.T. members",
+            "",
+            "\"B Berke\" artist biography 1970s",
+            "\"B. Berke\" E.A.T. membership",
+            "\"B. Berke\" artist New York 1960s",
+            "",
+            "\"B. Berke\" \"E.A.T.\" artist",
+            "\"B Berke\" engineer E.A.T.",
+            "\"Bradley Berke\" artist",
+            "\"Bradley Berke\" Experiments in Art and Technology",
+            "\"Barbara Berke\" artist E.A.T.",
+            "\"Bill Berke\" artist E.A.T.",
+            "\"Bernard Berke\" artist E.A.T.",
+            "\"B. Berke\" artist 1960s E.A.T.",
+            "\"Bill Berke\" E.A.T.",
+            " \"Berke\"",
+            " \"Experiments in Art and Technology\" \"Berke\"",
+            "\"Barbara Berke\" E.A.T.",
+            "\"B. Berke\" artist 1960s 1970s E.A.T. member",
+            "\"Bernard Berke\" E.A.T.",
+            "",
+            "\"B Berke\" artist E.A.T. member list",
+            "\"Berke\" Experiments in Art and Technology participant",
+            "\"B. Berke\" 1960s artist New York",
+            "\"Barry Berke\" Experiments in Art and Technology",
+            "\"Barry Berke\" artist 1960s 1970s",
+            "\"Bernie Berke\" artist",
+            "\"Bradley Berke\" art and technology",
+            "\"Barney Berke\" artist",
+            "\"Berke\" participant 9 Evenings",
+            "\"B. Berke\" artist technology 1970",
+            " \"Berke\"",
+            "\"B Berke\" visual artist 1960s 1970s",
+            "\"B. Berke\" artist 1968 1969 1970 1971 1972",
+            "\"B. Berke\" collaborative art project 1960s",
+            "\"B. Berke\" sound artist 1970s",
+            "",
+            "\"Bradley Berke\" artist 1960s 1970s New York",
+            "\"B. Berke\" E.A.T. participant Osaka team",
+            "",
+            "\"B. Berke\" Experiments in Art and Technology 1968 exhibition",
+            "\"Bradley Berke\" artist late 1960s",
+            "\"B Berke\" Brooklyn Museum 1968",
+            "",
+            "\"Bradley Berke\" Brooklyn Museum E.A.T.",
+            "\"B. Berke\" Experiments in Art and Technology list",
+            "\"B. Berke\" artist linguistics 1968",
+            "\"Bradley Berke\" Experiments in Art and Technology 1968",
+            " \"Berke\" list",
+            "\"Berke\" Experiments in Art and Technology member directory",
+            "\"B. Berke\" Experiments in Art and Technology participants",
+            "\"Bradley Berke\" artist 1960s E.A.T.",
+            "\"B. Berke\" some more beginnings exhibition",
+            "\"B. Berke\" artist telex 1971",
+            "\"B. Berke\" E.A.T. 1971",
+            "\"Bradley Berke\" Experiments in Art and Technology Utopia Q&A",
+            "\"Bradley Berke\" artist collaborator E.A.T.",
+            "\"Berke\" Bell Labs engineer 1960s",
+            "\"B. Berke\" artist 1960s E.A.T. member list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg8YLHibEBu9l-FMenntHMXJR4h58NiNP88Sq5NcUknXWtXqqPgRckf4qlv5YiWJn-LAUL5Eqq1Gm-MU1lIuIXYIpASvDqFnC7xDb4SCtWDthGH5aHvYLGj52iugrzbn36s_7fR6TQp3aCUyu-gk6lyGqxua3IBm4aM7sfPf6apVRMfjw=",
+              "title": "b-cdn.net",
+              "resolvedUri": "https://tamucoa.b-cdn.net/app/uploads/2021/10/CHSD_5-year_Report_2018.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1015,
+                "endIndex": 1750,
+                "text": "mission of fostering collaborations between artists, engineers, and scientists by utilizing scientific methodologies (linguistics and systems theory) to investigate the nature of art.\",\n      \"sources\": [\n        \"https://www.researchgate.net/publication/249339308_A_generative_view_of_mimemis\",\n        \"https://www.scribd.com/document/422247659/Tragic-Eikonografy-A-Conceptual-History-pdf\",\n        \"https://www.ebay.com/itm/334954610463\",\n        \"https://ddd.uab.cat/pub/tesis/2019/hdl_10803_668045/mrp1de1.pdf\",\n        \"https://dokumen.pub/international-relations-narratives-plotting-world-politics-new-international-relations-1-ed-0367027992-9780367027995-9780429397721.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

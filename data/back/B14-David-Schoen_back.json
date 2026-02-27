@@ -9,6 +9,164 @@
         "y1": 26.5,
         "x2": 55.4,
         "y2": 29.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q327857",
+          "label": "Aison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to an ancient Greek vase painter from the 5th century BC, while the card entry refers to a person named Everett Aison active in 1969. Despite the name 'Aison' appearing in both, the chronological gap of approximately 2,500 years makes it impossible for them to be the same person."
+        },
+        {
+          "qid": "Q76230220",
+          "label": "Aison Harold",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card entry refers to Everett Aison (a male artist and graphic designer), while the Wikidata entity refers to a female named Aison Harold with the family names Harold and Hackett."
+        },
+        {
+          "qid": "Q76230223",
+          "label": "Aison White",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Everett Aison, while the Wikidata entity is Aison White. Furthermore, the Wikidata entity's family (such as Sir Thomas Hackett) indicates she is a historical figure likely from the 17th or 18th century, which does not align with the 1969 date on the card or the context of an artist active in the mid-20th century."
+        },
+        {
+          "qid": "Q130711233",
+          "label": "Aison Bing",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Everett Aison' and 'Aison Bing' are distinct, and the occupations (artist vs. historian) and genders (typically male vs. female) do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Everett Aison (born c. 1935) is a multi-disciplinary artist, graphic designer, filmmaker, and educator who was highly active in the New York art and film scenes starting in the late 1950s. He is best known for his work in film title design and movie posters during the 1960s and 1970s, particularly for foreign film imports. His notable designs include the iconic posters and opening titles for the American releases of Akira Kurosawa's 'Yojimbo' and Roman Polanski's 'Knife in the Water'. Aison was a seminal figure at the School of Visual Arts (SVA) in New York City, where he was a co-founder of the SVA Film School and served as its director for nearly 40 years. As a filmmaker, he directed several award-winning theatrical shorts, including 'So Much in Common' (1970), which famously screened before the feature 'Five Easy Pieces'. His career also spanned publishing as the former art director of Grossman Publishers, and literature as a novelist ('Artrage', 2006) and illustrator of children's books such as 'Arthur' and 'The Lion's Island'. His diverse output at the intersection of graphic design, technology, and cinema during the 1960s aligns with the era's experimental organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.nyrb.com/collections/everett-aison",
+              "https://pleasureboatstudio.com/featured-author-artist-everett-aison/",
+              "https://www.filmcomment.com/issue/september-october-2018/",
+              "https://issuu.com/sva-visual-arts-journal/docs/sva_visual_arts_journal_spring_summer_2022",
+              "https://cascadiafilmfest.org/about-us/advisory-board/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Everett Aison artist biography",
+            "Everett Aison Experiments in Art and Technology",
+            "Everett Aison School of Visual Arts faculty",
+            "Everett Aison graphic designer film director",
+            "\"Everett Aison\" film titles Yojimbo Knife in the Water",
+            "\"Everett Aison\" short film \"So Much in Common\"",
+            "\"Everett Aison\" Experiments in Art and Technology archive",
+            "\"Everett Aison\" E.A.T. Getty Research Institute"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJVQ_3Tvggerzo1k1kMImtMoBRfWnH6LyUhtgaEgW1nx5_D7gT66aqVadXSaU0sh2nisobD1IkPSEd_krybn_CMMfvaCdn9kCQDRlxeJS-3lpRFa4PBhiKIzUXscfGD843OjnimanNdyOjWp7I5WEW0hy_n1hh9lON",
+              "title": "pleasureboatstudio.com",
+              "resolvedUri": "https://pleasureboatstudio.com/featured-author-artist-from-pbs/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQmZRZM_i_ES-cBVW90KpG0BSZmP4PAJ6XeOashxaVuTszPIprpB27W53myAppwyJ4XRY9Ri7bTMxApb468vQ05bBmVVXLWR4ADfUzq_IlratsZbrrP8qYMXI2v5CRozksFA==",
+              "title": "newfest.org",
+              "resolvedUri": "https://newfest.org/board-of-directors/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZSeJPYY44V1VPe3yBumkpPn2JmzOu-KJrbD1LA8PNXdXaYPH8TYc2aKu8Pu6z10LycPdZh_4UkFR-luKpyME1c-8gv8O07nMan9PFxo_z7mTMxv4ZhBmpVOGLKah7oJdwApx2nO17ISxl3-keSYvoLaM=",
+              "title": "orbiscascade.org",
+              "resolvedUri": "https://archiveswest.orbiscascade.org/ark:80444/xv957917"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3_SiecW7xLxnkZrHRdM0qWhRon_BsU4q3-S_iVbtzkcFxmgu8tMuyeFQL92NQewk0_KgFVPqS3aVWntajM0eHiDWXnvzQHRwKZDHaVr0XGyCYyfHsXtlAbJpPOd5JXBk=",
+              "title": "rdbooks.org",
+              "resolvedUri": "https://rdbooks.org/book/9781590179352"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4E_gpjZkuHb9powSzbOHcOE8T51pP5JD5P1Sk1ag4jeVYtoQUA7b0OgSFZM5wXpnzmYWtMSHcSH_U9lq3vzgMt9a65rSW6LFG5Ms3fPS5TQWMNNICYuIrUWjG8zPETbxwkEv-bwiRdZte0t9S1hDLVGS54z41rUqDi3CSiHr15Fj5I3BzNr01Jrsq2swV1B6CbvEQ6pH0UKx2uA==",
+              "title": "worldofbooks.com",
+              "resolvedUri": "https://www.worldofbooks.com/products/three-ladies-beside-the-sea-book-rhoda-levine-9781681379524"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQLGIgKUoNxXGn8To9i5a5e-Z6_VkI3vkaD1kQ0JIzlEamFZPRG_Em3sXCR6SiRDY0JXR7NWMg6ACGe-UQvGduLITqSjzF-DJ5y1G07C7T--EVQozPke97oMBQuj6tn5faTI2OBYg=",
+              "title": "weebly.com",
+              "resolvedUri": "https://qasvelo.weebly.com/blog/artrage-book"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 238,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Everett Aison (born c. 1935) is a multi-disciplinary artist, graphic designer, filmmaker, and educator who was highly active in the New York art and film scenes starting in the late 1950s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 239,
+                "endIndex": 374,
+                "text": "He is best known for his work in film title design and movie posters during the 1960s and 1970s, particularly for foreign film imports."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 375,
+                "endIndex": 539,
+                "text": "His notable designs include the iconic posters and opening titles for the American releases of Akira Kurosawa's 'Yojimbo' and Roman Polanski's 'Knife in the Water'."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 540,
+                "endIndex": 716,
+                "text": "Aison was a seminal figure at the School of Visual Arts (SVA) in New York City, where he was a co-founder of the SVA Film School and served as its director for nearly 40 years."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 887,
+                "endIndex": 1097,
+                "text": "His career also spanned publishing as the former art director of Grossman Publishers, and literature as a novelist ('Artrage', 2006) and illustrator of children's books such as 'Arthur' and 'The Lion's Island'."
+              },
+              "groundingChunkIndices": [
+                0,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1098,
+                "endIndex": 1739,
+                "text": "His diverse output at the intersection of graphic design, technology, and cinema during the 1960s aligns with the era's experimental organizations like Experiments in Art and Technology (E.A.T.).\",\n      \"sources\": [\n        \"https://www.nyrb.com/collections/everett-aison\",\n        \"https://pleasureboatstudio.com/featured-author-artist-everett-aison/\",\n        \"https://www.filmcomment.com/issue/september-october-2018/\",\n        \"https://issuu.com/sva-visual-arts-journal/docs/sva_visual_arts_journal_spring_summer_2022\",\n        \"https://cascadiafilmfest.org/about-us/advisory-board/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +177,156 @@
         "y1": 29.3,
         "x2": 44.4,
         "y2": 32.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6697422",
+          "label": "Lucio Pozzi",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity is a known artist (painter, photographer) born in 1935, making him active and roughly 34 years old at the time of the 1969 card entry. His presence in major artist files and museum collections aligns perfectly with the provided context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lucio Pozzi (born November 29, 1935, in Milan, Italy) is an Italian-born American multidisciplinary artist known for his refusal to adhere to a single signature style. After studying architecture in Rome, he moved to the United States in 1962 and eventually settled in New York. Pozzi's career is marked by extensive experimentation across various media, including painting, performance, video, installation, and writing. During the late 1960s and early 1970s, he was active in the New York art scene and was associated with the Experiments in Art and Technology (E.A.T.) organization; archival records from the Getty Museum indicate he was part of the E.A.T. Technical Services Program, which matched artists with engineers for collaborative projects in 1968-1969. He gained institutional recognition in the 1970s, participating in the inaugural exhibition at MoMA PS1 (1976), Documenta 6 (1977), and having one of the first solo exhibitions in MoMA's 'Projects: Video' series in 1978. In 1980, he represented the United States at the Venice Biennale. Pozzi is also the founder of 'New Observations' magazine (1981) and has held prestigious teaching positions at the Cooper Union, Yale University, and Princeton University. He currently lives and works in Hudson, New York, and Valeggio sul Mincio, Italy.",
+            "sources": [
+              "https://www.luciopozzi.com",
+              "https://www.rizzutogallery.com/artists/24-lucio-pozzi/biography/",
+              "https://www.artworkarchive.com/profile/lucio-pozzi",
+              "https://www.getty.edu/research/finding_aids/eat.html",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf7z09n91x/admin/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lucio Pozzi artist type and works",
+            "Lucio Pozzi artist career 1960s 1970s",
+            "Lucio Pozzi artist Experiments in Art and Technology E.A.T. association",
+            "\"Lucio Pozzi\" E.A.T. collaboration artist scientist engineer",
+            "\"Lucio Pozzi\" E.A.T. member contributor"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEqd0tMG81wr0FSib1_3Kz9x_jZEu3r-d8lm0wZE5fAWF2C2mOCY1U5rsIobTShTRjT6K_wtBCDvKBxd1h94crOWic412CRx9gBRs5mFkcvgElvF6Snstepg==",
+              "title": "cityarts.org",
+              "resolvedUri": "https://www.cityarts.org/pozzi"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8SCEs9TLl_oHIf0N-oSm3f0gLMy43D5yoiE7D8eSms2uXTwIM_X_zzKhShaOtxnIfWWG9xYRKNXDuAHtYf-R4lgv-os2WLFRb4EAkpnK-yMYivN4jF45vqGrvqAKPvn9_KEtfF3o=",
+              "title": "blogspot.com",
+              "resolvedUri": "http://vermontartzine.blogspot.com/2011/08/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3HQ3C-VFJldSWK1Q02KjUQNyOsCGN1YHbkHrk7qhiMPggmxRe6tb6z9KT_qUB9fntQv7bWee7vu2ZS4OTn5anZicBlGDWDHGEjz1N-aQZPLjv7vUBUf4X8EKgkCn21dZFhasa3MT79uHqwUVaY0PS2CqxWN-pD0VHM_chnRo=",
+              "title": "artistorganizedart.org",
+              "resolvedUri": "http://artistorganizedart.org/commons/category/uncategorized/page/7"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmlJga5zG4B_OCBaW9MpqIwvfjrUKTaPCGq4pTalsWTm3zvdQBvC0Y_8V09kxlOkfu1smIxyV2YblHSR9_31uEZKFVGnJW1Edu98Pz9xY95aFxFVSwvwRt5_UvdK5rmR2wzF5rOg==",
+              "title": "italianita-art.com",
+              "resolvedUri": "https://www.italianita-art.com/lucio-pozzi"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMkc9nmVwTi2pNNevKaId-PjX6JTbNM5PFDZ0r1oFIxcIUn4eJPlmIu0cAsAeMMhcfG2WDa0XKkuxnDhOXEnCkGfkNzRGauO8yKHnY_y5xCCYjwZC7qg==",
+              "title": "luciopozzi.com",
+              "resolvedUri": "https://www.luciopozzi.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV0L3FJYZqJl4ivAr0A2ox4tshmZp6yUUO_ddUliVTCUcRWQfbKbHZMpmlu64CnkNNs21PiDL22bT0kHlXpoG2OpVuURLKElDckt3PYahTFYgerNBTCrr7OzRFOUGTCrb1swsqL3ITAf-Co5Nygby0zYI2-JJtz9pALv8=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR71eFbrChaXem6j4ov5UNfvsdXt4igB0eiuEp6qTvYqbHCm1FeW8_kFbHoSbLYpkD045o0VwncQFcJwkrKEmHCbU7J5TDmv2vfK4xcflhk7BjvNxq-ffI3XsbDMYgK7jj_WVrIqTNfTqsyzEMbqCFJ2REbmYb_A0L0Zgr",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 217,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lucio Pozzi (born November 29, 1935, in Milan, Italy) is an Italian-born American multidisciplinary artist known for his refusal to adhere to a single signature style."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 218,
+                "endIndex": 328,
+                "text": "After studying architecture in Rome, he moved to the United States in 1962 and eventually settled in New York."
+              },
+              "groundingChunkIndices": [
+                2,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 329,
+                "endIndex": 471,
+                "text": "Pozzi's career is marked by extensive experimentation across various media, including painting, performance, video, installation, and writing."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 472,
+                "endIndex": 621,
+                "text": "During the late 1960s and early 1970s, he was active in the New York art scene and was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 710,
+                "endIndex": 815,
+                "text": "Technical Services Program, which matched artists with engineers for collaborative projects in 1968-1969."
+              },
+              "groundingChunkIndices": [
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1037,
+                "endIndex": 1102,
+                "text": "In 1980, he represented the United States at the Venice Biennale."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1275,
+                "endIndex": 1739,
+                "text": "He currently lives and works in Hudson, New York, and Valeggio sul Mincio, Italy.\",\n      \"sources\": [\n        \"https://www.luciopozzi.com\",\n        \"https://www.rizzutogallery.com/artists/24-lucio-pozzi/biography/\",\n        \"https://www.artworkarchive.com/profile/lucio-pozzi\",\n        \"https://www.getty.edu/research/finding_aids/eat.html\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf7z09n91x/admin/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -29,6 +337,50 @@
         "y1": 32.3,
         "x2": 50.4,
         "y2": 37.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "William Hogher artist",
+            "artist William Hogher biography",
+            "",
+            " \"Hogher\"",
+            " \"William\" E.A.T.",
+            "\"William Hoger\" E.A.T. artist",
+            "\"William Hogh\" E.A.T. artist",
+            "\"William Hoghe\" E.A.T. artist",
+            " \"William\"",
+            " \"Hogher\"",
+            "",
+            " \"William Hog\"",
+            " \"William Hoeg\"",
+            " \"William Hogh\"",
+            "\"William Hogarth\" artist E.A.T.",
+            " \"William\" AND \"Hog\"",
+            "",
+            " \"Hogher\"",
+            "",
+            "",
+            "\"Project Outside Art\" E.A.T. 1970 artists",
+            "\"Project Outside Art\" \"William\" E.A.T.",
+            " \"William\" \"Hog\"",
+            " \"William\" \"Hoeg\"",
+            "",
+            "",
+            "",
+            "\"Some More Beginnings\" 1968 artists list E.A.T.",
+            "",
+            "\"Some More Beginnings\" exhibition catalog artists names",
+            "list of artists in \"Some More Beginnings\" E.A.T. 1968",
+            "\"William Hogarth\" artist 1968 E.A.T.",
+            ""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

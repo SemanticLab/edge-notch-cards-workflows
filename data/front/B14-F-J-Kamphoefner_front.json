@@ -15,5 +15,146 @@
       "Engineering"
     ]
   },
-  "interestsCreativeActivities": {}
+  "interestsCreativeActivities": {},
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q2543922",
+      "label": "Walter D. Kamphoefner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The initials 'F. J.' do not match 'Walter D.', and their professions are completely different (Engineer vs. Historian). Furthermore, Walter D. Kamphoefner was born in 1948, making it highly unlikely he would be the same person as an established engineer at the Stanford Research Institute during the mid-20th century."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q604924",
+      "label": "SRI International",
+      "description": "American scientific research institute (founded 1946)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q604924 (SRI International) explicitly lists 'Stanford Research Institute' as an official name. Furthermore, the location (Menlo Park) matches perfectly between the card data and the Wikidata record."
+    },
+    {
+      "qid": "Q996052",
+      "label": "STRIPS",
+      "description": "artificial intelligence system for automated planning",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q996052 (STRIPS) is an artificial intelligence software system, not an organization. While it was developed at the Stanford Research Institute, it is a product/technology and not the institute itself."
+    },
+    {
+      "qid": "Q58936292",
+      "label": "Q58936292",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Q58936292 is the Wikidata identifier for SRI International, which was historically known as the Stanford Research Institute. The location provided on the card (Menlo Park, California) matches the headquarters of this organization."
+    },
+    {
+      "qid": "Q58939586",
+      "label": "Q58939586",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Stanford Research Institute (SRI) is the former name of SRI International (Q58939586). The location in Menlo Park, California, mentioned on the card matches the headquarters of this entity."
+    },
+    {
+      "qid": "Q66868353",
+      "label": "Q66868353",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Stanford Research Institute (SRI) is the former name of SRI International (Q66868353). The card lists the organization's location as Menlo Park, California, which is the headquarters of SRI International."
+    },
+    {
+      "qid": "Q58948919",
+      "label": "Q58948919",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Q58948919 is the Wikidata entity for the individual Fred J. Kamphoefner, not for the organization Stanford Research Institute. While the person is affiliated with the institute, a person and an organization are distinct types of entities."
+    },
+    {
+      "qid": "Q81006936",
+      "label": "Q81006936",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "SRI International (Q81006936) was formerly named Stanford Research Institute and is headquartered in Menlo Park, California, matching both the name and location provided on the card."
+    },
+    {
+      "qid": "Q59088829",
+      "label": "Q59088829",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Q59088829 is the Wikidata identifier for SRI International, which was originally founded as the Stanford Research Institute. Both the card and the Wikidata entity refer to the same organization located in Menlo Park, California."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Fred J. Kamphoefner (1921–2003) was a prominent electrical engineer at the Stanford Research Institute (SRI), where he played a critical role in several major technological advancements. He is best known for being a key member of the team that developed the Electronic Recording Machine, Accounting (ERMA) system and Magnetic Ink Character Recognition (MICR) technology in the 1950s, which revolutionized automated banking. He graduated from the University of California, Berkeley with a B.S. in Electrical Engineering in 1943. During World War II, he worked at the Radio Research Laboratory at Harvard University on radar countermeasures before following Fred Terman to Stanford. At SRI, Kamphoefner held several leadership roles, including Manager of the Physical Electronics Laboratory in the 1960s and Director of the Engineering Sciences Laboratory by the late 1970s. His technical expertise extended to automatic character recognition and early ink-jet printing technology, notably authoring a significant paper on the subject in the IEEE Transactions on Electron Devices in 1972. In 2001, he was honored with SRI's Weldon B. Gibson Achievement Award for his contributions to society. His professional activity during the late 1960s and early 1970s at SRI aligns with the period when many technical professionals were recruited for collaborations through Experiments in Art and Technology (E.A.T.).",
+        "sources": [
+          "https://www.sri.com/hoi/banking-automation-erma/",
+          "https://www.srialumni.org/wp-content/uploads/2021/04/2003-08.pdf",
+          "https://theinventors.org/library/inventors/blerma.htm",
+          "https://ieeexplore.ieee.org/document/1477018",
+          "https://ntrs.nasa.gov/citations/19790022442"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "\"Fred J. Kamphoefner\" SRI",
+        "\"Fred Kamphoefner\" Stanford Research Institute",
+        "\"F. J. Kamphoefner\" Experiments in Art and Technology",
+        "F. J. Kamphoefner Stanford Research Institute",
+        "",
+        "\"F. J. Kamphoefner\" E.A.T.",
+        "\"Fred J. Kamphoefner\" Experiments in Art and Technology",
+        "\"Fred J. Kamphoefner\" Experiments in Art and Technology list",
+        "\"Fred J. Kamphoefner\" artist engineer collaboration",
+        "\"F. J. Kamphoefner\" E.A.T. member list"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW_QF6bEaVVwxXWqhchGCDmjjKyClfPDFKtObdpkLf90ca3w0mm_LAOvIHRKKRc1v_ApFmTOoMV-4QVyQhLnxlTRiBviom_ttxK8AfPOVbXbB_vc1YfZm0V5BpYB2_yyiaWcAS88YV7NcrVtqY8Nl7DHyToGEOUbcfHB2kH2eaiC42jA==",
+          "title": "nasa.gov",
+          "resolvedUri": "https://ntrs.nasa.gov/api/citations/19810010868/downloads/19810010868.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzX64we3jTulY213AGDQ-DkhI6RQQr9L8gKrzV5BC8ILx1T1R59Gea9RlyWcIFgh1VxhIQWaM93ZT-reS2e6soB7fBmT5EGtaCnah_xtxHIk8eWDaAO0q_xcKUY3bOOSZ2F5aHUg-NYZx4Kuc-tBeqp1v2s7Q5d-WUpOndbAC0c9lRRh35aAJM3gCIR9qauandX2NmhsaSGvg=",
+          "title": "answers.com",
+          "resolvedUri": "https://www.answers.com/computer-science/What_was_the_first_bank_to_use_computers_in_the_1950s"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 238,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Fred J. Kamphoefner (1921–2003) was a prominent electrical engineer at the Stanford Research Institute (SRI), where he played a critical role in several major technological advancements."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1139,
+            "endIndex": 1242,
+            "text": "In 2001, he was honored with SRI's Weldon B. Gibson Achievement Award for his contributions to society."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
+  }
 }

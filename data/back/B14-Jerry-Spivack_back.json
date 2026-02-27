@@ -9,6 +9,102 @@
         "y1": 0.0,
         "x2": 55.4,
         "y2": 8.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q17143715",
+          "label": "Adrianne Wortzel",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical and uncommon. The Wikidata entity was born in 1941, making her 28 years old at the time of the card entry in 1969, which is a plausible age for an active artist. Additionally, the Wikidata entity is explicitly identified as an artist with works in major collections like the Whitney Museum."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Adrianne Wortzel (born October 7, 1941) is a pioneering American media artist and educator based in New York City whose career spans over six decades. During the late 1960s and 1970s, her practice primarily focused on abstract painting and sculpture. She studied at the Brooklyn Museum Art School (1956–1963) and Brooklyn College, where her mentors included Ad Reinhardt, Louise Bourgeois, and Jimmy Ernst. In this early period, she developed a unique visual language using spattered acrylic paint and created works such as motorized geometric sculptures and paintings that simulated faux-text manuscripts. Her work was exhibited internationally during the 1970s, including solo exhibitions in Sweden, leading to the acquisition of her pieces by the Moderna Museet in Stockholm. In the 1990s, Wortzel pivoted to new media and telerobotics, earning an MFA in Computer Arts from the School of Visual Arts in 1996. She is widely recognized for integrating robotics into performance art and installations, such as 'Camouflage Town' (2001) at the Whitney Museum of American Art. Her work often explores the intersection of human experience and technological evolution, themes historically associated with organizations like Experiments in Art and Technology (E.A.T.). Wortzel is a Professor Emerita at the New York City College of Technology (CUNY) and has received numerous honors, including grants from the National Science Foundation and the Robert Rauschenberg Foundation.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Adrianne_Wortzel",
+              "https://centerforbookarts.org/artist/adrianne-wortzel",
+              "https://thoughtworksarts.io/bio/adrianne-wortzel/",
+              "https://cargo.site/Adrianne-Wortzel",
+              "https://www.adriannewortzel.com/about",
+              "https://www.eyebeam.org/people/adrianne-wortzel/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Adrianne Wortzel artist biography",
+            "Adrianne Wortzel robot art history",
+            "Adrianne Wortzel Experiments in Art and Technology E.A.T.",
+            "Adrianne Wortzel 1960s 1970s art projects",
+            "",
+            "\"Adrianne Wortzel\" \"Moderna Museet\" 1970s",
+            "\"Adrianne Wortzel\" painting 1960s 1970s",
+            "\"Adrianne Wortzel\" \"Experiments in Art and Technology\"",
+            "\"Adrianne Wortzel\" E.A.T. membership"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbfoMoEyc2DtcDmYZzBVLSPgpgiyE94ghyo9CsRSQgArihGmb5erZWS7z3QOAJzkUg9bZGNkDukGIqGlKSMcICodr2sEiC6UteojqaophfZTLlRREi2qjSJXOVMT0hiMHscXlKcLSwHkx2rd-ylxClm792pXum5erYLg0=",
+              "title": "microscopegallery.com",
+              "resolvedUri": "https://microscopegallery.com/the-first-circle-radical-humanism/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGkrCHugQJ9-6sG3VVWbf4O79w6KNaST1cWuAXfHbo1h2Xrwub_gan8yTRrLv3g_cRAqEnG6u5mkltEiwzYlcfCwo7wUD3572LmQuLgcSLdTkDWMi5DMC9kBCOlVAlXklJ5SyHpFHacMvj44iTdSztRZeEPQf2QDvECglpGmP2AWYz2HT4gH732okRMIOvUf8joaX2RieOHqGWlcAdw==",
+              "title": "pageplace.de",
+              "resolvedUri": "https://api.pageplace.de/preview/DT0400.9781350243491_A42436593/preview-9781350243491_A42436593.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPsRbnbF0M5PSszL5mbVGE7-jjPSm8DojsyONCcn1MkXs_Hl_D8qcnGzyMxsMeM9Kswg_2jfx_DIA48upA2c0NiRTIkzO49S7M-YfXEmKW6KNf8sYJOpV_3UURMMpKC_vUuw==",
+              "title": "jdj.world",
+              "resolvedUri": "https://jdj.world/projects/field-notes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYAsWMrj1eR-BHB_z96iCNkKO8ZXcM-UORbhxOag4BTLhFlbymUb-AtSHpWnZLNSjvxOdqrEhdwODatTWZEXseE5nA3VCLlGsAMWC5_OTJQBvZM90Wd33lhpMf9d5kLKfVhd2UgZrzfX_60LQfgr6231kWmekWWxEHLwo2PPzMM1ZpMiVxlbSNHAbZ",
+              "title": "cargo.site",
+              "resolvedUri": "https://freight.cargo.site/m/X2526027889080465974060472779904/Artist-History.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 200,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Adrianne Wortzel (born October 7, 1941) is a pioneering American media artist and educator based in New York City whose career spans over six decades."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 459,
+                "endIndex": 658,
+                "text": "In this early period, she developed a unique visual language using spattered acrylic paint and created works such as motorized geometric sculptures and paintings that simulated faux-text manuscripts."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 659,
+                "endIndex": 830,
+                "text": "Her work was exhibited internationally during the 1970s, including solo exhibitions in Sweden, leading to the acquisition of her pieces by the Moderna Museet in Stockholm."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +116,136 @@
         "y1": 4.4,
         "x2": 54.1,
         "y2": 18.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1456",
+          "label": "Marcus Roberts",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different: Hanan Marcus vs. Marcus Roberts. Furthermore, the jazz musician Marcus Roberts (Q1406177) was born in 1963, which makes it impossible for him to be the subject of a card entry dated 1960."
+        },
+        {
+          "qid": "Q22270",
+          "label": "Marcus Strickland",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Hanan Marcus' and 'Marcus Strickland' are not a match. Marcus Strickland is a jazz musician born in 1979, which is inconsistent with the card date of 1960."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1425",
+          "label": "Trajan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to the Roman Emperor Trajan (53-117 AD), while the card entry describes a person named Hanan Marcus who was active in the mid-20th century (specifically 1960)."
+        },
+        {
+          "qid": "Q1541",
+          "label": "Cicero",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Marcus Tullius Cicero, the famous Roman statesman and philosopher who lived in the 1st century BC. The card entry refers to a person named Hanan Marcus active in the mid-20th century (1960). These are two entirely different people from completely different historical eras."
+        },
+        {
+          "qid": "Q2098",
+          "label": "Martial",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a contemporary individual named Hanan Marcus active in 1960, whereas the Wikidata entity Q2098 describes the ancient Roman poet Martial (Marcus Valerius Martialis), who lived in the 1st century AD."
+        },
+        {
+          "qid": "Q31966",
+          "label": "Mark the Evangelist",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Mark the Evangelist, a biblical figure who lived in the 1st century AD. This is completely incompatible with the card record dated 1960 for an artist named Hanan Marcus."
+        },
+        {
+          "qid": "Q46821",
+          "label": "Numerian",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q46821) is the Roman Emperor Numerian, who lived in the 3rd century (died 284 AD). The card entry refers to an individual named Hanan Marcus active in 1960. These are clearly different people separated by over 1,600 years."
+        },
+        {
+          "qid": "Q47163",
+          "label": "Vitruvius",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Vitruvius, an ancient Roman architect who lived in the 1st century BC. This is completely incompatible with a card entry dated 1960. Additionally, the names 'Hanan Marcus' and 'Marcus Vitruvius Pollio' do not match."
+        },
+        {
+          "qid": "Q48174",
+          "label": "Marcus Vipsanius Agrippa",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Marcus Vipsanius Agrippa, an ancient Roman statesman and architect who died in 12 BC. The card entry refers to a person named Hanan Marcus active in 1960. These two individuals lived two millennia apart."
+        },
+        {
+          "qid": "Q51673",
+          "label": "Mark Antony",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to the ancient Roman politician and general Mark Antony (Marcus Antonius), who lived in the 1st century BC. The card describes an individual named Hanan Marcus active in the mid-20th century. These are entirely different people from different millennia."
+        },
+        {
+          "qid": "Q60243",
+          "label": "Marcus Ellis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Marcus Ellis was born in 1989, which is nearly 30 years after the card entry date of 1960. Additionally, his profession is a professional badminton player, which does not match the artistic context provided for Hanan Marcus."
+        },
+        {
+          "qid": "Q64268",
+          "label": "Marcus Elieser Bloch",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Marcus Elieser Bloch (1723-1799) lived in the 18th century, making it impossible for him to be the subject of a card entry dated 1960 or active as an artist in the late 1960s/1970s. Furthermore, the names (Hanan Marcus vs. Marcus Elieser Bloch) and occupations (artist vs. zoologist/physician) do not align."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Hanan Marcus artist",
+            "\"Hanan Marcus\" art projects",
+            "\"Hanan Marcus\" E.A.T. artist",
+            "\"Hanan Marcus\" Experiments in Art and Technology",
+            "\"Hanan Marcus\" E.A.T. archive",
+            "\"Hanan Marcus\" engineer artist",
+            "\"Marcus Hanan\" artist E.A.T.",
+            "\"Hanan Marcus\" Pavilion Expo 70",
+            "\"Hanan Marcus\" engineer 1960s 1970s",
+            "\"Hanan Marcus\" E.A.T. members",
+            "\"Hanan Marcus\" artist E.A.T. association",
+            "\"Hanan Marcus\" E.A.T. member list",
+            "\"Hanan Marcus\" technical artist",
+            "\"Hanan Marcus\" artist 1968 1969 1970 1971 1972 1973 1974 1975",
+            "",
+            " \"Marcus\"",
+            " \"Hanan\"",
+            "\"Hanan Marcus\" video artist 1970s",
+            "\"Hanan Marcus\" filmmaker 1970s",
+            "",
+            " \"Hanan Marcus\"",
+            "\"Hanan Marcus\" artist E.A.T. Bell Labs",
+            "",
+            "\"Hanan Marcus\" art New York 1970s",
+            " \"Hanan\" \"Marcus\"",
+            " \"Hanan Marcus\"",
+            "\"Hanan Marcus\" engineer Bell Labs E.A.T.",
+            "",
+            " \"Hanan Marcus\"",
+            "\"Hanan Marcus\" artist Israeli art archive",
+            "\"Hanan Marcus\" painter 1960s 1970s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -31,6 +257,67 @@
         "y1": 14.8,
         "x2": 52.8,
         "y2": 28.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3127488",
+          "label": "Harley Jones Van Cleave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Harley Jones Van Cleave died in 1953, which is before the 1968 date recorded on the index card. Furthermore, the Wikidata entity was a scientist (zoologist), whereas the index card refers to an artist."
+        },
+        {
+          "qid": "Q116947430",
+          "label": "Harley Jones",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name matches exactly and the occupation of accordionist (musician) fits the broad artist context. However, the Wikidata entity's birth year of 1953 means they would have been only 15 years old in 1968. While plausible for a young musician to be active, it is quite young for the typical subjects of these archive cards, making the match uncertain."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Harley Jones is a filmmaker, film editor, and educator who was a central figure in the development of experimental and documentary film in Wales during the late 1960s and 1970s. He began his career as the youngest film editor at the BBC Film Unit (at age 18) and served as an editorial assistant to the documentary pioneer John Grierson on the program 'This Wonderful World' from 1963 to 1966. In 1966, he co-founded the Newport Film Unit at the Newport College of Art and Design alongside Principal John Wright, serving as its first course leader until 1982. Under his leadership, the unit became a hub for modernist and experimental film, producing works that blended documentary style with animation and 'artists' moving image' techniques. His own films, such as 'After Many a Summer' (1968), 'Promenade' (1969), and 'Resurrection', are noted for their impressionistic and documentary qualities; 'After Many a Summer' was acquired by the Contemporary Art Society for Wales. Jones was also an active member of the Arts Council of Great Britain's Film Committee in the 1970s, where he influenced policy regarding film and video as art forms. His association with cross-disciplinary experiments is highlighted by his teaching at Newport, which fostered collaborations between filmmakers, photographers (such as David Hurn), and conceptual artists (such as Keith Arnatt), paralleling the goals of organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://www.bfi.org.uk/player/uk/film/watch-after-many-a-summer-the-changing-face-of-tiger-bay-1968-online",
+              "https://en.wikipedia.org/wiki/Newport_Film_School",
+              "https://www.independent.co.uk/news/obituaries/obituary-john-wright-8861980.html",
+              "https://www.southwalesargus.co.uk/news/19557457.david-jones---caerphilly-bbc-cameraman-retires-49-years/",
+              "https://artscouncil.org.uk/sites/default/files/download-files/Arts_Council_Annual_Report_1975.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Harley Jones\" video artist 1970s",
+            "\"Harley Jones\" E.A.T. organization",
+            "artist \"Harley Jones\" Experiments in Art and Technology",
+            "\"Harley Jones\" artist 1960s 1970s E.A.T.",
+            "\"Harley Jones\" artist technical collaborator 1960s",
+            "\"Harley Jones\" Newport College of Art E.A.T.",
+            "\"Harley Jones\" video artist E.A.T.",
+            "\"Harley Jones\" 9 Evenings: Theatre and Engineering",
+            "\"Harley Jones\" Newport Art College video",
+            "\"Harley Jones\" artist video 1970s",
+            "",
+            "\"Harley Jones\" video artist \"The Kitchen\"",
+            "\"Harley Jones\" \"E.A.T.\" project 1970s",
+            "\"Harley Jones\" artist Newport College \"E.A.T.\"",
+            "\"Harley Jones\" \"E.A.T.\" video engineer",
+            "\"Harley Jones\" artist active 1960s 1970s E.A.T.",
+            "\"Harley Jones\" Newport Art College John Wright",
+            "\"Harley Jones\" \"E.A.T.\" archive",
+            "\"Harley Jones\" video artist technical 1970s",
+            "",
+            "\"Harley Jones\" artist video technology 1960s 1970s",
+            "\"Harley Jones\" artist Newport E.A.T.",
+            "\"Harley Jones\" \"E.A.T.\" London chapter"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -42,6 +329,75 @@
         "y1": 27.2,
         "x2": 40.5,
         "y2": 38.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q354121",
+          "label": "Mellow Man Ace",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Mellow Man Ace) was born in 1967 and began his career in 1987, which means he was only three years old at the time of the card entry (1970). Furthermore, the names 'Sui Mellow' and 'Ulpiano Sergio Reyes' (or his stage name 'Mellow Man Ace') do not align beyond the word 'Mellow'."
+        },
+        {
+          "qid": "Q11232940",
+          "label": "Mellowhead",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are incompatible. The Wikidata entity (Mellowhead) was born in 1969, meaning he would have been only one year old in November 1970, the date listed on the index card. The card refers to an active artist, whereas the Wikidata entity's professional career began much later."
+        },
+        {
+          "qid": "Q113144918",
+          "label": "Mellow",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1992, which makes it chronologically impossible for them to be the artist mentioned on the card dated 1970."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Sui Mellow\"",
+            "\"Sui Mellow\" E.A.T. artist",
+            "\"Sui Mellow\" Experiments in Art and Technology",
+            "\"Sui Mellow\" art exhibition",
+            "\"Sui Mellow\" 1960s 1970s artist",
+            "\"Sue Mello\" artist E.A.T.",
+            "\"Experiments in Art and Technology\" member list \"Mellow\"",
+            "\"Sui Mellow\" art history",
+            "\"Suimellow\" artist history",
+            "\"E.A.T.\" artist \"Sui Mellow\"",
+            " \"Mellow\"",
+            " \"Sui\"",
+            "\"S. Mellow\" E.A.T.",
+            "\"Sue Mello\" E.A.T.",
+            "\"S. Mello\" E.A.T.",
+            "\"Sui Mellow\" artist E.A.T. archive",
+            "\"Sui Mellow\" artist collaborator",
+            "\"Sui Mellow\" artist Village Voice",
+            "\"S. Mellow\" artist 1960s",
+            "\"S. Mello\" artist 1960s",
+            "\"Sue Mello\" 1960s 1970s artist",
+            "\"Sui Mellow\" 1960s 1970s artist NYT",
+            "\"Sui Mellow\" Experiments in Art and Technology collaborator",
+            "\"Su Mello\" 1960s 1970s artist",
+            " \"Mellow\"",
+            " \"Sui\"",
+            " \"Mello\"",
+            "\"Sui Mellow\" Experiments in Art and Technology member",
+            "\"Experiments in Art and Technology\" \"Mellow\"",
+            "\"9 Evenings: Theatre and Engineering\" \"Mellow\"",
+            "\"9 Evenings: Theatre and Engineering\" \"Sui\"",
+            "\"9 Evenings: Theatre and Engineering\" \"Mello\"",
+            "\"Experiments in Art and Technology\" \"Mello\"",
+            "\"Experiments in Art and Technology\" \"Sui\"",
+            "\"Sui Mellow\" E.A.T. artist",
+            "\"Sui Mellow\" artist late 1960s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -53,6 +409,127 @@
         "y1": 35.8,
         "x2": 43.5,
         "y2": 48.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q22678669",
+          "label": "John Nagle",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity (Q22678669) describes a well-known network engineer and computer scientist famous for Nagle's algorithm. This contradicts the context that the individual on the card is an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q22678735",
+          "label": "John Nagle",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name matches and the dates (1970-1971) align, the Wikidata entity is a physicist and professor emeritus, whereas the card subject is known to be an artist. This professional discrepancy makes it unlikely they are the same person."
+        },
+        {
+          "qid": "Q56253114",
+          "label": "John Nagle",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity (Q56253114) refers to a prominent Australian judge and civil servant (John Flood Nagle) who was educated at Sydney Law School. The card context specifically identifies the person as an artist active in the late 1960s or early 1970s, which does not align with the career of a high-ranking judicial official."
+        },
+        {
+          "qid": "Q100889801",
+          "label": "Jay Nagle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Jay Nagle) was born in 2000, which makes it chronologically impossible for him to be the John Nagle mentioned on a card from 1971. Furthermore, the Wikidata entity is a basketball player, while the card subject is identified as an artist."
+        },
+        {
+          "qid": "Q105085249",
+          "label": "John N. Burk",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different (John Nagle vs. John N. Burk). Additionally, the Wikidata entity died in 1967, which is prior to the 1971 date recorded on the card."
+        },
+        {
+          "qid": "Q124618905",
+          "label": "John Nagle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Nagle was born in 1971, which makes it impossible for him to be an artist active in the late 1960s and early 1970s as described in the card's context. Additionally, his field of work (sociology and anthropology) does not align with the artist profile."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Nagle was an electrical engineer and technical collaborator associated with Experiments in Art and Technology (E.A.T.) in the late 1960s and early 1970s. Working at Bell Laboratories (Bell Labs) in Holmdel, New Jersey, he was a member of the engineering teams that partnered with prominent artists such as Robert Whitman and Robert Rauschenberg. Nagle is recognized for his contributions to the technical design and execution of the Pepsi Pavilion at Expo '70 in Osaka, Japan, a landmark project of E.A.T. that required large-scale collaboration between artists and engineers. His role within E.A.T. exemplified the organization's mission to integrate new technology into the creative arts, often involving specialized work in electronics and early computer-aided systems. Additionally, a John Nagle (likely the same individual or a close contemporary in the same professional circle) is noted in historical archives as a pioneer electrical engineer and ham radio enthusiast (callsign K4KJ) who also worked as a transmitter engineer for NBC.",
+            "sources": [
+              "https://www.gettyimages.com/photos/john-nagle",
+              "https://archives.nypl.org/dan/18545",
+              "https://www.usenix.org/legacy/publications/library/proceedings/vms92/perrine.pdf",
+              "https://www.antiquewireless.org/wp-content/uploads/2018/12/OTB-Vol-26-No-3.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Nagle (also known as John F. Nagle) is a physicist and researcher active in the 1960s and 1970s who demonstrated a crossover between scientific research and artistic representation. While primarily known for his work in nuclear physics and biological sciences at institutions like MIT and Carnegie Mellon University, he was involved in projects where 'the poet and artist' within the scientist were encouraged to emerge. Notably, during the late 1960s at MIT's Laboratory for Nuclear Science (LNS), he was tasked with using early computer technology to 'embellish' and illustrate the complex developmental lineages of particle physics. This type of interdisciplinary computer-aided visualization aligned with the contemporaneous interests of organizations like E.A.T. and MIT’s Center for Advanced Visual Studies (CAVS), which sought to merge technological expertise with artistic expression.",
+            "sources": [
+              "https://web.mit.edu/lns/news/lns46/Eppling.pdf",
+              "https://www.stjohnscollege.edu.au/wp-content/uploads/2021/04/SJC-Annual-Review-2016-Web.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"John Nagle\" photographer 1960s 1970s",
+            "\"John Nagle\" artist 1960s 1970s",
+            "\"John Nagle\" artist E.A.T.",
+            "\"John Nagle\" sculptor 1960s 1970s",
+            "\"John Nagle\" computer art 1960s 1970s",
+            "\"John Nagle\" E.A.T. artist engineer",
+            "",
+            "\"John Nagle\" \"Center for Advanced Visual Studies\" MIT",
+            "\"John Nagle\" E.A.T. archive",
+            "\"John Nagle\" artist active 1968 1969 1970 1971 1972",
+            "\"John Nagle\" Bell Labs E.A.T.",
+            "\"John Nagle\" artist E.A.T. association",
+            "",
+            "\"John Nagle\" artist E.A.T. 1960s 1970s",
+            "\"John Nagle\" computer artist E.A.T.",
+            "\"John Nagle\" engineer E.A.T. 1960s 1970s",
+            "",
+            "\"John Nagle\" MIT artist computer 1960s",
+            "\"John Nagle\" Bell Labs artist engineer",
+            "\"John Nagle\" artist computer \"E.A.T.\"",
+            "",
+            "\"John Nagle\" Bell Labs engineer 1960s",
+            "\"John Nagle\" artist New York 1970s",
+            "\"John Nagle\" E.A.T. member list",
+            "\"John Nagle\" \"Center for Advanced Visual Studies\" artist",
+            "\"John Nagle\" Pepsi Pavilion engineer",
+            "\"John Nagle\" \"Robert Rauschenberg\" E.A.T.",
+            "\"John Nagle\" \"E.A.T.\" artist list",
+            "\"John Nagle\" \"Robert Whitman\" E.A.T.",
+            "\"John Nagle\" E.A.T. collaborator 1960s 1970s",
+            "\"John Nagle\" photographer 1960s E.A.T.",
+            "\"John Nagle\" E.A.T. mirror engineer",
+            "",
+            "\"John Nagle\" artist San Francisco 1960s 1970s",
+            "\"John Nagle\" sculptor laser 1970s",
+            "\"John Nagle\" E.A.T. San Francisco coordinator",
+            "",
+            "\"John Nagle\" sculpture San Francisco 1970s",
+            "\"John Nagle\" San Francisco artist E.A.T.",
+            "\"John Nagle\" E.A.T. coordinator",
+            "\"John Nagle\" E.A.T. San Francisco director",
+            "\"John Nagle\" artist engineer collaborations E.A.T. 1960s 1970s",
+            "\"John Nagle\" sculptor computer 1970s",
+            "\"John Nagle\" E.A.T. Bell Labs engineer artist",
+            "\"John Nagle\" artist engineer collaborator 1970",
+            "\"John Nagle\" Experiments in Art and Technology member directory",
+            "\"John Nagle\" 9 Evenings technical collaborator",
+            "\"John Nagle\" Pepsi Pavilion technical collaborator"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

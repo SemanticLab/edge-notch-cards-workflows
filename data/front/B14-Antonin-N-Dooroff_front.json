@@ -12,5 +12,73 @@
       "radar",
       "sonar"
     ]
+  },
+  "wikidata_candidates": [],
+  "wikibase_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Antonin N. Dooroff (likely Antonin Nicholas Dooroff) was a Russian-born engineer and artist active in the San Francisco Bay Area during the 1960s and 1970s. Born around 1901, he worked as a draftsman for the Works Progress Administration (WPA) in Los Angeles in the 1940s before transitioning to roles at the Mare Island Navy Yard in Vallejo, California. In 1963, while working as an artist at the Navy Yard, he designed the official insignia for the nuclear-powered submarine USS Woodrow Wilson (SSBN-624), a design chosen by the crew for its symbolic representation of the ship's mission and the North Star (Polaris). Dooroff's professional background combined technical and artistic expertise; he was specialized in electro-magnetics, radar, and sonar. This unique combination led to his involvement with Experiments in Art and Technology (E.A.T.), a non-profit organization founded by Billy Klüver and Robert Rauschenberg to foster collaborations between technical experts and artists. In the late 1960s and early 1970s, he resided in San Rafael, California, and was registered with the E.A.T. Technical Services as an engineer/scientist available for collaborative projects.",
+        "sources": [
+          "https://www.history.navy.mil/content/history/nhhc/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-63000/NH-63600-KN.html",
+          "https://www.history.navy.mil/content/history/nhhc/search.html?q=Antonin+Dooroff",
+          "https://lfia.org/1716-n-alexandria-avenue-90027/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Antonin Dooroff\"",
+        "\"Antonin Dooroff\" engineer radar sonar",
+        "",
+        "\"Antonin Dooroff\" radar sonar engineering",
+        "",
+        "\"Antonin Dooroff\" Mare Island engineer",
+        "",
+        "\"Dooroff\" Experiments in Art and Technology",
+        "",
+        "\"Antonin Dooroff\" \"sonar\"",
+        "\"Antonin Dooroff\" Marin",
+        "",
+        "\"Antonin Dooroff\" engineering sonar radar",
+        "",
+        "\"Antonin Dooroff\" Mare Island sonar",
+        "",
+        "\"Antonin Dooroff\" technical publication",
+        "",
+        "",
+        "",
+        "\"Antonin Dooroff\" Mare Island Navy Yard scientist",
+        "",
+        "",
+        "",
+        "\"Antonin Dooroff\" sonar radar Mare Island",
+        "",
+        "",
+        " \"Antonin Dooroff\"",
+        ""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7DC6egmgpfRa1NlvVKKMeQZosJUPh1xebIkQTI8jN6u-2Um-xxjFl1iNVBEJ0agutGevZZ2boHS5IJpV9M1A0qXHIvyTrvJJGusKlWehBvk2A-UvBaqa_T_OlkLz5zjJU3bAe5_Yi4vhRCI0Jos3N5shGNr2rYlPTRsDxJjTdXNChP4emeSyw_gvRJccHvh9D7QwR-a7Ee8dLGKaddlM-7IF-lO4OM7JTqSO3e9QoMjTDD_EOsOeZUzVfDj0=",
+          "title": "navy.mil",
+          "resolvedUri": "https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-63000/NH-63600-KN.html"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 405,
+            "endIndex": 669,
+            "text": "In 1963, while working as an artist at the Navy Yard, he designed the official insignia for the nuclear-powered submarine USS Woodrow Wilson (SSBN-624), a design chosen by the crew for its symbolic representation of the ship's mission and the North Star (Polaris)."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

@@ -11,6 +11,182 @@
         "y1": 10.7,
         "x2": 53.3,
         "y2": 19.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1002",
+          "label": "Paul Stookey",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to Hans Noe (with Richard Black as a previous/alternate name), while the Wikibase entity describes Paul Stookey. There is no evidence suggesting these are the same person."
+        },
+        {
+          "qid": "Q25388",
+          "label": "Noel Shaw",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Hans Noe' and 'Noel Shaw' do not share significant similarities. Additionally, the card entry mentions an alternative name, 'Richard Black', which also bears no resemblance to 'Noel Shaw'."
+        },
+        {
+          "qid": "Q24932",
+          "label": "Noelle Tan",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Hans Noe and Richard Black on the card do not match the Wikibase entry for Noelle Tan. Additionally, the Wikibase entry identifies the person as a woman, while the names on the card are typically masculine, and there is no contextual overlap to suggest they are the same individual."
+        },
+        {
+          "qid": "Q22237",
+          "label": "Noel Towers",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name Hans Noe (or his alias Richard Black) bears no resemblance to the name Noel Towers. There is no overlapping metadata to suggest these two records describe the same individual."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q111164",
+          "label": "Hans Noever",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names Hans Noe and Hans Noever are similar but distinct surnames. The card also specifically mentions 'Richard Black' as an alternative or previous name, which does not appear in the metadata for the German filmmaker Hans Noever. While the time period and artistic context align, there is insufficient evidence to suggest they are the same individual rather than two different people with similar names."
+        },
+        {
+          "qid": "Q18348294",
+          "label": "Hans Noel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Hans Noel (Q18348294) was born in 1971, which makes it impossible for him to be the person on the card who was active as an artist in the late 1960s or early 1970s. Furthermore, the Wikidata entity is a political scientist, not an artist."
+        },
+        {
+          "qid": "Q94916344",
+          "label": "Hans Noesske",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hans Noesske died in 1913, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card context. Furthermore, the Wikidata entity was a physician and surgeon, not an artist."
+        },
+        {
+          "qid": "Q95290854",
+          "label": "Hans Noelpp",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hans Noelpp was born in 1876, making him approximately 90-100 years old during the late 1960s and early 1970s when the person on the card was active. Furthermore, the card mentions an alias of 'Richard Black' and the name 'Hans Noe', which does not align well with 'Hans Noelpp', a painter from an earlier generation."
+        },
+        {
+          "qid": "Q134572086",
+          "label": "Hans Noë",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names 'Hans Noe' and 'Hans Noë' are nearly identical. The Wikidata entity is an architect and sculptor, which aligns with the provided context of the person being an artist or creative professional. Additionally, the birth date of 1928 makes this individual the appropriate age to be active during the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Hans H. Noe (1928–2025) was a distinguished architect and sculptor based in New York. He is best known for his collaborative relationship with the influential sculptor Tony Smith, whom he assisted with complex numerical calculations and technical drafting for large-scale geometric sculptures. This collaboration was particularly significant in projects such as Smith's \"Bat Cave\" (1971), which was featured in the landmark \"Art and Technology\" exhibition at the Los Angeles County Museum of Art (LACMA). Noe's work as an architect bridged the gap between structural engineering and artistic form, a role closely aligned with the mission of organizations like Experiments in Art and Technology (E.A.T.) during the late 1960s and early 1970s. Born in Czernowitz, Austro-Hungary, Noe later moved to the United States, where he designed several buildings, including a home for his family in Garrison, NY, and a separate studio section for the Abstract Expressionist painter Elaine de Kooning. He was a central figure in the SoHo art community and purchased the building housing the historic Fanelli’s Cafe in 1982.",
+            "sources": [
+              "https://www.askart.com/artist/Hans_H_Noe/11311002/Hans_H_Noe.aspx",
+              "https://www.moma.org/documents/moma_catalogue_184_300298642.pdf",
+              "https://resy.com/cities/new-york-ny/venues/fanellis-cafe/resy-guide-fanellis-cafe-soho",
+              "https://www.nytimes.com/2019/10/14/t-magazine/fanellis-cafe-soho-new-york.html",
+              "https://calameo.com/books/0064560411649646b8408"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Hans Noe artist",
+            "Hans Noe Experiments in Art and Technology E.A.T.",
+            "Hans Noe engineer artist collaboration",
+            "Hans Noe artist 1960s 1970s",
+            "",
+            "\"Hans Noe\" engineer E.A.T.",
+            "\"Hans Noe\" \"Experiments in Art and Technology\"",
+            "\"Hans Noe\" E.A.T. artist",
+            "\"Hans H. Noe\" architect sculptor Garrison NY",
+            "",
+            "\"Hans Noe\" artist technology collaboration",
+            "\"Hans Noe\" Tony Smith sculpture collaboration",
+            "\"Hans Noe\" architect New York biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHabOL_9mK7EL2I4sMibd5RBZart9FQ2QxRL4_WD-eOw-x6UzMxFQ40cUgGGLFzmqmo6KrgWaEpYSBFgFoekspiv2qhAmkbsw9_WwnrFtt5_6Lsby4zU-iInrt6uhUjUUn6lFaUBS1Zb8ls4Yc35bCQYGo7AtwBk_C-D8rmB8ghAoSpqlby9z6wDfav",
+              "title": "askart.com",
+              "resolvedUri": "https://www.askart.com/auction_records/hans_h_noe/11436046/hans_h_noe?alert=info"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEKMqyHENY776bsyiFjAdwjZLrvvJKDcLtrbYq4aPCs5vsOHmL6mdsobD33j4bLh_lq_a7D1svWjTD-WAF0lpk19m-ckw2Riq1XfYzDw9YdmbdCEgg9WC65kFIwPxia5tQ4makTWW-6R2v7xOEQapt",
+              "title": "askart.com",
+              "resolvedUri": "https://www.askart.com/bio/Hans_Noe/11436046/Hans_Noe"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb5TOEFCNwD2c6mTUELKcF2FWfLE_ePUQhCPAClNd5N-G9p2rzxDW0WXW6nG9GXAuktYOYGVZjkZIq4Xc6ETKIv1PxhQUAO3eVjgWnwtIHqk7Kg5_i38U_fiJ8u4am0dEss8z9mNzLLCHg_GGrddwDu5UtUr5FkzkzTPQ0W0rOKXXZqF-3DnRexOnt0HOOzmFLs2DnNA==",
+              "title": "speaktodave.com",
+              "resolvedUri": "https://www.speaktodave.com/dave-speaks/nyt-the-bar-that-has-fed-soho-for-almost-a-century"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpnO0fIU2Ndd8Jhe7DFpu4-O3ynk8Edpp8Qu8ph1yLTkCQ41eop9sfZ5N_FTeaTyr2UxqTVNGaabwjxtkvet8uj1kUgVYktn3ngOxgdifU7k3npMvHTrHoQHYA6OzNAql3bFlmqUhTRppJalAGpJqtlU-1No6iAynP-jrA9vrl-pNes1gWwJ-7L-6nnfXhO8Cgoclhgt2EOT9H0FstRljYmP_UqQrVdDHctXhIigR9vdswoHO_wHnr4AeMou8Ipgf-JXcOEfnFB5iF0jnfOXRTtwzL5A==",
+              "title": "sdgcounties.ca",
+              "resolvedUri": "https://archive.sdgcounties.ca/uploads/r/glengarry-county-archives/a/a/e/aae0169a3265bad841c5bd690b943131e1d0ae4a37bfa13a734c442af20951dc/1982-05-12.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpUd6OAGjG5TdUU2XGfOBSWpdnF-J71CinBookFw_v5XOEFTyut-mglxcWjP0y1q88hRzcu_w3nIEQj29NOZ_PnAahX7bwIDqBtQirUPVrLxlcUZY89vLNJvBiq2lTvGtOEAVqWKYS",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Michael_Landon"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSKB2uITLW_kBXvETeomzwZemufZ73s8bV7Ch3OdzfjR_fYQRrKbmidSrl_fvLrBRKW7CEGK2XLqyNbB_BxYKLOoTL271SKQjOLUQ1RwMIe1zuZWqgOk-TUNmRACfZ9iq6LIgQgHTPZxCsnK5dvI7eTUAhopLzu5SmXQ==",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/documents/moma_catalogue_215_300024882.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFstdKv_5leYW8FRD2ab39kSgGXhY9qDc8grWeYDoNwZIuYgb-QcpfZJ8dySgD1_DT3YMB5domNGEhZsuBT3dPcuZerj0htdDrVmfjta4kpklLJWNQvXdPD-ZPIfc7DijAtB2ykaz82LV2-r11opYIDQAseqIZR6cEGvvrtfj7ixwyVDbK_cUmGQKNcUVF8I5A=",
+              "title": "resy.com",
+              "resolvedUri": "https://blog.resy.com/2020/09/fanellis-has-belonged-to-downtown-manhattan-since-1874/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 137,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Hans H. Noe (1928–2025) was a distinguished architect and sculptor based in New York."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 759,
+                "endIndex": 797,
+                "text": "during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1046,
+                "endIndex": 1641,
+                "text": "He was a central figure in the SoHo art community and purchased the building housing the historic Fanelli’s Cafe in 1982.\",\n      \"sources\": [\n        \"https://www.askart.com/artist/Hans_H_Noe/11311002/Hans_H_Noe.aspx\",\n        \"https://www.moma.org/documents/moma_catalogue_184_300298642.pdf\",\n        \"https://resy.com/cities/new-york-ny/venues/fanellis-cafe/resy-guide-fanellis-cafe-soho\",\n        \"https://www.nytimes.com/2019/10/14/t-magazine/fanellis-cafe-soho-new-york.html\",\n        \"https://calameo.com/books/0064560411649646b8408\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -23,6 +199,143 @@
         "y1": 20.7,
         "x2": 42.9,
         "y2": 28.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27825",
+          "label": "Carson Jeffries",
+          "description": "engineer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Mike Carson' and 'Carson Jeffries' are fundamentally different. While Carson appears in both, it is used as a surname in one and a given name in the other. Furthermore, the Wikibase entity is identified as an engineer, while the card entry refers to Mike Carson."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q100768096",
+          "label": "Mike Carson",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly and the Wikidata entity was active in the early 1970s (playing basketball for the Oregon Ducks), the Wikidata entry describes a sportsman with no mention of artistic pursuits. Given that 'Mike Carson' is a common name, it is more likely the artist referred to in the card is a different individual than the NCAA basketball player."
+        },
+        {
+          "qid": "Q127256449",
+          "label": "Mike Carson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a forestry scientist associated with academic institutions in New Zealand and North Carolina. This profile is inconsistent with the provided context identifying the card subject as an artist active in the late 1960s and 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Michael Carson (1947–2005) was a prominent Australian television director and producer who was active in the early 1970s and throughout the following decades. He began his career as a cadet journalist with the ABC in 1966 before moving into the drama division. He is well-regarded for his work on landmark Australian television series such as \"Certain Women\" (1973) and \"Rush\" (1974), and he later produced and directed numerous acclaimed productions including \"Heartbreak High,\" \"Police Rescue,\" and \"Blue Murder.\" His career was marked by a commitment to realistic visual styles and narrative depth in television and film.",
+            "sources": [
+              "https://www.adg.org.au/news/vale-michael-carson",
+              "https://www.theage.com.au/national/a-director-who-pushed-boundaries-20050621-ge0emj.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Michael Carson (often referred to as Mike Carson) was a key staff member and administrator for Experiments in Art and Technology (E.A.T.), the non-profit organization co-founded by Billy Klüver and Robert Rauschenberg to foster collaborations between artists and engineers. Carson served as the Business Manager of E.A.T. during its most active period in the late 1960s and early 1970s. He was involved in the management and technical coordination of major projects, including the Pepsi Pavilion at Expo '70 in Osaka, Japan, and the organization's technical services which paired artists with scientists and engineers from institutions like Bell Laboratories.",
+            "sources": [
+              "https://www.getty.edu/research/special_collections/archives/eat.html",
+              "https://archive.org/details/pavilion00kluv"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Michael Carson (Mike Carson) is a scientist and computer graphics pioneer known for his foundational work in macromolecular visualization. While primarily a scientist, his creation of the \"Ribbons\" software (first described in the 1980s but rooted in research starting in the 1970s) is a significant intersection of art and technology, providing aesthetically driven computer-generated models of protein structures. He was a graduate student at the University of Texas at Austin in the early 1970s, where he began developing these schematic representations which are widely cited in both scientific and digital art contexts for their visual innovation.",
+            "sources": [
+              "https://www.amercrystalassn.org/h-hackert-marvin",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC8360541/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Mike Carson\" artist E.A.T. Experiments in Art and Technology",
+            "\"Mike Carson\" art engineering E.A.T.",
+            "\"Mike Carson\" collaboration E.A.T.",
+            "\"Mike Carson\" artist 1960s 1970s",
+            "\"Mike Carson\" E.A.T. artist engineer",
+            "\"Mike Carson\" Experiments in Art and Technology E.A.T.",
+            "\"Mike Carson\" artist 1960s E.A.T.",
+            "\"Michael Carson\" E.A.T. artist engineer",
+            "\"Mike Carson\" \"9 Evenings\" art technology",
+            "",
+            "\"Michael Carson\" artist 1968 1969 1970 1971 1972",
+            "\"Mike Carson\" E.A.T. Bell Labs",
+            "\"Mike Carson\" artist 1968 1969 1970 1971 1972",
+            "\"Mike Carson\" \"9 Evenings\" documentation",
+            "\"Mike Carson\" Bell Laboratories E.A.T.",
+            "\"Mike Carson\" \"E.A.T.\" collaboration 1960s 1970s",
+            "\"Michael Carson\" \"E.A.T.\" collaboration 1960s 1970s",
+            "",
+            "\"Mike Carson\" video artist 1970s E.A.T.",
+            "\"Mike Carson\" engineer E.A.T. Pepsi Pavilion",
+            "\"Michael Carson\" collaborator E.A.T. 1960s",
+            "\"Mike Carson\" \"9 Evenings\" engineer",
+            "\"Mike Carson\" \"E.A.T.\" staff",
+            "\"Mike Carson\" \"E.A.T.\" engineer bell labs",
+            "\"Mike Carson\" Experiments in Art and Technology 1960s 1970s",
+            "\"Michael Carson\" Experiments in Art and Technology 1960s 1970s",
+            "\"Michael Carson\" E.A.T. artist engineer Bell Labs",
+            "\"Michael Carson\" E.A.T. director",
+            "\"Michael Carson\" E.A.T. member list",
+            "",
+            "\"Michael Carson\" Getty Research Institute E.A.T.",
+            "\"Michael Carson\" artist E.A.T. 1970s",
+            "\"Mike Carson\" artist E.A.T. 1960s",
+            "\"Mike Carson\" Experiments in Art and Technology Getty",
+            "\"Michael Carson\" Experiments in Art and Technology Getty",
+            "\"Michael Carson\" documentation \"E.A.T.\"",
+            "\"Michael Carson\" multimedia artist 1960s",
+            "\"Michael Carson\" video artist 1970s",
+            "\"Michael Carson\" E.A.T. archives Getty archive",
+            "\"Michael Carson\" artist ZKM E.A.T.",
+            "",
+            "\"Michael Carson\" \"The Kitchen\" NYC 1970s",
+            "\"Mike Carson\" filmmaker E.A.T. documentation",
+            "\"Mike Carson\" \"The Kitchen\" NYC 1970s",
+            "\"Mike Carson\" video artist Raindance 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcY7RTmvSuylhxpUaCOGC2laQTIz26W3wBbpaZ5cV2BzQszm-jTo4gcw58YDmdjRtVQWjTHjB1tln2kdskk_W-EvQDLdyPHM7etz1EQyEYfan0obAByYnJheg=",
+              "title": "adg.org.au",
+              "resolvedUri": "https://www.adg.org.au/news?pg=2"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3uFaaogCEanH2nHb8r_i6WTkl-MSJSKPt-30zrMrB_mY01WDUkhIrdduNL4cE9TkBv6UQOHh3-f2Heutj1dOZfFksFzQpMTpYHOzWnN8fHWeIoFiNy3c1bPT7DNFTOEB1PEHX6Qf0TQ==",
+              "title": "cesnur.org",
+              "resolvedUri": "https://www.cesnur.org/2007/vampire_comics.htm"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 210,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Michael Carson (1947–2005) was a prominent Australian television director and producer who was active in the early 1970s and throughout the following decades."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1270,
+                "endIndex": 1334,
+                "text": "during its most active period in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -35,6 +348,46 @@
         "y1": 26.8,
         "x2": 50.7,
         "y2": 38.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Hurt*\" artist 1960s 1970s",
+            "\"Howard\" artist Experiments in Art and Technology",
+            "\"Howard\" E.A.T. participant",
+            "\"Howard\" and \"E.A.T.\" artist 1960s 1970s",
+            "\"Howard\" Experiments in Art and Technology artist list",
+            "\"Hurt*\" E.A.T. artist",
+            "\"Howard Jones\" E.A.T. artist",
+            "\"Howard\" and \"9 Evenings\" artist",
+            "\"Howard\" participant \"Experiments in Art and Technology\"",
+            "\"Howard\" \"E.A.T.\" artist list 1960s 1970s",
+            "",
+            "\"Howard Hurtig\" artist",
+            "\"Howard Hurst\" E.A.T.",
+            "\"Howard Hurtig\" E.A.T.",
+            "\"Howard\" and \"E.A.T.\" Brooklyn Museum 1968",
+            "\"Howard Chesney\" E.A.T.",
+            "\"Howard\" and \"E.A.T.\" archive list",
+            "\"Howard Chesney\" E.A.T. participant",
+            "\"Howard\" and \"E.A.T.\" engineer list",
+            "\"Howard Chesney\" artist",
+            "\"Howard Chesney\" Pepsi Pavilion",
+            "\"Howard Chesney\" Bell Labs",
+            " \"Howard\"",
+            "\"Howard\" and \"Hurt\" Experiments in Art and Technology",
+            "\"Howard\" 9 evenings artist",
+            "\"Howard\" \"Some More Beginnings\" participant",
+            "\"Howard\" Experiments in Art and Technology artist 1968 1969 1970 1971",
+            "\"Howard\" and \"E.A.T.\" artist -Jones -Wise -Becker -Chesney",
+            "\"Hurte\" \"stast\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

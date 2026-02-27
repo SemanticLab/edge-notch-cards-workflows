@@ -8,6 +8,133 @@
         "y1": 7.7,
         "x2": 34.3,
         "y2": 24.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q919",
+          "label": "Curtis Fuller",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different: 'Nick Curtis' vs 'Curtis Fuller'. In the card entry, 'Curtis' is the surname, whereas in the Wikibase entity, 'Curtis' is the given name."
+        },
+        {
+          "qid": "Q189",
+          "label": "Curtis Porter",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different: the card refers to Nick Curtis, while the Wikibase entity is Curtis Porter (a jazz musician also known as Shafi Hadi). While both are artists, there is no evidence that 'Nick Curtis' is an alias for Curtis Porter."
+        },
+        {
+          "qid": "Q18934",
+          "label": "Curtis Mayfield",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Nick Curtis' and 'Curtis Mayfield' do not match. While both are artistic figures, 'Curtis' is the surname for Nick and the given name for Mayfield, and there is no evidence suggesting they are the same person."
+        },
+        {
+          "qid": "Q20893",
+          "label": "Curtis Mitchell",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different. The card refers to 'Nick Curtis', while the Wikibase entity refers to 'Curtis Mitchell'. While 'Curtis' appears in both names, it serves as a surname in the former and a given name in the latter, and the other names (Nick vs. Mitchell) do not correspond."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q100774466",
+          "label": "Nick Curtis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a basketball player born in 1983. This person could not have been an active artist during the late 1960s or early 1970s, as required by the context of the card."
+        },
+        {
+          "qid": "Q105609555",
+          "label": "Nick Curtis",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Nick Curtis' matches exactly. The Wikidata entity describes a type designer (a creative/artistic occupation) born in 1948, which would make him active and in his early twenties during the late 1960s and early 1970s. While the date on the card (January 17) does not match the Wikidata birth date (February 22), the card date likely refers to an entry or event date rather than a birth date."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Nicholas (Nick) Curtis (born 1948) is an American graphic artist and prolific type designer whose career began in the late 1960s. Initially based in East Dallas, he got his start designing freelance rock posters and concert poster lettering during the Art Nouveau and psychedelic revival era of the late 1960s. Over several decades, his work spanned multiple mediums including print, audiovisual (A/V) production, broadcast television (notably at an NBC affiliate), and early computer graphics. He is best known for founding the independent type foundry 'Nick's Fonts' in 1997, through which he has released over a thousand digital typefaces, many of which are revivals of historical 19th and 20th-century lettering. His career is characterized by a strong interest in the intersection of commercial art and emerging technology, having worked at a computer company and in A/V production, fields closely aligned with the mission of the Experiments in Art and Technology (E.A.T.) organization. Curtis is also a Resident Associate of the Smithsonian Institution and a Registered Researcher with the Library of Congress. In 2014, he donated a significant collection of approximately 300 books on typography and graphic design history to the University of Virginia's Small Special Collections Library.",
+            "sources": [
+              "https://www.myfonts.com/person/Nick_Curtis/",
+              "https://news.virginia.edu/content/notes-under-grounds-display-fonts-and-clip-art-and-show-cards-oh-my",
+              "http://luc.devroye.org/fonts-24536.html",
+              "https://www.creativebloq.com/graphic-design/join-fat-club-7082902"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Nick Curtis\" artist collaborator 1960s",
+            "\"Nicholas Curtis\" artist Experiments in Art and Technology",
+            "\"Nick Curtis\" E.A.T. artist",
+            "artist \"Nick Curtis\" 1960s 1970s Experiments in Art and Technology",
+            "\"Nick Curtis\" \"Experiments in Art and Technology\"",
+            "\"Nicholas Curtis\" E.A.T. 1960s",
+            "\"Nick Curtis\" artist collaboration 1970s",
+            "\"Nick Curtis\" E.A.T. 1960s",
+            "\"Nick Curtis\" Pepsi Pavilion",
+            "\"Nick Curtis\" artist 1960s rock posters 1970s type designer",
+            "\"Nicholas Curtis\" Experiments in Art and Technology archive",
+            "\"Nick Curtis\" artist 1960s 1970s multimedia",
+            "\"Nick Curtis\" Experiments in Art and Technology archive",
+            " \"Nicholas Curtis\"",
+            " \"Nick Curtis\"",
+            "\"Nick Curtis\" artist \"9 Evenings\"",
+            "\"Nick Curtis\" light show artist 1960s",
+            "\"Nick Curtis\" Experiments in Art and Technology member list",
+            "\"Nick Curtis\" \"Experiments in Art and Technology\" directory",
+            "\"Nick Curtis\" \"E.A.T.\" member archive",
+            "\"Nick Curtis\" filmmaker \"E.A.T.\"",
+            "\"Nick Curtis\" \"Experiments in Art and Technology\" collaborator",
+            "\"Nicholas Curtis\" \"E.A.T.\" 1970",
+            "\"Nick Curtis\" \"E.A.T.\" 1970"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElCNp22m8sdoAZVfBzT5pgYLTH59qent5sKa0MuIuuii7JtRd7VIGFP7WQTD09_sYI1gBGNI7TbtqSob4GhLg0xoOhFcDM7i5grtREiAJftzgTGa9_KTHd3H3JrXjbdso1W-rNVtxQAuADQw0TsOU=",
+              "title": "wordpress.com",
+              "resolvedUri": "https://thegenealogyofstyle.wordpress.com/tag/curtis/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGEtZ7j_vKffTCJLdo2Ur7dMpIPs64i7VTGFQxVnIDying_PvSSih61q0_NzMHwCDojiiPHbKSdgbK_uDBVOX_17K7lp6TsSjY423M_HSg21jlQd1pcl4Jp5h1MDhYqSUzj_ysRLo7q6JEv6-OsyDF28QyMA==",
+              "title": "virginia.edu",
+              "resolvedUri": "https://smallnotes.library.virginia.edu/tag/elizabeth-ott/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 179,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Nicholas (Nick) Curtis (born 1948) is an American graphic artist and prolific type designer whose career began in the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1167,
+                "endIndex": 1715,
+                "text": "In 2014, he donated a significant collection of approximately 300 books on typography and graphic design history to the University of Virginia's Small Special Collections Library.\",\n      \"sources\": [\n        \"https://www.myfonts.com/person/Nick_Curtis/\",\n        \"https://news.virginia.edu/content/notes-under-grounds-display-fonts-and-clip-art-and-show-cards-oh-my\",\n        \"http://luc.devroye.org/fonts-24536.html\",\n        \"https://www.creativebloq.com/graphic-design/join-fat-club-7082902\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -18,6 +145,61 @@
         "y1": 18.4,
         "x2": 33.6,
         "y2": 33.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16739005",
+          "label": "Dunken Francis Mullet",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Dunken Francis Mullett was born in 1964 and began his career in 1982. This contradicts the context that the person on the card was an artist active in the late 1960s and early 1970s. Additionally, 'Ron' is not part of the Wikidata entity's name."
+        },
+        {
+          "qid": "Q76133722",
+          "label": "Dunken James Kelle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1979, which contradicts the provided context that the artist from the card was active in the late 1960s and early 1970s. Additionally, the names do not match, as 'Dunken' is a given name for the Wikidata entity and likely a surname for the person on the card."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Ron Dunken\" E.A.T.",
+            "\"Ron Duncan\" artist E.A.T.",
+            "\"Ron Dunken\" E.A.T.",
+            "\"Ron Duncan\" E.A.T. artist",
+            " \"Dunken\"",
+            "\"Ron Dunken\" E.A.T. member",
+            "\"Ron Duncan\" E.A.T. member",
+            " \"Ron Dunken\"",
+            "\"Ron Dunker\" E.A.T.",
+            "\"Ron Dunkley\" E.A.T.",
+            "\"Ron Dunken\" \"E.A.T.\" member list",
+            "\"Ron Dunken\" 9 Evenings artist",
+            " \"Dunken\"",
+            " \"Duncan\"",
+            "\"Ron Duncan\" artist Experiments in Art and Technology",
+            "\"Experiments in Art and Technology\" membership directory",
+            "\"E.A.T.\" artist \"Ron Duncan\"",
+            "",
+            "\"Ron Dunken\" E.A.T. \"New York\"",
+            "\"Ron Duncan\" artist NY 1960s",
+            "Ron Dunken E.A.T. artist",
+            "\"Ron Duncan\" artist E.A.T.",
+            "\"Ron Dunken\" engineer E.A.T.",
+            "",
+            "\"Ron Dunken\" E.A.T. chapter",
+            "\"Ron Duncan\" E.A.T. chapter",
+            "",
+            "",
+            "\"Ron Dunken\" Garland Texas 1964 engineer"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -28,6 +210,85 @@
         "y1": 28.5,
         "x2": 30.5,
         "y2": 38.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26327",
+          "label": "Pat Sloane",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly and both sources refer to an artist. The Wikibase entity specifically mentions the 'E.A.T. Technical Services Program Edge-Notched Cards', which corresponds to the physical index card context provided."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7144027",
+          "label": "Pat Sloane",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q7144027) describes an Irish hurler born in 1980, which makes it impossible for them to be the artist active during the late 1960s and early 1970s described in the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Patricia \"Pat\" Sloane (1934–2001) was an American painter, filmmaker, author, and educator active from the late 1950s through the 1990s. In the late 1960s and early 1970s, she was deeply involved in the New York art scene both as a practitioner and a critic. As a painter, she was associated with the 10th Street Galleries (specifically the Camino Gallery) and the New York School, later moving toward Abstract Expressionist and geometric styles. Her experimental film work includes the 1970 16mm film \"A Knee Ad,\" which she described as a non-narrative cinematic statement on motion. Sloane was also a significant figure in the study of color theory, receiving a Guggenheim Fellowship in 1974 for her research. Her association with Experiments in Art and Technology (E.A.T.) and the broader art-and-technology movement is evidenced by her critical writing on emerging media; for example, she wrote \"Video Revolution\" for Art and Artists in 1972, discussing the work of Nam June Paik. She held a PhD from New York University and was a long-time professor of fine arts at New York City Technical College (CUNY).",
+            "sources": [
+              "https://film-makerscoop.com/filmmakers/patricia-sloane",
+              "https://www.artsy.net/artist-series/patricia-sloane-portraits",
+              "https://www.veteranfeministsofamerica.org/fabulous-feminist-cindy-nemser/",
+              "https://archive.org/details/videoartexhibit00inst/page/112/mode/2up",
+              "https://www.gf.org/fellows/patricia-sloane/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Pat Sloane\" artist biography",
+            "\"Pat Sloane\" artist 1960s 1970s",
+            "\"Patricia Sloane\" artist E.A.T.",
+            "Pat Sloane artist Experiments in Art and Technology",
+            "\"Pat Sloane\" artist science technology",
+            "\"Pat Sloane\" art critic E.A.T.",
+            "\"Patricia Sloane\" E.A.T. membership"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK_jtB6M7ZyTzxTTxXemXzR0nCHOEs7F5J4OVG_NB40a1o_Wde1q0tU057w_rlVHhq5vnuDTrmfPVZphUWkWfYmcg3bOjapDlOKUGAPL968yPUwyo65NOAFPpkYrAJuaVO6ciryJbEvCqPW4th_589",
+              "title": "theworld.com",
+              "resolvedUri": "https://theworld.com/~raparker/pub/pun_and_games.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvnisIoYsa6XJqDdEVpqmn2Vg2XEuhsml9nf5JUZJyZwp0PvjjoW9Kk-gyS9hbAVoVYL0Ku72I4-mGdaUY4bxeesnf5Rso54pAEjSadXNb7NgEvF3Jyl2BKgkoCGbkKzyCCByybe0i4RAZpg0s7Uc2xDvT0iQx64eVtDs7nlDNWdKSTXm8fNY4eQ==",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/download/videoartexhibiti00univ/videoartexhibiti00univ.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 190,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Patricia \\\"Pat\\\" Sloane (1934–2001) was an American painter, filmmaker, author, and educator active from the late 1950s through the 1990s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 768,
+                "endIndex": 1042,
+                "text": "Her association with Experiments in Art and Technology (E.A.T.) and the broader art-and-technology movement is evidenced by her critical writing on emerging media; for example, she wrote \\\"Video Revolution\\\" for Art and Artists in 1972, discussing the work of Nam June Paik."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -38,6 +299,286 @@
         "y1": 34.6,
         "x2": 36.5,
         "y2": 45.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q919",
+          "label": "Curtis Fuller",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to David Curtis, while the Wikibase entity refers to Curtis Fuller, a well-known jazz trombonist. Although 'Curtis' appears in both names, it is a surname in the first case and a given name in the second."
+        },
+        {
+          "qid": "Q189",
+          "label": "Curtis Porter",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'David Curtis' and 'Curtis Porter' do not match. While both are associated with the arts (Curtis Porter was a jazz musician), there is no evidence to suggest that David Curtis is an alias for Curtis Porter (who is better known as Shafi Hadi)."
+        },
+        {
+          "qid": "Q18934",
+          "label": "Curtis Mayfield",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'David Curtis' and 'Curtis Mayfield' do not match. One is a specific individual (David Curtis) likely involved in visual or film arts, while the Wikibase entity refers to the famous soul musician Curtis Mayfield."
+        },
+        {
+          "qid": "Q20893",
+          "label": "Curtis Mitchell",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'David Curtis', while the Wikibase entity refers to 'Curtis Mitchell'. Although 'Curtis' appears in both, it is used as a surname in the first instance and a given name in the second, and there is no evidence to suggest they are the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q729986",
+          "label": "David Munson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (David Curtis vs. David Munson). Additionally, the Wikidata entity (Q729986) was an athlete who died in 1953, which contradicts the information that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q2442557",
+          "label": "Tony Glover",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'David Curtis' and 'Tony Glover' do not match. There is no indication in the Wikidata entity for Tony Glover that he ever used the name David Curtis or that it was an alias."
+        },
+        {
+          "qid": "Q5203537",
+          "label": "David Curtiss Stephenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity David Curtiss Stephenson died in 1966, whereas the person on the card is known to be an artist active in the late 1960s and early 1970s. Furthermore, Stephenson was a politician and KKK leader, not an artist, and 'Curtis' is his middle name rather than his surname."
+        },
+        {
+          "qid": "Q5232068",
+          "label": "David C. Williams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card name is 'David Curtis', whereas the Wikidata entity is 'David Curtis Williams' (a civil servant and Secret Service agent). Not only does the surname mismatch, but the Wikidata entity's professional profile is entirely unrelated to the arts context provided for the card entry."
+        },
+        {
+          "qid": "Q5232732",
+          "label": "David Curtis Skaggs, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist named David Curtis active in the late 1960s or early 1970s. The Wikidata entity Q5232732 refers to David Curtis Skaggs, Jr., a military historian and academic. Not only do the occupations differ significantly (historian vs. artist), but the Wikidata entity's surname is Skaggs, whereas the card identifies the individual as David Curtis."
+        },
+        {
+          "qid": "Q5232734",
+          "label": "David Curtis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q5232734) refers to an Irish rugby player and cricketer born in 1965 who began his professional career in 1984. This contradicts the profile of the individual on the card, who is described as an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q16104554",
+          "label": "David Steinmetz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names only partially match: 'David Curtis' on the card corresponds to the given names of the Wikidata entity, David Curtis Steinmetz. However, the Wikidata entity is a historian, theologian, and university teacher specializing in the history of Christianity, which does not align with the provided context that the person on the card is an artist. Additionally, the dates do not correspond."
+        },
+        {
+          "qid": "Q21165887",
+          "label": "David Roderick Curtis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q21165887 refers to a prominent Australian physiologist and pharmacologist (David Roderick Curtis), while the card context specifies an artist active in the late 1960s or early 1970s. These are two distinct individuals with completely different career paths."
+        },
+        {
+          "qid": "Q55475773",
+          "label": "David Curtis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q55475773 refers to a specific academic researcher affiliated with University College London and Queen Mary University of London (likely the psychiatrist and geneticist David Curtis). While the name matches, the card refers to an artist active in the late 1960s and early 1970s (likely the David Curtis associated with the London Film-makers' Co-op), which is a distinct career path and time period from the academic researcher described in the Wikidata entry."
+        },
+        {
+          "qid": "Q61054287",
+          "label": "David J Curtis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to David Curtis in an artistic context, likely the well-known British experimental filmmaker and curator active in the 1960s and 70s. The Wikidata entity (Q61054287) refers to a researcher at Monash University, which is a different professional profile and timeframe."
+        },
+        {
+          "qid": "Q80635362",
+          "label": "Dave Curtis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q80635362) describes a professional sailor and athlete, which does not align with the artistic context provided for the individual on the card. Furthermore, the birth date for the sailor is June 22, whereas the card indicates a date of May 26."
+        },
+        {
+          "qid": "Q88644941",
+          "label": "David S Curtis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the name 'David Curtis' matches, the Wikidata entity Q88644941 is described as a researcher associated with contemporary institutions like the University of Utah. The David Curtis mentioned on the card is specifically identified as an artist active in the late 1960s and early 1970s (likely referring to the prominent British experimental filmmaker David Curtis, Q5232709). The profiles of an academic researcher and a 1960s/70s avant-garde filmmaker do not align."
+        },
+        {
+          "qid": "Q90413107",
+          "label": "David Curtis",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names are an exact match, 'David Curtis' is a common name. The Wikidata entity is identified as a 'researcher', which does not directly align with the person on the card described as an artist or creative active in the 1960s/70s. There are other individuals named David Curtis, such as the well-known British filmmaker and film historian (Q5232706), who would be a more plausible match for the artistic context provided."
+        },
+        {
+          "qid": "Q95290097",
+          "label": "David F Curtis",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names are a match, the Wikidata entity is described as a researcher at Baylor College of Medicine, which is a medical/scientific career path. This contrasts with the card's context, which identifies David Curtis as an artist active in the late 1960s and early 1970s (likely the British experimental filmmaker and curator of the same name)."
+        },
+        {
+          "qid": "Q98760913",
+          "label": "David Curtis",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity is a visual artist born in 1948, making him the correct age to be active in the late 1960s and early 1970s. This aligns perfectly with the provided context that the person on the card is an artist from that era."
+        },
+        {
+          "qid": "Q102047674",
+          "label": "David Curtis Dearborn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'David Curtis,' while the Wikidata entity is 'David Curtis Dearborn.' Furthermore, the Wikidata entity is identified as a genealogist, which does not match the provided context that the individual on the card is an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q105973079",
+          "label": "David Curtis Nickerson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity David Curtis Nickerson was born in 1854 and was a politician active in the early 1900s. This is chronologically incompatible with the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q106637831",
+          "label": "David Curtis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q106637831) lived from 1682 to 1768, which is completely incompatible with the context that the David Curtis on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q107529106",
+          "label": "David Curtiss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (David Curtiss) was born in 2002 and is a competitive swimmer. This is chronologically incompatible with the person on the card, who was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q108806395",
+          "label": "David Curtis DeForest",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are entirely incompatible. The Wikidata entity lived from 1774 to 1825, whereas the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q110937421",
+          "label": "David A. Curtis",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity David A. Curtis lived from 1846 to 1923, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card's context."
+        },
+        {
+          "qid": "Q112455829",
+          "label": "David Curtis",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'David Curtis' matches exactly. The Wikidata entity is identified as working in the field of film and was born in 1942, which makes him the appropriate age to be active as an artist/filmmaker during the late 1960s and early 1970s. This aligns perfectly with the provided context."
+        },
+        {
+          "qid": "Q112556836",
+          "label": "David C. Bennett",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match; the card refers to David Curtis, while the Wikidata entity is David C. Bennett. Furthermore, the Wikidata entity is a linguist and university teacher, which does not align with the provided context that the person on the card is an artist."
+        },
+        {
+          "qid": "Q120590432",
+          "label": "David Curtis",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'David Curtis' matches exactly. The person on the card is described as an artist active in the late 1960s and early 1970s, which aligns perfectly with the known career of David Curtis, a prominent figure in the British experimental film scene who founded the London Film-makers' Co-op in 1966. The Wikidata entity Q120590432 represents this specific David Curtis."
+        },
+        {
+          "qid": "Q129215748",
+          "label": "David Curtis Baker",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity refers to 'David Curtis Baker', an American painter where Baker is the surname. The card refers to 'David Curtis', implying Curtis is the surname. While Baker was active during the required timeframe, the discrepancy in the surname makes this an unlikely match, especially given there are other prominent artists (such as the filmmaker David Curtis) who match the name more precisely."
+        },
+        {
+          "qid": "Q131340353",
+          "label": "David Curtis Wright",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is David Curtis, whereas the Wikidata entity is David Curtis Wright, a historian and university teacher. The card likely refers to David Curtis, the well-known British experimental filmmaker and curator who was active during the late 1960s and 1970s, rather than a Canadian historian with a different surname structure."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "David Curtis is a British filmmaker, curator, and historian of experimental cinema who was a central figure in the London avant-garde scene during the late 1960s and early 1970s. In 1967, he became the film programmer at the Drury Lane Arts Lab, a pioneering alternative arts center. Following its closure, he was a co-founder and programmer for the New Arts Lab (also known as the Institute for Research in Art and Technology or IRAT) from 1969 to 1971. IRAT was conceptually aligned with the Experiments in Art and Technology (E.A.T.) movement, focusing on the integration of art, computers, video, and cybernetic theatre. Curtis played a key role in the formation of the London Film-Makers' Co-op and authored 'Experimental Cinema: A Fifty Year History' (1971), one of the first major surveys of the field. He later served as the Senior Film Officer at the Arts Council of Great Britain from 1977 to 2000 and founded the British Artists’ Film & Video Study Collection at Central Saint Martins. His work as a 'general enabler' and curator has documented the genealogy of art-and-technology labs that emerged during that era.",
+            "sources": [
+              "https://www.sensesofcinema.com/2021/book-reviews/when-everything-seemed-possible-londons-arts-labs-and-the-60s-avant-garde-by-david-curtis/",
+              "https://en.wikipedia.org/wiki/Arts_Lab",
+              "https://www.studiointernational.com/index.php/londons-arts-labs-and-the-60s-avant-garde-david-curtis-review",
+              "https://www.makery.info/en/2020/11/03/crash-how-the-counterculture-collided-with-arts-lab-culture-in-the-60s/",
+              "https://www.intellectbooks.com/david-curtis",
+              "https://www.arts.ac.uk/colleges/central-saint-martins/stories/temporalities-celebrating-central-saint-martins-moving-image-history"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "David Curtis Drury Lane Arts Lab E.A.T.",
+            "David Curtis artist Experiments in Art and Technology E.A.T.",
+            "\"David Curtis\" artist 1960s 1970s E.A.T.",
+            "\"David Curtis\" film artist E.A.T.",
+            "\"David Curtis\" Experiments in Art and Technology E.A.T. participant",
+            "\"David Curtis\" IRAT filmmaker E.A.T.",
+            "\"David Curtis\" \"E.A.T.\" artist NY"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5JsGJMwfhHcp1NsAjT9lBOSi9saxygW-AwVkj_36LD--NRH-lFfrmZ5Le1iS-ZLHW4d4XeOPiym8ZB7fyvw6GYVDM5P0tfznMrnP7MOZVg09aeCnD7RQ-7aT-WrS0y_QhojOCbZ7k9qIqiWgvIm1XOLzJkCQR4V3E0ASt3t6NclRGyEyPQtL7RaFPGr2CdH7debPwS4HeHzJOHWxIOTRK",
+              "title": "studiointernational.com",
+              "resolvedUri": "https://www.studiointernational.com/londons-art-labs-and-the-60s-avant-garde-david-curtis-book-review"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu9-RzdNYJ7uQwwcBzRoBvBztQH1pA0WjQ5EjSzHMhK7kxHkMbzNGLMylHRhmH9qut6OK46WUp3ayb9uEyhSjzyV5ORa33eiPiTcUNDGqrbPLHn0WA49BlXuJfp_SzCg4unmWQGvBNMYpu5cRi5sg9MZtkHfY2lPZLo7HpBw==",
+              "title": "erudit.org",
+              "resolvedUri": "https://www.erudit.org/fr/revues/im/2017-n30-31-im03868/1049946ar/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 228,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"David Curtis is a British filmmaker, curator, and historian of experimental cinema who was a central figure in the London avant-garde scene during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 587,
+                "endIndex": 674,
+                "text": "movement, focusing on the integration of art, computers, video, and cybernetic theatre."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -48,6 +589,164 @@
         "y1": 41.6,
         "x2": 38.2,
         "y2": 51.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26378",
+          "label": "Richard Lowenberg",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'R. Lowenberg' matches the initial and surname of Richard Lowenberg. Furthermore, the Wikibase entity is explicitly categorized as being part of the E.A.T. Technical Services Program Edge-Notched Cards project, which is the source of the physical index card provided."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q123292749",
+          "label": "Antonie Löwenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Antonie Löwenberg) was born in 1896 and was a victim of the Holocaust, transported in 1941. This is temporally incompatible with the artist 'R. Lowenberg' who was active in the late 1960s/early 1970s. Additionally, the first initial does not match."
+        },
+        {
+          "qid": "Q123292809",
+          "label": "Karl-Heinz Löwenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The initials do not match (R. Lowenberg vs. Karl-Heinz Löwenberg). Additionally, the Wikidata entity describes a Holocaust victim with no recorded history of artistic activity, whereas the card refers to an artist associated with the E.A.T. program, likely Richard Lowenberg."
+        },
+        {
+          "qid": "Q123293168",
+          "label": "Ernst Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Ernst Löwenstein) was born in 1877 and is identified as a Holocaust victim deported in 1941, making it impossible for him to be the artist 'R. Lowenberg' active in the late 1960s and 1970s. Furthermore, the names (Ernst vs R, and Löwenstein vs Lowenberg) do not match."
+        },
+        {
+          "qid": "Q123293261",
+          "label": "Karl Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'R. Lowenberg' on the card does not match 'Karl Löwenstein'. Furthermore, the Wikidata entity describes a Holocaust victim born in 1880 and deported in 1941, which is incompatible with an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q123293379",
+          "label": "Margarete Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name and biographical details are a complete mismatch. The card entry refers to 'R. Lowenberg', an artist active in the late 1960s and 1970s (likely Richard Lowenberg). The Wikidata entity Q123293379 is Margarete Löwenstein, who was born in 1891 and was a victim of the Holocaust, making it impossible for her to be the individual active in the contemporary art scene of the late 20th century described in the card context."
+        },
+        {
+          "qid": "Q123293512",
+          "label": "Selma Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Selma Lowenstein, a Holocaust victim born in 1877 who was transported to a ghetto in 1941. This person could not be the artist 'R. Lowenberg' active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Richard Lowenberg (born 1946 in Haifa, Israel) is an American-based artist, designer, and eco-cultural activist whose work has focused on the intersection of art, science, technology, and ecology since the late 1960s. He studied architecture and design at the Pratt Institute in Brooklyn from 1964 to 1968. During this formative period in New York, he was deeply involved in the experimental art scene and served as a student assistant to Robert Rauschenberg during the landmark '9 Evenings: Theatre & Engineering' (1966), a seminal event organized by Experiments in Art and Technology (E.A.T.). In 1971, he was a founding member of the influential media art space The Kitchen in New York and initiated the first electronic media arts program at Pratt Institute. Lowenberg's career is marked by pioneering bio-sensing and interspecies communication projects, such as his Bio-Arts Lab (established in 1973) and his collaborative video performance 'The Secret Life of Plants' (1976), which utilized plant bio-signals to generate music and visuals. Throughout the 1970s and 1980s, he conducted extensive collaborations with NASA, including 'Gravitational-Field-Day' (1979), which involved dancers in astronaut training simulations. His practice continues to evolve through initiatives like the 1st-Mile Institute and the SARC (Scientists/Artists Research Collaborations), emphasizing the 'ecology of the information environment.'",
+            "sources": [
+              "https://www.richardlowenberg.com",
+              "https://www.artsy.net/article/artsy-editorial-pioneering-artist-harnessed-science-communicate-plants",
+              "https://flash---art.com/2019/10/cross-species-communication-and-bio-sensing-art-of-the-1970s-and-80s-a-conversation-with-richard-lowenberg/",
+              "https://www.well.com/conf/inkwell.vue/topics/516/Richard-Lowenberg-Issues-in-Socia-page01.html",
+              "https://datagarden.org/news/2011/9/20/bio-sensing-art-in-the-1970s"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Richard Lowenberg artist biography",
+            "\"Richard Lowenberg\" artist Experiments in Art and Technology",
+            "artist R. Lowenberg Experiments in Art and Technology E.A.T.",
+            "\"R. Lowenberg\" artist 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTgWdfn7sgT4g_7ASJHCZmXLTgnOrshm7bvsvS8quk0v4JGJquWzoKPk7J__VTmehYmdXel6HKWsTUZ-RHjsD3Y4TjF_qEtz3lZkZOnNwHOp2R2y1zD8w2I2hCTbwdQeO4nmjDYkExUBA33F_T3vsu1UZb_Un9RKn_HeJvIllz_hm0qEowC1mvD1PqMED3P4Ol7A==",
+              "title": "richardlowenberg.com",
+              "resolvedUri": "http://www.richardlowenberg.com/uploads/1/8/3/0/18303441/rl-eco-arts-outline-bio-rl.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgd_RrtAz9O8pDfYT5wn2YHzU7XCoD-ccDpSx3PnL5XUI9yTfDL21Mp3ilTy2hHqNHrpduCYD8kS6z8bGkpIVdC76p3tNvX4iQKcNk7TQEfHmWSOEfHRVFD5HZ1IXuEeyWI9ALGgB6xbdz-dkk87FS1MDM",
+              "title": "well.com",
+              "resolvedUri": "https://people.well.com/user/jmalloy/issues/richard.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNhrpYdR6Bm1ZWNAzAwwmnbRm96Myi47pPVabQEM3EWwubrwzTP2sRVWo2Fzb4o232k6tqHRhCgA8YkBRgLfaH1TfP0Crkpda4qNJsr_Efs5CqS3vYJ3Ft4NbEIuypPDdIPkEHh4dkuSuNgCJqje_vTrKG1lvahqUNIAkWxGcOjCd35pLNYs2VpDbTTTeJa1z1nj85gK445r136B9VAuhIOYyDoXUjWQbxCZkyWWpNMR77W19wDCRk0kS_RpfSar_1jadZuY7I",
+              "title": "flash---art.com",
+              "resolvedUri": "https://flash---art.com/2019/10/cross-species-communication-and-bio-sensing-art-of-the-1970s-and-80s-a-conversation-with-richard-lowenberg/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-GRSuVk2OaOly3xP3m9dRKhVwcIoFtFeN5-b3IGtncbMKnw75727nDGgNqsrI4opWQZgtSS3Kym9-bpgEZYVB7Q-V3nskUuSpfXeMC9o-n6QCa2lhKzWrke1iviy6271UMJOOlxwNP7MYh2ImrxuhxHENfkw6",
+              "title": "datagarden.org",
+              "resolvedUri": "https://www.datagarden.org/post/richard-lowenberg-interview"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQCMgvnxHmk5pq9aXTT0Sdj9u9WLdgrgAjBxvImvyDDkaoDZgMWfB1Jb34d454vA2INXodUQPSnIunuzlXnHM9YY7LSeyUvPGxNJGUUR452d__sRNQumJyQ6hl4HQ5ezw1dVHxWwd7WERw2LUwxeqLL-JNU8LNJ9x41C48unvbzJ6PPkbTfj8cy42RY1N4bIKJWeOIup-k2FHC_7KVQPPjeQh7B1u33w==",
+              "title": "google.com",
+              "resolvedUri": "https://sites.google.com/andreapolli.com/biocultura/events/laser-art-astrophysics-and-particle-acceleratorsn"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvQX0x7XvdlIGYJQ0e95VdLKfm7xU8rv1t-iOzxZB6bfKQces8AC6Sjubtc4k62LmviBuYneE21rTlGmvx66bO9RJ_XBE9W5-xf6NZ55q_h2fucCZdXRq94NZlyVYm1KkoVoGS4vGxx656ok9TmQApIqxfcirP_AfaQez0CuYg5nBou7-76jLRPvZIanCkEXffxDZm1uqbvfFUAJ7HTlY=",
+              "title": "artsy.net",
+              "resolvedUri": "https://www.artsy.net/article/artsy-editorial-pioneering-artist-harnessed-science-communicate-plants"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 267,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Richard Lowenberg (born 1946 in Haifa, Israel) is an American-based artist, designer, and eco-cultural activist whose work has focused on the intersection of art, science, technology, and ecology since the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 646,
+                "endIndex": 812,
+                "text": "In 1971, he was a founding member of the influential media art space The Kitchen in New York and initiated the first electronic media arts program at Pratt Institute."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1096,
+                "endIndex": 1278,
+                "text": "Throughout the 1970s and 1980s, he conducted extensive collaborations with NASA, including 'Gravitational-Field-Day' (1979), which involved dancers in astronaut training simulations."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1279,
+                "endIndex": 2040,
+                "text": "His practice continues to evolve through initiatives like the 1st-Mile Institute and the SARC (Scientists/Artists Research Collaborations), emphasizing the 'ecology of the information environment.'\",\n      \"sources\": [\n        \"https://www.richardlowenberg.com\",\n        \"https://www.artsy.net/article/artsy-editorial-pioneering-artist-harnessed-science-communicate-plants\",\n        \"https://flash---art.com/2019/10/cross-species-communication-and-bio-sensing-art-of-the-1970s-and-80s-a-conversation-with-richard-lowenberg/\",\n        \"https://www.well.com/conf/inkwell.vue/topics/516/Richard-Lowenberg-Issues-in-Socia-page01.html\",\n        \"https://datagarden.org/news/2011/9/20/bio-sensing-art-in-the-1970s\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -58,6 +757,84 @@
         "y1": 48.0,
         "x2": 33.4,
         "y2": 60.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26362",
+          "label": "W. Right",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records share the same name (W. Right) and are explicitly linked to the E.A.T. Technical Services Program. The Wikibase entity describes the person as an artist, which aligns with the provided context for the physical card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q206384",
+          "label": "Joseph Addison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The two records describe completely different individuals. The card entry refers to a 'W. Right' active in the late 1960s or 1970s associated with E.A.T., whereas the Wikidata entity (Q206384) is Joseph Addison, a famous English poet and politician who lived from 1672 to 1719."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Walter Wright is an interdisciplinary artist, video pioneer, and software engineer who has been active since the late 1960s. He is primarily known for his early experiments in computer animation, video synthesis, and electronic music. Wright began creating electronic images and sound at the University of Waterloo in 1966. In the early 1970s, he worked as a video animator for Computer Image Corporation (CIC) in New York City, where he utilized the Scanimate analog computer system to create video graphics. During this period, he was a key collaborator with experimental artist Ed Emshwiller on the pioneering video works 'Thermogenesis' (1971) and 'Scapemates' (1972), the latter of which was the first computer-generated video nominated for an Emmy Award. Wright was closely associated with the Experimental Television Center (ETC), where he served as the second artist-in-residence (following Nam June Paik) from 1973 to 1976. In this role, he toured galleries, schools, and media centers with the Paik/Abe Video Synthesizer, demonstrating real-time video performance. He also served as an associate director at The Kitchen in New York, where he organized weekly 'Open Screenings' for video artists. His work was heavily inspired by the Experiments in Art and Technology (E.A.T.) collective and the technological developments at Bell Laboratories. In his later career, Wright co-founded the 119 Gallery (originally 911 Gallery) and developed various visual instruments and software, such as the Video Shredder and the AVSynth.",
+            "sources": [
+              "https://www.videohistoryproject.org/walter-wright",
+              "https://www.experimentalintermedia.org/walter-wright-presentation",
+              "https://thekitchen.org/visual-music-at-the-mercer-street-kitchen-1971-1973/",
+              "https://www.eai.org/features/computer-art-festivals",
+              "https://www.experimentaltvcenter.org/history",
+              "https://vasulka.org/archive/Artists2/WrightWalter/WalterWrightVideoMachine.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"W. Right\" Experiments in Art and Technology",
+            "\"W. Right\" artist 1960s 1970s",
+            "\"W. Right\" artist biography 1970s",
+            "Experiments in Art and Technology members list \"W. Right\"",
+            "\"W. Right\" E.A.T. artist",
+            "\"Walter Wright\" video artist 1970s",
+            "artist \"Walter Wright\" Experiments in Art and Technology",
+            "\"Walter Wright\" computer art 1970s",
+            "\"W. Wright\" artist 1960s 1970s E.A.T.",
+            "\"W. Right\" artwork 1970s",
+            "list of artists in \"Experiments in Art and Technology\" W. Right",
+            "\"Walter Wright\" Experiments in Art and Technology collaboration",
+            "\"W. Wright\" artist 1960s 1970s non-video",
+            "\"W. Right\" Experiments in Art and Technology member",
+            "\"W. Right\" Pepsi Pavilion E.A.T.",
+            "\"William Wright\" artist E.A.T.",
+            "\"Walter Wright\" E.A.T. member",
+            "\"W. Right\" artist 1968 1969 1970 1971 1972",
+            "\"W. Right\" E.A.T. collaborator",
+            "\"W. Right\" artist membership \"Experiments in Art and Technology\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqsmuBQwU28RZ2Z4EHGUtuCFQE5d2L7M2K9hobBZveWNhiYL1VEjsOOdhx3XeP615NfoUmIN34xGi871JafJEw0nx7nI7y7oMDeat80VggCKdkVf6NmgcL_dT4Ci5rkgJFVvqzftgCQjZGSV4-RERAcsvsKc_XZqN0fX5Atgw9Efao8pH0f3XPb-KrPgEdI_dftw==",
+              "title": "mit.edu",
+              "resolvedUri": "https://direct.mit.edu/books/oa-monograph/chapter-pdf/2313160/9780262367981_c004300.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 174,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Walter Wright is an interdisciplinary artist, video pioneer, and software engineer who has been active since the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -68,6 +845,129 @@
         "y1": 58.2,
         "x2": 38.4,
         "y2": 71.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q292",
+          "label": "Marshall Royal",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are incompatible. The card lists the surname as 'Marsh' with the initial 'K', whereas the Wikibase entity is for Marshall Royal, where 'Royal' is the surname and 'Marshall' is the given name."
+        },
+        {
+          "qid": "Q939",
+          "label": "Marshall Brown",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'K Marsh', while the Wikibase entity refers to 'Marshall Brown'. Even though Marshall Brown was a jazz artist active during the relevant timeframe, the surnames 'Marsh' and 'Brown' are distinct."
+        },
+        {
+          "qid": "Q25261",
+          "label": "Marshall Berman",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'K Marsh' and 'Marshall Berman' do not align. The card indicates a person with the surname 'Marsh' and first initial 'K', while the Wikibase entity is the philosopher Marshall Berman (surname Berman)."
+        },
+        {
+          "qid": "Q19435",
+          "label": "Marshall McLuhan",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'K MARSH' with metadata 'PVT', which likely refers to Ken Marsh, a video artist associated with the People's Video Theater (PVT). The Wikibase entity is for Marshall McLuhan, a famous media theorist. These are distinct individuals with different names and roles."
+        },
+        {
+          "qid": "Q20931",
+          "label": "Marshall Smith",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are incompatible. The card entry refers to a person with the surname 'Marsh', while the Wikibase entity describes Marshall Smith, where 'Smith' is the surname and 'Marshall' is the given name."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q30102986",
+          "label": "Kevin Marsh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry 'K MARSH' with metadata 'PVT' refers to Ken Marsh, a video artist associated with the People's Video Theater (PVT) who was active in the late 1960s and 1970s. The Wikidata entity Q30102986 is Kevin Marsh, a prominent malariologist and researcher born in 1954. These are two different individuals with completely different professional backgrounds."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ken Marsh (born 1940) is an artist, author, and video pioneer who was active in the New York art and technology scene during the late 1960s and 1970s. Initially working with light shows, he became a central figure in the early video art movement. In 1970, he co-founded the People's Video Theater (PVT) in New York City with Elliot Glass, focusing on community video, man-on-the-street interviews, and 'video mediation' to resolve social conflicts. He was a contributor to the influential video journal 'Radical Software' and later established Woodstock Community Video (WCV) in 1973. Marsh is also recognized for his technical and artistic expertise, having authored the seminal handbook 'Independent Video: A Complete Guide to the Physics, Operation, and Application of the New Television for the Student, the Artist and for Community TV' in 1974. He has been associated with the circles of Experiments in Art and Technology (E.A.T.) and other pioneers of electronic and participatory art, where his work emphasized the use of technology as a tool for social change and communication. In addition to his video work, he has been described as a painter and graphic designer.",
+            "sources": [
+              "https://www.vdb.org",
+              "https://www.vasulka.org",
+              "http://www.davidsonsfiles.org",
+              "https://www.goodreads.com/book/show/4414674-independent-video"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Ken Marsh\" artist E.A.T.",
+            "\"K Marsh\" artist 1960s 1970s",
+            "\"Kenneth Marsh\" artist E.A.T.",
+            "\"K. Marsh\" artist 9 Evenings Theatre and Engineering",
+            "artist \"K Marsh\" Experiments in Art and Technology E.A.T.",
+            "\"Independent Video\" Ken Marsh 1974",
+            "\"Ken Marsh\" artist \"Experiments in Art and Technology\"",
+            "\"Kenneth Marsh\" artist E.A.T. membership",
+            "\"K. Marsh\" video artist PVT E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWEfzV-CiDZqvTunDwTjFQ1I_L0bsAP1FTO2VpfFHcApxbdK00dY2K9OdADj3JABcvgrHKg6vv2WR15XIyqgWRZekAfByWvcVsCKQ5eyqmW8cR7k8S8xonDXCm1bNQ21PVbksGsQ==",
+              "title": "davidsonsfiles.org",
+              "resolvedUri": "https://davidsonsfiles.org/Exhibitions.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1yI8shx5mICPsx18M4JW48TYZ7dH2NdCwX1AZo2EcZvhhFAEZBPCiAijOIE7ey2cuwP_TWzxadCI5cLwneFJLaRxRqoOaYkPJ2OtDOjDqtj2iuGwcOfAsDNJUW_FUNbwzMLUgVF6czVltBtMvUyMZCkHmoJ1Vm9L8OicU",
+              "title": "vasulka.org",
+              "resolvedUri": "https://vasulka.org/archive/Artists10/Yalkut,Jud/ElectronicZen.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 200,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ken Marsh (born 1940) is an artist, author, and video pioneer who was active in the New York art and technology scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 900,
+                "endIndex": 1136,
+                "text": "He has been associated with the circles of Experiments in Art and Technology (E.A.T.) and other pioneers of electronic and participatory art, where his work emphasized the use of technology as a tool for social change and communication."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1137,
+                "endIndex": 1477,
+                "text": "In addition to his video work, he has been described as a painter and graphic designer.\",\n      \"sources\": [\n        \"https://www.vdb.org\",\n        \"https://www.vasulka.org\",\n        \"http://www.davidsonsfiles.org\",\n        \"https://www.goodreads.com/book/show/4414674-independent-video\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -78,6 +978,522 @@
         "y1": 65.6,
         "x2": 37.7,
         "y2": 79.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27568",
+          "label": "Green Hill",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person (Paul Green), whereas the Wikibase entity describes an estate (Green Hill) in Brookline, Massachusetts. These are fundamentally different types of entities."
+        },
+        {
+          "qid": "Q24524",
+          "label": "Greenland",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Paul Green, whereas the Wikibase entity describes Greenland, which is a country. There is no plausible connection between the person and the geographic entity."
+        },
+        {
+          "qid": "Q27366",
+          "label": "Green Hill, Brookline, 6 Saturday, Oct. 17, 1903",
+          "description": "Entry from the 1903 diary of Mary Berenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Paul Green in 1970, while the Wikibase entity is a diary entry from 1903 concerning a location called 'Green Hill' in Brookline. They are different types of entities (person vs. diary entry) from different centuries."
+        },
+        {
+          "qid": "Q27367",
+          "label": "Green Hill, Brookline, Sunday, Oct. 18, 1903",
+          "description": "Entry from the 1903 diary of Mary Berenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity is a diary entry from 1903 titled 'Green Hill, Brookline', not a person. The card entry refers to a person named Paul Green in 1970. These are different types of entities from different time periods."
+        },
+        {
+          "qid": "Q27372",
+          "label": "Green Hill, Brookline, Friday, Oct. 23, 1903",
+          "description": "Entry from the 1903 diary of Mary Berenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person named Paul Green, whereas the Wikibase entity describes a specific diary entry from 1903. The entities are of entirely different types (a person versus a document)."
+        },
+        {
+          "qid": "Q27370",
+          "label": "Green Hill, Brookline, Wednesday, Oct. 21, 1903",
+          "description": "Entry from the 1903 diary of Mary Berenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity refers to a diary entry from 1903, whereas the card entry refers to a person named Paul Green in 1970. The Wikibase entity is not even a person."
+        },
+        {
+          "qid": "Q27373",
+          "label": "Green Hill, Brookline, Saturday, Oct. 24, 1903",
+          "description": "Entry from the 1903 diary of Mary Berenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entry refers to a diary entry and a location (Green Hill, Brookline) from 1903, whereas the card entry describes a person named Paul Green active around 1970. These are entirely different types of entities."
+        },
+        {
+          "qid": "Q27371",
+          "label": "Green Hill, Brookline, Thursday, Oct. 22, 1903",
+          "description": "Entry from the 1903 diary of Mary Berenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Paul Green from 1970, while the Wikibase entity describes a diary entry from 1903 titled 'Green Hill, Brookline'. They are different types of entities (a person vs. a diary entry) and the dates do not align."
+        },
+        {
+          "qid": "Q27368",
+          "label": "Green Hill, Brookline, Monday, Oct. 19, 1903",
+          "description": "Entry from the 1903 diary of Mary Berenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Paul Green active in 1970, whereas the Wikibase entity describes a diary entry from 1903 titled 'Green Hill, Brookline'. They are different types of entities (person vs. diary entry) and do not share a name or time period."
+        },
+        {
+          "qid": "Q27369",
+          "label": "Green Hill, Brookline, Tuesday, Oct. 20, 1903",
+          "description": "Entry from the 1903 diary of Mary Berenson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity refers to a diary entry from 1903 titled 'Green Hill, Brookline', which is an object/event rather than a person. It does not match the name Paul Green or the 1970 timeframe provided in the card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q309979",
+          "label": "Paul Greengard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist named Paul Green. The Wikidata entity Q309979 describes Paul Greengard, a world-renowned neuroscientist and Nobel Prize winner in Physiology or Medicine. Although Greengard was married to an artist (Ursula von Rydingsvard), his own professional identity is entirely distinct from the artistic field mentioned in the context, and his surname (Greengard) differs from the card's name (Green)."
+        },
+        {
+          "qid": "Q356275",
+          "label": "Paul Greengrass",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Paul Green vs. Paul Greengrass). Furthermore, Paul Greengrass was born in 1955, making him only 15 years old at the time of the card entry (1970), whereas the card implies an active artist. Greengrass's own professional work period began in 1978."
+        },
+        {
+          "qid": "Q455979",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the card record was active as an artist in 1970. The Wikidata entity describes a professional football player who was not born until 1983, making it chronologically impossible for them to be the same person."
+        },
+        {
+          "qid": "Q704852",
+          "label": "Paul Green",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Paul Green matches exactly. The Wikidata entity describes a playwright and screenwriter, which fits the 'artist' context provided. Furthermore, the Wikidata subject was alive and active in 1970 (the date on the card), as he lived until 1981."
+        },
+        {
+          "qid": "Q7150988",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1966, meaning he would have been only 4 years old in 1970, the date associated with the card entry. Additionally, the Wikidata entity is a professional American football player, which contradicts the provided context that the person on the card is an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q7150989",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in 1970. The Wikidata entity (Q7150989) was born in 1966, meaning he would have been only four years old at the time of the card's entry. Furthermore, the Wikidata entity is an Australian politician, which does not align with the artistic context provided."
+        },
+        {
+          "qid": "Q7150990",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, the Wikidata entity Q7150990 is a prominent electrical engineer and researcher known for his work in communications and computer networking (IEEE Fellow, IBM researcher). The context for the card entry specifies the person is an artist. These are distinct professional identities, and a highly decorated engineer is unlikely to be the subject of a card categorized specifically as an artist."
+        },
+        {
+          "qid": "Q7150991",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1976, making it impossible for him to be the Paul Green mentioned on the 1970 card. Additionally, the Wikidata entity is a cricketer, whereas the person on the card is described as an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q7150992",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the card entry was active in 1970 (as an artist), whereas the Wikidata entity (Q7150992) was born in 1987 and is a football player. They are clearly different individuals."
+        },
+        {
+          "qid": "Q7150993",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q7150993) was born in 1972 and began their professional work period in 1998. The card entry is dated 1970, which is prior to the Wikidata subject's birth, making it impossible for them to be the same person."
+        },
+        {
+          "qid": "Q7150994",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity for Paul Green was born in 1972, whereas the card entry is dated 1970. Furthermore, the Wikidata entity is a rugby league player and coach, while the card entry refers to an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q7150996",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1977, which post-dates the record on the card (1970). Furthermore, the Wikidata entity is an athlete, not an artist as the context requires."
+        },
+        {
+          "qid": "Q7150997",
+          "label": "Paul Greenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different: the card refers to 'Paul Green' while the Wikidata entity is 'Paul Greenberg'. Additionally, the Wikidata entity describes a prominent journalist and Pulitzer Prize-winning editorial writer, whereas the card entry is specifically associated with an artist active in the 1960s/70s. These represent two distinct professional identities and different surnames."
+        },
+        {
+          "qid": "Q7150999",
+          "label": "Paul Greene",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Paul Green from the card was active and documented in 1970, whereas the Wikidata entity (Paul Greene, Q7150999) was not born until 1974 and began his work period in 2006. These are clearly different individuals."
+        },
+        {
+          "qid": "Q15857081",
+          "label": "Paul Greenway, 3rd Baron Greenway",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist named Paul Green active in 1970. The Wikidata entity describes Paul Greenway (3rd Baron Greenway), a British politician and member of the House of Lords. Not only is there a surname mismatch (Green vs. Greenway), but the occupations (artist vs. politician/peer) do not align."
+        },
+        {
+          "qid": "Q16196964",
+          "label": "Paul Greenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Paul Greenberg) was born in 1967, which makes it impossible for him to be an artist active in the late 1960s or even the year 1970 recorded on the card. Furthermore, the names (Green vs. Greenberg) are distinct."
+        },
+        {
+          "qid": "Q18674304",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a 17th-century priest who died in 1635, whereas the card entry refers to a person active in 1970. These are clearly different individuals from entirely different centuries."
+        },
+        {
+          "qid": "Q19873696",
+          "label": "Paul Greenhalgh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Paul Green vs. Paul Greenhalgh). Furthermore, Paul Greenhalgh was born in 1955, making him only 15 years old at the time of the 1970 card entry, which is inconsistent with someone established enough to be recorded as an artist active in the late 1960s. Additionally, Greenhalgh is primarily known as an art historian and curator rather than an artist."
+        },
+        {
+          "qid": "Q28124548",
+          "label": "Paul Greenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person named Paul Green active in 1970, while the Wikidata entity Paul Greenberg was born in 1965, making him only five years old at the time of the card's entry. Furthermore, the surnames 'Green' and 'Greenberg' are distinct."
+        },
+        {
+          "qid": "Q42432949",
+          "label": "Paul G. Green",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card entry describes an artist named Paul Green active in 1970. The Wikidata entity describes a researcher named Paul G. Green associated with University College London and UCSF. There is no evidence connecting the researcher to the artistic context provided for the card entry."
+        },
+        {
+          "qid": "Q43153720",
+          "label": "Paul L. Greenhaff",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Paul Green vs. Paul L. Greenhaff). Furthermore, the Wikidata entity describes a researcher associated with various universities and medical institutes, whereas the card entry describes an artist active in 1970. These occupations and timeframes do not align."
+        },
+        {
+          "qid": "Q56978720",
+          "label": "Paul Greenwood",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Paul Green) does not match the Wikidata name (Paul Greenwood). Furthermore, the card refers to an artist, whereas the Wikidata entity is a researcher affiliated with several Australian universities, which is a significantly different professional profile."
+        },
+        {
+          "qid": "Q59671692",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q59671692) describes an astrophysicist born in 1959. In 1970 (the date on the card), this person would have been 11 years old, making it impossible for them to be an established artist active in the late 1960s and early 1970s. Additionally, their professional field of high-energy astronomy does not align with the artistic context provided."
+        },
+        {
+          "qid": "Q59772596",
+          "label": "Paul D. Greene",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names differ slightly in spelling (Green vs. Greene). More importantly, the Wikidata entity describes an academic (anthropologist and ethnomusicologist) whose career timeline, including a Ph.D. and current professorship, does not align with being an established artist in 1970."
+        },
+        {
+          "qid": "Q60055455",
+          "label": "Paul Greenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Paul Green vs. Paul Greenberg). Furthermore, the card describes an artist active in 1970, while the Wikidata entity is a researcher at Brown University and the Providence VA Medical Center, likely a contemporary academic."
+        },
+        {
+          "qid": "Q63197035",
+          "label": "Paul T. Greenlees",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry for Paul Green is dated 1970 and refers to an artist active in the late 1960s/early 1970s. The Wikidata entity, Paul T. Greenlees, was born in 1973, which makes it chronologically impossible for him to be the person on the card. Additionally, the Wikidata entity is a physicist, which contradicts the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q73138456",
+          "label": "Paul W. Green",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry describes a person named Paul Green who is an artist active around 1970. The Wikidata entity (Q73138456) identifies as Paul W. Green with the occupation 'researcher'. While the names are similar, the occupation of researcher does not align with the provided context of the individual being an artist."
+        },
+        {
+          "qid": "Q75975460",
+          "label": "Paul Green",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Paul Green' matches exactly between the card entry and the Wikidata entity. The card specifies the individual was an artist active around 1970, which is consistent with the Wikidata entity's status as a human male. While the Wikidata entry is sparse on biographical dates and occupation, it provides a plausible match for the individual named on the archival card without any contradictory information."
+        },
+        {
+          "qid": "Q83533592",
+          "label": "Paul Greenfield",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Paul Green who is an artist active around 1970. The Wikidata entity is Paul Greenfield, a researcher at CSIRO. The names are different, and the occupations (artist vs. scientific researcher) do not align."
+        },
+        {
+          "qid": "Q96174306",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Paul Green' is very common. While the names match, the Wikidata entity is described as a 'researcher,' whereas the card refers to an artist active around 1970. Without more specific overlapping data, it is unlikely they are the same individual."
+        },
+        {
+          "qid": "Q99607264",
+          "label": "Paul Green",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The names match exactly, and the Wikidata entity's occupation as a musician (guitarist in the reggae genre) falls under the broad 'artist' category specified in the context. The 1970 date on the card is consistent with the active period of early reggae musicians. However, confidence is low because Paul Green is a common name and there are no other corroborating details like birth date or location to confirm the identity."
+        },
+        {
+          "qid": "Q100797439",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names are identical, the Wikidata entity is identified as a basketball player for Hofstra University. The card entry refers to an artist active around 1970. Since Paul Green is a common name and there is no information linking the athlete to an artistic career, they are likely different individuals."
+        },
+        {
+          "qid": "Q100797566",
+          "label": "Paul Greene",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist named Paul Green active in the late 1960s/early 1970s. The Wikidata entity describes a basketball player named Paul Greene. The occupations (artist vs. athlete) are incompatible, and the spelling of the last name differs."
+        },
+        {
+          "qid": "Q102169648",
+          "label": "Paul B. Green",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person known to be an artist active in 1970. The Wikidata entity Q102169648 refers to Paul B. Green, a prominent plant physiologist and university professor at Stanford. While the names and dates of activity align, the professions (artist vs. plant physiologist) are fundamentally different and there is no evidence the scientist was also categorized as an artist."
+        },
+        {
+          "qid": "Q102268741",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry refers to an artist named Paul Green active around 1970. The Wikidata entity (Q102268741) describes a person whose doctoral advisor was David B. A. Epstein at the University of Warwick, indicating a background in mathematics rather than the arts. Given the specific academic metadata for the Wikidata entity, it is unlikely to be the same person as the artist from the card."
+        },
+        {
+          "qid": "Q112354514",
+          "label": "Paul Greenway",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Paul Green vs. Paul Greenway). Additionally, the Wikidata entity was born in 1960, meaning they would have been only 10 years old in 1970, which is inconsistent with the card's subject being an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q112452120",
+          "label": "Paul Green",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "Both the card and the Wikidata entity refer to a person named Paul Green identified as an artist. The Wikidata birth year of 1955 makes the individual 15 years old in 1970, which is the date recorded on the card. While young, this is plausible for an emerging artist or a student mentioned in an artistic context, and the shared occupation 'artist' provides a strong link."
+        },
+        {
+          "qid": "Q121035651",
+          "label": "Paul Green",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "Both records refer to a person named Paul Green. The Wikidata entity is listed as a producer, which falls within the creative/artistic scope mentioned in the context, and the 1970 date on the card is consistent with a professional career in that era. However, because Paul Green is a common name and both records contain very limited biographical data, the match is plausible but cannot be confirmed with high certainty."
+        },
+        {
+          "qid": "Q123575642",
+          "label": "Paul Green-Armytage",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Paul Green-Armytage, a cricketer and military officer born in 1881 who died in early 1971. This does not match the card's profile of an artist named Paul Green active in the late 1960s and 1970. Furthermore, the surnames are distinct."
+        },
+        {
+          "qid": "Q124332776",
+          "label": "Paul Greenaway",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The surnames are different (Green vs. Greenaway). Additionally, the Wikidata entity was born in 1955, making him only 15 years old in 1970, which is inconsistent with an artist expected to be professionally active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q124424128",
+          "label": "Paul Greenman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Paul Green who was an artist active around 1970. The Wikidata entity describes Paul Greenman, a Canadian psychologist and university teacher. The names are different and the professions (artist vs. psychologist) are not compatible."
+        },
+        {
+          "qid": "Q125924095",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity describes a politician (member of the Montana House of Representatives), whereas the card entry context identifies Paul Green as an artist active in the late 1960s/early 1970s. Paul Green is a relatively common name, and there is no evidence in the Wikidata record to suggest this individual had an artistic career."
+        },
+        {
+          "qid": "Q130729981",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity describes a sociologist and academic affiliated with Massey University. This does not align with the provided context identifying the Paul Green on the card as an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q131749473",
+          "label": "Paul Green",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity (Q131749473) refers to a well-known political science professor and pundit in Chicago, whereas the card entry describes an artist active around 1970. The occupations do not align."
+        },
+        {
+          "qid": "Q133580205",
+          "label": "Q133580205",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the Wikidata entity describes a human whose 1901 birth year is chronologically compatible with being active in 1970 (age 69), 'Paul Green' is a highly common name. The Wikidata record provided contains no mention of an artistic profession or any other identifying characteristics that would link this specific individual to the artist referenced on the index card."
+        },
+        {
+          "qid": "Q133674622",
+          "label": "Q133674622",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name Paul Green matches. The birth year 1947 in the Wikidata entity would make the individual approximately 23 years old in 1970, which is a highly plausible age for an artist active at that time. However, because Paul Green is a common name and the Wikidata record lacks specific occupational or biographical details to confirm the artistic context, the match is plausible but not certain."
+        },
+        {
+          "qid": "Q135117107",
+          "label": "Paul Green",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name 'Paul Green' matches exactly, and the Wikidata entity is identified as a human male, which is consistent with the person on the card. However, since the Wikidata record is a stub without biographical details such as occupation or active dates, and 'Paul Green' is a common name, it is impossible to definitively confirm the match."
+        },
+        {
+          "qid": "Q136625069",
+          "label": "D. Norman Brown",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card entry refers to Paul Green, while the Wikidata entity has the given name 'John' and the family name 'Green' (or is labeled as 'D. Norman Brown'). There is no overlap in given names or specific identifiers to link the two."
+        },
+        {
+          "qid": "Q137017617",
+          "label": "Q137017617",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name 'Paul Green' matches exactly between the card and the Wikidata entity. The Wikidata record confirms the entity is a human male, which is consistent with the card, though it lacks occupation or dates of activity to confirm he was an artist active around 1970. Without more distinguishing biographical information in the Wikidata record, the match is plausible but remains uncertain."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Paul Green (born Paul Eliot Green, 1894–1981) was a Pulitzer Prize-winning playwright and activist who was active through the late 1960s and 1970s. He is credited as a pioneer of 'symphonic outdoor drama,' a form of theater that integrated technology, including sophisticated lighting and sound effects, into an organic artistic whole. His work, such as 'The Lost Colony' (performed annually since 1937) and 'The House of Connelly,' is often cited in the context of early experiments in theater technology and spectacle. His belief in 'every man as an artist' and his focus on large-scale collaborations between different disciplines align with the ethos of Experiments in Art and Technology (E.A.T.). He was active as a professor of Dramatic Art at the University of North Carolina and a major figure in the North Carolina art scene during the specified period.",
+            "sources": [
+              "https://www.nclhof.org/inductees/paul-green/",
+              "https://facingsouth.org/1986/06/paul-green-and-his-legacy.html",
+              "https://dokumen.pub/a-cultural-history-of-theatre-in-the-modern-age-6-reprint-ed-1472585836-9781472585837-1350277770-9781350277779-9781350135499.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Paul Green was a visual artist active in the Los Angeles area during the early 1970s. His work was featured in the 1971 survey exhibition 'Color' in Palo Alto, which showcased selected work from 19 Los Angeles-based artists working in media such as ceramics, fiber, metal, wood, and glass. He was grouped with prominent California ceramic and craft-based artists like Beatrice Wood, John Mason, and Laura Andreson. Given his presence in the Los Angeles art scene at a time when Experiments in Art and Technology (E.A.T.) had an active branch there, he is a likely candidate for the artist associated with the organization.",
+            "sources": [
+              "https://www.paloalto.gov/files/assets/public/v/1/community-services/arts-and-sciences/palo-alto-art-center/past-exhibition-descriptions-with-toc.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Paul Green (often Paul E. Green Jr., 1927–2012) was a scientist and engineer who worked for IBM and Bell Laboratories and was directly associated with Experiments in Art and Technology (E.A.T.). He participated in E.A.T.'s 'Utopia Q&A' project in 1971, a pioneering international telecommunications project that connected participants in different cities via telex stations. He was an expert in optical networking and fiber optics, representing the 'engineer/scientist' collaborator crucial to E.A.T.'s mission of bridging the gap between art and technology.",
+            "sources": [
+              "https://wordpress.com/telematic-embrace-visionary-theories-of-art-technology-and-consciousness/",
+              "https://www.mit.edu/lincoln-laboratory/about/history/technology-in-support-of-national-security"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Paul Green\" participant \"9 Evenings: Theatre and Engineering\"",
+            "artist \"Paul Green\" \"Experiments in Art and Technology\" E.A.T.",
+            "\"Paul Green\" artist E.A.T. collaboration",
+            "\"Paul Green\" artist 1960s 1970s \"Experiments in Art and Technology\"",
+            "",
+            "\"Paul Green\" \"Experiments in Art and Technology\"",
+            "\"Paul Green\" \"9 Evenings\" E.A.T.",
+            "\"Paul Green\" E.A.T. engineer",
+            "\"Paul Green\" E.A.T. artist",
+            "\"Paul Green\" Osaka Pavilion E.A.T.",
+            "\"Paul Green\" \"Utopia Q&A\" E.A.T.",
+            "\"Paul Green\" \"9 Evenings\" technician",
+            "\"Paul Green\" E.A.T. Experiments in Art and Technology member",
+            "\"Paul Green\" engineer Experiments in Art and Technology",
+            "",
+            "\"Paul Green\" Bell Labs E.A.T.",
+            "\"Paul Green\" artist 1960s 1970s New York",
+            "\"Paul Green\" artist Experiments in Art and Technology E.A.T.",
+            "\"Paul Green\" artist 1960s 1970s Los Angeles",
+            "\"Paul Green\" center for advanced visual studies",
+            "",
+            "\"Paul Green\" artist Los Angeles 1960s 1970s",
+            "\"Paul Green\" \"Experiments in Art and Technology\" Los Angeles",
+            "\"Paul Green\" sculptor 1960s 1970s",
+            "\"Paul Green\" artist E.A.T. Los Angeles",
+            "\"Paul Green\" artist exhibition 1971 Palo Alto",
+            "\"Paul Green\" artist member of Experiments in Art and Technology",
+            "\"Paul Green\" collaborated with \"Billy Klüver\"",
+            "\"Paul Green\" \"Experiments in Art and Technology\" 1968 1969 1970",
+            "\"Paul Green\" E.A.T. bibliography",
+            "\"Paul Green\" holography 1960s 1970s",
+            "\"Paul Green\" artist holography",
+            "\"Paul Green\" hologram Experiments in Art and Technology",
+            "\"Paul Green\" laser artist 1970s",
+            "\"Paul Green\" member \"Experiments in Art and Technology\"",
+            "\"Paul Green\" E.A.T. newsletter",
+            "\"Paul Green\" \"Pavilion\" Expo 70 E.A.T.",
+            "\"Paul Green\" artist 1960s 1970s member E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyvY2LXZBeBMmCkd-d1AX9DeHdtrmxCbm9ZZgjCaPk5MUJOYjxFfynh7Gz9YXXz4qCpJgvIMndnukbxmuGdJRkh11bcrwg1fRW9_N0_W1jDyaEwEP5juFYUghq9m2GGKUetVnsGtmW7bRIdKhvbwzJ4hW0ZFBZD5WeJR5K5R4bgwihnSe9EnCexR4e-RcVQNAqJPT4VRlRBMVy",
+              "title": "nationaltheatreconference.org",
+              "resolvedUri": "https://www.nationaltheatreconference.org/uploads/1/7/4/1/17419695/ntcfirstseventyfiveyears.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 199,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Paul Green (born Paul Eliot Green, 1894–1981) was a Pulitzer Prize-winning playwright and activist who was active through the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -88,6 +1504,84 @@
         "y1": 75.6,
         "x2": 40.3,
         "y2": 88.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26381",
+          "label": "Joan Webster Price",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Joan Webster Price is identical in both records. The Wikibase entry describes her as an artist associated with the E.A.T. Technical Services Program, which matches the context and time period of the card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q63090712",
+          "label": "Joan Webster Price",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Joan Webster Price' is an exact match across both records. The Wikidata entity identifies her as a printmaker born in 1931, which aligns with the 1970 date on the card and the context of her being an artist active in the late 1960s and early 1970s. Her inclusion in collections like MoMA and the Whitney further confirms her status as a recognized artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joan Webster Price (born 1931, Camden, New Jersey) is an American abstract artist, sculptor, and educator known for her work in geometric abstraction and her pioneering integration of technology and art. She is a Professor Emerita at the City College of New York (CCNY), where she taught in the Art Department for many years. Her artistic career is marked by a diverse range of media, including printmaking, drawing, and large-scale sculpture. Price is particularly recognized for her collaborations with Herbert Price in creating 'solar sculptures'—stainless-steel structures that utilize solar panels or hot water systems to harness and objectify solar energy, reflecting the goals of the Experiments in Art and Technology (E.A.T.) movement to bridge the gap between artists and engineers. She has been an active member of the American Abstract Artists (AAA) collective, contributing to several of their landmark print portfolios such as the 50th and 60th Anniversary collections. Her works, including pieces like 'Tower Fantasy' (1987) and 'To Mars and Beyond' (1997), are held in the permanent collections of prestigious institutions such as the Whitney Museum of American Art, the Museum of Modern Art (MoMA) in New York, the Smithsonian American Art Museum, and the Phillips Collection.",
+            "sources": [
+              "https://www.si.edu/object/SAAM_2003.55.33",
+              "https://www.moma.org/artists/28628",
+              "https://whitney.org/artists/10186",
+              "https://www.phillipscollection.org/collection/tower-fantasy-american-abstract-artists-50th-anniversary-print-portfolio",
+              "https://www.ccny.cuny.edu/art/faculty",
+              "https://lope.ca/renewable/renewable-energy-art-gallery/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Joan Webster Price artist",
+            "Joan Webster Price New York artist",
+            "\"Joan Webster Price\" biography artist",
+            "Joan Webster Price sculpture",
+            "\"Joan Webster Price\" E.A.T. Experiments in Art and Technology",
+            "\"Joan Webster Price\" artist history E.A.T.",
+            "\"Joan Webster Price\" solar sculpture E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwXei8HBscrsQ8oesrsBiNObpojoopLKcm2CeINux0-jjaR5eithq1XeoYwdPR1ll7XKKcSwhN6sSmgPep67SEytsTgEVz0lCO5rwIGyAtBmO5oGUdz1Bq4T8X7FhmTcY2BzM3w-183CDzY78WLbbxvYDJgUajEyBA0ugXAhwiLjL2YHoBcZcTNPtz0QL1EzvESB58aypgDlGJTlt-Bc_W",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/254925703_Screens_-_The_Place_of_the_Image_in_Digital_Culture"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhMsU3J9uGxnn-x7qLe3lkmGo9FIRY-NCavRdz5-TyAJkFTlaDABU07RYpKLNchOQgypxJ_jYiXdx09mLjSdM1GiEdII4VOraBuRZWvYhPtReryA_n_FMPS4GNn4DRV9H1NouDbzqymYXODVO4p80TiQigA223LvM_vBNQhumI9Vs4vhPeDQd6yWNc4BVp2pjxMhD7MB9i9_ChZhKbfsJW7L9L8fHuy394yhFoB_2fzoz54aSCUv-Vl_8L4AWpSWZ4WGH7fnY8aWNMI-rHzNw=",
+              "title": "cuny.edu",
+              "resolvedUri": "https://www.ccny.cuny.edu/sites/default/files/2023-10/22-23%20Graduate-Bulletin.pdf?srsltid=AfmBOorQYsBFBCoP-9uwPgfzDkMBx8mMOUthVt7y1Ca99dGJIxnz5wmb"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlTMgsVfyYClnQ-4gJ9kbyfsf6w1ha9G5gzRO_X0VK2FIOArripe1aoelRGqQQnGLIpaMeypFbYxz1fVa3mUkUp_BUm2-41Onkm894GzI_SYxeqegUKnxnqYUaVzdgnoAAKAvUN6UmoLIsFfweAI0J853VsrO_P5cjIYREzJc-QiSaW6LSE51i7_AcerTQlkVIEOqL_0TH-VwN8QeDQ9Ra1X5r5OnYjVnLHpmQRK7gcXLhKsCOGZXkuet7P6ZtlP6CIUocPL3UCAxHQIzdgeOA",
+              "title": "cuny.edu",
+              "resolvedUri": "https://www.ccny.cuny.edu/sites/default/files/2023-10/22-23%20Graduate-Bulletin.pdf?srsltid=AfmBOorQYsBFBCoP-9uwPgfzDkMBx8mMOUthVt7y1Ca99dGJIxnz5wmb"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1035,
+                "endIndex": 1807,
+                "text": "Her works, including pieces like 'Tower Fantasy' (1987) and 'To Mars and Beyond' (1997), are held in the permanent collections of prestigious institutions such as the Whitney Museum of American Art, the Museum of Modern Art (MoMA) in New York, the Smithsonian American Art Museum, and the Phillips Collection.\",\n      \"sources\": [\n        \"https://www.si.edu/object/SAAM_2003.55.33\",\n        \"https://www.moma.org/artists/28628\",\n        \"https://whitney.org/artists/10186\",\n        \"https://www.phillipscollection.org/collection/tower-fantasy-american-abstract-artists-50th-anniversary-print-portfolio\",\n        \"https://www.ccny.cuny.edu/art/faculty\",\n        \"https://lope.ca/renewable/renewable-energy-art-gallery/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -98,6 +1592,74 @@
         "y1": 85.0,
         "x2": 38.4,
         "y2": 94.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27557",
+          "label": "Willowbrook Cottage",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Sui Willow, while the Wikibase entity describes a residence named Willowbrook Cottage. These are fundamentally different types of entities (a person versus a building)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q44137",
+          "label": "Jeff Hardy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different. Furthermore, Jeff Hardy was born in 1977, which makes it impossible for him to be the person from the 1970 card entry who was active as an artist in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q298209",
+          "label": "Willow Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is from 1970, whereas the Wikidata entity for Willow Smith describes a person born in 2000 who began her career in 2007. Furthermore, the names (Sui Willow vs. Willow Smith) do not match."
+        },
+        {
+          "qid": "Q105090286",
+          "label": "Willow Legge",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Sui Willow', while the Wikidata entity refers to 'Willow Legge'. These names are distinct and do not appear to be aliases of one another. While Willow Legge was an artist active during the relevant period (born 1934), the specific name 'Sui' does not match 'Legge', and there is no biographical evidence connecting the two."
+        },
+        {
+          "qid": "Q109349536",
+          "label": "Willow Young-Friedman",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name 'Sui Willow' from the card entry does not align closely with 'Willow Young-Friedman'. Furthermore, the Wikidata entity is identified as a family therapist rather than an artist, although they worked at Craft Contemporary. There is no evidence connecting the name 'Sui' to the Wikidata profile."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Sui Willow\"",
+            "\"Sui Willow\" E.A.T. artist",
+            "\"Sui Willow\" artist 9 Evenings",
+            "\"Sui Willow\" E.A.T. member",
+            " \"Sui Willow\"",
+            "\"Sui Willow\" artist E.A.T. member",
+            " \"Sui Willow\"",
+            "\"Sui Willow\" artist pseudonym",
+            " \"Willow\" E.A.T.",
+            "\"Sui Willow\" performer E.A.T.",
+            "\"Sui Willow\" 9 Evenings member",
+            "\"Sui Willow\" artist profile",
+            "",
+            " \"Sui\" \"Willow\"",
+            " \"Sui Willow\"",
+            " \"Sui\"",
+            " \"Sui\" \"Willow\"",
+            " \"Sui Willow\"",
+            "\"Sui Willow\" artist E.A.T. biography"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -109,6 +1671,130 @@
         "y1": 7.3,
         "x2": 65.3,
         "y2": 22.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q22678669",
+          "label": "John Nagle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the early 1970s. The Wikidata entity (Q22678669) describes a network engineer employed by Ford Aerospace, which is a professional mismatch for the artist context provided."
+        },
+        {
+          "qid": "Q22678735",
+          "label": "John Nagle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an individual active in the arts around 1970, while the Wikidata entity Q22678735 refers specifically to a physicist and professor emeritus at Carnegie Mellon University whose work focuses on biophysics and lipids. Given the professional divergence between a scientist/physicist and the artist context provided, they are unlikely to be the same person."
+        },
+        {
+          "qid": "Q56253114",
+          "label": "John Nagle",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match and the Wikidata entity was alive and active in 1970, the Wikidata profile describes a prominent Australian judge and civil servant (John Flood Nagle) who attended law school. This does not align with the context that the individual on the card is an artist."
+        },
+        {
+          "qid": "Q100889801",
+          "label": "Jay Nagle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Jay Nagle) was born in 2000, making it impossible for him to be the person mentioned in a card entry from 1970. Additionally, the Wikidata entity is a basketball player, whereas the card entry refers to an artist."
+        },
+        {
+          "qid": "Q105085249",
+          "label": "John N. Burk",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The surnames do not match (Nagle vs. Burk). Additionally, the Wikidata entity died in 1967, which is prior to the date recorded on the card (1970)."
+        },
+        {
+          "qid": "Q124618905",
+          "label": "John Nagle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q124618905) has a listed birth date of 1971, which makes it chronologically impossible for him to be the subject of a card entry from January 1970. Additionally, the Wikidata entity is a sociologist and anthropologist, not an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Nagle is a physicist and researcher who was active in the late 1960s and 1970s at the Massachusetts Institute of Technology (MIT) and later at Carnegie Mellon University. In historical accounts of the MIT Center for Theoretical Physics, Nagle is described as having \"a little bit of the poet and artist\" in him. He is noted for using early computer technology to create graphic \"embellishments\" and visualizations of complex scientific concepts, such as nuclear structure and particle physics branches. This work, which utilized computer-aided design to illustrate scientific theory, aligns with the objectives of the Experiments in Art and Technology (E.A.T.) organization, which fostered collaborations between artists and scientists during that era.",
+            "sources": [
+              "https://web.mit.edu/lns/news/lns46/Eppling.pdf",
+              "https://www.cmu.edu/news/archive/2004/May/may6_briefs.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Nagle (also referred to as John J. Nagle) is a computer scientist and inventor who has been active in the fields of computer graphics and networking since the late 1970s. He is most famous for developing 'Nagle's algorithm' for TCP/IP networks in 1984. However, his work has often crossed into artistic and creative domains, specifically through computer animation and simulation. He is the creator of 'Animats' and produced technical demos like 'Spiral Stair Fall' (2001), which explored ragdoll physics and procedural animation. His background as an engineer who utilizes technology for visual expression makes him a potential match for the technical collaborators associated with Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://knowledge.uchicago.edu/record/2717/files/The%20Body%20in%20Play.pdf",
+              "https://www.itif.org/files/2009-designed-for-change.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Hailes Flood 'Gaffer' Nagle (1913–2009) was a prominent Australian judge and patron of the arts who was active throughout the 1960s and 1970s. While his primary profession was in law—serving as a justice of the Supreme Court of New South Wales from 1960 to 1983—he was deeply embedded in the art world as a trustee and chairman of the Art Gallery of New South Wales (1977–1980). He was a close friend of the famous Australian painter Russell Drysdale and published a biography of the artist in 1979. His role as a high-level administrator and patron during the 1970s involved facilitating the acquisition and promotion of contemporary art, which may have brought him into contact with international organizations like E.A.T.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/John_Nagle",
+              "https://www.geelonggallery.org.au/about/annual-reports"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "John Nagle E.A.T. member list",
+            "\"John Nagle\" artist 1960s 1970s",
+            "\"John Nagle\" art technology collaboration",
+            "John Nagle artist Experiments in Art and Technology E.A.T.",
+            "\"John Nagle\" computer art 1960s 1970s",
+            "\"John Nagle\" artist E.A.T. collaboration",
+            "\"John Nagle\" 9 Evenings: Theatre and Engineering",
+            "\"John Nagle\" \"E.A.T.\" artist",
+            "\"John Nagle\" artist 1968 1969 1970 1971",
+            "\"John Nagle\" artist E.A.T. list",
+            "\"John Nagle\" and Billy Klüver",
+            "\"John Nagle\" E.A.T. Experiments in Art and Technology",
+            "\"John Nagle\" 9 Evenings participant",
+            "\"John Nagle\" computer artist 1960s",
+            "\"John Nagle\" artist bio E.A.T.",
+            "\"John Nagle\" E.A.T. 1968 1969 1970 1971",
+            "\"John Nagle\" collaborator E.A.T.",
+            "\"John Nagle\" Bell Labs E.A.T.",
+            "\"John Nagle\" 1960s \"E.A.T.\"",
+            "\"John Nagle\" engineer E.A.T.",
+            "\"John Nagle\" artist technology collaboration 1970s",
+            " \"John Nagle\"",
+            "\"John Nagle\" Bell Labs engineer artist",
+            "\"John Nagle\" experiments in art and technology history",
+            "\"John Nagle\" E.A.T. collaboration artist engineer",
+            "",
+            "\"John Nagle\" and Robert Rauschenberg E.A.T. collaboration",
+            "\"John Nagle\" Osaka Expo 70 E.A.T.",
+            "\"John Nagle\" and Robert Whitman E.A.T.",
+            "\"John Nagle\" Pepsi Pavilion E.A.T.",
+            "\"John Nagle\" and Billy Klüver E.A.T. collaboration",
+            "\"John Nagle\" Bell Labs E.A.T. member",
+            "\"John Nagle\" engineer Experiments in Art and Technology",
+            "\"John Nagle\" E.A.T. collaboration artist",
+            "\"John Nagle\" artist 1970s sound video computer",
+            "\"John Nagle\" artist technology Bell Labs 1970s",
+            "\"John Nagle\" collaborator artist 1960s",
+            "\"John Nagle\" engineer E.A.T. member list",
+            "\"John Nagle\" artist E.A.T. collaborator 1966 1967",
+            "\"John Nagle\" 9 Evenings engineer",
+            "\"John Nagle\" digital artist 1960s",
+            "\"John Nagle\" art technology collaboration history",
+            "\"John Nagle\" digital image artist 1970s",
+            "\"John Nagle\" TECHNE E.A.T.",
+            "\"John Nagle\" E.A.T. membership list"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

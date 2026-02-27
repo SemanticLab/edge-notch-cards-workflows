@@ -22,5 +22,149 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "None mentioned",
     "aestheticPhilosophicalInterests": "None mentioned"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q1189653",
+      "label": "Don Swayze",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes a professional in mathematics and chemistry employed by Merck and Company in New Jersey. The Wikidata entity refers to Don Swayze, a well-known actor and stuntman (the brother of Patrick Swayze) born in Texas. The career paths and locations are entirely different and do not suggest the same individual."
+    },
+    {
+      "qid": "Q3978597",
+      "label": "Swayze Waters",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Donald R Swayze, a mathematician and chemist employed by Merck and Company in New Jersey. The Wikidata entry refers to Swayze Waters, a professional American and Canadian football player born in 1987. The names, occupations, and locations do not align."
+    },
+    {
+      "qid": "Q73656287",
+      "label": "Richard D. Swayze",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first names are different (Donald vs. Richard). While the initials are swapped (Donald R. vs. Richard D.), they appear to be distinct individuals without further evidence linking the Wikidata entity to the specific location (Rahway/Elizabeth) or employer (Merck) mentioned on the card."
+    },
+    {
+      "qid": "Q119563918",
+      "label": "Swayze Black",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. Donald R Swayze is a male professional working in chemistry and mathematics at Merck in New Jersey, while Swayze Black is a female basketball player who attended LSU."
+    },
+    {
+      "qid": "Q131412649",
+      "label": "Swayze Bozeman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are entirely different; 'Swayze' is the surname of the first individual (Donald R Swayze) and the given name of the second (Swayze Bozeman). Additionally, their professions are unrelated (mathematics/chemistry vs. American football) and the Wikidata entity was born in 1998, whereas the index card references an older phone number format and a professional career at Merck that likely precedes this date."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q79936183",
+      "label": "Merck and Co., Inc.",
+      "description": "print by Louis Lozowick (American, 1892-1973) (1984.81)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the actual corporation Merck and Company. The Wikidata entity (Q79936183) is a physical artwork (a print) by Louis Lozowick that is titled 'Merck and Co., Inc.' and held in the Cleveland Museum of Art. They are two different types of entities: an organization and a piece of art."
+    },
+    {
+      "qid": "Q247489",
+      "label": "Merck & Co.",
+      "description": "American multinational pharmaceutical company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Merck and Company' on the card is a direct match for the Wikidata entity 'Merck & Co.' (Q247489). Crucially, the card mentions 'Rahway, New Jersey,' which is listed in the Wikidata record as one of the company's headquarters locations."
+    },
+    {
+      "qid": "Q77682909",
+      "label": "Q77682909",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q77682909 refers to Merck & Co., the American pharmaceutical and chemical company. This matches the employer 'Merck and Company' on the card, particularly as the card specifies the location as Rahway, New Jersey, which is the historical headquarters of the US-based Merck & Co."
+    },
+    {
+      "qid": "Q129314520",
+      "label": "Q129314520",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q129314520 corresponds to Merck & Co. Inc., an American pharmaceutical company headquartered in Rahway, New Jersey. The index card identifies the employer as 'Merck and Company' and lists Rahway, New Jersey, as a location, providing a direct match in both name and geographic location."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Donald R. Swayze (1915–1982) was a technical professional who worked for Merck & Company (Merck Sharp & Dohme) in Rahway and Elizabeth, New Jersey. He specialized in chemistry and mathematics, serving as a quality control employee until his retirement in 1970. Swayze was born on September 17, 1915, in Dallas, Texas, and earned a degree in pharmacy. During the late 1960s, he was active in the New Jersey scientific community and was likely a member of the Experiments in Art and Technology (E.A.T.) organization, which maintained technical index cards for engineers and scientists willing to collaborate with artists. Beyond his professional work at Merck, Swayze was a dedicated amateur mineralogist and historian. He was a member of the Geochemical Society and the Franklin-Ogdensburg Mineralogical Society (F-OMS). In 1965, he published a historical study titled 'The History of the Andover - Sulphur Hill Iron Mines, Sussex County, New Jersey' in the journal Rocks & Minerals. He lived in Elizabeth, New Jersey, for much of his career before moving to Colorado Springs, Colorado, around 1979, where he died on December 18, 1982.",
+        "sources": [
+          "https://www.tandfonline.com/doi/abs/10.1080/00357529.1965.11765917",
+          "https://www.mindat.org/loc-6712.html",
+          "https://newspaperarchive.com/colorado-springs-gazette-telegraph-dec-22-1982-p-4/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Donald R. Swayze\" Elizabeth New Jersey",
+        "",
+        "",
+        "\"Donald R. Swayze\" 1920..2020 NJ obituary",
+        "",
+        "",
+        ""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsU2-ddThwaofZwiNS49A2HpFaij7lAWMcze9mAX2IxlL4uzsZHjRLd45tpaS0fVzHWg5LTQt2CqsDoy2YNx7WD8VKUEb4Rzs3i_QYwB3IZu_HYTvQsJO1FTtiwrk8cUjIY5AzvFp31umOkwLFcvwR04knXYk6UxkEkSbMEb9TNAL6ecUYIHU4Po3u",
+          "title": "newspaperarchive.com",
+          "resolvedUri": "https://newspaperarchive.com/colorado-springs-gazette-telegraph-dec-22-1982-p-4/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfPzc_LOemPyeFdvOte5znXfYWdf5yY9prXU-GFupZQQqCF9NZOFtxgLMv7ujfbs0dWsq2F8CyMBMEsV81n-n9Y66cV2ZpUmS4z15dPpXSOhgCi39ojBzYzNy2KrI2tyxrGR7-6F4=",
+          "title": "mindat.org",
+          "resolvedUri": "https://www.mindat.org/locentry-847370.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjJVBrXvl4dAuibfXtGLq7VjqYFWDjYQJI-PHcWct7B4JlN2zhxv9BnFJ-ZL7vlEERFpkZbCa_wFbtNnqJn5blru1fP1Ga9oxxC9Q8YkHohYiI4BKP3hpLqZrvUWt6UO8MPbxF8Q==",
+          "title": "mindat.org",
+          "resolvedUri": "https://www.mindat.org/locentry-54126.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnEcmW-GWWyBWovbsnRMTX15M6dbVhUttESoqBa9_2rS39j9VDTZLURCu-_IEyjZhtSV5dLprBk95i6NnBsFYq9KU88rURnx-lIzZarxOYlI1GFPrUKprvEh5lm9WoA9p4Wpx9vUv7umlPUNmznsmNXKAPNEw-zaoNSGk1Ag==",
+          "title": "tandfonline.com",
+          "resolvedUri": "https://www.tandfonline.com/doi/pdf/10.1080/00357529.1965.11765917"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 313,
+            "endIndex": 402,
+            "text": "Swayze was born on September 17, 1915, in Dallas, Texas, and earned a degree in pharmacy."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 872,
+            "endIndex": 1034,
+            "text": "In 1965, he published a historical study titled 'The History of the Andover - Sulphur Hill Iron Mines, Sussex County, New Jersey' in the journal Rocks & Minerals."
+          },
+          "groundingChunkIndices": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
   }
 }

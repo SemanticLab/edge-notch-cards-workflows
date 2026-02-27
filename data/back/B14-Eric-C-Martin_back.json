@@ -11,6 +11,80 @@
         "y1": 6.2,
         "x2": 39.3,
         "y2": 17.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1080560",
+          "label": "Christian Karl Füeßlin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Christian Karl Füeßlin) lived from 1783 to 1854 and was a German politician, which is chronologically impossible for someone active in the late 1960s and early 1970s as described in the card context. Furthermore, the first names (Barry vs. Christian) do not match."
+        },
+        {
+          "qid": "Q2172689",
+          "label": "Heinrich Ludwig Rudolf Fuess",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Heinrich Ludwig Rudolf Fuess) died in 1917, which is long before the person on the card was active (late 1960s/early 1970s). Furthermore, the names Barry and Rudolf are distinct."
+        },
+        {
+          "qid": "Q2630485",
+          "label": "Johann Kaspar Füssli",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Johann Kaspar Füssli lived in the 18th century (1743-1786), whereas the card entry refers to a person (Barry Fuess) active in the late 1960s or early 1970s. Furthermore, the given names are entirely different."
+        },
+        {
+          "qid": "Q67167958",
+          "label": "Hermann Sebastian Füeßl",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Barry Fuess and Hermann Sebastian Füeßl are significantly different, particularly the first names. Additionally, the Wikidata entity's occupation is listed as researcher, which does not align with the artist context provided for Barry Fuess."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Barry Lynn Fuess (1940–2015) was a musician, entertainer, and technician who may be the individual associated with Experiments in Art and Technology (E.A.T.). Born in Booneville, New York, he was an accomplished guitar player and musician who performed in a musical comedy routine with his brother Louis from the late 1950s through the early 1960s. They also played in a band performing at various venues in Oswego County, New York. During the late 1960s, he served in the U.S. Army Signal Corps in Vietnam, reaching the rank of Specialist 4th Class. The Signal Corps is the branch of the Army responsible for managing communications and information systems, a background that aligns with the technical focus of E.A.T. after his service, he moved to Idaho in the late 1960s and married in 1968. While he worked in construction and as a long-haul truck driver later in life, he remained known for his musical talent and entertaining personality throughout his life.",
+            "sources": [
+              "https://www.legacy.com/obituaries/idahostatesman/obituary.aspx?n=barry-fuess&pid=173873323",
+              "https://www.legacy.com/obituaries/idahostatesman/obituary.aspx?n=eleanor-fuess&pid=130541334"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Barry Fuess artist",
+            "\"Barry Fuess\"",
+            " \"Fuess\"",
+            " \"Barry Fuess\"",
+            "",
+            "\"Barry Fuess\" musician New York 1960s",
+            "\"Barry Lynn Fuess\" artist",
+            "\"Fuess\" Bell Labs Experiments in Art and Technology",
+            "\"Fuess\" signal corps Bell Labs artist",
+            "",
+            " \"Fuess\"",
+            " \"Fuess\"",
+            " \"Barry Fuess\"",
+            "",
+            "\"Barry\" \"Experiments in Art and Technology\" membership list",
+            "\"Fuess\" \"Experiments in Art and Technology\" newsletter",
+            "",
+            " \"Barry Fuess\"",
+            "",
+            "",
+            "\"Fuess, Barry\" E.A.T.",
+            "\"Fuess, B.\" E.A.T.",
+            "",
+            "",
+            ""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -24,6 +98,146 @@
         "y1": 13.1,
         "x2": 40.1,
         "y2": 29.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26358",
+          "label": "Dr. Stafford",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to 'Dr. Stafford'. The Wikibase entity is explicitly linked to the E.A.T. Technical Services Program and its edge-notched cards, which directly corresponds to the context of the physical index card. The time period and professional context align perfectly."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q76336136",
+          "label": "Stafford Saint",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card 'Dr. Stafford' uses Stafford as a surname. In contrast, the Wikidata entity Q76336136 is for a person named Stafford Saint, where Stafford is a given name and Saint is the family name. Additionally, the Wikidata entity refers to a recipient of the Royal Victorian Order (likely a British courtier or official), which does not align with the card's context of an artist associated with Experiments in Art and Technology (E.A.T.)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Dr. Godfrey Harry Stafford (1920–2013) was a distinguished British physicist and an accomplished artist. He is perhaps the most likely candidate for 'Dr. Stafford' due to his dual career as a top-level scientist and a regularly exhibiting artist during the late 1960s and 1970s. He served as the Director of the Rutherford Laboratory in the UK from 1969 to 1981, overseeing its transition into a multi-disciplinary research center. Alongside his scientific achievements, which included major contributions to particle physics and accelerators at CERN, he was known for his lifelong interest in the arts and was an artist who exhibited his work regularly at the Royal Academy. His career coincided exactly with the peak of the Experiments in Art and Technology (E.A.T.) movement, which promoted the very type of interdisciplinary collaboration between scientists and artists that his life embodied.",
+            "sources": [
+              "https://royalsocietypublishing.org/doi/10.1098/rsbm.2022.0006",
+              "https://www.chilton-computing.org.uk/clrc/profiles/stafford.htm",
+              "https://www.nature.com/articles/499410a"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Dr. Anthony Stafford Beer (1926–2002), typically known as Stafford Beer, was a world-renowned British cyberneticist and management consultant who was also a prolific artist and poet. Active in the late 1960s and early 1970s, he was a central figure in the cybernetics movement, which deeply influenced the Experiments in Art and Technology (E.A.T.) and its contemporaries. He participated in the landmark 'Cybernetic Serendipity' exhibition at the ICA in London (1968), contributing a poem titled 'SAM' (Stochastic Analogue Machine), and later produced a notable series of abstract paintings known as the 'Requiem' series. His work frequently explored the intersections of science, technology, and artistic expression, and he was a known correspondent and associate of the artists and engineers in the E.A.T. and USCO circles.",
+            "sources": [
+              "https://www.studiointernational.com/index.php/cybernetic-serendipity-history-and-lasting-legacy",
+              "https://www.redwedgemagazine.com/online-issue/stafford-beer-eudemony-viability-and-autonomy",
+              "https://dertank.space/essays/fanfares-for-effective-freedom/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Larry Stafford was an American abstract painter active in the late 1960s and 1970s who was explicitly associated with Experiments in Art and Technology (E.A.T.). He was one of the artists included in E.A.T.'s major 1968 exhibition, 'Some More Beginnings,' held at the Brooklyn Museum. His work from this period is categorized under 'Lyrical Abstraction' and featured experimental techniques like soft spray painting. He is also documented in the Harry Shunk and Shunk-Kender archive, which primarily focused on the key artists and events of the E.A.T. movement. While he is a confirmed artist within the E.A.T. circle, he is less frequently referred to with the title 'Dr.' compared to the scientific figures of the era.",
+            "sources": [
+              "https://www.getty.edu/research/collections/shunk_kender/index.html",
+              "https://rauschenbergfoundation.org/art/archives/experiments-art-and-technology-records",
+              "http://www.abstract-art.com/abstraction/l3_lyrical_abstraction_essay.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Stafford\" Experiments in Art and Technology E.A.T. archive",
+            "\"Stafford\" Bell Labs E.A.T. project",
+            "\"Dr. Stafford\" 9 Evenings: Theatre and Engineering",
+            "\"Dr. Stafford\" E.A.T. artist collaborator",
+            "",
+            "\"Stafford Beer\" artist Experiments in Art and Technology",
+            "\"Stafford\" artist 9 Evenings Bell Labs",
+            "\"Dr. Stafford\" artist active 1960s 1970s collaboration",
+            "\"Dr. Stafford\" Experiments in Art and Technology engineer artist",
+            "\"Stafford\" Bell Labs engineer E.A.T.",
+            "",
+            "\"Stafford Beer\" art technology E.A.T.",
+            "\"Stafford\" artist \"Experiments in Art and Technology\" member list",
+            "\"Stafford\" artist \"Some More Beginnings\" E.A.T.",
+            "\"Dr. Stafford\" collaboration scientist engineer artist",
+            "\"Dr. Stafford\" painter 1960s 1970s",
+            "",
+            "\"Godfrey Stafford\" physicist artist Royal Academy",
+            "\"Some More Beginnings\" E.A.T. exhibition artist list \"Stafford\"",
+            "\"Stafford\" Pepsi Pavilion E.A.T.",
+            "\"Stafford\" artist Experiments in Art and Technology 1968",
+            "\"Dr. Stafford\" collaborator E.A.T. 1960s 1970s",
+            "",
+            "\"Larry Stafford\" artist E.A.T. Brooklyn Museum 1968",
+            "\"Stafford\" artist Experiments in Art and Technology Pepsi Pavilion",
+            "\"Dr. Stafford\" engineer Bell Labs E.A.T. 9 Evenings",
+            "\"Dr. Stafford\" E.A.T. newsletter \"TECHNE\"",
+            "\"Dr. Stafford\" artist collaborator 1968 Brooklyn Museum",
+            "artist \"Larry Stafford\" Experiments in Art and Technology",
+            "\"Stafford\" scientist \"9 Evenings\" collaborator",
+            "\"Godfrey Stafford\" artist E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgNF71pqwiZ1ygbqPzjDBxB1u60fmlAVbdTGAioYsCX6jBGU7zmV9Ckmd5suZBqbi23WrNgTIpxzjAO6jMArX-VlmiwITUdp-XqwZx9HzyhSXh1sdXGX8yKXMoHfOYzIaaqiMtQI4vw6GqXqrX-lG1QFLvkfegV_P9B7LfqaMc6u_oZ9ecrUrxm8OhbPLXrP-2ig==",
+              "title": "artuk.org",
+              "resolvedUri": "https://artuk.org/discover/artworks/search/actor:davidson-houston-aubrey-claud-19061995"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDoGRqFV43tDPyTyL5BGKyVodL73FQjbtkNUZoYrI9g2w8wdx3LW10PYURylCAXUQZWZsRD6rkJH1STdmsy3O-vrax1dBKtnlQyzut3w2uaZ8DO2vKykVyETVdNgB98wBnKJKEByvfx18nFoYqvPetgNRijZG3pCdo1FJTgAVqig3nx9tp-hQFv0KZeX0wgq0uVw==",
+              "title": "umass.edu",
+              "resolvedUri": "https://scholarworks.umass.edu/bitstreams/40dbe2a4-97d9-464b-9a16-0cbb8e1d9305/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf3AFSCU0lweJNYzrkBMPu7paoxSaZ32BN3mLp-AsSr0GyuZ6D4alMrj8jtv3vMIYmDXKakoVoN4W4uPUJ7NNCHZqjH7z3-ORFunEIIF5vL6U9ykxxOJoBnRFRZ4r-Xc2LQ0YaZaSzgBpRv8HhzuwL",
+              "title": "core.ac.uk",
+              "resolvedUri": "https://files01.core.ac.uk/download/pdf/145719357.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqN0No7FtzE0Z8zswMtPQIsRXGTGdMrVT2m3gKpsCowuPR0vtGLgZZY2_f6da50QYily3yn2S1J6nAA2U64Zv1p70mwlhIxpFMU6sqjX0aSFkZPvhoMHflUpqH0Httik00z0B1DKD9TWDpznnLK5NZxYBxQ4welkWQ-RQLdMeUzDU-YKk6ICFl1DU=",
+              "title": "yale.edu",
+              "resolvedUri": "https://resources.environment.yale.edu/uploads/envy/past-issues/EY_Spring05.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRFjSHg63fuL_rCzBIj5PCU0mXDkE8_ICKCX7uKvsapzlYO4J3yp_0mG2jpYYUyp-nUZ04Ygw7342k32QwqJCw7TxKnd3ExMGugt53UW-k1uXWZVv-vUozjXZjYl0BqTswRrbkgKvOY3Vzw9Ib96-KMIQVi8O2wjxorUpo4-0=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/2014.R.20.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXQAEec71BJZw3Tq1n5czo3_e-imfgbp9MUyNPlGGK-tq7JEtL0MKn4cbzU3u48wyPiu2GrequBm4lI_YItyQ58tX-16f6Oo_hQUvGPhVJDYoPehuGC0bZnuvQynPHjYd7XRe6MUnt35uSYOxVu9yYZV5v2cC63e8D7m-FNo1FxnRlAwjpSw-9k9lq2YDyKhNJAR1TvWVs3Fs=",
+              "title": "miemss.org",
+              "resolvedUri": "https://history.miemss.org/documents/2005-April-MIEMSS%20Press%20Report-Articles-Clippings.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe7qOWwMqfYh4_n97eEvZyrhcRSRGTPJkIeg5n8s3S-HaNiBdwZTKXOjT2PByR3SYq_GGvt_FfrBmWYWdhunLZ_NDdQLDVLv1O-oBkrIjGOng2w5iM9QkE7tcKXAeWNWwHxM8Ev23-N9R-Grgf6N9iYin4OGFl2Emf6wUcr39Af7ra1hI=",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/VikramSarabhai-ALife/vik-sarabhai-bio_djvu.txt"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 3014,
+                "endIndex": 3023,
+                "text": "movement."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +251,73 @@
         "y1": 23.9,
         "x2": 52.7,
         "y2": 39.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26337",
+          "label": "Doloris Holmes",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Doloris Holmes' matches exactly in both records. The card date of 1970 aligns perfectly with the period of activity for the Experiments in Art and Technology (E.A.T.) Technical Services Program mentioned in the Wikibase entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q106318327",
+          "label": "Doloris Holmes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Doloris Holmes' is an exact and relatively unique match. The Wikidata entity describes a filmmaker and performance artist active in New York City during the late 1960s and early 1970s, which aligns perfectly with the date (1970) and artistic context provided on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Doloris Holmes (later known as Janais) was a performance artist, filmmaker, poet, and playwright active in the New York City art scene from the early 1960s through the late 1990s. She was a significant figure in the feminist art movement, serving as an original member of the activist group Women Artists in Revolution (WAR) and the Art Workers Coalition (AWC). Holmes was the founder and director of the White Mask Theatre (established in New York City), a space dedicated to non-traditional performance, rehearsal, and film projects. Her work often explored 'art as process' and utilized mixed media, including environments, plays, and 16mm films such as 'Room of the White Mask' (1973). In 1970, she participated in the influential all-women 'X-12' exhibition at Museum (a Noho artists' cooperative). She is also documented in the 11th Annual Avant Garde Festival of New York alongside organizations like Experiments in Art and Technology (E.A.T.). In 1972, after a profound experience visiting prehistoric caves in Spain, she created the performance 'Fish-Joy' and eventually divorced her husband, the poet Armand Schwerner. In 1978, she adopted the name 'Janais' to honor Janis Joplin and Anaïs Nin. Holmes conducted notable oral history interviews for the Archives of American Art, including a famous session with Anaïs Nin in 1972. She passed away in June 2001.",
+            "sources": [
+              "https://www.nypl.org/sites/default/files/archivalcollections/pdf/the1989007.pdf",
+              "https://film-makerscoop.com/filmmakers/doloris-holmes",
+              "https://www.aaa.si.edu/collections/interviews/oral-history-interview-lee-krasner-12037",
+              "http://www.vasulka.org/archive/4001/AvantGardeFestivals/11th/11thAGF.pdf",
+              "https://www.moma.org/research/archives/finding-aids/Hightowerb.html",
+              "https://www.veteranfeministsofamerica.org/feminist-artists-at-the-vfa-event-at-the-national-arts-club-nyc-november-2002/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Doloris Holmes\" art biography",
+            "\"Doloris Holmes\" artist 1960s 1970s",
+            "Doloris Holmes E.A.T. member",
+            "Doloris Holmes artist Experiments in Art and Technology E.A.T.",
+            "",
+            "\"Doloris Holmes\" Experiments in Art and Technology",
+            "\"Doloris Holmes\" archives of american art interview E.A.T.",
+            "\"Doloris Holmes\" white mask theatre E.A.T.",
+            "\"Doloris Holmes\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_ghIulVjfstIH0wZS670CdDJXQmI7psTggb56NU1mnykNbeoFfPej6ggZjTq72S0egGLx3qarS1BxknxFNubyUNLvtB0mmrz_k7p6HV2iC1JY02mtyURMz-7b4wcoc_2ybrG3dwM9XtS0dgElObVsNeCequbERowbKStvvSP2ZHzR",
+              "title": "veteranfeministsofamerica.org",
+              "resolvedUri": "https://www.veteranfeministsofamerica.org/legacy/FeministArtSalute2.htm"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1391,
+                "endIndex": 2042,
+                "text": "She passed away in June 2001.\",\n      \"sources\": [\n        \"https://www.nypl.org/sites/default/files/archivalcollections/pdf/the1989007.pdf\",\n        \"https://film-makerscoop.com/filmmakers/doloris-holmes\",\n        \"https://www.aaa.si.edu/collections/interviews/oral-history-interview-lee-krasner-12037\",\n        \"http://www.vasulka.org/archive/4001/AvantGardeFestivals/11th/11thAGF.pdf\",\n        \"https://www.moma.org/research/archives/finding-aids/Hightowerb.html\",\n        \"https://www.veteranfeministsofamerica.org/feminist-artists-at-the-vfa-event-at-the-national-arts-club-nyc-november-2002/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

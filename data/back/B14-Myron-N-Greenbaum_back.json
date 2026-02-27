@@ -9,6 +9,59 @@
         "y1": 8.5,
         "x2": 35.5,
         "y2": 18.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5732793",
+          "label": "Herb Aach",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Herb Aach' matches exactly between the card and the Wikidata entity. The Wikidata entity describes a painter and artist born in 1923 and died in 1985, which aligns perfectly with the expected activity period of the late 1960s and early 1970s. Herb Aach is a relatively unique name, making the identification highly likely."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Herbert (Herb) Aach (1923–1985) was an American painter, writer, and color theorist known for his innovative use of fluorescent pigments and deep exploration of color relationships. Born in Cologne, Germany, he emigrated to New York in 1938 and later studied at the Brooklyn Museum Art School and in Mexico City. In the late 1960s and 1970s, Aach was a significant figure in the New York art scene, teaching at Queens College (where he served as chairman of the arts department from 1976 to 1979) and the Pratt Institute. He was closely associated with technical and scientific collaborations in art, participating in the Experiments in Art and Technology (E.A.T.) exhibition \"Some More Beginnings\" at the Brooklyn Museum in 1968, where he showed his phosphorescent paintings. His expertise in the chemistry of pigments led him to serve as president of the Artists Technical Research Institute starting in 1975. Aach is also well-known for his 1971 translation and editing of Goethe's \"Theory of Colors.\" His notable series from the 1970s include \"Precession of the Equinoxes\" (1974) and \"Split Infinity,\" both of which utilized highly saturated, programmed color arrangements on fresco-like surfaces.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Herbert_Aach",
+              "https://www.herbaach.com/biography",
+              "https://www.leilahellergallery.com/artists/herb-aach",
+              "https://academiccommons.columbia.edu/doi/10.7916/D8445M9H",
+              "https://www.villagepreservation.org/2014/12/22/2014-year-in-review-gvshp-programs/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Herb Aach artist biography",
+            "Herbert Aach artist 1960s 1970s",
+            "Herb Aach Experiments in Art and Technology",
+            "\"Herb Aach\" E.A.T. artist",
+            "\"Herb Aach\" \"Experiments in Art and Technology\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyBwwANka7sYyPLNmlvv9a6AnFk9piOgY0UfH_jcEkhYx5fCpDPJREJdb3NiKbknIibgG1WOGXDiNfa6q6KKVraykfnDtrCr-tMs2YAi7vdJ12bNL_PnTS",
+              "title": "blogspot.com",
+              "resolvedUri": "http://nihalunal.blogspot.com/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 233,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Herbert (Herb) Aach (1923–1985) was an American painter, writer, and color theorist known for his innovative use of fluorescent pigments and deep exploration of color relationships."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +73,155 @@
         "y1": 16.5,
         "x2": 54.5,
         "y2": 28.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26345",
+          "label": "Aleksandra Kasuba",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to 'Aleksandra Kasuba'. The Wikibase entry explicitly identifies her as an artist associated with the E.A.T. Technical Services Program, and the card entry (dated 1964) fits within the expected timeframe of her professional activity. The Wikibase entity also references 'Edge-Notched Cards', which corresponds to the physical card indexing system these records originate from."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q12647498",
+          "label": "Aleksandra Kašubienė",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Aleksandra Kasuba is the common English spelling of the Lithuanian name Aleksandra Kašubienė. The Wikidata entity describes a sculptor born in 1923, making her the correct age to be active in 1964 (as noted on the card) and during the late 1960s/early 1970s. Furthermore, the Wikidata entity is listed as an artist in 'American Women Sculptors', confirming she was a professional artist active in the United States during this period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Aleksandra Kasuba (born Aleksandra Fledžinskaitė, 1923–2019) was a pioneering Lithuanian-American environmental artist and architect renowned for her innovative use of tensile fabrics to create immersive, large-scale \"environments.\" Active primarily from the late 1950s through the early 21st century, she gained significant recognition in the late 1960s and early 1970s for her visionary approach to spatial design, which rejected rigid right angles in favor of organic, shell-like structures. Kasuba was closely associated with the Experiments in Art and Technology (E.A.T.) movement; she participated in the E.A.T. exhibition \"Some More Beginnings\" at the Brooklyn Museum in 1968 with her plexiglass work \"Gateway\" and submitted the manifesto \"Utility for the Soul\" (1970) to their \"Projects Outside Art\" competition. Her notable works include the \"Live-In Environment\" (1971–1972), a 1,000-square-foot sensory-enhancing habitat built in her Manhattan brownstone, and public commissions such as the undulating brick wall at Lincoln Hospital in the Bronx (1973) and a granite relief for the original 7 World Trade Center (1986). After fleeing Lithuania in 1944 and living in a displaced-persons camp in Germany, she emigrated to the United States in 1947, eventually settling in New York and later New Mexico, where she constructed her \"Rock Hill House\" (2001–2005) using unique shell-dwelling techniques.",
+            "sources": [
+              "https://www.aestheticamagazine.com/future-constructs/",
+              "https://www.carreartmusee.com/en/exhibitions/aleksandra-kasuba-760",
+              "https://www.tate.org.uk/whats-on/tate-st-ives/aleksandra-kasuba",
+              "http://moussemagazine.it/magazine/aleksandra-kasuba-spaces-for-senses-2024/",
+              "https://awarewomenartists.com/en/artiste/aleksandra-kasuba/",
+              "https://chertluedde.com/exhibition/aleksandra-kasuba-utility-for-the-soul/",
+              "https://www.moma.org/calendar/exhibitions/5412"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Aleksandra Kasuba artist biography Experiments in Art and Technology E.A.T.",
+            "Aleksandra Kasuba art works 1960s 1970s",
+            "Aleksandra Kasuba shell structures environmental art"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-MDy6Di6fBNyXqsgYAfk26d6cOVexVMEbR9Th9k1m1dxf-XG0l29THKU41hLhTLcW5Ssx8szzspRkZXdWdW1HT3fer8gaPosoDR7KdQZSfyuBmbWAXdJcZ0uxkxX2izhzcwl4bvtK-u9irZI=",
+              "title": "aestheticamagazine.com",
+              "resolvedUri": "https://aestheticamagazine.com/future-constructs/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqITHCVm2k-uLdUWYHKcFqrCTuRNJB-eAOi_IPlt_2ahSow0QIcLdZx8utlp_Ry8I-ZyPYklFt5mAX6NwaVmQY4WFbrG-bmj2gs2AF8_RUJHAbeXH2PsSgrrEAmeAHLbUlK5pLmVSq10Q8CV-5ymLva0WrkxNM",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/artiste/aleksandra-kasuba/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFziaU5_eJhgka5heyOZ1hKrEeLA-tbXBEl67Xfo2m86KBVBeeQt2cz55pRwE0pSf2CudT2tgB6Kybgq23YXfz04wgcQ0QPwnOGqVmia8cLp0cpgKIHu069RjNRWw_0cVKTuCuFis9DMssTDqnk",
+              "title": "moma.org",
+              "resolvedUri": "https://post.moma.org/aleksandra-kasubas-shelters/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJG7o3mmhSJ05x0v0QZDDyGeMSHmfp9qVU74DK29nJgcBHlRUhYiknH8itMQfMn-cItoke8klMHR2WeMSBXrX6m2-teaOC9lBeHO0BqWWxK-1ai_g34V8IaYgRMzzq_ItuO3DWuArj9OdEn5yjiOzs9XkgZB6KFJdwnhqQBRW6HhAuDPZ64LNabmcgDA==",
+              "title": "carreartmusee.com",
+              "resolvedUri": "https://www.carreartmusee.com/fichier/p_media/2877/media_fichier_dp.gb.kasuba.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsw4DtFBYTmJAQQm-bSAZpXQ-586z6H0M8anQfesXLNJV16q09057HZtg9zKmiG8bdEIg6QGwrlRggUC-w19tlb_Y3ZSD1ALPSkfY9ia9GenBM4pY3PwZSZPeHQEEJSxZ-p2bFy96bJq29lpsJHl-Yf6iZWgt6L23Qc0aaS2-xLm5f5drg",
+              "title": "ocula.com",
+              "resolvedUri": "https://ocula.com/institutions/tate-st-ives/exhibitions/aleksandra-kasuba/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsP3nrluXCkvc60tr1cSWbbqR72M2I12B_ve_CmPjm7r-KQ1OYH5IngiGdx96cfO1zkYDez4orb8kn7RjaqM5fWTwlRCNntN9krZwwKR-SItcOljce0PdPNUqfnNXY4UO08o_yBIFbmo9xLZyJxioSUeROjYRvfeeGqbGE-dHohEZZhvo0v4Bg",
+              "title": "moussemagazine.it",
+              "resolvedUri": "https://www.moussemagazine.it/magazine/aleksandra-kasuba-inesa-brasiske-2024/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWWAGVnrY3WB-JmEVqjoZwearhdUiUeNJGvBuMjXTQl2dsjFDYhVODLGsAgImzr5IYrYO60_h6IKFRXVsMp3FrRHLILI87kxUCFCslZXVcwn-4LAuVHbZaRjySev3iqUyw4OzFFGgTiOD624_TmU_K1qB9",
+              "title": "chertluedde.com",
+              "resolvedUri": "https://chertluedde.com/exhibition/utility-for-the-soul/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkOE2Xr94G7a30N4eKnTdD6N9VDhIHmWnyIdMQOdFJSQAGrZ8WcY5VuQllEgt_Pp4Yczn2gca1N5Wm_W0xPAbatwoqGgDSZ0sWFwmWkO7mFaecb7FREZotarREVX7A5bdvFynag_Zo_zG7a5MHPqA=",
+              "title": "medium.com",
+              "resolvedUri": "https://medium.com/@hyojin.a.kwon/1970s-ca5463385285"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD_mLR5CYn1tPb8Q-ekVn4u5Y9awKbdaKfrBdMY-MYURumIljQCLQ6MK2yDvE-6O4dFkXnoIp7gRP0tflyQS80HCCcLRATBvjZZ3Yrm58U-wl_nxvxHOiqRBhae7DOFa0vdeGnV5X7i5KLVbx32Qq7RaHBdsBF8j9IvA==",
+              "title": "tate.org.uk",
+              "resolvedUri": "https://www.tate.org.uk/whats-on/tate-st-ives/aleksandra-kasuba"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 550,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Aleksandra Kasuba (born Aleksandra Fledžinskaitė, 1923–2019) was a pioneering Lithuanian-American environmental artist and architect renowned for her innovative use of tensile fabrics to create immersive, large-scale \\\"environments.\\\" Active primarily from the late 1950s through the early 21st century, she gained significant recognition in the late 1960s and early 1970s for her visionary approach to spatial design, which rejected rigid right angles in favor of organic, shell-like structures."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 551,
+                "endIndex": 632,
+                "text": "Kasuba was closely associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                3,
+                4,
+                0,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 633,
+                "endIndex": 673,
+                "text": "movement; she participated in the E.A.T."
+              },
+              "groundingChunkIndices": [
+                6,
+                3,
+                0,
+                1,
+                4,
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1199,
+                "endIndex": 2072,
+                "text": "After fleeing Lithuania in 1944 and living in a displaced-persons camp in Germany, she emigrated to the United States in 1947, eventually settling in New York and later New Mexico, where she constructed her \\\"Rock Hill House\\\" (2001–2005) using unique shell-dwelling techniques.\",\n      \"sources\": [\n        \"https://www.aestheticamagazine.com/future-constructs/\",\n        \"https://www.carreartmusee.com/en/exhibitions/aleksandra-kasuba-760\",\n        \"https://www.tate.org.uk/whats-on/tate-st-ives/aleksandra-kasuba\",\n        \"http://moussemagazine.it/magazine/aleksandra-kasuba-spaces-for-senses-2024/\",\n        \"https://awarewomenartists.com/en/artiste/aleksandra-kasuba/\",\n        \"https://chertluedde.com/exhibition/aleksandra-kasuba-utility-for-the-soul/\",\n        \"https://www.moma.org/calendar/exhibitions/5412\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3,
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -30,6 +232,80 @@
         "y1": 25.5,
         "x2": 38.0,
         "y2": 39.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q36595974",
+          "label": "Jan Newhouse",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The initials do not match ('M' vs 'Jan'), and the Wikidata entity is identified as a botanist, which does not align with the provided context that the person on the card is an artist or creative practitioner."
+        },
+        {
+          "qid": "Q102211810",
+          "label": "Newhouse Thomas Mathew",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes an academic associated with the Indian Statistical Institute and supervised by a famous statistician (C.R. Rao), which strongly suggests a career in statistics or mathematics. This contradicts the provided context that the person on the card is an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "M. Newhouse is likely a misspelling of Max Neuhaus (1939–2009), a prominent American sound artist and percussionist who was active during the late 1960s and 1970s. Neuhaus was a key collaborator in projects organized by Experiments in Art and Technology (E.A.T.), most notably designing the sophisticated sound system for the Pepsi Pavilion at Expo '70 in Osaka, Japan. The association with the name 'Newhouse' stems from archival or journalistic errors; specifically, a New York Times article from the era mistakenly referred to him as 'Newhouse.' Neuhaus is credited with pioneering the concept of sound installations, moving from a career as a master percussionist (performing works by John Cage and Karlheinz Stockhausen) to creating permanent sound environments such as 'Times Square' (1977). His work in the late 1960s also included the 'LISTEN' series of sound walks and 'Public Supply,' which used radio broadcasts to create collaborative soundscapes.",
+            "sources": [
+              "https://academiccommons.columbia.edu/doi/10.7916/D84176ST",
+              "https://www.moma.org/artists/4272",
+              "https://www.tate.org.uk/art/artists/max-neuhaus-2727",
+              "https://www.e-flux.com/announcements/33948/max-neuhaus/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Mark Newhouse\" artist 1960s 1970s",
+            "\"Michael Newhouse\" artist 1960s 1970s",
+            "\"Margaret Newhouse\" artist 1960s 1970s",
+            "\"M. Newhouse\" artist Experiments in Art and Technology",
+            "\"Mary Newhouse\" artist 1960s 1970s",
+            "artist \"M. Newhouse\" 1960s 1970s",
+            "\"M. Newhouse\" E.A.T. artist",
+            "\"Wynn Newhouse\" Experiments in Art and Technology",
+            "\"Newhouse\" artist Pepsi Pavilion E.A.T.",
+            "\"M. Newhouse\" Experiments in Art and Technology E.A.T.",
+            "\"M. Newhouse\" artist 1968 1969 1970 1971 1972",
+            "\"Mary Newhouse\" E.A.T. artist",
+            "\"Mark Newhouse\" E.A.T. artist",
+            "\"Michael Newhouse\" E.A.T. artist",
+            "\"Margaret Newhouse\" E.A.T. artist",
+            "Experiments in Art and Technology (E.A.T.) member list \"Newhouse\"",
+            "\"Max Neuhaus\" E.A.T. \"Newhouse\"",
+            "\"Mark Newhouse\" artist E.A.T.",
+            "\"Mary Newhouse\" artist E.A.T.",
+            "\"Michael Newhouse\" artist E.A.T.",
+            "\"M. Newhouse\" artist E.A.T. archive",
+            "\"Newhouse\" artist \"Pepsi Pavilion\"",
+            "\"M. Newhouse\" artist 1960s 1970s E.A.T.",
+            "\"Max Neuhaus\" \"Newhouse\" E.A.T. misspelling",
+            "\"Mark Newhouse\" E.A.T. member",
+            "\"Max Neuhaus\" E.A.T. list \"Newhouse\"",
+            "\"Mary Newhouse\" E.A.T. member",
+            "\"Margery Newhouse\" artist",
+            "\"M. Newhouse\" artist 1969 1970 1971 E.A.T.",
+            "\"Michael Newhouse\" E.A.T. member",
+            "\"M. Newhouse\" Pepsi Pavilion E.A.T.",
+            "\"Michael Newhouse\" Experiments in Art and Technology",
+            "\"Mark Newhouse\" Experiments in Art and Technology",
+            "\"M. Newhouse\" art 1968 1969 1970",
+            "\"M. Newhouse\" E.A.T. member list",
+            "\"Mary Newhouse\" Experiments in Art and Technology",
+            "\"M. Newhouse\" artist Pepsi Pavilion"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

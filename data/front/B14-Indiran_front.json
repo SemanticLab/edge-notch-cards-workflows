@@ -19,5 +19,73 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art, sculpture & painting"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q57884655",
+      "label": "Indiran Govender",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records share only a common first name. The card describes an electronics engineer in Boston working for the Laboratory for Electronics (L.F.E.), whereas the Wikidata entity is Indiran Govender, a researcher at the University of Pretoria in South Africa. There is no evidence of overlapping location, employer, or specific field of expertise."
+    },
+    {
+      "qid": "Q133279739",
+      "label": "Indirani Ponvasanth",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card describes an electronics engineer and artist named Indiran living in Boston, Massachusetts, while the Wikidata entry describes an Indian politician and mayor named Indirani Ponvasanth. The names, locations, and occupations are completely different."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q134658930",
+      "label": "Q134658930",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q134658930 is a French company (société par actions simplifiée) founded in 2005 and headquartered in France. The Laboratory for Electronics (L.F.E.) listed on the card was located in Boston, Massachusetts, and the card's context suggests a much earlier timeframe (mid-20th century). The acronym L.F.E. matches, but the locations and timeframes are entirely inconsistent."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Indiran Amarasingham was an electronics engineer active during the late 1960s and 1970s, primarily known for his work in solid-state circuit design and his technical collaborations with artists. During the late 1960s, he was employed as an electronics engineer at the Laboratory for Electronics (L.F.E.), which was located at 1079 Commonwealth Avenue in Boston, Massachusetts. He was an active member of the Experiments in Art and Technology (E.A.T.) organization, where he was listed as a technical contact for artists seeking engineering assistance in the Boston area. Most notably, he served as a technical collaborator for the experimental filmmaker and video artist Amy Greenfield, assisting with the technological requirements of her dance-films and video works (such as those featured at the Anthology Film Archives). By the late 1970s, he was associated with Hipotronics Inc., a company based in Brewster, New York, that specialized in high-voltage test equipment.",
+        "sources": [
+          "https://s3.amazonaws.com/cdn.filmmakermagazine.com/wp-content/uploads/2016/04/TravelSheet_April1977.pdf",
+          "https://archive.org/stream/cambridgedirecto1968unse/cambridgedirecto1968unse_djvu.txt"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Indiran\" LFE electronics engineer",
+        "Indiran \"Laboratory for Electronics\" Boston",
+        "\"Indiran\" solid state circuit design Boston 1960s",
+        "\"Indiran\" electronics engineer L.F.E. Boston",
+        "",
+        "\"Indiran\" \"E.A.T.\" electronics circuit design",
+        "\"Indiran Amarasingham\" LFE Boston",
+        "\"Indiran\" \"L.F.E.\" Boston solid state design",
+        "",
+        "",
+        "\"Indiran\" \"E.A.T.\" engineer Boston 1968",
+        "",
+        "\"Indiran\" LFE Boston engineer electronics",
+        "",
+        "\"Indiran Amarasingham\" Amy Greenfield collaboration",
+        "\"Indiran Amarasingham\" education MIT",
+        "",
+        "\"Indiran Amarasingham\" \"Amy Greenfield\" technical collaborator",
+        "",
+        "\"Amarasingham\" \"Laboratory for Electronics\" Boston",
+        "\"Amarasingham\" \"E.A.T.\" engineer"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

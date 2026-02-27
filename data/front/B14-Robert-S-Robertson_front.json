@@ -23,5 +23,90 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art",
     "aestheticPhilosophicalInterests": ""
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q60198286",
+      "label": "Robert S. Robertson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q60198286) lived from 1839 to 1906, while the person on the index card lived in the era of 5-digit ZIP codes (introduced in 1963) and had a modern professional career as an electrical engineer at Bechtel Corporation. They are clearly different individuals sharing the same name."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q813639",
+      "label": "Bechtel",
+      "description": "American construction and civil engineering company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bechtel Corporation' is a direct match for the global engineering and construction firm 'Bechtel' (Q813639). The card's description of the employee as an electrical engineer is consistent with Bechtel's industry as an engineering and construction company."
+    }
+  ],
+  "web_research": {
+    "results": [],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Robert S. Robertson\" Experiments in Art and Technology",
+        "\"Robert S. Robertson\" electrical engineer power distribution lighting instrumentation",
+        "Robert S. Robertson Bechtel Corporation Electrical Engineer",
+        "\"Robert S. Robertson\" Bechtel NJ",
+        "\"Robert S. Robertson\" North Bergen New Jersey",
+        "",
+        "\"Robert S. Robertson\" E.A.T. engineer",
+        "\"Robert S. Robertson\" Bechtel \"North Bergen\"",
+        "\"Robert S. Robertson\" IEEE New Jersey",
+        "",
+        "\"Robert S. Robertson\" E.A.T. member",
+        "\"Robert S. Robertson\" Bechtel North Bergen NJ",
+        "\"Robert S. Robertson\" Bechtel lighting instrumentation",
+        "",
+        "\"Robert S. Robertson\" \"E.A.T.\" newsletter",
+        "\"Robert S. Robertson\" electrical engineer power distribution lighting instrumentation",
+        "\"Robert S. Robertson\" Bechtel North Bergen",
+        "\"Robert S. Robertson\" \"Bechtel\" New Jersey electrical engineer",
+        "\"Robert Robertson\" Bechtel \"North Bergen\"",
+        "",
+        "\"Robert S. Robertson\" \"North Bergen\" electrical distribution lighting instrumentation",
+        "\"Robert S. Robertson\" \"E.A.T.\" membership archive",
+        "",
+        "\"Robert S. Robertson\" E.A.T. \"North Bergen\"",
+        "",
+        "\"Bechtel\" North Bergen NJ \"electrical power distribution\"",
+        "\"Robert S. Robertson\" Bechtel \"North Bergen\" NJ engineer",
+        "",
+        "\"Robert S. Robertson\" E.A.T. directory engineer",
+        "\"Robert S. Robertson\" electrical engineer \"lighting\" \"instrumentation\"",
+        "\"Robert S. Robertson\" \"E.A.T.\" Bechtel North Bergen",
+        "",
+        "\"Robert S. Robertson\" \"Bechtel\" engineer NJ",
+        "\"Robert S. Robertson\" E.A.T. \"lighting\"",
+        "\"Robert S. Robertson\" E.A.T. \"instrumentation\"",
+        "\"Robert S. Robertson\" \"Bechtel\" \"North Bergen\"",
+        "",
+        "\"Experiments in Art and Technology\" \"Bechtel Corporation\" engineer",
+        "\"Robert S. Robertson\" \"Bechtel\" \"North Bergen\" electrical engineer",
+        "\"Robert S. Robertson\" \"E.A.T.\" Bechtel NJ",
+        "",
+        "\"Robert S. Robertson\" \"Technical Services\" E.A.T.",
+        "\"Robert S. Robertson\" E.A.T. engineer Bechtel",
+        "\"Robert S. Robertson\" Bechtel NJ 1970",
+        "\"Bechtel\" North Bergen NJ engineer 1960s",
+        "",
+        "\"Robert S. Robertson\" Experiments in Art and Technology 1969 1970",
+        "\"Robert S. Robertson\" Bechtel NJ 1968",
+        "\"Robert S. Robertson\" Bechtel NJ electrical engineer E.A.T.",
+        "\"Robert S. Robertson\" Bechtel North Bergen 1971",
+        "\"Robert S. Robertson\" North Bergen lighting instrumentation power",
+        "",
+        "\"Robert S. Robertson\" E.A.T. \"Bechtel\"",
+        "\"Robert S. Robertson\" Bechtel NJ lighting instrumentation power"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

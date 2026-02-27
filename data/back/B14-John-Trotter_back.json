@@ -11,6 +11,26 @@
         "y1": 8.44,
         "x2": 22.8,
         "y2": 17.82
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Peter L. Bahke artist",
+            "\"Peter Bakke\" Experiments in Art and Technology",
+            "\"Peter Bakke\" E.A.T.",
+            "\"Peter L. Bakke\" artist",
+            "\"Bahke\" E.A.T.",
+            "",
+            " Bakke",
+            " Bahke",
+            "\"Peter Bakke\" E.A.T. New York"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -24,6 +44,136 @@
         "y1": 15.57,
         "x2": 21.5,
         "y2": 26.27
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6137963",
+          "label": "James Lennon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (James Lennon, a politician) died in 1958, which makes it impossible for him to be the artist active in 1969 mentioned in the card entry."
+        },
+        {
+          "qid": "Q25246192",
+          "label": "James Lennon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Lennon was born in 1837 and was a politician, whereas the card refers to an artist active in 1969. The dates and occupations are completely incompatible."
+        },
+        {
+          "qid": "Q105953344",
+          "label": "James Lennon",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name James Lennon matches exactly, and the individual's lifespan (1923-1989) makes him a plausible age (46) to be the artist active in 1969 mentioned on the card. However, the Wikidata entry is very sparse and lacks occupation or location data to definitively link him to the artistic context provided."
+        },
+        {
+          "qid": "Q106514220",
+          "label": "James Patrick Lennon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Patrick Lennon was born in 1863 and served as a politician in the early 1900s. It is extremely unlikely that he is the same James Lennon described as an artist active in 1969, as he would have been over 100 years old."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "James Lennon (James Lennon, AIA) is a prominent architect and designer who specialized in healthcare architecture and the design of emergency departments. Active since the late 1960s and early 1970s, he emerged during the period when emergency medicine began to develop as a medical specialty. His work is defined by the principles of 'Evidence-Based Design' (EBD), which emphasizes the collaboration between architectural design, medical science, and technology to improve patient outcomes and operational efficiency. As the founder of Lennon Associates, he has received numerous awards, including the Wolfson Economics Prize in 2021 for 'The Smart ED' project, a reimagination of emergency departments using state-of-the-art technologies and human-centered design. His career aligns with the multidisciplinary ethos of organizations like Experiments in Art and Technology (E.A.T.) by fostering technical and scientific collaboration in the creative field of architecture.",
+            "sources": [
+              "https://www.scribd.com/document/332152643/ED-Design-Book-First-Look-PDF",
+              "https://www.england.nhs.uk/wp-content/uploads/2021/05/HBN_15-01_AandE.pdf",
+              "https://www.cambridge.org/core/books/abs/emergency-department-leadership-and-management/emergency-department-design/C346B392945AF922D97346A2C558F8F9",
+              "https://salus.global/article-show/humanist-hospital-vision-that-nurtures-patients-wins-esteemed-design-prize"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Jim Lennon (James Lennon) is a professional commercial and art photographer based in Long Island, New York, who has been active for over 40 years, placing his early career in the late 1970s or early 1980s. His work primarily focuses on the documentation of the arts, including live stage performances by orchestras, ballet companies, and modern dance troupes, as well as the documentation of visual art exhibits. He has been recognized with awards from organizations such as Kodak and the Association of the Graphic Arts. In 2021, he published a book titled 'The Shoreline' which features his fine art photography.",
+            "sources": [
+              "https://www.fmopa.org/portfolio-review/",
+              "https://jimlennon.com/about-jim-lennon/",
+              "https://www.danspapers.com/2021/12/eye-on-photography-jim-lennon-the-shoreline-book/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "James Lennon artist biography 1960s 1970s",
+            "\"James Lennon\" Experiments in Art and Technology",
+            "\"James Lennon\" artist E.A.T.",
+            "James Lennon artist 1960s 1970s Experiments in Art and Technology E.A.T.",
+            "",
+            "\"James Lennon\" engineer E.A.T.",
+            "\"James Lennon\" technical assistant E.A.T.",
+            "\"James Lennon\" artist collaborator E.A.T.",
+            "\"James Lennon\" artist 1960s 1970s NY",
+            "\"James Lennon\" Experiments in Art and Technology E.A.T. member",
+            "\"James Lennon\" Bell Labs engineer art",
+            "\"James Lennon\" Experiments in Art and Technology archive",
+            "\"James Lennon\" artist technology collaboration",
+            "\"James Lennon\" E.A.T. membership",
+            "\"James Lennon\" artist 1960s 1970s E.A.T. collaboration",
+            "\"James Lennon\" avant-garde artist",
+            "\"James Lennon\" Fluxus",
+            "\"James Lennon\" Experiments in Art and Technology E.A.T.",
+            "\"James Lennon\" artist \"early 1970s\"",
+            "\"James Lennon\" 9 Evenings Theatre and Engineering",
+            "\"Jim Lennon\" photographer artist",
+            "\"James Lennon\" photographer \"1960s\" \"1970s\"",
+            "\"James Lennon\" artist biography 1960 1970 E.A.T.",
+            "James Lennon \"Experiments in Art and Technology\" bibliography",
+            "\"James Lennon\" engineer E.A.T. Bell Labs",
+            "\"James Lennon\" architect E.A.T. collaboration",
+            "\"James Lennon\" artist 1960s 1970s NY Fluxus E.A.T.",
+            "\"James Lennon\" designer 1960s 1970s",
+            "\"James Lennon\" \"Bell Telephone Laboratories\" art",
+            "\"James Lennon\" \"9 Evenings\" engineering team",
+            "",
+            "\"James Lennon\" engineer art collaboration",
+            "\"James Lennon\" Jack Burnham Software",
+            "\"James Lennon\" E.A.T. artist New York 1960s 1970s",
+            "\"James Lennon\" artist \"Software\" exhibition 1970",
+            "",
+            "\"James Lennon\" AIA architect \"E.A.T.\"",
+            "\"James Lennon\" Bell Labs engineer 1966 1967 1968",
+            "\"James Lennon\" engineer \"E.A.T.\"",
+            "\"James Lennon\" designer healthcare 1960s",
+            "\"James Lennon\" E.A.T. member list",
+            "\"James Lennon\" artist \"9 Evenings\" engineering team",
+            "\"James Lennon\" Billy Kluver collaboration",
+            "\"James Lennon\" computer art exhibition",
+            "\"James Lennon\" engineer \"Bell Telephone Laboratories\"",
+            "\"James Lennon\" \"Bell Labs\" 1960s 1970s",
+            "\"James Lennon\" art science engineering collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMO1kuseChTNtYFr6JFvGq6LVWNodRDExmYH_ZdrrEbzrrXHBhsJ1CV7HbwoMOnWZN0hhgIHIcsuNiLixfXxceauvYn9ctHen4CTaHoh1sKSRRcbK1vYkrXcLxST2e8mHqtf6NJH6gkIcd7Npa2mva_c8AvjofJ1ggNwKp5CiA0UMK31TCDvtdKIlnwMkmWr0Hzl4563T0XPc4IX_YKf6CGaRJJn1nAxc=",
+              "title": "cloudfront.net",
+              "resolvedUri": "https://d2fahduf2624mg.cloudfront.net/pre_purchase_docs/BK_ORIO_001889/2020-06-24-01-10-26/bk_orio_001889.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ5O0mKCsbZcKBQl4H3_znL9VhZIkSKhMqoRpUnB5hWIztMqtpblBujrPr2OYF7LMJW-IWgHqeLGqQvyGh_mWhanf4Rr8jfRVl-Uc_zHj3edT2dHENdjNRFyBRcA==",
+              "title": "arxiv.org",
+              "resolvedUri": "https://arxiv.org/pdf/2507.15759?"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2095,
+                "endIndex": 2458,
+                "text": "In 2021, he published a book titled 'The Shoreline' which features his fine art photography.\",\n      \"sources\": [\n        \"https://www.fmopa.org/portfolio-review/\",\n        \"https://jimlennon.com/about-jim-lennon/\",\n        \"https://www.danspapers.com/2021/12/eye-on-photography-jim-lennon-the-shoreline-book/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +187,65 @@
         "y1": 23.83,
         "x2": 40.21,
         "y2": 34.15
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q94663771",
+          "label": "Michael Dvortcsak",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical and relatively unique. The Wikidata entity is confirmed as an artist (with files at the Smithsonian American Art and Portrait Gallery Library) and was born in 1938, making them roughly 31 at the time of the 1969 card entry, which aligns perfectly with the timeframe of an active artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Michael Jon \"Mickey\" Dvortcsak (1938–2019) was an American abstract artist and educator based in California. He began his artistic career in the 1960s as a student at the University of California, Santa Barbara (UCSB), where he studied under Howard Warshaw and Rico Lebrun, eventually earning his MFA in 1968. He was actively involved in the intellectual movement bridging art, science, and technology during the late 1960s; notably, he authored the essay \"The Artist/Scientist in the Twentieth Century,\" published in the Harvard Art Review in 1967. This work, alongside his experimentation with new materials and biomorphic, molecular substructured imagery, aligns him with the era and mission of the Experiments in Art and Technology (E.A.T.) organization. Dvortcsak taught at UCSB until the mid-1970s before pursuing painting full-time. His work often utilized a distinctive oil and wax technique and transitioned from early reductive abstractions to more figurative \"Museum Suites\" in his later years. His art is held in numerous permanent collections, including the Museum of Contemporary Art (MOCA) in Los Angeles, the Walker Art Center in Minneapolis, and the Santa Barbara Museum of Art. He was a lifelong friend and former roommate of the sculptor Richard Serra.",
+            "sources": [
+              "https://www.michaeldvortcsak.com/about-the-artist",
+              "https://www.independent.com/2020/01/22/michael-dvortcsak-1937-2019/",
+              "https://www.legacy.com/obituaries/venturacountystar/obituary.aspx?n=michael-dvortcsak&pid=194622289",
+              "https://www.askart.com/artist/Michael_Dvortcsak/10013977/Michael_Dvortcsak.aspx",
+              "https://dokumen.pub/american-catholics-and-the-church-of-tomorrow-building-churches-for-the-future-1925-1975-022656102x-9780226561028.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Michael Dvortcsak artist",
+            "Michael Dvortcsak 1960s 1970s artist",
+            "\"Michael Dvortcsak\" E.A.T. artist",
+            "\"Michael Dvortcsak\" Experiments in Art and Technology",
+            "\"Michael Dvortcsak\" Robert Rauschenberg Billy Kluver"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp0wQFb7ZGPmk7PSC2Q3TNAgbweTu2Oz4H1mwcQaNcUMvAQ-oz6cFxx4knGTGwnES2cuWE_SB1xgNmuZutAiZulaUER-de3RqC6Y3pNuhOkVMNyHgf0ITCLjX-gfg9aKfT3hDEQJ8AQJb-DPAvBiID5gaLuqb9kO1yn7stQU-9cKKLvMk-lE4Vf3UrEfyZerEWR3y1xR4aUIIeGE0=",
+              "title": "legacy.com",
+              "resolvedUri": "https://www.legacy.com/us/obituaries/venturacountystar/name/michael-dvortcsak-obituary?id=2029106"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG3pi711-glQycVOVLUFtV0xmC0HwNdBSEcNyiqNvg6e9UoZVat52DLD6cfvAxsV9q88h3Oy-y3Exsp1q1pe9gKB-77SoV_gIeTKos8U-i1hPkX_oUHQzPE72RXvWJkzHCwY2dlw93YSyf5leHzHNB_4PDYcCNaLYzwOZDzEbef2ycmoRNjmi1YjazLCXEjOx6GoKJ",
+              "title": "legacy.com",
+              "resolvedUri": "https://www.legacy.com/us/obituaries/newspress/name/michael-dvortcsak-obituary?id=8427782"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 162,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Michael Jon \\\"Mickey\\\" Dvortcsak (1938–2019) was an American abstract artist and educator based in California."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

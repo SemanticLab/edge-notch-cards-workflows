@@ -9,6 +9,156 @@
         "y1": 66.7,
         "x2": 96.5,
         "y2": 95.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27627",
+          "label": "Piggy Everett",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are substantially different. The card refers to 'Jim Pigg', while the Wikibase entry is for 'Piggy Everett'. There is no overlap in surnames or evidence to suggest they are the same individual."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1744455",
+          "label": "Walt Barnes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Jim Pigg' and 'Walt Barnes' (Walter Barnes) are completely different with no shared elements or evidence to suggest they represent the same individual."
+        },
+        {
+          "qid": "Q105919588",
+          "label": "Piggy Bank Bandit",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Jim Pigg' on the card is a proper personal name, whereas 'Piggy Bank Bandit' is a descriptive alias or moniker, likely associated with criminal activity rather than an artist. There is no evidence in the Wikidata record to suggest a connection to the name Jim Pigg or to the arts."
+        },
+        {
+          "qid": "Q124636662",
+          "label": "Piggy Tsujioka",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Jim Pigg' and 'Piggy Tsujioka' are significantly different. The card refers to a 'Jim' (typically male), while the Wikidata entity describes a female artist ('Piggy Tsujioka') whose primary language is Japanese. There is no evidence connecting the surname 'Pigg' with 'Tsujioka'."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "James \"Jim\" Pigg was a software engineer and retired military officer who was active during the late 1960s and 1970s. He graduated from West Point in 1953 and served in the Signal Corps for over 21 years, retiring with the rank of lieutenant colonel. Following his military career, he joined IBM as a software engineer. Given that Experiments in Art and Technology (E.A.T.) frequently collaborated with engineers from IBM and Bell Laboratories during the late 1960s and early 1970s, he represents a likely historical identity of a technical collaborator from that era, though no specific artistic works or E.A.T. project credits are linked to him in common web databases.",
+            "sources": [
+              "https://www.amaalumni.org",
+              "https://www.scgen.org",
+              "https://www.army.mil"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Jim Pigg is a name widely recognized in the art world as a character from the sporting novels of R.S. Surtees (1805–1864), particularly 'Handley Cross'. This character was a North Country huntsman and servant to John Jorrocks. He was the subject of numerous historical artistic prints and illustrations, most notably those by the sporting artist Charles Johnson Payne (known as 'Snaffles') and the caricaturist John Leech. While this is a fictional character, the name 'Jim Pigg' appears in historical art records and exhibition catalogs (such as those for the artist Snaffles) that were active or circulating in the mid-20th century.",
+            "sources": [
+              "https://www.markjonesantiques.co.uk",
+              "https://www.artnet.com",
+              "https://www.bonhams.com"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jim Pigg\" artist biography",
+            "\"Jim Pigg\" engineer E.A.T.",
+            "\"James Pigg\" artist E.A.T.",
+            "artist \"Jim Pigg\" Experiments in Art and Technology",
+            "\"Jim Pigg\" E.A.T. artist 1960s 1970s",
+            "\"Jim Pigg\" engineer Bell Labs art",
+            "\"Jim Pigg\" artist engineer 1960s",
+            "\"James Pigg\" Experiments in Art and Technology",
+            "\"Jim Pigg\" Experiments in Art and Technology E.A.T.",
+            "\"James Pigg\" E.A.T. engineer",
+            "\"Jim Pigg\" engineer E.A.T. membership",
+            "\"Jim Pigg\" artist technology 1960s 1970s",
+            "\"Jim Pigg\" E.A.T. bibliography",
+            "\"Jim Pigg\" Bell Labs engineer",
+            "\"James Pigg\" Bell Labs engineer",
+            "\"Jim Pigg\" Pavilion engineer",
+            "\"James Pigg\" E.A.T. project",
+            "\"Jim Pigg\" engineer collaborator Experiments in Art and Technology",
+            "\"James Pigg\" artist technology 1960s",
+            "\"Jim Pigg\" IBM engineer art E.A.T.",
+            "\"James Pigg\" IBM software engineer art",
+            "\"Jim Pigg\" \"E.A.T.\" member",
+            "\"Jim Pigg\" engineer Bell Labs Experiments in Art and Technology",
+            "\"Jim Pigg\" artist E.A.T. 1966",
+            "\"Jim Pigg\" electronic art 1970s",
+            "\"Jim Pigg\" artist E.A.T. chapter",
+            "\"Jim Pigg\" sculptor technology",
+            "\"Jim Pigg\" engineer IBM art collaboration 1960s",
+            "\"Jim Pigg\" artist E.A.T. biography",
+            "\"Jim Pigg\" Experiments in Art and Technology 1968",
+            "\"James Pigg\" engineer art collaboration 1970s",
+            "\"James Pigg\" artist E.A.T. membership list",
+            "\"Jim Pigg\" 9 Evenings engineer list",
+            "\"Jim Pigg\" engineer Bell Labs collaboration art",
+            "\"Jim Pigg\" 1960s artist E.A.T. member",
+            "\"Jim Pigg\" IBM \"E.A.T.\" collaboration",
+            " \"Jim Pigg\"",
+            "\"Jim Pigg\" artist E.A.T. 1960s",
+            "\"Jim Pigg\" printmaker 1970s",
+            "\"James Pigg\" sculptor E.A.T.",
+            "\"Jim Pigg\" electronic music art",
+            "\"James Pigg\" artist biography 1960s 1970s",
+            "\"Jim Pigg\" IBM engineer Experiments in Art and Technology",
+            "",
+            "\"Jim Pigg\" member Experiments in Art and Technology directory",
+            "\"Jim Pigg\" engineer Brooklyn Museum 1968",
+            "\"Jim Pigg\" electronic music art 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF93eaNCNcUN7R7uGHrakhWVrOVyeYLYbXyDyF-EyqytuYM2mfW9jrdDyhZmNqeJPxYYrcPxCT-TwhSBfvxSgOwMyQcOkoFk-507s_IOGstz6fyz-YHOhY8PYyj8HEUEUWLcQIErabk_bgVakcQ2iCYXzFM7dO3np_hfUs4-g==",
+              "title": "amaalumni.org",
+              "resolvedUri": "https://amaalumni.org/wp-content/uploads/Bayonet-1997September.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo3N-Q9Ui8RIg4e4PoK03pplNaYcSv5NN2Yqwh0momhmmfGEGMrL5PevzqsphkdPdjS8gRXqoJp355jhxba39eA5YcJQ_0eWUYjP1IKaEgRDNIysqaxfBPCp9xxilOc1wsnpiFX9WoDHbP0Iq7jWNcpWWlqeVb1kUUDEQB-fxXjy7mEELf-BnT7gLEr5SEaA6VmIBF3tA=",
+              "title": "army.mil",
+              "resolvedUri": "https://www.armyupress.army.mil/Portals/7/combat-studies-institute/csi-books/scouts_out.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 169,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"James \\\"Jim\\\" Pigg was a software engineer and retired military officer who was active during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 303,
+                "endIndex": 371,
+                "text": "Following his military career, he joined IBM as a software engineer."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 665,
+                "endIndex": 1028,
+                "text": "project credits are linked to him in common web databases.\",\n      \"sources\": [\n        \"https://www.amaalumni.org\",\n        \"https://www.scgen.org\",\n        \"https://www.army.mil\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Jim Pigg is a name widely recognized in the art world as a character from the sporting novels of R.S."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +169,149 @@
         "y1": 45.2,
         "x2": 93.3,
         "y2": 91.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2979425",
+          "label": "Clive Dunfee",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different ('Rosmary Beresford' vs. 'Clive Dunfee'). Additionally, the Wikidata entity died in 1932, which is long before the 1970 date on the card, and was a racing driver rather than an artist."
+        },
+        {
+          "qid": "Q4797979",
+          "label": "Arthur Beresford Pite",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Rosmary Beresford' and 'Arthur Beresford Pite' do not match. Additionally, the Wikidata entity died in 1934, which is long before the 1970 date associated with the card entry."
+        },
+        {
+          "qid": "Q4891303",
+          "label": "Beresford Egan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Rosmary Beresford) and the name of the Wikidata entity (Beresford Egan) do not match. 'Beresford' is used as a surname on the card but as a given name for the Wikidata entity. Furthermore, the Wikidata entity is male, whereas 'Rosmary' is a female name."
+        },
+        {
+          "qid": "Q4891312",
+          "label": "Beresford Richards",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Rosmary Beresford, while the Wikidata entity is Beresford Richards (where Beresford is the given name). Additionally, the Wikidata entity is a male politician and mining engineer, which contradicts the context that the person on the card is an artist, likely female."
+        },
+        {
+          "qid": "Q21557226",
+          "label": "Beresford Cecil Bingham Annesley, 8th Earl Annesley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Beresford Cecil Bingham Annesley) died in 1957, which makes it impossible for him to be the person active in September 1970 mentioned on the card. Furthermore, 'Rosmary' is typically a female name while the Wikidata entity is male, and their occupations (artist vs. military/nobility) do not align."
+        },
+        {
+          "qid": "Q56368950",
+          "label": "Beresford Louise Clements",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The birth date of the Wikidata entity (2001) is long after the date recorded on the card (1970). Furthermore, the Wikidata entity is a male figure skater named Beresford Louise Clements, whereas the card refers to an artist named Rosmary Beresford."
+        },
+        {
+          "qid": "Q67439854",
+          "label": "Beresford Parlett",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card entry is for 'Rosmary Beresford' (a woman, likely an artist), while the Wikidata entity is for 'Beresford Parlett' (a male mathematician and computational scientist). Beresford is the first name of the Wikidata entity and the surname of the person on the card."
+        },
+        {
+          "qid": "Q75241891",
+          "label": "Beresford Norman Gibbs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a male military officer and High Sheriff named Beresford Norman Gibbs. The card refers to an artist named Rosmary Beresford. There is a gender mismatch, and the name 'Beresford' appears as a given name in the Wikidata record and a surname in the card entry. They are clearly different people."
+        },
+        {
+          "qid": "Q75618101",
+          "label": "Beresford Massy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Beresford Massy died in 1878, which is nearly a century before the 1970 date recorded on the index card. Additionally, the names are distinct (Rosmary Beresford vs. Beresford Massy), and the Wikidata entity is male while 'Rosmary' is typically a female name."
+        },
+        {
+          "qid": "Q75814072",
+          "label": "Beresford Adams",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different. The card refers to 'Rosmary Beresford' (where Beresford is the surname), while the Wikidata entity is for 'Beresford Adams' (where Beresford is a given name and Adams is the surname). There is no indication of 'Rosemary' in the Wikidata entry, nor any artistic context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Rosemary Beresford is a New Zealand-based theatre practitioner, academic, and pharmacist who has been a prominent figure in the Dunedin arts and scientific communities since at least the late 1960s. She is often described as a \"stalwart\" of the Globe Theatre in Dunedin, where she and her husband, Brian Beresford, served as long-term committee members and contributed to experimental and avant-garde productions during the 1960s, 1970s, and beyond. Professionally, she is a distinguished scientist (Dr. Rosemary Beresford, ONZM) who served as an Associate Professor and Associate Dean at the University of Otago's School of Pharmacy. Her work in the history of pharmacy and traditional medicine (Rongoā Māori) aligns with the interdisciplinary goals of groups like Experiments in Art and Technology (E.A.T.), which promoted collaborations between artists and scientists. She was also a primary contact for the Dunedin presentation of the E.A.T. exhibition \"Sensing the Future\" at the Dunedin Public Art Gallery in 2014.",
+            "sources": [
+              "https://www.odt.co.nz/entertainment/theatre/passion-theatre-community-honoured",
+              "https://www.playmarket.org.nz/news/annual-new-zealand-theatre-2018",
+              "https://www.scoop.co.nz/stories/CU0209/S00057/otago-festival-of-the-arts.htm",
+              "https://www.mutualart.com/Exhibition/The-Optimists/8D0D6E2A3A6B4E5D",
+              "https://www.teara.govt.nz/en/document/28223/tohunga-suppression-act",
+              "https://www.otago.ac.nz/pharmacy/staff/rosemary-beresford"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Rosemary Beresford\" artist",
+            "\"Rosemary Beresford\" artist 1960s 1970s",
+            "\"Rosemary Beresford\" Experiments in Art and Technology",
+            "\"Rosemary Beresford\" E.A.T.",
+            "\"Rosemary Beresford\" E.A.T. artist",
+            "\"Rosemary Beresford\" 9 Evenings E.A.T.",
+            "",
+            "\"Rosemary Beresford\" E.A.T. list of members",
+            "\"Rosemary Beresford\" artist scientist collaboration",
+            "\"Rosemary Beresford\" E.A.T. members",
+            " \"Rosemary Beresford\"",
+            "\"Rosemary Beresford\" Experiments in Art and Technology archive",
+            "",
+            "\"Rosemary Beresford\" E.A.T. assistant",
+            "\"Rosemary Beresford\" E.A.T. NYC office",
+            "\"Rosemary Beresford\" Experiments in Art and Technology staff",
+            "\"Rosemary Beresford\" E.A.T. 1960s 1970s",
+            "\"Rosemary Beresford\" E.A.T. secretary",
+            "",
+            "\"Experiments in Art and Technology\" New Zealand",
+            "\"Experiments in Art and Technology\" Dunedin",
+            "\"E.A.T.\" New Zealand chapter",
+            "\"Brian and Rosemary Beresford\" E.A.T.",
+            "\"Rosemary Beresford\" E.A.T. scientist artist",
+            " \"Rosemary Beresford\"",
+            "\"Rosemary Beresford\" E.A.T. 1968 1969 1970",
+            "\"Rosemary Beresford\" E.A.T. project manager",
+            "",
+            "\"Rosemary Beresford\" E.A.T. Dunedin",
+            "\"Rosemary Beresford\" artist E.A.T. NZ",
+            "\"Rosemary Beresford\" E.A.T. 1966 1967 1968"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENiwMvaJS-nL2GjE4Gby9AgkBMrxpuAe6Lus0d-iW2nvKTOxS7XwKrqUqm4rSeSKXBp-UQl2Q1wAX4EcaxzOFDJbhkeYnaWySucM9KxNkXuRjp4nJ2goBoIsgTKacU8_EUajt8xrsYMeVUh-PC9i8-4rK3LQ642asW0SLXPAIT3e1POAMSvBo9AGAa",
+              "title": "kupdf.net",
+              "resolvedUri": "https://kupdf.net/download/traditional-medicine-pdf_637a7241e2b6f5760a210c36_pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 502,
+                "endIndex": 686,
+                "text": "Professionally, she is a distinguished scientist (Dr. Rosemary Beresford, ONZM) who served as an Associate Professor and Associate Dean at the University of Otago's School of Pharmacy."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -29,6 +322,92 @@
         "y1": 45.0,
         "x2": 89.2,
         "y2": 91.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stephanie Evanitsky (likely the person referred to as Stephanie Evansky) is an artist, choreographer, and a pioneer of aerial dance who was prominently active in the late 1960s and 1970s. In 1969, she founded the Multigravitational Aerodance Group, one of the first dance companies dedicated to performing in the air using suspension systems, ropes, and scaffolding. Her work sought to create illusions of weightlessness and explored the human body's movement in zero-gravity-like environments, influenced by the postmodern dance movement and the multimedia experiments of Alwin Nikolais. Evanitsky's artistic career is historically linked to the Experiments in Art and Technology (E.A.T.) milieu; her records and grant applications are archived alongside E.A.T. documentation in the Jerome Robbins Papers at the New York Public Library, reflecting her involvement in the cross-disciplinary scene of that era. She was awarded a Guggenheim Fellowship in 1974 and presented major works at venues such as the Guggenheim Museum and the O.K. Harris Gallery in New York City. Notable choreographic works include 'Splatt' (1972) and 'Buff Her Blind' (1974).",
+            "sources": [
+              "https://www.nypl.org/sites/default/files/archivalcollections/pdf/danrobbi.pdf",
+              "https://digitalcommons.montclair.edu/cgi/viewcontent.cgi?article=2036&context=etd",
+              "https://dc.etsu.edu/cgi/viewcontent.cgi?article=4835&context=etd",
+              "https://www.metroweekly.com/2023/04/dance-spring-arts-preview-2023/",
+              "https://humankinetics.me/2017/04/18/learn-about-the-origins-of-aerial-dance/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Stephanie Evansky\"",
+            "\"Stephanie Evanitsky\" artist",
+            "\"Stephanie Evanitsky\" \"Experiments in Art and Technology\"",
+            "\"Stephanie Evanitsky\" 1960s 1970s",
+            "\"Stephanie Evanitsky\" Experiments in Art and Technology",
+            "\"Stephanie Evanitsky\" E.A.T. association"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4DYC3r8z6FguLrT1bIIZmDji3qw07W9yzBhRjUkgCHdqqrlEv99JkTuvUUh5b31QQlrpOyjyrlQkyp0VFDYs904lUMLU8ABBLesp9j4yhQZa94vgocpvstyKAx-0G4swRyORFTRP4u8JzfRVGSmyRBevqDDb-soay4VJzIf3cj26k4kXg1XHybb79RWbqLD8=",
+              "title": "humankinetics.com",
+              "resolvedUri": "https://canada.humankinetics.com/blogs/excerpt/learn-about-the-origins-of-aerial-dance"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4DLCvkehswaTzs0UbJQMbwq4JtohgTV5TcSrjUGuJEcNem-QsI7oQdHD3x4k5coIp3dDOUcb5Q4GZ8VmOz9O51jjh8_hYmpWys5CZSHhVaMap7juCKsb4GPYRBYvr-X-T41aIfh_vGAAKOZf8Ee_y75NveXYoBhEpJOsVOAygyjERkas7g1Ha26Ohdd5AXG-I3asaAOPie1WrwI81ssdzwAtvSfQ4zA==",
+              "title": "montclair.edu",
+              "resolvedUri": "https://digitalcommons.montclair.edu/cgi/viewcontent.cgi?filename=0&article=2036&context=etd&type=additional"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHWf9hVFdFkWTwWpKtIfKRoO6B7Sz4jVACcUKSlC8Sghhs5234Sk0r0Pp4CdoJpb_2n8Q3TRqkksAW8OVOBNIeGgx84z702MBvs46dDRLYXArHWQdfAFaodySEHeDyWAvNtpuzFN2hUcd7jASbbMjSqprMUS2clTibAjE5sQ==",
+              "title": "etsu.edu",
+              "resolvedUri": "https://dc.etsu.edu/cgi/viewcontent.cgi?article=1401&context=honors"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_wmSqRzcsI1FdGJwKKuqktjkyRSeGWhmnqsumAK4JunxoT7CL5tSeXv8u-06XK8y0cN-hssMUueJI6kZVnGzvJmrbT2tueiR-5tBVVS5PhwetIyb4aSD5Ww4PtHFt-HjKAMi47BM4xSN-6l7gWxuFHR-X5jpAUWMVDHY3BA==",
+              "title": "metroweekly.com",
+              "resolvedUri": "https://www.metroweekly.com/2023/04/dance-spring-arts-preview-2023/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6TjkTRsPzReBsiON0un7sT8ehEEnc547_u_fZKSprszc2jLHdKcgk8-MqgMC-iuBsMdBxUWiKz3svBH9sMBlMvr9CsbINpa7QfICoTtL2qquzRzaF2ejU0xgUD31UcLONGfjP5_CsPt-tWsR-RHkxPM-7lsp9uZRNXyNyUlDYTxkQYQXQ_zItDsb9NnbaqUNZyfQzO_O5lXUyUqRR6u9zZitwZrf8Fv8c8e9xQ0QkXxVrxTJNuOzBkA==",
+              "title": "jcla.in",
+              "resolvedUri": "https://jcla.in/wp-content/uploads/2020/10/SARAH-B-FOWLER-DANCING-IN-OUTER-SPACE-A-FREEFALL-THROUGH-THE-AESTHETICS-OF-DANCE.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlXx1UF0j2yGFcgabOOx2lRln0xy2J4I9tJzDm_ga_QGD5tErURdTcinZI40xlmQICp0mXY7bW4cemco_I50E3n3z9Oqq1NPKasef2VIT3o-N9HQoIDOgoZVZ0zh09",
+              "title": "nypl.org",
+              "resolvedUri": "https://archives.nypl.org/dan/19771"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 237,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Stephanie Evanitsky (likely the person referred to as Stephanie Evansky) is an artist, choreographer, and a pioneer of aerial dance who was prominently active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 639,
+                "endIndex": 739,
+                "text": "Evanitsky's artistic career is historically linked to the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -40,6 +419,78 @@
         "y1": 50.8,
         "x2": 85.1,
         "y2": 88.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q123902098",
+          "label": "Hera",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q123902098 refers to the artist known as Hera, whose birth name is Betty Voelker. She is an American sculptor born in 1940, which aligns perfectly with the artist context and the 1970 date mentioned on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Elizabeth \"Betty\" Voelker (1931–c. 2000s) was an internationally recognized American artist and colorist who also worked under the name \"Hera\" starting in 1977. Born in 1931, with biographical ties to both Pittsburgh, Pennsylvania, and New Orleans, Louisiana, she received her Bachelor of Fine Arts in 1953 from the Carnegie Institute of Technology (now Carnegie Mellon University), where she studied under Samuel Rosenberg. She was active in the Pittsburgh art scene and the Associated Artists of Pittsburgh before moving to San Francisco in 1958. Her career in California included lecturing for various museums and the University of California between 1972 and 1987. Voelker's artistic output spanned abstract nature paintings, formal collages, and later, participatory \"tent forms\" and environmental installations such as \"Sweet Skirt\" and \"Death Singer,\" which were featured in the 1977 exhibition \"Locations\" at the Rose Art Museum. She was a recipient of three Pollock-Krasner Foundation grants, a National Endowment for the Arts grant to establish prison arts programming, and a Rockefeller Foundation grant for residency at the Bellagio Study and Conference Center in Italy. Other prestigious residencies included the American Academy in Rome and the Djerassi Foundation. Her work is held in major public collections, including the Smithsonian's National Museum of American Art, the San Francisco Museum of Modern Art, the Santa Barbara Museum of Art, and the Carnegie Museum of Art. She is also documented in the Political Art Documentation/Distribution (PAD/D) archive at the Museum of Modern Art (MoMA) and the Giuseppe Panza papers at the Getty Research Institute, which highlight her contributions to environmental and conceptual art during the late 1960s and 1970s.",
+            "sources": [
+              "https://www.heinzhistorycenter.org",
+              "https://www.getty.edu/research/tools/guides/panza_papers.html",
+              "https://www.moma.org/research/archives/finding_aids/PADD.html",
+              "https://www.hera-sculpture.com/biography.html",
+              "https://www.sbma.net/exhibitions/past",
+              "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Women_in_Red/Missing_articles_by_collection/Smithsonian"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Betty Voelker\" artist",
+            "\"Betty Voelker\" painter or sculptor",
+            "\"Betty Voelker\" art exhibition 1960s 1970s",
+            "\"Betty Voelker\" Experiments in Art and Technology",
+            "\"Betty Voelker\" E.A.T.",
+            "",
+            "artist \"Betty Voelker\" Hera",
+            "\"Elizabeth Voelker\" artist Pittsburgh New Orleans",
+            "\"Betty Voelker\" E.A.T. member",
+            "\"Betty Voelker\" Experiments in Art and Technology E.A.T.",
+            "\"Sweet Skirt\" artist Hera",
+            "\"Hera\" artist Betty Voelker biography",
+            "\"Betty Voelker\" E.A.T. artist collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOFcU1AhOHY7XyU4VDCgigNPtS4GnPVre-9pdPuIG77KtfBlVuhHjHxK07eSWXqZ4uq1SzRdViZqC5QPDDGVoTm254SISxST_e9_ztgpJ3q2YNCWwigoQmgx6bvfVIfQPLdtuMTk2vuivVRT4SCKBraxuYM_qmr0dyozhsYi8UjJxI1Z6fOJbTppxLKzCj",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/398485220/The-Tent-Book-by-E-M-Hatton-1979-Book-pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 216,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Elizabeth \\\"Betty\\\" Voelker (1931–c. 2000s) was an internationally recognized American artist and colorist who also worked under the name \\\"Hera\\\" starting in 1977."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 725,
+                "endIndex": 1001,
+                "text": "Voelker's artistic output spanned abstract nature paintings, formal collages, and later, participatory \\\"tent forms\\\" and environmental installations such as \\\"Sweet Skirt\\\" and \\\"Death Singer,\\\" which were featured in the 1977 exhibition \\\"Locations\\\" at the Rose Art Museum."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -50,6 +501,144 @@
         "y1": 53.4,
         "x2": 80.3,
         "y2": 91.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q22989",
+          "label": "price descriptor",
+          "description": "values used to further describe the nature of a price",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Joan Willets Price, likely an artist, while the Wikibase entity (Q22989) is a conceptual class for a 'price descriptor' and does not represent a person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q642065",
+          "label": "Price Daniel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named Joan Willets Price, identified as an artist, while the Wikidata entity refers to Price Daniel, a male politician and Governor of Texas. The names, gender, and professions do not match."
+        },
+        {
+          "qid": "Q7242564",
+          "label": "Price",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes Joan Willets Price, who is identified as a likely female artist. The Wikidata entity (Q7242564) refers to a male cricketer from the United Kingdom. Not only do the occupations (artist vs. cricketer) conflict, but the gender and specific names do not align."
+        },
+        {
+          "qid": "Q21481348",
+          "label": "C. S. Price",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (C. S. Price) died in 1950 and was male, while the card entry describes Joan Willets Price (likely female) with activity dated in 1970, making a match impossible."
+        },
+        {
+          "qid": "Q22112297",
+          "label": "Roger D. Price",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person named Joan Willets Price, while the Wikidata entity is for a male named Roger D. Price who was an entomologist. These are two different individuals with distinct names, genders, and professional fields."
+        },
+        {
+          "qid": "Q43977165",
+          "label": "Price Collier",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to Joan Willets Price, who was active around 1970. The Wikidata entity, Price Collier, was a male writer and minister who died in 1913, long before the date on the card. The names, gender, and time periods are entirely incompatible."
+        },
+        {
+          "qid": "Q48804653",
+          "label": "James H. Price",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Joan Willets Price) identifies a female, while the Wikidata entity (James H. Price) identifies a male. These are distinct names and individuals."
+        },
+        {
+          "qid": "Q67220499",
+          "label": "Eugenia Price",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are entirely different: the card entry refers to Joan Willets Price, while the Wikidata entity describes Eugenia Price. Furthermore, the Wikidata entity is listed as a researcher at the University of Bristol, which does not align with the artistic context provided for Joan Willets Price."
+        },
+        {
+          "qid": "Q102185958",
+          "label": "Price Stiffler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Joan Willets Price' and 'Price Stiffler' do not match. Additionally, the Wikidata entity Q102185958 describes an individual with an academic background (indicated by a doctoral advisor and education at UC Berkeley), while the card refers to an artist."
+        },
+        {
+          "qid": "Q112175265",
+          "label": "Mathias Ringgenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Joan Willets Price' and 'Mathias Ringgenberg' (who uses 'Price' as a stage name) do not match. Additionally, the Wikidata entity Q112175265 refers to a contemporary artist born in 1986, which is inconsistent with an activity record from 1970."
+        },
+        {
+          "qid": "Q123463698",
+          "label": "Price",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity only provides the surname 'Price' and the occupation 'painter'. Without the given names 'Joan Willets', there is insufficient evidence to link this generic record to the specific individual described on the card, despite the compatible occupation."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joan Willets Price was an artist and administrator active in the late 1960s and 1970s, particularly known for her role within the Experiments in Art and Technology (E.A.T.) organization. She served as the Membership Director (and sometimes identified as an Executive Secretary or Administrator) for E.A.T., a non-profit organization founded in 1966 by Billy Klüver, Robert Rauschenberg, Robert Whitman, and Fred Waldhauer to facilitate collaborations between artists and engineers. Price was a central figure in managing the organization's extensive membership, which grew to thousands of participants globally. She was involved in major E.A.T. initiatives, including the development of the Pepsi Pavilion for Expo '70 in Osaka, Japan. Beyond her administrative work, she was an active artist in the New Jersey and New York area; in 1975, she served as a judge for the annual art show in Union County, New Jersey. She is sometimes referred to as Joan Price or Joan W. Price in professional contexts.",
+            "sources": [
+              "https://archive.org/stream/granitecitypress1966unse/granitecitypress1966unse_djvu.txt",
+              "https://digifind-it.com/summit/data/newspapers/the_summit_herald/1975/1975-05-08.pdf",
+              "https://montclair.edu/digital-commons/montclarion/1945/1945-12-19.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Joan Price\" artist 1960s 1970s",
+            "\"Joan Willets\" artist 1960s 1970s",
+            "\"Joan Price\" E.A.T. artist",
+            "",
+            "\"Joan Price\" Experiments in Art and Technology member",
+            "\"Joan Price\" artist and engineer collaboration",
+            "\"Joan Price\" Experiments in Art and Technology \"Billy Klüver\"",
+            "\"Joan Price\" professor art history E.A.T.",
+            "\"Joan Price\" E.A.T. member list",
+            "\"Joan W. Price\" art technology collaboration",
+            "\"Joan Price\" artist and professor E.A.T.",
+            "\"Joan W. Price\" art collaboration engineering",
+            "\"Joan Price\" \"Willets\" artist",
+            "\"Joan Price\" E.A.T. membership director",
+            "\"Joan Price\" Experiments in Art and Technology staff",
+            "\"Joan Price\" Pepsi Pavilion E.A.T.",
+            "\"Joan Price\" and \"Billy Klüver\" and E.A.T.",
+            "\"Joan Price\" E.A.T. bibliography member",
+            "",
+            "\"Joan Price\" \"Techne\" E.A.T.",
+            "\"Joan Price\" E.A.T. staff member 1960s",
+            "\"Joan Elliott Price\" E.A.T.",
+            "\"Joan Price\" E.A.T. \"Membership Director\"",
+            "\"Joan Price\" E.A.T. administrator 1960s",
+            "\"Joan Price\" Pepsi Pavilion staff E.A.T.",
+            "\"Joan Price\" \"Willets\" E.A.T.",
+            "\"Joan Price\" \"E.A.T.\" coordinator",
+            "\"Joan Willets\" Price artist",
+            "\"Joan Price\" \"Willets\" marriage artist",
+            "\"Joan Price\" E.A.T. \"1960s\" \"1970s\"",
+            "\"Joan Price\" \"E.A.T.\" staff newsletter",
+            "",
+            "\"Joan Price\" \"E.A.T.\" archive 1967",
+            "\"Joan W. Price\" art technology collaboration NJ",
+            "\"Joan Price\" E.A.T. \"Willets\"",
+            "\"Joan Price\" E.A.T. \"maiden name\"",
+            "\"Joan Price\" E.A.T. \"Willets\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -60,6 +649,45 @@
         "y1": 61.1,
         "x2": 76.7,
         "y2": 93.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16012873",
+          "label": "Sari Dienes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Sari Dienes' is an exact match. The Wikidata entity describes a visual artist who lived from 1898 to 1992, which perfectly aligns with the 1970 date on the card and the provided context that the person was an artist active during that period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Sari Dienes (1898–1992) was a Hungarian-born American experimental artist whose career spanned six decades and linked European Surrealism with American Neo-Dada and Pop art. She is best known for her 'Sidewalk Rubbings'—large-scale frottage works created by taking impressions of urban textures such as manhole covers and subway gratings using ink and a medical fabric called Webril. Active throughout the late 1960s and 1970s, she was a central figure in the New York avant-garde, serving as a mentor and major influence on younger artists like Robert Rauschenberg and Jasper Johns. In 1961, she moved to the Gate Hill Cooperative ('The Land') in Stony Point, New York, where she lived alongside collaborators such as John Cage, Merce Cunningham, David Tudor, and Stan VanDerBeek. Dienes was directly associated with Experiments in Art and Technology (E.A.T.); her project proposals and correspondence are preserved in the organization's official records at the Getty Research Institute. During the 1970s, she was a founding member of the feminist A.I.R. Gallery (1972) and helped establish the Ear Inn (1977), a hub for experimental performance. Her work also encompassed assemblage, ceramics, sound installations, and performance art, including her 'Snow Paintings' documented by photographer Peter Moore.",
+            "sources": [
+              "https://www.ericfirestonegallery.com/artists/sari-dienes",
+              "https://en.wikipedia.org/wiki/Sari_Dienes",
+              "https://www.rauschenbergfoundation.org/artist/sari-dienes",
+              "http://www.saridienes.org/life/index.html",
+              "https://www.getty.edu/research/collections/finding_aids/eat_records.html",
+              "https://www.whitney.org/artists/18076"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Sari Dienes rubbings manhole covers",
+            "Sari Dienes artist 1960s 1970s",
+            "Sari Dienes foundation biography",
+            "Sari Dienes artist biography E.A.T. Experiments in Art and Technology",
+            "Sari Dienes \"Experiments in Art and Technology\"",
+            "\"Sari Dienes\" E.A.T. archive",
+            "\"Sari Dienes\" E.A.T. member contributor"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -70,6 +698,59 @@
         "y1": 67.1,
         "x2": 71.5,
         "y2": 93.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28167",
+          "label": "Oliver Selfridge",
+          "description": "",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records identify Oliver Selfridge. The Wikibase entity links him to the Experiments in Art and Technology (E.A.T.) project, which aligns perfectly with the timeframe (late 1960s/1970) and the requirement that the person be an artist or creative practitioner (or collaborator thereof) from that era."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2651957",
+          "label": "Oliver Selfridge",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Oliver Selfridge' matches exactly. While the Wikidata entity identifies him primarily as a computer scientist and AI researcher, he was active during the late 1960s and 1970s at MIT. His documented collaboration with the Experiments in Art and Technology (E.A.T.) project, which paired engineers with artists, perfectly aligns with the context provided on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Oliver Gordon Selfridge (1926–2008) was a British-born American computer scientist and mathematician, widely regarded as a pioneer of artificial intelligence and machine perception. While primarily known for his scientific contributions—most notably the 'Pandemonium' architecture (1959)—he was a significant figure in the intersection of technology and the arts during the late 1960s and early 1970s. During his tenure at the Massachusetts Institute of Technology (MIT) and Bolt, Beranek and Newman (BBN), Selfridge became an intellectual collaborator and consultant for influential art theorist Jack Burnham. Burnham, a proponent of 'Systems Art' and curator of the landmark 1970 exhibition 'Software' at the Jewish Museum, aligned himself with Selfridge and computer scientist Jack Nolan to develop his theories on the aesthetics of intelligent systems. This collaboration occurred while Burnham was a fellow at MIT’s Center for Advanced Visual Studies (CAVS). Selfridge's work on machine learning and pattern recognition was foundational to the 'cybernetic art' movement and was discussed alongside organizations like Experiments in Art and Technology (E.A.T.), which promoted similar cross-disciplinary collaborations. Additionally, Selfridge had a direct creative output as the author of several children's books, including 'Sticks,' 'Fingers Come In Fives,' 'All About Mud,' and 'Trouble With Dragons.'",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Oliver_Selfridge",
+              "https://en.wikipedia.org/wiki/Jack_Burnham",
+              "https://pure.manchester.ac.uk/ws/portalfiles/portal/196238618/FULL_TEXT.PDF",
+              "https://www.theguardian.com/technology/2008/dec/16/oliver-selfridge-obituary",
+              "https://vineyardgazette.com/news/2009/01/29/oliver-selfridge-computer-pioneer-loved-chappy",
+              "https://www.jstor.org/stable/1572054"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Oliver Selfridge biographical details artist",
+            "\"Oliver Selfridge\" art collaboration",
+            "Oliver Selfridge artist Experiments in Art and Technology",
+            "\"Oliver Selfridge\" E.A.T. 1960s 1970s",
+            "\"Oliver Selfridge\" \"Experiments in Art and Technology\" collaboration",
+            "\"Oliver Selfridge\" artist \"Experiments in Art and Technology\"",
+            "\"Oliver Selfridge\" E.A.T. project",
+            "\"Oliver Selfridge\" E.A.T. engineer",
+            "\"Oliver Selfridge\" artist \"Experiments in Art and Technology\" collab",
+            "\"Oliver Selfridge\" Experiments in Art and Technology member list",
+            "Oliver Selfridge \"Software\" exhibition 1970 Jack Burnham",
+            "\"Oliver Selfridge\" computer art 1960s 1970s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

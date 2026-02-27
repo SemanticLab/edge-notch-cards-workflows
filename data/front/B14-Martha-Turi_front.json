@@ -20,5 +20,178 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "painter & sculpture"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q28076",
+      "label": "Martha Turi",
+      "description": "engineer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly. Furthermore, the card describes her as a 'plastic consultant' and 'painter & sculpture,' which aligns perfectly with her classification as an 'engineer' in the E.A.T. (Experiments in Art and Technology) Datascape, a project known for connecting technical experts with artists."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q7251",
+      "label": "Alan Turing",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card record is for Martha Turi, a female plastic consultant and artist based in New York, while the Wikidata record is for Alan Turing, the famous British mathematician and computer scientist who died in 1954. Furthermore, the card includes a ZIP code (introduced in 1963), which post-dates Alan Turing's life."
+    },
+    {
+      "qid": "Q2460701",
+      "label": "Turid Goetz",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Martha Turi, a plastic consultant and artist based in New York, while the Wikidata entity refers to Turid Goetz, a German badminton player born in 1967. There are no overlapping names, occupations, or geographic locations."
+    },
+    {
+      "qid": "Q3355561",
+      "label": "Turid Birkeland",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. Martha Turi is a New York-based plastic consultant and artist, whereas Turid Birkeland was a Norwegian politician and television presenter. There are no overlaps in name, location, or occupation."
+    },
+    {
+      "qid": "Q3542300",
+      "label": "Turi Pandolfini",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Martha Turi is a female professional and artist based in New York, whereas Turi Pandolfini (Q3542300) was a male Italian stage and film actor. Beyond the name 'Turi' appearing in both (as a surname in the first and a given name in the second), there are no overlapping details; the genders, locations, and occupations are completely different."
+    },
+    {
+      "qid": "Q4964229",
+      "label": "Turid Lundqvist",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct (Martha Turi vs. Turid Lundqvist), and their backgrounds are completely unrelated. The card describes an American-based plastic consultant and artist, while the Wikidata entry describes a Swedish musician and actor."
+    },
+    {
+      "qid": "Q12007899",
+      "label": "Turid Haaland",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Martha Turi, a plastic consultant and artist based in New York, while the Wikidata entity refers to Turid Haaland, a Norwegian actor. There is no overlap in name, occupation, or geographic location."
+    },
+    {
+      "qid": "Q12007904",
+      "label": "Turid Suzanne Berg-Nielsen",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card record refers to Martha Turi, a plastic consultant and artist based in New York, while the Wikidata record refers to Turid Suzanne Berg-Nielsen, a Norwegian psychologist and university professor. The names, locations, and professional backgrounds do not align."
+    },
+    {
+      "qid": "Q12007905",
+      "label": "Turid Øversveen",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names Martha Turi and Turid Øversveen are distinct. The card record describes a New York-based plastic consultant and artist involved with Just Plastics Incorporated, whereas the Wikidata entity is a Norwegian film producer and radio/TV personality. There are no overlapping geographical, professional, or biographical details."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28139",
+      "label": "Just Plastics Company",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization on the card, 'Just Plastics Incorporated', and the Wikibase entity, 'Just Plastics Company', share a nearly identical name and are both linked to the E.A.T. (Experiments in Art and Technology) Datascape project. Martha Turi, the employee listed on the card, is also recognized in the E.A.T. dataset as an engineer/technical consultant, confirming the professional link between the individual and the organization within this specific historical context."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q117114518",
+      "label": "Just Plastics, Inc.",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Just Plastics, Inc.' in Wikidata is a direct match for 'Just Plastics Incorporated' on the card. The organization's classification as a company aligns with the professional context of the individual listed as a plastic consultant and director of designs."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Martha Turi (1918–2015), also known as Martha Turi Tauss, was a Hungarian-born artist, designer, and plastic consultant active in New York City during the 1960s and 1970s. She served as the Director of Designs & Sales at Just Plastics Incorporated, a New York-based firm that specialized in acrylic and plastic fabrication. Turi was a notable participant in the Experiments in Art and Technology (E.A.T.) organization, where she was involved in the Technical Services Program, which matched artists with technical experts. Her professional and creative work centered on the innovative use of plastics; she designed furniture, such as coffee tables and see-through pieces, as well as acrylic sculptures and wall hangings. Her designs were featured in major New York retailers like Macy's and Gimbels in the late 1960s. Additionally, she collaborated on industrial and fashion projects, including a transparent plastic handbag with Lilly Rotkel of Delill Handbags. Her contributions to the field are documented in the E.A.T. records at the Getty Research Institute, which include recordings of her technical consultations.",
+        "sources": [
+          "https://www.getty.edu/research/finding_aids/eat_records.html",
+          "https://oac.cdlib.org/findaid/ark:/13030/tf2f59n634/",
+          "http://vintagepursecollections.blogspot.com/2021/09/special-post-history-of-delill-handbags.html",
+          "https://newspaperarchive.com/centralia-evening-sentinel-jul-30-1968-p-16/",
+          "https://usmodernist.org/FORUM/FORUM-1972-01.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Martha Turi\" Experiments in Art and Technology",
+        "\"Martha Turi\" Director of Designs & Sales",
+        "Martha Turi \"Just Plastics\"",
+        "\"Martha Turi\" New York plastic consultant",
+        "",
+        "\"Martha Turi\" E.A.T. technical services",
+        "\"Martha Turi\" plastic designer New York 1960s",
+        "\"Just Plastics Inc\" New York plastic consultant",
+        "\"Rudy Marshall\" acrylics Just Plastics"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtbVeKyz28yfm-kp9yGYoak2HQRYMbBlDlSMFKQWqvTsejydzapZEQAUff63NyI0c29WG7SgY_cuz3uzY3_zJIdJ0jvkSC3kLSZV3kHnWfUViDIeAzW1MSAKs2XCW3mh1_fwBSe4JcJ-ituJKQi79NeyXql5nKUcw0Nbq17p-M5KcRAHjzPV6w9Q7IInPTYg==",
+          "title": "blogspot.com",
+          "resolvedUri": "https://vintagepursegallery.blogspot.com/2021/09/the-history-of-delill-handbags.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSljEYiY-zzct343QBmxYKhQ__9p01TdwEW1DSKNofVOwwiaSrkrpF4JbVGY6IbL0-LoPpoDHdvIGLWX9b7Iqn_vp-mxRUTg1h0UfA7Uzi55Yhkj7E7Q7EmmSBt1Py6y-nwgXdDpVJgW-5maDr1XeSGXOks2XrMy7R8Lt9",
+          "title": "cdlib.org",
+          "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ3rrGYUaZZuZtdh4athEqwyGKxDnd6mryddVLOENHGswBHILHCu4EkP-TomEHJpnknKGZ_yn7vYS7n1lAz7WtZO7fU2-awwZ2Z3CwPXso5XJ6Rl9DrQOP5ZGGHCud_zGjG3o8_eN5A397gwbCuGHZ6blaEtp8ngp_gC8=",
+          "title": "getty.edu",
+          "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/940003.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnXCxqIwOki_MhbHxIZPs3tnxjIO4yk8Ks6IFdP8OjjKc0yRhYpQcDEuGFR2b0skf_tXhcWnXFhAWX_WhEinIyvfDKbCkA1p2QRtuND_VxsW6h9d0FJlIcyewOaDcz_AeTXual_b0pzp6fSpJ5E2ULy5yIyw==",
+          "title": "cdlib.org",
+          "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/dsc/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 223,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Martha Turi (1918–2015), also known as Martha Turi Tauss, was a Hungarian-born artist, designer, and plastic consultant active in New York City during the 1960s and 1970s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 457,
+            "endIndex": 574,
+            "text": "organization, where she was involved in the Technical Services Program, which matched artists with technical experts."
+          },
+          "groundingChunkIndices": [
+            1,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1015,
+            "endIndex": 1074,
+            "text": "Her contributions to the field are documented in the E.A.T."
+          },
+          "groundingChunkIndices": [
+            1,
+            3
+          ]
+        }
+      ]
+    }
   }
 }

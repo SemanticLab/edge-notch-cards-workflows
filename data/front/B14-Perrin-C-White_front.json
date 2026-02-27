@@ -15,5 +15,237 @@
     "technicalFields": [
       "biochemistry"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q22690",
+      "label": "White Foam",
+      "description": "artwork created by Les Levine",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a person (Perrin C. White), while the second record describes an artwork titled 'White Foam' created by Les Levine. They are entirely different types of entities."
+    },
+    {
+      "qid": "Q29497",
+      "label": "white screen",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a person named Perrin C. White who is a biochemist at Harvard University. The second record describes a physical object, specifically a white projection screen used in theatrical performances."
+    },
+    {
+      "qid": "Q29496",
+      "label": "white paper",
+      "description": "paper product",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a person named Perrin C. White, while the second record describes a physical material ('white paper'). They are completely different types of entities."
+    },
+    {
+      "qid": "Q25522",
+      "label": "WhiteBox",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes an individual person (Perrin C. White, a biochemist), while the second record describes an organization/art gallery (WhiteBox)."
+    },
+    {
+      "qid": "Q23323",
+      "label": "White City Ballroom",
+      "description": "venue in Chicago, Illinois",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Record 1 identifies a human individual (Perrin C. White) involved in biochemistry at Harvard, while Record 2 describes a physical venue and ballroom (White City Ballroom) in Chicago. They are completely different types of entities."
+    },
+    {
+      "qid": "Q23026",
+      "label": "White Sulphur Springs (W. Va.)",
+      "description": "city in West Virginia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a person named Perrin C. White, a biochemist at Harvard University. The second record describes a city in West Virginia called White Sulphur Springs. These are different types of entities (a person versus a location)."
+    },
+    {
+      "qid": "Q21161",
+      "label": "Whites",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a specific individual, Perrin C. White, who is a biochemist affiliated with Harvard University. The second record (Q21161) refers to a demographic category ('Whites') associated with a specific music history project ('The International Sweethearts of Rhythm Project'). They are not the same entity."
+    },
+    {
+      "qid": "Q27515",
+      "label": "White Star",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a person (Perrin C. White) with biographical details such as employer and technical field, whereas the second record describes an organization (White Star)."
+    },
+    {
+      "qid": "Q19671",
+      "label": "White Painting",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data describes a person (Perrin C. White) with biographical details such as an address and employer (Harvard University), whereas the Wikibase entity describes a 'White Painting' which is an instance of a painting (an inanimate object)."
+    },
+    {
+      "qid": "Q29743",
+      "label": "White House",
+      "description": "official residence and office of the President of the United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card data describes Perrin C. White, a biochemist affiliated with Harvard. The Wikibase entry provided lists a Wikidata QID of Q35525, which corresponds to the real-world biochemist Perrin White. Although the prompt label mentions the 'White House', the specific properties within the Wikibase entity (instance of person, QID Q35525) identify the same individual."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q87958730",
+      "label": "Perrin C. White",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records identify an individual named Perrin C. White. Record 1 places him at Harvard University (specifically Leverett House in Cambridge) specializing in biochemistry. Record 2 lists the same name, identifies him as being educated at Harvard Medical School, and notes his profession as an endocrinologist and researcher. Given the rarity of the name and the consistent academic/medical background (biochemistry and medical research), these records clearly describe the same person."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q24540",
+      "label": "Harvard",
+      "description": "private research university in Cambridge, Massachusetts, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer on the card is Harvard University in Cambridge, Massachusetts. The Wikibase entity Q24540 refers to Harvard, a private research university in Cambridge, Massachusetts. These are clearly the same institution."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q13371",
+      "label": "Harvard University",
+      "description": "private university in Cambridge, Massachusetts",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization name 'Harvard University' and its location in Cambridge, Massachusetts, match perfectly between the card and the Wikidata record. Additionally, the card mentions 'Leverett House' as a department/division, which the Wikidata record explicitly lists as a part of the university."
+    },
+    {
+      "qid": "Q1587900",
+      "label": "Harvard University Press",
+      "description": "American university publishing house",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is Harvard University Press, which is the publishing arm and a subsidiary of Harvard University. The card lists 'Harvard University' as the employer and specifies 'Leverett House' (a residential college) as the department, which identifies the university as the broader academic institution rather than its specific publishing house."
+    },
+    {
+      "qid": "Q3783572",
+      "label": "Harvard Art Museums",
+      "description": "art museums at Harvard University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is Harvard University. The Wikidata entity is the Harvard Art Museums, which is a specific museum complex owned and operated by Harvard University. While they are related, the museum is a sub-unit and not the parent university itself."
+    },
+    {
+      "qid": "Q3232931",
+      "label": "Harvard Library",
+      "description": "library system of the Harvard University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q3232931 refers specifically to the Harvard Library system, which is a component or subdivision of Harvard University. The card identifies the employer as the university itself. While related by a 'part of' relationship, they are distinct entities in a database context."
+    },
+    {
+      "qid": "Q59611233",
+      "label": "Harvard Index of Botanists",
+      "description": "database of botanists",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is Harvard University, a large research institution. The Wikidata entity Q59611233 is the 'Harvard Index of Botanists', which is a specific database and web project maintained by the Harvard University Herbaria and Libraries. While related to the university, the database is an archive/product of a department, not the university organization itself."
+    },
+    {
+      "qid": "Q49121",
+      "label": "Harvard Medical School",
+      "description": "medical school in Boston, Massachusetts",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is Harvard University, specifically mentioning Leverett House (an undergraduate house in Cambridge). The Wikidata entity is Harvard Medical School (HMS), which is a specific division/graduate school of Harvard University located in Boston. While HMS is part of the university, it is not the same organizational entity as the university at large, especially given the person's affiliation with Leverett House."
+    },
+    {
+      "qid": "Q49126",
+      "label": "Harvard Business School",
+      "description": "business school in Boston, Massachusetts, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is 'Harvard University', whereas the Wikidata entity is 'Harvard Business School' (Q49126). While the Business School is a part of Harvard University, the card specifies the person is in the field of biochemistry and associated with Leverett House (an undergraduate residential house in Cambridge), which is unrelated to the Business School located in Boston."
+    },
+    {
+      "qid": "Q49127",
+      "label": "John F. Kennedy School of Government",
+      "description": "school of public administration of Harvard University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q49127 refers specifically to the John F. Kennedy School of Government, which is a graduate school within Harvard University. The employer listed on the card is the university as a whole ('Harvard University'), and the specific department mentioned is 'Leverett House', which is an undergraduate residential house and not part of the Kennedy School."
+    },
+    {
+      "qid": "Q5676556",
+      "label": "Harvard T.H. Chan School of Public Health",
+      "description": "public health institution",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to the Harvard T.H. Chan School of Public Health, which is a specific constituent school of Harvard University located in Boston. The employer on the card is listed as 'Harvard University' and identifies a department ('Leverett House') that is part of the undergraduate campus in Cambridge, not the School of Public Health."
+    },
+    {
+      "qid": "Q3128016",
+      "label": "Harvard Graduate School of Design",
+      "description": "academic department",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as Harvard University. The Wikidata entity refers specifically to the Harvard Graduate School of Design, which is an academic department and graduate school within Harvard University, not the university itself. Furthermore, the individual on the card is a biochemist, which is unrelated to the School of Design."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Perrin C. White is a distinguished pediatric endocrinologist and biochemist known for his pioneering research on the molecular genetics of steroid hormone synthesis. Born around 1950, he attended Forest Hills High School in Queens, New York, where he was a top winner in the 1968 Westinghouse Science Talent Search. He subsequently attended Harvard University, where he earned his Bachelor of Arts (A.B.) and his Doctor of Medicine (M.D.) in 1976. During his time at Harvard in the late 1960s and early 1970s, he specialized in biochemistry and was a member of the Experiments in Art and Technology (E.A.T.) organization, which facilitated collaborations between technical professionals and artists. His early career included a postdoctoral fellowship at Rockefeller University under Nobel laureate Gerald Edelman and pediatrics training at Johns Hopkins and New York Hospital. In 1981, he joined the faculty of Cornell University Medical College, where he successfully cloned the cDNA for human steroid 21-hydroxylase, the enzyme deficient in most cases of congenital adrenal hyperplasia (CAH). He later moved to the University of Texas Southwestern Medical Center, where he has served as the Audrey Newman Rapoport Distinguished Chair in Pediatric Endocrinology. His work has extensively covered the genetics and biochemistry of adrenal disorders and the development of the bionic pancreas for diabetes management.",
+        "sources": [
+          "https://research.com/scientists/perrin-c-white",
+          "https://academic.oup.com/edrv/article/21/3/245/2424160",
+          "https://escholarship.org/content/qt8n76f52r/qt8n76f52r_noSplash_045e730598801d9047976860010079ca.pdf",
+          "https://www.pnas.org/doi/10.1073/pnas.90.10.4552",
+          "https://hst.mit.edu/sites/default/files/The%20Connective%20Issue%20-%20Fall-Winter%201995-1996.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Perrin C. White\" scientist biochemistry",
+        "\"Perrin C. White\" biochemistry Harvard",
+        "\"Perrin C. White\" Forest Hills New York",
+        "\"Perrin C. White\" Experiments in Art and Technology",
+        "",
+        "\"Perrin C. White\" Forest Hills NY biochemistry",
+        "\"Perrin White\" E.A.T. artist engineer",
+        "",
+        "\"Perrin C. White\" Harvard biochemistry E.A.T.",
+        "\"Perrin C. White\" E.A.T. \"Forest Hills\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG-rFjYCNOdrB5F7PEYHIqKbHc1AfUe-Z2n5nfkslDQgrx73_rJkI9kBNSaRQyod7hNe1_eOdJ8J_XbV7ugax5UBhPImSaT3n0U1501LFIf7PSF9n5LLhlisZ5Xzcxo_V5s-NO6C-iD6sELCCintD1b-gZ8sFW0vY4p0Oywl6wymLf",
+          "title": "oup.com",
+          "resolvedUri": "https://academic.oup.com/edrv/article-pdf/12/3/302/9075002/edrv0302.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 750,
+            "endIndex": 927,
+            "text": "His early career included a postdoctoral fellowship at Rockefeller University under Nobel laureate Gerald Edelman and pediatrics training at Johns Hopkins and New York Hospital."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

@@ -9,6 +9,169 @@
         "y1": 27.6,
         "x2": 35.0,
         "y2": 53.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26808",
+          "label": "Theodore Waddell",
+          "description": "Engineer associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names Theodore Waddel and Theodore Waddell are nearly identical, and the Wikibase entity is specifically linked to the E.A.T. Technical Services Program. Since the index cards are historical records of the E.A.T. organization's network (connecting artists and engineers), this is a definitive match despite the slight spelling variation."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q55219967",
+          "label": "Q55219967",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Theodore Waddel is a near-perfect match for Theodore Waddell (Q55219967). The Wikidata entity is identified as an architect, artist, and designer who was born in 1928 and active during the late 1960s and early 1970s, which aligns exactly with the timeline and artistic context of the E.A.T. records. The minor spelling variation in the surname (Waddel vs. Waddell) is a common clerical error in historical index cards."
+        },
+        {
+          "qid": "Q133672960",
+          "label": "Q133672960",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Theodore Waddel' on the card is a near-exact match for the Wikidata entity 'Theodore Waddell' (Q133672960). The Wikidata entity is identified as a painter and sculptor born in 1941, which perfectly aligns with the provided context that the card refers to an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q133727902",
+          "label": "Q133727902",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Theodore Waddel' on the card is a near-exact spelling match for Theodore Waddell. The Wikidata entity Q133727902 lists a birth year of 1930, which would make the person approximately 35-45 years old during the late 1960s and early 1970s, the active period for the E.A.T. organization. This alignment of name and chronological plausibility makes it highly likely they are the same individual."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Theodore Waddell (born 1930) is an American architect, industrial designer, and photographer who gained recognition in the late 1960s and 1970s for his experimental works blending art, architecture, and technology. After studying chemistry and business at Cornell University and architecture at the University of Pennsylvania, he moved to Italy in 1968, where he lived and worked for 15 years. He is particularly noted for his technical and 'participation' lamps designed for manufacturers like Zanotta and Cassina, such as the 'Il Globo' (1970) which used mercury to complete electrical circuits, and the '713/714' tensegrity tables for Cassina (1972). In 1969, the Museum of Modern Art (MoMA) in New York held a solo exhibition of his work titled 'Function without Form: Two Models of an Undesignable City,' which featured complex models constructed from neon, pipes, and electronic components like pistons and spark plugs. This focus on the intersection of electronics and aesthetics aligns him with the Experiments in Art and Technology (E.A.T.) movement of that era. He eventually returned to the United States and settled in Santa Fe, New Mexico.",
+            "sources": [
+              "https://www.moma.org/calendar/exhibitions/2544",
+              "https://www.1stdibs.com/creators/theodore-waddell/furniture/lighting/",
+              "https://www.pamono.com/designers/theodore-waddell",
+              "https://www.smarredamenti.it/en/designers/theodore-waddell/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Theodore 'Ted' Waddell (born 1941) is a prominent American artist and rancher based in Montana, known for his modernist and abstract expressionist depictions of the American West. He was active in the late 1960s and 1970s, during which time he taught sculpture and design at the University of Montana (1968–1976). While he is best known for his 'heavy impasto' paintings of cattle and horses, his early career included the creation of minimalist polished steel sculptures. He studied at the Brooklyn Museum Art School and received his MFA from Wayne State University in 1968. His work is held in major collections including the Denver Art Museum and the Eiteljorg Museum. Although his work is primarily associated with Western modernism rather than the electronics-focused Experiments in Art and Technology (E.A.T.), his presence in national biennials and teaching role in design during the specified period makes him a notable historical figure of the same name.",
+            "sources": [
+              "https://www.visionswestcontemporary.com/theodore-waddell-biography",
+              "https://www.artsy.net/artist/theodore-waddell",
+              "https://bigskyjournal.com/expressionism-of-theodore-waddell/",
+              "https://www.artandobject.com/artists/theodore-waddell"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Theodore Waddel artist Experiments in Art and Technology E.A.T.",
+            "Theodore Waddell architect designer E.A.T.",
+            "\"Theodore Waddel\" artist 1960s 1970s",
+            "\"Theodore Waddell\" artist Experiments in Art and Technology E.A.T.",
+            "\"Theodore Waddel\" E.A.T. artist",
+            "\"Theodore Waddell\" E.A.T. artist",
+            "\"Theodore Waddell\" \"Experiments in Art and Technology\"",
+            "\"Theodore Waddell\" \"9 evenings\" art technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYoxUahqma6hU2ABulNGGz61cjm0enzkmfkY8xEQa68xtBz8WZ0SN3ePvMqnTpgHbwaiO33h0-AqzTD8QGfiPk3e55mByB-z7yYditBFPwjcssagp0WoXnpAC4yY6TT6IKo_t5kfbX4ch8CBB7i0Arvb4tQfdcBA3Ae6qwsh3KOOWNjzqgSpbZ",
+              "title": "calisphere.org",
+              "resolvedUri": "https://cdn.calisphere.org/data/13030/7g/c86h4p7g/files/Shere%20Inventory.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7x-oWzyTQpgpe-e-iT7ibsy_p4IIDsD2X1szKGvy2mOxDUytbCOFWhdTTRxH-mBZQ97V-Nt6L8GUq4mgA9IgKnHUwyVy9enyMAJtgxfHpi_kFFkZk1NymtxZunONzXjbBujsNXR5Au5fb5ylKd3p-K5a20cG2pazfBbRkWOw=",
+              "title": "scribd.com",
+              "resolvedUri": "https://es.scribd.com/document/462304179/Arqueologia-del-futuro-pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWcJ-r390zYaVipMMJyc8uMFC7x59lrTr3JaSQhG3EN1sp2Ek7BREPS4NWTb_Qu9xn5pTTMzEIvAsMhXj0cYo9GLRBnj3is3_QygIRQMCgnnsq2eF2DukqxnW754DdUi5DA_5wKOcj2rKnjN7QwUeNbBWOG7Ch0VXfCoM1e1i8OmqwrfSD3o_3YEP5UA==",
+              "title": "blogspot.com",
+              "resolvedUri": "http://mondo-blogo.blogspot.com/2011/03/theodore-waddell-is-friggin-brainiac.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8iMI8ZvzZB0V46B8OLgcb1vtPgSkUGxIyIIbfg584kpcMV1xans2ueBqg3K8B0vByeTjNnvI-KNIF7P5n315AEvJN2NY8oFuW2bPZwKevKB8URXYYAnU3Shumf-10YywQb-j8PXIvaXUnYq1KYhn63pRNkOkkFwrLbHF3bK1RZQvwX8fdKRmofGRM29w=",
+              "title": "centerofthewest.org",
+              "resolvedUri": "https://centerofthewest.org/wp-content/uploads/2014/08/Points-West_1997-summer.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0kDoAaRa1WmCyNGNrWoIAR5bXXW7uCTf3zoBEcZM9K-TZRGcRQGjct4ubCl4hRM2_jNrNrwoof75OgTlLRlvpDOO8Mo2QA289SD-yVng9eIyAW_E2uVtHb7PmJ8GTl_UTkFbNpip2RfZtdztxCUGabUc-wGeUK5Cg-eZSUDDoaUGa6Q==",
+              "title": "rinoartdistrict.org",
+              "resolvedUri": "https://rinoartdistrict.org/do/theodore-waddell-retrospective-exhibition"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkqwFbUv01CyILYx9DYC4p27lC8gM7viJ2QjVuJMmVxebbrd8RGMP2Zr7zTAYSmOp71YYKrVTvY2A9Yhrlb9ZLDehwhcyXrsmG3bP0aEMe8N2fNEJxUXujixP2mfQaKtAKJUrk1SD8MQ==",
+              "title": "artsy.net",
+              "resolvedUri": "https://www.artsy.net/artist/theodore-waddell"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXWWHYM7aMeGNwQpDSRBCwEYNzWvXlQQJVEizAgoXey5IiABkY-7WXlMec4DOt9cFNVEx1BeMisNr2jmot-BSyIIf6IGY2zLkJf6bJyQ5h3woct6a9mWupUdENcuMEsnRq5hgmmFje2IZYnxapVr1kH3IGtkBclg1fy_cODgzYM3UdEjcePXKezKAfgt9CgnTk9dZl_9_CiNrCD6FlbzlutQF2kA==",
+              "title": "1stdibs.com",
+              "resolvedUri": "https://www.1stdibs.com/art/paintings/landscape-paintings/theodore-waddell-vals-zebra-dr-2/id-a_13207532/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 264,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Theodore Waddell (born 1930) is an American architect, industrial designer, and photographer who gained recognition in the late 1960s and 1970s for his experimental works blending art, architecture, and technology."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 704,
+                "endIndex": 975,
+                "text": "In 1969, the Museum of Modern Art (MoMA) in New York held a solo exhibition of his work titled 'Function without Form: Two Models of an Undesignable City,' which featured complex models constructed from neon, pipes, and electronic components like pistons and spark plugs."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1100,
+                "endIndex": 1121,
+                "text": "movement of that era."
+              },
+              "groundingChunkIndices": [
+                2,
+                0,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2050,
+                "endIndex": 2152,
+                "text": "He studied at the Brooklyn Museum Art School and received his MFA from Wayne State University in 1968."
+              },
+              "groundingChunkIndices": [
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2153,
+                "endIndex": 2248,
+                "text": "His work is held in major collections including the Denver Art Museum and the Eiteljorg Museum."
+              },
+              "groundingChunkIndices": [
+                5,
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +182,108 @@
         "y1": 47.5,
         "x2": 28.2,
         "y2": 75.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28235",
+          "label": "Juan Downey",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to Juan Downey as an artist. The Wikibase entity confirms his occupation and involvement in the E.A.T. (Experiments in Art and Technology) project, which flourished during the late 1960s and early 1970s, matching the provided context perfectly."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3817219",
+          "label": "Juan Downey",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Juan Downey matches exactly. The Wikidata entity describes a prominent artist (video artist, painter, and architect) born in 1940, making him active during the late 1960s and early 1970s as specified in the context. His representation in major collections and his involvement in experimental art forms align perfectly with the metadata provided."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Juan Downey (1940–1993) was a Chilean-born artist and a major pioneer in the fields of video art, interactive art, and electronic sculpture. Originally trained as an architect, he received his degree from the Pontificia Universidad Católica de Chile in 1961 and later studied printmaking in Paris. He moved to Washington, D.C., in 1965 and then to New York City in 1969, where he became a key figure in the experimental art scene. Downey is notably associated with the early movement of artists collaborating with engineers; he participated in the landmark 1968 exhibition 'Some More Beginnings,' which was organized by the Experiments in Art and Technology (E.A.T.) group at the Brooklyn Museum. His early work featured interactive electronic sculptures and 'invisible architectures' that utilized sensors and feedback loops. In the 1970s, he gained international recognition for his groundbreaking video series 'Video Trans Americas' (1973–1976), which explored cultural identity and anthropology across the Americas using the then-new Sony Portapak system. He also created significant performance works like 'Plato Now' (1973), which incorporated biofeedback (alpha waves) to trigger philosophical texts. Downey served as an associate professor at the Pratt Institute from 1970 until his death.",
+            "sources": [
+              "https://www.moma.org/artists/1602",
+              "https://www.guggenheim.org/artwork/artist/juan-downey",
+              "https://www.tate.org.uk/whats-on/tate-modern/juan-downey-plato-now",
+              "https://www.eai.org/artists/juan-downey/biography",
+              "https://act.mit.edu/people/cavs-fellows/juan-downey/",
+              "https://en.wikipedia.org/wiki/Juan_Downey"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Juan Downey artist Experiments in Art and Technology E.A.T.",
+            "Juan Downey artist biography 1960s 1970s",
+            "Juan Downey video artist E.A.T. involvement",
+            "\"Juan Downey\" \"Experiments in Art and Technology\"",
+            "\"Juan Downey\" \"E.A.T.\" organization"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvsxXo9Q6pzZk7SWgRD0KarsnQwQwKsH8oH9gnXJ_7TihdgKqZFirGfMkgDrguxO-bejRrMLeB7X3r1B5-D9D9rHtNsflEb9PcWVT5WBxqkWEhnOJkNBhiRq089JTP6bPBBnHtNe23GoXW8gz1e37rS1P8D1UnEybAftRkwLDz6UqxXxGfa8ZU1xO2qTOvxzJpY0aDp4Cu1dc=",
+              "title": "wordpress.com",
+              "resolvedUri": "https://artexetra.wordpress.com/wp-content/uploads/2009/02/shanken-pushing-the-limits-pub-2.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe-zQ9hwGBWN84BifKgChsEaVQyEAVNyaw5zRwVM1R63JqgF1zcru5o7oH4_Z2dOAAYdmKeHPksHqP4tHQXJebKpQmUpvkB2_ox4Rh8T9SMFJk_fv0d6Oco1v7c8Q23BCLuNSUJm4-uxpML6jxEVKFEJHDiQFaKNnp37nSS4dhx_MXMUlCVpE_IpZy4Vagm2xWNLvwlod-Dmbst4FtECs2iuqJPpxDD07QLCNKcWCSQUJlCg==",
+              "title": "mit.edu",
+              "resolvedUri": "https://listart.mit.edu/sites/default/files/media/documents/exhibitions/2011_juan_downey_invisible_architect_brochure.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk6bIbtxC1c8PHSHiut02DRp18CMzYf9pTjuzjeeE315Wz5Fig5V4w_hO3pjdgp4PiWwQgBbeIc9ziGsIeB1urNVvt-ExsOLZG7ZbiZUMleApsjHQGQrohWrL01q7WU9yQvHY=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Juan_Downey"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH57JamFwQ8O6g821mDm2XLuzDX7_VZbgm6B06AcBVfqGr3UJQMNdQxugXj7GZoLCffMvPudhb56vZkcXZKJV2B9mzAXLKJn3v_PrCqaGr9jH0gEqEMXDITCmgc4n8ftOfiR1-YenmZ_a-oo7L5e11XveUaJj3HxYIx6Y5qCUjYUMKbegXXwlVTWxEl1EfSr32uGEEG7gzDBwTMv8AOAJRQRoRuI_Ze7_8-bUJiNI4cH3ye_6tJqs9DT4MURk=",
+              "title": "mit.edu",
+              "resolvedUri": "https://listart.mit.edu/sites/default/files/media/documents/exhibitions/2011_juan_downey_the_invisible_architect_press_release.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 192,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Juan Downey (1940–1993) was a Chilean-born artist and a major pioneer in the fields of video art, interactive art, and electronic sculpture."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 484,
+                "endIndex": 719,
+                "text": "Downey is notably associated with the early movement of artists collaborating with engineers; he participated in the landmark 1968 exhibition 'Some More Beginnings,' which was organized by the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 720,
+                "endIndex": 749,
+                "text": "group at the Brooklyn Museum."
+              },
+              "groundingChunkIndices": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -29,6 +294,182 @@
         "y1": 70.1,
         "x2": 27.5,
         "y2": 95.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1809435",
+          "label": "Lazar Horowitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Lazar Horowitz died in 1868, which is over a century before the 1971 date on the index card. Additionally, he was a rabbi, whereas the index card refers to an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q8065540",
+          "label": "Zalmon Libin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Zalmon Libin, born Israel Zalmon Hurwitz) died in 1955, whereas the card entry is dated 1971. A person who died in 1955 cannot be the same person active or recorded in 1971."
+        },
+        {
+          "qid": "Q12411870",
+          "label": "Simon Hirsch Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1946, which is decades before the 1971 date on the card and the specified period of activity (late 1960s/early 1970s). Furthermore, the Wikidata entity was a rabbi rather than an artist."
+        },
+        {
+          "qid": "Q19521698",
+          "label": "Saul Israel Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Saul Israel Hurwitz died in 1922, while the card entry is dated 1971 and refers to an artist active during that period. This chronological discrepancy makes a match impossible."
+        },
+        {
+          "qid": "Q28109809",
+          "label": "Simeon Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Simeon Hurwitz died in 1900, which is over 70 years before the date recorded on the card (1971). Additionally, his recorded occupations (Rabbi, Posek) do not align with the artistic context provided for the person on the card."
+        },
+        {
+          "qid": "Q118913887",
+          "label": "Hurwitz, Shmuel, Halevi",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The initials do not match: the card lists 'J Hurwitz' while the Wikidata entity is for 'Shmuel Hurvitz'. Additionally, there is no evidence in the Wikidata record that Shmuel Hurvitz was an artist, which is the primary context for the card entry."
+        },
+        {
+          "qid": "Q123863114",
+          "label": "Elise Wertheimer, verheiratete Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Elise Hurwitz lived from 1822 to 1862, which is incompatible with the person on the card who was active in 1971."
+        },
+        {
+          "qid": "Q134234509",
+          "label": "Yaʻaḳov ben Shelomoh Zalman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1936, which is incompatible with the person on the card who was active in 1971."
+        },
+        {
+          "qid": "Q135392663",
+          "label": "Edith Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name initials do not match ('J' vs 'Edith'). Furthermore, the Wikidata entity describes a Holocaust victim born in 1901 who was detained in the Minsk Ghetto, making it highly unlikely they would be an artist active in 1971."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Sidney J. Hurwitz (born 1932) is an American printmaker and artist who was prominently active during the late 1960s and 1970s. He is well known for his woodcuts, etchings, and aquatints that focus on industrial and architectural subjects, such as steel mills, factories, and urban structures. This focus on industrial themes aligns with the objectives of Experiments in Art and Technology (E.A.T.), which aimed to foster collaborations between the arts and industry. Hurwitz was a Professor Emeritus at Boston University, where he taught for over 30 years, and was a resident artist at the Skowhegan School of Painting and Sculpture in 1968. His work is included in major collections such as the Museum of Modern Art (MoMA), the British Museum, and the Victoria and Albert Museum.",
+            "sources": [
+              "https://www.nationalacademy.org/sidney-j-hurwitz",
+              "https://www.moma.org/artists/2774",
+              "https://www.askart.com/artist/sidney_j_hurwitz/10025114/sidney_j_hurwitz.aspx",
+              "https://www.skowheganart.org/lecture-archive/sidney-hurwitz-1968"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Jo Hurwitz was a central figure in the Experiments in Art and Technology (E.A.T.) organization during its peak years in the late 1960s and early 1970s. She served as the Executive Secretary and Administrative Director for E.A.T., working closely with founders Billy Klüver and Robert Rauschenberg. While primarily cited in historical archives for her administrative and public relations leadership—including managing membership and the E.A.T. newsletter 'Techne'—she was part of the creative circle of artists and engineers that defined the movement. Her name is frequently appearing in the institutional history of E.A.T. as a primary contact for artists and engineers.",
+            "sources": [
+              "https://www.fondation-langlois.org/html/e/page.php?NumPage=261",
+              "https://www.getty.edu/research/special_collections/highlights/eat/index.html",
+              "https://archives.nypl.org/mss/918"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Thomas Hurwitz (Tom Hurwitz) is an American filmmaker and cinematographer who was active in the late 1960s. In 1969, he and Peter Gessner screened their film 'Last Summer Won't Happen' at the Museum of Modern Art (MoMA) as part of the Cineprobe series. Given the overlap between the New York independent film scene and the technological experiments of E.A.T. in the late 60s, Hurwitz is a notable historical figure associated with the era's experimental media projects. He later became a highly respected cinematographer, winning multiple Emmy Awards.",
+            "sources": [
+              "https://www.moma.org/calendar/events/2544",
+              "https://www.imdb.com/name/nm0403755/",
+              "https://interferencearchive.org/the-film-and-photo-league-by-martin-lucas/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Joel Hurwitz\" artist E.A.T.",
+            "\"Jerry Hurwitz\" artist E.A.T.",
+            "\"Jeffrey Hurwitz\" artist E.A.T.",
+            "\"Jack Hurwitz\" artist E.A.T.",
+            "\"J. Hurwitz\" artist E.A.T.",
+            "\"Jane Hurwitz\" artist E.A.T.",
+            "\"Experiments in Art and Technology\" member list Hurwitz",
+            "\"Jane Hurwitz\" artist 1960s 1970s",
+            "\"Experiments in Art and Technology\" directory Hurwitz",
+            "\"Jon Hurwitz\" artist 1960s 1970s",
+            "\"Jeffrey Hurwitz\" artist 1960s 1970s",
+            "\"Joel Hurwitz\" artist 1960s 1970s",
+            "\"J. Hurwitz\" E.A.T. member",
+            "",
+            "\"Joel Hurwitz\" artist 1960s 1970s NY",
+            "\"J. Hurwitz\" E.A.T. member list",
+            "\"J Hurwitz\" Experiments in Art and Technology 1968 1969 1970 1971",
+            "\"Jane Hurwitz\" artist 1960s 1970s NY",
+            "\"J. Hurwitz\" artist 1960s 1970s NY",
+            "\"Jeff Hurwitz\" artist 1960s 1970s NY",
+            "\"Jeffrey Hurwitz\" artist 1960s 1970s NY",
+            "\"Joseph Hurwitz\" artist 1960s 1970s NY",
+            "\"J Hurwitz\" E.A.T. archive",
+            "\"Jon Hurwitz\" artist E.A.T.",
+            " \"Hurwitz\"",
+            "\"Jack Hurwitz\" artist E.A.T.",
+            "\"J. Hurwitz\" Experiments in Art and Technology biography",
+            "\"Jo Hurwitz\" artist E.A.T.",
+            " \"Hurwitz\" E.A.T.",
+            "\"Joel Hurwitz\" video artist 1970s",
+            "\"J Hurwitz\" member Experiments in Art and Technology",
+            "\"Joel Hurwitz\" filmmaker 1960s 1970s",
+            "\"Jeff Hurwitz\" photographer biography",
+            "\"Jeff Hurwitz\" artist biography 1960s 1970s",
+            "\"J. Hurwitz\" E.A.T. artist",
+            "artist \"J. Hurwitz\" born 1932",
+            "\"Sidney Hurwitz\" E.A.T.",
+            "\"Joel Hurwitz\" artist E.A.T. biography",
+            "\"Jeffrey Hurwitz\" artist E.A.T. biography",
+            "\"J Hurwitz\" Experiments in Art and Technology member",
+            "\"J. Hurwitz\" 1932 artist full name",
+            "\"J Hurwitz\" E.A.T. Local Group NY",
+            "\"J. Hurwitz\" artist member E.A.T.",
+            "\"Joanna Hurwitz\" artist E.A.T.",
+            "\"Jo Hurwitz\" Experiments in Art and Technology",
+            "\"Jo Hurwitz\" artist 1960s 1970s",
+            "\"Joel Hurwitz\" video artist biography 1970s",
+            "\"J Hurwitz\" active 1960s 1970s artist",
+            "\"Jo Hurwitz\" artist E.A.T. bio",
+            "\"Hurwitz\" \"E.A.T.\" member list archive",
+            "\"Jeffrey Hurwitz\" photographer E.A.T.",
+            "\"Hurwitz\" \"Experiments in Art and Technology\" directory",
+            "",
+            "\"Joel Hurwitz\" video art 1970 1971 1972 1973 1974 1975",
+            "\"Sidney Hurwitz\" artist Experiments in Art and Technology connection"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNhJDS4J1a5LfVi7FkmMjq_SPLVZG7QMzYpbXW-ntP3-hDw8LgzGKyunW0H6SYwM2dj1C5KnkG7RRbPG3xy7DJPlv78osSwkb7p56rm8E36BY_t1CgCTzSut4V8TTnwl13OOnB-NfDgYDn64T7rPDeRK6b-7v1jie75zdVo7W-BFmMdgVInGIWWN-UIkuVy-9JAljag2Po7p_FjgnJ0zJnLXWJPQCCEqQJK9EtO5Eb",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/234115016_Digital_Technology_as_Matrix_for_Constructivism_and_Verdinglichung"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 176,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Sidney J. Hurwitz (born 1932) is an American printmaker and artist who was prominently active during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

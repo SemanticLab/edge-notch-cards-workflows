@@ -9,6 +9,107 @@
         "y1": 11.2,
         "x2": 39.5,
         "y2": 18.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q254352",
+          "label": "Harriet Quimby",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Barbara vs. Harriet) and Harriet Quimby died in 1912, making it impossible for her to be the artist active in the late 1960s or 1970s mentioned in the card's context."
+        },
+        {
+          "qid": "Q96216550",
+          "label": "Quimby Cornell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Quimby Cornell lived from 1749 to 1827, which is incompatible with the late 1960s/early 1970s timeframe of the artist Barbara Quimby. Additionally, the names and genders do not align."
+        },
+        {
+          "qid": "Q107004249",
+          "label": "Quimby McCoy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different (Barbara Quimby vs. Quimby McCoy) and the timeframes do not align, with the card dating to the late 1960s/70s and the Wikidata entity having a floruit of 2010."
+        },
+        {
+          "qid": "Q131821893",
+          "label": "Quimby F. Hess",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match: the card refers to Barbara Quimby, while the Wikidata entity is Quimby F. Hess (Ferdinand Hess). Additionally, the card describes a female artist, whereas the Wikidata entity is a male entomologist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Barbara Quimby (born c. 1950s) was a prominent environmental activist and resident of the Love Canal neighborhood in Niagara Falls, New York, during the late 1970s. She became a central figure in the grassroots movement that exposed the toxic waste disaster at Love Canal, which eventually led to the passage of the federal Superfund Bill. In historical accounts and archival documentaries (such as the PBS American Experience film \"Poisoned Ground: The Tragedy at Love Canal\"), she is noted for her impassioned testimony and creative protest efforts. Alongside other residents, she helped create visual symbols for the movement, including puppets or \"heads\" and coffins used in rallies to represent the health crises faced by their community. She is also remembered for documenting the crisis through personal scrapbooks intended for her children, one of which was featured in a 1980 Senate hearing as a historical record of the community's experience. While her primary identity is that of an activist and community leader, her use of visual media and performative protest in the late 1960s and 1970s aligns with the era's intersection of social causes and creative expression.",
+            "sources": [
+              "https://www.pbs.org/wgbh/americanexperience/films/poisoned-ground-tragedy-love-canal/",
+              "https://www.govinfo.gov/content/pkg/GPO-CRECB-1980-pt10/pdf/GPO-CRECB-1980-pt10-3-1.pdf",
+              "https://digital.buffalolib.org/items/show/1598",
+              "https://www.kpbs.org/news/2024/04/17/american-experience-poisoned-ground-the-tragedy-at-love-canal"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Barbara Quimby appears as a fictional character in J.G. Ballard's short story collection 'Vermilion Sands', which was published in 1971 but consists of stories written between 1956 and 1970. In the stories, most notably 'The Thousand Dreams of Stellavista' (1962), she is portrayed as the secretary to a portrait painter named Hope Cunard. The stories in 'Vermilion Sands' are set in a desert resort inhabited by artists who use sophisticated technology to create experimental works, such as sonic sculptures and 'self-painting' canvases. This fictional environment closely mirrors the real-world goals and themes of the Experiments in Art and Technology (E.A.T.) organization, which promoted collaborations between artists and engineers during the same period. The character's association with experimental art and her presence in a seminal 1970s literary work often lead to the name being discussed in the context of art and technology from that era.",
+            "sources": [
+              "https://jgballard.ca/william-schuylers-jungian-analysis-of-vermilion-sands/",
+              "https://booksandboots.wordpress.com/2020/01/29/vermilion-sands-by-j-g-ballard-1971/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Barbara Quimby\" artist 1960s 1970s",
+            "\"Barbara Quimby\" E.A.T. project",
+            "\"Barbara Quimby\" Experiments in Art and Technology archive",
+            "\"Barbara Quimby\" artist 1960s E.A.T.",
+            "\"Barbara Quimby\" artist New York 1970s",
+            "\"Barbara Quimby\" Experiments in Art and Technology archive Getty",
+            "",
+            "\"Barbara Quimby\" New York artist 1960s 1970s",
+            "\"Barbara Quimby\" artist 1968 1969 1970 1971",
+            "\"Barbara Quimby\" Billy Klüver E.A.T.",
+            "",
+            "\"Barbara Quimby\" Experiments in Art and Technology member",
+            "\"Barbara Quimby\" E.A.T. staff",
+            "\"Barbara Quimby\" artist Los Angeles 1960s 1970s",
+            "\"Barbara Quimby\" artist E.A.T. directory",
+            "\"Barbara Quimby\" artist E.A.T. member list",
+            "\"Barbara Quimby\" Experiments in Art and Technology E.A.T. Getty archive",
+            "",
+            " \"Barbara Quimby\"",
+            "\"Barbara Quimby\" J.G. Ballard artist connection",
+            "\"Barbara Quimby\" artist 1960s 1970s directory",
+            "\"Barbara Quimby\" E.A.T. artist New York",
+            "",
+            "\"Barbara Quimby\" artist bio 1970s",
+            "\"Barbara Quimby\" artist 1969 1970 1971 New York"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdTBe0vL0J2VvC4SS-91qxw4m8KSMNFek2aE5NdGV0wz7TX-iwr0ZLfkxCOwRCOzbIvmDPoDeGsN09e8sGe35j17YFm09YNGh4X4BF6g4tBRYT3LMkMn2FBGuSoxBmX0sbKhuz0M0wyoE8HIcfrZk4njEXsFVxb71bUf8UfLTt1YiwlK_pHS1Ru4wApqel_Jc=",
+              "title": "govinfo.gov",
+              "resolvedUri": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1980-pt9/pdf/GPO-CRECB-1980-pt9-8-1.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 214,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Barbara Quimby (born c. 1950s) was a prominent environmental activist and resident of the Love Canal neighborhood in Niagara Falls, New York, during the late 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +121,198 @@
         "y1": 16.8,
         "x2": 35.2,
         "y2": 27.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6223359",
+          "label": "John Brookes",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a professional football player born in 1943. While the timing of his career aligns with the late 1960s, the card subject is specifically identified as an artist, and there is no evidence in the Wikidata record suggesting the athlete had an artistic career. Given that 'John Brookes' is a common name, these are likely two different individuals."
+        },
+        {
+          "qid": "Q6252478",
+          "label": "John Penfold",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (John Brookes vs John Penfold). Furthermore, the Wikidata entity died in 1922, which makes it impossible for him to be the artist active in 1969 described on the card."
+        },
+        {
+          "qid": "Q10498801",
+          "label": "John Brooks",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist named John Brookes active in the late 1960s. The Wikidata entity (Q10498801) is a professional association football player (John Brooks) for Stoke City. Not only do the occupations differ significantly, but the spelling of the surname also differs ('Brookes' vs 'Brooks')."
+        },
+        {
+          "qid": "Q16007765",
+          "label": "John Brookes",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'John Brookes' matches exactly. The Wikidata entity is a silversmith, which falls under the specified 'artist' context. The individual was alive and potentially active during the card's date of 1969 (dying in 1975), although the commonality of the name prevents a high-confidence match."
+        },
+        {
+          "qid": "Q19587144",
+          "label": "Sir John Brookes, 1st Baronet",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a 17th-century politician who died in 1691, while the card entry is dated 1969 and refers to an artist active during that period."
+        },
+        {
+          "qid": "Q27914986",
+          "label": "John Brookes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity is a landscape architect (a creative practitioner) who was active and influential during the late 1960s (e.g., his seminal work 'Room Outside' was published in 1969). The date on the card (March 17, 1969) aligns perfectly with the peak of his career."
+        },
+        {
+          "qid": "Q75393626",
+          "label": "John Brookes",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match exactly, the Wikidata entity contains no biographical information, such as occupation or dates of activity, to confirm if this is the artist mentioned on the card from 1969. 'John Brookes' is a common name, and without further evidence like an occupation of artist or landscape architect, a match cannot be established."
+        },
+        {
+          "qid": "Q75446639",
+          "label": "John Brookes Johnston",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (John Brookes Johnston) was born in 1820, making him nearly 150 years old by the date on the index card (1969). Additionally, his family name is Johnston, whereas the card entry specifies the name as John Brookes."
+        },
+        {
+          "qid": "Q75454760",
+          "label": "John Brookes",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'John Brookes' matches exactly, but the Wikidata entity (Q75454760) contains no information about the person's profession, birth/death dates, or active period. Given that 'John Brookes' is a common name and the Wikidata entry lacks any context linking him to the arts or the late 1960s, there is insufficient evidence to confirm a match."
+        },
+        {
+          "qid": "Q75502395",
+          "label": "John Brookes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q75502395 refers to the son of Sir John Brookes, 1st Baronet (c. 1635-1691). This John Brookes would have lived in the late 17th and early 18th centuries, making it chronologically impossible for him to be the artist active in 1969 mentioned on the card."
+        },
+        {
+          "qid": "Q91259791",
+          "label": "John Brookes",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The names match, but the Wikidata entity is identified as a researcher, which does not align with the provided context that the person is an artist active in the late 1960s. While a researcher could potentially be an artist, without more specific biographical overlap, it is unlikely they are the same person."
+        },
+        {
+          "qid": "Q115162295",
+          "label": "John Brookes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a ship captain from the Province of Pennsylvania, which indicates he lived in the 18th century or earlier. This is chronologically incompatible with the person on the card who was active in 1969."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Brookes (born 1943) is an artist who was active in the late 1960s and is directly associated with Experiments in Art and Technology (E.A.T.). In 1968, he participated in the landmark exhibition \"Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes,\" which was held at the Brooklyn Museum (and sometimes associated with MoMA records) and curated by E.A.T. founders Billy Klüver, Robert Rauschenberg, and Robert Whitman. This exhibition was a major showcase for collaborations between artists and engineers. Brookes is listed as having contributed to the exhibition alongside collaborators Franklin and Rieveschl.",
+            "sources": [
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-",
+              "https://www.artist-info.com/exhibition/MoMA-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962",
+              "https://www.artist-info.com/artist/Royce-Dendler"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Brookes, MBE (1933–2018), was a highly influential British landscape designer, writer, and lecturer who was frequently described as a landscape artist. Active from the early 1960s through the 1970s and beyond, he revolutionized garden design by introducing Modernist principles and treating the garden as an \"abstract art form\" or an \"outdoor room.\" His design philosophy was heavily influenced by abstract artists such as Piet Mondrian, Ben Nicholson, and Roberto Burle Marx, often utilizing grid systems to structure outdoor spaces. In 1969, he published his seminal book \"Room Outside,\" which promoted the idea of gardens as functional extensions of the home. While primarily known for landscape architecture, his career was defined by the intersection of art and design during the late 20th century.",
+            "sources": [
+              "https://www.denmans.org/john-brookes-mbe-bio-page/",
+              "https://gardenmuseum.org.uk/john-brookes-design-for-bryanston-square-london/",
+              "https://www.garden-design-courses.co.uk/john-brookes-mbe-1933-2018/",
+              "https://www.purelyplanting.co.uk/inspirational-garden-designers-three-pioneers/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"John Brookes\" landscape architect art experiments",
+            "John Brookes artist \"Experiments in Art and Technology\"",
+            "\"John Brookes\" artist collaboration engineer scientist",
+            "\"John Brookes\" E.A.T. artist 1960s 1970s",
+            "\"John Brookes\" \"Some more beginnings\" MoMA 1968",
+            "\"John Brookes\" artist E.A.T. \"Experiments in Art and Technology\" biography",
+            "artist \"John Brookes\" born 1943 E.A.T.",
+            "\"John Brookes\" kinetic artist 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLot-Dq3qKXxcq7mKcUuBihsakhWBZ-8uDh2icWZntIi58-WKVpg6zv6evnTFugOvfc5ZL3VWpozJ0gfBuvIQYvA63cLeWVCwQI7vkeHqd13QhSnkmjZuAmBDXAw==",
+              "title": "blogspot.com",
+              "resolvedUri": "http://dmooredesign.blogspot.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGztlYgL5e54DMSaD0_S4BSKz_0yAGnMmA6V1wMQnOIoKD53r5sM5hOWQujCWsQZBhS2FaVVjIdUzKtMrpgUJn1kQlM8HGYQnzDpJrfUn7ZC6rROtnArP3WYIPNwaF7L-juj2PlZy9UZDWWJIP91UOJywfU",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/artsitpublicpage/291566"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5K6UiAZYMqI14rMUMZSXTABJ9WoMkntyPyzEWh-gDg5ku7ooyuwfVz8CKq5QQP8JcZv77fZoMaDIbEXa-uozuA-M-CCHC3vGJLrB_LeYpjQg_gSQcLGsTvRHFJxEep57VhUMVVhvNRusogOj9n89IZH7aTF5B5D1iygulWAwYw5AoeM3g1DTZ6eRFgY0jdgbj19w3Wca32jkvoh-zm_jMef-d2A==",
+              "title": "devongardenstrust.org.uk",
+              "resolvedUri": "https://www.devongardenstrust.org.uk/sites/default/files/content/Newsletters/DGT%20Newsletter%20105%20.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_hBPHcKg8VMQK43GtXyKKjGiLG-km7_OuEMR9XccPRuTrUjQns2EaZ4hj-aiXLxTnrLE4B8uJ3UNiVe7fWeow6yat4xvy-5myOoTmQqi6USn24JFzkr0CE7w4ifBESb44mLfFUyjiIRgc1KYqOkYwkw==",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/exhibition/MoMA-27-Id373962"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW23R21WGARIFjci9ylzLm_KQ5GM-Hwd8SBACvp-kSE0bEYWXwzjUq-kzA8CpE6Bg78mJOyxfw1TMDRyg5FspL7lw0v9wfqY2bLp0AzzvxHf-dJe6bouU7rHhh3FDAE6P9Gh8OcBVIuF1GgIxb5JcrTdb_nSxld-pXOFGZD1v8nA3tRINznihgUwzCIbiZG_L_NAgvEqzX5Q==",
+              "title": "sas.ac.uk",
+              "resolvedUri": "https://sas-space.sas.ac.uk/9838/1/Jean%20Cornell%20VOLUMES%201%20%26%202%20Final%20Thesis.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 196,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John Brookes (born 1943) is an artist who was active in the late 1960s and is directly associated with Experiments in Art and Technology (E.A.T.)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 458,
+                "endIndex": 522,
+                "text": "founders Billy Klüver, Robert Rauschenberg, and Robert Whitman."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 610,
+                "endIndex": 1285,
+                "text": "Brookes is listed as having contributed to the exhibition alongside collaborators Franklin and Rieveschl.\",\n      \"sources\": [\n        \"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-\",\n        \"https://www.artist-info.com/exhibition/MoMA-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962\",\n        \"https://www.artist-info.com/artist/Royce-Dendler\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"John Brookes, MBE (1933–2018), was a highly influential British landscape designer, writer, and lecturer who was frequently described as a landscape artist."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1803,
+                "endIndex": 2336,
+                "text": "While primarily known for landscape architecture, his career was defined by the intersection of art and design during the late 20th century.\",\n      \"sources\": [\n        \"https://www.denmans.org/john-brookes-mbe-bio-page/\",\n        \"https://gardenmuseum.org.uk/john-brookes-design-for-bryanston-square-london/\",\n        \"https://www.garden-design-courses.co.uk/john-brookes-mbe-1933-2018/\",\n        \"https://www.purelyplanting.co.uk/inspirational-garden-designers-three-pioneers/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     }
   ]

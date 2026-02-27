@@ -33,5 +33,72 @@
       "microwaves",
       "environmental simulation"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q28322239",
+      "label": "D. Macphee",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names do not match (Howard vs. D.), and the biographies are distinct: the card describes a Philadelphia-based electrical engineer working for Philco-Ford, while the Wikidata entry describes a recipient of British maritime bravery awards from World War II."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2714331",
+      "label": "Philco",
+      "description": "defunct electronics manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Philco-Ford was the corporate name of Philco (Q2714331) between 1966 and 1975 following its acquisition by the Ford Motor Company. Both the organization on the card and the Wikidata entity are based in Philadelphia and operate in the electronics and engineering sectors."
+    },
+    {
+      "qid": "Q134737211",
+      "label": "Philco-Ford",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Philco-Ford' is an exact match. The Wikidata entity is identified as a US business that followed General Microelectronics (which was acquired by Philco-Ford in 1966). The industry fields on the card (aerospace, electronics, computers) also perfectly align with the historical operations of Philco-Ford."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Howard MacPhee was an electrical engineer active in the Philadelphia area during the late 1960s and 1970s. He earned a Bachelor of Science in Electrical Engineering from the Drexel Institute of Technology (now Drexel University) in 1966. He was employed by Philco-Ford, a major aerospace and electronics company based in the Philadelphia region. MacPhee was a technical participant in Experiments in Art and Technology (E.A.T.), a non-profit organization that facilitated collaborations between artists and engineers. His technical profile was exceptionally broad, encompassing fields such as aerospace, computers, acoustics, audio-visual conversions, communications, and digital systems. His specialized knowledge included strobes, tape recording, instrumentation and control systems, remote control, motors, circuit design, integrated circuits, transistors, microwaves, and environmental simulation.",
+        "sources": [
+          "https://drexelmagazine.org/2016/the-ledger-fall-2016/",
+          "https://archive.org/stream/registerofcommis1950unse/registerofcommis1950unse_djvu.txt"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Howard Macphee\" engineer Philadelphia",
+        "\"Howard Macphee\" E.A.T. archive",
+        "",
+        "\"Howard MacPhee\" Philadelphia electrical engineering 1960s 1970s",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "\"Howard MacPhee\" obituary Philadelphia engineer",
+        "",
+        "",
+        "",
+        "\"Howard MacPhee\" \"electrical engineering\" Philadelphia 1966",
+        "\"Howard MacPhee\" Google Books engineer",
+        "",
+        "\"Howard Macphee\" E.A.T. directory",
+        "",
+        ""
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

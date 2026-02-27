@@ -11,6 +11,74 @@
         "y1": 15.1,
         "x2": 47.8,
         "y2": 22.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q464258",
+          "label": "Johann Ludwig Hektor von Isolani",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a military general from the 17th century (1586-1640) who participated in the Thirty Years' War. This is completely incompatible with the card entry context of an artist active in the late 1960s and 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Licio Isolani (1931–2015) was an Italian-born American sculptor and educator who was actively involved in the intersection of art and technology during the late 1960s and 1970s. Born in Volterra, Italy, he received his MFA from the Florence Art Institute before moving to New York in the early 1960s. He is best known for his association with the Experiments in Art and Technology (E.A.T.) movement, which he joined in the late 1960s. Isolani participated in the major E.A.T. exhibition 'Some More Beginnings' (1968–1969) held at the Brooklyn Museum. His work frequently utilized modern industrial materials such as fiberglass and polyester resin, and he was a longtime professor at the Pratt Institute, where he taught bronze casting and foundry techniques. His artistic research often centered on the concept of 'Survival' and the bridging of technical and philosophical realms. His works are included in the collections of the Smithsonian Design Museum, the Montreal Museum of Design, and the Minnesota Museum of Modern Art.",
+            "sources": [
+              "https://www.villa-palagione.org/en/licio-isolani-exhibition-in-volterra-2003/",
+              "https://www.pratt.edu/news/licio-isolani-study-archive/",
+              "https://www.youtube.com/watch?v=Fj-oXQxL6y8"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lucio Isolani artist",
+            "Lucio Isolani sculptor"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBOuvMwxniIGPOodPfl4dSnNb0hw-I37WII2L9uCR6uQe30PvlaShBxmc4tGminJhWFjUD58smtJvQOMGAJf9rY7-C-QYAGYhCpFzOrIGG8O2Ozu4nRzdoLJkj5FEjR8SbOyHSy6d8aMQrnqs3WW0AAsIxlQTkaU19PB702RnTYLiuL2b0N9cxoGmhJw==",
+              "title": "villa-palagione.org",
+              "resolvedUri": "http://www.villa-palagione.org/english/Licio-Isolani-exhibition-2003-Volterra.htm"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 229,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Licio Isolani (1931–2015) was an Italian-born American sculptor and educator who was actively involved in the intersection of art and technology during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 442,
+                "endIndex": 486,
+                "text": "movement, which he joined in the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 935,
+                "endIndex": 1365,
+                "text": "His works are included in the collections of the Smithsonian Design Museum, the Montreal Museum of Design, and the Minnesota Museum of Modern Art.\",\n      \"sources\": [\n        \"https://www.villa-palagione.org/en/licio-isolani-exhibition-in-volterra-2003/\",\n        \"https://www.pratt.edu/news/licio-isolani-study-archive/\",\n        \"https://www.youtube.com/watch?v=Fj-oXQxL6y8\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

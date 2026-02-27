@@ -11,6 +11,78 @@
         "y1": 8.8,
         "x2": 54.5,
         "y2": 13.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q17143715",
+          "label": "Adrianne Wortzel",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity is a known artist born in 1941, which fits the expected timeline of being active in the late 1960s and 1970s. The entity's occupation and inclusion in major museum collections align with the context of the archival card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Adrianne Wortzel (born 1941) is a New York-based pioneering media artist and painter whose career spans over six decades. During the late 1960s and 1970s, Wortzel's early work was characterized by abstract painting and early experiments with kinetic elements. In the mid-1960s, she created motorized geometric three-dimensional sculptures, such as pyramid-like carpets that were designed to appear as if they were \"breathing,\" serving as early precursors to her later time-based and robotic work. Her paintings from this era often explored the intersection of organic movement and formal structure. She was mentored by prominent artists including Ad Reinhardt, Louise Bourgeois, Jimmy Ernst, and Isaac Soyer at Brooklyn College and the Brooklyn Museum Art School. While her later work from the 1990s onward became widely known for integrating robotics, telerobotics, and electronic literature, her early practice aligned with the spirit of the Experiments in Art and Technology (E.A.T.) movement by seeking to bridge the gap between art and engineering. Her work has been supported by the National Science Foundation and the Robert Rauschenberg Foundation, and is held in collections such as the Moderna Museet in Stockholm and the Whitney Museum of American Art.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Adrianne_Wortzel",
+              "https://adriannewortzel.com",
+              "https://eyebeam.org/people/adrianne-wortzel/",
+              "https://cargo.site/Adrianne-Wortzel",
+              "https://whitney.org/artists/12711",
+              "https://franklinfurnace.org/goings-on-01-12-2026/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Adrianne Wortzel artist biography",
+            "Adrianne Wortzel art career timeline",
+            "Adrianne Wortzel 1960s 1970s artist",
+            "Adrianne Wortzel Experiments in Art and Technology E.A.T.",
+            "\"Adrianne Wortzel\" \"Experiments in Art and Technology\"",
+            "\"Adrianne Wortzel\" 1960s 1970s exhibitions",
+            "\"Adrianne Wortzel\" \"E.A.T.\" artist",
+            "\"Adrianne Wortzel\" E.A.T. collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXJrP2tQz7jAWj_bsLTanJtZZ4MgO-L8vefRoXgE0-2499oUUDxACJzgscADyG1ZOAuZbQV0zod78Hm3Scr_iNueMg3I_6a0qc1lOXKkbdTXKS0-7JQM-qBTt1S1Ghio-dkaEBtiq7jX0x2yJeyv0iQU6TQOMWVZB3TvA=",
+              "title": "microscopegallery.com",
+              "resolvedUri": "https://microscopegallery.com/the-first-circle-radical-humanism/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3wsYEh2UOqGF6sNnZyHUhvgzmaWlhZdc_y7Vf-lBB4om5v5G_IL3UTs0lvmZWT0eGFdUz3BBFX0B6rAjMxEpDLuaNJ0BjyPoJAtGX46fOXSao7OSOTra2kvaGqE8brfyKzRHULrTcTVgq6oE=",
+              "title": "franklinfurnace.org",
+              "resolvedUri": "https://franklinfurnace.org/goings-on-01-12-2026/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 171,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Adrianne Wortzel (born 1941) is a New York-based pioneering media artist and painter whose career spans over six decades."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 549,
+                "endIndex": 650,
+                "text": "Her paintings from this era often explored the intersection of organic movement and formal structure."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +96,145 @@
         "y1": 14.0,
         "x2": 41.0,
         "y2": 23.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"P. Deal\" artist Experiments in Art and Technology",
+            "\"Paula Deal\" artist E.A.T.",
+            "\"P. Deal\" E.A.T. artist",
+            "\"P. Deal\" collaborator E.A.T.",
+            "\"P. Deal\" artist 1960s 1970s",
+            "\"Paul Deal\" artist E.A.T.",
+            "\"Peter Deal\" artist E.A.T.",
+            "\"Deal\" artist Experiments in Art and Technology",
+            "\"Patricia Deal\" artist 1960s 1970s",
+            "\"Paul Deal\" artist 1960s 1970s",
+            "\"Peter Deal\" artist 1960s 1970s",
+            "\"P. Deal\" artist E.A.T. archive",
+            "\"Philip Deal\" artist 1960s 1970s",
+            "\"Peggy Deal\" artist 1960s 1970s",
+            "\"Philip Deal\" artist E.A.T.",
+            "\"Deal\" member Experiments in Art and Technology",
+            "\"Patricia Deal\" artist E.A.T.",
+            "\"Peter Deal\" photographer Experiments in Art and Technology",
+            "\"P. Deal\" E.A.T. Experiments in Art and Technology",
+            "\"Paul Deal\" artist E.A.T.",
+            "\"P. Deal\" artist 1960s 1970s E.A.T.",
+            "\"Peter Deal\" photographer 1960s",
+            "\"Philip Deal\" artist E.A.T.",
+            "\"Deal\" member of \"Experiments in Art and Technology\"",
+            "\"P. Deal\" artist Experiments in Art and Technology E.A.T.",
+            "\"Paula Deal\" artist E.A.T.",
+            "\"Paul Deal\" artist E.A.T.",
+            "\"P. Deal\" artist active 1960s 1970s",
+            "\"Peter Deal\" artist E.A.T.",
+            "\"Deal\" artist collaborator E.A.T.",
+            "\"P. Deal\" 1960s 1970s artist bio",
+            "\"Peter Deal\" photographer \"E.A.T.\"",
+            "\"P. Deal\" \"9 Evenings\" participation",
+            "\"Prudence Deal\" artist",
+            "\"P. Deal\" sculptor 1960s 1970s",
+            "\"P. Deal\" painter 1960s 1970s",
+            "\"Deal\" Experiments in Art and Technology credits",
+            "\"Paul Deal\" artist bio 1960s 1970s",
+            "\"Peter Deal\" artist bio 1960s 1970s",
+            "\"P. Deal\" artist 1970s",
+            "\"P. Deal\" artist 1960s",
+            "\"P. Deal\" Experiments in Art and Technology bibliography",
+            "\"Philip Deal\" artist bio 1960s 1970s",
+            "list of engineers \"9 Evenings: Theatre and Engineering\"",
+            "list of artists \"Experiments in Art and Technology\" match",
+            "\"Peter Deal\" Bell Labs",
+            "\"Paul Deal\" Bell Labs",
+            "\"Philip Deal\" Bell Labs",
+            "\"P. Deal\" artist E.A.T. matching service",
+            "\"P. Deal\" artist Expo 70 Pepsi Pavilion",
+            "\"Deal\" Bell Labs engineer Experiments in Art and Technology",
+            "\"P. Deal\" artist collaboration",
+            "\"Paul Deal\" artist Experiments in Art and Technology",
+            "\"Philip Deal\" artist Experiments in Art and Technology",
+            "\"Deal\" artist exhibition 1968 Brooklyn Museum",
+            "\"Peter Deal\" artist Experiments in Art and Technology",
+            " \"Deal\"",
+            "\"Deal\" member Experiments in Art and Technology list",
+            "\"Paul Deal\" artist computer art 1970s",
+            "\"Peter Deal\" photographer E.A.T. association",
+            " \"E.A.T.\" \"Deal\"",
+            "\"P. Deal\" artist \"matching\" E.A.T.",
+            "\"Philip Deal\" artist computer art 1970s",
+            "",
+            "\"Deal\" Experiments in Art and Technology 1966-1973",
+            "\"Deal\" member E.A.T. directory",
+            "\"P. Deal\" computer animation 1970s",
+            "\"P. Deal\" kinetic sculpture",
+            "\"P. Deal\" art engineer",
+            "\"Deal\" matched with artist E.A.T.",
+            "\"Deal\" artist Experiments in Art and Technology match list",
+            "\"Paul Deal\" Experiments in Art and Technology member",
+            "\"Philip Deal\" Experiments in Art and Technology member",
+            "\"Deal\" matched with engineer E.A.T.",
+            "\"Peter Deal\" Experiments in Art and Technology member",
+            "\"P. Deal\" artist 1960s NY",
+            "\"Deal\" member list Experiments in Art and Technology PDF",
+            "\"Patricia Deal\" artist bio 1970s",
+            "\"Peter Deal\" Experiments in Art and Technology documentation photographer",
+            "\"P. Deal\" artist 9 Evenings Theatre and Engineering",
+            "",
+            " \"Deal\"",
+            "\"Peter Deal\" artist New York 1960s",
+            "\"Deal\" kinetic art \"Experiments in Art and Technology\"",
+            "\"Paul Deal\" artist New York 1960s",
+            "\"P. Deal\" artist matched with engineer",
+            " \"Paul Deal\" E.A.T.",
+            "\"Peter Deal\" matched with engineer E.A.T.",
+            "\"Paul Deal\" matched with engineer E.A.T.",
+            " \"Peter Deal\" E.A.T.",
+            " \"P. Deal\" E.A.T.",
+            "\"P. Deal\" artist 1968 1969 1970",
+            " \"Deal\" \"Experiments in Art and Technology\"",
+            "\"P. Deal\" Experiments in Art and Technology matched",
+            "\"Peter Deal\" artist match E.A.T.",
+            "\"Paul Deal\" artist match E.A.T.",
+            "\"P. Deal\" kinetic artist",
+            "\"Deal\" artist matched with \"Flynn\" E.A.T.",
+            "\"Philip Deal\" artist competition 1968 E.A.T.",
+            "\"P. Deal\" artist competition 1968 E.A.T.",
+            "\"Peter Deal\" artist competition 1968 E.A.T.",
+            "\"Paul Deal\" artist competition 1968 E.A.T.",
+            "\"Deal\" artist matched with \"Schroeder\" E.A.T.",
+            "",
+            "\"Peter Deal\" artist bio 1960s 1970s NY",
+            "\"Patricia Deal\" artist bio 1960s 1970s NY",
+            "\"Paul Deal\" artist bio 1960s 1970s NY",
+            "\"Prudence Deal\" artist bio 1960s 1970s NY",
+            "\"Peggy Deal\" artist bio 1960s 1970s NY",
+            "\"Philip Deal\" artist bio 1960s 1970s NY",
+            "\"Preston Deal\" artist bio 1960s 1970s NY",
+            "",
+            "\"Deal\" matched with \"Waldhauer\" E.A.T.",
+            "\"Deal\" matched with \"Kluver\" E.A.T.",
+            "\"Philip Deal\" artist \"9 Evenings\"",
+            "\"Deal\" matched with \"Coker\" E.A.T.",
+            "\"P. Deal\" artist 1960s NY matching",
+            "\"Deal\" artist matched with \"Waldhauer\" E.A.T. artist",
+            "\"Peter Deal\" Experiments in Art and Technology match",
+            "\"Paul Deal\" Experiments in Art and Technology match",
+            "\"Deal\" matched with \"Schroeder\" E.A.T. artist",
+            "\"Deal\" matched with \"Knowlton\" E.A.T. artist",
+            "\"P. Deal\" computer art 1970s NY",
+            "\"Philip Deal\" Experiments in Art and Technology match",
+            "",
+            "\"Peter Deal\" artist bio 1960s 1970s E.A.T.",
+            "\"Deal\" member E.A.T. New York match list",
+            "\"P. Deal\" associated with \"E.A.T.\" archive"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

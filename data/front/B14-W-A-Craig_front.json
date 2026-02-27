@@ -11,5 +11,159 @@
     "technicalFields": [
       "Aeronautics"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q22486",
+      "label": "Craig Harris",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card data refers to a 'W A Craig' associated with aeronautics, while the Wikibase entry refers to 'Craig Harris', a jazz musician. The names and professional fields do not align."
+    },
+    {
+      "qid": "Q26561",
+      "label": "Craig Fields",
+      "description": "Engineer associated with E.A.T.'s Technical Services Program",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names do not match; the card refers to someone named 'W A Craig' (where Craig is likely the surname), while the entity refers to 'Craig Fields'. Additionally, the professional fields (Aeronautics vs. Psychology/AI) and locations (New Jersey vs. New York City) are entirely different."
+    },
+    {
+      "qid": "Q1459",
+      "label": "Craig Handy",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are a poor match ('W A Craig' vs 'Craig Handy'), and their professional fields are completely different: the card record identifies an individual in aeronautics, while the Wikibase entity describes a jazz musician."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q90871265",
+      "label": "W Craig Johnson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are incompatible: 'Craig' is the surname for the individual on the index card ('W A Craig'), whereas 'Craig' is the middle name for the Wikidata entity 'W Craig Johnson'. Furthermore, the locations (New Jersey vs. Washington state) and professional contexts do not overlap."
+    },
+    {
+      "qid": "Q96147726",
+      "label": "William Conner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names do not match; the card refers to 'W A Craig' (where Craig is the surname), while the Wikidata entity is for 'William Conner'. Additionally, the geographic locations (New Jersey vs. Tennessee) and professional contexts show no overlap."
+    },
+    {
+      "qid": "Q100937543",
+      "label": "W. Craig Carter",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are incompatible. The card record identifies 'Craig' as the surname (W. A. Craig), whereas the Wikidata entity identifies 'Carter' as the surname (W. Craig Carter). Additionally, the technical field (Aeronautics vs. Materials Science) and location (Union City, NJ vs. MIT/Massachusetts) do not align."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Waldemar A. Craig (born Wsevolode Grünberg) was an aeronautical engineer active in the mid-to-late 20th century, notably during the late 1960s and early 1970s. He is recognized for developing the \"Grunberg system\" (or Grunberg scheme) for hydrofoil craft, a design that utilizes a submerged rear foil and frontal stabilizers (skis) that ride on the water's surface to provide automatic stability and wave-sensing. Craig conducted his early pioneering work in France starting in the mid-1930s before emigrating to the United States and settling in New Jersey. Based in Union City, New Jersey, he was associated with the Experiments in Art and Technology (E.A.T.) organization, where he was listed as a technical member with expertise in aeronautics. His historical records also include correspondence with Albert Einstein regarding complex personal and inheritance matters, which are preserved in various autograph and historical archives.",
+        "sources": [
+          "https://www.foils.org/wp-content/uploads/2018/01/The-Development-of-Automatic-Control-Systems-for-Hydrofoil-Craft.pdf",
+          "https://www.profilesinhistory.com/wp-content/uploads/2015/05/Historical75.pdf",
+          "https://www.kotte-autographs.com/en/autograph/einstein-albert-1879-1955/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"W. A. Craig\" E.A.T. aeronautics",
+        "\"W A Craig\" Union City New Jersey aeronautics",
+        "\"W A Craig\" aeronautics 1960s 1970s",
+        "\"W A Craig\" Union City NJ engineer",
+        "\"W A Craig\" Experiments in Art and Technology",
+        "",
+        "\"William A. Craig\" Union City NJ aeronautics",
+        "\"Walter A. Craig\" Union City NJ aeronautics",
+        "\"W. A. Craig\" Union City NJ aeronautics engineer",
+        "\"Wayne A. Craig\" Union City NJ aeronautics",
+        "\"W A Craig\" E.A.T. membership card",
+        "",
+        "\"William A. Craig\" aeronautics NJ Union City",
+        "\"W. A. Craig\" aeronautics Union City",
+        "\"W A Craig\" Union City NJ aeronautics",
+        "\"W. A. Craig\" E.A.T. aeronautics Union City",
+        "\"W A Craig\" membership Experiments in Art and Technology",
+        "\"W. A. Craig\" Union City New Jersey engineer",
+        "",
+        "\"W. A. Craig\" engineer \"Union City\" NJ",
+        "\"W. A. Craig\" \"Union City\" New Jersey aeronautics",
+        "\"W A Craig\" E.A.T. member",
+        "\"W. A. Craig\" \"Union City\" NJ aeronautics",
+        "",
+        "\"W. A. Craig\" aeronautics New Jersey 1960s",
+        "\"W. A. Craig\" \"Union City\" NJ engineer",
+        "\"William A. Craig\" Union City New Jersey aeronautics engineer",
+        "\"W. A. Craig\" Experiments in Art and Technology aeronautics",
+        "\"W A Craig\" \"Union City\" aeronautics E.A.T.",
+        "\"W. A. Craig\" Bendix Union City",
+        "\"W. A. Craig\" Curtiss-Wright Union City",
+        "",
+        "\"W. A. Craig\" \"Grunberg system\" hydrofoil New Jersey",
+        "\"Walter A. Craig\" Union City NJ aeronautics E.A.T.",
+        "\"William A. Craig\" Union City NJ aeronautics E.A.T.",
+        "\"Waldemar A. Craig\" Union City NJ aeronautics",
+        "\"W. A. Craig\" Union City NJ aeronautics engineer E.A.T."
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxd8fzofkzrUrs4anU0Cv52127sOghKa6UVZF8KXOi4dU5LYdFG5QP0B2xj5IAbiro17_ZUpHVoRIKy5t6ONUdnv2MPDpiKWNB7BIJcHEqRsqyFGAUyt9_XYepHZboanb85OcGFqZvxtcPsNVsbxDz6Ve-BFpCFDd7Bcky4DwVS4bFth_deTDGSJblJVmWq9-_UiSiDZhA6oorxUTWvSzUYjADg29ML8WdKQU2",
+          "title": "foils.org",
+          "resolvedUri": "https://foils.org/wp-content/uploads/2017/12/Development-of-Automatic-Control-Systems-For-Hydrofoil-Craf-71234.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXWwlUM6Pe0tQw4T2A9F13ZXYJmOr77kG-onhUlh38Nir53Ru5iCIKrkVwT2-7LEbW161ePWCLFYYucXrpAUqr41qwsrgapl7_Zt1_zjXbyXXqUgoajT83xdoy2-lSzQuoJhaK3D4u8K1I3aEkLMQ=",
+          "title": "okgenweb.net",
+          "resolvedUri": "https://www.okgenweb.net/~oksequo2/obits/sept09.html"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1SR4GU_8iSndRD8VB0m2aRWtq7v5v72wZ6Iz0EZ9dC2F8lTX_tdsrDCXbGy6NXeFAD3YMFNnZDpNuzQfrcdH8s0r3xCiqFqKLg3SWAx0FxM7mdlHnrLhX6MC5khzIeNryVUmobzijaxf2nw3ZuCyi_CE1B3gJ1wtrh5WN9rxxNMbTxTO-f74LCxeEDw==",
+          "title": "profilesinhistory.com",
+          "resolvedUri": "https://profilesinhistory.com/wp-content/uploads/2015/06/75Historical_CatalogS.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 211,
+            "endIndex": 466,
+            "text": "He is recognized for developing the \\\"Grunberg system\\\" (or Grunberg scheme) for hydrofoil craft, a design that utilizes a submerged rear foil and frontal stabilizers (skis) that ride on the water's surface to provide automatic stability and wave-sensing."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 715,
+            "endIndex": 801,
+            "text": "organization, where he was listed as a technical member with expertise in aeronautics."
+          },
+          "groundingChunkIndices": [
+            1,
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 802,
+            "endIndex": 1366,
+            "text": "His historical records also include correspondence with Albert Einstein regarding complex personal and inheritance matters, which are preserved in various autograph and historical archives.\",\n      \"sources\": [\n        \"https://www.foils.org/wp-content/uploads/2018/01/The-Development-of-Automatic-Control-Systems-for-Hydrofoil-Craft.pdf\",\n        \"https://www.profilesinhistory.com/wp-content/uploads/2015/05/Historical75.pdf\",\n        \"https://www.kotte-autographs.com/en/autograph/einstein-albert-1879-1955/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            2
+          ]
+        }
+      ]
+    }
   }
 }

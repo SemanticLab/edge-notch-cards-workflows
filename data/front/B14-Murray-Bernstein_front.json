@@ -15,5 +15,102 @@
       "Electronics",
       "Communications"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q73244",
+      "label": "Heinrich Agathon Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals from different centuries and professions. Murray Bernstein was a 20th-century American electronics engineer working for Grumman Aircraft, whereas Heinrich Agathon Bernstein (Q73244) was a 19th-century German naturalist and explorer who died in 1865."
+    },
+    {
+      "qid": "Q111436",
+      "label": "Elmer Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to 'Murray Bernstein', an engineer at Grumman Aircraft specializing in electronics. The Wikidata entity refers to 'Elmer Bernstein', a world-renowned film composer, conductor, and musician. Although both have the same last name and ties to New York City, their first names and professional careers are entirely unrelated."
+    },
+    {
+      "qid": "Q152505",
+      "label": "Leonard Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Murray Bernstein, an engineer at Grumman Aircraft specializing in electronics and communications. The Wikidata entity refers to Leonard Bernstein (born Louis Bernstein), the world-famous conductor and composer. Their names and careers do not align."
+    },
+    {
+      "qid": "Q5091795",
+      "label": "Zvi Hirsch Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Zvi Hirsch Bernstein) died in 1907, whereas the person on the card worked for Grumman Aircraft, which was not founded until 1929. Additionally, their first names (Murray vs Zvi Hirsch) and occupations (Engineer vs Journalist) are completely different."
+    },
+    {
+      "qid": "Q58323596",
+      "label": "Herbert J Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records have different first names (Murray vs. Herbert) and different professional affiliations (Grumman Aircraft vs. Ronin Institute). There is no specific evidence linking Murray Bernstein the engineer to Herbert J Bernstein the researcher beyond a common surname and a general New York location."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q463261",
+      "label": "Grumman",
+      "description": "1929-1994 aerospace manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q463261 (Grumman) matches the employer 'Grumman Aircraft' listed on the card. The Wikidata entity is described as an aerospace and aircraft manufacturer (Grumman Aerospace Corporation) based in Bethpage, Long Island, New York, which aligns with the cardholder's location in New York City and their role as an electronics/communications engineer."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Murray Bernstein was an engineer at Grumman Aircraft Engineering Corporation (later Grumman Aerospace and Northrop Grumman), primarily active from the 1960s through the early 2000s. Based in Bethpage, New York, he specialized in dynamic analysis, loads and dynamics, and vibration testing. During the late 1960s, he was a member of Grumman's Dynamic Analysis Section, where he co-authored technical reports on vibration design procedures for the Orbiting Astronomical Observatory (OAO). In the early 1970s, he played a key role in the analytical and experimental vibration studies of 1/8-scale models of the Space Shuttle Orbiter for NASA. His work involved reconciling test data with finite-element models, focusing on structural panels and joints. Bernstein's career continued at Northrop Grumman, where he contributed to the B-2 Aft Deck Team (which received a project award in 2005) and conducted analysis on high-speed data pods and structural tracking for aircraft flight sciences. His technical expertise in sensors and data acquisition for dynamic testing aligns with fields of electronics and communications in an aerospace context. He is also noted in archival records as a potential technical collaborator with the Experiments in Art and Technology (E.A.T.) organization, which facilitated partnerships between New York-based engineers and artists.",
+        "sources": [
+          "https://ntrs.nasa.gov/citations/19740024479",
+          "https://apps.dtic.mil/sti/citations/AD0489240",
+          "https://calisphere.org/item/52435759-43c2-48a5-9276-2e1be72946c7/",
+          "https://engineerscouncil.org/wp-content/uploads/2014/11/2005-Awards-Program.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Murray Bernstein\" electronics communications Grumman",
+        "\"Murray Bernstein\" Experiments in Art and Technology E.A.T.",
+        "\"Murray Bernstein\" Grumman Aircraft engineer",
+        "\"Murray Bernstein\" engineer New York City 1960s 1970s",
+        "\"Murray Bernstein\" E.A.T. Grumman",
+        "\"Murray Bernstein\" electronics communications New York 1960s",
+        "\"Murray Bernstein\" Grumman electronics communications",
+        "\"Murray Bernstein\" Grumman electronics communications E.A.T.",
+        "\"Murray Bernstein\" \"E.A.T.\" engineer",
+        "\"Murray Bernstein\" collaborator E.A.T."
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfDnp0JYo009CzpYomsya1GTv0X8lYqCxY1s4vTC9z9LIR66XtwRCG9AUjuUf0yePfa3nBO_7sRHAidtgHiUuYkOsTiczssgJlcK4PBPAeZUHGX-kh5_V7XuKuiWCDsdrDal2ufT4Yyg==",
+          "title": "dtic.mil",
+          "resolvedUri": "https://apps.dtic.mil/sti/tr/pdf/ADA956507.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 232,
+            "endIndex": 339,
+            "text": "Based in Bethpage, New York, he specialized in dynamic analysis, loads and dynamics, and vibration testing."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

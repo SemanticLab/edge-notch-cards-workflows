@@ -9,6 +9,76 @@
         "y1": 8.5,
         "x2": 51.7,
         "y2": 23.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q11879",
+          "label": "Adriaen van der Cabel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Paul Vandes vs. Adriaen van der Cabel). Furthermore, the Wikidata entity describes a Dutch painter from the 17th century (1631-1705), which does not align with the card's context of an artist active in 1969."
+        },
+        {
+          "qid": "Q1333355",
+          "label": "Els Vandesteene",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Paul Vandes' on the card does not match 'Els Vandesteene' from the Wikidata entity. Furthermore, the Wikidata entity describes a volleyball player born in 1987, which is chronologically impossible for someone active as an artist in 1969."
+        },
+        {
+          "qid": "Q1903881",
+          "label": "Adriaen van Diest",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Adriaen van Diest lived from 1655 to 1704, which is over 250 years before the 1969 date on the card entry. Furthermore, the names 'Paul Vandes' and 'Adriaen van Diest' are not similar."
+        },
+        {
+          "qid": "Q3027382",
+          "label": "Diego Davy Vandeschrick",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1984, which makes it chronologically impossible for them to be the person mentioned in the 1969 card entry. Furthermore, the names and occupations (artist vs. karateka) do not align."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Paul Vanders (alternatively spelled Paul Vandes in some contexts) was an artist and inventor active in New York City during the late 1960s and early 1970s. He is primarily recognized for his Brutalist-style metal wall sculptures and reliefs, which were often constructed from hammered, folded, and torch-cut metals such as brass, copper, chrome, and aluminum. His works from the 1970s are characterized by abstract and geometric patterns, sometimes mounted on mirrored or wooden backgrounds, and are frequently compared to or associated with the work of fellow Brutalist artist Stephen Chun. Beyond his artistic output, Vanders demonstrated a strong interest in practical engineering and design; in January 1969, he filed a patent (US Patent 3,526,317) for a 'Combination Drinking-Cup Wrapped Product Package' while living at 345 East 58th Street in New York. This dual identity as both a creator of fine art and a patented inventor matches the profile of participants in the Experiments in Art and Technology (E.A.T.) organization, a non-profit established in 1966 in New York to foster collaborations between the artistic and scientific communities.",
+            "sources": [
+              "https://archive.org/details/officialgazetteo8781unit/page/90/mode/2up",
+              "https://www.1stdibs.com/creators/paul-vanders/art/",
+              "https://www.pamono.eu/brutalist-artwork-in-the-style-of-paul-vanders-after-stephen-chun-1970s",
+              "https://www.etsy.com/listing/973546704/paul-vanders-brutalist-metal-art",
+              "https://www.invaluable.com/auction-lot/paul-vanders-pairof-rare-1970s-brutalist-mid-centu-146-c-a7c4da79c5"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Experiments in Art and Technology\" participants list",
+            "\"Paul Vanders\" artist E.A.T.",
+            "\"Paul Vande\" artist E.A.T.",
+            "\"Paul Vanders\" Brutalist art 1970s",
+            "\"Paul Vanders\" Stephen Chun",
+            "\"Paul Vandes\" 9 Evenings",
+            "\"Paul Vanders\" artist E.A.T.",
+            "\"Paul Vanders\" E.A.T. archive",
+            "\"Paul Vanders\" Experiments in Art and Technology member",
+            "",
+            "\"Paul Vanders\" 9 Evenings E.A.T.",
+            "\"Paul Vanders\" E.A.T. competition 1968",
+            "\"Paul Vanders\" patent 1969",
+            "",
+            " \"Paul Vanders\"",
+            " \"Paul Vandes\"",
+            "\"Paul Vanders\" 1969 patent E.A.T.",
+            "\"Paul Vanders\" E.A.T. engineer list"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -20,6 +90,62 @@
         "y1": 18.0,
         "x2": 43.8,
         "y2": 33.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Tony Sowry\" artist",
+            "",
+            "\"Sowree\" Experiments in Art and Technology",
+            "\"Tony Sowerby\" Experiments in Art and Technology",
+            "\"Sowree\" artist",
+            "\"Tony Sowry\" artist Ohio",
+            "\"Tony Sowry\" E.A.T.",
+            "\"Tony Sowery\" E.A.T.",
+            " \"Sowree\"",
+            "\"Tony\" \"E.A.T.\" artist 1960s 1970s",
+            "\"Experiments in Art and Technology\" Tony artist",
+            "\"Tony Sowers\" artist 1960s 1970s",
+            "\"Tony Sower\" artist E.A.T.",
+            "\"Sowree\" artist E.A.T.",
+            "",
+            "\"Tony Sowry\" artist New Zealand 1960s 1970s",
+            "\"Tony Sowerby\" artist E.A.T.",
+            "\"Tony Sowery\" artist E.A.T.",
+            "\"Tony Sower*\" artist E.A.T.",
+            "\"Tony Sowry\" engineer E.A.T.",
+            "\"Tony Sowerby\" engineer E.A.T.",
+            "\"Tony\" E.A.T. artist directory",
+            "\"Tony Sowry\" art 1970s",
+            "\"Tony\" E.A.T. member list",
+            "\"Tony Sowry\" artist 1960s",
+            "\"Sowree\" artist 1960s 1970s",
+            "\"Sowree\" surname",
+            " \"Tony\"",
+            " \"Tony\" \"Sowry\"",
+            " \"Tony\" \"Sowrey\"",
+            "\"E.A.T.\" artist \"Tony\" -Martin -Smith",
+            "\"Tony Sowry\" art",
+            "\"Experiments in Art and Technology\" Tony -Martin -Smith",
+            "\"Tony\" participant \"Pepsi Pavilion\" E.A.T.",
+            "\"Tony\" participant \"9 Evenings\" E.A.T.",
+            "\"Tony Sowry\" E.A.T. participant",
+            " \"E.A.T.\" \"Sowry\"",
+            " \"E.A.T.\" \"Sowrey\"",
+            " \"E.A.T.\" \"Sowers\"",
+            " \"E.A.T.\" \"Sowree\"",
+            "\"E.A.T.\" \"Sowrey\"",
+            "\"Experiments in Art and Technology\" \"Sowry\"",
+            "\"E.A.T.\" \"Sowry\"",
+            "\"Anthony Sowry\" artist",
+            "\"Tony Sowry\" Wanda Sowry"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -31,6 +157,140 @@
         "y1": 27.0,
         "x2": 37.7,
         "y2": 39.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q292",
+          "label": "Marshall Royal",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (K Marsh) does not match the Wikibase entity (Marshall Royal). The card provides the surname Marsh and initial K, while the Wikibase entity's surname is Royal and first name is Marshall."
+        },
+        {
+          "qid": "Q939",
+          "label": "Marshall Brown",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'K MARSH', where 'Marsh' is the surname. The Wikibase entity is 'Marshall Brown', where 'Brown' is the surname and 'Marshall' is the first name. These are distinct names with different surnames."
+        },
+        {
+          "qid": "Q25261",
+          "label": "Marshall Berman",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not align. The card record is for 'K Marsh', where Marsh is the surname and K is the initial. The Wikibase entity is for Marshall Berman (Q3312100), where Marshall is the first name and Berman is the surname. There is no plausible overlap between 'K Marsh' and 'Marshall Berman'."
+        },
+        {
+          "qid": "Q19435",
+          "label": "Marshall McLuhan",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'K Marsh' (implying Marsh is the surname), whereas the Wikibase entity refers to Marshall McLuhan (where McLuhan is the surname). Marshall McLuhan was a communication theorist, not an artist named K Marsh."
+        },
+        {
+          "qid": "Q20931",
+          "label": "Marshall Smith",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not align. The card record identifies a person with the surname 'Marsh' (K Marsh), whereas the Wikibase entity describes Marshall Smith, where 'Marshall' is the first name and 'Smith' is the surname."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q30102986",
+          "label": "Kevin Marsh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q30102986) refers to a prominent malariologist and medical researcher born in 1954. While the name Kevin Marsh matches the initial and surname 'K Marsh', his career is entirely academic and scientific, which does not align with the provided context that the person on the card is an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Kenneth (Ken) Marsh is an artist and author who was a pioneer in the independent video and video art movements of the late 1960s and 1970s. Originally a painter and printmaker, he also worked with light shows during the late 1960s before transitioning to video technology. In 1970, along with Elliot Glass, he co-founded the People's Video Theater (PVT) in New York City, which focused on using video for community dialogue, journalism, and social change. Marsh was a significant figure in the alternative media scene, contributing to the seminal magazine Radical Software and authoring the influential book \"Independent Video: A Complete Guide to the Physics, Operation, and Application of the New Medium for the Student, Artist, and Community Activist\" in 1974. He later established Woodstock Community Video (WCV) in 1973 and was a resident artist at the Experimental Television Center in 1975–76. His work often overlapped with the goals of Experiments in Art and Technology (E.A.T.), as he utilized emerging technological tools to create new forms of communication and artistic expression.",
+            "sources": [
+              "https://www.vdb.org/artists/ken-marsh",
+              "http://www.vasulka.org/archive/VideoArtIndependentMedia.pdf",
+              "https://experimentaltvcenter.org/ken-marsh",
+              "http://www.radicalsoftware.org/e/v1n2.html",
+              "https://www.davidsonsfiles.org/annotatedvideoexhibitions.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Ken Marsh\" artist E.A.T.",
+            "\"K. Marsh\" artist Experiments in Art and Technology",
+            "\"K Marsh\" artist late 1960s early 1970s",
+            "\"Kenneth Marsh\" artist E.A.T.",
+            "\"K Marsh\" artist Experiments in Art and Technology",
+            "\"Ken Marsh\" Experiments in Art and Technology E.A.T.",
+            "\"K. Marsh\" Experiments in Art and Technology",
+            "\"Kenneth Marsh\" artist 1960s 1970s video",
+            "\"K Marsh\" artist light shows 1960s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9_ao9Djoy1pm9tpYkAg2KaG215fwkaw8fNvBEZLJh4znDPYJG9OjRycanm57kVYtpxvWkEPUlMreVgb49wfn8qL_kaI3DrHAIw_O20cnM8KTr7qfe0-8uzjztUp-7cdJiE7z6WVQ=",
+              "title": "davidsonsfiles.org",
+              "resolvedUri": "https://davidsonsfiles.org/Exhibitions.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuDq3jUhlyyxTDsQaAYjfvfuZr8KqKCE0mv_yaSHS0DO1MsN4KAO4jl6fut-1iHajT-pI4MwoHOz4PAIb2yvIKRX64xrKSdbgfO7uh8x47r7DqzDwv0vHV_tozcKTuxDrdWUFyyOV9n8YJsRJivUoid-woc_AFcF6GXTGt28y_hKUs9cLqilsflijBiAM=",
+              "title": "vasulka.org",
+              "resolvedUri": "https://www.vasulka.org/archive/Contributors/ChrisHill/SurveyingtheFirstDecade.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGNDhlce9rPfJXGnGLudyM-f_n0_bbgNtuTlAA5MqpcSEbRHp6RqFOHvjxpZ7xjHcVP1rMahIDwCAF80otI0KAqqb2L8rCSHaj-7rYvnXOSH9-6ikYxWWMevko0YhMRH6vTmfvflJsxzw=",
+              "title": "superseventies.com",
+              "resolvedUri": "https://www.superseventies.com/movies_P-Y.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6S-OM0gZONcGBL9RNjMtSH-HClPayXdGETI5AJZxlVn2jWwd4OckXeVrb-raN8RDVd36Rcs1KGzbcr8OvqCl1zj1wbiMfKYp-FPQcXAZRQzYwV0uJNnpxX2rPeEVZjipwsAa1bRTuIazeNQ==",
+              "title": "ed.gov",
+              "resolvedUri": "https://files.eric.ed.gov/fulltext/EJ1366697.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2HvlJfhL5cFC86Chq1L_ixT7Axt7IgmR_8C2Xx_JsytbThfxBwFFKD_ggQ_pZoLLNH_6DV3m3U39AsHfUpfp9esDxIlIRVvu-UTZsGcK0U9hXx1-mZgxvsmgGs20ylZaPODsv4627IcQ=",
+              "title": "stevenkeymeyers.com",
+              "resolvedUri": "http://stevenkeymeyers.com/mib/mib-excerpt.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDWKiBu9LDhYJBSFzGk1FRTJNqOtCMTv_WXug89YaFDosvHn5P35i77xrAMUkFWyjca56vDC-glJd5Qm9F6M4u8UZcAipgGKC2kLIPtjViixb-yGChHc6j6E8oC5ad_9wn0zDRMbRskLp-UL9Ss8M0iBytftLRQnfy8i0EmpZ4NQSDU0YJKVUX2rm31ST6rluPoETwpIEa_fpCD6yfW0zWNsSQeokJYOj5Veg=",
+              "title": "experimentaltvcenter.org",
+              "resolvedUri": "https://www.experimentaltvcenter.org/wp-content/uploads/2021/11/25YearsOfTheExperimentalTelevisionCenter_973.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZWbNuZiapHeW8XJCJR_l6MbhdqI6_4lXYjbjFxzAlD8d9wxr5PvhU4G7_RImIf-jE8501iMmNgKxKLPTJ6dci_lTg9B3Iwqlrd4PjsN7nKsgP_PsYnZ-oqv68bzjYNI47Af7JnVuA8z6GwBGmcRMAuEcX-X0G4dzxO2e5jrk=",
+              "title": "radicalsoftware.org",
+              "resolvedUri": "https://www.radicalsoftware.org/volume1nr1/pdf/VOLUME1NR1_art05.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 955,
+                "endIndex": 1522,
+                "text": "His work often overlapped with the goals of Experiments in Art and Technology (E.A.T.), as he utilized emerging technological tools to create new forms of communication and artistic expression.\",\n      \"sources\": [\n        \"https://www.vdb.org/artists/ken-marsh\",\n        \"http://www.vasulka.org/archive/VideoArtIndependentMedia.pdf\",\n        \"https://experimentaltvcenter.org/ken-marsh\",\n        \"http://www.radicalsoftware.org/e/v1n2.html\",\n        \"https://www.davidsonsfiles.org/annotatedvideoexhibitions.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            }
+          ]
+        }
       }
     }
   ]

@@ -15,5 +15,187 @@
     "technicalFields": [
       "Electronics"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q366066",
+      "label": "John Flaxman Jr.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different people from different eras and locations. The Wikidata entity is a famous 18th/19th-century British sculptor (John Flaxman, 1755-1826), while the card data describes a modern-era student (Kenneth Flaxman) living in the Bronx, New York, studying electronics at CCNY."
+    },
+    {
+      "qid": "Q5458291",
+      "label": "Flaxman Charles John Spurrell",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Kenneth Flaxman, a student of electronics in the Bronx, New York. The Wikidata entity is Flaxman Charles John Spurrell, a 19th-century British archaeologist and egyptologist who died in 1915. They share the name 'Flaxman' but in different capacities (surname vs. given name), and their locations and professions are entirely unrelated."
+    },
+    {
+      "qid": "Q6846213",
+      "label": "Mike Butterworth",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals. The card data identifies Kenneth Flaxman, a student of electronics in New York, while the Wikidata entity identifies Mike Butterworth, a British crime fiction writer."
+    },
+    {
+      "qid": "Q48814246",
+      "label": "Flaxman Qoopane",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are distinct; in the card record 'Flaxman' is the surname, whereas in the Wikidata entry 'Flaxman' is the given name. Additionally, the geographic locations (New York vs. South Africa) and occupations (Electronics student vs. journalist/poet) are completely different."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q26768",
+      "label": "City College of New York",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'City College of New York' matches exactly between the card data and the Wikibase entity. The Wikibase entity also includes the location 'New York (N.Y.)' and is explicitly associated with the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which is the source of the card record."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1093910",
+      "label": "City College of New York",
+      "description": "senior college of the City University of New York",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'City College of New York' matches exactly. The card identifies the individual as a student, which is consistent with the Wikidata entity being a higher education institution. Both are located in New York City."
+    },
+    {
+      "qid": "Q5009663",
+      "label": "CCNY Beavers men's basketball",
+      "description": "sports team of City College of New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q5009663) represents a specific athletic team (the men's basketball team) belonging to the City College of New York, rather than the educational institution itself. While related, the college sports team is a sub-unit and not the parent organization listed as the employer on the card."
+    },
+    {
+      "qid": "Q96573977",
+      "label": "CCNY Beavers",
+      "description": "sports teams of City College of New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q96573977) specifically represents the athletic department and sports teams (CCNY Beavers) of the City College of New York, rather than the educational institution itself. While the athletic program is a part of the college, the card refers to the college as a whole where the individual is a student."
+    },
+    {
+      "qid": "Q111021605",
+      "label": "City College stampede",
+      "description": "1991 New York City disaster",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to a specific historical event (the 1991 stampede) that occurred at the college, whereas the card refers to the City College of New York as an organization and employer."
+    },
+    {
+      "qid": "Q56883788",
+      "label": "North Campus of the City College of New York",
+      "description": "campus in Manhattan in United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q56883788) represents the 'North Campus' of the City College of New York, which is a specific geographic site and campus. The card lists the 'City College of New York' as the employer/organization, which refers to the institution as a whole (Wikidata Q26768). While the campus is part of the college, they are distinct entities."
+    },
+    {
+      "qid": "Q125501605",
+      "label": "City College of New York Music Library",
+      "description": "music library at The City College of New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the 'City College of New York Music Library,' which is a departmental unit of the parent institution. The card lists the employer/organization as the broader 'City College of New York.' Furthermore, the individual on the card is a student of electronics, making an affiliation with the music library specifically unlikely."
+    },
+    {
+      "qid": "Q133455717",
+      "label": "City College of New York Film Institute",
+      "description": "film studio at the City College of New York founded in 1942",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents the 'City College of New York Film Institute', which is a specific sub-unit or department of the City College of New York. The card lists 'City College of New York' as the employer/organization, and the individual is a student of electronics, making the broader university (Q26768) the correct match rather than this specific film-focused department."
+    },
+    {
+      "qid": "Q54172415",
+      "label": "Q54172415",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q54172415 corresponds to the City College of New York (CCNY), which is an exact match for the employer organization listed on the card. Despite the missing label in the prompt display, this QID is a recognized identifier for the institution in the Wikidata database."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Kenneth N. Flaxman is an attorney based in Chicago who began his professional life as an electrical engineer. During the late 1960s, he was a student at the City College of New York (CCNY), where he earned a Bachelor of Engineering. Historical records, including amateur radio callbooks from 1965 and 1967, list him as a resident of Tiebout Avenue in the Bronx, New York, with the amateur radio call sign WB2ESZ. His background in electronics and engineering aligns with the profiles maintained by the Experiments in Art and Technology (E.A.T.) technical service, which used index cards to match students and professional engineers with artists for collaborative projects. After working as an electrical engineer, Flaxman transitioned to the legal profession, receiving a J.D. from the Chicago-Kent College of Law in 1972. He eventually founded the Law Offices of Kenneth N. Flaxman P.C. in Chicago, specializing in civil rights, police misconduct, and class action litigation.",
+        "sources": [
+          "https://www.superlawyers.com/profiles/kenneth-flaxman/740283c4-42f1-4384-a4f6-778844f2e511/",
+          "https://archive.org/stream/Summer_1965_Radio_Amateur_Callbook/Summer_1965_Radio_Amateur_Callbook_djvu.txt",
+          "https://archive.org/stream/Fall_1967_Radio_Amateur_Callbook/Fall_1967_Radio_Amateur_Callbook_djvu.txt",
+          "https://www.chicago.gov/content/dam/city/depts/dol/supp_info/PoliceMisconductSettlements2009-2013.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Kenneth Flaxman Experiments in Art and Technology E.A.T.",
+        "\"Kenneth Flaxman\" Bronx electronics student 1960s 1970s",
+        "",
+        "\"Kenneth Flaxman\" \"student\" electronics 1960s 1970s",
+        "\"Kenneth Flaxman\" \"E.A.T.\" artist engineer",
+        "\"Kenneth Flaxman\" City College electronics Bronx",
+        "",
+        "\"Kenneth Flaxman\" \"E.A.T.\" engineer electronics",
+        "\"Kenneth Flaxman\" 1968 1969 1970 City College",
+        "\"Kenneth Flaxman\" electronics CCNY",
+        "",
+        "\"Kenneth Flaxman\" attorney \"City College of New York\"",
+        "\"Kenneth Flaxman\" \"E.A.T.\" index card",
+        "\"Kenneth N. Flaxman\" education CCNY electronics",
+        "\"Kenneth N. Flaxman\" CCNY engineering graduation year",
+        "\"Kenneth Flaxman\" E.A.T. engineer list",
+        "\"WB2ESZ\" Kenneth Flaxman"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwDPdjzYPvScgDvU4rToJQQpuGHnKQ3bqx_nvqP5DlBOfDKFt-IMxKZDQuVzblxsAmaYEzjLAJMTXGXHMCzvcMb29Ckt8ZcsDWfmLjexHZjNd-bKsgqOwSKgLC7FSU0y4kcymik3Iih5Tcj296b6Fna1259sGF1gPKVQsb9MceGVqfhCO5xvMm5e1ZkA3a0Pc_zzbtkRe4KJaGm-Trakve3u77nsYtYDFGFKAKsC95MA==",
+          "title": "superlawyers.com",
+          "resolvedUri": "https://profiles.superlawyers.com/illinois/chicago/lawyer/kenneth-n-flaxman/0473b89d-ade0-4086-b624-7eb11f6c761e.html"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 159,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Kenneth N. Flaxman is an attorney based in Chicago who began his professional life as an electrical engineer."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 723,
+            "endIndex": 872,
+            "text": "After working as an electrical engineer, Flaxman transitioned to the legal profession, receiving a J.D. from the Chicago-Kent College of Law in 1972."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 873,
+            "endIndex": 1546,
+            "text": "He eventually founded the Law Offices of Kenneth N. Flaxman P.C. in Chicago, specializing in civil rights, police misconduct, and class action litigation.\",\n      \"sources\": [\n        \"https://www.superlawyers.com/profiles/kenneth-flaxman/740283c4-42f1-4384-a4f6-778844f2e511/\",\n        \"https://archive.org/stream/Summer_1965_Radio_Amateur_Callbook/Summer_1965_Radio_Amateur_Callbook_djvu.txt\",\n        \"https://archive.org/stream/Fall_1967_Radio_Amateur_Callbook/Fall_1967_Radio_Amateur_Callbook_djvu.txt\",\n        \"https://www.chicago.gov/content/dam/city/depts/dol/supp_info/PoliceMisconductSettlements2009-2013.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

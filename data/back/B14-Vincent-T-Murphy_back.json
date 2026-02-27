@@ -9,6 +9,132 @@
         "y1": 9.4,
         "x2": 47.1,
         "y2": 21.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2600923",
+          "label": "Yoshi Wada",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name on the card, Yoshimasa Wada, matches the birth name (和田 義正) of the Wikidata entity Yoshi Wada. Yoshi Wada was a prominent sound artist and composer associated with the Fluxus movement, active during the late 1960s and early 1970s, which aligns perfectly with the provided artist context."
+        },
+        {
+          "qid": "Q104797240",
+          "label": "Yoshimasa Wada",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist active in the late 1960s/early 1970s (likely the Fluxus artist Yoshimasa Wada, Q14946765). The Wikidata entity provided (Q104797240) describes a researcher affiliated with major Japanese universities like the University of Tokyo and Kyoto University, which is a different career path and individual."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Yoshimasa \"Yoshi\" Wada (1943–2021) was a Japanese sound installation artist, musician, composer, and sculptor who was a prominent figure in the New York avant-garde scene. Born in Kyoto, Japan, he moved to New York City in 1967 and joined the Fluxus movement in 1968 after meeting its founder, George Maciunas. Wada is best known for his experimental sound works and the creation of large-scale homemade musical instruments constructed from industrial materials, such as metal plumbing pipes (his \"pipe horns\") and bagpipe-like instruments connected to air compressors, which he named \"The Alligator\" and \"The Elephantine Crocodile.\" His artistic practice, often described as \"intermedia,\" blended sculpture, performance, and music, frequently utilizing drones and high-decibel volumes. He studied North Indian vocal music under Pandit Pran Nath and minimalist composition under La Monte Young. Wada was active throughout the late 1960s and 1970s, producing works such as the \"Smoke Fluxkit\" (1969) and the album \"Earth Horns and Electronic Drone\" (1974). His focus on the intersection of art and technical engineering—utilizing mechanical and robotic systems for sound production—aligns his work with the collaborative spirit of the Experiments in Art and Technology (E.A.T.) movement, and his work is documented in archives alongside E.A.T. materials.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Yoshi_Wada",
+              "https://whitney.org/artists/12246",
+              "http://artasiapacific.com/News/ObituaryYoshiWada19432021",
+              "https://artistsspace.org/exhibitions/young-fluxus",
+              "https://www.discogs.com/artist/202195-Yoshi-Wada"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Yoshimasa Wada\" Experiments in Art and Technology E.A.T.",
+            "\"Yoshimasa Wada\" 1960s 1970s artist",
+            "artist \"Yoshimasa Wada\" biography",
+            "Yoshimasa Wada \"Experiments in Art and Technology\" E.A.T.",
+            "\"Yoshimasa Wada\" E.A.T. artist collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSETQMtSahSXdX3pRMT6yo-xlqlYfzlcE6TMpO4NpnJFZCBhgPsRXcOELxsMH9_kst4jWTqzbynvVYLqG5ZHOKvCtaCBvvDiIo8npnBJmfXhkhs7BC0VMNYLGcOgX_vdc2KfzhT1Fjo5LKTw==",
+              "title": "nypl.org",
+              "resolvedUri": "https://archives.nypl.org/admin/collections/4857"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEn42gOc5GmCa1g_JOyWoRPhYpyYdEOdTnjxxCxgZVyRrfGmBNhXkihAhtjXbGo9z1EKq9_lpkVJYCV1v787G5b6yldyVl7hUrZDQ9rygm3U7Jgdn4hHHkUnO7M0Ie2tumBvC2E5JTBtSUdpHix4AmTkPKs7su43PH8NbUG9-tGzrhAeTW1psjQOAZzIw==",
+              "title": "activatingfluxus.com",
+              "resolvedUri": "https://activatingfluxus.com/2022/09/09/ecart-as-fluxus-get-inspired-and-inspire/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEUAK7Ne_YEvN3YX-r_6KAn9iRfM9rH6YXx_Xuxk3L1JRQ3pweaii2HUBGjkE9Af43QN2PqjPbG-AZ2BXncQAio2jYsmn-z85fbvahPGdHRXm7gMHIwUSlOKwdTF3Anvh3Otigr26dAkraiu56JpePfqvQuqGo8CD2aEUjUgUKJekIGWntYgIxmw==",
+              "title": "otherminds.org",
+              "resolvedUri": "https://www.otherminds.org/wp-content/uploads/2017/09/fluxus_program_lorez.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHftQY4V64R8m-WMwfZlH0Et9Ju1EOqkcUIgTFHfgAFh31BePI4mXS7ql0GGMmPRKloV519Z8oBBFjgD3h7_CM0HCfeHBFSgl1IS92mUWSGm_ZLVrTmq0NMS-BOykpZNNwodUgiKIgZyJa0Gm5y_-WzeiSTunIBtaZOci2dG6QjPQM-eq-atsuGXqxX7UT2SJ6Hl0hLVYOYy-ZCQ9hYWiay8YI=",
+              "title": "oapen.org",
+              "resolvedUri": "https://library.oapen.org/bitstream/handle/20.500.12657/109839/9781040546024.pdf?sequence=1&isAllowed=y"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC9hUSpPSntkVFYqgTfxdwflx0Q2yGPAVU6dsY7mMvy-fTNI2v9FmzkGpEebZnH9gbRp3t_GGz7qDWUD9F60dpVZ8Tgh7XGrinOfFFUDgbN_tv1xmbQt0t1IQYhiahD8jPfmf0awhtw29oMmXEPsdqp4x_NoU=",
+              "title": "shigekokubotavideoartfoundation.org",
+              "resolvedUri": "http://www.shigekokubotavideoartfoundation.org/exhibitions"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnvNHAGJm3HP8ylQigVKOLllsVmr2k-WXpORHHzBM2Q5pWkhtFTJLDCRYwjbeLASUDy_rhLh27435wnJcAnsxyU5H3z-rIc5jf9e_Dq4l13zQvZ3ynPCVf71H-Sz1ZHx8EMCtWsdAxMwahQ3t2Pg==",
+              "title": "kcua.ac.jp",
+              "resolvedUri": "https://www.kcua.ac.jp/arc/ar/ay-o-oral-history_en/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkDkH26q3rRxDm9LWl1Yd6KBgUtp7BC_V9Ye-dsLmuaYMqEF8yXKx97-RgPVIFUHCtqtrHmFrT0SzP6gbiDhqWlXTST-vHUtIgI3_gUT5BEpmNmOUqMz4jeed7ofRF5yVA0soCRHhknXUnEp-RqG9rOBe3CheweIKDJkrugjJ-iKKVoX3H9js=",
+              "title": "manchesterhive.com",
+              "resolvedUri": "https://www.manchesterhive.com/display/9781526123497/9781526123497.00009.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-3HtD3q-WDaUysUc2Utlk7XWdBrWX16pJJ1rFJhwHiliYkV0znHrnoBp_5K_t87AaC7u7ydHTVFrdkn9cGOuWnrsGdMugD93VZ-DbORAHILWjBWo1q3CSnK7Y7ZrN8mvS-_j8vI5P346K4r-eGYsNlLZ4MsrlwzoH",
+              "title": "nyu.edu",
+              "resolvedUri": "https://greyartmuseum.nyu.edu/exhibition/fluxus-090911-120311/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiwQAnUbsXXHZX0bwqszGa-ojoCoNz-HO8UQVJgKg88UFea1AQx-o38EDUv0iqSlHMHtSYgKV44xZryekcfvVu0CNV_xOn43Kj_LO02ryQHCpwT7R3wsiVFbMmiN_0l9EjhTPP3stv2sYAQ2WGzbA7dGCrAEd3okjEMTM=",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/890164.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwT4FjqY4gB2jlVz5ZCw8wMME-Cjb6LQzxBm26gDuKQgz3jp_L6bzAIgFfX6F__5Plth8CDc0kmrnBNDYD5asFxKoHZCl4A5sQ2HoRFD69lhF8v0zHvc4GYDqZdw12aNYtY40G7jsxwdQem03dtRH8RUBXZfihVk5uj-M=",
+              "title": "data-browser.net",
+              "resolvedUri": "https://www.data-browser.net/pdf/DB03_Curating_Immateriality.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSCW8TekVHigdt2HT5f0AAe1BgSeV5b6C3qIOKluTL3We0UwjCE95XIbFPbUE7Uid9fq_WTdkiMDrnTM2TbJ5EJ7sVD-Iv-uQb2HuT8PRIlXMYN-DimAXVqfbmNds60CDxkUrAdQEMZi3d9AXLUdRupoAiEphzLd5FkSQmYWiJ0IndFvumC6NZCxo=",
+              "title": "upcdn.io",
+              "resolvedUri": "https://upcdn.io/FW25buD/raw/Zwiggelaar/Catalogus/zwiggelaarauctions_71_eng.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHyJl8IOehby9YK97oxHEo2YCt_AIqZXap2lKx4JEK5yE7Wc5SI4DyKKyppzTWXjikAnk5D4bndTTHM1ywTIB06FbbjjQ4YWs8bbJWR4A6KC2Q4UcbvCcatT9SUnxT",
+              "title": "nypl.org",
+              "resolvedUri": "https://archives.nypl.org/mus/20385"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1413,
+                "endIndex": 1782,
+                "text": "materials.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Yoshi_Wada\",\n        \"https://whitney.org/artists/12246\",\n        \"http://artasiapacific.com/News/ObituaryYoshiWada19432021\",\n        \"https://artistsspace.org/exhibitions/young-fluxus\",\n        \"https://www.discogs.com/artist/202195-Yoshi-Wada\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            }
+          ]
+        }
       }
     }
   ]

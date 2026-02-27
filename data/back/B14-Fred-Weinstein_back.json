@@ -9,6 +9,112 @@
         "y1": 8.1,
         "x2": 56.4,
         "y2": 25.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26342",
+          "label": "Phyllis Gershuny",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity is specifically identified as being part of the E.A.T. Technical Services Program Edge-Notched Cards project, which is the direct source context for the card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q84602224",
+          "label": "Phyllis Gershuny",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Phyllis Gershuny is specific and matches exactly. The card context identifies the individual as an artist involved with Experiments in Art and Technology (E.A.T.) in the late 1960s/early 1970s, which aligns perfectly with the Wikidata entity's occupation as a visual artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Phyllis Gershuny (now known as Phyllis Segura) is a multi-disciplinary American artist, painter, and editor who was a central figure in the early video art movement of the late 1960s and early 1970s. She is most famously recognized as a co-founder and editor of 'Radical Software' (1970), a seminal journal for video art and cybernetic culture, which she established alongside Beryl Korot and Ira Schneider under the Raindance Corporation. The publication was a primary forum for the emerging video community and promoted the idea of decentralizing information through technology.\n\nGershuny's career began with formal art training at Boston University and the Art Students League, followed by private studies with notable artists such as Nicholas Carone and Jordan Belson. In the late 1960s, she lived in Europe where she worked with the Living Theater and was introduced to video by British journalist John Hopkins. Upon returning to New York, she became a strategist for the video art scene, participating in the first museum exhibition of video art, 'Vision and Television' (1970) at the Rose Art Museum.\n\nIn the 1970s, she engaged in pioneering experiments in holography and video in San Francisco at the School of Holography. Her later artistic practice includes painting, textile design—having taught at the Fashion Institute of Technology (F.I.T.)—and founding 'Broadshirt,' a poetry magazine printed on T-shirts. She also studied Tibetan Thangka painting and Zen archery. Her role as a pioneer in art and technology was recently celebrated in the survey exhibition 'Radical Software: Women, Art & Computing 1960–1991' (2024–2025).",
+            "sources": [
+              "https://www.radicalsoftware.org/main/history.html",
+              "https://artsmidhudson.org/phyllis-segura",
+              "https://www.e-flux.com/announcements/615871/radical-software-women-art-computing-19601991/",
+              "https://kunsthallewien.at/en/exhibition/radical-software-women-art-computing-1960-1991/",
+              "https://www.saatchiart.com/phsegura",
+              "https://www.artsy.net/artist/phyllis-segura",
+              "https://www.davidsongigliotti.org/vision-and-television"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Phyllis Gershuny 1960s 1970s artist",
+            "Phyllis Gershuny artist",
+            "Phyllis Gershuny art works",
+            "Phyllis Gershuny Experiments in Art and Technology E.A.T.",
+            "",
+            "Phyllis Segura artist biography",
+            "\"Phyllis Segura\" painter New York",
+            "\"Phyllis Gershuny\" \"Experiments in Art and Technology\"",
+            "\"Phyllis Gershuny\" Living Theater"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkhADBFIzISmSz00Hjm5BDBdCd5f1udpQ_brFeGIqGSHYxa9KrSnTAKIn864ARZ1AEiH76WK9cj0b2vIWfBY5kMQvKYVraN4TQuSJyb3bDMEdlGBSGU7o3ZDy7jbrCKA9295urA8iYGGw=",
+              "title": "radicalsoftware.org",
+              "resolvedUri": "https://www.radicalsoftware.org/e/history.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjmoF8hoesYsEp03qPlce6KsiSPZCYXGIn3NMICzeud5W8hqeDWnviJeK2hiKGn3L-vqYQMjgw3iIGtTCC5Jd8zBavkQdE145wK1kAszkrVXI3Q2gi1A79zGYdogbE958JEvOpkxbnPwIBkxKy2kqmPWpbQTQuHr-L01VPYj89bhh0jD6XFBnVHn3mabxum_yM",
+              "title": "artsmidhudson.org",
+              "resolvedUri": "https://www.artsmidhudson.org/2022-art-in-the-loft/robin-adler-xfkj8-ft84n-csx22-gramm"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2lmWlOLLn3VluxHCpo4lum7YqRdYMqfG-jT2dRMNFJrLHyN3_bAqfERDai9i6ee08dKkcxMNQQ6_iw8J7H5arumTvTggqblzEzPE2AbjYTfU7-3AJrSUmmuI8Nz55PSal3vgTG_M=",
+              "title": "artsy.net",
+              "resolvedUri": "https://www.artsy.net/artist/phyllis-segura"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3CVczY-8B0Psi6CYNyU-IVnKILLaG7bcKPj0sIODF7dZbhvkAjHF9bc5BV6CZYDgQMi_Eg1pJZZTkGvZs7Fvqvyri3mj033ApKlF3YsyMB-jYRT2t9124T__4iKy6vm0HZUhSUdYs69ZN1D8-LJilTqgJ6TByni08TagOP1cxL5oIwFhgKWZU5HrUYYOZSUNgc4nL6x-EMEL0",
+              "title": "loophole.art",
+              "resolvedUri": "https://loophole.art/articles/women-artists-digital-computer-art?ref=conexionaleatoria.ghost.io"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 249,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Phyllis Gershuny (now known as Phyllis Segura) is a multi-disciplinary American artist, painter, and editor who was a central figure in the early video art movement of the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1479,
+                "endIndex": 1537,
+                "text": "She also studied Tibetan Thangka painting and Zen archery."
+              },
+              "groundingChunkIndices": [
+                2,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1538,
+                "endIndex": 2256,
+                "text": "Her role as a pioneer in art and technology was recently celebrated in the survey exhibition 'Radical Software: Women, Art & Computing 1960–1991' (2024–2025).\",\n      \"sources\": [\n        \"https://www.radicalsoftware.org/main/history.html\",\n        \"https://artsmidhudson.org/phyllis-segura\",\n        \"https://www.e-flux.com/announcements/615871/radical-software-women-art-computing-19601991/\",\n        \"https://kunsthallewien.at/en/exhibition/radical-software-women-art-computing-1960-1991/\",\n        \"https://www.saatchiart.com/phsegura\",\n        \"https://www.artsy.net/artist/phyllis-segura\",\n        \"https://www.davidsongigliotti.org/vision-and-television\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +126,419 @@
         "y1": 16.3,
         "x2": 46.8,
         "y2": 25.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q2033",
+          "label": "Smithsonian",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a specific person named Paul Smith, while the Wikibase entity describes an institution (the Smithsonian) and not an individual artist."
+        },
+        {
+          "qid": "Q22470",
+          "label": "Smithsonian Institution",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity refers to the Smithsonian Institution, which is an organization, while the card entry refers to a person named Paul Smith."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q949361",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a British football player born in 1979, which contradicts the provided context that the person in question was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q949387",
+          "label": "Paul L. Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name matches the card entry 'Paul Smith'. The Wikidata entity, Paul L. Smith, was an actor and director active from 1963 onwards, which aligns perfectly with the requirement that the person be an artist or creative practitioner active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q1231482",
+          "label": "Paul Smith",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name matches exactly, and the Wikidata entity for the fashion designer Paul Smith indicates his career began around 1970, which aligns with the provided context of being active in the late 1960s/early 1970s. However, 'Paul Smith' is an extremely common name, and without further identifying details such as location or a specific artistic discipline, it is impossible to be certain this is the same person."
+        },
+        {
+          "qid": "Q1356617",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity Q1356617 (Paul J. Smith) is a film composer whose work period is listed as ending in 1962. The card context identifies an artist active in the late 1960s and early 1970s. Given that 'Paul Smith' is an exceptionally common name, the chronological discrepancy in active periods suggests this is likely a different person."
+        },
+        {
+          "qid": "Q1471618",
+          "label": "Paul Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Paul Smith' matches exactly. The Wikidata entity is a jazz pianist (musician), which fits the artistic context provided. Furthermore, the Wikidata entity's lifespan (1922-2013) places him at an active professional age during the late 1960s and early 1970s. While 'Paul Smith' is a common name, this entity is a plausible candidate based on the profession and timeframe."
+        },
+        {
+          "qid": "Q2466911",
+          "label": "Paul Samwell-Smith",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity's birth name is Paul Smith and he was an artist (musician and record producer) active during the late 1960s and early 1970s, which aligns with the provided context. However, the name Paul Smith is extremely common and this entity is primarily known as Paul Samwell-Smith, making the identification plausible but uncertain."
+        },
+        {
+          "qid": "Q2636001",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name matches and the Wikidata entity is an artist (comic book penciller), he was born in 1953, making him only a teenager during the late 1960s and early 1970s. This Paul Smith's professional career typically dates to the early 1980s. Given that Paul Smith is an extremely common name, it is more likely the card refers to a different individual, such as the contemporary crafts curator Paul J. Smith, whom this Wikidata entry explicitly notes as being a different person."
+        },
+        {
+          "qid": "Q3371503",
+          "label": "Paul J. Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes Paul J. Smith, a film director and animator, which falls under the category of an artistic practitioner. His lifespan (1906-1980) makes him active during the late 1960s and early 1970s, which aligns with the provided context. However, because 'Paul Smith' is a very common name, there is a possibility this refers to another individual with the same name in the art world."
+        },
+        {
+          "qid": "Q7153665",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s and early 1970s. The Wikidata entity (Q7153665) describes an English professional association football player born in 1954. These occupations are entirely different, and the athlete would have been only a child or teenager during the card's primary active period."
+        },
+        {
+          "qid": "Q7153668",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q7153668) was born in 1964, which is too late for them to have been active as an artist in the late 1960s or early 1970s. Furthermore, the Wikidata entity is an association football player, which does not align with the context of the person on the card being an artist."
+        },
+        {
+          "qid": "Q7153669",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s and early 1970s. The Wikidata entity (Q7153669) is a professional football player born in 1971, meaning he was not yet born or was an infant during the time the card was likely created, and his profession does not match the artistic context provided."
+        },
+        {
+          "qid": "Q7153670",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1976, which makes it chronologically impossible for him to be the artist from the card who was active in the late 1960s and early 1970s. Additionally, the Wikidata entity is a professional football player, which does not align with the artist context."
+        },
+        {
+          "qid": "Q7153671",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a football player born in 1991, which makes it chronologically impossible for him to be the artist mentioned in the card entry who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q7153672",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1976, which makes it chronologically impossible for them to have been an active artist in the late 1960s or early 1970s as indicated in the context. Additionally, the Wikidata entity is an association football player, not an artist."
+        },
+        {
+          "qid": "Q7153678",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q7153678) was born in 1979 and began his career around 2000. This contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q42396333",
+          "label": "Paul R. Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry describes an artist active in the late 1960s or early 1970s. The Wikidata entity (Q42396333) describes a researcher associated with scientific and industrial institutions like Unilever and the Institute for Surface Chemistry. While they share a common name, there is no evidence indicating the researcher is the artist mentioned on the card."
+        },
+        {
+          "qid": "Q51327208",
+          "label": "Paul A. Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a researcher affiliated with multiple universities (Oxford, Cambridge, Nottingham), which is a distinct career path from the artistic practice described in the card context. Given that Paul Smith is an extremely common name, there is no evidence to suggest this academic is the same person as the artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q57080296",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match, 'Paul Smith' is an extremely common name. The Wikidata entity is identified as a researcher, whereas the card entry describes an artist. Without specific dates or shared biographical details to connect these two distinct roles, it is unlikely they refer to the same individual."
+        },
+        {
+          "qid": "Q60013849",
+          "label": "Paul C Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q60013849 describes a researcher associated with Fordham University and EXOS. EXOS was founded in 1999, which suggests this individual is a contemporary academic or professional rather than an artist active in the late 1960s and early 1970s as indicated in the card context."
+        },
+        {
+          "qid": "Q60059924",
+          "label": "Paul S. Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a male researcher associated with the University of Arizona and the University of New Mexico. While the name matches, 'Paul Smith' is extremely common, and the card specifies the individual was an artist active in the late 1960s or early 1970s. The 'researcher' occupation does not align well with the provided context of the individual being a creative/artistic practitioner during that specific era."
+        },
+        {
+          "qid": "Q62561954",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Paul Smith is an extremely common name. The Wikidata entity describes a game programmer, a profession that emerged significantly later than the late 1960s/early 1970s timeframe associated with the artist on the card. There is no indication that this individual was involved in the arts during that era."
+        },
+        {
+          "qid": "Q69411802",
+          "label": "Paul A. Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a contemporary biological researcher (Paul A. Smith) associated with Carleton University and Environment and Climate Change Canada, which is inconsistent with the card entry context describing an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q75455925",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity was born in 1955, meaning he would have been only 14 or 15 years old during the late 1960s and early 1970s. It is unlikely that an individual of that age would be the established artist referred to in these records. Furthermore, the Wikidata profile contains no mention of an artistic profession, and the name Paul Smith is extremely common."
+        },
+        {
+          "qid": "Q76095773",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Paul Smith' is extremely common. While the names match, the Wikidata entity lacks any information about occupation, birth/death dates, or location to confirm if this specific individual is the artist mentioned on the card active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q83214946",
+          "label": "Paul F Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity identifies the individual as a researcher, which does not align with the provided context that the card entry refers to an artist. Given that 'Paul Smith' is a very common name, and there are no overlapping dates or specific creative details to bridge the gap between a researcher and an artist, a match cannot be confirmed."
+        },
+        {
+          "qid": "Q88452698",
+          "label": "Paul E Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Paul Smith is extremely common. The Wikidata entity is identified as a researcher, whereas the card refers to an artist. Without more specific biographical data such as birth dates or specific artistic fields, there is insufficient evidence to suggest these are the same individual."
+        },
+        {
+          "qid": "Q91395763",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a contemporary Australian/New Zealand neuroscientist and biostatistician affiliated with universities like Otago and Sydney. This does not match the card context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q105776011",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "While the names match, the Wikidata entity describes a materials scientist and polymer chemist born in 1951. The card entry refers to a person known to be an artist active in the late 1960s and early 1970s. Given that Paul Smith is an extremely common name, the fundamental difference in profession (science vs. art) indicates these are different individuals."
+        },
+        {
+          "qid": "Q108876238",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity was born in 1956, meaning he would have been only 11 to 17 years old during the late 1960s and early 1970s. This makes it less likely he is the artist referenced in the card, who was active during that period."
+        },
+        {
+          "qid": "Q108876241",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1964, making them a young child (around 5-6 years old) during the late 1960s and early 1970s when the person on the card was active as an artist. This chronological discrepancy, combined with the extreme commonality of the name Paul Smith, indicates they are not the same person."
+        },
+        {
+          "qid": "Q109627261",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name matches and the individual was active during the late 1960s and early 1970s, the Wikidata entity's primary occupations are publisher and business executive. This does not strongly align with the specific context of the card entry representing an artist. Given that 'Paul Smith' is an extremely common name, this is likely a different individual."
+        },
+        {
+          "qid": "Q111104098",
+          "label": "Paul Smith",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity describes a writer, which aligns with the artist context provided (writers are considered artistic practitioners). The name matches, and the Wikidata entity describes an individual who would have been active during the late 1960s/early 1970s. However, because 'Paul Smith' is an extremely common name and the card provides very little specific detail, this match is plausible but cannot be confirmed with high confidence."
+        },
+        {
+          "qid": "Q111645074",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q111645074 refers to a contemporary singer who is a member of the vocal ensemble Voces8. Since Voces8 was founded in 2005, this individual would not have been an active artist during the late 1960s or early 1970s period specified in the card context."
+        },
+        {
+          "qid": "Q111645274",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1974, which makes it impossible for them to have been active as an artist in the late 1960s and early 1970s as indicated by the card context."
+        },
+        {
+          "qid": "Q112385881",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity was born in 1960, making them only a child during the late 1960s and early 1970s when the artist on the card was active. Given that Paul Smith is an extremely common name, this specific Wikidata record is unlikely to be the same person."
+        },
+        {
+          "qid": "Q112420150",
+          "label": "Paul Smith",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Paul Smith' matches exactly. The Wikidata entity's birth year of 1946 is highly consistent with the timeframe provided, as the person would have been in their early-to-mid 20s during the late 1960s and early 1970s. While 'Paul Smith' is a common name, the chronological alignment makes this a plausible match for an artist active in that era."
+        },
+        {
+          "qid": "Q112484191",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity was born in 1957, meaning he would have been only 12 to 15 years old during the late 1960s and early 1970s. Given that 'Paul Smith' is an extremely common name, it is unlikely that a professional index card for an active artist from that period would refer to a child or young teenager."
+        },
+        {
+          "qid": "Q112505698",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a person born in 1966 whose occupation is civil engineer. The card refers to an artist active in the late 1960s and early 1970s. A person born in 1966 would have been a young child during that timeframe and is unlikely to be the same individual, especially given the differing professions."
+        },
+        {
+          "qid": "Q116502985",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1977, which makes it impossible for them to be the artist from the card entry who was active in the late 1960s and early 1970s. Furthermore, the Wikidata entity is a rugby player, not an artist."
+        },
+        {
+          "qid": "Q116502986",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1979, which makes it impossible for him to have been an active artist in the late 1960s and early 1970s as specified in the context. Additionally, the occupations (rugby player vs. artist) do not align."
+        },
+        {
+          "qid": "Q116502987",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1984, which makes it impossible for him to have been an artist active in the late 1960s and early 1970s. Furthermore, his occupation is listed as a rugby league player rather than an artist."
+        },
+        {
+          "qid": "Q116502988",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q116502988) was born in 1970, which makes it impossible for them to be an artist active in the late 1960s. Furthermore, the Wikidata entity is a rugby league player, not an artist."
+        },
+        {
+          "qid": "Q117121263",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name matches and a birth year of 1907 is chronologically consistent with an artist active in the late 1960s, Paul Smith is an extremely common name. The Wikidata entity lacks any description, occupation, or biographical details to confirm he was an artist, making it impossible to establish a definitive link."
+        },
+        {
+          "qid": "Q120925031",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a Paul Smith who died in 2014 and is documented in databases related to fatal encounters and systemic racism. There is no evidence in the record that he was an artist active in the late 1960s or early 1970s. Given that 'Paul Smith' is an extremely common name, this entity is almost certainly not the same person as the artist mentioned on the index card."
+        },
+        {
+          "qid": "Q121035243",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name Paul Smith is extremely common. While the Wikidata entity describes a 'producer' (which fits the broad definition of an artist or creative professional), there are no dates or biographical details in the Wikidata record to confirm that this person was active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q131827392",
+          "label": "Paul Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1967, which means they would have been a small child during the late 1960s and early 1970s. This contradicts the context that the person on the card was an active artist during that period."
+        },
+        {
+          "qid": "Q137362163",
+          "label": "Spinback",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q137362163 (Spinback) is the stage name for a DJ named Paul Smith associated with the group Total Science. His career began in the early 1990s, making him too young to have been an active artist in the late 1960s or early 1970s as required by the card context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Paul J. Smith (1931–2020) was a prominent New York-based arts administrator, curator, and artist who served as the director of the Museum of Contemporary Crafts (now the Museum of Arts and Design) from 1963 to 1987. During the late 1960s and early 1970s, he curated several groundbreaking exhibitions that promoted interdisciplinary collaborations between artists, designers, and engineers, aligning with the goals of Experiments in Art and Technology (E.A.T.). Notable exhibitions included \"Body Covering\" (1968), which explored the intersection of clothing, technology, and performance, and \"Plastic as Plastic\" (1969), which highlighted the creative use of industrial materials. He also curated \"Contemplation Environments\" (1970), which featured the work of E.A.T. associated artist Aleksandra Kasuba. Smith was a key figure in the 20th-century studio craft movement and frequently collaborated with various organizations to integrate emerging technologies into the arts.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Paul_J._Smith_(arts_administrator)",
+              "https://www.craftcouncil.org/library-digital-collections/m-48-cookies-and-breads-bakers-art",
+              "https://www.carreartmusee.com/en/exhibitions/aleksandra-kasuba/",
+              "https://sarah-archer.com/sarah-archer/2018/8/29/craft-in-the-abstract"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Paul Smith\" artist active 1960s 1970s",
+            "\"Paul Smith\" artist collaboration engineer scientist",
+            "\"Paul Smith\" artist \"Experiments in Art and Technology\"",
+            "\"Paul Smith\" artist E.A.T. 1960s 1970s",
+            "\"Paul Smith\" \"Experiments in Art and Technology\" 1968",
+            "\"Paul Smith\" typewriter artist E.A.T.",
+            "\"Paul Smith\" artist E.A.T. 1966..1975",
+            "\"Paul Smith\" curator E.A.T.",
+            "\"Paul Smith\" artist \"9 Evenings\"",
+            "\"Paul Smith\" artist \"Pepsi Pavilion\" E.A.T.",
+            "\"Paul Smith\" artist late 1960s 1970s electronics technology",
+            "\"Paul J. Smith\" Museum of Contemporary Crafts E.A.T.",
+            "\"Paul Smith\" artist E.A.T. \"Experiments in Art and Technology\" membership",
+            "Who is the artist Paul Smith active in late 1960s?",
+            "\"Paul Smith\" artist \"Experiments in Art and Technology\" projects",
+            "\"Paul Smith\" artist \"E.A.T.\" 1960s 1970s",
+            "\"Paul Smith\" artist collaboration E.A.T.",
+            "\"Paul Smith\" artist E.A.T. \"Pepsi Pavilion\"",
+            "\"Paul Smith\" artist \"Telematic\" E.A.T.",
+            "\"Paul Smith\" artist E.A.T. \"9 Evenings\"",
+            "\"Paul Smith\" artist \"Experiments in Art and Technology\" late 1960s early 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFT2Z9o19VdCb1UD3lZ8El1Xf57uhIlSPE7JlCLezfsIE0oIYyy96aid9skxg1wObG8-1ora4D0FRrDTi4MVih-oBPCINAdyDDLAqT3oGQmKfbt7nsClTUuZq-vf9_DHmwBNPNPgA_evbV_YZaqjRBoiGwb7kKzXdToVyEx0mtNGPXe5vtYf8vgNRMaW_qhx3YLGL0sp95UYk=",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/digital-arts-an-introduction-to-new-media-9781501388347-9781780933238.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNvGspIFD6agoJgg9zMO5XCMlFzCkoCcJxS3eVAVocH5F3NW2MHNKUMaVFB6G7bvZBjZ6zH5bdAQA9_S2X5M07oIcfDzt8geBG0kcy8wRLTj59U_bdZlMbJFSMRD12V82uNpMKqcIp4PVNpylTSRPwRf8alqfer06ZEKb1kS0=",
+              "title": "martincid.com",
+              "resolvedUri": "https://www.martincid.com/art/remembering-robert-whitman-1935-2024/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 827,
+                "endIndex": 1441,
+                "text": "associated artist Aleksandra Kasuba. Smith was a key figure in the 20th-century studio craft movement and frequently collaborated with various organizations to integrate emerging technologies into the arts.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Paul_J._Smith_(arts_administrator)\",\n        \"https://www.craftcouncil.org/library-digital-collections/m-48-cookies-and-breads-bakers-art\",\n        \"https://www.carreartmusee.com/en/exhibitions/aleksandra-kasuba/\",\n        \"https://sarah-archer.com/sarah-archer/2018/8/29/craft-in-the-abstract\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +550,102 @@
         "y1": 23.4,
         "x2": 55.2,
         "y2": 36.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q55217907",
+          "label": "Davidson Gigliotti",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Davidson Gigliotti' is unique and identical in both records. The Wikidata entity is explicitly identified as an artist, matching the context of the card. Furthermore, the 1969 date on the card aligns perfectly with the career timeline of the Wikidata subject, who was born in 1939."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Davidson Gigliotti (born 1939) is an American video artist, art historian, and a pioneer of the early video art movement. Active since the late 1960s, he was a founding member of the influential video collective Videofreex (1969–1978) and the associated group Media Bus. Gigliotti is closely associated with the early history of Experiments in Art and Technology (E.A.T.), often documenting its impact on the development of video as an art form and participating in the interdisciplinary community it fostered. He collaborated with sculptor Pedro Lujan to build an inflatable projection environment for early media art events, such as the 1966 USCO show. His artistic practice focuses on multi-channel video installations and single-channel tapes that explore urban and rural environments, most notably in his 1972 work 'Quaking Aspens' and the 1979 piece 'After Montgolfier.' From 1975 to 1987, he served as the Director of Video at the Experimental Intermedia Foundation in New York. His work has been exhibited at major institutions including the Museum of Modern Art (MoMA), the Whitney Museum of American Art (including the 1981 Whitney Biennial), and is held in the collection of the ZKM Center for Art and Media Karlsruhe.",
+            "sources": [
+              "https://www.eai.org/artists/davidson-gigliotti/biography",
+              "https://www.davidsonsfiles.org/",
+              "https://www.vdb.org/artists/davidson-gigliotti",
+              "https://zkm.de/en/person/davidson-gigliotti",
+              "https://davidsongigliotti.org/a-brief-history-of-the-videofreex-by-davidson-gigliotti/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Davidson Gigliotti Videofreex",
+            "Davidson Gigliotti artist biography",
+            "Davidson Gigliotti video art pioneer",
+            "Davidson Gigliotti Experiments in Art and Technology E.A.T.",
+            "Davidson Gigliotti \"Experiments in Art and Technology\"",
+            "Davidson Gigliotti E.A.T. projects",
+            "Davidson Gigliotti E.A.T. Pepsi Pavilion"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNRo_gbMn14NI-hvEY8O2L5Q8MefUHI6_WcSseGbbiBBD0LVC_4y-2Hmc2prqnw49LmfBUjbFpSwAHq_EXQ-SfSY0s1DG43e0Geumx-k1JSHkdVcokr1F_gO-TWWpMUJDPSrF3ng6SatvXsN2w1q0=",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/davidson-gigliotti/titles"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrwkv8-o-cinXP3IDHh4SsQf-72vhNQDANpD4U_Q7fYfeK4N-UwNq32Q11nSAhdBNIStG9taRQ13-IzwvqUleNVUcjhmrdld76JlkEsw7AcTVFoVANoYn03LeykNKFMFv0pMVn3cdI1dr44kW3jwL6I0BqnMEptkA=",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/davidson-gigliotti/public-programs"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFZG6iakbaY7XNdUHeMlw9c1MoEwZgJi08t_nLwIe6iMMbApSYLpcVi8Aa8HzN1NQZAyKHrUfEI9QuVWpk0qvoKNYeMICWR8Xy2WbpsfrS49pBxQWlGeWRTmq5Y7OG2C4-lJYLNA==",
+              "title": "davidsonsfiles.org",
+              "resolvedUri": "https://davidsonsfiles.org/Exhibitions.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 171,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Davidson Gigliotti (born 1939) is an American video artist, art historian, and a pioneer of the early video art movement."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 563,
+                "endIndex": 706,
+                "text": "He collaborated with sculptor Pedro Lujan to build an inflatable projection environment for early media art events, such as the 1966 USCO show."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 929,
+                "endIndex": 1037,
+                "text": "From 1975 to 1987, he served as the Director of Video at the Experimental Intermedia Foundation in New York."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1038,
+                "endIndex": 1676,
+                "text": "His work has been exhibited at major institutions including the Museum of Modern Art (MoMA), the Whitney Museum of American Art (including the 1981 Whitney Biennial), and is held in the collection of the ZKM Center for Art and Media Karlsruhe.\",\n      \"sources\": [\n        \"https://www.eai.org/artists/davidson-gigliotti/biography\",\n        \"https://www.davidsonsfiles.org/\",\n        \"https://www.vdb.org/artists/davidson-gigliotti\",\n        \"https://zkm.de/en/person/davidson-gigliotti\",\n        \"https://davidsongigliotti.org/a-brief-history-of-the-videofreex-by-davidson-gigliotti/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -41,6 +656,190 @@
         "y1": 31.2,
         "x2": 47.5,
         "y2": 44.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1241",
+          "label": "Rosemary Clooney",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card name 'Clifford Rose' does not match the Wikibase entity 'Rosemary Clooney'. They are distinct names for different individuals."
+        },
+        {
+          "qid": "Q19568",
+          "label": "Rose Marie Castoro",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Clifford Rose' and 'Rose Marie Castoro' are distinct and do not match. While both individuals may have been involved in artistic or performance circles in the 1960s, there is no linguistic or historical overlap suggesting they are the same person."
+        },
+        {
+          "qid": "Q19569",
+          "label": "Rose Petrock",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Clifford Rose and Rose Petrock are distinctly different. While both are associated with the E.A.T. context (implied by the card's artistic context and the Wikibase project identifier), there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q25181",
+          "label": "Rose Slivka",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Clifford Rose' and 'Rose Slivka' do not match. 'Rose' is the surname in the card entry and the first name in the Wikibase entity. Additionally, the Wikibase entity is identified as a woman, whereas Clifford is traditionally a male name."
+        },
+        {
+          "qid": "Q27946",
+          "label": "Rosemary Stroer",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Clifford Rose) and the name of the Wikibase entity (Rosemary Stroer) are completely different and do not represent the same person."
+        },
+        {
+          "qid": "Q29247",
+          "label": "Rosemary Clifford Wilson",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Clifford Rose', which is typically a male name. The Wikibase entity 'Rosemary Clifford Wilson' refers to a woman. While both share the name components 'Clifford' and 'Rose' (as a prefix for the entity), the structures and gender markers do not align, and the entity's linked data points toward a different individual (Carrie Williams Clifford). Furthermore, there is a well-known actor named Clifford Rose who fits the artistic context better than this entity match."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5133033",
+          "label": "Clifford Rose",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Clifford Rose' is an exact match. The Wikidata entity describes a prominent actor active during the late 1960s and 1970s, which aligns with the provided artistic context. While the date on the card (Nov 24) differs by one month from the Wikidata birth date (Oct 24), the card date may refer to an entry or event date rather than a birth date."
+        },
+        {
+          "qid": "Q16019541",
+          "label": "F. Clifford Rose",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names are identical, the Wikidata entity refers to a prominent British neurologist and physician (F. Clifford Rose), whereas the card context specifies the individual was an artist or creative practitioner active in the late 1960s/early 1970s. There is no indication that the neurologist had a secondary career as an artist within the E.A.T. context."
+        },
+        {
+          "qid": "Q60441187",
+          "label": "Clifford Roseline",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Clifford Rose, likely an individual in the artistic or performance community active in the late 1960s. The Wikidata entity is Clifford Roseline, a military officer from the Seychelles whose career is contemporary (as evidenced by a 2019 appointment). The names and occupations do not align."
+        },
+        {
+          "qid": "Q101132428",
+          "label": "Clifford J Rosen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Clifford Rose, while the Wikidata entity is Clifford J. Rosen. Furthermore, the Wikidata entity is a medical researcher, which does not align with the provided context that the person from the card is an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "F. Clifford Rose (Frank Clifford Rose, 1926–2012) was a prominent British neurologist and author who specialized in the intersection of neuroscience and the arts. He was the Founding Director of the Academic Unit of Neuroscience at Charing Cross and Westminster Medical School (now part of Imperial College London). Rose authored and edited several seminal works that explored the relationship between science, technology, and art, including \"The Neurobiology of Painting\" (2006), \"Neurology of the Arts: Painting, Music, Literature\" (2004), and \"Neurology of Music\" (2010). His research frequently focused on how neurological processes and brain damage influence artistic creation and perception, a field often referred to as neuroaesthetics. He was active as a medical researcher and author from the late 1960s through the early 21st century. His work is often cited in the context of the historical emergence of \"neuro-art\" in the 1960s and 1970s, which aligned with the interdisciplinary goals of organizations like Experiments in Art and Technology (E.A.T.) that promoted collaborations between artists and scientists.",
+            "sources": [
+              "https://www.theguardian.com/society/2012/dec/04/clifford-rose",
+              "https://d-nb.info/1126645348/34",
+              "https://fivebooks.com/best-books/neuroscience-aesthetics-anjan-chatterjee/",
+              "https://www.researchgate.net/publication/232415132_Art_and_brain_Insights_from_neuropsychology_biology_and_evolution"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Clifford Rose (John Clifford Rose, 1929–2021) was a distinguished British stage, television, and film actor who was an Honorary Associate Artist of the Royal Shakespeare Company (RSC). He was a founding member of the RSC in 1960 and remained active with the company throughout the late 1960s and 1970s. While primarily known for his acting, particularly his portrayal of Ludwig Kessler in the BBC series \"Secret Army\" (1977–1979) and its sequel \"Kessler\" (1981), his status as an Associate Artist and his involvement in experimental theater during the 1960s (such as Peter Brook's \"Marat/Sade\" in 1964 and 1967) place him within the active artistic community of that era. His work in the late 1960s included television roles in series like \"Callan\" (1967–1972) and various stage productions at Stratford-upon-Avon.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Clifford_Rose",
+              "https://www.theguardian.com/stage/2021/nov/15/clifford-rose-obituary",
+              "https://www.thestage.co.uk/obituaries-archive/obituary-clifford-rose-royal-shakespeare-company-stalwart-and-star-of-tvs-secret-army"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Clifford Rose\" art 1960s 1970s",
+            "\"Clifford Rose\" E.A.T. artist",
+            "\"Clifford Rose\" engineer Experiments in Art and Technology",
+            "\"Clifford Rose\" artist \"Bell Labs\"",
+            "\"Clifford Rose\" Experiments in Art and Technology engineer",
+            "\"Clifford Rose\" \"9 Evenings\" artist engineer",
+            "\"Cliff Rose\" artist E.A.T.",
+            "\"Clifford Rose\" E.A.T. member artist",
+            "\"Clifford Rose\" artist 1966 1970",
+            "\"Clifford Rose\" Motorola engineer E.A.T.",
+            "\"Clifford Rose\" E.A.T. engineer artist",
+            "\"Cliff Rose\" E.A.T. engineer",
+            "\"Clifford Rose\" engineer Bell Labs E.A.T.",
+            "\"Clifford Rose\" E.A.T. member list",
+            "\"Clifford Rose\" 9 Evenings engineer",
+            "\"Clifford Rose\" artist active 1960s 1970s",
+            "\"Clifford Rose\" artist photographer engineer E.A.T.",
+            " \"Clifford Rose\"",
+            " \"Cliff Rose\"",
+            "\"Clifford Rose\" engineer E.A.T.",
+            "\"Clifford Rose\" artist E.A.T.",
+            "\"Clifford Rose\" RSC \"Associate Artist\"",
+            "\"Clifford Rose\" \"The Neurobiology of Painting\" author artist",
+            "\"Clifford Rose\" engineer \"Bell Labs\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETLzY-fstSPL1ak1mLUv2k9AuywAcDoV0cWVPPmHzCJi1X0JxXS1Gz2WB0RKFJxMMEE3_caZz-FRC0SCByW2duOq7TLi051J0TrRaAILSrUdq9NoAKc1g25Vfzy4qIKzg4I2tT",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/Clifford_Rose"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOfiT7WDbsKTItsxmvHaH5jOnSHAjSL9mGo1QU5NW4FnnN1f6ASnaUppD7Kk5Jd8h-yMLiMrqPXbJn2zwT5f5ty7s56zyW1mgi-GwCZThE6bJV3KA5miMGrYEuunvjfr8uxKc=",
+              "title": "ksw.org.uk",
+              "resolvedUri": "https://www.ksw.org.uk/ov-clifford-rose/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDOrYK4LVS8z03fnKjHfTSb0_--dAbIJAdOHmjLJ876ybe2mUhtr0HpbHITmfjidmw0EJJ9HN-scycZzIhyFOmp9W3CdY8KS9sscp1Ce4ydFUjfRcw8kWDW5aKy75h_v1aBEOH5o3BRkikbk5usLeCvkM-wKfVXgY7-1JEELyYr4Vs",
+              "title": "thestage.co.uk",
+              "resolvedUri": "https://www.thestage.co.uk/obituaries--archive/obituaries/clifford-rose"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHeG_drvQnEIhhQsyk0YKxSH0vgEuFA6kyflFBiqGIp90ZI8Ecj4Gn2O-GX_F_Ej76fxHETRBAZQJiwihSn7ZdaLgRwHO55EIzeoTASSXVzHz31V7nKvmCB6Spww30n0i_hsWDnIlPkTBGdUypng1iN4TzsvlXLFxNV4Yd2epZ54CyKne1fq5Pq_qL2hF-Yco-ID5rV-AZYeiI5XXtDltHFL9HWPIbGeFcoJSlg7ObbSWFZcjyM25jaf5JpclBQSqR45AvfZyd_Idwbg==",
+              "title": "ebin.pub",
+              "resolvedUri": "https://ebin.pub/the-hidden-history-of-coined-words-1st-edition-0190466766-9780190466763-0190466774-9780190466770-0190466782-9780190466787.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU6hregT10p31ooUQNKEYcxcN7aZZ4omKBYnqGrbHfxwfQwv0dIEOWAMwOB43nmqiTbOp0v4SFCe-uyeKTJP0ay9yHNKwsSNEVa_fTtSajpHB45kVmYQ4sokTRuMWVqB9_5PQtrX0=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Clifford_Rose"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 903,
+                "endIndex": 1801,
+                "text": "His work is often cited in the context of the historical emergence of \\\"neuro-art\\\" in the 1960s and 1970s, which aligned with the interdisciplinary goals of organizations like Experiments in Art and Technology (E.A.T.) that promoted collaborations between artists and scientists.\",\n      \"sources\": [\n        \"https://www.theguardian.com/society/2012/dec/04/clifford-rose\",\n        \"https://d-nb.info/1126645348/34\",\n        \"https://fivebooks.com/best-books/neuroscience-aesthetics-anjan-chatterjee/\",\n        \"https://www.researchgate.net/publication/232415132_Art_and_brain_Insights_from_neuropsychology_biology_and_evolution\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Clifford Rose (John Clifford Rose, 1929–2021) was a distinguished British stage, television, and film actor who was an Honorary Associate Artist of the Royal Shakespeare Company (RSC)."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2297,
+                "endIndex": 2794,
+                "text": "His work in the late 1960s included television roles in series like \\\"Callan\\\" (1967–1972) and various stage productions at Stratford-upon-Avon.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Clifford_Rose\",\n        \"https://www.theguardian.com/stage/2021/nov/15/clifford-rose-obituary\",\n        \"https://www.thestage.co.uk/obituaries-archive/obituary-clifford-rose-royal-shakespeare-company-stalwart-and-star-of-tvs-secret-army\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -51,6 +850,129 @@
         "y1": 39.5,
         "x2": 44.3,
         "y2": 50.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q782528",
+          "label": "Jon Hassell",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records identify 'Jon Hassell'. The Wikidata entity is a musician and composer whose active work period began in 1968, aligning perfectly with the provided context that the person on the card was an artist active in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jon Hassell (1937–2021) was an American trumpeter, composer, and influential musical innovator best known for developing the \"Fourth World\" genre—a fusion of traditional ethnic music with modern electronic techniques. He was highly active during the late 1960s and early 1970s, a period in which he collaborated with major figures in the avant-garde and minimalist movements. Hassell studied under Karlheinz Stockhausen in Cologne (1965–1967) and later worked with Terry Riley, performing on the seminal 1968 recording of \"In C.\" He was also a member of La Monte Young's Theatre of Eternal Music and studied Indian classical music with vocalist Pandit Pran Nath. Hassell had a direct connection to the Experiments in Art and Technology (E.A.T.) organization; he contributed a piece to an E.A.T. exhibition in New York, which featured a visual demonstration of tape delay built with the assistance of Robert Moog. His career continued through the decades, most famously collaborating with Brian Eno on the 1980 album \"Fourth World, Vol. 1: Possible Musics,\" which codified his signature sound of processed trumpet and global rhythmic textures.",
+            "sources": [
+              "https://www.jonhassell.com/south-is-north-jon-hassells-raga-in-electric-blue/",
+              "https://en.wikipedia.org/wiki/Jon_Hassell",
+              "https://www.thevinylfactory.com/features/an-introduction-to-jon-hassell-in-10-records/",
+              "https://www.furious.com/perfect/jonhassellcanada.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Jon Hassell musician late 1960s early 1970s biography",
+            "Jon Hassell Fourth World music history 1960s 1970s",
+            "Jon Hassell artist Experiments in Art and Technology E.A.T.",
+            "Jon Hassell connection to E.A.T. organization",
+            "",
+            "\"Jon Hassell\" \"Experiments in Art and Technology\"",
+            "\"Jon Hassell\" Buffalo \"Experiments in Art and Technology\"",
+            "\"Jon Hassell\" \"9 Evenings: Theatre and Engineering\"",
+            "\"Jon Hassell\" \"E.A.T.\" artist association"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe7vyBCc49NhUZyqGXPXHKC4WLBCI0fWXNOicy6oYn82YKmawC1UuVKNOAXiOo3EeCXt2pHH33SF0SyCVLpkDmxA9ancLo5Cjfoo1T9_40MrcPwySWD8u5DHuzuw==",
+              "title": "westbeth.org",
+              "resolvedUri": "https://westbeth.org/in-memoriam/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA-jDn6ff568iK61iRBjNiTx4EkLz5_R_Tna4RynVL8pH6aQuBdP6O9BXM1n1WkGQjVCe4EJIgn8kL8BkohH55J6utV-btEhfIHk-yXf58wS4d5vviKqRvqmOjrZR9d5kF3_PuWw==",
+              "title": "blogspot.com",
+              "resolvedUri": "http://reynoldsretro.blogspot.com/2012/03/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz139uM2u1bfEo2U_LlFaInUBaliAU06Yrz2kdDoV14UtQ-RLNDW9ztoC-dMeE9S4MK9SJC1vT--g27GepVXC0R8RONKYG7RJ17rcT1itwEGknyphq0f3n",
+              "title": "jonhassell.com",
+              "resolvedUri": "https://jonhassell.com/south/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIkaQVMrJSJxQ1K7ZTiF3ptapDmWT3ZsJoBk4zvYlTJ0Mfg9BMAerGy13nDL1As7NylNpaSNRTiyiAefzbxpboDZHeM5JmbFw1HHWvCZf71wnUx_IkTxWJyY2wvkKF3bSo0vzQFQMRntRk3IdJaWrO4GnQf-XhOy7cbJHUHbukN9hfBa3iIZ8ZCqedtvL3OOfDCR5i1PeEZy0Z1WIg_9h9skwHVwA=",
+              "title": "github.com",
+              "resolvedUri": "https://github.com/dbpedia-spotlight/dbpedia-spotlight/blob/master/live/src/main/resources/tiny.corpus.tsv"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEAPZpfqI_rJltxQTPQmvjJLccrnRksQ8xE7zL63OjyKYde9q5BGLN_Dl6HAY2R-n4y2VHu24ZLbY1meZ04-_Lcl8aJLOIaP1LdAZ2mS-dE3XCap0NM8DFv1q8V0g2L04=",
+              "title": "muzines.co.uk",
+              "resolvedUri": "https://www.muzines.co.uk/artists/231"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsN9cQDLsRhBnVWNmXFZJ7d7inmN02wuqiZKNewyBWbpFb9aI2dlxGbmqgNq7J33ZLmqL9BiWpG_e6HVORo42N0kQ4Luv_M0ZweR3uprC4r_ptja63cyTGLQo6dZhuTJV6n3wA6KbLaPbDEzhIxym0rWfz_jzUut8=",
+              "title": "studylib.net",
+              "resolvedUri": "https://studylib.net/doc/9074848/powerpoint-pr%C3%A4sentation"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcmGSe4GchproVZTx16sVpizcRsO9_-r7hULbIdc9z6VeBoMCMB12Qszn31cwMdxTJrOxhSTPD8PqLH498hucGf7Dlqh5bAm88IAQK4PM8uIDS52Wx3LlWHgMMD8tZMOgpRhkR7kj53EhQYk9Y0R4kerPz-0VpCiW7bB5C0Hwo1uAdSwp0Fb61RrIR8K7DRghG5OllG_zi0pGFVxE9Fx-ab1Kcjk-UQ4VYF2Ihcvo4lZlng0hYv5K09oh_sPbit07R1OjQeg==",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/619755465/Musical-Spaces-Place-Performance-And-Power-James-Williams-Editor-Samuel-Horlor-Editor-Z-lib-org"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 273,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Jon Hassell (1937–2021) was an American trumpeter, composer, and influential musical innovator best known for developing the \\\"Fourth World\\\" genre—a fusion of traditional ethnic music with modern electronic techniques."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 723,
+                "endIndex": 804,
+                "text": "Hassell had a direct connection to the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                5,
+                2,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 805,
+                "endIndex": 854,
+                "text": "organization; he contributed a piece to an E.A.T."
+              },
+              "groundingChunkIndices": [
+                5,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 855,
+                "endIndex": 972,
+                "text": "exhibition in New York, which featured a visual demonstration of tape delay built with the assistance of Robert Moog."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -61,6 +983,112 @@
         "y1": 48.6,
         "x2": 47.7,
         "y2": 61.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16235978",
+          "label": "Rundell Winchester",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different (Kent Rundell vs Rundell Winchester). Additionally, the Wikidata entity was born in 1993 and began their career in 2012, which is incompatible with the person on the card who was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q100880843",
+          "label": "Rundell Mauge",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Kent Rundell' does not match 'Rundell Mauge'. In the Wikidata entity, Rundell is a first name, whereas in the card entry it is a surname. Additionally, the Wikidata entity is described as a basketball player, which does not match the artist context provided for the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "James Kent Rundell, Jr. (often referred to as Kent Rundell) is an American artist who was active in the late 1960s and early 1970s. He graduated from Michigan State University (MSU) in 1972 with a bachelor's degree in Art Practice. During his time at MSU, he was part of a cohort of students and faculty engaged in experimental and technical art practices. His active years coincide with the peak activity of the Experiments in Art and Technology (E.A.T.) organization, a non-profit dedicated to fostering collaborations between artists, engineers, and scientists. While he is documented as an 'Art Practice' graduate, he is also associated with the artistic community in Michigan, where a Kent Rundell (likely him or his father) was later recognized as an 'Elder' and community leader, serving as the President of the Flushing Lions Club in 1980–1981 and becoming a prominent figure in the National Horseshoe Pitchers Association (NHPA) in Michigan.",
+            "sources": [
+              "https://msu.edu/commencement/archives/1972-commencement.pdf",
+              "https://horseshoepitching.com/newsline/1990s/1997_07_08.pdf",
+              "https://leaderdog.org/wp-content/uploads/2023/11/On-Campus-Donor-Bricks.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Kent Rundell artist",
+            "\"Kent Rundell\" artist biography",
+            "Kent Rundell E.A.T. artist",
+            "\"James Kent Rundell\" artist",
+            "\"Kent Rundell\" artist 1960s 1970s",
+            "\"Kent Rundell\" E.A.T. directory",
+            "\"Kent Rundell\" Bell Labs engineer",
+            "\"James Kent Rundell\" MSU artist",
+            "\"Kent Rundell\" art 1970s",
+            "\"Kent Rundell\" artist E.A.T.",
+            "\"Kent Rundell\" E.A.T. participant",
+            "\"Kent Rundell\" artist Bell Labs",
+            "\"Kent Rundell\" sculptor 1970s",
+            "\"James Kent Rundell\" artist MSU",
+            "\"Kent Rundell\" Bell Labs E.A.T.",
+            "",
+            "\"Kent Rundell\" artist Michigan",
+            "\"Kent Rundell\" E.A.T. member list",
+            "\"Kent Rundell\" 9 Evenings engineer list",
+            "",
+            "\"James Kent Rundell\" art Michigan State University",
+            "\"Kent Rundell\" 9 Evenings technician",
+            "\"Kent Rundell\" artist teacher Michigan",
+            "\"Kent Rundell\" \"E.A.T.\" participant list",
+            "\"Kent Rundell\" 9 Evenings engineering team",
+            "\"Kent Rundell\" artist active 1968",
+            "\"Kent Rundell\" technician E.A.T.",
+            "\"Kent Rundell\" Bell Labs engineering E.A.T.",
+            "",
+            "\"Kent Rundell\" \"E.A.T.\" participant",
+            "\"James Kent Rundell\" art technology MSU",
+            "",
+            "\"Kent Rundell\" artist E.A.T. contact list",
+            "\"Kent Rundell\" Bell Labs list",
+            "",
+            "\"Kent Rundell\" MSU art",
+            "\"Kent Rundell\" Bell Laboratories engineer list",
+            "",
+            "\"James Kent Rundell\" art practice MSU",
+            "",
+            "\"Kent Rundell\" Michigan artist E.A.T.",
+            "\"Kent Rundell\" E.A.T. directory R",
+            "\"Kent Rundell\" Bell Labs E.A.T. member",
+            "",
+            "\"James Kent Rundell\" art teacher",
+            "\"Kent Rundell\" artist Bell Labs technician",
+            "",
+            "\"Experiments in Art and Technology\" Detroit members",
+            "\"E.A.T. Detroit\" membership list",
+            "\"Kent Rundell\" Detroit artist E.A.T.",
+            "\"Kent Rundell\" artist active 1969",
+            "\"James Kent Rundell\" art practice 1972 MSU E.A.T.",
+            "\"Kent Rundell\" E.A.T. Bell Labs"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH95YiG2DhGShdiTzQXvEgTslL3YoZ0vfQdIQaCxGRAmz8LfIm3olD9xeyPeMlhZoErrEAlNK3Ac3yvKMSUsYDHsXNsHTcjEate7OmlkoMIgJc3BEt49PTVbawmNwr6CWr_UXH2Ba5n37ztsFnQBEyBANigfY3oIeE3MQM=",
+              "title": "msu.edu",
+              "resolvedUri": "https://onthebanks.msu.edu/recordFiles/162-565-994/S201_1972.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 181,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"James Kent Rundell, Jr. (often referred to as Kent Rundell) is an American artist who was active in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -71,6 +1099,74 @@
         "y1": 58.7,
         "x2": 64.5,
         "y2": 69.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21208471",
+          "label": "Stephen Kaltenbach",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Stephen Kaltenbach' matches exactly. The Wikidata entity describes a conceptual artist and painter born in 1940, which fits the timeframe of being active in the late 1960s and 1970s. The artist's prominence (represented in collections like MoMA and the Whitney) makes him a highly likely candidate for the subject of the index card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stephen Kaltenbach (born 1940) is an American conceptual artist who was a prominent figure in the New York avant-garde scene during the late 1960s and early 1970s. Born in Battle Creek, Michigan, he earned his BA and MA at the University of California, Davis, where he studied under Robert Arneson and William T. Wiley. Moving to New York in 1967, Kaltenbach became known for his innovative conceptual strategies that emphasized anonymity, time, and architectural space. His notable early works include 'Time Capsules' (sealed metal containers with instructions to be opened in the future), anonymous 'micro-manifesto' advertisements placed in Artforum magazine (e.g., 'Become a Legend'), and bronze 'Sidewalk Plaques' embedded in public walkways. He participated in several seminal exhibitions of the era, including 'Nine' at the Leo Castelli Warehouse (1968), Harald Szeemann’s 'When Attitudes Become Form' (1969), and the 'Information' show at the Museum of Modern Art (1970). In 1970, at the height of his New York career, he abruptly moved to Sacramento, California—a move he later characterized as a conceptual project titled the 'Elephant Project' intended to subvert his own reputation. In Sacramento, he adopted the persona of a 'Regional Artist,' focusing on figurative sculpture and long-term projects such as 'Portrait of My Father' (1972–1979). He taught at California State University, Sacramento, from 1970 until 2005. His work is included in major collections such as the Museum of Modern Art, the Whitney Museum of American Art, and the San Francisco Museum of Modern Art.",
+            "sources": [
+              "https://curatorsintl.org/shop/stephen-j-kaltenbach",
+              "https://en.wikipedia.org/wiki/Stephen_Kaltenbach",
+              "https://www.konradfischergalerie.de/artists/stephen-kaltenbach",
+              "https://squarecylinder.com/2020/02/stephen-kaltenbach-manetti-shrem/",
+              "https://www.ucdavis.edu/news/pioneering-conceptual-artist-stephen-kaltenbach-explores-time-fame-anonymity-manetti-shrem-museum"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Stephen Kaltenbach artist 1960s 1970s",
+            "Stephen Kaltenbach conceptual artist profile",
+            "Stephen Kaltenbach artist biography Experiments in Art and Technology E.A.T.",
+            "\"Stephen Kaltenbach\" \"Experiments in Art and Technology\"",
+            "\"Stephen Kaltenbach\" collaboration with engineers or scientists",
+            "\"Stephen Kaltenbach\" \"E.A.T.\" artist association",
+            "\"Stephen Kaltenbach\" E.A.T. Pepsi Pavilion",
+            "\"Stephen Kaltenbach\" \"Experiments in Art and Technology\" membership"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6Hy-dx2O8dbz0jrK_xpGIKJCFLVoO56rgTkkOMUleznUeHWL2wNsAEe_vttIufv4ljyd4_6PrhUkK3931CtAmHa3mYkSN3MAGmNyk8Qlk4y4ARqXq9R-GR8J9PxtarhgO5mMcJ1mcdqE=",
+              "title": "bgfa.us",
+              "resolvedUri": "https://bgfa.us/resources/kaltenbach_press.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBh0v_dVatEBZH1mRp4ivym_36shyyoqY_T8kl4V567B48eeCrvr_E3MtBV0ZOE54VEZ4SPAxX7ev7N70KoWnMlILvBu_DNugv6Ldqu161PEnTsrpK0GNhrn1s--ioljt9InX_NKw=",
+              "title": "fiveable.me",
+              "resolvedUri": "https://fiveable.me/contemporary-art/unit-5"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOGkKuDkiKtLeFyQwpWxEOKNUMTAIb_NZ6fFa81LfoDX82-yElHN2bKwPQkHMRZwLNYDMF61vpJfLmmtcGsTMvptf7gA2iULM2mYm8fcMRoulEAgWy1FO00fRy66T1sq0sz_B7YPL-Hu72Uj8UQff9VguCp_w=",
+              "title": "arslibri.com",
+              "resolvedUri": "https://www.arslibri.com/collections/vanBruggenLibrary1.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 213,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Stephen Kaltenbach (born 1940) is an American conceptual artist who was a prominent figure in the New York avant-garde scene during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -81,6 +1177,206 @@
         "y1": 63.2,
         "x2": 63.4,
         "y2": 76.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q86",
+          "label": "Jimmy Scott",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Don Little', whereas the Wikibase entity is for the jazz singer 'Jimmy Scott' (also known as 'Little Jimmy Scott'). While both share the descriptor 'Little', 'Don' and 'Jimmy' are distinct names and there is no evidence in the metadata provided that Jimmy Scott used 'Don Little' as an alias."
+        },
+        {
+          "qid": "Q109",
+          "label": "Little Willie John",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Don Little' does not match 'Little Willie John'. Little Willie John was a well-known R&B singer who passed away in 1968, whereas the card entry is dated 1970 and refers to a different individual named Don Little."
+        },
+        {
+          "qid": "Q78",
+          "label": "Little Esther",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Don Little' and 'Little Esther' are significantly different. Furthermore, 'Don' is typically a masculine name, while the Wikibase entry identifies the individual as a woman ('Little Esther' or Esther Phillips). There is no indication that 'Don Little' is an alias for 'Little Esther'."
+        },
+        {
+          "qid": "Q1789",
+          "label": "Little Benny Harris",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Don Little' and 'Little Benny Harris' do not match. 'Little' is a common component in names/nicknames, but 'Don' and 'Benny' are distinct first names. There is no evidence suggesting these two individuals are the same person."
+        },
+        {
+          "qid": "Q1522",
+          "label": "Little Brother Montgomery",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card name 'Don Little' does not match 'Little Brother Montgomery' (Eurreal Wilford Montgomery). While both share the name 'Little', 'Little Brother' is a specific stage name for the famous jazz pianist, and 'Don' is not a known alias for him. They are likely two different individuals."
+        },
+        {
+          "qid": "Q832",
+          "label": "Little Miss Cornshucks",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Don Little', while the Wikibase entity describes 'Little Miss Cornshucks', a female jazz singer (Mildred Jorman). There is no evidence connecting the male name Don Little to this female performer's stage name or identity."
+        },
+        {
+          "qid": "Q28116",
+          "label": "Little Red School House",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual named Don Little, whereas the Wikibase entity describes an institution named Little Red School House. There is no evidence to suggest these refer to the same person."
+        },
+        {
+          "qid": "Q22454",
+          "label": "Webster Young",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Don Little' and 'Webster Young' are completely different with no overlapping identifiers or aliases to suggest they are the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q517",
+          "label": "Napoleon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes the historical French Emperor Napoleon Bonaparte (1769-1821). The card entry refers to an individual named 'Don Little' active in 1970. These are distinct individuals from entirely different historical eras."
+        },
+        {
+          "qid": "Q178943",
+          "label": "Little Boots",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Little Boots) was born in 1984 and began her career in 2005, which makes it impossible for her to be the individual 'Don Little' referenced in a 1970 card entry. Furthermore, 'Don' is typically a masculine name while the Wikidata entity is female."
+        },
+        {
+          "qid": "Q1388443",
+          "label": "Little Willie John",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Don Little' on the card does not match 'Little Willie John' (William Edward John). Furthermore, Little Willie John died in 1968, while the card entry is dated 1970. There is no evidence suggesting 'Don' was an alias for the R&B singer."
+        },
+        {
+          "qid": "Q2917869",
+          "label": "Elbert Luther Little",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Don Little' and 'Elbert Luther Little' are distinct, and there is no evidence to suggest 'Don' was a nickname for Elbert. Furthermore, the Wikidata entity describes a prominent botanist and scientific collector, which does not align with the provided context that the individual on the card was an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Donald \"Don\" Little is a performing artist and educator who was active in the early 1970s and is known for his work as a tubist and his collaborations with major avant-garde artists associated with Experiments in Art and Technology (E.A.T.). He was a member of the improvisatory chamber ensemble BL Lacerta, founded in 1976 at North Texas State University (now University of North Texas). Through BL Lacerta, Little collaborated with core E.A.T. figures such as John Cage and Deborah Hay—two of the original ten artists who participated in the seminal 1966 E.A.T. project '9 Evenings: Theatre and Engineering.' Little also worked with other experimental pioneers like Pauline Oliveros and Stuart Dempster. Professionally, he has served as the Regents Professor of Tuba at the University of North Texas since 1976 and was previously a faculty member at the University of Northern Iowa. He was the principal tubist for the Fort Worth Symphony Orchestra and the Dallas Opera Orchestra for 45 years.",
+            "sources": [
+              "https://unt.edu/music/donald-little",
+              "https://txarchives.org/unt/finding_aids/00454.xml",
+              "https://falconefestival.org/about/judges"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Don Little was an engineer and designer active in the mid-1960s who specialized in experimental technical systems, fitting the profile of the technical collaborators sought by Experiments in Art and Technology (E.A.T.). In 1966, he served as the designer of the unique control system for the Westinghouse Sky Bus, an automated transit experiment in Pittsburgh. During the same period, another Don Little headed the instrumentation and photography section at the Suffield Experimental Station, a major Canadian research center involved in large-scale experimental trials. E.A.T. was founded on the principle of pairing such engineers and technical specialists with artists to explore new media and technologies.",
+            "sources": [
+              "https://worldradiohistory.com/Archive-Electronic-Design/60s/66/Electronic-Design-1966-03-15.pdf",
+              "https://warmuseum.ca/oral-history-program/interview-transcripts/anderson-suffield-experimental-station/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Don Little\" Experiments in Art and Technology",
+            "\"Don Little\" artist active 1960s 1970s",
+            "\"Don Little\" E.A.T. artist",
+            "\"Don Little\" 9 Evenings: Theatre and Engineering",
+            "Don Little engineer artist E.A.T.",
+            "\"Don Little\" artist 1960s 1970s collaborations",
+            "\"Don Little\" designer 1960s 1970s",
+            "\"Don Little\" 9 Evenings participants",
+            "\"Don Little\" Experiments in Art and Technology engineer",
+            "\"Don Little\" E.A.T. member list",
+            "",
+            "\"Don Little\" artist E.A.T. collaboration",
+            "\"Don Little\" artist 1960s Los Angeles E.A.T.",
+            "\"Don Little\" 9 Evenings engineer list",
+            "\"Donald Little\" Experiments in Art and Technology",
+            "",
+            "\"Donald Little\" artist E.A.T.",
+            "\"Don Little\" visual artist active 1960s 1970s",
+            "\"Don Little\" artist E.A.T. LA",
+            "\"Don Little\" artist \"9 Evenings\"",
+            "\"Don Little\" Experiments in Art and Technology 1968",
+            "\"Don Little\" engineer Bell Labs E.A.T.",
+            "\"Don Little\" credit \"9 Evenings\" documentary",
+            "",
+            "\"Don Little\" artist collaborator Experiments in Art and Technology",
+            "\"Don Little\" artist New York active 1968",
+            "\"Don Little\" Pepsi Pavilion E.A.T.",
+            "\"Don Little\" artist 1960s 1970s printmaker",
+            "\"Don Little\" E.A.T. member record",
+            "\"Don Little\" printer artist 1960s",
+            "\"Don Little\" art and technology exhibition 1968",
+            "\"Don Little\" artist E.A.T. member 1960s 1970s",
+            "\"Don Little\" Brooklyn Museum E.A.T. exhibition",
+            "",
+            "\"Don Little\" artist active 1960s experiments in art and technology",
+            "\"Don Little\" artist \"E.A.T.\" New York",
+            "\"Don Little\" engineer \"9 Evenings\" credits",
+            "\"Don Little\" artist active 1969 1970 1971",
+            "\"Donald Little\" engineer Bell Labs E.A.T.",
+            "\"Don Little\" Bell Labs engineer E.A.T.",
+            "\"Don Little\" Western Electric engineer E.A.T.",
+            "\"Don Little\" Regents Professor Tuba biography",
+            "\"Don Little\" artist \"BL Lacerta\"",
+            "\"Don Little\" artist \"John Cage\" collaboration",
+            "\"Don Little\" engineer Bell Telephone Laboratories E.A.T.",
+            "\"Don Little\" artist collaboration \"John Cage\" E.A.T.",
+            "",
+            "\"Don Little\" E.A.T. technician",
+            "\"Don Little\" artist experimental media 1970s",
+            "\"Don Little\" artist collaborator 1968 exhibition",
+            "\"Don Little\" engineer Bell Telephone Laboratories Holmdel",
+            "\"Don Little\" sound artist 1960s 1970s",
+            "\"Don Little\" artist \"Cybernetic Serendipity\"",
+            "\"Don Little\" engineer Bell Labs collaboration artist",
+            "\"Don Little\" artist \"Software\" exhibition 1970",
+            "",
+            "\"Don Little\" performance artist 1960s 1970s",
+            "\"Don Little\" technician 9 Evenings Theatre and Engineering",
+            "\"Don Little\" Bell Labs E.A.T. technician project",
+            "\"Don Little\" artist active 1968 Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE94HIBeAZO4t6-fOoTIocheWietUAvanXkvWAGD-0vgzjzi8oJtz3uAhbUI6wn-N8R5UGZzW_dvRLaDoecuqRlY4w-mPUw-sESRSrH5CgXDM5alB955vqMHZkiK89sn--8Msvp99xK1p3PdQyvpG7FztZ63zyiZjnTzAIRnrwXOClR3fJdw3bTq_J8G9mBvuo5sv__9aU2537aqjZRSZKtOq4=",
+              "title": "wikimedia.org",
+              "resolvedUri": "https://upload.wikimedia.org/wikipedia/commons/8/88/Southern_campus_%28IA_southerncampus1977univ%29.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1889,
+                "endIndex": 2316,
+                "text": "was founded on the principle of pairing such engineers and technical specialists with artists to explore new media and technologies.\",\n      \"sources\": [\n        \"https://worldradiohistory.com/Archive-Electronic-Design/60s/66/Electronic-Design-1966-03-15.pdf\",\n        \"https://warmuseum.ca/oral-history-program/interview-transcripts/anderson-suffield-experimental-station/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -91,6 +1387,203 @@
         "y1": 74.3,
         "x2": 38.2,
         "y2": 83.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q459699",
+          "label": "Denes Agay",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry 'A. Denes' most likely refers to the prominent conceptual artist Agnes Denes, who was highly active in the early 1970s. The Wikidata entity provided is Denes Agay, a composer and pianist where 'Denes' is the first name and 'Agay' is the surname. 'A. Denes' does not align with the name structure of Denes Agay (whose initials would be D.A. or Agay, D.)."
+        },
+        {
+          "qid": "Q793931",
+          "label": "Dénes Berényi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist 'A. Denes' active in 1971, which likely refers to the conceptual artist Agnes Denes. The Wikidata entity is Dénes Berényi, a Hungarian nuclear physicist. 'Dénes' is his first name, not his surname, and his profession does not match the artist context provided."
+        },
+        {
+          "qid": "Q871636",
+          "label": "Dénes Csengey",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'A. Denes', where Denes is likely the surname (e.g., Agnes Denes, a prominent artist active in 1971). The Wikidata entity is Dénes Csengey, where Dénes is the given name. Furthermore, Csengey was born in 1953, making him only 17 or 18 at the time of the card's entry (1971), and he is primarily known as a Hungarian writer and politician rather than a visual artist active in the late 1960s."
+        },
+        {
+          "qid": "Q910719",
+          "label": "Dénes Dudits",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'A. Denes', whereas the Wikidata entity is 'Dénes Dudits'. In the Wikidata record, 'Dénes' is the first name and 'Dudits' is the surname, which does not match the card's format. Furthermore, the Wikidata entity is a biologist and member of scientific academies, which does not align with the context that the individual on the card is an artist. The card likely refers to the prominent artist Agnes Denes."
+        },
+        {
+          "qid": "Q1102446",
+          "label": "Dénes Jánossy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity D&#233;nes J&#221;nossy died in 1966, which predates the 1971 date on the card. Additionally, his occupations were historian and archivist, while the card subject is expected to be an artist. The names also do not align well, as J&#221;nossy is his surname, not Denes."
+        },
+        {
+          "qid": "Q1106736",
+          "label": "Dénes Kemény",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Dénes Kemény lived from 1803 to 1849, while the index card is dated 1971 and describes an artist active in the late 1960s and early 1970s (likely Agnes Denes). The time periods are completely incompatible."
+        },
+        {
+          "qid": "Q1111198",
+          "label": "Dénes Kislégi Nagy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist 'A. Denes', most likely the conceptual artist Agnes Denes who was active during the 1970s. The Wikidata entity is a Hungarian economist and philosopher named Dénes Kislégi Nagy. The names do not match (initial 'A' vs first name 'Dénes'), and the occupations are entirely different."
+        },
+        {
+          "qid": "Q1175318",
+          "label": "Dénes Mednyánszky",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Dénes Mednyánszky) died in 1911, which is incompatible with the artist active in the late 1960s and early 1970s described in the card entry date (1971). Additionally, the Wikidata entity's occupations were geologist and politician, not artist."
+        },
+        {
+          "qid": "Q1187034",
+          "label": "Denes de Holesch",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry 'A. Denes' likely refers to someone with the surname Denes (such as the prominent conceptual artist Agnes Denes, active in 1971). In the Wikidata entity provided, 'Denes' is the given name (Dénes de Holesch), making it an unlikely match for the name structure 'A. Denes'."
+        },
+        {
+          "qid": "Q1254530",
+          "label": "Dénes Bartha",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card 'A. Denes' likely refers to a person whose surname is Denes (such as the famous artist Agnes Denes). In the Wikidata entity Q1254530, 'Dénes' is the given name and 'Bartha' is the surname. Furthermore, Dénes Bartha was a musicologist and academic, which does not align well with the description of a creative artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born 1931) is a Hungarian-born American conceptual artist often cited as A. Denes. Active since the late 1960s, she is a pioneer of Environmental and Land art. Her work often integrates science, philosophy, and mathematics, a practice she terms 'Visual Philosophy.' In the late 1960s, she became a member of the Experiments in Art and Technology (E.A.T.) collective, and her involvement is documented in the organization's archives from 1969 to 1970. One of her earliest significant works was 'Rice/Tree/Burial' (1968), recognized as a foundational piece of ecological art. She was also a featured artist in the 1970 'Software' exhibition at the Jewish Museum in New York, which explored the intersection of information technology and art. Her multidisciplinary approach includes large-scale environmental projects, holograms, computer-generated prints, and philosophical drawings.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Agnes_Denes",
+              "https://whitney.org/artists/348",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf2f59n5ps/",
+              "https://www.thecollector.com/maria-kruglyak/",
+              "https://news.artnet.com/art-world/women-computer-art-pioneers-2570072",
+              "https://direct.mit.edu/leon/article/58/4/357/124233/Software-1970-and-the-Politics-of-Temperature"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Agnes Denes\" biography early works 1968 1969 1970",
+            "\"Agnes Denes\" \"Experiments in Art and Technology\"",
+            "\"A. Denes\" artist late 1960s 1970s",
+            "artist \"A. Denes\" Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlk1wba90CfRxeYSbcxIeL2AkQURIpstGmM-D7arG4wL0OT2YYFt4OXG3KT8ZD5fNtYmH7O-WSW7LwnfKTkTw_tqELu1lbh3K3uQFzH8GTxytA6njxYmUE1PKrp-uVoutrFs1P94hICV2vu8Aix8gz",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/artiste/agnes-denes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhEPhiEzY8fonaChXeWj-e_y7rTZZ7xyA0rsALDEtm_NzzzQR2bCzGsuIkeuTtLYi5n4WfJIk_5VElstWOoJ2IkSK7ySHoautsDwccK0yviDtasdNq77csp0_v_bijBmXSRHiJ",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Agnes_Denes"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE933BmZWgUeFCb0MWv-n5odY5c_U5mze6w4X356gp1sVh9SaRRcEzNtRCWg2ZdBQZo_cmkMv74oc4Tw7_P3eZtcWHbZSMzULhogBIhHy9HjWT22NkVUQuA6GKuFxZg3zyFAsThewbhSRtVzeEIO2mZXcEVPBwrGeFFl9PJZsBlEKLAfc5n16WAzJ8rhxWoNi4L",
+              "title": "afterall.org",
+              "resolvedUri": "https://www.afterall.org/articles/agnes-denes-in-conversation-with-alexandra-schwartz/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT1mqNCsKIwtw6EfpCo7zUOHC_MaeS-k8T5DkhjyYhBttI_P4XOg-lWD7L5VEYqzqGPtrxeyV78qq_DViaucmndIPQ3ZKHs_OYCTxuYgLQRyRChlE7MYs2SzA4LX2YJQ_RMXgxAqNrleXGm78X4eXQBs2982BR1rDSSFmX",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtXI6v5k_XqW8UelEfYne0J2zezRzeBj6e2j88TSG-7dUSaTG7PmudAzpsesVIMSUUD2kPL-f1h2yK9HklhjiUwowq_yryRA_12SKjXHE64QasuMa0ycb1_cc=",
+              "title": "whitney.org",
+              "resolvedUri": "https://whitney.org/artists/345"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlNEp57CguWUOwPu6xrpzjhNrIK3VFbf4_5oQi_Sp7MdXaQrNsHHWq7eXOncgNK32DaendrSCYr31fjRsyukV9-NbJUGBqajfNS5HIPINX33MVL62qlB-CfiiTJjBe0i7BDxai2FopI0M-TLLZAJ5GAWQ_0stp-Tk=",
+              "title": "thecollector.com",
+              "resolvedUri": "https://www.thecollector.com/things-agnes-denes-is-known-for/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDNDLrXvoAwmKBC2HUcwMao3cDdV1Zo5-X5R6zc9WasO__RN8UWjMflFZytYljBy-dAizURVF0ox5RHhrJVEwhj7aEDhUG7U9TAPVVU7EeUnBXzHBjD5ie35a2y3CeVe8ZkPW53_OM4lqj8v_BxETHK3taS2RqQiuSCHE9RDMvxynevA7PtrToZm_T6aLhnE9TyHe7deUDPvTTcr2IV-O_FdGZCUxvH76ZqO_SZ6Vllppn0aIwhO3lmru6pAO8a8LTovcfSdimMxr6HRMEAVtE7Wygsw==",
+              "title": "usq.edu.au",
+              "resolvedUri": "https://research.usq.edu.au/download/deaba9e1b276389624c221a0d8e66c6ae8882f07924df96e384bdb7870c153a4/7920721/Johanna%20Guerin%20-%20Thesis_Redacted.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_YQbfyVAOfOreVT4HxIEYKWBqC68KNGh-hMbu5JeR1x3n_rN5BaKmm6PPDoOO3_9PR0gYugzH75B-EG65LlmDoUyF4o9U5FyCd_K9UXKGsSDMamHJkxbfAGzimEALOtfxAAiY2xz_CKmFXK7T4F28rhOwN8nceFF7rb9wgTHMtsTzpYgkdzGsn3j8rLMZ4w==",
+              "title": "uapcompany.com",
+              "resolvedUri": "https://www.uapcompany.com/news/agnes-denes-at-the-armory-show-2023-in-new-york-city"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 145,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (born 1931) is a Hungarian-born American conceptual artist often cited as A. Denes."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 146,
+                "endIndex": 222,
+                "text": "Active since the late 1960s, she is a pioneer of Environmental and Land art."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 329,
+                "endIndex": 513,
+                "text": "In the late 1960s, she became a member of the Experiments in Art and Technology (E.A.T.) collective, and her involvement is documented in the organization's archives from 1969 to 1970."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 514,
+                "endIndex": 636,
+                "text": "One of her earliest significant works was 'Rice/Tree/Burial' (1968), recognized as a foundational piece of ecological art."
+              },
+              "groundingChunkIndices": [
+                4,
+                1,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 803,
+                "endIndex": 1423,
+                "text": "Her multidisciplinary approach includes large-scale environmental projects, holograms, computer-generated prints, and philosophical drawings.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Agnes_Denes\",\n        \"https://whitney.org/artists/348\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf2f59n5ps/\",\n        \"https://www.thecollector.com/maria-kruglyak/\",\n        \"https://news.artnet.com/art-world/women-computer-art-pioneers-2570072\",\n        \"https://direct.mit.edu/leon/article/58/4/357/124233/Software-1970-and-the-Politics-of-Temperature\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                7
+              ]
+            }
+          ]
+        }
       }
     }
   ]

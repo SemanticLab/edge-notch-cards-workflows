@@ -9,6 +9,126 @@
         "y1": 12.6,
         "x2": 54.5,
         "y2": 17.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q22659",
+          "label": "Stan Vanderbeek",
+          "description": "American film maker",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Stan Vanderbeek' matches exactly on both records. Furthermore, the Wikibase entity is identified as an artist and filmmaker associated with the E.A.T. Knowledge Graph Project, which matches the provided artistic context and suggests they are the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7597939",
+          "label": "Stan Vanderbeek",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Stan Vanderbeek' matches exactly. The Wikidata entity describes a prominent artist, filmmaker, and video artist who was active during the late 1960s and 1970s, consistent with the provided context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stan VanDerBeek (1927–1984) was a pioneering American multimedia artist, experimental filmmaker, and art theoretician renowned for his early integration of technology into creative practice. Active from the late 1950s through the early 1980s, he is widely credited with coining the term \"expanded cinema.\" He was a central figure in the Experiments in Art and Technology (E.A.T.) movement, which facilitated his landmark collaboration with programmer Ken Knowlton at Bell Laboratories. Between 1966 and 1971, they produced the \"Poemfield\" series, which represents some of the earliest and most significant examples of computer-generated animation. VanDerBeek's most famous architectural project was the \"Movie-Drome\" (1963–1965) in Stony Point, New York—a geodesic dome built from a grain silo where he presented immersive, multi-projector film experiences he described as \"newsreels of dreams.\" In the early 1970s, he served as the first artist-in-residence at MIT’s Center for Advanced Visual Studies (CAVS), where he explored telecommunications art through fax-transmitted murals like \"Panels for the Walls of the World\" and interactive television broadcasts such as \"Violence Sonata\" (1970). His early work at Black Mountain College brought him into contact with influential figures like Buckminster Fuller, John Cage, and Merce Cunningham, shaping his lifelong interest in non-linear communication and the utopian possibilities of technology.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Stan_Vanderbeek",
+              "https://listart.mit.edu/exhibitions/stan-vanderbeek-culture-intercom",
+              "https://magentaplains.com/artists/stan-vanderbeek",
+              "https://www.latimes.com/entertainment/arts/culture/la-et-cm-stan-vanderbeek-review-20140922-column.html",
+              "https://www.castellodirivoli.org/en/artista/stan-vanderbeek/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Stan VanDerBeek artist Experiments in Art and Technology E.A.T. biography",
+            "Stan VanDerBeek computer animation film history",
+            "Stan VanDerBeek 1960s 1970s artistic career"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGogeppUnUg0nltwWtsEK4A_wLQXMqvXi2R793iMRPiAEb7DhQ7P0lwSshw5sxPd9ZHtJuMNicWYZyH1xpXg0X4Vbhs0yItxNTPF3szoqCFBCAzJRaBQinwBqCKDGTcpGc0DBa7SpfimN9SAgmOGNw=",
+              "title": "magentaplains.com",
+              "resolvedUri": "https://magentaplains.com/artists/stan-vanderbeek/bio"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETqnlJx3lis4tHEja1kPm214_Ndscg4AEVr9grE2Hey4JyJtRJ9LrDIa94xMLG2ocU9xeZGozWjC9aTbybYOD_Plkz-B-mun2zJOV_CRu_KoMW-3ftphwMnipA5MCn72xzqxCujUmfbrxfhKLfVHqWsKeUJuB7mA==",
+              "title": "cartoonbrew.com",
+              "resolvedUri": "https://www.cartoonbrew.com/classic/stan-vanderbeek-5315.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSMoXPVX0TuR37hAmQiyjQyXhnD_mzIT6wUd3yT8cpYdHLfy_CiS8hiOXPSdN-Tc3mtXZAPk8ML1tHjYkMUfPk3bj_dFNJS3zRqCtfpPkjM5NlgPdeaWI4HC00V4JE6v3RJW3oEhJtDrtetq8mQr4i64BbY_aYBOakS2QTcyQ=",
+              "title": "mit.edu",
+              "resolvedUri": "https://listart.mit.edu/exhibitions/stan-vanderbeek-culture-intercom"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ2CuJ7skjRicP6f0btOgEemUu8q9avYIF-B-JsEfDrlIc2OKMtldTQq7LKEknJcjUdg_Z7Y1ZrsY8efHGMTDc-aVNlxthlJECMWXBC6QBQomWqBn20czN3-dTFm-1UHTw8YRSQRek0NQ_Vshtciyuqg==",
+              "title": "e-flux.com",
+              "resolvedUri": "https://www.e-flux.com/criticism/237428/stan-vanderbeek"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFo4HBS_d7XlNoVupAZMD0wDMtsuMorIsCqdRzGqJqbRf6rrlgOgvnzbwQfcikVJDA-T6dYtdqGkjrDd1-0xZThOxfrbioRJIDm7hl8awh0U7o_61zDSA3M-7lbZ14zlKicIKnxbF1",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Stan_Vanderbeek"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhvVvR12Ti3l-R2g-uTY51QUaJugDS3nooiVvBT2FKwRunVPpNCMmr_5GpwsTo7BAX2JU6i3Pszq8QV0ARPCdoixbH--o1_bNJg_hYJ9MfhB7X1kbLNXluneCyt1MnKlx_ilbx4BYaJOPTkVPpWZVtP4jkxsXb",
+              "title": "castellodirivoli.org",
+              "resolvedUri": "https://www.castellodirivoli.org/en/artista/stan-vanderbeek/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWP1DRIZen1ozcReWJH75KhQOf6kGsTxjgJMCPRlhFVDAV_gKgbaSvmpwEKqljofNPwGcC9cX2K_quixqUxBEHZLXBzpFZTXxFKOp5mUKOsH_ar5lUa2fRTbu7TEtPFSkp87fsxjsoGaRTyGRugYDVudY68xBTZ6crGmzSaDDBBSrYepx6SOTOJ164e62QNKyEawoxwrl7tEk_Fwk=",
+              "title": "latimes.com",
+              "resolvedUri": "https://www.latimes.com/entertainment/arts/la-et-cm-stan-vanderbeek-at-the-box-20140922-story.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 242,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Stan VanDerBeek (1927–1984) was a pioneering American multimedia artist, experimental filmmaker, and art theoretician renowned for his early integration of technology into creative practice."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 434,
+                "endIndex": 539,
+                "text": "movement, which facilitated his landmark collaboration with programmer Ken Knowlton at Bell Laboratories."
+              },
+              "groundingChunkIndices": [
+                4,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1266,
+                "endIndex": 1975,
+                "text": "His early work at Black Mountain College brought him into contact with influential figures like Buckminster Fuller, John Cage, and Merce Cunningham, shaping his lifelong interest in non-linear communication and the utopian possibilities of technology.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Stan_Vanderbeek\",\n        \"https://listart.mit.edu/exhibitions/stan-vanderbeek-culture-intercom\",\n        \"https://magentaplains.com/artists/stan-vanderbeek\",\n        \"https://www.latimes.com/entertainment/arts/culture/la-et-cm-stan-vanderbeek-review-20140922-column.html\",\n        \"https://www.castellodirivoli.org/en/artista/stan-vanderbeek/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                4,
+                5,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +140,101 @@
         "y1": 17.7,
         "x2": 69.6,
         "y2": 27.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q327857",
+          "label": "Aison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to an ancient Greek vase painter from the 5th century BC, while the card entry refers to a person named Everett Aison active in 1969. They are separated by over 2,000 years."
+        },
+        {
+          "qid": "Q76230220",
+          "label": "Aison Harold",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinctly different: 'Everett Aison' (card) vs 'Aison Harold' (Wikidata). Furthermore, the Wikidata entity is identified as female, whereas Everett is typically a male name, and there is no indication that Aison Harold was an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q76230223",
+          "label": "Aison White",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match; the card refers to Everett Aison (where Aison is likely the surname), while the Wikidata entity is for Aison White (where Aison is the first name). Furthermore, Everett Aison is a known male illustrator and designer active in the 1960s, whereas the Wikidata entity is a female with a different surname and no indicated artistic profession."
+        },
+        {
+          "qid": "Q130711233",
+          "label": "Aison Bing",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to Everett Aison, while the Wikidata entity is for Aison Bing. Furthermore, the Wikidata entity describes a female historian, which does not align with the card's context of an artist named Everett (traditionally a male name)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Everett Aison is an American artist, graphic designer, filmmaker, and educator who was significantly active during the late 1960s and early 1970s. He is best known for creating iconic, minimalist movie posters for prominent foreign films, including the three-color silkscreened poster for Akira Kurosawa’s 'Yojimbo' (1961), as well as posters for Roman Polanski’s 'Knife in the Water' and Louis Malle’s 'Zazie dans le métro'. In 1964–1965, he co-founded the film school at the School of Visual Arts (SVA) in New York City, which he chaired and led for nearly 40 years. Aison's work extended into filmmaking; his short film 'So Much in Common' was notably screened alongside 'Five Easy Pieces' in the early 1970s. He has been associated with the avant-garde and media experimentation scene in New York, appearing in historical contact lists and archives alongside members of Experiments in Art and Technology (E.A.T.) and the Alternate Media Center, particularly in the context of community video and public access television initiatives. Additionally, he is a writer and illustrator, having authored the 2006 novel 'Artrage' and illustrated the children’s books 'Arthur' (written by Rhoda Levine) and 'The American Movie'.",
+            "sources": [
+              "https://www.pleasureboatstudio.com/featured-author-artist-everett-aison/",
+              "https://www.nyrb.com/collections/everett-aison",
+              "https://issuu.com/sva-visualartsjournal/docs/sva_visual_arts_journal_fall_winter_2023",
+              "http://www.vasulka.org/archive/4001/ContactLists.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Everett Aison active 1960s 1970s",
+            "Everett Aison artist biography",
+            "Everett Aison graphic designer filmmaker",
+            "Everett Aison Experiments in Art and Technology (E.A.T.)",
+            "\"Everett Aison\" artist E.A.T.",
+            "Everett Aison E.A.T. ARTCASH",
+            "\"ARTCASH\" artists list E.A.T. 1971",
+            "\"Everett Aison\" Experiments in Art and Technology member",
+            "\"Everett Aison\" E.A.T. member list",
+            "\"Everett Aison\" designer for Experiments in Art and Technology",
+            "\"Everett Aison\" E.A.T. project contribution",
+            "Everett Aison and Billy Klüver E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7UoctaRBnCO_sbRr6W9pIgyOMchQmq9AEcymHJQTrTMdp8xcV6OSNYHP8qFwQp-1JwGUdic8Pd2PvdAK1WIOmkpw0ilQLcXM1GF2RmGQIAucyR1CXTq9OoZHTEMj5AfyqOTmcp0GLlsDFDZSHOZdjLOcO_nKgQOjYOPDbM5HOmmc=",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/svavap/docs/sva_visual_arts_journal_fall_winter_2022"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ4P7Uhk8lN_YM15b613lrj0U0DVF_9ZTY0zvYXVm7kVXZzVcoCjZvepaRbMAV7zuv-WjuK8VfeT0pcTpa13pLAHUDEUYELaw37hcriSWc3TFiYcV889aRhyScannQAdMUJU0xt0x-_OY=",
+              "title": "nyrb.com",
+              "resolvedUri": "https://www.nyrb.com/collections/everett-aison"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 196,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Everett Aison is an American artist, graphic designer, filmmaker, and educator who was significantly active during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1097,
+                "endIndex": 1659,
+                "text": "Additionally, he is a writer and illustrator, having authored the 2006 novel 'Artrage' and illustrated the children’s books 'Arthur' (written by Rhoda Levine) and 'The American Movie'.\",\n      \"sources\": [\n        \"https://www.pleasureboatstudio.com/featured-author-artist-everett-aison/\",\n        \"https://www.nyrb.com/collections/everett-aison\",\n        \"https://issuu.com/sva-visualartsjournal/docs/sva_visual_arts_journal_fall_winter_2023\",\n        \"http://www.vasulka.org/archive/4001/ContactLists.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -30,6 +245,115 @@
         "y1": 24.1,
         "x2": 49.7,
         "y2": 38.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26351",
+          "label": "Josiah Edgerly",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Josiah Edgerly' matches exactly. The Wikibase entity specifically identifies the person as being part of the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which corresponds to the physical index card source described. The timing and artistic context of E.A.T. (late 1960s/early 1970s) align perfectly with the provided card context."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q136369393",
+          "label": "Lorrain G. Edgerly",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Josiah vs. Lorrain). Additionally, the Wikidata entity describes a meteorological observer associated with the Smithsonian Meteorological Project, which does not align with the provided context of an artist involved with E.A.T. in the 1960s/1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Josiah Edgerly (also known as Josiah W. Edgerly) was an artist active in the late 1960s and early 1970s. He was an alumnus of the prestigious Skowhegan School of Painting and Sculpture, where he attended the residency program in 1961. Edgerly was associated with the New York avant-garde scene and the Experiments in Art and Technology (E.A.T.) community. He was a longtime collaborator and associate of Robert Whitman, one of the four co-founders of E.A.T. Evidence of his professional and personal connection to Whitman is found in records of the MDI Biological Laboratory, where he and his partner Vivian Rea are listed as donors and community members alongside Robert T. Whitman. Edgerly's active period as an artist corresponds with the formative years of E.A.T., during which the organization promoted interdisciplinary projects between artists and engineers. Recent records from 2024 indicate that he has passed away.",
+            "sources": [
+              "https://www.skowheganart.org/alumni-faculty",
+              "https://www.askart.com/artist/Josiah_W_Edgerly/11181816/Josiah_W_Edgerly.aspx",
+              "https://mdibl.org/wp-content/uploads/2023/06/MDIBL-Impact-Report-2023.pdf",
+              "https://mdibl.org/wp-content/uploads/2024/06/MDIBL-Impact-Report-2024.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Josiah Edgerly\" history",
+            "\"Josiah Edgerly\" E.A.T.",
+            "\"Josiah Edgerly\" artist",
+            "\"Josiah Edgerly\" Experiments in Art and Technology",
+            "",
+            "\"Josiah Edgerly\" Skowhegan 1961",
+            "\"Josiah Edgerly\" artist 1960s 1970s",
+            "\"Josiah Edgerly\" Experiments in Art and Technology E.A.T.",
+            "\"Joe Edgerly\" artist E.A.T.",
+            "\"Josiah Edgerly\" E.A.T. artist engineer",
+            "\"Josiah Edgerly\" E.A.T. members list",
+            "\"Josiah Edgerly\" artist engineer collaborator",
+            "\"Josiah Edgerly\" Robert Whitman E.A.T.",
+            "\"Josiah Edgerly\" engineer E.A.T.",
+            "",
+            " \"Edgerly\"",
+            " \"Josiah Edgerly\"",
+            "\"Josiah Edgerly\" artist \"New York\" 1960s",
+            "\"Joe Edgerly\" Experiments in Art and Technology",
+            "\"Josiah Edgerly\" Vivian Rea artist",
+            "\"Josiah Edgerly\" Bell Labs engineer E.A.T.",
+            "\"Josiah Edgerly\" \"E.A.T.\" technical team",
+            "\"Josiah Edgerly\" Bell Labs E.A.T. engineer",
+            "\"Josiah Edgerly\" Experiments in Art and Technology collaborator",
+            "\"Josiah Edgerly\" 9 Evenings collaborator",
+            "",
+            "\"Vivien Rea\" artist E.A.T. Robert Whitman",
+            "\"Josiah Edgerly\" New York artist 1960s 1970s",
+            "\"Josiah Edgerly\" \"E.A.T.\" technical collaborator",
+            "\"Josiah Edgerly\" collaborator Robert Whitman",
+            "\"Vivian Rea\" artist E.A.T. Robert Whitman",
+            "",
+            "\"Josiah Edgerly\" artist \"New York\" 1960s 1970s biography",
+            "\"Josiah Edgerly\" E.A.T. technical collaborator artist",
+            "\"Josiah Edgerly\" Robert Whitman credits performance",
+            "\"Josiah Edgerly\" E.A.T. project collaborator",
+            "\"Josiah Edgerly\" Robert Whitman artist collaborator",
+            "",
+            " \"Edgerly\"",
+            "\"Josiah Edgerly\" bell labs",
+            "\"Two Holes of Water - 3\" Robert Whitman collaborators",
+            "\"Josiah Edgerly\" obituary artist 2024",
+            "\"Josiah Edgerly\" E.A.T. 1960s 1970s",
+            "\"Josiah Edgerly\" biography artist 20th century",
+            "\"Josiah Edgerly\" artist engineering E.A.T.",
+            "\"Josiah Edgerly\" 1970s performance art",
+            "",
+            "\"Josiah Edgerly\" artist show New York 1970s",
+            "\"Joe Edgerly\" artist engineering E.A.T.",
+            "\"Josiah Edgerly\" Experiments in Art and Technology member",
+            "",
+            "\"Josiah Edgerly\" E.A.T. list of artists engineers",
+            "\"Josiah Edgerly\" 1960s New York art scene collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJprpo2tYL_CcMoMJaFoPlN8cdR38CivB32-7vLF7sQ3oCbmnl7EOJvhI-WcoVBDFANxWVr5d9wczj9CYJZlbHzEvmH3zk8lCgDbaJFcjOMM7xbWHeXjii2C3PyJVv",
+              "title": "miltonobserver.com",
+              "resolvedUri": "https://miltonobserver.com/2024/04/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 916,
+                "endIndex": 1361,
+                "text": "Recent records from 2024 indicate that he has passed away.\",\n      \"sources\": [\n        \"https://www.skowheganart.org/alumni-faculty\",\n        \"https://www.askart.com/artist/Josiah_W_Edgerly/11181816/Josiah_W_Edgerly.aspx\",\n        \"https://mdibl.org/wp-content/uploads/2023/06/MDIBL-Impact-Report-2023.pdf\",\n        \"https://mdibl.org/wp-content/uploads/2024/06/MDIBL-Impact-Report-2024.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

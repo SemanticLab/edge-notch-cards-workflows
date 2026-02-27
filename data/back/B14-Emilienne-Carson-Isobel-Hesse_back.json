@@ -11,6 +11,128 @@
         "y1": 10.0,
         "x2": 37.5,
         "y2": 18.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1854",
+          "label": "Gordon Parks",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card entry refers to 'Juliette Gordon', while the Wikibase entity refers to 'Gordon Parks', where 'Gordon' is the first name. Additionally, the Wikibase entity is identified as male, whereas Juliette is typically a feminine name."
+        },
+        {
+          "qid": "Q19297",
+          "label": "Gordon Hyatt",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Juliette Gordon and Gordon Hyatt are completely different. While both are associated with the late 1960s art/media scene (Gordon Hyatt was a producer for WCBS and involved with E.A.T.), there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q24424",
+          "label": "Gordon Garmire",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Juliette Gordon' and 'Gordon Garmire' are distinct individuals. While both appear in the context of the late 1960s and the E.A.T. project, 'Gordon' is a surname in the first record and a first name in the second, and 'Juliette' does not match 'Garmire'."
+        },
+        {
+          "qid": "Q24187",
+          "label": "Gordon Mumma",
+          "description": "American composer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Juliette Gordon' and 'Gordon Mumma' are entirely different. Juliette Gordon is a known female artist/filmmaker active in the late 1960s, while Gordon Mumma is a well-known male American composer. Although they share the name 'Gordon,' it is a surname in one and a first name in the other."
+        },
+        {
+          "qid": "Q25456",
+          "label": "Gordon M. Sasaki",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Juliette Gordon' on the card and 'Gordon M. Sasaki' in the Wikibase entity are completely different people. In the Wikibase entity, 'Gordon' is the first name and 'Sasaki' is the surname, whereas on the card 'Gordon' is the surname. Furthermore, the demographic for the Wikibase entity is listed as 'men', while Juliette is typically a female name."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3269439",
+          "label": "Juliette Gordon Low",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Juliette Gordon Low died in 1927. The card entry is dated January 29, 1969, which is over 40 years after her death. Consequently, they cannot be the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Juliette Gordon (born 1934) was a prominent American artist and a leader in the New York feminist art movement during the late 1960s and 1970s. She is best known as a co-founder of Women Artists in Revolution (WAR), an activist group that fought for gender equality in the art world, and for authoring the group's first manifesto in 1969. Gordon was also a member of the Art Workers Coalition (AWC) and participated in the Artists Against the Vietnam War movement. Her artistic practice primarily involved political and feminist photocollages, as well as assemblage, printmaking, and drawing. She operated the Juliette Gordon Gallery on East 73rd Street in New York City starting in 1968. Her work was featured in significant exhibitions of the era, including 'Mod Donn Art: 11 Women Artists' (1970) and the 'Ten Downtown' exhibition series (1972). She was the partner of Sam Weinreb, an engineer and artist who was a member of the Experiments in Art and Technology (E.A.T.) organization. Gordon continued her practice for decades, later experimenting with digital art before her career was impacted by a major fire at her loft in 2002.",
+            "sources": [
+              "https://www.toomeyco.com/artists/juliette-gordon/",
+              "https://www.1stdibs.com/art/collages/juliette-gordon-untitled-modern-woman-juliette-gordon-new-york-feminist-collage-art-war/id-a_12920232/",
+              "https://hyperallergic.com/621183/a-documentary-herstory-of-women-artists-in-revolution-archive/",
+              "https://www.veteranfeministsofamerica.org/vfa-fabulous-feminist-juliette-gordon/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Juliette Gordon\" artist 1960s 1970s",
+            "Juliette Gordon Low artist 1960s 1970s",
+            "Juliette Gordon E.A.T. artist",
+            "Juliette Gordon artist \"Experiments in Art and Technology\"",
+            "\"Juliette Gordon\" artist 1960s 1970s feminist WAR",
+            "\"Juliette Gordon\" artist E.A.T. Sam Weinreb"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvAwIbAne5GuCJKRGq-m1AuLg2AKnBjCKLBeKpgbWRWO9WnRA_qmxB0s0P7vD8jRpzNU3Qlp2yOU-UbK48pF7DT3_o025czEDUVwrDucbo6Ik9jr-McBTcgxAB9G7trrQKJtEQEfhmiBA81Jr2wLc4s3_ctLI8WURU0YjC5aC1Syhv9gR22f74lsRCwRtuo8cS00Vlpe_xxqXz5pZv5DefPMp5Gy5lbrpTKaIq572gB9kjL--vTSBcBb3DX0cqwthd9we39xKg41Qx0WXC8z8vhkrEkOdeKV4y2Q==",
+              "title": "1stdibs.com",
+              "resolvedUri": "https://www.1stdibs.com/art/paintings/abstract-paintings/juliette-gordon-untitled-modern-woman-juliette-gordon-new-york-feminist-collage-art-war/id-a_9923602/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbMWLuco45wK5qcHBTxGl2zVt4BrU60vz-m57-IrxL5cqB93pD7v2Orx_kMcdj8C_pr636uxhz5hNs0VEccMLDAUebvug4_LYI9W-jLZmLrQtyI9riYbfMohW_NCuHRUAvu94Hi1NokjQZS2NjLSF_iA==",
+              "title": "toomeyco.com",
+              "resolvedUri": "https://www.toomeyco.com/artists/juliette-gordon/about"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6SEAo15QuONQAWIvEvITvTv0HXS0tkXW7_ZwNHWtWEhTvd6mp2jtuxexco1tTG0kcTTQ3t1k3yT82fUR-ZUfPeACRWmoLmdTuURfQMQF89VJilYrRXToRVfmEI-OlGPCj8vYhwNQCk_G2pxK9_MOxxDv9wvW8NU0PrzFx_cB_Cbs=",
+              "title": "veteranfeministsofamerica.org",
+              "resolvedUri": "https://www.veteranfeministsofamerica.org/legacy/JULIETTE%20GORDON.htm"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVa2aluwrChXAKeutVfhnBHnz_S4RGyNxfDWaUIM7yBY2jDbXPV5iIyGXf3YxnPXTd4NtGiOztAuHJTN0y6QulVY83PatKzc-Ugr0C7by0DJW_6C4OSfMOH9GIN_G6ovWWPUGOCeql7VEbwuPnOZ3CLXuMiSH5J_KklBmMkBH0EuFRsQFxiPbjWizF3BpXlxVyi6JrK_-KvMUSTXyq",
+              "title": "hyperallergic.com",
+              "resolvedUri": "https://hyperallergic.com/the-story-of-women-artists-for-revolution-a-movement-against-patriarchy/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 193,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Juliette Gordon (born 1934) was a prominent American artist and a leader in the New York feminist art movement during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 739,
+                "endIndex": 898,
+                "text": "Her work was featured in significant exhibitions of the era, including 'Mod Donn Art: 11 Women Artists' (1970) and the 'Ten Downtown' exhibition series (1972)."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

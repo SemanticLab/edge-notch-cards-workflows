@@ -11,6 +11,137 @@
         "y1": 10.9,
         "x2": 40.7,
         "y2": 25.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q13052922",
+          "label": "Tamar Adamyan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Tamar Adamyan) lived from 1862 to 1888, which is entirely incompatible with the timeline of an artist active in the late 1960s and early 1970s. Furthermore, the name and gender do not match."
+        },
+        {
+          "qid": "Q13054605",
+          "label": "Satenik Adamyan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Satenik Adamyan died in 1915, which makes it impossible for her to be the artist active in the late 1960s and early 1970s described in the card. Furthermore, the names (George vs Satenik) and genders do not match."
+        },
+        {
+          "qid": "Q20510492",
+          "label": "Yeranuhi Adamyan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Yeranuhi Adamyan died in 1931, which is decades before the period of activity (late 1960s/early 1970s) specified for the artist George Adamy. Furthermore, the genders do not match (George is typically male, Yeranuhi is female)."
+        },
+        {
+          "qid": "Q43537428",
+          "label": "Alisa Adamyan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different in terms of gender and origin: 'George Adamy' is typically male, while the Wikidata entity is 'Alisa Adamyan', a female violinist. While the surnames are somewhat similar, the given names do not match at all."
+        },
+        {
+          "qid": "Q92011544",
+          "label": "Diana Adamyan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name, gender, and timeframe are completely incompatible. George Adamy was an artist active in the 1960s/70s, while Diana Adamyan is a female violinist born in 2000."
+        },
+        {
+          "qid": "Q97205667",
+          "label": "Mariam Adamyan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Mariam Adamyan) was born in 1992, making it impossible for her to be the person active in the late 1960s or early 1970s mentioned in the card entry. Additionally, the names and genders do not match."
+        },
+        {
+          "qid": "Q122900217",
+          "label": "Sirarpi Adamyan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name, gender, and timeline do not match. George Adamy (likely male) was active in the late 1960s and early 1970s, whereas Sirarpi Adamyan (female) was born in 1979, making it impossible for her to be the individual described on the card."
+        },
+        {
+          "qid": "Q131852202",
+          "label": "Armen Adamyan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'George Adamy' and 'Armen Adamyan' are distinct. Furthermore, the Wikidata entity was born in 1965 and began their activity in 1978, which is incompatible with the person on the card being an active artist in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "George Adamy was an American artist active in the late 1960s and 1970s, best known for his environmental and plastic-based sculptures. His most prominent work, \"Month of June\" (1970), consists of five rotatable Plexiglas disks in varying shades of pink, orange, and yellow that function as public benches. This piece was commissioned by the William Kaufman Organization for the plaza of 77 Water Street in New York City’s Financial District, a building famous for its whimsical public art. The artwork gained further cultural recognition when it appeared in a series of photographs by Iain MacMillan featuring John Lennon and Yoko Ono sitting on the disks during a visit to the city on September 4, 1971. Adamy’s work is associated with the Experiments in Art and Technology (E.A.T.) movement of the era, which promoted the use of new industrial materials and collaborations between the arts and engineering. In 1977, he was also noted as an instructor of \"Sculpture in Plastics\" at the Midchester YMYWHA.",
+            "sources": [
+              "https://www.johnlennon.com/news/imagine50-free-screenings-of-the-imagine-film-tims-twitter-listening-party/",
+              "https://www.6sqft.com/a-19th-century-candy-store-and-wwi-fighter-plane-liven-up-a-financial-district-office-building/",
+              "https://www.scoutingny.com/a-19th-century-candy-store-hidden-near-wall-street/",
+              "http://www.artatsite.com/NewYork/George_Adamy_Month_of_June_New_York",
+              "https://bluedoorartcenter.org/artist-pages/ries-martin"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "George Adamy artist Experiments in Art and Technology E.A.T.",
+            "\"George Adamy\" artist biography",
+            "George Adamy art exhibition history",
+            "\"George Adamy\" E.A.T. member",
+            "\"George Adamy\" E.A.T. technical services program",
+            "\"George Adamy\" artist plastic sculpture",
+            "\"George Adamy\" artwork \"Month of June\" 77 Water Street",
+            "\"George Adamy\" artist plastic benches 77 Water Street",
+            "\"George Adamy\" artist exhibition catalog E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMggfKGrgoyNDngg5qPy0vZfXAONr8oGJ1DE3HgHv28vusH_csgRDBOdcOVFphlkW5wAAc2Jt5IhqR2ZBM2erFOmdYx4ZODsEMcaChx6LiSQE2NaOT-X64QuWvMP1egRnYdGkXpT6P6l5EYpwTZyIe6-a01g8=",
+              "title": "bluedoorartcenter.org",
+              "resolvedUri": "https://bluedoorartcenter.org/artist_portfolio/martin-ries/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfn_EJnxa8wxHHh1S-sjfWKQfNFcms-AwZ6kbAUTbZdR136QjrJsMveZIQ235-Jy0Q36MGuUydX8hFHKcoN1-5cnrV_1Vr-RviBSqmjZZO3ONen0d0rLWEBjaImJytWOzJZ_ruMgMoqO1s6CulzbXG3ek=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/413630435/EAT-Newspaper"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 184,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"George Adamy was an American artist active in the late 1960s and 1970s, best known for his environmental and plastic-based sculptures."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 840,
+                "endIndex": 964,
+                "text": "movement of the era, which promoted the use of new industrial materials and collaborations between the arts and engineering."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 965,
+                "endIndex": 1620,
+                "text": "In 1977, he was also noted as an instructor of \\\"Sculpture in Plastics\\\" at the Midchester YMYWHA.\",\n      \"sources\": [\n        \"https://www.johnlennon.com/news/imagine50-free-screenings-of-the-imagine-film-tims-twitter-listening-party/\",\n        \"https://www.6sqft.com/a-19th-century-candy-store-and-wwi-fighter-plane-liven-up-a-financial-district-office-building/\",\n        \"https://www.scoutingny.com/a-19th-century-candy-store-hidden-near-wall-street/\",\n        \"http://www.artatsite.com/NewYork/George_Adamy_Month_of_June_New_York\",\n        \"https://bluedoorartcenter.org/artist-pages/ries-martin\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

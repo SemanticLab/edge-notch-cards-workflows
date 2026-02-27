@@ -11,6 +11,104 @@
         "y1": 11.4,
         "x2": 56.1,
         "y2": 17.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28221",
+          "label": "Samuel Chaikofsky",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are an exact match, and the Wikibase entity is identified as an artist associated with E.A.T. (Experiments in Art and Technology), which perfectly matches the occupational context and the late 1960s/early 1970s timeframe."
+        }
+      ],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Samuel Chaikofsky (January 7, 1924 – May 15, 1991) was a New York-based artist who was active during the late 1960s and early 1970s. He is specifically noted for his association with Experiments in Art and Technology (E.A.T.), the influential non-profit organization co-founded by Billy Klüver and Robert Rauschenberg to promote collaborations between the arts and scientific communities. Chaikofsky was a participant in the landmark E.A.T. exhibition titled \"Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes,\" which was held at the Brooklyn Museum from November 1968 to February 1969. This exhibition was organized as a comprehensive showcase of works submitted for a competition related to the Museum of Modern Art's (MoMA) exhibition \"The Machine as Seen at the End of the Mechanical Age.\" Chaikofsky's involvement places him within a historical cohort of artists who explored the integration of new technologies and industrial materials into contemporary art practice.",
+            "sources": [
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-Billy-Kl%C3%BCver-Robert-Rauschenberg-Robert-Whitman",
+              "https://www.artist-info.com/exhibition/MoMA-27-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962",
+              "https://sortedbydate.com/genealogy/1924/january/07",
+              "http://www.vasulka.org/archive/4-33a/EAT(6033).pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Samuel Chaikofsky\" Experiments in Art and Technology",
+            "",
+            "\"Samuel Chaikofsky\" Experiments in Art and Technology exhibition 1968",
+            "\"Samuel Chaikofsky\" artist biography 1924",
+            "",
+            "\"Samuel Chaikofsky\" E.A.T. \"Some More Beginnings\" catalog",
+            "\"Samuel Chaikofsky\" 1924 biography artist",
+            "",
+            "\"Samuel Chaikofsky\" \"Some More Beginnings\" artwork title",
+            "",
+            "\"Samuel Chaikofsky\" obituary",
+            "\"Samuel Chaikofsky\" artist New York",
+            "",
+            "\"Some More Beginnings\" exhibition catalog artists list",
+            "\"Samuel Chaikofsky\" artist electronic art",
+            "",
+            "\"Samuel Chaikofsky\" title artwork \"Some More Beginnings\"",
+            "\"Samuel Chaikofsky\" artist bio"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb9P8MydnmlDPrxc6zv-SugTwBd4e99b7zyn6-tBqvK-HWJuo8Gpwp22wE-5j3UxrsYnHIduTq5JnBB-OK2W0CyyXiSBpXtX-6wPYu6KoF5dSw226vRTObqow2WblQkaVsZXcCAG71mX3aPm6J_lV2SQTGmtksPhlbq0M_LqA=",
+              "title": "substack.com",
+              "resolvedUri": "https://rcmparis.substack.com/p/10-exhibitions-that-defined-computer"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40dRbT7qtzK0k-5QOU5Bb8qbVnr4i-uSPlIIDfs458-dG9HFS6_TKxIGqEsqqiVZPH_B4d1-BpHVJbyFvs8XxgDFOKu1DtjhQAcvLRx0_-shMY400tOsESESFb6m4AnXOwFi8wElqA07Qq9p3g9tSCeD33g==",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETE8AKie7Y1hvahcU_VnMGgLimcOv5nu4cD__4ADShpf4VCFR-5M92FsRsyC8O2YWGzk9MyW74PkFu1sNM68W6SMW5TACFFrcIvZ61N-HEU6dsNVvA7BuUaKprnaXOlamhT1L_A_i3oZKrUUz6lHChPCiF2w==",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 184,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Samuel Chaikofsky (January 7, 1924 – May 15, 1991) was a New York-based artist who was active during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 442,
+                "endIndex": 493,
+                "text": "Chaikofsky was a participant in the landmark E.A.T."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 691,
+                "endIndex": 1581,
+                "text": "This exhibition was organized as a comprehensive showcase of works submitted for a competition related to the Museum of Modern Art's (MoMA) exhibition \\\"The Machine as Seen at the End of the Mechanical Age.\\\" Chaikofsky's involvement places him within a historical cohort of artists who explored the integration of new technologies and industrial materials into contemporary art practice.\",\n      \"sources\": [\n        \"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-Billy-Kl%C3%BCver-Robert-Rauschenberg-Robert-Whitman\",\n        \"https://www.artist-info.com/exhibition/MoMA-27-Some-more-beginnings-An-Exhibition-of-Submitted-Works-Involving-Technical-Materials-and-Processes-Id373962\",\n        \"https://sortedbydate.com/genealogy/1924/january/07\",\n        \"http://www.vasulka.org/archive/4-33a/EAT(6033).pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

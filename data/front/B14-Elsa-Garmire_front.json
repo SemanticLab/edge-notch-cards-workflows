@@ -24,5 +24,189 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "",
     "aestheticPhilosophicalInterests": ""
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q161562",
+      "label": "California Institute of Technology",
+      "description": "private research university located in Pasadena, California, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'California Institute of Technology' is an exact match. Both the card and the Wikidata entity identify the organization as being located in Pasadena, California. Furthermore, the employee's technical fields (lasers, spectroscopy) are consistent with the academic and research focus of the university."
+    },
+    {
+      "qid": "Q6565512",
+      "label": "campus of the California Institute of Technology",
+      "description": "university campus",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers specifically to the physical campus (geographic location) of the California Institute of Technology, rather than the institution itself as a legal or professional entity."
+    },
+    {
+      "qid": "Q116712226",
+      "label": "California Institute of Technology",
+      "description": "power station with capacity >1MW in Los Angeles County, California",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q116712226 refers specifically to a natural gas-fired power station facility. The employer on the card is the California Institute of Technology (the university). Furthermore, the Wikidata entity explicitly includes a 'different from' property pointing to the main California Institute of Technology institution (Q161574)."
+    },
+    {
+      "qid": "Q105080578",
+      "label": "Caltech Beavers",
+      "description": "intercollegiate sports teams of California Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the California Institute of Technology as an academic employer. The Wikidata entity (Q105080578) specifically represents the intercollegiate sports teams (Caltech Beavers) of that institution, which is a distinct sub-entity/department rather than the university itself."
+    },
+    {
+      "qid": "Q73784435",
+      "label": "California Institute of Technology Library",
+      "description": "academic library",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the California Institute of Technology (the university), whereas the Wikidata entity is the California Institute of Technology Library, which is a specific subunit or department of the parent institution."
+    },
+    {
+      "qid": "Q5122413",
+      "label": "Citcom",
+      "description": "finite element code designed to solve thermal convection problems relevant to earth's mantle",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is a major research university (California Institute of Technology), whereas the Wikidata entity is a piece of software (Citcom, a finite element code) used in science."
+    },
+    {
+      "qid": "Q59496024",
+      "label": "California Institute of Technology Collection (NAID 18501244)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the California Institute of Technology (the university), whereas the Wikidata entity represents an archival collection (a 'fonds' or collection of records) within the National Archives and Records Administration that pertains to the institution, not the institution itself."
+    },
+    {
+      "qid": "Q99433859",
+      "label": "California Institute of Technology Bookstore",
+      "description": "bookstore in Pasadena, CA, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the California Institute of Technology (the university), whereas the Wikidata entity is specifically for its bookstore. A scientist/professor like Dr. Elsa Garmire is an employee of the university, not the retail bookstore entity."
+    },
+    {
+      "qid": "Q42023287",
+      "label": "California Institute of Technology open access policy",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the employer, which is the California Institute of Technology (a university/research institution). The Wikidata entity refers to an 'open access policy' adopted by that institution, which is a document/policy, not the organization itself."
+    },
+    {
+      "qid": "Q58946738",
+      "label": "Q58946738",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58946738 refers to the individual person (Dr. Elsa Garmire) rather than the employer organization (California Institute of Technology)."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Dr. Elsa Garmire (born November 9, 1939) is a distinguished American physicist and engineer renowned for her pioneering work in nonlinear optics and laser technology. Between 1966 and 1973, she served as a Senior Research Fellow at the California Institute of Technology (Caltech) in the laboratory of Amnon Yariv. During this period, she became deeply involved with Experiments in Art and Technology (E.A.T.), joining the organization in 1968. Her technical expertise in lasers, holography, and light diffraction allowed her to bridge the gap between science and art; she notably contributed to the design of the Pepsi Pavilion at Expo '70 in Osaka, where she helped create a massive hemispherical mirror and various light displays. Garmire is also credited with co-developing the technology and aesthetic for the first commercial laser light shows, collaborating with filmmaker Ivan Dryer to produce 'Laserium.' Her scientific career includes being the first graduate student of Nobel laureate Charles Townes at MIT, where she earned her PhD in 1965. She later became the William Hogue Professor of Electrical Engineering at the University of Southern California and served as the first female dean of the Thayer School of Engineering at Dartmouth College (1995–1997). She was elected to the National Academy of Engineering in 1989 and served as the President of the Optical Society of America in 1993.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Elsa_Garmire",
+          "https://spie.org/news/photonics-focus/novdec-2021/elsa-garmire-laser-art-pioneer",
+          "https://heritageproject.caltech.edu/interviews-updates/elsa-garmire",
+          "https://engineering.dartmouth.edu/about/faculty/elsa-garmire",
+          "https://www.sciencefriday.com/segments/when-laser-science-was-far-out/",
+          "http://www.patrickmccray.com/blog/2014/12/26/art-at-the-speed-of-light"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Elsa Garmire biography Experiments in Art and Technology",
+        "Elsa Garmire California Institute of Technology 1960s 1970s",
+        "Dr. Elsa Garmire Caltech E.A.T. lasers holography spectroscopy"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEErh2w1_sf3xqjkW3UKjJRvukhPB_vWxQXgXGI3cvXcKSqn3GftJM7CQD-2fSbVxbO3N7-73waQ_zsLjRCDUlUY_S_EvQGMdvCLRWJP0oISQFtdG2VeHNuIvg46_wunHhVFBh7xxzVlS6DIuZeF0NG",
+          "title": "cdm.link",
+          "resolvedUri": "https://cdm.link/elsa-garmire-pioneering-lasers-1972/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9j-tvgNsMJjT5GP9otu1oCYUIgrdFREHP8z4DTs-8jL7rs6QrFTWM5EXu_4SxVN2eWEU901w1_mYmj7xRCb7PuT9xXgFUhZAx2EQ-D1YpaAG-kGsKBn4kheWvYiWBlJxc75behJ247g==",
+          "title": "wikipedia.org",
+          "resolvedUri": "https://en.wikipedia.org/wiki/Elsa_M._Garmire"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9TmJYIRgcbJMoG4jOgUvju-haLOLQ-_yAUPFh-PkTYpMEwB5WWHjFFNBjq-Mu2nrl74CDJhQGE-xT96v3Xd1u_dK4G7noEV20DcjtS0HCGcE1YLe4EGryQhItKbgu8BUYAKIwjyPZrnfuLRV2zxwVbPgSB7mQL0zz1yruqN03I2ut7iy_2tunouTD",
+          "title": "patrickmccray.com",
+          "resolvedUri": "https://www.patrickmccray.com/leaping-robot/2014/12/26/art-at-the-speed-of-light"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Rx1Ec1p15k2qZ9oqDox362no1qUdIfkgZsCU0kskNRG41vYLtQvZE8K00ah2Dd3SlrKTWF5mZskHhUDtEZeu4iFvBckbQtK6pqLxkVQehvnCG_qJufcD-UYtmZLoLBLNQXIiguBipuxgzNqNnLR20DMB19g7t0NIUjQ94OQ=",
+          "title": "caltech.edu",
+          "resolvedUri": "https://heritageproject.caltech.edu/interviews-updates/elsa-garmire"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcijG5kBue9oGyPedp12-LqB_Sp1UQzuSnUBiVOtWYHcdCvz-HQaqJnkKn4KVrwzvokzJQssRKuPgVAzNkpj0R7CFaLG1yl9UhE3ebiYfEC_TesAwqDpfOmkNZcgC9aLQnnCameRY787vWZ3LDGCsQsRrl9BHBKC7_A3E=",
+          "title": "dartmouth.edu",
+          "resolvedUri": "https://engineering.dartmouth.edu/community/faculty/elsa-garmire"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2LWDG674wd_hQk4jzbE6GELYeYlDDJbeaujCZ29wd0gZ3TOv4kvrydWU8TaFcTtAsH94t87kuyd67S_YS9BqET94VA5PXvqKdEwBEGI4IbPAcR80NEsZxGFBpxa0tb9nYoUH_s0MRqNBikRC6DJFosxpCyLHRBAxctKUueyWdW6gH7_q6j72TvUwGjfhdiMb04-HPoOTASKJb_dXWc5shiB4_weH6l14b5267tl8Aud-p0FM=",
+          "title": "spie.org",
+          "resolvedUri": "https://spie.org/news/photonics-focus/novdec-2021/elsa-garmire-pioneering-laser-physicist-helped-launch-laser-light-shows"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuByWX39XEXwa50nh344RAPLtM9cpCLOEHq7T4WoREtkPSjS97vRuodBRUk03crq7I7YHZ5FOWvOP9wLsUhRHOAFQ4CgpVJXgfrN9agdzSKglW4bcvetEceGjNy_VIv2sGZl8daTwc7UALvdTM47uxfTt0ohFkPwmqf4PqfvhSVh8=",
+          "title": "sciencefriday.com",
+          "resolvedUri": "https://www.sciencefriday.com/segments/when-laser-science-was-far-out/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 216,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Dr. Elsa Garmire (born November 9, 1939) is a distinguished American physicist and engineer renowned for her pioneering work in nonlinear optics and laser technology."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 365,
+            "endIndex": 494,
+            "text": "During this period, she became deeply involved with Experiments in Art and Technology (E.A.T.), joining the organization in 1968."
+          },
+          "groundingChunkIndices": [
+            2
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 964,
+            "endIndex": 1102,
+            "text": "Her scientific career includes being the first graduate student of Nobel laureate Charles Townes at MIT, where she earned her PhD in 1965."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

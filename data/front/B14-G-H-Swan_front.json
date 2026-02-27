@@ -15,5 +15,130 @@
     "technicalFields": [
       "communications"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5540547",
+      "label": "G. H. Swanston",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe individuals from different eras and professions. The index card describes an engineer at Bell Telephone Laboratories (20th century), while the Wikidata entity describes a lithographer and cartographer born in 1814."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the formal historical name of the entity now commonly known as Bell Labs (Q217365). The location in New Jersey and the focus on communications and engineering match the Wikidata profile perfectly."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Bell Telephone Laboratories' is an exact match. While the Wikidata entity is categorized as a 'production company', this often refers to the organization's role in producing technical or educational films, and it represents the same historical entity as the employer mentioned on the card."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q59493148) describes an archival collection (a fonds) held by the National Archives and Records Administration, not the organization 'Bell Telephone Laboratories' itself."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Q58952200",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58952200 corresponds exactly to Bell Telephone Laboratories, matching the name, industry, and regional context (New Jersey) provided on the index card."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Q58950935",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Q58950935 is the Wikidata entity for Nokia Bell Labs, which was formerly known as Bell Telephone Laboratories, the employer specified on the index card."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Q58950393",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q58950393 identifies the historical research and development company Bell Telephone Laboratories, which exactly matches the employer listed on the index card."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4883276 is identified as a Wikimedia disambiguation page, not the actual organization entity. While the name matches, a disambiguation page serves as a navigation aid rather than a record for the Bell Telephone Laboratories company itself."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the formal historical name of Bell Labs (Q19173). The Wikibase entity correctly links to the Wikidata ID Q217365 and lists New Jersey as its location, which aligns with the residential address of the individual on the card and the known geographic footprint of the labs in New Jersey."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the organization Bell Telephone Laboratories, whereas the Wikibase entity refers to a publication titled 'Bell Telephone Laboratories Reporter'. While the publication is associated with the company, a corporate entity is distinct from a magazine or report it may publish."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "George H. Swan (1928–2015) was a communications engineer who spent the majority of his career at Bell Telephone Laboratories. Born in Brooklyn, New York, he served in the U.S. Marine Corps before attending the RCA Technical Institute, from which he graduated in 1950. He initially worked at Sperry Corporation (1950–1954) on military radar systems before joining Bell Laboratories, where he worked for 36 years until his retirement in 1990. At Bell Labs, he reached the rank of Distinguished Member of the Technical Staff. His technical contributions to communications engineering include research on microwave links and radio interference, notably his work titled \"Interference Administration of Bell System Junction Stations at 4 GHz.\" Swan was a long-time resident of Red Bank, New Jersey, having moved there in 1966. In addition to his engineering career, he was an avid oil painter, which aligns with the profiles of engineers who collaborated with the Experiments in Art and Technology (E.A.T.) organization during the late 1960s and 1970s.",
+        "sources": [
+          "https://www.johnedayfuneralhome.com/obituaries/George-H-Swan?obId=400030",
+          "https://www.legacy.com/us/obituaries/asburyparkpress/name/george-swan-obituary?id=14187309",
+          "https://www.researchgate.net/publication/327291122_Electromagnetic_Field_Measurement_Instruments_Survey"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"G. H. Swan\" E.A.T. artist engineer",
+        "\"G. H. Swan\" Red Bank New Jersey engineer",
+        "\"G. H. Swan\" Experiments in Art and Technology",
+        "\"G. H. Swan\" Bell Labs communication engineer",
+        "\"G. H. Swan\" Bell Telephone Laboratories",
+        "",
+        "\"George H. Swan\" Bell Labs",
+        "\"G. H. Swan\" patent communication",
+        "\"G. H. Swan\" engineer Red Bank NJ",
+        "\"Gilbert H. Swan\" Bell Labs",
+        "\"G. H. Swan\" Bell Labs Red Bank",
+        "",
+        "\"George H. Swan\" distinguished member of technical staff Bell Labs",
+        "\"George H. Swan\" Bell Laboratories \"Red Bank\"",
+        "\"SSB Microwave Link for Efficient Spectrum Utilization\" George H. Swan",
+        "\"Interference Administration of Bell System Junction Stations at 4 GHz\" George H. Swan year",
+        "\"George H. Swan\" E.A.T. member",
+        "\"George H. Swan\" oil painting artist engineer",
+        "\"G. H. Swan\" E.A.T. member"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

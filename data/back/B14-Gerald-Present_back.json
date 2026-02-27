@@ -11,6 +11,51 @@
         "y1": 7.2,
         "x2": 49.8,
         "y2": 20.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26384",
+          "label": "William Soghor",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical, and both records describe a William Soghor associated with the E.A.T. (Experiments in Art and Technology) program, which aligns with the artist context and historical timeframe provided."
+        }
+      ],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "William Soghor is a New York-based artist and industrial fabricator who was active in the late 1960s and early 1970s. He is best known for his participation in the significant 1973 group exhibition \"Soft as Art\" at the New York Cultural Center, which was curated by Mario Amaya and featured prominent figures such as Robert Rauschenberg, Richard Serra, Robert Morris, and Claes Oldenburg. Soghor is closely associated with Milgo Industrial (now Milgo/Bufkin), a Brooklyn-based firm renowned for its role in fabricating large-scale works for many major minimalist and post-minimalist artists. His involvement with Milgo and the artists of the era aligns with the mission of Experiments in Art and Technology (E.A.T.), as industrial fabricators were essential partners in the collaboration between artists and engineering technology. Soghor has remained connected to the New York art community; in 2012, he participated in a WNYC project identifying significant New York objects, and he is the spouse of the neo-Renaissance painter Phyllis Herfield.",
+            "sources": [
+              "https://artfacts.net/artist/william-soghor/64632",
+              "https://www.mullenbooks.com/pages/books/165696/mario-amaya-introduction/soft-as-art",
+              "http://www.northbrooklynnews.com/2016/06/01/evergreens-gala-raises-fundraising-roof/",
+              "https://www.wnyc.org/story/185854-tell-the-story-of-new-york-in-10-objects-report/",
+              "https://www.legacy.com/us/obituaries/latimes/name/doris-soghor-obituary?id=48421060"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"William Soghor\" artist",
+            "\"Soft as Art\" New York Cultural Center 1973 William Soghor",
+            "\"William Soghor\" Phyllis Herfield artist",
+            "William Soghor \"Experiments in Art and Technology\"",
+            "\"William Soghor\" engineer artist",
+            "\"Phyllis Herfield\" William Soghor art",
+            "\"Soft as Art\" William Soghor work description",
+            "William Soghor Milgo Industrial artist",
+            "",
+            "\"William Soghor\" artist 1970s soft art",
+            "Milgo Industrial \"Experiments in Art and Technology\"",
+            "\"Milgo Industrial\" Robert Rauschenberg E.A.T.",
+            "\"William Soghor\" Milgo Bufkin"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -24,6 +69,94 @@
         "y1": 17.4,
         "x2": 32.9,
         "y2": 29.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25067",
+          "label": "Agnes Denes",
+          "description": "American artist (1931–)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Agnes Denes is a well-known artist whose career timeline (active in the late 1960s and 1970s) aligns with the card's date of 1977. Additionally, the Wikibase entry mentions the E.A.T. Technical Services Program Edge-Notched Cards, which is the source of the physical index card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q394503",
+          "label": "Agnes Denes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes a prominent conceptual and land artist born in 1931, who was highly active during the 1970s (including participating in Documenta 6 in 1977). This aligns perfectly with the card's date of December 1977 and the provided context of an artist active in the late 1960s and 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born May 31, 1931) is a Hungarian-born American conceptual artist known as a pioneer of environmental and ecological art. She became a prominent figure in the New York art world during the late 1960s and 1970s. Denes is recognized for her multidisciplinary approach, integrating science, mathematics, philosophy, linguistics, and technology into her work. In the late 1960s, she joined the collective Experiments in Art and Technology (E.A.T.), a non-profit organization facilitating collaborations between artists and engineers. She participated in E.A.T.'s Technical Services Program and was featured in the 1970 landmark exhibition 'Software' at the Jewish Museum. Her early career included the creation of 'Rice/Tree/Burial' (1968), often cited as the first site-specific performance piece with distinct ecological concerns. She is perhaps most famous for her 1982 work 'Wheatfield — A Confrontation,' where she planted and harvested a two-acre wheat field on a landfill in lower Manhattan. Other major projects include 'Tree Mountain — A Living Time Capsule' (1992–96) in Finland and her extensive 'Pyramid Series' and 'Map Projections' drawings. Denes was a founding member of A.I.R. Gallery in the early 1970s and has received numerous accolades, including the Rome Prize and fellowships at MIT's Center for Advanced Visual Studies.",
+            "sources": [
+              "https://www.theartstory.org/artist/denes-agnes/life-and-legacy/",
+              "https://en.wikipedia.org/wiki/Agnes_Denes",
+              "https://whitney.org/exhibitions/programmed?section=1#exhibition-artworks",
+              "https://www.thecollector.com/agnes-denes-environmental-art/",
+              "https://theshed.org/program/6-agnes-denes-absolutes-and-intermediates",
+              "https://www.agnesdenesstudio.com/biography.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Agnes Denes career 1960s 1970s",
+            "Agnes Denes historical identity artist",
+            "Agnes Denes artist biography Experiments in Art and Technology E.A.T.",
+            "Agnes Denes association with E.A.T. organization",
+            "Agnes Denes association with \"Experiments in Art and Technology\" E.A.T.",
+            "\"Agnes Denes\" E.A.T. artist member"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjb5rLMytAmGpo8kPccvvpdyxEixGOOdCgB6QQBk4bmuLCKZRPew-GabVstlQbOMZwdjoWiss_nwUvG6qPwM3nqEhVS3mniNiW1yMPaoQsDa5Q3IBwi55a6xM0K7ahdJPm1uMKDf0I8YyLCK60b1j5UhnWIpZckM2XhzF0yczR8hYTD2pWykUR9vHGCWi4GrRHEg==",
+              "title": "theshed.org",
+              "resolvedUri": "https://www.theshed.org/program/6-agnes-denes-absolutes-and-intermediates?feed_item=166"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_mOof_0VFcy-XvLOUTRs4ozOJzFmn3SwMlxb-GXSuGMD7kvSd-J6heizQQdyqKN5u2uc6JJmp2xjmI4giM8A3j0LN99xJieAN0R6MmirUrJkNPY1Xml_F1jEb4fi1pr0NVEE3-n-a0aEGZFZx6EMMY1cS4JcafVlp0s1ivkz_7g==",
+              "title": "sakipsabancimuzesi.org",
+              "resolvedUri": "https://www.sakipsabancimuzesi.org/page/agnes-denes-her-life-and-work"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEkONO0PNQnh7HLfXYPa9FDYfPvQ45yTTCC2ujaU0RW3414paFGQU2r7PCMKYK9jMDGk4XFQNNEZug1FsQWM_8TZBzS1XAOEQJSt4dI1SeYVhq_L7lZIgci3sMtpCq7NG_5McTJOtixnfnztTYO7nsYjJSkpM_R7KK_j0rlgdIAkKu1bpSf6ishzutNoXrCNker1vXV46HZ9MJwFbA_Jgukg79SAQ=",
+              "title": "arthereartnow.com",
+              "resolvedUri": "https://arthereartnow.com/2025/02/21/agnes-denes-artist-eco-pioneer-and-rebel-harvests-wheat-in-manhattan/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw9e0O6ahm4g6yALHmwqsaKMY3WRN6ktHdNATQtntye1_ze0M9_RO_ZejqTttOUvURyYY3Vt3mseFLWbRBQoRpMxPJM6QNec2dCLvaDZxx0LFNgLNkYyPMKLPHICpVqLnGlfNvykp9Ml4zxw==",
+              "title": "seeallthis.com",
+              "resolvedUri": "https://seeallthis.com/en/interview/agnes-denes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEChZXfAmMyfS85BPeuUpXGc-IAa7IS6r4nfFGcbTkVlq0qv5RfQ8pdjSQ64fb0qp0ZqvPhalwdqbFNSlQxaHgTCqgA1K9mhWJEGlyVYnGaKpZvsa4lD5384_bdTQc-G1N0Hkc2rtdG9qEs-Zkuy-fQY42-hm_DNLcTNvOzL3yIpUYZ0N7A",
+              "title": "artviewer.org",
+              "resolvedUri": "https://artviewer.org/agnes-denes-and-asa-sonjasdotter-at-lunds-konsthall/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 184,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (born May 31, 1931) is a Hungarian-born American conceptual artist known as a pioneer of environmental and ecological art."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     }
   ]

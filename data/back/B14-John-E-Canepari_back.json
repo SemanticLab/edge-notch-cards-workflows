@@ -9,6 +9,108 @@
         "y1": 11.4,
         "x2": 36.0,
         "y2": 31.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q116784053",
+          "label": "Rubén Sierra",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the Wikidata entry was born in 1983, which makes it impossible for them to be the individual referenced on the card from 1970. Furthermore, the Wikidata entity is a mycologist, which does not fit the artist context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Richard Serra (frequently misspelled in contemporary documents as Richard Sierra) is an American sculptor and video artist who was an active member of the Experiments in Art and Technology (E.A.T.) organization in the late 1960s and early 1970s. On his E.A.T. membership form, he expressed interest in using rubber, neon, and electronics in his artistic practice. He also experimented with film through E.A.T., notably producing the 36-minute film 'Color Aid' (1970–1971). Serra was one of the artists selected by E.A.T. to contribute to 'The New York Collection for Stockholm Portfolio' (1973), a project that donated significant works of 1960s American art to the Moderna Museet in Sweden.",
+            "sources": [
+              "https://scienceandfilm.org/articles/2953/rubber-neon-electronics-experiments-in-art-and-technology",
+              "https://www.kemperartmuseum.wustl.edu/on-view/on-view/the-new-york-collection-for-stockholm-portfolio",
+              "https://www.moma.org/documents/moma_catalogue_2133_300297067.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Rubén Sierra (1946–1998) was a Chicano playwright, actor, and director active in the late 1960s and 1970s. He gained national recognition for his 1968 play 'La Raza Pura, or Racial, Racial,' which was one of the first Latino plays broadcast on National Educational Television (the precursor to PBS). Sierra served as the founding artistic director of the multicultural Seattle Group Theatre and was a faculty member at the University of Washington Drama School. He was a central figure in the Chicano and multicultural theater movements of the late 20th century.",
+            "sources": [
+              "https://www.seattlecityoflit.org/neighborhood-spotlight",
+              "https://www.latimes.com/archives/la-xpm-1993-07-31-ca-18751-story.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"R. Sierra\" artist Experiments in Art and Technology",
+            "\"R. Sierra\" E.A.T. 1960s 1970s",
+            "\"Ruben Sierra\" artist E.A.T.",
+            "\"Robert Sierra\" artist E.A.T.",
+            "\"Roberto Sierra\" artist E.A.T.",
+            "\"Ricardo Sierra\" artist E.A.T.",
+            "\"Experiments in Art and Technology\" \"Sierra\" artist",
+            "\"Ruben Sierra\" artist E.A.T.",
+            "\"Robert Sierra\" artist E.A.T.",
+            "\"Richard Sierra\" artist E.A.T.",
+            "\"René Sierra\" artist E.A.T.",
+            "\"R. Sierra\" artist E.A.T. membership",
+            "\"Richard Sierra\" Experiments in Art and Technology",
+            "\"R. Sierra\" artist \"Experiments in Art and Technology\"",
+            "\"Richard Serra\" E.A.T. affiliation",
+            "\"Robert Sierra\" Experiments in Art and Technology",
+            "\"Ruben Sierra\" Experiments in Art and Technology",
+            "\"R. Sierra\" 1960s 1970s \"E.A.T.\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVA-vpqAxWm1ZnQjFhvEy4oB0t2WVbtC_0VnDe7QNZNdggA9Xwk5-lvcd_FMlYW75Cj6PYylfmuqZ7uI6X-s7xTtZtGS9QHYtKgz1DE2YV4oVyf1A_SHolo3wlOJVGDsxOJvyt6Ps7hjQdBtm2W7er9d83V20IC9-3Yy9RoD4iqd-hJ3z2VLG2dQ48CeekSfkNRA-BKKTEB_0K8ZoMUOqDha9jqPWleHYZLOynMQ3YtWAijEGySoyf",
+              "title": "wustl.edu",
+              "resolvedUri": "https://www.kemperartmuseum.wustl.edu/on-view/on-view/the-new-york-collection-for-stockholm-portfolio-2018/filter/past/page/3"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnFhhtDYE8e71AqHLO15lZsxSS0CuUUBT9kL4grDEC7ncROPW3Hd3-3CC1lHNgi4v4lsIl_b6CvpAvuEaq787G0XieDdk8pBmM53lFdhz2qVKkrZOmVf90vCrWZ0TkyTTx7lUsxlyTahvC48hBAJ9FqYB2Mb3kmpIbULTsk679wvJLrRPeMKnPIwRxoZpGZ_g3w4aCXshSH6wV",
+              "title": "whitechapelgallery.org",
+              "resolvedUri": "https://www.whitechapelgallery.org/wp-content/uploads/2014/08/Electronic-Superhighway-Guide.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCIv2Liqe36XO95QVOZ_h-TK4SsxICetf_hxyitC4F0O6TiWAc-8uj8ScBzo-SvRnQ9D69zYYWq2qlwoE-6kI5FqDEbH-4vw5JL7j-YAFYzZeGxUFLqmDAjn_9nTUCYLSEjupwLHDt8WI7wG8jfslT26YW2LyiyJd37Igr--gAP3mvk0y-YhGfE7jGcI8PcskMKDtnXWSlSVOWAIBa",
+              "title": "scienceandfilm.org",
+              "resolvedUri": "https://scienceandfilm.org/articles/2955/rubber-neon-electronics-experiments-in-art-and-technology"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 247,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Richard Serra (frequently misspelled in contemporary documents as Richard Sierra) is an American sculptor and video artist who was an active member of the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 248,
+                "endIndex": 295,
+                "text": "organization in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 310,
+                "endIndex": 413,
+                "text": "membership form, he expressed interest in using rubber, neon, and electronics in his artistic practice."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +121,274 @@
         "y1": 33.5,
         "x2": 39.6,
         "y2": 46.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26336",
+          "label": "Robert O'Brien",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly and the date on the card (1970) aligns perfectly with the activity period of the E.A.T. Technical Services Program mentioned in the Wikibase entity. The card metadata structure suggests it is part of the same collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q172352",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q172352) refers to a Formula One driver and screenwriter born in 1908. While active during the correct period, the card metadata specifically links the individual to the Experiments in Art and Technology (E.A.T.) program, which corresponds to a different Wikidata entity (Q26336) rather than this racing driver."
+        },
+        {
+          "qid": "Q2140648",
+          "label": "Robert O. O'Brien",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity (Q2140648) describes Robert O. O'Brien, a conductor. While the name and time period are plausible, the card metadata explicitly links the person to a different Wikidata entity (Q26336), who is an artist associated with the Experiments in Art and Technology (E.A.T.) program. These are distinct individuals who happen to share a common name."
+        },
+        {
+          "qid": "Q7342642",
+          "label": "Robert C. O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Robert C. O'Brien (Q7342642) was born in 1966. This would make him only four years old at the time of the 1970 entry date on the card, which identifies the subject as an artist active in the E.A.T. Technical Services Program. Furthermore, the Wikidata entity is a lawyer and diplomat, not an artist."
+        },
+        {
+          "qid": "Q7348090",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q7348090 describes an Olympic canoeist, whereas the card context identifies Robert O'Brien as an artist active in the late 1960s and 1970s associated with Experiments in Art and Technology (E.A.T.). These are distinct individuals with different professional backgrounds."
+        },
+        {
+          "qid": "Q7348091",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in 1970, whereas Wikidata entity Q7348091 describes a businessperson who was the CEO of Metro-Goldwyn-Mayer (Robert H. O'Brien). These are distinct individuals with the same name."
+        },
+        {
+          "qid": "Q7348092",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a Robert O'Brien who is an artist active in the late 1960s and early 1970s, likely associated with Experiments in Art and Technology (E.A.T.). The Wikidata entity Q7348092 describes a high-ranking military officer in the Royal Air Force (Air Vice-Marshal). These are clearly different individuals."
+        },
+        {
+          "qid": "Q7348093",
+          "label": "Robert O’Brien FitzRoy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q7348093) refers to a British naval officer, Robert O'Brien FitzRoy, who lived from 1839 to 1896. This contradicts the card entry which refers to an artist named Robert O'Brien active in 1970."
+        },
+        {
+          "qid": "Q27923210",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name and date are plausible for the Wikidata entity, but the card entry contains metadata specifically linking it to the E.A.T. (Experiments in Art and Technology) Technical Services Program, which matches a different Wikidata entity (Q26336). Q27923210 represents a British painter born in 1939; given the commonality of the name 'Robert O'Brien', it is unlikely that this British painter is the same person as the American-based artist/technician associated with the E.A.T. program mentioned in the card's internal candidate list."
+        },
+        {
+          "qid": "Q30038569",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names and the general occupation (artist) match, Wikidata entity Q30038569 was born in late 1951, making him only 18 or 19 years old at the time of the card entry (1970). Furthermore, the card metadata explicitly suggests a different candidate (Q26336, associated with E.A.T.) is the correct match, and the Wikidata record for Q30038569 explicitly contains a 'different from' property for another Robert O'Brien, likely the E.A.T. artist."
+        },
+        {
+          "qid": "Q75285654",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q75285654 lived from 1776 to 1838, which is entirely incompatible with the person on the card who was active in 1970."
+        },
+        {
+          "qid": "Q75316938",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q75316938) died in 1870, exactly 100 years before the date recorded on the card (1970). The card refers to an artist active in the late 1960s/early 1970s, which is chronologically impossible for the Wikidata individual."
+        },
+        {
+          "qid": "Q75654952",
+          "label": "Robert O'Brien Studdert",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Robert O'Brien Studdert) lived from 1848 to 1936. The person on the index card was active in 1970, which is over three decades after the Wikidata entity died."
+        },
+        {
+          "qid": "Q76118145",
+          "label": "Sir Robert O'Brien, 4th Baronet",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q76118145) died in 1952, whereas the card record is dated 1970 and the context describes an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q76183670",
+          "label": "Robert O'Brien Jameson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Robert O'Brien Jameson) was born in 1820, making it impossible for them to be the artist active in the late 1960s and early 1970s described on the card. Furthermore, the surnames do not match (O'Brien vs. Jameson)."
+        },
+        {
+          "qid": "Q88715970",
+          "label": "Robert M O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist active around 1970, specifically associated with the E.A.T. (Experiments in Art and Technology) program as noted in the provided wikibase_candidates. The Wikidata entity Q88715970 describes an academic researcher affiliated with the University of Oregon and the University of Wisconsin-Madison, which is a distinct career path from the artist mentioned in the card."
+        },
+        {
+          "qid": "Q100892452",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in the late 1960s and early 1970s, specifically one associated with the E.A.T. (Experiments in Art and Technology) program. The Wikidata entity Q100892452 describes a basketball player for the UConn Huskies. These represent two different people with the same name."
+        },
+        {
+          "qid": "Q104839777",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active in 1970, whereas the Wikidata entity (Q104839777) died in 1922. Additionally, the Wikidata entity is a cricketer, which does not align with the artistic context provided for the card entry."
+        },
+        {
+          "qid": "Q108104507",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q108104507 was born in 1808 and served as a naval officer, making it chronologically and biographically impossible for him to be the artist active in the late 1960s and early 1970s described in the card entry."
+        },
+        {
+          "qid": "Q110223036",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name matches exactly and the screenwriter Robert O'Brien was active during the 1970s, the card metadata specifically identifies a different Wikibase candidate (Q26336) as an artist associated with the E.A.T. Technical Services Program. Since E.A.T. is a highly specific artistic context, the Hollywood screenwriter (Q110223036) is likely a different individual sharing a common name."
+        },
+        {
+          "qid": "Q112389067",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity describes a journalist born in 1911, whereas the card refers to an artist active in 1970. The card metadata specifically points to a different Wikibase entity (Q26336) associated with Experiments in Art and Technology (E.A.T.), making it unlikely that the journalist Q112389067 is the correct individual."
+        },
+        {
+          "qid": "Q112418929",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q112418929 was born in 1963, which means they would have been only 7 years old at the time of the card entry in 1970. This makes it impossible for them to be an artist active in the late 1960s or early 1970s. Additionally, the occupations of economist and university teacher do not align with the artist context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert O'Brien (born 1939) is a British-born artist and theatre designer who was active in the late 1960s and early 1970s. He trained in theatre design and worked as a full-time artist in London and Munich between 1964 and 1975 before moving to Hong Kong in 1976. In Hong Kong, he became a prominent figure in the local art ecology, teaching at institutions such as the University of Hong Kong's Department of Extra Mural Studies and the Academy of Performing Arts. His work often involved interdisciplinary approaches, such as mixing music with late Renaissance painting, and he was associated with experimental art communities and artist-led organizations. His early career in theatre design and his presence in the experimental art scenes of London and Munich in the late 1960s align with the timeframe and collaborative interests associated with organizations like Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://aaa.org.hk/en/collection/search/library/interview-robert-obrien",
+              "https://hk.art.museum/en/web/ma/research-project-ii.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert O'Brien (1908–1997) was a prominent American film executive who served as the president and CEO of Metro-Goldwyn-Mayer (MGM) during the 1960s. While not an artist in the traditional sense, he played a critical role in the intersection of art and high technology by greenlighting and securing the massive $5 million budget for Stanley Kubrick's '2001: A Space Odyssey' (1968). His leadership at MGM during the late 1960s was defined by his recognition of the public's fascination with the Space Race and his willingness to invest in technologically ambitious film projects that pushed the boundaries of visual art and engineering.",
+            "sources": [
+              "https://www.filmink.com.au/forgotten-film-moguls-bob-weitman-and-bob-obrien/",
+              "https://www.asimovs.com/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert C. O'Brien (1918–1973), born Robert Leslie Conly, was an American author and journalist active in the late 1960s and early 1970s. He is best known for his award-winning children's literature, including 'Mrs. Frisby and the Rats of NIMH' (1971) and the post-apocalyptic 'Z for Zachariah'. In 1964, he authored 'Machines' as part of the LIFE Science Library, a book that explored the relationship between technology, human invention, and the arts. His work frequently engaged with themes of technological impact and scientific experimentation, mirroring the intellectual concerns of the Experiments in Art and Technology (E.A.T.) movement during that period.",
+            "sources": [
+              "https://www.thriftbooks.com/a/robert-c-obrien/198751/",
+              "https://www.goodreads.com/author/show/10484.Robert_C_O_Brien"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert O'Brien\" artist bio E.A.T.",
+            "\"Robert O'Brien\" artist late 1960s early 1970s",
+            "\"Robert O'Brien\" artist Pepsi Pavilion E.A.T.",
+            "\"Robert O'Brien\" Experiments in Art and Technology E.A.T.",
+            "\"Robert O'Brien\" engineer Bell Labs E.A.T.",
+            "\"Robert O'Brien\" 9 Evenings Theatre and Engineering",
+            "\"Bob O'Brien\" Experiments in Art and Technology E.A.T.",
+            "\"Robert O'Brien\" Pepsi Pavilion artist engineer",
+            "\"Robert O'Brien\" artist collaborative 1970s",
+            "\"Robert O'Brien\" artist \"Robert Rauschenberg\" E.A.T.",
+            "\"Robert O'Brien\" \"Bob O'Brien\" artist engineer E.A.T.",
+            "\"Robert O'Brien\" artist 1960s 1970s technology",
+            "\"Robert O'Brien\" E.A.T. Experiments in Art and Technology member",
+            "",
+            "\"Robert O'Brien\" E.A.T. engineer",
+            "\"Robert O'Brien\" \"9 Evenings\" artist",
+            "\"Robert O'Brien\" Bell Labs E.A.T.",
+            "",
+            "\"Robert O'Brien\" E.A.T. member list",
+            "\"Robert O'Brien\" artist E.A.T. bibliography",
+            "\"Robert O'Brien\" 9 Evenings credit",
+            "\"Robert O'Brien\" engineer E.A.T. Pepsi Pavilion Osaka"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCafZ_a2z-1fSeQCYMUX-hKNKTqRHq9a4nZEsJQc3wyVtiYi6KYJtkSSSSfoPV7KI3tFED2EvwuPMH1Qv-Mf2UqWRHLzidvpBw9Koox3XUNYOej1VRD9bbwijFklVxU44Js-b6ozV3Z_2O53YFw230vYTDdR9J7vYgR3UTWPajJEpN8R06bKh4r3SPSksI_N_Sjq-9F1A-",
+              "title": "umn.edu",
+              "resolvedUri": "https://manifold.umn.edu/read/once-were-pacific/section/14594c31-31bd-4734-b1c1-70ee6cc8148a"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErU_N2vCE99b1MyCjvcV_ngcLwlxCGAoAN4luRDL1rrmtfsgwkPBLBKMrbXijH6Uh3ZlEj4197eeW7fYSB2Y-RiJThUMCSmC4uqiRxav2G1Z2GAcKpk8i3tgfIxQ3BEI0uOrA=",
+              "title": "hilobrow.com",
+              "resolvedUri": "https://www.hilobrow.com/sixties-ya-yya/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5QvFrKqwTLOz01Fr61-G-cQDj9AX4Wfxkie7YYWu5pdGODWSRGKXBAw3Mlv6eb0F9qTiB10meIoNxWwhpjXYz3JapE3uPK3MANDajwADsJJMJRGUP1k0zFgw7fbsgzjCTCx-FjbFXuK-U2HdW",
+              "title": "openedition.org",
+              "resolvedUri": "https://journals.openedition.org/lisa/2994?lang=en"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb8LOIrQusalJf_vhJdjsgQUJL04hbKfFkXuuVT7P9d0mL3w-ozoacBYCpYv9Kz50bfL8gfipiljr2PHGyEAzjPHYvybKWHrHS1KHlq-3b1G7ujsm-JZzpuQzGLq6eEtadMBo2ptof74HBAPRGQ_ptcih_ciP5O79CXvPuKLGh5yOJCKbnuzU0-Q==",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/735862398/sim-sales-management-1961-03-17-86-6"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfY_bEM-yeT9EGe33FRw3zBE8MPoeWSJ63zrld6Gh8smcJzFKwq4wQJZ-GzWP3yCrixsw39mZpAvrQrqD0o9-XHFm0uySKSUEDICT9zPoT9MSKo_xXqI4YEInNj6FibhZj7-mwfqyW_-Bn_Kly5gcmr9Z3lSxZvQ==",
+              "title": "guampedia.com",
+              "resolvedUri": "https://www.guampedia.com/robert-obrien-u-s-prisoner-of-war/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9H4O9OOMgaIeg2xHUnYV7xfQILrfaFLt_Sa4LmSuMDF5nAD4op0FMCl0RyLsxv2wEA1trnyTMwjuwbv127C4Vf7CLpzj6FuFJHhWuRc452CyenlC2dDtMku7KeMTHKM9lpjoSPa8u09Y=",
+              "title": "azurewebsites.net",
+              "resolvedUri": "https://hongkongarttimeline.azurewebsites.net/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqpTtgW9A6cIzvF-QlPInJjTA7E9ftxz1AVKxLdi1ALOw0csZrnsuRxtnhYlzC-x43yf1KNYltfQxfX_sckb_ezn5RRp6d5XLVCAde2cLjCl4wC01sc0cEimc4LB_5JwJxEfEcSZOQfdvRgCZFC5pvFGSNm5sYwQlSb6uD11tbV98McAHpbYTc8isvWVttvuuFDGs=",
+              "title": "washingtonian.com",
+              "resolvedUri": "https://washingtonian.com/2025/05/07/washington-dcs-500-most-influential-people-of-2025/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2716,
+                "endIndex": 2954,
+                "text": "movement during that period.\",\n      \"sources\": [\n        \"https://www.thriftbooks.com/a/robert-c-obrien/198751/\",\n        \"https://www.goodreads.com/author/show/10484.Robert_C_O_Brien\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -29,6 +399,65 @@
         "y1": 45.3,
         "x2": 42.7,
         "y2": 61.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1065447",
+          "label": "Charles-Marie Bouton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to someone active in 1970, whereas the Wikidata entity (Charles-Marie Bouton) died in 1853. The names also do not match beyond the surname."
+        },
+        {
+          "qid": "Q2114760",
+          "label": "Louis Bouton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Louis Bouton, a botanist who lived from 1800 to 1878. This is a complete mismatch with Jay Bouton, who was recorded in 1970. The names, dates of birth/death, and occupations are entirely different."
+        },
+        {
+          "qid": "Q12405714",
+          "label": "David Caftori",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Jay Bouton' and 'David Caftori' have no linguistic similarity, shared components, or documented connection. While both represent artists active during the same period, there is no evidence to suggest they are the same person."
+        },
+        {
+          "qid": "Q53105302",
+          "label": "Bouton Kalanda",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The names 'Jay Bouton' and 'Bouton Kalanda' are significantly different. While they share the string 'Bouton', 'Jay' and 'Kalanda' do not correspond, and there is no evidence provided that they are aliases or the same individual."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jay Bouton is an American interior designer and architect who was active in the late 1960s and 1970s. Originally from Denver, he studied at the Pratt Institute in Brooklyn, New York, where he was a senior student in 1971. Bouton's early career in the 1970s was centered in New York, where he contributed to professional design discourse, including correspondence with \"Interiors\" magazine regarding architectural and social issues. He later founded or led the firm Design Phase Ltd. (also known as designphase limited) and expanded his practice to the Pacific Rim, specializing in hotel and office design in regions such as Hong Kong, Thailand, and Burma. His work in the 1980s included high-profile joint ventures, such as collaborating with architect Remo Riva of Palmer & Turner on projects for the Hong Kong Land Co. Given his background at Pratt and his presence in the New York design scene during the late 1960s and early 1970s, he occupied the same professional and geographic milieu as the Experiments in Art and Technology (E.A.T.) organization, which frequently collaborated with designers and engineers from institutions like Pratt.",
+            "sources": [
+              "https://www.usmodernist.org/Interiors/I-1971-07.pdf",
+              "https://www.usmodernist.org/Interiors/I-1989-02.pdf",
+              "https://www.usmodernist.org/Interiors/I-1986-10.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Jay Bouton\" artist 1960s 1970s",
+            "\"Jay Bouton\" E.A.T. organization",
+            "Jay Bouton artist Experiments in Art and Technology",
+            "Jay Bouton art history",
+            "\"Jay Bouton\" artist collaborator",
+            "\"Jay Bouton\" \"E.A.T.\"",
+            "\"Jay Bouton\" Experiments in Art and Technology member",
+            "\"Jay Bouton\" artist 1968 1969 1970",
+            "\"Jay Bouton\" E.A.T. artist"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -39,6 +468,92 @@
         "y1": 56.6,
         "x2": 48.3,
         "y2": 71.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q117118402",
+          "label": "Franco Ciarlo",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikidata entity is specifically identified as an artist through the 'artist files at' property at the National Gallery of Art. The 1970 date on the card aligns with the expected active period for an artist represented in such archives."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Franco Ciarlo (born March 28, 1939, in Rome) is an Italian-American painter and mixed-media artist known for his distinctive \"fresco transfer technique.\" He studied architecture at the University of Rome and art at the Liceo Artistico before moving to the United States in 1964. After traveling through Mexico and Hawaii, he settled in New York City in 1967, where he became active in the contemporary art scene. His work often utilizes materials such as gauze, glue, and paper to create textured, large-scale canvases that mimic the appearance of ancient frescoes. Ciarlo's activity in the late 1960s and early 1970s is well-documented; his work \"Structure Black, Orange, Purple\" is referenced in the Dorothy C. Miller papers at the Museum of Modern Art (MoMA) archives. These archives also contain materials related to the Experiments in Art and Technology (E.A.T.) organization, supporting a connection to the interdisciplinary and experimental art circles of that era. Throughout his career, Ciarlo has exhibited at prominent venues such as the Iolas-Jackson Gallery in New York and has held teaching positions at the Pratt Institute and Parsons School of Design. His work is represented in collections including the Everson Museum of Art and private collections such as that of David Rockefeller, Jr.",
+            "sources": [
+              "https://www.francociarlo.com/bio.html",
+              "https://www.moma.org/research/archives/finding-aids/Millerb.html",
+              "https://www.casadecampoliving.com/celebrating-the-inauguration-of-franco-ciarlos-new-art-exhibit-in-the-marina-casa-de-campo/",
+              "https://www.mutualart.com/Artist/Franco-Ciarlo/A15E9F90E1796A74",
+              "https://www.invaluable.com/artist/ciarlo-franco-of4m664d9l/sold-at-auction-prices/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Franco Ciarlo\" artist biography",
+            "Franco Ciarlo artist 1960s 1970s",
+            "\"Franco Ciarlo\" E.A.T. archive"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOctZGshA7otzR3dDwpMdkJnYs7cRG1MP8f6O7pK0yoOdPE4TPGqzBWtu2gbcypsZYFFkkNX_0oDN_XW10-zS221IS_2zdeMYepn71JFpDCLHvMlgrWSk8xliT",
+              "title": "francociarlo.com",
+              "resolvedUri": "https://francociarlo.com/bio.htm"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc38Gl-tPZegCQu7uSN_tx22bJnOlixqqyMtl163irjJafqSEn0ANsbE7FRTu_1_cM7iUGVPF3zcmwRIMhKRmxLdBhQoMfHdE7tB07akK2jSLfH-oNGk05DHLE1xFC7UU-Xflx_-dzmZcEf6fozNJKlfK84CoQ8Y2ygI5aOHOYfbXcaD10QQhQlVtgMIn5ciJTPLdsnJ1Wl5nJKVMPeP_IxJGRZdxtFtyNpJDvbBsog9iKqk0=",
+              "title": "casadecampoliving.com",
+              "resolvedUri": "https://casadecampoliving.com/celebrating-the-inauguration-of-franco-ciarlos-new-art-exhibit-in-the-marina-casa-de-campo/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 330,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Franco Ciarlo (born March 28, 1939, in Rome) is an Italian-American painter and mixed-media artist known for his distinctive \\\"fresco transfer technique.\\\" He studied architecture at the University of Rome and art at the Liceo Artistico before moving to the United States in 1964."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 331,
+                "endIndex": 464,
+                "text": "After traveling through Mexico and Hawaii, he settled in New York City in 1967, where he became active in the contemporary art scene."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 465,
+                "endIndex": 617,
+                "text": "His work often utilizes materials such as gauze, glue, and paper to create textured, large-scale canvases that mimic the appearance of ancient frescoes."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1222,
+                "endIndex": 1863,
+                "text": "His work is represented in collections including the Everson Museum of Art and private collections such as that of David Rockefeller, Jr.\",\n      \"sources\": [\n        \"https://www.francociarlo.com/bio.html\",\n        \"https://www.moma.org/research/archives/finding-aids/Millerb.html\",\n        \"https://www.casadecampoliving.com/celebrating-the-inauguration-of-franco-ciarlos-new-art-exhibit-in-the-marina-casa-de-campo/\",\n        \"https://www.mutualart.com/Artist/Franco-Ciarlo/A15E9F90E1796A74\",\n        \"https://www.invaluable.com/artist/ciarlo-franco-of4m664d9l/sold-at-auction-prices/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

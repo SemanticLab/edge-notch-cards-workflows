@@ -9,6 +9,93 @@
         "y1": 6.0,
         "x2": 50.5,
         "y2": 13.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q17143715",
+          "label": "Adrianne Wortzel",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity is a known artist born in 1941, which means she would have been 28 years old at the time of the 1969 card entry, fitting the profile of an active artist during that period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Adrianne Wortzel (born October 7, 1941, in Brooklyn, NY) is a pioneering American media artist, roboticist, and educator who has been active in the art world for over six decades. During the late 1960s and early 1970s, Wortzel's early career focused on abstract painting and sculpture. She studied at the Brooklyn Museum Art School and later at Brooklyn College (B.A. 1963) under influential figures such as Ad Reinhardt, Jimmy Ernst, and Louise Bourgeois. In the mid-1960s, she began experimenting with technology-infused art, creating geometric 3D sculptures (precursors to her later time-based work) that were motorized to appear as if they were \"breathing.\" This experimental approach aligned her with the mission of the Experiments in Art and Technology (E.A.T.) organization; historical documents and scholarly texts on the history of electronic art frequently associate her name with the E.A.T. community and the development of art as an experimental research practice involving scientists and engineers. In the 1990s, she transitioned significantly into new media, earning an MFA in Computer Arts from the School of Visual Arts (1996) and becoming a pioneer in telerobotics and robotic theater. Her notable works include 'Camouflage Town' (2001), a telerobotic installation at the Whitney Museum of American Art, and 'The Electronic Chronicles' (1995), one of the earliest fictive works on the web. Wortzel is a Professor Emerita in the Departments of Emerging Media Technologies and Entertainment Technologies at the New York City College of Technology (CUNY).",
+            "sources": [
+              "https://eyebeam.org/people/adrianne-wortzel/",
+              "https://en.wikipedia.org/wiki/Adrianne_Wortzel",
+              "https://whitney.org/artists/13180",
+              "https://thoughtworksarts.io/bio/adrianne-wortzel/",
+              "https://adriannewortzel.cargo.site/Artist-History-Chronology"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Adrianne Wortzel late 1960s early 1970s art activity",
+            "Adrianne Wortzel artist biography E.A.T. Experiments in Art and Technology",
+            "Adrianne Wortzel history of robotics and art",
+            "Adrianne Wortzel CUNY profile",
+            "\"Adrianne Wortzel\" \"Experiments in Art and Technology\"",
+            "\"Adrianne Wortzel\" Pepsi Pavilion 1970",
+            "\"Adrianne Wortzel\" \"E.A.T.\" artist",
+            "\"Adrianne Wortzel\" painting late 1960s 1970s exhibition history",
+            "",
+            "\"Adrianne Wortzel\" \"Pepsi Pavilion\" Osaka 1970 participant",
+            "\"Adrianne Wortzel\" \"E.A.T.\" project 1960s 1970s",
+            "\"Adrianne Wortzel\" \"9 Evenings\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5FHVRKHMG2EUVqeS4_1dE4sm-PK5_xzBwmTjtTGClehsTAlvkmXMEkaFF2QVKquBBeVs4GexyD1jIIEromS9AFqRcAZ7mjDC6vHS3l-GipwodTbNetnkbTZcHJxzuFo_otSTpxbAlDfrxg-GkQwj9UzWrUEJCQ-cK7TojDlwdcumSQjn2",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/TheNewMediaReader/The_New_Media_Reader_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkRvwqlE1_piCGAIu77qO-YmIQwFrfVs6WBtxGvzbBvtB9n89ImZA9tJPQ1u-hW8xn7B84loihTgH7FYPsbCXDoZGPKGVtyzMyXenfUKuC_y7FZ7jdmY9OQLnPUqidfGUB_bX9q8NFsmCbcRn3s59D-Qu1vhUsR52GouN8lWfkMgv6yU04evqEFXIxxuD37Wa1RquXbiSDf4-UJg==",
+              "title": "amazonaws.com",
+              "resolvedUri": "http://s3.amazonaws.com/arena-attachments/229146/5868fa7fe95b2a087eb62bf74fce5b60.pdf?1397664067"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2jdXFOITdI6exTVL-7XcSwrYOsXls2BCUIWQh5OngxydidsknPCePLfMeC99M5O1dgGjAYAgVkdBw5zxde0JZs5o6GDbrAUDlIKqhkJB0f6yEJ4AVgWK8K31zZ6_hQl6-QYD9ZIF4mF88a0J7zbsQSoppVfW-72fgeoL4m3omMA9_mA4p_BFE2FhbOzibnBtogIfGjT40kRf-z93w25islWF2wz-1bg==",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/entangled-technology-and-the-transformation-of-performance-0262195887-9780262195881.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5i0K6Np__VjHnKGhIkFlX8NTisTd_e_7Q73xNACCgCroIuR22XOW_VZftoLgnpv3ynaHiKuyywoJXm8Lo1lf0WnehBP-YD3PurWRwCvFbT-9rBDE2pMv1YhYpUUJ7wheU0Fu5OEsBbqYcng0wKb60576iPIWXjdZAlrX2xncPVU_BM2ORSCuNsukvb80u7CZme910N15cvpv46SnJLgfWMlUJm5f1eqj08znFv_x0_AI0VdSJlsxIPfkqszShZ9U=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/793198018/Chris-Salter-Entangled-Technology-and-the-Transformation-of-Performance-The-MIT-Press-2010"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 229,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Adrianne Wortzel (born October 7, 1941, in Brooklyn, NY) is a pioneering American media artist, roboticist, and educator who has been active in the art world for over six decades."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 954,
+                "endIndex": 1063,
+                "text": "community and the development of art as an experimental research practice involving scientists and engineers."
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +106,77 @@
         "y1": 14.0,
         "x2": 45.5,
         "y2": 22.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q12049487",
+          "label": "Robert Fiala",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active and recorded in March 1969, whereas the Wikidata entity was born in July 1971, making a match chronologically impossible. Furthermore, the Wikidata entity is an athlete (football player) rather than an artist."
+        },
+        {
+          "qid": "Q132852783",
+          "label": "Robert A. Fiala",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card refers to a Robert Fiala active as an artist in 1969. The Wikidata entity describes a Robert A. Fiala whose primary occupation is listed as mayor. While it is possible for a person to have both roles, there is no evidence in the Wikidata record to link this individual to the arts or to identify them as active in that field during the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Fiala was an artist, choreographer, and director active in the late 1960s and early 1970s, primarily known for his leadership in the Multigravitational Experimental Group (also known as the Multigravitational Group or MGG). Founded in 1971 alongside Stephanie Evanitsky, the group was a New York-based dance and performance collective that specialized in \"aerodance\" or \"air dance.\" This avant-garde style featured dancers performing on complex scaffolding and suspended apparatuses, effectively bridging the worlds of choreography and engineering. Fiala served as the group's Assistant Artistic Director and later as its Artistic Director. The group's work was highly technical and experimental, often involving collaborations with engineers for lighting and sound—notably composers from Bell Laboratories—which aligns with the mission of the Experiments in Art and Technology (E.A.T.) organization. Significant performances by the group under his direction included appearances at the Grand Palais in Paris in 1972 and at various venues in New York City.",
+            "sources": [
+              "https://archive.org/stream/dancetouringprog00unse/dancetouringprog00unse_djvu.txt",
+              "https://www.vie-publique.fr/sites/default/files/rapport/pdf/286121.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Fiala\" artist 1960s 1970s",
+            "\"Robert Fiala\" engineer E.A.T.",
+            "\"Robert Fiala\" E.A.T. artist",
+            "\"Robert Fiala\" artist biography 1968 1969 1970",
+            "\"Robert Fiala\" artist kinetics electronics 1960s 1970s",
+            "\"Robert Fiala\" E.A.T. collaboration artist engineer",
+            "\"Robert Fiala\" 9 Evenings: Theatre and Engineering",
+            "\"Robert Fiala\" sculptor or kinetic artist",
+            "\"Robert Fiala\" engineer artist collaboration",
+            "",
+            "\"Robert Fiala\" E.A.T. directory engineer artist",
+            "\"Robert Fiala\" artist E.A.T. collaboration",
+            "\"Robert Fiala\" engineer NYC 1960s 1970s",
+            "",
+            "\"Robert Fiala\" \"Multigravitational Group\" NYC artist",
+            "\"Robert Fiala\" E.A.T. engineer artist collaboration",
+            "\"Robert Fiala\" kinetic art 1970s",
+            "",
+            "\"Robert Fiala\" Bell Labs E.A.T. collaboration",
+            "\"Robert Fiala\" \"Multigravitational Group\" sculptor engineer",
+            "\"Robert Fiala\" engineer Experiments in Art and Technology",
+            "\"Robert Fiala\" \"Multigravitational Group\" Bell Labs",
+            "",
+            "\"Robert Fiala\" artist NYC \"Multigravitational Group\"",
+            "\"Robert Fiala\" engineer artist 1968 1969 1970 1971",
+            "\"Robert Fiala\" E.A.T. newsletter Techne",
+            "\"Robert Fiala\" E.A.T. 1960s 1970s",
+            "\"Robert Fiala\" \"Technical Director\" E.A.T.",
+            "",
+            "\"Robert Fiala\" 1970s sculpture NYC",
+            "\"Robert Fiala\" \"Multigravitational Group\" 1970s artist biography",
+            "\"Robert Fiala\" E.A.T. artist or engineer",
+            "\"Robert Fiala\" engineer 1960s Bell Laboratories",
+            "\"Robert Fiala\" Multigravitational Group 1971 1972 1973",
+            "\"Robert Fiala\" E.A.T. member artist engineer",
+            "\"Robert Fiala\" artist performance art 1970s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -30,6 +188,52 @@
         "y1": 21.0,
         "x2": 55.5,
         "y2": 36.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26342",
+          "label": "Phyllis Gershuny",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity is explicitly linked to the E.A.T. Technical Services Program, which is the source of the card entry metadata. The name is also relatively unique."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q84602224",
+          "label": "Phyllis Gershuny",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Phyllis Gershuny is highly specific and matches exactly between the card and the Wikidata entity. The Wikidata entity's occupation as a visual artist aligns perfectly with the context of the E.A.T. (Experiments in Art and Technology) records, where she is identified as an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Phyllis Gershuny (now known as Phyllis Segura) is an artist and editor who was a central figure in the early video art movement of the late 1960s and early 1970s. She is best known as a co-founder and the first editor of 'Radical Software', the first periodical dedicated to independent video, which she launched in 1970 alongside Beryl Korot and Ira Schneider. Gershuny conceptualized the magazine as an 'evolving handbook of technology' and a tool for social change, advocating for decentralized access to information. Before founding the magazine, she lived in Europe where she worked with the Living Theater and was introduced to video technology by John Hopkins. Although she did not produce her own videotapes, she was instrumental in the design and editorial direction of the first three issues of 'Radical Software' before leaving the publication in 1971. In her later career, she returned to painting and relocated to the Hudson River area. She is also recognized as a personal chef and the founder of the poetry magazine 'Broadshirt'. Her work and influence are often cited in the context of Experiments in Art and Technology (E.A.T.) and other organizations that merged art with scientific innovation during that era.",
+            "sources": [
+              "http://www.radicalsoftware.org/e/history.html",
+              "https://voca.network/journal/rewind/",
+              "https://www.e-flux.com/announcements/615413/radical-software/",
+              "https://www.tate.org.uk/whats-on/tate-modern/electric-dreams",
+              "https://rhizome.org/editorial/2015/apr/28/creating-radical-software-personal-account/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Phyllis Gershuny\" artist biography",
+            "Phyllis Gershuny artist Experiments in Art and Technology",
+            "\"Phyllis Gershuny\" 1960s 1970s artist",
+            "\"Phyllis Gershuny\" E.A.T. organization",
+            "\"Phyllis Gershuny\" \"Experiments in Art and Technology\" membership",
+            "\"Phyllis Segura\" artist biography E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -41,6 +245,66 @@
         "y1": 30.5,
         "x2": 55.5,
         "y2": 41.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q55217907",
+          "label": "Davidson Gigliotti",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical and highly distinctive. The date on the card (1969) matches the expected activity period for an artist born in 1939. The Wikidata entity is explicitly identified as an artist with works in major museums, fitting the provided context perfectly."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Davidson Gigliotti (born 1939) is a pioneering American video artist and art historian who was a central figure in the early video art movement of the late 1960s and 1970s. He was an original member of the influential video collective Videofreex, founded in 1969, and its later iteration, Media Bus. Gigliotti's work often focused on multi-channel video installations that explored natural and urban environments, with notable pieces including 'Quaking Aspens' (1972) and 'Hunter Mountain' (1973). He was also a significant figure in the SoHo art community, collaborating with artists like Jean Dupuy and Nam June Paik. His association with Experiments in Art and Technology (E.A.T.) is documented by his own account; he sought technical assistance from the organization, which led to a pivotal professional referral to CBS and subsequently to the formation of the Videofreex. Gigliotti served as the Director of Video at the Experimental Intermedia Foundation in New York from 1975 to 1987 and is widely recognized for his work as a historian of early video art, maintaining extensive archives known as 'Davidson's Files.'",
+            "sources": [
+              "https://www.eai.org/artists/davidson-gigliotti/biography",
+              "https://zkm.de/en/person/davidson-gigliotti",
+              "https://davidsongigliotti.org/a-brief-history-of-the-videofreex/",
+              "https://www.videohistoryproject.org/davidson-gigliotti",
+              "http://www.davidsonsfiles.org/annotatedvideoexhibitionlist.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Davidson Gigliotti artist biography",
+            "Davidson Gigliotti video art 1960s 1970s",
+            "Davidson Gigliotti Raindance Corporation",
+            "Davidson Gigliotti Experiments in Art and Technology (E.A.T.)",
+            "Davidson Gigliotti \"Experiments in Art and Technology\"",
+            "\"Davidson Gigliotti\" E.A.T. collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHt_WEUAC4y_s7fX5kjJEXLvEl2BLZCxdjCw0FkEBomEJyv3REVAGwZUjMq5thc_bo-kGO063YeaDVv_X0EYgf9YCy8P1BezxqJ5KLltaCKY2apFEBGfJn1YzxRJ9NPSyLRBuDLyc64IcHUWKb2cdP",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/jean-dupuy/public-programs"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaa1_en969fHNReUAJ7d1Z0fg3-4YSHItRIrvm33AJV0AyohHuX1TjbCBvCY6pr7aE35WgXWjOzV11_OoBy8mwBMActVD5P0RbF6YItzs9wcVMi_L8yPweYF-IycBMJYCHR2BUfFdgy2nZDstPvYJmHcH0y_xflIG-MxWmnzCg0JFkuDc2ph5DZno4HJAjyOOgm3zmZEHuYrrSQbje",
+              "title": "sensesofcinema.com",
+              "resolvedUri": "https://www.sensesofcinema.com/2003/cinema-and-the-gallery/last_picture_show_installation_60s_70s/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 222,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Davidson Gigliotti (born 1939) is a pioneering American video artist and art historian who was a central figure in the early video art movement of the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -52,6 +316,71 @@
         "y1": 37.5,
         "x2": 50.0,
         "y2": 51.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q104903557",
+          "label": "Heathcoat S. Grant",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Heathcoat S. Grant died in 1938, which makes it impossible for him to be the artist Joel Heathcoat active in the late 1960s and early 1970s. Additionally, the names do not match (Heathcoat is used as a first name in the Wikidata record and a surname in the card) and their occupations differ significantly (Rear-admiral vs. artist)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Joel Heathcote (often spelled Heathcote, but referred to in some contexts with variations) is a lighting artist, designer, and technical collaborator who has been active since the 1960s. He graduated from Dartmouth College in 1961 and became a prominent figure in the intersection of art and technology, specializing in \"lighting effects,\" lasers, fiber optics, and kinetic colors. In the late 1960s and early 1970s, he was involved in experimental multi-media projects and documentation; for instance, in 1974, he was noted for donating services to the Philosophical Research Society by creating 35mm slides of their rare art and books. Heathcote is perhaps best known for his long-term involvement with Buckminster Fuller's \"The World Game\" project, where he served as a lighting artist and designer for multi-media events, including major presentations at UCSD and SDSU. His work often involved the use of advanced technology in architectural and performative contexts, such as using \"fiber optics, lasers, and kinetic colors in architecture.\" He is also a long-standing member of the Casque and Gauntlet society at Dartmouth, where he was dubbed \"Merlin of Merlins\" for his decades of designing \"ritual light magic\" and installations. His interdisciplinary career as a lighting designer and technical artist aligns with the mission of Experiments in Art and Technology (E.A.T.), an organization active during his most productive years that facilitated collaborations between artists and engineers.",
+            "sources": [
+              "https://www.casqueandgauntletsociety.org/castlegram-archives",
+              "https://dartmouthalumnimagazine.com/archives",
+              "https://www.iapsop.com/archive/materials/prs_journal/prs_journal_v34_n1_spr_1974.pdf",
+              "https://www.friendsofsdarch.com/past-speakers",
+              "https://www.upenn.edu/pennpress/book/1995_06.txt"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Joel Heathcoat artist Experiments in Art and Technology",
+            "\"Joel Heathcote\" Experiments in Art and Technology",
+            "\"Joel Heathcote\" \"lighting artist\" 1960s 1970s",
+            "\"Joel Heathcote\" engineer artist E.A.T.",
+            "\"Joel Heathcote\" Experiments in Art and Technology member",
+            "\"Joel Heathcote\" E.A.T. member list",
+            "\"Joel Heathcote\" lighting designer 1960s 1970s",
+            "\"Joel Heathcote\" engineer Experiments in Art and Technology",
+            "",
+            "\"Joel Heathcote\" lighting designer Buckminster Fuller",
+            "\"Joel Heathcote\" San Diego artist 1970s",
+            "",
+            "\"Joel Heathcote\" lighting artist E.A.T.",
+            "\"Joel Heathcote\" kinetic art San Diego",
+            "",
+            "\"Joel Heathcote\" lighting designer 1960s",
+            "\"Joel Heathcote\" Dartmouth 1961 artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9RROQnfyGMoXR7mfQKDI99IQjtHs84F9VtaaGMArKNKSCb1fE-8RZMeDpVbI0VpTBZjv3cxS5Kddv7tWH-pOvYxMvC0_e24SRG1H6TF9Z7_pfJIUvH-S4ZMKS-hCoj_mt1CCjQQrfhbi_cH11UqMQEAvWPrI6kSZASrHcd6fImmRFV91CyBNYmXGh1ZI=",
+              "title": "casqueandgauntletsociety.org",
+              "resolvedUri": "https://casqueandgauntletsociety.org/wp-content/uploads/2022/02/2019-Castlegram.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 236,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Joel Heathcote (often spelled Heathcote, but referred to in some contexts with variations) is a lighting artist, designer, and technical collaborator who has been active since the 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -62,6 +391,137 @@
         "y1": 46.5,
         "x2": 46.0,
         "y2": 56.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q95769712",
+          "label": "Fred Weiß",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names Fred Weiss and Fred Weiß are equivalent. The Wikidata entity is an actor, which falls under the category of artistic practitioner. His career timing aligns with the late 1960s and early 1970s timeframe mentioned in the card context."
+        },
+        {
+          "qid": "Q132142935",
+          "label": "Frederick Charles Weiss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an artist active in the late 1960s and early 1970s. The Wikidata entity, Frederick Charles Weiss, was a political activist and lawyer who died in early 1968, making activity in the early 1970s impossible. Furthermore, his known occupations do not align with the artistic context provided."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Fred Weiss is a musician and bass player who was active in the New York City folk and 'downtown' music scene during the late 1960s and early 1970s. In the early 1960s, he performed as a bassist with David Grisman and Gene Lowinger in the bluegrass group The Hudson Tubes, which later evolved into the New York Ramblers. This group also featured musicians like Maria Muldaur and performed at venues such as Carnegie Hall and in Washington Square Park. He studied at the New School of Music in Philadelphia under Michael Shahan and Dennis Sandole. Throughout his career, he worked as a freelance performer in both jazz and classical music, and was a member of the Delaware Symphony and the Davidson Chamber Players. Given his involvement in the collaborative, multidisciplinary NYC downtown scene of the 1960s, he fits the timeframe and geographical location of the Experiments in Art and Technology (E.A.T.) movement.",
+            "sources": [
+              "https://bluegrasstoday.com/steve-arkin-passes/",
+              "http://relachechronicles.org/wp-content/uploads/2016/10/NMA-87-Program-Book.pdf",
+              "https://cnw.com/~zappa/list.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Dr. Fred Weiss was an engineer who worked at Bell Labs in Murray Hill, New Jersey, during the 1960s and 1970s. At Bell Labs, he specialized in crystal physics and basic research. This location and timeframe are significant because Bell Labs in Murray Hill was the primary technical hub for the Experiments in Art and Technology (E.A.T.) organization. E.A.T. was founded in 1966 by fellow Bell Labs engineers Billy Klüver and Fred Waldhauer, alongside artists Robert Rauschenberg and Robert Whitman, to pair artists with engineers for collaborative projects. While Weiss's specific artistic collaborations are not documented in the provided snippets, his role as a research engineer at the specific institution that birthed and supported E.A.T. makes him a likely candidate for the technical 'artist-engineer' identity sought.",
+            "sources": [
+              "https://www.scribd.com/document/419818816/Experimental-Methods-in-RF-Design",
+              "https://ieee.org/content/dam/ieee-org/ieee/web/org/chapters/chatter_jan08.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Fred Weiss is a video and media artist/producer associated with community television and video collectives in New York. He has been identified as a program director for BronxNet (Bronx Community Cable Programming Corporation) and has been involved with independent video and film festivals. His name appears in connection with the Raindance independent film and video market, which shares historical roots with the early 1970s 'guerrilla television' and video art movement in New York—a scene closely linked to the multidisciplinary goals of Experiments in Art and Technology (E.A.T.). He is also credited in video production for performance projects such as 'Familias' (1995) in the South Bronx.",
+            "sources": [
+              "https://archive.org/stream/independentfilmv17110unse/independentfilmv17110unse_djvu.txt",
+              "https://core.ac.uk/download/pdf/213076121.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Fred Weiss\" artist 1960s 1970s",
+            "\"Fred Weiss\" E.A.T. collaboration",
+            "Fred Weiss artist Experiments in Art and Technology E.A.T.",
+            "\"Fred Weiss\" engineer artist E.A.T.",
+            "",
+            "\"Fred Weiss\" engineer \"E.A.T.\"",
+            "\"Fred Weiss\" Experiments in Art and Technology artist list",
+            "\"Fred Weiss\" artist NYC 1960s 1970s",
+            "\"Fred Weiss\" Experiments in Art and Technology E.A.T. participation",
+            "\"Fred Weiss\" Experiments in Art and Technology member",
+            "\"Fred Weiss\" 9 Evenings member",
+            "\"Fred Weiss\" E.A.T. artist or engineer",
+            "\"Fred Weiss\" artist 1960s 1970s collaborations",
+            "\"Fred Weiss\" Bell Labs engineer art",
+            "\"Fred Weiss\" Experiments in Art and Technology collaborations",
+            "\"Fred Weiss\" E.A.T. list of engineers",
+            "\"Fred Weiss\" Bell Labs engineer Experiments in Art and Technology",
+            "\"Fred Weiss\" 9 Evenings collaboration",
+            "\"Fred Weiss\" artist electronic art 1960s",
+            "",
+            "\"Fred Weiss\" engineer Bell Labs Experiments in Art and Technology",
+            "\"Fred Weiss\" Experiments in Art and Technology \"E.A.T.\"",
+            "\"Fred Weiss\" artist NYC 1960s 1970s E.A.T.",
+            "\"Fred Weiss\" artist 9 Evenings: Theatre and Engineering",
+            "\"Fred Weiss\" E.A.T. 1966 1970",
+            "\"Fred Weiss\" 1960s 1970s multimedia artist",
+            "\"Fred Weiss\" artist Experiments in Art and Technology project",
+            "\"Fred Weiss\" E.A.T. Pepsi Pavilion Expo 70",
+            "\"Fred Weiss\" engineer Experiments in Art and Technology project",
+            "\"Fred Weiss\" collaborator Billy Kluver",
+            "",
+            "\"Fred Weiss\" \"E.A.T.\" artist project",
+            "\"Fred Weiss\" E.A.T. member list",
+            "",
+            "\"Fred Weiss\" 9 Evenings engineer role",
+            "\"Fred Weiss\" Experiments in Art and Technology Getty collection",
+            "\"Fred Weiss\" artist video electronics E.A.T.",
+            "\"Fred Weiss\" filmmaker 1960s 1970s NYC",
+            "\"Fred Weiss\" E.A.T. archives artist engineer",
+            "",
+            "\"Fred Weiss\" Raindance Corporation video artist",
+            "\"Fred Weiss\" artist video electronics late 1960s",
+            "\"Fred Weiss\" artist Jewish Museum NYC 1970",
+            "\"Fred Weiss\" artist \"Software\" exhibition 1970",
+            "\"Fred Weiss\" artist Bell Labs E.A.T. collaboration",
+            "\"Fred Weiss\" Experiments in Art and Technology 1968 1969 1970 1971",
+            "\"Fred Weiss\" \"Software\" exhibition artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPge4NdhuyYzLEVMv_kViuMza_Ywxt5ZOQUf4yPWHmNb8uT57IoZtzwPaIjKr_K7GcAHvAaA3Z9BKZ5JZznGkpRX7zFRey11hC2OUTz4mybKyinn_Q2eE_E4o1c7qLnOi64DutaYK00aP4qey6rUae2uesmAj3eSnqlJjCSjZldC4l_Zv9DiwT2uT7",
+              "title": "ankehassel.de",
+              "resolvedUri": "http://www.ankehassel.de/downloads/mbf_workers_voice_academical_final_report.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlGHT3KxZraMpyUkj1XemCh5OB-devq75ZdbSbQToSIMb1gh7KhbiW-_lKz0FSZ_gFocuFY8hh__WVtQJ2ATdnduLtGZTPRmi_hBNmgEyjakQHpd5tzzDs96S88TSIp36V9OX6XmVNjlFAoNHuV_02Eh264sJUU7NzdicqZcihJb64OhA75g==",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/599201560/Experimental-Methods-in-RF-Design"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 957,
+                "endIndex": 1371,
+                "text": "movement.\",\n      \"sources\": [\n        \"https://bluegrasstoday.com/steve-arkin-passes/\",\n        \"http://relachechronicles.org/wp-content/uploads/2016/10/NMA-87-Program-Book.pdf\",\n        \"https://cnw.com/~zappa/list.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Dr. Fred Weiss was an engineer who worked at Bell Labs in Murray Hill, New Jersey, during the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1372,
+                "endIndex": 1439,
+                "text": "At Bell Labs, he specialized in crystal physics and basic research."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -73,6 +533,208 @@
         "y1": 54.5,
         "x2": 56.5,
         "y2": 67.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26334",
+          "label": "Susan Alexander",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity specifically identifies Susan Alexander as an artist associated with the E.A.T. Technical Services Program Edge-Notched Cards, which are the source of the physical card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7647506",
+          "label": "Susan Alexander-Max",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While Susan Alexander-Max was an artist (pianist) active during the relevant timeframe and studied in New York (Juilliard), the name 'Susan Alexander' is quite common. Furthermore, the card entry already points to a specific Wikibase entity (Q26334) created for the Susan Alexander associated with E.A.T., whereas Q7647506 describes a well-known classical/early-music specialist with no documented link to the E.A.T. Technical Services Program."
+        },
+        {
+          "qid": "Q18012436",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Susan Alexander as an artist associated with Experiments in Art and Technology (E.A.T.), whereas the Wikidata entity (Q18012436) describes an Australian tennis player. These are distinct professions and individuals."
+        },
+        {
+          "qid": "Q61739734",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The physical card entry refers to an artist associated with Experiments in Art and Technology (E.A.T.), whereas the Wikidata entity Q61739734 identifies a Canadian rower. There is no evidence suggesting the athlete and the artist are the same individual."
+        },
+        {
+          "qid": "Q75242385",
+          "label": "Lady Susan Alexander",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q75242385 describes a member of the British nobility (Lady Susan Alexander, daughter of the Earl Alexander of Tunis) whose primary occupation is listed as aristocrat. The card entry specifically refers to an artist associated with Experiments in Art and Technology (E.A.T.), and the provided candidates already identify a different, more specific Wikibase entity (Q26334) as the match for that artist. It is unlikely the British aristocrat is the same person as the E.A.T. artist."
+        },
+        {
+          "qid": "Q75529960",
+          "label": "Susan Whiteway Alexander",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity (Q75529960) provides no occupational information or evidence of being an artist active in the late 1960s/70s. Furthermore, the card metadata already identifies a different entity (Q26334) as the correct Susan Alexander associated with the E.A.T. program."
+        },
+        {
+          "qid": "Q75593665",
+          "label": "Susan Henn Collins",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a person who lived from 1841 to 1895, which makes it impossible for them to be the artist active in the late 1960s and early 1970s described in the card entry context."
+        },
+        {
+          "qid": "Q75633108",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names match exactly, but the Wikidata entity Q75633108 describes a British woman with specific genealogical data and no documented association with art or the Experiments in Art and Technology (E.A.T.) program. Furthermore, the card entry itself identifies a different Wikidata entity (Q26334) as the correct match for the Susan Alexander associated with E.A.T."
+        },
+        {
+          "qid": "Q76092963",
+          "label": "Susan Alexander McAlpine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Susan Alexander McAlpine died in 1921, which makes it impossible for her to be the artist Susan Alexander who was active in the late 1960s and early 1970s as described in the card entry context."
+        },
+        {
+          "qid": "Q89899880",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names are identical, the Wikidata entity Q89899880 describes a researcher at the University of Alabama in Huntsville. The Susan Alexander from the card is specifically identified as an artist associated with Experiments in Art and Technology (E.A.T.), and another Wikidata entity (Q26334) already exists that specifically matches that profile."
+        },
+        {
+          "qid": "Q92624266",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Susan Alexander' matches, but the Wikidata entity describes a researcher employed by the Nova Scotia Health Authority. This profile does not align with the profile of an artist or creative practitioner associated with Experiments in Art and Technology (E.A.T.) in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q101401119",
+          "label": "Susan Pearson Seddon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Susan Pearson Seddon lived from 1786 to 1845, which is over a century before the person on the card (Susan Alexander) was active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q102375991",
+          "label": "Susan Alexander McCook",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Susan Alexander McCook was born in 1879, making her 90 years old in the late 1960s. There is no indication she was an artist or associated with E.A.T., and her biographical details (socialite lineage) do not align with the artistic context of the card entry. Furthermore, the card entry already suggests a more likely candidate (Q26334) specifically identified with the E.A.T. program."
+        },
+        {
+          "qid": "Q112524060",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q112524060) was born in 1969, which makes it chronologically impossible for her to be an artist active in the late 1960s. Additionally, her fields of work are in medicine and nursing, which do not align with the artistic context of the Experiments in Art and Technology (E.A.T.) program."
+        },
+        {
+          "qid": "Q112602574",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match and both individuals are involved in the arts, Wikidata entity Q112602574 is specifically associated with the Montreal dance scene and Ballet Divertimento. The card entry is associated with E.A.T. (Experiments in Art and Technology), which typically involves a different artistic circle and timeframe. Furthermore, a separate Wikidata entity (Q26334) already exists specifically identifying the Susan Alexander linked to E.A.T."
+        },
+        {
+          "qid": "Q113471974",
+          "label": "Susan E. Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist involved with the Experiments in Art and Technology (E.A.T.) program in the late 1960s. The Wikidata entity Q113471974 describes a scientific researcher with a PhD from Stanford mentored by an ecologist (Joan Roughgarden), representing a distinct professional profile and career path unrelated to the artistic context of the source records."
+        },
+        {
+          "qid": "Q133693562",
+          "label": "Q133693562",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name matches exactly. The Wikidata entity's birth year of 1942 aligns perfectly with the timeframe of an artist active in the late 1960s and early 1970s, as they would have been in their mid-to-late 20s during that period."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Susan Alexander (also known as Susan Alexjander) is a composer, sound designer, and biomusician who is recognized for her pioneering collaborations with scientists and engineers to translate scientific data into sound. Her work, which she describes as \"molecular music,\" involves mapping the frequencies of natural phenomena—such as DNA sequences, atomic elements (Larmor frequencies), pulsars, and black holes—into audible frequencies played through synthesizers. She is noted for her 1988 project \"Sequencia,\" a collaboration with cell biologist Dr. David Deamer that used DNA base pairs to create music. Her work is frequently cited in the context of organizations like Experiments in Art and Technology (E.A.T.) and other art-science labs (such as the Center for Advanced Visual Studies at MIT) because of her focus on interdisciplinary synthesis. She has been active since at least the late 1960s or early 1970s; records indicate a Susan Alexander was active as a performer and composer in musical productions as early as 1968. She has collaborated with various visual artists, including an installation with Rebecca Kamen titled \"Divining Nature: An Expanded Periodic Table,\" which featured her science-based soundscapes.",
+            "sources": [
+              "https://oursounduniverse.com/about/",
+              "https://si.edu/reports/Interplay_of_Perspectives_History_Art_and_Culture_and_Science.pdf",
+              "https://www.barthopkin.com/experimental-musical-instruments-back-issues/",
+              "https://natlib.govt.nz/records/22370617",
+              "https://junctures.org/index.php/junctures/article/view/256"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Susan Alexander Speeth was a microbiologist and community activist in Philadelphia during the early 1970s who was connected to the experimental and avant-garde art scene of that era. She is historically significant for making a large donation to support the production of \"Escalator Over the Hill,\" an avant-garde jazz opera by Carla Bley and Paul Haines recorded between 1968 and 1971, which involved numerous experimental artists and collaborators. Speeth was tragically murdered in October 1975, an event that became a primary impetus for the international \"Take Back the Night\" movement against sexual and gendered violence. While her primary profession was in the sciences (microbiology), her financial and social support for radical artistic projects in the late 1960s and 1970s places her within the circle of art-technology-science collaborations characteristic of the period.",
+            "sources": [
+              "https://uff.br/earth-sound-earth-signal/",
+              "https://takebackthenight.org/history/",
+              "https://thelinknewspaper.ca/article/illuminating-the-shadows",
+              "https://www.skagit.edu/shatter-the-silence-stop-the-violence/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Susan Alexander\" artist Experiments in Art and Technology",
+            "\"Susan Alexander\" artist collaboration technology",
+            "\"Susan Alexander\" artist late 1960s 1970s",
+            "\"Susan Alexander\" artist E.A.T.",
+            "\"Susan Alexander\" Experiments in Art and Technology E.A.T.",
+            "\"Susan Alexander\" artist 1960s 1970s science technology collaboration",
+            "\"Susan Alexander\" E.A.T. member list",
+            "\"Susan Alexander\" 9 Evenings: Theatre and Engineering",
+            "\"Susan Alexjander\" Experiments in Art and Technology E.A.T.",
+            "\"Susan Alexander\" Experiments in Art and Technology member archive",
+            "\"Susan Alexander\" E.A.T. directory",
+            "\"Susan Alexander\" artist \"9 Evenings\" technical assistant",
+            "\"Susan Alexander\" artist collaborator 1960s 1970s",
+            "\"Susan Alexander\" artist \"Bell Labs\"",
+            "\"Susan Alexander\" \"Experiments in Art and Technology\"",
+            "\"Susan Alexander\" E.A.T. \"9 Evenings\"",
+            "\"Susan Alexander\" artist \"DNA\" 1970s",
+            "\"Susan Alexander\" sound artist 1960s 1970s",
+            "",
+            "\"Susan Alexander\" artist \"Bell Labs\" collaboration 1960s 1970s",
+            "\"Susan Alexander\" artist \"Pepsi Pavilion\" Osaka",
+            "\"Susan Alexander\" artist \"LACMA\" \"Art and Technology\"",
+            "\"Susan Alexander\" artist E.A.T. member",
+            "\"Susan Alexander\" Speeth artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKF3jd0dXuQ4dUYQEsrAvPT9O0h58gpVH-JszyEIRu4GNOW5UnKqkToHDrIiPJX9PunB52VviUEE61OGoh04Z_9V9LRtEviebcSCMP9z6QT8sUjZvfMzPoN0qYMmyrdXp34CMVcH9uJEQ3jIdWLWGppioCpnnxeg==",
+              "title": "thelinknewspaper.ca",
+              "resolvedUri": "https://thelinknewspaper.ca/article/illuminating-the-shadows"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7OMYfDVpZ_NUF_i_4lIMARuaVbjNxQm5AHtTMr1UG16VuGcAi5mJE1huA5sBIxNFxRINZ137rL50ZbPeSxZvW4sytyG8eN95doNWs9Av0ZclHhVOkRNiGvU15CsArdjjLVzYJYus=",
+              "title": "skagit.edu",
+              "resolvedUri": "https://thecardinal.skagit.edu/hello-world/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2194,
+                "endIndex": 2373,
+                "text": "Speeth was tragically murdered in October 1975, an event that became a primary impetus for the international \\\"Take Back the Night\\\" movement against sexual and gendered violence."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -83,6 +745,120 @@
         "y1": 62.5,
         "x2": 53.0,
         "y2": 76.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q511771",
+          "label": "Andris Krūmiņš",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name, gender, and timeline do not match. The card refers to Daina Krumins (an artist active in the late 1960s/early 1970s), while the Wikidata entity is Andris Krūmiņš, a male beach volleyball player born in 1976."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Daina Krumins (born 1947) is an American experimental filmmaker, photographer, and surrealist artist who has been active since the late 1960s. Born in a Munich refugee camp, she immigrated to the United States as a child and later earned a BFA from the NYU Film School followed by an MFA from the California Institute of the Arts (CalArts). She is best known for her painstakingly produced avant-garde films, including the award-winning 'The Divine Miracle' (1973), 'Babobilicons' (1982), and 'Summer Light' (2001). Her work often focuses on intricate textures and biological phenomena, such as slime molds and mushrooms, and she identifies as a neurodivergent artist with Asperger's syndrome. Professionally, she was a collaborator of filmmaker Pat O'Neill at Lookout Mountain Films for five years, where she worked as a rotoscoper and optical printer operator. Her technical skills led to work on major Hollywood productions, such as painting auras for the film 'The Empire Strikes Back'. Krumins was also associated with the early New York experimental scene at The Kitchen in the early 1970s, an environment deeply connected to the 'Experiments in Art and Technology' (E.A.T.) movement and emergent electronic arts.",
+            "sources": [
+              "https://366weirdmovies.com/director-retrospective-the-films-of-daina-krumins/",
+              "https://www.dainakrumins1.online/about",
+              "https://www.artsy.net/artist/daina-krumins",
+              "https://www.alternativeprojections.com/oral-histories/pat-oneill/",
+              "https://directorslounge.net/2012/03/13/babobilicons-and-miracles/",
+              "https://oac.cdlib.org/findaid/ark:/13030/c89k4bmx/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Daina Krumins artist biography",
+            "Daina Krumins film artist",
+            "Daina Krumins 1960s 1970s artist",
+            "Daina Krumins \"Pepsi Pavilion\"",
+            "\"The Divine Miracle\" Daina Krumins E.A.T.",
+            "",
+            "\"Daina Krumins\" Experiments in Art and Technology collaboration",
+            "\"Daina Krumins\" E.A.T. member",
+            "\"Daina Krumins\" CalArts E.A.T.",
+            "\"Daina Krumins\" E.A.T. newsletter",
+            "\"Daina Krumins\" Pepsi Pavilion engineer"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhXsl7XIQ3eZRLupMbi8lcdpACr_JxDyTcLKWkuZRZNGfzZMa8wbEhtNfbvIE6hZ2xbkrORr-m6xhA0c5NEHPtw3rnSP2zq8z80F9lFjbY--9EGtJr1CWryGw4NjW6rwc6qb9xEscj6wEo_uGgB2a2dSTQ2fcib2dbHSgMxY_e3hlpcGjc70o5UmNVwvc=",
+              "title": "oscars.org",
+              "resolvedUri": "https://oscars.org/sites/oscars/files/preserved_films_list_02162018_webversion.xlsx"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgmF-Md3aVYRssC4lI3xtyS8G-qj8Ani0QrNF_iKCrKiiRRyKLsNRqKQozSRWrBX-eF0emhl_Hwf0_UImzrs5_f95FRzUnYF9n_DZ10pr3m-4BdhmnYK6dPGwWamPJyARsCT1WFLuCXtNgzjdrlYuYUB5h5Mz46mLPbIm1Ipx9WJr6FBbx-mw=",
+              "title": "366weirdmovies.com",
+              "resolvedUri": "https://366weirdmovies.com/director-retrospective-the-films-of-daina-krumins/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6sfmP-E-OJb8ZCIQbrmmaJz0MplgsBcZGoUDpYqxPnOqh71W64UzgeXG-Ugf4pH1qvRLd8zFtM--heIW0FtE84Hh0GIwrJybJDIHfHmCPqJ18PFk1MzXsa9QVtwLrhQhemUifkflNdGDMdhyBPmtEAgxIMdAsmFc3",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/c8jh3rrr/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEyDvz0sgZvcXZMcA8GmKKZCj3LyedcvlweBBvgHIejAVIdY_k66hgpXYRKQo_CRXOin_NaR2_-18Ts3tRkTKVtcLexzTc5xUXlM9hIkXVgjhkSY09-eIYq2sDXFBjZeFh4iMLDVCewiSW_WDyRwvppaphjqyl9z0S33J7gWEyipBz_04VFHt_EPo9VhmmVMVzg7ZdgA==",
+              "title": "karimahashadu.com",
+              "resolvedUri": "https://karimahashadu.com/wp-content/uploads/2025/04/Millenium-Film-Journal_Spring-2019.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjtLjzxBqPoMKu5Q-XdMGghcwIUkHijAZeL63y2K1mqRnaOs_dahXhFTqap9Def5sg2q-dwmb6lu693_1mLl6ZuCbPI96aAB8oVzpg4L50v7W7KqUQgYkMlHDcImlqgtbtV95neaf0Fm_c1pqPJ-aB-ihX9PGKeuMyf9zabJ0BDyq5B0XmN1gk_1fcnojVu5qapJpsFJayPvTd4gFo6rjafeNjaaiuhAx9JF6dhNk=",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/alternative-projections-experimental-film-in-los-angeles-1945-1980-0861967151-9780861967155.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzSIBNPx5aLQvvrHAJyq03vD_eF0A9if0tSj0JoUdFXKWTxb9rS8v5wgApXfQ5I-K3FjArZ5c9G2d_SE6s6k62k4bHBUwHqx2tOhg9PrRiSSmlSTM25vvgZhK-9FqNpoAiLegd3GKdS5AU8vtNspBVKGR9MSBu",
+              "title": "canyoncinema.com",
+              "resolvedUri": "https://connects.canyoncinema.com/projects/canyon-cinema-50/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqvjEJBJRDTPORW6JY0frxkr91ZtvLxA0SWkJ7px4chSIar8FiMTIPe6Wsvybj-mkaehcvGgc2jNAke5VXp_xG1GnnTgw8JvEKh9x30gsvid3DspL2GbRVhDb6OX-B0ZnFPA==",
+              "title": "theworldviewed.com",
+              "resolvedUri": "https://theworldviewed.com/author/chris/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtx_gDxMxGXBmabZQAYikE5ohppdYcaO5_QCxv55EUhGvZRIwvGuZAw_xWXhukZFczY3GorbMXhss8KjyQiPZbhftOcHzPtxcZnruMe0y_m1dyDeHk1H6wrrZI27m5yo_g67HNwkVUov13IgZKow==",
+              "title": "theworldviewed.com",
+              "resolvedUri": "https://theworldviewed.com/category/the-free-screen/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGO1gR7Ue34zFwc2OQUlt3LahDbC9o-7uMbL0_6Slrc-PDoJ4-wwqAFjnGPmbH_Xb9m3arxFg2YPZf8c9R2d07lyUs-tDy--ElzUVxuuL7oCBbemk1xCch7TjP9wzp7zYlrFx1R7f5hTvvj7FjMQJTZPQ5BSUDsKglDgaxcLIGGUzpCSkAd3HBqoQ-ReMvrUU_g3Kxtd0MRB0DBISshnEPCw==",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/376709950_Narrating_the_Many_Autisms_Identity_Agency_Mattering"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe6CRx2Ae3lYf2_oa-YrELeO_oRYIoys4b5r0qai_V9Jl5tO24NoUEAsgFNndL_iGq1TvU8QxPr4FJpoeJE4kTz6bQuqzWHi3uD8TdcJiTDnP0OpJAqEHAgWHEOLo32C3UTurr3q_2ZM7PQ_uz0Wt1Xmn2V7rwT3kKW0OvnQ==",
+              "title": "reading.ac.uk",
+              "resolvedUri": "https://centaur.reading.ac.uk/104245/1/24894829_Wallers_thesis_.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1231,
+                "endIndex": 1751,
+                "text": "movement and emergent electronic arts.\",\n      \"sources\": [\n        \"https://366weirdmovies.com/director-retrospective-the-films-of-daina-krumins/\",\n        \"https://www.dainakrumins1.online/about\",\n        \"https://www.artsy.net/artist/daina-krumins\",\n        \"https://www.alternativeprojections.com/oral-histories/pat-oneill/\",\n        \"https://directorslounge.net/2012/03/13/babobilicons-and-miracles/\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/c89k4bmx/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -93,6 +869,295 @@
         "y1": 73.0,
         "x2": 43.5,
         "y2": 87.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26303",
+          "label": "Mike Hart",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to Mike Hart. The Wikibase entity explicitly mentions being part of the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which aligns perfectly with the physical card entry and the historical context of artists active in the late 1960s/early 1970s."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q126000",
+          "label": "Mike Hartmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Mike Hartmann was born in 1983, which makes it chronologically impossible for him to be the artist Mike Hart active in the late 1960s and early 1970s. Additionally, the Wikidata entity's occupation is a motorcycle racer, not an artist."
+        },
+        {
+          "qid": "Q1724234",
+          "label": "Mike Hartmann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Mike Hartmann was born in 1966, which makes it impossible for him to be an artist active during the late 1960s and early 1970s as required by the card's context. Furthermore, the surnames do not match exactly (Hart vs. Hartmann)."
+        },
+        {
+          "qid": "Q1804605",
+          "label": "Mike Hartman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q1804605) describes Mike Hartman, an ice hockey player born in 1967. The card refers to Mike Hart, who was an artist active in the late 1960s or early 1970s. Given Hartman's birth year and profession, he could not be the artist mentioned on the card."
+        },
+        {
+          "qid": "Q2182108",
+          "label": "Mike Hart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q2182108 refers to a poker player born in 2000. This is chronologically impossible for the person on the index card, who was an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q3067254",
+          "label": "Mike Hartenstine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Mike Hartenstine, a professional American football player born in 1953. This does not match the person on the index card, who is described as an artist associated with the E.A.T. program active in the late 1960s and early 1970s. Hartenstine would have been a teenager in the late 60s and spent his career in athletics rather than the arts."
+        },
+        {
+          "qid": "Q5076430",
+          "label": "Charles Conway Hartigan",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Charles Conway Hartigan) died in 1944 and was a high-ranking naval officer. This contradicts the context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q5391897",
+          "label": "Mike Hart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was an artist active in the late 1960s or early 1970s, whereas the Wikidata entity (Q5391897) is an American football player born in 1986. The dates and professions are entirely incompatible."
+        },
+        {
+          "qid": "Q6830983",
+          "label": "Michael Hart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q6830983 refers to a British Olympic rower (Michael Hart), whereas the card entry describes a Mike Hart who was an artist associated with the Experiments in Art and Technology (E.A.T.) program. There is no evidence in the Wikidata record to suggest the athlete had a career as an artist or any connection to the E.A.T. collective."
+        },
+        {
+          "qid": "Q6847149",
+          "label": "Mike Hart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6847149) describes a baseball player born in 1958. This person would have been too young to be an active artist in the late 1960s or early 1970s, which is the context provided for the individual on the physical card. Furthermore, the profession does not align with the artist context."
+        },
+        {
+          "qid": "Q6847150",
+          "label": "Mike Hart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q6847150 describes a professional baseball player born in 1951. The Mike Hart in the card entry is associated with Experiments in Art and Technology (E.A.T.), indicating an artistic or technical background in the late 1960s/early 1970s. It is highly unlikely that a professional outfielder for the Texas Rangers is the same individual as the artist/participant in the E.A.T. program."
+        },
+        {
+          "qid": "Q6847151",
+          "label": "Mike Hart",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Mike Hart matches exactly. The Wikidata entity describes a singer-songwriter and poet who was active during the late 1960s and early 1970s (e.g., releasing albums in 1969 and 1971), which aligns perfectly with the timeframe and artist context of the card. While Mike Hart is a common name, the occupational and temporal overlap makes him a plausible match."
+        },
+        {
+          "qid": "Q6847152",
+          "label": "Mike Hartley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Mike Hartley, a baseball player born in 1961. This person would have been too young to be an active artist in the late 1960s/early 1970s as indicated by the card's context. Furthermore, the names (Hart vs. Hartley) and professions do not align."
+        },
+        {
+          "qid": "Q14950706",
+          "label": "Mike Hartline",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Mike Hartline was born in 1988 and is an American football player. This makes it chronologically impossible for him to be the artist Mike Hart active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q20109625",
+          "label": "Michael Hartfield",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Michael Hartfield, an American long jumper born in 1990. This is chronologically impossible for the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q26986616",
+          "label": "Michael Hartgrove",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Mike Hart, while the Wikidata entity is Michael Hartgrove. Furthermore, the card refers to an artist active in the late 1960s/early 1970s (specifically linked to the E.A.T. program), whereas the Wikidata entity describes a badminton player with no record of artistic activity."
+        },
+        {
+          "qid": "Q63341799",
+          "label": "Mike Hartley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Mike Hart vs. Mike Hartley) and the occupations are unrelated (artist associated with E.A.T. vs. ultramarathon runner)."
+        },
+        {
+          "qid": "Q91335927",
+          "label": "Mike Hart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q91335927) was born in 1981, which is chronologically incompatible with a person active in the late 1960s and early 1970s. Furthermore, the Wikidata entity is a professional wrestler, while the card entry refers to an artist associated with Experiments in Art and Technology (E.A.T.)."
+        },
+        {
+          "qid": "Q100800853",
+          "label": "Mike Hart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes Mike Hart as an artist active in the late 1960s or early 1970s associated with Experiments in Art and Technology (E.A.T.). The Wikidata entity Q100800853 refers to a modern basketball player for Gonzaga University, which is an entirely different profession and timeframe."
+        },
+        {
+          "qid": "Q100800854",
+          "label": "Mike Hart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q100800854 describes a modern college basketball player from the University of Texas Rio Grande Valley, whereas the card entry refers to an artist active in the late 1960s or early 1970s associated with the E.A.T. project. These are distinct individuals from different eras and professions."
+        },
+        {
+          "qid": "Q100800886",
+          "label": "Mike Hartke",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to Mike Hart, who is contextualized as an artist associated with the late 1960s/early 1970s. The Wikidata entity Q100800886 is for Mike Hartke, a basketball player. The names are distinct (Hart vs. Hartke) and the occupations (artist vs. basketball player) do not align."
+        },
+        {
+          "qid": "Q100800907",
+          "label": "Mike Hartman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are distinct (Mike Hart vs. Mike Hartman) and the occupations are unrelated. The card entry refers to an artist associated with the E.A.T. (Experiments in Art and Technology) program, whereas the Wikidata entity describes a basketball player who played for Niagara University."
+        },
+        {
+          "qid": "Q101483165",
+          "label": "Mike Hartland",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Mike Hart, while the Wikidata entity is for Mike Hartland. Furthermore, the card record already identifies a high-confidence match with a different Wikidata entity (Q26303) that specifically references the E.A.T. program context."
+        },
+        {
+          "qid": "Q114758724",
+          "label": "Mike Hartington",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to Mike Hartington, a contemporary software professional who participated in the React Summit 2022. This does not align with the historical context of the card entry, which describes an artist named Mike Hart active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q124641349",
+          "label": "Mike Hartill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are not an exact match (Mike Hart vs. Mike Hartill). Furthermore, the Wikidata entity is identified as a sociologist and university teacher specializing in the sociology of sport and child abuse, which does not align with the context of an artist active in the late 1960s and early 1970s associated with the E.A.T. program."
+        },
+        {
+          "qid": "Q131910320",
+          "label": "Maggie Harter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Maggie Harter, birth name Michael Harter) was born in 1981, which makes it chronologically impossible for them to be the artist 'Mike Hart' active in the late 1960s and early 1970s mentioned in the card's historical context."
+        },
+        {
+          "qid": "Q133501111",
+          "label": "Mike Hart",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Mike Hart in the card entry is identified as an artist associated with the Experiments in Art and Technology (E.A.T.) program in the late 1960s/early 1970s. In contrast, the Wikidata entity Q133501111 describes a hematologist and university teacher specialized in veterinary hematology and wild animals, which is an unlikely career path for the artist described."
+        },
+        {
+          "qid": "Q136633675",
+          "label": "Q136633675",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity lists a birth date of 1964, which would make the person a young child (under 10) during the late 1960s and early 1970s when the artist from the card was active. It is highly improbable that they are the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Michael William \"Mike\" Hart (1943–2016) was an English singer-songwriter and poet who was a central figure in the Liverpool underground arts scene during the late 1960s and early 1970s. He is best known as a member of The Liverpool Scene, a multidisciplinary poetry and music collective formed in 1967 that included Adrian Henri, Roger McGough, and Andy Roberts. The group was noted for its \"skilful fusion\" of pop, folk, jazz, and blues with avant-garde performance art. After leaving the group in 1968, Hart released two solo albums, \"Mike Hart Bleeds\" (1969) and \"Basher, Chalky, Pongo and Me\" (1972), both of which were produced by John Peel on his Dandelion Records label. His work, such as the song \"Almost Liverpool 8,\" was highly regarded by Peel and remains a notable example of the era's experimental counter-culture art.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGMp-Ail46cxD8NbFs-GkAwQkMCuMSZTvGU52AqAtoXqOHoCfxsrqsIJzbN86ZxBNkaPa3dPLvuHuRloceTvAtC-enjMv9QZ3_pO9-1LVc3IMBCeVH02bWgbcYnjf-TViU",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhFEdoMmNya1PV-UQ-qbzoJiFaVFsUtrp2qBrUBS96f51PwONJPDcwWhiKe59jGEP1T34Yvusu6j8da6SALUOZzd8aRDvH2Ki3dmlbAGH5s22h0PA5F_Hr2pHWukXufJnyVlt_J5hy",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9Ry8RcBIJ42s_ZOJUnVFUC5l72DhpXXxjSZ7aSplmV6v7rZR0QlljBMyxWqeO0pde_e0BLuuuPyli7pIUnBdhWhU6KTPfmWMACBii6X-eXNRpfLwzkXhZEci8n4JRq1BFVU7rv4M="
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Michael Stern Hart (1947–2011) was a technologist and visionary who founded Project Gutenberg in 1971 while at the University of Illinois. Although primarily known as the inventor of the electronic book (e-book), Hart is frequently cited in the history of \"Art and Technology\" for his concept of \"Replicator Technology,\" which posits that any item capable of being digitized can be reproduced indefinitely. His pioneering work in the early 1970s is often analyzed alongside the activities of Experiments in Art and Technology (E.A.T.) in scholarly discussions regarding the fusion of artistic collaboration and automated digital labor during the late 20th century.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeOKrEWdEyb8R6ZBCjJoA9AyBNIgq9auvsOiH-z-U7E7B9_Upf7KxGERLcSMUVarkp74-wPR7V9tcoY1Vly0UzkDZdhxHQxZGEda9TMleQPlS0_HVXpeJdqMrtUQN6a6cZzq1CUlkjA8fa2Ym5NYZbRNjHZMilr4lqoa33XZnH8Ne1xJho-mVThvoaDOIxJUKi6WJk1zwpG8Ih2XhOiOZHZuGx2w==",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENp4fwQZWrX8EcJWH3ZJ2jU7A-hzbfx933z6guhAjP1Og8KQTNWVNsjZyEqiTVjmXWf0mSp343f9tbO9pl8rU9ai2Mr5KF8yfqLZFS-MR8DPyPuSeq6PvdBPwSmaHH93Z7",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdrbqnUIp3YMAqTQP1YJ-EIFnavWoVU1Q76vSJUVLV1db3B9L6mWDBQMrBMoDlIm4MQbOA-V3WE7kIR1JkwSXsawG-fvLthw_KhlGIF0bzNo7KdYh0ctB5-deuKHYcn3eXEMvz_gSonMH6qkvQDX8OAsAGfh_NyoXXI4y7t7d_VR128wV0IlbWZ7B5xSbe54qUlKSa0WqNKWFzbqmXv5Tih0eL_Va744-QlIaA_nFo5nLEu0tyfVP34DyNgCPGA3wob0Ab0sqwQ9nKuICf0v8XKcGg1oPC6lzix7t9awFAePwWvjevunQZBFByEmbIgsU="
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Professor Michael Hart is a distinguished physicist active since the 1960s who may be the scientist identity associated with Experiments in Art and Technology (E.A.T.). In 1965, along with Ulrich Bonse, he developed the Bonse-Hart X-ray interferometer, a tool that revolutionized X-ray phase-contrast imaging. E.A.T. was a non-profit organization that specifically paired artists with engineers and scientists to promote collaboration, and technologies like interferometry and holography were major areas of focus for E.A.T. projects (such as those at the Osaka Pepsi Pavilion). Hart held senior positions at Bristol University, Daresbury Laboratory, and the National Synchrotron Light Source (NSLS).",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-4uzwUAHnCkVD9T635zynZbEaSKNdUFQDzNz4xazxxOVs5SWnRLWmfCogoIBiUndA5bhxN8BmcOTMbdjIzlSmrU2Vwe73_XmFkiODZva0jAk-sxZgJo3tJZN0if-nA6BlK3BW9upDalpfdbrTMMUWrCjaWYBA1A49T6_1ZwD2OaM4B2oAtDYE",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8gmJmUhY-PsyTcLg0AFVD9agX8ZaYTQUefcO2W2J6UxIqcEW5kJQu5yP60LOnRHlrX4pbCVXlMqE97XoCqgwJfW6mRZf75XYmJcAEUg0ri-c886CEhckSnJTIIQT8sp3rxQhBYtypcMhGGtzGDVoGKLxjSGQAu1vP12nybOJmG6k=",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrZ0yTwDBqN-A7DDxvJvs1YRpBrKa_as-PkzkCFOwsVLzzaHJ3x7Om4xsh9gk--Erunxdw59aFCyGpFdQkCdOWD6zfb3pgMplLEd4w5wZN0EUYtin42gtQ17_rdy2An3zxpobM8N2RdB7IMwt45gnx5E4DPoULl69HCkyKnuZZ-tvQp3o6aipv3maIZHQ="
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Mike Hart\" artist active 1960s 1970s",
+            "\"Mike Hart\" artist 9 Evenings: Theatre and Engineering",
+            "\"Mike Hart\" E.A.T. Billy Klüver",
+            "Mike Hart artist \"Experiments in Art and Technology\" E.A.T.",
+            "\"Mike Hart\" \"9 Evenings\" artist engineer",
+            "\"Mike Hart\" artist Liverpool Scene E.A.T.",
+            "\"Mike Hart\" Experiments in Art and Technology E.A.T. membership",
+            "\"Michael Hart\" Experiments in Art and Technology E.A.T. membership",
+            "",
+            "\"Mike Hart\" artist \"The Liverpool Scene\" E.A.T. association",
+            "\"Mike Hart\" artist \"E.A.T.\" New York",
+            "\"Michael Hart\" E.A.T. \"9 Evenings\"",
+            "",
+            "\"Michael Hart\" E.A.T. Experiments in Art and Technology participant",
+            "\"Mike Hart\" E.A.T. Experiments in Art and Technology participant",
+            "\"Michael Hart\" artist \"9 Evenings\" participant",
+            "\"Mike Hart\" artist \"9 Evenings\" participant",
+            "",
+            "\"Mike Hart\" artist E.A.T. member",
+            "\"Mike Hart\" engineer E.A.T. Billy Klüver",
+            "\"Michael Hart\" artist \"The Machine as Seen at the End of the Mechanical Age\"",
+            "\"Mike Hart\" artist 1960s 1970s \"E.A.T.\"",
+            "\"Michael Hart\" \"Experiments in Art and Technology\" engineer",
+            "\"Mike Hart\" engineer Bell Labs Billy Klüver",
+            "\"Michael Hart\" artist 1960s 1970s \"E.A.T.\"",
+            "\"Michael Hart\" engineer Bell Labs Billy Klüver",
+            "\"Mike Hart\" artist \"holography\" E.A.T.",
+            "Professor \"Michael Hart\" physicist \"Experiments in Art and Technology\"",
+            "\"Michael Hart\" \"Experiments in Art and Technology\" matching service",
+            "\"Mike Hart\" physicist E.A.T. collaboration",
+            "",
+            "\"Michael Hart\" Bristol University \"holography\" artist",
+            "Michael Hart physicist holography artist collaboration",
+            "\"Michael Hart\" \"Hart-Bonse\" artist collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8gmJmUhY-PsyTcLg0AFVD9agX8ZaYTQUefcO2W2J6UxIqcEW5kJQu5yP60LOnRHlrX4pbCVXlMqE97XoCqgwJfW6mRZf75XYmJcAEUg0ri-c886CEhckSnJTIIQT8sp3rxQhBYtypcMhGGtzGDVoGKLxjSGQAu1vP12nybOJmG6k=",
+              "title": "e-bookshelf.de",
+              "resolvedUri": "https://content.e-bookshelf.de/media/reading/L-15287220-9e9fbbf012.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 3502,
+                "endIndex": 3642,
+                "text": "In 1965, along with Ulrich Bonse, he developed the Bonse-Hart X-ray interferometer, a tool that revolutionized X-ray phase-contrast imaging."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -103,6 +1168,180 @@
         "y1": 6.0,
         "x2": 94.5,
         "y2": 18.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26378",
+          "label": "Richard Lowenberg",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'R. Lowenberg' is a direct match for 'Richard Lowenberg'. The Wikibase entity specifically mentions the 'E.A.T. Technical Services Program Edge-Notched Cards', which provides a direct link to the physical card source and context."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q123292749",
+          "label": "Antonie Löwenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q123292749 (Antonie Löwenberg) refers to a Holocaust victim born in 1896 and transported to a ghetto in 1941. This does not align with the context of 'R. Lowenberg', who was an artist active with Experiments in Art and Technology (E.A.T.) in the late 1960s and 1970s. Additionally, the first initial 'R' does not match the name 'Antonie'."
+        },
+        {
+          "qid": "Q123292809",
+          "label": "Karl-Heinz Löwenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'R. Lowenberg' (likely Richard Lowenberg based on existing metadata), whereas the Wikidata entity is for Karl-Heinz Löwenberg, a Holocaust victim born in 1937. The initials do not match, and the life trajectory of a Holocaust victim deported in 1941 does not align with the profile of an artist active in the E.A.T. program during the late 1960s."
+        },
+        {
+          "qid": "Q123293168",
+          "label": "Ernst Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Ernst Löwenstein) was born in 1877 and was a victim of the Holocaust, being transported to the Riga Ghetto in 1941. This is incompatible with the context of an artist (R. Lowenberg) active in the late 1960s and 1970s. Furthermore, the first initial and surname do not match."
+        },
+        {
+          "qid": "Q123293261",
+          "label": "Karl Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'R. Lowenberg', while the Wikidata entity is 'Karl Löwenstein'. Besides the name discrepancy, the Wikidata entity was born in 1880 and was a victim of the Holocaust, making it impossible for them to be an artist active in the late 1960s or early 1970s as described in the card context."
+        },
+        {
+          "qid": "Q123293379",
+          "label": "Margarete Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Margarete Lowenstein, a Holocaust victim born in 1891 and deported in 1941. This identity does not match the name 'R. Lowenberg' and the timeline is incompatible with an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q123293512",
+          "label": "Selma Löwenstein",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (R. Lowenberg vs Selma Löwenstein). Furthermore, the Wikidata entity describes a person born in 1877 who was a Holocaust victim transported in 1941, which is chronologically incompatible with being an artist active in the late 1960s and early 1970s as required by the card context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Richard Lowenberg (born 1946, Haifa) is an American media artist, designer, and eco-cultural activist whose career has been defined by the creative integration of art, science, and technology. Active since the mid-1960s, he studied architecture and design at the Pratt Institute in New York before moving to the San Francisco Bay Area in 1968. Lowenberg is a notable pioneer in bio-sensing art and telecommunication art. He was a founding member of The Kitchen in New York City (1971) and has been associated with Experiments in Art and Technology (E.A.T.), having become a member through co-founder Robert Whitman. His work often explores the 'ecology of the information environment.' Major projects include his collaborations with NASA (1974–1984), such as the 'NASA-Arts Project' and 'Gravitational Field Day' (1979), as well as his work on the feature film 'The Secret Life of Plants' (1976–1979), where he used bio-telemetry to translate plant physiology into audio-visual output. He also founded the Bio-Arts Lab (1974–1985) and the Telluride Institute (1984). His multidisciplinary practice encompasses photography, film, video synthesis, performance, and environmental design.",
+            "sources": [
+              "https://www.richardlowenberg.com",
+              "https://flash---art.com/2019/10/richard-lowenberg-bio-sensing-art/",
+              "https://www.artsy.net/article/artsy-editorial-pioneering-artist-harnessed-science-communicate-plants",
+              "https://en.wikipedia.org/wiki/Video_feedback",
+              "https://www.creativesantafe.org/speakers/richard-lowenberg/",
+              "https://leonardo.info/journal-issue/leonardo/53/5"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"R. Lowenberg\" artist late 1960s early 1970s",
+            "\"Richard Lowenberg\" artist biography 1960s 1970s",
+            "\"Richard Lowenberg\" Experiments in Art and Technology",
+            "artist \"R. Lowenberg\" E.A.T.",
+            "\"Richard Lowenberg\" E.A.T. member",
+            "\"Richard Lowenberg\" \"Experiments in Art and Technology\"",
+            "\"Richard Lowenberg\" artist NASA collaborations"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIuNf95MJ31423d998_qBPy1yIlQottyb0ZQw-JScrBYQ8pMGOMCn9DejiMp8BRtcICAa0bC1ntgrGjpTn1qhbVpd2HeBPAtG-LSsBVOOH8HUN8ziGsFifYoNkCH2N0WYBINUdmwT9s3puLluOCmNHnQFFmQJvwKBeT8za5DF7gB_dS1TRIdUSkpiz9xLMmRV2Mg==",
+              "title": "richardlowenberg.com",
+              "resolvedUri": "http://www.richardlowenberg.com/uploads/1/8/3/0/18303441/rl-eco-arts-outline-bio-rl.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHteLAY8Qv8VTogUwwkgroO8UiKiF3sHvP6r7-LX1sfUa5XCNzdNvKUUiJfxeMoH-JvaYAB5D91XqZD14FXz2NRc8ReU4dHPmsdwmB9ig-pG0jye8ZY6Sz595eWmd4UesbZ8zf5ntcIEgELPPJgZYLsj5iV",
+              "title": "well.com",
+              "resolvedUri": "https://people.well.com/user/jmalloy/issues/richard.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT8cRXvcBoR1HRT4VkJD85598zwtidh8Yfj5oQWBjrW2DW0TA4oIZ8aqtf2t-7QYqjsSNUHnzDeLUzbdHZ2lB5XJvcNC0H8O9df_n1y1fyD-tdZTQiJ_GlfNv_J4BM0V05W1Sf5AjeCElfj68Uovc4gnIABXeERD_14bZ3ZgJA8pIP7hPsVtV83ZxM_O7EH9ViuKhADvGr6nWMzU1IbFibmnRigVHY4LfPZwp4DtQEQLDT2JjeaePNYbzGZKHAp_l-wSoMSoKt",
+              "title": "flash---art.com",
+              "resolvedUri": "https://flash---art.com/2019/10/cross-species-communication-and-bio-sensing-art-of-the-1970s-and-80s-a-conversation-with-richard-lowenberg/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrf0GFScYJAX2kV4-Q1YTGgAQXequVJgiz5QKIKXQtgY7utt_VjYjPMFt5UO4RIuLV8aGD6Eu8paYtjImkKs0zkuEmmIAfcnzGJAHafDjqCbQ5ISgJYC0j8HQKP-mJBl511WugugHu9WhRxgy4VPVGPKbnb5-80dJtem5J7OBOoj8Y3hYtWKd4dO_NwfAonq5uY-5NLnX7TBHOg9WqX9xXJw==",
+              "title": "bg.ac.rs",
+              "resolvedUri": "https://rifdt.ifdt.bg.ac.rs/bitstream/handle/123456789/4084/bitstream_14967.pdf?sequence=2&isAllowed=y"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWKIIFbxMU04eD7MjTUzFHfQIgk3_ngrktj4qpJepEkohe0PVfhoZw54nvZuP11-z_IC5SKXIOGld9P62U9J5flA2f8tDUqJuw5i0JazmWgGu3kL43HTZbuooK2gtGLLr_MClVotloLJDb-sCd3WRz17iBnlx7NZkK_jk6njBJwfYv-jWNzdiSJ_B6hFulMBdI_p8GeysGYhVr1_jicJMQCV44SaY=",
+              "title": "agneschavez.com",
+              "resolvedUri": "https://agneschavez.com/2018/05/28/art-astrophysics-and-particle-accelerators-nm-artists-at-nasa-and-cern/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxLbL3jIxLtVtqzX3TzsI0qppPOu0m2dSsdC7_1ihnhy5cdoPXsYsoOCEl_Ryl8hN51Y0Q0KqP6WKhqRseDXTJM7mFWM9dOdWny3diqwKtQY0Gr8GXYHWjYYGG6BaCToVW3BPePn6ru92hbiNgEATwWvjMA9VXL3EfBYxWl3wWg78Sq4HUg0_qJJa_3s7fsdZIOpLNrmYaw6V62hy2YB8=",
+              "title": "artsy.net",
+              "resolvedUri": "https://www.artsy.net/article/artsy-editorial-pioneering-artist-harnessed-science-communicate-plants"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX8fzKxpShSFVh78ElQWvArHOrro2sWMrEQ4B5ccI8qLR5e3p12VyvlMslT9nkLTdx2_KL-abKTPo0sI0pVbQT6HTPh3TbH8tyMyiA1i_bXj7Xuvf8M3zOdcJqSvFCgfuUNXBNvjkz8e1vc36_CKRNC4LaLZVhXt4aOPkMRoisjFT81I9buDWmOghxQraEjjxWFvDV9jtumahswB-dmBFG",
+              "title": "mit.edu",
+              "resolvedUri": "https://direct.mit.edu/leon/article/53/5/571/96947/Creative-Works-Exploring-Our-Information-Ecosystem"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpYlpv0Q2XQ22OPgI-weigvT4_0lsr9FouKxblbIeKoDVjxBQ6J5mTdJLqPvmYWhEwogHSwps2O4ncRNO_A56qXA68dbPuZHsW05LQrF-u1YSPiq6Yz9OqYbLioKHFmi9lnKjwh6OEsu9zi7t1xpYYd1I_RbCuRC2_w1uvMA3kEC0L_lPklYneBAuJAK48k-FYnqw=",
+              "title": "americansforthearts.org",
+              "resolvedUri": "https://explorer.americansforthearts.org/wp-content/uploads/2022/01/Information-Arts.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7wxhQoLJ9q_HtXIjY1HvOv3T-4SsE4uN6eYkfbikSVwC5bXXwDuJKkAkJ0aApb1vTvUdsGKHRv-qJDGs1H4fnipzfiJ96WbynmWvKD9ooc_LL__ZZIiG-1dzXK37Y3Par3Jut",
+              "title": "mdpi.com",
+              "resolvedUri": "https://www.mdpi.com/2072-4292/12/19/3136"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 242,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Richard Lowenberg (born 1946, Haifa) is an American media artist, designer, and eco-cultural activist whose career has been defined by the creative integration of art, science, and technology."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 666,
+                "endIndex": 735,
+                "text": "His work often explores the 'ecology of the information environment.'"
+              },
+              "groundingChunkIndices": [
+                6,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1123,
+                "endIndex": 1735,
+                "text": "His multidisciplinary practice encompasses photography, film, video synthesis, performance, and environmental design.\",\n      \"sources\": [\n        \"https://www.richardlowenberg.com\",\n        \"https://flash---art.com/2019/10/richard-lowenberg-bio-sensing-art/\",\n        \"https://www.artsy.net/article/artsy-editorial-pioneering-artist-harnessed-science-communicate-plants\",\n        \"https://en.wikipedia.org/wiki/Video_feedback\",\n        \"https://www.creativesantafe.org/speakers/richard-lowenberg/\",\n        \"https://leonardo.info/journal-issue/leonardo/53/5\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                0,
+                8,
+                2,
+                6,
+                4,
+                5
+              ]
+            }
+          ]
+        }
       }
     }
   ]

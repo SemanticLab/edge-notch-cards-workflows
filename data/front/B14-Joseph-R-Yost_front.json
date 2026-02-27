@@ -24,5 +24,122 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "",
     "aestheticPhilosophicalInterests": ""
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q16231633",
+      "label": "Joseph R. Yost",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different individuals with the same name. The person on the card was an engineer associated with the Newark College of Engineering (which changed its name to NJIT in 1975), while the Wikidata entity was born in 1986 and is a politician from Virginia. The chronological gap and distinct professional paths make a match impossible."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q3272013",
+      "label": "New Jersey Institute of Technology",
+      "description": "public research university in Newark, New Jersey, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Newark College of Engineering (NCE) is the former name of the New Jersey Institute of Technology (NJIT). The institution changed its name to NJIT in 1975, but the engineering division within the university retains the name Newark College of Engineering to this day. Both are located in Newark, New Jersey, and represent the same educational entity."
+    },
+    {
+      "qid": "Q37877933",
+      "label": "Newark College of Engineering",
+      "description": "part of New Jersey Institute of Technology in Newark, New Jersey, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card, 'Newark College of Engineering', matches the Wikidata entity name exactly. Both refer to an engineering institution located in Newark, New Jersey (which became part of the New Jersey Institute of Technology)."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Joseph R. Yost was a structural and mechanical engineer active during the late 1960s and early 1970s. He was affiliated with the Newark College of Engineering (now the New Jersey Institute of Technology) and resided in Edison, New Jersey. Yost was a member of Experiments in Art and Technology (E.A.T.), a non-profit organization founded in 1966 to foster collaborations between artists and engineers. His technical expertise, as recorded in E.A.T. membership materials, included structural design, machine design, computers, and paper products. A Joseph R. Yost was also noted as a resident of Nottingham Road in Edison, New Jersey, in the early 1990s.",
+        "sources": [
+          "https://digifind-it.com/metuchen/data/Edison/1990/1990-06-08.pdf",
+          "https://www.getty.edu/research/special_collections/finding_aids/eat_a.html"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Joseph R. Yost\" E.A.T. engineer",
+        "\"Joseph R. Yost\" Newark College of Engineering",
+        "\"Joseph R. Yost\" Structural & Mechanical Engineer Newark",
+        "\"Joseph R. Yost\" Experiments in Art and Technology",
+        "",
+        "\"Joseph R. Yost\" \"E.A.T.\"",
+        "\"Joseph R. Yost\" structural engineer Newark College of Engineering",
+        "",
+        "\"Joseph R. Yost\" technical field computers paper products",
+        " \"Joseph R. Yost\"",
+        "\"Joseph R. Yost\" Getty Research Institute E.A.T.",
+        "\"Joseph R. Yost\" Newark College of Engineering structural engineer",
+        "",
+        "\"Joseph R. Yost\" \"Machine design\" Newark",
+        "",
+        "\"Joseph R. Yost\" Newark College of Engineering 1960s 1970s",
+        "\"Joseph R. Yost\" Experiments in Art and Technology engineer Newark",
+        "\"Joseph R. Yost\" E.A.T. membership",
+        "",
+        "\"Joseph R. Yost\" \"machine design\" computer Newark",
+        "\"Joseph R. Yost\" Edison NJ structural engineer",
+        "",
+        "\"Joseph R. Yost\" Edison NJ structural design machine design",
+        "\"Joseph R. Yost\" E.A.T. engineer Newark",
+        "",
+        "\"Joseph R. Yost\" E.A.T. directory",
+        "\"Joseph R. Yost\" structural engineer Edison NJ",
+        "",
+        "",
+        "\"Joseph R. Yost\" \"structural design\" engineer Newark",
+        "\"Joseph R. Yost\" Newark College of Engineering faculty",
+        "\"Joseph R. Yost\" obituary Edison NJ",
+        "",
+        "patent \"Joseph R. Yost\" engineer",
+        "\"Joseph R. Yost\" engineer 1968 1969 1970",
+        "",
+        "\"Joseph R. Yost\" \"Nucleus\" Newark College",
+        "\"Joseph R. Yost\" Newark College of Engineering yearbook",
+        "\"Joseph R. Yost\" \"E.A.T.\" Getty index",
+        "\"Joseph R. Yost\" \"E.A.T.\" newsletter",
+        "",
+        "\"Joseph R. Yost\" engineer \"machine design\" computer Newark College",
+        "",
+        "",
+        "\"Joseph R. Yost\" obituary \"Edison\"",
+        "\"Joseph R. Yost\" engineer \"New Jersey\" 1968 1969 1970",
+        "",
+        "",
+        " \"Joseph R. Yost\"",
+        " \"Joseph R. Yost\" engineer",
+        "",
+        "\"Joseph R. Yost\" E.A.T. Newark NJ"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpTsTwfLiudF_SSZPKNJd06JPA30_rrS4N0X9a_HgY-wvz0_SZCIWANGtjZBNRg8x9yWU6XXcpjXpaySrLfUV39Gmw2rkdJNR7k1iZgIC7EBDP7J-KNuNHd0idzAHlrBN73sc6RayeulXGGz-XPMVD6jeJ9QvEKiJ9YTsIVaNIBOtb0uc7CIMVB7_1aKAQcKcFj28=",
+          "title": "digifind-it.com",
+          "resolvedUri": "https://www.digifind-it.com/metuchen/data/newspapers/metuchen-review/1990/1990-06-08.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 596,
+            "endIndex": 938,
+            "text": "A Joseph R. Yost was also noted as a resident of Nottingham Road in Edison, New Jersey, in the early 1990s.\",\n      \"sources\": [\n        \"https://digifind-it.com/metuchen/data/Edison/1990/1990-06-08.pdf\",\n        \"https://www.getty.edu/research/special_collections/finding_aids/eat_a.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

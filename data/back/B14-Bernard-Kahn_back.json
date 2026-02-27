@@ -11,6 +11,133 @@
         "y1": 8.52,
         "x2": 41.4,
         "y2": 15.65
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q895886",
+          "label": "Boyce McDaniel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Boyce McDaniel, a prominent nuclear physicist and university professor who participated in the Manhattan Project. The card entry refers to an individual (L. Boyce) associated with the late 1960s/70s art scene (indicated by the 'LOFT' metadata). Furthermore, 'Boyce' is a first name for the physicist and appears to be a surname for the artist."
+        },
+        {
+          "qid": "Q2058704",
+          "label": "Paul Anderson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'L. Boyce' does not match 'Paul Anderson'. Furthermore, the Wikidata entity was born in 1978 and began working in 2005, which is inconsistent with the context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q4090472",
+          "label": "Martin Boyce",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Martin Boyce was born in 1967. Given the context that the person on the card was an artist active in the late 1960s and early 1970s, Martin Boyce would have been a child and could not be the individual described. Furthermore, the first initial 'L' on the card does not match 'Martin'."
+        },
+        {
+          "qid": "Q4952252",
+          "label": "Boyce F. Martin Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Boyce F. Martin Jr. has 'Boyce' as a given name and 'Martin' as a family name, whereas the card entry 'L. Boyce' implies Boyce is the surname. Furthermore, the Wikidata entity was a prominent federal judge and lawyer, which does not align with the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q11845318",
+          "label": "Tommy Boyce",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card refers to 'L. Boyce' and includes the metadata 'LOFT', which likely refers to the avant-garde loft art/music scene in NYC during that era. The Wikidata entity is Tommy (Sidney Thomas) Boyce, a mainstream pop songwriter. The initials do not match, and the artistic spheres (pop songwriting vs. the loft scene) are distinct."
+        },
+        {
+          "qid": "Q21506389",
+          "label": "John Shaw Boyce",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Shaw Boyce (a botanist born in 1889) does not match the name 'L. Boyce' from the card. Additionally, a career botanist who died in 1971 is unlikely to be the artist practitioner associated with the 'LOFT' context described in the card data."
+        },
+        {
+          "qid": "Q64399332",
+          "label": "Boyce Makhosonke Maneli",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'L. Boyce' (where Boyce is the surname) and describes an artist active in the late 1960s/1970s. The Wikidata entity is Boyce Makhosonke Maneli, a South African politician where Boyce is the first name. There is no evidence of an artistic career or chronological overlap with the card's context."
+        },
+        {
+          "qid": "Q75339624",
+          "label": "Boyce Combe",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Boyce Combe died in 1939, which is decades before the late 1960s/early 1970s period of activity specified for the person on the card. Furthermore, Boyce is the entity's first name, whereas the card indicates Boyce as a surname (L. Boyce)."
+        },
+        {
+          "qid": "Q75713659",
+          "label": "Boyce Schulze",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Boyce Schulze died in 1964, which is incompatible with the context that the person on the card was active in the late 1960s and early 1970s. Furthermore, 'Boyce' is the given name for the Wikidata entity, whereas the card indicates it is likely a surname ('L. Boyce')."
+        },
+        {
+          "qid": "Q84010130",
+          "label": "Boyce E Griffith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person with the surname Boyce, likely an artist active in the late 1960s or early 1970s. The Wikidata entity is Boyce E Griffith, where Boyce is the first name, and his occupation is listed as a researcher, which does not align with the artistic context provided."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Larry Boyce (1946–1992) was a prominent American decorative painter and stencil artist known for his significant role in the late-20th-century Victorian revival. He became active in the artistic community in the late 1960s and early 1970s, particularly in the Pacific Northwest and San Francisco Bay Area. Boyce was famously an itinerant artist who traveled more than 200,000 miles by bicycle across the United States to paint elaborate stenciled friezes, ceilings, and moldings in historic homes. His lifestyle and artistry earned him national attention, including coverage in Smithsonian Magazine and the New York Times. His archival papers and documentation are preserved in the Jack Eyerly collection on Pacific Northwest Art at Willamette University. Notably, Jack Eyerly was the founder and secretary of the Portland chapter of Experiments in Art and Technology (E.A.T.), and Boyce is categorized as an individual artist within this collection, which covers his work and correspondence from approximately 1971 to 1975.",
+            "sources": [
+              "https://www.collectorsweekly.com/articles/the-paint-pedaler/",
+              "https://artisticlicense.org/boyce/",
+              "https://archiveswest.orbiscascade.org/ark:80444/xv736174/xml"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"L. Boyce\" artist 1960s 1970s",
+            "artist \"L. Boyce\" Experiments in Art and Technology",
+            "\"Larry Boyce\" artist Experiments in Art and Technology",
+            "\"L. Boyce\" E.A.T. artist",
+            "",
+            "\"Larry Boyce\" stencil artist Victorian homes",
+            "\"Larry Boyce\" artist E.A.T. Experiments in Art and Technology",
+            "\"Larry Boyce\" Portland artist 1960s 1970s",
+            "\"L. Boyce\" Experiments in Art and Technology Northwest",
+            "\"Larry Boyce\" Experiments in Art and Technology E.A.T.",
+            "\"Boyce\" \"Experiments in Art and Technology\" member",
+            "\"Jack Eyerly\" \"Larry Boyce\" artist",
+            "\"L. Boyce\" artist E.A.T. Pepsi Pavilion",
+            "",
+            "\"Larry Boyce\" artist \"Jack Eyerly\"",
+            "\"Larry Boyce\" Portland E.A.T.",
+            "\"L. Boyce\" decorative artist E.A.T.",
+            "\"L. Boyce\" Experiments in Art and Technology member list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZos_H4n--cwjVlqEKn3UhAEMtD4CGgdfV85CL6D32H_SP-9hJvfbxvflFGBRcPrgiZM-3JlbejW_e_K1e_2Lulk5JR7mqiR6M8JBt3qWt0Dv_Jqbw8TvNW3KVlpgoDekfHZUHYpZn5YXMZhjvFY1Uqu0in625PiK22IQ0zWy83a1-aA==",
+              "title": "libraryhost.com",
+              "resolvedUri": "https://willamette.libraryhost.com/repositories/2/archival_objects/40069"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 675,
+                "endIndex": 807,
+                "text": "His archival papers and documentation are preserved in the Jack Eyerly collection on Pacific Northwest Art at Willamette University."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

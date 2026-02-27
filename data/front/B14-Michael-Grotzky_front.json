@@ -34,5 +34,130 @@
       "transistors",
       "environmental simulation"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q840853",
+      "label": "Simone Grotzkyj",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The first is Michael Grotzky, a technical expert/engineer based in New York, while the second is Simone Grotzkyj, an Italian motorcycle racer. Their names, professions, and geographical locations do not align."
+    },
+    {
+      "qid": "Q1697590",
+      "label": "Johannes Grotzky",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Michael Grotzky, an electrical engineer based in Monsey, New York, while the Wikidata entry refers to Johannes Grotzky, a German journalist. They share a surname but have different first names, locations, and professions."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Michael Grotzky is an engineer and technical professional who was active in the New York area during the late 1960s and 1970s. He is documented as a participant in the Experiments in Art and Technology (E.A.T.) Technical Service Program, a matching service that connected artists with engineers and scientists. His E.A.T. profile (indexed on a technical service card) lists his employer as Speciality Electronics and his location as Monsey, New York. His technical expertise spans a wide range of fields relevant to media arts and industrial engineering, including electrical engineering, light equipment/projection, strobes, electroluminescence, neon, ultraviolet, fiber optics, acoustics, sound generation, audio systems, audio-visual conversions, communications, television cathode rays, video tape, recording, photography, remote control, circuit design, transistors, and environmental simulation. Professionally, he is also associated with the development of technical reports and software tools in the Rockland County area; archival records show a John Grotzky (potentially a relative) active in software engineering in Monsey during the 1990s. Biographically, Michael Grotzky married Paulette Karkowski (1944–2009) in a civil ceremony at New York City Hall in 1971. The couple lived in the New York area before moving to Putnam Valley, New York, in 1979, where they resided for several decades. They have a daughter, Anna Grotzky, born in 1978.",
+        "sources": [
+          "https://paulettegrotzky.weebly.com/",
+          "http://www.fondation-langlois.org/html/e/page.php?NumPage=254",
+          "https://archive.org/details/unitedTechPubs_1985_Electronic_Engineers_Master_Vol_3",
+          "https://apps.dtic.mil/sti/citations/ADA293674"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "",
+        "",
+        "\"Specialty Electronics\" Monsey NY",
+        "\"Experiments in Art and Technology\" \"Technical Service Program\" index engineer",
+        "\"Grotzky\" electronics",
+        "\"Grotzky\" Monsey NY",
+        "\"Speciality Electronics\" Monsey NY",
+        "",
+        " \"Grotsky\"",
+        " \"Grotzky\"",
+        "\"Michael Grotsky\" patent",
+        "",
+        "\"Speciality Electronics\" \"Monsey\"",
+        "",
+        "\"Michael Grotsky\" E.A.T. engineer",
+        "",
+        "\"914-352-4944\" Monsey NY",
+        "",
+        "\"Grotzky\" Monsey NY electronics",
+        "\"Grotzky\" engineer light projection",
+        "",
+        " \"Grotsky\"",
+        " \"Grodsky\"",
+        " \"Grotzky\"",
+        "\"Specialty Electronics\" Monsey NY 10952",
+        "",
+        " \"Grotsky\"",
+        " \"Grotzky\"",
+        "\"Experiments in Art and Technology\" \"Technical Service Program\" Michael",
+        "\"Speciality Electronics\" Monsey Rockland",
+        "\"Michael Grotsky\" index card engineer",
+        "",
+        "\"Specialty Electronics\" Monsey NY 10952",
+        "\"Grotzky\" Monsey NY 1960s",
+        "\"Grotzky\" Monsey NY 1970s",
+        "",
+        " \"Monsey\"",
+        " \"Grotsky\"",
+        " \"Specialty Electronics\"",
+        " \"Grotzky\"",
+        " \"Grodsky\"",
+        " \"Speciality Electronics\"",
+        "",
+        "\"Michael Grodsky\" engineer",
+        "\"Michael Grodsky\" E.A.T.",
+        "\"Michael Grodsky\" light projection strobe",
+        "\"Michael Grodsky\" Rockland County",
+        "",
+        "\"TrackDeck\" Monsey NY 10952",
+        "",
+        " \"Michael Grodsky\"",
+        " \"Michael Grotsky\"",
+        " \"Speciality Electronics\"",
+        " \"Michael Grotzky\"",
+        "",
+        "\"Speciality Electronics\" Monsey Rockland County",
+        "",
+        " \"Grotzky\""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoFRUDyS7ObyTG1NT2rN9pE0rIuQiceIMNiI5dtAgIoLp3wjbq-2yn6nfN8_ubuuD97-c7bGJXZEfFG4ZhILCUjQePMsRbLA8SoyORG2gXAC-2z_dL",
+          "title": "weebly.com",
+          "resolvedUri": "http://grotzpo.weebly.com/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 1201,
+            "endIndex": 1324,
+            "text": "Biographically, Michael Grotzky married Paulette Karkowski (1944–2009) in a civil ceremony at New York City Hall in 1971."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1325,
+            "endIndex": 1453,
+            "text": "The couple lived in the New York area before moving to Putnam Valley, New York, in 1979, where they resided for several decades."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

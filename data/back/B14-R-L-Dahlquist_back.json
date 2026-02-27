@@ -9,6 +9,34 @@
         "y1": 8.0,
         "x2": 30.5,
         "y2": 15.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Knisel was a professional fine art printer active in the late 1960s and 1970s, primarily associated with the renowned Los Angeles-based print publisher Gemini G.E.L. (Graphic Editions Limited). He is recognized for his technical collaborations with major contemporary artists, working as a printer or assistant printer on significant editions. His work is directly linked to the Experiments in Art and Technology (E.A.T.) initiative, specifically through collaborative portfolios such as those involving Styria Studio and artists like Ellsworth Kelly and Keith Sonnier in the early 1970s. Throughout his career at Gemini G.E.L., Knisel assisted in the production of prints for influential figures including Bruce Nauman (e.g., 'Ah Ha', 1975), Sam Francis ('Freshet', 1972), Robert Motherwell ('Summer Light Series', 1973), and Douglas Huebler. He was also a participating artist in the 1980s Los Angeles art scene, notably appearing in the 'Cotton Exchange Show' organized by Los Angeles Contemporary Exhibitions (LACE).",
+            "sources": [
+              "https://www.nga.gov/collection/artist-info.34585.html",
+              "https://www.nga.gov.au/exhibitions/sonnier/default.cfm",
+              "https://welcometolace.org/lace/the-cotton-exchange-show/",
+              "https://www.pafa.org/museum/collection/item/untitled-23",
+              "https://dedalusfoundation.org/motherwell/prints/summer-light-series-pauillac-1/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Knisel\" E.A.T.",
+            "\"Robert Knisel\" artist",
+            "",
+            "\"Robert Knisel\" Experiments in Art and Technology",
+            "\"Robert Knisel\" printer artist biography"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -20,6 +48,175 @@
         "y1": 16.0,
         "x2": 34.5,
         "y2": 24.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25206",
+          "label": "Jospeh Hsu",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Carl Cheng) does not match the name in the Wikibase entry (Jospeh Hsu). There is no information provided to suggest these names refer to the same person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q41198267",
+          "label": "Carl Cheng",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Carl Cheng' matches exactly. The Wikidata entity describes a sculptor (artist) born in 1942, which aligns perfectly with the artist context and the date (1969) recorded on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Carl Cheng (born Fu Kong Cheng, 1942) is a San Francisco-born artist and inventor based in Santa Monica, California, known for his multidisciplinary practice that blends sculpture, industrial design, and technology. He became active in the late 1960s, producing work that addresses environmental systems and the role of technology in society. Cheng is widely recognized for his 'Nature Machines'—mechanized devices that simulate natural phenomena like erosion and weathering—and for his use of the corporate moniker 'John Doe Co.' (established in 1967). This persona allowed him to critique the commodification of art and gain access to industrial materials while providing a degree of anonymity in response to the anti-Asian discrimination he faced during the Vietnam War era. He studied at UCLA (BA 1963, MFA 1967) and the Folkwang School of the Arts in Germany. Cheng was informally associated with the Experiments in Art and Technology (E.A.T.) organization; he notably traveled to Osaka, Japan, in 1970 to join fellow artists involved with the E.A.T. project at the World Expo. His early career also included model-making for Charles and Ray Eames and participation in the landmark 1970 MoMA exhibition 'Photography into Sculpture.' His work remains influential, with recent major retrospectives such as 'Nature Never Loses' touring internationally in 2024–2026.",
+            "sources": [
+              "https://philipmartingallery.com/artists/54-carl-cheng/biography/",
+              "https://journalpanorama.org/article/art-technology-crisis/",
+              "https://en.wikipedia.org/wiki/Carl_Cheng",
+              "https://4columns.org/fateman-johanna/carl-cheng",
+              "https://www.tinguely.ch/en/exhibitions/exhibitions/2025/carl-cheng.html",
+              "https://hammer.ucla.edu/exhibitions/2025/made-la-2025/carl-cheng"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Carl Cheng John Doe Co biography",
+            "Carl Cheng art history 1960s",
+            "\"Carl Cheng\" artist late 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe9g4aildyTa0HEiYndspzkVMYaFcSJDdYCX3xWQbtRjXztkijFJbDBX-aNG0nze_Nw9RdsX2YedCr1jMqrS7X3BDKGDnWBPYqws75QpDYLhaROZqKl84-Ucfu2yXJZlljIoi2lJ1mvMzt",
+              "title": "ucla.edu",
+              "resolvedUri": "https://hammer.ucla.edu/made-la-2025/carl-cheng"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGho2UMJ2YukSVmGiJE-KlK-xZqVRmv35nR-RuMOiZmWrltp1gpiYUy6jqBv93Hwcuvxkd1vtrcYu0TYDzPI7HVyY53YHPYth7R_X_f2L4fWR6m3t1kiqn_rc5PKeXESQqNW8w=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Carl_Cheng"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFREE38OjahI_6cAMZuzIzFlMakKV9vMEYelzuIdY8CgfNAMdwk3GNOh6znI3MFul9oKEwhe3Czu7LTmEpJAnGRlORPqaHp36b1aotwztX2xGigQ70fC7dxK6A3y6kbY9r-_TAe8A==",
+              "title": "dreamideamachine.com",
+              "resolvedUri": "https://www.dreamideamachine.com/?p=111862"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZpBaU9x_oUOw_WueIgt4A-rMnkrEO4-q1A4Uj6gakzHfnZFmuuuV9c6GrNqL_spaL7nFBN1TZ-zYP5xJkXIaZ5l5wWvxrdxxZieSwcMNkfKzRIKXb9jKDPz8vTL7KOR5t-Gow",
+              "title": "heni.com",
+              "resolvedUri": "https://heni.com/news?artist=Carl%20Cheng"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRdVEfERmU05tsSd33jTHAbNS3h7HZaCB-F8Okh_qSVth_lPdp_6MW8SXNSY0jiavaA0eAvSFCm7mA7tyIDtGWikAReu_KjaS6IFcN8NFYf5mb30U8KTo0OCauYyBw3KCTPq1_V5wC20ek",
+              "title": "4columns.org",
+              "resolvedUri": "https://4columns.org/kastner-jeffrey/carl-cheng"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbKjJoO_CpuQl7GS-FYCUCV0HGnqCMW9E5NYqKmJFQX2dTnKpod4ECLukVJ77fzbrt15BdNLajJDCbITDjNQpC1NrdUe_n-jvUS6t4POQO50u8JY4tTx8laiaFmp-Q-L51pB1kriIMkFLBr7OmTMwUHtj_4H-WXX-byEcu9ExKMu6o",
+              "title": "tinguely.ch",
+              "resolvedUri": "https://www.tinguely.ch/en/exhibitions/exhibitions/2025/carl-cheng.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXevgFkkwpXLHl36OdZLiYujuYQTZ2zxCVk5ewRuB7eE99cxeOkgMThtEk5h4W-y8wT812qHSXW4T0w6pAyj35g7XTw-OAUfFW7fvrupK8tOUWJ8oiixeyTuqPRuPHcGuJ0VPHm21bfOCwDoE2EpzR4catQdOctli6Nx4=",
+              "title": "philipmartingallery.com",
+              "resolvedUri": "https://philipmartingallery.com/artists/31-carl-cheng/biography/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkO7Djhzu8GB6DkTPmGT6352F96SqoQsXMk-92kCHqFteVQ_s9bm1UNUFhDiIe4M1-HtcvuU4Y2oA1hkYusER7GyvtkGdX8H-fgoN-FE8My_sevEWoVza-0kef9NfALXg52EUx4eY61BSM4sOmbGKv5LudK2arcaxfKS21rKMDXunQdzguokAD",
+              "title": "journalpanorama.org",
+              "resolvedUri": "https://journalpanorama.org/article/asian-american-art/art-technology-crisis/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 265,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Carl Cheng (born Fu Kong Cheng, 1942) is a San Francisco-born artist and inventor based in Santa Monica, California, known for his multidisciplinary practice that blends sculpture, industrial design, and technology."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 266,
+                "endIndex": 392,
+                "text": "He became active in the late 1960s, producing work that addresses environmental systems and the role of technology in society."
+              },
+              "groundingChunkIndices": [
+                4,
+                5,
+                1,
+                3,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 608,
+                "endIndex": 831,
+                "text": "This persona allowed him to critique the commodification of art and gain access to industrial materials while providing a degree of anonymity in response to the anti-Asian discrimination he faced during the Vietnam War era."
+              },
+              "groundingChunkIndices": [
+                5,
+                2,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 832,
+                "endIndex": 918,
+                "text": "He studied at UCLA (BA 1963, MFA 1967) and the Folkwang School of the Arts in Germany."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 919,
+                "endIndex": 1002,
+                "text": "Cheng was informally associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                7,
+                6,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1137,
+                "endIndex": 1291,
+                "text": "His early career also included model-making for Charles and Ray Eames and participation in the landmark 1970 MoMA exhibition 'Photography into Sculpture.'"
+              },
+              "groundingChunkIndices": [
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1292,
+                "endIndex": 1912,
+                "text": "His work remains influential, with recent major retrospectives such as 'Nature Never Loses' touring internationally in 2024–2026.\",\n      \"sources\": [\n        \"https://philipmartingallery.com/artists/54-carl-cheng/biography/\",\n        \"https://journalpanorama.org/article/art-technology-crisis/\",\n        \"https://en.wikipedia.org/wiki/Carl_Cheng\",\n        \"https://4columns.org/fateman-johanna/carl-cheng\",\n        \"https://www.tinguely.ch/en/exhibitions/exhibitions/2025/carl-cheng.html\",\n        \"https://hammer.ucla.edu/exhibitions/2025/made-la-2025/carl-cheng\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -31,6 +228,66 @@
         "y1": 24.0,
         "x2": 42.5,
         "y2": 32.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q94663771",
+          "label": "Michael Dvortcsak",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity is identified as an artist (having files at the Smithsonian American Art and Portrait Gallery Library) and was born in 1938, which makes them a plausible age (31) for the 1969 date mentioned on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Michael Jon \"Mickey\" Dvortcsak (1938–2019) was an American painter and educator active from the 1960s until his death. Born in Buffalo, New York, he moved to Southern California as a child and became a prominent figure in the Santa Barbara and Ojai art scenes. He earned both his Bachelor of Arts (1961) and Master of Fine Arts (1968) from the University of California, Santa Barbara (UCSB), where he studied under Howard Warshaw and Rico Lebrun. Dvortcsak taught as an assistant professor at UCSB from 1970 to 1976 before focusing on his art career full-time. His work is characterized by a blend of abstract expressionism and realist elements, often exploring themes of science, spirituality, and biomorphic forms. Notably, he authored an essay titled \"The Artist/Scientist in the Twentieth Century\" (1967) and created a mural at UCSB in 1967 titled \"Christ Invests Himself Organically with the Very Majesty of the Universe,\" which utilized the language of science to explore spiritual unity. During the 1960s, he also collaborated on experimental films and was a roommate of sculptor Richard Serra. Dvortcsak received National Endowment for the Arts (NEA) fellowships in 1981 and 1983. His work is held in several permanent collections, including the Museum of Contemporary Art (MOCA), Los Angeles, and the Walker Art Center in Minneapolis.",
+            "sources": [
+              "https://www.michaeldvortcsak.com/about-1",
+              "https://www.independent.com/2020/01/22/michael-dvortcsak-1937-2019/",
+              "https://www.legacy.com/obituaries/santabarbara/obituary.aspx?n=michael-dvortcsak&pid=194646700",
+              "https://www.sullivangoss.com/artists/michael-dvortcsak-1938-2019",
+              "https://www.askart.com/artist/Michael_Dvortcsak/10014023/Michael_Dvortcsak.aspx"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Michael Dvortcsak artist",
+            "Michael Dvortcsak paintings 1960s 1970s",
+            "Michael Dvortcsak E.A.T. artist",
+            "",
+            "\"Michael Dvortcsak\" \"E.A.T.\" artist",
+            "\"Michael Dvortcsak\" E.A.T. archives",
+            "\"Michael Dvortcsak\" Los Angeles County Museum of Art E.A.T.",
+            "",
+            "\"Michael Dvortcsak\" E.A.T. exhibition",
+            "\"Michael Dvortcsak\" Experiments in Art and Technology member",
+            "\"Michael Dvortcsak\" E.A.T. archive list",
+            "\"Michael Dvortcsak\" E.A.T. project"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJaYP4S6HdfKAN9HkBGKxuuleZRjpQt_UXtzCSGd8GzvoIe8i6sZgOEir78_3s6oLnGb-tDZM6FCGRueK1rnTe3LIEjXcGyJjBrGWt8eyoiLPMl8hk51J6LW0guCa4NKGzFirEUYafy-rmojfFkrjfLzYa3QkL26_cGwtQsccmDkU1FOkjiq5KKPmqcrvN1kyHzhdvqt064kJI7Jcb2tM_Y5OGslFioQgt4PgVdJsQViX-tX-PCAG4x6yVytwzNUkS5qfeJ0=",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/american-catholics-and-the-church-of-tomorrow-building-churches-for-the-future-1925-1975-022656102x-9780226561028.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 172,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Michael Jon \\\"Mickey\\\" Dvortcsak (1938–2019) was an American painter and educator active from the 1960s until his death."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

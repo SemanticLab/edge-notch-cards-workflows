@@ -1,7 +1,9 @@
 <script setup>
-import { reactive, watch, ref } from 'vue'
+import { reactive, watch, ref, computed } from 'vue'
 import EditableField from './EditableField.vue'
 import EditableArrayField from './EditableArrayField.vue'
+import WikidataCandidates from './WikidataCandidates.vue'
+import WebResearch from './WebResearch.vue'
 
 const props = defineProps({
   front: { type: Object, default: null },
@@ -16,7 +18,10 @@ const sections = reactive({
   contact: true,
   affiliation: true,
   professional: true,
-  interests: true
+  interests: true,
+  wikidataPersonCandidates: true,
+  wikidataOrgCandidates: true,
+  aiResearch: true
 })
 
 function toggleSection(key) {
@@ -81,6 +86,38 @@ function addSection(sectionKey) {
   localFront.value[sectionKey] = defaults[sectionKey] || {}
   emit('update:front', JSON.parse(JSON.stringify(localFront.value)))
 }
+
+const hasPersonMatch = computed(() => {
+  const wd = localFront.value?.wikidata_candidates || []
+  const wb = localFront.value?.wikibase_candidates || []
+  return [...wd, ...wb].some(c => c.match === true)
+})
+
+const hasOrgMatch = computed(() => {
+  const wd = localFront.value?.wikidata_org_candidates || []
+  const wb = localFront.value?.wikibase_org_candidates || []
+  return [...wd, ...wb].some(c => c.match === true)
+})
+
+function handlePersonImport(qid) {
+  console.log('Import person from Wikidata:', qid)
+}
+
+function handlePersonMint() {
+  console.log('Mint person in Wikibase:', localFront.value?.personalIdentification?.fullName)
+}
+
+function handleOrgImport(qid) {
+  console.log('Import org from Wikidata:', qid)
+}
+
+function handleOrgMint(orgType) {
+  console.log('Mint org in Wikibase:', orgType)
+}
+
+function handleChunksSelected(chunks) {
+  console.log('Selected grounding chunks:', chunks)
+}
 </script>
 
 <template>
@@ -138,6 +175,14 @@ function addSection(sectionKey) {
               placeholder="Enter full name"
               @update:model-value="updateField('personalIdentification.fullName', $event)"
             />
+            <!-- Mint person button when no match exists -->
+            <div v-if="!hasPersonMatch" class="mt-1">
+              <button @click="handlePersonMint"
+                      class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
+                             rounded-md hover:bg-green-700 transition-colors">
+                Mint in Wikibase from card data
+              </button>
+            </div>
           </template>
           <button
             v-else
@@ -149,6 +194,72 @@ function addSection(sectionKey) {
             </svg>
             Add personal identification
           </button>
+        </div>
+      </div>
+
+      <!-- Person Identity Candidates -->
+      <div v-if="localFront?.wikidata_candidates?.length || localFront?.wikibase_candidates?.length"
+           class="bg-white rounded-lg border border-gray-200 overflow-hidden">
+        <button
+          class="w-full flex items-center justify-between px-4 py-3 bg-gray-50 hover:bg-gray-100
+                 transition-colors text-left"
+          @click="toggleSection('wikidataPersonCandidates')"
+        >
+          <h3 class="text-sm font-semibold text-gray-700">Person Identity Candidates</h3>
+          <svg
+            class="w-4 h-4 text-gray-400 transition-transform"
+            :class="{ 'rotate-180': sections.wikidataPersonCandidates }"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div v-if="sections.wikidataPersonCandidates" class="p-4 space-y-4">
+          <div v-if="localFront?.wikidata_candidates?.length">
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikidata</p>
+            <WikidataCandidates
+              :candidates="localFront.wikidata_candidates"
+              type="person"
+              entity-base-url="https://www.wikidata.org/entity/"
+              source-label="Wikidata"
+              @import="handlePersonImport"
+            />
+          </div>
+          <div v-if="localFront?.wikibase_candidates?.length">
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikibase</p>
+            <WikidataCandidates
+              :candidates="localFront.wikibase_candidates"
+              type="person"
+              entity-base-url="https://base.semlab.io/entity/"
+              source-label="Wikibase"
+              @import="handlePersonImport"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- AI Slop Research -->
+      <div v-if="localFront?.web_research"
+           class="bg-white rounded-lg border border-gray-200 overflow-hidden">
+        <button
+          class="w-full flex items-center justify-between px-4 py-3 bg-gray-50 hover:bg-gray-100
+                 transition-colors text-left"
+          @click="toggleSection('aiResearch')"
+        >
+          <h3 class="text-sm font-semibold text-gray-700">AI Slop Research</h3>
+          <svg
+            class="w-4 h-4 text-gray-400 transition-transform"
+            :class="{ 'rotate-180': sections.aiResearch }"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div v-if="sections.aiResearch" class="p-4">
+          <WebResearch
+            :web-research="localFront.web_research"
+            @update:selected-chunks="handleChunksSelected"
+          />
         </div>
       </div>
 
@@ -233,6 +344,14 @@ function addSection(sectionKey) {
               placeholder="Enter department or division"
               @update:model-value="updateField('professionalAffiliation.departmentDivision', $event)"
             />
+            <!-- Mint org button when no match exists -->
+            <div v-if="!hasOrgMatch" class="mt-1">
+              <button @click="handleOrgMint('institution')"
+                      class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
+                             rounded-md hover:bg-green-700 transition-colors">
+                Mint in Wikibase from card data
+              </button>
+            </div>
           </template>
           <button
             v-else
@@ -244,6 +363,49 @@ function addSection(sectionKey) {
             </svg>
             Add professional affiliation
           </button>
+        </div>
+      </div>
+
+      <!-- Organization Candidates -->
+      <div v-if="localFront?.wikidata_org_candidates?.length || localFront?.wikibase_org_candidates?.length"
+           class="bg-white rounded-lg border border-gray-200 overflow-hidden">
+        <button
+          class="w-full flex items-center justify-between px-4 py-3 bg-gray-50 hover:bg-gray-100
+                 transition-colors text-left"
+          @click="toggleSection('wikidataOrgCandidates')"
+        >
+          <h3 class="text-sm font-semibold text-gray-700">Organization Candidates</h3>
+          <svg
+            class="w-4 h-4 text-gray-400 transition-transform"
+            :class="{ 'rotate-180': sections.wikidataOrgCandidates }"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div v-if="sections.wikidataOrgCandidates" class="p-4 space-y-4">
+          <div v-if="localFront?.wikidata_org_candidates?.length">
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikidata</p>
+            <WikidataCandidates
+              :candidates="localFront.wikidata_org_candidates"
+              type="org"
+              entity-base-url="https://www.wikidata.org/entity/"
+              source-label="Wikidata"
+              @import="handleOrgImport"
+              @mint="handleOrgMint"
+            />
+          </div>
+          <div v-if="localFront?.wikibase_org_candidates?.length">
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikibase</p>
+            <WikidataCandidates
+              :candidates="localFront.wikibase_org_candidates"
+              type="org"
+              entity-base-url="https://base.semlab.io/entity/"
+              source-label="Wikibase"
+              @import="handleOrgImport"
+              @mint="handleOrgMint"
+            />
+          </div>
         </div>
       </div>
 
@@ -342,6 +504,7 @@ function addSection(sectionKey) {
           </button>
         </div>
       </div>
+
     </template>
   </div>
 </template>

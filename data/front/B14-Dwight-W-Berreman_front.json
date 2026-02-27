@@ -25,5 +25,117 @@
       "x-rays"
     ],
     "specializedSkillsKnowledge": "theory of vision, mathematics of perspective, lenses and mirror systems"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q52745832",
+      "label": "Dwight W. Berreman",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records share an exact name match (Dwight W. Berreman) and the same profession (physicist). The card's location in Murray Hill, NJ and employer Bell Laboratories are highly consistent with a professional physicist of this era, further confirming the identity."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization 'Bell Laboratories' on the card and 'Bell Labs' in Wikibase are names for the same institution. Both records specifically list the location as Murray Hill, New Jersey. Additionally, the Wikibase entry links to Wikidata QID Q217365, which is the official identifier for Bell Labs."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer 'Bell Laboratories' on the card and 'Bell Labs' in Wikidata (Q217365) are synonymous. Both records specifically list Murray Hill, New Jersey as a primary location (headquarters in Wikidata; geographic location on the card). The research nature of the organization matches the card's description of a physicist working in technical fields like optics and spectroscopy."
+    },
+    {
+      "qid": "Q4883200",
+      "label": "Bell Laboratories Building",
+      "description": "building in Manhattan, New York, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q4883200) represents a physical building in Manhattan (now the Westbeth Artists Community) that was formerly occupied by Bell Labs. The card refers to the employer organization 'Bell Laboratories', which is a corporate entity. While related, a building is not the same as the organization that occupied it. Additionally, the card identifies the location as New Jersey (Murray Hill), whereas this building is specifically the New York City location."
+    },
+    {
+      "qid": "Q3552860",
+      "label": "Bell Laboratories Layered Space-Time",
+      "description": "transceiver architecture for offering spatial multiplexing over multiple-antenna wireless communication systems",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q3552860 refers to 'Bell Laboratories Layered Space-Time' (BLAST), which is a specific transceiver architecture/technology developed by Bell Laboratories, not the organization itself."
+    },
+    {
+      "qid": "Q4883201",
+      "label": "Bell Laboratories Record",
+      "description": "house organ publication of Bell System",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q4883201) is a magazine or publication titled 'Bell Laboratories Record,' which was the house organ of the Bell System. The card refers to the organization 'Bell Laboratories' as an employer, not its publication."
+    },
+    {
+      "qid": "Q59023126",
+      "label": "Q59023126",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q59023126 is an entry for Bell Laboratories, which is an exact name match for the organization listed on the card. Both refer to the same well-known research and development institution, which has a primary location in Murray Hill, New Jersey, as mentioned on the card."
+    },
+    {
+      "qid": "Q60274623",
+      "label": "Q60274623",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q60274623 is identified as 'Bell Laboratories', which is an exact name match for the employer listed on the index card. Given that the card refers to a physicist (Dwight W. Berreman) based in Murray Hill, NJ, there is no ambiguity that this refers to the famous research institution."
+    },
+    {
+      "qid": "Q60101845",
+      "label": "Q60101845",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q60101845 represents Nokia Bell Labs, which is the current iteration of the organization historically known as Bell Laboratories. Both the card and the entity are associated with the Murray Hill, New Jersey, research campus where Dwight W. Berreman worked as a physicist."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Dwight Winton Berreman (born May 30, 1928) is a prominent American optical physicist who had a long and distinguished career at Bell Laboratories in Murray Hill, New Jersey, where he served as a Member of Technical Staff. He is widely recognized for his pioneering contributions to the field of liquid crystals and display technology. In 1972, he introduced the 4×4 transfer-matrix method, a foundational computational tool used to simulate the linear optics of layered anisotropic media, which became essential for modeling liquid crystal displays (LCDs). He is also the namesake of the 'Berreman effect' (1972), which explains the alignment of liquid crystals on surface-treated substrates based on elastic strain energy. Earlier in his career, in 1962, he invented the 'gas lens,' a device using thermal gradients in gases to focus laser beams. His expertise encompassed a broad range of technical fields, including X-ray optics, spectroscopy, color theory, and computer-generated graphics and film for scientific visualization. Berreman's interdisciplinary work at Bell Labs during the late 1960s and 1970s aligned with the collaborative ethos of the Experiments in Art and Technology (E.A.T.) movement, which drew heavily on the expertise of Bell Labs engineers for projects involving computer graphics and experimental media. He was a resident of Westfield, New Jersey, and received the Jan Rajchman Prize from the Society for Information Display in 2011 for his analytical work on electro-optic effects.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Dwight_W._Berreman",
+          "https://informationdisplay.org/Member-Resources/Honors-Awards/Jan-Rajchman-Prize",
+          "https://www.scispace.com/authors/dwight-w-berreman-3420485",
+          "https://ieeexplore.ieee.org/author/37085731383",
+          "https://www.google.com/patents/US8471999B2",
+          "https://archive.org/details/physicalsciencea0003unse"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "Dwight W. Berreman Bell Laboratories physicist",
+        "Dwight W. Berreman optics computation physics",
+        "Dwight W. Berreman Experiments in Art and Technology",
+        "\"Dwight Berreman\" E.A.T. Bell Labs",
+        "\"Dwight W. Berreman\" artist collaboration",
+        "\"Dwight W. Berreman\" E.A.T. list engineer",
+        "\"Dwight Berreman\" movie computer graphics Bell Labs",
+        "\"Dwight Berreman\" E.A.T. project collaboration",
+        "\"Dwight Berreman\" Bell Labs art project",
+        "\"Dwight Berreman\" computer graphics Bell Labs film",
+        "\"Dwight Berreman\" E.A.T. bibliography",
+        "\"Dwight W. Berreman\" E.A.T. artist collaboration"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

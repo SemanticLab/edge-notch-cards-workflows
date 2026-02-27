@@ -9,6 +9,96 @@
         "y1": 13.5,
         "x2": 17.3,
         "y2": 19.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1732044",
+          "label": "Karl Krägen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Karl Krägen lived from 1797 to 1879, while the card entry is dated 1968. A person who died in the late 19th century cannot be the same individual active in the late 1960s."
+        },
+        {
+          "qid": "Q15147345",
+          "label": "Kragen Lum",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card is dated 1968, whereas the Wikidata entity for Kragen Lum lists a birth date of 2000. Even if the birth date were an error and he was born earlier, Kragen Lum is a modern heavy metal guitarist who would not have been active as an artist in the late 1960s."
+        },
+        {
+          "qid": "Q106818562",
+          "label": "Kragen Bradley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist active around 1968. The Wikidata entity is Kragen Bradley, a male basketball player associated with the University of Central Arkansas, which is a modern sports context (NCAA Division I) and does not align with the artistic profession or the historical timeline of the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Kragen (born 1945) is an artist and technologist who was active in the late 1960s and early 1970s, particularly within the field of early video art and kinetic installations. He is notably associated with the non-profit organization Experiments in Art and Technology (E.A.T.), founded by Billy Klüver and Robert Rauschenberg. Kragen frequently collaborated with Robert Lippman and Irv Rosner as part of a collective (often referred to as Kragen, Lippman & Rosner). His work in 1967 and 1968 involved using the television set as a medium for creating abstract images, following the experimental tradition of Nam June Paik. Under the name Morning Light Co., he and his collaborators contributed to major E.A.T. projects, including the design and development of the Pepsi-Cola Pavilion for Expo '70 in Osaka, Japan. His artistic practice bridged the gap between traditional sculpture and emerging television and light technologies.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxIzhfe3LuIsGy4Ckk685rZ1rfU-HHTtdmJxOGRRqdGqoDV8ssjIeZJnappk4QxP1dbEZVVYUxI_n-bZy2eq3CR7fYfUmS4TQ0OkLyMKG8SiLPyTvz5GKJYQ0WJU7MpdKjBs4kv2u5C8drmCkrelMwaGtAoDNpAJwSSGs4aVRX0kvJbDI9iyyH8moXbNaJ0DslctKaGDol1i-emh4GhxOPBOv69GmjmCcA1kHcXPzazMugGq0QXiqUYsOQOrRCXka1xYzw_6GPeNomnZJ6usPYGg-5ZE62YpfHMsg=",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG43iFQ3QH1qqKGu2-IUMh5DT9dam-iiFo7UY6QoQvWBdmYWLA8AKCKFxCjDj9wjxOaDo67V8z_PuXFD6LXoSgzqMeeoY49QyvXIfCOFoPJoen-MVnbMkz8g0IEUn7-W9aUZtMz7aX5FkWsEEXIrQNMzwCG4L0=",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfz_BRtvBa-sgs1l3B6jhfloCK2uZnYn5jh1xTOu2rXvWWxtBeEP0ulthu9tJ3MB5bFCcvGt_6eSibbitIbHY8vtTd2xUPW_H8NQK2f4W-zqKO7pdrSJ8RZ5BsVOJCTGjdFK6TegQYbErDUA=="
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Experiments in Art and Technology\" Kragen member",
+            "artist named \"Kragen\" Experiments in Art and Technology",
+            "\"Ken Kragen\" artist Experiments in Art and Technology",
+            "\"Kragen\" artist biography 1960s 1970s",
+            "\"Kragen\" artist active 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxIzhfe3LuIsGy4Ckk685rZ1rfU-HHTtdmJxOGRRqdGqoDV8ssjIeZJnappk4QxP1dbEZVVYUxI_n-bZy2eq3CR7fYfUmS4TQ0OkLyMKG8SiLPyTvz5GKJYQ0WJU7MpdKjBs4kv2u5C8drmCkrelMwaGtAoDNpAJwSSGs4aVRX0kvJbDI9iyyH8moXbNaJ0DslctKaGDol1i-emh4GhxOPBOv69GmjmCcA1kHcXPzazMugGq0QXiqUYsOQOrRCXka1xYzw_6GPeNomnZJ6usPYGg-5ZE62YpfHMsg=",
+              "title": "mit.edu",
+              "resolvedUri": "https://cmsw.mit.edu/wp/wp-content/uploads/2016/10/147696577-James-Nadeau-The-Medium-Is-the-Medium-The-Convergence-of-Video-Art-and-Television-at-WGBH-1969.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG43iFQ3QH1qqKGu2-IUMh5DT9dam-iiFo7UY6QoQvWBdmYWLA8AKCKFxCjDj9wjxOaDo67V8z_PuXFD6LXoSgzqMeeoY49QyvXIfCOFoPJoen-MVnbMkz8g0IEUn7-W9aUZtMz7aX5FkWsEEXIrQNMzwCG4L0=",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 231,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robert Kragen (born 1945) is an artist and technologist who was active in the late 1960s and early 1970s, particularly within the field of early video art and kinetic installations."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 384,
+                "endIndex": 522,
+                "text": "Kragen frequently collaborated with Robert Lippman and Irv Rosner as part of a collective (often referred to as Kragen, Lippman & Rosner)."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 523,
+                "endIndex": 679,
+                "text": "His work in 1967 and 1968 involved using the television set as a medium for creating abstract images, following the experimental tradition of Nam June Paik."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +110,48 @@
         "y1": 23.3,
         "x2": 38.4,
         "y2": 28.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q122213694",
+          "label": "Steinberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a Polish politician (member of the Sejm), while the card record identifies Roy M. Steinberg as an artist. There is no evidence connecting the Polish political figure to the name 'Roy M.' or to an artistic career."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Roy M. Steinberg (1929–2016) was an American Modernist painter and educator who was most active and prolific during the 1960s and 1970s. Born in Bartow, Florida, he served in the United States Navy during the Korean War before using the GI Bill to earn a BFA from the University of Florida in 1952. In 1956, he moved to New York City to study at the Art Students League for six years, eventually becoming a Life Member. Steinberg's work is characterized by a blend of abstract expressionism and representational form. He established a studio at the Barron Arts Center in Woodbridge, New Jersey, where he taught figure drawing and sketching. His career included solo exhibitions at the Wrans Gallery in New Jersey and the Celedon Gallery in SoHo, and his paintings are held in collections such as the Mellon Collection, the Atlantic County Museum, and the Beaux Arts Gallery in Fort Lauderdale. In his later years, he co-hosted the radio series 'Festival of the Arts' on WPBR in Florida. He was married to fellow artist Gail Steinberg and remained active in the art community until the early 2000s.",
+            "sources": [
+              "https://www.invaluable.com/auction-lot/roy-m-steinberg-1929-2016-american-oil-on-canvas-26-c-8094237894",
+              "https://www.sarasotaestateauction.com/auction-lot/roy-m-steinberg-1929-2016-american-oil-on-canvas_A694A6E90F",
+              "https://www.etsy.com/listing/1265842835/1960s-roy-m-steinberg-kinetic-musicians",
+              "https://www.chairish.com/product/2839446/roy-m-steinberg-oil-on-canvas-painting"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Roy M. Steinberg\" late 1960s 1970s artist",
+            "\"Roy M. Steinberg\" artist biography",
+            "Roy M. Steinberg artist Experiments in Art and Technology",
+            "Experiments in Art and Technology (E.A.T.) artist list Roy M. Steinberg",
+            "",
+            "\"Roy M. Steinberg\" \"E.A.T.\" artist",
+            "",
+            "\"Roy M. Steinberg\" artist New Jersey 1960s 1970s",
+            "\"Roy M. Steinberg\" \"E.A.T.\" archive",
+            "\"Experiments in Art and Technology\" Steinberg",
+            "\"E.A.T.\" membership list \"Steinberg\"",
+            "\"Roy M. Steinberg\" \"E.A.T.\" collaboration"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -31,6 +163,470 @@
         "y1": 30.4,
         "x2": 26.3,
         "y2": 36.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27808",
+          "label": "John Harris",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records identify a person named John Harris who is an artist. The Wikibase entity is specifically linked to the E.A.T. (Experiments in Art and Technology) project, which was most active in the late 1960s and early 1970s, perfectly aligning with the provided context for the card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q253629",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q253629 describes a professional Scottish association football player and coach, while the card entry refers to an artist active in the late 1960s and early 1970s. Given the extremely common name and the mismatch in profession, they are not the same person."
+        },
+        {
+          "qid": "Q314335",
+          "label": "John Harrison",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q314335 refers to John Harrison, the famous 18th-century clockmaker and inventor (1693-1776). This does not match the card entry's context of a John Harris who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q562265",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q562265 refers to a mathematician and writer who lived from 1666 to 1719. This is incompatible with the context for the card entry, which describes an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6237911",
+          "label": "John Harris, Baron Harris of Greenwich",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in the late 1960s/early 1970s, with metadata ('LOFT') suggesting the New York art scene. The Wikidata entity (Q6237911) is a prominent British politician and journalist (Baron Harris of Greenwich) who served in the House of Lords and the Labour Party. These are distinct individuals with no overlapping career details."
+        },
+        {
+          "qid": "Q6237914",
+          "label": "John Harris, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris, Jr. lived from 1727 to 1791, which is over 150 years before the period of activity (late 1960s/early 1970s) specified for the artist on the card."
+        },
+        {
+          "qid": "Q6237925",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6237925) lived from 1754 to 1838 and was a surgeon and settler. This is temporally incompatible with the person from the card, who was active as an artist in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q6237930",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a United States Navy sailor born in 1839 who served during the American Civil War, whereas the card entry describes an artist active in the late 1960s and early 1970s. The dates and occupations are completely incompatible."
+        },
+        {
+          "qid": "Q6237938",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris (Q6237938) was a military officer who lived from 1793 to 1864. This completely contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6237940",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name John Harris is very common. The Wikidata entity (Q6237940) describes a British science fiction painter and illustrator born in 1948. While he would have been active in the late 1960s and 1970s, the card's metadata 'LOFT' typically refers to the New York avant-garde loft scene or the Experiments in Art and Technology (E.A.T.) group, which is a different artistic context than the professional science fiction illustration career of the Wikidata subject."
+        },
+        {
+          "qid": "Q6237949",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6237949) refers to an 18th-century Anglican priest who died in 1738. This is incompatible with the person on the card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6237957",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match and both individuals are in the art world, Q6237957 is a prominent British architectural historian, curator, and author. The context provided in the card metadata (LOFT, E.A.T.) points toward the late 1960s avant-garde and technology-art scene, which is inconsistent with the career of a UK-based heritage scholar specializing in historic country houses."
+        },
+        {
+          "qid": "Q6237966",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name matches, but the occupations and locations differ significantly. The Wikidata entity (Q6237966) is a British novelist known for military and crime fiction. The card metadata 'LOFT' and the provided context suggest a visual or performance artist active in the New York art scene (likely E.A.T.) during the late 1960s. Another Wikidata entity (Q27808) is a much stronger candidate for the artist John Harris."
+        },
+        {
+          "qid": "Q6239439",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q6239439) describes John Hobbis Harris, a British politician and missionary who died in 1940. This contradicts the provided context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q6251591",
+          "label": "John P. Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John P. Harris (Q6251591) died in 1926, which is decades before the late 1960s/early 1970s period when the person on the card was active. Furthermore, he was a politician and baseball player rather than an artist."
+        },
+        {
+          "qid": "Q7940844",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q7940844) died in 1856, which makes it impossible for them to be the artist active in the late 1960s and early 1970s described in the card entry context."
+        },
+        {
+          "qid": "Q12059590",
+          "label": "John Harris, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris, Jr. (Q12059590) lived from 1791 to 1873. This is chronologically incompatible with the provided context, which states the John Harris on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q13416964",
+          "label": "John Harris, Sr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (John Harris, Sr.) lived from 1673 to 1748. This is chronologically incompatible with the provided context of a person active as an artist in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q16092729",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist active in the late 1960s/early 1970s, likely associated with the 'LOFT' context. Wikidata entity Q16092729 describes a John Harris who was a UK-based Anglican priest. While the names match, the occupations and contexts do not align."
+        },
+        {
+          "qid": "Q16106974",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes a person known to be an artist active in the late 1960s and early 1970s, often associated with the NYC avant-garde scene (E.A.T./LOFT). Wikidata entity Q16106974 is a Welsh Paralympic athlete (javelin, discus, and weightlifting) whose primary activities recorded are in professional sports starting from 1980. There is no indication this athlete was also an artist."
+        },
+        {
+          "qid": "Q16857676",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q16857676 describes a John Harris who lived from 1756 to 1846, making it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card entry context."
+        },
+        {
+          "qid": "Q18671792",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q18671792) died in 1743, whereas the person described on the card was active as an artist in the late 1960s and early 1970s. The temporal discrepancy of over 200 years makes a match impossible."
+        },
+        {
+          "qid": "Q18671793",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q18671793) describes an 18th-century engraver and draftsperson active between 1700 and 1740. This chronologically contradicts the provided context for the card entry, which identifies a John Harris active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q18671794",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q18671794) describes a painter and illustrator who lived from 1767 to 1832. This is chronologically incompatible with the provided context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q18671795",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q18671795) lived from 1802 to 1823, which is over 140 years before the period of activity (late 1960s/early 1970s) specified for the John Harris in the card entry."
+        },
+        {
+          "qid": "Q21165839",
+          "label": "John Greathed Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Greathed Harris lived from 1774 to 1850, which does not overlap with the required timeframe of the late 1960s and early 1970s. Additionally, his occupation is listed as a barrister rather than an artist."
+        },
+        {
+          "qid": "Q24090840",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q24090840) describes a merchant who lived from 1740 to 1812, which is chronologically incompatible with someone active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q39025156",
+          "label": "John A Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity Q39025156 describes a researcher affiliated with academic institutions such as the University of Pittsburgh and the University of Michigan. This does not align with the card context, which identifies John Harris as an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q45511201",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q45511201) refers to an artist who lived in the 18th century (1715-1755), whereas the card entry describes someone active in the late 1960s and early 1970s. These are two different individuals."
+        },
+        {
+          "qid": "Q56967076",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name John Harris matches, the Wikidata entity is identified as a researcher rather than an artist. Given that 'John Harris' is a very common name and the context of the card entry specifies an artist active in the late 1960s/1970s (likely the one linked to Q27808), it is improbable that this specific researcher entity (Q56967076) is the same person."
+        },
+        {
+          "qid": "Q61826029",
+          "label": "John P Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q61826029) refers to a contemporary medical researcher associated with institutions like Public Health England and the University of Liverpool. This does not align with the card's context of an artist active in the late 1960s/early 1970s associated with the 'LOFT' scene."
+        },
+        {
+          "qid": "Q70138275",
+          "label": "John P. Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q70138275 describes a medical professional and professor of medicine associated with the Royal Australasian College of Surgeons and the University of Sydney. This does not align with the provided context that the person in the card entry is an artist active in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q74127128",
+          "label": "John Harriss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an artist named John Harris active in the late 1960s/early 1970s. The Wikidata entity Q74127128 describes John Harriss (with two 's's), who is a professor and political scientist. These are different career paths and different spellings of the surname."
+        },
+        {
+          "qid": "Q75304331",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q75304331) lived from 1782 to 1850, making it impossible for them to be the artist active in the late 1960s and early 1970s mentioned in the card entry context."
+        },
+        {
+          "qid": "Q75996303",
+          "label": "John Richard Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in the late 1960s and early 1970s (with 'LOFT' metadata suggesting the New York art scene), while the Wikidata entity Q75996303 is a contemporary British politician who stood for election in 2019 and 2024. These are two distinct individuals from different time periods and professions."
+        },
+        {
+          "qid": "Q76017176",
+          "label": "John Lance Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q76017176) was born in 1957, making him only 10 to 15 years old during the late 1960s and early 1970s. This is inconsistent with the context of an established artist active during that period."
+        },
+        {
+          "qid": "Q76023904",
+          "label": "John William Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John William Harris lived from 1849 to 1932, which is completely incompatible with the context of an artist active in the late 1960s and early 1970s. Furthermore, his recorded occupations are barrister and diplomat, not artist."
+        },
+        {
+          "qid": "Q76088949",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q76088949 refers to a historical figure from the 18th century, as evidenced by his father Lampen Harris (1733–1810) and spouse Catherine Bulteel (married 1761). This does not match the person in the card entry who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q76123096",
+          "label": "John Archibald Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name John Harris matches, the Wikidata entity Q76123096 provides no information indicating the person was an artist or involved in the creative arts during the late 1960s or early 1970s. John Harris is a common name, and without professional metadata linking him to the arts, there is no evidence this is the correct individual."
+        },
+        {
+          "qid": "Q76153111",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q76153111 describes a John Harris associated with the Greathed family (spouse Mary Greathed, child John Greathed Harris). Historical records for this lineage typically date to the 18th or 19th centuries, which does not align with the context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q76307095",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q76307095 describes a British judge and barrister (King's Counsel), which is inconsistent with the provided context identifying the card's John Harris as an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q90321378",
+          "label": "John E Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity describes John E Harris as a 'researcher' rather than an 'artist'. Given the commonality of the name John Harris and the lack of any metadata linking this specific researcher to the late 1960s/early 1970s art scene or the LOFT context, a match is unlikely."
+        },
+        {
+          "qid": "Q106698252",
+          "label": "John H. Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card entry refers to an artist active in the late 1960s and early 1970s, whereas the Wikidata entity (Q106698252) describes a US Army soldier who participated in World War II and the liberation of Nazi camps in 1945. There is no overlap in their professional descriptions or time periods of activity provided."
+        },
+        {
+          "qid": "Q110181426",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity lived from 1813 to 1855, which is completely incompatible with the card entry context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q110181428",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q110181428) lived from 1848 to 1936. This is chronologically incompatible with the provided context that the person in the card entry was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q110939877",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity (Q110939877) contains genealogical information (mother Alice le Abbe) that is often associated with historical figures from earlier centuries rather than a mid-20th-century artist. There is no evidence in the Wikidata record of artistic activity, occupation, or dates that align with the 1960s/1970s timeframe provided in the card context."
+        },
+        {
+          "qid": "Q110939878",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name John Harris is extremely common. Wikidata entity Q110939878 is a sparse record with no occupation, dates, or biographical details that link it to the artistic context of the late 1960s or early 1970s provided in the card entry."
+        },
+        {
+          "qid": "Q111065176",
+          "label": "John N Harris",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q111065176 describes a PhD chemist born in 1953 associated with the University of Washington. Given the birth year, he would have been a teenager during the late 1960s and early 1970s, making it highly unlikely he is the artist referenced in the card entry."
+        },
+        {
+          "qid": "Q116954196",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'John Harris' is very common. The Wikidata entity Q116954196 provides only genealogical information (names of children and father) and lacks any occupational or chronological data connecting him to the art world or the 'LOFT' context of the late 1960s/early 1970s. There is insufficient evidence to identify this specific record as the artist in question."
+        },
+        {
+          "qid": "Q121040157",
+          "label": "John Harris",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name John Harris is extremely common. While the Wikidata entity lists 'producer' as an occupation, which is within the creative field, there is no biographical information, such as dates or locations, to link this specific entity to the artist active in the late 1960s/early 1970s or the 'LOFT' metadata mentioned on the card."
+        },
+        {
+          "qid": "Q124339184",
+          "label": "John Harris Andrews",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity John Harris Andrews lived from 1846 to 1907. The person on the card is known to be an artist active during the late 1960s and early 1970s, making it chronologically impossible for them to be the same person."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Harris (born 1937) is an American artist known for his collaboration with Fred Stern during the late 1960s and early 1970s, particularly in projects associated with Experiments in Art and Technology (E.A.T.). He is most recognized for the work 'K.E.P.-1' (Kinetic Environment Project), created in 1968 in partnership with Stern. This project was featured in the landmark E.A.T. exhibition 'Some More Beginnings' held at the Brooklyn Museum from November 1968 to January 1969. His work during this period often involved the intersection of art, engineering, and technology, consistent with the mission of E.A.T. to foster collaborations between artists and scientists. Documentation of his installation and collaborative efforts is preserved in collections such as those at the Getty Research Institute.",
+            "sources": [
+              "https://www.getty.edu/news/press-release/sensing-the-future-experiments-in-art-and-technology-e-a-t/",
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E.A.T.-Billy-Kluver-Robert-Rauschenberg-Robert-Whitman",
+              "https://www.getty.edu/art/exhibitions/sensing_future/sensing_future_checklist.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Harris (born 1948) is a prominent British painter and illustrator who began his professional career in the early 1970s after graduating from the Exeter College of Art in 1970. Although primarily known for his later work in science fiction and 'imaginative realism,' his early career in the late 1960s and 1970s involved a period of study in transcendental meditation which heavily influenced his artistic focus on monumental scale and space. In 1984, he was commissioned by NASA to document a Space Shuttle launch, becoming the first British artist to be so honored. His work frequently explores the relationship between technology (specifically spacecraft and futuristic structures) and vast landscapes, which aligns with themes of art and science collaboration, though his direct involvement with the E.A.T. organization is less documented than the American artist of the same name.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/John_Harris_(artist)",
+              "https://www.alisoneldred.com/john-harris/biography/",
+              "https://www.grokipedia.com/wiki/John_Harris_(artist)"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "John Harris artist biography 1960s 1970s",
+            "artist \"John Harris\" Experiments in Art and Technology E.A.T.",
+            "\"John Harris\" artist 1960s 1970s collaboration engineer science",
+            "\"John Harris\" E.A.T. 9 Evenings"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYxDUpvpMXlvpvnUB9GjjF6OyHC2cufFvwhMr-2FXUDFh1xpb62RzcYTsjmsCsGd_TLeRa6w50jrGnJ9kYzgEltB6I4gV-2uKSNzmWeS3IMPkEf6C621wjV9tLYrol_TP-Q_y-lca5_9HtrDlNTwIC8MST5gQ=",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_XJzgG1f_h9T0JSUddXGCnF4VDRJ9ODQynI0TlSQVOe3E9diQXJS9_eyjiM6vmBKeqaE9ln3GjHGT0pnzLwMxFj8fkkIpK8yaZ_JAQf7avpmPhTWUMsVygnXsA05GBm7TxcYjBXgqb0au",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/john_harris_painter"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHi8SI-t1NhujJgtbcuErMM86ZMhcooILlGJuC3YApcUz6xq0CPw0JUw7MVCcXrB7idHXS2MsS8LczlzzDFtfefqPwD7MrExR2RdaIjakJFURlIsP99zRbJL3YRu-gNc1KdBCIO1w9Bd2izw==",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/John_Harris_(artist)"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWuXy2_P1cfZd_j5javmYz-xqbMDQdV1jqkI43k2oVSXyKiZbc_-E2pSPWEjek0BxAGLCJT4xhzW2KZWWGwYP8vCA0DdKLzKPAlf-X_fLvcVENnDmnJK_ZMY1oth07asIN04dt3eC9ToGSzl0o",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/John_Harris_(artist)"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdhZBetWo2ZeNKhNE70Ij9nef87g3pwsSiFva3G9m_gYDAoW_h3exFclK-6LP_VNTlbwKU0oeDAJ4MzDOpe9rjhfTXimYGctmRXvx1TfhqmwiPbXo4vw7LJYNHRGR9UXmR5a6eDrNQIad5CkYUaw==",
+              "title": "alisoneldred.com",
+              "resolvedUri": "https://www.alisoneldred.com/john-harris/biography/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 263,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John Harris (born 1937) is an American artist known for his collaboration with Fred Stern during the late 1960s and early 1970s, particularly in projects associated with Experiments in Art and Technology (E.A.T.)."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 723,
+                "endIndex": 1480,
+                "text": "Documentation of his installation and collaborative efforts is preserved in collections such as those at the Getty Research Institute.\",\n      \"sources\": [\n        \"https://www.getty.edu/news/press-release/sensing-the-future-experiments-in-art-and-technology-e-a-t/\",\n        \"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E.A.T.-Billy-Kluver-Robert-Rauschenberg-Robert-Whitman\",\n        \"https://www.getty.edu/art/exhibitions/sensing_future/sensing_future_checklist.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"John Harris (born 1948) is a prominent British painter and illustrator who began his professional career in the early 1970s after graduating from the Exeter College of Art in 1970."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1481,
+                "endIndex": 1746,
+                "text": "Although primarily known for his later work in science fiction and 'imaginative realism,' his early career in the late 1960s and 1970s involved a period of study in transcendental meditation which heavily influenced his artistic focus on monumental scale and space."
+              },
+              "groundingChunkIndices": [
+                2,
+                3,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1747,
+                "endIndex": 1871,
+                "text": "In 1984, he was commissioned by NASA to document a Space Shuttle launch, becoming the first British artist to be so honored."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -42,6 +638,147 @@
         "y1": 43.0,
         "x2": 46.9,
         "y2": 49.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19472",
+          "label": "Nam June Paik",
+          "description": "",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Nam June Paik' matches exactly. The Wikibase entity is specifically associated with the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which corresponds to the source of the card entry. Nam June Paik is a famous artist active during the late 1960s and early 1970s."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q158056",
+          "label": "Nam June Paik",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Nam June Paik' is an exact match. The Wikidata entity describes a world-renowned multimedia and video artist who was highly active in New York City during the late 1960s and 1970s, which aligns perfectly with the provided artist context and the source of the card (likely E.A.T.)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Nam June Paik (1932–2006) was a South Korean-born American artist widely celebrated as the \"father of video art.\" He was highly active during the late 1960s and early 1970s, a period when he revolutionized the use of television and electronic media in art. After moving to New York in 1964, he became a key figure in the Fluxus movement and collaborated extensively with cellist Charlotte Moorman and electronics engineer Shuya Abe. Paik was also a participant in the pioneering activities of Experiments in Art and Technology (E.A.T.), notably involved in the 1966 \"9 Evenings: Theatre & Engineering\" performances that served as a foundational moment for the organization. His landmark works from this era include \"Exposition of Music – Electronic Television\" (1963), the remote-controlled \"Robot K-456\" (1964), and \"TV Bra for Living Sculpture\" (1969). In 1974, he famously coined the term \"electronic superhighway\" to describe the future of global telecommunications.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Nam_June_Paik",
+              "https://www.guggenheim.org/artwork/artist/nam-june-paik",
+              "https://www.tate.org.uk/whats-on/tate-modern/nam-june-paik",
+              "https://whitney.org/artists/988",
+              "https://www.eai.org/artists/nam-june-paik/biography"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Nam June Paik artist active 1960s 1970s",
+            "Nam June Paik biography Experiments in Art and Technology E.A.T.",
+            "Nam June Paik participation in E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdtTjptRuPTsxAf1KXG29rb93OBCa_-JV8YnTlTNdR_CXyOSdghm1BkK-tkUYa0RZAZfBrk2yHwvBMqc-JmuzVGJqrYPMc3hJHQT8HogWyA6q2V_CeKIvqQQw=",
+              "title": "whitney.org",
+              "resolvedUri": "https://whitney.org/artists/986"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyQVslN5B2blzX9e-uzduG_kb9eRi5JI0BvZFXnEm6GcpdlSt_zfzuOCfytVYVffdgDHMPfIwW-kT73aOuQQvDjigc2wpo5Zxyv_cVjvytvNJ-I-RpFmg=",
+              "title": "paikstudios.com",
+              "resolvedUri": "https://www.paikstudios.com/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRkBSOV68yIo17KSnRs4Hew6js8v7Dj9tZ-AdxSCc1thJt3Ytyj7NSoyosPM_cR6-l2Jxh7OAmLkWLr0J7nIi_A69BPHRc7fH-tSMHkJjMhz-DyjOFxBnTyuGA1uhz47szqPAcdWbiqIAD1MkieFdHJWQ2B0xE9BDiaC24BAlSyK3veIK8Mwr7pfRYc0b0PNFc34NCjwRjnGlmm-Ujn8yN5uWbTxuqYR8_yGWAJuQALEkqYXZLtYBhKoFGn_zd",
+              "title": "guggenheim.org",
+              "resolvedUri": "https://www.guggenheim.org/teaching-materials/teaching-modern-and-contemporary-asian-art/nam-june-paik-%EB%B0%B1%EB%82%A8%EC%A4%80"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE9FKGfxBMVBwzM_UdnXTR05eExNxx9zqKv_k_7zcbot1oF9FrxueTFANwr8wqtYvJE10DqayZ9CiHO1WaLSxfI5FsI85BsAGozv4lrpsAXeN3JxKPa4Yw2fwbPjdlhmgpwUYJr1JqjWKwOvg=",
+              "title": "theartstory.org",
+              "resolvedUri": "https://www.theartstory.org/artist/paik-nam-june/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5qp2ZEyW0QyBr6-PdmE-Ksf7lVUtk-HPXZduoqG1zA8ZkDuFhvohUindHAu_qq6dQZhXis_uwr8V3pPIRBPMvmAV7lrGGimKVXUKynF_RpGwa9xvAWbt4qcmB1wDrelXNJ8CjeVz8IQSAO-MfC9dypkaoQz2IC1KeK6vLh2Rzqp2dYE02OA==",
+              "title": "tate.org.uk",
+              "resolvedUri": "https://www.tate.org.uk/whats-on/tate-modern/nam-june-paik/exhibition-guide"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGziBEK6sHb-fpkRcFRfKimWNwh-R7u_SNBXz2nbpGM6RB1gKDfgiTOHiCWVgfzBdj1-Jd3r4c94m1tXpb-aAF6NBeILcnJVpT2_4TIjB-8k13Nvz8xs9Xgwe-B0ii-WR-yGSHIOPY5LoZWG_7q4dmS0dkLjmfCu_w3PcjM8DT2tMY4s2Ka-3fxE_7Vg8vx-x1PpvYA-CVzpQmQlGJxNp4yNFLYpg9tTKTMQ==",
+              "title": "elephant.art",
+              "resolvedUri": "https://elephant.art/how-nam-june-paik-predicted-the-internet-and-youtubers-and-changed-visual-culture-forever/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVdvP6yRv1YG9JW3oZCEmWwUFcIte5T9l3zFHChj1XnzO_Q6TSw1xq4WLqMUd1iHyF88lhBTxT7N9J78VUIx2ZP8eYUs0rY44C54Cme3XFN1l7W64Syj5nQlq74_bpIVEiUrYTs_UKMfIg7OI1w==",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/nam-june-paik/biography"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwzPYJG_pVMr1fMG7RX_lqUMtB8VKuSgMU6CitWwUs3MnkIgkkh8B_ai3Wse4pb8G8v49pcxQC9ZM1T4kILs34Ltt7gDrM4c6xniG7wtFr31pJ3OAG6LdCgj7eujyCv5yp-rtO2Ic=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Nam_June_Paik"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-fr8ETzwbVEbq-c0iu_vaeAwa1Vmu_uWNljEWzFz8tjZacuHphfEAWSsabYEorno6hnvR55PFeqEu6grK3YLmZiK9zhxPECiinJ5FK_q2up6PXDAaDKrPQfxIHCnjvoKWaVUpBHR79v6wjSmz4G-hSziYQw3EF6LliWMl4gW0HoVInQmQ0beERfOSzZynwoPd4CZE",
+              "title": "phaidon.com",
+              "resolvedUri": "https://www.phaidon.com/en-us/blogs/artspace/nam-june-paiks-high-tech-search-for-humanity"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEha5X4qVCeXKVoSznkBXlmpoLzt9e9UyfvlEUmIKg0x5Yvg45MEV2S71eSaao9QYKEQ_M2-tkl9nMqAN8StBbUm3UGFzN0YgHYwqQdhL_bKQw9JmkgERn7ODWVzw-K8KGu3pxRJSCJyrRP9fWvod3GrbR5oMPWdPE=",
+              "title": "villagepreservation.org",
+              "resolvedUri": "https://www.villagepreservation.org/2023/01/31/nam-june-paik/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs3JFoPfilYSvntKsPNOn7AvlEyxv0tSQAy5QZ5BSMe-BX8TSvjdJnls8MNZ7xHIQz-VlFpTf8-bYBNhB1cddgoRqoQJ688uT9V7sgiHU_TUZ57UYbgrk7pj3gMJpwi6RIJ_S1E5oi3r8ieNyfE67wiVPr7k5BmAN5nSD3ijr76Df2C7whNzEruVkxp7Tl7t7qfM_x6gM=",
+              "title": "google.com",
+              "resolvedUri": "https://artsandculture.google.com/asset/participation-tv-nam-june-paik/ZQEMTqhekZ0Liw?hl=en"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 310,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Nam June Paik (1932–2006) was a South Korean-born American artist widely celebrated as the \\\"father of video art.\\\" He was highly active during the late 1960s and early 1970s, a period when he revolutionized the use of television and electronic media in art."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 730,
+                "endIndex": 918,
+                "text": "His landmark works from this era include \\\"Exposition of Music – Electronic Television\\\" (1963), the remote-controlled \\\"Robot K-456\\\" (1964), and \\\"TV Bra for Living Sculpture\\\" (1969)."
+              },
+              "groundingChunkIndices": [
+                8
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 919,
+                "endIndex": 1407,
+                "text": "In 1974, he famously coined the term \\\"electronic superhighway\\\" to describe the future of global telecommunications.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Nam_June_Paik\",\n        \"https://www.guggenheim.org/artwork/artist/nam-june-paik\",\n        \"https://www.tate.org.uk/whats-on/tate-modern/nam-june-paik\",\n        \"https://whitney.org/artists/988\",\n        \"https://www.eai.org/artists/nam-june-paik/biography\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                7,
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -53,6 +790,69 @@
         "y1": 46.5,
         "x2": 51.5,
         "y2": 57.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26342",
+          "label": "Phyllis Gershuny",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity specifically links Phyllis Gershuny to the E.A.T. Technical Services Program, which matches the source and context of the card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q84602224",
+          "label": "Phyllis Gershuny",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Phyllis Gershuny matches exactly between the card entry and the Wikidata entity. Furthermore, the Wikidata entity's occupation as a visual artist aligns perfectly with the known context of the card entry being associated with the E.A.T. organization (Experiments in Art and Technology), which supported artists during the late 1960s and 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Phyllis Gershuny (now known as Phyllis Segura) is an artist and editor who was a pioneering figure in the early video art movement of the late 1960s and early 1970s. She is best known as the co-founder and original co-editor of Radical Software, the first periodical dedicated to independent video art and alternate information structures, which she launched in 1970 alongside Beryl Korot and Ira Schneider. Before founding the magazine, Gershuny lived in Europe where she worked with the Living Theater and was introduced to video by British photographer John Hopkins. Upon returning to New York, she collaborated with the Raindance Corporation to publish Radical Software, though she was never formally invited to join the collective and left the publication after its third issue due to creative and organizational differences. Her work during this period was closely aligned with the mission of Experiments in Art and Technology (E.A.T.), and she was active in the New York scene when E.A.T. was based at Automation House, where she organized early public-access cable screenings in bars. Gershuny eventually returned to painting and moved to the Hudson Valley, where she became a personal chef, a culinary radio personality hosting 'Eating It in the Hudson Valley,' and the founder of the poetry magazine Broadshirt. Her historical contributions have been featured in major retrospectives, such as the 2024–2025 exhibition 'Radical Software: Women, Art & Computing 1960–1991.'",
+            "sources": [
+              "https://www.radicalsoftware.org/e/history.html",
+              "https://zkm.de/en/radical-software-the-raindance-foundation-media-ecology-and-video-art",
+              "https://www.e-flux.com/announcements/615467/radical-softwarewomen-art-computing-19601991/",
+              "https://www.vasulka.org/archive/Artists/HillChris/Hill_PerformingVideo.pdf",
+              "https://www.davidsonsfiles.org/letters.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Phyllis Gershuny\" artist biography",
+            "Phyllis Gershuny 1960s 1970s art",
+            "Phyllis Gershuny E.A.T. collaboration",
+            "Phyllis Gershuny \"Experiments in Art and Technology\" E.A.T.",
+            "\"Phyllis Gershuny\" Raindance E.A.T.",
+            "\"Phyllis Segura\" artist E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3ZKIFjFf4Fjq3XmEl8T9g2mNIq0yvRvTzevFJmavL59N6zbr-0Nm66gM2XSWfVpijsdNh6H50snMxYgZU-kniE53_S4zuDa4X22j8CK_dGS4ncGOIjQqOcoCx-bPbvyTQg==",
+              "title": "davidsonsfiles.org",
+              "resolvedUri": "https://davidsonsfiles.org/letters.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1046,
+                "endIndex": 1142,
+                "text": "was based at Automation House, where she organized early public-access cable screenings in bars."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -64,6 +864,57 @@
         "y1": 52.8,
         "x2": 48.1,
         "y2": 65.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q104903557",
+          "label": "Heathcoat S. Grant",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Heathcoat Salusbury Grant, a male Rear-admiral who died in 1938. This is incompatible with Joan Heathcoat, who is described as an artist active in the late 1960s or early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Joan Heathcote\" artist E.A.T.",
+            "Joan Heathcoat 1960s 1970s artist",
+            "\"Joan Heathcote\" E.A.T.",
+            "\"Joan Heathcote\" 9 Evenings",
+            "",
+            " \"Joan Heathcote\"",
+            " \"Joan Heathcoat\"",
+            "\"Joan Heathcote\" E.A.T. artist",
+            "\"Joan Heathcote\" Experiments in Art and Technology",
+            "\"Joan Heathcote\" E.A.T. directory",
+            "\"Joan Heathcote\" Experiments in Art and Technology member",
+            " \"Joan Heathcote\"",
+            " \"Joan Heathcoat\"",
+            "",
+            "\"Joan Heathcote\" E.A.T. books",
+            " \"Joan Heathcote\" E.A.T.",
+            "",
+            "",
+            "",
+            "\"Heathcote\" \"Experiments in Art and Technology\" member",
+            "\"Heathcoat\" \"Experiments in Art and Technology\" member",
+            "\"Joan Heath\" Experiments in Art and Technology E.A.T.",
+            "\"Joan Heath\" 1960s artist E.A.T.",
+            " \"Heathcote\"",
+            " \"Joan\"",
+            " \"Heathcoat\"",
+            "\"Joan Heathcote\"",
+            "\"Joan Heathcoat\"",
+            " \"Joan Heathcote\"",
+            " \"Joan Heathcoat\"",
+            " \"Joan Heathcote\"",
+            " \"Joan Heathcoat\""
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -75,6 +926,243 @@
         "y1": 61.3,
         "x2": 50.0,
         "y2": 74.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26334",
+          "label": "Susan Alexander",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity specifically identifies Susan Alexander as being part of the E.A.T. Technical Services Program Edge-Notched Cards project, which is the source of the card record. This establishes a clear link between the two."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7647506",
+          "label": "Susan Alexander-Max",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While Susan Alexander-Max was an artist (pianist) active during the correct time period and studied in New York where E.A.T. was based, the card name 'Susan Alexander' and the Wikidata name 'Susan Alexander-Max' are distinct. Furthermore, there is a separate Wikidata entity (Q26334) specifically identified as the Susan Alexander associated with the E.A.T. project, making it unlikely that this specific pianist (Q7647506) is the same person."
+        },
+        {
+          "qid": "Q18012436",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q18012436 describes an Australian tennis player, whereas the person in the card entry is specifically identified as an artist associated with Experiments in Art and Technology (E.A.T.) in the late 1960s/early 1970s. These are two distinct individuals with the same name."
+        },
+        {
+          "qid": "Q61739734",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name matches, but the Wikidata entity Q61739734 describes a Canadian rower, whereas the context for the card identifies Susan Alexander as an artist involved with the Experiments in Art and Technology (E.A.T.) program. These are distinct occupations, and a separate entity (Q26334) exists that specifically matches the artist profile for the E.A.T. project."
+        },
+        {
+          "qid": "Q75242385",
+          "label": "Lady Susan Alexander",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name matches and the birth year (1948) would make her the correct age to be active in the late 1960s, the Wikidata entity Q75242385 describes a member of the British nobility (Lady Susan Alexander) whose primary occupation is listed as aristocrat. There is no evidence in the record of her being an artist or involved in the New York-based Experiments in Art and Technology (E.A.T.) project, which is the context for the card entry."
+        },
+        {
+          "qid": "Q75529960",
+          "label": "Susan Whiteway Alexander",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity Q75529960 refers to Susan Whiteway Alexander (later Buxton), whose record focuses on family genealogy and lacks any mention of artistic career or involvement with the E.A.T. program. Since another entity, Q26334, is specifically identified as the artist Susan Alexander associated with this archival context, it is unlikely Q75529960 is the same person."
+        },
+        {
+          "qid": "Q75593665",
+          "label": "Susan Henn Collins",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Susan Henn Collins (Q75593665) lived from 1841 to 1895, making it impossible for her to be the Susan Alexander active in the late 1960s and early 1970s mentioned on the index card."
+        },
+        {
+          "qid": "Q75633108",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name Susan Alexander matches and the lifespan (1920-2000) is plausible for someone active in the late 1960s, there is no evidence that this specific Wikidata entity (Q75633108) was an artist or associated with E.A.T. This entity appears to be a genealogical record for a British individual, whereas the project context suggests an artist, often associated with a different Wikidata entity (Q26334) specifically identified for this project."
+        },
+        {
+          "qid": "Q76092963",
+          "label": "Susan Alexander McAlpine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Susan Alexander McAlpine died in 1921, making it impossible for her to be the Susan Alexander active as an artist in the late 1960s and early 1970s described on the card."
+        },
+        {
+          "qid": "Q89899880",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity Q89899880 identifies the individual as a researcher at the University of Alabama in Huntsville, which lacks a clear connection to the artistic and E.A.T. (Experiments in Art and Technology) context provided for the card entry. Furthermore, another Wikidata entity (Q26334) is already specifically linked to this person's participation in the E.A.T. project."
+        },
+        {
+          "qid": "Q92624266",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q92624266) describes a researcher associated with the Nova Scotia Health Authority and universities in Canada and India. The card entry refers to an artist involved with the E.A.T. (Experiments in Art and Technology) program in the late 1960s. These profiles represent two different individuals with the same name."
+        },
+        {
+          "qid": "Q101401119",
+          "label": "Susan Pearson Seddon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Susan Pearson Seddon lived from 1786 to 1845, making it impossible for her to be the Susan Alexander active in the late 1960s and early 1970s mentioned in the card entry."
+        },
+        {
+          "qid": "Q102375991",
+          "label": "Susan Alexander McCook",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Susan Alexander McCook was born in 1879 and would have been approximately 90 years old during the late 1960s when the E.A.T. records were being generated. It is highly unlikely that she is the artist Susan Alexander mentioned on the card, especially since the name McCook does not appear on the card and the card record matches a different, specific entity (Q26334) already associated with the E.A.T. program."
+        },
+        {
+          "qid": "Q112524060",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q112524060) was born in 1969, making it impossible for her to have been the Susan Alexander active in the late 1960s/early 1970s as a professional artist or contact for the E.A.T. project. Additionally, her fields of work (nursing, diabetology) do not align with the artistic context of the card entry."
+        },
+        {
+          "qid": "Q112602574",
+          "label": "Susan Alexander",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names match, but the Wikidata entity (Q112602574) refers to a Montreal-based ballet teacher and director general of a dance school. While she is an artist, the Susan Alexander associated with the E.A.T. Technical Services Program is generally identified as a distinct person (Q26334) who was active in the New York art-and-technology scene in the late 1960s. There is no clear evidence to link the Montreal dance figure to this specific technical program."
+        },
+        {
+          "qid": "Q113471974",
+          "label": "Susan E. Alexander",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in the late 1960s associated with the E.A.T. program. The Wikidata entity (Q113471974) describes a researcher who received a PhD from Stanford under Joan Roughgarden; given that Roughgarden only began her academic career in the early 1970s, this Susan E. Alexander is likely a scientist rather than the artist in question."
+        },
+        {
+          "qid": "Q133693562",
+          "label": "Q133693562",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Susan Alexander matches exactly between the card and the Wikidata entity. The birth year of 1942 provided in the Wikidata record makes the person approximately 25 to 30 years old during the late 1960s and early 1970s, which is a highly plausible age for an artist active in the E.A.T. Technical Services Program."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Susan Alexander is a contemporary dancer, choreographer, and educator who was part of the Merce Cunningham circle in New York during the late 1960s and 1970s. She is associated with the Experiments in Art and Technology (E.A.T.) community, likely through her extensive work as a faculty member and assistant at the Merce Cunningham Dance Studio. Merce Cunningham was one of the co-founders of E.A.T. along with Robert Rauschenberg and Billy Klüver. Alexander led a residency at UC Berkeley in the late 1960s and has taught at the Paris Conservatory of Music and Dance and the Paris Opera Ballet. Her artistic practice has included collaborations with filmmakers, notably with David Robinson on the project \"Moving Bodies/Moving Pictures,\" which received support from the National Endowment for the Arts (NEA). Historical records of E.A.T. activities and dance techniques from the 1960s often list her alongside other key collaborators of the era, such as Ruth Barnes and Merce Cunningham.",
+            "sources": [
+              "https://www.westmont.edu/people/susan-alexander-ma",
+              "https://www.independent.com/2010/06/16/close-susan-alexander/",
+              "https://www.dancehubsb.org/susan-alexander-interview/",
+              "https://lifedance.co.uk/dancework-history-information/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Susan Alexander (also known as Susan Alexjander) is a composer and sound artist known for her interdisciplinary collaborations between art and science. She is particularly recognized for her work \"Sequencia\" (1990), where she collaborated with biologist David Deamer to translate the vibrational frequencies of DNA base molecules into audible sound using synthesizers. While her most prominent work emerged in the late 1980s and 1990s, she is cited in historical reports (such as those by the Smithsonian) alongside the legacy of the Experiments in Art and Technology (E.A.T.) due to her focus on the intersection of artistic expression and scientific data. She holds a Master's degree in Composition and Theory from San Jose State University and has had her works featured in major science and art institutions, including the Boston Museum of Science and the San Francisco Museum of Modern Art.",
+            "sources": [
+              "https://www.oursounduniverse.com/sequencia-dna-music",
+              "https://www.si.edu/content/opanda/docs/Rpts2010/10.09.InterplayOfPerspectives.Final.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Susan Alexander\" artist collaboration engineers scientists",
+            "\"Susan Alexander\" E.A.T. artist",
+            "\"Susan Alexander\" artist 1960s 1970s biography",
+            "\"Susan Alexander\" artist 1960s 1970s Experiments in Art and Technology",
+            "\"Susan Alexander\" dancer Merce Cunningham studio",
+            "\"Susan Alexander\" \"Experiments in Art and Technology\"",
+            "\"Susan Alexander\" \"9 Evenings\" art technology",
+            "\"Susan Alexander\" E.A.T. membership list",
+            "",
+            "\"Susan Alexander\" E.A.T. \"Pepsi Pavilion\"",
+            "\"Susan Alexander\" artist collaborator Billy Klüver",
+            "\"Susan Alexander\" E.A.T. membership 1960s 1970s",
+            "\"Susan Alexander\" artist Osaka Expo 70",
+            "",
+            "\"Susan Alexander\" composer DNA science art E.A.T.",
+            "\"Susan Alexander\" choreographer \"Experiments in Art and Technology\"",
+            "\"Susan Alexander\" artist E.A.T. newsletter",
+            "\"Susan Alexander\" \"Merce Cunningham\" E.A.T.",
+            "\"Susan Alexander\" artist \"Experiments in Art and Technology\" project",
+            "\"Susan Alexander\" choreographer \"9 Evenings\" collaboration",
+            "\"Susan Alexander\" composer \"E.A.T.\" collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCKHmU2yyXMCsrtVPN0xWhmG95DCdYPr3A4-V_k0ZwbtVt4WYFoZKwcWpNNSW7PcbvnF5WAPxq5OXFYI1wvoTe_m9ti6XbtKSsOkm_W01SgKfxKOaq5DEfKtaUIMeu8U2z_0fnUjNqH3Isx2lh1CuJeeGGl1oEYzZg97M=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/342391677/Tanztechniken-2010-pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkVxMvUkmWTz146q6jrBhSxEZcwwIBN7-bnihQSdoprMmjS4nU62eU8FsSGUepU_zBq2DhHWztSGRcZPsD5bgVK29ke9T_ecHxwe4lsqj40JnXUSAgaFj7UR_rEY6kt3eJ1aNJDLuPdJXXGxtJuAVDjCYW4iHTejRw4VgHoTdUBqEo4clYwR5btrNUom4FiY4KwioWkAQ8",
+              "title": "utexas.edu",
+              "resolvedUri": "https://repositories.lib.utexas.edu/bitstreams/a42ca43e-9e22-401f-a302-03ce5c3bf37c/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQJ_l-L6YrmA4TQjU_kTFYUC8vpkgeEQTj8I2btBhmbgS6vxgVXNYmrK5W1wwYBSxg-y28XOoAEbMEnBElfcfWaivnzvYKTiHlM1UwExCVtM5KNkiuDSbsUujxudXVMm6sxq19PRXwjc3IDl3zRmaDolV9Rq9ehj1IJekLPO0LX1o=",
+              "title": "si.edu",
+              "resolvedUri": "https://soar.si.edu/sites/default/files/reports/10.09.hacsci.final.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhXX5rlNxHYJNQbbt3zmRW0qNKwXgNR6tsJHThB-Bh9FPolNgPO7V44ulogZE4evxYMuJ4d5An9fdMWt_JVzSKeuimm3hlsiio3VKhAZHywmyDqeDpfAL5avUJc_HLHVfc_YdSi7cPuQQ047_a1WPACfzh1vVFhW9f6z8S60rLop_4dwsXzM8YFba7qpKZhAorQQkqA0bhAriQoCMM_F3H2JWJfUDSVfslw3FFIPYuY2hy33U5zdNC",
+              "title": "uff.br",
+              "resolvedUri": "https://www.artes.uff.br/giulianobici/data/uploads/arquivos/22-2/esteticas-eticas-do-sonoro/kahnearthsoundearthsignal2013.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 208,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Susan Alexander is a contemporary dancer, choreographer, and educator who was part of the Merce Cunningham circle in New York during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 209,
+                "endIndex": 278,
+                "text": "She is associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 450,
+                "endIndex": 499,
+                "text": "along with Robert Rauschenberg and Billy Klüver."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1988,
+                "endIndex": 2068,
+                "text": "due to her focus on the intersection of artistic expression and scientific data."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -85,6 +1173,174 @@
         "y1": 70.3,
         "x2": 27.8,
         "y2": 80.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1809435",
+          "label": "Lazar Horowitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Lazar Horowitz lived from 1803 to 1868 and was a rabbi in Vienna. This is completely incompatible with the card entry dated 1971, which refers to an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q8065540",
+          "label": "Zalmon Libin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Ji Hurwitz' and 'Zalmon Libin' have no similarity. Furthermore, the Wikidata entity died in 1955, making it impossible for them to be the artist active in 1971 mentioned on the card."
+        },
+        {
+          "qid": "Q12411870",
+          "label": "Simon Hirsch Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Simon Hirsch Hurwitz died in 1946, which is incompatible with the card's context of an artist active in the late 1960s or early 1970s. Additionally, his occupation is listed as a rabbi rather than an artist."
+        },
+        {
+          "qid": "Q19521698",
+          "label": "Saul Israel Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Saul Israel Hurwitz died in 1922, making it impossible for him to be the person active in 1971 referenced on the index card."
+        },
+        {
+          "qid": "Q28109809",
+          "label": "Simeon Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Simeon Hurwitz died in 1900, whereas the person on the card was recorded in 1971 and is described as an artist active in the late 1960s/early 1970s. Additionally, the Wikidata entity was a rabbi/posek, which does not align with the artistic context."
+        },
+        {
+          "qid": "Q118913887",
+          "label": "Hurwitz, Shmuel, Halevi",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names 'Ji' and 'Shmuel' are significantly different, and the Wikidata record lacks any professional context or dates that align with the artist mentioned on the card."
+        },
+        {
+          "qid": "Q123863114",
+          "label": "Elise Wertheimer, verheiratete Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Elise Hurwitz died in 1862, which is more than a century before the 1971 date on the card entry. Additionally, the names 'Ji' and 'Elise' are not a clear match."
+        },
+        {
+          "qid": "Q134234509",
+          "label": "Yaʻaḳov ben Shelomoh Zalman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1936, which is decades before the 1971 date on the card. Furthermore, the names ('Ji Hurwitz' and 'Yaʻaḳov ben Shelomoh Zalman') do not match."
+        },
+        {
+          "qid": "Q135392663",
+          "label": "Edith Hurwitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The given names 'Ji' and 'Edith' do not match. Furthermore, the Wikidata entity describes a Holocaust victim born in 1901, while the card entry refers to an artist active in 1971. There is no evidence to suggest these are the same individual."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ji Hurwitz is most likely a reference to Jacob Isaac Hurwitz (often cited as J. I. Hurwitz or JI Hurwitz), a social psychologist who was active in the late 1960s and 1970s. He is best known for his foundational research on group dynamics, specifically his paper 'Some Effects of Power on the Relations among Group Members' (1953, often reprinted in the 1960s and 70s). While Hurwitz was not primarily an artist, his work focused on how individuals of different statuses communicate and interact within small groups, a subject of significant interest to organizations like Experiments in Art and Technology (E.A.T.). E.A.T. was a non-profit organization that facilitated collaborations between artists, engineers, and scientists, often focusing on the social processes and dynamics of multidisciplinary teamwork. Hurwitz's work on status and communication in groups is frequently cited in academic and technical literature of that era concerning social engineering and collaborative structures.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRlQmxZE_Yg9TddIkCk95Ns7sUVNjAuttpzyc79GcV2CDCbj9ZhRKSpngXHcLViwQkfJwfjTm2dU_alOkiP2PM5WXhVMZ9Coj3fq9lhusAVwPCUUuu5vA5jjvn0G6fQ1JamElT0AYxg58tS6QU5DgzIxRS4Kz8VkLCtLRraACEp63sRCCp1shRMGk=",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENefgiJCt9F2Jjl2FY9RaeXPQiuIRqSdTHRTRHwJkIsW1ooj6XlyEQnw0xZZ8ie7FDfXzxcvxszYEqAtXivWEJJblrleQzQGRcSzaB9ekje2YC-_TGsuzuDnPBUPv-1DbdIsjtaHe4V7DhgG6ji-cxMQfJVgrSuRcjxxt6j2JqUcsW43tO_vX23mcOLP7Gn5uUSR7nib82sN26dmXscioSkGFssoQoWcqpayGG4bTz7NsTwVgE",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRT4Md-J0VsZjTBKfjM8LDW7HoVN-T4d7XO5jfLC0TTn7NWv31oiV9zQMHfV0xbYL6fFWMNYGNl9-t31xNRnoGpbpB2nWQjWqF73ayqCckfpRQqJdr4f0jP-zlw2tG-TPPlApow1y36fn9mo1iM-rLjfSuckomO2RXMgOjuxHBoY6OUjXmp4skaoa-9NkcSE0CODXMl6Cp1qWIqwsBEVWZDXMvIw=="
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Ji Hurwitz\" 1960s 1970s",
+            "\"Ji Hurwitz\" E.A.T.",
+            "\"Ji Hurwitz\" Experiments in Art and Technology",
+            "\"Ji Hurwitz\" artist",
+            "\"Julie Hurwitz\" artist E.A.T.",
+            "\"Ji Hurwitz\" E.A.T. membership",
+            "\"Jill Hurwitz\" artist E.A.T.",
+            "\"Ji Hurwitz\" artist E.A.T.",
+            "\"Ji Hurwitz\" Experiments in Art and Technology artist",
+            "\"Ji Hurwitz\" 9 Evenings",
+            "\"Experiments in Art and Technology\" \"Hurwitz\"",
+            "\"Julie Hurwitz\" E.A.T. artist",
+            "\"E.A.T.\" \"Hurwitz\" artist",
+            "\"Ji Hurwitz\" artist 1960s 1970s",
+            "\"Ji Hurwitz\" E.A.T. archival records",
+            "\"Thomas Hurwitz\" E.A.T.",
+            "\"Ji Hurwitz\" 1970s artist",
+            "\"Ji Hurwitz\" 1960s artist",
+            "\"Ji Hurwitz\" artist bio",
+            "\"Ji Hurwitz\" Experiments in Art and Technology list",
+            "",
+            "\"Ji Hurwitz\" E.A.T. technician",
+            "\"Ji Hurwitz\" E.A.T. membership list 1969",
+            "\"Ji Hurwitz\" an artist associated with E.A.T.",
+            "\"Ji Hurwitz\" E.A.T. volunteer",
+            "\"J. I. Hurwitz\" E.A.T.",
+            "\"Hurwitz\" E.A.T. Techne",
+            "\"Hurwitz\" Experiments in Art and Technology technician",
+            "\"Ji Hurwitz\" artist 1960s",
+            "\"Ji Hurwitz\" E.A.T. artist 1960s 1970s",
+            "\"Ji Hurwitz\" engineering consultant art",
+            "\"Ji Hurwitz\" designer 1970s",
+            "\"Pedro Ordonez Eslava\" Hurwitz editor",
+            "\"Ji Hurwitz\" E.A.T. researcher",
+            "\"Hurwitz\"",
+            "\"Hurwitz\" E.A.T. Newsletter",
+            "\"Hurwitz\" Experiments in Art and Technology membership",
+            "\"Ji Hurwitz\" artist E.A.T. 1969",
+            "",
+            " \"Hurwitz\"",
+            "\"Hurwitz\" E.A.T. Brooklyn Museum",
+            "\"Hurwitz\" member E.A.T. New York",
+            "\"Hurwitz\" E.A.T. Pavilion contributor",
+            "\"Ji Hurwitz\" 1960s",
+            "\"Ji Hurwitz\"",
+            "\"Ji Hurwitz\" 1970s",
+            "\"Ji Hurwitz\" E.A.T. contribution",
+            "\"Ji Hurwitz\" architect",
+            "",
+            "\"Ji Hurwitz\" E.A.T. newsletter 1969",
+            "\"Ji Hurwitz\" technician Experiments in Art and Technology",
+            "\"Ji Hurwitz\" membership list Experiments in Art and Technology",
+            "",
+            "\"Hurwitz\" Experiments in Art and Technology directory",
+            "\"Hurwitz\" E.A.T. membership list",
+            "\"Ji Hurwitz\" designer 1969",
+            "\"Ji Hurwitz\" list of artists 1970s",
+            "\"Ji Hurwitz\" group dynamics E.A.T.",
+            "\"Hurwitz\" member \"Experiments in Art and Technology\"",
+            "\"Hurwitz\" \"E.A.T.\" New York member",
+            "\"Ji Hurwitz\" artist 1968 exhibition",
+            "\"Hurwitz\" member \"Experiments in Art and Technology\" list",
+            "\"Jacob Hurwitz\" Experiments in Art and Technology",
+            "\"Hurwitz\" \"E.A.T.\" list of participants",
+            "\"Jill Hurwitz\" Experiments in Art and Technology",
+            "\"Ji Hurwitz\" artist 1970"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRVvl5d5QVqeRJJw3a2YS_H5d4c84iYqzXqclu2pVAvnEMEzhtceC-kay5YRrShfG5Kjb5s5LgBkRxzEF5IFbwLC1bJvE19aKaqeb8Rj2z4ANrJsH8vhP_pYhcQ8G42coHIIVgIWir_06iFG-GaNOqdIfVlcJkT1qlUWESgETtwLtgQAvAtwId42Z91RY72-ZhB_bEtDFiXBBo8HiDUrdj6zqm0yK8PjzcBmO5zsRaUtPgYynH",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/229488344_Unequal_Power_Relationships_Within_a_Cooperative_or_Competitive_Context"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 132,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ji Hurwitz is most likely a reference to Jacob Isaac Hurwitz (often cited as J. I."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

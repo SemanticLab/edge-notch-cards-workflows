@@ -9,6 +9,105 @@
         "y1": 7.9,
         "x2": 49.7,
         "y2": 14.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q95031879",
+          "label": "Krumpolc",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity 'Krumpolc' is documented in the Biographisches Lexikon des Kaiserthums Oesterreich, which covers the period of the Austrian Empire (late 18th to mid-19th century). This is temporally inconsistent with the late 1960s/1970s timeframe of the card entry. Furthermore, the names 'Iris Krump' and 'Krumpolc' do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Iris Crump (often referred to in historical documents as an African American artist and activist active in the late 1960s and 1970s) is likely the individual intended by the name Iris Krump. She was a prominent figure in the New York City art activism scene, notably as a member of the Art Workers Coalition (AWC). In 1969, she participated in the AWC's 'Open Hearing' at the School of Visual Arts and was a co-founder of the AWC's 'Black Blok' committee alongside Faith Ringgold and Tom Lloyd, which advocated for increased representation of Black artists in major museums like the Museum of Modern Art (MoMA). Crump was also an early member of 'Where We At' (WWA), a pioneering collective of Black women artists founded in 1971. Her artistic practice included sculpture and mixed-media works; critics noted that she incorporated lights and mirrors into contemporary settings to depict communal activities. She was part of the 'X 12' exhibition of women artists at the Museum gallery in Noho. In 1982, she received a National Endowment for the Arts (NEA) Visual Artists' Fellowship in sculpture. Historical records from rare book catalogs list her name in proximity to the organization Experiments in Art and Technology (E.A.T.), and her use of technological elements like controlled lighting in her installations aligns with the organization's cross-disciplinary goals.",
+            "sources": [
+              "https://artfacts.net/artist/iris-crump/556775",
+              "https://en.wikipedia.org/wiki/Where_We_At",
+              "https://primaryinformation.org/product/art-workers-coalition-open-hearing/",
+              "https://archive.org/stream/creativelegacyhi00prin/creativelegacyhi00prin_djvu.txt",
+              "https://www.garthgreenan.com/news/howardena-pindell-featured-in-womans-art-journal",
+              "https://joaap.org/1/awc.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Iris Krump artist",
+            "\"Iris Krump\" biography",
+            "\"Iris Crump\" Experiments in Art and Technology",
+            "\"Iris Crump\" E.A.T. artist",
+            "\"Iris Crump\" artist lights mirrors",
+            "\"Iris Crump\" Art Workers Coalition",
+            "\"Iris Crump\" African American artist",
+            "\"Iris Crump\" \"Experiments in Art and Technology\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbph0_G-cOXwaO_eRHa1r-eknw7ASm6ipwJmWDwGyJmi0qV5aobmedk-7UVZ4UPwMThHG1hQkbEZYFRzNbtU_LcmURkoo3jjNf6bmxtvBLEy-ifc6bUkgyrZ5jPeBDi5BTH86MLzC7iCgMyZvZ_6-wq-UQ-1Dni2WN1QJfK0uKca5mdXXk",
+              "title": "primaryinformation.org",
+              "resolvedUri": "https://primaryinformation.org/product/art-workers-coalition-open-hearing/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpZLxdvmX5QK74YnPouccovO1YVpLrRN9h_ZSKY8T-KJSsPhIY8BmtsUcp4iwpwhaGkfq3fas39CSoB1TGfwjBry3XsryzBWRH_JKgC255VhZIXsTMaI4FuOMog3LM_bsl6x73V-nZYczusKc_LbxDOIxXIOKuBfDQdVVcScY8n5vaP8UF7uJhM_4XHDk-WmCBjoUom3Psk5TmyiU=",
+              "title": "garthgreenan.com",
+              "resolvedUri": "https://www.garthgreenan.com/attachment/en/57ab21f484184ea8138b4568/News/57ab21ff84184ea8138b4d9c"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENvsMMr83qiWWaZpAG1e0h2XlgwK9pTCKn4pJdqMjY8PJQkwMhr1BJjGvvvXm3bdIc1BLE4zHy8DEJXNYP0c9hvpn9nAARAYC8yIGkbcMRVmKwzg86s2Ii7D9gK6Vi",
+              "title": "ecosun.in",
+              "resolvedUri": "https://ecosun.in/products/9129460/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdSBBIiXO5OZoJJTeCwAuCIkixut_sYaK5aQqikgOQsSJHG1leMLloMWPny6ATD-7XfX9o5vqEhtfeGnKfPl5a6CAbRxiaUKy6yfMSlBd-7jdXz-6TRG6L8go6D2khtP9HBrusDNWhcQOIjod5-BkCGKRm631Xvo7MY8CNHeB-ESabn82S42xJERP_Y1mX1TKex5etTkEinmM7oBm6AnrLDahk8p0hkGq70FhUCmMzjA==",
+              "title": "veteranfeministsofamerica.org",
+              "resolvedUri": "https://www.veteranfeministsofamerica.org/wp-content/uploads/2019/12/x12-show-1976-article-by-Nemec-in-WomanArt-1.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH946Xv40lSyvNW74MncVM2o6tjmRl_Sem1HxpShYTuE67USXXSDtJjmA9GMIEpuu8Vn0_jzEjq7sMh0C7wsv0h7aYjGXA2F-xGKeKRfxU4W_zIR-P_9T82_tKiubmNCTZYiZ8fKZb6oGspG4ZV6enSm5ty65rHMLZaSyKBfFConrMNne-Fj47b_2tp2k37",
+              "title": "garthgreenan.com",
+              "resolvedUri": "https://www.garthgreenan.com/news/howardena-pindell-featured-in-woman-s-art-journal"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 240,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Iris Crump (often referred to in historical documents as an African American artist and activist active in the late 1960s and 1970s) is likely the individual intended by the name Iris Krump."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 781,
+                "endIndex": 957,
+                "text": "Her artistic practice included sculpture and mixed-media works; critics noted that she incorporated lights and mirrors into contemporary settings to depict communal activities."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 958,
+                "endIndex": 1043,
+                "text": "She was part of the 'X 12' exhibition of women artists at the Museum gallery in Noho."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +119,136 @@
         "y1": 14.0,
         "x2": 49.4,
         "y2": 21.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26292",
+          "label": "Evan Jacobsen",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity is specifically linked to the E.A.T. Technical Services Program edge-notched cards, which is the physical source of the card record being evaluated."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q213134",
+          "label": "Lars Jacobsen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Evan' does not match 'Lars', and the timelines are completely incompatible: the card describes an artist active in the late 1960s/early 1970s, whereas the Wikidata entity is a Danish footballer born in 1979 who began his career in 1996."
+        },
+        {
+          "qid": "Q424307",
+          "label": "Juriaen Jacobsze",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active in the late 1960s and 1970s, whereas the Wikidata entity is a Dutch painter who lived from 1624 to 1685. They are separated by three centuries."
+        },
+        {
+          "qid": "Q719753",
+          "label": "J. C. Jacobsen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (J. C. Jacobsen) lived from 1811 to 1887, whereas the person on the card was active in the late 1960s/early 1970s. Additionally, the names Evan and Jacob Christian are not matches."
+        },
+        {
+          "qid": "Q798827",
+          "label": "Lambert Jacobsz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q798827) describes Lambert Jacobsz, a Dutch Golden Age painter who lived from 1598 to 1636. This is chronologically incompatible with the card record for Evan Jacobsen, who was active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q1395092",
+          "label": "Roy Jacobsen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Evan' and 'Roy' do not match. Additionally, Roy Jacobsen (Q1395092) is a Norwegian novelist born in 1954 who began his career in the 1980s, which does not align with the timeline of an artist active in the late 1960s associated with the E.A.T. program. The card metadata already points to a different entity (Q26292) which matches the name Evan Jacobsen exactly."
+        },
+        {
+          "qid": "Q2857310",
+          "label": "Antonio Jacobsen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Evan vs. Antonio) and the timelines are completely incompatible. Antonio Jacobsen died in 1921, while the card record refers to an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q2888119",
+          "label": "Hans Jacobsen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Evan Jacobsen' on the card does not match the name 'Hans Jacobsen' in the Wikidata record. Furthermore, the Wikidata entity describes a person born in 1815 and deceased in 1891, which makes it impossible for them to have been active in the late 1960s/1970s as indicated by the card context."
+        },
+        {
+          "qid": "Q3159375",
+          "label": "Q3159375",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Evan Jacobsen, active in the E.A.T. program during the late 1960s or early 1970s. The Wikidata entity is Jacques Lemonnier, a French comics artist born in 1958. Lemonnier would have been too young (around 11 years old) to be the professional artist/participant listed on the card at that time. Additionally, while Lemonnier uses 'Jacobsen' as a pseudonym, his first name is Jacques, not Evan."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Evan Jacobsen\" artist 1960s 1970s",
+            "\"Evan Jacobson\" artist Experiments in Art and Technology",
+            "\"Evan Jacobsen\" E.A.T. artist",
+            "\"Evan Jacobsen\" artist Experiments in Art and Technology",
+            "\"Evan Jacobsen\" artist 1970s",
+            "\"Evan Jacobsen\" artist 1960s",
+            "\"Evan Jacobson\" Experiments in Art and Technology",
+            "\"Evan Jacobsen\" Pavilion Expo 70",
+            "\"Evan Jacobson\" Pavilion Expo 70",
+            "\"Evan Jacobsen\" Experiments in Art and Technology",
+            "",
+            "\"Evan Jacobsen\" E.A.T. collaboration",
+            "\"Evan Jacobsen\" artist New York 1960s",
+            "\"Evan Jacobsen\" artist New York 1970s",
+            "\"Evan Jacobson\" Pepsi Pavilion E.A.T.",
+            "",
+            " \"Jacobsen\"",
+            " \"Jacobson\"",
+            "\"Evan Jacobsen\" artist New York",
+            "\"Evan Jacobsen\" art 1960s 1970s",
+            "\"Evan Jacobson\" E.A.T. organization",
+            "\"Evan Jacobsen\" E.A.T. organization",
+            "\"Evan\" \"Experiments in Art and Technology\" participant",
+            "\"Evan Jacobsen\" video artist",
+            "\"Jacobson\" E.A.T. artist engineer",
+            "\"Evan Jacobsen\" sound artist",
+            "\"Evan\" E.A.T. artist engineer",
+            "\"Jacobsen\" E.A.T. artist engineer",
+            "\"Evan Jacobsen\" 1971 artist",
+            "\"Evan Jacobsen\" 1972 artist",
+            "\"Evan Jacobsen\" 1970 artist",
+            "\"Evan Jacobsen\" 1968 artist",
+            "\"Evan Jacobsen\" 1969 artist",
+            "\"Evan Jacobsen\" art exhibition 1960s",
+            "\"Evan Jacobsen\" art exhibition 1970s",
+            "",
+            "\"Evan Jacobson\" Experiments in Art and Technology member",
+            "Who is the \"Jacobson\" in \"Jacobson Howard Gallery\"?",
+            "\"Evan Jacobson\" art gallery New York",
+            "\"Evan Jacobsen\" art gallery New York",
+            "\"Evan Jacobsen\" Experiments in Art and Technology member",
+            "\"Evan Jacobson\" biography artist",
+            "\"Evan Jacobsen\" E.A.T. member list",
+            "\"Evan Jacobsen\" biography artist",
+            "\"Evan Jacobson\" E.A.T. member list",
+            "\"Evan Jacobsen\" artist group show 1970s",
+            "\"Evan Jacobsen\" artist group show 1960s",
+            "list of collaborating artists Pepsi Pavilion E.A.T.",
+            "\"Evan Jacobsen\" artist 1971",
+            "\"Evan Jacobson\" artist 1970",
+            "\"Evan Jacobsen\" artist 1970",
+            "\"Evan Jacobsen\" artist 1966",
+            "\"Evan Jacobsen\" artist 1967"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -30,6 +259,146 @@
         "y1": 19.9,
         "x2": 40.1,
         "y2": 30.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Peter Deal was a prominent British fashion and beauty photographer active in the late 1960s and 1970s. He trained in New York under legendary photographers Irving Penn and Bert Stern, and he reportedly worked as an assistant on Marilyn Monroe's famous 'The Last Sitting' session. Deal was known for his meticulous black-and-white printing and high-fashion portraiture. His work appeared on the covers of major magazines, including Harper's Bazaar UK (notably the April 1968 issue). In 1970, he was associated with an exhibition at the Institute of Contemporary Arts (ICA) in London. He is also remembered as a mentor to other photographers, such as Jim Rice, during the late 1960s and early 1970s.",
+            "sources": [
+              "https://www.jimricephotography.co.uk/about",
+              "https://en.wikipedia.org/wiki/List_of_Harper%27s_Bazaar_UK_cover_models",
+              "https://www.tarahanks.com/2022/12/11/fenella-fielding-actress-a-tribute-in-art/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Paul H. Deal was a microbiologist and scientist at NASA Ames Research Center who was active in research during the late 1960s and 1970s. He frequently co-authored technical papers with prominent NASA researchers such as Richard S. Young, including the 1970 study 'Altered gravitational field effects on the fertilized frog egg.' Given the mission of Experiments in Art and Technology (E.A.T.) to foster collaborations between artists, engineers, and scientists, Paul Deal represents a likely technical collaborator from the scientific community. In the late 1980s, he transitioned into software development, creating evolution-based computer programs mentioned in Scientific American and the text-based role-playing game 'Fallthru' (1988).",
+            "sources": [
+              "https://ntrs.nasa.gov/search.jsp?R=19700017163",
+              "https://archive.org/details/nasa_techdoc_19700017163",
+              "https://crpgaddict.blogspot.com/2014/07/fallthru-final-rating.html",
+              "https://www.scientificamerican.com/magazine/sa/1989/09-01/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Peggy Deal\" artist E.A.T.",
+            "\"P. Deal\" artist Experiments in Art and Technology",
+            "\"P. Deal\" E.A.T. artist",
+            "\"P. Deal\" artist 1960s 1970s",
+            "\"Priscilla Deal\" artist E.A.T.",
+            "\"Peter Deal\" artist E.A.T.",
+            "\"Philip Deal\" artist E.A.T.",
+            "\"Patricia Deal\" artist E.A.T.",
+            "\"Paul Deal\" artist E.A.T.",
+            "\"P. Deal\" Experiments in Art and Technology E.A.T.",
+            "\"P. Deal\" 9 Evenings Theatre and Engineering",
+            "\"Peter Deal\" artist E.A.T.",
+            "\"P. Deal\" Pepsi Pavilion Osaka 70",
+            "",
+            "\"Patricia Deal\"",
+            "\"Peter Deal\"",
+            "\"Peggy Deal\"",
+            "\"Paul Deal\"",
+            "\"Priscilla Deal\"",
+            "\"P. Deal\"",
+            "\"P. Deal\" E.A.T. Osaka Pavilion",
+            "\"Peggy Deal\" artist 1960s 1970s",
+            "\"P. Deal\" E.A.T. \"9 Evenings\"",
+            "\"P. Deal\" E.A.T. member",
+            "\"Phil Deal\" artist Experiments in Art and Technology",
+            "\"Paul Deal\" artist Experiments in Art and Technology",
+            "\"Patricia Deal\" artist Experiments in Art and Technology",
+            "\"Peggy Deal\" artist Experiments in Art and Technology",
+            "\"Peter Deal\" artist Experiments in Art and Technology",
+            "\"P. Deal\" artist New York 1960s 1970s",
+            "\"Priscilla Deal\" artist Experiments in Art and Technology",
+            "",
+            "\"Paul Deal\" Experiments in Art and Technology",
+            "\"Paul Deal\" NASA artist E.A.T.",
+            "\"Patricia Deal\" NASA artist E.A.T.",
+            "\"Patricia Deal\" Experiments in Art and Technology",
+            "\"P. Deal\" E.A.T. technical collaborator",
+            "\"P. Deal\" artist \"9 Evenings\"",
+            "\"Paul Deal\" artist exhibition 1960s 1970s",
+            "\"Phil Deal\" artist exhibition 1960s 1970s",
+            "\"Peter Deal\" artist exhibition 1960s 1970s",
+            "\"Patricia Deal\" artist exhibition 1960s 1970s",
+            "\"Paul Deal\" E.A.T. artist",
+            "\"P. Deal\" Experiments in Art and Technology collaborator",
+            "\"Priscilla Deal\" artist exhibition 1960s 1970s",
+            "\"Peggy Deal\" artist exhibition 1960s 1970s",
+            "\"Peter Deal\" photographer 1960s 1970s",
+            "\"Peter Deal\" artist ICA exhibition 1970",
+            "\"Peter Deal\" photographer Experiments in Art and Technology",
+            "\"Peter Deal\" E.A.T. collaborator",
+            "\"P. Deal\" artist E.A.T. pavilion",
+            "\"Paul H. Deal\" NASA E.A.T.",
+            "\"Paul Deal\" artist Osaka 70",
+            "\"Peter Deal\" artist Osaka 70",
+            "\"P. Deal\" E.A.T. member list",
+            "\"Paul H. Deal\" E.A.T. scientist",
+            "\"Paul H. Deal\" Experiments in Art and Technology",
+            "\"Peter Deal\" photographer E.A.T.",
+            "\"Paul Deal\" E.A.T. scientist artist",
+            "\"P. Deal\" artist E.A.T. collaboration",
+            "",
+            "\"Peter Deal\" artist New York 1970",
+            "\"Paul Deal\" \"E.A.T.\" participant",
+            "\"Peggy Deal\" \"E.A.T.\" participant",
+            "\"Patricia Deal\" \"E.A.T.\" participant",
+            "\"Peter Deal\" \"E.A.T.\" participant"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_cRce4cLALHZ6rzEN6_PPMkncT76A9dCZeza8J0ACpxPynYlnwkXUo5t6zR50z2yn6uGmbVFnTTGacvX5oBQ9OTQjpt8PgGC063BY3qzrP72K2t7Bs67kuixleN4hX88Q10d82nk4JeWBxsTQ05bCNr3D6THDrtTDB9JzyKsrDcj1TwRRIw==",
+              "title": "acteaz.org",
+              "resolvedUri": "https://www.acteaz.org/wp-content/uploads/2012/10/2015-SC-Final-Program.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhsxBeo1nlyYa52zEK0IM8Pis8JkoiGke8iZE0BsiuwSCX6CWanv1JimWHKXvDG5Ab2KxO1hIT5RIFxsxxV7Jp8NvxBqjw3kmmnT0CW1dLk0c52ra09CZGZxyMZ8TYibvga-z1X4libiY=",
+              "title": "jimricephotography.co.uk",
+              "resolvedUri": "https://www.jimricephotography.co.uk/biography"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 152,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Peter Deal was a prominent British fashion and beauty photographer active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 153,
+                "endIndex": 329,
+                "text": "He trained in New York under legendary photographers Irving Penn and Bert Stern, and he reportedly worked as an assistant on Marilyn Monroe's famous 'The Last Sitting' session."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 330,
+                "endIndex": 418,
+                "text": "Deal was known for his meticulous black-and-white printing and high-fashion portraiture."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

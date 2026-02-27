@@ -20,5 +20,143 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "computer poetry"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q499451",
+      "label": "Rutgers University",
+      "description": "multi-campus public research university in New Jersey, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer name 'Rutgers University' matches the Wikidata entity name exactly. Furthermore, the card specifies the location as New Brunswick, New Jersey, which is the primary campus and founding location of Rutgers University as confirmed by the Wikidata entity details."
+    },
+    {
+      "qid": "Q7382826",
+      "label": "Rutgers University–New Brunswick",
+      "description": "largest campus of Rutgers University in New Brunswick and Piscataway, New Jersey",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer on the card is Rutgers University and the individual's address is in New Brunswick, New Jersey (08901). The Wikidata entity is the New Brunswick campus of Rutgers University, also located in New Brunswick, NJ with the matching postal code 08901. This is clearly the specific branch or location of the employer referenced on the card."
+    },
+    {
+      "qid": "Q4048631",
+      "label": "Rutgers University Press",
+      "description": "academic publishing house in New Jersey",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Rutgers University Press (Q4048631) is a specific publishing department within the larger Rutgers University (Q157676). While they are related, they are distinct entities in Wikidata. Additionally, the individual's expertise in computers and artificial intelligence suggests employment within a technical or academic department of the university rather than its press division."
+    },
+    {
+      "qid": "Q7382780",
+      "label": "Rutgers University–Newark",
+      "description": "regional campus of Rutgers University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card lists 'Rutgers University' and specifies the individual's location as New Brunswick, New Jersey, which is the site of the main Rutgers campus. The Wikidata entity (Q7382780) specifically represents the Newark campus, which is a distinct regional branch located in a different city."
+    },
+    {
+      "qid": "Q923819",
+      "label": "Rutgers Scarlet Knights",
+      "description": "intercollegiate sports teams of Rutgers University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card identifies the employer as Rutgers University, the academic institution. The Wikidata entity Q923819 specifically refers to the Rutgers Scarlet Knights, which are the intercollegiate sports teams/athletic department of the university, not the university itself as a primary organization."
+    },
+    {
+      "qid": "Q6783581",
+      "label": "Mason Gross School of the Arts",
+      "description": "arts conservatory at Rutgers University in New Brunswick, New Jersey, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q6783581 represents the Mason Gross School of the Arts, which is a specific conservatory within Rutgers University. The index card identifies the employer as the university as a whole (Rutgers University), which is a separate entity (Q499444). Furthermore, the school was founded in 1975, while the subject's focus on AI and systems programming suggests a broader university affiliation or a different department."
+    },
+    {
+      "qid": "Q7382823",
+      "label": "Rutgers University–Camden",
+      "description": "regional campus of Rutgers University in Camden, New Jersey, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as Rutgers University and provides an address in New Brunswick, New Jersey. The Wikidata entity is specifically for Rutgers University–Camden, which is a regional campus located in Camden, NJ, distinct from the main campus in New Brunswick."
+    },
+    {
+      "qid": "Q52661516",
+      "label": "Rutgers University Libraries",
+      "description": "academic library system of Rutgers University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q52661516) refers specifically to the Rutgers University Libraries, which is a subsidiary unit of Rutgers University. The card mentions the parent organization, Rutgers University, which typically corresponds to its own distinct Wikidata entity (Q157677)."
+    },
+    {
+      "qid": "Q16980474",
+      "label": "Rutgers Biomedical and Health Sciences",
+      "description": "healthcare organization in Newark, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q16980474) refers to Rutgers Biomedical and Health Sciences, a specific division established in 2013. The employer on the card is listed as 'Rutgers University', which is the parent institution. Furthermore, the card appears to be historical (based on the phone number format and interests like computer poetry), while this specific Wikidata unit did not exist until 2013."
+    },
+    {
+      "qid": "Q7432388",
+      "label": "Rutgers School of Arts and Sciences",
+      "description": "part of Rutgers University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q7432388 represents the Rutgers School of Arts and Sciences, which is a specific constituent school of the broader Rutgers University. Furthermore, this specific school was established in 2007, while the card data, based on the phone number format and interests like 'computer poetry', likely dates back several decades earlier. The entity is a component of the employer, not the employer itself."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "John Roberts Brinkema is a computer scientist and engineer whose career has spanned academic research, defense technology, and judicial systems. In the late 1960s and early 1970s, he was associated with Rutgers University in New Brunswick, New Jersey, where he worked in technical fields including computers, artificial intelligence, and systems programming. During this period, he was potentially associated with Experiments in Art and Technology (E.A.T.), an organization fostering collaborations between the arts and engineering. Brinkema later spent 25 years as a computer scientist for the U.S. Naval Research Laboratory (NRL) in Washington, D.C. He also became a key figure at the Administrative Office of the U.S. Courts (AOUSC), where he played a major role in developing the Case Management/Electronic Case Files (CM/ECF) system and its successor, NextGen, which revolutionized electronic filing in the U.S. federal judiciary. He has co-authored several technical papers on these systems. Brinkema is married to U.S. District Judge Leonie Brinkema, and the couple has been involved in supporting early music organizations such as Early Music America and the Boston Early Music Festival.",
+        "sources": [
+          "https://alchetron.com/Leonie-Brinkema",
+          "https://www.earlymusicamerica.org/member-directory/archives-individual/",
+          "https://researchgate.net/publication/281318047_E-Filing_Case_Management_Services_in_the_US_Federal_Courts_The_Next_Generation_A_Case_Study",
+          "https://issuu.com/bostonearlymusicfestival/docs/2022-2023_bemf_chamber_opera_series_program_book",
+          "https://wyckofflibrary.org/wp-content/uploads/2018/07/1961.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"John Brinkema\" computers artificial intelligence programming systems",
+        "\"John Brinkema\" Experiments in Art and Technology",
+        "\"John Brinkema\" Rutgers University",
+        "\"John Brinkema\" New Brunswick New Jersey",
+        "",
+        "\"John Brinkema\" Rutgers Department of Computer Science history",
+        "\"John Brinkema\" E.A.T. artist engineer collaboration",
+        "\"John Brinkema\" Experiments in Art and Technology E.A.T.",
+        "\"John Brinkema\" computer scientist Rutgers",
+        "\"John Brinkema\" Rutgers University 1960s 1970s",
+        "",
+        "\"John Brinkema\" Rutgers Computer Science 1968 1969 1970 1971 1972",
+        "\"John Brinkema\" E.A.T. directory engineer",
+        "\"John Brinkema\" artificial intelligence Rutgers"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGdmdHW1Oh1_8bobll15RxKPGIQ-WxzKerqxYiG59hqNym8Y10bPsN1SdUIeiLtiBTwzEIFoJTTC3Z03TDxAr3D5LyoK_Nc3FFID-vO9gnmLBQgjNsN6EYLi0F2bFC41A6t6mFzSzak6zKR0GJ4Q7P13kXDmu82pikViwiC1glHiWz-OLRmrZ6KdGDO3GBD-2mY3pL5o52RsT5Ccg=",
+          "title": "uclawjournal.org",
+          "resolvedUri": "https://www.uclawjournal.org/wp-content/uploads/Reichman-et-al_From-a-Panacea-to-a-Panopticon.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 194,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John Roberts Brinkema is a computer scientist and engineer whose career has spanned academic research, defense technology, and judicial systems."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

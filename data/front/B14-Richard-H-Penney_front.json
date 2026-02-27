@@ -19,5 +19,113 @@
       "architectural design"
     ],
     "specializedSkillsKnowledge": "industrial design, product, graphic, and architectural design"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q75999784",
+      "label": "Richard Penney Furmage",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The name on the card (Richard H Penney) suggests Penney is the surname, whereas the Wikidata entry (Richard Penney Furmage) suggests Furmage is the surname and Penney is a middle name. Additionally, there are no overlapping details regarding occupation, location, or employer to suggest they are the same individual."
+    },
+    {
+      "qid": "Q135114752",
+      "label": "Richard Penney",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity lived in the early 19th century (1814–1844) and worked as a physician and newspaper editor. The card data describes a person working in industrial design for Henry Dreyfuss and Associates, a firm active in the mid-20th century, and uses a zip code system established in 1963."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Richard Horace Penney (1937–1996) was an American industrial designer active in New York City during the 1960s and 1970s. Born in Evanston, Illinois, he graduated from the School of Art and Design at Syracuse University and studied painting at Columbia University. He began his career at the prestigious firm Henry Dreyfuss and Associates in the late 1950s, where he remained through the 1960s. During this period, he collaborated with Henry Dreyfuss on the design of the Remington 25 electric typewriter (1969). Penney also worked for General Aniline & Film (GAF), where he was responsible for designing products such as the View-Master. Later, he joined Peter Schladermundt Associates in Bronxville, New York. His technical expertise spanned industrial, product, graphic, and architectural design. Notable projects include the Remington 15 portable typewriter, the Remington Rand SR101 'golfball' typewriter (1973), a Sperry Rand copying machine, and an automatic typewriter control console. His involvement with Experiments in Art and Technology (E.A.T.) is supported by his profile as a professional designer in New York during the organization's peak years, offering specialized technical services to artist-engineer collaborations.",
+        "sources": [
+          "https://oztypewriter.blogspot.com/2022/04/from-rio-de-janiero-to-ulladulla.html",
+          "https://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1853-35072016000100014"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Richard Penney\" designer Henry Dreyfuss Associates",
+        "",
+        "\"Richard Penney\" View-Master designer",
+        "\"Richard H. Penney\" E.A.T. design",
+        "\"Richard Penney\" Henry Dreyfuss E.A.T.",
+        "",
+        "\"Richard Penney\" E.A.T. member list",
+        "\"Richard Penney\" industrial designer Henry Dreyfuss E.A.T.",
+        "",
+        "\"Richard Penney\" industrial designer Syracuse University Henry Dreyfuss",
+        "\"Richard Penney\" Getty Research Institute E.A.T. archive",
+        "\"Richard Penney\" Experiments in Art and Technology E.A.T.",
+        "\"Richard Penney\" Henry Dreyfuss E.A.T. organization"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdBBx3JOvgqP2tWVPWWv5vk2H7688NIVAToe2z64ARCsYBqPjgS4Sw2FFm_WkcMBmbLkfTIg8JIHe1qm9paJ68zdcbdRTAz-Q1UMbaa-WJG9UodcMImayg-hN2x9snYL_LbT1_SX9BxoLYo0zGc_rzHpY8DvwBtftTjVpsYb-CZeJGipLhGqholw==",
+          "title": "blogspot.com",
+          "resolvedUri": "https://oztypewriter.blogspot.com/2022/04/from-rio-de-janiero-to-ulladulla.html"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 173,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Richard Horace Penney (1937–1996) was an American industrial designer active in New York City during the 1960s and 1970s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 447,
+            "endIndex": 564,
+            "text": "During this period, he collaborated with Henry Dreyfuss on the design of the Remington 25 electric typewriter (1969)."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 565,
+            "endIndex": 690,
+            "text": "Penney also worked for General Aniline & Film (GAF), where he was responsible for designing products such as the View-Master."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 691,
+            "endIndex": 763,
+            "text": "Later, he joined Peter Schladermundt Associates in Bronxville, New York."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 852,
+            "endIndex": 1045,
+            "text": "Notable projects include the Remington 15 portable typewriter, the Remington Rand SR101 'golfball' typewriter (1973), a Sperry Rand copying machine, and an automatic typewriter control console."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

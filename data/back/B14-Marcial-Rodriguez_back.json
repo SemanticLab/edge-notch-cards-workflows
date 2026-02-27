@@ -9,6 +9,108 @@
         "y1": 9.2,
         "x2": 52.0,
         "y2": 21.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21997777",
+          "label": "Rosemarie Castoro",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Rosemarie Castoro' is an exact match. The Wikidata entity describes a prominent American artist and sculptor born in 1939, which places her at the correct age to be active during the late 1960s and early 1970s. Her status as a recognized artist with collections in major museums like MoMA aligns with the context provided for the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Rosemarie Castoro (1939–2015) was an American artist, choreographer, and dancer who was a central figure in the Minimalist and Conceptualist art scenes in New York City. Born in Brooklyn and a graduate of the Pratt Institute (1963), she famously described herself as a \"paintersculptor.\" Her work spanned multiple disciplines, including abstract painting, conceptual text pieces, concrete poetry, performance, and large-scale sculpture. In the mid-1960s, she gained recognition for her systematic \"Y\" and \"Interference\" paintings, which explored color and structural composition. By the late 1960s, she transitioned toward Conceptualism and Post-Minimalism, creating works like the \"Inventory\" series (1968–69) and \"Crackings\" (1969), which involved site-specific interventions such as applying silver tape to city sidewalks. Castoro was closely associated with the Experiments in Art and Technology (E.A.T.) movement; notably, she was a performer in Yvonne Rainer's \"Carriage Discreteness\" during the landmark \"9 Evenings: Theatre & Engineering\" event in 1966, which served as the catalyst for E.A.T. She also participated in an E.A.T. Benefit exhibition at the Castelli Gallery. Throughout the 1970s and beyond, her work became increasingly sculptural and architectural, exemplified by her \"Brushstrokes\" (1971) and the totemic \"Flashers\" (1979) series. She shared a SoHo loft with her then-husband Carl Andre, which became a social hub for prominent artists like Sol LeWitt and Lawrence Weiner. Despite her prolific output and involvement in the Art Workers' Coalition, her contributions were often overshadowed by her male contemporaries until a series of major posthumous retrospectives brought renewed institutional attention to her legacy.",
+            "sources": [
+              "https://www.moma.org/artists/1031",
+              "https://awarewomenartists.com/en/artiste/rosemarie-castoro/",
+              "https://www.macba.cat/en/exhibitions/rosemarie-castoro-focus-infinity",
+              "https://www.juddfoundation.org/exhibitions/rosemarie-castoro-paintings-1964-1966/",
+              "https://dancercitizen.org/issue-4/yvonne-rainer-carriage-discreteness/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Rosemarie Castoro minimalism conceptualism",
+            "Rosemarie Castoro late 1960s early 1970s works",
+            "Rosemarie Castoro artist biography E.A.T. association",
+            "Rosemarie Castoro Experiments in Art and Technology",
+            "Rosemarie Castoro \"E.A.T.\" artist association",
+            "\"Experiments in Art and Technology\" member list Rosemarie Castoro",
+            "Rosemarie Castoro \"Experiments in Art and Technology\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIlsmxMcRTmMC4pDYxL7blX611fGDesO4zEnwVLl9oE36rc0OKY8jvd3QS5C3pWHMoO8CA8dRMxm_s0yBJihKFJtOuR-RoG5v61bvJPnqWrh7e3R7VQ838B5k-g4TpbJj1wjxu4clHl4vYVn-aD3ztvY_PA_OHhp7u8o1x5Wznjd_Q50PcuPGgFIL6j-w8v9kCaB7bLYP9",
+              "title": "maxgoelitz.com",
+              "resolvedUri": "https://www.maxgoelitz.com/usr/library/documents/main/artists/49/rosemarie-castoro_cv_en.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUEI2P3-5PVZfw4pmS9fSEWfGWe-QbxHpcTyl-GLzZIV7yDBuWxUohSqtPCXB-HvQSmCEFjiIQKpHKjESOha8_sSHsXjPqhGB9BFdlIAtnGRDCKoVq9oTkn0MEy0bQPdLptISHqG7OozBrH8MEvNtrDaZIlIVdD7uEBjTDJuP_eLgsNyiR2k2W",
+              "title": "jrp-editions.com",
+              "resolvedUri": "https://jrp-editions.com/art/books/monographs-artists-books/rosemarie-castoro/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMY7qjIC6uPJRlA_FjvoW2tYbvq8ZUgx8iksTAHh8pLABjVwIufNLu6gU-aaic2pRhld6cFzTuamCqrbw752ncAMwMYzFumEgszLdqNCa1BnmKVnFvrD-bZpj8bzpSPfXgjw==",
+              "title": "dreamideamachine.com",
+              "resolvedUri": "http://www.dreamideamachine.com/?p=76808"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER37aBhJ_zzYhu6917e_Jz7yqLZUzwxGwJeGQD-DpwF8xiYJ6F7QeX2iFRuRh2EUqe0WXuG9DLC3X1XX6afKGv8K0njotMZ9CAr9JO12aBRXA6EV4oFO-pfoIcQjutzuUUswsLgcaNl1R6Ddyy0UMIqG7czQE=",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/artiste/lillian-schwartz/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 221,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Rosemarie Castoro (1939–2015) was an American artist, choreographer, and dancer who was a central figure in the Minimalist and Conceptualist art scenes in New York City."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 890,
+                "endIndex": 972,
+                "text": "Castoro was closely associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1205,
+                "endIndex": 1248,
+                "text": "Benefit exhibition at the Castelli Gallery."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1428,
+                "endIndex": 1569,
+                "text": "She shared a SoHo loft with her then-husband Carl Andre, which became a social hub for prominent artists like Sol LeWitt and Lawrence Weiner."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +121,49 @@
         "y1": 18.9,
         "x2": 48.0,
         "y2": 31.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q56231073",
+          "label": "Mary Ascher",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Mary Ascher' matches exactly between the card and the Wikidata entity. The Wikidata entity describes a female artist who lived from 1900 to 1988 and was active in the United States, including having works in the Smithsonian American Art Museum. This perfectly aligns with the card's context of an artist active during the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Mary Ascher (1900–1988) was an American painter, printmaker, and author who was active in New York City. She is noted for her abstract works and her thematic exploration of biblical narratives and modern technological power. In the late 1960s and early 1970s, she produced a significant series of paintings titled \"Corridors of Power\" (1967–1970), which addressed societal and technological shifts. Works in this series, such as \"Automation II\" (1967) and \"Finance and Industry II\" (1967), utilized motifs like hands and machines to explore deindividuation and the impact of \"instant communication\" on the world. This focus on the intersection of art and technology aligns with the goals of organizations like Experiments in Art and Technology (E.A.T.), and her work was recently featured in the \"Visible Communication\" exhibition at Baruch College (2025) alongside technology-focused artists like Juan Downey and Andy Warhol. Ascher served as the president of the American Society of Contemporary Artists from 1973 to 1975 and held a 30-year retrospective at the National Arts Club in New York in 1973. Her publications include \"Twelve Women of the New Testament and Early Church.\" Her papers are held by the Smithsonian Institution's Archives of American Art, and her work is included in the collection of the Smithsonian American Art Museum.",
+            "sources": [
+              "https://weissman.baruch.cuny.edu/mishkin-gallery/exhibitions/visible-communication/",
+              "https://americanart.si.edu/artist/mary-ascher-152",
+              "https://www.askart.com/artist/Mary_Ascher/127393/Mary_Ascher.aspx",
+              "https://www.invaluable.com/artist/ascher-mary-u70l6985re/sold-at-auction-prices/",
+              "https://www.wahooart.com/@@/8XYBYY-Mary-Ascher-Weaver-of-Biblical-Emotion"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Mary Ascher artist biography",
+            "Mary Ascher artist New York",
+            "\"Mary Ascher\" artist Experiments in Art and Technology",
+            "\"Mary Ascher\" E.A.T. artist",
+            "",
+            "\"Mary Ascher\" \"Visible Communication\" Baruch College E.A.T.",
+            "\"Mary Ascher\" E.A.T. list of artists",
+            "\"Mary Ascher\" artist collaborator engineering technology",
+            "\"Mary Ascher\" Corridors of Power series 1970",
+            "\"Mary Ascher\" artist E.A.T. member",
+            "\"Mary Ascher\" Archives of American Art E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -29,6 +174,106 @@
         "y1": 26.8,
         "x2": 54.1,
         "y2": 39.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q23214",
+          "label": "Marilyn Wood",
+          "description": "person associated with E.A.T.",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the Wikibase entity is associated with the E.A.T. Knowledge Graph Project, which focuses on artists active during the late 1960s and early 1970s. The date on the card (1970) aligns perfectly with the activity period of Marilyn Wood, a known artist and choreographer involved with E.A.T."
+        },
+        {
+          "qid": "Q26380",
+          "label": "Marilyn Wood",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Marilyn Wood' matches exactly between the card and the Wikibase entity. The card is dated 1970, which aligns with the active period of Experiments in Art and Technology (E.A.T.), and the Wikibase entry explicitly mentions it belongs to the 'E.A.T. Technical Services Program Edge-Notched Cards' project, confirming the card's origin."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6763648",
+          "label": "Marilyn Wood",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Marilyn Wood matches exactly. The Wikidata entity describes a choreographer and dancer born in 1929, which makes her professionally active during the 1970 date listed on the card. Furthermore, the Wikidata entity's affiliation with the Merce Cunningham Dance Company strongly aligns with the artistic circles of Experiments in Art and Technology (E.A.T.), which is the source of the physical index card."
+        },
+        {
+          "qid": "Q62957504",
+          "label": "Marilyn Wood",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q62957504) refers to a Canadian entrepreneur and politician who ran for office in 2011. The Marilyn Wood from the card is documented as being active in 1970 within the Experiments in Art and Technology (E.A.T.) community, identifying her as the well-known choreographer and 'celebration artist' who is a distinct person from the modern Canadian politician."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Marilyn Wood (1929–2016) was an American choreographer, dancer, and intermedia artist renowned as a \"choreographer of cities.\" She was a founding member of the Merce Cunningham Dance Company, performing and touring with Cunningham, John Cage, and Robert Rauschenberg from 1958 to 1963. In 1968, she transitioned from formal dance to found \"Marilyn Wood and the Celebration Group,\" a collaborative ensemble of dancers, visual artists, filmmakers, architects, and musicians. Her work specialized in large-scale, site-specific \"Celebrations\" designed to reclaim urban public spaces and foster community participation. Her most iconic work, \"Celebrations in City Places: The Seagram Building\" (1972), utilized the entire 44-story facade of the New York City skyscraper for a vertical performance. Wood's practice often intersected with the avant-garde and technological art movements of the late 1960s and early 1970s; she was associated with the same circles as Experiments in Art and Technology (E.A.T.), and her group was featured alongside E.A.T. in events like the 11th Annual Avant Garde Festival of New York (1974). Her \"environmental scoring\" and multi-disciplinary approach mirrored the collaborative ethos of E.A.T. She later founded the International Center for Celebration (ICC) in Santa Fe in 1987.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Marilyn_Wood",
+              "https://www.nypl.org/finding-aids/claremont/1364",
+              "https://www.legacy.com/us/obituaries/nytimes/name/marilyn-wood-obituary?id=14601449",
+              "https://www.rauschenbergfoundation.org/art/performance-history",
+              "http://www.vasulka.org/archive/4001/AvantGardeFestivals/11th/11thAGF.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Marilyn Wood celebrations artist",
+            "\"Marilyn Wood\" artist 1960s 1970s",
+            "Marilyn Wood artist Experiments in Art and Technology (E.A.T.)",
+            "Marilyn Wood choreographer E.A.T.",
+            "Marilyn Wood \"Experiments in Art and Technology\" E.A.T.",
+            "\"Marilyn Wood\" celebration group technology engineer",
+            "\"Marilyn Wood\" E.A.T. collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQcvuYqxVsKPPWU12WJTKOI7JxSNTkurYV9bLvnevR-yeZhqsxJe0QRNGYcUpuJccPfHRR49V7wlY-NxtsA6GUBe2rX9mAZUF5YZOKN5vjN-0q477oL5aVns_qINp5HrqUhaBkUlcc8EcitmvIzK14FA_HfuA=",
+              "title": "rauschenbergfoundation.org",
+              "resolvedUri": "https://www.rauschenbergfoundation.org/performance-history"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbYY2UXzGqvfbActOmIyP-34SefYJsKCmXMFJUaSOdTLz0Q29jFgEobMnwnHdlJ91zIe98kJVufq-DATarkvayzO-8JoV0tsyEP6EldOZQTr2RnDbxQeBVqJDdnRYgwLHnZGVuiFJ3MNkWb3JjbFbA3TQR03CN7iILeA6uJTwmq0-BJ3n7m484LjttBL_Rz4N5RUFXSPKZcv3t",
+              "title": "gruntarchives.org",
+              "resolvedUri": "https://artofengagement.gruntarchives.org/essay-paula-jardine-the-role-of-celebration-arts.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEFhHwmqyfa3SV_-6X0WSXGQmqZWXB0OViRjg-SpxMFFWjr9sM-NlnZ2wxUoNVIsSrVFvsEoiwOxPAsdE_3qFzo3iSs5ieAh8zqjOmoT6dQHx9zcHbFMsdRZ4rAcOjr2c9_GRGF56mik4nMjdRsQ66SxCh2k_V2aNkTDXm8l0=",
+              "title": "fordlibrarymuseum.gov",
+              "resolvedUri": "https://www.fordlibrarymuseum.gov/library/document/0067/1563321.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 339,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Marilyn Wood (1929–2016) was an American choreographer, dancer, and intermedia artist renowned as a \\\"choreographer of cities.\\\" She was a founding member of the Merce Cunningham Dance Company, performing and touring with Cunningham, John Cage, and Robert Rauschenberg from 1958 to 1963."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 529,
+                "endIndex": 672,
+                "text": "Her work specialized in large-scale, site-specific \\\"Celebrations\\\" designed to reclaim urban public spaces and foster community participation."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -39,6 +284,141 @@
         "y1": 34.2,
         "x2": 56.4,
         "y2": 59.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26366",
+          "label": "J. Evans",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the card's date (1970) falls within the active period of the E.A.T. Technical Services Program. Most importantly, the Wikibase entity is explicitly identified as being part of the 'E.A.T. Technical Services Program Edge-Notched Cards' project, which is the source of the physical card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1113607",
+          "label": "John Gwynne Evans",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name J. Evans matches John Gwynne Evans, the Wikidata entity describes a prominent prehistorian and archaeologist associated with Cardiff University. The person on the card is specifically identified as an artist associated with Experiments in Art and Technology (E.A.T.) in 1970. There is no evidence suggesting the archaeologist also worked as an artist within the E.A.T. program."
+        },
+        {
+          "qid": "Q6105630",
+          "label": "J. Evans Attwell",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is J. Evans Attwell, a lawyer at a major law firm (Vinson & Elkins) based in Houston. The person on the card is identified as an artist associated with the Experiments in Art and Technology (E.A.T.) program. Additionally, the Wikidata entity's surname is Attwell, making it highly unlikely they would be cataloged simply as 'J. Evans' (where Evans is the surname)."
+        },
+        {
+          "qid": "Q22108526",
+          "label": "John William Evans",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name matches (J. Evans), the Wikidata entity is a well-documented Australian entomologist (scientist), whereas the card entry refers to an artist or individual associated with Experiments in Art and Technology (E.A.T.). There is no evidence connecting the entomologist John William Evans to the E.A.T. program active in the late 1960s/early 1970s."
+        },
+        {
+          "qid": "Q28837355",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a printer and bookseller active in the late 18th century (1783-1794) in the Kingdom of Great Britain, whereas the card entry is dated 1970 and pertains to an artist active in the mid-20th century. The time periods are completely incompatible."
+        },
+        {
+          "qid": "Q56597527",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q56597527 describes a ship-owner and ship captain, which is completely unrelated to the artist context required for the E.A.T. Technical Services Program. While the names match, the occupations are a strong mismatch."
+        },
+        {
+          "qid": "Q75834660",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, 'J. Evans' is very common. The Wikidata entity is identified with the honorific 'Reverend,' and there is no evidence linking this specific individual to the Experiments in Art and Technology (E.A.T.) program or any artistic practice, which is the primary context for the card entry."
+        },
+        {
+          "qid": "Q75953114",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name matches, 'J. Evans' is a very common name. The Wikidata entity Q75953114 lacks any dates, occupation (artist), or professional context that would link it to the E.A.T. project. Furthermore, the card metadata already identifies a different entity (Q26366) as a high-confidence match for this specific record."
+        },
+        {
+          "qid": "Q76256968",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'J. Evans' is extremely common. Wikidata entity Q76256968 lacks any information regarding profession, active dates, or association with art and technology projects. Without specific biographical data linking this individual to the 1970 card entry, there is no evidence to confirm they are the same person."
+        },
+        {
+          "qid": "Q98672744",
+          "label": "J. Evans",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names match exactly, and both entities are identified as artists. The card entry is dated 1970, which is consistent with the timeframe of an artist whose records would be kept in the Frick Art Research Library files. While 'J. Evans' is a common name, the shared professional context as an artist active during this period supports the match."
+        },
+        {
+          "qid": "Q102237234",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'J. Evans' matches, but the Wikidata entity is identified as a horse trainer in equestrian sports. This is unlikely to be the same person as the artist or creative collaborator active in the E.A.T. (Experiments in Art and Technology) program in 1970."
+        },
+        {
+          "qid": "Q123439050",
+          "label": "Jane Evans",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry describes an artist associated with the E.A.T. Technical Services Program in 1970, while the Wikidata entity Q123439050 refers to a geography teacher at Takapuna Grammar School. There is no evidence suggesting the geography teacher was also an artist active in the New York-based technology and art scene during that era."
+        },
+        {
+          "qid": "Q137299690",
+          "label": "J. Evans",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name 'J. Evans' matches, it is a very common name. The Wikidata entity is identified as a 'researcher', whereas the card entry specifically describes an artist active in the late 1960s and early 1970s. Without more specific metadata such as birth dates or specific affiliations to the E.A.T. program for the Wikidata entity, there is not enough evidence to confirm a match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Handel Evans (often cited as J. Evans or J. Handel Evans) was an artist and educator active in the late 1960s and 1970s. He is specifically associated with the organization Experiments in Art and Technology (E.A.T.) through his contributions to the journal 'Leonardo', where he wrote about the intersection of art and science. In 1970, he published a letter in 'Leonardo' (Vol. 3, No. 4) discussing the legacy of light artist Thomas Wilfred (pioneer of Lumia), a subject closely aligned with the technological interests of E.A.T. Beyond his artistic practice, he transitioned into university administration, serving as a professor and later as the president of California State University, San Bernardino, and as the founding president of California State University, Channel Islands.",
+            "sources": [
+              "https://archive.org/stream/Leonardo1968-1987Vol1-20Index/LeonardoIndex_djvu.txt",
+              "https://www.jstor.org/stable/1572183"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "John Evans (1932–2012) was a prominent New York-based collage artist and a central figure in the 'Avenue B School of Art'. Beginning in 1964 and continuing for nearly forty years, Evans created a daily collage on pages of bound sketchbooks using 'flotsam and jetsam' collected from the streets of the East Village. He was active in the experimental art and mail art networks of the 1960s and 1970s, corresponding with artists such as On Kawara and Ray Johnson. His work is sometimes categorized alongside Experiments in Art and Technology (E.A.T.) in archival collections due to his involvement in the collaborative and networking-based art movements of the era. His collages often functioned as 'mini-time capsules' of the social and political atmosphere of late 20th-century New York.",
+            "sources": [
+              "https://www.amny.com/news/john-evans-79-artist-whose-collages-were-a-diary/",
+              "https://www.jeannoelherlin.com/product/ryosuke-cohen-brain-cell-john-evans/",
+              "https://www.onkawara.co.uk/on-kawara-and-michael-wynne/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"John Evans\" artist E.A.T.",
+            "\"Jerry Evans\" artist E.A.T.",
+            "\"James Evans\" artist E.A.T.",
+            "\"J. Evans\" artist \"Experiments in Art and Technology\"",
+            "\"J. Evans\" E.A.T. artist 1960s 1970s",
+            "\"John Evans\" artist collage E.A.T.",
+            "\"John Evans\" Experiments in Art and Technology",
+            "\"J. Evans\" E.A.T. Pepsi Pavilion",
+            "\"J. Evans\" artist 1960s 1970s E.A.T.",
+            "\"John Evans\" artist \"Experiments in Art and Technology\" membership",
+            "\"J. Evans\" artist \"Pepsi Pavilion\"",
+            "\"John Handel Evans\" Leonardo Thomas Wilfred"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

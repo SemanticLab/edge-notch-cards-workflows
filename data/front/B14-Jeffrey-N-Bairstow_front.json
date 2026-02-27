@@ -19,5 +19,144 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Interested in film"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q133787179",
+      "label": "Q133787179",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "The Wikidata entity provided lacks a name, occupation, or location, and only contains a birth year (1939). While Jeffrey N. Bairstow may have been born in that year, the lack of any identifying information or professional overlap in the provided Wikidata record makes it impossible to confirm a match."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q22136",
+      "label": "Electronic Design",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is 'Electronic Design (magazine)'. The Wikibase entity 'Electronic Design' is explicitly described as a publication, and its associated Wikidata QID (Q5358237) refers to the trade magazine of the same name. The name and organization type match perfectly."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q28502983",
+      "label": "electronic design",
+      "description": "implementation of development tasks within the field of electronic device technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to a specific magazine/publication named 'Electronic Design', whereas the Wikidata entity (Q28502983) describes the technical field or process of electronic design (a subclass of design used in electronic engineering) rather than a corporate entity or periodical."
+    },
+    {
+      "qid": "Q5358237",
+      "label": "Electronic Design",
+      "description": "electronics and electrical engineering trade magazine",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Electronic Design' matches exactly, and both the card and the Wikidata record identify it as a magazine. The location (New York City) and industry (electronics) also align perfectly between the two sources."
+    },
+    {
+      "qid": "Q1194864",
+      "label": "electronic design automation",
+      "description": "category of software tools for designing electronic systems such as integrated circuits and printed circuit boards",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is specifically identified as a magazine (a publication), whereas the Wikidata entity (Q1194864) represents 'electronic design automation', which is a category of software tools and a technical field, not an organization or publication."
+    },
+    {
+      "qid": "Q15548075",
+      "label": "electronics circuit design software",
+      "description": "software category",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists 'Electronic Design (magazine)', which is a periodical publication. The Wikidata entity Q15548075 refers to a category of software (electronic circuit design software) and is not an organization or publication."
+    },
+    {
+      "qid": "Q388116",
+      "label": "Electronic Design Interchange Format",
+      "description": "file format",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is a magazine (a publication), whereas the Wikidata entity (Q388116) refers to the Electronic Design Interchange Format, which is a file format for CAD and EDA. They are different types of entities despite sharing the words 'Electronic Design' in their names."
+    },
+    {
+      "qid": "Q75262864",
+      "label": "E-2A Hawkeye",
+      "description": "carrier-based airborne early warning aircraft model by Grumman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer 'Electronic Design (magazine)' is a publication, while the Wikidata entity refers to a specific model of military aircraft (E-2A Hawkeye). There is no relationship between a trade magazine and an aircraft model in this context."
+    },
+    {
+      "qid": "Q5322831",
+      "label": "EDA database",
+      "description": "database for electronic design automation",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is a specific trade magazine ('Electronic Design'), whereas the Wikidata entity (Q5322831) refers to a technical database category for electronic design automation (EDA). One is a publication and the other is a type of information system."
+    },
+    {
+      "qid": "Q121073851",
+      "label": "Electronic design 3D mixed placement and unfolding",
+      "description": "US patent 11436402",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to a trade magazine titled 'Electronic Design', whereas the Wikidata entity is a specific United States patent (Q121073851) titled 'Electronic design 3D mixed placement and unfolding'. A patent is not the same entity as a magazine."
+    },
+    {
+      "qid": "Q133944438",
+      "label": "Grumman TE-2C Hawkeye",
+      "description": "operational trainer aircraft model by the Grumman Corporation",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is a magazine publication ('Electronic Design'), while the Wikidata entity represents a specific model of trainer aircraft (Grumman TE-2C Hawkeye). There is no relationship between a trade magazine and a military aircraft model in terms of organizational identity."
+    },
+    {
+      "qid": "Q133956927",
+      "label": "YE-2 Hawkeye",
+      "description": "prototype early warning and control aircraft series",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is a magazine publication ('Electronic Design'), whereas the Wikidata entity is an aircraft family and prototype aircraft series ('YE-2 Hawkeye'). There is no relationship between these two entities."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Jeffrey N. Bairstow was a computer engineer, mathematician, and influential technical journalist who was active in the professional technology and engineering communities of New York City starting in the late 1960s. He served as a Technical Editor for 'Electronic Design' magazine in 1967 and was a founding editor and later managing editor of 'Computer Decisions' magazine around 1969–1970. His background as a computer engineer and mathematician, combined with his location in New York and his role at 'Electronic Design,' placed him within the network of technical professionals who interacted with and reported on the Experiments in Art and Technology (E.A.T.) organization during its peak years of promoting collaborations between artists and engineers. In the 1980s, Bairstow became a senior editor for 'High Technology' magazine, where he specialized in emerging technologies such as computer-aided engineering (CAE), application-specific integrated circuits (ASICs), and CD-ROM technology. His career continued well into the 2000s as a contributing editor and columnist for 'Laser Focus World,' where he wrote the 'In My View' column. In addition to his technical journalism, he co-authored several diverse titles, including 'Tennis Begins at 40' (1976) with tennis legend Pancho Gonzalez and 'I.T., Interval Training for Lifetime Fitness' (1980).",
+        "sources": [
+          "https://www.worldradiohistory.com/Archive-Electronic-Design/60s/1967/Electronic-Design-1967-07-05.pdf",
+          "https://archive.org/details/magazine-electronic-design-v15-n19-19670913",
+          "https://dtic.mil/dtic/tr/fulltext/u2/a015383.pdf",
+          "https://engineering.purdue.edu/~qobi/popular-press/20140722165408379.pdf",
+          "https://archive.org/stream/Family_Computing_1985-03/Family_Computing_1985-03_djvu.txt",
+          "https://www.laserfocusworld.com/home/article/16556108/in-my-view-jeffrey-bairstow",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/gonzalez-richard-alonzo-pancho"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Jeffrey N. Bairstow\" computer engineer mathematician",
+        "Jeffrey N. Bairstow \"Electronic Design\" magazine",
+        "\"Jeffrey N. Bairstow\" New York",
+        "\"Jeffrey N. Bairstow\" \"Electronic Design\" E.A.T.",
+        "\"Jeffrey N. Bairstow\" E.A.T. archive",
+        "\"Jeffrey N. Bairstow\" \"Computer Decisions\" editor",
+        "biography of \"Jeffrey N. Bairstow\" technical editor",
+        "\"Jeffrey N. Bairstow\" E.A.T. membership list",
+        "",
+        "\"Jeffrey Bairstow\" \"Laser Focus World\"",
+        "\"Jeffrey Bairstow\" \"PennWell\" magazine",
+        "\"Jeffrey Bairstow\" obituary New York",
+        "\"Jeffrey Bairstow\" mathematician engineer biography"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

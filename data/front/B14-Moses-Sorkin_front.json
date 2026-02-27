@@ -22,5 +22,113 @@
       "instrumentation and control systems"
     ],
     "specializedSkillsKnowledge": "Electrical engineering, acoustics, sound generation, sonar, ultrasonics, audio systems, audio-visual conversions, instrumentation and control systems"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q299194",
+      "label": "Aaron Sorkin",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals with different first names and vastly different career paths. Moses Sorkin is an electrical engineer and technical expert specializing in acoustics and sonar at TRW Systems. Aaron Sorkin is a world-renowned screenwriter and director known for works like The West Wing."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q967620",
+      "label": "TRW Inc.",
+      "description": "American corporation involved in mainly aerospace, electronics, automotive, and credit reporting, etc.",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "TRW Systems was a major division of TRW Inc., specifically focusing on aerospace and defense electronics. The individual's expertise in sonar, instrumentation, and electrical engineering aligns perfectly with the operations of TRW Inc. and its systems group, which had significant operations in Southern California near Santa Monica."
+    },
+    {
+      "qid": "Q67478908",
+      "label": "TRW Systems (NAID 102072622)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q67478908) is an archival record (an 'item of collection or exhibition') within the National Archives, specifically a sound recording titled 'TRW Systems.' It is not the Wikidata entity representing the organization itself, but rather a document or recording about/by the organization."
+    },
+    {
+      "qid": "Q66359925",
+      "label": "TRW Systems - ALSEP Mock-up (NAID 86029025)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q66359925) refers to a specific archival item (a motion picture or mock-up titled 'TRW Systems - ALSEP Mock-up') held by the National Archives, rather than the TRW Systems corporation itself."
+    },
+    {
+      "qid": "Q70999263",
+      "label": "Q70999263",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q70999263 corresponds to TRW Systems, which matches the employer name on the card exactly. The individual's technical background in electrical engineering and sonar systems is highly consistent with the known operations of TRW Systems in the aerospace and defense sectors."
+    },
+    {
+      "qid": "Q71008423",
+      "label": "Q71008423",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q71008423 represents TRW Systems (a division of TRW Inc.), which matches the employer name on the card exactly. The technical fields mentioned for Moses Sorkin (electrical engineering, sonar, instrumentation) are consistent with the aerospace and defense work conducted by TRW Systems."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Moses Sorkin was an engineer active in the late 1960s and early 1970s, associated with TRW Systems in Santa Monica and Redondo Beach, California. He was a member of the Experiments in Art and Technology (E.A.T.) organization, where he was listed in their technical services directory as a specialist in electrical engineering, acoustics, sound generation, sonar, ultrasonics, audio systems, audio-visual conversions, and instrumentation and control systems. This range of expertise aligns with TRW's historical focus on underwater defense systems and aerospace technology. In his later career, a Moses Sorkin appears as a researcher and co-author on scientific papers related to fuel cell technology (specifically direct methanol fuel cells) published between 2006 and 2008 in the Journal of The Electrochemical Society. In these publications, he collaborated with prominent electrochemical engineers such as Arthur Kaufman and H. Frank Gibbard, both of whom held leadership roles at Giner, Inc. and had previous associations with large engineering firms like Gould Inc., which also operated in the sonar and battery sectors.",
+        "sources": [
+          "https://www.researchgate.net/profile/H-Frank-Gibbard",
+          "https://iopscience.iop.org/article/10.1149/1.2952550",
+          "https://archive.org/details/nasa_techdoc_19730001428",
+          "https://www.getty.edu/research/special_collections/finding_aids/eat_records.html"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Moses Sorkin\" patent",
+        " \"Moses Sorkin\"",
+        "",
+        "\"Moses Sorkin\" Experiments in Art and Technology member",
+        "",
+        "",
+        " \"Moses Sorkin\"",
+        "",
+        "",
+        "",
+        "",
+        "\"M Sorkin\" TRW engineer",
+        "\"M. Sorkin\" TRW acoustics",
+        "",
+        "",
+        "\"M. Sorkin\" acoustics TRW",
+        "\"M. Sorkin\" ultrasonics TRW",
+        " \"Moses Sorkin\"",
+        "\"sound generation\" sonar ultrasonics E.A.T. engineer",
+        "\"audio-visual conversions\" E.A.T. engineer",
+        "\"Moses Sorkin\" 1915..2020",
+        "",
+        "\"Moses Sorkin\" sound generation instrumentation engineer",
+        "",
+        " \"Moses Sorkin\"",
+        " \"M Sorkin\" acoustics",
+        " \"M Sorkin\" sonar",
+        "",
+        "\"Moses Sorkin\" fuel cell scientist biography",
+        "",
+        "",
+        "\"TRW Systems\" \"sound generation\" acoustics sonar",
+        "\"TRW Systems\" \"instrumentation and control systems\" engineer",
+        "\"Moses Sorkin\" engineer CV"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

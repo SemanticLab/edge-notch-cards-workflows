@@ -8,7 +8,7 @@
     "geographicLocation": "Santa Barbara, California; Goleta, California"
   },
   "professionalAffiliation": {
-    "employerOrganization": "null",
+    "employerOrganization": "",
     "departmentDivision": "null"
   },
   "professionalIdentityExpertise": {
@@ -24,5 +24,90 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "null",
     "aestheticPhilosophicalInterests": "null"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q475614",
+      "label": "Germund Dahlquist",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names do not match (R L Dahlquist vs. Germund Gunnar Dahlquist). Furthermore, the professional fields are entirely different: the card record focuses on chemistry and instrumentation in California, while the Wikidata record describes a world-renowned Swedish mathematician and computer scientist specializing in numerical analysis."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Richard L. Dahlquist (often cited as R. L. Dahlquist) was a prominent scientist and engineer specialized in spectroscopy and analytical instrumentation at Applied Research Laboratories (ARL) in Goleta, California. During the late 1960s and 1970s, he worked at ARL's Hasler Research Center, where he made significant contributions to the development of Inductively Coupled Plasma-Atomic Emission Spectrometry (ICP-AES). In 1978, he co-authored a seminal paper on the elemental analysis of biological materials and soils, for which he received the Meggers Award from the Society for Applied Spectroscopy. His expertise encompassed the optical and ultra-violet energy regions, instrumentation design, and analytical chemistry. Dahlquist was associated with Experiments in Art and Technology (E.A.T.), a non-profit organization promoting collaborations between artists and engineers; his technical profile—including fields such as chemistry, process control, and instrumentation—was listed in the E.A.T. technical services directory for potential collaboration with artists.",
+        "sources": [
+          "https://doi.org/10.1366/000370278774331828",
+          "https://www.at-spectrosc.com/as/article/abstract/19780104",
+          "https://www.minsocam.org/ammin/AM58/AM58_1021.pdf",
+          "https://www.linn-high-temp.de/wp-content/uploads/2015/09/History-of-inductively-coupled-plasma-atomic-emission-spectral-analysis.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"R. L. Dahlquist\" chemistry instrumentation",
+        "\"R L Dahlquist\" Applied Research Laboratories",
+        "\"Richard Dahlquist\" Experiments in Art and Technology",
+        "\"R L Dahlquist\" Santa Barbara Goleta",
+        "",
+        "\"R. L. Dahlquist\" patents instrumentation",
+        "\"Applied Research Laboratories\" Goleta E.A.T.",
+        "\"R. L. Dahlquist\" Experiments in Art and Technology",
+        "",
+        "\"R. L. Dahlquist\" spectroscopy E.A.T.",
+        "",
+        "\"R L Dahlquist\" E.A.T. index card",
+        "\"R. L. Dahlquist\" E.A.T. Santa Barbara",
+        "\"Dahlquist\" technical collaborator E.A.T.",
+        ""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3p8fsHhgKr07M_F6MnlmIzwMDGsvk0uw-KktLvSeThyz9P3lo873_UNZR2vyg_JTvNsfJNCkTNqPhO-2xg_W32eGCy4JNh3VT5rK38aPTmJovGxYUVUwUFD-ODyDWfnA_3aDEjPIXuufYNxmPHurLvBtXnxgHZrUgjUhnxtqTD5qIgmWMihnFW58e9zPgNbjdVjtsSJj2sORYOgCeHRC6Z6arlYE=",
+          "title": "umbc.edu",
+          "resolvedUri": "https://psychology.umbc.edu/wp-content/uploads/sites/57/2013/08/LynndaDahlquistCV.6.26.18-for-web-page.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlQwvcBxa_AMiACjNMDHdj5wi4mb0C6wesR2rGkWPGpnfbUiPPT6jQMoOq8JLU0lk0SDsPeRuVwiHEKROH6GATHcOFT2a2MRWnGtkXVkNGe_x3jE2GV1VQxwTzvuFMbDSMBdXtkbUtTfPV6umiyhBf17vAJ8RTCKeHn6owf2i1QU92Bs841TmESKWiYRLzig5MjiEs2B2gOQ==",
+          "title": "pearsoncanada.ca",
+          "resolvedUri": "https://www.pearsoncanada.ca/media/highered-showcase/9780133249781/M30_KOZI7610_03_SE_C30.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi8cX7kHW54XgqZKPD_MNpl6-6t1Osx4P6haWNW712rb-MuHqba7D-qmiprpNLEPuGw2lzCXqs_XF7Gs0mAS5V24qvaww_yljf5HRIED35JQOVpiwycQeKbzj-K5F-0WkHNoi6BM1rETwHKMkZCOwTORNd6NEZ9DeJpC9mGVT7elAKHyinzIU491KFwB26CDtuHAPsiLZVlYbcmjYDpMbt6c1I5Xt1GIRI_b_YBZXv",
+          "title": "researchgate.net",
+          "resolvedUri": "https://www.researchgate.net/publication/327523790_Creating_a_safe_space_for_First_Nations_youth_to_share_their_pain"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 92,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Richard L. Dahlquist (often cited as R. L."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1054,
+            "endIndex": 1525,
+            "text": "technical services directory for potential collaboration with artists.\",\n      \"sources\": [\n        \"https://doi.org/10.1366/000370278774331828\",\n        \"https://www.at-spectrosc.com/as/article/abstract/19780104\",\n        \"https://www.minsocam.org/ammin/AM58/AM58_1021.pdf\",\n        \"https://www.linn-high-temp.de/wp-content/uploads/2015/09/History-of-inductively-coupled-plasma-atomic-emission-spectral-analysis.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1,
+            0,
+            2
+          ]
+        }
+      ]
+    }
   }
 }

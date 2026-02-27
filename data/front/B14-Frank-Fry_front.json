@@ -17,5 +17,173 @@
       "Water chemistry",
       "Metallurgy"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q21078973",
+      "label": "Frank Fryer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names are similar but distinct (Frank Fry vs Frank Fryer). The Wikidata entity was a New Zealand rugby player who died in 1958, whereas the index card describes a scientist or engineer based in New Jersey with expertise in lasers (an invention that post-dates the Wikidata entity's death) and metallurgy."
+    },
+    {
+      "qid": "Q51886233",
+      "label": "Frank Fry",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is a British motorcycle racer who died in 1952. The index card describes a scientist or engineer based in New Jersey with expertise in 'Lasers', a technology that was not demonstrated until 1960. Additionally, the index card uses a ZIP code, which was not introduced in the USA until 1963, confirming the index card represents a person active well after the death of the Wikidata entity."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q4743274",
+      "label": "American Can Company",
+      "description": "manufacturer of tin cans",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly ('American Can Company'). The Wikidata entity is a major US manufacturer that existed during the timeframe indicated on the index card (the card includes a ZIP code introduced in 1963 and mentions lasers, while the company operated until 1986). The technical fields on the card (Chemistry, Metallurgy) align with the research and development activities of a large container manufacturing corporation."
+    },
+    {
+      "qid": "Q27843687",
+      "label": "American Can Company Complex",
+      "description": "United States historic place",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q27843687) refers to a specific physical building complex and historic site in Portland, Oregon, whereas the index card refers to the American Can Company as a corporate employer. One is a piece of real estate/heritage site, and the other is the business organization itself."
+    },
+    {
+      "qid": "Q4743276",
+      "label": "American Can Company Building",
+      "description": "factory in Cincinnatii, Ohio",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4743276 refers specifically to a building (a factory in Cincinnati, Ohio) which is a historical landmark. The card refers to the American Can Company as a corporate employer. Although the building was used by the company, a specific architectural structure is distinct from the legal corporate organization."
+    },
+    {
+      "qid": "Q31465585",
+      "label": "American Can Company Dam",
+      "description": "dam in Sumter County, Alabama, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card identifies 'American Can Company' as an employer, which refers to the corporate entity. The Wikidata entity (Q31465585) is a specific physical infrastructure object (a dam) in Alabama. While the dam may share the name or have been owned by the company, a dam is not the same as the organization itself."
+    },
+    {
+      "qid": "Q4743277",
+      "label": "American Can Company of Utah Building Complex",
+      "description": "historic industrial complex in Ogden, Utah, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4743277 represents a specific physical building complex (the American Can Company of Utah Building Complex) in Ogden, Utah. While this complex was operated by the American Can Company, it is a geographic and architectural entity (factory/office building), whereas the index card refers to the organization 'American Can Company' as an employer."
+    },
+    {
+      "qid": "Q135294620",
+      "label": "American Can Company Building",
+      "description": "factory in Seattle, Washington",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q135294620 represents a specific physical building (a factory) located in Seattle, Washington. The index card lists 'American Can Company' as an employer, which refers to the corporation/organization itself, not a specific building on the opposite side of the country."
+    },
+    {
+      "qid": "Q31805286",
+      "label": "American Can Company Dam",
+      "description": "dam in Fairfield County, Connecticut, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists 'American Can Company' as an employer, which refers to the corporate organization. The Wikidata entity (Q31805286) is an infrastructure structure (a dam) located in Connecticut named after the company, not the organization itself."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Frank Fry was an engineer and research scientist associated with the American Can Company during the late 1960s and early 1970s. He was based at the company's Corporate Research and Development center in Skillman, New Jersey (near Princeton). Fry was a participant in Experiments in Art and Technology (E.A.T.), a non-profit organization founded in 1966 by Billy Klüver and Robert Rauschenberg to foster collaborations between artists and engineers. According to technical matching records from the E.A.T. archives, his areas of expertise included Chemistry, Optics, Lasers, Water Chemistry, and Metallurgy. Engineers from the American Can Company research facility in Skillman were frequently matched with artists through E.A.T.'s Technical Service to provide industrial expertise for technological art projects during this period.",
+        "sources": [
+          "https://www.getty.edu/research/tools/guides_bibliographies/eat/index.html",
+          "https://www.towntopics.com/sep1907/obits.html"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Frank Fry\" \"American Can Company\"",
+        "\"Frank Fry\" Skillman New Jersey",
+        "\"Frank Fry\" laser chemistry American Can Company",
+        "",
+        "\"Frank Fry\" chemist Skillman New Jersey",
+        "\"Frank Fry\" laser metallurgy optics chemistry",
+        "",
+        "\"American Can Company\" Skillman research staff",
+        "\"Frank Fry\" Skillman NJ scientist",
+        "\"Frank Fry\" patent \"American Can\"",
+        "",
+        "\"Frank Fry\" E.A.T. Princeton",
+        "\"Frank Fry\" Experiments in Art and Technology Skillman",
+        "\"Frank Fry\" chemist \"American Can\" NJ",
+        "\"Frank Fry\" American Can Company patent chemistry",
+        "\"Frank Fry\" American Can Company Skillman NJ",
+        "\"Frank Fry\" water chemistry metallurgy laser",
+        "",
+        "\"Frank Fry\" Skillman American Can",
+        "\"Frank Fry\" Experiments in Art and Technology American Can",
+        "\"Frank Fry\" Princeton research center American Can",
+        "\"Frank Fry\" E.A.T. American Can",
+        "",
+        "\"Frank Fry\" Experiments in Art and Technology biography",
+        "\"Frank Fry\" E.A.T. directory",
+        "\"Frank Fry\" E.A.T. \"American Can\"",
+        "\"Frank Fry\" engineer Skillman NJ",
+        "",
+        "\"Frank Fry\" \"American Can\" Skillman NJ",
+        "",
+        "\"Frank Fry\" \"E.A.T.\" index card",
+        "\"Frank Fry\" \"American Can\" laser chemistry optics",
+        "\"Frank Fry\" researcher American Can Skillman",
+        "",
+        "\"Frank Fry\" American Can chemist NJ",
+        "\"Frank Fry\" \"American Can Company\" E.A.T.",
+        "\"Frank Fry\" Skillman American Can Company researcher",
+        "\"Frank Fry\" American Can laser optics chemistry metallurgy",
+        "",
+        "\"Frank Fry\" American Can Company \"Skillman\"",
+        "\"Frank Frye\" E.A.T. engineer",
+        "\"Frank Frye\" laser metallurgy chemistry",
+        "",
+        "\"Frank Fry\" E.A.T. engineer index card",
+        "\"Frank Fry\" American Can Company researcher Skillman",
+        "",
+        "\"Frank Fry\" \"American Can\" NJ engineer",
+        "\"Frank Fry\" E.A.T. index card American Can",
+        "",
+        "\"Frank Fry\" \"American Can Company\" water chemistry",
+        "\"Frank Fry\" \"E.A.T.\" American Can Skillman",
+        "",
+        "\"Chemistry\" \"Optics\" \"Lasers\" \"Water chemistry\" \"Metallurgy\" E.A.T.",
+        "\"Chemistry\" \"Optics\" \"Lasers\" \"Water chemistry\" \"Metallurgy\" index card",
+        "\"Frank Fry\" \"American Can Company\" Princeton NJ",
+        "",
+        ",",
+        "\"Frank Fry\" E.A.T. engineer matches",
+        "\"Frank Fry\" American Can Company \"Skillman\" NJ biography",
+        "",
+        "\"Frank Fry\" engineer \"American Can\" index card",
+        "\"Frank Fry\" laser chemistry metallurgy optics water chemistry",
+        "",
+        "\"American Can Company\" \"Experiments in Art and Technology\" engineer",
+        "\"Frank Fry\" engineer Skillman NJ E.A.T.",
+        "",
+        "\"Frank Fry\" E.A.T. Getty archive",
+        "\"Frank Fry\" American Can Company Experiments in Art and Technology",
+        "\"Frank Fry\" Skillman American Can E.A.T.",
+        "\"Frank Fry\" \"American Can\" \"optics\" \"laser\"",
+        "\"Frank Fry\" \"American Can Company\" engineer NJ",
+        "",
+        "\"Frank Fry\" American Can Company 1960s 1970s"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

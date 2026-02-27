@@ -11,6 +11,135 @@
         "y1": 7.6,
         "x2": 27.5,
         "y2": 13.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28410",
+          "label": "Jean Toche",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The date on the card (1969) aligns perfectly with the activity period of the artist Jean Toche, who was a co-founder of the Guerrilla Art Action Group in 1969 and associated with the E.A.T. movement mentioned in the Wikibase metadata."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q53530767",
+          "label": "Jean Toche",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Jean Toche matches exactly. The Wikidata entity describes an artist (painter, photographer, poet) who was born in 1932 and active during the late 1960s, aligning perfectly with the date 1969-03-14 on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jean Toche (1932–2018) was a Belgian-American artist and poet prominent in New York's radical political art scene during the late 1960s and 1970s. Born Jean Xavier Van Imschoot in Bruges, Belgium, he moved to New York City in 1965. Toche is best known as a co-founder of the Guerrilla Art Action Group (GAAG), established in October 1969 alongside Jon Hendricks and Poppy Johnson. The group was famous for its provocative 'actions' and performances, such as the 'Blood Bath' at the Museum of Modern Art (MoMA), which critiqued the involvement of art institutions in militaristic and corporate power structures. Toche was also a member of the Art Workers Coalition (AWC) and was part of the 'Judson 3' (with Hendricks and Faith Ringgold), who were arrested in 1970 for 'Flag Desecration' during an exhibition at Judson Memorial Church. In 1974, he was arrested by the FBI after mailing flyers to the Metropolitan Museum of Art that were interpreted as kidnapping threats against museum trustees. His artistic practice evolved from early abstract expressionism and 'Destruction Art' to conceptual manifestos, mail art, and photo-text combinations. Records from the Experiments in Art and Technology (E.A.T.) archive at the Online Archive of California confirm his association with the organization, noting his artist membership forms dated between 1967 and 1969.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Jean_Toche",
+              "https://www.tate.org.uk/art/artists/jean-toche-17366",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf2f59n5rf/",
+              "https://www.temporaryservices.org/jean_toche.html",
+              "http://www.hundertmark-gallery.com/artist-jean-toche.0.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Jean Toche Guerrilla Art Action Group GAAG",
+            "Jean Toche artist 1960s 1970s",
+            "Jean Toche artist biography Experiments in Art and Technology E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-bn2xmuwwHmBFoevz1faMEWQ498EV7joHEGznl0dbWygkgPsVoeTheVygZffcaclAGrSbZcWnBZ9KtGIhQi2oOfYFX5in6G59wxV-q6EIuRTBZlugjuBXvnPr_Njvn9Wk",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/jean_toche"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0NHemdTlmg3-4qD_vp-N0s3igzhmoapV5k-zuc4ZJYYQ5_8q_6PydpetBu6rlWO8ruF4lOIoM--koa5Ma6sYdkjjD-yglwLvk3b0gems_0sUud7Hv5oqpej8hYlG34NnUEg84bf6R0OIPRbs0TdxMxD-dV1BOHteZj0jAAo_2MWc7-FkNGBkQp8TV373hzpXLE6wE",
+              "title": "temporaryservices.org",
+              "resolvedUri": "https://temporaryservices.org/served/wp-content/uploads/2014/11/TC_Jean_Toche_GAAG_72.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs-4Np-pkNuyOoFuOnGgV5fFAppjsTC6Ua1-jYvyo7EyMFzmU2X0icM0dBDiKUs_PixuqnLpDJdWK6KGIEjuBsP4sDqoJSG2V9Wj1WJuDM5l7dsjhmUO9Kwtlb0G-S9BpFkx0baPNXLu_3rdb0XHM=",
+              "title": "hundertmark-gallery.com",
+              "resolvedUri": "http://www.hundertmark-gallery.com/jean-toche.0.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFi1KJ_kwSIcdRglqmcZ4Uhzp4agL_8f0nsMqwtIsLCul_79KXOQNzwjKOJtqUIyLHKptYzsNvfq_kNL5t_2GKWLfUtULsMhcY-Bmr4U92JdxPbhLzkDQQjBPOrj4i-LOMTifk=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Jean_Toche"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6mWIps3uVX-I85KK6B9JU4PXNWszSboM4q1OSO_INUkP_2bMc1KFqoTFmVD5qpE8WG664qDQLA79SaMCzBuv7iH3ruqJ02IQu-1R2Y-UZFJcBwklbNWt-iJJ49xmiI7F-5lx22sQPBTAsjJYX1tvf_R52jOSpIxn3KcjHSlbC5uipRSum8pr0fHs4W8GBjO2uQ27jvspzrf3-_A==",
+              "title": "blogspot.com",
+              "resolvedUri": "http://artistsbooksandmultiples.blogspot.com/2013/11/guerrilla-art-action-group-poster-free.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsV9bMho1FhQvoUa6BxnvPcbRpGEvNylBAG39fprMBspu5_RopAOd6DvfKgjAnh45sm5FM2SxBJuLP3tHeBi9Gws48I_kK08U2wks_6nNyRrcK3f1audLdTpXERTSQdX0TiEsoPZCN3W10xejhpp9y_vmwO78miDA7DO0q",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 198,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Jean Toche (1932–2018) was a Belgian-American artist and poet prominent in New York's radical political art scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 199,
+                "endIndex": 283,
+                "text": "Born Jean Xavier Van Imschoot in Bruges, Belgium, he moved to New York City in 1965."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 284,
+                "endIndex": 432,
+                "text": "Toche is best known as a co-founder of the Guerrilla Art Action Group (GAAG), established in October 1969 alongside Jon Hendricks and Poppy Johnson."
+              },
+              "groundingChunkIndices": [
+                1,
+                4,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 887,
+                "endIndex": 1046,
+                "text": "In 1974, he was arrested by the FBI after mailing flyers to the Metropolitan Museum of Art that were interpreted as kidnapping threats against museum trustees."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1198,
+                "endIndex": 1257,
+                "text": "Records from the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            }
+          ]
+        }
       }
     }
   ]

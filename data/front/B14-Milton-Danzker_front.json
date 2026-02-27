@@ -8,7 +8,7 @@
     "geographicLocation": "Brooklyn, New York"
   },
   "professionalAffiliation": {
-    "employerOrganization": "Freelance"
+    "employerOrganization": ""
   },
   "professionalIdentityExpertise": {
     "jobTitleOccupation": "Freelance",
@@ -18,5 +18,58 @@
       "Theoretical biology",
       "Radiation research"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Milton Danzker (c. 1925–1986) was an American physicist and technical consultant who specialized in radiation research, medical physics, and electronics. During the late 1950s and early 1960s, he was a researcher at the Memorial Center for Cancer and Allied Diseases (now Memorial Sloan-Kettering Cancer Center) in New York City. There, he collaborated with renowned medical physicist John S. Laughlin on pioneering studies regarding radiation dosimetry, specifically the calculation of absorbed dose and linear energy transfer (LET) in radiation experiments. Earlier in his career, around 1953, he worked for the Westinghouse Electric Corporation in Pittsburgh, where he published research on the slow neutron cross-section of water. By the late 1960s and early 1970s, Danzker was based in Brooklyn, New York, and worked as a freelance technical professional. He was a member of the Experiments in Art and Technology (E.A.T.) organization, a group dedicated to fostering collaborations between the scientific and artistic communities. Within the E.A.T. registry, he offered technical expertise in fields including physics, electronics, theoretical biology, and radiation research, reflecting a multidisciplinary approach to technical problem-solving and biophysical modeling.",
+        "sources": [
+          "https://pubs.rsna.org/doi/10.1148/72.1.51",
+          "https://aip.scitation.org/doi/10.1063/1.1721213",
+          "https://www.ancestry.com/search/categories/42/?name=Milton_Danzker",
+          "https://www.deepdyve.com/lp/radiological-society-of-north-america/absorbed-dose-and-linear-energy-transfer-in-radiation-experiments-uJz0NfK6Y6"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Milton Danzker Brooklyn New York engineer scientist",
+        "",
+        "\"M. Danzker\" radiation research",
+        "",
+        "",
+        "",
+        " \"Milton Danzker\"",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5WXRMyT8u2i_Gy6mKhm_VHoLO90Qnj3QikTIRfUJLkwT1ZsR7g9UIhD2lVWlX6_fSlIpFFSgGq9mCO0my0NiFFR3BGG3ySalU7tsH3oXB2EET89tS5Cs0Mm93wIm5usxF5cJbHwNVf7TertWRYSF_tIFWlMWtJXitp_FMuMoVsmTvWHyeNbooXA==",
+          "title": "aip.org",
+          "resolvedUri": "https://pubs.aip.org/aip/jcp/article-pdf/21/11/2088/18803464/2088_1_online.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 612,
+            "endIndex": 786,
+            "text": "Earlier in his career, around 1953, he worked for the Westinghouse Electric Corporation in Pittsburgh, where he published research on the slow neutron cross-section of water."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

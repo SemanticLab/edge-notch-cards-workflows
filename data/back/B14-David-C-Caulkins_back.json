@@ -11,6 +11,92 @@
         "y1": 8.8,
         "x2": 38.2,
         "y2": 21.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1443362",
+          "label": "Frank H. Lee",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Hood vs Lee), and the Wikidata entity died in 1952, which predates the late 1960s/early 1970s activity period of the person on the index card. Furthermore, the Wikidata entity was a politician and lawyer, not an artist."
+        },
+        {
+          "qid": "Q17418751",
+          "label": "Frank Hood",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Frank Hood was an American football player who died in 1955. This contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Frank Hood (1912–1987) was an engineer, filmmaker, and inventor based in Portland, Oregon, who played a foundational role in the region's experimental and independent film community during the late 1960s and early 1970s. Originally a radio engineer and the 24th employee of the technology company Tektronix, he transitioned into filmmaking by producing training and promotional films. In 1964, he founded Teknifilm (also known as Teknifilm Labs), a processing facility that became a central hub and \"gathering place\" for Portland's independent filmmakers and experimental artists. Hood was notably associated with the local art and technology scene that intersected with the Experiments in Art and Technology (E.A.T.) movement; when Jack Eyerly established E.A.T. chapters in Portland and Seattle in 1968, Teknifilm served as a community anchor. Hood was known for his support of the arts, often providing film processing services on credit to help young and struggling artists. He was also a collector of antique movie cameras and projectors and is credited as a \"writer-director\" in the context of Oregon's film history. His son, George Hood, was also an experimental animator involved in the Portland E.A.T. happenings.",
+            "sources": [
+              "https://rosebond.com/wp-content/uploads/2020/10/the-portland-story.pdf",
+              "https://midcenturyoregongenius.wordpress.com/2017/07/08/frank-hood/",
+              "https://vintagetek.org/wp-content/uploads/2019/06/tek_talk_1952_may.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Frank Hood\" artist 1960s 1970s",
+            "artist \"Frank Hood\" Experiments in Art and Technology",
+            "\"Frank Hood\" Bell Labs artist",
+            "\"Frank Hood\" E.A.T. art",
+            "\"Frank Hood\" Teknifilm E.A.T. Portland",
+            "\"Frank Hood\" Experiments in Art and Technology member collaborative project",
+            "\"Frank Hood\" artist E.A.T. Bell Labs",
+            "\"Frank Hood\" electronic art 1960s 1970s",
+            "",
+            "\"Frank Hood\" E.A.T. directory",
+            "\"Frank Hood\" artist collaborator E.A.T.",
+            "\"Frank Hood\" Experiments in Art and Technology member list",
+            "\"Frank Hood\" filmmaker Portland 1960s 1970s E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC69q3YdgV485tq1rpQUKIp7yf-ZnKlxnjxDpZJZfqnps1Y_o95lgs37d1_lHjeBKGRF5Hb4sdFNEw4tDHdKMUSyenVOFaGt0qmv908w5R8H5GF7GCXZbdksbL-ST-2VnaTqHGq8SvsvgtvwK-_76LkA2DtHPBCAY=",
+              "title": "rosebond.com",
+              "resolvedUri": "https://www.rosebond.com/about/Bond_Roots_of_NW_Animation.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 272,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Frank Hood (1912–1987) was an engineer, filmmaker, and inventor based in Portland, Oregon, who played a foundational role in the region's experimental and independent film community during the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 273,
+                "endIndex": 436,
+                "text": "Originally a radio engineer and the 24th employee of the technology company Tektronix, he transitioned into filmmaking by producing training and promotional films."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 437,
+                "endIndex": 634,
+                "text": "In 1964, he founded Teknifilm (also known as Teknifilm Labs), a processing facility that became a central hub and \\\"gathering place\\\" for Portland's independent filmmakers and experimental artists."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

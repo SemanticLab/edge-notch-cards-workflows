@@ -18,5 +18,57 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "poetry, music audio projects"
+  },
+  "wikidata_candidates": [],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5358478",
+      "label": "Electronics Illustrated",
+      "description": "US magazine",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization name 'Electronics Illustrated' is an exact match. The card describes the employer as a 'mass media outlet' and the individual's role as an 'associate editor', which aligns perfectly with the Wikidata entity being a magazine published in the United States."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19253",
+      "label": "Electronics Illustrated",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Electronics Illustrated' is an exact match. Both the card and the Wikibase entity reference the same Wikidata QID (Q5358478). Furthermore, the card describes the employer as a 'mass media outlet' and the Wikibase entity describes it as a 'publication', which are functionally identical contexts."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Alan Surpin (Alan R. Surpin) was a technical editor and journalist active in New York City during the late 1960s and early 1970s. He served as an associate editor for Electronics Illustrated, a prominent magazine focused on hobbyist and professional electronics. In this role, he authored various technical articles, including features on careers in airline electronics and technical hobbyist guides. Parallel to his technical career, Surpin was a contributor to the jazz magazine Down Beat; his most notable contribution was a rare 1969 interview with the innovative pianist Lennie Tristano titled \"Lennie Tristano: Feeling Is Basic.\" This intersection of technology and the arts positioned him within the milieu of Experiments in Art and Technology (E.A.T.), a non-profit that promoted collaborations between engineers and artists. By the mid-1970s, Surpin transitioned into the consumer electronics industry in Canada, where he served as the executive director of the Canadian Microwave Cooking Bureau (later the Canadian Microwave Bureau) in Toronto. In this capacity, he became a public spokesperson for the emerging microwave oven industry, focusing on standardizing safety and usage instructions and predicting consumer adoption trends through the early 1980s.",
+        "sources": [
+          "https://worldradiohistory.com/Archive-Electronics-Illustrated/Electronics-Illustrated-1968-07.pdf",
+          "https://archive.org/details/DownBeatV36n2119691016",
+          "https://news.google.com/newspapers?nid=Fr99An9S2vEC&dat=19800716&printsec=frontpage&hl=en",
+          "https://collections.banq.qc.ca/ark:/52327/3151475"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Alan Surpin\" electronics",
+        "\"Alan Surpin\" Down Beat magazine",
+        "\"Alan Surpin\" \"Electronics Illustrated\" staff",
+        "\"Alan Surpin\" Experiments in Art and Technology",
+        "\"Alan Surpin\" executive director Canadian",
+        "\"Alan Surpin\" \"Electronics Illustrated\" 1968 1970",
+        "",
+        "\"Alan Surpin\" \"Electronics Illustrated\" 1970 1971",
+        "\"Alan Surpin\""
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

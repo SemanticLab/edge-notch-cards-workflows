@@ -21,5 +21,100 @@
       "elastomers",
       "instrumentation and control systems"
     ]
+  },
+  "wikidata_candidates": [],
+  "wikibase_candidates": [],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Paul \"Chris\" Setzler (1935–2019), also known as Paul Christie Setzler, was a mechanical engineer and inventor active in the late 1960s and 1970s. He earned a B.S. in Mechanical Engineering from Purdue University and was employed by the Heli-Coil Corporation in Danbury, Connecticut, while residing in Sherman, Connecticut. Setzler is best known for developing and patenting the \"Spinserter,\" an automatic power tool used to install coiled wire inserts. His invention was honored by the editors of Industrial Design magazine in 1968 and was subsequently displayed at the Smithsonian Institution. His technical expertise spanned a wide range of fields, including mechanical engineering, hydraulics, fluidics, pneumatics, fiberglass, plastics/polymers, elastomers, and instrumentation and control systems. He was associated with the Experiments in Art and Technology (E.A.T.) organization, where his skills were registered to facilitate collaborations with artists. In his later years, Setzler moved to Virginia and became a fine woodworker specializing in post-and-beam construction and Shaker-style furniture, while also researching alternative energy sources such as windmills.",
+        "sources": [
+          "https://www.legacy.com/obituaries/name/paul-chris-setzler-obituary?pid=192003881",
+          "https://patents.google.com/patent/US3484923A/en",
+          "https://patents.google.com/patent/US3482301A/en"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Chris Setzler\" engineer Heli-Coil",
+        "\"Chris Setzler\" Experiments in Art and Technology",
+        "\"Chris Setzler\" Danbury Connecticut engineer",
+        "",
+        "\"Chris Setzler\" E.A.T. engineer",
+        "",
+        "\"Chris Setzler\" Heli-Coil mechanical engineer",
+        "\"Chris Setzler\" Experiments in Art and Technology E.A.T.",
+        "\"C. Setzler\" Heli-Coil",
+        "",
+        "\"Experiments in Art and Technology\" \"Setzler\"",
+        "\"Chris Setzler\" Sherman CT",
+        "\"Chris Setzler\" New Milford CT engineer",
+        "\"Setzler\" Heli-Coil Corporation",
+        "",
+        "\"Chris Setzler\" Heli-Coil Corp",
+        "\"Chris Setzler\" engineer Experiments in Art and Technology",
+        "\"Setzler\" Heli-Coil Danbury CT",
+        "\"Chris Setzler\" E.A.T. member",
+        "\"Chris Setzler\" E.A.T. registry",
+        "\"Christopher Setzler\" E.A.T. member",
+        "",
+        "\"Setzler\" Heli-Coil patent",
+        "\"Heli-Coil\" Danbury engineer \"Chris\"",
+        "\"Chris Setzler\" E.A.T. Connecticut",
+        "\"Setzler\" Experiments in Art and Technology mechanical engineer",
+        "",
+        "\"Chris Setzler\" E.A.T. organization",
+        "\"Setzler\" Heli-Coil fluidics pneumatics",
+        "\"Setzler\" Sherman CT 1960s 1970s",
+        "\"Setzler\" Heli-Coil Sherman CT",
+        "",
+        "\"Chris Setzler\" \"E.A.T.\" technical services",
+        "\"Setzler\" Heli-Coil pneumatics instrumentation",
+        "\"Setzler\" mechanical engineer Danbury Connecticut",
+        "\"Setzler\" Heli-Coil \"fluidics\"",
+        "",
+        "\"Chris Setzler\" Connecticut engineer biography",
+        "\"Chris Setzler\" E.A.T. project artist",
+        "\"Setzler\" Heli-Coil \"instrumentation\"",
+        "\"Spinserter\" Paul Setzler",
+        "\"Chris Setzler\" Purdue engineer Heli-Coil",
+        "",
+        "\"Spinserter\" Smithsonian 1968 Industrial Design"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED3bgCqBngG_U0HMwquP4K7lZWRLQQ4b5CBm2j2kjA32N0klKGs78obeGsbg2txR2NK97ua3TSo4HmY4fdHaGCBLvf-ZFK9KPPPoVNOpCfN2zbCwuozM01iEYfNdr9IYau12CTUxvpuqN7Wy3ETKsTOC8j1isXQn4Y4wExR5_djIEb9Bp8Sr05tVWcrZlpNSgSww6ddEvN81Lx7m4YLOr2Gdsxa5WN",
+          "title": "legacy.com",
+          "resolvedUri": "https://www.legacy.com/funeral-homes/obituaries/name/paul-chris-setzler-obituary?pid=191991079&v=batesville"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 199,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Paul \\\"Chris\\\" Setzler (1935–2019), also known as Paul Christie Setzler, was a mechanical engineer and inventor active in the late 1960s and 1970s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 509,
+            "endIndex": 650,
+            "text": "His invention was honored by the editors of Industrial Design magazine in 1968 and was subsequently displayed at the Smithsonian Institution."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

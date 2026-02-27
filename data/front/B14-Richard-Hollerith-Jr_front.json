@@ -8,5 +8,107 @@
   },
   "professionalIdentityExpertise": {
     "jobTitleOccupation": "Engineer"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q7934",
+      "label": "Frank Herbert",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Richard Hollerith Jr., an engineer based in New Jersey, while the Wikidata entry describes Frank Herbert, a world-famous science fiction author known for the novel 'Dune'. There are no overlapping biographical details between the two."
+    },
+    {
+      "qid": "Q445829",
+      "label": "Manu Dibango",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names (Richard Hollerith Jr. vs. Manu Dibango), occupations (Engineer vs. Musician), and locations (New Jersey, USA vs. France/Cameroon) show no overlap whatsoever. They are clearly different people."
+    },
+    {
+      "qid": "Q492313",
+      "label": "Park Jin-young",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The first record is for an American engineer named Richard Hollerith Jr. located in New Jersey, while the second record is for a South Korean singer and actor named Park Jin-young. There are no overlapping details in name, profession, or location."
+    },
+    {
+      "qid": "Q538025",
+      "label": "Frederick Law Olmsted, Jr.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals. The card refers to Richard Hollerith Jr., an engineer in New Jersey, while the Wikidata entity refers to Frederick Law Olmsted, Jr., a famous landscape architect and urban planner. There is no overlap in name, occupation, or location."
+    },
+    {
+      "qid": "Q625228",
+      "label": "Erasmus Quellinus II",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals. The index card refers to Richard Hollerith Jr., an engineer living in New Jersey in the 20th century. The Wikidata entity describes Erasmus Quellinus II, a 17th-century Flemish Baroque painter from Antwerp. There is no overlap in name, occupation, geography, or time period."
+    },
+    {
+      "qid": "Q878154",
+      "label": "Carl August Heinrich Ferdinand Oesterley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names (Richard Hollerith Jr. vs. Carl Oesterley), occupations (Engineer vs. Painter), and geographical locations (New Jersey, USA vs. Germany) are completely different. Furthermore, the Wikidata subject died in 1930, while the card data includes a ZIP code, a system established in 1963."
+    },
+    {
+      "qid": "Q983719",
+      "label": "Robert Smirke",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The first record is for Richard Hollerith Jr., an engineer from New Jersey, USA, likely from the mid-to-late 20th century based on the address format. The second record is for Sir Robert Smirke, a famous British architect from the 18th and 19th centuries who lived in London and Cheltenham."
+    },
+    {
+      "qid": "Q1177351",
+      "label": "David de Coninck",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals: one is a 20th-century American engineer named Richard Hollerith Jr., and the other is a 17th-century Flemish painter named David de Coninck."
+    },
+    {
+      "qid": "Q1508134",
+      "label": "George Randolph Barse",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals. The first is Richard Hollerith Jr., an engineer from New Jersey. The second is George Randolph Barse, a painter and illustrator who died in 1938. There is no overlap in name, occupation, or location."
+    },
+    {
+      "qid": "Q1710284",
+      "label": "Junior Walker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals. The card refers to Richard Hollerith Jr., an engineer based in New Jersey, while the Wikidata entry describes the famous musician Junior Walker (born Autry DeWalt Mixon Jr.), a saxophonist and singer. There are no overlapping details in name, profession, or geography."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Richard Hollerith Jr. (1926–2022) was an American industrial designer and technical consultant based in Upper Montclair, New Jersey. He was the grandson of Herman Hollerith, the inventor of the punch card tabulating system that founded IBM. After serving in the Navy V-12 program and graduating from Dartmouth College in 1947 with degrees in Geology and Naval Science, he studied industrial design at the Philadelphia Museum School of Art. His professional career was marked by significant contributions to product design and accessibility, serving as the Director of Industrial Design for the Monroe Calculating Machine Company and later working with Litton Industries, Henry Dreyfuss Associates, and as an independent consultant. Hollerith was a prominent figure in the design community, serving as president of the Industrial Designers Society of America (IDSA) from 1977 to 1978 and representing the field on the President's Committee on Employment of the Handicapped. He was a pioneer in what is now known as universal design, focusing on making environments and products accessible for people with disabilities. In 1975, he received a National Endowment for the Arts (NEA) grant for projects related to the handicapped, a period during which he was active in the same professional circles as Experiments in Art and Technology (E.A.T.). He established the Herman Hollerith Lecture on Innovation and Entrepreneurship at Blair Academy in 2001.",
+        "sources": [
+          "https://www.idsa.org/richard-hollerith-jr-fidsa",
+          "https://www.fordlibrarymuseum.gov/library/document/0047/17611531.pdf",
+          "https://dartmouthalumnimagazine.com/class-notes-1947-101",
+          "https://www.dchistory.org/wp-content/uploads/2018/12/MS0552_HollerithFamilyPapers.pdf",
+          "https://www.arts.gov/sites/default/files/1975-Annual-Report.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Richard Hollerith Jr. engineer \"Upper Montclair\"",
+        "\"Richard Hollerith Jr.\" New Jersey engineer biography",
+        "\"Richard Hollerith Jr.\" Experiments in Art and Technology E.A.T.",
+        "",
+        "\"Richard Hollerith Jr.\" Experiments in Art and Technology",
+        "\"Richard Hollerith\" E.A.T. organization",
+        "\"Richard Hollerith Jr.\" Upper Montclair NJ E.A.T."
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

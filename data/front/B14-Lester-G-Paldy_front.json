@@ -21,5 +21,133 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "",
     "aestheticPhilosophicalInterests": ""
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q22442914",
+      "label": "Paldy Bokila",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card record describes Lester G. Paldy, an American physics professor and editor at SUNY Stony Brook. The Wikidata entity describes Paldy Bokila, a Congolese-Dutch professional football player. These are two distinct individuals with different professions, locations, and names."
+    },
+    {
+      "qid": "Q24082910",
+      "label": "Zoltán Paldy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. Lester G. Paldy is an American physics professor and editor associated with SUNY Stony Brook, while Zolt n Paldy (Q24082910) was a Hungarian painter born in 1884."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q969850",
+      "label": "Stony Brook University",
+      "description": "public university in Stony Brook, New York, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The State University of New York, Stony Brook is the official and historical name for Stony Brook University (Q969850). The Wikidata record includes the official website 'sunysb.edu' and lists the State University of New York as its parent organization, confirming the match."
+    },
+    {
+      "qid": "Q51753369",
+      "label": "Q51753369",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The organization listed on the card is the State University of New York at Stony Brook, which is the academic university. The Wikidata entity Q51753369 corresponds to Stony Brook University Hospital. While the hospital is a part of the university's broader system, they are distinct entities in Wikidata, and the individual's profession as a physics professor and editor confirms an affiliation with the academic institution rather than the medical facility."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Lester G. Paldy is a physicist and academic who has been a prominent faculty member at Stony Brook University (State University of New York at Stony Brook) since 1967. He served as a Distinguished Service Professor in the Department of Technology and Society and the Department of Pathology. His technical expertise spans physics, nuclear physics, and science education. Paldy's career is marked by a significant editorial presence in scientific literature; he served as an Associate Editor of 'The Physics Teacher' from 1967 to 1972 and as the Editor-in-Chief of the 'Journal of College Science Teaching' for 30 years. Beyond academia, Paldy has had a extensive career in national security and intelligence, serving as a part-time CIA operations officer for over 20 years and representing the U.S. Department of State in nuclear weapon treaty negotiations in Geneva and at the United Nations. He is also a former U.S. Marine infantry officer and Korean War veteran. In 2024, he published a memoir, 'No Cloak, No Dagger: A Professor's Secret Life Inside the CIA', detailng his double life as a professor and intelligence advisor. He is a Fellow of the American Association for the Advancement of Science (AAAS) and has been a consultant for the Brookhaven National Laboratory's Nonproliferation and National Security Department.",
+        "sources": [
+          "https://www.stonybrook.edu/commcms/est/people/emeritus_faculty/paldy.php",
+          "https://www.stonybrook.edu/commcms/libspecial/collections/ua2165.php",
+          "https://aapt.scitation.org/doi/10.1119/1.2352485",
+          "https://www.nsta.org/journal-college-science-teaching-editorial-board",
+          "https://www.bloomsbury.com/us/author/lester-paldy/",
+          "https://www.stonybrook.edu/experts/experts/lester-paldy"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Lester G. Paldy SUNY Stony Brook biography",
+        "Lester G. Paldy physics Stony Brook",
+        "Lester G. Paldy editor physics journal",
+        "",
+        "Lester Paldy editor \"Journal of College Science Teaching\"",
+        "Lester Paldy editor \"The Physics Teacher\"",
+        "Lester Paldy Stony Brook physics editor",
+        "Lester Paldy \"E.A.T.\" collaboration",
+        "\"Lester Paldy\" technical services E.A.T.",
+        "\"Lester Paldy\" E.A.T. directory"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLODU7inDP6tteSUrVtIQqCXjYwTydcIPdszucXXR50T6t3-y7AIONmEROFt0gLZ3Gfokjl2jFEiJkb3JTD8isFENtPe5Hm5Oa8j47-UjswT_jAoX5NWBKjVo8RDSnGBRq8GA9E4M9Xhy0mdgs",
+          "title": "bloomsbury.com",
+          "resolvedUri": "https://www.bloomsbury.com/us/author/lester-paldy/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqxRqibLblY6zNMCULgUURWF0SYzsQxA0VLKVd7h7vPDT2SmqktMECBPKe6VtsSIFG3VnnSW34kKUXL8sWmtHt_a4x-HAfV6k8ONU0HHHQU-9vnBmStrrKjcPRJpRInVYutUIVbwEvliKkN_k5g97rLLixliNmc28DRk7zyNblTKScWyU=",
+          "title": "stonybrook.edu",
+          "resolvedUri": "https://www.stonybrook.edu/commcms/est/faculty/emeritus-faculty/lpaldy.php"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyRWGM-QP0TFLdIdXcatAHwBfjUEHi9OR9RdCCElk1kqfO94v90u1G5-Mx3yXpssrIRC9UqPGnZLY9vwEqf5es9SKR_NIePaB97Ky2l3K9ZXt_ETFbGNSwcEFPxyVMg1keYGcKZEtPFAyFNtYuxJ2aXKk=",
+          "title": "stonybrook.edu",
+          "resolvedUri": "https://www.stonybrook.edu/experts/profile/lester-paldy"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiIQSvGRU17ismw5WZQjM7zfsMtJ8vlqONHfzlILYzwZp8GOp6u7aDQWR49xjvYqgTMkJ1PHB6mU9vJ_ba4u9rlEzF1r9zbOTc7VkZqtoUhRtqgOekrOfSO-Wq-BhrbamU7lNGL573S_ccDLGP4bLohAhX9HQ75cEdyhW0_g==",
+          "title": "stonybrook.edu",
+          "resolvedUri": "https://www.stonybrook.edu/experts/results/?view=grid&keyword=Aids"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6L9ZHAQpK870ughIHZuz-MneDd3GepOgtPe3SnW0lAY1euLKDL_xXo_eFcxomyHfqo2ST_KjPCrecYMKDPXyV4huUk-pF9oF1vbgMIEiQUKgsd23xjxwfx4v8qGc=",
+          "title": "afio.com",
+          "resolvedUri": "https://www.afio.com/book-reviews/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 217,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lester G. Paldy is a physicist and academic who has been a prominent faculty member at Stony Brook University (State University of New York at Stony Brook) since 1967."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 218,
+            "endIndex": 341,
+            "text": "He served as a Distinguished Service Professor in the Department of Technology and Society and the Department of Pathology."
+          },
+          "groundingChunkIndices": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1017,
+            "endIndex": 1179,
+            "text": "In 2024, he published a memoir, 'No Cloak, No Dagger: A Professor's Secret Life Inside the CIA', detailng his double life as a professor and intelligence advisor."
+          },
+          "groundingChunkIndices": [
+            4
+          ]
+        }
+      ]
+    }
   }
 }

@@ -16,5 +16,81 @@
       "Electronics"
     ],
     "specializedSkillsKnowledge": "High-speed moving objects"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q83326",
+      "label": "Béla Bartók",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Stephen Bartok, a Mechanical Engineer at Litton Industries (a company founded in 1953). The Wikidata entity is Béla Bartók, the famous Hungarian composer who died in 1945. They share a surname and a connection to New York City, but their professions and timelines are incompatible."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2058311",
+      "label": "Litton Industries",
+      "description": "defense contractor in the United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Litton Industries' on the card matches the Wikidata entity exactly. The professional profile of the individual on the card (Mechanical Engineer in electronics and high-speed moving objects) is highly consistent with the Wikidata description of Litton Industries as an aerospace and defense contractor."
+    },
+    {
+      "qid": "Q6653219",
+      "label": "Litton Industries bombing",
+      "description": "1982 bombing of a nuclear weapons component production facility",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q6653219) refers to a specific historical event, namely the 1982 bombing of a facility, whereas the card refers to 'Litton Industries' as an organization and employer. While related, an event is not the same entity as the organization that was its target."
+    }
+  ],
+  "web_research": {
+    "results": [],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Stephen Bartok\" Experiments in Art and Technology",
+        "\"Stephen Bartok\" electronics Litton Industries",
+        "\"Stephen Bartok\" New York mechanical engineer 1960s 1970s",
+        "",
+        "\"Bartok\" Litton Industries electronics",
+        "\"Stephen Bartok\" mechanical engineer New York",
+        "",
+        "\"Stephen Bartok\" E.A.T. New York",
+        "\"Stephen Bartok\" mechanical engineer 1970 New York",
+        "",
+        "\"Stephen Bartok\" E.A.T. engineer",
+        "\"Stephen Bartok\" Litton engineer New York",
+        "",
+        "\"Stephen Bartok\" E.A.T. member list",
+        "\"Stephen Bartok\" Experiments in Art and Technology directory",
+        "\"Stephen Bartok\" technical electronics New York",
+        "",
+        "\"Stephen Bartok\" E.A.T. index card",
+        "",
+        "\"Stephen Bartok\" mechanical engineer \"New York\" 1960s 1970s",
+        "\"Stephen Bartok\" Litton Industries electronics engineer",
+        "",
+        "\"Stephen Bartok\" 1960s 1970s New York engineer",
+        "\"Stephen Bartok\" \"E.A.T.\" engineer",
+        "\"Stephen Bartok\" mechanical engineer Litton NY",
+        "",
+        "\"Stephen Bartok\" mechanical engineer \"Litton\" electronics",
+        "\"Stephen Bartok\" E.A.T. member NY",
+        "",
+        "\"Stephen Bartok\" Litton index card",
+        "\"Stephen Bartok\" Litton New York 1960s",
+        "\"Stephen Bartok\" Experiments in Art and Technology participant",
+        "\"Stephen Bartok\" E.A.T. list",
+        "",
+        "\"Stephen Bartok\" E.A.T. participant list",
+        "\"Stephen Bartok\" Experiments in Art and Technology engineer list",
+        "\"Stephen Bartok\" 1960s mechanical engineer Litton"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

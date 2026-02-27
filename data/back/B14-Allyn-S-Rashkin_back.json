@@ -9,6 +9,111 @@
         "y1": 6.3,
         "x2": 27.4,
         "y2": 15.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25527",
+          "label": "Cooper Union",
+          "description": "private college in New York City",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a specific individual named R. Cooper, likely an artist, while the Wikibase entity describes Cooper Union, which is a well-known educational institution (private college) in New York City."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7324877",
+          "label": "Richard Cooper",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Richard Cooper, 1740-1814) lived and died in the 18th and early 19th centuries, making it impossible for him to be the 'R. Cooper' referenced in a 1969 document."
+        },
+        {
+          "qid": "Q17102271",
+          "label": "R. Cooper White, Jr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity's surname is White (R. Cooper White, Jr.), whereas the card specifically identifies the individual as R. Cooper. Furthermore, the Wikidata entity is identified as a politician, which does not align with the context that the individual on the card was an artist."
+        },
+        {
+          "qid": "Q18534909",
+          "label": "Robert Cooper",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a person active in 1969, while the Wikidata entity Robert Cooper (Q18534909) was a 19th-century engraver whose work period ended in 1836."
+        },
+        {
+          "qid": "Q102169607",
+          "label": "R. Cooper",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q102169607 is associated with John Edensor Littlewood as a doctoral advisor and was educated at Oxford, indicating they were a mathematician. The context for the card entry specifies the individual is likely an artist. It is highly improbable that a doctoral student of a famous mathematician is the same person as the artist listed on the card."
+        },
+        {
+          "qid": "Q116264101",
+          "label": "Robert Dowding Cooper",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name R. Cooper is compatible with Robert Dowding Cooper, the Wikidata entity is specifically associated with a scientific expedition to Antarctica (Western Ross Sea Balleny Islands Expedition), whereas the card entry context describes an artist. There is no clear evidence connecting this scientific figure to artistic practice."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ron Cooper (born 1943) is an American visual artist associated with the Light and Space and Finish Fetish movements of Southern California. Active since the mid-1960s, his work explores light, color, and perception using industrial materials such as fluorescent light, neon, glass, and metal. Cooper was a participant in the Experiments in Art and Technology (E.A.T.) exhibition titled \"Some More Beginnings,\" held at the Brooklyn Museum in 1968, which showcased collaborations between artists and engineers. He was also identified in a 1969 Esquire article as one of Andy Warhol’s \"Dirty Half Dozen\" associated with the radical intermedia and \"New Theatre\" scene, alongside artists like Carolee Schneemann and Yayoi Kusama. In the late 1960s, his studio served as a venue for experimental activities, including dance workshops featuring collaborators like Alex Hay. Outside of his visual arts career, Cooper is well-known as the founder of Del Maguey Single Village Mezcal, which he established in 1995.",
+            "sources": [
+              "https://schneemannfoundation.org/chronology/",
+              "https://www.rauschenbergfoundation.org/sites/default/files/Robert_Rauschenberg_Photograph_Collection_Finding_Aid.pdf",
+              "https://nosbuesch-stucke.berlin/en/auction-27/lots/some-more-beginnings-an-exhibition-of-submitted-works-involving-technical-materials-and-processes-collaboration-with-the-brooklyn-museum-and-the-museum-of-modern-art-new-york",
+              "https://taostyle.net/2018/08/ron-cooper-finding-mezcal/",
+              "https://sevenfifty.com/48-hours-in-oaxaca-with-del-maguey-founder-ron-cooper/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Cooper\" artist E.A.T.",
+            "artist \"R. Cooper\" Experiments in Art and Technology E.A.T.",
+            "\"R. Cooper\" artist active late 1960s early 1970s",
+            "\"R. Cooper\" artist 1960s 1970s",
+            "\"Ron Cooper\" artist E.A.T.",
+            "\"Richard Cooper\" artist E.A.T.",
+            "\"R. Cooper\" \"Experiments in Art and Technology\"",
+            "\"Ron Cooper\" artist \"Experiments in Art and Technology\"",
+            "\"Robert Cooper\" artist \"Experiments in Art and Technology\"",
+            "\"R. Cooper\" artist 1960s 1970s E.A.T.",
+            "\"R. Cooper\" kinetic theater Warhol",
+            "",
+            "\"R. Cooper\" artist 1968 Brooklyn Museum E.A.T.",
+            "\"Ron Cooper\" artist E.A.T. Experiments in Art and Technology",
+            "\"R. Cooper\" kinetic theater performance artist",
+            "\"Robert Cooper\" artist Warhol \"dirty half dozen\"",
+            "",
+            "\"R. Cooper\" Experiments in Art and Technology \"Some More Beginnings\"",
+            "\"R. Cooper\" artist 1968 Brooklyn Museum catalog",
+            "\"Ron Cooper\" Experiments in Art and Technology \"Some More Beginnings\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8NspWMorJWy4d1xW3eUX1PrsJkxFyd1epzZ3Enf-3g0F5g__FOhNtsnIbTYKL4YDdOj6vVshU9OaH3c28UBNrdyP5ktowvH7xHrpiGQz5eTl_cK73XOAyHRDYHHlx_Vacf8wCvMzCCe9YvqZp1wDLewXpcneHZx5wANqt7TscVFqoZZPz0i5BIYU=",
+              "title": "nosbuesch-stucke.berlin",
+              "resolvedUri": "https://nosbuesch-stucke.berlin/wp-content/uploads/A27-Aufbruch-zum-Umbruch.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 418,
+                "endIndex": 560,
+                "text": "exhibition titled \\\"Some More Beginnings,\\\" held at the Brooklyn Museum in 1968, which showcased collaborations between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +125,89 @@
         "y1": 15.4,
         "x2": 39.8,
         "y2": 24.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Peter Ballantine (often spelled Balentine in historical inquiries) is a master woodworker, sculptor, and fabricator who was active in the New York art scene during the late 1960s and early 1970s. He is best known for his close professional association with the minimalist artist Donald Judd and the organization Experiments in Art and Technology (E.A.T.). In 1972, Judd hired Ballantine, a former student of the Whitney Independent Study Program, to perform renovation work on his building at 101 Spring Street; Ballantine subsequently became the primary fabricator for Judd’s signature plywood works and furniture. His expertise was considered so integral to the work that Judd's certificates of authenticity often specified that Ballantine held the construction information or was the only person capable of making certain plywood pieces. Ballantine is also significantly linked to Experiments in Art and Technology (E.A.T.) through the 'New York Collection for Stockholm' project (1971–1973). He designed and built the original Honduras mahogany boxes used to house the print portfolios for this collection, which featured works by thirty major New York artists. In later decades, Ballantine has served as a curator and scholar of Donald Judd's work, organizing exhibitions such as 'Donald Judd' at the Mnuchin Gallery in 2009.",
+            "sources": [
+              "https://www.experimentsinartandtechnology.org",
+              "https://lichtensteincatalogue.org",
+              "https://www.rauschenbergfoundation.org",
+              "https://juddfoundation.org",
+              "https://www.guggenheim.org",
+              "https://hyperallergic.com/567406/why-did-the-guggenheim-decommission-a-donald-judd/",
+              "https://www.josephklevenefineartltd.com"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Peter Ballantine\" Experiments in Art and Technology",
+            "artist \"Peter Balentine\"",
+            "\"Peter Balantine\" E.A.T. artist",
+            "\"Peter Ballantine\" artist 1960s 1970s",
+            "\"Peter Balentine\" Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZPg7edUhI6_KbzQ8veyLXXH6wUSm_0kBDgi4Ee3BeHikpWKRkeJbuHeqzEOpSle_h4HAZyoqQ0TskTSnQtlzvuZVjawDGaPN81SvkrD49xK8qkCHWQZxXTBOQITm6TL4fAM2WHN1KQtU2tejhOzs3uhcVYBib6wgY-QHKfkeTEg3pWxnFhjY=",
+              "title": "hyperallergic.com",
+              "resolvedUri": "https://hyperallergic.com/why-did-the-guggenheim-decommission-a-donald-judd/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsu_Ml4lZJDMyGwzodjjisxUXGMqiUBl16t9Odx19gsnrwOQVgXa8BTPCxRbtFtdMuPjvzTfsWjpfmRL8jgi7iQx_SvRIBwXoA1EK3UNFJZPXdmPmI8h8yR8PprMcw6NWEyhcZRkJ5fvLM2UY2qQ==",
+              "title": "experimentsinartandtechnology.org",
+              "resolvedUri": "https://www.experimentsinartandtechnology.org/nycfs"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV8xTQ-2_zWJA7dUsj_a-KPQd8SyLkDyAIp29gSIimwvh7KJC0k1ZqsuyzeXRPDq_dTX2XiuQLgWMoClf32z6LcjXoBWrWy5T4f3k56DBIsB2WLXuI1o64SeHUuO_Xx1qEUHD1uLopOaBCc8aWdKf5Byh9DY6EoNp_Bg==",
+              "title": "lichtensteincatalogue.org",
+              "resolvedUri": "https://www.lichtensteincatalogue.org/catalogue/entry.php?id=32"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeVGyMItecZOpsIVNJDZM0RuNAvLeJMPaKcNTZaHWnmd6-BvjHIM-46w-kaoUFPozQLK0_f5yvCKXn4IPS_wN3RYIWvQ6yNIsuW-QaRHTZnMJpe2LxjrNPW2gPHt8pY1pqtpsN3f-6zA93lh9g",
+              "title": "mnuchingallery.com",
+              "resolvedUri": "https://www.mnuchingallery.com/artists/donald-judd"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 668,
+                "endIndex": 892,
+                "text": "His expertise was considered so integral to the work that Judd's certificates of authenticity often specified that Ballantine held the construction information or was the only person capable of making certain plywood pieces."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 979,
+                "endIndex": 1049,
+                "text": "through the 'New York Collection for Stockholm' project (1971–1973)."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1220,
+                "endIndex": 1831,
+                "text": "In later decades, Ballantine has served as a curator and scholar of Donald Judd's work, organizing exhibitions such as 'Donald Judd' at the Mnuchin Gallery in 2009.\",\n      \"sources\": [\n        \"https://www.experimentsinartandtechnology.org\",\n        \"https://lichtensteincatalogue.org\",\n        \"https://www.rauschenbergfoundation.org\",\n        \"https://juddfoundation.org\",\n        \"https://www.guggenheim.org\",\n        \"https://hyperallergic.com/567406/why-did-the-guggenheim-decommission-a-donald-judd/\",\n        \"https://www.josephklevenefineartltd.com\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            }
+          ]
+        }
       }
     }
   ]

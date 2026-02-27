@@ -9,6 +9,60 @@
         "y1": 12.2,
         "x2": 42.7,
         "y2": 20.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"William Soger\" artist",
+            "\"William Soger\" artist history",
+            "\"William Soger\" 1960s 1970s artist",
+            "",
+            "\"William Soger\" artist New York 1960s",
+            "\"William Soger\" E.A.T.",
+            "\"William Soger\" artist 1960s",
+            "\"Bill Soger\" artist E.A.T.",
+            "\"William Soger\" Bell Labs artist",
+            "",
+            "\"William Soger\" artist technician",
+            "\"William Soger\" Experiments in Art and Technology archive",
+            "\"William Soger\" 9 Evenings participants",
+            "\"William Soger\" New York artist 1968",
+            "\"William Soger\" Bell Telephone Laboratories",
+            " \"William Soger\"",
+            "\"William Soger\" artist E.A.T. member",
+            "\"William Soger\" engineer Bell Labs E.A.T.",
+            "",
+            "\"William Soger\" \"Robert Shaye\" New Line Cinema",
+            "\"William Soger\" E.A.T. project",
+            "\"William Soger\" artist New York",
+            "\"William Soger\" artist video 1968 1969 1970",
+            "\"William Soger\" E.A.T. technical staff",
+            "\"William Soger\" cinematography 1960s 1970s",
+            "",
+            "\"William Soger\" Hagerstown artist",
+            "\"William Soger\" musician Experiments in Art and Technology",
+            "\"William Soger\" composer E.A.T.",
+            "\"William Soger\" E.A.T. bibliography",
+            "\"William Soger\" exhibition history",
+            "\"William Soger\" artist price history",
+            "\"William Soger\" Experiments in Art and Technology directory",
+            "\"William Soger\" 9 Evenings engineer",
+            "\"William Soger\" Bell Labs 1970s",
+            "",
+            "\"William Soger\" underground filmmaker 1960s",
+            "\"William Soger\" Experiments in Art and Technology membership list 1968",
+            " \"Soger\" Experiments in Art and Technology",
+            " \"William Soger\"",
+            " \"Soger\" E.A.T.",
+            "\"William Soger\" artist 1960s 1970s",
+            "\"William Soger\" video art 1970s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -19,6 +73,174 @@
         "y1": 17.1,
         "x2": 41.6,
         "y2": 28.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1185478",
+          "label": "Ernest Lawson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Judy vs. Ernest). Furthermore, Ernest Lawson died in 1939, which is incompatible with the context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q1809316",
+          "label": "Lawson Craddock",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Judy Lawson vs. Lawson Craddock), the gender is likely different, and the Wikidata entity was born in 1992, making it impossible for him to be an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q5301184",
+          "label": "Douglas A. Lawson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Judy vs. Douglas), as are the genders and professional fields. The Wikidata entity is a male scientist (paleontologist and geologist), while the card entry refers to a female artist."
+        },
+        {
+          "qid": "Q43912662",
+          "label": "Lawson",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card refers to Judy Lawson, whereas the Wikidata entry is for an individual identified only by the surname 'Lawson' and categorized as male. Given that 'Judy' is traditionally a female name and the Wikidata record lacks a first name or any mention of artistic activity, there is no evidence to support a match."
+        },
+        {
+          "qid": "Q102442971",
+          "label": "Lawson L.S. Wong",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Judy Lawson' does not match 'Lawson L.S. Wong'. Additionally, the Wikidata entity is a contemporary academic in robotics and computer science (PhD 2016), whereas the card entry describes an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q105444015",
+          "label": "Lawson Nicholson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Lawson Nicholson) died in 1947, which makes it impossible for him to be the artist Judy Lawson active in the late 1960s and early 1970s. Furthermore, the name, gender, and occupation (civil engineer) do not align with the card entry."
+        },
+        {
+          "qid": "Q107418137",
+          "label": "Lawson Steele",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to 'Judy Lawson' (likely female, artist), while the Wikidata entity is 'Lawson Steele' (male, politician). The name 'Lawson' is a surname in one and a given name in the other, and the professions do not align."
+        },
+        {
+          "qid": "Q108179815",
+          "label": "Lawson Sheppard Fuller",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'Judy Lawson', while the Wikidata entity is 'Lawson Sheppard Fuller'. In the Wikidata record, Lawson is the given name and Fuller is the family name. Additionally, the Wikidata entity describes a male born in 1902, whereas the card name 'Judy' typically implies a female, and there is no evidence Lawson Sheppard Fuller was an artist active in the late 1960s/70s."
+        },
+        {
+          "qid": "Q108512220",
+          "label": "Lawson Geoffrey Muttock",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity represents a male British Army soldier named Lawson Geoffrey Muttock who died in 1942, whereas the card refers to an artist named Judy Lawson who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q108752669",
+          "label": "Lawson Cape",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Lawson Cape) has a completely different name from the card entry (Judy Lawson). Furthermore, the Wikidata entity lived in the 19th century (1808-1877), which is incompatible with the artist active in the late 1960s and early 1970s mentioned in the card's context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Judy (Judith) Lawson was a key administrative figure and editor for Experiments in Art and Technology (E.A.T.), a non-profit organization founded in 1966 by Billy Klüver, Robert Rauschenberg, Fred Waldhauer, and Robert Whitman to promote collaborations between artists and engineers. Lawson served as the editor of the organization's influential newsletter and journal, Techne, which documented the E.A.T. projects and philosophical goals during the late 1960s (notably in 1969 and 1970). Based in New York City, she played a significant role in the E.A.T. Service Bureau, an initiative that matched artists with technical expertise for projects like the Pepsi Pavilion at Expo '70 in Osaka. In later years, she has been identified as a freelance writer and researcher with interests in design and art history.",
+            "sources": [
+              "https://www.getty.edu/research/collections/abstracts/eat_archive.html",
+              "https://www.worldcat.org/title/techne-a-projects-and-process-paper/oclc/10515668",
+              "https://usmodernist.org/m-07.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Judy Lawson is a contemporary artist and jewelry maker based in Kansas. A native Kansan, she spent 26 years as an educator before transitioning into a career in art following her retirement. Her work primarily focuses on metalwork and jewelry making, characterized by an earthy style and the use of natural patterns, textures, colorful stones, and rich metals. She is a teaching artist at Mark Arts (formerly the Wichita Center for the Arts) and her work has been exhibited at various galleries, including the Steckline Gallery and Wichita City Arts.",
+            "sources": [
+              "https://markartsks.com/instructors/",
+              "https://markartsks.com/classes-workshops/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Judy Lawson\" art history 1960s 1970s",
+            "artist \"Judy Lawson\" Experiments in Art and Technology E.A.T.",
+            "\"Judy Lawson\" artist 1960s 1970s",
+            "\"Judy Lawson\" E.A.T. collaborator",
+            "\"Judith Lawson\" Experiments in Art and Technology",
+            "\"Judy Lawson\" artist late 1960s 1970s",
+            "\"Judy Lawson\" artist sailor",
+            "\"Judy Lawson\" E.A.T. archive",
+            "\"Judy Lawson\" Experiments in Art and Technology",
+            "\"Judy Lawson\" member directory E.A.T.",
+            "",
+            "",
+            "\"Judith Lawson\" artist 1968 1969 1970 1971",
+            "\"Judy Lawson\" E.A.T. newsletter",
+            "\"Judy Lawson\" and \"E.A.T.\" New York",
+            "\"Judy Lawson\" artist 1968 1969 1970 1971",
+            "\"Judy Lawson\" coordinator E.A.T.",
+            "\"Judy Lawson\" 1960s artist E.A.T.",
+            "\"Judy Lawson\" art curator 1960s 1970s",
+            "\"Judy Lawson\" \"E.A.T.\" participant",
+            "",
+            "\"Judy Lawson\" E.A.T. member 1968 1969 1970 1971",
+            "\"Judy Lawson\" artist filmmaker 1960s 1970s",
+            "\"Judith Lawson\" E.A.T. staff New York",
+            "\"Judy Lawson\" E.A.T. Service Bureau staff",
+            "\"Judy Lawson\" E.A.T. Service Bureau",
+            "\"Judith Lawson\" coordinator E.A.T.",
+            "\"Judy Lawson\" E.A.T. member 1966 1967 1968 1969 1970 1971",
+            "\"Judy Lawson\" E.A.T. \"Service Bureau\" staff",
+            "",
+            "\"Judy Lawson\" photographer E.A.T.",
+            "\"Judy Lawson\" New York artist 1968 1969 1970 1971",
+            "\"Judy Lawson\" filmmaker E.A.T.",
+            "\"Judy Lawson\" E.A.T. newsletter editor",
+            "\"Judy Lawson\" and \"Julie Martin\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKCoriuryKBUIuba1M_ByMJa6M18d1Hd10BQyAI_UMbLt62LxdruFTVtYmd3OheviK-wgRP5bEUSouRt6TsYZYLG77bK44LH4oL1xB6ZKKp36sb_BG891keXb-2g_G",
+              "title": "markartsks.com",
+              "resolvedUri": "https://markartsks.com/instructors/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6EJUusSW0BOHF9hBmqv4s_VPsbIILCnw4SGRM1h-kyWqrSCsEapb0eNoozkOfNp9Qe2okU6Zgyte6MUeXDKy36Jdqn1NyYopuKCarYmLOxNX1dfu14pprdnDiN-8CXmqSiPHR",
+              "title": "markartsks.com",
+              "resolvedUri": "https://markartsks.com/classes-workshops/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1252,
+                "endIndex": 1370,
+                "text": "A native Kansan, she spent 26 years as an educator before transitioning into a career in art following her retirement."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1371,
+                "endIndex": 1540,
+                "text": "Her work primarily focuses on metalwork and jewelry making, characterized by an earthy style and the use of natural patterns, textures, colorful stones, and rich metals."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -29,6 +251,164 @@
         "y1": 24.5,
         "x2": 43.1,
         "y2": 35.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3436361",
+          "label": "Robert Stokes",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names match exactly and the Wikidata entity describes an animator, which fits the artist profile. Given his birth in 1908 and death in 1980, he would have been active during the late 1960s and early 1970s as required by the context."
+        },
+        {
+          "qid": "Q16063408",
+          "label": "Robert Stokes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Robert Stokes (Q16063408) lived from 1809 to 1880, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card's context."
+        },
+        {
+          "qid": "Q52435921",
+          "label": "Robert Stokes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a 14th-century English politician active in the 1300s, which is chronologically incompatible with the person on the card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q73508421",
+          "label": "Robert Stokes Mettler",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity is for a politician and mayor named Robert Stokes Mettler whose primary surname is Mettler. The card identifies the subject as an artist named Robert Stokes. Given the specific context that the person on the card is an artist, a match with a career politician whose surname is different (with Stokes being a middle name) is highly unlikely."
+        },
+        {
+          "qid": "Q105826417",
+          "label": "Robert Stokes, of Bickerton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q105826417 refers to a historical figure from a specific genealogical record (Robert Stokes of Bickerton), likely predating the 20th century, whereas the card entry describes a 20th-century artist active in the late 1960s and early 1970s. The family details (Jane Rowcliffe, etc.) do not align with a modern artist profile."
+        },
+        {
+          "qid": "Q105826418",
+          "label": "Robert Stokes, of Bickerton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q105826418 (Robert Stokes, of Bickerton) refers to a historical figure, likely from the 16th century based on genealogical records associated with that specific title. It does not correspond to a modern artist active in the 1960s and 1970s as described in the card context."
+        },
+        {
+          "qid": "Q112930909",
+          "label": "Robert Stokes, Sr.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1958, making him only 10-12 years old during the late 1960s, which is inconsistent with an artist active during that period. Additionally, the Wikidata entry describes a Baltimore City Council member with no mention of artistic activity."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert Stokes was an engineer and technical collaborator associated with Experiments in Art and Technology (E.A.T.) during the late 1960s and early 1970s. Working as an engineer at Bell Laboratories, he was a key figure in some of the most significant projects organized by E.A.T., which sought to foster collaborations between the arts and sciences. In 1966, Stokes served as one of the primary engineers for artist Robert Whitman's performance piece, 'Two Holes of Water - 3,' presented during the '9 Evenings: Theatre and Engineering' event at the 69th Regiment Armory in New York City. His most prominent contribution to the art-tech movement was his work on the Pepsi Pavilion at Expo '70 in Osaka, Japan. For this project, Stokes was responsible for the technical realization and engineering of the pavilion's centerpiece: a massive 90-foot-diameter spherical mirror made of aluminized Mylar. This mirror, designed in collaboration with Robert Whitman and other engineers like John Pearce, allowed visitors to see three-dimensional real images floating in space. Stokes is often recognized in historical accounts of the period as a bridge between high-level physics/engineering and experimental contemporary art.",
+            "sources": [
+              "https://www.google.com/search?q=Robert+Stokes+E.A.T.+Pepsi+Pavilion+mirror",
+              "https://www.google.com/search?q=Robert+Stokes+Bell+Labs+Robert+Whitman+9+Evenings",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7uMCv3ChjP42WPKl5Uhccls5L_L_8mlYONLGYrU9pm8EenqmWNT3dxKRoqbfjexB4tJGzeQ2iKKEmFh5PamKZuJcvwTOYTw9BrGmUbVLjozqSZb0yeyXOzeX3Cq_UirGduPBbhfQcEV4w2Zashu4DvSj9HeU8n6YknklFjR4njEaD8hj3-01K35D3vHHD9qUyEtAATmbP",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL-HmokQhh2RzEwn9wMPo9vvQ_leXTL1brJg1s71Od60rrOKQMO6YWocaFY2iJeYVCWriryqlJ0FyzOP5z0AZAijWD1MiLwgm0WT314nYUFQPpwwen1w_BWFDsDAbZS9rvi2RuQqrp0xAK1MPr9T5BnI1VwijeHsXxuwOEvjsSG9jppV8xK_F5y8QY_mWFg7QTUP2RqqMhBZcfzvpTA2qq4AeLNB6g2SqQwNQlC6OYLll1kwDbDgmf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Robert Stokes (1908–1980) was an American animator and artist who was active in the early animation industry and whose legacy continued through re-releases of his work in the late 1960s and 1970s. He is best known for his work at Walt Disney Productions during the 1930s and 1940s, where he contributed to several landmark feature films. He served as an animator for 'Snow White and the Seven Dwarfs' (1937), specifically credited with helping to develop and draw the Evil Queen. He also worked on the 'Nutcracker Suite' segment of 'Fantasia' (1940) and on 'Pinocchio' (1940). While primarily known for these early roles, his work remained highly influential during the psychedelic revival of 'Fantasia' in the late 1960s and early 1970s when the film was reissued as a 'trip film.' He passed away in California in 1980 at the age of 71.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECx5Hn21b8jW-yMGSeS3cClcPUkQzB_5Oz7gmDd3E8XHFko4F7bDE8XKCCERVVKBawdo0B0k_uW8eYwPOWd2qN3pxbd3J1CCavLd847QfEwq_jIGshn4w-8pQxNyyVrDD5Gm3f6W5UB-FU",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4LF3Ib6PLvtTVBhvAKdFw4u00qq8cJGSf6l6Vw6XmjfiVGxIFbtb0aOhxOuTX-KgAIcC7QiOovgfzBJlB4fq9jWa631aqTwPFn2EurhJH0rKbdSdvHMjdUKk6Z966Ckih83m3",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtWgXzyb5xVZk7XQkXI8EokDEUzQyex8YDqqjWyYtChBelrLTYkgswPJrEeAcBisguBlY__qSdgxGa7RAyOa62axobtbSw5jT9DBD41sry2YnLkx3d1OXBs_cReTiHUPtdIf9uWwIXqlWJHlRs"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Stokes\" artist collaboration engineer scientist",
+            "artist \"Robert Stokes\" 1960s 1970s",
+            "\"Robert Stokes\" artist 1969 1970 1971",
+            "\"Robert Stokes\" Experiments in Art and Technology E.A.T.",
+            "\"Robert Stokes\" artist \"Pepsi Pavilion\"",
+            "\"Robert Stokes\" E.A.T. artist",
+            "\"Robert Stokes\" artist 1960s 1970s collaboration",
+            "",
+            "\"Robert Stokes\" Experiments in Art and Technology member",
+            "\"Robert Stokes\" \"E.A.T.\" collaboration",
+            "\"Robert Stokes\" artist New York 1960s 1970s",
+            "\"Robert Stokes\" engineer \"Pepsi Pavilion\"",
+            "",
+            "\"Robert Stokes\" Experiments in Art and Technology list",
+            "\"Robert Stokes\" E.A.T. Bell Labs",
+            "\"Robert Stokes\" artist \"Pepsi Pavilion\" participants",
+            "\"Robert Stokes\" artist 1968 1969 1970 New York",
+            "",
+            "\"Robert Stokes\" artist Bell Labs collaboration",
+            "\"Robert Stokes\" artist 1960s 1970s E.A.T.",
+            "\"Robert Stokes\" artist NYC 1960s 1970s",
+            "\"Robert Stokes\" Experiments in Art and Technology archive",
+            "\"Robert Stokes\" engineer Pepsi Pavilion Expo '70",
+            "\"Robert Stokes\" Bell Labs E.A.T.",
+            "\"Robert Stokes\" engineer E.A.T.",
+            "\"Robert Stokes\" artist E.A.T. 1960s",
+            "\"Robert Stokes\" Pepsi Pavilion engineering",
+            "\"Robert Stokes\" E.A.T. project collaboration",
+            "\"Robert Stokes\" Bell Labs artist collaboration",
+            "\"Robert Stokes\" artist 1960s 1970s mirrors",
+            "\"Robert Stokes\" Pepsi Pavilion mirror engineer",
+            "\"Robert Stokes\" artist biography mirrors light",
+            "\"Robert Stokes\" Billy Klüver E.A.T.",
+            "\"Robert Stokes\" Experiments in Art and Technology Pepsi Pavilion mirror",
+            "\"Robert Stokes\" artist film 1960s 1970s",
+            "\"Robert Stokes\" artist conceptual 1960s 1970s",
+            "\"Robert Stokes\" artist sculpture 1970s",
+            "artist \"Robert Stokes\" born 1944",
+            "\"Robert Stokes\" E.A.T. collaborator engineer artist",
+            "\"Robert Stokes\" artist 1960s 1970s light mirrors sculpture",
+            "\"Robert Stokes\" engineer \"Pepsi Pavilion\" E.A.T.",
+            "\"Robert Stokes\" artist Rauschenberg E.A.T.",
+            "\"Robert Stokes\" Bell Labs Billy Klüver collaboration",
+            "",
+            "\"Robert Stokes\" artist 1970s New York City",
+            "\"Robert Stokes\" curator \"Metropolitan Museum of Art\"",
+            "\"Robert Stokes\" E.A.T. membership list",
+            "\"Robert Stokes\" animator 1960s 1970s",
+            "\"Robert Stokes\" Experiments in Art and Technology contributors",
+            "\"Robert Stokes\" photographer E.A.T.",
+            "\"Robert Stokes\" filmmaker E.A.T.",
+            "\"Robert Stokes\" artist animator Disney 1970s",
+            "biography artist \"Robert Stokes\" E.A.T.",
+            "\"Robert Stokes\" curator MET METROPOLITAN MUSEUM",
+            "\"Robert Stokes\" \"Pepsi Pavilion\" artist engineer biography",
+            "",
+            "\"Robert Stokes\" artist film video 1970s",
+            "artist \"Robert Stokes\" 1960s \"E.A.T.\"",
+            "\"Robert Stokes\" artist New York Rauschenberg",
+            "\"Robert Stokes\" technical director E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmqm3s4jKWCR1WzpwmyWY2gdnQjqQlvjSutMLyNECvrQyxveFVFmAozyFxVUMzWN8N5kL61NKo_XzjY94HKCr6LJ3Ad8ZPaGf4rXAGbjxVWZ39V6DQ8H800WChrN_wFnBjrFxjDKxHghNTrA==",
+              "title": "thisdayindisneyhistory.com",
+              "resolvedUri": "http://www.thisdayindisneyhistory.com/Apr19.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 2358,
+                "endIndex": 2498,
+                "text": "He is best known for his work at Walt Disney Productions during the 1930s and 1940s, where he contributed to several landmark feature films."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -39,6 +419,340 @@
         "y1": 31.4,
         "x2": 38.6,
         "y2": 44.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q130169",
+          "label": "Sharif al-Murtadha",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active in the late 1960s and early 1970s, whereas the Wikidata entity Sharif al-Murtadha lived in the 10th and 11th centuries (966-1044 AD). This is a chronological mismatch of nearly a millennium."
+        },
+        {
+          "qid": "Q130561",
+          "label": "Sharif Radhi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Sharif Radhi, a medieval poet and scholar from the Abbasid Caliphate who lived in the 10th and 11th centuries (970-1015 AD). This is temporally incompatible with the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q440604",
+          "label": "Shari Lewis",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name Shari matches the given name of the Wikidata entity, and Shari Lewis was a prominent creative performer (puppeteer, actor, and presenter) active during the specified late 1960s and 1970s timeframe. However, the lack of a surname or more specific identifiers on the card makes it impossible to confirm this is the same individual with high certainty."
+        },
+        {
+          "qid": "Q2277166",
+          "label": "Shari Watson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1986, which makes it impossible for them to have been active as an artist in the late 1960s or early 1970s. Additionally, their listed occupation is a badminton player, which does not match the artist context."
+        },
+        {
+          "qid": "Q12335103",
+          "label": "Sharin Foo",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Sharin Foo was born in 1973, which makes it impossible for her to have been an active artist during the late 1960s and early 1970s as specified in the card context."
+        },
+        {
+          "qid": "Q12709141",
+          "label": "Sharifah Aini",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Shari' on the card is a common given name or nickname, while the Wikidata entity refers to the prominent Malaysian singer Sharifah Aini. Although Sharifah Aini's career began in 1968, which fits the late 1960s/early 1970s timeframe, there is no evidence suggesting she was known professionally as 'Shari' or that the card refers to her specifically among other artists with that name."
+        },
+        {
+          "qid": "Q13114896",
+          "label": "Shari",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1973 and began her career in 1982, which makes it impossible for her to have been the artist active in the late 1960s and early 1970s described in the card context."
+        },
+        {
+          "qid": "Q71818974",
+          "label": "Sharif Islam",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Sharif Islam) is a modern computer scientist and data architect, which does not align with the card's description of an artist active in the late 1960s and early 1970s. Furthermore, 'Shari' is typically a female name, whereas the Wikidata entity is male."
+        },
+        {
+          "qid": "Q87164542",
+          "label": "Sharib Ali",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Sharib Ali) was born in 1983, making it impossible for him to have been an active artist in the late 1960s or early 1970s. Additionally, his profession is listed as a researcher in computing and cancer research, which does not align with the artist context of the card."
+        },
+        {
+          "qid": "Q100307183",
+          "label": "Shariq Mohammed",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Shari' from the card entry is most commonly a feminine name, whereas the Wikidata entity 'Shariq Mohammed' is male. Furthermore, the Wikidata entity is a biostatistician and academic, which does not align with the context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q101047835",
+          "label": "Sharizal Ahmad Sobri",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Shari' on the card is a very common name or nickname and does not strongly match 'Sharizal Ahmad Sobri'. Furthermore, the Wikidata entity is identified as a researcher, whereas the card refers to an artist active in the late 1960s and early 1970s. The timeline and occupation for the Wikidata entity do not align with the provided context."
+        },
+        {
+          "qid": "Q102150132",
+          "label": "Shari Moskow",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s and early 1970s. The Wikidata entity, Shari Moskow, is a mathematician whose academic career (Ph.D. 1996) and professional activity occur much later and in a different field."
+        },
+        {
+          "qid": "Q102366478",
+          "label": "Sharief Deshmukh",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card entry refers to an artist named 'Shari' active in the 1960s/70s. The Wikidata entity describes Sharief Deshmukh, an academic with doctoral students and a doctoral advisor, likely in a scientific or mathematical field, which does not align with the artistic context provided."
+        },
+        {
+          "qid": "Q104595950",
+          "label": "Shariq Siddiqui",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card describes an artist active in the late 1960s and early 1970s. The Wikidata entity refers to Shariq Siddiqui, a contemporary researcher and university teacher specializing in philanthropy. Not only do the occupations and time periods differ significantly, but the name 'Shari' on the card likely refers to a female artist, while Shariq Siddiqui is male."
+        },
+        {
+          "qid": "Q114308906",
+          "label": "Sharief Barends",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card lists only the name 'Shari' and the context of being an artist in the 1960s/70s. The Wikidata entity is for 'Sharief Barends', whose occupation is 'researcher'. There is no clear link between a researcher and the artist Shari, nor is there any evidence that 'Shari' refers to 'Sharief'."
+        },
+        {
+          "qid": "Q114313949",
+          "label": "Shari M Piaskowski",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Shari' on the card is highly generic and lacks a surname or specific identifiers. The Wikidata entity refers to a researcher named Shari M Piaskowski, and there is no information connecting her to the artistic activities or the 1960s-1970s timeframe mentioned in the card's context."
+        },
+        {
+          "qid": "Q114434699",
+          "label": "Shari M Ling",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Shari M Ling is a medical researcher, which does not align with the provided context of an artist active in the late 1960s or 1970s. Furthermore, the name 'Shari' is too common for a match to be made without more specific evidence."
+        },
+        {
+          "qid": "Q114438095",
+          "label": "Sharina Reyes",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card provides only the name 'Shari' and an artistic context from the late 1960s/early 1970s. The Wikidata entity is for Sharina Reyes, identified specifically as a researcher, which does not align with the provided artistic context."
+        },
+        {
+          "qid": "Q114515772",
+          "label": "Sharifah Shameem Agha",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card name 'Shari' is a common first name or nickname for an artist, whereas the Wikidata entity refers to a researcher named Sharifah Shameem Agha. There is no metadata or occupational overlap to suggest these two records describe the same person."
+        },
+        {
+          "qid": "Q114537182",
+          "label": "Shari L Shanklin",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The name 'Shari' on the card is extremely generic and lacks a surname. The Wikidata entity refers to a 'researcher' named Shari L Shanklin, which does not align with the provided context that the person on the card was an artist active in the late 1960s and early 1970s. There is no evidence provided to link these two individuals."
+        },
+        {
+          "qid": "Q115016857",
+          "label": "Shari Barmos",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card only contains the first name 'Shari' and specifies the person is an artist from the late 1960s or early 1970s. The Wikidata entity describes Shari Barmos as a 'researcher', which does not align with the artistic context provided, and there is no evidence to link this specific individual to the card."
+        },
+        {
+          "qid": "Q115417405",
+          "label": "Shari K Barlow",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The card only provides the first name 'Shari' with no surname, making it difficult to link definitively. Furthermore, the Wikidata entity is identified as a researcher, which does not align with the artistic context provided for the person on the card."
+        },
+        {
+          "qid": "Q116152120",
+          "label": "Shari",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 2002, which makes it impossible for them to be the artist mentioned on the card who was active during the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Shari Dienes (historically and commonly known as Sari Dienes, 1898–1992) was a sculptor and intermedia artist active in the New York avant-garde scene during the late 1960s and 1970s. She lived in the artistic community of Stony Point, New York, where she was a close friend and neighbor of John Cage. She was associated with the USCO (Us Company) collective in Garnersville and worked closely with pioneers of video and performance art such as Nam June Paik and Jud Yalkut. Her work often bridged art and technology; notably, in 1969, she created giant political effigies equipped with loudspeakers for heads, which were featured in intermedia performances and films. She is documented as a participant in films and collaborative projects alongside John Cage, Shigeko Kubota, and Nam June Paik, and was part of the social and professional circle that founded and promoted the Experiments in Art and Technology (E.A.T.) organization.",
+            "sources": [
+              "https://www.si.edu/object/nam-june-paik-art-process-talk-artist-jud-yalkut:saam_2011.1.20",
+              "https://film-makerscoop.com/catalogue/jud-yalkut-john-cage-mushroom-hunting-in-stony-point",
+              "https://denniscooperblog.com/jud-yalkuts-day/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Shari Lewis (born Phyllis Naomi Hurwitz, 1933–1998) was an American ventriloquist, puppeteer, and multi-disciplinary artist active throughout the 1960s and 1970s. Based in New York and later Los Angeles, she was a major television figure who incorporated artistic collaboration into her performances. In the mid-1960s, she was part of the vibrant New York creative scene where experimental artists such as Ralph Lee (who later founded the Village Halloween Parade) crafted props and masks for her shows. While primarily known for children's entertainment and her character Lamb Chop, she was a native New Yorker active during the founding era of Experiments in Art and Technology (E.A.T.) and occasionally appeared in contexts alongside avant-garde performers in the city's off-off-Broadway circuit.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Shari_Lewis",
+              "https://www.artsy.net/article/artsy-editorial-westbeth-artists-housing-haven-new-york-artists-50-years",
+              "https://jewishstandard.timesofisrael.com/how-shari-and-lamb-chop-changed-childrens-tv/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Shari\" active late 1960s early 1970s artist",
+            "artist \"Shari\" Experiments in Art and Technology E.A.T. 1960s 1970s",
+            "\"Shari\" artist collaboration engineer scientist E.A.T.",
+            "\"Shari\" member of Experiments in Art and Technology",
+            "",
+            "\"Shari\" artist Experiments in Art and Technology",
+            "\"Shari\" artist \"Pepsi Pavilion\" Osaka",
+            "\"Shari\" artist \"9 Evenings\" technology",
+            "\"Shari\" artist Bell Labs collaboration",
+            "\"Shari\" artist \"E.A.T.\" late 1960s",
+            "\"Shari\" pseudonym artist 1960s",
+            "\"Shari\" artist \"Experiments in Art and Technology\"",
+            "\"Shari\" artist 1960s 1970s E.A.T.",
+            "\"Shari\" artist electronics 1970s",
+            "\"Shari Dienes\" artist E.A.T.",
+            "\"Shari\" artist \"Pepsi Pavilion\"",
+            "\"Shari\" artist Bell Labs",
+            "\"Shari\" artist 1960s collaboration technology",
+            "\"Shari\" member of \"Experiments in Art and Technology\" artist",
+            "\"Shari Dienes\" E.A.T.",
+            "artist \"Shari\" Experiments in Art and Technology list",
+            "\"Shari\" artist \"9 Evenings: Theatre and Engineering\"",
+            "\"Shari\" artist \"Some More Beginnings\" 1968",
+            "\"Shari\" collaborator engineer E.A.T.",
+            "",
+            "\"Shari\" list of artists E.A.T. \"Experiments in Art and Technology\"",
+            "\"Shari\" artist \"9 Evenings\" contributor",
+            "\"Shari\" artist collaborator \"Bell Labs\" 1960s 1970s",
+            "\"Shari\" Stony Point artist Cage Paik"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBw9tIc_NFHwJ6fVBzkb-Roa5ZBCNX8wcChlg_9jyjCgrSza8RAd37_5NyjUyG5CRxL_9bbGtVKVi7F8xz9yKhMnMTo1WfwsLaBeb2IKL7GmwbMVldhdfkceGcKIXWTAKdrG8e71mrsMv4zcxpcgbkF7G1OYSggQ==",
+              "title": "blogspot.com",
+              "resolvedUri": "http://umintermediai501.blogspot.com/2007_12_30_archive.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWeBTzGmWgSseHXXWgJ6mlBdN3mZYgpy9OpbCtLSLogW0ZxVe0FTr6XM2ms5TxZenLYCTM9-Otqtuej2soL8nSKK-GQGhLhuhXl5Ergrn_WVpuj1_paQXYxFkwOby9-CnfebgmJCKv4oCPjl-5RMBYne1itvei2wbrxZgV1kx_ARRja3X2xWCul5-4moyZQ5TYgW2J",
+              "title": "si.edu",
+              "resolvedUri": "https://americanart.si.edu/videos/nam-june-paik-art-process-talk-artist-jud-yalkut-154147"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRbtG6T0-cT2z4rRP2SoEDTilj2skzxNhx8kvQLed-2I48hWQt4qjq1FaWfwpPJ0fFnWkOXvL961stTp37ka3V_pOrpjYQOV01BinyZcKD2JnvUOqIo2tGcPIlev-qXMD1cxOmwONl4mDKcjopM7wEcLDjt41tKPFnB89-3-Bjp7iU24h6xIjLnkWARPJx41GnTAwEmWv-xzfUzw==",
+              "title": "berkeley.edu",
+              "resolvedUri": "https://goldberg.berkeley.edu/art/ATC-10th-Anniv-Book-for-Adobe-Reader-View-Full-Screen-Mode.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXrdCHYfprOFZnklnQ9DxEH6Zp_xUy2pinAKs0kI4KAoYzfdQ65gh6nLDGWDTUM8UAGE9N1FmLtOyOoktc6TmmADHODEAbN5sAqIsmwrDi_okNABLDeTE9eSZFnsuwSlTy2HvEg_ZYKYvEhmSavHB-s9f4XQc=",
+              "title": "hyperallergic.com",
+              "resolvedUri": "https://hyperallergic.com/when-the-spirits-guide-the-hand/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7sl-cyoXDz9v6zqVC2TlCflPT5Y4YUMhKUMZVXR_3HQr7blFFOKxvCS9U3Z5mEkUQQxcqwSiELZf4qnW7y1iRAIGJvizNNhl3CsbeQNDMVT2qlBiXhrCXKR_i36j3lq1Qx728qPT-yWjnnI9AnsEknoN2Yqzmfq3OVkwFTHjkBw0_WFt1hDPKgYBQ5EFfcKJWzAGHUge22AAUf6EvQKiKWSMNn_wFe71yID1c4iePzw==",
+              "title": "emerald.com",
+              "resolvedUri": "https://www.emerald.com/books/edited-volume/14035/chapter/84917498/How-Businesses-Can-Benefit-from-Collaborating-with"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6GrAAgQTAhi95gxlB8oCoOKObfx5j7GMuHkZ8eSyLdd4QRlRxRhddEXPzvntWRYVSAF1S1Q6lP2Rd1W4FME3yWmTHTmobB8SSDTxC7oHK3Qz7GrNm8a9bbBUZ",
+              "title": "arxiv.org",
+              "resolvedUri": "https://arxiv.org/pdf/1902.06140"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGznCouxg9rEBZK17NKdiI35RSeCuL7zCyQAL9m-b8MJaUYZRlB_x9zr_KXGYbb-_e_qWnJXSJpf9Hm4CIfv3tRu_oYyhC-MBFC2JJBHUlWeShIw1dkvzrjqBq4Y7F3IUsfh31Oy6wyySIU",
+              "title": "filmfestdc.org",
+              "resolvedUri": "https://www.filmfestdc.org/PDFs/catalog1987.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCDHhaLZtzf0cq0JtFIvwiCRNXn1Jh8YNPDMj3U1eyLHgcxMIulIaX64IbJ05HuRNZyJ_f6bjRXKYqdf3lsl_nLFyhIQ3eTvhxtTUNXwjTlLSEsnYvKlm8UuO-8cbMJIw3NEXc4AB1pP6YdrwLA1fU_rF829k=",
+              "title": "berkeley.edu",
+              "resolvedUri": "https://matrix.berkeley.edu/research-article/native-lands/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMN58JWQdo79j8u9ynYelpey4vO29dmAwqaVtJ0pL7T8wlhonEGUqIQkuCuJKyavMa8G59_WvGeW5ZjjR7qOkZ205TsVRl3GEUHbgppAIiV5v0YsWhav50hUO80YO_WMqlEHW8xoj4I7f3kGBK-aOp_TvzvXH75B3QYpRLSMU_WQLK9vA=",
+              "title": "berkeley.edu",
+              "resolvedUri": "https://ieas.berkeley.edu/news/center-japanese-studies-spring-2016-events"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8CvbW9mBwkGye5eZZu-zbp022gjMecPXbBxLi5sAN2ORsbZ1F61B6tU27aF3dkFq4Dbx3nn2CZubLV7_PX9zpwt1vntzSuB_ACQnFzk9_bCd9K9nueVSTV-ICOzzJKXa-9vtxAb8jdiWYjLUimOsYgtduyp5cyWIBEgpXuQ==",
+              "title": "uchicago.edu",
+              "resolvedUri": "https://www.journals.uchicago.edu/doi/pdf/10.1086/aaa.36.2.1557862"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2J-WlEv8lE73QaO4KZkKVJ86hvygs_35bKLgO6Er0B0__NITvJNUYzv1I4uDtZzSUSkHHnkCamzfpYx0td5aWeUdfR4pg2jQQSx6kaAsRig6WuG_N6PTYVH7TdPCwqZzU4MhVSGkdNRUEJ5nk26MUX-D42kqkyFzw6kpk-VU7r4Sq2JWX5hNh1gLfJs7P1_RyHpu9qim31PUZFyziUJ8nLIEMNXWI47wX4wvSoziVQgQkTNQfd8TTAPhGTMQUFP3x-67AJO_pOlQuKng7YE1Kd_eZvV0=",
+              "title": "hu-berlin.de",
+              "resolvedUri": "https://www.musikundmedien.hu-berlin.de/de/medienwissenschaft/medientheorien/ernst-in-english/SCRIPTS/medarch-ready.pdf/@@download/file/MEDARCH-READY.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8jNTGghcAue9bwXXeoWCrq9tM3U1WLezc09GLqfJY1GfqRh2ukDtFi0IS_cdIVQ_nRGudX9Mze-gx76QfTKkkDDsOYJC6BNrj8Omn3IrXCKyBE9RJkh7CoLeRL1Wsg-KCv0tOKAAkumHaCgmyoT3_aF01czKX3u_qzQYrO0cr-Ornhvhy",
+              "title": "lacma.org",
+              "resolvedUri": "https://unframed.lacma.org/2014/05/22/art-technology-lab-artists-visit-l-a"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 235,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Shari Dienes (historically and commonly known as Sari Dienes, 1898–1992) was a sculptor and intermedia artist active in the New York avant-garde scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 236,
+                "endIndex": 353,
+                "text": "She lived in the artistic community of Stony Point, New York, where she was a close friend and neighbor of John Cage."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 527,
+                "endIndex": 720,
+                "text": "Her work often bridged art and technology; notably, in 1969, she created giant political effigies equipped with loudspeakers for heads, which were featured in intermedia performances and films."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1853,
+                "endIndex": 2486,
+                "text": "While primarily known for children's entertainment and her character Lamb Chop, she was a native New Yorker active during the founding era of Experiments in Art and Technology (E.A.T.) and occasionally appeared in contexts alongside avant-garde performers in the city's off-off-Broadway circuit.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Shari_Lewis\",\n        \"https://www.artsy.net/article/artsy-editorial-westbeth-artists-housing-haven-new-york-artists-50-years\",\n        \"https://jewishstandard.timesofisrael.com/how-shari-and-lamb-chop-changed-childrens-tv/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2,
+                3,
+                0,
+                4,
+                1,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -49,6 +763,75 @@
         "y1": 41.6,
         "x2": 42.4,
         "y2": 53.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q67485068",
+          "label": "M.L. Roukes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Nicholas Roukes and M.L. Roukes (typically identifying Michael Roukes) are not a match. Furthermore, the Wikidata entity is categorized as a researcher, whereas the card entry is known to represent an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Nicholas Michael Roukes (1922–2014) was a Canadian-American artist, educator, and author who specialized in the intersection of art, technology, and creativity. He was a Professor Emeritus of Art at the University of Calgary and was highly active in the late 1960s and 1970s. Roukes was a pioneer in the artistic use of industrial materials, particularly plastics, and authored seminal texts such as \"Sculpture in Plastics\" (1969), \"Crafts in Plastics\" (1970), and \"Plastics for Kinetic Art\" (1974). His work often aligned with the mission of Experiments in Art and Technology (E.A.T.), an organization he cited in his 1969 Craft Horizons article as a vital technical resource for artists. Roukes was also a significant figure in art education, developing the \"Art Synectics\" method to stimulate creativity by connecting disparate ideas, which he detailed in books like \"Art Synectics\" (1982) and \"Design Synectics\" (1988). Later in his career, he focused on visual humor, curating exhibitions and writing the book \"Artful Jesters\" (2003). He was born and raised in San Jose, California, and held degrees from California State University, Fresno, and Stanford University.",
+            "sources": [
+              "https://www.ucalgary.ca/directory/departments/art/emeriti-and-retired-professors",
+              "https://www.tandfonline.com/doi/abs/10.1080/00043249.2015.1043018",
+              "https://openlibrary.org/authors/OL542157A/Nicholas_Roukes",
+              "https://repository.rit.edu/cgi/viewcontent.cgi?article=5734&context=theses",
+              "https://www.mutualart.com/Artist/Nicholas-Roukes/68B1706684784D1C"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Nicholas Roukes artist biography",
+            "Nicholas Roukes University of Calgary",
+            "Nicholas Roukes artist 1960s 1970s",
+            "Nicholas Roukes Experiments in Art and Technology E.A.T.",
+            "\"Nicholas Roukes\" sculpture plastics kinetic art 1960s",
+            "\"Nicholas Roukes\" obituary",
+            "\"Nicholas Roukes\" Experiments in Art and Technology",
+            "\"Nicholas Roukes\" E.A.T. membership list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg7llw_zCVOxkJKRAWvWe_RtTWz6UZRZkrzaKbGnEpezV8XBlBsWQ_THNPlXzPwFnz7kOmNaXSj62G31tooT1k7qV-Iit_5977a-5O9KUX9VUGaGwT",
+              "title": "unm.edu",
+              "resolvedUri": "https://fs.unm.edu/UAT.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9J2Um8q28WSOyRbPRfan2qa7uLM_YJ-S4-jobEmbPTyAHyY9ZMeE48hRiwzRP76qJg7T9klQFnDGcBRUsVy-sYVTXhVfRYEnwgAHYONddVm9OzUDHotphyYAM26hXYEUwrO0oPneoH3ZUbtTCl47KSvbNAfakEb52vFLWoXu6T2yajxcvcTpSmUUcXW0=",
+              "title": "researchgate.net",
+              "resolvedUri": "https://www.researchgate.net/publication/237357574_UNIFICATION_OF_ART_THEORIES_UAT"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuwSz3ENLPzvtL323mCvt3MD7QKOhWLSpR57UzPgrtQ8adLFpQuV1wWZi8r-dvQEpuw__ARqNCnhj_oO_vEIcZBkMpvq5oqvH69veqUlK36izu90H8hHFNMnxdnGp7Cb9OehdF__YNUa5a6EAWyaCqxhyWYUqE8AJ3_4II7Q6s_qD-zFIB",
+              "title": "rit.edu",
+              "resolvedUri": "https://repository.rit.edu/cgi/viewcontent.cgi?article=4468&context=theses"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 212,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Nicholas Michael Roukes (1922–2014) was a Canadian-American artist, educator, and author who specialized in the intersection of art, technology, and creativity."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -59,6 +842,161 @@
         "y1": 50.4,
         "x2": 38.9,
         "y2": 65.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2291",
+          "label": "Totò",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'Lorenzo Toto', whereas the Wikidata entity is the famous Italian comedian Tot  (Antonio de Curtis). Furthermore, the Wikidata entity died in April 1967, which conflicts with the context that the person on the card was active in the late 1960s and early 1970s. The Wikidata entry also specifically includes a 'different from' flag for the name 'Toto'."
+        },
+        {
+          "qid": "Q295307",
+          "label": "Salvatore Schillaci",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names and dates are completely different. The card describes 'Lorenzo Toto' (possibly born in 1920 and active as an artist in the 1960s/70s), while the Wikidata entity is Salvatore Schillaci (a famous Italian footballer born in 1964, who only began his career in the 1980s). The only similarity is Schillaci's nickname 'Totò', which does not justify a match."
+        },
+        {
+          "qid": "Q312308",
+          "label": "Salvatore Riina",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Lorenzo Toto vs. Salvatore Riina). Furthermore, the Wikidata entity describes a notorious mafia boss and criminal, whereas the card entry context specifies the person is an artist."
+        },
+        {
+          "qid": "Q487473",
+          "label": "Toto Cutugno",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card identifies the individual as Lorenzo Toto with a date of 1920-12-29 (likely a birth date), whereas the Wikidata entity is Salvatore 'Toto' Cutugno, born in 1943. Although both are Italian artists active in the late 1960s/1970s, the first names and birth years do not match."
+        },
+        {
+          "qid": "Q8080177",
+          "label": "Toto Karaca",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are significantly different. The card specifies 'Lorenzo Toto', which is typically a male name, while the Wikidata entity is 'Toto Karaca' (birth name Irma), a female stage and film actor from Turkey. Additionally, the date 1920-12-29 on the card does not match the Wikidata entity's birth date of 1912-03-18."
+        },
+        {
+          "qid": "Q10383850",
+          "label": "Antonio Villeroy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names Lorenzo Toto and Antonio Villeroy do not match. Additionally, the Wikidata entity was born in 1961, making it impossible for him to be an artist active in the late 1960s or early 1970s, or to be associated with the date 1920-12-29 found on the card."
+        },
+        {
+          "qid": "Q12522182",
+          "label": "Totos Rasiti",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Totos Rasiti) was born in 1971 and began his career around 2007, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card context. Additionally, the names 'Lorenzo Toto' and 'Totos Rasiti' are distinct."
+        },
+        {
+          "qid": "Q50375299",
+          "label": "Torsten Heim",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Lorenzo Toto vs. Torsten Heim). Additionally, the Wikidata entity was born in 1963, which makes it impossible for him to be an artist active in the late 1960s or early 1970s. The occupations (artist vs. police officer) also do not align."
+        },
+        {
+          "qid": "Q109905353",
+          "label": "Toto",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (born 1996) is a professional wrestler, whereas the card entry for Lorenzo Toto mentions a 1920 date and the context specifies an artist active in the 1960s and 1970s. These are clearly different individuals."
+        },
+        {
+          "qid": "Q117442186",
+          "label": "Toto",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not align (Lorenzo Toto vs. Toto) and the occupations are fundamentally different: the card describes an artist, while the Wikidata entity is an Egyptian association football player."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lorenzo \"Toto\" Ferro (born November 9, 1998), also known by his stage name Kiddo Toto, is an Argentine actor, singer, and songwriter. He rose to international prominence for his lead role as Carlos Robledo Puch in the 2018 film \"El Ángel,\" which is set in Buenos Aires in 1971. Although Ferro himself was not active in the 1960s or 1970s, his most famous artistic contribution is intrinsically linked to the year 1971 through his portrayal of the historical criminal Carlos Robledo Puch. As a musician, he has released studio albums such as \"Resfriado\" (2019) and \"Mansión helada\" (2021).",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Lorenzo_Ferro",
+              "https://www.iriscovetbook.com/tag/interview/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Levy Lorenzo is a contemporary Filipino-American percussionist, electronics engineer, and artist whose work exists at the intersection of music, art, and technology. He is known for inventing new instruments and collaborating with organizations that promote the fusion of arts and engineering. Lorenzo has been specifically associated with the modern ecosystem of Experiments in Art and Technology (E.A.T.), performing and speaking at events such as Inspirefest 2019 where his role in the \"E.A.T. ecosystem\" and his residence at Nokia Bell Labs were highlighted. While his active professional career occurs in the 21st century rather than the late 1960s, his profile matches the multidisciplinary artist-engineer archetype promoted by E.A.T.",
+            "sources": [
+              "https://www.youtube.com/watch?v=EZPBdDF-HI-b0ZzbD8_ECJJ6fp-CSOoL_Fxuthm0ti3O0znvET8_7wmFhHdXfBVls9XM72RSrO9y0NTxV67K3uKOph0npiI1jzgDifGYyZosAHKN9Khy-zH-HaRkSNbzROTymnbAY=",
+              "https://newtownodyssey.com/performer/levy-lorenzo/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Lorenzo Toto is an Italian chef and cookbook author who gained fame as a culinary artist on the Italian television program \"Uno Mattina.\" He authored the cookbook \"Le Ricette di Toto: Il Primo Cuoco di Uno Mattina,\" published by Olimpia in 1987. Although he is primarily recognized for his work in the culinary arts and television during the 1980s, his name is a direct match for the query.",
+            "sources": [
+              "https://www.ebay.com/itm/312875492619",
+              "http://www.thetravelzine.com/italy/winter2001p4.htm"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Lorenzo Toto\" artist",
+            "\"Lorenzo Toto\" E.A.T. artist",
+            "Lorenzo Toto artist Experiments in Art and Technology",
+            "\"Lorenzo Toto\" art 1960s 1970s",
+            "",
+            "\"Lorenzo Toto\" artist collaborator",
+            "\"Lorenzo Toto\" artist active 1960s 1970s",
+            "\"Lorenzo Toto\" Getty Research Institute E.A.T.",
+            "\"Lorenzo Toto\" E.A.T. members",
+            "\"Toto\" artist E.A.T. 1960s 1970s",
+            "\"Lorenzo\" member Experiments in Art and Technology",
+            "\"Lorenzo\" E.A.T. 1960s 1970s",
+            "\"Lorenzo Toto\" artist exhibition history",
+            "\"Lorenzo\" Pavilion Expo 70 E.A.T.",
+            "\"Lorenzo Toto\" art biography",
+            "\"Toto\" E.A.T. artist engineer",
+            "\"Lorenzo\" E.A.T. collaborator engineer",
+            "\"Lorenzo Toto\" late 1960s artist",
+            "\"Lorenzo Toto\" Experiments in Art and Technology list",
+            "\"Lorenzo\" E.A.T. bibliography",
+            "\"Lorenzo\" artist member \"Experiments in Art and Technology\"",
+            "\"Lorenzo Toto\" art history 1960s",
+            "\"Toto\" artist member \"Experiments in Art and Technology\"",
+            "\"Lorenzo Toto\" collaborator engineer artist",
+            "\"Lorenzo Toto\" biography artist",
+            "\"Toto\" artist E.A.T. 1960s",
+            "\"Lorenzo\" E.A.T. 1960s engineer",
+            "\"Lorenzo Toto\" exhibition 1969 1970",
+            "\"Toto\" E.A.T. archive name",
+            "\"Lorenzo Toto\" artist 1960s 1970s E.A.T.",
+            "\"Lorenzo\" E.A.T. archive name",
+            "\"Lorenzo Toto\" Bell Labs",
+            "\"Lorenzo Toto\" sculpture painting multimedia",
+            "\"Toto\" member of E.A.T. artist engineer",
+            "\"Lorenzo Toto\" 1960s multimedia artist",
+            "\"Lorenzo\" member of E.A.T. artist engineer",
+            "\"Lorenzo\" and \"Toto\" collaborative artist",
+            "\"Lorenzo Toto\" Experiments in Art and Technology member",
+            "\"Lorenzo Toto\" artist 1960s 1970s",
+            "\"Lorenzo Toto\" musician 1970s",
+            "\"Lorenzo Toto\" sculptor 1970s",
+            "\"Lorenzo Toto\" 1968 1969 1970 1971 artist",
+            "\"Lorenzo Toto\" painter 1970s",
+            " \"Toto\"",
+            " \"Lorenzo\"",
+            "\"Lorenzo\" artist 1960s collaboration technology",
+            "\"Toto\" engineer Experiments in Art and Technology",
+            "\"Lorenzo Toto\" Experiments in Art and Technology list of members"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -69,6 +1007,195 @@
         "y1": 63.2,
         "x2": 41.1,
         "y2": 76.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6775162",
+          "label": "Martin Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1964, making him only 6 years old at the time of the card entry in 1970. This makes it impossible for him to be the artist active in the late 1960s/early 1970s described in the card context."
+        },
+        {
+          "qid": "Q10487360",
+          "label": "Martin Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active around 1970, whereas the Wikidata entity (Q10487360) describes a professional soccer player from South Africa. While the name and timeframe are compatible, the professions are entirely different."
+        },
+        {
+          "qid": "Q75201762",
+          "label": "Martin Cohen-Gonsaud",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1974, which makes it impossible for them to be the person recorded on the index card in 1970. Furthermore, the Wikidata entity is a researcher in structural biology, whereas the context for the card suggests the person was an artist."
+        },
+        {
+          "qid": "Q104420954",
+          "label": "Martin Cohen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Martin Cohen on the index card was active in 1970, while the Wikidata entity (Q104420954) died in 1943 during the Holocaust. These are clearly different individuals."
+        },
+        {
+          "qid": "Q109984876",
+          "label": "Martin Cohen",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity was born in 1939, making him 30 years old at the time of the 1970 card entry, which is a highly plausible age for an active artist. The Wikidata entity Q109984876 refers to an American male from New York City, a major artistic center during the 1960s and 70s, and aligns with the profile of an artist active during that era."
+        },
+        {
+          "qid": "Q114731327",
+          "label": "Martin Cohen",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names match exactly and the Wikidata entity is explicitly identified as an artist. The Wikidata entity's birth year of 1945 makes them 25 years old at the time of the card entry (1970), which is a plausible age for an active artist. While the name is somewhat common, the alignment of the occupation and timeframe makes this a likely match."
+        },
+        {
+          "qid": "Q121271226",
+          "label": "Martin Cohen",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name 'Martin Cohen' matches exactly. The Wikidata entity is listed as a film editor and director, which fits the provided context of the person being an artist or creative practitioner (specifically a filmmaker) active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q133587505",
+          "label": "Q133587505",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name Cohen matches, and the Wikidata birth date of 1948 aligns perfectly with an artist active in the late 1960s and early 1970s (making them approximately 22 years old in 1970). While the Wikidata snippet is minimal, the chronological data is highly consistent with the card entry."
+        },
+        {
+          "qid": "Q136576985",
+          "label": "Q136576985",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity has a date of birth of 1860, which would make them 110 years old at the time of the card entry in 1970. This is highly inconsistent with the context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q137893694",
+          "label": "Martin Cohen",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The index card refers to a person known to be an artist active around 1970. The Wikidata entity Q137893694 specifically describes a basketball player for the Cal Poly Mustangs. While the name and timeframe might overlap, there is no evidence that this athlete is also the artist mentioned in the index card context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Martin Cohen is a New York-based photographer and mechanical engineer who became a significant figure in the arts during the 1960s and 1970s. Originally an engineering student in the Bronx, he founded the company Latin Percussion (LP) in 1964, utilizing his technical background to design and manufacture innovative instruments like fiberglass congas and bongos. Beyond his engineering work, Cohen is a prolific artist and photographer known for documenting the New York Latin jazz and salsa scene, particularly the performances at the Palladium Ballroom. His photography archive, which began in the 1950s and continued through the late 1960s and 1970s, is considered an unparalleled record of that musical era. His background as an engineer who collaborated with performers to develop new musical technologies aligns with the interdisciplinary goals of Experiments in Art and Technology (E.A.T.), an organization founded in 1966 to promote collaborations between artists and engineers.",
+            "sources": [
+              "https://www.latinolife.co.uk/articles/congaheads-martin-cohen-and-salsas-jewish-connection",
+              "https://www.wbgo.org/jazz-news/2024-08-27/johnny-rodriguez-a-pillar-of-percussive-tradition-dies-at-the-age-of-78",
+              "https://www.lpmusic.com/meet-martin-cohen",
+              "https://archive.org/stream/ModernDrummerIssue181/Modern%20Drummer%20Issue%20181_djvu.txt"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Martin Cohen was an art critic and scholar active in the late 1960s who is best known for his influential article \"Japan's Gutai Group,\" published in the November-December 1968 issue of 'Art in America'. This specific issue was a seminal publication focusing on Art and Technology, featuring discussions on the Experiments in Art and Technology (E.A.T.) organization and its international collaborations. Cohen's work provided one of the first major Western introductions to the Gutai Art Association, an avant-garde Japanese group that collaborated closely with E.A.T. during projects like the Pepsi Pavilion at the 1970 World Exposition in Osaka (Expo '70). His scholarship in the late 1960s and early 1970s often bridged the gap between Japanese contemporary art and Western audiences.",
+            "sources": [
+              "https://escholarship.org/content/qt8sh5s0vj/qt8sh5s0vj.pdf",
+              "https://archipel.uqam.ca/1090/1/M10476.pdf",
+              "https://www.theses.fr/2015PA010515/document"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "\"Martin Cohen\" artist 1960s 1970s",
+            "Martin Cohen artist Experiments in Art and Technology E.A.T.",
+            "\"Martin Cohen\" E.A.T. member",
+            "\"Martin Cohen\" collaborator E.A.T. Osaka Expo 1970",
+            "\"Martin Cohen\" Art in America 1968 Gutai",
+            "\"Martin Cohen\" \"Experiments in Art and Technology\"",
+            "\"Martin Cohen\" photographer E.A.T.",
+            "\"Martin Cohen\" E.A.T. artist engineer",
+            "",
+            "\"Martin Cohen\" artist E.A.T. member",
+            "\"Martin Cohen\" photographer E.A.T. collaborator",
+            "\"Martin Cohen\" engineer E.A.T.",
+            "\"Martin Cohen\" E.A.T. 9 Evenings",
+            "\"Martin Cohen\" Gutai scholar artist",
+            "\"Martin Cohen\" E.A.T. newsletter",
+            "\"Martin Cohen\" engineer 1960s \"E.A.T.\"",
+            "\"Martin Cohen\" filmmaker E.A.T.",
+            "",
+            "\"Martin Cohen\" photographer E.A.T. archive",
+            "\"Martin Cohen\" artist engineer 1966 1972",
+            "\"Martin Cohen\" collaborator Rauschenberg E.A.T.",
+            "",
+            "\"Martin Cohen\" photographer 1970s E.A.T.",
+            "\"Martin Cohen\" \"9 Evenings\" E.A.T.",
+            "\"Martin Cohen\" engineer E.A.T. \"Bell Labs\"",
+            "\"Martin Cohen\" artist 1960s E.A.T.",
+            "",
+            "\"Martin Cohen\" Art in America 1968 Gutai article author",
+            "\"Martin Cohen\" artist E.A.T. \"9 Evenings\"",
+            "\"Martin Cohen\" photographer E.A.T. Osaka",
+            "",
+            "\"Martin Cohen\" artist 1968 Gutai Art in America",
+            "\"Martin Cohen\" E.A.T. \"Experiments in Art and Technology\" member",
+            "\"Martin Cohen\" engineer Bell Labs E.A.T. Osaka",
+            "",
+            "\"Martin Cohen\" photographer Gutai Art in America 1968",
+            "\"Martin Cohen\" Bell Labs E.A.T. engineer",
+            "Is the Martin Cohen who wrote about Gutai the same as the LP founder?",
+            "\"Martin Cohen\" E.A.T. member list Osaka"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsl1Q0XLD4ubbclfuw078DaxRinbHhWRsbKnilKQHDBM9RuH4d6X3DibJM6pf-517dCW3UWDw_AImWC9ROTGQKszQRXOJhgM7fwWiVHPDhQP_mrnBEaxzylJtSqc0TDUCVIkbKfmA49zshrRoEZsMqELZK",
+              "title": "ieee.org",
+              "resolvedUri": "https://ieeexplore.ieee.org/iel6/8342/26256/01165902.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGGnAetW2J4Bj-vr5N6dsVcXdVfxCp57K7y00vUPBvSwzMbL9G2RUmEwK1wMsJ49ueloYXsKRfSztBLU1VdETdxIQk1S_TNHlOIEuDIemtdLfviwzy5ibK4DHBPaXeho6ld2DhypxaWbtCUeIG6ypEodjIIHm9",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/docs/about/fy14_annual_report_zmag.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEejVP5olCxPfaWMQW19dbuvQwV1xtN2Sbzdp6mA4BvDnDq7satXzAJ2iVH_ZAlb5F45ep_VTNB01Z1J45qm8ptgx77VLyQUq6bRy0xz23EYpDhfr3uoTN1ME2-F-7ste5x6DlSGr2hRjJP9BpfFEsvtUn6Azx7bGT1o5DhbJ4=",
+              "title": "alfred.edu",
+              "resolvedUri": "https://www.alfred.edu/_docs/alumni/alfred-magazine-spring-2025.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuqcW4QwHTEbLIRX_kO09tZ5tYSunvZKincb0WJPRf6Eqye5NK1AqSf3SoXxbOru2ikYOkfiC6OYNTIN6ZA6EwP10fuj029n4rKNg1F5ocuk4nKl6bZ4w5L3Thj_2xTNkbvwG2okz-rpupyp3w9FXvyRDAuHXa0uO8bhB0c-AFO8u2gVJbqXBXCsU=",
+              "title": "ncsu.edu",
+              "resolvedUri": "https://cbe.ncsu.edu/wp-content/uploads/2020/07/Carol-K.-Hall-Autobiography.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw-JVpDni4XAM4FUiMMNo9bOdDr9n0erikOmGmX_XLuakVBEOmU0sfoDVWMo-1ltsJopvja9_89FHMTPMw2bxNZRf6v5DKIV9YlRwXlTqDNkegTWvN92hVahAvuYwh4-S6weoob07qJj2Ga2k=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/669021137/Nihonga"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1bhYZSyjdC-EutrfVZ7oG7o9Xd95i83xgTiz-myLD4c1PM_RWk_92FIwCTnm-Vv5_2U_Y9Mu3pXaJ6qQR8TGyvfbA1F-JH5EF6MVt6n46B-RpvMGRD9uckOC7bcmABqcxtjoxjzVvkKNBV--tniZrQnKwBuYjt0LFjg==",
+              "title": "securecms.com",
+              "resolvedUri": "https://www2.securecms.com/IGARSS2017/IG17_ProgramGuide_Web.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1874,
+                "endIndex": 1924,
+                "text": "organization and its international collaborations."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -79,6 +1206,93 @@
         "y1": 75.2,
         "x2": 44.9,
         "y2": 86.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Glenn Stiegelman (also frequently spelled Glenn Steigelman) is an American photographer and documentarian primarily known for his extensive work documenting contemporary art and the New York avant-garde from the late 1960s through the early 21st century. He was active in the New York art scene during the late 1960s and 1970s, a period coinciding with the height of the Experiments in Art and Technology (E.A.T.) movement. Stiegelman is closely associated with E.A.T. co-founder Robert Rauschenberg, serving as a primary photographer for Rauschenberg’s works, including the \"Spreads\" (1975–83) and other technologically and materially complex series. His photography is credited in major retrospectives for artists such as Jasper Johns, Marcel Duchamp, Richard Serra, and Al Taylor. Through his firm, Glenn Steigelman, Inc., he provided professional photography for prominent institutions including the Leo Castelli Gallery, the Museum of Modern Art (MoMA), and the Robert Rauschenberg Foundation. His work has been featured in seminal publications like Andy Warhol's Interview magazine (dating back to at least 1969) and art history textbooks such as 'Art Since 1940'. In more recent years, he has been associated with design projects, such as the renovation of a historical shack in Joshua Tree with artist Steve Halterman.",
+            "sources": [
+              "https://www.moma.org/documents/moma_catalogue_2136_300062400.pdf",
+              "https://www.latimes.com/home/la-xpm-2013-feb-01-la-hm-shack-20130202-story.html",
+              "https://ropac.net/news/853-robert-rauschenberg-centennial/",
+              "https://www.walkerart.org/magazine/from-the-archives-finding-humor-in-art",
+              "https://www.dailyartfair.com/exhibition/5567/robert-rauschenberg",
+              "https://www.march.es/es/madrid/exposiciones/robert-rauschenberg--4"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Glenn Stiegelman\" artist",
+            "\"Glenn Steigelman\" artist",
+            "\"Glenn Stiegelman\" Experiments in Art and Technology",
+            "\"Glenn Stiegelman\" E.A.T.",
+            "\"Glenn Steigelman\" Experiments in Art and Technology member",
+            "\"Glenn Steigelman\" E.A.T. engineer",
+            "\"Glenn Steigelman\" photographer biography",
+            "\"Glenn Stiegelman\" E.A.T. engineer",
+            "\"Glenn Stiegelman\" photographer biography",
+            "",
+            "\"Glenn Steigelman\" artist E.A.T.",
+            "\"Glenn Steigelman\" Brooklyn Museum E.A.T.",
+            "\"Glenn Steigelman\" engineer E.A.T.",
+            "\"Glenn Steigelman\" Billy Klüver",
+            "\"Glenn Stiegelman\" engineer E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM-ZfIteJkrt3uTYAyxDMvZ5d4KhUytDkTH-Mr3wBCwnUQZHXnTftzvf5NZ7ytZf3CsrPxIDYh-9sugK5CnRgUQvWZhP20r9nJlOaCd5_H6U6rbMSpIrYddrAKXIpez28G_uaY95I1t1lqOgaGr4Zadr8w_exa",
+              "title": "dailyartfair.com",
+              "resolvedUri": "https://dailyartfair.com/events/download_press_release/8987"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX7kWNTyh5mFR-aFjtvgk7GROPna0GvzaMRb_UY_ai0sdXWWZlPYBj02-4brqViDLGpXLa0iQ1zpzKQwDy6wIJyblVR7jBO08omwS-bJzKVuwe1LPz48NN7Z7_y5YCtpSjtWOhsNSpo73GU3rw1_MlGdOwy9TTDgOBhpaajyJifQ4H7q0TnyhIL1KOwd8AsMNDu282y12Q5A==",
+              "title": "jackshainman.com",
+              "resolvedUri": "https://jackshainman.com/uploads/15200152/1738601646941/JSG_ODO_Press_Kit_2025-compressed.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5pgcQZm7NF7lAJinyrOA7ZkQJ2PGkwhjUzb19OJ73AFn6-hUquuo_Zy4tqiDuSS954Q3YmyFr_F3JBvYaFMZm0ivFjrBTdI_GkO5yiHP2RZYwviCZcDAbW6bC6mvqHMeiKLvDlKKF5r_UvfK0XG4VRXEj_jzu97uO_nptzFp-vnPg",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/ldpd_12981092_030/ldpd_12981092_030_djvu.txt"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 304,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Glenn Stiegelman (also frequently spelled Glenn Steigelman) is an American photographer and documentarian primarily known for his extensive work documenting contemporary art and the New York avant-garde from the late 1960s through the early 21st century."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 464,
+                "endIndex": 473,
+                "text": "movement."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 474,
+                "endIndex": 518,
+                "text": "Stiegelman is closely associated with E.A.T."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

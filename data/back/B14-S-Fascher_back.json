@@ -10,6 +10,128 @@
         "y1": 11.3,
         "x2": 49.7,
         "y2": 18.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q95031879",
+          "label": "Krumpolc",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Iris Krump' and 'Krumpolc' do not match. Additionally, the Wikidata entity is sourced from the Biographisches Lexikon des Kaiserthums Oesterreich, which documents figures from the Austrian Empire (ending in 1918), making it chronologicaly impossible for this person to be the same artist active in the late 1960s and early 1970s mentioned in the card context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Iris Crump (alternatively identified as Iris Krump) is an African American artist, sculptor, and printmaker who was a prominent figure in the New York art and activism scene during the late 1960s and 1970s. She is best known as a founding or early member of the collective \"Where We At\" Black Women Artists (WWA), established in 1971, and was active in the Art Workers Coalition (AWC). Her artistic style often involved the use of mixed media, specifically incorporating lights and mirrors into contemporary settings to depict communal human activities. Crump was deeply involved in social and institutional activism; in 1969, she participated in the AWC's \"Open Hearing\" and was part of a group that advocated for a Martin Luther King Jr. Wing for Black and Puerto Rican Art at the Museum of Modern Art (MoMA). She is also associated with the Experiments in Art and Technology (E.A.T.) milieu, appearing in archival and bibliographic records alongside technological and experimental art groups of that era. Her career extended into the mid-1980s, evidenced by her receipt of a National Endowment for the Arts (NEA) fellowship for Printmaking/Drawing/Artists' Books in 1985.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Where_We_At",
+              "https://www.penguinrandomhouse.de/Feminist-Avant-Garde/Gabriele-Schor/Prestel/e593416.rhd",
+              "https://www.ozanne-rarebooks.com/fr/catalogue/structure-et-forme-35",
+              "https://www.proquest.com/docview/2469490159",
+              "https://www.garthgreenan.com/exhibitions/optimism-and-rage-the-womens-movement-in-art-in-new-york-19691975",
+              "https://www.scribd.com/document/443422650/A-Creative-Legacy-A-History-of-the-National-Endowment-for-the-Arts-Visual-Artists-Fellowship-Program"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Iris Krump artist",
+            "\"Iris Crump\" E.A.T.",
+            "\"Iris Crump\" Experiments in Art and Technology",
+            "\"Iris Crump\" artist biography 1960s 1970s",
+            "\"Iris Crump\" \"Where We At\"",
+            "\"Iris Crump\" E.A.T. archive",
+            "\"Iris Crump\" artist lights mirrors",
+            "\"Iris Crump\" \"Experiments in Art and Technology\" member"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCcI8pYnwNQJJrhQqqCVw0ylpwStbDHknLe5SOmXdRGUT3t5PTSvLkZeqGmJbdf5fPgbP0FfmllYlkeeR1tHf2zi6MxMSQjB4RzJjnNpBnKa2bm7pTFe9lia2iBM-76JIIoooOfenqFPTaxuEpU1D4fH4XK5sfCxZlPZRZE37k8Qpw6ym31URFtIBz9sORP2Juplv7lZ8fle1ET44=",
+              "title": "garthgreenan.com",
+              "resolvedUri": "https://www.garthgreenan.com/attachment/en/57ab21f484184ea8138b4568/News/57ab21ff84184ea8138b4d9c"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1tKSRS0amwcHTwNi-dQ2frt3LVedmKX-5qY-cRyLN8jTNIjv_PmW1FlrikeoaPraZ6ncwifyFS4TwnZOZm8YLVFz783qAMcAb86lmrTYtuh3KlWNLhJRogLJyb46TIsbPc0gXkZO-1B8jY_yEWcccyWmwUoTv8R27dCdOt1k8gEB087WqJgLsXM_IQ3cuRimJzkPB-FgytzJGuhumespseIvoxdqOQ-XGtvPoLAMoHw==",
+              "title": "veteranfeministsofamerica.org",
+              "resolvedUri": "https://www.veteranfeministsofamerica.org/wp-content/uploads/2019/12/x12-show-1976-article-by-Nemec-in-WomanArt-1.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3TrWCYiz5PQQM8N9LNggiLigzubaQ-0DVqKxSKSZgMNAM-BsSvcKRtaB7pebJsd0-JJ71AL0KsAIOtkSqbEZ9rPOpMmp686D85XkPDBpkSt96WV6tgPcP489a7NgUdG7dWlQ5GTIdGmjLs1_fnTOaVw9LymIBHUFp",
+              "title": "squarespace.com",
+              "resolvedUri": "https://womanartmag.squarespace.com/s/womanart-Summer-1976.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkZHEtm47jPZWr7tWKDBlAeTXbUrYtsZSxiHsxLvXo_B6a6vAzcHr7dSCg_Gg1Zmq6Y5UpJqyoWN0iCqyLAQZLYRYz3K6CjA-hw7ViL13bXSOuo6BSKjWrPl53ugq2Zb8qyzjcfO3OE5u59z9iEoyh5OSq4c-Q1P_UnGbZ5xUd9V3_LIfscLFOLUQnU48=",
+              "title": "ozanne-rarebooks.com",
+              "resolvedUri": "https://www.ozanne-rarebooks.com/sites/ozanne-rarebooks.com/files/2025-03/SF35.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLL-f3TwqZgmdqzZ2CoudHqB5abAH4ZZrC6_jYfU-Oj17_-6pgagtMJi3PD7q-7IkkNPL5dLaFbVoHfnMMQ5coeQcCWaNV2TppH6jqg8lU1srlyfuO-KjnHVQn4uRDaQrbpw3AfB02oTbFGO_9eZlJ_c-QbxdR_8MUP1BZTMi3FCsRGc_ZQdpVS852bQ==",
+              "title": "scholaris.ca",
+              "resolvedUri": "https://uwo.scholaris.ca/bitstreams/2377e3e2-d5be-4e94-bd9a-61836e4e2cd7/download"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2n9JWmEbxEhMzGeYMq-IYHsdxOVwrtS_jdpa2tNZlBSo1IBBCFH3ok5EVzERKcFmGQo2QNRNNnhsC0XmK5LRD7D_zPZMU2qmn03xzFhAY5hapWNv0M19TN_oyWnq7zXtb3bewd2ykWuKIuvUWszTDXrmCOj2jmU-IxOXQIqfD78kPxld_lY0lI9ywi0K4fglvqRkLvznoD4VWKo7C8QnBjlhlZoC5X996v8XlNn1JEKHGmVa-AFy6mtDHcsKDZL4OE-vWXLwwHdqL",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/430056234/A-Creative-Legacy-A-History-of-the-National-Endowment-for-the-Arts-Visual-Artists-Fellowship-Program"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy08W4MG2ulTZ9u8q6Unh_IEFcaZGr1XPFPhylgeu-w8fIBNFYOVmZ2KkDjvo14RzRGVpholkanb4YZXGRnWaZ-LDERAoshns0i5sAbWzSHbxMuNRtVuyrTeAwVq2nY-fDBKyq0xYkc8vrSR5GgcgfrI2mWhWRoHHTsnIrtmikzKjifH4kpeyZPcxj4FE63hs4HPgcc0swfuAEqqGHBJ1gM2WpySTGyZycI2wCm0KiwzfRvDWSbEiME4UWHioe59XcYqw=",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/mounting-frustration-the-art-museum-in-theage-of-black-power-9780822358978-0822358972-9780822374893-0822374897.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 256,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Iris Crump (alternatively identified as Iris Krump) is an African American artist, sculptor, and printmaker who was a prominent figure in the New York art and activism scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 438,
+                "endIndex": 605,
+                "text": "Her artistic style often involved the use of mixed media, specifically incorporating lights and mirrors into contemporary settings to depict communal human activities."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 866,
+                "endIndex": 940,
+                "text": "She is also associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1062,
+                "endIndex": 1861,
+                "text": "Her career extended into the mid-1980s, evidenced by her receipt of a National Endowment for the Arts (NEA) fellowship for Printmaking/Drawing/Artists' Books in 1985.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Where_We_At\",\n        \"https://www.penguinrandomhouse.de/Feminist-Avant-Garde/Gabriele-Schor/Prestel/e593416.rhd\",\n        \"https://www.ozanne-rarebooks.com/fr/catalogue/structure-et-forme-35\",\n        \"https://www.proquest.com/docview/2469490159\",\n        \"https://www.garthgreenan.com/exhibitions/optimism-and-rage-the-womens-movement-in-art-in-new-york-19691975\",\n        \"https://www.scribd.com/document/443422650/A-Creative-Legacy-A-History-of-the-National-Endowment-for-the-Arts-Visual-Artists-Fellowship-Program\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                4,
+                3,
+                5,
+                6
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +144,83 @@
         "y1": 17.5,
         "x2": 40.7,
         "y2": 24.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1751424",
+          "label": "Waitman T. Willey",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Waitman T. Willey, a 19th-century US Senator who died in 1900. This is completely incompatible with the card entry for Bob Waitman, an artist active in the late 1960s and 1970s. Furthermore, 'Waitman' is the surname on the card and the first name in the Wikidata record."
+        },
+        {
+          "qid": "Q57439535",
+          "label": "Waitman W. Beorn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Waitman W. Beorn was born in 1977, which makes it chronologically impossible for him to have been an active artist in the late 1960s or early 1970s. Furthermore, 'Waitman' is his first name, whereas 'Waitman' appears as the surname on the index card."
+        },
+        {
+          "qid": "Q94655041",
+          "label": "Waitman Barbe",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match; Waitman is the surname on the card but the given name in the Wikidata entry. Furthermore, the Wikidata entity died in 1925, making it impossible for them to be active during the late 1960s and early 1970s as described in the card context."
+        },
+        {
+          "qid": "Q98177129",
+          "label": "Waitman K Aumann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different. On the card, 'Waitman' is the surname, while in the Wikidata entry, 'Waitman' is the given name (Waitman K Aumann). Additionally, the Wikidata entity is described as a researcher, which does not align with the context of the person on the card being an artist active in the late 1960s/early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Robert Waitman\" artist Experiments in Art and Technology",
+            "\"Bob Waitman\" artist",
+            "\"Robert Waitman\" E.A.T. artist",
+            "\"Bob Waitman\" E.A.T. artist",
+            "\"Bob Waitman\" Experiments in Art and Technology",
+            "\"Bob Waitman\" artist 1960s 1970s",
+            "\"Bob Waitman\" artist 1968 1969 1970 1971",
+            "\"Robert Waitman\" Experiments in Art and Technology archive",
+            "\"Bob Waitman\" E.A.T. member",
+            "\"Robert Waitman\" E.A.T. member",
+            "\"Bob Waitman\" Experiments in Art and Technology archive",
+            "\"Robert Waitman\" Bell Labs E.A.T.",
+            "\"Waitman\" E.A.T. engineer artist",
+            "\"Robert Waitman\" Experiments in Art and Technology member list",
+            "\"Bob Waitman\" E.A.T. list",
+            "\"Bob Waitman\" E.A.T. artist 1968 1969",
+            "\"Bob Waitman\" 9 Evenings engineer",
+            "\"Robert Waitman\" E.A.T. engineer artist",
+            "",
+            "\"Bob Waitman\" artist Brooklyn Museum 1968",
+            "\"Robert Waitman\" E.A.T. Getty Research Institute",
+            "\"Bob Waitman\" engineer E.A.T.",
+            "\"Robert Waitman\" engineer 1960s 1970s",
+            "\"Waitman\" \"Bell Labs\" 1960s 1970s",
+            "\"Bob Waitman\" artist 1967 1968 1969 1970",
+            "\"Bob Waitman\" engineer artist E.A.T.",
+            " \"Robert Waitman\" E.A.T.",
+            "\"Bob Waitman\" Experiments in Art and Technology 1968 exhibition",
+            "\"Robert Waitman\" art and technology collaboration 1970",
+            " \"Bob Waitman\" E.A.T.",
+            "\"Robert Waitman\" artist Bell Labs collaboration 1968",
+            "\"Bob Waitman\" E.A.T. engineer",
+            "\"Robert Waitman\" E.A.T. engineer",
+            "\"Bob Waitman\" art and technology exhibition participants",
+            "\"Waitman\" artist technological art 1970s",
+            "\"Robert Waitman\" Experiments in Art and Technology 1968 1969 1970 1971 1972 1973 1974 1975",
+            "\"Bob Waitman\" E.A.T. member list archive"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

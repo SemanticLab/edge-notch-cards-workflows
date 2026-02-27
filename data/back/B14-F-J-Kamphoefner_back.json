@@ -11,6 +11,75 @@
         "y1": 12.3,
         "x2": 50.3,
         "y2": 19.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6536828",
+          "label": "Lewis MacAdams",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Lewis MacAdams matches exactly. The Wikidata entity describes an individual born in 1944 who was active as a poet and writer (categories within the creative/artistic scope) beginning in the late 1960s, which aligns with the provided context."
+        },
+        {
+          "qid": "Q114026675",
+          "label": "Lewis MacAdams",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are identical. The Wikidata entity is listed as a 'director', which fits the artistic/creative context provided (filmmaker). Lewis MacAdams was a well-known poet and filmmaker active during the late 1960s and 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lewis MacAdams (1944–2020) was an American poet, journalist, filmmaker, and environmental activist who was active in the avant-garde art and literary scenes starting in the mid-1960s. He is widely recognized for his work with the 'New York School' of poets and his later performative activism in California. MacAdams was involved with Experiments in Art and Technology (E.A.T.), notably contributing to 'The New York Collection for Stockholm Portfolio' (1973), a major collaborative project organized by E.A.T. to benefit the Moderna Museet in Stockholm. His early career included the publication of poetry collections such as 'City Money' (1966) and 'The Poetry Room' (1971). In the 1970s, he moved to Bolinas, California, and later served as the director of the Poetry Center at San Francisco State University from 1975 to 1978. MacAdams is perhaps best known for co-founding the 'Friends of the Los Angeles River' (FoLAR) in 1985/1986, which he described as a '40-year art work.' This project began with a performative act of cutting a hole in the river's chain-link fence to advocate for its restoration.",
+            "sources": [
+              "https://www.poetryfoundation.org/poets/lewis-macadams",
+              "https://en.wikipedia.org/wiki/Lewis_MacAdams",
+              "https://www.nga.gov/collection/art-object-page.55745.html",
+              "https://www.poetryproject.org/about/history",
+              "https://www.pbssocal.org/shows/earth-focus/he-made-waves-on-the-river-lewis-macadams-passes-away"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Lewis MacAdams biography artist activism",
+            "Lewis MacAdams artist 1960s 1970s",
+            "Lewis MacAdams poet E.A.T. contribution",
+            "Lewis Macadams artist Experiments in Art and Technology E.A.T.",
+            "\"Lewis MacAdams\" \"Experiments in Art and Technology\"",
+            "\"Lewis MacAdams\" \"E.A.T.\" artist",
+            "\"Lewis MacAdams\" 9 Evenings: Theatre and Engineering",
+            "Lewis MacAdams participation in E.A.T. projects"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXTjbDsC_J9cIbm6KQawunAr8VdGxOHVpZHrq2ujU3e0iWKHLGx4q4fTiH4NvxC07YMe32HNytrZ3BmuR5fYjJYKltHF1DtMmmnNvZauatbbFNNBd8R-h3H_IMkByaknVQ-e8ljuQw2H5mkHUBgVUaiA==",
+              "title": "poetryproject.org",
+              "resolvedUri": "https://www.2009-2019.poetryproject.org/about/history/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFid3wSU8EW3LEQZhDG7cjZJYzXpefUbxDDWRU3O87L_3LeFSw716m6uAJBC9nW1TXe5gyYjzbX0zAGTrZPTDlaB0drGHtcemzDcrfcYVOBmV_Qv2kLwllWsMNo3RAZV6HANPyiYqYvF7DErUOyzWkPuDUZ3c195nsSvapHj7pkCgnlpFHQtw_A4W1ARWI1Qi4rt1T_QkkWW-2uZNVflofTYQ==",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/all-poets-welcome-the-lower-east-side-poetry-scene-in-the-1960s-9780520936430.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 235,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Lewis MacAdams (1944–2020) was an American poet, journalist, filmmaker, and environmental activist who was active in the avant-garde art and literary scenes starting in the mid-1960s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

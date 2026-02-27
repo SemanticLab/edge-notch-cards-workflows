@@ -11,6 +11,103 @@
         "y1": 7.63,
         "x2": 35.88,
         "y2": 20.24
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q24355",
+          "label": "home appliance",
+          "description": "machine for household uses; various household appliances such as toaster, blender, etc used in artwork created for 9 Evenings.",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named 'Lee Tony house', while the Wikibase entity describes 'home appliance', which is a category of objects (theatrical props/devices) used in a performance. There is no name overlap other than the word 'house', and the entities are fundamentally different types (person vs. object class)."
+        },
+        {
+          "qid": "Q23420",
+          "label": "House of the Lord Pentecostal",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual (Lee Tony house), while the Wikibase entity describes a religious organization and jazz shrine (House of the Lord Pentecostal). They are entirely different entity types."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3139666",
+          "label": "Homer Doliver House",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Homer Doliver House) died in 1949, which contradicts the provided context that the person on the card was an artist active in the late 1960s and early 1970s. Furthermore, the names 'Lee Tony' and 'Homer Doliver' are entirely different, and the occupations (botany/mycology vs. art) do not align."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Tony House\" artist 1960s 1970s",
+            "\"Lee House\" artist Experiments in Art and Technology",
+            "\"Anthony House\" artist E.A.T.",
+            "\"Tony house\" Experiments in Art and Technology artist",
+            "\"Lee House\" E.A.T. artist",
+            "\"Tony House\" E.A.T. artist",
+            "\"Tony House\" artist Experiments in Art and Technology",
+            "\"Tony House\" artist 1968 1969 1970 1971",
+            "\"Lee House\" artist 1968 1969 1970 1971",
+            "\"Lee House\" choreographer",
+            "\"Lee House\" artist E.A.T.",
+            "\"Tony House\" choreographer",
+            "\"Tony House\" dancer 1960s",
+            "\"Tony House\" artist E.A.T.",
+            "\"Lee House\" dancer 1960s",
+            "\"Anthony House\" artist E.A.T.",
+            "\"Anthony House\" Experiments in Art and Technology",
+            "\"Tony House\" Experiments in Art and Technology",
+            "\"Lee House\" Experiments in Art and Technology",
+            "\"Lee House\" artist 1960s E.A.T.",
+            "\"Lee House\" E.A.T. 1968",
+            "\"Tony House\" E.A.T. 1968",
+            "\"Tony House\" artist 1960s E.A.T.",
+            "\"Experiments in Art and Technology\" participant list",
+            "\"Experiments in Art and Technology\" 1968 1969 1970 participants",
+            "\"Tony House\" drummer E.A.T.",
+            "\"Lee House\" dancer E.A.T.",
+            "\"E.A.T.\" artist \"Lee House\"",
+            "\"E.A.T.\" artist \"Tony House\"",
+            "\"E.A.T.\" artist \"Anthony House\"",
+            ",",
+            "\"Tony House\" artist 1970s",
+            "\"Lee House\" artist 1970s",
+            "\"Lee House\" Experiments in Art and Technology match",
+            "\"Tony House\" Experiments in Art and Technology match",
+            "\"Lee\" \"Tony House\" artist",
+            "\"Lee House\" artist E.A.T. biography",
+            "\"Tony House\" artist E.A.T. biography",
+            "\"Lee House\" artist collaborator",
+            "\"Tony House\" artist collaborator",
+            "\"Lee House\" engineer E.A.T.",
+            "\"Tony House\" musician E.A.T.",
+            "\"Tony House\" engineer E.A.T.",
+            "\"Lee House\" artist \"E.A.T.\"",
+            "\"Tony House\" 1960s artist",
+            "\"Lee House\" 1960s artist",
+            "\"Tony House\" artist \"E.A.T.\"",
+            "\"Lee House\" filmmaker 1960s 1970s",
+            "\"Tony House\" choreographer 1970s",
+            " \"Lee House\" 1960s",
+            " \"Tony House\" 1960s",
+            "\"Tony House\" Experiments in Art and Technology 1968",
+            "\"Anthony House\" artist E.A.T. biography",
+            "\"Lee House\" Experiments in Art and Technology 1968",
+            "\"Anthony House\" artist active 1960s",
+            "\"Tony House\" Experiments in Art and Technology 1966 1967 1968 1969 1970",
+            "\"Lee House\" Experiments in Art and Technology 1966 1967 1968 1969 1970",
+            "\"Lee House\" artist bio 1960s",
+            "\"Lee House\" E.A.T. member",
+            "\"Tony House\" artist bio 1960s",
+            "\"Tony House\" E.A.T. member"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

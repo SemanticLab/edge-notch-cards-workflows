@@ -20,5 +20,108 @@
       "remote control"
     ],
     "specializedSkillsKnowledge": "light equipment/projection, acoustics, audio systems, remote control"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q21612811",
+      "label": "Siegfried Windisch",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to Henry Windisch, a technical expert in audio and sound systems based in New York. The Wikidata entry refers to Siegfried Windisch, a biologist and botanist from Germany. Beyond the shared surname, there are no overlapping details in name, profession, or location."
+    }
+  ],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Henry Windisch was a technical engineer active in the late 1960s and early 1970s, based in Elmhurst, New York. He was employed by Sound Systems, Inc., a professional audio and engineering firm that provided specialized systems for stadiums, amphitheaters, and corporate venues. Windisch's technical expertise included audio systems, acoustics, light equipment, projection, and remote control systems. He is historically associated with the Experiments in Art and Technology (E.A.T.), a non-profit organization founded to facilitate collaborations between the artistic and engineering communities. His involvement likely centered on providing technical consultation or system design for art-and-technology projects, consistent with the organization's mission to integrate advanced engineering into creative works.",
+        "sources": [
+          "https://www.thehistoryofrecording.com/magazines/Audio/Audio-1980-07.pdf",
+          "https://experimentsinartandtechnology.org/",
+          "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4220023",
+          "https://www.nypl.org/finding-aids/performing-arts/theatre-division/archives/cohen-alexander-h-papers"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Henry Windisch\" E.A.T. archive",
+        "\"Henry Windisch\" Experiments in Art and Technology",
+        "\"Henry Windisch\" engineer New York audio systems",
+        "",
+        "\"Sound Systems Inc\" Elmhurst NY history",
+        "\"Sound Systems, Inc.\" Elmhurst NY E.A.T.",
+        "\"Sound Systems, Inc.\" Henry Windisch light equipment",
+        "",
+        "\"Sound Systems, Inc.\" Elmhurst NY 1970s",
+        "\"Henry Windisch\" E.A.T. member",
+        "\"Sound Systems, Inc.\" Elmhurst NY audio engineering",
+        "",
+        "\"Experiments in Art and Technology\" \"Sound Systems\"",
+        "\"Henry Windisch\" projection acoustics light equipment",
+        "",
+        "\"Henry Windisch\" New York engineer light equipment audio",
+        "\"Sound Systems Inc\" Elmhurst NY address",
+        "\"Henry Windisch\" E.A.T. membership card",
+        "",
+        "\"Henry Windisch\" E.A.T. index card",
+        "\"Sound Systems, Inc.\" 42-12 28th St Long Island City",
+        "",
+        "\"Sound Systems, Inc.\" Elmhurst NY Henry Windisch card",
+        "",
+        "\"Henry Windisch\" 1960..1980",
+        "\"Henry Windisch\" engineer NY",
+        "\"Sound Systems, Inc.\" Elmhurst NY 1960s 1970s",
+        "",
+        "\"Sound Systems, Inc.\" Elmhurst New York address",
+        "\"Sound Systems, Inc.\" Queens New York 1970s",
+        "\"Henry Windisch\" audio engineer New York",
+        "\"Henry Windisch\" projection acoustics light equipment NY",
+        "",
+        "\"Henry Windisch\"",
+        "\"Henry Windisch\" E.A.T. engineer list",
+        "\"Sound Systems, Inc.\" Elmhurst NY engineer technical fields",
+        "",
+        "\"Sound Systems, Inc.\" Elmhurst New York 1968"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb3egjbf_fSB0EQpBw2Ej4XmgjjXqf0IG-ugraEpj754hWchi9OA07Am2B8sMuARwBvPyJtRaQ0C-LfbWGyROgDL216BACSdUXyOtcffO41SomXtgk5KRFcT1Ywr-Sg-_6avOoXIcNwCbXnyIdMOBhBQTI6XmapAy3xv08bWAncbJPDQ==",
+          "title": "thehistoryofrecording.com",
+          "resolvedUri": "https://thehistoryofrecording.com/Magazines/db%20Magazine/DB-1980-07.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqimbaTFOdnaoDiCN4NeA82t5aeUCHgLPDy87kv7qWTC5pTXb2fJkJpGgfFHKDm_D_tcWKq8DSNavY8QZ6g-dFZF-8mZNHZYn0RPj0qTwfiLnT47PUcTBuyqfxhEMl7Vca6BuU-ssDds_dtxEp_5gUhLDcy42FEundJMdwW6U=",
+          "title": "rootsweb.com",
+          "resolvedUri": "https://homepages.rootsweb.com/~27thiowa/companyD/companyDNotes.htm"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 161,
+            "endIndex": 327,
+            "text": "He was employed by Sound Systems, Inc., a professional audio and engineering firm that provided specialized systems for stadiums, amphitheaters, and corporate venues."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 647,
+            "endIndex": 1256,
+            "text": "His involvement likely centered on providing technical consultation or system design for art-and-technology projects, consistent with the organization's mission to integrate advanced engineering into creative works.\",\n      \"sources\": [\n        \"https://www.thehistoryofrecording.com/magazines/Audio/Audio-1980-07.pdf\",\n        \"https://experimentsinartandtechnology.org/\",\n        \"https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4220023\",\n        \"https://www.nypl.org/finding-aids/performing-arts/theatre-division/archives/cohen-alexander-h-papers\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

@@ -11,6 +11,62 @@
         "y1": 12.2,
         "x2": 31.9,
         "y2": 17.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5732793",
+          "label": "Herb Aach",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Herb Aach' matches exactly between the card and the Wikidata entity. The Wikidata entity describes an artist and painter who lived from 1923 to 1985, which aligns perfectly with the artist context and the 1973 date provided on the card."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Herbert (Herb) Aach (1923–1985) was a German-born American painter, writer, and color theorist known for his significant contributions to the use of pigment and color science in contemporary art. Born in Cologne, Germany, he fled Nazi persecution in 1938 and settled in New York City. After serving in the U.S. Army during World War II, he studied at the Brooklyn Museum Art School under John Ferren and Rufino Tamayo and later at the Escuela de Pintura y Escultura in Mexico City. Aach is primarily recognized for his \"color expressionism\" style and his pioneering use of fluorescent (Day-Glo) pigments, which he began incorporating into his work in the mid-1960s to achieve intense \"inner light.\" His technical expertise was bolstered by his early experience formulating paints for the Art Crayon Company. He was an active participant in the late 1960s and early 1970s art scene, notably collaborating with the Experiments in Art and Technology (E.A.T.) group; his work \"Fluorescent Painting\" was included in the landmark 1968 E.A.T. exhibition \"Some More Beginnings\" at the Brooklyn Museum. In 1971, he published a widely regarded English translation and edition of Goethe's \"Theory of Colours.\" Aach was a dedicated educator, teaching at Queens College from 1965 until his death and serving as the chairman of its arts department. His legacy includes major series like \"Precession of the Equinoxes\" and \"Split Infinity,\" as well as his public proposal to paint New York City's Madison Avenue Bridge lavender to enhance its visual lightness.",
+            "sources": [
+              "https://www.artsy.net/artist/herb-aach",
+              "https://en.wikipedia.org/wiki/Herb_Aach",
+              "https://academiccommons.columbia.edu/doi/10.7916/D83778S2",
+              "http://herbaach.com/biography.html",
+              "https://www.grappaproject.eu/marking-the-impact-of-daylight-fluorescent-materials-in-new-york-art-from-the-60s-and-70s"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Herb Aach Queens College artist",
+            "Herbert Aach painter color theory 1960s 1970s",
+            "Herb Aach artist biography E.A.T. Experiments in Art and Technology",
+            "Herbert Aach E.A.T. project",
+            "\"Herbert Aach\" Experiments in Art and Technology",
+            "Herb Aach \"Experiments in Art and Technology\"",
+            "\"Herb Aach\" E.A.T. collaboration"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWJD83YmlxKZu9KQNpwFdrQRtXyHKWSI-KADjVeyJHQz_axlU0Xrm8TuV0MmSYVqinxzR5jFuAdO9OyrROm3FT5RSxjL1pLwp5y0BhtBSQQZYiyatzMHfYXfCaZQJzQUvm1HVGg2sv_2MCrY7FX6qtFnLkbuWhPkfcPzR3vw==",
+              "title": "columbia.edu",
+              "resolvedUri": "https://academiccommons.columbia.edu/doi/10.7916/D8J109TT/download"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1094,
+                "endIndex": 1153,
+                "text": "exhibition \\\"Some More Beginnings\\\" at the Brooklyn Museum."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

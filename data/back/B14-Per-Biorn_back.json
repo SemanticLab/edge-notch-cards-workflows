@@ -9,6 +9,151 @@
         "y1": 13.4,
         "x2": 39.5,
         "y2": 19.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q336489",
+          "label": "James Parkinson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity for James Parkinson refers to the 18th/19th-century physician and scientist who died in 1824. This is incompatible with the provided context that the person from the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q1179206",
+          "label": "Jack Parkinson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a football player named Jack Parkinson who died in 1942. This contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s. Additionally, the metadata on the card mentions '(Sue)', suggesting a possible female subject or a different first name than Jack/John."
+        },
+        {
+          "qid": "Q7610197",
+          "label": "Stephen Parkinson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Stephen Parkinson) was a mathematician who lived from 1823 to 1889. This makes it impossible for him to be the person on the card, who was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q16227945",
+          "label": "Thomas Parkinson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Thomas Parkinson) lived from 1744 to 1789, while the card context requires an artist active in the late 1960s and early 1970s. These individuals are from completely different eras."
+        },
+        {
+          "qid": "Q47502891",
+          "label": "Helen Parkinson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist likely named 'Sue Parkinson' (given the metadata '(Sue)'), whereas the Wikidata entity is for 'Helen Parkinson,' a biologist. The names and occupations do not match."
+        },
+        {
+          "qid": "Q64855349",
+          "label": "Christopher John Parkinson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry contains the name '(Sue) Parkinson' (likely Susan Parkinson), whereas the Wikidata entity is for 'Christopher John Parkinson', a male researcher. Additionally, the Wikidata entity's occupation as a researcher at various universities does not align with the provided context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q115210849",
+          "label": "E. Parkinson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The dates are incompatible. The Wikidata entity flourished in 1892 and was associated with 19th-century botanist Ferdinand von Mueller, whereas the card subject was active in the late 1960s/70s. Additionally, the Wikidata entity's initial is 'E.' while the card mentions 'Sue'."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robin Parkinson is an American artist (born 1945) who was active in the late 1960s and is closely associated with the organization Experiments in Art and Technology (E.A.T.). At the time of their most prominent work, Parkinson was a student of architecture at Columbia University. They are best known for the cybernetic sculpture \"Toy-Pet Plexi-Ball\" (1968), created in collaboration with engineer Eric Martin. This work featured a transparent plexiglass sphere equipped with photo-sensors and a microphone that allowed it to respond to light and sound; for instance, it would roll in response to hand claps. The piece was selected as a winner in the 1968 E.A.T. Competition for Artists and Engineers and was subsequently featured in the major Museum of Modern Art (MoMA) exhibition \"The Machine as Seen at the End of the Mechanical Age\" (1968–1969). Parkinson's work was also documented by the photographers Harry Shunk and János Kender, who captured many key E.A.T. projects and exhibitions of that era, including the \"Some More Beginnings\" exhibition at the Brooklyn Museum.",
+            "sources": [
+              "https://www.moma.org/documents/moma_press-release_326887.pdf",
+              "http://www.olats.org/pionniers/pp/eat/competition.php",
+              "http://cyberneticzoo.com/cybernetic-sculptures/1968-toy-pet-plexi-ball-robin-parkinson-and-eric-martin-american/",
+              "https://www.getty.edu/art/collection/object/108XF8"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Carol Parkinson is a prominent figure in the field of electronic arts and technology, though her primary role is as an administrator and curator rather than a historical artist of the 1960s. Since 1987, she has served as the Executive Director of Harvestworks, a non-profit Digital Media Arts Center in New York City. Harvestworks operates in the spirit of the original Experiments in Art and Technology (E.A.T.) by providing an environment for collaboration between artists and technicians. Parkinson has been a key participant in contemporary retrospectives and symposia concerning E.A.T., such as the 50th-anniversary celebration of the \"9 Evenings: Theatre and Engineering\" performances.",
+            "sources": [
+              "https://issueprojectroom.org/event/after-9-evenings-object-field-symposium-current-and-historical-experiments-art-and-technology",
+              "https://www.harvestworks.org/oct-21-a-friends-circle-event-toneburst-untitled-7516-by-john-d-s-adams/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Parkinson\" \"Experiments in Art and Technology\"",
+            "\"Parkinson\" artist \"9 Evenings\" E.A.T.",
+            "\"Parkinson\" artist \"Pavilion\" Osaka 1970 E.A.T.",
+            "\"Norman Parkinson\" Experiments in Art and Technology",
+            "\"Parkinson\" E.A.T. artist 1960s 1970s"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd4dNpozVEVlj1MhmbZi4GQtsrw2UqtO9WMp-Cq-cdfjpm5MS8eWE4L0gPRDuAifmlqvak1cye5NIifc9PEj2WMD0dlbbWgIYYtgM67jfl8i2vmP9zrQOrpLBA2U8DAMSSHWcRbNJosUEDmQRWK7dtTR16HgX0YmkjtaujN8p079GkuMTjGGlSJqfqElwxdgvcgcWdGEDesF47x9X9Od3HS65YcPvIBdo=",
+              "title": "cyberneticzoo.com",
+              "resolvedUri": "https://cyberneticzoo.com/cyberneticanimals/1968-toy-pet-plexi-ball-robin-parkinson-and-eric-martin-american/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_iEjCB-Cvly9qsT64dGax2CrYy8eFSZzWcodenPsAs5vkQb0TuYOqrOcw28XPLr1imkIXRQGoAz1h2yR504qeIa7vM8OmbAzhmrhwitxm8AqGN4ZVDxVyvVulFLNoSVlHCBhP0zjoaXGJyjZtvmdvfKaCeBOrzLlSyr5x9Z_AHz0vUW-wXpaqpEG0VA6ete9KVQ==",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/docs/press_archives/4149/releases/MOMA_1968_July-December_0081.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4utGYi4bSVWnU-ELYx6T6XuYCmqRIN2nzEko1pruAzFGv7_BQUXMq-O-GsZD4R0fv3gtOnwrtN09Tl2HpSu0X_HHbUoZ7xB9BJZsxcdREjzaaqhzNzGngia8hIJWekKgzJKuZi-PHc0jfFV1PApz97R7epZlmOTkvJCSovIOZzjF8efLc01_UZgrOFv3lULoDW50W-ntLMUd2lXrx0huHANHSFrWfHjbNfQKX5g08aCacdvI3Wx-xDwAU4w==",
+              "title": "issueprojectroom.org",
+              "resolvedUri": "https://issueprojectroom.org/event/after-9-evenings-object-field-symposium-current-and-historical-experiments-art-and-technology"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeof09SUkz4Wk2yzMABmQwNYeWVhLSmq2y2egYF0TXCCdrq0WwAn4fOy6wzn3bMsj1QIFWEjgqEYfhFJQZop3mNgYUTskRSYy2E9lj9jVszOPx595-ibv_iK8FBv5WgZJ8HWV6ofAJSPbKJQsiIQkVtWjjjORayeXOsr-SfDehbos0llvFAxNTP3RL_PxH5mkdqQxjm_XQFLs=",
+              "title": "issueprojectroom.org",
+              "resolvedUri": "https://issueprojectroom.org/event/after-9-evenings-john-cages-variations-vii-realized-ed-bear"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmfB67OgeudpzQuUAnvAxsCc9HcNURNdycwXoRq7fLH_ZYoDxBBQKtczKmpzlYVw5TYH6v9d_m4JM56-bdDZKenGZ_BSb2uAyhrzQCKC8OyrzMYXmeUO3ZPdUEPb8j-wsQUXPXFp2LRhm_q_J_nLBB4NZFfGdQRocI8xMFzxRIBLzWl9hdWFiJh_ZdXoUyugk7NvVnHS_Mnl24jScmnNRK",
+              "title": "harvestworks.org",
+              "resolvedUri": "https://www.harvestworks.org/oct-21-a-friends-circle-event-toneburst-untitled-7516-by-john-d-s-adams/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 224,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robin Parkinson is an American artist (born 1945) who was active in the late 1960s and is closely associated with the organization Experiments in Art and Technology (E.A.T.)."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1879,
+                "endIndex": 2052,
+                "text": "Harvestworks operates in the spirit of the original Experiments in Art and Technology (E.A.T.) by providing an environment for collaboration between artists and technicians."
+              },
+              "groundingChunkIndices": [
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2053,
+                "endIndex": 2580,
+                "text": "Parkinson has been a key participant in contemporary retrospectives and symposia concerning E.A.T., such as the 50th-anniversary celebration of the \\\"9 Evenings: Theatre and Engineering\\\" performances.\",\n      \"sources\": [\n        \"https://issueprojectroom.org/event/after-9-evenings-object-field-symposium-current-and-historical-experiments-art-and-technology\",\n        \"https://www.harvestworks.org/oct-21-a-friends-circle-event-toneburst-untitled-7516-by-john-d-s-adams/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +165,140 @@
         "y1": 19.2,
         "x2": 43.5,
         "y2": 28.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21389714",
+          "label": "Fedor Mihajlovič Mauer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Fedor Mauer) died in 1963, while the card entry is dated 1969. Additionally, the first names (Giselle vs. Fedor) and occupations (Artist context vs. Botanist) do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Giselle Mauer (born 1930) is a Romanian-born sculptress who was active in the late 1960s and early 1970s. She is historically associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that fostered collaborations between artists and engineers. Mauer participated in the E.A.T. Technical Services Program, which launched in 1967 to provide artists with access to new technology and scientific expertise. In 1968, she and her collaborator Ben-Ami Kadish (1923–2012) were included in the landmark E.A.T. exhibition 'Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes' held at the Brooklyn Museum. Her work from this period included modern metal sculptures, one of which was notably unveiled at the Hillel Center in New Jersey in 1972. While she is recognized as an early female participant in the intersection of art and technology, archival records note that detailed biographical information on her later career remains sparse.",
+            "sources": [
+              "https://awarewomenartists.com/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/",
+              "https://www.artist-info.com/curator/E-A-T",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmVfm_8aFqC1jAFvVENUla1TVZo5iTThcY6qrYzswGRu0CYDjJLryrcoTNyTRkffcJ345sgDBQrQ0k9Ka7mJJQgEMg-RQ0b-Zg4Fz1UYff1zDX2FcXbCNnWgca8DSYtTUWzQV0u59nde6QsYLKzgHnMDeEfNxcWjshnH_ng0aQJ1_puVtcBZxfO26Zy29qzsAkvEhO"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Giselle Mauer artist Experiments in Art and Technology",
+            "\"Giselle Mauer\" E.A.T. artist",
+            "\"Gisela Mauer\" artist Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmVfm_8aFqC1jAFvVENUla1TVZo5iTThcY6qrYzswGRu0CYDjJLryrcoTNyTRkffcJ345sgDBQrQ0k9Ka7mJJQgEMg-RQ0b-Zg4Fz1UYff1zDX2FcXbCNnWgca8DSYtTUWzQV0u59nde6QsYLKzgHnMDeEfNxcWjshnH_ng0aQJ1_puVtcBZxfO26Zy29qzsAkvEhO",
+              "title": "digifind-it.com",
+              "resolvedUri": "http://www.digifind-it.com/metuchen/data/newspapers/metuchen-recorder/1972/1972-05-17.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBZbPgGmQQ8pJG2kGPKsWXYjWqB5M1UXKBAAR7j6FCXYNofl8gxmGmR1Sp9o-vGwU-0k2lO-r6diODZXqinpgXSyIFJfMPL4Zc-6mVqWruzGeMkwql_KggtXB-_nD2Qkn5RcNgUL3C0s8rzdj69cO_hZ9JT8-4TpEIfAHJI-H8yl_MApdXbo3mE2GmB7iugF3y7NsGAi1p1Dc_Bs5-U0cWm3ip7bu-q5E6TZeRHfEN",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmRX9-DGPcekLHvoqZ6wnNyst7CvNQPu4jjbq16R-6zDU5faSzPS5TE268POVbuhST58ZAjmz_p44qHr-8bCypr9hin2ew0g4kHMxs53Sdt-fC81wdFKY_wx_ChAXfo6auOm8DA_HowtTqT6_aQ_brajm42ccy0GKVUSKtNEHyttVSWuYrLF_UP81uXOyte79DJuoeIXS1jUQlapGQDuFSJ5Pqc7Qfl44K8r7c",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxTCT59rf2uVMdt6j-riv6okiWlod5G-RSTtrqdL3aifXv2wZMcNn9KoJ_kbtEj7rewGzIohCufhKTXJLb03gNMChZfCC5O0HAt-whrmh9a-6sTsEufC6gG5Z_3rIiZ_C8JpDrC43GpBUD388YNAXdWr4RhRw=",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtnAMp0Ax7Q5yLBy6c2waMHO3wFq2sBjykNOUZfv1nT3RO_y3E4QcH81XAFt54xEK_jimKuOa_H13oUk5FhoM79M43mwNiQKPiKeIBg2CNhwDDAYPon4qkmUr8MjiRHuYKU0hkyDkdDHaYPkrABPXBRNI=",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/exhibition/MoMA-27-Id373962"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 155,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Giselle Mauer (born 1930) is a Romanian-born sculptress who was active in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 156,
+                "endIndex": 321,
+                "text": "She is historically associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that fostered collaborations between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 322,
+                "endIndex": 354,
+                "text": "Mauer participated in the E.A.T."
+              },
+              "groundingChunkIndices": [
+                1,
+                3,
+                2,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 355,
+                "endIndex": 480,
+                "text": "Technical Services Program, which launched in 1967 to provide artists with access to new technology and scientific expertise."
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 581,
+                "endIndex": 721,
+                "text": "exhibition 'Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes' held at the Brooklyn Museum."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 722,
+                "endIndex": 859,
+                "text": "Her work from this period included modern metal sculptures, one of which was notably unveiled at the Hillel Center in New Jersey in 1972."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 860,
+                "endIndex": 1584,
+                "text": "While she is recognized as an early female participant in the intersection of art and technology, archival records note that detailed biographical information on her later career remains sparse.\",\n      \"sources\": [\n        \"https://awarewomenartists.com/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/\",\n        \"https://www.artist-info.com/curator/E-A-T\",\n        \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmVfm_8aFqC1jAFvVENUla1TVZo5iTThcY6qrYzswGRu0CYDjJLryrcoTNyTRkffcJ345sgDBQrQ0k9Ka7mJJQgEMg-RQ0b-Zg4Fz1UYff1zDX2FcXbCNnWgca8DSYtTUWzQV0u59nde6QsYLKzgHnMDeEfNxcWjshnH_ng0aQJ1_puVtcBZxfO26Zy29qzsAkvEhO\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -30,6 +309,189 @@
         "y1": 29.6,
         "x2": 45.1,
         "y2": 35.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28410",
+          "label": "Jean Toche",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name matches exactly, and the occupation provided in the Wikibase entry (artist) aligns with the context of the card. Furthermore, the E.A.T. (Experiments in Art and Technology) project associated with the Wikibase entry was active during the same era (late 1960s) as the date found on the card (1969)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q53530767",
+          "label": "Jean Toche",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Jean Toche matches exactly. The Wikidata entity describes an artist (painter, photographer, poet) who was born in 1932 and active during the late 1960s (as evidenced by the 1969 date on the card) and died in 2018. The person's involvement in the New York art scene during the 1960s (notably GAAG) aligns perfectly with the timeframe and artist context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jean Toche (1932–2018), born Jean Xavier Van Imschoot in Bruges, Belgium, was a prominent Belgian-American conceptual and political artist, poet, and activist based in New York City. After moving to New York in 1965, he became a central figure in the radical art scene of the late 1960s and 1970s. In 1969, he co-founded the Guerrilla Art Action Group (GAAG) with Jon Hendricks and Poppy Johnson. GAAG was known for its confrontational 'actions' and performances designed to critique the political and economic structures of major art institutions like the Museum of Modern Art (MoMA). One of their most famous works was the 1969 'Blood Bath' action at MoMA, where members spilled animal blood in the lobby to protest the museum's ties to the Vietnam War. Toche was also a member of the Art Workers Coalition (AWC). In 1970, he was arrested for co-organizing 'The People's Flag Show' at Judson Memorial Church, which challenged flag desecration laws. Later, in 1974, he was arrested by the FBI after sending an open letter to the Metropolitan Museum of Art that was interpreted as a kidnapping threat, though it was intended as a conceptual protest against the arrest of artist Tony Shafrazi. Toche's work often took the form of flyers, manifestos, mail art, and 'Destruction Art.' He is documented in the archives of Experiments in Art and Technology (E.A.T.) as having submitted artist proposals and participating in their Technical Services Program during the late 1960s.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Jean_Toche",
+              "https://www.tate.org.uk/art/artists/jean-toche-20894",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf209n98m4/",
+              "http://www.temporaryservices.org/gaag_booklet.pdf",
+              "https://www.inenart.eu/?p=15570"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Jean Toche artist biography",
+            "Jean Toche Guerilla Art Action Group",
+            "Jean Toche artist 1960s 1970s",
+            "Jean Toche Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIvN8WGhKwFA-XbbRRLH9dnTyGdLeBoYLn0OcUFBi26ZwgD9qH0R-4pyAoj4gPJUysYF1LUIOywm6jhqI9sg14DHSnvoCsbIZbev-0ZRkNi28SDXFZfLYZBz4Y9q4HIDWF_M0=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Jean_Toche"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmFfU5rVE4Ebz-orgoxw1fP5sT9qTUeoyrbrPejvB5Td2niQM67PUoW8FRdpw8HqskDH985rTDY5wq-f8W7ZP88QlJmr-ZnyNVRq5Q2kpzl8DfReSb_7mhoyb2Cf0NWWg0",
+              "title": "grokipedia.com",
+              "resolvedUri": "https://grokipedia.com/page/jean_toche"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2355JoFPXIbAaJhAWRCW8LbtxOOPMgY6DsW6-bII7zstCWbL-uih7GVJzm1fZPcgDdA4ACHRI_Tuquki5MRzqJqiZCMQExXaWNP3yszSOLQENDaOaeTrjQORq6iawVdbSmIYUIVz-OFjgoZ72H24HOrOE_MUp_9dVX7v7aMZ9PMi4sbVViMltXsti_VmHSKkNG4e-",
+              "title": "temporaryservices.org",
+              "resolvedUri": "https://temporaryservices.org/served/wp-content/uploads/2014/11/TC_Jean_Toche_GAAG_72.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqAApRSIsZ3bvd1S77k6uofFaULsOJsZfVPdRoaV62cS_kiNKaJAEfIBY8aOxLZXv5h7tpTcfdhEgJhaCR1BfIGKABNxgpuLk28oKXxVms79cErxM8pqLhpnGYHYYcgD08buzj",
+              "title": "raumau.eu",
+              "resolvedUri": "https://raumau.eu/artgoescity-jean-toche/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa0SApP_AAElUnl_kFQujhtwJNqIdmboGYj6LS5SGwQuvfvr6gx7X4iTOLfcitvCTWM0Rtx5uJrRs0HjPxYTuvRyu19AoTyiObMvnYnstXnmTxaF-yE3e4aOiETjIl6YH8zDHU-_zrtwWePxNPWJSwhcL0YIJLIEZ3w1Sy-6aP97rRxiEGY31NgpRl_MdZ65O_-Cbw0Jnd4jJrsEkwhqefO-DxAjbT1glTIKIYfcFvS9bNkp3gDUtYabkt7EgimCnkoZl0cVnd9NIXzEQLysdlayf5SkrrhPROvjkSZ4t5WC_la_NT3-M=",
+              "title": "luxflux.net",
+              "resolvedUri": "http://www.luxflux.net/revolutionary-instances-and-activism-in-art-practices-at-the-turn-of-the-60s-and-70s-two-cases-compared-hi-red-center-and-guerilla-art-action-group/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsYCOpZLzzsm7MX77idFSsI9KILvNPHdAQWQINn9pIcdY5cyO_a5x2U6Pyr3RA2HqdVL_K7l5eNB7yADsl-f3j_7bkCu6wpVP2ngGdRawYQZwcena83D4SKX4=",
+              "title": "inenart.eu",
+              "resolvedUri": "https://www.inenart.eu/?p=16947"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK0Nnsh4ouWIYiufMqR3-7BJ-fQYj_SlDky9BB3mb3zPeGTanz54t15lw0FpPcElLgTMDsGH8Oof1Ha77vLEXe2n3kwH1oKTLfy4mqTQiJSAGbMbIgQtB9DZWJN3pjuUi3SpzZCOPrAsfgNTmpjfiUTzQjHiOk2w==",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/collection/113YMQ"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfUq9FOujpKsXcoMiwE6Hy3jIsNY0vT9PgvIcvmWeC8xKsSQpOUPcDY7A2klX5rulLHjQdEhFqWp2brBDMbIGSsj5l7fr2iLWzJEP_RNjOwGwNFphGJMpwmYiDATBuhAe9r8q8RZjGq0UkuVp7hJ-CVjOey24RvmFn1gv2",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxyNqJDOYdMq-rTR1QBO3pRudkQWnCFrXpnmD-Ra_Q9gTwmUut1dnonIRGocjLTI_SssnUCEZ0KDRkeFGpptqCuqvX29IW8ZarYBn8rtQ33ZdcoGdJcSbJt6BrSZ6ScN9bqDihvdBPmt_Ya_T2y_5KNNOLz3JwiBPPYYZ_fmgIlbalGCezudap1PWmZb8nhgvHmMzjj8IUQ-XXda7fWUCdbgekBe44Wkk_QGNNXr5l",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs8zI6MupNe1NH04Dm1frLvwelCc5toFoM-Z9CCK_jIBApc5H3_gOa-MXyPRogYU7lI--ciLs3ykiPMAeh-g6hx-8-1SwL5TZ9D7uQUGLZ4p-5bbjidQqLTxy_CizBN9RosxqPIg==",
+              "title": "gallery98.org",
+              "resolvedUri": "https://gallery98.org/category/jean-toche/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 234,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Jean Toche (1932–2018), born Jean Xavier Van Imschoot in Bruges, Belgium, was a prominent Belgian-American conceptual and political artist, poet, and activist based in New York City."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 235,
+                "endIndex": 349,
+                "text": "After moving to New York in 1965, he became a central figure in the radical art scene of the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 350,
+                "endIndex": 448,
+                "text": "In 1969, he co-founded the Guerrilla Art Action Group (GAAG) with Jon Hendricks and Poppy Johnson."
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 449,
+                "endIndex": 637,
+                "text": "GAAG was known for its confrontational 'actions' and performances designed to critique the political and economic structures of major art institutions like the Museum of Modern Art (MoMA)."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 638,
+                "endIndex": 807,
+                "text": "One of their most famous works was the 1969 'Blood Bath' action at MoMA, where members spilled animal blood in the lobby to protest the museum's ties to the Vietnam War."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1245,
+                "endIndex": 1333,
+                "text": "Toche's work often took the form of flyers, manifestos, mail art, and 'Destruction Art.'"
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1334,
+                "endIndex": 1412,
+                "text": "He is documented in the archives of Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1413,
+                "endIndex": 1883,
+                "text": "as having submitted artist proposals and participating in their Technical Services Program during the late 1960s.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Jean_Toche\",\n        \"https://www.tate.org.uk/art/artists/jean-toche-20894\",\n        \"https://oac.cdlib.org/findaid/ark:/13030/tf209n98m4/\",\n        \"http://www.temporaryservices.org/gaag_booklet.pdf\",\n        \"https://www.inenart.eu/?p=15570\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                7,
+                6,
+                8,
+                9
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -40,6 +502,112 @@
         "y1": 31.9,
         "x2": 37.1,
         "y2": 44.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q89207058",
+          "label": "Steve Duffy",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names match exactly. The Wikidata entity is a songwriter, which fits the 'artist' category provided in the context. The date on the card (1971) aligns with the active period of this songwriter."
+        },
+        {
+          "qid": "Q100783862",
+          "label": "Steve Duffy",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity describes a basketball player with no recorded artistic activity, which contradicts the context that the person on the card is an artist. Steve Duffy is also a relatively common name, making a coincidence likely."
+        },
+        {
+          "qid": "Q107489976",
+          "label": "Steve Duffy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1963, making him only 7 years old at the time of the card entry in 1971. This is inconsistent with the person on the card being an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q128792837",
+          "label": "Steve Duffy",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name 'Steve Duffy' matches exactly between the index card and the Wikidata entity. The Wikidata entity is currently a stub with no conflicting biographical information, which makes a match plausible given the artist context provided for the card entry, though the lack of occupation or dates on the Wikidata side prevents a higher confidence level."
+        },
+        {
+          "qid": "Q129947398",
+          "label": "Steve Duffy",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The names match exactly, but the Wikidata entity is a politician (member of the South Dakota House of Representatives), whereas the card entry is known to be an artist active in the late 1960s and early 1970s. There is no information suggesting the politician had an artistic career during that timeframe."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Steve Duffy is a professional songwriter who was active in the early 1960s and 1970s. He is best known for co-writing the country music classic \"She Thinks I Still Care\" with Dickey Lee (Lipscomb). First popularized by George Jones in 1962, the song became a number one hit and was later covered by numerous prominent artists, including Elvis Presley (1976), Anne Murray (1974), and Connie Francis. During this period, Duffy was under contract as a songwriter for Jack Clement's publishing company in Beaumont, Texas and Nashville. His work in the 1960s and 1970s aligns with the historical timeframe provided, although his association with Experiments in Art and Technology (E.A.T.) is not explicitly documented in mainstream historical records of that organization.",
+            "sources": [
+              "https://www.discogs.com/artist/7112324",
+              "https://en.wikipedia.org/wiki/She_Thinks_I_Still_Care",
+              "https://musicbrainz.org/work/79b441f7-640a-313b-857c-87d581566418"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Steve Duffy was a ceramic artist and potter active in the late 1960s and early 1970s, associated with Rye Pottery and Idem Pottery in the United Kingdom. His work during this era included hand-painted decorative items, such as the large \"Cockerel Platter\" and other studio pottery pieces, which are often signed \"Steve Duffy.\" This identity fits the profile of a visual artist active during the specified historical period.",
+            "sources": [
+              "https://www.etsy.com/ie/listing/1321456108/vintage-idem-pottery-rye-large",
+              "https://www.etsy.com/au/market/steve_duffy_rye_pottery"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Steve Duffy is a contemporary writer and practitioner in the field of electronic literature and net art. He has been identified as a \"notable emerging practitioner\" in the field of new media and electronic poetry, with his work being featured in journals like 'Rhizomes' and 'Hyperrhiz' (often alongside collaborations with Thom Swiss and Jason Nelson). While his prominence in electronic media emerged more fully in the late 1990s and 2000s, this field is the direct successor to the technological and artistic collaborations pioneered by Experiments in Art and Technology (E.A.T.).",
+            "sources": [
+              "https://digitalcollections.library.umich.edu/r/rhizomes/text/issue3/hyperrhiz.html",
+              "http://www.rhizomes.net/issue3/hyperrhiz.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Stephen Duffy\" artist E.A.T.",
+            "\"Steve Duffy\" artist 1960s 1970s",
+            "\"Steve Duffy\" E.A.T. artist engineer",
+            "\"Steve Duffy\" engineer E.A.T.",
+            "\"Steve Duffy\" Pepsi Pavilion Expo 70",
+            "\"Steve Duffy\" technical assistant E.A.T.",
+            "\"Steve Duffy\" \"9 Evenings\" artist engineer",
+            "\"Steve Duffy\" 1960s artist collaborator",
+            "\"Steve Duffy\" technical assistant Billy Klüver",
+            "\"Steve Duffy\" technician E.A.T.",
+            "\"Steve Duffy\" engineer Pepsi Pavilion",
+            "\"Stephen Duffy\" Experiments in Art and Technology",
+            "\"Steve Duffy\" Pepsi Pavilion engineer",
+            "\"Steve Duffy\" \"9 Evenings\" engineering team",
+            "\"Steve Duffy\" collaborator artist 1960s",
+            "\"Steve Duffy\" Bell Labs engineer E.A.T.",
+            "\"Steve Duffy\" E.A.T. member",
+            "\"Steve Duffy\" contributor \"9 Evenings\"",
+            "\"Steve Duffy\" Robert Rauschenberg collaborator",
+            "\"Steve Duffy\" E.A.T. newsletter",
+            "\"Steve Duffy\" engineer Bell Laboratories",
+            "\"Steve Duffy\" Robert Whitman collaborator",
+            "\"Steve Duffy\" artist engineer 1968",
+            "\"Steve Duffy\" 1969 1970 artist tech",
+            "\"Steve Duffy\" E.A.T. assistant",
+            "\"Steve Duffy\" E.A.T. technical consultant",
+            "\"Steve Duffy\" technical expert E.A.T.",
+            "\"Steve Duffy\" E.A.T. artist biography",
+            "\"Steve Duffy\" 1960s 1970s art collaboration",
+            "\"Steve Duffy\" Experiments in Art and Technology archive search",
+            "\"Steve Duffy\" artist 1960s E.A.T.",
+            "\"Steve Duffy\" \"9 Evenings\" technical staff list",
+            "\"Steve Duffy\" Pepsi Pavilion team list"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

@@ -11,6 +11,130 @@
         "y1": 8.9,
         "x2": 37.3,
         "y2": 15.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28399",
+          "label": "Scotty Snyder",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Scotty Snyder' is an exact match. The card date (1969) aligns perfectly with the active period of Experiments in Art and Technology (E.A.T.), and the Wikibase entity explicitly identifies the person as an artist associated with the E.A.T. Datascape Project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q29231",
+          "label": "Frans Snyders",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Frans Snyders, a Flemish Baroque painter who lived from 1579 to 1657. This is over 300 years before the 1969 date recorded on the index card for Scotty Snyder."
+        },
+        {
+          "qid": "Q385997",
+          "label": "Jonas Suyderhoef",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different and the time periods are incompatible. The person on the card was active in 1969, while the Wikidata entity Jonas Suyderhoef lived and died in the 17th century (c. 1613–1686)."
+        },
+        {
+          "qid": "Q1370998",
+          "label": "Snyder Rini",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Scotty Snyder, where Snyder is the surname and the person is an artist. The Wikidata entity is Snyder Rini, a politician from the Solomon Islands where Snyder is the first name. There is no evidence connecting the two, and the roles (artist vs. politician) do not align."
+        },
+        {
+          "qid": "Q1681665",
+          "label": "Solomon H. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to Scotty Snyder, an artist active in the late 1960s associated with the Experiments in Art and Technology (E.A.T.) project. The Wikidata entity (Q1681665) describes Solomon H. Snyder, a very prominent American neuroscientist and psychiatrist. The names and professional backgrounds do not align."
+        },
+        {
+          "qid": "Q2296146",
+          "label": "Snyder S. Kirkpatrick",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Snyder Solomon Kirkpatrick died in 1909, which makes it impossible for him to be the person recorded on the index card in 1969. Additionally, his occupations (lawyer and politician) do not align with the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q3182230",
+          "label": "John Otterbein Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity, John Otterbein Snyder, was a zoologist and ichthyologist who died in 1943. This contradicts the card entry which is dated 1969 and refers to an individual (Scotty Snyder) expected to be an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q14954619",
+          "label": "Leon C. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Scotty Snyder' does not match 'Leon C. Snyder'. Furthermore, the Wikidata entity is identified as a botanist and horticulturist, which does not align with the context of the card holder being an artist associated with Experiments in Art and Technology (E.A.T.)."
+        },
+        {
+          "qid": "Q25035800",
+          "label": "Abraham Z. Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Scotty Snyder' does not match 'Abraham Z. Snyder'. Furthermore, the Wikidata entity has a birth date of 2000, which makes it impossible for them to have been active in 1969. The occupations (artist vs researcher) also differ significantly."
+        },
+        {
+          "qid": "Q70250411",
+          "label": "Lillian Snyder",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Lillian Snyder) was born in 1874 and was a mycologist and botanical collector. The card refers to 'Scotty Snyder,' an artist active in 1969. The names, occupations, and timelines are incompatible."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Scotty Snyder (born 1912) was an American artist, painter, and photographer active from at least the early 1960s through the 1990s. She is noted for her involvement with Experiments in Art and Technology (E.A.T.), specifically participating in the landmark exhibition 'Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes' held at the Museum of Modern Art (MoMA) in New York from November 1968 to February 1969. Based in New Jersey, she exhibited paintings at the Visual Arts Center of New Jersey (formerly the Summit Art Association) as early as 1962 and was a member of the Associated Artists of New Jersey. In addition to her visual art, Snyder was a frequent collaborator and performer in the New York avant-garde scene; she appeared in several films and theater pieces by performance artist Stuart Sherman, including the 1987 portrait film 'Scotty Snyder (All Around the Table)' and the film 'Scotty and Stuart' (1977). She also performed in Richard Foreman's 1981 film 'Strong Medicine' and documented many of Robert Wilson's theatrical productions through extensive photography.",
+            "sources": [
+              "https://www.artist-info.com/curator/E-A-T",
+              "https://www.artist-info.com/museum/MoMA-27",
+              "https://www.artcenternj.org/wp-content/uploads/2018/06/Exhibition-Timeline-6-20-18.pdf",
+              "https://en.wikipedia.org/wiki/Stuart_Sherman_(artist)",
+              "https://www.nypl.org/finding-aids/11696",
+              "https://onelook.com/?w=longtime+companion&ls=a",
+              "https://dokumen.pub/os-processos-criativos-de-robert-wilson-trabalhos-de-arte-total-para-o-teatro-americano-contemporaneo.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Scotty Snyder\" Experiments in Art and Technology biography",
+            "\"Scotty Snyder\" artist 1960s 1970s",
+            "Scotty Snyder artist \"Experiments in Art and Technology\"",
+            "\"Scotty Snyder\" artist E.A.T.",
+            "",
+            "\"Scotty Snyder\" E.A.T. \"Some More Beginnings\"",
+            "\"Scotty Snyder\" artist New Jersey 1962",
+            "\"Scotty Snyder\" Stuart Sherman friend biography",
+            "\"Scotty Snyder\" artist biography E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNggwCior5Qgzb-njViW2_OmeZT46kejAAgx_NNYCMkGx_lQC9UjDlY5rSwTumPOeoVMmVaBLdO0N75_J6OGRUo_aPXZez8UoxHoh1sZ2ueb0KNJaXb9Ig6A8P8E2nWhJqclZuHYfHw7UcLfsM1GFuh4oA_2s=",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 182,
+                "endIndex": 507,
+                "text": "She is noted for her involvement with Experiments in Art and Technology (E.A.T.), specifically participating in the landmark exhibition 'Some More Beginnings: An Exhibition of Submitted Works Involving Technical Materials and Processes' held at the Museum of Modern Art (MoMA) in New York from November 1968 to February 1969."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

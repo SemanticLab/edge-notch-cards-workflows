@@ -16,5 +16,89 @@
     "technicalFields": [
       "Electronics"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q385704",
+      "label": "Remon Stotijn",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to an electronic engineer named Monroe H. Postman based in California, likely in the mid-20th century. The Wikidata entry refers to Remon Stotijn, a Dutch musician born in 1975 who uses 'Postman' as a stage name."
+    },
+    {
+      "qid": "Q26405966",
+      "label": "Aubrey Modiba",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card data refers to Monroe H. Postman, an electronic engineer working in California, while the Wikidata entry describes Aubrey Modiba, a professional South African football player born in 1995. There are no overlapping details in name, occupation, or location."
+    },
+    {
+      "qid": "Q55608209",
+      "label": "Postman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe entirely different individuals. The card refers to Monroe H. Postman, an American electronic engineer working for Philco-Ford in California, likely during the mid-20th century. The Wikidata entity refers to a Ukrainian musician named Kostiantyn (pseudonym Postman) born in 1991."
+    },
+    {
+      "qid": "Q111128154",
+      "label": "Serhii Chyzhykov",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records share no common information. The names (Monroe H. Postman vs. Serhii Chyzhykov), locations (Palo Alto, California vs. Ukraine), and occupations (Electronic engineer vs. military personnel) are entirely different."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2714331",
+      "label": "Philco",
+      "description": "defunct electronics manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Philco was acquired by Ford in 1961, and the company was renamed Philco-Ford in 1966. The Wikidata entity Q2714331 represents the electronics manufacturer Philco. The card lists 'Philco Ford' and the 'Western Development Laboratories' division at 3939 Fabian Way in Palo Alto, which was the well-known location of Philco's (later Philco-Ford's) defense and space electronics division."
+    },
+    {
+      "qid": "Q134737211",
+      "label": "Philco-Ford",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The organization name on the card, 'Philco Ford', matches the Wikidata label 'Philco-Ford'. Historically, Philco-Ford's Western Development Laboratories (WDL) was located at 3939 Fabian Way in Palo Alto, California, which matches the card's address and division information perfectly."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Monroe H. Postman (1928–2012) was a prominent electronic engineer and technical consultant based in the Palo Alto and Los Altos areas of California. He held a Bachelor of Electrical Engineering (BEE) from the Polytechnic Institute of Brooklyn and was a licensed Professional Engineer (PE) in Control Systems. Postman's career was marked by significant contributions to large-scale aerospace and transit projects, as well as a dedicated second career in assistive technology and historical preservation. For approximately 11 years, he worked for Philco-Ford, where he was a lead designer for the printer subsystems of the Philco 2000 (Univac) computer series and contributed to the development of the Bay Area Rapid Transit (BART) test track and subsystems. His son also noted his involvement in the Apollo 11 project. Later in his career, Postman served as a Science Advisor and Technology Agent for the City of San Jose under a National Science Foundation (NSF) program, focusing on technology transfer and microcomputer applications in local government. In his later years, he specialized in rehabilitation robotics and mechatronics at the Menlo Park VA Hospital, developing technological solutions for the physically disabled. Beyond his professional work, Postman was a well-known 'idea man' and volunteer in the technical-artistic community; he served as a curator for the Museum of American Heritage in Palo Alto and was an active member of the American Typecasting Fellowship. Notably, he collaborated with artists Clifton and Lois Rather of the Rather Press, inventing electronic speed control devices for their hand-fed printing presses, which aligns with the mission of organizations like Experiments in Art and Technology (E.A.T.).",
+        "sources": [
+          "https://www.legacy.com/obituaries/mercurynews/obituary.aspx?n=monroe-postman&pid=156124334",
+          "https://ed-thelen.org/Philco/Philco212-Maddox.html",
+          "https://californiarevealed.org/islandora/object/osl%3A581",
+          "https://www.computerhistory.org/collections/catalog/102701763",
+          "https://ntrs.nasa.gov/citations/19710013589",
+          "https://www.americantypecastingfellowship.org/atf-newsletters/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Monroe H. Postman\" engineer",
+        "\"Monroe Postman\" Palo Alto",
+        "\"Monroe H. Postman\" Experiments in Art and Technology",
+        "Monroe H. Postman obituary",
+        "\"Monroe H. Postman\" Experiments in Art and Technology",
+        "\"Monroe Postman\" 9 Evenings",
+        "\"Monroe Postman\" E.A.T.",
+        "",
+        "\"Monroe Postman\" Rather Press E.A.T.",
+        "\"Monroe Postman\" Experiments in Art and Technology list",
+        "\"Monroe H. Postman\" E.A.T. membership"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

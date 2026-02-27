@@ -27,5 +27,126 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "computers: graphics/film",
     "aestheticPhilosophicalInterests": "the intersection of computer graphics, film, and cybernetics"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q19174",
+      "label": "Ben Kramer",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals with distinct names (Paul R. Kramer vs. Ben Kramer), occupations (Physicist vs. Newspaper editor), and employers (SUNY Stony Brook vs. Holiday magazine)."
+    },
+    {
+      "qid": "Q20535",
+      "label": "Kramer",
+      "description": "",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "The index card describes Paul R. Kramer, a physicist with specific interests in computer graphics, film, and cybernetics, which are core themes of the Experiments in Art and Technology (E.A.T.) movement. The Wikibase entity Q20535 is identified as part of the E.A.T. Knowledge Graph Project but only provides the surname 'Kramer'. Given the specific technical profile on the card aligning with E.A.T. activities, it is highly probable they refer to the same individual, though the lack of a first name in the Wikibase record prevents high confidence."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q2062063",
+      "label": "Paul Rudolf Kraemer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The individuals have significantly different occupations (Physicist at SUNY Stony Brook vs. Goldsmith) and reside in different countries (United States vs. Germany). The Wikidata entity is a German citizen who lived and worked in Germany, whereas the index card describes an American academic and researcher."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q969850",
+      "label": "Stony Brook University",
+      "description": "public university in Stony Brook, New York, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Stony Brook University is the common name for the State University of New York at Stony Brook. The Wikidata record confirms this by listing 'State University of New York' as the parent organization and providing an official website (sunysb.edu) that uses the abbreviation of the formal name found on the index card."
+    },
+    {
+      "qid": "Q7603629",
+      "label": "State University of New York at Stony Brook School of Dental Medicine",
+      "description": "educational institution",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as the State University of New York at Stony Brook and specifically the Physics Department. The Wikidata entity is for the School of Dental Medicine, which is a specific sub-unit of the university. A faculty member or employee in the Physics Department is not an employee of the School of Dental Medicine."
+    },
+    {
+      "qid": "Q73101783",
+      "label": "Q73101783",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q73101783 corresponds to the 'Physics Department' of Stony Brook University. While the index card lists this specific department in its 'departmentDivision' field, the employer organization name provided for comparison is the 'State University of New York at Stony Brook' (the university as a whole). The department is a sub-unit of the university and not the same entity as the entire organization."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Paul R. Kramer (1935–2018) was a physicist and educator who specialized in instructional technology and computer-assisted education. In the late 1960s, he served as an Assistant Professor of Physics at the State University of New York (SUNY) at Stony Brook. During this time, he was actively involved in exploring the intersection of computers, cybernetics, and media, contributing to the development of computer-assisted instruction (CAI) and 'New Media' in higher education. He was specifically noted for developing computer-based problem drill systems for university courses and was associated with Experiments in Art and Technology (E.A.T.), a non-profit organization that facilitated collaborations between artists and technical professionals. His technical expertise included mathematics, physics, programming, computer graphics, film, and relay control and sequencing—skills that made him a valuable technical resource for the art-and-technology movement of the era. In 1969, he joined the faculty of Farmingdale State College (also part of the SUNY system), where he remained for over 40 years. At Farmingdale, he served as the Chair of the Department of Physics (1977–1981), Dean of Student Services, and was a prominent advocate for academic computing and early adoption of Apple computers on campus. He was a long-time resident of Port Washington, New York.",
+        "sources": [
+          "https://www.farmingdale.edu/news/2018/campus-times/tribute-paul-kramer.shtml",
+          "https://files.eric.ed.gov/fulltext/ED026268.pdf",
+          "https://archive.org/details/ERIC_ED026268",
+          "https://files.eric.ed.gov/fulltext/ED049947.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Paul R. Kramer\" physicist 1960s 1970s",
+        "\"Paul R. Kramer\" SUNY Stony Brook computer graphics",
+        "\"Paul R. Kramer\" Port Washington New York physicist",
+        "\"Paul R. Kramer\" Experiments in Art and Technology",
+        "Paul R. Kramer SUNY Stony Brook physicist",
+        "\"Paul R. Kramer\" \"E.A.T.\" physicist",
+        "\"Paul R. Kramer\" Port Washington NY Stony Brook",
+        "\"Paul R. Kramer\" Stony Brook computer graphics film",
+        "",
+        "\"Paul R. Kramer\" E.A.T. index card",
+        "\"Paul R. Kramer\" Port Washington NY physicist E.A.T.",
+        "\"Paul R. Kramer\" Farmingdale physics computer",
+        "\"Paul R. Kramer\" physics Stony Brook computer graphics"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU_utmOZLcG2wrYDMxeHP4vIb74TIK-o_8VDjLCFybnoJVAWgnHFNCsa7Z-s1eaB0x-1OlUIyY4JDoodY-RBzG1xU__GLCJDwiS_mXVL5jdVFdATGBR9v1iO9l2AxvKagpPt7TKcoGbFyj",
+          "title": "ed.gov",
+          "resolvedUri": "https://files.eric.ed.gov/fulltext/ED026863.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfDiYg9k9ekTVeiTz8NzT422ugGRo4YpnPffdyQDYrL_wJXOVXZEM7KYlErR0HiWVIR9QN98lBnD-TSpUizC7NyDloSauDIIXN3Zueg4wDiHIhJDJCTG2_Womg-arxAKeZZ1N-riJjozGE8J09kdqveKLG711O07Rs1hL4KwVYQJJFIqrm7Y0bKJtQlKHloCUdSY0uKPbsNB--UqvlWdJmWYuU7fzu2rBp",
+          "title": "farmingdale.edu",
+          "resolvedUri": "https://blogs.farmingdale.edu/sites/campus-times/2018/12/10/tribute-to-physics-professor-emeritus-paul-kramer/"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 184,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Paul R. Kramer (1935–2018) was a physicist and educator who specialized in instructional technology and computer-assisted education."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1157,
+            "endIndex": 1366,
+            "text": "At Farmingdale, he served as the Chair of the Department of Physics (1977–1981), Dean of Student Services, and was a prominent advocate for academic computing and early adoption of Apple computers on campus."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

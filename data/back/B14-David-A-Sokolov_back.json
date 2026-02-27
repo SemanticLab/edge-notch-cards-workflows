@@ -9,6 +9,93 @@
         "y1": 9.3,
         "x2": 51.0,
         "y2": 21.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q828283",
+          "label": "Hermann Hahn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Hermann Hahn died in 1945, whereas the person on the card was active in 1969. Additionally, the first names Larry and Hermann are not common variants of each other."
+        },
+        {
+          "qid": "Q1704729",
+          "label": "Joseph Hahn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Joseph Hahn died in 1906, making it impossible for him to be the Larry Hahn mentioned in a 1969 record. Additionally, the first names Larry and Joseph are distinct."
+        },
+        {
+          "qid": "Q18619946",
+          "label": "Carl Wilhelm Hahn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Carl Wilhelm Hahn) lived from 1829 to 1887, whereas the person on the card was active in 1969. They cannot be the same person."
+        },
+        {
+          "qid": "Q21514502",
+          "label": "Otto Hahn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Otto Hahn) lived from 1828 to 1904 and was a petrologist, whereas the card refers to a Larry Hahn active in 1969. The names, occupations, and lifespans do not match."
+        },
+        {
+          "qid": "Q65927774",
+          "label": "Hahn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a German badminton player born in 1915 who participated in the GDR championships. The card entry refers to an artist named Larry Hahn active in the late 1960s. There is no overlap in occupation, and 'Larry' is an unlikely given name for a German sportsman of that generation."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Lawrence Hahn was a research affiliate and artist-architect associated with the MIT Center for Advanced Visual Studies (CAVS) between 1970 and 1972. Born on May 9, 1949, his practice during this period focused on architecture and the intersection of visual studies with technology. CAVS, founded by György Kepes, was a prominent hub for collaborations between artists, scientists, and engineers, sharing many goals and collaborators with the Experiments in Art and Technology (E.A.T.) organization during the late 1960s and early 1970s.",
+            "sources": [
+              "https://act.mit.edu/people/lawrence-hahn/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Larry Hahn is a dancer, set designer, and builder whose career in the performing arts spans over five decades, beginning in the early 1970s. He is known for his work with several major choreographers, including Doug Varone and Senta Driver. In the context of art and technology, he collaborated with Robert Wechsler and Frieder Weiss (founders of the Palindrome Inter-Media Performance Group) on projects involving interactive dance and motion-sensing technology, such as the 'EyeCon' system. He was honored with a New York Dance and Performance Award (Bessie) in 1996 for his sustained achievements in the field.",
+            "sources": [
+              "https://peggybakerdance.com/larry-hahn",
+              "https://aisb.org.uk/wp-content/uploads/2019/09/AISB04-Interactive-Entertainment.pdf",
+              "https://www.dance.nyc/news/2014/11/1984-Category-Artist(s)-Artist/Title-Of-Work-Venue/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Larry Hahn biography artist",
+            "\"Larry Hahn\" art and technology collaboration",
+            "\"Larry Hahn\" artist 1960s 1970s",
+            "Larry Hahn artist Experiments in Art and Technology E.A.T.",
+            "Larry Hahn E.A.T. collaborator",
+            "\"Larry Hahn\" Billy Klüver E.A.T.",
+            "\"Larry Hahn\" \"E.A.T.\" artist engineer",
+            "\"Larry Hahn\" artist 1966 1970",
+            "\"Lawrence Hahn\" E.A.T. member",
+            "\"Larry Hahn\" artist \"1960s\" \"1970s\" technology",
+            "\"Larry Hahn\" Bell Labs E.A.T.",
+            "\"Larry Hahn\" artist \"Robert Wechsler\"",
+            "\"Larry Hahn\" and \"Betty Hahn\" artist",
+            "\"Larry Hahn\" \"E.A.T.\" archive",
+            "\"Lawrence Hahn\" \"E.A.T.\" engineer",
+            " \"Larry Hahn\"",
+            " \"Lawrence Hahn\"",
+            "\"Larry Hahn\" E.A.T. engineer",
+            "\"Larry Hahn\" \"Bell Labs\" artist",
+            "\"Larry Hahn\" \"E.A.T.\" collaboration",
+            "\"Lawrence Hahn\" artist 1960s technology",
+            "\"Lawrence Hahn\" \"E.A.T.\" collaboration",
+            "\"Larry Hahn\" MIT CAVS"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -20,6 +107,137 @@
         "y1": 18.0,
         "x2": 49.8,
         "y2": 32.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19286",
+          "label": "Galeria Bonino, Ltd.",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity (Galeria Bonino, Ltd.) is an organization (an art gallery), whereas the card entry 'Rue Gale' identifies an individual. The names are not similar enough to suggest they are the same entity."
+        },
+        {
+          "qid": "Q21512",
+          "label": "Galeria Appolinaire",
+          "description": "publisher associated with E.A.T. Bibliography",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry 'Rue Gale' appears to be a person's name (or potentially a partial address), whereas the Wikibase entity 'Galeria Appolinaire' is identified as a publisher and an art gallery. There is no linguistic or contextual overlap to suggest they refer to the same individual."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q8778",
+          "label": "Galen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual named Rue Gale, likely an artist active in the late 1960s or early 1970s. The Wikidata entity Q8778 refers to the ancient Roman physician and philosopher Galen, who lived in the 2nd century AD. These are entirely different historical figures from different eras and professions."
+        },
+        {
+          "qid": "Q233845",
+          "label": "Gale Sondergaard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Rue Gale' on the card does not match 'Gale Sondergaard' from the Wikidata entity. While the Wikidata entity was a professional actress (artist) active during the relevant period, her first name was Gale and her surname was Sondergaard. There is no evidence suggesting she used the name 'Rue Gale' or that 'Rue' was a variant or alias for her."
+        },
+        {
+          "qid": "Q269895",
+          "label": "Gale Anne Hurd",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Rue Gale' on the card does not match 'Gale Anne Hurd'. Furthermore, Gale Anne Hurd was born in 1955 and began her professional career in 1979, which makes it highly unlikely she was an active artist corresponding via letter in the late 1960s or early 1970s as suggested by the card's context."
+        },
+        {
+          "qid": "Q317894",
+          "label": "Galeazzo Maria Sforza",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Galeazzo Maria Sforza) lived and died in the 15th century (1444-1477), whereas the card entry describes a person active in the late 1960s and early 1970s. Furthermore, the names are not a match."
+        },
+        {
+          "qid": "Q1039891",
+          "label": "Galeazzo Benti",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Rue Gale' on the card does not match 'Galeazzo Benti'. While 'Gale' is the beginning of the Wikidata entity's first name, his surname is 'Benti'. Furthermore, there is no biographical evidence linking the Italian actor Galeazzo Benti to the name 'Rue Gale'."
+        },
+        {
+          "qid": "Q2517890",
+          "label": "Galeazzo Marescotti",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Galeazzo Marescotti lived from 1627 to 1726 and was a high-ranking Catholic clergyman. This is entirely incompatible with the card's context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q3078740",
+          "label": "Galena",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Galena) was born in 1985 and began her career in 2004, which is incompatible with the card's context of an artist active in the late 1960s and early 1970s. Additionally, the names 'Rue Gale' and 'Galena' (born Galina Gencheva) do not show significant similarity."
+        },
+        {
+          "qid": "Q21513680",
+          "label": "Shirley Gale Cross",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name 'Rue Gale' on the card does not match the name 'Shirley Gale Cross' in the Wikidata entry. While Shirley Gale Cross was a scientific illustrator (which aligns with the artistic context provided), there is no evidence in the record that she ever used the name 'Rue' or that 'Rue' is a known variation or nickname for 'Shirley'."
+        },
+        {
+          "qid": "Q112485023",
+          "label": "Galen S. Wagner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Rue Gale' on the card does not match the name 'Galen S. Wagner' from the Wikidata entity. Additionally, the Wikidata entity is identified as a cardiologist, which does not align with the context that the individual on the card is an artist."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Rue Gale\" E.A.T. organization",
+            "\"Rue Gale\" art projects",
+            "artist \"Rue Gale\" Experiments in Art and Technology",
+            "\"Rue Gale\" artist 1960s 1970s",
+            "\"Gale Rue\" artist E.A.T.",
+            "\"Rue Gale\" 1960s 1970s art",
+            "\"Rue Gale\" archives art technology",
+            "\"Rue Gale\" artist E.A.T.",
+            "\"Rue Gale\" Experiments in Art and Technology E.A.T.",
+            "\"Rue Gale\" artist -Hunger -Games",
+            "\"Rue Gale\" art technology collaboration",
+            "\"Rue Gale\" E.A.T. members list",
+            "\"Gale Rue\" artist -Hunger -Games",
+            "\"Rue Gale\" Experiments in Art and Technology staff",
+            "",
+            "\"Gale Rue\" artist New York 1960s 1970s",
+            "\"Rue Gale\" curator E.A.T.",
+            "\"Rue Gale\" artist New York 1960s 1970s",
+            "\"Rue Gale\" E.A.T. newsletter",
+            "\"Rue Gale\" Pepsi Pavilion Expo 70",
+            "\"Gale Rue\" E.A.T. artist",
+            "\"Rue Gale\" \"E.A.T.\" artist",
+            "\"Rue Gale\" artist 1971",
+            "\"Rue Gale\" artist 1969",
+            "\"Rue Gale\" artist 1970",
+            "\"Rue Gale\" artist 1968",
+            " \"Rue Gale\" E.A.T.",
+            "",
+            "\"Caimite\" artist paintings Haiti",
+            "\"Gale Rue\" artist Caimite",
+            "\"Rue Gale\" artist E.A.T. 1960s 1970s",
+            "\"Gale Rue\" artist E.A.T. 1960s 1970s",
+            "\"Rue Gale\" \"Julie Martin\"",
+            "\"Rue Gale\" \"E.A.T.\"",
+            "\"Gale Rue\" artist Artnet",
+            "\"Peggy Gale\" biography artist curator",
+            "\"Peggy Gale\" \"Experiments in Art and Technology\"",
+            "\"Rue Gale\" artist 1960s 1970s E.A.T. staff",
+            "\"Gale Rue\" artist 1960s 1970s E.A.T. staff"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -30,6 +248,113 @@
         "y1": 26.0,
         "x2": 32.5,
         "y2": 37.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26324",
+          "label": "Jill Rosenberg",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly, and the card's date (1970) aligns with the activity period of the E.A.T. Technical Services Program mentioned in the Wikibase entry. Furthermore, the Wikibase entry specifically mentions the Edge-Notched Card project, which is the source of the physical index card."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7045447",
+          "label": "Noah Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Jill Rosenberg) does not match the name of the Wikidata entity (Noah Rosenberg). Furthermore, their professional backgrounds (artist vs. evolutionary biologist) and genders are different."
+        },
+        {
+          "qid": "Q19678062",
+          "label": "Friedrich Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Jill vs. Friedrich). Furthermore, the Wikidata entity describes a person who lived from 1758 to 1833, which is chronologically incompatible with the activity period of the person on the card (circa 1970)."
+        },
+        {
+          "qid": "Q110076162",
+          "label": "Rosenberg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The floruit for the Wikidata entity is 1785, which is almost 200 years prior to the date on the card (1970). This indicates they are different people from entirely different historical periods."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jill Rosenberg was a project director for Experiments in Art and Technology (E.A.T.), a non-profit organization founded in 1966 by Billy Klüver and Robert Rauschenberg to foster collaborations between artists and engineers. Active in the late 1960s and early 1970s, she served as the Project Director for E.A.T.'s Technical Services Program, which was a core matching service that paired artists with technical experts for their creative projects. Her name appears in the credits of major E.A.T. publications and projects from this era, including the 'Pavilion' project for Expo '70 in Osaka, Japan. She is acknowledged as an influential figure in discussions regarding the intersection of art and technology during that period.",
+            "sources": [
+              "https://www.getty.edu/research/collections/eat_records.html",
+              "https://www.dokumen.pub/art-poetry-and-technology-9780826421623.html"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Jill Nassau Rosenberg is an artist who began her career as a graphic artist and illustrator in the late 1960s. During the 1960s and 1970s, she worked for various advertising agencies and established her own graphic art business, which she operated until 1990. In the early 1980s, she transitioned into fine art, focusing on large-scale representational oil portraits and later exploring different media and techniques, including Fauvistic landscapes and sculpture. She received her Bachelor of Arts from Maryville University in St. Louis and has participated in numerous solo and group exhibitions since the mid-1980s.",
+            "sources": [
+              "https://www.saatchiart.com/jillnassaurosenberg"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Jill Rosenberg was an active participant in the New York City arts and music scene in the early 1960s. She attended the Fashion Institute of Technology (FIT) in 1962, where she was known for her involvement in the Greenwich Village folk music culture. She is noted for introducing contemporaries to prominent local venues such as 'The Cat' (The Fat Black Pussycat) on MacDougal Street, a central hub for the folk music revival that included figures like Bob Dylan and Joni Mitchell.",
+            "sources": [
+              "https://www.villagepreservation.org/2015/01/06/folk-music-in-greenwich-village-1961-1970/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Jill Rosenberg artist biography",
+            "\"Jill Rosenberg\" artist 1960s 1970s",
+            "Jill Rosenberg artist Experiments in Art and Technology E.A.T.",
+            "Jill Rosenberg E.A.T. organization",
+            "\"Jill Rosenberg\" \"Julie Martin\" E.A.T.",
+            "\"Jill Rosenberg\" artist tech 1960s 1970s",
+            "\"Jill Rosenberg\" E.A.T. membership list",
+            "\"Jill Rosenberg\" E.A.T. project",
+            "\"Jill Rosenberg\" Experiments in Art and Technology staff",
+            "\"Jill Rosenberg\" Experiments in Art and Technology bibliography",
+            "\"Jill Rosenberg\" Getty E.A.T. archive",
+            "\"Jill Rosenberg\" artist 1968 1969 1970 1971",
+            "",
+            "\"Jill Rosenberg\" artist New York 1960s 1970s",
+            "",
+            "\"Jill Rosenberg\" E.A.T. staff member",
+            "\"Jill Rosenberg\" artist NYC 1969 1970",
+            "\"Jill Rosenberg\" graphic artist 1960s E.A.T.",
+            "\"Jill Rosenberg\" E.A.T. \"Technical Services\"",
+            "\"Jill Rosenberg\" \"E.A.T.\" \"Technical Services\" staff",
+            "\"Jill Rosenberg\" \"E.A.T.\" catalog staff",
+            "\"Jill Rosenberg\" Techne E.A.T.",
+            "\"Jill Rosenberg\" \"Project Director\" E.A.T.",
+            "\"Jill Rosenberg\" \"Technical Services\" E.A.T. staff",
+            "\"Jill Rosenberg\" \"E.A.T.\" 1969 1970 staff"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGMcy1nksnboa48sJ1SO1AHatPOW6kcC2KUnvlNmxOiSP_kvU5y5V30ghkD11P2V0e1_4PCn40LhQ9UoqZLfSOuscTeI_7mLi_VsKMszExzq1OHLyit5FE0OcDZ5B8jkBBnmy97FWjBjtXZg==",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/colonymagazine/docs/hhcr-may23"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 499,
+                "endIndex": 546,
+                "text": "Her name appears in the credits of major E.A.T."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

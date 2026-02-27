@@ -20,5 +20,205 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "kinetic sculpture using fluids"
+  },
+  "wikidata_candidates": [
+    {
+      "qid": "Q94646048",
+      "label": "Bryan Rogers",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records describe a Bryan Rogers in the San Francisco Bay Area. The physical index card specifies he was a PhD student in chemical engineering at UC Berkeley and involved in 'kinetic sculpture using fluids'. The Wikidata entry for the artist Bryan Rogers confirms he was a sculptor with works in the San Francisco Museum of Modern Art; historical records for this artist confirm he held a PhD in chemical engineering from UC Berkeley, providing a unique and specific link between the two profiles."
+    },
+    {
+      "qid": "Q99590261",
+      "label": "Bryan Rogers",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "While the names match, the professional profiles are entirely different. The index card describes a chemical engineering graduate student at UC Berkeley interested in kinetic sculpture, whereas the Wikidata entry describes a blues musician who plays the saxophone. There is no overlapping evidence to suggest they are the same individual."
+    }
+  ],
+  "wikibase_candidates": [
+    {
+      "qid": "Q1183",
+      "label": "Rogers E. M. Whitaker",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The index card refers to Bryan L. Rogers, a chemical engineering PhD student and kinetic sculptor in California. The Wikibase entity describes Rogers E. M. Whitaker, who is associated with the Linked Jazz project. The names, professions, and geographical contexts do not align."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q168756",
+      "label": "University of California, Berkeley",
+      "description": "public university in Berkeley, California, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'University of California, Berkeley' on the card perfectly matches the label and official name of the Wikidata entity (Q168756). The location (Berkeley, California) and type of institution (research university) are identical."
+    },
+    {
+      "qid": "Q846183",
+      "label": "University of California, Berkeley, School of Law",
+      "description": "law school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents the UC Berkeley School of Law, which is a specific subunit of the university. The individual on the card was a PhD student in Chemical Engineering; therefore, the Law School is not the correct organizational entity for this specific professional affiliation."
+    },
+    {
+      "qid": "Q2918860",
+      "label": "California Golden Bears",
+      "description": "intercollegiate sports teams of the University of California, Berkeley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q2918860 represents the 'California Golden Bears', which are the intercollegiate sports teams of the University of California, Berkeley. The card refers to the University of California, Berkeley itself as an academic institution and employer. While related, a sports program is a distinct sub-entity and not the same organization as the parent university."
+    },
+    {
+      "qid": "Q7864145",
+      "label": "University of California, Berkeley College of Chemistry",
+      "description": "university college",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents the College of Chemistry, which is a specific faculty or sub-unit of the University of California, Berkeley. While the individual on the card was in the chemical engineering department (which is part of this college), the entity itself is not the entire university listed as the employer."
+    },
+    {
+      "qid": "Q5146711",
+      "label": "University of California, Berkeley College of Environmental Design",
+      "description": "college of the University of California, Berkeley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q5146711 represents the College of Environmental Design, which is a specific sub-unit of the University of California, Berkeley. The card refers to the main university as the employer and specifies the chemical engineering department, which is located in a different college (the College of Chemistry) within the university."
+    },
+    {
+      "qid": "Q7864146",
+      "label": "University of California, Berkeley College of Engineering",
+      "description": "engineering school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card lists the 'University of California, Berkeley' as the employer and specifically mentions 'PhD chemical engineering'. The Wikidata entity Q7864146 is for the 'University of California, Berkeley College of Engineering'. At UC Berkeley, the Chemical Engineering department is actually part of the College of Chemistry, not the College of Engineering. Furthermore, the Wikidata entity is a specific sub-unit of the broader university listed on the card."
+    },
+    {
+      "qid": "Q7895162",
+      "label": "University of California, Berkeley School of Public Health",
+      "description": "School of the University of Califoria, Berkeley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity represents the 'School of Public Health' at UC Berkeley, which is a specific sub-unit of the university. The card lists the 'University of California, Berkeley' generally, and specifically mentions the 'PhD chemical engineering' program, which is located in the College of Chemistry, not the School of Public Health."
+    },
+    {
+      "qid": "Q7895160",
+      "label": "University of California, Berkeley Libraries",
+      "description": "library system",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists the employer as the University of California, Berkeley, which is a major research university. The Wikidata entity Q7895160 refers specifically to the 'University of California, Berkeley Libraries', which is a library system/network within the university. A PhD student in chemical engineering would be affiliated with the university at large or a specific academic department, not the library system as an organization."
+    },
+    {
+      "qid": "Q7895156",
+      "label": "University of California, Berkeley College of Natural Resources",
+      "description": "College of the University of California, Berkeley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q7895156 represents the College of Natural Resources, which is a specific subdivision of the University of California, Berkeley. The employer listed on the card is the main university itself. Furthermore, the individual's field (Chemical Engineering) is traditionally part of the College of Chemistry at UC Berkeley, not the College of Natural Resources."
+    },
+    {
+      "qid": "Q7895159",
+      "label": "University of California, Berkeley Graduate School of Education",
+      "description": "School at the University of California, Berkeley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card refers to the University of California, Berkeley, specifically in the context of a PhD in chemical engineering. The Wikidata entity Q7895159 represents the Graduate School of Education, which is a specific subunit of the university unrelated to the department of chemical engineering."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Bryan L. Rogers (1941–2013) was a chemical engineer, sculptor, and prominent arts educator who bridged the fields of science and technology with artistic practice. He earned a Bachelor of Engineering from Yale University in 1963, followed by a Master of Science, Master of Arts, and a PhD in Chemical Engineering (1971) from the University of California, Berkeley, where he studied under John Prausnitz. During his time at Berkeley in the late 1960s and early 1970s, he was an active graduate student and began incorporating chemical engineering principles, such as fluid dynamics, into kinetic sculptures. Rogers was a significant figure in the intersection of art and technology, serving as a Fellow at MIT’s Center for Advanced Visual Studies (CAVS) and as the editor of the international journal 'Leonardo' (1982–1985). He founded the Conceptual Design Program at San Francisco State University and later served as the head of the School of Art at Carnegie Mellon University (1988–1999) and the dean of the Penny W. Stamps School of Art & Design at the University of Michigan (2000–2012). His career was defined by promoting collaborations between artists and scientists, aligning with the core goals of organizations like Experiments in Art and Technology (E.A.T.).",
+        "sources": [
+          "https://www.annarbor.com/news/university-of-michigans-longest-serving-art-school-dean-bryan-rogers-dies-at-72/",
+          "https://escholarship.org/content/qt8n23j4g7/qt8n23j4g7.pdf",
+          "https://record.umich.edu/articles/obituaries-115/",
+          "https://www.studioforcreativeinquiry.org/people/bryan-rogers",
+          "https://ugaartscollaborative.com/node/140"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Bryan Rogers\" artist engineer Berkeley",
+        "\"Bryan L. Rogers\" Experiments in Art and Technology",
+        "\"Bryan L. Rogers\" E.A.T. artist engineer",
+        "\"Bryan Rogers\" chemical engineering Oakland",
+        "Bryan L. Rogers UC Berkeley Chemical Engineering",
+        "",
+        "\"Bryan Rogers\" conceptual design San Francisco State University",
+        "\"Bryan Rogers\" kinetic sculpture fluid dynamics Berkeley",
+        "\"Bryan L. Rogers\" Experiments in Art and Technology E.A.T."
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiPhiJMoBtSD_OFRnaZrePhOkjyQSTIkybQQUQvYnxLvPUg3O2NJnZiMzTeyfp7eZ7Amj3MbTxwde3CnPZP1n6kFrYUFTlFsvZesjrGCDIaKY3GcQv-8vz1XV_jVfNUlwtD-EeHjmACPo=",
+          "title": "ugaartscollaborative.com",
+          "resolvedUri": "https://ugaartscollaborative.com/bryan-rogers/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp0mVkdjgjvpjVVqQMf4EfdpYN4itRFL--wXUI8x6KBEFS7MTfZFjf5BIOD0ysaMAeetI67uWP0JdOkmNf-kx1MVq2_N_JbGQJglzijOeBSTmByW0fQv4GZrvE6BurexSO1A8bvX4F3GLUO0HRPWw7i_ifDpw=",
+          "title": "escholarship.org",
+          "resolvedUri": "https://escholarship.org/content/qt77h8p9th/qt77h8p9th.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwfGrnB6Jm8i-7u7fhERmESqy7rO_TzIA30dXZjPCrwybh_A_l_fFpz6v9OhcwiIL51KtuZoUqObniNI46GWrM1PgpQ_JjfWf5RdU1l6-Jy9qDt2pY1aZfZIw7wWBR7ri2CbasItVLxDoMGQ9eZLq2CC0iaYXOS-KYFuXV-qiFE1PmwmXw",
+          "title": "ufl.edu",
+          "resolvedUri": "https://ufdcimages.uflib.ufl.edu/AA/00/00/03/83/00050/AA00000383_00050.pdf"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG7Mxa6yzqMd9fYxn7pgRlhGSa3YIqGGUoug-1GoCJjYQZl5ejAYODnLqcx7iZtsAja0PXqug7frT97ICPrv_S96aEDtb8KkMazOj4B7OieXnvYv4lwf3TPm-JADourpVCicRRNpZ_2uomJB_ZjnlGWEEVP2mFFyqrbgMcRFsW7DDFC9NWMLo7cC7l1MA=",
+          "title": "unc.edu",
+          "resolvedUri": "https://www.med.unc.edu/toxicology/alumnus-of-the-month-brian-rogers-phd-mba-dabt/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzQPnN1cZHe6Qm43Kpza_y1L8uv18ShHiPNKL53_d0Y-eoDrY71a_ETivpRLOHJsBiJmzOr74Mf8Jkp2qFZTpXgM-xDRjSemunanOrep_IGbwceOlCj7l20oW1I14huBrkEfGOZCvz2UTJOl6-_y2SyYBu4iZ_KldzKvD6JaCEoNEEWZVJcLp4ImNDu32grD065Pd5hyvp70A2SA7Ub-jEOpbFa6reyJwSZNGwioq8qwL6CIBCfMPHd10ePEP3XTN6M1KEy1yi_tNf9FOmqnVpcx0AsrdBVXy__wznv3saulOF",
+          "title": "dokumen.pub",
+          "resolvedUri": "https://dokumen.pub/educating-artists-in-a-digital-age-learning-at-the-intersections-of-art-science-technology-and-culture-9781841501918-9781841502267-1841501913.html"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 215,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Bryan L. Rogers (1941–2013) was a chemical engineer, sculptor, and prominent arts educator who bridged the fields of science and technology with artistic practice."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 659,
+            "endIndex": 879,
+            "text": "Rogers was a significant figure in the intersection of art and technology, serving as a Fellow at MIT’s Center for Advanced Visual Studies (CAVS) and as the editor of the international journal 'Leonardo' (1982–1985)."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1153,
+            "endIndex": 1781,
+            "text": "His career was defined by promoting collaborations between artists and scientists, aligning with the core goals of organizations like Experiments in Art and Technology (E.A.T.).\",\n      \"sources\": [\n        \"https://www.annarbor.com/news/university-of-michigans-longest-serving-art-school-dean-bryan-rogers-dies-at-72/\",\n        \"https://escholarship.org/content/qt8n23j4g7/qt8n23j4g7.pdf\",\n        \"https://record.umich.edu/articles/obituaries-115/\",\n        \"https://www.studioforcreativeinquiry.org/people/bryan-rogers\",\n        \"https://ugaartscollaborative.com/node/140\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            4
+          ]
+        }
+      ]
+    }
   }
 }

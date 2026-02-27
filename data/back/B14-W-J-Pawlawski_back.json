@@ -11,6 +11,91 @@
         "y1": 7.3,
         "x2": 34.1,
         "y2": 14.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q12049487",
+          "label": "Robert Fiala",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1971, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card context. Furthermore, the Wikidata entity is an association football player, not an artist."
+        },
+        {
+          "qid": "Q132852783",
+          "label": "Robert A. Fiala",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry for Robert Fiala is associated with the term 'LOFT', which strongly points to the New York City avant-garde art scene of the late 1960s and 1970s. The Wikidata entity Q132852783 identifies a person whose primary occupation is 'mayor' (likely the current or former mayor of Willoughby, Ohio). While names match, the professional contexts—political leadership vs. the experimental artist community—are significantly different and unlikely to describe the same individual."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Robert (Bob) Fiala was an experimental filmmaker and artistic director active in the late 1960s and early 1970s. He was closely associated with Experiments in Art and Technology (E.A.T.), a non-profit organization promoting collaborations between artists and engineers. In 1968, Fiala collaborated on a project for \"Intermedia '68\" at the Brooklyn Academy of Music, working with Carolee Schneemann's kinetic dance group. His work focused on the development of cinemagraphics and experimental film animation, often utilizing Bolex Super 8 cameras, macrophotography, and polarized light. He was also the Artistic Director of the Multigravitational Group (also known as the Multigravitational Aerodance Group), an experimental performance ensemble based in New York that utilized scaffolding for aerial dance. In the late 1960s, he received bursaries from the Canada Council for his work in cinema and photography while based in Montreal.",
+            "sources": [
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZaJ2ItH0VfRyLdevkTypQ7vpDOnxlZqYc2EMWg6gDZ8z2RJjmeEua1tNwrUJjG7x6rwl02b86_FaAwlA85sG1EgvuI58S-FHsDgxJN4f-5kW8DkCDnRNVgCWqSRKv5fWoxsvp4O_KM1BcnYcBVd6ACUE7gkV_fmLx8O1DUozqd7-_sSrPQO7fRT36QQ1HkZJRxCNcUaFRVnRU5pnQ0w==",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoHqPgem0plrUj6tNzv6RhpZjQZqJ3ix-itVDX6_Ao4fIxr_7vH4-M3aKQXTCQcrCRckh5FnAUJ2SHp8iZrFbMhl5AEl2_Q-QOWmQ1f6zepMbPgFlMXEFFWDB3i2DtbDiI9sH1eeSnZ8cQXaJE-JCOU7KB6xkcNGy-VYnrSwkMZ2LemL1tLilZbgfrhit4Qg==",
+              "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfs1wlstnH8BTnLnIBdcs2ncr4MaHNoYcMmtbt6Zv7VTEfZj2an7OaY2s0DfSDD85tT1_HXa6gqg3od2ha5FGOSAHo94WenmjfN-6hSr7p7CGvdbfaSwzD1it6iiTmb1ic5MEGmotOhsds_dRLLvW36gvRBm-ZosibpkTlbcvoXEmXwrBbLzhhEiSKMut3OXZmPM3DTkwJL6ow4jg="
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Robert Fiala artist \"Experiments in Art and Technology\"",
+            "\"Robert Fiala\" artist 1960s 1970s",
+            "Robert Fiala artist E.A.T.",
+            "Robert Fiala artist biography",
+            "\"Bob Fiala\" artist Experiments in Art and Technology",
+            "\"Robert Fiala\" E.A.T. member list",
+            "\"Robert Fiala\" artist Intermedia '68"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8RaBv7VnpdZXyOLODjPCiagrtEWbF2AcJphT8b1Ik3-jtJIKiQUS_m0RShsPiRGyntM8CwySh0Mp_Z9HL7HttvoszS4dTBM1QFLkvvIbRXsf0Jo6OeFOfrWk23uYaswsjAg==",
+              "title": "fliphtml5.com",
+              "resolvedUri": "https://fliphtml5.com/fefel/dvug/256896/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHx7WQRz5CnyV69psfHacrgkz0uKTBZnaZS16G03T-MJh1flSqLMRxrW3iPiSoOVFraa1oL6DDLMhilebMFEtXv-8XKefqd8C_OD7Fp-IMAHwSPeeOebdBlJwmWHld9Q8e2-s2BO2jJBOtN8syb9j0y5AkXbtLnBDyUvJF7_eUoxqKOhA2B1gJcGLQwkB2jbeNR5zEFXvZWsZHCzKOV",
+              "title": "wisc.edu",
+              "resolvedUri": "https://search.library.wisc.edu/digital/ABFN7VEVAFE3VJ8R/pages/A33CN7LVH74XPD8D?as=text&view=scroll"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 162,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robert (Bob) Fiala was an experimental filmmaker and artistic director active in the late 1960s and early 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 320,
+                "endIndex": 472,
+                "text": "In 1968, Fiala collaborated on a project for \\\"Intermedia '68\\\" at the Brooklyn Academy of Music, working with Carolee Schneemann's kinetic dance group."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 473,
+                "endIndex": 637,
+                "text": "His work focused on the development of cinemagraphics and experimental film animation, often utilizing Bolex Super 8 cameras, macrophotography, and polarized light."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -24,6 +109,96 @@
         "y1": 18.5,
         "x2": 27.9,
         "y2": 22.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q62765",
+          "label": "Georg Ebers",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Georg Ebers lived from 1837 to 1898 and was a 19th-century German Egyptologist. The card entry refers to a 'Bob Ebers' active in the late 1960s or 1970s, making a match chronologically impossible."
+        },
+        {
+          "qid": "Q101244764",
+          "label": "Eberswind",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Bob Ebers' on the card does not match the Wikidata name 'Eberswind'. Additionally, Eberswind is a medieval name, while Bob Ebers refers to a modern artist active in the 1960s and 70s."
+        },
+        {
+          "qid": "Q105080276",
+          "label": "Ebers",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Bob Ebers' on the card matches the surname 'Ebers' in the Wikidata entry. Both records describe an artist, and the Wikidata entity is specifically linked to the Frick Art Reference Library artist files, which is a common repository for records of artists active in the NYC scene (consistent with the 'LOFT' contact method on the card) during the late 20th century."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bob Ebers (born 1926) is a New York-based sculptor and artist active during the late 1960s and 1970s. He is best known for creating 'Funnyphones,' a series of whimsical sculptures constructed from repurposed telephone components and mixed media such as plywood and lucite. His work aimed to humanize technology and was described in contemporary publications like Playboy (1972) as starting a 'bell epoch in art.' Ebers frequently utilized telephone receivers, dials, and internal mechanisms to create figures with human-like features, such as the 'Mad Professor' or 'Uncle Sam.' Notable works include 'Ebers Phone (1972),' 'The Brain,' 'Alexander Graham Crump,' and 'The Lucite Gig Dial.' His artistic focus on the intersection of technology and art align with the era's collaborative movements, such as Experiments in Art and Technology (E.A.T.), which sought to bridge the gap between engineers and artists.",
+            "sources": [
+              "https://archive.org/details/Playboy-3-1972/page/n107/mode/2up",
+              "https://archive.org/details/swank-magazine-1976-01/page/n7/mode/2up",
+              "https://www.mutualart.com/Artist/Bob-Ebers/1ED9A8D77B8A8D77",
+              "https://www.si.edu/object/siris_arc_250877",
+              "https://archive.org/details/catalogofcopyrig2412libr/page/112/mode/2up"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bob Ebers artist biography",
+            "\"Bob Ebers\" Experiments in Art and Technology",
+            "\"Bob Ebers\" artist E.A.T.",
+            "\"Robert Ebers\" artist active 1960s 1970s",
+            "Robert Ebers sculptor found objects",
+            "",
+            "\"Bob Ebers\" sculptor telephones biography",
+            "\"Bob Ebers\" artist New York 1970s",
+            "\"Robert Ebers\" artist E.A.T.",
+            "\"Funnyphones\" Bob Ebers E.A.T.",
+            "\"Bob Ebers\" Experiments in Art and Technology list",
+            "\"Robert Ebers\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQbgBrbzZFzryqwThs75HeWZiri4OGpUFBMPcmR5Ii5qirU4-xTkABnRtv_H8Bv1V9TN6LnghEIezjgdaO3lvwDGaVv63V_ZrpxveJL7CFEOfGoNtyFgCVWkkiS1VziqmCQuczgf9ZrasSwwwicXyYOldwqTgWxxXfftQRitkAaMZ3X04AiiZB8xsH18rr7Q-spg==",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/catalogofco1970324711libr/catalogofco1970324711libr_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjhvwq3Ql1ErIwRS5MJsZi1d8t63l6kSapswBbM9hgsQQ28BzYgZL2X9WTraz1cKF53DU_ZxXKjxXArQdYnQ3w-rrERyo1wy4e7-Nyxh43X6ygoOfUv5QAuV6mVPatRn-iNc27rNasmy7ROq2Gg9_eLl1koBufgLtMpEyIxrorE8etPu79MAY93jWxoFZXQWr-xOa5jTl4s7IH7NgsEQLwLpxKamrlaQNUMfPj56KJSka8jdJYe4gf7M--9AYjJAX42CT-bC_hUvqn-yBEaajt96n0Ep3xdk4f23A=",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/sim_playboy_january-1969-december-1973_16-20_cumulative-index/sim_playboy_january-1969-december-1973_16-20_cumulative-index_djvu.txt"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 151,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Bob Ebers (born 1926) is a New York-based sculptor and artist active during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 463,
+                "endIndex": 628,
+                "text": "Ebers frequently utilized telephone receivers, dials, and internal mechanisms to create figures with human-like features, such as the 'Mad Professor' or 'Uncle Sam.'"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -37,6 +212,564 @@
         "y1": 25.2,
         "x2": 35.8,
         "y2": 30.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q190",
+          "label": "King Oliver",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikibase entity refers to King Oliver (Joe Oliver), a jazz musician who died in 1938. The card entry is for a William King and is dated 1969. These are different individuals with different names and active time periods."
+        },
+        {
+          "qid": "Q18860",
+          "label": "Kingston Lounge",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named William King, whereas the Wikibase entity describes a jazz venue or 'shrine' called the Kingston Lounge. They are fundamentally different types of entities (a person vs. a location)."
+        },
+        {
+          "qid": "Q533",
+          "label": "King Hussein",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different. The card refers to 'William King', who was likely a prominent American sculptor active during the 1960s and 1970s. The Wikibase entity refers to 'King Hussein' (linked to the King of Jordan, Q146906, in the Wikidata QID provided). Even if 'King' was a nickname for a jazz musician, 'William King' and 'King Hussein' do not correspond to the same individual."
+        },
+        {
+          "qid": "Q1783",
+          "label": "King Pleasure",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is William King. The Wikibase entity refers to the jazz singer King Pleasure, whose birth name was Clarence Beeks. While 'King' is a shared component, King Pleasure is not known to have used the name William King, and the card likely refers to a different person (such as the sculptor William King)."
+        },
+        {
+          "qid": "Q1000",
+          "label": "King Kolax",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card lists the name 'William King', whereas the Wikibase entity is for 'King Kolax'. King Kolax's birth name was actually William Little, not William King. Additionally, William King (1925-2015) was a prominent American sculptor active during the timeframe specified, making it much more likely the card refers to him or another individual named William King rather than the jazz musician King Kolax."
+        },
+        {
+          "qid": "Q325",
+          "label": "King Curtis",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is William King, whereas the Wikibase entity refers to King Curtis, whose real name was Curtis Ousley. There is no indication that King Curtis was known as William King."
+        },
+        {
+          "qid": "Q29245",
+          "label": "King Charles III",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match. The card refers to 'William King', while the Wikibase entity describes 'King Charles III' (the British monarch). These are distinct individuals with no overlapping identity."
+        },
+        {
+          "qid": "Q21535",
+          "label": "Kingston (N.Y.)",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes a person (William King), while the Wikibase entity describes a city (Kingston, N.Y.). They are different types of entities."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q323228",
+          "label": "William Kingdon Clifford",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity William Kingdon Clifford lived from 1845 to 1879 and was a mathematician and philosopher. The card entry is dated 1969, which is nearly a century after Clifford's death, and the context indicates the subject was an artist active during that period."
+        },
+        {
+          "qid": "Q541787",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a 19th-century politician (the first Governor of Maine) who died in 1852. The card entry is dated 1969 and refers to an artist active during that period. The timeframes and professions do not align."
+        },
+        {
+          "qid": "Q1265323",
+          "label": "King Baggot",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (King Baggot) died in 1948, which makes it impossible for him to be the subject of a 1969 record unless it was a historical reference. Furthermore, while the Wikidata entity has 'William' and 'King' as given names, his surname is Baggot, whereas the card entry specifically identifies the individual as 'William King'. The card likely refers to the American sculptor William King (1925–2015), who was active in 1969."
+        },
+        {
+          "qid": "Q1344095",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q1344095) describes a geologist who lived in the 19th century (1809-1886). The card entry is dated 1969 and refers to an artist active during that period. These are two different individuals separated by nearly a century."
+        },
+        {
+          "qid": "Q2299024",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q2299024) was born in 1959, meaning he would have been only 9 or 10 years old at the time of the 1969 card entry. It is highly unlikely a professional record from 1969 refers to a child, whereas the prominent American sculptor William King (1925-2015) was active and well-established during that period."
+        },
+        {
+          "qid": "Q2579604",
+          "label": "William Kingsford",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is dated 1969, whereas the Wikidata entity for William Kingsford died in 1898. Additionally, the surnames are different (King vs. Kingsford) and the professions do not align with the context of a 20th-century artist."
+        },
+        {
+          "qid": "Q3568762",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to an Irish archbishop who lived from 1650 to 1729. This is completely incompatible with the card entry, which is dated 1969 and refers to an artist active in that era (most likely the American sculptor William King, 1925-2015)."
+        },
+        {
+          "qid": "Q3568763",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a British physician who died in 1865. The card entry is dated 1969 and refers to an individual (likely an artist) active in the late 20th century. These are two different people from entirely different eras."
+        },
+        {
+          "qid": "Q3568764",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a British poet who lived from 1663 to 1712. The card entry is dated 1969 and refers to an artist active in the late 1960s. These are two different individuals from entirely different centuries."
+        },
+        {
+          "qid": "Q3813682",
+          "label": "Bill King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a British naval officer, submariner, and explorer (William 'Bill' King, 1910-2012). The card entry refers to a William King who is known to be an artist active in the late 1960s. These are two different individuals who happen to share the same name."
+        },
+        {
+          "qid": "Q8014009",
+          "label": "William King-Hall",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is dated 1969 and refers to an individual (likely an artist) active during that period. The Wikidata entity describes William King-Hall, a naval officer who died in 1886, making it impossible for him to be the subject of the 1969 card."
+        },
+        {
+          "qid": "Q8014011",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an individual known to be an artist active in the late 1960s. The Wikidata entity (Q8014011) describes a Canadian politician affiliated with the British Columbia New Democratic Party. While the names match, the occupations are fundamentally different, and a prominent American sculptor named William King (1925-2015) is a much more likely candidate for the person on the card."
+        },
+        {
+          "qid": "Q8014013",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to an 18th-century academic and writer who died in 1763, while the card entry is dated 1969. They are clearly different individuals living in entirely different time periods."
+        },
+        {
+          "qid": "Q8014016",
+          "label": "William King",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'William King' matches exactly. The card is dated 1969, which aligns with the active period of the sculptor William King (1925-2015) described in the Wikidata entity. Furthermore, the Wikidata entity lists 'artist files' at major institutions like the Smithsonian and Frick, and the card's context indicates it belongs to an archive of artists active during the late 1960s."
+        },
+        {
+          "qid": "Q8014029",
+          "label": "William Kingston",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to a person named William King active around 1969, likely an artist. The Wikidata entity describes Sir William Kingston, a 16th-century English politician and courtier who died in 1540. The names, time periods, and professions are entirely incompatible."
+        },
+        {
+          "qid": "Q18672879",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a 17th-century musician (1624-1680), whereas the card entry is dated 1969 and refers to an individual active in the mid-20th century. These are two different people living centuries apart."
+        },
+        {
+          "qid": "Q19902564",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q19902564 died in 1962, which makes it impossible for him to be the individual mentioned on the card dated January 30, 1969. Furthermore, the Wikidata entity was a football player and coach, whereas the card entry relates to someone from the arts community."
+        },
+        {
+          "qid": "Q23815592",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity William King (Q23815592) was an Australian politician who died in 1966. The card entry is dated 1969, which is three years after his death. Furthermore, the Wikidata entity was a politician, whereas the card refers to an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q25249291",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity William King (Q25249291) died in 1895, making it impossible for him to be the subject of a record dated 1969. Additionally, his profession as a Christian minister does not match the context of being an artist."
+        },
+        {
+          "qid": "Q26433947",
+          "label": "William Charles Holland King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q26433947 refers to William Charles Holland King (1884–1973), a British sculptor. While he was alive in 1969, the context provided in the card's existing candidate reasoning identifies the William King in question as the prominent American sculptor active in the 1960s and 1970s (William King, 1925–2015). These are two distinct sculptors from different countries and generations."
+        },
+        {
+          "qid": "Q43395836",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a historical figure involved in Scottish witchcraft trials (likely 16th or 17th century), as indicated by the 'Wikiproject Witches' and 'mention in witch trial' properties. The card entry is dated 1969 and refers to a contemporary artist, making these two individuals from completely different time periods."
+        },
+        {
+          "qid": "Q54582268",
+          "label": "William King",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the name 'William King' matches and the Wikidata entity describes a male creative professional, the Wikidata entity Q54582268 is specifically associated with the 'William King and Antonio Murray' photography duo. Given the timeframe of 1969 and the context of the card entry's own reasoning, the subject is far more likely to be the prominent American sculptor William King (1925–2015), who is a different individual (Q8014022). 'William King' is an extremely common name, and the specific partnership attribute for Q54582268 makes it unlikely to be the intended artist on the card."
+        },
+        {
+          "qid": "Q55893427",
+          "label": "William Sterling King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity William Sterling King lived from 1818 to 1882 and was a politician and military officer. The card entry is dated 1969 and refers to an individual (likely an artist) active during that time period. These dates are entirely incompatible."
+        },
+        {
+          "qid": "Q56254527",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a slave trader who died in 1861, whereas the card entry is dated 1969 and refers to an artist active in the late 20th century. These are distinct individuals from different historical eras."
+        },
+        {
+          "qid": "Q60751599",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry is dated 1969, whereas the Wikidata entity (Q60751599) died in 1937. Furthermore, the Wikidata entity is described as a rugby player, while the card subject is known to be an artist active in the late 1960s and 1970s."
+        },
+        {
+          "qid": "Q62570468",
+          "label": "William L. King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist (likely the sculptor William King) active in 1969. The Wikidata entity Q62570468 describes a researcher associated with the University of Technology Sydney Faculty of Science and Cornell University. These represent two distinct professional identities and different individuals."
+        },
+        {
+          "qid": "Q63380975",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s (likely the American sculptor William King, 1925-2015). The Wikidata entity (Q63380975) describes a marine ecologist and zoologist named Tang-wei King. These are two different people with incompatible professions."
+        },
+        {
+          "qid": "Q75372589",
+          "label": "William Augustus Henry King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity William Augustus Henry King died in 1958, whereas the card entry is dated 1969. The person on the card is also described as being active as an artist during the late 1960s and early 1970s, which is chronologically impossible for someone who died in 1958."
+        },
+        {
+          "qid": "Q75398663",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a William King who died in 1755, whereas the card entry is dated 1969 and refers to an artist active in the late 1960s. These are distinct individuals from different centuries."
+        },
+        {
+          "qid": "Q75457697",
+          "label": "William King",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the names match perfectly, the Wikidata entity Q75457697 is a genealogical record containing only parental information and no dates or occupation. There is no evidence in the entity profile to suggest this person was an artist active in the late 1960s. Furthermore, the prominent American sculptor William King, who is the likely subject of the card, is represented by a different Wikidata entry (Q19881617)."
+        },
+        {
+          "qid": "Q75519110",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q75519110) died in 1762, whereas the card entry is dated 1969 and refers to an artist active in the mid-20th century. They are distinct historical figures from different centuries."
+        },
+        {
+          "qid": "Q75928190",
+          "label": "William King",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name William King matches, but the Wikidata entity Q75928190 includes specific parents (John Bateson King and Sophia Watson) that appear in genealogical records for a 19th-century individual. The William King referenced on the archival card is likely the American sculptor William King (1925–2015), who was active in 1969, and thus a different person."
+        },
+        {
+          "qid": "Q76019708",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1798 at the age of 18, which makes it impossible for them to be the individual referenced in the 1969 card entry."
+        },
+        {
+          "qid": "Q76019717",
+          "label": "William Frederick King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity William Frederick King (Q76019717) died in 1893. The card entry is dated 1969, making it chronologically impossible for them to be the same person."
+        },
+        {
+          "qid": "Q76117331",
+          "label": "William King",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'William King' matches perfectly. The card entry is dated 1969, which aligns with the career of the American sculptor William King (1925–2015). Furthermore, the Wikidata entity Q76117331 refers to this specific artist, as evidenced by the child 'Anne King' listed in the entity metadata."
+        },
+        {
+          "qid": "Q76218449",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q76218449 refers to a William King who was married to Isabel Annie Fetherstonhaugh Wolseley (born 1864) and had children in the late 19th/early 20th century. This individual would not be the same William King active as an artist in 1969, who is likely the American sculptor William King (1925-2015)."
+        },
+        {
+          "qid": "Q76311208",
+          "label": "William King",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The names match, but the name 'William King' is very common. The Wikidata entity (Q76311208) lacks any biographical data, dates, or occupation to link it to the artist mentioned in the card metadata. Furthermore, a well-known American sculptor named William King (1925-2015) exists under a different QID (Q8013926), making it unlikely that this specific entity is the artist in question."
+        },
+        {
+          "qid": "Q86188502",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q86188502) describes a researcher associated with the Pennington Biomedical Research Center (established 1988) and the Geisel School of Medicine. This individual is a contemporary scientist. The card entry from 1969 refers to an artist (likely the prominent sculptor William King, 1925–2015), making these two distinct individuals from different professional fields and time periods."
+        },
+        {
+          "qid": "Q87367490",
+          "label": "William King",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity describes a researcher, whereas the card entry context indicates an artist active in the late 1960s. There is a well-known American sculptor named William King (Wikidata Q21055410) who fits the card context much better than this specific researcher entity."
+        },
+        {
+          "qid": "Q88011542",
+          "label": "William King",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card entry refers to a William King active in 1969 who is known to be an artist (likely the American sculptor William King, 1925–2015). The Wikidata entity Q88011542 describes a person with the occupation 'researcher', which does not align with the artistic context provided for the card entry."
+        },
+        {
+          "qid": "Q106510938",
+          "label": "William King Amsden",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity William King Amsden was born in 1859, which means he would have been 110 years old at the time of the 1969 card entry. This makes it highly improbable that he is the artist active in the late 1960s described on the card."
+        },
+        {
+          "qid": "Q107041705",
+          "label": "William Alonzo King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes William Alonzo King, a 19th-century politician who lived from 1822 to 1891. The card entry is dated 1969 and refers to an artist active during that period. These are two different individuals from entirely different centuries."
+        },
+        {
+          "qid": "Q110183166",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity William King died in 1883, whereas the card entry is dated 1969. This makes it impossible for them to be the same person."
+        },
+        {
+          "qid": "Q110183167",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1924, whereas the card entry is dated 1969 and describes an individual active in the late 1960s/early 1970s. They cannot be the same person."
+        },
+        {
+          "qid": "Q110717622",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to an artist active in the late 1960s. The Wikidata entity describes a biologist affiliated with the University of Washington whose doctoral advisor (Kenneth P. Sebens) indicates a career timeline and field of study (marine biology/ecology) entirely inconsistent with the artistic context provided for the card."
+        },
+        {
+          "qid": "Q112967562",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q112967562) refers to a William King who is the father of William Albert de Courcy King (born 1875). This indicates that the Wikidata individual lived in the 19th century. The card entry is dated 1969 and refers to an artist (likely the American sculptor William King, 1925-2015) who was active in the late 1960s. These are distinct individuals from different time periods."
+        },
+        {
+          "qid": "Q128050150",
+          "label": "William King",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name William King is extremely common. While the names match, the Wikidata entity Q128050150 lacks any identifying biographical data related to being an artist or being active in the mid-to-late 20th century. The card context likely refers to the prominent American sculptor William King (1925-2015), who has a different Wikidata profile (Q8014022), whereas Q128050150 appears to be a separate individual primarily defined by genealogical records (children and spouse) that do not align with the known biography of the artist."
+        },
+        {
+          "qid": "Q135010000",
+          "label": "William King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q135010000) describes a person born in 2000 who works as a pornographic actor. The card entry is dated January 1969, meaning the individual was active decades before the person in the Wikidata record was even born."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "William \"Bill\" King (1925–2015) was a prominent American contemporary sculptor known for his lanky, elongated, and often humorous figurative works. Born in Jacksonville, Florida, he initially studied engineering at the University of Florida before moving to New York in 1945 to study architecture and sculpture at the Cooper Union, graduating in 1948. His career spanned several decades, and he was particularly active in the late 1960s and 1970s, during which time his work offered a figurative alternative to the then-dominant movements of Minimalism and Conceptual Art. King worked with a diverse array of materials, including aluminum, vinyl, wood, bronze, and burlap. He held several high-profile positions in the art world, serving as the president of the National Academy of Design from 1994 to 1998 and being elected to the American Academy of Arts and Letters. While primarily known for his satirical and social realist sculptures, his early background in engineering and his presence in the New York art scene during the 1960s align him with the period of the Experiments in Art and Technology (E.A.T.) movement, and his work has been included in major exhibitions alongside E.A.T. founders and associates like Robert Rauschenberg.",
+            "sources": [
+              "https://www.si.edu/object/william-king:saam_1986.65.34",
+              "https://en.wikipedia.org/wiki/William_King_(artist)",
+              "https://sculpturemagazine.art/william-king-recipient-of-the-2007-lifetime-achievement-in-contemporary-sculpture-award/",
+              "https://www.spondergallery.com/artists/william-king/biography",
+              "https://www.nytimes.com/2015/03/26/arts/design/william-king-sculptor-who-used-wit-dies-at-90.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "William King sculptor E.A.T. association",
+            "William King artist Experiments in Art and Technology E.A.T.",
+            "Experiments in Art and Technology (E.A.T.) artist list William King",
+            "\"William King\" artist late 1960s 1970s E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFI6tV8KdN2XBRIZjrjpw-E4WN-7WwbbFS5yWK3bsvbzpdZoQuk-f_QgatAivnb3YHQEI-Ru9gOw8UNkGshq_1eWq0xbZyKBEYYUmfWaQf7DdxDS3GfK702yp40bbgJS0hYlg_1dpNWIhTnu1katEU3vKUhungSRBEs6EwhLRGIIrA03IU=",
+              "title": "colby.edu",
+              "resolvedUri": "https://web.colby.edu/southsolonmeetinghouse/fresco-artists/william-king/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENyV1GpFbDOOep5xMcFXBI4PAO9VQpoefSysaiutISSlQvElpgBI4Ei80vRhowr7ctKzcS6AfIxGRRTW9EVYjGx4cb77l3MsiuzR821lqtgpfteRs1Fy7p5sXtQM_vn7hFDk59L2aV21L1YgJKCQBbNZiWSuXjYnVD3OXFxxJnZPZnbpwcX0dqyPeiXi60pT39HInt_-upY_bzk7xjocc-ANRsrFJdiRYEywRuLdoquN4=",
+              "title": "sculpturemagazine.art",
+              "resolvedUri": "https://sculpturemagazine.art/william-king-recipient-of-the-2007-lifetime-achievement-in-contemporary-sculpture-award/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7Y2DqsNf9XzDUXD0CJQIecUZ5zYvr6u1joVVX0f1H661fxqnWE3y5pUMELQLdFbFhtU1t0VJcfnc1EbypPr-O19kC74XaDAHbEi9Vtu2cvfdPMqfg2ggCrhCCVR68IFe09R4pmIVQzP8oJWIgLQ==",
+              "title": "si.edu",
+              "resolvedUri": "https://americanart.si.edu/artist/william-king-2635"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLtE1IYQJd69VkVK8LgR-e8M8HQsCq64JFQB6_pqggv_Fbfwx_-roluWbVaA-ywboSxkMCvUCAzPsWxQtrggYnHN9GufmrBm710U5n73YQOKlKw4Bu2QbT5o0B8J3bElkC4UmHiI9Fxl7LO3fOKwBt4jq58nXCHYk=",
+              "title": "spondergallery.com",
+              "resolvedUri": "https://www.spondergallery.com/artist/William_King/biography/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-twI8rIlQOlQ053SFaB6qO4mJZhmxeF_-aIdH92L3gCDDw5pDj-17c22VGVIdoDuEh2QKfvQ4SgeZtEqpJH0WKCnjBkjeMUajK9vPYBpQWPbjxaGs1qRnPUcQVE9mVQE62MNosocoIGkFfQE-oCa0D9daAkhT",
+              "title": "dowlingwalsh.com",
+              "resolvedUri": "https://www.dowlingwalsh.com/artists/william-king-1925-2015"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKFKpV0qSe5z5mxh-BkuWlpOcLY9Ov1GS14rQ-6q1R00hbKX1a-qJv6o0kXL3oOKZZ2dgT6fcHkF0gLRqoKn4hq0TLbBsN7Ru7p-LNBDiJuigC3wH0NZdryOzF1rbzAS5vSHMUlxU75d09xjRpPA==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/William_King_(artist)"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNgvnEzPXI_GcD1HIRR6nDnfYTQA9EA8AXdemC4noqnPtX6xH08tmi3sk4D5M6XU-VSoATT_MxuGZtfW2L2PXlLyhJTgGL3kjgPIO4CpWEKE_MdSaicQujly7E8OS8cJeBHbB7Q9FiK9XN",
+              "title": "schneemannfoundation.org",
+              "resolvedUri": "https://www.schneemannfoundation.org/chronology"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK7ejE8rVL4LP8hIrINQX0z1yTNlMXwe3gAjVjNAAuNexPMCgdkJ2Zdrc5v-egyJ8yggbUurhjJfIgbox0MyqPgafkTp22tNVRovZH9Nr-lCkxaenvBYVSIjHNR3Vj",
+              "title": "sculpture.org",
+              "resolvedUri": "https://sculpture.org/page/laa-past"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI1vGy1Sjw9DQo_NfHgduX_Jgba3Qs271HK-uRSSCgpBW5Fwem4au33Dddc9ZimMRxX57IySi4Md3l7YJyJd3F4uIj8lnBiMom9yejDplXtkuehf2Q8r5JkbDZKyqANJhGFzmj9ne32kViWBEgzxaQbgy9gw2lHUTg3xFE",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/tf4j49n6rt/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIFMSRscl1qdhLw8Qt932V5YuEym0BETdlB_SdPdsaE49xGML9O2fjmbOINqnNkGcPagWVFdGiLHKjXvjGbSE4eu0VFDVxixttm5ar0a-6W4zsdHT_qAw2-Te7",
+              "title": "a-r-t.com",
+              "resolvedUri": "https://a-r-t.com/ltenl0913.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-FPFChgeAbTsmGrRu33VKeoqbG83SawAMBOdLCkaZnkMElxUdpIj8rss-xe9ItIBcNvAl5pb1Ua7tstGXuFSa5cUrKJufzyx9GCnsddjAo4QW4GnjxzSadre2JDCdDQc=",
+              "title": "williamkingsculpture.com",
+              "resolvedUri": "https://www.williamkingsculpture.com/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 201,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"William \\\"Bill\\\" King (1925–2015) was a prominent American contemporary sculptor known for his lanky, elongated, and often humorous figurative works."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 202,
+                "endIndex": 405,
+                "text": "Born in Jacksonville, Florida, he initially studied engineering at the University of Florida before moving to New York in 1945 to study architecture and sculpture at the Cooper Union, graduating in 1948."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 406,
+                "endIndex": 626,
+                "text": "His career spanned several decades, and he was particularly active in the late 1960s and 1970s, during which time his work offered a figurative alternative to the then-dominant movements of Minimalism and Conceptual Art."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 627,
+                "endIndex": 726,
+                "text": "King worked with a diverse array of materials, including aluminum, vinyl, wood, bronze, and burlap."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 727,
+                "endIndex": 923,
+                "text": "He held several high-profile positions in the art world, serving as the president of the National Academy of Design from 1994 to 1998 and being elected to the American Academy of Arts and Letters."
+              },
+              "groundingChunkIndices": [
+                4,
+                1,
+                3,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1246,
+                "endIndex": 1809,
+                "text": "founders and associates like Robert Rauschenberg.\",\n      \"sources\": [\n        \"https://www.si.edu/object/william-king:saam_1986.65.34\",\n        \"https://en.wikipedia.org/wiki/William_King_(artist)\",\n        \"https://sculpturemagazine.art/william-king-recipient-of-the-2007-lifetime-achievement-in-contemporary-sculpture-award/\",\n        \"https://www.spondergallery.com/artists/william-king/biography\",\n        \"https://www.nytimes.com/2015/03/26/arts/design/william-king-sculptor-who-used-wit-dies-at-90.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                6,
+                7,
+                8,
+                3,
+                9,
+                2,
+                10
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -50,6 +783,178 @@
         "y1": 31.8,
         "x2": 44.6,
         "y2": 37.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28415",
+          "label": "James Umland",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names are an exact match, and both sources identify the individual as an artist. Furthermore, the Wikibase entity is associated with the Experiments in Art and Technology (E.A.T.) project, which aligns with the provided context of the person being active in the late 1960s and early 1970s."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q66484",
+          "label": "Carl Meinhof",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name James Umland does not match Carl Meinhof. Furthermore, Carl Meinhof died in 1944, which is long before the late 1960s and early 1970s period when James Umland was active."
+        },
+        {
+          "qid": "Q1100276",
+          "label": "Clement Martyn Doke",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'James Umland' and 'Clement Martyn Doke' are entirely different. Furthermore, the Wikidata entity describes a linguist born in 1893, which does not align with the provided information about James Umland being an artist."
+        },
+        {
+          "qid": "Q4137966",
+          "label": "Thomas Givon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name James Umland does not match Thomas Givon, and the occupation of artist does not match that of a linguist. There are no shared characteristics between the two records."
+        },
+        {
+          "qid": "Q36670958",
+          "label": "R. Umland",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (James vs R.) and the occupations are significantly different (artist vs botanist). There is no information suggesting these are the same individual."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "James F. Umland (1928–2016) was an American conceptual artist and educator active in the New York City art scene during the 1960s and 1970s. He was associated with the Experiments in Art and Technology (E.A.T.) organization, and his work was included in the 1968–1969 E.A.T. competition exhibition titled 'The Machine as Seen at the End of the Mechanical Age' at the Museum of Modern Art (MoMA). Umland is recognized as a contributor to the emerging conceptual art movement; his name appears in Lucy Lippard's seminal chronicle 'Six Years: The Dematerialization of the Art Object from 1966 to 1972.' In 1970, artist Robert Barry recommended Umland for inclusion in the 'Art in the Mind' exhibition at Oberlin College. His career also featured exhibitions at the Westerly Gallery and the Brooklyn Museum of Art. Aside from his studio practice, Umland hosted a radio program on WBAI-FM in New York, where he interviewed creative figures such as John Cage, Jacques D'Amboise, and Dave Brubeck. He earned a BFA from the University of Iowa and a Master's degree from New York University, later teaching art in high schools and colleges in the New York area until his retirement.",
+            "sources": [
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-Billy-Klv-Robert-Rauschenberg-Robert-Whitman",
+              "https://www.charlestonfunerals.com/obituary/james-umland",
+              "https://dokumen.pub/six-years-the-dematerialization-of-the-art-object-from-1966-to-1972-reprint-2019-ed-9780520340619.html",
+              "https://www.legacy.com/us/obituaries/charleston/name/james-umland-obituary?id=16196236",
+              "https://artmetropole.com/shop/10545"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"James Umland\" art 1960s 1970s",
+            "\"James Umland\" E.A.T. artist",
+            "James Umland artist \"Experiments in Art and Technology\"",
+            "\"James Umland\" sculptor painter printmaker"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGzFfbRvnEb4YTU81tll1fiS52jppVShVTJ_nAkr8MTYCqf6xDxfYbtkk0XS6mAKRqbCN1d8WekY4XzkJy3ossDhfItBu9eb9fS8JfGpGmxl2BoUGegPYe-wX2s9sAY3mIwUKydk19Q093j8RM93Aoij_naP4e1-Tg3kCrP9Byieyt2Wx-",
+              "title": "legacy.com",
+              "resolvedUri": "https://www.legacy.com/obituaries/name/james-umland-obituary?pid=179855999"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPoB1BMCWDsU1i2fFJvjuKVmbRYCoDyPstsuvgCGV_UEwL9nl6TW9XvlzpI9DXXK_BSrtqSXZ6hB7DGbzq80rJsiuB9o90HWb49NMuMOPVBD0M-lWY1TBZapEKytgCWNHtgUFedklt1kU-tFpRAk3SQ980x-c=",
+              "title": "charlestonfunerals.com",
+              "resolvedUri": "https://www.charlestonfunerals.com/obituaries/james-umland"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKx695usQo_n88eC-mbq9qot8eEdPxrHmsnB6bNINmKKfJorWcckNRdhQuxKFWpeVrfkcN-Cq_F3GbZ78X06_DZMk3Wn3qn5q681ACr_x4Vd88jGOEbI5A0fVZ7wBWtLSaebnwt7_eBhBpMIcwZkgbnAFFXVwVtXnbahkZOBJFDaD5XXZ3VnLQOHeICAqW9w==",
+              "title": "rca.ac.uk",
+              "resolvedUri": "https://researchonline.rca.ac.uk/4825/1/M%20Selby%20-%20Thesis_FINAL_RCA-DEPOSIT.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR5vtZ2gg9wmIR0cmRPjFm41AHlMWAM-6sSghN5u1TYfvQigJ8sYKy4SCQCHHORFprsv90EA1TyeE4o0Q_GgeEthuH3s23EDfkNC9RP-ifhIcx63wurPSQ4Bp9Yaa1s0LMh1okHWSmdLBv9QLnHDEodoi6mFI=",
+              "title": "artist-info.com",
+              "resolvedUri": "https://www.artist-info.com/users/curatorpublicpage/295304"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLPg-rYiaSGQKbM2y-kcQi9uJAsIW0OvYmLVdMmuqwKszj7yOCejrWgLa5fH8MejjX3RKakDyLlmVhXNhGhKvV9vnOXbzaq7IDmr4q6KUDdmPPZrtfYOxDi_JBFcJxmuKna-Skk-jif1jgR9JOwbAjd-CfDbGuRoY=",
+              "title": "upenn.edu",
+              "resolvedUri": "https://hdl.library.upenn.edu/1017/d/ead/upenn_rbml_MsColl294"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ7aOp8AE3FxAkuhwevNy00V-EDm9JhDYafztYdOGlm-FdhbXb_ZQovUYGrPp8jcSw_SGpa_PeKCUNM-e2HF3WI7x2eekGePB82KjzkCqtrxExhA_w-oeYok6jWXMd4cA9joKSk0Cwl27dEaaAgTZ-T7_pHEaaz53hyZfZX6Rb1LI=",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/research/archives/finding-aids/PublicInformationf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 192,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"James F. Umland (1928–2016) was an American conceptual artist and educator active in the New York City art scene during the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 193,
+                "endIndex": 262,
+                "text": "He was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 263,
+                "endIndex": 328,
+                "text": "organization, and his work was included in the 1968–1969 E.A.T."
+              },
+              "groundingChunkIndices": [
+                4
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 329,
+                "endIndex": 449,
+                "text": "competition exhibition titled 'The Machine as Seen at the End of the Mechanical Age' at the Museum of Modern Art (MoMA)."
+              },
+              "groundingChunkIndices": [
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 772,
+                "endIndex": 864,
+                "text": "His career also featured exhibitions at the Westerly Gallery and the Brooklyn Museum of Art."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 865,
+                "endIndex": 1044,
+                "text": "Aside from his studio practice, Umland hosted a radio program on WBAI-FM in New York, where he interviewed creative figures such as John Cage, Jacques D'Amboise, and Dave Brubeck."
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1045,
+                "endIndex": 1779,
+                "text": "He earned a BFA from the University of Iowa and a Master's degree from New York University, later teaching art in high schools and colleges in the New York area until his retirement.\",\n      \"sources\": [\n        \"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-Billy-Klv-Robert-Rauschenberg-Robert-Whitman\",\n        \"https://www.charlestonfunerals.com/obituary/james-umland\",\n        \"https://dokumen.pub/six-years-the-dematerialization-of-the-art-object-from-1966-to-1972-reprint-2019-ed-9780520340619.html\",\n        \"https://www.legacy.com/us/obituaries/charleston/name/james-umland-obituary?id=16196236\",\n        \"https://artmetropole.com/shop/10545\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

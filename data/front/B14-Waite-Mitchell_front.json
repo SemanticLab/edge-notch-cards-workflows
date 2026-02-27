@@ -20,5 +20,83 @@
       "strobes",
       "motors"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q23421",
+      "label": "waitstaff",
+      "description": "person who attends to customers by serving them food and drink",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card data describes a specific individual named Mitchell Waite who works in a physics lab, while the Wikibase entity describes the general occupation of waitstaff (Q157195). One is a person and the other is an abstract job category."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q6881438",
+      "label": "Mitchell Waite",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name Mitchell Waite is an exact match. The geographic locations are highly consistent: the card identifies his employer as the College of Marin (located in Kentfield, CA) and his residence in Corte Madera, CA. Wikidata confirms this individual is a technical professional (computer scientist/programmer) from the same region (San Francisco birth, Sonoma education). The technical expertise listed on the card (lasers, strobes, motors) aligns with the background of a technical author and hardware/software specialist."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5146760",
+      "label": "College of Marin",
+      "description": "educational institution in California",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'College of Marin' is an exact match. Furthermore, both the card and the Wikidata entity associate the organization with Kentfield, California. The card mentions a 'Physics Lab' department, which is consistent with the Wikidata entity being an educational institution (community college)."
+    },
+    {
+      "qid": "Q5146759",
+      "label": "College of Marine Arts",
+      "description": "Sea Research Society's formal higher education wing",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The 'College of Marin' mentioned on the card is a well-known community college located in Kentfield, California, which aligns with the card's geographic data (Corte Madera and Kentfield, CA). The Wikidata entity Q5146759 refers to the 'College of Marine Arts' in South Carolina, which is a different name and a completely different geographic location."
+    },
+    {
+      "qid": "Q15920891",
+      "label": "National Sun Yat-sen University College of Marine Sciences",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The College of Marin mentioned on the card is located in California, USA (specifically Kentfield/Corte Madera), while the Wikidata entity refers to a faculty of 'Marine Sciences' at National Sun Yat-sen University in Taiwan. They are different organizations in different countries."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Mitchell David Waite (born May 3, 1946) is a noted American author, publisher, and computer programmer, best known as the founder of The Waite Group, a major publisher of computer books. Between 1968 and 1971, he was active at the College of Marin in Kentfield, California, where he studied physical sciences and mathematics before continuing his studies in physics at Sonoma State University. During the late 1960s and early 1970s, Waite was deeply involved in the intersection of electronics, physics, and art, specifically focusing on technical projects involving light, lasers, strobes, and DIY electronic sensors. These interests culminated in his first book, 'Projects in Sight, Sound and Sensation' (1974), which provided instructions for building electronic art devices such as laser light shows, perception stimulators (strobe-based art), and neon lamp displays. This early work aligns with the goals of Experiments in Art and Technology (E.A.T.), a non-profit that promoted collaborations between artists and engineers during that era. His technical expertise also extended to the early personal computing movement, where he was an early member of the Homebrew Computer Club and became a prominent figure in the San Francisco Bay Area's technical community, particularly in locations like Corte Madera, Kentfield, and San Rafael.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mitchell_Waite",
+          "https://archive.org/details/byte-magazine-1978-03/page/n147/mode/2up",
+          "https://dokumen.pub/code-nation-personal-computing-and-the-learn-to-program-movement-in-america-1st-edition-9781450377584-9781450377577-9781450377560-9781450377553.html",
+          "https://www.google.com/patents/WO1992004673A1?cl=en"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Mitchell Waite Waite Group history early years",
+        "\"Mitchell Waite\" physics light lasers strobes motors",
+        "\"Mitchell Waite\" E.A.T. member list",
+        "",
+        "\"Mitchell Waite\" \"Projects in Sight, Sound and Sensation\" E.A.T.",
+        "Mitchell Waite \"Experiments in Art and Technology\" E.A.T.",
+        "\"Mitchell Waite\" lasers strobes glass light physics",
+        "",
+        "\"Mitchell Waite\" physics glass light lasers strobes motors College of Marin",
+        "\"Mitchell Waite\" E.A.T. archive",
+        "\"Mitchell Waite\" glass blowing physics"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

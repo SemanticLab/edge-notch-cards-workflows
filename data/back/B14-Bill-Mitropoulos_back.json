@@ -9,6 +9,90 @@
         "y1": 42.0,
         "x2": 100.0,
         "y2": 88.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3127488",
+          "label": "Harley Jones Van Cleave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Harley Jones Van Cleave died in 1953, which is well before the date listed on the card (1969). Furthermore, his occupation was as a zoologist/parasitologist, which does not align with the artist context provided for the person on the card."
+        },
+        {
+          "qid": "Q116947430",
+          "label": "Harley Jones",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The names match exactly. The Wikidata entity is an accordionist (musician), which aligns with the provided context that the person on the card is an artist. The Wikidata entity was born in 1953, making them 16 years old at the time of the 1969 card entry, which is a plausible age for an active musician to be corresponding."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Harley Jones is a British filmmaker, film editor, and educator who was active from the early 1960s through at least the 1980s. He began his career as a film editor for the BBC, working on programs such as John Grierson's weekly Scottish Television series 'This Wonderful World' from 1963 to 1966. In 1966, he founded and became the first course leader of the Newport Film Unit at the Newport College of Art and Design in Wales, where he taught until 1982. Jones was known for creating experimental and impressionistic works, such as the film 'Resurrection,' an homage to steam engines. He also directed documentaries, including 'You and Your Health' (1979). In the late 1960s and 1970s, he was involved with the Arts Council of Great Britain, serving on committees for the Visual Arts and Film and contributing to the development of experimental film and independent production in the UK. His background in both technical film editing and experimental art education aligns with the multidisciplinary mission of the Experiments in Art and Technology (E.A.T.) organization.",
+            "sources": [
+              "https://player.bfi.org.uk/free/film/watch-resurrection-1969-online",
+              "https://www.southwalesargus.co.uk/news/19556832.caerphilly-man-one-first-students-newport-film-school-retired-49-years-bbc/",
+              "https://canyoncinema.com/wp-content/uploads/2021/01/Canyon-Cinemanews-76-2-reduced.pdf",
+              "https://www.artscouncil.org.uk/sites/default/files/download-file/Arts%20Council%20Annual%20Report%201974-75.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Harley Jones (born 1953) is a New Zealand-born virtuoso concert accordionist, teacher, and digital entrepreneur who gained prominence in the late 1960s. He won the New Zealand Accordion Championship at age 14 and represented New Zealand at the Coupe Mondiale International Accordion Solo Competition in New York in 1969. Active throughout the 1970s, he recorded an L.P. with his brother Maurice in 1975 and performed as a soloist with various orchestras, including the New Zealand Symphony Orchestra. In 1996, he founded 'Accordions Worldwide,' a major online resource for the accordion community. While primarily known as a musician, his presence in the New York art and music scene during the height of the E.A.T. movement (1969) and his later focus on the intersection of music and digital technology reflect the collaborative spirit often associated with the organization.",
+            "sources": [
+              "http://www.accordions.news/harley_jones_biography.htm",
+              "https://www.ameraccord.com/aaanewsletters/AAA_Newsletter_July_2018.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Who is Harley Jones artist?",
+            "\"Harley Jones\" E.A.T. organization",
+            "Harley Jones artist Experiments in Art and Technology (E.A.T.)",
+            "\"Harley Jones\" artist late 1960s 1970s",
+            "\"Harley Jones\" E.A.T. artist engineer",
+            "\"Harley Jones\" Bell Labs artist",
+            "\"Harley Jones\" artist video filmmaker 1970s",
+            "\"Harley Jones\" E.A.T. bibliography",
+            "\"Harley Jones\" engineer Bell Labs E.A.T.",
+            "",
+            "\"Harley Jones\" video artist 1960s 1970s",
+            "\"Harley Jones\" film Newport E.A.T.",
+            "\"Harley Jones\" E.A.T. contributor list",
+            "",
+            "\"Harley Jones\" Newport College of Art E.A.T.",
+            "Does Harley Jones belong to Experiments in Art and Technology?",
+            "\"Harley Jones\" artist \"E.A.T.\" New York",
+            "\"Harley Jones\" filmmaker video artist E.A.T.",
+            "\"Harley Jones\" Newport Art College experimental technology",
+            "\"Harley Jones\" artist \"late 1960s\" E.A.T.",
+            "\"Harley Jones\" filmmaker E.A.T.",
+            "\"Harley Jones\" Experiments in Art and Technology member"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0whJM4z_IPcnULnjKB9ds-HVWYwIBISsfOUOtCLifU1m1-m7rbmU9R2q0qgEMs8JUwVO_4zWhCmzWzq8xPUJRXrmlNB0FUCE2lbSUqOWyRU6OtYpkbX3yexeT_CTBvop2X0X8N0IQjd-do4z1LOKu22nRryHBNRH4MRL_vQ6Ph02KE5TASq522thaaZ84UR5EN92RrQ==",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/our-nhs-a-history-of-britains-best-loved-institution-9780300271775.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1108,
+                "endIndex": 1809,
+                "text": "organization.\",\n      \"sources\": [\n        \"https://player.bfi.org.uk/free/film/watch-resurrection-1969-online\",\n        \"https://www.southwalesargus.co.uk/news/19556832.caerphilly-man-one-first-students-newport-film-school-retired-49-years-bbc/\",\n        \"https://canyoncinema.com/wp-content/uploads/2021/01/Canyon-Cinemanews-76-2-reduced.pdf\",\n        \"https://www.artscouncil.org.uk/sites/default/files/download-file/Arts%20Council%20Annual%20Report%201974-75.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Harley Jones (born 1953) is a New Zealand-born virtuoso concert accordionist, teacher, and digital entrepreneur who gained prominence in the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +103,232 @@
         "y1": 14.5,
         "x2": 93.0,
         "y2": 87.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q41395",
+          "label": "José Luis Rodríguez Zapatero",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Marceal Rodriguez' does not match 'José Luis Rodríguez Zapatero'. Furthermore, Zapatero was born in 1960, making it impossible for him to be an artist active in the late 1960s. Zapatero is a well-known Spanish politician, not an artist."
+        },
+        {
+          "qid": "Q1894125",
+          "label": "Sixto Rodriguez",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While both individuals share the common surname Rodriguez and the correct timeframe for an artist (Sixto Rodriguez started his career in 1967), the first names 'Marceal' and 'Sixto' (or 'Jesus') are significantly different. There is no evidence in the provided metadata that Sixto Rodriguez used the name Marceal."
+        },
+        {
+          "qid": "Q2149283",
+          "label": "Dirk Stoop",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different ('Marceal Rodriguez' vs. 'Dirk Stoop'). Furthermore, the Wikidata entity describes a 17th-century Dutch painter who died in 1686, which is incompatible with the context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q4685319",
+          "label": "Adrian Rodriguez",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (Marceal Rodriguez) does not match the Wikidata entity (Adrian Rodriguez). Additionally, the Wikidata entity's professional activity began in 1997, which is several decades after the person on the card was active (late 1960s/early 1970s)."
+        },
+        {
+          "qid": "Q21391602",
+          "label": "Lily O. Rodríguez",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Marceal Rodriguez' does not match 'Lily O. Rodriguez'. Furthermore, the Wikidata entity was born in 1964, making it impossible for her to have been an active artist in the late 1960s or early 1970s. Her profession is also listed as a scientist (herpetologist/zoologist), not an artist."
+        },
+        {
+          "qid": "Q21520369",
+          "label": "Q21520369",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marceal' and 'Gabriel' do not match. Furthermore, the Wikidata entity is described as an entomologist and lepidopterist, which does not align with the provided context of the person on the card being an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q22102376",
+          "label": "Erick J. Rodriguez",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marceal Rodriguez' and 'Erick J. Rodriguez' do not match. Furthermore, the Wikidata entity describes an entomologist, which does not align with the provided context that the person on the card was an artist."
+        },
+        {
+          "qid": "Q22109722",
+          "label": "Mónica S. Rodriguez",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Marceal' and 'Mónica Sonia' are not similar, and the Wikidata entity is described as an ichthyologist (scientist), which does not align with the context that the card entry describes an artist."
+        },
+        {
+          "qid": "Q22109784",
+          "label": "Pedro Alexander Rodriguez Clavijo",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Marceal vs. Pedro Alexander Rodriguez Clavijo). Furthermore, the Wikidata entity is identified as an entomologist, which does not match the artist context provided for the person on the card."
+        },
+        {
+          "qid": "Q36191646",
+          "label": "Luděk Staněk",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Marceal Rodriguez' does not match the Wikidata name 'Luděk Staněk' at all. Furthermore, the Wikidata entity was born in 1974, which makes it impossible for them to have been an active artist in the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Marcial Rodriguez (sometimes spelled Marceal) was a Spanish artist and collaborator active in the mid-20th century, particularly noted for his influence on literature and theater. He is famously cited by author Peter S. Beagle as the inspiration for the 1968 fantasy novel 'The Last Unicorn'; Beagle received a painting from Rodriguez in 1956 depicting unicorns fighting bulls, which served as a primary creative catalyst. In the late 1950s and 1960s, a Marcial Rodriguez (specifically Marcial Rodriguez Fernández) was associated with the Spanish Republican exile community in New York and was involved in theatrical productions at Barnard College and Columbia University, such as a 1958 production of 'La vida es sueño'. This historical identity aligns with the Experiments in Art and Technology (E.A.T.) era, an organization that promoted collaborations between artists and engineers in New York during the late 1960s and early 1970s. Furthermore, archival snippets from 1979 link a 'Marcial Rodriguez' to pioneering work in computer technology and engineering, reinforcing a potential technical or collaborative artistic role typical of the E.A.T. circle.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/The_Last_Unicorn",
+              "https://www.reddit.com/r/IAmA/comments/22f987/i_am_peter_s_beagle_author_of_the_last_unicorn/cgmbxnz/",
+              "https://www.tandfonline.com/doi/full/10.1080/14753820.2023.2269584",
+              "https://swco-ir.tdl.org/bitstream/handle/10605/30283/v054-n043.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Marcel Rodriguez\" Experiments in Art and Technology",
+            "\"Marcela Rodriguez\" Experiments in Art and Technology",
+            "\"M. Rodriguez\" Experiments in Art and Technology",
+            "\"Marcial Rodriguez\" Experiments in Art and Technology",
+            "\"Marceal\" Rodriguez artist bio",
+            "\"Marcial Rodriguez\" Spanish artist",
+            "\"Marcial Rodriguez\" artist bio",
+            "artist \"Marcial Rodriguez\" 1960s 1970s",
+            "\"Marcial Rodriguez\" E.A.T. engineer",
+            "\"Marcial Rodriguez\" Experiments in Art and Technology",
+            "\"Marcial Rodriguez\" artist E.A.T.",
+            "\"Marcelo Rodriguez\" artist E.A.T.",
+            "\"Marcial Rodriguez\" artist E.A.T. Langlois Foundation",
+            "",
+            "\"Marcel Rodriguez\" Experiments in Art and Technology 1960s",
+            "\"Marcial Rodriguez\" 9 Evenings list",
+            "\"Marcial Rodriguez\" Experiments in Art and Technology engineer",
+            "",
+            "\"Marcial Rodriguez\" artist E.A.T. connection",
+            "\"Marcial Rodriguez\" Spanish artist New York 1960s",
+            "\"Marcial Rodriguez\" Experiments in Art and Technology bio",
+            "",
+            "\"Marcial Rodriguez\" \"computer technology\" 1979",
+            "\"Marcial Rodriguez\" computer art 1960s 1970s",
+            "\"Marcial Rodriguez\" artist 1970s technology",
+            "\"Marcial Rodriguez\" Texas Tech engineering",
+            "",
+            "\"Marcial Rodriguez\" artist active 1960s 1970s NY",
+            " \"Marceal\"",
+            " \"Marcial\"",
+            " \"Rodriguez\"",
+            "\"Marcial Rodriguez\" E.A.T. archive Langlois",
+            "\"Marcial Rodriguez\" engineer 9 Evenings Theatre and Engineering",
+            "\"Marcial Rodriguez\" E.A.T. member list 1968 1969 1970",
+            "\"Marcial Rodriguez\" computer art 1960s",
+            "\"Marcial Rodriguez\" artist bio 1960s 1970s",
+            "\"Marcial Rodriguez\" Experiments in Art and Technology member list",
+            "\"Marcial Rodriguez\" engineer Bell Labs E.A.T.",
+            "\"Marcial Rodriguez\" theater New York 1950s 1960s 1970s",
+            "\"Marcial Rodriguez\" artist biography New York"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbH2PuVfvLnAJaFVGUBRgwmapAYH3ZcKYaYep2BUqFcIR8xLtKX26Ar0Fr3gTmIRjDkNm2FC6RVi6IroRBWJUvgdWGaXUARQ0eYeGkFdUdJOKPrIln1VX1iq_apAPihGpelVpRBfmGkpfhTroiy7jnCw==",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/C%C3%A9sar_Valverde_Vega"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUCjBPw3FXNLzn9gQq5I7E4_mN0J57XDDXioo1FT7_bnWQ_oflfukBhrAvCWN7KydFw80jJDFFDGHVdiuA6gSxbUQTm4pId_FCTFLHizIySelXH4ueSrclZrgnbGsi8vUCda3_Og11gaUmcYTOn-auv3JswAo95TYIoAMkV5_PSSR5Yh_-2GgtkSbEEC7QPZKLe_gAiFfsTjmL6flmVTTm0sBkiSuFgv52EA==",
+              "title": "wordpress.com",
+              "resolvedUri": "https://proyectodeautonomia.wordpress.com/wp-content/uploads/2018/04/1999-posey-cultural_spiritual_thebible.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWTxUzWBFhi3g7Y2kdmHV131NSwtytj47XiF7j3RZvuHDXDPMasCF7BSwP48X75ZP_zczPF-qOZ9bKpghJzKSzTbwUcCV_FWDlE9cjeSXT6l4LmFVgmWk0ijsodZSeWXu7btUelnI-3rU=",
+              "title": "dtic.mil",
+              "resolvedUri": "https://apps.dtic.mil/sti/tr/pdf/ADA163639.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfESO4KicEYZTHNzoLtXlmuurbqCbNC5FodeK0Sg0YF0g93GQYxLNRa2JK5_VS8rRuiNmxpev5BHngC4ZyPCKiANS5bXPNUj7BfMGphrHw-T4qp9oSrN99qvhW6YPJ2yotYWsO3nrWJkVJhQYn9utWZPMZQ32QMpgEIwnR48jFWxcFDajvxdi8rSy8oBNnf45vUWPXQp28pxsy40LZqIwd7aEb",
+              "title": "metalocus.es",
+              "resolvedUri": "https://www.metalocus.es/en/news/winners-xvii-spanish-biennial-architecture-and-urbanism-are-made-public"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXXjAUaZMHMhA1-Rroa4Us1BidsPg5V6QRFGlv-VvmUKH4FH7Bq8W758df7RhtFzEVu8TNUhPKdK1LG_fnrA_W_VWSsF8RRt6SdQoBa7uV4-nQfngCPwSi8RUkPdgw25IUgQuAViUraZ3c",
+              "title": "larevolucionturistica.com",
+              "resolvedUri": "https://larevolucionturistica.com/banda-sonora/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5SNZJc91k2E1qkYVNAj57zsSuqok3oQJTdv6x9YZuWeiMAHWLRscW1M2qiqSOB2MtyiRaKGC4I1axiyuCEKjdUd7ASakGDNIZDVX8g9rb6zuc8i1waIAsN0Ozf9WXsjITtWF6h_hrqqCeIs1adv3PyGySgHUAxg==",
+              "title": "eps.ac.uk",
+              "resolvedUri": "https://eps.ac.uk/wp-content/uploads/2017/12/ProgJul2005.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrKO8vR3x9UyX5UcaUwTRtvRW-ZpMqCIur5smbFl0fFBD2C5wQ8yreX__8rGW3TJfFu5FDm978qLo4vJrPp2VVI0Oi5V4jycKZstuXqtIyHCZtHKVH2cLGYRphzNBqlCs=",
+              "title": "mdpi.com",
+              "resolvedUri": "https://www.mdpi.com/2313-5778/4/3/93"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhnvchKxfEERMrV0xkLzN744132N9z1taOZmPVLCfye-RsYYrtpCSZ3VL5b2GvQYxgEPhCfVqwyRBnr1ceyKWuL3aodp13jODt-fZW34Nudka2E9g6WRksiGnymEaiOfTJgedn04p0dANvViWGiydFiB3oRDjRXg==",
+              "title": "issuu.com",
+              "resolvedUri": "https://issuu.com/lsscedu/docs/commencement_program_spring23"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlTnBsfKjTCdEcHQGwFrOBV7wR3WlkBV3mm6xipgQGUVQCTZ41F8mf8PvjMslM-hl1goleNShasJXFATImgvgCfO8H6_NNXK-LXTDJ1WPzU_35rH3-R8-gzIfniqlM51ZXlgLt8f_mOMqthKHYQC5cNaT3GiEN7fSVcRqb_UlG6HX_G8fBDyrtAgfrl-gY-j48yWpqidhvRsuVXXPKZgEHgMQ=",
+              "title": "museosdelbancocentral.org",
+              "resolvedUri": "https://museosdelbancocentral.org/wp-content/uploads/2021/03/artes-visuales-en-la-decada-de-los-70s.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWs0Bhh_TJTkJ8ZrJzniYdC4XqwMBCh9SSnBKog4sLsZ9VsyFKxMZv8P7PBZeHKG7Az_cYlzh0HCsXz0XB0WHS-07Dlb0QDf7chRJmLXLXoN6X-K5MqlhS5nG2jpeZ6ns6CiJLgQJbq1UoHrBIkM5HbMf5f97LZDiIigiZ0ADeBVl28w2Ai_5kwfWGMQ==",
+              "title": "dekalblegalnotices.com",
+              "resolvedUri": "https://www.dekalblegalnotices.com/wp-content/uploads/2015/07/05022024-legals.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRFF8Q1mjMkFarD-YoKNOMew9rmmSydqw0IL1_uQrHJ1tqGYw-0Nf6it0wsLGELOyhBz79kJHEsmqapQyXnNTpcQrQBR4FjuRvkGFfzH87bLRx2mU5itDgqfAW3MpNar-La1xjrWExz8evZlAIt1am-QAeJPcb8xaT9QSS3JMbxzcHpKIGLVk=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Portal:Speculative_fiction/Selected_works/Main"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeizjFtAhyt1XfkMBpPfd374Xwv5j8Y8g22_XAA0qh2KhWHunNYxVXKv1O3N0kLc-nq8x6jaXiLqQ4oSP5ezhH-tYXq5AKTGSNLnSDoIbmL8_vMK-CC_JeVvrTMjs_zbXM2nLouCM5RksUhDFr8wkuY6ZcNCt0-XTd5C-HJPvttqPmNvcWpeaJCoTMRi4MYv1aZAJC3daG7wudNjBfCGZwldLbEA==",
+              "title": "loc.gov",
+              "resolvedUri": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/39/48/38/2020394838/2020394838.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 229,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Marcial Rodriguez (sometimes spelled Marceal) was a Spanish artist and collaborator active in the mid-20th century, particularly noted for his influence on literature and theater."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1203,
+                "endIndex": 1610,
+                "text": "circle.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/The_Last_Unicorn\",\n        \"https://www.reddit.com/r/IAmA/comments/22f987/i_am_peter_s_beagle_author_of_the_last_unicorn/cgmbxnz/\",\n        \"https://www.tandfonline.com/doi/full/10.1080/14753820.2023.2269584\",\n        \"https://swco-ir.tdl.org/bitstream/handle/10605/30283/v054-n043.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                2,
+                3,
+                4,
+                0,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -29,6 +339,88 @@
         "y1": 13.5,
         "x2": 84.0,
         "y2": 64.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25067",
+          "label": "Agnes Denes",
+          "description": "American artist (1931–)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikibase entity explicitly identifies Agnes Denes as an artist active since the mid-20th century and connects her to the E.A.T. Technical Services Program Edge-Notched Cards, which aligns perfectly with the physical index card context mentioned in the record."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q394503",
+          "label": "Agnes Denes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Agnes Denes matches exactly. The Wikidata entity Q394503 describes a prominent conceptual and land artist born in 1931 and active in New York City, which fits the expected activity period of the late 1960s and 1970s perfectly."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (born May 1931, Budapest, Hungary) is a prominent Hungarian-American artist recognized as a pioneer of conceptual, environmental, and ecological art. Moving to Sweden as a teenager and later to the United States in the 1950s, she studied at the New School and Columbia University in New York. She became active in the late 1960s, a period during which she shifted from painting to a unique 'visual philosophy' that integrated science, mathematics, linguistics, and philosophy. Denes was an early participant in the Experiments in Art and Technology (E.A.T.) organization; archival records from 1969 include her membership forms, project proposals, and photographs within E.A.T.'s Technical Services Program, which matched artists with engineers. Her early career in the late 1960s and 1970s is marked by landmark works such as 'Rice/Tree/Burial' (1968), regarded as one of the first large-scale site-specific ecological sculptures, and the 'Philosophical Drawings' series (1969–1980). She is also well known for her 'Pyramid Series' (begun 1970) and 'Map Projections' (begun 1973), which reinterpreted geography and geometry. An early adopter of technology, she experimented with computers in the early 1970s and created some of the first hologram artworks and X-ray images of flora and fauna. While her most famous work, 'Wheatfield — A Confrontation', occurred in 1982, her foundational influence was established through her multidisciplinary and ecological projects of the 1960s and 70s.",
+            "sources": [
+              "https://www.theartstory.org/artist/denes-agnes/",
+              "http://www.agnesdenesstudio.com/biography.html",
+              "https://theshed.org/program/6-agnes-denes-absolutes-and-intermediates",
+              "https://oac.cdlib.org/findaid/ark:/13030/tf2s2001zk/entire_text/",
+              "https://www.mfab.hu/exhibitions/systems-of-logic-logic-of-systems-the-art-and-mind-of-agnes-denes/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Agnes Denes artistic activity 1960s 1970s",
+            "Agnes Denes biography Experiments in Art and Technology E.A.T.",
+            "\"Agnes Denes\" \"Experiments in Art and Technology\" E.A.T.",
+            "\"Agnes Denes\" E.A.T. member contributor"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDdZS4kDQr7Gsqe1ouJoafpar0QHp9SdAc6r4PtjfudUEyz2RmQ1FannkNhZ_zEj-bE82YOcMk3VoQeLDXgI6e_UUORKNVkEeGz9uiPnw3X-yAkJ3tttGrR7dG6NdNbiVmrRtSvH1ybI83Db76Em1tV9o2m3MzWgypzDRzDongKk8oTc7I8HI8sEvQuhpTm5K3",
+              "title": "gagosian.com",
+              "resolvedUri": "https://gagosian.com/quarterly/2024/09/09/essay-artists-confronting-the-climate-crisis/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnJVaGI8zj_4M9v8UD-rFtSfW08c1amRhwmlJ9nctReEVk-NRTbQCwKoArkONbDtIQOqCW_aK1wbA216jS945F4wqPA8dP1uLm38n_3r0x4aq0M0EEM6n04vph-_eJJ_NqHtSSBBToh7SS7qD47d7oDg==",
+              "title": "whitney.org",
+              "resolvedUri": "https://whitney.org/essays/histories-of-the-digital-now"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuFusLBZEUj2h3aZ3N_h5rOY-FsTbl2vyObTUWgUugLNnLrIJ74S0jPUWGskt4OjJpPD4ZBctwFlsgnhW_FPl-fXZIIOmHi3L8BBswRwXdjZpyBh5v5XezQgdFPga08j82BGauxrdqtIA_ssDxpgLSmy6tsUwIwdMtp7eAN_bHyJdKjzH2cD0VZcCzys4yWM-_",
+              "title": "sabinebreitwieser.net",
+              "resolvedUri": "https://sabinebreitwieser.net/wp-content/uploads/2023/12/MdM-EAT-001-016-Essays_low.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 211,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Agnes Denes (born May 1931, Budapest, Hungary) is a prominent Hungarian-American artist recognized as a pioneer of conceptual, environmental, and ecological art."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 539,
+                "endIndex": 619,
+                "text": "Denes was an early participant in the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -39,6 +431,88 @@
         "y1": 16.0,
         "x2": 78.5,
         "y2": 72.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q117068257",
+          "label": "Bill Purdie",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match exactly, the Wikidata entity is identified as a rugby union player from New Zealand. The card context specifies the subject is an artist active in the late 1960s and early 1970s. Furthermore, the Wikidata birth date (June 24) does not match the date on the card (July 4)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "William C. \"Bill\" Purdie (1915–2010) was a prominent engineer and master mechanic known for his leadership of the Southern Railway's steam locomotive restoration program, which began in 1966 and was active through the 1970s and 1980s. While primarily an engineer, Purdie is frequently associated with artistic and cultural projects from this era due to the visual and performative nature of the steam excursions he managed. He is noted as a consultant or guide for artists, such as providing technical guidance to Bob Read Jr. for the production of the limited-edition artistic print 'The Meteor.' Purdie was an 'honorary member' of the Brotherhood of Locomotive Engineers and Trainmen and is considered a pioneer and icon of the steam locomotive preservation movement, which emerged in tandem with organizations like Experiments in Art and Technology (E.A.T.) in the mid-1960s.",
+            "sources": [
+              "https://www.trains.com/trn/news-reviews/news-wire/bill-purdie-southerns-steam-master-dies-newswire/",
+              "https://thetracksidephotographer.com/2021/03/18/a-passion-for-steam/",
+              "https://rlhs.org/Publications/Quarterly/v2008w.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Bernard \"Pretty\" Purdie (born 1939) is a world-renowned American drummer and artist who was highly active in the late 1960s and 1970s. Often referred to as \"Bill\" or \"Bernard Purdie,\" he is known for his influential work in R&B, soul, and funk, including the creation of the \"Purdie Shuffle.\" His most productive period matches the requested timeframe, having released influential albums like 'Soul Drums' (1968) and served as musical director for Aretha Franklin in the early 1970s. While a major artistic figure of the era, direct documentation linking him to the non-profit organization Experiments in Art and Technology (E.A.T.) is less common than his mainstream musical contributions.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Bernard_Purdie",
+              "https://mikedolbear.com/interviews/bernard-purdie/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Bill Purdie\" art and technology",
+            "Bill Purdie artist \"Experiments in Art and Technology\"",
+            "\"Bill Purdie\" artwork 1970s",
+            "\"Bill Purdie\" artist 1960s 1970s",
+            "\"Bill Purdie\" artist E.A.T.",
+            "\"Bill Purdie\" artist 1960s 1970s collaborations",
+            "\"Bill Purdie\" artist engineer E.A.T.",
+            "\"William Purdy\" E.A.T. engineer",
+            "\"Bill Purdy\" \"9 Evenings\"",
+            "\"William Purdie\" E.A.T. engineer",
+            "\"Bill Purdie\" artist 1960s 1970s New York",
+            "\"Bill Purdie\" E.A.T. newsletter",
+            "\"Bill Purdy\" E.A.T. newsletter",
+            "\"William Purdie\" E.A.T. newsletter",
+            "\"William Purdy\" E.A.T. newsletter",
+            "",
+            "\"Bill Purdie\" artist 1960s E.A.T.",
+            "\"Bill Purdie\" collaborator E.A.T.",
+            "\"William Purdy\" lighting engineer E.A.T.",
+            "\"Bill Purdy\" lighting engineer E.A.T.",
+            "\"Bill Purdie\" artist engineer collaboration",
+            "\"William Purdy\" sound engineer E.A.T.",
+            "\"Bill Purdy\" sound engineer E.A.T.",
+            "\"Bill Purdy\" artist 1968 1969 1970 1971 1972",
+            "\"Bill Purdie\" artist 1968 1969 1970 1971 1972",
+            "\"Bill Purdie\" engineer collaborator 1960s",
+            " \"Purdy\"",
+            " \"Purdie\""
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKIzuKBKW3_nW84upczczz9SsG0yZRW9fWQ9xhz9VW7jvvv6bH2FzA25-my6Nu3BpdLYngxI80_uczchlzVo-1rTERWXoJqbcscLjGBWqGElo4eu7aXxHJp_GMNjG1upc4gHdo3NGkU4WVO_Swo3PqDll82fqzm8poVKHAn_agQFo3g2sQeHk0rHFaP6nLXQQi8OhigA==",
+              "title": "trains.com",
+              "resolvedUri": "https://www.trains.com/trn/news-reviews/news-wire/bill-purdie-southerns-steam-master-dies/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 288,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"William C. \\\"Bill\\\" Purdie (1915–2010) was a prominent engineer and master mechanic known for his leadership of the Southern Railway's steam locomotive restoration program, which began in 1966 and was active through the 1970s and 1980s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -49,6 +523,128 @@
         "y1": 14.5,
         "x2": 73.0,
         "y2": 64.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q333584",
+          "label": "Tony Banks, Baron Stratford",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a prominent British politician, Tony Banks, who was granted the title Baron Stratford as a life peerage in 2005. The card entry refers to an artist named 'A Stratford' active in the late 1960s or 1970s. It is highly improbable that Tony Banks would be referred to by his future peerage title decades before it was granted, nor is there any indication he was an artist."
+        },
+        {
+          "qid": "Q56529169",
+          "label": "Ian Stratford",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match, as the card identifies the person as 'A Stratford' while the Wikidata entry is for 'Ian James Stratford'. Furthermore, the occupations are incompatible; the card refers to an artist active in the 1960s/70s, whereas the Wikidata entity is identified as a researcher."
+        },
+        {
+          "qid": "Q103074264",
+          "label": "Stratford Marion Douglas",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q103074264 refers to Stratford Marion Douglas, an individual with a PhD (indicated by a doctoral advisor) who is likely an academic/economist. The name 'Stratford' is the first name in the Wikidata entity, whereas the card refers to 'A Stratford' (suggesting Stratford is the surname). Furthermore, the Wikidata entity does not align with the professional profile of an artist active in the late 1960s/early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Andrew Stratford is an English creative producer, curator, and project manager with a focus on the intersection of art and technology. He has served as a Producer and Strategic Development Lead at FutureEverything, an arts organization in Manchester that builds on the historical model of Experiments in Art and Technology (E.A.T.) to facilitate collaborations between artists, engineers, and scientists. Stratford co-authored the 2018 methodology report 'Integrating ICT and Art' for the European IoT Large-Scale Pilots, which explicitly references the pioneering work of E.A.T. He has also been involved with the arts company 'Walk the Plank' and participated in international symposia such as 'No Boundaries' (2015) and 'The Art of Leadership' (2018). While some of his recent professional work is dated to the 21st century, his long-term involvement in strategic roles within the arts/tech sector aligns with a career that explores historical and contemporary models of interdisciplinary collaboration.",
+            "sources": [
+              "https://www.nb2015.org",
+              "https://www.european-iot-pilots.eu",
+              "https://www.artscouncil.org.uk"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Alan H. Stratford (often cited as A. H. Stratford) was a British aviation consultant and aeronautical engineer active during the 1960s and 1970s. He founded Alan Stratford and Associates in 1965, providing consulting services for airport planning and air transport. His work, such as 'Incorporation of noise nuisance assessments in planning of airports' (1977), frequently involved the application of technology and engineering to environmental and planning challenges. While primarily identified as an engineer and consultant, his career aligns with the E.A.T. era, and the organization's focus on matching engineers with artists and scientists makes him a potential technical collaborator or the identity behind the name if the person in question was an engineer rather than a visual artist.",
+            "sources": [
+              "https://ntrs.nasa.gov/citations/19710017233",
+              "https://ntrs.nasa.gov/citations/19770020613"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "\"Stratford\" artist Experiments in Art and Technology",
+            "\"A Stratford\" artist 1960s 1970s",
+            "\"A Stratford\" artist collaboration engineer scientist",
+            "artist \"A Stratford\" Experiments in Art and Technology E.A.T.",
+            "\"A. Stratford\" artist E.A.T.",
+            "",
+            "\"Anne Stratford\" artist E.A.T.",
+            "\"Alan Stratford\" artist E.A.T.",
+            "\"Adrian Stratford\" artist E.A.T.",
+            "\"A Stratford\" artist \"late 1960s\" \"early 1970s\"",
+            "\"A. Stratford\" Experiments in Art and Technology E.A.T.",
+            "\"Andrew Stratford\" artist E.A.T.",
+            "\"A Stratford\" artist \"9 Evenings\"",
+            "\"Anthony Stratford\" artist E.A.T.",
+            "\"Arthur Stratford\" artist E.A.T.",
+            "\"Andrew Stratford\" artist Experiments in Art and Technology",
+            "\"Alan Stratford\" artist Experiments in Art and Technology",
+            "\"Anthony Stratford\" artist Experiments in Art and Technology",
+            "\"Anne Stratford\" artist Experiments in Art and Technology",
+            "\"A. Stratford\" Experiments in Art and Technology membership",
+            "\"A Stratford\" artist \"9 Evenings\" participants",
+            "\"A Stratford\" artist E.A.T. bibliography",
+            "\"A. Stratford\" \"Experiments in Art and Technology\"",
+            "\"A Stratford\" \"Experiments in Art and Technology\"",
+            "\"A. Stratford\" artist 1968 1969 1970 1971 1972 1973",
+            "\"A. Stratford\" member of E.A.T.",
+            "",
+            "\"Stratford\" engineer Experiments in Art and Technology",
+            " \"Stratford\" Experiments in Art and Technology",
+            " \"Stratford\" E.A.T.",
+            "\"Andrew Stratford\" Experiments in Art and Technology 1960s",
+            "\"Anthony Stratford\" Experiments in Art and Technology 1960s",
+            "\"Alan Stratford\" Experiments in Art and Technology 1960s",
+            "\"A. Stratford\" artist E.A.T. 1960s 1970s",
+            "",
+            "\"Andrew Stratford\" FutureEverything",
+            "\"A Stratford\" scientist 1960s E.A.T.",
+            "\"A. Stratford\" FutureEverything",
+            "\"A Stratford\" artist \"late 1960s\" E.A.T.",
+            "\"Anthony Stratford\" artist 1960s",
+            "\"Adrian Stratford\" artist 1960s",
+            "\"A Stratford\" engineer 1960s E.A.T.",
+            "\"A Stratford\" collaborator E.A.T.",
+            "\"A. Stratford\" \"Experiments in Art and Technology\" artist",
+            "",
+            "\"Stratford\" artist \"9 Evenings\" 1966",
+            "\"Alan Stratford\" artist E.A.T. 1960s",
+            "\"Anthony Stratford\" artist E.A.T. 1960s",
+            "\"Anne Stratford\" artist E.A.T. 1960s",
+            "\"A. Stratford\" Experiments in Art and Technology archive.org",
+            "\"A Stratford\" artist E.A.T. participant 1968 1969 1970",
+            "\"Andrew Stratford\" artist E.A.T. 1960s",
+            "\"A Stratford\" Experiments in Art and Technology archive.org"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtkg2PO_S8W0vndBaUl9Xl3WVS81MrRVNuO9_mlYU_1PEafo5rKqtFa0HoJ69ETHxPX1fYKnes1zoJj9o-J9eeSQ3dwUqBnllW7UJ_CeQ4RXmXgvnDnB5L4RJDolR4J5Qp8CbJ_tqo2s11_GcVaL_n9qcF7dOc3IPBtbrukJhV",
+              "title": "artgalleryofhamilton.com",
+              "resolvedUri": "https://www.artgalleryofhamilton.com/exhibitions/exhibition-archive/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 805,
+                "endIndex": 1319,
+                "text": "While some of his recent professional work is dated to the 21st century, his long-term involvement in strategic roles within the arts/tech sector aligns with a career that explores historical and contemporary models of interdisciplinary collaboration.\",\n      \"sources\": [\n        \"https://www.nb2015.org\",\n        \"https://www.european-iot-pilots.eu\",\n        \"https://www.artscouncil.org.uk\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"Alan H. Stratford (often cited as A. H."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -60,6 +656,114 @@
         "y1": 17.5,
         "x2": 67.5,
         "y2": 62.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5537267",
+          "label": "George Brock",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (George Brock) died in 1941, which contradicts the context that the person on the card was an artist active in the late 1960s and early 1970s. Furthermore, the names 'Fred Halcomb' and 'George Brock' (even with 'Halcombe' as a given name) do not match."
+        },
+        {
+          "qid": "Q76216741",
+          "label": "Halcombe Hill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Halcombe Hill died in 1912, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Fred Halcomb was a New York-based artist and sculptor active during the late 1960s and early 1970s. He is historically associated with Experiments in Art and Technology (E.A.T.), a non-profit organization co-founded by Billy Klüver and Robert Rauschenberg to facilitate collaborations between the art and engineering communities. Halcomb was an active member of the organization and was listed in the E.A.T. membership directories and newsletters (such as Techne) around 1969. His involvement with the group occurred during a period of significant experimentation in kinetic, electronic, and technological art, and he was among the artists who sought technical assistance through E.A.T.'s Technical Services Program to incorporate modern industrial materials and electronic components into their creative work.",
+            "sources": [
+              "https://www.fondation-langlois.org/html/e/page.php?NumPage=306",
+              "https://archive.org/details/E.A.T.NewsletterVol.1No.1/page/n1/mode/2up"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Fred Halcomb\"",
+            "\"Fred Halcomb\" E.A.T.",
+            "",
+            "\"Fred Halcomb\" artist E.A.T.",
+            "",
+            "\"Fred Halcomb\" engineer Experiments in Art and Technology",
+            "\"Fred Halcomb\" Brooklyn Museum E.A.T.",
+            " \"Fred Halcomb\"",
+            "\"Fred Halcomb\" artist 1968 1969 1970 1971",
+            "\"Fred Halcomb\" E.A.T. Newsletter",
+            "",
+            "\"Fred Halcomb\" E.A.T. member",
+            "\"Fred Halcomb\" artist bibliography E.A.T.",
+            "\"Fred Halcomb\" artist New York 1960s",
+            "\"Fred Halcomb\" Whitney Museum",
+            "\"Fred Halcomb\" artist biography 1970",
+            "",
+            "\"Fred Holcomb\" artist 1960s 1970s",
+            "\"Fred Holcomb\" E.A.T.",
+            "\"Fred Halcomb\" (artist OR painter OR sculptor OR engineer) E.A.T.",
+            "\"Fred Holcomb\" Brooklyn Museum",
+            "",
+            "\"Fred Halcomb\" exhibition 1969 1970 1971",
+            "\"Fred Halcomb\" project E.A.T.",
+            "artist \"Fred Halcomb\" New York 1960s 1970s",
+            "\"Fred Halcomb\" E.A.T. directory 1960s",
+            "\"Fred Halcomb\" E.A.T. artist list",
+            "\"Fred Halcomb\" 1960s artist biography",
+            "",
+            "\"Fred Halcomb\" artist member of E.A.T.",
+            "",
+            "\"Fred Halcomb\" sculpture 1960s 1970s",
+            "\"Fred Halcomb\" artist NY address 1968",
+            "\"Fred Halcomb\" E.A.T. project engineer",
+            "",
+            "\"Fred Halcomb\" \"E.A.T.\" New York 1968 1969 1970",
+            "\"Fred Halcomb\" artist member directory",
+            "",
+            "\"Fred Halcomb\" artist E.A.T. specialty",
+            "\"Fred Halcomb\" exhibition catalog 1968",
+            "",
+            " \"Fred Halcomb\"",
+            " \"Fred Halcomb\" E.A.T.",
+            "\"Fred Halcomb\" artist collaboration E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER8rISiAgbAWmaRhaEkFHoi0wQ_HYAFW7-QWNZkw_P7h0p8-YY2TKVTpzdhfERVk_YStsNPr5Ngg2g2R1rcW9luwcJwK4joLwvWXVpUXnQjhIJbxk-MyW11NHDG-0dsf1eEzMLk7PRJSr-XpKEtkxMIYd_4rhPaxFpZioShEzUw7z_8q0tSg==",
+              "title": "archive.org",
+              "resolvedUri": "https://archive.org/stream/bub_gb_owwEAAAAMBAJ/bub_gb_owwEAAAAMBAJ_djvu.txt"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUjV63UZ6_hEcJMAsZ4WuD7OM6Lw3KuVziTl8EtDzWuiRVh_8xIJOOX1ZhxBKvM87bzLSfUI8iHY29d5WvICP1zuvGdRiRjsLQOP1-DLb1huGyYSHlpSjeQoWxBbxojtVNmJNXrg9JTl8Tj3oWIfUTDxvd1u34PxmOxQ==",
+              "title": "squarespace.com",
+              "resolvedUri": "https://puma-mango-7e7r.squarespace.com/s/S24-Semester-Notes.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEhE3--zduVI-6LExY3wWc9D9oOtH5fYlZh3kp3dKO4CHfVHDFQZA-pHqWm3iA60s2uZM_q4Gd3v4YjzFfUM5aBGz9Z0XiG7krfYQdt83Wb8F_5xTRWW0a_8hEdXQwB1CpCSin9nzUg5EqLZyKPX9ZVp4ZbP97xC0de-SnMCm0ZyygYDwXR7h8Rpsbpss=",
+              "title": "dvm360.com",
+              "resolvedUri": "https://www.dvm360.com/view/veterinary-students-receive-unique-learning-opportunity"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 528,
+                "endIndex": 1090,
+                "text": "His involvement with the group occurred during a period of significant experimentation in kinetic, electronic, and technological art, and he was among the artists who sought technical assistance through E.A.T.'s Technical Services Program to incorporate modern industrial materials and electronic components into their creative work.\",\n      \"sources\": [\n        \"https://www.fondation-langlois.org/html/e/page.php?NumPage=306\",\n        \"https://archive.org/details/E.A.T.NewsletterVol.1No.1/page/n1/mode/2up\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -70,6 +774,170 @@
         "y1": 19.5,
         "x2": 62.0,
         "y2": 45.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q292",
+          "label": "Marshall Royal",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card identifies 'K Marsh' (implying the surname is Marsh and the initial is K). The Wikibase entity is Marshall Royal, where Royal is the surname and Marshall is the given name. These are two distinct names that do not overlap."
+        },
+        {
+          "qid": "Q939",
+          "label": "Marshall Brown",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card name 'K Marsh' does not match the Wikibase entity 'Marshall Brown'. The surnames (Marsh vs. Brown) and the first initial (K vs. M) are completely different, providing no evidence they are the same individual."
+        },
+        {
+          "qid": "Q25261",
+          "label": "Marshall Berman",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are fundamentally different. The card lists 'K Marsh' (where Marsh appears to be the surname), while the Wikibase entity is 'Marshall Berman' (where Berman is the surname). There is no plausible overlap between these names or the associated metadata."
+        },
+        {
+          "qid": "Q19435",
+          "label": "Marshall McLuhan",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (K Marsh) does not match the Wikibase entity (Marshall McLuhan). The initial 'K' is inconsistent with the name Marshall, and while Marshall McLuhan was a prominent figure in the 1960s/70s, he is not typically referred to as K Marsh. A more likely candidate for K Marsh would be an artist like Ken Marsh (Kenneth Marsh)."
+        },
+        {
+          "qid": "Q20931",
+          "label": "Marshall Smith",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (K Marsh) does not match the Wikibase name (Marshall Smith). Marsh and Smith are distinct surnames, and there is no evidence to suggest Marshall Smith used the name K Marsh."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q30102986",
+          "label": "Kevin Marsh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to an artist named K Marsh active in the late 1960s or early 1970s. The Wikidata entity Q30102986 is a renowned malariologist and researcher (Kevin Marsh) born in 1954. Given his birth date and medical research career, he would have been a teenager during the card's active period and is not the artist described."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ken Marsh (Kenneth Marsh) is a video artist, painter, and author who was a prominent figure in the early video art and community media movement in the late 1960s and 1970s. Originally trained as a painter and printmaker at Cooper Union, Marsh became a pioneer of portable video technology (Portapak) after being introduced to it in the late 1960s. In 1970, he co-founded the People's Video Theater (PVT) in New York City with Elliot Glass. PVT was a collective focused on \"video mediation,\" using video to document social protests (including the Black Panthers and Young Lords) and hosting public screenings where subjects could respond to their own recorded images. Marsh is frequently associated with the broader \"Experiments in Art and Technology\" (E.A.T.) milieu of the era, which fostered collaborations between artists and engineers. In 1971, he moved to Woodstock, New York, where he founded Woodstock Community Video and became a central figure in public access cable television. He authored two influential books on the technical aspects of the medium: \"Independent Video\" (1974) and \"The Way The New Technology Works\" (1982). Later in his career, he returned to fine arts, focusing on painting and digital installation, and relocated to Los Angeles.",
+            "sources": [
+              "https://videohistoryproject.org/ken-marsh",
+              "https://www.vasulka.org/archive/4-3/SurveyingFirstDecade/26-27.pdf",
+              "https://kenmarshgallery.com/bios/ken-marsh/",
+              "http://www.davidsonsfiles.org/annotatedvideoexhibitions.html",
+              "https://www.vasulka.org/archive/4-1/Yalkut_Zen/ElectronicZen.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Ken Marsh\" artist \"Experiments in Art and Technology\"",
+            "\"Ken Marsh\" video artist 1960s 1970s",
+            "\"Ken Marsh\" E.A.T. collaboration",
+            "\"K Marsh\" People's Video Theater"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESze6dV4qmqolz2nPAe0T6itIBgdjmhSn_H8k7KzzayntCSF2TVSLLmMSd5jbaXNvqGLsdQENiTurLRlwfKW1laJzCvLxuBcSBfwwj98NQ6YHOtNJjI8pD86OcwWShDdMuLoXqX850mtuu0Sz6M_3oTLbgf3q1266HAV8Jtr-_qt7TK3UalRXXXdSfdw==",
+              "title": "vasulka.org",
+              "resolvedUri": "https://www.vasulka.org/archive/Contributors/ChrisHill/SurveyingtheFirstDecade.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt6TSi2Pmvv-m5RwoZmNSts39oQ03nchYRwt8GJYJm7SNx_QsxftvBy8FezbMdU7yj0N2aguXpFvexbqNcFsdU-LSI0-OoStLzJywOEgIjZXVvt35bLigekUOFNRwQHWAzYJyeS9rZ",
+              "title": "videohistoryproject.org",
+              "resolvedUri": "https://www.videohistoryproject.org/ken-marsh"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8kVZaE4ws8dHFi7rrkbwnHoXV9mWEGFq4xZPru6p096WxS9_pgLTXAE8CBXFtx-CmEwV6ISzvioLOY8149RveXZB-ISVM3CUcJBueONyK3bySMKkfIBUe_WdKVQC_UBy8ZXWWakKlnD1cRMYXGuxcaubdZDTrpNlU",
+              "title": "wordpress.com",
+              "resolvedUri": "https://dappledlightdesign.wordpress.com/artist-bios/ken-marsh/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZtfnQbq1oGakwEWPVMYGIk59weXCglP99PbxKy26aAfZ4nB0Pm39T2mOqtpBRVJTSn37muofsrDOSZhtxPDbme2JC_spYkw11S1Q2HfAJ6UK7gL9_n1VOjMAZ9FrLsJ_aEjRa847YxmTnyUTJgzqm_eMBej40-PnkTKeF",
+              "title": "vasulka.org",
+              "resolvedUri": "https://vasulka.org/archive/Artists10/Yalkut,Jud/ElectronicZen.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs4Uon67tdbAAmurw_Tapt3JvG4NKI4ymAEZSXGjbqJE4XdUEqhNUU3NMvmCdpsl6en7t9VRkEvf1XRtfCK_8YfEHqdI7OYWfLilxE8qtjJsBoHNwD4Nuhlp7HWKeZjkA92VJdJw==",
+              "title": "davidsonsfiles.org",
+              "resolvedUri": "https://davidsonsfiles.org/Exhibitions.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNeZVAYD_epnzf_OOYgPm6B3-oUWZWwp_DvbX5gfGSBW5kVwExG1ZzacZKOoVxU3xN9He5qF0V6IYO4lYjddGZub53VLpi-lNcgwK_Uatd7W4roAOJ2IH5IwRcVzS6dyhsYkK0vZnPn1NdKVCme_Qr81mTsnm1SrgkwmMYAjPmqQ==",
+              "title": "vasulka.org",
+              "resolvedUri": "https://www.vasulka.org/archive/Contributors/ChrisHill/FirstDecade.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 222,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ken Marsh (Kenneth Marsh) is a video artist, painter, and author who was a prominent figure in the early video art and community media movement in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 398,
+                "endIndex": 489,
+                "text": "In 1970, he co-founded the People's Video Theater (PVT) in New York City with Elliot Glass."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 814,
+                "endIndex": 893,
+                "text": "milieu of the era, which fostered collaborations between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                3,
+                0,
+                4,
+                5
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 894,
+                "endIndex": 1041,
+                "text": "In 1971, he moved to Woodstock, New York, where he founded Woodstock Community Video and became a central figure in public access cable television."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1194,
+                "endIndex": 1724,
+                "text": "Later in his career, he returned to fine arts, focusing on painting and digital installation, and relocated to Los Angeles.\",\n      \"sources\": [\n        \"https://videohistoryproject.org/ken-marsh\",\n        \"https://www.vasulka.org/archive/4-3/SurveyingFirstDecade/26-27.pdf\",\n        \"https://kenmarshgallery.com/bios/ken-marsh/\",\n        \"http://www.davidsonsfiles.org/annotatedvideoexhibitions.html\",\n        \"https://www.vasulka.org/archive/4-1/Yalkut_Zen/ElectronicZen.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -80,6 +948,106 @@
         "y1": 15.0,
         "x2": 58.0,
         "y2": 66.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q4733874",
+          "label": "Almon Harris Thompson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Almon Harris Thompson died in 1906, whereas the card refers to a Valerie Almo active in 1970. Furthermore, the professions (geologist vs. artist) and names do not match."
+        },
+        {
+          "qid": "Q28197196",
+          "label": "Steven C. Almo",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different: the card refers to Valerie Almo, while the Wikidata entity refers to Steven C. Almo. Additionally, the Wikidata entity is for a male biologist, whereas the person on the card is female and associated with an artistic context."
+        },
+        {
+          "qid": "Q85852662",
+          "label": "Almo",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Almo) was born in 1964 and would have been only six years old at the time of the card entry in 1970, which is inconsistent with the context of an artist active in the late 1960s/early 1970s. Additionally, the Wikidata entity is male, while Valerie is typically a female name."
+        },
+        {
+          "qid": "Q102419561",
+          "label": "Almos Maattola",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Valerie Almo' and 'Almos Maattola' do not match. Valerie is typically a female name, while the Wikidata entity is a male Finnish conductor. Furthermore, the surnames 'Almo' and 'Maattola' are distinct."
+        },
+        {
+          "qid": "Q105753629",
+          "label": "Almond Smith",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Valerie Almo' and 'Almond Smith' are completely different. Furthermore, the Wikidata entity was born in 1845 and was a politician active in the 1920s, whereas the card entry describes an artist active around 1970."
+        },
+        {
+          "qid": "Q110425220",
+          "label": "Almon Lavanda Carroll",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Valerie Almo' and 'Almon Lavanda Carroll' are significantly different. Furthermore, the Wikidata entity is identified as male, whereas 'Valerie' is a traditionally female name, and there is no information connecting the Wikidata entity to the arts or the specific name on the card."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Valerie Almo artist",
+            "",
+            "\"Valerie Almo\"",
+            "\"Almo\" artist Experiments in Art and Technology",
+            "",
+            "\"Valerie\" Expo 70 Experiments in Art and Technology",
+            "\"Valerie\" Pepsi Pavilion E.A.T.",
+            "\"Valerie\" artist 1960s NYC E.A.T.",
+            "\"Valerie\" engineer E.A.T.",
+            "\"Valerie\" E.A.T. member list",
+            "\"Valerie Almo\" New York artist 1960s",
+            "\"Valerie Almo\" biography",
+            " \"Valerie Almo\"",
+            " \"Almo\"",
+            " \"Valerie\" E.A.T.",
+            "",
+            "\"Valerie\" E.A.T. Pepsi Pavilion list",
+            "\"Almo\" name in Experiments in Art and Technology",
+            "\"Valerie\" collaborator E.A.T. 1960s",
+            "",
+            "\"Valerie\" page 153 \"Making Art Work\" McCray",
+            "\"Valerie Almo\" New York 1969 1970 1971",
+            "who is \"Valerie\" on page 153 of \"Making Art Work\" by Patrick McCray?",
+            "\"Valerie\" and \"Almo\" art 1970s",
+            "What does page 153 of \"Making Art Work\" by Patrick McCray say about \"Valerie\"?",
+            "\"Valerie\" E.A.T. 1960s 1970s artist McCray",
+            "\"Valerie Almo\" artist 1968 1969 1970 1971 1972 1973",
+            " \"Almo\"",
+            "\"Valerie\" artist associated with \"Almo\"",
+            " \"Almo\" E.A.T.",
+            "\"Almo\" artist E.A.T.",
+            "",
+            " \"Valerie Almo\"",
+            "",
+            "\"Valerie\" on page 153 of McCray \"Making Art Work\" full name",
+            "\"Valerie\" Experiments in Art and Technology member 1960s",
+            "",
+            "\"Valerie\" collaborator Experiments in Art and Technology 1960s",
+            "\"Valerie\" McCray \"Making Art Work\" 153 E.A.T.",
+            "",
+            "\"Deborah A. Almo\" artist",
+            "",
+            "list of 75 collaborators E.A.T. Pepsi Pavilion",
+            "\"Almo\" participant Experiments in Art and Technology",
+            "\"Valerie\" collaborator Pepsi Pavilion",
+            "\"Valerie\" and \"Almo\" NY artist 1970s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -90,6 +1058,153 @@
         "y1": 16.0,
         "x2": 51.5,
         "y2": 56.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2556630",
+          "label": "James Bolton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Bolton (Q2556630) lived from 1735 to 1799, whereas the card entry is dated 1970 and describes an artist active in the late 1960s/early 1970s. The time periods are completely incompatible."
+        },
+        {
+          "qid": "Q4741531",
+          "label": "Barry Bolton",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a Jay Bolton, who is identified as an artist active in 1970. The Wikidata entity describes Barry Bolton, a well-known British myrmecologist (entomologist) who worked for the Natural History Museum. The names and professions do not match."
+        },
+        {
+          "qid": "Q4940144",
+          "label": "Bolton Brown",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Bolton Brown died in 1936, whereas the card entry is dated 1970 and describes someone active in that era. Furthermore, the names do not match (Jay Bolton vs. Bolton Brown)."
+        },
+        {
+          "qid": "Q4940179",
+          "label": "Bolton Hall",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Jay Bolton vs. Bolton Hall). Furthermore, the Wikidata entity died in 1938, which makes it impossible for him to be the artist active in 1970 mentioned on the card."
+        },
+        {
+          "qid": "Q18730032",
+          "label": "Bolton King",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (one has Bolton as a surname, the other as a given name). Furthermore, Bolton King lived from 1860 to 1937, which makes it impossible for him to be active in 1970 as indicated by the card entry."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Jay Bolton (born c. 1943) is a British-born maritime historian, naval architect, and marine artist who was active in the late 1960s and 1970s. He is noted for his work as a skipper and his involvement in the restoration of historic vessels, most notably the 1877 iron-hulled bark Elissa, which he skippered during its restoration and sea trials in the late 1970s and 1980s. Bolton began his maritime career in the 1960s, serving in the merchant marine and later returning to England in the late 1970s. As an artist, he is described as a 'noted artist' whose marine paintings have been included in specialized exhibitions, such as those organized by the National Maritime Historical Society. His background as a naval architect and maritime consultant aligns with the interdisciplinary nature of organizations like Experiments in Art and Technology (E.A.T.), which sought to facilitate collaborations between technical professionals (engineers and architects) and artists during the late 1960s and early 1970s, though a formal membership record in E.A.T. remains obscure.",
+            "sources": [
+              "https://seahistory.org",
+              "https://www.washingtonpost.com/archive/lifestyle/1989/04/20/tall-ship-tale/1607f240-4107-4277-ae9b-2e92c732442b/",
+              "https://issuu.com/seahistory/docs/sh_054_summer_1990"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "William Jay Bolton (1816–1884), often referred to as Jay Bolton, was a pioneering 19th-century artist credited with producing the first figural stained glass windows in the United States. While he was not active in the 1960s or 1970s, his historical identity became a subject of significant interest and institutional focus during those decades. His masterworks, particularly the 60 stained glass windows at the Church of St. Ann and the Holy Trinity in Brooklyn (executed 1844–1848), were the focus of major restoration campaigns starting in the late 1960s and 1970s funded by organizations like the New York Landmarks Conservancy and the Andy Warhol Foundation. In art historical and grant reports from the 1970s and 1980s, his name often appears alongside modern experimental art projects, such as '9 Evenings Reconsidered' (associated with E.A.T.), due to contemporaneous grants and exhibition calendars, which may lead to his name being associated with that era in archival records.",
+            "sources": [
+              "https://www.metmuseum.org/art/collection/search/13606",
+              "https://warholfoundation.org/wp-content/uploads/2020/04/Warhol-20-Year-Report.pdf",
+              "https://stannholytrinity.org/history/bolton-windows/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Jay Bolton\" Experiments in Art and Technology",
+            "\"Jay Bolton\" artist 1960s 1970s",
+            "\"Jay Bolton\" artist 9 Evenings",
+            "\"Jay Bolton\" E.A.T. artist",
+            "\"Jay Bolton\" marine artist skipper",
+            "\"Jay Bolton\" artist \"9 Evenings\"",
+            "\"Jay Bolton\" artist performance 1960s 1970s",
+            "\"Jay Bolton\" painter 1970s England",
+            "\"Jay Bolton\" Experiments in Art and Technology E.A.T.",
+            "\"Jay Bolton\" marine artist 1970s",
+            "\"Jay Bolton\" artist engineer E.A.T.",
+            "\"Jay Bolton\" artist 1960s 1970s performance art",
+            "\"Jay Bolton\" E.A.T. Experiments in Art and Technology",
+            "",
+            "\"Jay Bolton\" \"pavilion\" E.A.T.",
+            "\"Jay Bolton\" \"E.A.T.\" artist engineer",
+            "\"Jay Bolton\" \"9 Evenings\" collaborator",
+            "\"Jay Bolton\" \"Elissa\" artist maritime",
+            "\"Jay Bolton\" \"remediation\" artist",
+            "\"Jay Bolton\" artist performance 1968 1969 1970",
+            "\"Jay Bolton\" artist engineer Bell Labs",
+            "\"Jay Bolton\" \"E.A.T.\" participant",
+            "\"Jay Bolton\" maritime artist architect",
+            "\"Jay Bolton\" artist \"9 Evenings\" participant",
+            "\"Jay Bolton\" \"E.A.T.\" archives",
+            "\"Jay Bolton\" \"Elissa\" architect 1970s",
+            "\"Jay Bolton\" \"9 Evenings\" engineering",
+            "\"Jay Bolton\" E.A.T.",
+            "\"Jay Bolton\" Bell Labs E.A.T.",
+            "\"Jay Bolton\" artist 1960s 1970s E.A.T.",
+            "",
+            "\"Jay Bolton\" Osaka Expo 70",
+            "\"Jay Bolton\" \"E.A.T.\" engineer",
+            "\"Jay Bolton\" artist 1968 1969 1970 1971",
+            "",
+            " \"Bolton\"",
+            " \"Jay Bolton\"",
+            "\"Jay Bolton\" \"E.A.T.\" artist project",
+            "\"Jay Bolton\" \"E.A.T.\" engineer Bell Labs",
+            "\"Jay Bolton\" marine artist biography",
+            "\"Jay Bolotin\" \"Experiments in Art and Technology\"",
+            "\"Jay Bolton\" artist 1960s 1970s biography",
+            "\"Jay Bolton\" \"E.A.T.\" directory",
+            "",
+            "\"Jay Bolton\" artist 1970s New York",
+            "\"Jay Bolton\" collaborator Pepsi Pavilion",
+            "\"Jay Bolton\" \"9 Evenings\" technical staff",
+            "\"Jay Bolton\" naval architect artist E.A.T.",
+            "\"Jay Bolton\" artist 1960 1961 1962 1963 1964 1965 1966 1967 1968 1969 1970 1971 1972 1973 1974 1975",
+            "\"Jay Bolton\" \"9 Evenings\" technical team",
+            "\"Jay Bolton\" \"E.A.T.\" participant list",
+            "\"Jay Bolton\" marine artist \"Elissa\" biography",
+            "\"Jay Bolton\" New York artist 1970s",
+            "\"Jay Bolton\" engineer \"E.A.T.\" Bell Labs",
+            "\"Jay Bolton\" performer \"9 Evenings\" 1966",
+            "\"Jay Bolton\" maritime artist active 1960s 1970s",
+            "\"Jay Bolton\" \"E.A.T.\" Experiments in Art and Technology member",
+            "\"Jay Bolton\" artist 1970s performance technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHVqo_G2FI0OWDasBcnmFZzlTWCzeHl38jR9xVHdx3xxJjH1JciPVObeOr5k9rSrCYogCjp7_nSu0PtfXhsJuFb2qNONaGsnPsF20MEHnrF2Kzd8vvRyGz2amhMUtXsWQENga1MF_VVck3frsBYZWNO-n_KE9OXoLvrqPeylzj-PhPmZVH8u8YQ6DrpIcKHaoPcb45gXM=",
+              "title": "thisispublicparking.com",
+              "resolvedUri": "https://thisispublicparking.com/posts/a-historical-and-contemporary-primer-on-stained-glass"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqwMEfA3-_iHWqBAtiVJtm6Fx8evdFZo9_HGwPDbdKFd2AViVoa6zLlxxkcwqt2GLQi46TtF-jr7FNciTvubCu_SBq_Uc1aCw8qaNEvkzICajpxowmFgFb3rZjmGPRIgC22AZx7v7S0o85BxgevElmNKSkdQ==",
+              "title": "nypap.org",
+              "resolvedUri": "https://www.nypap.org/oral-history/evelyn-everett-ortner/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1104,
+                "endIndex": 1633,
+                "text": "remains obscure.\",\n      \"sources\": [\n        \"https://seahistory.org\",\n        \"https://www.washingtonpost.com/archive/lifestyle/1989/04/20/tall-ship-tale/1607f240-4107-4277-ae9b-2e92c732442b/\",\n        \"https://issuu.com/seahistory/docs/sh_054_summer_1990\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    },\n    {\n      \"possibleIdentity\": \"William Jay Bolton (1816–1884), often referred to as Jay Bolton, was a pioneering 19th-century artist credited with producing the first figural stained glass windows in the United States."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -100,6 +1215,103 @@
         "y1": 18.0,
         "x2": 46.5,
         "y2": 63.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q89207058",
+          "label": "Steve Duffy",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "Both the index card and the Wikidata entry refer to a Steve Duffy involved in artistic pursuits (the card specifies an artist active in 1971 and Wikidata identifies a songwriter). The timeframe is consistent, but the commonality of the name and the lack of specific biographical details like a birth date or location in the Wikidata snippet make it impossible to confirm the match with higher confidence."
+        },
+        {
+          "qid": "Q100783862",
+          "label": "Steve Duffy",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "While the names match, the Wikidata entity is specifically identified as a basketball player for the Little Rock Trojans (NCAA), whereas the card entry is expected to describe an artist. There is no indication that the athlete Steve Duffy was also an artist active in the early 1970s."
+        },
+        {
+          "qid": "Q107489976",
+          "label": "Steve Duffy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity was born in 1963, making him only 7 years old at the time of the card entry (1971). This is inconsistent with the context of an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q128792837",
+          "label": "Steve Duffy",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity contains no descriptive information beyond being a 'human' with the name Steve Duffy. Without dates, occupation, or biographical details, there is no evidence to link it specifically to the artist active in 1971 mentioned on the index card."
+        },
+        {
+          "qid": "Q129947398",
+          "label": "Steve Duffy",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The Wikidata entity describes a politician from the South Dakota House of Representatives, which does not align with the provided context that the person on the index card is an artist. While the names match, there is no overlap in their professional backgrounds or documented activities."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Steve Duffy is a professional songwriter active in the 1960s and 1970s, best known for co-writing the country music standard \"She Thinks I Still Care.\" He wrote the song with Dickey Lee (Royden Dickey Lipscomb), and it was first recorded by George Jones in 1962, becoming a massive hit that spent six weeks at number one on the Billboard country chart. The song has since been recorded by numerous prominent artists, including Elvis Presley (1976), Connie Francis (as \"He Thinks I Still Care\"), Anne Murray, and Leon Russell. Duffy was under contract as a professional songwriter to Jack Clement's publishing company at the Gulf Coast Studio in Beaumont, Texas, during the early 1960s. His work continued to be prominent through the 1970s, with Elvis Presley notably choosing his composition as a B-side for the single \"Moody Blue\" in 1977.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/She_Thinks_I_Still_Care",
+              "https://en.wikipedia.org/wiki/Dickey_Lee",
+              "https://en.wikipedia.org/wiki/List_of_songs_recorded_by_Elvis_Presley",
+              "https://www.james-taylor.com/she-thinks-i-still-care-wikipedia/"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Steve Duffy (also known by the pseudonym \"krumm\") is a British digital artist and poet who has been involved in experimental and technology-based art. He has been a participant in early digital culture communities, such as the \"Cybermind\" and \"Wryting\" listservs, which fostered collaborations between artists and thinkers interested in the intersection of digital technology and literature. His work has been featured in experimental journals such as Hyperrhiz and the 2River Chapbook Series. In scholarly discussions regarding the history of technology-based art, his name has been cited alongside figures like Billy Klüver (the founder of Experiments in Art and Technology, or E.A.T.) and John Cage, reflecting his association with the avant-garde tradition of combining electronics, digital media, and performance.",
+            "sources": [
+              "https://www.upenn.edu/pennpress/2001_04.txt",
+              "https://www.upenn.edu/pennpress/2000_11.txt",
+              "https://www.upenn.edu/pennpress/2000_05.txt",
+              "https://quod.lib.umich.edu/d/dh/12544252.0001.001/--publish-all-the-things-the-life-and-death-of-electronic?view=text"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Steven Duffy\" Experiments in Art and Technology",
+            "\"Steve Duffy\" artist 1960s 1970s E.A.T.",
+            "\"Steve Duffy\" artist collaborator E.A.T.",
+            "\"Steve Duffy\" artist Experiments in Art and Technology E.A.T.",
+            "\"Steve Duffy\" E.A.T. Experiments in Art and Technology",
+            "\"Steve Duffy\" artist 1968 1969 1970 1971",
+            "\"Steve Duffy\" artist member E.A.T.",
+            "\"Steve Duffy\" Pepsi Pavilion E.A.T.",
+            "\"Steve Duffy\" \"9 Evenings\" artist engineer",
+            " \"Steve Duffy\"",
+            "\"Steve Duffy\" artist \"cyberculture\" Cage",
+            "\"Steve Duffy\" songwriter biography 1960s",
+            "\"Steve Duffy\" artist \"E.A.T.\" collaboration",
+            "\"Steve Duffy\" songwriter E.A.T.",
+            "\"Steve Duffy\" engineer Bell Telephone Laboratories",
+            "\"Steve Duffy\" Bell Labs E.A.T.",
+            "\"Steve Duffy\" engineer E.A.T.",
+            "\"Steve Duffy\" Billy Kluver collaboration",
+            "\"Steve Duffy\" Bell Labs engineer E.A.T.",
+            "\"Steve Duffy\" artist active 1960s 1970s \"E.A.T.\"",
+            "\"Steve Duffy\" E.A.T. artist collaborator",
+            "\"Steve Duffy\" artist 1960s songwriter",
+            "\"Steve Duffy\" \"Pavilion\" E.A.T.",
+            "\"Steve Duffy\" artist 1970s E.A.T.",
+            "\"Steve Duffy\" \"E.A.T.\" Bell Labs",
+            "\"Steve Duffy\" choreographer E.A.T.",
+            "\"Steve Duffy\" artist engineer \"E.A.T.\"",
+            "\"Steve Duffy\" composer E.A.T.",
+            "\"Steve Duffy\" performer E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

@@ -24,5 +24,81 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "Has made optical projection devices which operate in conjunction with music.",
     "aestheticPhilosophicalInterests": "Not specified"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q27792",
+      "label": "John Forkner",
+      "description": "artist engineer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name John F. Forkner matches John Forkner. Both records identify the individual as an engineer. Furthermore, the card mentions his work on optical projection devices for music, which aligns with the Wikibase entry's 'artist' occupation and his involvement in E.A.T. (Experiments in Art and Technology), a project that paired engineers with artists."
+    }
+  ],
+  "wikidata_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2714331",
+      "label": "Philco",
+      "description": "defunct electronics manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Philco-Ford was the corporate name used after Ford Motor Company acquired Philco (Q2714331) in 1961. The Wikidata entry for Philco explicitly lists Ford as its owner and notes a dissolution date of 1961, which corresponds to when it was merged into the Ford corporate structure. The card's mention of the 'Aeronutronic Division' confirms this match, as the Aeronutronic division of Ford was combined with Philco to form Philco-Ford, specifically operating in Newport Beach, California, which aligns with the location on the card."
+    },
+    {
+      "qid": "Q134737211",
+      "label": "Philco-Ford",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name matches exactly. Philco-Ford was a major American company formed after Ford Motor Company acquired Philco in 1961. The Wikidata entity is identified as a business in the United States, which aligns with the employer listed on the card. Furthermore, the card's mention of the 'Aeronutronic Division' corresponds with the historical fact that Philco-Ford operated the Aeronutronic division after acquiring Aeronutronic Systems."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "John F. Forkner was a prominent optical engineer and scientist active from the late 1960s through the 1990s, best known for his pioneering collaborations with artists through Experiments in Art and Technology (E.A.T.). He was an optics specialist at Philco-Ford Corporation's Aeronutronic Division in Newport Beach, California, where he worked on advanced technical projects including infrared-detecting missile systems and NASA mission control systems. Outside of his defense work, Forkner was a key collaborator with artist Robert Whitman, notably designing the complex optical systems for the 'Art and Technology' exhibition at the Los Angeles County Museum of Art (LACMA) in 1971 and the Pepsi Pavilion at Expo '70 in Osaka, Japan. For the LACMA project, he famously organized a team of volunteers from the Laguna Beach Unitarian Church Fellowship to manually sand and fabricate high-precision mirrors in a makeshift workshop in Laguna Beach. His technical expertise spanned visual optical design, lasers, and fiber optics; he authored numerous papers on laser diode collimators and fiber optic beam phenomena and held patents such as a 'Light Display Instrument' (US Patent 3,580,126). Described as having a distinctive long red beard and interests in jazz and pottery, he was a bridge between the rigid engineering culture of the Cold War and the avant-garde art world of Southern California.",
+        "sources": [
+          "https://www.experimentsinartandtechnology.org/robert-whitman",
+          "https://en.wikipedia.org/wiki/Robert_Whitman",
+          "https://dokumen.pub/making-art-work-how-cold-war-engineers-and-artists-forged-a-new-creative-culture-9780262359504-0262359502.html",
+          "https://patents.google.com/patent/US3580126A/en",
+          "https://www.optica.org/posts/1967/a_photographic_recording_medium_for_10_6-m_laser_r/",
+          "https://spiedigitallibrary.org/conference-proceedings-of-spie/0740/0000/Characteristics-of-efficient-laser-diode-collimators/10.1117/12.937817.short"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "John Forkner \"Experiments in Art and Technology\"",
+        "\"John F. Forkner\" optical design lasers",
+        "John F. Forkner Laguna Beach Newport Beach",
+        "John F. Forkner Philco-Ford engineer",
+        "",
+        "\"John F. Forkner\" Philco-Ford Aeronutronic"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6mRCfzeVvPAbHNs3-BkgGz8Z5REDGeSqW6MQ8V1tsh9gxJeYJvZ3HWaXYMzlaEzXYUS0NQ9LdDYlzf1zHLAYakrEaQepy2YgW3GgBdaDTDqWRbd2LxvxA4IEOdNhm3vxNbEsznaOrqVkT3Zo_xyfuB3R1-l1gfk-nHEh55qAHpUjUDY11OZf8ondpHJe-8UtfP-asHOFT4zpR5Rt_IyHv9JP_obvPmC-MfCQo3JEQmV8Ilys-xFdkxVZemBVf",
+          "title": "dokumen.pub",
+          "resolvedUri": "https://dokumen.pub/making-art-work-how-cold-war-engineers-and-artists-forged-a-new-creative-culture-9780262359504-0262359502.html"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": 1241,
+            "endIndex": 2107,
+            "text": "Described as having a distinctive long red beard and interests in jazz and pottery, he was a bridge between the rigid engineering culture of the Cold War and the avant-garde art world of Southern California.\",\n      \"sources\": [\n        \"https://www.experimentsinartandtechnology.org/robert-whitman\",\n        \"https://en.wikipedia.org/wiki/Robert_Whitman\",\n        \"https://dokumen.pub/making-art-work-how-cold-war-engineers-and-artists-forged-a-new-creative-culture-9780262359504-0262359502.html\",\n        \"https://patents.google.com/patent/US3580126A/en\",\n        \"https://www.optica.org/posts/1967/a_photographic_recording_medium_for_10_6-m_laser_r/\",\n        \"https://spiedigitallibrary.org/conference-proceedings-of-spie/0740/0000/Characteristics-of-efficient-laser-diode-collimators/10.1117/12.937817.short\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

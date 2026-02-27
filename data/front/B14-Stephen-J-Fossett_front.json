@@ -22,5 +22,163 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "",
     "aestheticPhilosophicalInterests": "Interested in collaborating on projects using computers."
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q311786",
+      "label": "Steve Fossett",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Stephen J. Fossett' on the card aligns with 'Stephen James (Steve) Fossett' in Wikidata. While the Wikidata entry emphasizes his later career as an adventurer and financier, biographical records for the famous Steve Fossett confirm that he worked as a systems engineer for IBM in the late 1960s (between his time at Stanford and his career in finance), which matches the card's employer and job title perfectly."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q37156",
+      "label": "IBM",
+      "description": "American multinational technology corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'International Business Machines' on the card is the full, unabbreviated name for IBM (Q37156). The Wikidata entry explicitly lists 'International Business Machines Corporation' as the official name and 'IBM' as a short name, and its industry (computer hardware and software) matches the systems engineer role and computer-related interests listed on the card."
+    },
+    {
+      "qid": "Q5968787",
+      "label": "IBM Canada Head Office Building",
+      "description": "head office of IBM Canada",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the corporation 'International Business Machines' (IBM), while the Wikidata entity represents a specific physical building (the IBM Canada Head Office Building) located in Markham, Ontario. While the building is occupied by a subsidiary of the organization, they are distinct entities (an organization vs. a building)."
+    },
+    {
+      "qid": "Q19874511",
+      "label": "IBM Hursley",
+      "description": "laboratory in Hampshire, England",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists 'International Business Machines' (the parent corporation) as the employer, and the individual is located in New York City. The Wikidata entity (Q19874511) specifically represents IBM Hursley, which is a laboratory location in Hampshire, England, rather than the corporation as a whole."
+    },
+    {
+      "qid": "Q1141670",
+      "label": "IBM Personal Computer/AT",
+      "description": "personal computer model",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the organization International Business Machines (IBM). The Wikidata entity Q1141670 refers to a specific product model, the IBM Personal Computer/AT, rather than the corporation itself."
+    },
+    {
+      "qid": "Q30338814",
+      "label": "IBM Germany",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the global parent company 'International Business Machines' (IBM), and the individual is based in New York City. The Wikidata entity Q30338814 represents the German subsidiary of IBM (IBM Germany), which is a distinct legal entity and geographic division from the US operations mentioned on the card."
+    },
+    {
+      "qid": "Q28974610",
+      "label": "IBM France",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q28974610 specifically represents IBM France. The individual on the card is located in New York City and lists 'International Business Machines' as their employer, which refers to the parent corporation or the US entity, rather than the specific French subsidiary."
+    },
+    {
+      "qid": "Q16323757",
+      "label": "IBM Denmark",
+      "description": "IBM subsidiary in Denmark",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the parent organization International Business Machines (IBM) and lists the employee's location as New York City. The Wikidata entity Q16323757 is specifically for IBM Denmark, which is a regional subsidiary based in Denmark and not the correct entity for an employee based in New York."
+    },
+    {
+      "qid": "Q30338816",
+      "label": "IBM Egypt Business Support Services",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the parent organization International Business Machines (IBM) in the context of a person working in New York City, whereas the Wikidata entity is a specific subsidiary based in Egypt (IBM Egypt Business Support Services)."
+    },
+    {
+      "qid": "Q41567073",
+      "label": "IBM Česká republika",
+      "description": "company in Prague, Czechia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q41567073 refers specifically to 'IBM Česká republika', a subsidiary founded in 1990 in the Czech Republic. The card refers to 'International Business Machines' (the parent company) in a US context (New York) and relates to biographical data from an earlier era (late 1960s), making the specific Czech branch an incorrect match for the general corporate entity."
+    },
+    {
+      "qid": "Q59493032",
+      "label": "International Business Machines Corporation Collection (NAID 653182)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card lists 'International Business Machines' (IBM) as the employer, which is a corporation. The Wikidata entity Q59493032 represents an archival collection (fonds) of IBM's records held by the National Archives and Records Administration, not the business entity itself."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "James Stephen \"Steve\" Fossett (1944–2007) was an American businessman and record-setting adventurer, primarily known for his global achievements in aviation, sailing, and ballooning. After receiving his MBA from the Olin School of Business at Washington University in St. Louis in 1968, Fossett began his professional career as a systems engineer for International Business Machines (IBM). Based in New York City during this period, he worked in the technical fields of computer systems and programming for approximately five years (c. 1968–1973). His background as a systems engineer at IBM led to his involvement with the Experiments in Art and Technology (E.A.T.), a non-profit organization that paired engineers and scientists with artists to foster creative collaborations. Fossett later transitioned into the financial services industry, becoming a successful commodities trader and a member of the New York Stock Exchange, before gaining worldwide fame for setting 115 world records as an adventurer.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Steve_Fossett",
+          "https://www.latimes.com/archives/la-xpm-1995-12-28-ls-18451-story.html",
+          "https://source.washu.edu/2016/07/liu-installed-fossett-distinguished-professor/",
+          "https://airportjournals.com/steve-fossett-always-scouting-for-new-adventures-4-22-44-flown-west-9-3-07/"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Stephen J. Fossett IBM systems engineer",
+        "\"Stephen J. Fossett\" Experiments in Art and Technology",
+        "",
+        "\"Steve Fossett\" E.A.T. engineer",
+        "\"Stephen J. Fossett\" IBM New York City",
+        "",
+        "\"Steve Fossett\" IBM New York systems engineer",
+        "\"Steve Fossett\" E.A.T. archive",
+        "\"Stephen J. Fossett\" E.A.T. archive",
+        "\"Stephen J. Fossett\" IBM systems engineer New York",
+        "",
+        "\"Steve Fossett\" \"IBM\" New York City systems engineer",
+        "\"Steve Fossett\" Experiments in Art and Technology E.A.T.",
+        "\"Stephen J. Fossett\" \"IBM\" New York City systems engineer",
+        "",
+        "\"Steve Fossett\" \"E.A.T.\"",
+        "\"Stephen J. Fossett\" \"E.A.T.\"",
+        "\"Stephen J. Fossett\" IBM NYC programming engineer",
+        "",
+        "\"James Stephen Fossett\" IBM systems engineer New York City",
+        "\"Stephen J. Fossett\" E.A.T. engineer index card"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNBS4hN3tl6JhXaSSXu_Zd4cm-Z1MgrorsXL2MpxjPLYXzSFzWOe21vlWAHDDbmutFTngExuULElZqvd835dN8NVW_bA6jwAek4kEYRSxGxmNTerXS7qB3uhVx_1SyNmraCfMKdfw=",
+          "title": "wikipedia.org",
+          "resolvedUri": "https://en.wikipedia.org/wiki/Steve_Fossett"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvjxPr-zgIx7euOkz9X808Eo4B2Q98CbZayvyrtztz4gZbFWLMiOab4jIZZwDSMuHIypmuZbnnD9TjVd-jP5HL-jYE5dXYBrF-TFJccVB36yuff6INmTUHWeBD1jZycV1TLCmgj9KTj5PeWZgCs_xSBzId8N49mJ_xS32DGODYTimqi_YH8W8qXU7Wxjr47GRhmSZBHVzJ9_0gar0FHaS2utCyKZlLGtjngnfRDhhbUHnFrY8KFdZGXs30cWOmPXuF2v6QksYZd3OKSiJkrI0=",
+          "title": "quora.com",
+          "resolvedUri": "https://www.quora.com/Can-humans-control-the-wind-Ive-seen-it-in-movies-thou-but-I-keep-wondering-if-its-mere-fiction-or-an-image-of-the-real-thing"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 236,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"James Stephen \\\"Steve\\\" Fossett (1944–2007) was an American businessman and record-setting adventurer, primarily known for his global achievements in aviation, sailing, and ballooning."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        }
+      ]
+    }
   }
 }

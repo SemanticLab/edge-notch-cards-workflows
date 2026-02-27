@@ -9,6 +9,158 @@
         "y1": 10.7,
         "x2": 39.8,
         "y2": 15.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28415",
+          "label": "James Umland",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name James Umland is an exact match in both records. The Wikibase entity confirms the individual is an artist and part of the E.A.T. (Experiments in Art and Technology) project, which aligns with the historical timeframe and context provided for the card entry."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q66484",
+          "label": "Carl Meinhof",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'James Umland' from the card record does not match the name 'Carl Meinhof' from the Wikidata entity. Additionally, Carl Meinhof died in 1944, making it impossible for him to be the artist active in the late 1960s and early 1970s described in the context."
+        },
+        {
+          "qid": "Q1100276",
+          "label": "Clement Martyn Doke",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card (James Umland) and the name of the Wikidata entity (Clement Martyn Doke) are completely different. Furthermore, the Wikidata entity is described as a linguist and academic, whereas the card record identifies an artist."
+        },
+        {
+          "qid": "Q4137966",
+          "label": "Thomas Givon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names James Umland and Thomas Givon are entirely different. Additionally, the Wikidata entity describes a linguist and academic, whereas the card entry refers to an artist."
+        },
+        {
+          "qid": "Q36670958",
+          "label": "R. Umland",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry refers to James Umland, an artist, whereas the Wikidata entity is for R. Umland, a botanist. The first names/initials do not match, and the occupations are distinct with no evidence suggesting they are the same individual."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "James F. Umland (1928–2016) was an American conceptual artist, teacher, and radio host who was a significant figure in the New York avant-garde scene during the late 1960s and 1970s. Born in Appleton, Wisconsin, he earned a BFA from the University of Iowa and a Master's degree from New York University. Umland was closely associated with the emerging conceptual art movement and the Experiments in Art and Technology (E.A.T.) organization, participating in their exhibitions between 1968 and 1969. His work is documented in Lucy Lippard's seminal book, 'Six Years: The Dematerialization of the Art Object from 1966 to 1972.' He was a friend and collaborator of artist Robert Barry and worked with other luminaries such as John Cage and Dary John Mizelle. Beyond his visual art, Umland hosted a radio program on WBAI-FM in New York focused on the art of creative invention, where he interviewed prominent figures like Dave Brubeck and Jacques D'Amboise. His professional career also included teaching art in high schools and colleges in the New York City area until his retirement. His work has been exhibited at major institutions, including the Museum of Modern Art (MoMA), the Brooklyn Museum, and the Westerly Gallery.",
+            "sources": [
+              "https://www.charlestonfunerals.com/obituary/James-Umland",
+              "https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-",
+              "https://www.mip.at/texte/conversation-with-robert-barry",
+              "https://www.nicholascroft.org/the-james-umland-radio-interviews/",
+              "https://dokumen.pub/six-years-the-dematerialization-of-the-art-object-from-1966-to-1972-reprint-2019-ed-9780520340619.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"James Umland\" artist",
+            "James Umland artist \"Experiments in Art and Technology\"",
+            "\"James Umland\" 1960s 1970s",
+            "\"James Umland\" E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhAFdy9ZC1Lr0wB-eKgxbu86YjnRIKlNd8o1vvCN6MQYDteT8FFlnud2cHThWrm7es1B7y3zLwW7oe6jD-VhE4ZTO7W5h0pf0wKNcV-r54cGgt58IAnrqi0ab-iLmM5T4X6218jRhIwjABW9G_hrVYCE-Dgh9FzkQS0HhSKvb2gFztBi6G",
+              "title": "legacy.com",
+              "resolvedUri": "https://www.legacy.com/obituaries/name/james-umland-obituary?pid=179855999"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtDSQw92b2Yc4Hg2ZhoPXO31YQylMSc0yw36jxDfx1K6c1qo4kzpU6Eae2Uw6ay7pNRsSktT-BSNO-e565DVoSYiBS6HF9DA0dapJ1t2fzRKPVn_jPB7KW6mAjrt-CNCDC8BTOH8LLAtEpDDWxBrPOtl1Hpiw=",
+              "title": "charlestonfunerals.com",
+              "resolvedUri": "https://www.charlestonfunerals.com/obituaries/james-umland"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx2-ClvYkijS1c8jEGSOhISb7WSHQrcVKnkZKqy6h1OMDKzIDKaN5MkTEasRfomY0CB1FW1O-MNjBw8KbpIGT95jODI036i3ML7qp1A07pCW3Jhhn1LPa64isBL43XMEdtgarCJRDZQqGs5ImUYK6gEOWjgqi0TELGYPTsbPNjHiE=",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/research/archives/finding-aids/PublicInformationf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6lNNRXYHDp_ANEkDAayL67iavmeOwnaUu82ROib5y7Uuj5mRV0i2Vq_hK03-mwnzCkDDVoj8vIPz3tuWhKgNzyvmPUSVCgYir1-uQ1paF7Q1cN2Ac5i8B",
+              "title": "mip.at",
+              "resolvedUri": "https://www.mip.at/texte/180/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 234,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"James F. Umland (1928–2016) was an American conceptual artist, teacher, and radio host who was a significant figure in the New York avant-garde scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 235,
+                "endIndex": 355,
+                "text": "Born in Appleton, Wisconsin, he earned a BFA from the University of Iowa and a Master's degree from New York University."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 479,
+                "endIndex": 550,
+                "text": "organization, participating in their exhibitions between 1968 and 1969."
+              },
+              "groundingChunkIndices": [
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 808,
+                "endIndex": 1005,
+                "text": "Beyond his visual art, Umland hosted a radio program on WBAI-FM in New York focused on the art of creative invention, where he interviewed prominent figures like Dave Brubeck and Jacques D'Amboise."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1006,
+                "endIndex": 1133,
+                "text": "His professional career also included teaching art in high schools and colleges in the New York City area until his retirement."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1134,
+                "endIndex": 1780,
+                "text": "His work has been exhibited at major institutions, including the Museum of Modern Art (MoMA), the Brooklyn Museum, and the Westerly Gallery.\",\n      \"sources\": [\n        \"https://www.charlestonfunerals.com/obituary/James-Umland\",\n        \"https://www.artist-info.com/curator/Experiments-in-Art-and-Technology-E-A-T-\",\n        \"https://www.mip.at/texte/conversation-with-robert-barry\",\n        \"https://www.nicholascroft.org/the-james-umland-radio-interviews/\",\n        \"https://dokumen.pub/six-years-the-dematerialization-of-the-art-object-from-1966-to-1972-reprint-2019-ed-9780520340619.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                1,
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

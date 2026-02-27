@@ -11,6 +11,86 @@
         "y1": 10.2,
         "x2": 35.7,
         "y2": 14.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q76253993",
+          "label": "Ira D. Schwarz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person in the Wikidata entry died in 1946, whereas the person on the card is known to have been active as an artist in the late 1960s and early 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ira Paul Schwarz (1922–2006) was an American composer, music professor, and author who was active in the late 1960s and 1970s. He is particularly known for his work in interdisciplinary arts education. In 1973, he co-authored the book 'Teaching the Relating Arts: A Guide to General Education in the Arts' with Leon Karel, which focused on the synthesis and integration of various art forms—a goal that aligned closely with the mission of Experiments in Art and Technology (E.A.T.). Schwarz served as a professor and Chairman of the Music Department at the State University of New York (SUNY) College at Brockport, where he coordinated inter-institutional arts programs and sharing of original musical compositions. As a composer, his works included operas, theater music, and extensive literature for wind ensembles, many of which have been performed internationally. He was also involved in 'Project H.E.L.P.' (Humanities Education Learning Program) and other interdisciplinary initiatives within the SUNY system during the early 1970s.",
+            "sources": [
+              "https://www.hebu-music.com/en/musicians/ira-p-schwarz.1843/",
+              "https://www.discogs.com/artist/3280612-Ira-Paul-Schwarz",
+              "https://eric.ed.gov/?id=ED054750",
+              "https://books.google.com/books/about/Teaching_the_Relating_Arts.html?id=z17uAAAAMAAJ"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Ira Schwarz (born 1951) is a prominent American photojournalist who began his career in the 1970s. He moved to Washington, D.C., in 1978 to work as a staff photographer for The Associated Press (AP) and later for Reuters. Schwarz is widely recognized for his documentation of major historical and political events, including the presidencies of Jimmy Carter, Ronald Reagan, and George H.W. Bush. His photographic credits appear on numerous iconic images from the late 1960s and 1970s distributed by the AP. While primarily known as a news photographer, his work has been featured in major publications and historical archives, documenting the intersection of culture, politics, and technology during the era.",
+            "sources": [
+              "https://www.worldpressphoto.org/person/detail/1943/ira-schwarz",
+              "https://www.bridgemanimages.com/en-US/ira-schwarz/nomad/51052124",
+              "https://www.smithsonianmag.com/history/eleven-times-when-americans-have-marched-in-protest-on-washington-180961823/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Ira Schwarz\" artist",
+            "\"Ira Schwarz\" 1960s 1970s artist",
+            "\"Ira Schwarz\" E.A.T. artist",
+            "\"Ira Schwarz\" Experiments in Art and Technology",
+            "",
+            "\"Ira P. Schwarz\" artist",
+            "\"Ira Schwarz\" E.A.T. composer",
+            "",
+            "\"Ira Schwarz\" E.A.T. bibliography",
+            "\"Ira Schwarz\" composer E.A.T.",
+            "\"Ira Schwarz\" artist associate E.A.T.",
+            "",
+            "\"Ira Schwarz\"",
+            "\"Ira Schwarz\" \"E.A.T.\" Brooklyn Museum",
+            "\"Ira Schwarz\" 1968 E.A.T. competition",
+            "",
+            "\"Ira Paul Schwarz\" E.A.T.",
+            "\"Ira N. Schwarz\" E.A.T.",
+            "\"Ira Schwarz\" E.A.T. engineer",
+            "\"Ira Schwarz\" \"Related Arts\" E.A.T.",
+            "",
+            "\"Ira Schwarz\" artist NY 1960s 1970s",
+            "\"Ira Schwarz\" composer \"experiments\"",
+            "\"Ira Schwarz\" E.A.T. newsletter"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3FgXZZi4Yzemk1Xc8oromQ5rFy-fEwTWfhS1r3zLo0Npc7kQrpZNLwWBf-eKjpVxwIWN9A3lSOD08GEN9qNTMUYlHOIdtai4Wq9xtuQVryQ2ZFtdxvXq4psRD9BmHBcSQ8nRsPvbu3XpbB5BEOlTpsWCro5anKNoxWxZxlIKszNbJRN-4FhY=",
+              "title": "clarinet.org",
+              "resolvedUri": "https://clarinet.org/wp-content/uploads/2022/08/Updated_MasterIndex_2022.xlsx"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 178,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ira Paul Schwarz (1922–2006) was an American composer, music professor, and author who was active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     }
   ]

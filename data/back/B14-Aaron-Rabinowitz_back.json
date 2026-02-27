@@ -10,6 +10,87 @@
         "y1": 13.9,
         "x2": 33.5,
         "y2": 19.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Iain (often referred to as Ian) Whitecross (1936–2019) was a British-born artist, painter, and sculptor who was a significant figure in the New York art scene starting in the 1960s. Born in the UK and educated in economics in London, he began painting full-time in Paris before relocating to New York City. He is well-known for his involvement with Experiments in Art and Technology (E.A.T.), an organization that fostered collaborations between artists and engineers. Stimulated by the early space flights, his work often bridged the gap between science and art. In the late 1960s and early 1970s, he produced series such as 'Magnifications' (1964–1966), spray paintings based on microscopic plant views, and 'Advertisements for War' (1972–1974), a suite of serigraphs critiquing the Vietnam War. He was also a vocal member of the Art Workers’ Coalition (AWC), advocating for artists' rights, royalties, and control over the use of their work. His later career featured 'The Electronic Garden,' a large-scale cybernetic sculptural environment first exhibited at the OK Harris Gallery in 1992, and 'The Seasons and Other Cycles of Life,' a series of interactive wall sculptures. Whitecross was a member of the United Scenic Artists (Local USA829) and received fellowships from the MacDowell and Millay Colonies. He died in 2019.",
+            "sources": [
+              "https://elenaborstein.com/iain-whitecross-biography/",
+              "https://www.mutualart.com/Artist/Iain-Whitecross/80616999E9833621/Biography",
+              "https://www.iatse.net/sites/default/files/bulletin_3rd_qtr_2019.pdf",
+              "https://www.scribd.com/document/383112108/1485428529zonacritica-Andreafraser-PDF"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Ian Whitecross painter 1960s 1970s",
+            "\"Ian Whitecross\" artist biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz_bANlPNpVY1Nn9gaSRoP9y4sXq-ea-4etXXA_-6vOVm5F5qASIBME3ao66zhGXkgjK4r9GAanXEUGfrCN4aulhv9WhVnoqXWxZlCcwI2hnuwCbEnmf5xyj08AgbJ23b9VLwqlbBWXH9CFrOpGw==",
+              "title": "elenaborstein.com",
+              "resolvedUri": "http://www.elenaborstein.com/iainwhitecross/bio.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 233,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Iain (often referred to as Ian) Whitecross (1936–2019) was a British-born artist, painter, and sculptor who was a significant figure in the New York art scene starting in the 1960s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 234,
+                "endIndex": 358,
+                "text": "Born in the UK and educated in economics in London, he began painting full-time in Paris before relocating to New York City."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 359,
+                "endIndex": 520,
+                "text": "He is well-known for his involvement with Experiments in Art and Technology (E.A.T.), an organization that fostered collaborations between artists and engineers."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 521,
+                "endIndex": 615,
+                "text": "Stimulated by the early space flights, his work often bridged the gap between science and art."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1370,
+                "endIndex": 1781,
+                "text": "He died in 2019.\",\n      \"sources\": [\n        \"https://elenaborstein.com/iain-whitecross-biography/\",\n        \"https://www.mutualart.com/Artist/Iain-Whitecross/80616999E9833621/Biography\",\n        \"https://www.iatse.net/sites/default/files/bulletin_3rd_qtr_2019.pdf\",\n        \"https://www.scribd.com/document/383112108/1485428529zonacritica-Andreafraser-PDF\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -22,6 +103,144 @@
         "y1": 26.6,
         "x2": 50.1,
         "y2": 31.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q19519877",
+          "label": "Irene Krugman Rudnick",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Q19519877 refers to Irene Krugman Rudnick, a politician and member of the South Carolina House of Representatives who lived from 1929 to 2019. The card describes an artist named Irene Krugman active in the 1960s/70s. There is a distinct American sculptor named Irene Krugman (1925–1982) who fits the artist context, meaning the politician is a different individual."
+        },
+        {
+          "qid": "Q28544783",
+          "label": "Irene Krugman",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. The Wikidata entity describes a sculptor and installation artist who was active during the late 1960s and early 1970s (lifespan 1925-1982), which aligns perfectly with the provided artist context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Irene Krugman (1925–1982) was an American environmental artist, sculptor, and installation artist active from the late 1960s until her death in 1982. Born in New York City, she studied at the Kansas City Art Institute, New York University, and the New School for Social Research, where she worked with Yasuo Kuniyoshi. Krugman was a participant in the Experiments in Art and Technology (E.A.T.) organization and was included in the 1968 exhibition 'Some More Beginnings: Experiments in Art and Technology' at the Brooklyn Museum. Her artistic practice focused on illusions of space, often using wall-reliefs, paintings, and large-scale installations that featured repeating simplified forms on varying scales. Notable works included a 1977 installation at the City University of New York consisting of a 'mastaba-shape' and mirror-lined wooden boxes, and a solo exhibition at the OK Harris Gallery in 1978. Her work is held in the collections of several institutions, including the Newark Museum, the New Jersey State Museum, and the Rowan University Art Gallery. She resided in Morristown, New Jersey, for much of her later life and passed away from cancer at the age of 56.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Irene_Krugman",
+              "https://awarewomenartists.com/en/artiste/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/",
+              "https://www.nytimes.com/1982/04/17/obituaries/irene-krugman-dead-environmental-artist.html",
+              "https://dbpedia.org/page/Irene_Krugman"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Irene Krugman artist biography",
+            "Irene Krugman artist Experiments in Art and Technology E.A.T.",
+            "",
+            "Irene Krugman \"The Machine as Seen at the End of the Mechanical Age\"",
+            "Irene Krugman kinetic sculpture details"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEFc6jeQ01jhcX92b-KYK59RMjyzfMF1qWJBwQPXNd3CS4Qa7VCeXIUxw4FXAXi3XtD92aqPD1yXfaSpypRDqV-LR43Ice1p-zBO-nGDC8rAhNKoRUvNvHXzD_uEwxMQoduH8rsFAQILS2-Qklperr5Vv0IPsyPZehbHVgYDoQpoXhsD_3Yz99CRFhz1JYCrQPrszyLvItj4ny9mYazMHIDu50psIIoKbaAhtNLXN_",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC9960wZm_tK4MqbrHVJR95j-QY9gDCnqVCTnUfeNKGR48RN9CbTz9rJV2vXt5327-WKOxCHX1KQwIW9peX3LD12RNEyqs84K96u8av0QG-W1r972u4xog73uytNbJoDpWhEBXgeIyBz4--pEMxXC866yASleE7jKQMvSU07yUWUgE7vTLA_NZ1XpS6h8tm7rwz3kb3hweywpBHh7mSIFQIxQ1v3Xz46U7El9VpiKZ",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/en/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwcuwQRwFbXazuTXfvQfrzBnSaZE5E0_EnlnPJFNYZlguGBMHTQdFGm1wgh3o-lhCpY0WN_pgAL0XzzdAj5x0981czgb_SAC9lySHaVqXWmiPTLPULePTJ6sjEKvh1g1H3InXDAr4=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Irene_Krugman"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF84aEkS2wRn0168_rIx48MmLFIsdtYvhdDuttlmVCTy7YtVYo1XeTEh4_9eRP3IyJ2vIiiEhwYouwOdwZnPIf6roKUht5IS9-UrhgyXBlNciWxSyVdRZ1BBpYc-7tEj9fgUk_u71zuTFp9-Z5bmGuq4DJEsN04pJJaIcfgtVsnhWIDWNOgOd3h07w42UP_3FOL4-Xf43PxJXf3QmmREVMPidJvKFU5D_RtvsQK",
+              "title": "awarewomenartists.com",
+              "resolvedUri": "https://awarewomenartists.com/magazine/experiments-in-art-and-technology-e-a-t-participation-des-artistes-femmes/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 201,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Irene Krugman (1925–1982) was an American environmental artist, sculptor, and installation artist active from the late 1960s until her death in 1982."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 202,
+                "endIndex": 370,
+                "text": "Born in New York City, she studied at the Kansas City Art Institute, New York University, and the New School for Social Research, where she worked with Yasuo Kuniyoshi."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 371,
+                "endIndex": 446,
+                "text": "Krugman was a participant in the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                1,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 447,
+                "endIndex": 581,
+                "text": "organization and was included in the 1968 exhibition 'Some More Beginnings: Experiments in Art and Technology' at the Brooklyn Museum."
+              },
+              "groundingChunkIndices": [
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 762,
+                "endIndex": 958,
+                "text": "Notable works included a 1977 installation at the City University of New York consisting of a 'mastaba-shape' and mirror-lined wooden boxes, and a solo exhibition at the OK Harris Gallery in 1978."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 959,
+                "endIndex": 1115,
+                "text": "Her work is held in the collections of several institutions, including the Newark Museum, the New Jersey State Museum, and the Rowan University Art Gallery."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1116,
+                "endIndex": 1631,
+                "text": "She resided in Morristown, New Jersey, for much of her later life and passed away from cancer at the age of 56.\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Irene_Krugman\",\n        \"https://awarewomenartists.com/en/artiste/experiments-in-art-and-technology-e-a-t-participation-of-women-artists/\",\n        \"https://www.nytimes.com/1982/04/17/obituaries/irene-krugman-dead-environmental-artist.html\",\n        \"https://dbpedia.org/page/Irene_Krugman\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -34,6 +253,97 @@
         "y1": 32.7,
         "x2": 25.5,
         "y2": 38.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5692338",
+          "label": "Pedro Luján",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a person who lived in the 15th and 16th centuries (1401-1512) and was military personnel. The person from the card was an artist active in the late 1960s and early 1970s. These are clearly different individuals."
+        },
+        {
+          "qid": "Q6069364",
+          "label": "Pedro Luján",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes an artist active in the late 1960s/early 1970s. The Wikidata entity describes a Mexican military figure who participated in the Mexican Revolution (Villismo), which is a completely different professional context and timeframe than the artist mentioned on the card."
+        },
+        {
+          "qid": "Q6069366",
+          "label": "Pedro Luján",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity refers to a person active in the 16th century (floruit 1500), whereas the card entry describes an artist active in the late 1960s or 1970s."
+        },
+        {
+          "qid": "Q55466988",
+          "label": "Pedro Luján",
+          "match": true,
+          "confidence": "medium",
+          "reasoning": "The name matches perfectly (ignoring the accent). While the Wikidata entity is sparse, it represents a male human with the correct name, and the card's mention of 'LOFT' is consistent with a New York-based artist active in the 1960s/70s, making the identification plausible."
+        },
+        {
+          "qid": "Q111048300",
+          "label": "Pedro Lujan",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Pedro Lujan' matches exactly. The Wikidata entity describes an artist and sculptor born in 1943, which fits the expected timeline for someone active in the late 1960s and early 1970s. The 'LOFT' contact method on the card is also consistent with an artist's studio during that era."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Pedro Lujan (born 1943) is a Mexican-American sculptor and artist who was primarily active in New York City starting in the mid-1960s. Born and raised in El Paso, Texas, he earned a BA from the University of Texas at El Paso in 1965 and later an MA from Goddard College in 1973. Lujan is known for his work in sculpture, particularly using wood, rope, and experimental materials like vinyl. In the late 1960s and early 1970s, he was involved in the burgeoning art and technology scene in New York. Notably, in 1970, he collaborated with the video collective Videofreex to supervise the construction of the \"Blue Calzone,\" a giant inflatable vinyl structure used for rear projection at the Alternate Media Conference at Goddard College. His work often explores the boundaries between the natural world and psychic reality, sometimes incorporating architectural exercises like rope bridges. Lujan was a recipient of a Guggenheim Fellowship in 1981, an Emily Harvey Fellowship, and grants from the National Endowment for the Arts (NEA). He has been associated with key cultural institutions such as El Museo del Barrio and the Just Above Midtown (JAM) gallery, and he was a long-time friend of sculptor Luis Jimenez.",
+            "sources": [
+              "https://rair.org/pedro-lujan",
+              "https://www.davidsongigliotti.org/a-brief-history-of-the-videofreex/",
+              "https://www.vasulka.org/archive/Yalkut/ElectronicZen.pdf",
+              "https://www.mochamuseumdc.org/museum-directors-advisors",
+              "https://en.wikipedia.org/wiki/List_of_Guggenheim_Fellowships_awarded_in_1981",
+              "https://latinopia.com/02/03/23/ricardo-romos-tejano-report-02-03-23-rolando-briseno-at-moma-show/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Pedro Lujan sculptor biography",
+            "artist Pedro Lujan Experiments in Art and Technology E.A.T.",
+            "\"Pedro Lujan\" artist 1960s 1970s",
+            "",
+            "\"Pedro Lujan\" New York artist 1960s 1970s",
+            "\"Pedro Lujan\" Experiments in Art and Technology",
+            "\"Pedro Lujan\" E.A.T. artist member",
+            "\"Pedro Lujan\" sculptor Guggenheim biography"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgQdtUmE6QtXNAs2vLgDRArWT8ui_fmN6h-PuhZQ4V4UkHaBW8gOVIrwJrya8v2Jt6wXeane0Tiq70G01lHfPhnD2vm6QWQJ1vFRpeokrZvNkiQW5_K9HbPYy7T2pXIYGZsfNYWakVUOul9OHSf2iZSvNH9SkqYh4HzRNSYw==",
+              "title": "vasulka.org",
+              "resolvedUri": "https://vasulka.org/archive/Artists10/Yalkut,Jud/ElectronicZen.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUop18ny9AOWV3rpipSnMF80dPAEryZtLT5VoI_gvWkrnjt0s17yFxcscuH1tdDrFJphrVCEWl2rykaRcFwIYDgn_Z0AMYWyDuGAs-AYj88ZdmiVJ0K2LmHxZmXRNJ3wSdBB4G0nc=",
+              "title": "davidsonsfiles.org",
+              "resolvedUri": "https://davidsonsfiles.org/Exhibitions.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 441,
+                "endIndex": 547,
+                "text": "In the late 1960s and early 1970s, he was involved in the burgeoning art and technology scene in New York."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -46,6 +356,91 @@
         "y1": 41.2,
         "x2": 36.7,
         "y2": 46.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q822346",
+          "label": "Bernard Childs",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Bernard Childs' is an exact match. The Wikidata entity describes a prominent American painter and printmaker who was active during the late 1960s and 1970s (living 1910-1985), which aligns perfectly with the artist context provided for the card entry."
+        },
+        {
+          "qid": "Q21078956",
+          "label": "Charles Bernard Childs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Charles Bernard Childs died in 1956, which precludes him from being active in the late 1960s and early 1970s as required by the card's context. Furthermore, the Wikidata entity was an academic/teacher (a Fellow of the Royal Society of Edinburgh), not an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bernard Childs (1910–1985) was an American painter, printmaker, and sculptor who was a pioneer in using industrial technology and power tools for artistic purposes. Born in Brooklyn to Russian immigrant parents, he studied at the Art Students League with Kimon Nicolaïdes and later under Amédée Ozenfant. He is best known for developing the \"power drypoint\" technique, which involved the direct engraving of metal plates using high-speed power drills and rotary burrs. Between 1966 and 1977, he was active in both Paris and New York, maintaining a studio at the Chelsea Hotel. In the late 1960s and early 1970s, his work expanded from traditional painting and printmaking into experiments with light and technology. In 1969, he debuted a series of \"light sculptures\"—illuminated acrylic sheets that were engraved with symbols and lit from below—at a retrospective at the Storm King Art Center. This experimental turn into \"light, electronics and machines\" aligns with the goals of Experiments in Art and Technology (E.A.T.), an organization that fostered collaborations between artists and engineers, and in which contemporaries like Robert Rauschenberg were active. His work during this period, including pieces like \"Kinetic Light,\" explored the dialogue between line, space, and technological illumination.",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Bernard_Childs",
+              "https://www.annexgalleries.com/artists/biography/417/Childs/Bernard",
+              "https://www.kettererkunst.com/bio/bernard-childs-1910.php",
+              "https://www.whitney.org/artists/2436",
+              "https://www.mutualart.com/Artist/Bernard-Childs/0178E994B69842DA"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bernard Childs artist biography",
+            "Bernard Childs Experiments in Art and Technology E.A.T.",
+            "\"Bernard Childs\" E.A.T. Experiments in Art and Technology",
+            "\"Bernard Childs\" light sculpture E.A.T.",
+            "\"Bernard Childs\" member of Experiments in Art and Technology E.A.T.",
+            "\"Bernard Childs\" light sculptures E.A.T. exhibition"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe6xuU9HcqF-oDYwpvEq8BjchADit680j9FFqBW8z_5z4u8MEKt0wzNuHUpv9CFD6pMx3ISmqjBbyM2d0CThlV7J0ZBvhYghna5mXihwOfkOJRAa_pMNxmKOOPoNxpBrZKoYnba_JtEsZQgrEMXgI_L8qCquiyhcMMjCf72iIc0rEn0V7YHeGK_1aFv9WGeHkirHg=",
+              "title": "princeton.edu",
+              "resolvedUri": "http://commons.princeton.edu/wp-content/uploads/sites/70/2018/06/shippen_henry_parker.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmIfoN8M24F9zcgJsMksqahDmRAb0ylT_w8cHQmtcuThy2imhTlvm_Uzcw62C75ytuBmbxC697fauBd8Zh1b0Xq0zFkg13N6aczeyQWA1p7TNg2kr4bHkmxWivRY50Bt6o5wMYxUqDj273f_V6Z2bbPJyXLqQTZYI_nGu9GzVkPeuPckNisYRs2bFS0eTdGxCpP5zi",
+              "title": "princeton.edu",
+              "resolvedUri": "http://commons.princeton.edu/wp-content/uploads/sites/70/2018/06/shippen_henry_parker.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAMHQx2NHsqhbj06b0oqhTYYmIskQ-YwO95471eeaAYs9DRfP1Ara0X1JArqmQjx1Jrf3wCwibdibHg8YlifZvjZhkjyaDhrjq-ng9Dnz0nbu1l5Z0_Zby5lJhji2nAHR77-xlwgIeC8fOf_NG1vkvpziP6tH-K6ejMjjS7ooGKSooxt1MaIzrJF8=",
+              "title": "cuny.edu",
+              "resolvedUri": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1751&context=gc_etds"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPENup9hdW5xDmZPwGGyCZw_OczYS0GZijS0KQe3-i9dU1qnHN5cKI8lU1yaWufn1lH5rbcfjym31TzCcLQPLmx0e6yxqAoSLDbQs16ImF1fzHiSdvtIDQOLOcbcakcs_z9S3Hoj7--tN1wm7ALryC1K0JN8VxRWOB",
+              "title": "stereoworld.org",
+              "resolvedUri": "https://stereoworld.org/wp-content/uploads/2018/06/SW_V18_6.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyqiOsQCKA7HLKvVqDimRGk-xWj1me8Adl_E1VVXPHzFzNDK8q97btU1xPaPz5Ccblm0tXmAG27v8yMhmhgvi5BRYRCNrca9Q3QIC3bZVN1WgWOSKS6l6bua0Hsr5OXoaq1Bbk8tWOokZsHUhMzHmrAZwL1Jxe5oGWP44zgijkiAHpB9oIFuV-aqqpRHlAxSoflxb11toKdHfI7SA=",
+              "title": "mutualart.com",
+              "resolvedUri": "https://www.mutualart.com/Artwork/Frument/9C73922CAC7629DD41F8A05FE7298575?identifier=main%20image"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 216,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Bernard Childs (1910–1985) was an American painter, printmaker, and sculptor who was a pioneer in using industrial technology and power tools for artistic purposes."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     }
   ]

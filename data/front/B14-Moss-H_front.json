@@ -21,5 +21,227 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "null",
     "aestheticPhilosophicalInterests": "null"
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q39",
+      "label": "Lionel Hampton",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card refers to 'Moss H,' a professional in microwave antenna design working for Airborne Instruments, while the Wikibase entity is Lionel Hampton, a famous jazz musician. There is no overlap in name, occupation, or professional background."
+    },
+    {
+      "qid": "Q19058",
+      "label": "city",
+      "description": "when creating instances of this class, ensure coordinates (P146) statement is present",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a specific person (Moss H) with professional and contact information, while the second record defines the abstract concept/class of a 'city' in a semantic database. These are entirely different entity types."
+    },
+    {
+      "qid": "Q1032",
+      "label": "Harold Ousley",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card data refers to a person named 'Moss H' who is an engineer specializing in microwave antenna design at Airborne Instruments. The Wikibase entity refers to Harold Ousley, a well-known jazz musician associated with Count Basie and Duke Ellington. There is no overlap in name or professional field."
+    },
+    {
+      "qid": "Q2067",
+      "label": "Harold Ousley Hamilton College Interview",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names 'Moss H' and 'Harold Ousley' are completely different, as are their professional fields (microwave antenna design versus jazz music). There is no overlapping information to suggest they are the same person."
+    },
+    {
+      "qid": "Q493",
+      "label": "Herbie Hancock",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The index card identifies a 'Moss H' who is a microwave antenna designer for Airborne Instruments in New York. The Wikibase entity describes Herbie Hancock, a world-renowned jazz pianist and composer. There are no overlapping names, professions, or life details between an electrical engineer and a jazz musician."
+    },
+    {
+      "qid": "Q18954",
+      "label": "Harold Mabern",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. Record 1 describes 'Moss H', a microwave antenna designer working for Airborne Instruments. Record 2 describes Harold Mabern, a prominent jazz pianist. There is no overlap in their professional backgrounds, and the names do not provide a strong link."
+    },
+    {
+      "qid": "Q23375",
+      "label": "Harold Valle Weeksville Oral History",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The first record refers to Moss H, a microwave antenna design engineer at Airborne Instruments. The second record refers to Harold Valle, an interviewee for an oral history project concerning jazz shrines. There is no overlap in name, profession, or biographical details."
+    },
+    {
+      "qid": "Q2048",
+      "label": "Herbie Hancock Hamilton College Interview",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The records describe two different people. The card refers to 'Moss H', an engineer specializing in microwave antenna design at Airborne Instruments. The Wikibase entity refers to the famous jazz musician Herbie Hancock. There are no overlapping biographical details."
+    },
+    {
+      "qid": "Q19311",
+      "label": "Henry R. Lieberman",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names, employers, and occupations are entirely different. Record 1 refers to 'Moss H', a microwave antenna designer at Airborne Instruments, while Record 2 refers to Henry R. Lieberman, a writer for the New York Times."
+    },
+    {
+      "qid": "Q18955",
+      "label": "Harold Valle",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names (Moss H vs. Harold Valle) do not match. Furthermore, their professional backgrounds are entirely different: one is an engineer specializing in microwave antenna design at Airborne Instruments, while the other is a jazz promoter and manager associated with the Brooklyn jazz scene and the Central Brooklyn Jazz Consortium."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q728876",
+      "label": "Moss Hart",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The index card identifies a 'Moss H' who is a microwave antenna design engineer working for Airborne Instruments. The Wikidata entity describes Moss Hart, a famous Pulitzer Prize-winning playwright, screenwriter, and theater director. There is no overlap in their professional fields or biographical details beyond the similarity in name."
+    },
+    {
+      "qid": "Q20020238",
+      "label": "Moss H. Kendrix",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to a 'Moss H' who is a technical professional specializing in microwave antenna design at Airborne Instruments in Melville, New York. In contrast, Moss H. Kendrix (Q20020238) was a well-known public relations and marketing executive, famous for his work with Coca-Cola and based largely in Washington D.C. The professional fields of aerospace/electronic engineering and public relations are entirely distinct."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q128831578",
+      "label": "AIL Systems Inc",
+      "description": "American engineering company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The employer 'Airborne Instruments' is a common shortened name for 'Airborne Instruments Laboratory' (AIL). The Wikidata entity Q128831578 represents AIL Systems Inc, which was founded as Airborne Instruments Laboratory in 1945. The location mentioned on the card (Melville, NY) is adjacent to Deer Park, NY (the headquarters listed in Wikidata), both of which are on Long Island where AIL was historically based. Furthermore, the employee's field of microwave antenna design matches the company's known specialization in radar and aerospace electronics."
+    },
+    {
+      "qid": "Q58316842",
+      "label": "Q58316842",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The index card lists 'Airborne Instruments' in Melville, New York, with a focus on microwave antenna design. Wikidata entity Q58316842 refers to Airborne Instruments Laboratory (AIL), a well-known electronics and aerospace company headquartered in Melville, Long Island, that specialized in radar and microwave technology. The names, location, and technical domain are a perfect match."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Harold Moss was an electrical engineer active in the late 1960s and early 1970s, primarily associated with Airborne Instruments Laboratory (AIL) in Melville, New York. He specialized in microwave antenna design and electronic control systems. Moss is historically recognized for his role as a technical collaborator with the organization Experiments in Art and Technology (E.A.T.), which fostered partnerships between the engineering community and contemporary artists. Notably, Moss was one of the lead engineers from AIL who provided technical assistance for Robert Rauschenberg's 1968 kinetic environment \"Solstice,\" which utilized complex electronic systems, including photoelectric cells and motorized panels, to respond to the movement of viewers. His work with AIL and E.A.T. placed him at the center of the technological and artistic intersection in New York during that era.",
+        "sources": [
+          "https://www.rauschenbergfoundation.org/art/archive/solstice-1968",
+          "https://www.fondation-langlois.org/html/e/page.php?NumPage=247",
+          "https://ieee.li/pulse/archives/1960/1960_03.pdf",
+          "https://worldradiohistory.com/Archive-Electronics/60s/Electronics-1964-04.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"H Moss\" E.A.T. engineer",
+        "\"Harold Moss\" Airborne Instruments Laboratory",
+        "\"Howard Moss\" Airborne Instruments Laboratory",
+        "\"Moss H\" Airborne Instruments Laboratory microwave antenna",
+        "\"Moss H\" Experiments in Art and Technology AIL",
+        "\"H Moss\" Melville New York antenna",
+        "\"H Moss\" Airborne Instruments Laboratory microwave antenna",
+        "",
+        "\"Airborne Instruments Laboratory\" engineer list 1960s",
+        "\"Airborne Instruments Laboratory\" antenna engineers",
+        "\"H Moss\" AIL Melville microwave",
+        "\"Moss H\" \"Airborne Instruments\" antenna",
+        "\"Moss\" Melville NY \"Airborne Instruments\" antenna",
+        "\"H Moss\" \"Airborne Instruments Laboratory\" antenna",
+        "\"Hilary Moss\" Airborne Instruments Laboratory",
+        "\"Howard Moss\" Airborne Instruments Laboratory antenna",
+        "\"Moss H\" AIL Melville antenna",
+        "\"Experiments in Art and Technology\" technical persons \"Moss\"",
+        "\"Harold Moss\" Airborne Instruments Laboratory antenna",
+        "\"Moss H\" engineer \"Experiments in Art and Technology\"",
+        "",
+        "\"H Moss\" microwave antenna \"Airborne Instruments\"",
+        "\"Moss\" \"Experiments in Art and Technology\" engineer library",
+        "\"Moss\" Melville NY \"Airborne Instruments\" antenna design",
+        "\"Harold Moss\" AIL Melville New York microwave",
+        "\"H Moss\" AIL \"Airborne Instruments Laboratory\" antenna design",
+        "\"Moss H\" engineer E.A.T. microwave",
+        "\"Moss H\" \"Airborne Instruments\" antenna design",
+        "\"H Moss\" \"Airborne Instruments\" antenna design",
+        "\"Moss H\" \"Experiments in Art and Technology\" AIL",
+        "\"Moss\" Melville NY \"Airborne Instruments Laboratory\" microwave antenna design",
+        "\"Moss\" Melville NY AIL antenna design",
+        "\"Harold Moss\" antenna microwave design AIL",
+        "\"Moss\" AIL microwave antenna engineer",
+        "",
+        "\"Harold Moss\" Airborne Instruments Laboratory microwave antenna",
+        "\"Harold Moss\" engineer Melville NY",
+        "\"H. Moss\" Airborne Instruments Laboratory microwave antenna",
+        "\"Harold Moss\" E.A.T. engineer Pepsi Pavilion",
+        "",
+        "\"Harold Moss\" Airborne Instruments Laboratory antenna design",
+        "\"Harold Moss\" E.A.T. engineer AIL",
+        "\"Harold Moss\" microwave antenna AIL",
+        "\"Moss\" Melville NY microwave antenna AIL",
+        "\"H Moss\" AIL Melville microwave antenna",
+        "",
+        "\"Harold Moss\" Airborne Instruments Laboratory engineer",
+        "\"Moss H\" \"Airborne Instruments\" E.A.T.",
+        "\"Harold Moss\" antenna design AIL Melville",
+        "\"Harold Moss\" microwave antenna AIL NY",
+        "\"Moss\" \"Airborne Instruments Laboratory\" microwave antenna design",
+        "\"Moss H\" E.A.T. engineer microwave",
+        "\"H. Moss\" \"Airborne Instruments Laboratory\" Melville",
+        "\"H Moss\" Melville NY antenna design",
+        "",
+        "\"Herbert Moss\" Airborne Instruments Laboratory antenna",
+        "\"Herbert Moss\" New York engineer microwave",
+        "\"Herbert Moss\" AIL Melville microwave antenna",
+        "\"H Moss\" AIL microwave antenna design Melville",
+        "\"Moss H\" microwave antenna Melville",
+        "\"Herbert Moss\" E.A.T. membership",
+        "\"Harold Moss\" E.A.T. membership",
+        "\"H. Moss\" E.A.T. engineer library",
+        "\"Moss\" engineer E.A.T. Airborne Instruments Laboratory",
+        "\"Moss\" technical person \"Experiments in Art and Technology\"",
+        "",
+        "\"E.A.T.\" technical person \"Moss\"",
+        "\"Experiments in Art and Technology\" engineer \"Moss\"",
+        "\"H Moss\" AIL Melville antenna design",
+        "\"Harold Moss\" AIL Melville NY microwave",
+        "\"H Moss\" engineer E.A.T. Pepsi Pavilion",
+        "\"Harold Moss\" engineer E.A.T. list",
+        "\"Harold Moss\" Airborne Instruments antenna design",
+        "\"H Moss\" engineer E.A.T. Melville",
+        "\"Harold Moss\" Melville AIL engineer",
+        "\"Moss\" Airborne Instruments Laboratory microwave design NY",
+        "\"Harold Moss\" AIL Melville antenna",
+        "",
+        "\"Harold Moss\" microwave antenna design AIL Melville",
+        "\"H Moss\" technical field antenna AIL",
+        "\"Harold Moss\" AIL antenna design microwave",
+        "\"Harold Moss\" Experiments in Art and Technology AIL",
+        "\"Harold Moss\" Airborne Instruments \"Solstice\"",
+        "\"Harold Moss\" antenna design AIL NY microwave"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

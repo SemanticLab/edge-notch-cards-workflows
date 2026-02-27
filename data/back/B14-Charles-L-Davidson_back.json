@@ -11,6 +11,76 @@
         "y1": 12.1,
         "x2": 37.4,
         "y2": 16.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q43139806",
+          "label": "Abel George Warshawsky",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity, Abel George Warshawsky, died in 1962, whereas the card record pertains to someone active in the late 1960s or early 1970s. Furthermore, the first names (Larry vs. Abel) and surnames (Warshaw vs. Warshawsky) do not match."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Larry Warshaw (also known as Lawrence Warshaw) is a visual artist, filmmaker, and collaborative engineer who was active in the New York art scene during the late 1960s and 1970s. He is best known for his collaboration with the pioneering performance artist Carolee Schneemann and his involvement with Experiments in Art and Technology (E.A.T.). In 1967, Warshaw worked as an engineer and artist to design a \"color machine\" or \"color organ\" for Schneemann's kinetic theater piece, 'Snows'. This technical system used silicon controlled rectifiers (SCRs) and was triggered by environmental sounds or the movement of audience members, which was captured by contact microphones installed under their seats. His technical contributions to the project were detailed in the June 1967 issue of 'E.A.T. News'. During this period, he was also a member of the Intermedia Touring Troupe alongside Schneemann and other artists. In the 1970s, Warshaw transitioned into film, directing and filming the 30-minute documentary 'Driving Passion' (1975), which featured artist Phyllis Krim and her paintings of classic cars. As a painter and photographer, Lawrence Warshaw (born approximately 1939) attended the Skowhegan School of Painting and Sculpture and held residencies at the MacDowell Colony in 1964 and 2002. His later work, including digital photographs responding to the events of 9/11, was exhibited at venues such as the Museum of Modern Art (MoMA) and the Exit Art Gallery in 2002.",
+            "sources": [
+              "https://www.macdowell.org/artists/lawrence-warshaw",
+              "https://thefeministinstitute.org/archive/driving-passion-film/",
+              "https://www.collectionscanada.gc.ca/obj/thesescanada/vol2/002/MR71618.pdf",
+              "https://www.invaluable.com/artist/warshaw-laurence-n6m3h5gclz/sold-at-auction-prices/",
+              "https://www.manchesterhive.com/display/9781526144461/9781526144461.00010.xml"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Larry Warshaw artist Experiments in Art and Technology",
+            "\"Lawrence Warshaw\" artist Experiments in Art and Technology",
+            "\"Larry Warshaw\" artist 1960s 1970s",
+            "\"Lawrence Warshaw\" color machine E.A.T.",
+            "\"Lawrence Warshaw\" painter 1939",
+            "\"Larry Warshaw\" Phyllis Krim film",
+            "\"Larry Warshaw\" Schneemann engineer artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgd3GyyJQTCyEpvEKI-k_zMUuVoWmyXqdEQF1NbYGKVmIQFBY3zcx-8aMIEyBGRS7MhylFTnw7WwF92N-99zkTuDHGNTvN0e6zf8tqa37B5_Ans1cpZ1RY-sNyfguxF3Z4yzCv_DBm5GCRhsVXe-JF74xK2uZKQ9v3WdiMCxDkdtNvGrX12bpgnmQ=",
+              "title": "collectionscanada.gc.ca",
+              "resolvedUri": "https://www.collectionscanada.gc.ca/obj/thesescanada/vol2/QMM/TC-QMM-121261.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1crQyUeCUJr0SkHaPcklm0evXtp4qIFvogHdwSrk6A9wcXmSCy6z5ruwAY9wFuJZB5_vT_PDzfqNHNSfUfpJd5QozlbmRzew8Dg1DIxRy7tZO3V5IE2NIcZLeqomBMYly-P-HCVO1I1G8p9mx5HyCzZbOd4uIiUs3aCOxlfbRQZGBZ03xX2Zsp5Mp1c2EotTouAjyNasizkASjS2jPsZTh5KC8H_Jns3GcdsrwgOJxCbV0Lallq530QKC7TYf1Q==",
+              "title": "dokumen.pub",
+              "resolvedUri": "https://dokumen.pub/beyond-the-happening-performance-art-and-the-politics-of-communication-1nbsped-9781526144461-9781526144454.html"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 543,
+                "endIndex": 756,
+                "text": "This technical system used silicon controlled rectifiers (SCRs) and was triggered by environmental sounds or the movement of audience members, which was captured by contact microphones installed under their seats."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 757,
+                "endIndex": 847,
+                "text": "His technical contributions to the project were detailed in the June 1967 issue of 'E.A.T."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

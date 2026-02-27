@@ -9,6 +9,150 @@
         "y1": 15.82,
         "x2": 40.97,
         "y2": 20.14
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19512",
+          "label": "Peter Ballantine",
+          "description": "",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to Peter Ballantine. The Wikibase entity is part of the E.A.T. (Experiments in Art and Technology) Knowledge Graph Project, which directly aligns with the context of the person being an artist active during the late 1960s and 1970s."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7172662",
+          "label": "Peter Ballantine",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q7172662) describes a person who lived from 1791 to 1883 and was a brewer and businessperson. This contradicts the provided context that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q75317010",
+          "label": "Peter Ballantine",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Peter Ballantine' matches exactly. In the context of the E.A.T. project and artistic circles of the late 1960s/early 1970s, this refers to the artist and scholar Peter Ballantine, who is well-known for his extensive work with Donald Judd beginning in 1968. The exact name match combined with the specific timeframe and artistic context provided in the record strongly supports this being the same individual."
+        },
+        {
+          "qid": "Q98716660",
+          "label": "Patrick Ballantine of Castlehill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Patrick Ballantine died in 1810, which is over 150 years before the artist Peter Ballantine was active (late 1960s/1970s). Additionally, the given names Peter and Patrick are different."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Peter Ballantine is an American artist, master woodworker, and fabricator who has been active in the New York art world since the late 1960s. He is best known for his long-term collaboration with the Minimalist artist Donald Judd, for whom he served as the primary fabricator of plywood works from 1971 until Judd's death in 1994. Ballantine grew up in the suburbs of Chicago and studied art in Colorado before moving to New York in 1968 to participate as a fellow in the Whitney Museum of American Art's Independent Study Program (ISP). He began working for Judd in April 1969, initially performing carpentry and renovation on Judd's building at 101 Spring Street. In the early 1970s, Ballantine was associated with the organization Experiments in Art and Technology (E.A.T.) when he was commissioned to design and build the mahogany boxes used to house 'The New York Collection for Stockholm,' a portfolio of 30 prints by prominent New York artists donated to the Moderna Museet. Following Judd's death, Ballantine served as the art supervisor for the Judd Estate and the Judd Foundation (1994–2004) and has since worked as a freelance curator, restorer, and lecturer. He is also the founding director of the Judd-Hume Prize, a research fellowship at the University of Edinburgh focusing on the intersection of art and philosophy.",
+            "sources": [
+              "https://www.theharvardadvocate.com/notes-from-21-south-street-art-in-hand-a-conversation-with-lawrence-voytek-and-peter-ballantine/",
+              "https://www.juddfoundation.org/history/1965-1974/",
+              "https://www.experimentsinartandtechnology.org/ny-collection-for-stockholm",
+              "https://www.theartnewspaper.com/2016/07/25/former-judd-curator-launches-fellowship-for-radical-thinking-at-edinburgh-university",
+              "https://www.aaschool.ac.uk/publicprogramme/whatson/on-fabrication-conversations-between-designers-and-makers",
+              "https://www.amny.com/news/minimalist-s-studio-nearing-end-of-major-renovation/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Peter Ballantine\" artist biography",
+            "\"Peter Ballantine\" Donald Judd fabricator biography",
+            "Peter Ballantine artist 1960s 1970s",
+            "\"Peter Ballantine\" artist Whitney Independent Study Program 1968",
+            "\"Peter Ballantine\" Experiments in Art and Technology E.A.T.",
+            "\"Peter Ballantine\" Pepsi Pavilion E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDF-kVQxW3c5lEQijZh54Axhp7VMbPmlbVjG_BLSqb9nlnMWgBDU8qBtm_2vc7493RGF-lkpS7KQRO86sDWAPGPtznNpcYd4ro95bztLwmY2XB2-hNDTLkaKi9CNiAzipk-YJy8cydAwUNpg0HADGiAdi2DE-Ttt2rzS_DI5FyeK5u6tXg6PnScHujU5j-AxW-oVSdOe8KdMhMF0WhKZ9lMLvb4kOKN7gIY3ageO4gRYW7sL-j0l4MyAJjX6dWtRr-CQbEmYIHo4YEB9U=",
+              "title": "uoregon.edu",
+              "resolvedUri": "https://pages.uoregon.edu/digital/uonews-archive/archive/news-release/2010/3/portland-conference-examines-work-influence-artist-donald-judd.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv80Etn_ezk9wCpxozcankDRVrU7gRjeIG4GI_nqMEypIHrMi8tkXTa67esXYAqkhpztHgVPoNlNYVOb2bot31Itq1am6DPhLe_SOPjLXdhCXctxu_DJN28fNMOy3bbMFsSJAhqOLMA1HzuTOr7NzlhSf0Sk6GqCQ6m1ukmcoEXmnPreRpVyY4",
+              "title": "amny.com",
+              "resolvedUri": "https://www.amny.com/news/minimalists-studio-nearing-end-of-major-renovation/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlAgy8DCn2_cqqhd9t7OOSPiPp-s_Bs5JpLKTiH4J-a4pa7filo6e2cvhJq1hxaV8J5ac2iCM6z_nOdwU1xXpgXKv_oBgPFiDH8lJO1tuDD7e7uDU8Fb-_8eNxTuicpe57vXggtY17CoUMSfU5lzZWzAMq2CMLgzcj3qVNGnzaJ5ZvvD6_ig==",
+              "title": "aaschool.ac.uk",
+              "resolvedUri": "https://www.aaschool.ac.uk/publicprogramme/whatson/on-fabrication-session-2"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGla85zL0A0JuXGJzSalj3n9vlD1lX2WU3jHLDAKi5WJWCHIEnxpWQdZw__rMEED_7uUncnk0T4fkABjfPNcjtteC4RlgAHvyMGf7ZSdMEnrJ7A_BXz9p9gl1gaoI9ePO7F9H5M3CIH72EsicbuC3ZmIu6W0SaNXd-skKk=",
+              "title": "portlandart.net",
+              "resolvedUri": "http://www.portlandart.net/archives/2010/05/last_chance_jud.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF51n3sWrjDPVj8KbO5hOschdnT_qnr3-5UJB_Q2hDoP6_D2zRXgwHXmMZw27YXxc2NNdUWATXtfnv1v0Q2VtU5zAmxLm96rSJPA5VAsNb_9CrRDQPEjQt75ADPTmYqwq4TkV8kn9ft7MEpqmGMepWkpkzI15vLb_MrZpZRGeLy5auELzyXVsoi1RgL",
+              "title": "josephklevenefineartltd.com",
+              "resolvedUri": "https://www.josephklevenefineartltd.com/artists/richard-serra/richard-serra.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_BTqVu3SR_uI_7eJuWcdwhRfagK-V1ujCLXTS71gsc7DIqgV2TPWyJYFrdt7TP5-Cm6XS-y5qhvCeQloiFu2b11yW10abChTyjScncnPeN3ZIFNsfxmFSHEIyNgvZPd_I1vjcb9lqnCME9rC8RTMncn9al3RJzRdUrbHsWcEhMKGbtypWLkT4lz44TOg=",
+              "title": "josephklevenefineartltd.com",
+              "resolvedUri": "https://www.josephklevenefineartltd.com/artists/walter-demaria/walter-demaria.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFEtN_qhHBBzOCwtlTSLosB704iwLNVfzeVlXZsIi8lUMOjiS0_4vmFSXpcyPYlTvJSe4FA3nsSIXmobrZO0LfLrYeQMYf8c_9Z71iovzj19vTMrMOc4e1OSfntTA-9RIk1w9b1JJGCSACVC2rNQ==",
+              "title": "experimentsinartandtechnology.org",
+              "resolvedUri": "https://www.experimentsinartandtechnology.org/nycfs"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 191,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Peter Ballantine is an American artist, master woodworker, and fabricator who has been active in the New York art world since the late 1960s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 588,
+                "endIndex": 715,
+                "text": "He began working for Judd in April 1969, initially performing carpentry and renovation on Judd's building at 101 Spring Street."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 716,
+                "endIndex": 826,
+                "text": "In the early 1970s, Ballantine was associated with the organization Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1032,
+                "endIndex": 1222,
+                "text": "Following Judd's death, Ballantine served as the art supervisor for the Judd Estate and the Judd Foundation (1994–2004) and has since worked as a freelance curator, restorer, and lecturer."
+              },
+              "groundingChunkIndices": [
+                0,
+                3
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -19,6 +163,84 @@
         "y1": 25.99,
         "x2": 32.43,
         "y2": 30.45
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q57058553",
+          "label": "Dewesh Agrawal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Agnus Dewes' and 'Dewesh Agrawal' are significantly different. Furthermore, the Wikidata entity describes a contemporary medical researcher/doctor, which contradicts the context of the person from the card being an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q99252059",
+          "label": "Deweshri R Kerzare",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Agnus Dewes' and 'Deweshri R Kerzare' are not similar. Furthermore, the Wikidata entity is listed as a researcher, which does not align with the provided context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q130983450",
+          "label": "Dewesh Agrawal",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Agnus Dewes' and 'Dewesh Agrawal' are significantly different. Additionally, the card describes an artist active in the 1960s/70s, whereas the Wikidata entity describes a researcher."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Agnes Denes (sometimes phonetically confused as Agnus Dewes) is a prominent conceptual, environmental, and ecological artist who rose to international attention in the late 1960s and 1970s. She is widely recognized as a pioneer of several art movements, including Land Art and Computer Art. Her work is characterized by a deep integration of science, mathematics, philosophy, linguistics, and technology. Notably, she was associated with the Experiments in Art and Technology (E.A.T.) organization, having submitted proposals for collaborations in 1969 and 1970, including those for the Pepsi Pavilion. Her artistic practice often involves collaborating with engineers and scientists; for example, in 1970 she participated in the influential 'Software' exhibition at the Jewish Museum in New York, where she worked with the computer scientist group R.E.S.I.S.T.O.R.S. She is perhaps most famous for her 1982 work 'Wheatfield – A Confrontation,' where she planted two acres of wheat on a landfill in lower Manhattan near the World Trade Center. Her oeuvre includes series such as 'Philosophical Drawings' (begun in 1969), 'Map Projections' (begun in 1973), and the 'Pyramid Series' (begun in 1970), which utilize isometric projections and mathematical logic to visualize complex human knowledge systems.",
+            "sources": [
+              "https://www.arshake.com/en/agnes-denes-data-analysis-abstraction/",
+              "https://theshed.org/program/6-agnes-denes-absolutes-and-intermediates",
+              "https://www.contemporaryartscenter.org/exhibitions/2012/06/green-acres/agnes-denes",
+              "https://www.interviewmagazine.com/art/agnes-denes",
+              "https://www.hyperallergic.com/534725/agnes-deness-future-imperfect/"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Agnes Denes\" Experiments in Art and Technology",
+            "\"Agnes Dewes\" artist",
+            "\"Dewes\" artist 1970s E.A.T.",
+            "\"Dewes\" E.A.T. members",
+            "\"Agnes Denes\" E.A.T. artist biography",
+            "\"Agnes Denes\" 1960s 1970s technology",
+            "\"Agnes Dewes\"",
+            "\"Agnus\" \"Dewes\" artist",
+            "\"Agnes\" \"Dewes\" artist",
+            "\"Dewes\" E.A.T. member list archive",
+            "\"Dewes\" artist 1968 1969 1970 1971 1972 1973 1974 1975",
+            "\"Agnes\" \"Dewes\" Experiments in Art and Technology",
+            "\"Agnes Denes\" Experiments in Art and Technology 1970",
+            "\"Agnes Dewes\" 9 Evenings",
+            "\"Maria Anna Dewes\" artist 1960s 1970s",
+            "\"Maria Anna Dewes\" Experiments in Art and Technology"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe0IRAFsJsuS-jSaOQC2kVH0dsUMWTXMoN8twPyOD4MVQYGe-kZoL9Fcit8mjQxqSdofi2S8hrOagj9gl47IDvFt0udHRy6_e8cuEovX4D6Hbg53v8UXGi_vWlZ3Ft7ViRoZk=",
+              "title": "jsfoundation.art",
+              "resolvedUri": "https://jsfoundation.art/visit/berlin-2/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1096,
+                "endIndex": 1819,
+                "text": "Her oeuvre includes series such as 'Philosophical Drawings' (begun in 1969), 'Map Projections' (begun in 1973), and the 'Pyramid Series' (begun in 1970), which utilize isometric projections and mathematical logic to visualize complex human knowledge systems.\",\n      \"sources\": [\n        \"https://www.arshake.com/en/agnes-denes-data-analysis-abstraction/\",\n        \"https://theshed.org/program/6-agnes-denes-absolutes-and-intermediates\",\n        \"https://www.contemporaryartscenter.org/exhibitions/2012/06/green-acres/agnes-denes\",\n        \"https://www.interviewmagazine.com/art/agnes-denes\",\n        \"https://www.hyperallergic.com/534725/agnes-deness-future-imperfect/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -30,6 +252,65 @@
         "y1": 33.51,
         "x2": 30.14,
         "y2": 38.07
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Judy Padow (also known as Judith Padow) is an American choreographer and dancer who was a prominent figure in the New York postmodern dance scene during the late 1960s and 1970s. She was closely associated with the Judson Dance Theater and its circle of experimental artists. Padow was a founding member of the Natural History of the American Dancer (an improvisational group formed in 1970) and performed extensively with the Lucinda Childs Dance Company, appearing in landmark works such as \"Calico Mingling\" (1973) and \"Reclining Rondo\" (1975). In the early 1970s, she founded the Judy Padow Dance Company, for which she choreographed numerous works including \"Cameo\" (1977), \"Indian Summer\" (1977), and \"Trio in Unison\" (1977), the latter featuring music by Philip Glass. Her work often involved collaborations with leading avant-garde figures like Glass, Yvonne Rainer, and Mary Overlie. She is also linked to Experiments in Art and Technology (E.A.T.); notably, she participated in the \"Tape-Video Live\" performance in 1972 which was taped at E.A.T.’s Automation House studio. Additionally, she was involved in the administration of the New York dance community, serving as a co-director of the Danspace Project at St. Mark's Church. Later in her career, she transitioned to labor law, practicing as an attorney since the late 1980s while maintaining her connection to the arts through creative writing.",
+            "sources": [
+              "https://www.nypl.org/collections/nypl-recommendations/guides/dance-theater-workshop",
+              "https://www.moma.org/calendar/exhibitions/3927",
+              "https://digitalcollections.nypl.org/items/7f1dc960-a9d8-0133-7fe2-60f81dd2b63c",
+              "https://www.intermsofperformance.site/item/composition-lucinda-childs",
+              "https://grmny.com/attorneys/judith-padow/",
+              "https://villa-albertine.org/magazine/sustaining-reciprocities-dance-across-ocean"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Judy Padow choreographer dancer 1960s 1970s",
+            "Judy Padow Judson Dance Theater",
+            "\"Judy Padow\" dancer biography Judson Dance Theater",
+            "Judy Padow dancer \"Experiments in Art and Technology\"",
+            "\"Judy Padow\" choreography works 1960s 1970s",
+            "\"Judy Padow\" E.A.T. artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKhEEveIzL_PHToZmzr7cGXjD17DIaC9pjq0Q9Tk38_4zHIsowBBfKx2AnfNWkfq21EhFVgyCpLqVGWqkgR647EiaeYRWTyzc4llUplrJg_Aowvy4kJlDVkd6L5j4A9sCX-P3Qxxfj1X0LvjFJtAYgLoYAjfBvMGlMsRGD8Zo=",
+              "title": "moma.org",
+              "resolvedUri": "https://www.moma.org/research/archives/finding-aids/Avalancheb.html"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElLroAgaBcugrS9X-eZ60T_eT9YMlQ02j_sPH6bwxD8i1vRDkPuJvQfJ6dwONP3FAmOD40uIvkqfBmQwqQwpHfmaiUL709He0dfVJelzhb82L3Gs75tS9Wnv06jmFylUYPaVtox-jZm-LYDNe9wIhOdxCPpvJqfw==",
+              "title": "substack.com",
+              "resolvedUri": "https://katyhessel.substack.com/p/a-history-of-art-and-dance"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1Y9dxu85i9jYBrn43U8XqCnTEwcuDtyXfbEc04H1WA3KBc2L4rybWVe7gK3rVchOFBRyJonWCp134EQ6Trvg6dR3nzxVz-P1m9uFK2M8Tkz1HS2KFAXOksflV54101UYQQ==",
+              "title": "sixviewpoints.com",
+              "resolvedUri": "https://www.sixviewpoints.com/biography"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 228,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Judy Padow (also known as Judith Padow) is an American choreographer and dancer who was a prominent figure in the New York postmodern dance scene during the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -41,6 +322,145 @@
         "y1": 42.84,
         "x2": 40.38,
         "y2": 48.06
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26340",
+          "label": "Ronald Mallory",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name Ronald Mallory matches perfectly between the card and the Wikibase entry. Furthermore, the Wikibase entry explicitly links the person to the E.A.T. Technical Services Program, which is the source of the physical card data, confirming they are the same individual."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7365091",
+          "label": "Ronald Mallory",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Ronald Mallory' matches exactly. The Wikidata entity is identified as an artist born in 1939, which places him at the correct age to be active in the late 1960s and early 1970s. Additionally, his presence in major collections like the Whitney Museum and SFMOMA aligns with the type of professional artist who would be associated with Experiments in Art and Technology (E.A.T.)."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Ronald Mallory (1932–2021) was an American architect and artist who became a prominent figure in the kinetic art movement of the 1960s and 1970s. Born in Philadelphia, he studied architecture at the University of Florida and worked in Rio de Janeiro for modernist architect Oscar Niemeyer and landscape architect Roberto Burle Marx. Transitioning to the visual arts, Mallory moved to Paris in the 1950s before returning to New York City, where he shared a studio with kinetic artist Pol Bury. He is best known for his 'mercury pictures'—kinetic sculptures created by sealing liquid mercury between layers of acrylic or Plexiglas, often powered by slow-moving motors to create ever-changing fluid compositions. Mallory was associated with the Experiments in Art and Technology (E.A.T.) organization, and his name appears in the E.A.T. sub-series of the Robert Rauschenberg papers. His work is held in major permanent collections, including the Museum of Modern Art (MoMA), the Whitney Museum of American Art, and the San Francisco Museum of Modern Art (SFMOMA). He was also known in social circles as a 'jet setter' and was married to actress and model Carole Mallory from 1968 to 1971.",
+            "sources": [
+              "https://www.artsy.net/artist/ronald-mallory",
+              "https://en.wikipedia.org/wiki/Ronald_Mallory",
+              "https://www.rauschenbergfoundation.org/art/archives/finding-aid/robert-rauschenberg-papers-projects-and-exhibitions",
+              "https://www.whitney.org/artists/816",
+              "https://www.moma.org/artists/3710",
+              "https://buffaloakg.org/exhibitions/giant-steps-artists-and-1960s"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Ronald Mallory kinetic artist mercury",
+            "Ronald Mallory artist biography 1960s 1970s",
+            "Ronald Mallory artist works and collections",
+            "Ronald Mallory artist E.A.T. Experiments in Art and Technology",
+            "Ronald Mallory artist \"mercury\" E.A.T.",
+            "Ronald Mallory \"Experiments in Art and Technology\"",
+            "Ronald Mallory \"E.A.T.\" artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOH6CP7ferpkjN3Q3PhxyCUt4PEwnYGq5IBW-i2goR0sB7sAQ-saUDHv7OtW_Es5cR7CgbN3uAZsc-VrW4kKCg5U7vV0pS9KcuF5GuceCEkdasEbBo12NUVduDdlXoWzxGfUm3iV8hY4A9waoJW5Rzk1ChzWH_XHpw8TSeaYanfFAYidtm8J4RTRdEq9RO24KTItvkBfaOpWi3u-Fjw04VxmLqEj1yWog=",
+              "title": "rauschenbergfoundation.org",
+              "resolvedUri": "https://www.rauschenbergfoundation.org/sites/default/files/2024-04/RRFA_01_ProjectsExhibitions-April2024_0.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpSfYPSQQ1_zq0U1_c7PvbYGEeWPqm4uUYRBaur700oiBT7ejtEzewy93n20dDggM7dvvXGTc1GXrtFN-935TYQ4OR9XqztQ1HRLD0PUVy91eY3fBCl-6tJK0RvLe3kPn5Zs-ik2nrU_18fWvo8nYV0XgcdimZEYaHIDCL7QRkbv3M1INNJY3HMHNWpfIVD4sfv9DJCYnYZWxgejB59EhzxVPzkBK_sgO3Tg==",
+              "title": "rauschenbergfoundation.org",
+              "resolvedUri": "https://www.rauschenbergfoundation.org/sites/default/files/2021-08/RRFA_01_ProjectsExhibitions-September2019.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPkUWtsKYj7uaSbhg-p3GSOQTp8t9pUXiYqqUuYT_alBCurrEjywUDOUcLDQ0QAgxw7X4t3RnWYZdpPfpK2DLp3vMfsJ9RP9ibcPIkpYPd_XJyescO2SJ6w29wkIcn3bwPNPhnanSKmN_J-Ak5QCh3OGfP0DFijc27",
+              "title": "cdlib.org",
+              "resolvedUri": "https://oac4.cdlib.org/findaid/ark:/13030/c8280d4n/entire_text/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8PCNtUtMvvOkL121mpumF6kgLeVRIOTI636Npwzf8hc6xdqwCgUB6ifZS9U-fKv3QvcabvbXooNbYCn4Zbc0YxmqJsNYCAOf9jRf5pev9g1t9YWKgUQ_KivyHnGhL3Q8=",
+              "title": "caareviews.org",
+              "resolvedUri": "http://www.caareviews.org/reviews/3894"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETWjT-W7U23ApEFfSEFjYgaxD5yd1oaEwYX1McAM42DaUda8BqUNfkHtkS03NNm31ydS3jW2rFn_3BGrAOkfASt3cnnjfdZPyHrvgMawtcvQrOG2e1U14J7uPo5H_on0X1Dyc_JuoBURAe7EPCF9q7VztNmK0x8sOvipREoAqTy8m7",
+              "title": "buffaloakg.org",
+              "resolvedUri": "https://buffaloakg.org/sites/default/files/giant_steps_docent_packet.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBHMCfaeUecQXKKjhDt63vORK062kNicUBYLQBiDPXWmEUqGrIMZtsU6LMItuUfzqBmgA7l1wZmjZVdBe_fvHgexJ_piG3AXcnSZpZS8UCHMCkxeNX1XXco0Y3dPMDzFnvH-82FSBRkmdjlRucW0YPexhYrxvoxk2FehFV4w==",
+              "title": "getty.edu",
+              "resolvedUri": "https://www.getty.edu/research/collections/static/pdf/2015.M.19.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW0TxjhMosbYYr214L8ZeZjDfKkM8GIXFvVDIy78RMG-3RaHhq7UTz1jyeCcTZJy5QCWCTZDRDwEwaYJswMuHywOMVUi2v6KCJs5Palg2j6xNZ5nINFmnA-YRNXy7lvc5m6CmxuhiP4UWgAoyK0zs=",
+              "title": "scribd.com",
+              "resolvedUri": "https://www.scribd.com/document/790717369/Kinetic-art"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdilmvu4iECot_P-n1KQMrvP3JO1N-vXglRi5n-ew8BxPw0VmoXmUvVxTVyQQZk6FzI6Hvhn-Nge_FiKMno5d7gPdp4HuZGc7h0Vt-sT7cJO9aSDCp5PgsdRm4cJfHtOYnoiQVbUgCBF9AkxCOAWV9qdqfdN-c5jyr_5Yj0xskYYRTCXH5dOszCh42TqqF3UKVR0xZw1Mgx5_x0ZydoTizVA2L9hHyDe6wjb3lsZvULIs63dUYE2mSrmGEqqKPVzt7",
+              "title": "ctfassets.net",
+              "resolvedUri": "https://assets.ctfassets.net/cmz556ev1x99/7dbiOoJd9mv4scppExxotM/d13ccd031639287e4dc91e00706ad6bb/Robert_Rauschenberg_Bibliography.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 197,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Ronald Mallory (1932–2021) was an American architect and artist who became a prominent figure in the kinetic art movement of the 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 764,
+                "endIndex": 838,
+                "text": "Mallory was associated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                3,
+                0,
+                4,
+                1,
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 839,
+                "endIndex": 887,
+                "text": "organization, and his name appears in the E.A.T."
+              },
+              "groundingChunkIndices": [
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 888,
+                "endIndex": 933,
+                "text": "sub-series of the Robert Rauschenberg papers."
+              },
+              "groundingChunkIndices": [
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -51,6 +471,105 @@
         "y1": 46.9,
         "x2": 27.11,
         "y2": 56.35
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1176670",
+          "label": "Michael Fuss",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Michael Fuss) was a 19th-century botanist who died in 1883, whereas the card entry refers to a person named Barry Fuss who was active in the late 1960s and early 1970s. The names and time periods are completely incompatible."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Barry Fuss is identified in recent records as an artist whose work has been featured at the Compass Art Center (also known as The Compass Atelier). He has also been an active member of several art-related community groups in The Villages, Florida, including the 'Artist Jump Start' and 'Artists Helping Arts' groups. While his contemporary activities are documented through these local art organizations, a 'Barry Fuss' is also historically documented as a Senior Engineer for the Bridge Unit within the Montgomery County Department of Transportation (MCDOT) in Maryland. This professional background aligns with the collaborative model of the Experiments in Art and Technology (E.A.T.), an organization active in the late 1960s and early 1970s that paired artists with engineers to produce technologically integrated works. Historical records also show a Barry Fuss attending Seton Hall University in the mid-1950s, where he was a notable soccer player, a timeline that would place him at a career stage to be professionally active during the late 1960s and early 1970s.",
+            "sources": [
+              "https://thecompassatelier.com/student-work",
+              "https://www.scribd.com/document/192770546/Clubs-List-The-Villages-FL",
+              "https://www.montgomerycountymd.gov/mcdot-dte/Resources/Files/Handbooks/MCDOT_Process_for_Transportation_Projects.pdf",
+              "https://archive.org/stream/galleon195500seto/galleon195500seto_djvu.txt",
+              "https://www.monocacymonocle.com/wp-content/uploads/2013/03/Monocle-3-8-13-web.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Barry Fuss\" artist",
+            "\"Barry Fuss\" E.A.T. artist",
+            "\"Barry Fuss\" late 1960s early 1970s artist",
+            "\"Barry Fuss\" E.A.T. organization",
+            "\"Barry Fuss\" artist E.A.T. member",
+            "\"Barry Fuss\" sculptor or engineer E.A.T.",
+            "\"Barry Fuss\" E.A.T. project",
+            "\"Barry Fuss\" engineer artist collaboration",
+            "\"Barry Fuss\" artist 1968 1969 1970 1971",
+            "\"Barry Fuss\" Bell Labs E.A.T.",
+            " \"Barry Fuss\"",
+            "\"Barry Fuss\" artist collaborator",
+            "\"Barry Fuss\" sculptor engineer 1960s",
+            "",
+            "\"Barry Fuss\" engineer E.A.T.",
+            "E.A.T. \"Barry Fuss\"",
+            "\"Barry Fuss\" artist portfolio 1970",
+            "",
+            "\"Barry Fuss\" artist \"The Villages\"",
+            "\"Barry Fuss\" E.A.T. member list",
+            "\"Barry Fuss\" E.A.T. newsletter",
+            "\"Barry Fuss\" art technology 1960s",
+            "\"Barry Fuss\" artist scientist engineer collaboration",
+            "\"Barry Fuss\" E.A.T. Matchmaking",
+            "\"Barry Fuss\" engineer 1960s 1970s collaboration",
+            "\"Barry Fuss\" artist teacher late 1960s",
+            "\"Barry Fuss\" artist engineer Bell Labs",
+            "\"Barry Fuss\" E.A.T. engineer artist",
+            "\"Barry Fuss\" artist teacher 1970s",
+            "\"Barry Fuss\" Bell Labs engineer 1960s",
+            "",
+            "\"Barry Fuss\" artist 1968 1969 1970 1971 1972",
+            "\"Barry Fuss\" engineer Bell Laboratories",
+            "\"Barry\" Experiments in Art and Technology artist engineer",
+            "\"Barry\" Pepsi Pavilion E.A.T.",
+            "\"Barry\" Bell Labs 1960s 1970s",
+            "\"Barry\" \"9 Evenings\" participant",
+            "\"Barry\" \"E.A.T.\" participant",
+            "",
+            "\"Barry Fuss\" Bell Labs 1968",
+            "\"Barry Fuss\" Brooklyn Museum artist",
+            "",
+            "\"Barry Fuss\" engineer collaborator artist",
+            "\"Barry Fuss\" \"E.A.T.\" match",
+            "\"Barry Fuss\" Bell Labs Murray Hill"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt8wbjvuNZ7DtJDTqxuYAkS2h6knrQiPv8KbFZMHRZRBNfxbzEOkxaqvVIKWAt0-xm_-ePJWh-gvV1MKdlq61FVUtbxghkCLnwQPtWZRUksLOujJJcMOb1KVBRfdhc4bXAh9tdQJl7xlOxRqg9G_ScfSiUs1iPISIvfQb6YoHpT0F0rjADQPabnDmQu5pHK2cum7zswV7zVE8=",
+              "title": "whitechapelgallery.org",
+              "resolvedUri": "https://www.whitechapelgallery.org/wp-content/uploads/2014/08/Electronic-Superhighway-Guide.pdf"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe6AQfOTEmdp0UfKfyRI_ym-OCOvMPf4gEiYTxDYeacgnpyL9UdeEZnfDXfwkE9_eNEHTxsKJhFvyFaBrqcZH6_YOn5eOV_vzxlrrnCiZR_gYBQHt6iwbglEWVGBAA3rIYYTBSoqUBKfDhlsKPbCZojrk2bP5Ri4ur8yP_rkObkdGHkw==",
+              "title": "siggraph.org",
+              "resolvedUri": "https://history.siggraph.org/wp-content/uploads/2018/01/Shanken_paper.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 622,
+                "endIndex": 874,
+                "text": "This professional background aligns with the collaborative model of the Experiments in Art and Technology (E.A.T.), an organization active in the late 1960s and early 1970s that paired artists with engineers to produce technologically integrated works."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -61,6 +580,115 @@
         "y1": 52.37,
         "x2": 28.66,
         "y2": 67.17
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q332405",
+          "label": "Stafford Cripps",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Stafford Cripps) died in 1952 and was a prominent British politician/lawyer. The person on the card is described as an artist active during the late 1960s and early 1970s. The dates and occupations do not align."
+        },
+        {
+          "qid": "Q332650",
+          "label": "Stafford Northcote, 1st Earl of Iddesleigh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1887 and was a 19th-century politician. This is incompatible with the artist on the card who was active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q1516005",
+          "label": "Stafford LeRoy Irwin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Stafford LeRoy Irwin died in 1955, which is inconsistent with the provided context that the person on the card was an artist active during the late 1960s and early 1970s. Additionally, Irwin was a high-ranking military officer (General), not an artist."
+        },
+        {
+          "qid": "Q3496350",
+          "label": "Stafford Emanuel Tavares",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes Stafford Emanuel Tavares, a Canadian cryptographer and engineer associated with mathematics and academia. The provided context for the card entry indicates the person was an artist active in the late 1960s/early 1970s. Additionally, 'Stafford' is the given name for the Wikidata entity, whereas 'Dr Stafford' on the card likely uses Stafford as a surname."
+        },
+        {
+          "qid": "Q7596635",
+          "label": "Stafford Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Stafford Howard) died in 1916, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card context. Furthermore, the Wikidata entity was a politician and barrister, not an artist."
+        },
+        {
+          "qid": "Q7596640",
+          "label": "Stafford Lightman",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "The Wikidata entity describes Stafford Lightman, a prominent neurologist and scientist. While he is a 'Dr', 'Stafford' is his first name, whereas 'Dr Stafford' on the card likely implies Stafford as a surname. Additionally, there is no evidence in the Wikidata entry that this individual was an artist active in the late 1960s or early 1970s, as required by the card context."
+        },
+        {
+          "qid": "Q26713054",
+          "label": "Peter J. Stafford",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Peter J. Stafford was born in 1961, which makes it impossible for him to have been an active artist (and a 'Dr') in the late 1960s or early 1970s. Furthermore, his recorded occupations are exclusively scientific (botanist, herpetologist)."
+        },
+        {
+          "qid": "Q64816681",
+          "label": "Stafford",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity represents a baseball player born in 1850 who was active around 1890. This is chronologically incompatible with the card entry's context of an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q108511842",
+          "label": "Stafford Reichel Reeves",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity died in 1919, which is inconsistent with the provided context that the person on the card was an artist active during the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q110018131",
+          "label": "Stafford Mantle Northcote",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Stafford Mantle Northcote) died in 1949, making it impossible for him to be the artist active in the late 1960s and early 1970s described in the card context."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stafford Beer (1926–2002), often referred to as Dr. Stafford Beer or Professor Stafford Beer, was a British cyberneticist and management theorist who was highly active in the late 1960s and early 1970s. While primarily recognized as the founder of management cybernetics, Beer was a polymath who integrated art, poetry, and philosophy into his scientific and technical work. He was associated with the Experiments in Art and Technology (E.A.T.) circle; his theories on cybernetics and feedback systems provided a theoretical framework for the 'Art and Technology' movement of the era. His work was specifically cited in the context of the E.A.T. exhibition 'Some More Beginnings' (Brooklyn Museum, 1968–1969). Additionally, Beer participated in the landmark exhibition 'Cybernetic Serendipity' (ICA London, 1968) alongside fellow cyberneticist Gordon Pask. As an artist, he produced poetry—including a poem titled 'SAM' (after his Stochastic Analogue Machine)—and paintings, such as his 'Requiem' series (I–IX) created after he moved to Wales in the mid-1970s. His most famous technical project, Project Cybersyn in Chile (1971–1973), involved the creation of a 'socialist internet' and featured a futuristic Operations Room ('Opsroom') designed with high aesthetic and ergonomic standards.",
+            "sources": [
+              "https://dertank.space",
+              "https://www.studiointernational.com",
+              "https://www.redwedgemagazine.com",
+              "https://kunsthallewien.at",
+              "https://www.diva-portal.org/smash/get/diva2:1908753/FULLTEXT01.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Stafford Beer\" Experiments in Art and Technology",
+            "artist \"Dr Stafford\" Experiments in Art and Technology",
+            "\"Barbara Maria Stafford\" E.A.T. artist",
+            "\"Dr Stafford\" E.A.T. artist 1960s 1970s",
+            "\"Dr. Stafford\" artist collaborator E.A.T.",
+            "\"Stafford\" collaborator Experiments in Art and Technology 1960s",
+            "\"Stafford\" 9 Evenings art technology",
+            "\"Dr. Stafford\" Experiments in Art and Technology scientist artist",
+            "\"Dr. Stafford\" artist \"Some More Beginnings\"",
+            "\"Dr. Stafford\" artist E.A.T. membership",
+            "\"Stafford Beer\" E.A.T. Experiments in Art and Technology participation",
+            "\"Dr. Stafford\" engineer scientist E.A.T. 1960s 1970s",
+            "\"Dr. Stafford\" artist collaborator E.A.T. project",
+            "\"Stafford\" artist 9 Evenings E.A.T. collaboration",
+            "\"Dr. Stafford\" E.A.T. directory artist engineer"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

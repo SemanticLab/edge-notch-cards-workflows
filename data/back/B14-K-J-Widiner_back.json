@@ -9,6 +9,98 @@
         "y1": 7.5,
         "x2": 37.8,
         "y2": 13.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q530029",
+          "label": "Allen Strange",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name John Allen Strange on the card matches the Wikidata entity Allen Strange, who was a known American composer (fitting the artist context). The date on the card (1969) aligns with the period Allen Strange (born 1943) was active as an artist and educator."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "John Allen Strange (1943–2008), widely known as Allen Strange, was an influential American composer, performer, and author who specialized in electronic music and avant-garde performance. Active from the late 1960s through the early 21st century, he was a key figure in the intersection of art and technology. Strange served as a Professor of Music and director of the electronic music studios at San Jose State University starting in 1970. He is perhaps best known for his 1972 book, 'Electronic Music: Systems, Techniques, and Controls,' which became a definitive pedagogical text for analog synthesis. His career was marked by pioneering live electronic performance; he co-founded the ensemble BIOME (1967–1972) to explore the EMS Synthi synthesizer and later co-founded the Electric Weasel Ensemble in 1974 with synthesizer designer Donald Buchla. He was also an active member of the Leonardo/International Society for the Arts, Sciences, and Technology (ISAST) advisory committee, an organization that, like Experiments in Art and Technology (E.A.T.), promoted the convergence of these fields. His work often involved interdisciplinary collaborations, including compositions for the theater and live electronics with acoustic instruments.",
+            "sources": [
+              "https://www.cookfamilyfuneralhome.com/obituaries/John-Allen-Strange?obId=2980756",
+              "https://svlaureates.org/allen-strange",
+              "https://www.perfectcircuit.com/signal/allen-strange-electronic-music-reissue",
+              "https://www.psychedelicbabymag.com/2018/02/larry-wendt.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"John Allen Strange\" artist biography",
+            "John Allen Strange 1960s 1970s artist",
+            "\"Allen Strange\" electronic music E.A.T.",
+            "John Allen Strange artist Experiments in Art and Technology E.A.T.",
+            "\"Allen Strange\" artist Experiments in Art and Technology",
+            "\"John Allen Strange\" artist electronics 1960s",
+            "\"Allen Strange\" Experiments in Art and Technology E.A.T.",
+            "\"Allen Strange\" 9 Evenings Theatre and Engineering"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHou5RmWXFB_rdMSxZpQSkVAhiv-Ga9e493oTa-720ll_2_oHTHJVxvJhu58FmVE0MzmvRiqVTVsVaNmQUWru7CbNP28OW8-ZUhhnylsACuebGxwuLj9l6NqPO3SGkJfjMF0IMFYZxBtG_hQ96Z-XaKV7pBE29ja87FPMI_u1j8MKmmlQQpzRv9",
+              "title": "cookfamilyfuneralhome.com",
+              "resolvedUri": "https://www.cookfamilyfuneralhome.com/obituaries/professor-john-allen-strange"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjmCtgDDpeWZVNDmsJU6t4aNAzoYsvccSTiHTIjdWrrXwpqEhcLVQv1gqn23AaWRl26mR_LeihCIY9P5JJTt3_aqhTtbPhof1M08TzWMWAZVx2DESS6ydR2Pb7QLxntUVeIW6iV2yQ9u8j0jPzAlizvSHSFhqb8JX_n6DMl8VfokadTJWKJRrjpNg=",
+              "title": "perfectcircuit.com",
+              "resolvedUri": "https://www.perfectcircuit.com/signal/allen-strange-electronic-music-kickstarter"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGHZm-5YBZSQRId2k-dh8d1-v009e2j6gItcIP6w0cnZn7xxdqpvG566TLsip2hAFEsJK4R9BkByzRRmf8xWL9junTm3Bt-ThOf7TcqQ6SO3R8hpCCA7Wh9kM-rZbIEB9YB3VH6bDZ_JqIBfYam5o-wpamL6PZU26U",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Experiments_in_Art_and_Technology"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHehwrPYOJb2EzlqSRuP5yN1Die0LbskTHoi6YnAugudQmdYJOQtkv-MG1aqspXukI4NtRqiA-bffeqgvI7mYMcEmIAFfT-Jj4cYRysyLvUV8ZPcTx0xYemfNRUalw4zgCj",
+              "title": "seamusonline.org",
+              "resolvedUri": "https://seamusonline.org/membernewsaug/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 239,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"John Allen Strange (1943–2008), widely known as Allen Strange, was an influential American composer, performer, and author who specialized in electronic music and avant-garde performance."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 240,
+                "endIndex": 361,
+                "text": "Active from the late 1960s through the early 21st century, he was a key figure in the intersection of art and technology."
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1153,
+                "endIndex": 1670,
+                "text": "His work often involved interdisciplinary collaborations, including compositions for the theater and live electronics with acoustic instruments.\",\n      \"sources\": [\n        \"https://www.cookfamilyfuneralhome.com/obituaries/John-Allen-Strange?obId=2980756\",\n        \"https://svlaureates.org/allen-strange\",\n        \"https://www.perfectcircuit.com/signal/allen-strange-electronic-music-reissue\",\n        \"https://www.psychedelicbabymag.com/2018/02/larry-wendt.html\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3,
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -20,6 +112,99 @@
         "y1": 13.5,
         "x2": 24.5,
         "y2": 23.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6137963",
+          "label": "James Lennon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Lennon (Q6137963) died in 1958, while the index card records a contact date in February 1969. Furthermore, the Wikidata entity was an Irish politician, which does not align with the context that the person on the card was an artist active in the late 1960s."
+        },
+        {
+          "qid": "Q25246192",
+          "label": "James Lennon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Q25246192) refers to a politician born in 1837, making him far too old to be active as an artist in 1969. The occupations (politician vs artist) and chronological eras do not align."
+        },
+        {
+          "qid": "Q105953344",
+          "label": "James Lennon",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The name James Lennon is an exact match. The Wikidata entity lived from 1923 to 1989, making them 46 years old at the time of the card entry in 1969, which fits the timeframe for an active practitioner. While the Wikidata snippet lacks occupational confirmation, there is no contradictory information."
+        },
+        {
+          "qid": "Q106514220",
+          "label": "James Patrick Lennon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity James Patrick Lennon was born in 1863 and was a politician active in the early 1900s. He would have been over 105 years old at the time of the 1969 card entry and his career does not match the artist profile provided."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "James Lennon is a Californian architect and researcher who has been active in the fields of environmental psychology and design since at least the early 1970s. He is the principal of Lennon Associates, based in Del Mar, California, and is a member of the American Institute of Architects (AIA). Lennon is notably recognized for an experimental project in which he developed large, vertically hung transparent panels featuring abstracted \"frowning eyes.\" These panels were installed in retail stores as a psychological experiment to deter shoplifting, leveraging the concept of \"the power of the look\" (or the \"evil eye\") to influence human behavior. This work reflects the interdisciplinary approach championed by the Experiments in Art and Technology (E.A.T.) organization, which sought to bridge the gaps between artists, architects, and engineers through the application of technology and psychology to the built environment. In his later career, he specialized in the design and optimization of healthcare facilities, specifically Emergency Departments, where he pioneered \"split-flow\" and \"chair-centric\" models to improve patient care and operational efficiency.",
+            "sources": [
+              "https://www.cabinetmagazine.org/issues/41/frobes_cross_dundes.php",
+              "https://www.hcarefacilities.com/",
+              "https://www.england.nhs.uk/wp-content/uploads/2021/05/HBN_15-01_Accident_and_Emergency_Departments.pdf",
+              "https://www.cambridge.org/core/books/abs/emergency-department-leadership-and-management/contributors/9E27376D968848037618E340356C19F8"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "James Lennon (1953–2009) was an artist based in Coalinga and Fresno, California, known for his unique style of drawing and painting. He was active in the local art scene starting in the late 1960s and early 1970s, having graduated from Coalinga High School in 1971. Described as an avid lover of history and art, he spent decades developing a personal artistic practice that was recognized for its gentle nature and distinct visual humor.",
+            "sources": [
+              "https://www.legacy.com/obituaries/fresnobee/obituary.aspx?n=james-lennon&pid=122557762"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"James Lennon\" artist biography",
+            "\"James Lennon\" artist 1960s 1970s",
+            "\"James Lennon\" E.A.T. member",
+            "\"James Lennon\" artist Experiments in Art and Technology E.A.T.",
+            "\"James Lennon\" E.A.T. artist",
+            "\"James Lennon\" 9 Evenings art technology",
+            "\"Jim Lennon\" artist E.A.T.",
+            "\"James Lennon\" Pepsi Pavilion E.A.T.",
+            "",
+            "\"James Lennon\" lighting E.A.T.",
+            "\"James Lennon\" architect E.A.T.",
+            "\"James Lennon\" \"E.A.T.\" newsletter",
+            "\"James Lennon\" artist profile 1960s",
+            "\"James Lennon\" artist Experiments in Art and Technology New York",
+            "\"James Lennon\" artist \"Lennon Associates\"",
+            "\"James Lennon\" E.A.T. participants list",
+            "\"James Lennon\" \"9 Evenings\" artist engineer",
+            "",
+            "\"James Lennon\" \"Lennon Associates\" history",
+            "\"James Lennon\" architect AIA ACHA history",
+            "\"James Lennon\" Bell Labs engineer",
+            "\"James Lennon\" Getty Research Institute E.A.T.",
+            "\"James Lennon\" \"E.A.T.\" project contribution",
+            " \"James Lennon\"",
+            "\"James Lennon\" \"frowning eyes\" panels date",
+            "\"James Lennon\" \"E.A.T.\" archive",
+            "\"James Lennon\" \"9 Evenings\" theatre and engineering",
+            "",
+            "\"James Lennon\" Experiments in Art and Technology member list",
+            "\"James Lennon\" E.A.T. \"Los Angeles\"",
+            "\"James Lennon\" E.A.T. \"San Diego\"",
+            "",
+            "\"James Lennon\" \"frowning eyes\" Cabinet magazine",
+            "\"James Lennon\" architecture firm San Diego history",
+            "\"James Lennon\" \"shoplifting\" eyes panels 1970s"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     }
   ]

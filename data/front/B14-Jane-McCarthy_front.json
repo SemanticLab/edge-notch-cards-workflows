@@ -14,5 +14,187 @@
     "technicalFields": [
       "programming"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q75274324",
+      "label": "Jane McCarthy",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "The name 'Jane McCarthy' is common. The card provides specific professional and geographic details (Pan American employer, New York City address, programming field), whereas the Wikidata entry contains only genealogical information (spouse Ralfe Ashton Whistler and five children) with no mention of career or location. There is no overlapping metadata beyond the name to confirm they are the same individual."
+    },
+    {
+      "qid": "Q75832790",
+      "label": "Jane McCarthy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the names are identical, the Wikidata entity describes a Jane McCarthy associated with Horace Townsend (1859-1922) and children born in the late 19th or early 20th century. The card describes a professional programmer at Pan American, which points to a mid-20th-century timeframe when computer programming emerged as a profession, making it highly unlikely they are the same individual."
+    },
+    {
+      "qid": "Q75921965",
+      "label": "Jane McCarthy",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "While the names match, the Wikidata entry lacks any specific biographical details such as location, profession, or employer that would allow for a positive identification beyond a shared common name."
+    },
+    {
+      "qid": "Q92445862",
+      "label": "Jane McCarthy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "While the names are identical, the geographic and professional details are entirely different. The card describes a programmer for Pan American in New York City, whereas the Wikidata entity is a researcher affiliated with the University of Auckland in New Zealand and educated in the UK."
+    },
+    {
+      "qid": "Q102244060",
+      "label": "Jane McCarthy",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "While the names are identical, Jane McCarthy is a common name. There is no overlapping information regarding employer (Pan American), location (New York City), or technical field (programming) in the Wikidata entry, which only specifies an education at the University of Cambridge."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q29315",
+      "label": "Pan American",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Pan American' matches the employer listed on the card exactly. The Wikibase entity is categorized as an organization and is part of the E.A.T. Knowledge Graph Project, which documents individuals and companies involved in mid-20th-century technology and art collaborations. This aligns perfectly with the card's description of a programmer based in New York City during that era."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q626634",
+      "label": "University of Texas–Pan American",
+      "description": "defunct university",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q626634 is a university located in Texas. The card describes a programmer working for 'Pan American' in New York City. In the mid-20th-century New York context, 'Pan American' almost certainly refers to the airline Pan American World Airways (Pan Am), which was headquartered in NYC, rather than a regional educational institution in Edinburg, Texas."
+    },
+    {
+      "qid": "Q8681",
+      "label": "Pan Am",
+      "description": "1927–1991 airline in the United States, former primary international carrier",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Pan American' is the common shorthand for Pan American World Airways (Pan Am). The Wikidata entity is headquartered in New York City, which matches the geographic location of the individual on the card. Large airlines like Pan Am were major employers of computer programmers in the mid-20th century."
+    },
+    {
+      "qid": "Q7129605",
+      "label": "Pan American Journal of Public Health",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q7129605 is a scientific journal founded in 1997, whereas the employer on the card 'Pan American' refers to a corporation (most likely Pan American World Airways) operating in New York City during a period when 'programming' emerged as a professional field (mid-20th century). A journal is not an employer in this context, and the dates do not align."
+    },
+    {
+      "qid": "Q1199476",
+      "label": "Panam Sports",
+      "description": "international sports organization",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The 'Pan American' listed on the card refers to an employer for a computer programmer based in New York City, which strongly points to Pan American World Airways (Pan Am). The Wikidata entity Q1199476 is the Pan American Sports Organization (Panam Sports), an international sports body based in Mexico City, which does not match the professional or geographic context of the card."
+    },
+    {
+      "qid": "Q230186",
+      "label": "Pan American Games",
+      "description": "multi-sport event of the Americas",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The 'Pan American' listed on the card as an employer for a programmer in New York City refers to the airline Pan American World Airways (Pan Am), which was headquartered in NYC. The Wikidata entity Q230186 represents the Pan American Games, which is a recurring international multi-sport event, not a corporate employer."
+    },
+    {
+      "qid": "Q110848343",
+      "label": "Pan American",
+      "description": "vocal track by Hank Williams with his Drifting Cowboys; 1947 studio recording",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is an organization ('Pan American'), likely referring to Pan American World Airways, while the Wikidata entity (Q110848343) is a 1947 musical recording of a song titled 'Pan American' by Hank Williams. One is a company and the other is a creative work."
+    },
+    {
+      "qid": "Q110847294",
+      "label": "Honky Tonkin' / Pan American",
+      "description": "1947 US 10\" Shellac by Hank Williams and his Drifting Cowboys; Sterling – 210",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is a musical recording (a 10-inch shellac single) by Hank Williams, featuring a song titled 'Pan American'. It is not an organization. The card refers to an organization ('Pan American') that employed a programmer in New York City."
+    },
+    {
+      "qid": "Q110847069",
+      "label": "Honky Tonkin' / Pan American",
+      "description": "1947 single by Hank Williams with his Drifting Cowboys",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to an employer organization (likely Pan American World Airways), while the Wikidata entity is a musical single (a phonograph record) by Hank Williams. A musical recording cannot be an employer."
+    },
+    {
+      "qid": "Q20714747",
+      "label": "Pan American",
+      "description": "original song written, composed, and performed by Hank Williams",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q20714747 refers to a song written and performed by Hank Williams, whereas the employer listed on the card, 'Pan American,' refers to an organization (likely Pan American World Airways) where the individual worked as a programmer."
+    },
+    {
+      "qid": "Q2384959",
+      "label": "Americans",
+      "description": "people living in the Americas",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer 'Pan American' listed on the card refers to a corporate organization (likely Pan American World Airways), whereas the Wikidata entity Q2384959 represents 'Americans' as a panethnic group of humans or the population of the Americas. These are fundamentally different types of entities."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Jane McCarthy was a computer programmer active in the late 1960s and early 1970s who was a member of Experiments in Art and Technology (E.A.T.), a non-profit organization founded by engineers Billy Klüver and Fred Waldhauer and artists Robert Rauschenberg and Robert Whitman to foster collaborations between the arts and technology. Her professional background was as a programmer for Pan American World Airways (Pan Am) in New York City, as recorded in E.A.T.'s technical services registry. This registry, which used a system of index cards to categorize members, listed her technical expertise in programming and her employer as Pan American. During her period of activity, Pan Am's computing operations were centered in the Pan Am Building in Manhattan, utilizing the PANAMAC reservations system. She was one of the technical professionals who volunteered their skills to assist artists with technology-based projects through E.A.T.'s matching service. The organization was notable for major projects like '9 Evenings: Theatre and Engineering' (1966) and the Pepsi Pavilion at Expo '70, as well as 'Telex: Q&A' (1971), which utilized the global telex networks of companies like Pan Am to facilitate cross-cultural communication.",
+        "sources": [
+          "https://www.getty.edu/research/special_collections/highlights/eat/index.html",
+          "https://rauschenbergfoundation.org/art/archives/experiments-art-and-technology-eat-records",
+          "https://www.sharon-mccarthy.com/eat-history",
+          "https://www.fondation-langlois.org/html/e/page.php?NumPage=238"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Jane McCarthy\" E.A.T. engineer",
+        "Jane McCarthy \"Experiments in Art and Technology\"",
+        "Jane McCarthy engineer scientist E.A.T.",
+        "\"Jane McCarthy\" Pan American programming New York",
+        "\"Jane McCarthy\" Pan Am programmer 1960s 1970s",
+        "",
+        "\"Jane McCarthy\" \"Pan American\" programmer",
+        "\"Jane McCarthy\" E.A.T. Bell Labs",
+        "\"Jane McCarthy\" \"Pan Am\" programming",
+        "\"Jane McCarthy\" programmer Pan Am NYC",
+        "\"Jane McCarthy\" E.A.T. New York",
+        "",
+        "\"Jane McCarthy\" \"Pan Am\" NYC programmer 1960s",
+        "\"Jane McCarthy\" E.A.T. index card",
+        "\"Jane McCarthy\" E.A.T. Pan American",
+        "",
+        "\"Jane McCarthy\" E.A.T. \"Pan Am\"",
+        "\"Jane McCarthy\" E.A.T. \"Pan American\"",
+        "\"Jane McCarthy\" programmer Pan Am NYC E.A.T.",
+        "\"Jane McCarthy\" Pan Am Building New York programmer",
+        "\"Jane McCarthy\" technical services Experiments in Art and Technology",
+        "",
+        "\"Jane McCarthy\" \"Pan Am\" programmer 1968",
+        "\"Jane McCarthy\" \"Pan American\" \"New York\" programmer",
+        "\"Jane McCarthy\" NYC Community Board 2 history",
+        "\"Jane McCarthy\" E.A.T. member list",
+        "",
+        "\"Jane McCarthy\" E.A.T. directory index card",
+        "\"Jane McCarthy\" Pan American programming 1960s NYC",
+        "\"Jane McCarthy\" \"Q&A\" E.A.T. Pan Am",
+        "\"Jane McCarthy\" E.A.T. \"Telex\""
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

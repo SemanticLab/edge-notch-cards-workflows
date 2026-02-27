@@ -9,6 +9,126 @@
         "y1": 10.8,
         "x2": 54.8,
         "y2": 21.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26353",
+          "label": "Wade Zimmerman",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Both records refer to Wade Zimmerman. The Wikibase entry explicitly links the person to the E.A.T. Technical Services Program and the associated edge-notched cards, which directly corresponds to the source of the card entry and the provided artistic context."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q213607",
+          "label": "Eberhard August Wilhelm von Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes Wade Zimmerman, a person active in the late 1960s and early 1970s associated with Experiments in Art and Technology (E.A.T.). The Wikidata entity (Q213607) refers to Eberhard August Wilhelm von Zimmermann, a German zoologist and geographer who lived from 1743 to 1815. The names and time periods are completely incompatible."
+        },
+        {
+          "qid": "Q872079",
+          "label": "Albert Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Wade vs. Albert) and the time periods are incompatible. The person on the card was active in the late 1960s/1970s, whereas the Wikidata entity lived in the 19th century and died in 1888."
+        },
+        {
+          "qid": "Q1334388",
+          "label": "Elwood Zimmerman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names 'Wade' and 'Elwood' are different, and their professions are unrelated: the card record refers to an artist associated with the E.A.T. program, while the Wikidata entity describes a prominent entomologist and zoologist."
+        },
+        {
+          "qid": "Q1360732",
+          "label": "Ernst Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Wade Zimmerman vs. Ernst Zimmermann), and the Wikidata entity describes a person who died in 1901, whereas the card entry refers to an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q1402996",
+          "label": "Richard Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Wade vs. Richard) and the life dates for the Wikidata entity (1820-1875) make it impossible for him to be the artist active in the late 1960s or 1970s mentioned in the card entry."
+        },
+        {
+          "qid": "Q1763601",
+          "label": "Reinhard Sebastian Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are completely different (Wade Zimmerman vs. Reinhard Sebastian Zimmermann) and the time periods are incompatible. The card describes someone active in the late 1960s/early 1970s, whereas the Wikidata entity refers to a 19th-century German painter who died in 1893."
+        },
+        {
+          "qid": "Q5797611",
+          "label": "Dale A. Zimmerman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Wade vs. Dale) and the occupations do not match; the card entry refers to an artist while the Wikidata entity describes a botanist."
+        },
+        {
+          "qid": "Q12834830",
+          "label": "Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card entry describes Wade Zimmerman, an artist associated with the E.A.T. program. The Wikidata entity Q12834830 describes a female 'volap%%kologist' (a scholar of the Volap%%k language) with the surname Zimmermann. The names, genders, and professional fields do not align."
+        },
+        {
+          "qid": "Q32814355",
+          "label": "Julius Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are different (Wade vs. Julius) and the Wikidata entity describes a German painter who lived from 1824 to 1906, which is incompatible with an artist active in the late 1960s and early 1970s associated with the E.A.T. program."
+        },
+        {
+          "qid": "Q41049535",
+          "label": "Michael T. Zimmermann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Wade Zimmerman' on the card does not match 'Michael T. Zimmermann' in the Wikidata entity. Furthermore, the Wikidata entity describes a medical researcher and university teacher, whereas the card entry refers to an artist active in the late 1960s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Wade Zimmerman is an American photographer and designer who has been a prominent figure in architectural and design circles since the early 1970s. He is widely recognized as a premier architectural photographer, documenting the work of world-renowned architects such as Richard Meier, Christian de Portzamparc, David Adjaye, and Emilio Ambasz. Zimmerman's career reflects an early involvement in the New York art and architectural community; in 1973, he was the designer for the catalog of the Museum of Modern Art (MoMA) exhibition \"Another Chance for Housing: Low-Rise Alternatives,\" which was co-sponsored by the Institute for Architecture and Urban Studies (IAUS). His photography is extensively published in major monographs (including Rizzoli's Richard Meier series) and architectural journals such as Architectural Record and Mark Magazine. Zimmerman has also documented significant art installations that intersect with technology and architecture, such as Fujiko Nakaya's fog sculptures, which were famously part of the Experiments in Art and Technology (E.A.T.) Pepsi Pavilion at Expo '70.",
+            "sources": [
+              "https://www.moma.org/calendar/exhibitions/1758",
+              "https://www.rizzoliusa.com/book/9780847872169/",
+              "https://www.archdaily.com/938811/terroir-designs-sculptural-museum-and-art",
+              "https://www.metalocus.es/en/news/christian-de-portzamparc-2018-praemium-imperiale-award",
+              "https://www.usmodernist.org/AR/AR-1980-02.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Wade Zimmerman\" E.A.T. artist",
+            "Wade Zimmerman artist \"Experiments in Art and Technology\"",
+            "Wade Zimmerman biography artist",
+            "\"Wade Zimmerman\" photography late 1960s 1970s",
+            "\"Wade Zimmerman\" photographer architecture \"Experiments in Art and Technology\"",
+            "\"Wade Zimmerman\" artist 1960s 1970s",
+            "Wade Zimmerman \"Some More Beginnings\" E.A.T.",
+            "\"Wade Zimmerman\" E.A.T. list of artists",
+            "\"Wade Zimmerman\" Experiments in Art and Technology member",
+            "",
+            "\"Wade Zimmerman\" Experiments in Art and Technology artist list",
+            "\"Wade Zimmerman\" artist 1969 1970",
+            "\"Wade Zimmerman\" photographer 1968 Brooklyn Museum exhibition",
+            "\"Wade Zimmerman\" Pepsi Pavilion E.A.T.",
+            "\"Wade Zimmerman\" E.A.T. archives",
+            "\"Wade Zimmerman\" member of Experiments in Art and Technology",
+            "\"Wade Zimmerman\" photographer E.A.T."
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -19,6 +139,122 @@
         "y1": 17.2,
         "x2": 40.5,
         "y2": 31.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q553575",
+          "label": "Fess Parker",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names are a poor match. The card identifies the individual as 'Barry Fess' (where Fess is likely the surname), whereas the Wikidata entity is 'Fess Parker' (where Fess is the given name). There is no indication in the Wikidata record that Fess Parker used the name Barry, and the birth dates (November 13 vs August 16) do not align."
+        },
+        {
+          "qid": "Q8078459",
+          "label": "Étienne Fessard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Étienne Fessard) lived in the 18th century (1714-1777), whereas the person on the card was active in the late 1960s and early 1970s. Furthermore, the names 'Barry Fess' and 'Étienne Fessard' are completely different."
+        },
+        {
+          "qid": "Q12482886",
+          "label": "Fessy Alwi",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Fessy Alwi) was born in 1980 and began working in 2003, whereas the person on the card was active in the late 1960s and early 1970s. Additionally, the names and occupations (artist vs. news presenter) do not align."
+        },
+        {
+          "qid": "Q21512976",
+          "label": "Hans Fessel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The names do not match (Barry Fess vs. Hans Fessel), and the Wikidata entity is identified as a botanist, which contradicts the artist context provided for Barry Fess."
+        },
+        {
+          "qid": "Q116769272",
+          "label": "Fesseha Krestos",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name 'Barry Fess' does not match 'Fesseha Krestos'. The Wikidata entity refers to a specific Ethiopian name which is linguistically and culturally distinct from 'Barry Fess', and there is no evidence linking this entity to the American artist Barry Fess active in the 1960s and 70s."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Barry Fess (Barry M. Fess, 1939–2012) was an artist and educator who was active in the late 1960s and 1970s. He is best known for his role as the founding chairman of the Buffalo, New York chapter of Experiments in Art and Technology (E.A.T.), a non-profit organization established to foster collaboration between artists and engineers. Fess was an associate professor in the Department of Art at the State University of New York at Buffalo (SUNY Buffalo), where he taught sculpture and was a significant figure in the local art scene. His involvement with E.A.T. began around 1968 when he organized the Buffalo local group to facilitate matches between regional artists and technical experts. He was also associated with the Albright-Knox Art Gallery during the late 1960s, contributing to discussions and exhibitions on the intersection of art and technology.",
+            "sources": [
+              "https://www.getty.edu/research/collections/finding_aids/eat_records.html",
+              "https://www.legacy.com/obituaries/buffalonews/obituary.aspx?pid=155799307",
+              "https://archives2.getty.edu/ark:/70220/v5h998m2r"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"Barry Fess\"",
+            "\"Barry Fess\" E.A.T. artist",
+            "\"Barry Fess\" E.A.T. participant",
+            "\"Barry Fess\" artist biography",
+            "\"Barry Fess\" artist engineer",
+            "Experiments in Art and Technology members list Barry",
+            "\"Barry Fess\" 1960s art technology",
+            "",
+            " \"Barry Fess\"",
+            "\"Barry Fess\" artist NYC",
+            "",
+            "\"Barry Fess\" Pavilion book",
+            "\"Barry Fess\" engineer art",
+            "\"Barry Fess\" 1960s artist",
+            "",
+            "artist \"Barry Fess\" Buffalo",
+            "\"Barry Fess\" E.A.T. NY",
+            "",
+            "\"Barry Fess\" artist Buffalo obituary",
+            "\"Barry Fess\" E.A.T. newsletter",
+            "\"Barry Fess\" \"E.A.T.\"",
+            "\"Barry Fess\" artwork",
+            "\"Barry Fess\" artist list",
+            "\"Barry Fess\" membership E.A.T.",
+            " \"Fess, Barry\"",
+            " \"Barry Fess\"",
+            "",
+            "\"Barry Fess\" Buffalo artist",
+            "",
+            "\"Barry Fess\" artist SUNY Buffalo",
+            "",
+            "\"Barry Fess\" Buffalo",
+            "",
+            " \"Barry Fess\"",
+            "",
+            "\"Barry Fess\" artist University at Buffalo",
+            "\"Barry Fess\" E.A.T. chairman",
+            "",
+            "E.A.T. newsletter \"Buffalo\" \"Barry\"",
+            "",
+            "",
+            "\"Barry Fess\" E.A.T. local group chairman"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ19WOt6yO_NdWTBO53aUDlglqOw9OaM1LqWtdwBfuiyNJxVzD1hyTjEIlb1Z5_5UiguvRsroVSAy9-vlWOWGGLx7sa-E9iAE6I9FsPXfwrqY87qOJYXcDW7Kr-_61EQTqIi8jJyZxr9D5V5pxOrH14BL6-2jHtlJhFLCIkn7Y3VeqOJRAr6FZhbq7QkbSA_jNJP7A07nZeLcdqHLtfldUYhg=",
+              "title": "abebooks.com",
+              "resolvedUri": "https://www.abebooks.com/magazines-periodicals/Star-Parade-Magazine-October-1955--Julius/30876730392/bd"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 160,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Barry Fess (Barry M. Fess, 1939–2012) was an artist and educator who was active in the late 1960s and 1970s."
+              },
+              "groundingChunkIndices": [
+                0
+              ]
+            }
+          ]
+        }
       }
     },
     {
@@ -29,6 +265,120 @@
         "y1": 22.8,
         "x2": 40.5,
         "y2": 41.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q332405",
+          "label": "Stafford Cripps",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Stafford Cripps died in 1952, which makes it impossible for him to be the artist described as active in the late 1960s and early 1970s. Additionally, Stafford Cripps was a prominent politician and lawyer, not an artist."
+        },
+        {
+          "qid": "Q332650",
+          "label": "Stafford Northcote, 1st Earl of Iddesleigh",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity for Stafford Northcote, 1st Earl of Iddesleigh, describes a 19th-century British politician who lived from 1818 to 1887. This contradicts the provided context that the person on the card was an artist active in the late 1960s and early 1970s."
+        },
+        {
+          "qid": "Q1516005",
+          "label": "Stafford LeRoy Irwin",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The person on the card was active as an artist in the late 1960s and early 1970s. The Wikidata entity, Stafford LeRoy Irwin, was a US Army General who died in 1955, making it impossible for him to be the artist described."
+        },
+        {
+          "qid": "Q3496350",
+          "label": "Stafford Emanuel Tavares",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The card refers to a 'Dr Stafford' who is known to be an artist active in the late 1960s or early 1970s. The Wikidata entity (Q3496350) is Stafford Emanuel Tavares, a Canadian engineer and cryptographer associated with mathematics and Queen's University. Given that 'Stafford' is his first name (not surname) and his profession is entirely scientific/technical rather than artistic, it is highly unlikely they are the same person."
+        },
+        {
+          "qid": "Q7596635",
+          "label": "Stafford Howard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Stafford Howard died in 1916, making it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card context. Furthermore, his occupations were politician and barrister, which do not align with the artist profile."
+        },
+        {
+          "qid": "Q7596640",
+          "label": "Stafford Lightman",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The card refers to 'Dr Stafford', which implies Stafford is likely a surname. The Wikidata entity is for Stafford Lightman, where Stafford is the given name. Additionally, the Wikidata entity is a prominent neurologist and medical researcher, whereas the context for the card suggests the individual was an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q26713054",
+          "label": "Peter J. Stafford",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Peter J. Stafford was born in 1961, making him far too young to be active as a professional or artist in the late 1960s or early 1970s. Furthermore, his career was in the sciences (botany, herpetology) rather than the arts."
+        },
+        {
+          "qid": "Q64816681",
+          "label": "Stafford",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity describes a baseball player born in 1850 and active around 1890, which is chronologically incompatible with the context that the person on the card was an artist active in the late 1960s or early 1970s."
+        },
+        {
+          "qid": "Q108511842",
+          "label": "Stafford Reichel Reeves",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Stafford Reichel Reeves) died in 1919, which makes it impossible for him to be the artist active in the late 1960s and early 1970s mentioned in the card context."
+        },
+        {
+          "qid": "Q110018131",
+          "label": "Stafford Mantle Northcote",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Stafford Mantle Northcote died in 1949, which makes it impossible for him to be the artist described as active in the late 1960s and early 1970s. Furthermore, 'Stafford' is his first name, while the card's 'Dr Stafford' likely refers to a surname."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Stafford Beer (1926–2002), formally known as Professor Dr. Stafford Beer, was a British cybernetician, management consultant, and artist (painter and poet) who was highly influential in the late 1960s and early 1970s. While primarily recognized for his pioneering work in cybernetics and the Viable System Model (VSM), he was deeply involved in the intersection of art and technology during the period when Experiments in Art and Technology (E.A.T.) was most active. Beer was a key figure in the landmark 1968 exhibition 'Cybernetic Serendipity' at the Institute of Contemporary Arts in London, where he exhibited his 'Stochastic Analog Machine' (SAM). His work often focused on complex systems, feedback, and homeostasis, themes that paralleled the goals of E.A.T. in promoting collaborations between artists and engineers. In the early 1970s, he led Project Cybersyn in Chile under the government of Salvador Allende, a project that is frequently cited in the context of media art and technological history alongside E.A.T. projects like '9 Evenings' and the Pepsi Pavilion. Following the military coup in Chile in 1973, Beer retreated to a cottage in Wales where he focused extensively on his artistic practice, producing a series of metaphysical paintings known as 'Requiem' and publishing several books of poetry.",
+            "sources": [
+              "https://dertank.space/stafford-beer-cybersyn/",
+              "https://www.studiointernational.com/index.php/cybernetic-serendipity-history-and-lasting-legacy-ica-london-computer-art",
+              "https://www.kybernetik.ch/en/stafford-beer/the-painter/",
+              "https://www.kybernetik.ch/en/stafford-beer/the-poet/",
+              "https://dubberly.com/articles/cybernetics-and-design.html"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "\"Stafford\" scientist engineer artist E.A.T.",
+            "\"Dr. Stafford\" E.A.T. artist 1960s 1970s",
+            "\"Dr. Stafford\" collaborator E.A.T.",
+            "\"Dr. Stafford\" Bell Labs artist collaboration",
+            "\"Stafford\" artist late 1960s 1970s E.A.T.",
+            "\"Dr. Stafford\" Pepsi Pavilion E.A.T.",
+            "\"Dr. Stafford\" \"9 Evenings\" artist engineer",
+            "\"Dr. Stafford\" Bell Labs E.A.T. 1960s",
+            "\"Dr. Stafford\" artist \"Stafford Beer\"",
+            "\"Stafford\" artist 1970s E.A.T. collaboration",
+            "\"Stafford\" scientist Bell Labs \"9 Evenings\"",
+            "\"Stafford\" engineer E.A.T. project",
+            "\"Stafford Beer\" \"Experiments in Art and Technology\"",
+            "\"Stafford\" artist 1960s 1970s \"Pepsi Pavilion\"",
+            "\"Dr. Stafford\" E.A.T. project 1960s 1970s",
+            "\"Stafford Beer\" artist \"Experiments in Art and Technology\"",
+            "\"Dr. Stafford\" artist \"9 Evenings\"",
+            " \"Stafford\"",
+            "\"Stafford\" scientist \"9 Evenings\" collaboration",
+            "\"Dr. Stafford\" E.A.T. member list"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -39,6 +389,93 @@
         "y1": 35.1,
         "x2": 51.5,
         "y2": 49.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26337",
+          "label": "Doloris Holmes",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Doloris Holmes' matches exactly in both records. The date on the physical card (1970) corresponds perfectly with the period of activity for the Experiments in Art and Technology (E.A.T.) Technical Services Program, which the Wikibase entity explicitly mentions as being related to edge-notched cards."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q106318327",
+          "label": "Doloris Holmes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Doloris Holmes' matches exactly. The Wikidata entity describes a filmmaker and performance artist active in New York City during the late 1960s and 1970s (e.g., as a member of Women Artists in Revolution), which aligns perfectly with the 1970 date on the physical card and the context of the E.A.T. Technical Services Program."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Doloris Holmes is a performance artist, poet, and filmmaker who was active in the New York avant-garde and feminist art scenes starting in the early 1960s. She founded and directed the White Mask Theatre in New York City and was a prominent member of Women Artists in Revolution (W.A.R.), a radical feminist group that emerged from the Art Workers' Coalition in 1969. In 1970, she was among the artists who condemned the actions of the Museum of Modern Art (MoMA) and presented a list of demands to its director, John Hightower. During the late 1960s and early 1970s, she was involved in experimental projects such as an 'oxygen utility dome' (1969–1970) and conducted oral history interviews for the Archives of American Art with figures like Lee Krasner, Anaïs Nin, and Cliff Joseph. Following a 1972 trip to Spain, where she was inspired by prehistoric cave art, she divorced her husband, the poet Armand Schwerner, and created the performance 'Fish-Joy'. In May 1978, she adopted the name 'Janais'—a combination of Janis Joplin and Anaïs Nin—to symbolize her artistic rebirth. Her works, including the 1973 film 'Room of the White Mask' and the 1993 book 'Lady of the Grape Arbor', often explore themes of identity, femininity, and non-traditional performance.",
+            "sources": [
+              "https://film-makerscoop.com/filmmakers/doloris-holmes",
+              "https://archives.nypl.org/the/21768",
+              "https://www.moma.org/research/archives/finding-aids/Hightowerb.html",
+              "https://www.aaa.si.edu/collections/interviews/oral-history-interview-lee-krasner-12037",
+              "https://www.jasonvass.com/muriel-castanis-cv"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "",
+            "Doloris Holmes artist 1960s 1970s",
+            "Doloris Holmes artist",
+            "Doloris Holmes Getty Research Institute E.A.T.",
+            "Doloris Holmes Experiments in Art and Technology E.A.T.",
+            "",
+            "\"Doloris Holmes\" Armand Schwerner E.A.T.",
+            "Doloris Holmes \"Experiments in Art and Technology\"",
+            "\"Fish-Joy\" Doloris Holmes E.A.T.",
+            "",
+            "\"Janais\" artist performance New York 1970s",
+            "\"Doloris Holmes\" \"Experiments in Art and Technology\" member",
+            "\"Doloris Holmes\" \"E.A.T.\" artist"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk6TmpHJNRCB0OcuB_KVvINRpn6M55yNI2xK0VUm4uXav-kto-Ynf98AuFYyOJ2fqPJMJVrcO_qUVIpISNdEeznviSh-OAtfMiiGPbufzxa3mBwF96cfBQjPCC7y_z",
+              "title": "nypl.org",
+              "resolvedUri": "https://archives.nypl.org/the/21233"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEo6Su2m3pRLjs-W8EKDMIyFNhOB9nVvMkxU1NM-HVKc2pyAS4UPHgMRAGqZxOGePAt58LMEYmkvrL9JcXvQulYjK4dGkeapQzsw0XqLNXCRaJERgRzw6ZjlECFYpp-SQO4TG9yKBn_uG7zI5ykzvEWH_DKAcqpBxIdW3m7y7Za7K3Ay6Hdz5rRsQ==",
+              "title": "nypl.org",
+              "resolvedUri": "https://www.nypl.org/sites/default/files/archivalcollections/pdf/theholmes.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 839,
+                "endIndex": 1011,
+                "text": "Following a 1972 trip to Spain, where she was inspired by prehistoric cave art, she divorced her husband, the poet Armand Schwerner, and created the performance 'Fish-Joy'."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1012,
+                "endIndex": 1138,
+                "text": "In May 1978, she adopted the name 'Janais'—a combination of Janis Joplin and Anaïs Nin—to symbolize her artistic rebirth."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            }
+          ]
+        }
       }
     }
   ]

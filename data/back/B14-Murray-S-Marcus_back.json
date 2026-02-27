@@ -11,6 +11,92 @@
         "y1": 14.2,
         "x2": 50.6,
         "y2": 20.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q822346",
+          "label": "Bernard Childs",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match perfectly. The Wikidata entity is a known American artist (painter and printmaker) who lived from 1910 to 1985, making him active during the late 1960s and early 1970s as specified in the context."
+        },
+        {
+          "qid": "Q21078956",
+          "label": "Charles Bernard Childs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Charles Bernard Childs) died in 1956, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card entry context. Furthermore, the Wikidata entity was a scientist and teacher (Fellow of the Royal Society of Edinburgh), not an artist."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Bernard Childs (1910–1985) was an American painter, printmaker, and sculptor who was a pioneer in integrating industrial technology and tools into the fine arts. Born in Brooklyn to Russian immigrant parents, he spent much of his career working between Paris and New York, where he was a long-time resident of the Hotel Chelsea. He is best known for his innovation of the 'power drypoint' technique, in which he used electric power tools, such as high-speed dentist drills and rotary burrs, to directly engrave metal printing plates—a method that bypassed traditional chemical etching. In the late 1960s and early 1970s, his work expanded into three-dimensional 'illuminated acrylic light sculptures.' These involved engraved sheets of acrylic or Plexiglas that were lit from the edges or below to make the incised lines glow, a series that was prominently showcased in a 1969 retrospective at the Storm King Art Center. His interest in the intersection of art and science was further highlighted by his 1962 visit to a nuclear cyclotron, which inspired his 'Holocaust' series of prints. While he is often associated with the technological art movement of the era due to his use of industrial machinery and light-based media, he is distinct from the choreographer Lucinda Childs, who was a founding participant in the Experiments in Art and Technology (E.A.T.) group's '9 Evenings: Theatre & Engineering.' However, Bernard Childs' experimental use of light and industrial tools closely aligned with the mission of E.A.T., and he was an active figure in the same New York avant-garde circles during the late 1960s and 1970s.",
+            "sources": [
+              "https://www.annexgalleries.com/artists/biography/414/Childs/Bernard",
+              "https://en.wikipedia.org/wiki/Bernard_Childs",
+              "https://www.kettererkunst.com/bio/bernard-childs-1910.php",
+              "https://whitney.org/artists/2418",
+              "https://www.meer.com/en/23812-bernard-childs"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Bernard Childs painter printmaker biography late 1960s 1970s",
+            "\"Bernard Childs\" artist technology collaboration",
+            "Bernard Childs artist Experiments in Art and Technology E.A.T.",
+            "Did Bernard Childs work with Billy Klüver?",
+            "\"Bernard Childs\" Experiments in Art and Technology member",
+            "\"Bernard Childs\" E.A.T. artist collaboration",
+            "\"Bernard Childs\" illuminated acrylic sculptures E.A.T.",
+            "\"Bernard Childs\" E.A.T. directory",
+            "\"Bernard Childs\" artist technology 1960s 1970s",
+            "\"Bernard Childs\" Experiments in Art and Technology list"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUeXWli9ICVsI-S5La0orHf0IDVYWByrNrGDpPjRHJeDquict2a_Cho0L_Aloru1NkxBDGgZ27zfU_MLZw7f7G6GdYqzT9x5XW0amhy4rFjQb-0iHTLfLE86uNweoUWQsKj2kQXbzxgUg3iDvniJZYpqHOR303o9lG90qmSW1TfKIGn0Wi7ZDk3iw=",
+              "title": "cuny.edu",
+              "resolvedUri": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1751&context=gc_etds"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9T0qYbDdSWKe2GLU7sDtvDOXl5PwCvj8WpW0jy9-ppAOqwwc3xCbODqoeAhGZm8dOV4zfUOJdwBihM63oHbdJygUQMninNGi07bmmi_Yuf6CB6Rp1SwByCbYnt9wiXX5oOp_2LYuPooWxzr2kfw==",
+              "title": "calameo.com",
+              "resolvedUri": "https://www.calameo.com/books/004656305b2a473eeb07e"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHULU6nNm2ykKacjGGALU9VIdIBmRloeEGqgYDAU2_rbfMtHC2cvrrxpRXxo5u0_HHRMkjUqWXJJwvKCd5UtzVYBjaRcv-TOfMxgOlyjBjmWTQdfReNBoV9_Z_LG2sZkQM7zde-uT7QwQ==",
+              "title": "experimentsinartandtechnology.org",
+              "resolvedUri": "https://www.experimentsinartandtechnology.org/"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 213,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Bernard Childs (1910–1985) was an American painter, printmaker, and sculptor who was a pioneer in integrating industrial technology and tools into the fine arts."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1415,
+                "endIndex": 1459,
+                "text": "group's '9 Evenings: Theatre & Engineering.'"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

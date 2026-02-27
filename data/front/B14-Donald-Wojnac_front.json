@@ -17,5 +17,85 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Design & photography"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikidata_org_candidates": [],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Donald Wojnar (whose name appears as Donald Wojnac in some records, likely due to a transcription error) was an engineer and technical designer active in the late 1960s and early 1970s. He was associated with the Coil Winding Equipment Company (COWECO) based in Oyster Bay, New York. Wojnar is documented as an inventor of technical machinery; specifically, he is the primary inventor of U.S. Patent 3,674,218, titled \"Method of winding a coil,\" which was filed on May 13, 1968, and issued on July 4, 1972, with the rights assigned to the Coil Winding Equipment Company. His technical background in design and photography led to his involvement with Experiments in Art and Technology (E.A.T.), a non-profit organization founded by Billy Klüver and Robert Rauschenberg to foster collaborations between the technical and artistic communities. E.A.T. maintained a registry of engineers like Wojnar, indexed by their employer, location, and specialized skills (such as photography and industrial design), to facilitate project matching between scientists and artists.",
+        "sources": [
+          "https://patents.google.com/patent/US3674218A/en",
+          "https://www.experimentsinartandtechnology.org/",
+          "https://discover.getty.edu/view/638973",
+          "https://www.ieee.li/pulse/archive/pulse_1955_03.pdf"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Donald Wojnar\" E.A.T.",
+        "Donald Wojnac Experiments in Art and Technology",
+        "",
+        "\"Some More Beginnings\" catalog Donald",
+        "\"Coil Winding Equipment Co\" Donald",
+        "\"Experiments in Art and Technology\" member list Donald",
+        "",
+        "\"Donald\" \"Coil Winding Equipment Company\"",
+        "\"Donald Wojnar\" E.A.T.",
+        "",
+        "\"Donald Wojnar\" photographer",
+        "\"Donald Wojnar\" design",
+        "\"Donald Wojnar\" E.A.T.",
+        "",
+        "\"Coil Winding Equipment Company\" photography design",
+        "",
+        "\"Donald\" \"Coil Winding Equipment Co\" Oyster Bay",
+        "\"Wojnac\" designer photography",
+        "\"Donald Wojnarski\" photography",
+        "\"Donald\" \"Coil Winding\" Oyster Bay photography",
+        "",
+        "\"Donald\" \"Coil Winding Equipment\" Oyster Bay",
+        "\"Donald\" \"Coil Winding Equipment\" photography design",
+        "\"Coil Winding Equipment Co\" \"E.A.T.\"",
+        "",
+        "",
+        "\"Oyster Bay\" \"Experiments in Art and Technology\"",
+        "\"Donald\" \"Oyster Bay\" engineer photography",
+        "\"Oyster Bay\" E.A.T. engineer",
+        "\"Donald\" \"Coil Winding\" photography design E.A.T.",
+        "",
+        " \"Coil Winding Equipment Company\"",
+        " \"Donald\"",
+        "patents \"Coil Winding Equipment Company\"",
+        "",
+        "\"Donald Wojnar\" bio engineer",
+        "",
+        "\"Donald Wojnar\" engineer photography"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4mhNYcD7URURl4Q0M3lKz-FkXW9EJiVtRMGtcmMwkBTQh4hES1woxp154oG17LDtCOXbN0FhEHqE98ESBfwUc2j0liDrvyK-0QrBIqYfeHScNsZBGLqAM6a5r_zCVT5bb4-A5kbd7",
+          "title": "goatlocker.org",
+          "resolvedUri": "https://goatlocker.org/oldlogs/oldlogc84.htm"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 235,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Donald Wojnar (whose name appears as Donald Wojnac in some records, likely due to a transcription error) was an engineer and technical designer active in the late 1960s and early 1970s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }

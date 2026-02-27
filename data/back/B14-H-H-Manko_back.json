@@ -11,6 +11,57 @@
         "y1": 6.7,
         "x2": 35.5,
         "y2": 17.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q12360736",
+          "label": "David Gottlieb Glanström",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (David Gottlieb Glanström) lived from 1744 to 1824 and was a cleric/pastor, which is completely incompatible with the card's context of an artist active in the late 1960s and 1970s."
+        }
+      ],
+      "web_research": {
+        "results": [],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "artist \"David Glans\"",
+            "\"David Glans\" Experiments in Art and Technology",
+            "\"David Glans\" E.A.T. artist",
+            "\"David Glans\" Jerry Garcia Rolling Stone",
+            "\"David Glans\" artist bio",
+            "\"David Glans\" photographer 1960s",
+            "\"David Glans\" Experiments in Art and Technology organization",
+            "\"David Glans\" artist E.A.T.",
+            "\"David Glans\" collaborator E.A.T.",
+            "\"David Glans\" artist 1960s Grateful Dead",
+            "\"David Glans\" Experiments in Art and Technology E.A.T. archive",
+            "\"David Glans\" 1968 art technology",
+            "\"David Glans\" E.A.T. member list",
+            "\"David Glans\" artist 1970",
+            "\"David Glans\" photography Experiments in Art and Technology",
+            "\"David Glans\" artist \"E.A.T.\"",
+            "\"David Glans\" engineer E.A.T.",
+            "",
+            "\"David Glans\" 1968 1969 1970 1971 artist",
+            "\"David Glanz\" artist E.A.T.",
+            "\"David Glans\" artist E.A.T. member",
+            "\"David Glans\" artist Grateful Dead",
+            "\"David Glans\" Bell Laboratories E.A.T.",
+            "\"David Glans\" 1960s art technology organization",
+            "",
+            "\"David Glans\" E.A.T. engineer artist",
+            "\"David Glans\" 1968 1969 1970 1971 1972 E.A.T.",
+            "\"David Glans\" artist Sweden 1970s",
+            "\"David Glans\" Bell Labs E.A.T. project",
+            "\"David Glans\" Grateful Dead E.A.T.",
+            "\"David Glans\" E.A.T. participant",
+            "\"David Glans\" artist 1969 1970"
+          ],
+          "groundingChunks": [],
+          "groundingSupports": []
+        }
       }
     },
     {
@@ -24,6 +75,211 @@
         "y1": 22.3,
         "x2": 36.4,
         "y2": 28.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19546",
+          "label": "Richard Serra",
+          "description": "",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The names match exactly. Richard Serra is a renowned sculptor who was very active during the late 1960s and early 1970s. The Wikibase entity also links him to the E.A.T. (Experiments in Art and Technology) project, which perfectly matches the artistic context and time period of the card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q321245",
+          "label": "Richard Serra",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name 'Richard Serra' is an exact match. The Wikidata entity describes a world-renowned sculptor and visual artist who was highly active in the New York art scene during the late 1960s and 1970s, which aligns perfectly with the time period and artistic context of the card entry."
+        },
+        {
+          "qid": "Q10361291",
+          "label": "Richard Serraria",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity Richard Serraria was born in 1971, which makes it impossible for him to be an artist active during the late 1960s as indicated by the context of the card collection. Furthermore, the name on the card is Richard Serra, whereas the Wikidata entity is Richard Serraria."
+        },
+        {
+          "qid": "Q56856035",
+          "label": "Richard Serrao",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is 'Richard Serra', whereas the Wikidata entity is 'Richard Serrao'. Furthermore, the Wikidata entity is listed as a 'researcher', while the context for the card refers to an artist active in the late 1960s/early 1970s. The famous sculptor Richard Serra (Q19546) is a much better fit for this record."
+        },
+        {
+          "qid": "Q111240434",
+          "label": "Richard Serrano",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The name on the card is Richard Serra, whereas the Wikidata entity is Richard Serrano. Furthermore, the Wikidata entity was born in the early 1960s (1962 or 1965), meaning they would have been a child during the late 1960s/early 1970s when the artist on the card was active. The occupations (literary scholar vs. artist) also do not align."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Richard Serra (1938–2024) was a prominent American artist and sculptor primarily known for his large-scale, site-specific abstract sculptures made of industrial materials like steel, lead, and rubber. After moving to New York City in 1966, he became a key figure in the Postminimalism and Process Art movements. During the late 1960s and early 1970s, Serra collaborated with the Experiments in Art and Technology (E.A.T.) organization, notably participating in an E.A.T. project where his work was featured in a series of programs broadcast on cable television via Automation House in New York. Additionally, he was a participant in the Los Angeles County Museum of Art's (LACMA) Art and Technology Program (1967–1971), which shared E.A.T.'s goal of fostering collaborations between artists and industry. His early career was marked by experimental film and video works such as 'Hand Catching Lead' (1968) and his 'Splash' series (1968–1970), where he poured molten lead into the corners of galleries. He is widely recognized for his later monumental steel works and the controversial public sculpture 'Tilted Arc' (1981).",
+            "sources": [
+              "https://en.wikipedia.org/wiki/Richard_Serra",
+              "https://www.theartstory.org/artist/serra-richard/",
+              "https://www.tate.org.uk/art/artists/richard-serra-1923",
+              "https://www.eai.org/artists/richard-serra/biography",
+              "https://www.britannica.com/biography/Richard-Serra",
+              "https://whitney.org/artists/1155",
+              "https://openedition.org/1513"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Richard Serra artistic profile and history",
+            "Richard Serra artist biography late 1960s 1970s",
+            "Richard Serra Experiments in Art and Technology E.A.T."
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwINCu06S6gNZgLimndsmP29oRH6OKYWzIO0qaSKNoV49S5Xgdie8Hxww9orkyLSx5VQU0meHwQQ2nL2idXOjqga-Oj2qZgJm4bgDRKRQLFFqzk0CPUWaWLHniaYYC141_aKBzXYw=",
+              "title": "wikipedia.org",
+              "resolvedUri": "https://en.wikipedia.org/wiki/Richard_Serra"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgjs1GlKVg8FfmrkPW_2EAyMSMQbpb6hP-3i47fDPWMIUd8KBRcPBHpoXaz7TNCcmQtiwDUX9auCcNcqyyOMikiURExulzrDhcHE0iNzGyJEeDNAQKv5NpsLFTxk3VzUBxz4mwIZ6d-cneClXQP1HF7w==",
+              "title": "tate.org.uk",
+              "resolvedUri": "https://www.tate.org.uk/art/artists/richard-serra-1923"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGMvExmQCJcjTY8Fi_GwYwb7V3_31elN_adKeRReKY8ozCRwAmQIW-9uTK_IqZcAluaTGR0zNCnoiuE4Mz0VRsl-qg-3ARobsBzvrrkzD1T-CrG9EnXIopaN2G09CgbuHT7RXU4fzhukNmoCTSOA==",
+              "title": "eai.org",
+              "resolvedUri": "https://www.eai.org/artists/richard-serra/biography"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZrpyJxSf_asxePiobkkYUNlK-CIrLL3pVTdmues2jT_Q4T6QmqAMQf-7VPdp66WdKiHfqYXVNofcHgeOnX6lDC6WXZwB2UqPlKk4I-ZyHhJp7Hiv1aEnKJJI9",
+              "title": "whitney.org",
+              "resolvedUri": "https://whitney.org/artists/1202"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEEbZ63BbuDPwmj1rGj21Qlwkf8Nq4VRDIXZ8EXZ4IfeXoHPmeWsOIWL6QCQjawMra_VCZp_BFE3zhOzeHaT1q13pvHR_b6cFE9C_6kUeDt8XEwg4YMKoLcrY78agD61aW28kWEaHCQElB4ga7",
+              "title": "britannica.com",
+              "resolvedUri": "https://www.britannica.com/biography/Richard-Serra"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw2-Hx1g3T4ZGDwqESxoGPAYOosd2ndJcQQeIBxTEtkMVYMFV5IBsebFV_b5eYkfQHGO3f100beK19HCZenDhkgPKY_gL3-uA9f7hN12QS4sZVKWi-yJAXMfzctYQCB8cI2-Mc8I_2dj03jgM=",
+              "title": "theartstory.org",
+              "resolvedUri": "https://www.theartstory.org/artist/serra-richard/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfvb-YufZwCP8GuvB6LT_jFF7LOJyl6esBb2BSFqd1hGz5QMBUPKRy8SvaCdQTn8tOz9ldUmyOIiZ6CW2PlSWGFCSCqGU4yqDuMQeVlvKEY3FR8yBhy8LFLz920Wp6w72La2sbT7heTIWOMVyXwyM42OWDmVgPlycAeSksr5JNitEc4Uf7KLQmL3SN3dfJYkF-nY5DRsUaq-O58UucCmkGPN6hIFdgTP570Ow=",
+              "title": "macromip.it",
+              "resolvedUri": "https://www.macromip.it/bibliographic-office/richard-serra-animal-habitats-live-and-stuffed-roma-la-salita-1966/"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIB-V0kqs2RCHrXLuxdv_3BA5mGHMkIpSsx_nO03tjb4dyszjL9omnFT14FsUbqJ46oqAYUx3iSbvvjJWm69-PpyI-ItWv2xFhcvpOyu9vb0-3JVJdJ-vaHb_rM0kQmKjyCZVYNYGp3mCz",
+              "title": "openedition.org",
+              "resolvedUri": "https://books.openedition.org/inha/4926?lang=en"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjwCxHT790kmCjif5KDLJ2aJZk9Ah7ZDyf2Vn6DXVWWMT-4y9S1hbVN68TuBPlpU2XsAE417l8Tsk1LPVv_2QK6yTZxbhyRfvMfnTFwBHkk-Cco0iv-CTwxvjlURSeFjpTVRBA8gu95dsU6GPjPlQxwhscFIq4UTeOFfTiXHNdXUlZ1JvCLrZN2lpIqPVaMp6rRqAI",
+              "title": "mocastore.org",
+              "resolvedUri": "https://mocastore.org/products/sensing-the-future-experiments-in-art-and-technology-e-a-t"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBk-u6aTgSn5vyiHR_ag41ib-pg8lm_ZN0x0zMP3do7YVlvRh45Ivhiy-an3qRUBxpNw0y2GbPiz176MVNAjWqWGCBI6nmIklyzFU4zCsRvLxuRzu5VvXGFYd84mm0m2TCJw==",
+              "title": "openedition.org",
+              "resolvedUri": "https://books.openedition.org/inha/4926"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWPQJtAuwYkXFuQk25TjMjcIoMmbJgsmmA6gsxV3cLqeRClIgE4LC6H-76rvMLPk1TUrHdhpDLoWlvQ0aett8RxR-vnvitwfLyu_kAUOsJWXv37rodC77QYp0BOfgDa_ZMD4g6dj3mWxykBejZTEhPsXI-u67LCaa-J-RWeQslImw2wDmzEbwjb6LMsXJ6D74DhQ==",
+              "title": "sabinebreitwieser.net",
+              "resolvedUri": "https://sabinebreitwieser.net/wp-content/uploads/2023/12/MdM-EAT-001-016-Essays_low.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": null,
+                "endIndex": 252,
+                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Richard Serra (1938–2024) was a prominent American artist and sculptor primarily known for his large-scale, site-specific abstract sculptures made of industrial materials like steel, lead, and rubber."
+              },
+              "groundingChunkIndices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 364,
+                "endIndex": 473,
+                "text": "During the late 1960s and early 1970s, Serra collaborated with the Experiments in Art and Technology (E.A.T.)"
+              },
+              "groundingChunkIndices": [
+                7
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 474,
+                "endIndex": 522,
+                "text": "organization, notably participating in an E.A.T."
+              },
+              "groundingChunkIndices": [
+                8,
+                9,
+                7,
+                10
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 523,
+                "endIndex": 646,
+                "text": "project where his work was featured in a series of programs broadcast on cable television via Automation House in New York."
+              },
+              "groundingChunkIndices": [
+                10
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 647,
+                "endIndex": 858,
+                "text": "Additionally, he was a participant in the Los Angeles County Museum of Art's (LACMA) Art and Technology Program (1967–1971), which shared E.A.T.'s goal of fostering collaborations between artists and industry."
+              },
+              "groundingChunkIndices": [
+                7,
+                9
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 859,
+                "endIndex": 1057,
+                "text": "His early career was marked by experimental film and video works such as 'Hand Catching Lead' (1968) and his 'Splash' series (1968–1970), where he poured molten lead into the corners of galleries."
+              },
+              "groundingChunkIndices": [
+                5,
+                6
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 1058,
+                "endIndex": 1642,
+                "text": "He is widely recognized for his later monumental steel works and the controversial public sculpture 'Tilted Arc' (1981).\",\n      \"sources\": [\n        \"https://en.wikipedia.org/wiki/Richard_Serra\",\n        \"https://www.theartstory.org/artist/serra-richard/\",\n        \"https://www.tate.org.uk/art/artists/richard-serra-1923\",\n        \"https://www.eai.org/artists/richard-serra/biography\",\n        \"https://www.britannica.com/biography/Richard-Serra\",\n        \"https://whitney.org/artists/1155\",\n        \"https://openedition.org/1513\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                3,
+                4
+              ]
+            }
+          ]
+        }
       }
     }
   ]

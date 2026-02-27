@@ -24,5 +24,128 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "None mentioned",
     "aestheticPhilosophicalInterests": "'organic forms'"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q7348949",
+      "label": "Robert Pollack",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Both records identify a Robert Pollack who is a biologist/researcher associated with New York University. The card specifies the NYU Medical School Pathology Department, which aligns with the Wikidata employer. Additionally, the card places him in Brooklyn, which matches the Wikidata entry's place of birth."
+    },
+    {
+      "qid": "Q47495633",
+      "label": "Robert Pollack",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals with the same name. The person on the card is a researcher in bio-engineering and pathology at NYU Medical School in Brooklyn, while the Wikidata entity is an Austrian classical violinist and music educator associated with the Moscow Conservatory who lived from 1880 to 1962."
+    },
+    {
+      "qid": "Q114444630",
+      "label": "Robert Pollack",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals with the same common name. The card describes a researcher in medicine and bio-engineering at NYU Medical School based in Brooklyn, NY, likely in the mid-20th century (indicated by alphanumeric phone exchange codes). The Wikidata entity describes a Dutch lawyer and writer born in 1960 with citizenship in the Netherlands."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q91046772",
+      "label": "Q91046772",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Q91046772 corresponds to the NYU Grossman School of Medicine, which was historically and commonly known as the New York University Medical School. It is the medical school associated with New York University."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Robert Elliot Pollack (born September 2, 1940) is an American biologist and researcher who was active at New York University Medical School in the late 1960s. Born and raised in Brooklyn, New York, he earned a BA in physics from Columbia University in 1961 and a PhD in biological sciences from Brandeis University in 1966. Between 1966 and 1969, he served as a postdoctoral fellow and instructor in the Department of Pathology at NYU Medical Center (now NYU Langone Health). During this period, he conducted research on mammalian cell culture and the reversion of cancer cells, working alongside notable scientists such as Howard Green and Mary Weiss. His technical expertise spans medicine, biology, and the emerging field of bio-engineering (specifically genetic engineering and the ethics of recombinant DNA). Pollack is well known for his later career at Cold Spring Harbor Laboratory and as a long-time Professor of Biological Sciences and Dean of Columbia College. He has a significant interest in the intersection of science, art, and the humanities; his wife, Amy Pollack, is an artist with whom he has collaborated on various projects and books, such as 'The Course of Nature'. This cross-disciplinary focus aligns with the mission of Experiments in Art and Technology (E.A.T.), a service organization for collaborations between artists and technical experts. Although primarily a biologist, his E.A.T. association likely involved providing technical guidance to artists in fields like medicine, biology, and optics (potentially holography) during his tenure at NYU and beyond.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Robert_Pollack_(biologist)",
+          "https://scienceandsociety.columbia.edu/directory/robert-e-pollack",
+          "https://www.encyclopedia.com/arts/educational-magazines/pollack-robert-elliot",
+          "https://www.sciencehistory.org/stories/magazine/an-absolute-good/",
+          "https://www.columbia.edu/cu/biology/faculty/pollack/index.html"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Robert Pollack NYU biology professor history",
+        "Robert Pollack NYU Medical School researcher biology holography",
+        "\"Robert Pollack\" NYU Medical School researcher bio-engineering",
+        "\"Robert Pollack\" Experiments in Art and Technology E.A.T.",
+        "\"Robert Pollack\" holography 1960s 1970s",
+        "",
+        "\"Robert Pollack\" researcher NYU medicine bio-engineering",
+        "\"Robert Pollack\" Brooklyn researcher 1960s 1970s",
+        "\"Robert Pollack\" E.A.T. holography",
+        "\"Robert Pollack\" holography \"New York University\"",
+        "",
+        "\"Robert Pollack\" bio-engineering holography medicine",
+        "\"Robert Pollack\" holography NYU",
+        "\"Robert Pollack\" NYU \"holography\"",
+        "\"Robert Pollack\" E.A.T. membership",
+        "",
+        "\"Robert Pollack\" experiments in art and technology bio-engineering",
+        "\"Robert Pollack\" E.A.T. bio-engineering",
+        "\"Robert Pollack\" NYU \"holography\" bio-engineering",
+        "\"Robert Pollack\" Brooklyn researcher holography",
+        "",
+        "\"Robert Pollack\" E.A.T. Brooklyn bio-engineering",
+        "\"Robert Pollack\" NYU Medical School \"holography\"",
+        "\"Robert Pollack\" NYU holography bio-engineering medicine"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHyF-BALXm9gNW6e790ULtzDdgbt1FBGYdMfAjTzbjqtZRebJK5ZrHSqUTaiXKWnfmg6E1s2J_TvFp779rNvVhciarG9FVvGCLBXY0dM_fyw83KrEIWiw7X-fhpdiu9gIRU0g5kl3PRdWjxWq8xLgj",
+          "title": "columbia.edu",
+          "resolvedUri": "https://biology.columbia.edu/content/robert-e-pollack"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOKAQgnrrlEs5QpUCPhCtdMV3eu3TMieXdE0T0DLjG0DbSA_I58_8uFmXe5fIYjPh2WTCnMbEKMwQFsSbR39jBOAehPXXqcusvDdVk_WbugQB2YfwB3flDmJurt2RmWA9HNGlC57sXgkDVF3jhcN2FdEJkVMwZcqQ3RronhND6iLJqoKsDksy6Aob8Zj4lqR-JTilcsl2xr_Bmw-t5OkHXMCW4j2YQ4A0p4m-3dJ9zEi98O9j8Ph9tlLbEKOUmDSrOTQ==",
+          "title": "columbia.edu",
+          "resolvedUri": "https://death.universityseminars.columbia.edu/sites/default/files/content/160329_Life%2BDeath%20Colloquium%20Pamphlet_FIN1_spreads.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 208,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robert Elliot Pollack (born September 2, 1940) is an American biologist and researcher who was active at New York University Medical School in the late 1960s."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 209,
+            "endIndex": 373,
+            "text": "Born and raised in Brooklyn, New York, he earned a BA in physics from Columbia University in 1961 and a PhD in biological sciences from Brandeis University in 1966."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1022,
+            "endIndex": 1237,
+            "text": "He has a significant interest in the intersection of science, art, and the humanities; his wife, Amy Pollack, is an artist with whom he has collaborated on various projects and books, such as 'The Course of Nature'."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

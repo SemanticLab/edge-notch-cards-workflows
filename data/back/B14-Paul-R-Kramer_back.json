@@ -10,6 +10,107 @@
         "y1": 7.5,
         "x2": 95.1,
         "y2": 81.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3127488",
+          "label": "Harley Jones Van Cleave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The Wikidata entity (Harley Jones Van Cleave) died in 1953, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card context. Furthermore, the Wikidata entity was a zoologist and parasitologist, not an artist."
+        },
+        {
+          "qid": "Q116947430",
+          "label": "Harley Jones",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "While the name Harley Jones matches and the Wikidata entity is a musician (accordionist), the birth year of 1953 means the individual would have been only 14-17 years old during the late 1960s. While possible, it is less likely that an accordionist of that age from New Zealand is the same artist described in the card context without further corroborating evidence."
+        }
+      ],
+      "web_research": {
+        "results": [
+          {
+            "possibleIdentity": "Harley Jones is a Welsh filmmaker, film editor, and educator who was a pioneering figure in the development of film education in Wales. Active in the late 1960s and 1970s, he began his career as a trainee at TWW (ITV Wales) and later became the youngest film editor at the BBC at age 18, where he worked under director John Ormond. In the mid-1960s, he worked with documentary pioneer John Grierson on the Scottish Television program 'This Wonderful World'. In 1966, Jones co-founded and became the first course leader of the Newport Film Unit at the Newport College of Art and Design, which later became the Newport Film School. His pedagogical approach at Newport was noted for its integration of practical filmmaking with the experimental and conceptual art environment of the college. His filmography from this period includes 'Resurrection' (1966), 'After Many a Summer' (1968), and 'Research in the Rhondda' (1969). He later served on panels for the Arts Council of Great Britain's Film Committee in the 1970s and founded Celtic Films in 1982.",
+            "sources": [
+              "https://www.bfi.org.uk/player/free/film/watch-resurrection-1966-online",
+              "https://www.casw.org.uk/filmed-talks/gerda-roper-and-harley-jones-in-conversation/",
+              "https://en.wikipedia.org/wiki/Newport_Film_School",
+              "https://livingmags.co.uk/cut-dry-rhiwbinas-harley-jones/",
+              "https://www.artscouncil.org.uk/sites/default/files/download-file/Arts_Council_Annual_Report_1975.pdf"
+            ],
+            "accuracyLevel": "normal"
+          },
+          {
+            "possibleIdentity": "Harley Jones is an artist, educator, and miniaturist who authored the memoirs 'Michael, Little Boy Black and Blue' and 'Michael, Little Boy Blacker & Bluer'. His work chronicles his experiences as an LGBTQ+ youth beginning in the early 1960s and continuing through the gay rights movement of the 1970s and the AIDS epidemic of the 1980s. He is described as a successful artist and teacher who creates intricate miniatures and holds a significant collection of Barbie dolls and other objects. An 'Estate of Harley Jones' is also listed as a donor/member of the Studio Museum in Harlem, suggesting a connection to the African-American art community.",
+            "sources": [
+              "https://www.booksamillion.com/p/Michael-Little-Boy-Blacker-Bluer/Harley-Jones/9798726132778",
+              "https://studiomuseum.org/sites/default/files/SMH_AR_FY21_Final.pdf"
+            ],
+            "accuracyLevel": "normal"
+          }
+        ],
+        "groundingMetadata": {
+          "webSearchQueries": [
+            "Harley Jones video artist",
+            "Harley Jones E.A.T. organization",
+            "\"Harley Jones\" artist 1960s 1970s",
+            "Harley Jones artist \"Experiments in Art and Technology\"",
+            "",
+            "\"Harley Jones\" film editor Newport School of Art",
+            "\"Harley Jones\" filmmaker Wales",
+            "\"Harley Jones\" artist 1960s video film",
+            "\"Harley Jones\" E.A.T. artist",
+            "",
+            "\"Harley Jones\" \"Contemporary Art Society for Wales\" filmmaker",
+            "\"Harley Jones\" Experiments in Art and Technology E.A.T.",
+            "\"Harley Jones\" artist Newport Art College 1970s",
+            "\"Harley Jones\" Newport College of Art conceptual art",
+            "\"Harley Jones\" filmmaker \"video art\" 1970s",
+            "\"Harley Jones\" artist Harlem identity",
+            "\"Harley Jones\" E.A.T. bibliographies"
+          ],
+          "groundingChunks": [
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_E6qktF6E6iWD5PokrbeHwmksGT20qT1EsTRpsMk1C_3DzBOXosWY7o_MusD8qZSPPO3poDn1oOz3losnjWkLnlbEe_2Oa5bgedABZXuYJJzzTr0oLkJy80yprKgoO4oRQ0jgrc66YDhCgCWAOG-PXjWF9UQuBFHqmAMFM42tNbN2Z-zcR07-hZVP6K7J4eC3ylOFkg==",
+              "title": "booksamillion.com",
+              "resolvedUri": "https://www.booksamillion.com/p/Michael-Little-Boy-Blacker-Bluer/Harley-Jones/9798726132778"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH87s5R7ml4RPFjjz16pNSDSP-KHLtViyASAGsrLnxWwEoThO2DVS6bcxIVVmjsGpE_kpl8xtsxh2rPxjKEG7ePc3ZNh0JFhYPvOpjPP66DEf0r9fl3OJZLRPwPtN6dN4-9FDRquI1Kq2ZsNHveGJ6aqrtvTElwIFI3Pe0z54nn-Etn3CvoRZ53rar6rewPz9jltHBxKvI=",
+              "title": "booksamillion.com",
+              "resolvedUri": "https://www.booksamillion.com/p/Michael-Little-Boy-Blacker-Bluer/Harley-Jones/9798726132778"
+            },
+            {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENZvicnYUF3y8x-WhUVBE7ZguXR-Nxwr7hFZ549JOwUv9qFqaa4YHObPnvwz-gIeZ8QbelJmcdZ5pFIV4j4oHSix5Z4z2d1D1qYSu3UvXIyleKNRwOcuLxjcVlseTuMVIwmwW3ZDUKAnhvy8_HjDDeYSbdqqhnlqDm1yyQJCjSXaXrrZV_MPo=",
+              "title": "imgix.net",
+              "resolvedUri": "https://studiomuseum.imgix.net/files/AnnualReportFY21_StudioMuseumHarlem.pdf"
+            }
+          ],
+          "groundingSupports": [
+            {
+              "segment": {
+                "startIndex": 1776,
+                "endIndex": 1955,
+                "text": "His work chronicles his experiences as an LGBTQ+ youth beginning in the early 1960s and continuing through the gay rights movement of the 1970s and the AIDS epidemic of the 1980s."
+              },
+              "groundingChunkIndices": [
+                0,
+                1
+              ]
+            },
+            {
+              "segment": {
+                "startIndex": 2110,
+                "endIndex": 2519,
+                "text": "An 'Estate of Harley Jones' is also listed as a donor/member of the Studio Museum in Harlem, suggesting a connection to the African-American art community.\",\n      \"sources\": [\n        \"https://www.booksamillion.com/p/Michael-Little-Boy-Blacker-Bluer/Harley-Jones/9798726132778\",\n        \"https://studiomuseum.org/sites/default/files/SMH_AR_FY21_Final.pdf\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
+              },
+              "groundingChunkIndices": [
+                2
+              ]
+            }
+          ]
+        }
       }
     }
   ]

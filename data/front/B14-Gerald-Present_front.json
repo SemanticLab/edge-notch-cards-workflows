@@ -16,5 +16,114 @@
       "mathematics",
       "physics"
     ]
+  },
+  "wikibase_candidates": [
+    {
+      "qid": "Q22975",
+      "label": "presenter",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a specific individual named Gerald Present, while the second record (Q22975) represents the general role of a 'presenter' rather than a specific person. The Wikibase entity points to Wikidata Q13590141, which is the class for the profession 'presenter'."
+    },
+    {
+      "qid": "Q25661",
+      "label": "presentation",
+      "description": "process of presenting a topic to an audience",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The first record describes a specific individual named Gerald Present, who is a scientific journalist and editor. The second record describes an abstract concept or process ('presentation') and is categorized as a class/education event, not a human being."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q1962085",
+      "label": "Present",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The index card describes Gerald Present, a mid-20th-century scientific journalist and editor based in New York City. The Wikidata entity (Q1962085) refers to an enslaved man named Present who lived in 19th-century Suriname and died in 1833. The time periods, locations, and occupations are entirely incompatible."
+    },
+    {
+      "qid": "Q6943319",
+      "label": "Mustafa Raza Khan",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. Record 1 is for Gerald Present, a scientific journalist and editor based in New York City with a background in physics and mathematics. Record 2 is for Mustafa Raza Khan, an Indian Grand Mufti and Islamic jurist born and based in Bareilly, India. There are no overlapping details in name, profession, or geography."
+    },
+    {
+      "qid": "Q7240954",
+      "label": "Presentación Urán González",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The first is Gerald Present, a male scientific journalist and editor based in New York City. The second is Presentación Urán González, a female Spanish politician. The only similarity is the presence of the string 'Present' in their names, which is used as a surname in the first record and a given name in the second."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28134",
+      "label": "Polytechnic Institute of Brooklyn",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Polytechnic Institute of Brooklyn' in the card's employer field is an exact match for the Wikibase entity label. Additionally, the Wikibase entity is classified as an 'institution', consistent with an educational and research organization."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q75478",
+      "label": "New York University Tandon School of Engineering",
+      "description": "university in Brooklyn, New York, U.S.",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Polytechnic Institute of Brooklyn is the historical name of the institution now known as the NYU Tandon School of Engineering (Q75478). The institution has undergone several name changes and mergers (Polytechnic Institute of New York, Polytechnic University, etc.), but it remains the same legal and educational entity located in Brooklyn."
+    },
+    {
+      "qid": "Q104760945",
+      "label": "Polytechnic Institute of Brooklyn",
+      "description": "former engineering school in Brooklyn, New York",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name 'Polytechnic Institute of Brooklyn' is an exact match between the card's employer field and the Wikidata entity's label. The Wikidata description as an engineering school in Brooklyn, New York, is perfectly consistent with the card's location and the individual's technical fields of mathematics and physics."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Gerald Present is a physicist and scientific journalist who was active in the New York City scientific and technical community from the late 1950s through at least the 1980s. He earned a B.A. from Columbia College (Class of 1957) and subsequently received his Ph.D. in Physics. During the late 1960s and early 1970s, he held positions as a scientific journalist and editor, including an affiliation with the Polytechnic Institute of Brooklyn. He was a prominent figure at the American Institute of Physics (AIP), where he served as an associate editor for 'Physics Today' and as a staff scientist in the physics-information division before being appointed senior science writer for the AIP public information division in 1973. In this capacity, he edited publications such as 'Physics News in 1977' and managed press relations for major technical conferences, including the 1975 Conference on Laser Engineering and Applications (CLEA). In the late 1980s, Present served as a science writer and spokesperson for the IBM Thomas J. Watson Research Center, where he communicated high-profile breakthroughs in fields such as high-temperature superconductivity and pen-based computing. He is also associated with the Experiments in Art and Technology (E.A.T.) organization, likely in an editorial or communication capacity related to their newsletters and technical publications.",
+        "sources": [
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJMAoE3KfNawtxajZqnDl7WF8XYZcihvEO1u4qOw46BnFZqatP6Nuv9ww2E-zUKDbesiEGb2mQwKeD4FZS2-n0eURJu_OzJwz5l4B7lWViOUOqJFmOHBt7slgotVo1Yk2448RuB25SZPDy9WGEBEya7KEw5p5h2t32aSdrKqCUa0fhzToJUFo=",
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3HB_qP-a_CuSqGRYT5v0WtOslGoyfTpCPZ-I-uxKOrdBoOA_ASBvX51dGS4naIhE3R0vr1QLb-9BLkqsWGkB-21aw7BXXWUD3fsvEy6JtI1rRJWRggIg9pf2hi3bUCeDDlPxIIzkA2_F88pFCwQ2z2NZK6xhHj_qWtMJV89Oe-5w=",
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWEt7Y4QnWDvBCwZM3U2e9jALIuPf2zEEoC35zzUq81v28Hgns3RcdORvrGzmtseFF79JE7yCQ4EneLf-DmC9V2P--EXHf_TCqOzRz8GbG5kqGoOUDAKjqxTAL-fUULGy3ewz5-5mEU4N36y677bL-THEHLw549Q==",
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8qH_V4Ws7HQ8JHkTvNi1V8AeTw0HpAVMOywFJflkw0mMipvAHcA_yWtpf2JHPtShLbcXrqNDUXRGGUeySY_v4FNhB55ww58EPpcQ4YRHPBvtSaw0ezyLtJfT6PbctHZMbu651GNrg2u11ahnC4ymcX8lTkvYr8OkD76NbQ8A1age_sfWAoxjjKMa-E0gK3hzlCbd-",
+          "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2eu5DYR5x4zuz33DUBMSrDzqkZ5qjNA1i6Ywfe1gva4bEUJBzwxXug8Cyso_Hkjuz7TZJM2RCq-Gvu-4_KWWp8fVog2xaFL_NPMYlB02LWcGd1u0dQWhWQeo2w5p5ZRe2uGVKzdKKYEobTVOGs1aGOUleePCv6Yf4XKsqH7erx0N-eGMIphOj6wA="
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Gerald Present\" editor physics",
+        "Gerald Present Polytechnic Institute of Brooklyn",
+        "Gerald Present physicist scientific journalist",
+        "Gerald Present New York City engineer scientist",
+        "Gerald Present Experiments in Art and Technology",
+        "",
+        "\"Gerald Present\" \"Polytechnic Institute of Brooklyn\"",
+        "\"Gerald Present\" E.A.T. editor",
+        "\"Gerald Present\" physicist Brooklyn",
+        "\"Gerald Present\" E.A.T. journalist",
+        "",
+        "\"Gerald Present\" physicist journalist biography",
+        "\"Gerald Present\" \"Polytechnic Institute of Brooklyn\" editor",
+        "\"Gerald Present\" \"E.A.T.\" newsletter",
+        "\"Gerald Present\" \"AIP\" Brooklyn",
+        "",
+        "\"Gerald Present\" IBM science writer",
+        "\"Gerald Present\" \"Polytechnic Institute of Brooklyn\" physics journalist"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

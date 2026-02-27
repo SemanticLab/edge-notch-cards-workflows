@@ -23,5 +23,143 @@
   "interestsCreativeActivities": {
     "artisticPursuits": "None specified",
     "aestheticPhilosophicalInterests": "None specified"
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q957887",
+      "label": "Clemente Canepari",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe completely different individuals. The card describes John E. Canepari, an American civil engineer working for the U.S. Coast Guard in New York. The Wikidata entry describes Clemente Canepari, an Italian professional cyclist who lived from 1886 to 1966. Name, occupation, and geographic location all differ significantly."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q11224",
+      "label": "United States Coast Guard",
+      "description": "security and rescue military service branch for U.S. waters",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name on the card, 'United States Coast Guard', matches the Wikidata label exactly. Furthermore, the Wikidata entity is described as a U.S. federal law enforcement and military branch, which aligns with the employer context on the card, and the card's location (Governors Island, NY) is a historically significant base for the U.S. Coast Guard."
+    },
+    {
+      "qid": "Q650935",
+      "label": "United States Coast Guard Academy",
+      "description": "U.S. federal service academy for the Coast Guard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity is the United States Coast Guard Academy, which is a specific educational institution and a subdivision of the United States Coast Guard. The card lists the parent organization (United States Coast Guard) and a specific operational branch (Civil Engineering Branch) located in New York, whereas the Academy is located in Connecticut. While related, they are distinct entities."
+    },
+    {
+      "qid": "Q7889627",
+      "label": "United States Coast Guard Yard",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer on the card is the United States Coast Guard, which is a branch of the U.S. Armed Forces. The Wikidata entity Q7889627 represents the United States Coast Guard Yard, which is a specific shipyard facility in Maryland. Furthermore, the card indicates the individual is based at Governors Island, New York, making it unlikely that this specific shipyard facility is the intended employer entity."
+    },
+    {
+      "qid": "Q374119",
+      "label": "United States Coast Guard Reserve",
+      "description": "reserve component of the United States Coast Guard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q374119) represents the United States Coast Guard Reserve, which is a specific reserve component of the United States Coast Guard. The card lists the 'United States Coast Guard' as the employer. While the Reserve is part of the Coast Guard, they are distinct organizational entities in most administrative and record-keeping contexts."
+    },
+    {
+      "qid": "Q29639630",
+      "label": "United States Coast Guard Light List",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity (Q29639630) represents the 'United States Coast Guard Light List', which is a specific publication or document (a list of lights). The employer on the card is the 'United States Coast Guard', which is the organization/agency that publishes this list, not the list itself."
+    },
+    {
+      "qid": "Q7889620",
+      "label": "United States Coast Guard cutter",
+      "description": "type of patrol vessel used by US Coast Guard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card refers to the United States Coast Guard as an organization/employer. The Wikidata entity Q7889620 refers to a 'United States Coast Guard cutter', which is a type of ship operated by the organization, not the organization itself."
+    },
+    {
+      "qid": "Q137294446",
+      "label": "United States Coast Guard Women's Reserve",
+      "description": "reserve component of the United States Coast Guard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity refers to the 'United States Coast Guard Women's Reserve' (SPARS), which was a specific historical sub-unit dissolved in 1947. The card refers to the parent organization, the 'United States Coast Guard' itself."
+    },
+    {
+      "qid": "Q4369538",
+      "label": "USCGC Polar Star",
+      "description": "1973 Polar-class icebreaker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q4369538 represents a specific ship (USCGC Polar Star) operated by the U.S. Coast Guard, rather than the organization itself. A vessel is not the same entity as its operating agency."
+    },
+    {
+      "qid": "Q22094758",
+      "label": "Coast Guard Bears",
+      "description": "intercollegiate sports teams of the U.S. Coast Guard Academy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is the United States Coast Guard, which is a branch of the United States Armed Forces. The Wikidata entity Q22094758 refers specifically to the intercollegiate sports teams (the Bears) of the U.S. Coast Guard Academy. While related, a sports program is not the same entity as the national military organization."
+    },
+    {
+      "qid": "Q7866225",
+      "label": "USCGC Polar Sea",
+      "description": "heavy icebreaker ship",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The organization listed on the card is the United States Coast Guard, which is a branch of the U.S. Armed Forces. The Wikidata entity Q7866225 is the USCGC Polar Sea, which is a specific heavy icebreaker ship operated by the Coast Guard. A specific vessel is not the same as the entire organization."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "John E. Canepari was a civil engineer active in the late 1960s and early 1970s. During this time, he was employed by the United States Coast Guard (USCG) and stationed at Governors Island, New York. His technical expertise spanned the fields of civil engineering, structural engineering, and hydraulics. Canepari was an engineer-member of the Experiments in Art and Technology (E.A.T.), a non-profit organization founded to facilitate collaborations between the artistic and technical communities. He participated in E.A.T.'s Technical Services Program, which maintained index cards of engineers and scientists interested in working with artists. In his later career, he became a Senior Vice President at PACO Group, Inc., a project management and construction consulting firm with offices in New York and Florida. He was a professional in the field of construction and project management, contributing to the Project Management Institute (PMI) and authoring technical papers on topics such as configuration management in large-scale infrastructure projects.",
+        "sources": [
+          "https://www.pmi.org/learning/library/configuration-management-controlling-changes-8024",
+          "https://www.scribd.com/document/211933092/Practice-Standard-Project-Configuration-Management"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"John E. Canepari\" civil engineer",
+        "",
+        "",
+        "\"John E. Canepari\" LinkedIn (could have his early career listed)",
+        "",
+        "",
+        "\"John Canepari\" structural engineer NY Coast Guard",
+        "",
+        "John E. Canepari E.A.T. index card Getty Research Institute",
+        "",
+        "",
+        "",
+        "",
+        "\"John E. Canepari\" senior vice president PACO Group history",
+        "",
+        "\"John E. Canepari\" engineer E.A.T. membership list",
+        "",
+        " \"Canepari\" \"E.A.T.\"",
+        "",
+        "\"John Canepari\" senior vice president PACO Group history",
+        "",
+        "",
+        "\"John E. Canepari\" Society of American Military Engineers",
+        "",
+        "",
+        "\"John E. Canepari\" LinkedIn PACO Group"
+      ],
+      "groundingChunks": [],
+      "groundingSupports": []
+    }
   }
 }

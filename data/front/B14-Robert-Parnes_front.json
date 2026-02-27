@@ -19,5 +19,106 @@
       "cathode rays",
       "photography"
     ]
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q43062480",
+      "label": "Parnesh Raniga",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names 'Robert Parnes' and 'Parnesh Raniga' are significantly different, and there are no overlapping data points to suggest they are the same individual."
+    },
+    {
+      "qid": "Q65921599",
+      "label": "Parneshia Jones",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The two records describe different individuals. The card refers to Robert Parnes, a man involved in physics and optics based in New York. The Wikidata entry refers to Parneshia Jones, a female poet and editor based in Illinois. There is no significant overlap in name, gender, location, or professional field."
+    },
+    {
+      "qid": "Q118925242",
+      "label": "Mishḳin, Mordekhai, 1894-1949",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The names 'Robert Parnes' and 'Mordekhai Mishḳin' are completely different, and there is no overlapping biographical information to suggest they are the same person."
+    }
+  ],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Robert Parnes, Ph.D. (1931–2020) was a physicist and technical researcher active during the late 1960s and 1970s, known for his work in industrial physics and later in organic agriculture and education. He worked as an astrophysicist at the General Electric (GE) Research Laboratory in New York, where he specialized in fields such as physics, optics, spectroscopy, and light equipment. His technical background in projection and cathode rays was representative of the industrial research conducted at GE during this period, which frequently intersected with the activities of the Experiments in Art and Technology (E.A.T.) organization. E.A.T. indexed engineers and scientists from major laboratories like GE to collaborate with artists on technological projects. \n\nIn the late 1960s, Parnes turned down a promotion at General Electric to transition into the 'back-to-the-land' movement, co-founding a biodynamic farm in Chester, New York, with colleagues of E.E. Pfeiffer. He eventually moved to Maine, where he became a key scientific advisor for the Woods End Agricultural Institute and a prominent figure in the organic farming movement. He authored several definitive texts, including 'Fertile Soil: A Grower's Guide to Organic & Inorganic Fertilizers' (1986/1990). Parnes was also involved in interdisciplinary education at the University of Michigan, where he co-developed the 'Matter, Energy and Life' (MEL) course and created the 'Confer' computer conferencing system in the mid-1970s, applying his technical skills to group communication and scientific literacy.",
+        "sources": [
+          "https://willbrinton.org/origins/",
+          "https://www.beyondpesticides.org/assets/media/documents/infoservices/pesticidesandyou/documents/FertileSoilReview.pdf",
+          "https://en.wikipedia.org/wiki/Michigan_Terminal_System",
+          "https://aip.scitation.org/doi/10.1119/1.10777"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "\"Robert Parnes\" New York 1960s 1970s",
+        "\"Robert Parnes\" scientist light equipment photography",
+        "\"Robert Parnes\" E.A.T. engineer",
+        "\"Robert Parnes\" physics optics New York",
+        "",
+        "\"Robert Parnes\" physicist New York 1960s",
+        "\"Robert Parnes\" physics optics color theory New York",
+        "",
+        "\"Robert Parnes\" E.A.T. archive",
+        "\"Robert Parnes\" Experiments in Art and Technology E.A.T. biography",
+        "\"Robert Parnes\" physicist color theory photography New York",
+        "",
+        "\"Robert Parnes\" General Electric E.A.T.",
+        "\"Robert Parnes\" Pepsi Pavilion engineer",
+        "",
+        "\"Robert Parnes\" \"Chester, New York\" physicist",
+        "\"Robert Parnes\" physicist color theory photography",
+        "\"Robert Parnes\" E.A.T. directory engineer",
+        "\"Robert Parnes\" General Electric optics spectroscopy",
+        "",
+        "\"Robert Parnes\" physicist \"General Electric\" photography color",
+        "\"Robert Parnes\" \"physics\" \"spectroscopy\" light E.A.T.",
+        "\"Robert Parnes\" \"New York\" \"optics\" engineer",
+        "\"Robert Parnes\" E.A.T. Pepsi Pavilion"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5q_mlC7YlFdykyxW5jbPs7gXi91DPXIlQNJbQ3Y4end8socnISJf0oyG7MUz_Qtasg2-L_XMU8PIMHhdQk9wLrDNBZ5vDADDrp7CuNsfQIVCHVfPkxlG_KFtzoUXr",
+          "title": "willbrinton.org",
+          "resolvedUri": "https://willbrinton.org/who-we-were"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QxiPiBT00vP8POT1EPKYLbcDXumLJqTkifL-KMQrpTyZxr-3-MjTUcTz40YWo-YNzxRD8yQcki0Fn2fphIDkoJocyh_sGQDOryynuyQ_HxjelZU6eIKfp93w69XA_HXrwJr2fV5Ya8s=",
+          "title": "dtic.mil",
+          "resolvedUri": "https://apps.dtic.mil/sti/tr/pdf/ADA202756.pdf"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 254,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Robert Parnes, Ph.D. (1931–2020) was a physicist and technical researcher active during the late 1960s and 1970s, known for his work in industrial physics and later in organic agriculture and education."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1019,
+            "endIndex": 1028,
+            "text": "Pfeiffer."
+          },
+          "groundingChunkIndices": [
+            1
+          ]
+        }
+      ]
+    }
   }
 }

@@ -18,5 +18,260 @@
   },
   "interestsCreativeActivities": {
     "artisticPursuits": "Makes art."
+  },
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q112787353",
+      "label": "Edward Botwinick",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The names match exactly. The card identifies him as an engineer, which corresponds with the Wikidata record's education at the Fu Foundation School of Engineering and Applied Science. Additionally, both records are geographically linked to New York City."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q7268973",
+      "label": "Quantum",
+      "description": "1982 video game",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer 'Quantum Inc.' on the card refers to a business organization, whereas the Wikidata entity (Q7268973) is a specific video game released in 1982. They are fundamentally different types of entities."
+    },
+    {
+      "qid": "Q1133068",
+      "label": "quantum dot",
+      "description": "nano-scale semiconductor particle subject to quantum effects",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "'Quantum Inc.' is a corporate entity, while the Wikidata entity Q1133068 refers to a 'quantum dot,' which is a scientific concept and nano-scale semiconductor particle, not an organization."
+    },
+    {
+      "qid": "Q944",
+      "label": "quantum mechanics",
+      "description": "fundamental theory in physics describing the properties of nature on an atomic scale",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer 'Quantum Inc.' is a commercial corporation, whereas the Wikidata entity (Q944) represents 'quantum mechanics,' which is a scientific theory and branch of physics. They are entirely different types of entities."
+    },
+    {
+      "qid": "Q50817870",
+      "label": "Quantum - the open journal for quantum science",
+      "description": "Academic journal published by Verein zur Förderung des Open Access Publizierens in den Quantenwissenschaften, covering the subjects: Science: Physics: General",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The organization on the card is 'Quantum Inc.', implying a corporation, whereas the Wikidata entity is an academic journal founded in 2017. Furthermore, the Wikidata entity is based in Austria, while the card's employer is associated with Edward Botwinick's work in New York. The timeframes and organization types do not align."
+    },
+    {
+      "qid": "Q46344",
+      "label": "quantum",
+      "description": "minimum positive amount of any physical property involved in an interaction",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer listed on the card is 'Quantum Inc.', which is a business organization. The Wikidata entity Q46344 refers to the physics concept of a 'quantum' (a physical quantity), not a company or organization."
+    },
+    {
+      "qid": "Q238170",
+      "label": "quantum chromodynamics",
+      "description": "theory of strong interactions, a fundamental force describing the interactions between quarks and gluons, which make up hadrons such as the proton, neutron and pion",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer 'Quantum Inc.' listed on the card is a corporation, whereas the Wikidata entity Q238170 (quantum chromodynamics) is a scientific theory and branch of physics. They are fundamentally different types of entities."
+    },
+    {
+      "qid": "Q215675",
+      "label": "quantum entanglement",
+      "description": "correlation between measurements of quantum subsystems, even when spatially separated",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The employer 'Quantum Inc.' is a corporate entity, whereas the Wikidata entry Q215675 refers to the physical phenomenon of 'quantum entanglement'. They are fundamentally different types of entities."
+    },
+    {
+      "qid": "Q378201",
+      "label": "qubit",
+      "description": "unit of quantum information, analogous to the classical bit",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Quantum Inc. is identified as an employer organization on the index card, whereas the Wikidata entity Q378201 refers to a 'qubit,' which is a scientific unit of information in quantum computing. They are fundamentally different types of entities."
+    },
+    {
+      "qid": "Q181540",
+      "label": "Quantum of Solace",
+      "description": "2008 film by Marc Forster",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Wikidata entity Q181540 refers to the 2008 James Bond film 'Quantum of Solace'. The employer listed on the card is 'Quantum Inc.', which in the context of an electronics engineer (Edward Botwinick), refers to a technology company, not a motion picture."
+    },
+    {
+      "qid": "Q188403",
+      "label": "quantum chemistry",
+      "description": "field of chemistry",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The card identifies 'Quantum Inc.' as an employer, which is a corporation/business. The Wikidata entity Q188403 refers to 'quantum chemistry', which is a branch of science and an academic field, not a legal business entity or organization."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "web_research": {
+    "results": [
+      {
+        "possibleIdentity": "Edward Botwinick (1936–2025) was a prominent American electrical engineer, entrepreneur, and pioneer in the information technology and data communications industries. He earned a BA in physics (1956) and a BS in electrical engineering (1958) from Columbia University. His early career included roles at US Semiconductor Corp. and co-founding Silicon Transistor Corp. in 1960. From 1963 to 1967, he served as the president and principal shareholder of Quantum Inc., a New York-based manufacturer of magnetic tape drives and scalable file storage systems. Following his tenure at Quantum, he joined Goldman Sachs as vice president of high-technology investment research and venture capital (1967–1977). In 1969, he co-founded Timeplex, Inc., where he served as chairman and CEO from 1977 until 1988, leading the company to become a dominant force in time-division multiplexing (TDM) and T1-based networking technologies. After Timeplex was acquired by Unisys Corp. in 1988, Botwinick became a senior vice president and president of Unisys Networks. He later founded VideoServer Inc. in 1991 and served as its chairman and CEO. A major benefactor to Columbia Engineering, he funded the Botwinick Gateway Laboratory, a multimedia electronic learning facility dedicated in 1996. He was also an active pilot and served on several boards, including the Lamont-Doherty Earth Observatory and the Duke Cancer Institute.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Edward_Botwinick",
+          "https://www.historyofcomputercommunications.info/people/edward-botwinick/",
+          "https://www.engineering.columbia.edu/news/edward-botwinick-memoriam",
+          "https://grokipedia.com/wiki/edward-botwinick"
+        ],
+        "accuracyLevel": "normal"
+      }
+    ],
+    "groundingMetadata": {
+      "webSearchQueries": [
+        "",
+        "Edward Botwinick biography tech industry",
+        "\"Edward Botwinick\" Timeplex Quantum",
+        "\"Edward Botwinick\" Quantum Inc New York",
+        "\"Edward Botwinick\" electronics engineer E.A.T.",
+        "\"Edward Botwinick\" Experiments in Art and Technology 1960s",
+        "\"Edward Botwinick\" Quantum Inc E.A.T.",
+        "\"Edward Botwinick\" \"E.A.T.\" artist engineer",
+        " \"Edward Botwinick\"",
+        "\"Edward Botwinick\" E.A.T. member",
+        "\"Quantum Inc\" Experiments in Art and Technology",
+        "\"Edward Botwinick\" E.A.T. technical services"
+      ],
+      "groundingChunks": [
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcMZyuFma48g1KBSc_gkr-FrPe4iPbR_UluW0nrQcMRrH0ck7Y8xDa4ibdXYqrjTqts4AscRzovn0U5ndKfHTnXmfU_xYyTL0XulL2RrcVpRS0gP0jce5Hwms7ay8LWPAuaO8NvLqA",
+          "title": "grokipedia.com",
+          "resolvedUri": "https://grokipedia.com/page/edward_botwinick"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK9hPVSQDUIpCwCb8ROJtoIc7drL17vUHM2N_NGDuW6nt0Gim_1pwms1qb4I_RXWND9gtqmXWNvizRDiMYVWKPF6LyB2hog1B8a8FjN07Du8XTC7gv7fAj9QPcjX7Bbm5NfgwV64didwTQVG8PSIkiTzFAk75qTX2IK_uX8_1zWHuku2ZzJ15fqOXDfO7iQW9ET1dEPzmldlOSf4iDAEHT7dNRMl4HJiEKQk6kglzxCn42XKfJ",
+          "title": "columbia.edu",
+          "resolvedUri": "https://www.engineering.columbia.edu/about/news/columbia-engineering-mourns-it-exec-and-entrepreneur-edward-botwinick-bs58"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpw2yOhcewjRCi0Se90KYIVC8r1Giz2uKvQMEReXyWfavMW9JtYfnYFyxzda_2aUu6mwI7wJhG_9WC9cWt-SGjgIUtVx_DJOuVmNgQlfadqw3Mhy02jueVE0ZbDTgjGiW6Dt92hqWRitv3ACy7K-QRupiMJ9a2MBjq-XsCjoCO5ipFGaE3VVRt",
+          "title": "columbia.edu",
+          "resolvedUri": "https://www.engineering.columbia.edu/about/magazine/industry-edition/memoriam"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHildQaYKR6WUHghsEDrsrQ0ihEh7wRiLBrWzHjKB-1XRk4BjxVAWNnN2cZZ_RBu37YwwxUk6bR_m7YDBBmDHv8h9BI8j8rLYYZi3ZLdGmyTLUMFxFU5ghsR9hHnQl_RNjr1ne_M1GoibQ=",
+          "title": "wikipedia.org",
+          "resolvedUri": "https://en.wikipedia.org/wiki/Edward_Botwinick"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw3EbARQ0lj5oy2rEeYYZo1VvhYdr4g-SnYWeOdFkF6zEiXQ1BFvtWOB7haCWBbV6bT2s8F5MkEdVY9batg4sQsCTjwBKVpbqiZ6tElu6rgeD3eUvQoPmA-cq9kLZunAW9yqGwByhrNRXpT4GtT2xYpUJ05e-e62uDx_2MjU4POHLZjKY=",
+          "title": "historyofcomputercommunications.info",
+          "resolvedUri": "https://historyofcomputercommunications.info/interviews/Edward-Botwinick/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMdloDc3n5V5X9rc-HEtCH0t3g_SAKGDbjBrULFbTy2wsDzt4TMHjA6XXWYWr3fJh0UeIQKpDAtqb5tAi0MGav3U_JErhzgJQFVjFRPrdUVzGu2qAoJ6ZJOi-rSp8UCNnADMKZbgHvf-ystE7neb8GxTShV617iw2X1KPASJuJBjkmOJyt-o7G",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/computerworld158unse/computerworld158unse_djvu.txt"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrvMdtfthC4bANf7IqlHazEkm4YxltuJPYzPSbppbVJtqoggeLm8tQaKdV3qB8-gBQ4FL1DhbWGLs8K1LJ42rlhlYFYb4oxltlOhWLaV_mShVR0X8AYwVAmgPZ",
+          "title": "columbia.edu",
+          "resolvedUri": "https://www.ee.columbia.edu/news"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGML8DKUE3ndpMcsZxZjg7QL6v0-OXvU_ALqoZpC7KeOAUgn5dWHpP0b8jnj-iQup82R6AVW9P8qEiFoVQk3GUru5OSrnPl0NFzw55tDoxiZz0dSVYdcS343hFKRXLOvNjytoNaLtku6MokRhkWntllp7KP7jcsEq2thN4h0sC_vOI-F2Jg_1oKnmBr-6sWb6Q29aefOdt685A4RST5",
+          "title": "historyofcomputercommunications.info",
+          "resolvedUri": "https://historyofcomputercommunications.info/section/9.9/Robert-Metcalfe-and-the-Founding-of-3Com/"
+        },
+        {
+          "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgCyholLwITgeNdbMmIr6J9PBD5KZzfLb_pOLIDta3gpfXI5llZAIGodLAK51lXC61ughmotapQCVWvCt6tW48xmOj9yGvb2kHRPBd0t0NpGQa4uLEWnXHGfFS6O7CAlD0RC7qL00q8O-_OwsAc0Ch3z_j_jG_6Iq8TJc34M0pxkOP",
+          "title": "archive.org",
+          "resolvedUri": "https://archive.org/stream/ldpd_12981092_038/ldpd_12981092_038_djvu.txt"
+        }
+      ],
+      "groundingSupports": [
+        {
+          "segment": {
+            "startIndex": null,
+            "endIndex": 218,
+            "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Edward Botwinick (1936–2025) was a prominent American electrical engineer, entrepreneur, and pioneer in the information technology and data communications industries."
+          },
+          "groundingChunkIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 320,
+            "endIndex": 427,
+            "text": "His early career included roles at US Semiconductor Corp. and co-founding Silicon Transistor Corp. in 1960."
+          },
+          "groundingChunkIndices": [
+            1,
+            4
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 606,
+            "endIndex": 754,
+            "text": "Following his tenure at Quantum, he joined Goldman Sachs as vice president of high-technology investment research and venture capital (1967–1977)."
+          },
+          "groundingChunkIndices": [
+            3,
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 755,
+            "endIndex": 972,
+            "text": "In 1969, he co-founded Timeplex, Inc., where he served as chairman and CEO from 1977 until 1988, leading the company to become a dominant force in time-division multiplexing (TDM) and T1-based networking technologies."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 973,
+            "endIndex": 1100,
+            "text": "After Timeplex was acquired by Unisys Corp. in 1988, Botwinick became a senior vice president and president of Unisys Networks."
+          },
+          "groundingChunkIndices": [
+            1,
+            0
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1101,
+            "endIndex": 1178,
+            "text": "He later founded VideoServer Inc. in 1991 and served as its chairman and CEO."
+          },
+          "groundingChunkIndices": [
+            0,
+            1
+          ]
+        },
+        {
+          "segment": {
+            "startIndex": 1179,
+            "endIndex": 1327,
+            "text": "A major benefactor to Columbia Engineering, he funded the Botwinick Gateway Laboratory, a multimedia electronic learning facility dedicated in 1996."
+          },
+          "groundingChunkIndices": [
+            0
+          ]
+        }
+      ]
+    }
   }
 }
