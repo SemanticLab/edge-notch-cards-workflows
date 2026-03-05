@@ -2,9 +2,9 @@ import { defineStore } from 'pinia'
 
 export const useAuthStore = defineStore('auth', {
   state: () => ({
-    username: '',
-    token: '',
-    canEdit: false,
+    username: sessionStorage.getItem('auth_username') || '',
+    token: sessionStorage.getItem('auth_token') || '',
+    canEdit: !!sessionStorage.getItem('auth_token'),
     loading: false,
     error: ''
   }),
@@ -31,6 +31,8 @@ export const useAuthStore = defineStore('auth', {
         this.username = data.username
         this.token = data.token
         this.canEdit = true
+        sessionStorage.setItem('auth_token', data.token)
+        sessionStorage.setItem('auth_username', data.username)
       } catch (err) {
         this.error = err.message
         throw err
@@ -52,6 +54,8 @@ export const useAuthStore = defineStore('auth', {
       this.token = ''
       this.canEdit = false
       this.error = ''
+      sessionStorage.removeItem('auth_token')
+      sessionStorage.removeItem('auth_username')
     }
   }
 })

@@ -145,6 +145,274 @@ async function toggleComplete() {
   }
 }
 
+// Mint person in Wikibase
+const minting = ref(false)
+async function onMintPerson() {
+  if (minting.value) return
+  minting.value = true
+  try {
+    const result = await api.mintPerson(cardId.value)
+    currentFront.value.wikibase_person_qid = result.qid
+    originalFront.value.wikibase_person_qid = result.qid
+    showToast(`Minted ${result.qid} in Wikibase`, 'success')
+  } catch (err) {
+    console.error('Failed to mint person:', err)
+    showToast('Failed to mint: ' + (err.message || 'Unknown error'), 'error')
+  } finally {
+    minting.value = false
+  }
+}
+
+// Mint person from Wikidata match
+async function onMintPersonFromWikidata(wikidataQid) {
+  if (minting.value) return
+  minting.value = true
+  try {
+    const result = await api.mintPersonFromWikidata(cardId.value, wikidataQid)
+    currentFront.value.wikibase_person_qid = result.qid
+    originalFront.value.wikibase_person_qid = result.qid
+    showToast(`Minted ${result.qid} from Wikidata ${wikidataQid}`, 'success')
+  } catch (err) {
+    console.error('Failed to mint person from Wikidata:', err)
+    showToast('Failed to mint: ' + (err.message || 'Unknown error'), 'error')
+  } finally {
+    minting.value = false
+  }
+}
+
+// Manually set or remove person QID
+async function onSetPersonQid(qid) {
+  const oldQid = originalFront.value?.wikibase_person_qid
+  try {
+    if (qid === null) {
+      delete currentFront.value.wikibase_person_qid
+    } else {
+      currentFront.value.wikibase_person_qid = qid
+    }
+    const frontData = JSON.parse(JSON.stringify(currentFront.value))
+    await api.updateFront(cardId.value, frontData)
+    if (qid === null) {
+      delete originalFront.value.wikibase_person_qid
+      showToast('Removed person QID', 'success')
+    } else {
+      originalFront.value.wikibase_person_qid = qid
+      showToast(`Set person QID to ${qid}`, 'success')
+    }
+  } catch (err) {
+    console.error('Failed to set person QID:', err)
+    if (oldQid) {
+      currentFront.value.wikibase_person_qid = oldQid
+    } else {
+      delete currentFront.value.wikibase_person_qid
+    }
+    showToast('Failed to set QID: ' + (err.message || 'Unknown error'), 'error')
+  }
+}
+
+// Mint org in Wikibase
+async function onMintOrg(orgTypeQid) {
+  if (minting.value) return
+  minting.value = true
+  try {
+    const result = await api.mintOrg(cardId.value, orgTypeQid)
+    currentFront.value.wikibase_org_qid = result.qid
+    originalFront.value.wikibase_org_qid = result.qid
+    showToast(`Minted org ${result.qid} in Wikibase`, 'success')
+  } catch (err) {
+    console.error('Failed to mint org:', err)
+    showToast('Failed to mint org: ' + (err.message || 'Unknown error'), 'error')
+  } finally {
+    minting.value = false
+  }
+}
+
+// Mint org from Wikidata match
+async function onMintOrgFromWikidata(wikidataQid, orgTypeQid) {
+  if (minting.value) return
+  minting.value = true
+  try {
+    const result = await api.mintOrgFromWikidata(cardId.value, wikidataQid, orgTypeQid)
+    currentFront.value.wikibase_org_qid = result.qid
+    originalFront.value.wikibase_org_qid = result.qid
+    showToast(`Minted org ${result.qid} from Wikidata ${wikidataQid}`, 'success')
+  } catch (err) {
+    console.error('Failed to mint org from Wikidata:', err)
+    showToast('Failed to mint org: ' + (err.message || 'Unknown error'), 'error')
+  } finally {
+    minting.value = false
+  }
+}
+
+// Manually set or remove org QID
+async function onSetOrgQid(qid) {
+  const oldQid = originalFront.value?.wikibase_org_qid
+  try {
+    if (qid === null) {
+      delete currentFront.value.wikibase_org_qid
+    } else {
+      currentFront.value.wikibase_org_qid = qid
+    }
+    const frontData = JSON.parse(JSON.stringify(currentFront.value))
+    await api.updateFront(cardId.value, frontData)
+    if (qid === null) {
+      delete originalFront.value.wikibase_org_qid
+      showToast('Removed org QID', 'success')
+    } else {
+      originalFront.value.wikibase_org_qid = qid
+      showToast(`Set org QID to ${qid}`, 'success')
+    }
+  } catch (err) {
+    console.error('Failed to set org QID:', err)
+    if (oldQid) {
+      currentFront.value.wikibase_org_qid = oldQid
+    } else {
+      delete currentFront.value.wikibase_org_qid
+    }
+    showToast('Failed to set QID: ' + (err.message || 'Unknown error'), 'error')
+  }
+}
+
+// Mint back artist
+async function onMintBackArtist(entryIndex) {
+  if (minting.value) return
+  minting.value = true
+  try {
+    const result = await api.mintBackArtist(cardId.value, entryIndex)
+    currentBack.value.entries[entryIndex].wikibase_person_qid = result.qid
+    originalBack.value.entries[entryIndex].wikibase_person_qid = result.qid
+    showToast(`Minted artist ${result.qid} in Wikibase`, 'success')
+  } catch (err) {
+    console.error('Failed to mint back artist:', err)
+    showToast('Failed to mint artist: ' + (err.message || 'Unknown error'), 'error')
+  } finally {
+    minting.value = false
+  }
+}
+
+// Mint back artist from Wikidata match
+async function onMintBackArtistFromWikidata(entryIndex, wikidataQid) {
+  if (minting.value) return
+  minting.value = true
+  try {
+    const result = await api.mintBackArtistFromWikidata(cardId.value, entryIndex, wikidataQid)
+    currentBack.value.entries[entryIndex].wikibase_person_qid = result.qid
+    originalBack.value.entries[entryIndex].wikibase_person_qid = result.qid
+    showToast(`Minted artist ${result.qid} from Wikidata ${wikidataQid}`, 'success')
+  } catch (err) {
+    console.error('Failed to mint back artist from Wikidata:', err)
+    showToast('Failed to mint artist: ' + (err.message || 'Unknown error'), 'error')
+  } finally {
+    minting.value = false
+  }
+}
+
+// Manually set or remove back artist QID
+async function onSetBackArtistQid(entryIndex, qid) {
+  const oldQid = originalBack.value?.entries?.[entryIndex]?.wikibase_person_qid
+  try {
+    if (qid === null) {
+      delete currentBack.value.entries[entryIndex].wikibase_person_qid
+    } else {
+      currentBack.value.entries[entryIndex].wikibase_person_qid = qid
+    }
+    const backData = JSON.parse(JSON.stringify(currentBack.value))
+    await api.updateBack(cardId.value, backData)
+    if (qid === null) {
+      delete originalBack.value.entries[entryIndex].wikibase_person_qid
+      showToast('Removed artist QID', 'success')
+    } else {
+      originalBack.value.entries[entryIndex].wikibase_person_qid = qid
+      showToast(`Set artist QID to ${qid}`, 'success')
+    }
+  } catch (err) {
+    console.error('Failed to set artist QID:', err)
+    if (oldQid) {
+      currentBack.value.entries[entryIndex].wikibase_person_qid = oldQid
+    } else {
+      delete currentBack.value.entries[entryIndex].wikibase_person_qid
+    }
+    showToast('Failed to set QID: ' + (err.message || 'Unknown error'), 'error')
+  }
+}
+
+// Mint card in Wikibase (creates document + front block + back block + uploads to S3)
+async function onMintCard() {
+  if (minting.value) return
+  minting.value = true
+  try {
+    const result = await api.mintCard(cardId.value)
+    // Save document_qid and block_qid to both front and back
+    currentFront.value.document_qid = result.documentQid
+    currentFront.value.block_qid = result.frontBlockQid
+    originalFront.value.document_qid = result.documentQid
+    originalFront.value.block_qid = result.frontBlockQid
+    if (currentBack.value) {
+      currentBack.value.document_qid = result.documentQid
+      currentBack.value.block_qid = result.backBlockQid
+      originalBack.value.document_qid = result.documentQid
+      originalBack.value.block_qid = result.backBlockQid
+    }
+    showToast(`Minted card: doc=${result.documentQid}, front block=${result.frontBlockQid}, back block=${result.backBlockQid}`, 'success')
+  } catch (err) {
+    console.error('Failed to mint card:', err)
+    showToast('Failed to mint card: ' + (err.message || 'Unknown error'), 'error')
+  } finally {
+    minting.value = false
+  }
+}
+
+// Manually set document QID
+async function onSetDocumentQid(qid) {
+  currentFront.value.document_qid = qid
+  if (currentBack.value) {
+    currentBack.value.document_qid = qid
+  }
+  try {
+    const promises = []
+    promises.push(api.updateFront(cardId.value, currentFront.value))
+    if (currentBack.value) {
+      promises.push(api.updateBack(cardId.value, currentBack.value))
+    }
+    await Promise.all(promises)
+    originalFront.value = JSON.parse(JSON.stringify(currentFront.value))
+    if (currentBack.value) {
+      originalBack.value = JSON.parse(JSON.stringify(currentBack.value))
+    }
+    showToast(qid ? `Document QID set to ${qid}` : 'Document QID removed', 'success')
+  } catch (err) {
+    showToast('Failed to save: ' + (err.message || 'Unknown error'), 'error')
+  }
+}
+
+// Build proposed collaborator relationships
+async function onBuildCollaborators() {
+  if (minting.value) return
+  minting.value = true
+  try {
+    const result = await api.buildCollaborators(cardId.value)
+    // Set flag to hide the button
+    currentFront.value.collaborators_built = true
+    originalFront.value.collaborators_built = true
+    if (currentBack.value) {
+      currentBack.value.collaborators_built = true
+      originalBack.value.collaborators_built = true
+    }
+    // Persist the flag
+    const promises = []
+    promises.push(api.updateFront(cardId.value, currentFront.value))
+    if (currentBack.value) {
+      promises.push(api.updateBack(cardId.value, currentBack.value))
+    }
+    await Promise.all(promises)
+    showToast(`Built ${result.created} collaborator relationship(s)`, 'success')
+  } catch (err) {
+    console.error('Failed to build collaborators:', err)
+    showToast('Failed to build collaborators: ' + (err.message || 'Unknown error'), 'error')
+  } finally {
+    minting.value = false
+  }
+}
+
 // Keyboard shortcut: Ctrl+S / Cmd+S
 function handleKeydown(event) {
   if ((event.ctrlKey || event.metaKey) && event.key === 's') {
@@ -268,7 +536,14 @@ watch(cardId, () => {
         <FrontCard
           :front="currentFront"
           :image-url="frontImageUrl"
+          :minting="minting"
           @update:front="onFrontUpdate"
+          @mint-person="onMintPerson"
+          @mint-person-from-wikidata="onMintPersonFromWikidata"
+          @set-person-qid="onSetPersonQid"
+          @mint-org="onMintOrg"
+          @mint-org-from-wikidata="onMintOrgFromWikidata"
+          @set-org-qid="onSetOrgQid"
         />
       </div>
 
@@ -285,7 +560,19 @@ watch(cardId, () => {
           :back="currentBack"
           :image-url="backImageUrl"
           :image-filename="backImageFilename"
+          :minting="minting"
+          :engineer-qid="currentFront?.wikibase_person_qid || null"
+          :document-qid="currentFront?.document_qid || null"
+          :front-block-qid="currentFront?.block_qid || null"
+          :back-block-qid="currentBack?.block_qid || null"
+          :collaborators-built="!!currentBack?.collaborators_built"
           @update:back="onBackUpdate"
+          @mint-artist="onMintBackArtist"
+          @mint-artist-from-wikidata="onMintBackArtistFromWikidata"
+          @set-artist-qid="onSetBackArtistQid"
+          @mint-card="onMintCard"
+          @set-document-qid="onSetDocumentQid"
+          @build-collaborators="onBuildCollaborators"
         />
       </div>
     </template>

@@ -6,6 +6,7 @@ import { createImageProvider } from './lib/imageProvider.js';
 import cardsRouter from './routes/cards.js';
 import authRouter from './routes/auth.js';
 import createImagesRouter from './routes/images.js';
+import wikibaseRouter, { setImageProvider } from './routes/wikibase.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -28,6 +29,7 @@ app.use(express.json());
 // API routes
 app.use('/api/cards', cardsRouter);
 app.use('/api/auth', authRouter);
+app.use('/api/wikibase', wikibaseRouter);
 
 // Image provider
 const imageProvider = createImageProvider({
@@ -41,6 +43,7 @@ const imageProvider = createImageProvider({
 });
 
 app.use('/api/images', createImagesRouter(imageProvider));
+setImageProvider(imageProvider);
 
 // Serve static files from the Vite build output
 const distDir = path.join(__dirname, '../dist');

@@ -7,10 +7,11 @@ import WebResearch from './WebResearch.vue'
 
 const props = defineProps({
   front: { type: Object, default: null },
-  imageUrl: { type: String, default: '' }
+  imageUrl: { type: String, default: '' },
+  minting: { type: Boolean, default: false }
 })
 
-const emit = defineEmits(['update:front'])
+const emit = defineEmits(['update:front', 'mint-person', 'mint-person-from-wikidata', 'set-person-qid', 'set-org-qid', 'mint-org', 'mint-org-from-wikidata'])
 
 // Section collapse state
 const sections = reactive({
@@ -27,6 +28,9 @@ const sections = reactive({
 function toggleSection(key) {
   sections[key] = !sections[key]
 }
+
+// Org type for minting
+const orgType = ref('Q1804')
 
 // Deep clone for local editing
 function cloneFront() {
@@ -99,20 +103,58 @@ const hasOrgMatch = computed(() => {
   return [...wd, ...wb].some(c => c.match === true)
 })
 
-function handlePersonImport(qid) {
-  console.log('Import person from Wikidata:', qid)
+function handlePersonImport(qid, source) {
+  if (source === 'Wikibase') {
+    emit('set-person-qid', qid)
+  } else {
+    emit('mint-person-from-wikidata', qid)
+  }
 }
 
 function handlePersonMint() {
-  console.log('Mint person in Wikibase:', localFront.value?.personalIdentification?.fullName)
+  emit('mint-person')
 }
 
-function handleOrgImport(qid) {
-  console.log('Import org from Wikidata:', qid)
+function handleManualPersonQid() {
+  const qid = window.prompt('Enter the Wikibase QID (e.g. Q12345), or "remove" to clear:')
+  if (!qid || !qid.trim()) return
+  const trimmed = qid.trim()
+  if (trimmed.toLowerCase() === 'remove') {
+    emit('set-person-qid', null)
+    return
+  }
+  if (!/^Q\d+$/i.test(trimmed)) {
+    window.alert('Invalid QID format. Expected something like Q12345 or "remove".')
+    return
+  }
+  emit('set-person-qid', trimmed.toUpperCase())
 }
 
-function handleOrgMint(orgType) {
-  console.log('Mint org in Wikibase:', orgType)
+function handleManualOrgQid() {
+  const qid = window.prompt('Enter the Wikibase QID (e.g. Q12345), or "remove" to clear:')
+  if (!qid || !qid.trim()) return
+  const trimmed = qid.trim()
+  if (trimmed.toLowerCase() === 'remove') {
+    emit('set-org-qid', null)
+    return
+  }
+  if (!/^Q\d+$/i.test(trimmed)) {
+    window.alert('Invalid QID format. Expected something like Q12345 or "remove".')
+    return
+  }
+  emit('set-org-qid', trimmed.toUpperCase())
+}
+
+function handleOrgImport(qid, source) {
+  if (source === 'Wikibase') {
+    emit('set-org-qid', qid)
+  } else {
+    emit('mint-org-from-wikidata', qid, orgType.value)
+  }
+}
+
+function handleOrgMint(orgTypeQid) {
+  emit('mint-org', orgTypeQid)
 }
 
 function handleChunksSelected(chunks) {
@@ -175,12 +217,39 @@ function handleChunksSelected(chunks) {
               placeholder="Enter full name"
               @update:model-value="updateField('personalIdentification.fullName', $event)"
             />
-            <!-- Mint person button when no match exists -->
-            <div v-if="!hasPersonMatch" class="mt-1">
+            <!-- Wikibase person QID link (already minted) -->
+            <div v-if="localFront?.wikibase_person_qid" class="mt-1 flex items-center justify-between">
+              <a :href="'https://base.semlab.io/wiki/Item:' + localFront.wikibase_person_qid"
+                 target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:text-blue-800 hover:underline font-medium">
+                <span class="text-xs font-mono bg-blue-50 px-1.5 py-0.5 rounded">{{ localFront.wikibase_person_qid }}</span>
+                in Wikibase
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+              <button @click="handleManualPersonQid"
+                      class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+                Manually set QID
+              </button>
+            </div>
+            <!-- Mint person button when no match and not yet minted -->
+            <div v-else-if="!hasPersonMatch" class="mt-1 flex items-center justify-between">
               <button @click="handlePersonMint"
+                      :disabled="minting"
                       class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
-                             rounded-md hover:bg-green-700 transition-colors">
-                Mint in Wikibase from card data
+                             rounded-md hover:bg-green-700 transition-colors
+                             disabled:opacity-50 disabled:cursor-not-allowed
+                             inline-flex items-center gap-1.5">
+                <svg v-if="minting" class="animate-spin h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                </svg>
+                {{ minting ? 'Minting...' : 'Mint in Wikibase from card data' }}
+              </button>
+              <button @click="handleManualPersonQid"
+                      class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+                Manually set QID
               </button>
             </div>
           </template>
@@ -197,8 +266,8 @@ function handleChunksSelected(chunks) {
         </div>
       </div>
 
-      <!-- Person Identity Candidates -->
-      <div v-if="localFront?.wikidata_candidates?.length || localFront?.wikibase_candidates?.length"
+      <!-- Person Identity Candidates (hidden when already minted) -->
+      <div v-if="!localFront?.wikibase_person_qid && (localFront?.wikidata_candidates?.length || localFront?.wikibase_candidates?.length)"
            class="bg-white rounded-lg border border-gray-200 overflow-hidden">
         <button
           class="w-full flex items-center justify-between px-4 py-3 bg-gray-50 hover:bg-gray-100
@@ -222,6 +291,7 @@ function handleChunksSelected(chunks) {
               type="person"
               entity-base-url="https://www.wikidata.org/entity/"
               source-label="Wikidata"
+              :minting="minting"
               @import="handlePersonImport"
             />
           </div>
@@ -232,6 +302,7 @@ function handleChunksSelected(chunks) {
               type="person"
               entity-base-url="https://base.semlab.io/entity/"
               source-label="Wikibase"
+              :minting="minting"
               @import="handlePersonImport"
             />
           </div>
@@ -344,14 +415,64 @@ function handleChunksSelected(chunks) {
               placeholder="Enter department or division"
               @update:model-value="updateField('professionalAffiliation.departmentDivision', $event)"
             />
-            <!-- Mint org button when no match exists -->
-            <div v-if="!hasOrgMatch" class="mt-1">
-              <button @click="handleOrgMint('institution')"
-                      class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
-                             rounded-md hover:bg-green-700 transition-colors">
-                Mint in Wikibase from card data
+            <!-- Wikibase org QID link (already minted) -->
+            <div v-if="localFront?.wikibase_org_qid" class="mt-1 flex items-center justify-between">
+              <a :href="'https://base.semlab.io/wiki/Item:' + localFront.wikibase_org_qid"
+                 target="_blank" rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:text-blue-800 hover:underline font-medium">
+                <span class="text-xs font-mono bg-blue-50 px-1.5 py-0.5 rounded">{{ localFront.wikibase_org_qid }}</span>
+                in Wikibase
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+              <button @click="handleManualOrgQid"
+                      class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+                Manually set QID
               </button>
             </div>
+            <!-- Mint org when no match, org name filled, and person already minted -->
+            <template v-else-if="!hasOrgMatch && getField('professionalAffiliation.employerOrganization') && getField('professionalAffiliation.employerOrganization') !== 'null'">
+              <div v-if="localFront?.wikibase_person_qid" class="mt-1 space-y-2">
+                <div class="flex items-center gap-4">
+                  <label class="flex items-center gap-1.5 text-sm text-gray-600 cursor-pointer">
+                    <input type="radio" v-model="orgType" value="Q1804" class="text-blue-600" />
+                    Institution <span class="text-xs text-gray-400 font-mono">Q1804</span>
+                  </label>
+                  <label class="flex items-center gap-1.5 text-sm text-gray-600 cursor-pointer">
+                    <input type="radio" v-model="orgType" value="Q19085" class="text-blue-600" />
+                    Business <span class="text-xs text-gray-400 font-mono">Q19085</span>
+                  </label>
+                </div>
+                <div class="flex items-center justify-between">
+                  <button @click="handleOrgMint(orgType)"
+                          :disabled="minting"
+                          class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
+                                 rounded-md hover:bg-green-700 transition-colors
+                                 disabled:opacity-50 disabled:cursor-not-allowed
+                                 inline-flex items-center gap-1.5">
+                    <svg v-if="minting" class="animate-spin h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+                      <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                    </svg>
+                    {{ minting ? 'Minting...' : 'Mint in Wikibase from card data' }}
+                  </button>
+                  <button @click="handleManualOrgQid"
+                          class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+                    Manually set QID
+                  </button>
+                </div>
+              </div>
+              <div v-else class="mt-1 flex items-center justify-between">
+                <p class="text-xs text-gray-400 italic">
+                  Mint the person first to enable org minting
+                </p>
+                <button @click="handleManualOrgQid"
+                        class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+                  Manually set QID
+                </button>
+              </div>
+            </template>
           </template>
           <button
             v-else
@@ -367,7 +488,7 @@ function handleChunksSelected(chunks) {
       </div>
 
       <!-- Organization Candidates -->
-      <div v-if="localFront?.wikidata_org_candidates?.length || localFront?.wikibase_org_candidates?.length"
+      <div v-if="!localFront?.wikibase_org_qid && (localFront?.wikidata_org_candidates?.length || localFront?.wikibase_org_candidates?.length)"
            class="bg-white rounded-lg border border-gray-200 overflow-hidden">
         <button
           class="w-full flex items-center justify-between px-4 py-3 bg-gray-50 hover:bg-gray-100
@@ -384,6 +505,18 @@ function handleChunksSelected(chunks) {
           </svg>
         </button>
         <div v-if="sections.wikidataOrgCandidates" class="p-4 space-y-4">
+          <!-- Org type selector for import -->
+          <div class="flex items-center gap-4">
+            <span class="text-xs font-medium text-gray-500">Type:</span>
+            <label class="flex items-center gap-1.5 text-sm text-gray-600 cursor-pointer">
+              <input type="radio" v-model="orgType" value="Q1804" class="text-blue-600" />
+              Institution <span class="text-xs text-gray-400 font-mono">Q1804</span>
+            </label>
+            <label class="flex items-center gap-1.5 text-sm text-gray-600 cursor-pointer">
+              <input type="radio" v-model="orgType" value="Q19085" class="text-blue-600" />
+              Business <span class="text-xs text-gray-400 font-mono">Q19085</span>
+            </label>
+          </div>
           <div v-if="localFront?.wikidata_org_candidates?.length">
             <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikidata</p>
             <WikidataCandidates
@@ -391,8 +524,10 @@ function handleChunksSelected(chunks) {
               type="org"
               entity-base-url="https://www.wikidata.org/entity/"
               source-label="Wikidata"
+              :disable-import="!localFront?.wikibase_person_qid"
+              disable-import-message="Mint the person first to enable org import"
+              :minting="minting"
               @import="handleOrgImport"
-              @mint="handleOrgMint"
             />
           </div>
           <div v-if="localFront?.wikibase_org_candidates?.length">
@@ -402,8 +537,10 @@ function handleChunksSelected(chunks) {
               type="org"
               entity-base-url="https://base.semlab.io/entity/"
               source-label="Wikibase"
+              :disable-import="!localFront?.wikibase_person_qid"
+              disable-import-message="Mint the person first to enable org import"
+              :minting="minting"
               @import="handleOrgImport"
-              @mint="handleOrgMint"
             />
           </div>
         </div>

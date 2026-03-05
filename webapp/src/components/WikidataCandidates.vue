@@ -5,13 +5,15 @@ const props = defineProps({
   candidates: { type: Array, default: () => [] },
   type: { type: String, default: 'person' },
   entityBaseUrl: { type: String, default: 'https://www.wikidata.org/entity/' },
-  sourceLabel: { type: String, default: 'Wikidata' }
+  sourceLabel: { type: String, default: 'Wikidata' },
+  disableImport: { type: Boolean, default: false },
+  disableImportMessage: { type: String, default: '' },
+  minting: { type: Boolean, default: false }
 })
 
-const emit = defineEmits(['select', 'import', 'mint'])
+const emit = defineEmits(['select', 'import'])
 
 const selectedQid = ref(null)
-const orgType = ref('institution')
 const hoveredQid = ref(null)
 
 const matchedCandidates = computed(() =>
@@ -31,30 +33,12 @@ const hoveredReasoning = computed(() => {
 })
 
 function onImport() {
-  emit('import', selectedQid.value)
-}
-
-function onMint() {
-  emit('mint', orgType.value)
+  emit('import', selectedQid.value, props.sourceLabel)
 }
 </script>
 
 <template>
   <div class="space-y-2">
-    <!-- Org type radio group -->
-    <div v-if="type === 'org'" class="flex items-center gap-4 mb-2">
-      <label class="flex items-center gap-1.5 text-sm text-gray-600 cursor-pointer">
-        <input type="radio" v-model="orgType" value="institution"
-               class="text-blue-600" />
-        Institution
-      </label>
-      <label class="flex items-center gap-1.5 text-sm text-gray-600 cursor-pointer">
-        <input type="radio" v-model="orgType" value="organization"
-               class="text-blue-600" />
-        Organization
-      </label>
-    </div>
-
     <!-- Empty state -->
     <p v-if="candidates.length === 0" class="text-sm text-gray-400 italic">
       No {{ sourceLabel }} candidates found.
@@ -149,18 +133,21 @@ function onMint() {
 
       <!-- Action buttons -->
       <div v-if="selectedQid" class="mt-3">
-        <button @click="onImport"
+        <button v-if="!disableImport" @click="onImport"
+                :disabled="minting"
                 class="px-3 py-1.5 text-sm font-medium bg-blue-600 text-white
-                       rounded-md hover:bg-blue-700 transition-colors">
-          {{ sourceLabel === 'Wikibase' ? 'Use this Wikibase Entity' : 'Import from Wikidata' }}
+                       rounded-md hover:bg-blue-700 transition-colors
+                       disabled:opacity-50 disabled:cursor-not-allowed
+                       inline-flex items-center gap-1.5">
+          <svg v-if="minting" class="animate-spin h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+          </svg>
+          {{ minting ? 'Importing...' : (sourceLabel === 'Wikibase' ? 'Use this Wikibase Entity' : 'Import from Wikidata') }}
         </button>
-      </div>
-      <div v-else-if="type === 'org'" class="mt-3">
-        <button @click="onMint"
-                class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
-                       rounded-md hover:bg-green-700 transition-colors">
-          Mint in Wikibase from card data
-        </button>
+        <p v-else class="text-xs text-gray-400 italic">
+          {{ disableImportMessage }}
+        </p>
       </div>
     </template>
   </div>

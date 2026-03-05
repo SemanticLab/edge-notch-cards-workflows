@@ -7,10 +7,11 @@ import WebResearch from './WebResearch.vue'
 
 const props = defineProps({
   entry: { type: Object, required: true },
-  imageFilename: { type: String, default: '' }
+  imageFilename: { type: String, default: '' },
+  minting: { type: Boolean, default: false }
 })
 
-const emit = defineEmits(['update:entry', 'delete'])
+const emit = defineEmits(['update:entry', 'delete', 'mint-artist', 'mint-artist-from-wikidata', 'set-artist-qid'])
 
 const localEntry = ref(JSON.parse(JSON.stringify(props.entry)))
 const showCandidates = ref(true)
@@ -36,12 +37,31 @@ const hasPersonMatch = computed(() => {
   return [...wd, ...wb].some(c => c.match === true)
 })
 
-function handleEntryImport(qid) {
-  console.log('Import from Wikidata for back entry:', qid)
+function handleEntryImport(qid, source) {
+  if (source === 'Wikibase') {
+    emit('set-artist-qid', qid)
+  } else {
+    emit('mint-artist-from-wikidata', qid)
+  }
 }
 
 function handleEntryMint() {
-  console.log('Mint in Wikibase for back entry:', localEntry.value.name)
+  emit('mint-artist')
+}
+
+function handleManualArtistQid() {
+  const qid = window.prompt('Enter the Wikibase QID (e.g. Q12345), or "remove" to clear:')
+  if (!qid || !qid.trim()) return
+  const trimmed = qid.trim()
+  if (trimmed.toLowerCase() === 'remove') {
+    emit('set-artist-qid', null)
+    return
+  }
+  if (!/^Q\d+$/i.test(trimmed)) {
+    window.alert('Invalid QID format. Expected something like Q12345 or "remove".')
+    return
+  }
+  emit('set-artist-qid', trimmed.toUpperCase())
 }
 
 function handleEntryChunksSelected(chunks) {
@@ -95,54 +115,86 @@ function handleEntryChunksSelected(chunks) {
         @update:model-value="updateField('other_metadata', $event)"
       />
 
-      <!-- Person Candidates -->
-      <div v-if="localEntry.wikidata_candidates?.length || localEntry.wikibase_candidates?.length"
-           class="border-t border-gray-100 pt-3">
-        <button
-          class="flex items-center justify-between w-full text-left"
-          @click="showCandidates = !showCandidates"
-        >
-          <span class="text-xs font-medium text-gray-500 uppercase tracking-wide">
-            Person Candidates
-          </span>
-          <svg class="w-3.5 h-3.5 text-gray-400 transition-transform"
-               :class="{ 'rotate-180': showCandidates }"
-               fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      <!-- Wikibase artist QID link (already minted) -->
+      <div v-if="localEntry.wikibase_person_qid" class="border-t border-gray-100 pt-3 flex items-center justify-between">
+        <a :href="'https://base.semlab.io/wiki/Item:' + localEntry.wikibase_person_qid"
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:text-blue-800 hover:underline font-medium">
+          <span class="text-xs font-mono bg-blue-50 px-1.5 py-0.5 rounded">{{ localEntry.wikibase_person_qid }}</span>
+          in Wikibase
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
           </svg>
+        </a>
+        <button @click="handleManualArtistQid"
+                class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+          Manually set QID
         </button>
-        <div v-if="showCandidates" class="mt-2 space-y-3">
-          <div v-if="localEntry.wikidata_candidates?.length">
-            <p class="text-xs text-gray-400 mb-1">Wikidata</p>
-            <WikidataCandidates
-              :candidates="localEntry.wikidata_candidates"
-              type="person"
-              entity-base-url="https://www.wikidata.org/entity/"
-              source-label="Wikidata"
-              @import="handleEntryImport"
-            />
-          </div>
-          <div v-if="localEntry.wikibase_candidates?.length">
-            <p class="text-xs text-gray-400 mb-1">Wikibase</p>
-            <WikidataCandidates
-              :candidates="localEntry.wikibase_candidates"
-              type="person"
-              entity-base-url="https://base.semlab.io/entity/"
-              source-label="Wikibase"
-              @import="handleEntryImport"
-            />
-          </div>
-        </div>
       </div>
 
-      <!-- Mint person button when no match exists -->
-      <div v-if="!hasPersonMatch" class="border-t border-gray-100 pt-3">
-        <button @click="handleEntryMint"
-                class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
-                       rounded-md hover:bg-green-700 transition-colors">
-          Mint in Wikibase from card data
-        </button>
-      </div>
+      <template v-else>
+        <!-- Person Candidates (hidden when already minted) -->
+        <div v-if="localEntry.wikidata_candidates?.length || localEntry.wikibase_candidates?.length"
+             class="border-t border-gray-100 pt-3">
+          <button
+            class="flex items-center justify-between w-full text-left"
+            @click="showCandidates = !showCandidates"
+          >
+            <span class="text-xs font-medium text-gray-500 uppercase tracking-wide">
+              Person Candidates
+            </span>
+            <svg class="w-3.5 h-3.5 text-gray-400 transition-transform"
+                 :class="{ 'rotate-180': showCandidates }"
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div v-if="showCandidates" class="mt-2 space-y-3">
+            <div v-if="localEntry.wikidata_candidates?.length">
+              <p class="text-xs text-gray-400 mb-1">Wikidata</p>
+              <WikidataCandidates
+                :candidates="localEntry.wikidata_candidates"
+                type="person"
+                entity-base-url="https://www.wikidata.org/entity/"
+                source-label="Wikidata"
+                :minting="minting"
+                @import="handleEntryImport"
+              />
+            </div>
+            <div v-if="localEntry.wikibase_candidates?.length">
+              <p class="text-xs text-gray-400 mb-1">Wikibase</p>
+              <WikidataCandidates
+                :candidates="localEntry.wikibase_candidates"
+                type="person"
+                entity-base-url="https://base.semlab.io/entity/"
+                source-label="Wikibase"
+                :minting="minting"
+                @import="handleEntryImport"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Mint person button when no match exists -->
+        <div v-if="!hasPersonMatch" class="border-t border-gray-100 pt-3 flex items-center justify-between">
+          <button @click="handleEntryMint"
+                  :disabled="minting"
+                  class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
+                         rounded-md hover:bg-green-700 transition-colors
+                         disabled:opacity-50 disabled:cursor-not-allowed
+                         inline-flex items-center gap-1.5">
+            <svg v-if="minting" class="animate-spin h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+            </svg>
+            {{ minting ? 'Minting...' : 'Mint in Wikibase from card data' }}
+          </button>
+          <button @click="handleManualArtistQid"
+                  class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+            Manually set QID
+          </button>
+        </div>
+      </template>
 
       <!-- AI Slop Research -->
       <div v-if="localEntry.web_research" class="border-t border-gray-100 pt-3">

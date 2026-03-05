@@ -1,3 +1,5 @@
+import { useAuthStore } from '../stores/auth.js'
+
 const BASE = '/api'
 
 async function request(url) {
@@ -54,5 +56,54 @@ export function useCardApi() {
     return request(`${BASE}/cards/filter-options`)
   }
 
-  return { getCards, getCard, updateFront, updateBack, toggleComplete, getFilterOptions }
+  async function authenticatedPost(url, data) {
+    const auth = useAuthStore()
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-session-token': auth.token
+      },
+      body: JSON.stringify(data)
+    })
+    if (!res.ok) {
+      const text = await res.text()
+      throw new Error(`API error ${res.status}: ${text}`)
+    }
+    return res.json()
+  }
+
+  function mintPerson(cardId) {
+    return authenticatedPost(`${BASE}/wikibase/mint-person`, { cardId })
+  }
+
+  function mintPersonFromWikidata(cardId, wikidataQid) {
+    return authenticatedPost(`${BASE}/wikibase/mint-person-from-wikidata`, { cardId, wikidataQid })
+  }
+
+  function mintOrg(cardId, orgTypeQid) {
+    return authenticatedPost(`${BASE}/wikibase/mint-org`, { cardId, orgTypeQid })
+  }
+
+  function mintOrgFromWikidata(cardId, wikidataQid, orgTypeQid) {
+    return authenticatedPost(`${BASE}/wikibase/mint-org-from-wikidata`, { cardId, wikidataQid, orgTypeQid })
+  }
+
+  function mintBackArtist(cardId, entryIndex) {
+    return authenticatedPost(`${BASE}/wikibase/mint-back-artist`, { cardId, entryIndex })
+  }
+
+  function mintBackArtistFromWikidata(cardId, entryIndex, wikidataQid) {
+    return authenticatedPost(`${BASE}/wikibase/mint-back-artist-from-wikidata`, { cardId, entryIndex, wikidataQid })
+  }
+
+  function mintCard(cardId) {
+    return authenticatedPost(`${BASE}/wikibase/mint-card`, { cardId })
+  }
+
+  function buildCollaborators(cardId) {
+    return authenticatedPost(`${BASE}/wikibase/build-collaborators`, { cardId })
+  }
+
+  return { getCards, getCard, updateFront, updateBack, toggleComplete, getFilterOptions, mintPerson, mintPersonFromWikidata, mintOrg, mintOrgFromWikidata, mintBackArtist, mintBackArtistFromWikidata, mintCard, buildCollaborators }
 }
