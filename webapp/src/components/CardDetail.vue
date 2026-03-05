@@ -363,9 +363,20 @@ async function onMintCard() {
 
 // Manually set document QID
 async function onSetDocumentQid(qid) {
-  currentFront.value.document_qid = qid
-  if (currentBack.value) {
-    currentBack.value.document_qid = qid
+  if (qid === null) {
+    delete currentFront.value.document_qid
+    delete currentFront.value.block_qid
+    delete currentFront.value.collaborators_built
+    if (currentBack.value) {
+      delete currentBack.value.document_qid
+      delete currentBack.value.block_qid
+      delete currentBack.value.collaborators_built
+    }
+  } else {
+    currentFront.value.document_qid = qid
+    if (currentBack.value) {
+      currentBack.value.document_qid = qid
+    }
   }
   try {
     const promises = []

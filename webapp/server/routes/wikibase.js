@@ -596,10 +596,34 @@ router.post('/mint-card', async (req, res) => {
   }
 })
 
+const WIKIBASE_INSTANCE = 'https://base.semlab.io'
+
+// Fetch entity claims from Wikibase API and find the claim GUID for a specific property+value
+async function findClaimGuid(entityQid, property, targetValue) {
+  const url = `${WIKIBASE_INSTANCE}/w/api.php?` + new URLSearchParams({
+    action: 'wbgetentities',
+    ids: entityQid,
+    props: 'claims',
+    format: 'json'
+  })
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`Wikibase API error: ${res.status}`)
+  const data = await res.json()
+  const claims = data.entities?.[entityQid]?.claims?.[property]
+  if (!claims) return null
+  for (const claim of claims) {
+    if (targetValue === null) return claim.id  // any claim with this property
+    const val = claim.mainsnak?.datavalue?.value?.id
+    if (val === targetValue) return claim.id
+  }
+  return null
+}
+
 // POST /api/wikibase/build-collaborators
 // Body: { cardId }
 // Creates bidirectional P278 (proposed collaborator) claims between engineer and each minted back artist
 // with reference to the back block QID
+// Also adds P26 (reference block) references to existing P65 (member of) = Q24347 claims
 router.post('/build-collaborators', async (req, res) => {
   const { cardId } = req.body
   const { wbEdit } = req.wbSession
@@ -610,6 +634,7 @@ router.post('/build-collaborators', async (req, res) => {
     const back = card.back
 
     const engineerQid = front?.wikibase_person_qid
+    const frontBlockQid = front?.block_qid
     const backBlockQid = back?.block_qid
 
     if (!engineerQid) return res.status(400).json({ error: 'Engineer not minted' })
@@ -643,6 +668,47 @@ router.post('/build-collaborators', async (req, res) => {
       })
 
       created++
+    }
+
+    // Add P26 (reference block) references to existing P65 = Q24347 claims
+    // Engineer: P65 = Q24347 gets reference P26 = front block QID
+    if (frontBlockQid) {
+      const engineerClaimGuid = await findClaimGuid(engineerQid, 'P65', 'Q24347')
+      if (engineerClaimGuid) {
+        await wbEdit.reference.set({
+          guid: engineerClaimGuid,
+          snaks: { P26: frontBlockQid }
+        })
+        console.log(`Added P26=${frontBlockQid} reference to engineer ${engineerQid} P65 claim`)
+      } else {
+        console.warn(`No P65=Q24347 claim found on engineer ${engineerQid}`)
+      }
+    }
+
+    // Engineer: P110 (employer) gets reference P26 = front block QID (if employer claim exists)
+    if (frontBlockQid) {
+      const employerClaimGuid = await findClaimGuid(engineerQid, 'P110', null)
+      if (employerClaimGuid) {
+        await wbEdit.reference.set({
+          guid: employerClaimGuid,
+          snaks: { P26: frontBlockQid }
+        })
+        console.log(`Added P26=${frontBlockQid} reference to engineer ${engineerQid} P110 claim`)
+      }
+    }
+
+    // Each artist: P65 = Q24347 gets reference P26 = back block QID
+    for (const artistQid of artistQids) {
+      const artistClaimGuid = await findClaimGuid(artistQid, 'P65', 'Q24347')
+      if (artistClaimGuid) {
+        await wbEdit.reference.set({
+          guid: artistClaimGuid,
+          snaks: { P26: backBlockQid }
+        })
+        console.log(`Added P26=${backBlockQid} reference to artist ${artistQid} P65 claim`)
+      } else {
+        console.warn(`No P65=Q24347 claim found on artist ${artistQid}`)
+      }
     }
 
     console.log(`Built ${created} collaborator relationships for ${cardId}`)
