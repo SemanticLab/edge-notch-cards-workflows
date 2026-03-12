@@ -3,6 +3,7 @@ import { reactive, watch, ref, computed } from 'vue'
 import EditableField from './EditableField.vue'
 import EditableArrayField from './EditableArrayField.vue'
 import WikidataCandidates from './WikidataCandidates.vue'
+import WikidataSearch from './WikidataSearch.vue'
 import WebResearch from './WebResearch.vue'
 
 const props = defineProps({
@@ -230,7 +231,7 @@ function handleChunksSelected(chunks) {
               </a>
               <button @click="handleManualPersonQid"
                       class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
-                Manually set QID
+                Manually set Semlab Wikibase QID
               </button>
             </div>
             <!-- Mint person button when no match and not yet minted -->
@@ -249,7 +250,7 @@ function handleChunksSelected(chunks) {
               </button>
               <button @click="handleManualPersonQid"
                       class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
-                Manually set QID
+                Manually set Semlab Wikibase QID
               </button>
             </div>
           </template>
@@ -267,7 +268,7 @@ function handleChunksSelected(chunks) {
       </div>
 
       <!-- Person Identity Candidates (hidden when already minted) -->
-      <div v-if="!localFront?.wikibase_person_qid && (localFront?.wikidata_candidates?.length || localFront?.wikibase_candidates?.length)"
+      <div v-if="!localFront?.wikibase_person_qid"
            class="bg-white rounded-lg border border-gray-200 overflow-hidden">
         <button
           class="w-full flex items-center justify-between px-4 py-3 bg-gray-50 hover:bg-gray-100
@@ -302,6 +303,13 @@ function handleChunksSelected(chunks) {
               type="person"
               entity-base-url="https://base.semlab.io/entity/"
               source-label="Wikibase"
+              :minting="minting"
+              @import="handlePersonImport"
+            />
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Search Wikidata</p>
+            <WikidataSearch
               :minting="minting"
               @import="handlePersonImport"
             />
@@ -428,7 +436,7 @@ function handleChunksSelected(chunks) {
               </a>
               <button @click="handleManualOrgQid"
                       class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
-                Manually set QID
+                Manually set Semlab Wikibase QID
               </button>
             </div>
             <!-- Mint org when no match, org name filled, and person already minted -->
@@ -459,7 +467,7 @@ function handleChunksSelected(chunks) {
                   </button>
                   <button @click="handleManualOrgQid"
                           class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
-                    Manually set QID
+                    Manually set Semlab Wikibase QID
                   </button>
                 </div>
               </div>
@@ -469,7 +477,7 @@ function handleChunksSelected(chunks) {
                 </p>
                 <button @click="handleManualOrgQid"
                         class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
-                  Manually set QID
+                  Manually set Semlab Wikibase QID
                 </button>
               </div>
             </template>
@@ -488,7 +496,7 @@ function handleChunksSelected(chunks) {
       </div>
 
       <!-- Organization Candidates -->
-      <div v-if="!localFront?.wikibase_org_qid && (localFront?.wikidata_org_candidates?.length || localFront?.wikibase_org_candidates?.length)"
+      <div v-if="!localFront?.wikibase_org_qid"
            class="bg-white rounded-lg border border-gray-200 overflow-hidden">
         <button
           class="w-full flex items-center justify-between px-4 py-3 bg-gray-50 hover:bg-gray-100
@@ -539,6 +547,13 @@ function handleChunksSelected(chunks) {
               source-label="Wikibase"
               :disable-import="!localFront?.wikibase_person_qid"
               disable-import-message="Mint the person first to enable org import"
+              :minting="minting"
+              @import="handleOrgImport"
+            />
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Search Wikidata</p>
+            <WikidataSearch
               :minting="minting"
               @import="handleOrgImport"
             />

@@ -3,6 +3,7 @@ import { ref, watch, computed } from 'vue'
 import EditableField from './EditableField.vue'
 import BoundingBoxCrop from './BoundingBoxCrop.vue'
 import WikidataCandidates from './WikidataCandidates.vue'
+import WikidataSearch from './WikidataSearch.vue'
 import WebResearch from './WebResearch.vue'
 
 const props = defineProps({
@@ -128,14 +129,13 @@ function handleEntryChunksSelected(chunks) {
         </a>
         <button @click="handleManualArtistQid"
                 class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
-          Manually set QID
+          Manually set Semlab Wikibase QID
         </button>
       </div>
 
       <template v-else>
         <!-- Person Candidates (hidden when already minted) -->
-        <div v-if="localEntry.wikidata_candidates?.length || localEntry.wikibase_candidates?.length"
-             class="border-t border-gray-100 pt-3">
+        <div class="border-t border-gray-100 pt-3">
           <button
             class="flex items-center justify-between w-full text-left"
             @click="showCandidates = !showCandidates"
@@ -172,6 +172,13 @@ function handleEntryChunksSelected(chunks) {
                 @import="handleEntryImport"
               />
             </div>
+            <div>
+              <p class="text-xs text-gray-400 mb-1">Search Wikidata</p>
+              <WikidataSearch
+                :minting="minting"
+                @import="handleEntryImport"
+              />
+            </div>
           </div>
         </div>
 
@@ -191,7 +198,7 @@ function handleEntryChunksSelected(chunks) {
           </button>
           <button @click="handleManualArtistQid"
                   class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
-            Manually set QID
+            Manually set Semlab Wikibase QID
           </button>
         </div>
       </template>

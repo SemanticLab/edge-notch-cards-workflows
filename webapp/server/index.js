@@ -24,7 +24,7 @@ const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY || '';
 const app = express();
 
 // Body parsing middleware
-app.use(express.json());
+app.use(express.json({ limit: '10mb' }));
 
 // API routes
 app.use('/api/cards', cardsRouter);

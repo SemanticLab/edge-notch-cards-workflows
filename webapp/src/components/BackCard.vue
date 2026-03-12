@@ -160,7 +160,7 @@ function handleManualDocumentQid() {
             </a>
             <button @click="handleManualDocumentQid"
                     class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
-              Manually set QID
+              Manually set Semlab Wikibase QID
             </button>
           </div>
           <div v-if="frontBlockQid || backBlockQid" class="ml-6 space-y-1">
@@ -204,7 +204,7 @@ function handleManualDocumentQid() {
           </button>
           <button @click="handleManualDocumentQid"
                   class="w-full text-xs text-gray-400 hover:text-gray-600 transition-colors text-center py-1">
-            Manually set QID
+            Manually set Semlab Wikibase QID
           </button>
         </template>
       </div>
