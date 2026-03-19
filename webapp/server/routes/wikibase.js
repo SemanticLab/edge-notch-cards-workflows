@@ -488,13 +488,16 @@ router.post('/mint-card', async (req, res) => {
     console.log(`Uploaded OCR texts: ${frontTextUrl}, ${backTextUrl}`)
 
     // ===== 4. CREATE THE FRONT BLOCK (TFB) =====
+    const frontOcrTrimmed = ocrFront.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
     const frontBlockClaims = {
       P1: 'Q2013',          // instance of: block
       P11: 'Q28603',        // part of project
       P24: documentQid,     // parent document
       P17: '0',             // local ID
       P20: frontTextUrl,    // block text URL
-      P19: ocrFront.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350), // block text
+    }
+    if (frontOcrTrimmed) {
+      frontBlockClaims.P19 = frontOcrTrimmed // block text
     }
 
     // Associated entities (P21): engineer + org if exists
@@ -513,13 +516,16 @@ router.post('/mint-card', async (req, res) => {
     console.log(`Created THE FRONT BLOCK ${frontBlockQid}`)
 
     // ===== 5. CREATE THE BACK BLOCK (TBB) =====
+    const backOcrTrimmed = ocrBack.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
     const backBlockClaims = {
       P1: 'Q2013',          // instance of: block
       P11: 'Q28603',        // part of project
       P24: documentQid,     // parent document
       P17: '1',             // local ID
-      P19: ocrBack.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350), // block text
       P20: backTextUrl,     // block text URL
+    }
+    if (backOcrTrimmed) {
+      backBlockClaims.P19 = backOcrTrimmed // block text
     }
 
     const backBlockResult = await wbEdit.entity.create({
