@@ -179,6 +179,12 @@ function handleEntryChunksSelected(chunks) {
                 @import="handleEntryImport"
               />
             </div>
+            <div class="pt-2 border-t border-gray-100">
+              <button @click="handleManualArtistQid"
+                      class="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+                Already in Wikibase — set QID
+              </button>
+            </div>
           </div>
         </div>
 
