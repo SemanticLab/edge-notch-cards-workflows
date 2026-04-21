@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, computed } from 'vue'
+import { ref, watch } from 'vue'
 import EditableField from './EditableField.vue'
 import BoundingBoxCrop from './BoundingBoxCrop.vue'
 import WikidataCandidates from './WikidataCandidates.vue'
@@ -31,12 +31,6 @@ function displayValue(val) {
   if (val === null || val === undefined) return ''
   return String(val)
 }
-
-const hasPersonMatch = computed(() => {
-  const wd = localEntry.value.wikidata_candidates || []
-  const wb = localEntry.value.wikibase_candidates || []
-  return [...wd, ...wb].some(c => c.match === true)
-})
 
 function handleEntryImport(qid, source) {
   if (source === 'Wikibase') {
@@ -188,8 +182,8 @@ function handleEntryChunksSelected(chunks) {
           </div>
         </div>
 
-        <!-- Mint person button when no match exists -->
-        <div v-if="!hasPersonMatch" class="border-t border-gray-100 pt-3 flex items-center justify-between">
+        <!-- Mint person button -->
+        <div class="border-t border-gray-100 pt-3 flex items-center justify-between">
           <button @click="handleEntryMint"
                   :disabled="minting"
                   class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
