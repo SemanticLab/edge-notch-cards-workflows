@@ -30,12 +30,12 @@ const currentBack = ref(null)
 const toast = ref({ show: false, message: '', type: 'success' })
 let toastTimer = null
 
-function showToast(message, type = 'success') {
+function showToast(message, type = 'success', duration = 3000) {
   clearTimeout(toastTimer)
   toast.value = { show: true, message, type }
   toastTimer = setTimeout(() => {
     toast.value.show = false
-  }, 3000)
+  }, duration)
 }
 
 // Dirty state
@@ -415,7 +415,17 @@ async function onBuildCollaborators() {
       promises.push(api.updateBack(cardId.value, currentBack.value))
     }
     await Promise.all(promises)
-    showToast(`Built ${result.created} collaborator relationship(s)`, 'success')
+    const skipped = result.skipped || []
+    if (skipped.length) {
+      const details = skipped.map(s => `• ${s.step} — ${s.reason}`).join('\n')
+      showToast(
+        `Built ${result.created} collaborator relationship(s); skipped ${skipped.length} step(s) (duplicate references):\n${details}`,
+        'warning',
+        10000
+      )
+    } else {
+      showToast(`Built ${result.created} collaborator relationship(s)`, 'success')
+    }
   } catch (err) {
     console.error('Failed to build collaborators:', err)
     showToast('Failed to build collaborators: ' + (err.message || 'Unknown error'), 'error')
@@ -642,10 +652,11 @@ watch(cardId, () => {
     >
       <div
         v-if="toast.show"
-        class="fixed bottom-20 right-6 z-50 px-4 py-3 rounded-lg shadow-lg text-sm font-medium"
+        class="fixed bottom-20 right-6 z-50 px-4 py-3 rounded-lg shadow-lg text-sm font-medium max-w-xl whitespace-pre-line"
         :class="{
           'bg-green-600 text-white': toast.type === 'success',
-          'bg-red-600 text-white': toast.type === 'error'
+          'bg-red-600 text-white': toast.type === 'error',
+          'bg-amber-500 text-white': toast.type === 'warning'
         }"
       >
         {{ toast.message }}

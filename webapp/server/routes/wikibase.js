@@ -655,25 +655,51 @@ router.post('/build-collaborators', async (req, res) => {
       return res.status(400).json({ error: 'No minted artists found' })
     }
 
+    const skipped = []
+    const isDuplicateRefError = (err) => {
+      const msg = err?.message || String(err)
+      return msg.includes('reference with hash')
+    }
+    const runStep = async (description, fn) => {
+      try {
+        await fn()
+        return true
+      } catch (err) {
+        if (isDuplicateRefError(err)) {
+          const reason = err?.message || String(err)
+          console.warn(`Skipped step "${description}": ${reason}`)
+          skipped.push({ step: description, reason })
+          return false
+        }
+        throw err
+      }
+    }
+
     let created = 0
     for (const artistQid of artistQids) {
       // artist -> proposed collaborator -> engineer (with reference to back block)
-      await wbEdit.claim.create({
-        id: artistQid,
-        property: 'P278',
-        value: engineerQid,
-        references: [{ P24: backBlockQid }]
-      })
+      const a = await runStep(
+        `Add P278 claim on ${artistQid} -> ${engineerQid} (ref back block ${backBlockQid})`,
+        () => wbEdit.claim.create({
+          id: artistQid,
+          property: 'P278',
+          value: engineerQid,
+          references: [{ P24: backBlockQid }]
+        })
+      )
 
       // engineer -> proposed collaborator -> artist (with reference to back block)
-      await wbEdit.claim.create({
-        id: engineerQid,
-        property: 'P278',
-        value: artistQid,
-        references: [{ P24: backBlockQid }]
-      })
+      const b = await runStep(
+        `Add P278 claim on ${engineerQid} -> ${artistQid} (ref back block ${backBlockQid})`,
+        () => wbEdit.claim.create({
+          id: engineerQid,
+          property: 'P278',
+          value: artistQid,
+          references: [{ P24: backBlockQid }]
+        })
+      )
 
-      created++
+      if (a && b) created++
     }
 
     // Add P26 (reference block) references to existing P65 = Q24347 claims
@@ -681,10 +707,13 @@ router.post('/build-collaborators', async (req, res) => {
     if (frontBlockQid) {
       const engineerClaimGuid = await findClaimGuid(engineerQid, 'P65', 'Q24347')
       if (engineerClaimGuid) {
-        await wbEdit.reference.set({
-          guid: engineerClaimGuid,
-          snaks: { P26: frontBlockQid }
-        })
+        await runStep(
+          `Add P26=${frontBlockQid} reference to engineer ${engineerQid} P65=Q24347 claim`,
+          () => wbEdit.reference.set({
+            guid: engineerClaimGuid,
+            snaks: { P26: frontBlockQid }
+          })
+        )
         console.log(`Added P26=${frontBlockQid} reference to engineer ${engineerQid} P65 claim`)
       } else {
         console.warn(`No P65=Q24347 claim found on engineer ${engineerQid}`)
@@ -695,10 +724,13 @@ router.post('/build-collaborators', async (req, res) => {
     if (frontBlockQid) {
       const employerClaimGuid = await findClaimGuid(engineerQid, 'P110', null)
       if (employerClaimGuid) {
-        await wbEdit.reference.set({
-          guid: employerClaimGuid,
-          snaks: { P26: frontBlockQid }
-        })
+        await runStep(
+          `Add P26=${frontBlockQid} reference to engineer ${engineerQid} P110 claim`,
+          () => wbEdit.reference.set({
+            guid: employerClaimGuid,
+            snaks: { P26: frontBlockQid }
+          })
+        )
         console.log(`Added P26=${frontBlockQid} reference to engineer ${engineerQid} P110 claim`)
       }
     }
@@ -707,18 +739,21 @@ router.post('/build-collaborators', async (req, res) => {
     for (const artistQid of artistQids) {
       const artistClaimGuid = await findClaimGuid(artistQid, 'P65', 'Q24347')
       if (artistClaimGuid) {
-        await wbEdit.reference.set({
-          guid: artistClaimGuid,
-          snaks: { P26: backBlockQid }
-        })
+        await runStep(
+          `Add P26=${backBlockQid} reference to artist ${artistQid} P65=Q24347 claim`,
+          () => wbEdit.reference.set({
+            guid: artistClaimGuid,
+            snaks: { P26: backBlockQid }
+          })
+        )
         console.log(`Added P26=${backBlockQid} reference to artist ${artistQid} P65 claim`)
       } else {
         console.warn(`No P65=Q24347 claim found on artist ${artistQid}`)
       }
     }
 
-    console.log(`Built ${created} collaborator relationships for ${cardId}`)
-    res.json({ ok: true, created })
+    console.log(`Built ${created} collaborator relationships for ${cardId} (skipped ${skipped.length})`)
+    res.json({ ok: true, created, skipped })
   } catch (err) {
     console.error(`Failed to build collaborators for ${cardId}:`, err)
     res.status(500).json({ error: err.message || String(err) })

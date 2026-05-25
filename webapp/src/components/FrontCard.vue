@@ -92,12 +92,6 @@ function addSection(sectionKey) {
   emit('update:front', JSON.parse(JSON.stringify(localFront.value)))
 }
 
-const hasPersonMatch = computed(() => {
-  const wd = localFront.value?.wikidata_candidates || []
-  const wb = localFront.value?.wikibase_candidates || []
-  return [...wd, ...wb].some(c => c.match === true)
-})
-
 const hasOrgMatch = computed(() => {
   const wd = localFront.value?.wikidata_org_candidates || []
   const wb = localFront.value?.wikibase_org_candidates || []
@@ -234,8 +228,8 @@ function handleChunksSelected(chunks) {
                 Manually set Semlab Wikibase QID
               </button>
             </div>
-            <!-- Mint person button when no match and not yet minted -->
-            <div v-else-if="!hasPersonMatch" class="mt-1 flex items-center justify-between">
+            <!-- Mint person button when not yet minted -->
+            <div v-else class="mt-1 flex items-center justify-between">
               <button @click="handlePersonMint"
                       :disabled="minting"
                       class="px-3 py-1.5 text-sm font-medium bg-green-600 text-white
