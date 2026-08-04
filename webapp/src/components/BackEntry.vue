@@ -9,7 +9,8 @@ import WebResearch from './WebResearch.vue'
 const props = defineProps({
   entry: { type: Object, required: true },
   imageFilename: { type: String, default: '' },
-  minting: { type: Boolean, default: false }
+  minting: { type: Boolean, default: false },
+  qidStatuses: { type: Object, default: () => ({}) }
 })
 
 const emit = defineEmits(['update:entry', 'delete', 'mint-artist', 'mint-artist-from-wikidata', 'set-artist-qid'])
@@ -163,6 +164,7 @@ function handleEntryChunksSelected(chunks) {
                 entity-base-url="https://base.semlab.io/entity/"
                 source-label="Wikibase"
                 :minting="minting"
+                :qid-statuses="qidStatuses"
                 @import="handleEntryImport"
               />
             </div>

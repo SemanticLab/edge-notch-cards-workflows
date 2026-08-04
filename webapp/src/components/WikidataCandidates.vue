@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 
 const props = defineProps({
   candidates: { type: Array, default: () => [] },
@@ -8,7 +8,10 @@ const props = defineProps({
   sourceLabel: { type: String, default: 'Wikidata' },
   disableImport: { type: Boolean, default: false },
   disableImportMessage: { type: String, default: '' },
-  minting: { type: Boolean, default: false }
+  minting: { type: Boolean, default: false },
+  // Map of qid -> { status: 'ok' | 'merged' | 'missing', redirectsTo? }
+  // (only supplied for Wikibase-sourced candidates)
+  qidStatuses: { type: Object, default: () => ({}) }
 })
 
 const emit = defineEmits(['select', 'import'])
@@ -32,7 +35,24 @@ const hoveredReasoning = computed(() => {
   return c?.reasoning || null
 })
 
+function statusFor(qid) {
+  return props.qidStatuses?.[qid] || null
+}
+
+function isUnavailable(qid) {
+  const s = statusFor(qid)
+  return !!s && (s.status === 'merged' || s.status === 'missing')
+}
+
+// Deselect a candidate if the status check reveals it was merged or deleted
+watch(() => props.qidStatuses, () => {
+  if (selectedQid.value && isUnavailable(selectedQid.value)) {
+    selectedQid.value = null
+  }
+})
+
 function onImport() {
+  if (isUnavailable(selectedQid.value)) return
   emit('import', selectedQid.value, props.sourceLabel)
 }
 </script>
@@ -54,13 +74,24 @@ function onImport() {
             @mouseenter="hoveredQid = candidate.qid"
           >
             <input type="radio" :value="candidate.qid" v-model="selectedQid"
-                   class="text-blue-600 flex-shrink-0" />
+                   :disabled="isUnavailable(candidate.qid)"
+                   class="text-blue-600 flex-shrink-0 disabled:opacity-40" />
             <a :href="entityBaseUrl + candidate.qid" target="_blank" rel="noopener noreferrer"
                class="text-sm text-blue-600 hover:text-blue-800 hover:underline font-medium"
                @click.stop>
               {{ candidate.label || candidate.qid }}
             </a>
             <span class="text-xs text-gray-400 font-mono">{{ candidate.qid }}</span>
+            <span v-if="statusFor(candidate.qid)?.status === 'merged'"
+                  class="text-xs px-1.5 py-0.5 bg-amber-100 text-amber-700 rounded-full flex-shrink-0"
+                  :title="'This item was merged into ' + statusFor(candidate.qid).redirectsTo">
+              merged → {{ statusFor(candidate.qid).redirectsTo }}
+            </span>
+            <span v-else-if="statusFor(candidate.qid)?.status === 'missing'"
+                  class="text-xs px-1.5 py-0.5 bg-red-100 text-red-700 rounded-full flex-shrink-0"
+                  title="This item no longer exists in the Wikibase">
+              deleted
+            </span>
             <span v-if="candidate.match"
                   class="text-xs px-1.5 py-0.5 bg-green-100 text-green-700 rounded-full flex-shrink-0">
               match
@@ -101,13 +132,24 @@ function onImport() {
               @mouseenter="hoveredQid = candidate.qid"
             >
               <input type="radio" :value="candidate.qid" v-model="selectedQid"
-                     class="text-blue-600 flex-shrink-0" />
+                     :disabled="isUnavailable(candidate.qid)"
+                     class="text-blue-600 flex-shrink-0 disabled:opacity-40" />
               <a :href="entityBaseUrl + candidate.qid" target="_blank" rel="noopener noreferrer"
                  class="text-sm text-blue-600 hover:text-blue-800 hover:underline font-medium"
                  @click.stop>
                 {{ candidate.label || candidate.qid }}
               </a>
               <span class="text-xs text-gray-400 font-mono">{{ candidate.qid }}</span>
+              <span v-if="statusFor(candidate.qid)?.status === 'merged'"
+                    class="text-xs px-1.5 py-0.5 bg-amber-100 text-amber-700 rounded-full flex-shrink-0"
+                    :title="'This item was merged into ' + statusFor(candidate.qid).redirectsTo">
+                merged → {{ statusFor(candidate.qid).redirectsTo }}
+              </span>
+              <span v-else-if="statusFor(candidate.qid)?.status === 'missing'"
+                    class="text-xs px-1.5 py-0.5 bg-red-100 text-red-700 rounded-full flex-shrink-0"
+                    title="This item no longer exists in the Wikibase">
+                deleted
+              </span>
               <span class="text-xs px-1.5 py-0.5 bg-red-100 text-red-600 rounded-full flex-shrink-0">
                 unlikely match
               </span>

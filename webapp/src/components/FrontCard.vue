@@ -9,7 +9,8 @@ import WebResearch from './WebResearch.vue'
 const props = defineProps({
   front: { type: Object, default: null },
   imageUrl: { type: String, default: '' },
-  minting: { type: Boolean, default: false }
+  minting: { type: Boolean, default: false },
+  qidStatuses: { type: Object, default: () => ({}) }
 })
 
 const emit = defineEmits(['update:front', 'mint-person', 'mint-person-from-wikidata', 'set-person-qid', 'set-org-qid', 'mint-org', 'mint-org-from-wikidata'])
@@ -298,6 +299,7 @@ function handleChunksSelected(chunks) {
               entity-base-url="https://base.semlab.io/entity/"
               source-label="Wikibase"
               :minting="minting"
+              :qid-statuses="qidStatuses"
               @import="handlePersonImport"
             />
           </div>
@@ -548,6 +550,7 @@ function handleChunksSelected(chunks) {
               :disable-import="!localFront?.wikibase_person_qid"
               disable-import-message="Mint the person first to enable org import"
               :minting="minting"
+              :qid-statuses="qidStatuses"
               @import="handleOrgImport"
             />
           </div>

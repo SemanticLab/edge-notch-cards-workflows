@@ -11,7 +11,8 @@ const props = defineProps({
   frontBlockQid: { type: String, default: null },
   backBlockQid: { type: String, default: null },
   collaboratorsBuilt: { type: Boolean, default: false },
-  minting: { type: Boolean, default: false }
+  minting: { type: Boolean, default: false },
+  qidStatuses: { type: Object, default: () => ({}) }
 })
 
 const emit = defineEmits(['update:back', 'mint-artist', 'mint-artist-from-wikidata', 'set-artist-qid', 'mint-card', 'set-document-qid', 'build-collaborators'])
@@ -123,6 +124,7 @@ function handleManualDocumentQid() {
           :entry="entry"
           :image-filename="imageFilename"
           :minting="minting"
+          :qid-statuses="qidStatuses"
           @update:entry="updateEntry(index, $event)"
           @delete="deleteEntry(index)"
           @mint-artist="emit('mint-artist', index)"

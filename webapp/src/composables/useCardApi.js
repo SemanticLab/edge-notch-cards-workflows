@@ -105,5 +105,9 @@ export function useCardApi() {
     return authenticatedPost(`${BASE}/wikibase/build-collaborators`, { cardId })
   }
 
-  return { getCards, getCard, updateFront, updateBack, toggleComplete, getFilterOptions, mintPerson, mintPersonFromWikidata, mintOrg, mintOrgFromWikidata, mintBackArtist, mintBackArtistFromWikidata, mintCard, buildCollaborators }
+  function checkWikibaseQids(qids) {
+    return requestWithBody('POST', `${BASE}/wikibase/check-qids`, { qids })
+  }
+
+  return { getCards, getCard, updateFront, updateBack, toggleComplete, getFilterOptions, mintPerson, mintPersonFromWikidata, mintOrg, mintOrgFromWikidata, mintBackArtist, mintBackArtistFromWikidata, mintCard, buildCollaborators, checkWikibaseQids }
 }

@@ -89,11 +89,47 @@ async function fetchCard() {
     originalBack.value = data.back ? JSON.parse(JSON.stringify(data.back)) : null
     currentFront.value = data.front ? JSON.parse(JSON.stringify(data.front)) : null
     currentBack.value = data.back ? JSON.parse(JSON.stringify(data.back)) : null
+    checkSuggestedQids()
   } catch (err) {
     error.value = err.message || 'Failed to load card'
     console.error('Failed to fetch card:', err)
   } finally {
     loading.value = false
+  }
+}
+
+// Verify suggested Wikibase QIDs still exist and haven't been merged
+const wikibaseQidStatuses = ref({})
+
+function collectSuggestedWikibaseQids() {
+  const qids = new Set()
+  const addCandidates = (list) => {
+    for (const c of list || []) {
+      if (c?.qid) qids.add(c.qid)
+    }
+  }
+  addCandidates(currentFront.value?.wikibase_candidates)
+  addCandidates(currentFront.value?.wikibase_org_candidates)
+  for (const entry of currentBack.value?.entries || []) {
+    addCandidates(entry?.wikibase_candidates)
+  }
+  return [...qids]
+}
+
+async function checkSuggestedQids() {
+  wikibaseQidStatuses.value = {}
+  const qids = collectSuggestedWikibaseQids()
+  if (qids.length === 0) return
+  try {
+    const result = await api.checkWikibaseQids(qids)
+    wikibaseQidStatuses.value = result.statuses || {}
+    const bad = Object.values(wikibaseQidStatuses.value)
+      .filter(s => s.status === 'merged' || s.status === 'missing').length
+    if (bad > 0) {
+      showToast(`${bad} suggested Wikibase item(s) have been merged or deleted`, 'warning', 6000)
+    }
+  } catch (err) {
+    console.error('Failed to check suggested Wikibase QIDs:', err)
   }
 }
 
@@ -558,6 +594,7 @@ watch(cardId, () => {
           :front="currentFront"
           :image-url="frontImageUrl"
           :minting="minting"
+          :qid-statuses="wikibaseQidStatuses"
           @update:front="onFrontUpdate"
           @mint-person="onMintPerson"
           @mint-person-from-wikidata="onMintPersonFromWikidata"
@@ -582,6 +619,7 @@ watch(cardId, () => {
           :image-url="backImageUrl"
           :image-filename="backImageFilename"
           :minting="minting"
+          :qid-statuses="wikibaseQidStatuses"
           :engineer-qid="currentFront?.wikibase_person_qid || null"
           :document-qid="currentFront?.document_qid || null"
           :front-block-qid="currentFront?.block_qid || null"

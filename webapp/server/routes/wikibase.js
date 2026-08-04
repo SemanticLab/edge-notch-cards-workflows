@@ -15,6 +15,10 @@ const s3 = new S3Client({
 })
 const S3_BUCKET = process.env.AWS_BUCKET || 'semlab'
 
+const WIKIBASE_INSTANCE = 'https://base.semlab.io'
+// base.semlab.io sits behind a Cloudflare rule that requires this user agent
+const WIKIBASE_USER_AGENT = 'semlab-data-process'
+
 async function uploadToS3(key, body, contentType) {
   await s3.send(new PutObjectCommand({
     Bucket: S3_BUCKET,
@@ -62,6 +66,55 @@ function requireAuth(req, res, next) {
   req.wbSession = session
   next()
 }
+
+// POST /api/wikibase/check-qids
+// Body: { qids: ["Q123", ...] }
+// Public (read-only): checks each QID on the Wikibase and reports whether it
+// still exists, has been merged (redirected) into another item, or is missing.
+router.post('/check-qids', async (req, res) => {
+  const { qids } = req.body
+  if (!Array.isArray(qids) || qids.length === 0) {
+    return res.status(400).json({ error: 'qids array is required' })
+  }
+  const unique = [...new Set(qids.filter(q => typeof q === 'string' && /^Q\d+$/.test(q)))]
+  if (unique.length === 0) {
+    return res.status(400).json({ error: 'No valid QIDs provided' })
+  }
+
+  try {
+    const statuses = {}
+    // wbgetentities accepts up to 50 ids per request
+    for (let i = 0; i < unique.length; i += 50) {
+      const batch = unique.slice(i, i + 50)
+      const url = `${WIKIBASE_INSTANCE}/w/api.php?` + new URLSearchParams({
+        action: 'wbgetentities',
+        ids: batch.join('|'),
+        props: 'info',
+        format: 'json'
+      })
+      const resp = await fetch(url, {
+        headers: { 'User-Agent': WIKIBASE_USER_AGENT }
+      })
+      if (!resp.ok) throw new Error(`Wikibase API error: ${resp.status}`)
+      const data = await resp.json()
+      if (data.error) throw new Error(`Wikibase API error: ${data.error.info || data.error.code}`)
+      for (const qid of batch) {
+        const entity = data.entities?.[qid]
+        if (!entity || entity.missing !== undefined) {
+          statuses[qid] = { status: 'missing' }
+        } else if (entity.redirects) {
+          statuses[qid] = { status: 'merged', redirectsTo: entity.redirects.to }
+        } else {
+          statuses[qid] = { status: 'ok' }
+        }
+      }
+    }
+    res.json({ statuses })
+  } catch (err) {
+    console.error('Failed to check QIDs:', err.message)
+    res.status(502).json({ error: err.message })
+  }
+})
 
 router.use(requireAuth)
 
@@ -430,6 +483,22 @@ router.post('/mint-card', async (req, res) => {
     // Card label: "B14-Aaron-Rabinowitz" -> "B14 Aaron Rabinowitz Edge-Notched Card"
     const cardLabel = cardId.replace(/-/g, ' ') + ' Edge-Notched Card'
 
+    // ===== 0. ENSURE EMPLOYER (P110) CLAIM ON THE ENGINEER =====
+    // Orgs matched to an already-existing Wikibase entity (rather than minted
+    // through the app) have no P110 claim on the engineer yet — add it here.
+    const orgQid = front.wikibase_org_qid
+    if (orgQid) {
+      const existingEmployerGuid = await findClaimGuid(engineerQid, 'P110', orgQid)
+      if (!existingEmployerGuid) {
+        await wbEdit.claim.create({
+          id: engineerQid,
+          property: 'P110',
+          value: orgQid
+        })
+        console.log(`Added P110 (employer) ${orgQid} to engineer ${engineerQid}`)
+      }
+    }
+
     // ===== 1. CREATE THE DOCUMENT (TD) =====
     const docResult = await wbEdit.entity.create({
       type: 'item',
@@ -602,8 +671,6 @@ router.post('/mint-card', async (req, res) => {
   }
 })
 
-const WIKIBASE_INSTANCE = 'https://base.semlab.io'
-
 // Fetch entity claims from Wikibase API and find the claim GUID for a specific property+value
 async function findClaimGuid(entityQid, property, targetValue) {
   const url = `${WIKIBASE_INSTANCE}/w/api.php?` + new URLSearchParams({
@@ -612,7 +679,7 @@ async function findClaimGuid(entityQid, property, targetValue) {
     props: 'claims',
     format: 'json'
   })
-  const res = await fetch(url)
+  const res = await fetch(url, { headers: { 'User-Agent': WIKIBASE_USER_AGENT } })
   if (!res.ok) throw new Error(`Wikibase API error: ${res.status}`)
   const data = await res.json()
   const claims = data.entities?.[entityQid]?.claims?.[property]
@@ -684,7 +751,7 @@ router.post('/build-collaborators', async (req, res) => {
           id: artistQid,
           property: 'P278',
           value: engineerQid,
-          references: [{ P24: backBlockQid }]
+          references: [{ P26: backBlockQid }]  // reference block
         })
       )
 
@@ -695,7 +762,7 @@ router.post('/build-collaborators', async (req, res) => {
           id: engineerQid,
           property: 'P278',
           value: artistQid,
-          references: [{ P24: backBlockQid }]
+          references: [{ P26: backBlockQid }]  // reference block
         })
       )
 
