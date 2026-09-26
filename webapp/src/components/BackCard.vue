@@ -165,7 +165,34 @@ function handleManualDocumentQid() {
               Manually set Semlab Wikibase QID
             </button>
           </div>
-          <div v-if="frontBlockQid || backBlockQid" class="ml-6 space-y-1">
+          <!-- Document QID was set manually to a pre-existing item: blocks still need generating -->
+          <div v-if="!frontBlockQid && !backBlockQid" class="space-y-2">
+            <p v-if="!engineerQid" class="text-sm text-amber-600">
+              ⚠️ Cannot generate blocks until engineer minted
+            </p>
+            <p v-if="hasUnmintedArtists" class="text-sm text-amber-600">
+              ⚠️ Warning: Still some artists un-minted
+            </p>
+            <button
+              type="button"
+              :disabled="!engineerQid || minting"
+              class="w-full py-3 text-sm font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
+              :class="engineerQid && !minting
+                ? 'bg-blue-600 text-white hover:bg-blue-700'
+                : 'bg-gray-200 text-gray-400 cursor-not-allowed'"
+              @click="emit('mint-card')"
+            >
+              <svg v-if="minting" class="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+              </svg>
+              {{ minting ? 'Generating...' : 'Generate blocks for ' + documentQid }}
+            </button>
+            <p class="text-xs text-gray-500 text-center">
+              Reuses the existing card item, adds any missing claims and images, and creates the front and back blocks.
+            </p>
+          </div>
+          <div v-else class="ml-6 space-y-1">
             <a v-if="frontBlockQid"
                :href="'https://base.semlab.io/wiki/Item:' + frontBlockQid"
                target="_blank" rel="noopener noreferrer"

@@ -462,9 +462,83 @@ router.post('/mint-org-from-wikidata', async (req, res) => {
   }
 })
 
+// The standard claims every edge-notched card document carries.
+function documentBaseClaims(cardId, engineerQid) {
+  return {
+    P1: 'Q28613',       // instance of: edge-notched card
+    P11: 'Q28603',      // part of project: E.A.T. Technical Services Program Edge-Notched Cards
+    P74: 'Q19263',      // creator: Experiments in Art and Technology
+    P96: 'Q24347',      // part of: Technical Services Program
+    P130: 'Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers\' information is listed on the front side and a handwritten list of artists are written down on the back side.',
+    P142: 'The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission',
+    P17: cardId,         // local ID
+    P136: 'Creator: Experiments in Art and Technology (E.A.T.)',
+    P77: engineerQid,    // main subject: the engineer
+  }
+}
+
+// Add a claim only if the entity does not already carry (property, value).
+// Returns true when a claim was created.
+async function ensureClaim(wbEdit, entityQid, property, value, extra = {}) {
+  const existing = await findClaimGuid(entityQid, property, value)
+  if (existing) return false
+  await wbEdit.claim.create({ id: entityQid, property, value, ...extra })
+  return true
+}
+
+// Locate blocks (P1 = Q2013) whose parent document (P24) is documentQid.
+// Wikibase registers statement targets as page links, so "what links here"
+// on the document lists its blocks. Returns { '0': qid, '1': qid, ... } keyed
+// by the block's local ID (P17).
+export async function findExistingBlocks(documentQid) {
+  const blUrl = `${WIKIBASE_INSTANCE}/w/api.php?` + new URLSearchParams({
+    action: 'query',
+    list: 'backlinks',
+    bltitle: `Item:${documentQid}`,
+    blnamespace: '120',
+    bllimit: '500',
+    format: 'json'
+  })
+  const blRes = await fetch(blUrl, { headers: { 'User-Agent': WIKIBASE_USER_AGENT } })
+  if (!blRes.ok) throw new Error(`Wikibase API error: ${blRes.status}`)
+  const blData = await blRes.json()
+  if (blData.error) throw new Error(`Wikibase API error: ${blData.error.info || blData.error.code}`)
+  const ids = (blData.query?.backlinks || [])
+    .map(b => b.title.replace(/^Item:/, ''))
+    .filter(id => /^Q\d+$/.test(id))
+  if (ids.length === 0) return {}
+
+  const blocks = {}
+  for (let i = 0; i < ids.length; i += 50) {
+    const batch = ids.slice(i, i + 50)
+    const url = `${WIKIBASE_INSTANCE}/w/api.php?` + new URLSearchParams({
+      action: 'wbgetentities',
+      ids: batch.join('|'),
+      props: 'claims',
+      format: 'json'
+    })
+    const res = await fetch(url, { headers: { 'User-Agent': WIKIBASE_USER_AGENT } })
+    if (!res.ok) throw new Error(`Wikibase API error: ${res.status}`)
+    const data = await res.json()
+    for (const [qid, entity] of Object.entries(data.entities || {})) {
+      const claims = entity.claims || {}
+      const val = (p) => claims[p]?.[0]?.mainsnak?.datavalue?.value
+      const isBlock = claims.P1?.some(c => c.mainsnak?.datavalue?.value?.id === 'Q2013')
+      const parent = val('P24')?.id
+      if (!isBlock || parent !== documentQid) continue
+      const localId = val('P17')
+      if (localId !== undefined && blocks[localId] === undefined) blocks[localId] = qid
+    }
+  }
+  return blocks
+}
+
 // POST /api/wikibase/mint-card
 // Body: { cardId }
-// Creates THE DOCUMENT, uploads images+OCR to S3, creates THE FRONT BLOCK and THE BACK BLOCK
+// Creates the document + front block + back block and uploads images/OCR to S3.
+// If the card already has a document_qid (e.g. set manually to a pre-existing
+// Wikibase item), that document is reused: missing claims are added to it and
+// only the blocks that do not yet exist are created.
 router.post('/mint-card', async (req, res) => {
   const { cardId } = req.body
   if (!cardId) return res.status(400).json({ error: 'cardId is required' })
@@ -488,35 +562,51 @@ router.post('/mint-card', async (req, res) => {
     // through the app) have no P110 claim on the engineer yet — add it here.
     const orgQid = front.wikibase_org_qid
     if (orgQid) {
-      const existingEmployerGuid = await findClaimGuid(engineerQid, 'P110', orgQid)
-      if (!existingEmployerGuid) {
-        await wbEdit.claim.create({
-          id: engineerQid,
-          property: 'P110',
-          value: orgQid
-        })
-        console.log(`Added P110 (employer) ${orgQid} to engineer ${engineerQid}`)
-      }
+      const added = await ensureClaim(wbEdit, engineerQid, 'P110', orgQid)
+      if (added) console.log(`Added P110 (employer) ${orgQid} to engineer ${engineerQid}`)
     }
 
-    // ===== 1. CREATE THE DOCUMENT (TD) =====
-    const docResult = await wbEdit.entity.create({
-      type: 'item',
-      labels: { en: cardLabel },
-      claims: {
-        P1: 'Q28613',       // instance of: edge-notched card
-        P11: 'Q28603',      // part of project: E.A.T. Technical Services Program Edge-Notched Cards
-        P74: 'Q19263',      // creator: Experiments in Art and Technology
-        P96: 'Q24347',      // part of: Technical Services Program
-        P130: 'Yellow McBee edge-notched card used in the Technical Services Program to match engineers with artists. The engineers\' information is listed on the front side and a handwritten list of artists are written down on the back side.',
-        P142: 'The Getty Research Institute. Research Library. Special Collections. 1200 Getty. Center Drive, Suite 1100. Los Angeles, CA 90049-1688.Tel: 310 440 7390. Not to be reproduced without permission',
-        P17: cardId,         // local ID
-        P136: 'Creator: Experiments in Art and Technology (E.A.T.)',
-        P77: engineerQid,    // main subject: the engineer
+    // ===== 1. CREATE OR REUSE THE DOCUMENT (TD) =====
+    let documentQid = front.document_qid || back?.document_qid || null
+    let reusedDocument = false
+    if (documentQid) {
+      // Validate the manually-set QID before writing anything against it
+      const checkUrl = `${WIKIBASE_INSTANCE}/w/api.php?` + new URLSearchParams({
+        action: 'wbgetentities', ids: documentQid, props: 'info', format: 'json'
+      })
+      const checkRes = await fetch(checkUrl, { headers: { 'User-Agent': WIKIBASE_USER_AGENT } })
+      const checkData = await checkRes.json()
+      const ent = checkData.entities?.[documentQid]
+      if (!ent || ent.missing !== undefined) {
+        return res.status(400).json({ error: `Document ${documentQid} does not exist in Wikibase` })
       }
-    })
-    const documentQid = docResult.entity.id
-    console.log(`Created THE DOCUMENT ${documentQid} for card ${cardId}`)
+      if (ent.redirects?.to) documentQid = ent.redirects.to
+      reusedDocument = true
+      console.log(`Reusing existing DOCUMENT ${documentQid} for card ${cardId}`)
+
+      // Fill in any of the standard document claims that are missing
+      for (const [property, value] of Object.entries(documentBaseClaims(cardId, engineerQid))) {
+        const added = await ensureClaim(wbEdit, documentQid, property, value)
+        if (added) console.log(`Added ${property} to existing document ${documentQid}`)
+      }
+    } else {
+      const docResult = await wbEdit.entity.create({
+        type: 'item',
+        labels: { en: cardLabel },
+        claims: documentBaseClaims(cardId, engineerQid)
+      })
+      documentQid = docResult.entity.id
+      console.log(`Created THE DOCUMENT ${documentQid} for card ${cardId}`)
+    }
+
+    // Blocks already attached to this document (only possible when reusing).
+    // Prefer QIDs recorded in the JSON, then whatever Wikibase reports.
+    const existingBlocks = reusedDocument ? await findExistingBlocks(documentQid) : {}
+    const existingFrontBlockQid = front.block_qid || existingBlocks['0'] || null
+    const existingBackBlockQid = back?.block_qid || existingBlocks['1'] || null
+    if (reusedDocument) {
+      console.log(`Existing blocks for ${documentQid}: front=${existingFrontBlockQid || 'none'}, back=${existingBackBlockQid || 'none'}`)
+    }
 
     // ===== 2. UPLOAD IMAGES TO S3 =====
     if (!imageProvider) throw new Error('Image provider not configured')
@@ -536,9 +626,9 @@ router.post('/mint-card', async (req, res) => {
     )
     console.log(`Uploaded images: ${frontImageUrl}, ${backImageUrl}`)
 
-    // Add file URL (P200) claims to the document
-    await wbEdit.claim.create({ id: documentQid, property: 'P200', value: frontImageUrl })
-    await wbEdit.claim.create({ id: documentQid, property: 'P200', value: backImageUrl })
+    // Add file URL (P200) claims to the document (skipped if already present)
+    await ensureClaim(wbEdit, documentQid, 'P200', frontImageUrl)
+    await ensureClaim(wbEdit, documentQid, 'P200', backImageUrl)
 
     // ===== 3. UPLOAD OCR TEXTS TO S3 =====
     const ocrFront = front.ocr_front || ''
@@ -556,59 +646,79 @@ router.post('/mint-card', async (req, res) => {
     )
     console.log(`Uploaded OCR texts: ${frontTextUrl}, ${backTextUrl}`)
 
-    // ===== 4. CREATE THE FRONT BLOCK (TFB) =====
-    const frontOcrTrimmed = ocrFront.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
-    const frontBlockClaims = {
-      P1: 'Q2013',          // instance of: block
-      P11: 'Q28603',        // part of project
-      P24: documentQid,     // parent document
-      P17: '0',             // local ID
-      P20: frontTextUrl,    // block text URL
-    }
-    if (frontOcrTrimmed) {
-      frontBlockClaims.P19 = frontOcrTrimmed // block text
-    }
-
+    // ===== 4. CREATE OR REUSE THE FRONT BLOCK (TFB) =====
     // Associated entities (P21): engineer + org if exists
     const frontP21 = [engineerQid]
     if (front.wikibase_org_qid) {
       frontP21.push(front.wikibase_org_qid)
     }
-    frontBlockClaims.P21 = frontP21
 
-    const frontBlockResult = await wbEdit.entity.create({
-      type: 'item',
-      labels: { en: `Block 0 of ${cardLabel}` },
-      claims: frontBlockClaims
-    })
-    const frontBlockQid = frontBlockResult.entity.id
-    console.log(`Created THE FRONT BLOCK ${frontBlockQid}`)
+    let frontBlockQid = existingFrontBlockQid
+    if (frontBlockQid) {
+      // Block already exists: only make sure the associated entities are on it
+      for (const qid of frontP21) {
+        const added = await ensureClaim(wbEdit, frontBlockQid, 'P21', qid)
+        if (added) console.log(`Added P21 ${qid} to existing front block ${frontBlockQid}`)
+      }
+      console.log(`Reusing existing FRONT BLOCK ${frontBlockQid}`)
+    } else {
+      const frontOcrTrimmed = ocrFront.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
+      const frontBlockClaims = {
+        P1: 'Q2013',          // instance of: block
+        P11: 'Q28603',        // part of project
+        P24: documentQid,     // parent document
+        P17: '0',             // local ID
+        P20: frontTextUrl,    // block text URL
+        P21: frontP21,        // associated entities
+      }
+      if (frontOcrTrimmed) {
+        frontBlockClaims.P19 = frontOcrTrimmed // block text
+      }
 
-    // ===== 5. CREATE THE BACK BLOCK (TBB) =====
-    const backOcrTrimmed = ocrBack.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
-    const backBlockClaims = {
-      P1: 'Q2013',          // instance of: block
-      P11: 'Q28603',        // part of project
-      P24: documentQid,     // parent document
-      P17: '1',             // local ID
-      P20: backTextUrl,     // block text URL
+      const frontBlockResult = await wbEdit.entity.create({
+        type: 'item',
+        labels: { en: `Block 0 of ${cardLabel}` },
+        claims: frontBlockClaims
+      })
+      frontBlockQid = frontBlockResult.entity.id
+      console.log(`Created THE FRONT BLOCK ${frontBlockQid}`)
     }
-    if (backOcrTrimmed) {
-      backBlockClaims.P19 = backOcrTrimmed // block text
+
+    // ===== 5. CREATE OR REUSE THE BACK BLOCK (TBB) =====
+    let backBlockQid = existingBackBlockQid
+    if (backBlockQid) {
+      console.log(`Reusing existing BACK BLOCK ${backBlockQid}`)
+    } else {
+      const backOcrTrimmed = ocrBack.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
+      const backBlockClaims = {
+        P1: 'Q2013',          // instance of: block
+        P11: 'Q28603',        // part of project
+        P24: documentQid,     // parent document
+        P17: '1',             // local ID
+        P20: backTextUrl,     // block text URL
+      }
+      if (backOcrTrimmed) {
+        backBlockClaims.P19 = backOcrTrimmed // block text
+      }
+
+      const backBlockResult = await wbEdit.entity.create({
+        type: 'item',
+        labels: { en: `Block 1 of ${cardLabel}` },
+        claims: backBlockClaims
+      })
+      backBlockQid = backBlockResult.entity.id
+      console.log(`Created THE BACK BLOCK ${backBlockQid}`)
     }
 
-    const backBlockResult = await wbEdit.entity.create({
-      type: 'item',
-      labels: { en: `Block 1 of ${cardLabel}` },
-      claims: backBlockClaims
-    })
-    const backBlockQid = backBlockResult.entity.id
-    console.log(`Created THE BACK BLOCK ${backBlockQid}`)
-
-    // Add P21 (associated entities) for each minted artist with date qualifiers
+    // Add P21 (associated entities) for each minted artist with date qualifiers.
+    // Skips artists already linked from the block (matters when reusing a block).
     const entries = back?.entries || []
     for (const entry of entries) {
       if (!entry.wikibase_person_qid) continue
+      if (existingBackBlockQid) {
+        const already = await findClaimGuid(backBlockQid, 'P21', entry.wikibase_person_qid)
+        if (already) continue
+      }
 
       // Build qualifier: parse date, strip X's
       const qualifiers = {}
@@ -658,12 +768,15 @@ router.post('/mint-card', async (req, res) => {
       await cardStore.updateBack(cardId, updatedBack)
     }
 
-    console.log(`Mint card complete for ${cardId}: doc=${documentQid}, frontBlock=${frontBlockQid}, backBlock=${backBlockQid}`)
+    console.log(`Mint card complete for ${cardId}: doc=${documentQid}${reusedDocument ? ' (reused)' : ''}, frontBlock=${frontBlockQid}, backBlock=${backBlockQid}`)
     res.json({
       ok: true,
       documentQid,
       frontBlockQid,
-      backBlockQid
+      backBlockQid,
+      reusedDocument,
+      reusedFrontBlock: Boolean(existingFrontBlockQid),
+      reusedBackBlock: Boolean(existingBackBlockQid)
     })
   } catch (err) {
     console.error(`Failed to mint card ${cardId}:`, err.message)
@@ -672,7 +785,7 @@ router.post('/mint-card', async (req, res) => {
 })
 
 // Fetch entity claims from Wikibase API and find the claim GUID for a specific property+value
-async function findClaimGuid(entityQid, property, targetValue) {
+export async function findClaimGuid(entityQid, property, targetValue) {
   const url = `${WIKIBASE_INSTANCE}/w/api.php?` + new URLSearchParams({
     action: 'wbgetentities',
     ids: entityQid,
@@ -686,7 +799,9 @@ async function findClaimGuid(entityQid, property, targetValue) {
   if (!claims) return null
   for (const claim of claims) {
     if (targetValue === null) return claim.id  // any claim with this property
-    const val = claim.mainsnak?.datavalue?.value?.id
+    const dv = claim.mainsnak?.datavalue?.value
+    // Item values are { id: 'Q123' }; string/url values are plain strings
+    const val = (dv && typeof dv === 'object') ? dv.id : dv
     if (val === targetValue) return claim.id
   }
   return null

@@ -388,7 +388,8 @@ async function onMintCard() {
       originalBack.value.document_qid = result.documentQid
       originalBack.value.block_qid = result.backBlockQid
     }
-    showToast(`Minted card: doc=${result.documentQid}, front block=${result.frontBlockQid}, back block=${result.backBlockQid}`, 'success')
+    const docNote = result.reusedDocument ? ' (existing)' : ''
+    showToast(`Minted card: doc=${result.documentQid}${docNote}, front block=${result.frontBlockQid}, back block=${result.backBlockQid}`, 'success')
   } catch (err) {
     console.error('Failed to mint card:', err)
     showToast('Failed to mint card: ' + (err.message || 'Unknown error'), 'error')
