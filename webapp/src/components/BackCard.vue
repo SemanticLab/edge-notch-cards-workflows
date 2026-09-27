@@ -245,9 +245,9 @@ function handleManualDocumentQid() {
       <button
         v-else
         type="button"
-        :disabled="!documentQid || minting"
+        :disabled="!documentQid || !backBlockQid || minting"
         class="w-full py-3 text-sm font-medium rounded-lg transition-colors flex items-center justify-center gap-2 mt-3"
-        :class="documentQid && !minting
+        :class="documentQid && backBlockQid && !minting
           ? 'bg-purple-600 text-white hover:bg-purple-700'
           : 'bg-gray-200 text-gray-400 cursor-not-allowed'"
         @click="emit('build-collaborators')"
