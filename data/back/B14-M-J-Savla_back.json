@@ -1,12 +1,12 @@
 {
   "entries": [
     {
-      "name": "Henry House",
+      "name": "Tony Source",
       "date": "XXXX-11-12",
       "bounding_box": {
         "x1": 6.6,
         "y1": 8.5,
-        "x2": 36.0,
+        "x2": 36,
         "y2": 18.4
       },
       "wikibase_candidates": [
@@ -180,7 +180,9 @@
             }
           ]
         }
-      }
+      },
+      "contact_method": "here",
+      "wikibase_person_qid": "Q26383"
     },
     {
       "name": "Mark Sharp",
@@ -188,8 +190,8 @@
       "bounding_box": {
         "x1": 8.8,
         "y1": 18.6,
-        "x2": 31.0,
-        "y2": 28.0
+        "x2": 31,
+        "y2": 28
       },
       "wikibase_candidates": [],
       "wikidata_candidates": [
@@ -327,10 +329,11 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q31959"
     },
     {
-      "name": "Rosemary Beresford",
+      "name": "Rosmary Beresford",
       "date": "XXXX-04-20",
       "bounding_box": {
         "x1": 8.4,
@@ -397,15 +400,16 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "wikibase_person_qid": "Q30385"
     },
     {
       "name": "H. Amann",
       "date": "XXXX-06-22",
       "bounding_box": {
         "x1": 9.3,
-        "y1": 34.0,
-        "x2": 26.0,
+        "y1": 34,
+        "x2": 26,
         "y2": 40.5
       },
       "wikibase_candidates": [],
@@ -549,8 +553,12 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q32069"
     }
   ],
-  "ocr_back": "mentory source 11/12\nMark Shop 2/4\nRosmary Beresford 4/20\nH. Amahn 22/6"
+  "ocr_back": "mentory source 11/12\nMark Shop 2/4\nRosmary Beresford 4/20\nH. Amahn 22/6",
+  "document_qid": "Q32131",
+  "block_qid": "Q32133",
+  "collaborators_built": true
 }

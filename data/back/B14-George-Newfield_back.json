@@ -2,7 +2,7 @@
   "entries": [
     {
       "name": "Michael Kirby",
-      "name_other": "LOFT",
+      "name_other": "",
       "date": "XXXX-10-10",
       "bounding_box": {
         "x1": 7.7,
@@ -132,14 +132,16 @@
             }
           ]
         }
-      }
+      },
+      "contact_method": "LOFT",
+      "wikibase_person_qid": "Q19452"
     },
     {
       "name": "Bob Blossom",
       "contact_method": "Letter",
       "date": "1969-10-06",
       "bounding_box": {
-        "x1": 7.0,
+        "x1": 7,
         "y1": 15.5,
         "x2": 55.6,
         "y2": 25.9
@@ -272,8 +274,12 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q30984"
     }
   ],
-  "ocr_back": "LOFT MICHAEL KIRBY-OCT 10\nLetter Bob Blossom 10/6/69"
+  "ocr_back": "LOFT MICHAEL KIRBY-OCT 10\nLetter Bob Blossom 10/6/69",
+  "document_qid": "Q30985",
+  "block_qid": "Q30987",
+  "collaborators_built": true
 }

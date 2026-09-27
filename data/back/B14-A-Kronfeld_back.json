@@ -1,9 +1,9 @@
 {
   "entries": [
     {
-      "name": "M. WISNIEWSKI",
+      "name": "Ray WISNIEWSKI",
       "bounding_box": {
-        "x1": 8.0,
+        "x1": 8,
         "y1": 5.8,
         "x2": 27.8,
         "y2": 11.5
@@ -181,7 +181,9 @@
             }
           ]
         }
-      }
+      },
+      "name_other": "WISNIEWSKI",
+      "wikibase_person_qid": "Q32025"
     },
     {
       "name": "HARPER",
@@ -387,173 +389,9 @@
             }
           ]
         }
-      }
-    },
-    {
-      "name": "SUMMERS",
-      "bounding_box": {
-        "x1": 14.3,
-        "y1": 17.3,
-        "x2": 25.4,
-        "y2": 21.4
       },
-      "wikibase_candidates": [],
-      "wikidata_candidates": [
-        {
-          "qid": "Q317953",
-          "label": "Lawrence Summers",
-          "match": false,
-          "confidence": "high",
-          "reasoning": "The card describes an artist active in the late 1960s and early 1970s. Lawrence Summers (Q317953) is a world-renowned economist, politician, and academic. He was born in 1954, making him a teenager during the specified period, and his entire career has been in economics and government, not the arts."
-        },
-        {
-          "qid": "Q7637646",
-          "label": "Summers Melville Jack",
-          "match": false,
-          "confidence": "high",
-          "reasoning": "The person in the Wikidata entry died in 1945, which makes it impossible for him to be the artist active in the late 1960s and early 1970s described in the card context. Furthermore, the Wikidata entity was a politician and lawyer, not an artist."
-        },
-        {
-          "qid": "Q21610040",
-          "label": "Lucia Ann Summers",
-          "match": false,
-          "confidence": "high",
-          "reasoning": "The Wikidata entity Lucia Ann Summers (1835-1898) died long before the person on the card, who was active in the late 1960s and early 1970s. Furthermore, the Wikidata entity is described as a botanist and teacher, not an artist."
-        },
-        {
-          "qid": "Q57980429",
-          "label": "Jennifer Summers",
-          "match": false,
-          "confidence": "high",
-          "reasoning": "The Wikidata entity describes Jennifer Summers, a contemporary epidemiologist and statistician whose academic work (including a PhD) and professional career appear to be centered in the 21st century. Her doctoral advisors and thesis project focus on public health and the 1918 pandemic, which is inconsistent with the timeframe of an artist active in the late 1960s and early 1970s."
-        }
-      ],
-      "web_research": {
-        "results": [
-          {
-            "possibleIdentity": "Elaine Summers (1925–2014) was a pioneering American choreographer, filmmaker, and intermedia artist. She was a founding member of the Judson Dance Theater in New York City during the early 1960s, a group that helped redefine modern dance. Summers is recognized as a pioneer in the field of intermedia, which explores the intersection of different artistic disciplines and technology. Her seminal work, \"Fantastic Gardens\" (1964), was one of the first multi-media performances to integrate dance, film projections, and music. In 1968, she founded the Experimental Intermedia Foundation (EIF), which remains a notable organization for promoting avant-garde artistic collaborations. Her work and foundation are frequently associated with the Experiments in Art and Technology (E.A.T.) movement, and she is often cited alongside E.A.T. figures such as Billy Klüver and Robert Rauschenberg in historical accounts of early new media and technology-based performance art.",
-            "sources": [
-              "https://www.wendyperron.com/elaine-summers-1925-2014/",
-              "https://www.elainesummersdance.com/biographies",
-              "https://www.kineticawarenesscenter.org/elaine-summers-originator/",
-              "https://www.swarmmag.com/a-homage-to-lifes-work/"
-            ],
-            "accuracyLevel": "normal"
-          },
-          {
-            "possibleIdentity": "Carol Summers (1925–2016) was a distinguished American printmaker best known for his large-scale, color-saturated woodcuts and innovative relief printing techniques. While primarily known for his visual art, he was an active participant in the avant-garde New York art scene of the 1960s. He is specifically linked to the Experiments in Art and Technology (E.A.T.) through his participation in the landmark 1966 event \"9 Evenings: Theatre and Engineering.\" Summers was a performer in Yvonne Rainer's choreographed piece \"Carriage Discreteness,\" which utilized remote-controlled objects and electronic communication systems. His involvement in this foundational E.A.T. project places him within the circle of artists who pioneered collaborations between the arts and engineering during that era.",
-            "sources": [
-              "https://www.experimentsinartandtechnology.org/9e-yvonne-rainer",
-              "https://www.nypl.org/events/exhibitions/prints-without-pressure/artists-n-z",
-              "https://www.sciami.com/atlante-video-iconografico-nine-evenings-experiment-in-art-and-technology-1966/",
-              "https://www.rauschenbergfoundation.org/exhibition/9-evenings-theatre-and-engineering"
-            ],
-            "accuracyLevel": "normal"
-          },
-          {
-            "possibleIdentity": "Gene Summers (1928–2011) was an American architect and artist who began his career as a protégé and supervising architect for Ludwig Mies van der Rohe. He was the architect for several major projects, including the McCormick Place Convention Center in Chicago, completed in 1970. Later in his career, he turned increasingly toward sculpture and fine art, working in various media including bronze. While his professional career as an architect was his primary focus during the late 1960s and early 1970s, he is often identified as an artist in architectural and design contexts and was active during the period of high interest in the intersection of structural engineering and aesthetic form.",
-            "sources": [
-              "https://www.chicagomag.com/chicago-magazine/august-2014/retailer-holly-hunt-shows-you-her-favorite-things/",
-              "https://www.oclc.org/research/publications/oralhistory/gene-summers.html",
-              "https://www.usmodernist.org/gene-summers"
-            ],
-            "accuracyLevel": "normal"
-          }
-        ],
-        "groundingMetadata": {
-          "webSearchQueries": [
-            "artist \"Summers\" \"Experiments in Art and Technology\"",
-            "\"Robert Summers\" artist E.A.T.",
-            "\"Summers\" artist 1960s 1970s E.A.T.",
-            "\"Gene Summers\" artist E.A.T.",
-            "\"Summers\" Pepsi Pavilion E.A.T.",
-            "\"Diane Summers\" artist E.A.T.",
-            "Carol Summers artist \"Experiments in Art and Technology\"",
-            "\"Summers\" artist E.A.T. Pepsi Pavilion",
-            "\"Elaine Summers\" artist \"Experiments in Art and Technology\"",
-            "\"Summers\" 9 Evenings E.A.T.",
-            "\"Summers\" engineer E.A.T.",
-            "\"Summers\" engineer Experiments in Art and Technology",
-            "\"James Summers\" artist E.A.T.",
-            "\"Gene Summers\" architect E.A.T.",
-            "\"Carol Summers\" printmaker E.A.T.",
-            "\"Summers\" artist member of Experiments in Art and Technology",
-            "\"Elaine Summers\" choreographer E.A.T.",
-            "\"Elaine Summers\" filmmaker experiments in art and technology",
-            "\"Carol Summers\" printmaker experiments in art and technology",
-            "\"Summers\" Experiments in Art and Technology engineer",
-            "\"Summers\" artist Pepsi Pavilion collaborator",
-            "\"Summers\" E.A.T. membership list"
-          ],
-          "groundingChunks": [
-            {
-              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm1xt5XdYWSltLGpXqTgrWLnnhV8bKeL5z6epF5xyquNfouRkamdEyanFHx-K5p2JOdRo76AVH5rSLAtsQLE8jLYYtWEsENB946L4Xe1wxI2D_0-ET1odZekw_oMdDbaCBp__JTG0JeMagBDY=",
-              "title": "elainesummersdance.com",
-              "resolvedUri": "http://elainesummersdance.com/sunmoonstars_pr.pdf"
-            },
-            {
-              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgkUFGjU741sjdoDQZLs_PYTqaV7SEjg9WPXwImoUy08qA9Bz3B7bKHK86Xzr2FtNwc_q_ru9UBtC-n8vai-9ioMw-1-qpUhHo1nuKbPHJbuJFB3q7BASnj_74vV9tbwF2HNgqQGOUysGxB1Lp1Q==",
-              "title": "wendyperron.com",
-              "resolvedUri": "https://wendyperron.com/elaine-summers-1925-2014-2/"
-            },
-            {
-              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhLAqyIc0rBFXHrwZiRVaSjGCihlu_Enn9pSRL6RXVOG2veORKnKLt2dAEJ-mlZB0GLf192XuNCIVeFilCqpFT-iWmkW_bfbwL9DvFgwx9RrQi6pQ0CzV3mnhLZnGqFZVGJhFG-rHF8cWJ8PXAKNS1gN8pngaaR67ocg==",
-              "title": "elainesummersdance.com",
-              "resolvedUri": "https://elainesummersdance.com/HiddenForest2025_biographies.pdf"
-            },
-            {
-              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfAKj5Nq8_LndCzhMfcLtZzSPbiagXsXJoyVnKbMwsdocP17w8sj0JrJhzrUHahi5ONjhslIaHdRLAADwpUY0mpN8lwUcUrHVh7C7Zt9AoUyqrhd1HZtXofenhEu32qK2VZTI6pOvwqugoK5_sTA8Lwg==",
-              "title": "kineticawarenesscenter.org",
-              "resolvedUri": "http://kineticawarenesscenter.org/teacher_Summers.html"
-            },
-            {
-              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSFO-d3oH1N8NKHRCZwi9FWwv1BlsIZFd0WpN79Zcb5W54_-AVjsMfgeqBoHN_rXH-c7u-O89cdqq7jBRilKLdEmKrGx-PflxLv_pAFOkOJ933l6J0hnrJzfCGOSF_6zNoMMq0sfvhnGIGDO8A",
-              "title": "swarmmag.com",
-              "resolvedUri": "https://swarmmag.com/words/a-homage-to-lifes-work/"
-            },
-            {
-              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmfp0gPYjrQhW-sP8XHBibbaXRp_4xhX6QWtmfsWey7K3xV64xkledBVV4vvcWD1DmNj2W-2Oe8CfoOA5YEvSFIaFVdUWCfFKALaPh9KyCnSqvkzzQXStQ66u3VzWgloBLrkoZ4_Q_OALgJaElGDY=",
-              "title": "tokyoartbeat.com",
-              "resolvedUri": "https://www.tokyoartbeat.com/en/events/-/2017%2F9235"
-            }
-          ],
-          "groundingSupports": [
-            {
-              "segment": {
-                "startIndex": null,
-                "endIndex": 153,
-                "text": "{\n  \"results\": [\n    {\n      \"possibleIdentity\": \"Elaine Summers (1925–2014) was a pioneering American choreographer, filmmaker, and intermedia artist."
-              },
-              "groundingChunkIndices": [
-                0,
-                1,
-                2
-              ]
-            },
-            {
-              "segment": {
-                "startIndex": 292,
-                "endIndex": 436,
-                "text": "Summers is recognized as a pioneer in the field of intermedia, which explores the intersection of different artistic disciplines and technology."
-              },
-              "groundingChunkIndices": [
-                3
-              ]
-            },
-            {
-              "segment": {
-                "startIndex": 735,
-                "endIndex": 836,
-                "text": "Her work and foundation are frequently associated with the Experiments in Art and Technology (E.A.T.)"
-              },
-              "groundingChunkIndices": [
-                4,
-                5
-              ]
-            }
-          ]
-        }
-      }
+      "name_other": "Meg Harper",
+      "wikibase_person_qid": "Q32024"
     },
     {
       "name": "ELAINE SUMMERS",
@@ -655,150 +493,8 @@
             }
           ]
         }
-      }
-    },
-    {
-      "name": "Kronfeld",
-      "other_metadata": "worked with Elaine Summers on Judson performance",
-      "bounding_box": {
-        "x1": 73.1,
-        "y1": 20.0,
-        "x2": 85.2,
-        "y2": 31.0
       },
-      "wikibase_candidates": [],
-      "wikidata_candidates": [
-        {
-          "qid": "Q86279",
-          "label": "Robert Kronfeld",
-          "match": false,
-          "confidence": "high",
-          "reasoning": "The Wikidata entity Robert Kronfeld died in 1948, which makes it impossible for him to have worked with Elaine Summers on a Judson performance (the Judson Dance Theater was active starting in the early 1960s). Furthermore, the Wikidata entity was a pilot and engineer, not an artist/performer."
-        },
-        {
-          "qid": "Q343429",
-          "label": "Frigyes Korányi",
-          "match": false,
-          "confidence": "high",
-          "reasoning": "The Wikidata entity Frigyes Korányi lived from 1828 to 1913 and was a Hungarian physician and politician. The card entry refers to a 'Kronfeld' who worked with Elaine Summers on Judson performances, which places their activity in the late 1960s or early 1970s. The names, dates, and professions do not match."
-        },
-        {
-          "qid": "Q36564178",
-          "label": "G. Kronfeldt",
-          "match": false,
-          "confidence": "high",
-          "reasoning": "The card refers to a person involved in the Judson performance scene with Elaine Summers, indicating they were an artist or performer. The Wikidata entity describes a botanist, which is an unlikely career overlap for someone active in the avant-garde dance scene of the 1960s/70s."
-        },
-        {
-          "qid": "Q53764979",
-          "label": "Kruger Latu",
-          "match": false,
-          "confidence": "high",
-          "reasoning": "The Wikidata entity Kruger Latu was born in 1995 and is a rugby player, which contradicts the card metadata describing an artist (Kronfeld) active in the late 1960s/early 1970s."
-        }
-      ],
-      "web_research": {
-        "results": [
-          {
-            "possibleIdentity": "Morris Kronfeld (1914–2011) was a New York Modernist artist and educator active throughout the mid-to-late 20th century, including the 1960s and 1970s. He studied biology and art history at Brooklyn College and received a master's degree from NYU. Professionally, he served as an art teacher and eventually a district art supervisor for the New York City Board of Education. His artistic practice was eclectic, involving experiments with materials such as sand mixed with paint to create unique textures, pen and ink (often using pens he whittled from feathers and sticks), watercolors, and oils. His subject matter ranged from surreal cityscapes and architectural fantasies to botanical studies and abstract forms. Given his New York location, his career timeline, and his interdisciplinary background in biology and art, he is a strong candidate for an artist who would have been associated with or interested in the Experiments in Art and Technology (E.A.T.) movement in New York during the late 1960s.",
-            "sources": [
-              "https://lostartsalon.com/collections/morris-kronfeld",
-              "https://www.1stdibs.com/creators/morris-kronfeld/art/"
-            ],
-            "accuracyLevel": "normal"
-          },
-          {
-            "possibleIdentity": "The Kronfeld Aviation Art Society was an organization of artists founded in London in 1966, named after the pioneer glider pilot Robert Kronfeld. The group was composed of artists (approximately 10 at its founding) who specialized in the depiction of aircraft and aeronautical themes, a field that inherently required a close relationship between art and engineering. The society was active until 1971, when it was dissolved and reorganized into the Guild of Aviation Artists. Its first major exhibition was held at the Royal Aeronautical Society in 1971. The society's focus on technical and scientific subjects (aviation and aeronautics) aligns with the period of activity and the technical collaborative spirit of organizations like E.A.T.",
-            "sources": [
-              "https://artuk.org/discover/curations/artists-and-places-the-guild-of-aviation-artists-and-pioneering-aviation-art-societies",
-              "https://visitpalmsprings.com/aviation-in-art/"
-            ],
-            "accuracyLevel": "normal"
-          },
-          {
-            "possibleIdentity": "Peter C. Kronfeld was a prominent ophthalmologist and professor whose work and presence intersected with the avant-garde design and art communities of the 1960s. He was a featured speaker at the 1961 International Design Conference in Aspen (IDCA), a precursor and parallel venue to the Experiments in Art and Technology (E.A.T.) ethos, where participants explored the 'cross-fertilization of ideas' between art, design, and science. His 1943 book, 'The Human Eye in Anatomical Transparencies,' utilized a 'trans-vision' process of layered transparent acetate to synthesize anatomical data into a three-dimensional representation, which was recognized by design historians as a significant innovation in technical and artistic visualization. Peter Kronfeld is listed in 'The Aspen Papers' (1974) among other contributors to these interdisciplinary dialogues, which included E.A.T. founders like John Cage.",
-            "sources": [
-              "https://nyamcenterforhistory.org/2016/06/02/the-foresight-of-trans-vision-an-innovative-anatomy-of-the-eye/",
-              "https://aspensojo.com/arts-culture/avant-garde-aspen/"
-            ],
-            "accuracyLevel": "normal"
-          }
-        ],
-        "groundingMetadata": {
-          "webSearchQueries": [
-            "artist named Kronfeld E.A.T. collaboration",
-            "who is Kronfeld artist late 1960s early 1970s",
-            "\"Kronfeld\" artist 1960s 1970s",
-            "Kronfeld artist Experiments in Art and Technology E.A.T.",
-            "\"Kronfeld\" E.A.T. artist collaborator",
-            "\"Kronfeld\" Experiments in Art and Technology E.A.T. member list",
-            "\"Kronfeld\" Bell Labs artist collaboration",
-            "\"Marion Kronfeld\" Experiments in Art and Technology",
-            "\"Kronfeld\" Pepsi Pavilion E.A.T.",
-            "",
-            "\"Kronfeld Aviation Art Society\" E.A.T.",
-            "\"Morris Kronfeld\" E.A.T. collaboration",
-            "\"Kronfeld\" artist engineer collaboration 1970s",
-            "\"Marion Kronfeld\" E.A.T. collaboration",
-            "\"Kronfeld\" E.A.T. New York artist",
-            "\"Kronfeld\" Experiments in Art and Technology member archive",
-            "",
-            "\"Kronfeld\" Pepsi Pavilion artist list",
-            "\"Kronfeld\" artist engineer collaboration Bell Labs",
-            "\"Kronfeld\" artist E.A.T. bibliography",
-            "\"Kronfeld\" artist 1960s 1970s New York experimental",
-            "\"Kronfeld\" participating artist 9 Evenings",
-            "\"Kronfeld\" participating artist Pepsi Pavilion",
-            "\"Peter Kronfeld\" Experiments in Art and Technology",
-            "\"Kronfeld\" artist engineer collaboration E.A.T.",
-            "",
-            "\"Kronfeld\" \"Billy Klüver\" Experiments in Art and Technology",
-            "\"Kronfeld\" artist Pepsi Pavilion participants list",
-            "\"Peter Kronfeld\" 1960s artist science",
-            "\"Morris Kronfeld\" artist 1960s 1970s NY E.A.T.",
-            "\"Kronfeld\" artist engineer collaboration E.A.T. archives",
-            "\"Peter Kronfeld\" 1960s art science collaboration",
-            "\"Kronfeld\" Pepsi Pavilion collaboration",
-            "\"Karl Kronfeld\" electronic music 1970s E.A.T.",
-            "\"Kronfeld\" artist E.A.T. membership list",
-            "\"Kronfeld\" Experiments in Art and Technology engineer list",
-            "\"Morris Kronfeld\" artist NYC 1960s 1970s",
-            "\"Morris Kronfeld\" E.A.T. member",
-            "\"Arthur Kronfeld\" artist E.A.T.",
-            "\"Kronfeld\" artist engineer collaboration Pepsi Pavilion list",
-            "\"Peter Kronfeld\" Experiments in Art and Technology Aspen",
-            "\"Kronfeld\" Experiments in Art and Technology \"Technical Services\"",
-            "\"Kronfeld\" artist engineer collaboration 1968 1969 1970",
-            "\"Kronfeld\" artist science technology collaboration 1970s",
-            "\"Morris Kronfeld\" E.A.T. artist membership"
-          ],
-          "groundingChunks": [
-            {
-              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZEjbDvYo01hlzxIsXjKRZ79wqu_eOHiFstEb7V0_0KGVIvo1FkDiE-mm4IuOQ1FlOWN6Qe-vCb64KtVouOI1VLKNMjaxzZeU12UTr37diwpM0tYCzCpMKB6LcgpA=",
-              "title": "pugachov.ru",
-              "resolvedUri": "https://pugachov.ru/eem/bafram.html"
-            },
-            {
-              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXVi6_NSd8HJHqF6bJH2XCsTS8Bu6PStqwT95MRsO2p6hWhzx4XG13T5BGtAh-r6K5GEkq7jeBVNkODOW5ZNlqWr_tgjxg-iv6nl9l5a1w1WIguBJwz0v9HpaJd7LMMWeYqwx89KkhTFpw2-uzXHTxEzYs55YLxqsJquW_Cfqfrjq8e2AbP6gzZREaEp7XUxNWMBe38Rs5wrXRCEqmASoBJ7bRD_VtSJk=",
-              "title": "researchgate.net",
-              "resolvedUri": "https://www.researchgate.net/publication/368664856_A_Planning-Based_Explainable_Collaborative_Dialogue_System"
-            }
-          ],
-          "groundingSupports": [
-            {
-              "segment": {
-                "startIndex": 3205,
-                "endIndex": 3486,
-                "text": "founders like John Cage.\",\n      \"sources\": [\n        \"https://nyamcenterforhistory.org/2016/06/02/the-foresight-of-trans-vision-an-innovative-anatomy-of-the-eye/\",\n        \"https://aspensojo.com/arts-culture/avant-garde-aspen/\"\n      ],\n      \"accuracyLevel\": \"normal\"\n    }\n  ]\n}"
-              },
-              "groundingChunkIndices": [
-                0,
-                1
-              ]
-            }
-          ]
-        }
-      }
+      "wikibase_person_qid": "Q19250"
     },
     {
       "name": "P. Deal",
@@ -930,8 +626,13 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "name_other": "Peter Deal (likely)",
+      "wikibase_person_qid": "Q30334"
     }
   ],
-  "ocr_back": "M. WISNIEWSKI\n   HARPER\n   SUMMERS.\nLetter from ELAINE SUMMERS (Jan 27 '68) she & Kronfeld worked on a\nJudson performance, and hope to begin another project soon\n   P. Deal 5/8/70"
+  "ocr_back": "M. WISNIEWSKI\n   HARPER\n   SUMMERS.\nLetter from ELAINE SUMMERS (Jan 27 '68) she & Kronfeld worked on a\nJudson performance, and hope to begin another project soon\n   P. Deal 5/8/70",
+  "document_qid": "Q32026",
+  "block_qid": "Q32028",
+  "collaborators_built": true
 }

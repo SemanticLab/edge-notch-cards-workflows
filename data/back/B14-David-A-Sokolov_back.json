@@ -7,7 +7,7 @@
       "bounding_box": {
         "x1": 7.3,
         "y1": 9.3,
-        "x2": 51.0,
+        "x2": 51,
         "y2": 21.2
       },
       "wikibase_candidates": [],
@@ -96,15 +96,17 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "name_other": "Lawrence Hahn (likely)",
+      "wikibase_person_qid": "Q30679"
     },
     {
-      "name": "Rue Gale",
+      "name": "Kira Gale",
       "contact_method": "letter",
       "date": "XXXX-11-12",
       "bounding_box": {
         "x1": 6.5,
-        "y1": 18.0,
+        "y1": 18,
         "x2": 49.8,
         "y2": 32.9
       },
@@ -238,14 +240,15 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "wikibase_person_qid": "Q26333"
     },
     {
       "name": "Jill Rosenberg",
       "date": "1970-12-29",
       "bounding_box": {
         "x1": 6.5,
-        "y1": 26.0,
+        "y1": 26,
         "x2": 32.5,
         "y2": 37.3
       },
@@ -355,8 +358,12 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q26324"
     }
   ],
-  "ocr_back": "letter Larry Hahn 10/8/69\nletter Rua Gale 11/12\nJill Rosenberg 12/29/70"
+  "ocr_back": "letter Larry Hahn 10/8/69\nletter Rua Gale 11/12\nJill Rosenberg 12/29/70",
+  "document_qid": "Q31928",
+  "block_qid": "Q31930",
+  "collaborators_built": true
 }

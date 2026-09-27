@@ -5,7 +5,7 @@
       "contact_method": "LETTER",
       "date": "XXXX-07-23",
       "bounding_box": {
-        "x1": 17.0,
+        "x1": 17,
         "y1": 12.6,
         "x2": 43.7,
         "y2": 16.3
@@ -164,76 +164,15 @@
             }
           ]
         }
-      }
-    },
-    {
-      "name": "Michael Janots",
-      "contact_method": "Letter",
-      "date": "1969-02-19",
-      "other_metadata": "struck through",
-      "bounding_box": {
-        "x1": 16.3,
-        "y1": 17.8,
-        "x2": 38.1,
-        "y2": 23.0
       },
-      "wikibase_candidates": [],
-      "wikidata_candidates": [],
-      "web_research": {
-        "results": [],
-        "groundingMetadata": {
-          "webSearchQueries": [
-            "\"Experiments in Art and Technology\" participant list",
-            "\"Janots\" Experiments in Art and Technology",
-            "\"Michael Janot\" artist",
-            "",
-            "\"Michael Janot\" E.A.T.",
-            "\"Michel Janot\" E.A.T.",
-            " \"Janot\"",
-            " \"Janots\"",
-            "\"Experiments in Art and Technology\" Michael Janots",
-            "\"Experiments in Art and Technology\" Michael Janot",
-            "\"Janots\" participant E.A.T.",
-            "\"Janots\" list Experiments in Art and Technology",
-            "\"Janots\" member E.A.T.",
-            "",
-            "",
-            "",
-            "list of artists \"The Machine as Seen at the End of the Mechanical Age\" MoMA 1968",
-            "\"Janots\" E.A.T. 1968",
-            "\"Janots\" MoMA 1968",
-            " \"Janot\"",
-            " \"Janots\"",
-            "\"Michael Jantzen\" E.A.T.",
-            "\"Michel Janot\" artist",
-            "\"Michael Janot\" artist",
-            "\"Michael Jantzen\" E.A.T. association",
-            "\"M. Janots\" E.A.T. member",
-            "Experiments in Art and Technology membership directory Janots",
-            " \"Michael Janot\"",
-            " \"Janots\" E.A.T.",
-            " \"Janot\" E.A.T.",
-            "Michel Janot \"Art and Science\"",
-            "\"Michel Janot\" 1968 exhibition technology",
-            "\"Michael Jantzen\" Experiments in Art and Technology member",
-            "\"Michael Jantzen\" E.A.T. member",
-            "\"Michael Janot\" E.A.T. artist engineer",
-            "\"Janots\" member of Experiments in Art and Technology 1960s 1970s",
-            "\"Michel Janot\" E.A.T. artist engineer",
-            "\"Michael Janos\" artist 1970s",
-            "\"Michael Janos\" artist E.A.T."
-          ],
-          "groundingChunks": [],
-          "groundingSupports": []
-        }
-      }
+      "wikibase_person_qid": "Q31647"
     },
     {
       "name": "Bernard Childs",
       "contact_method": "Letter",
       "date": "1969-03-03",
       "bounding_box": {
-        "x1": 14.0,
+        "x1": 14,
         "y1": 21.8,
         "x2": 36.5,
         "y2": 30.3
@@ -281,7 +220,8 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "wikibase_person_qid": "Q30004"
     },
     {
       "name": "G. Tasgal-Kliegman",
@@ -394,7 +334,9 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q31497",
+      "name_other": "Gerda Tasgal-Kliegman"
     },
     {
       "name": "J. Evans",
@@ -547,7 +489,8 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q26366"
     },
     {
       "name": "Don Little",
@@ -747,10 +690,11 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q30757"
     },
     {
-      "name": "Esther Gentil",
+      "name": "Esther Gentle",
       "date": "1970-12-21",
       "bounding_box": {
         "x1": 13.8,
@@ -924,7 +868,9 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q31648",
+      "name_other": "Esther Gentil"
     },
     {
       "name": "Jill Rosenberg",
@@ -1053,7 +999,8 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q26324"
     },
     {
       "name": "Dr. Morris",
@@ -1145,8 +1092,12 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "wikibase_person_qid": "Q26367"
     }
   ],
-  "ocr_back": "LETTER-WILLIAM CAREY GWIN - JULY 23.\n~~Letter Michael Janis Feb 10/68~~\nLetter Bernard Childs Mar 3/68\nG. Tasgal-Kliegman 13/7\nJ. Evans 9/25/70\nDon Little 9/30\nEsther Gentel 12/21/70\nJill Rosenberg 12/24/70\nDr. Morris"
+  "ocr_back": "LETTER-WILLIAM CAREY GWIN - JULY 23.\n~~Letter Michael Janis Feb 10/68~~\nLetter Bernard Childs Mar 3/68\nG. Tasgal-Kliegman 13/7\nJ. Evans 9/25/70\nDon Little 9/30\nEsther Gentel 12/21/70\nJill Rosenberg 12/24/70\nDr. Morris",
+  "document_qid": "Q31649",
+  "block_qid": "Q31651",
+  "collaborators_built": true
 }

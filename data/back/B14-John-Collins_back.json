@@ -2,10 +2,10 @@
   "entries": [
     {
       "name": "T. Burke",
-      "name_other": "null",
-      "contact_method": "null",
+      "name_other": "",
+      "contact_method": "",
       "date": "1970-01-12",
-      "other_metadata": "null",
+      "other_metadata": "",
       "bounding_box": {
         "x1": 11.52,
         "y1": 8.33,
@@ -185,14 +185,15 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q31603"
     },
     {
       "name": "T. Abeles",
-      "name_other": "null",
+      "name_other": "",
       "contact_method": "letter",
       "date": "1970-11-02",
-      "other_metadata": "null",
+      "other_metadata": "",
       "bounding_box": {
         "x1": 8.11,
         "y1": 17.38,
@@ -284,8 +285,12 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "wikibase_person_qid": "Q26570"
     }
   ],
-  "ocr_back": "T. Burke 1/12/70\nT. Abeles (letter) 11/2/70"
+  "ocr_back": "T. Burke 1/12/70\nT. Abeles (letter) 11/2/70",
+  "document_qid": "Q31604",
+  "block_qid": "Q31606",
+  "collaborators_built": true
 }

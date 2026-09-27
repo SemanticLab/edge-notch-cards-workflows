@@ -5,10 +5,10 @@
       "contact_method": "PHONE",
       "date": "XXXX-01-22",
       "bounding_box": {
-        "x1": 21.0,
-        "y1": 12.0,
-        "x2": 59.0,
-        "y2": 19.0
+        "x1": 21,
+        "y1": 12,
+        "x2": 59,
+        "y2": 19
       },
       "wikibase_candidates": [],
       "wikidata_candidates": [
@@ -98,17 +98,18 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "wikibase_person_qid": "Q31027"
     },
     {
       "name": "William Soghor",
       "contact_method": "person",
       "date": "1969-03-10",
       "bounding_box": {
-        "x1": 24.0,
-        "y1": 17.0,
-        "x2": 52.0,
-        "y2": 29.0
+        "x1": 24,
+        "y1": 17,
+        "x2": 52,
+        "y2": 29
       },
       "wikibase_candidates": [
         {
@@ -169,16 +170,17 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q26384"
     },
     {
       "name": "Agnes Denes",
       "date": "XXXX-12-04",
       "bounding_box": {
-        "x1": 10.0,
-        "y1": 24.0,
-        "x2": 47.0,
-        "y2": 41.0
+        "x1": 10,
+        "y1": 24,
+        "x2": 47,
+        "y2": 41
       },
       "wikibase_candidates": [
         {
@@ -274,8 +276,12 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q25067"
     }
   ],
-  "ocr_back": "PHONE - BARBARA GORMLEY - JAN 22\nperson William Soghor Mar 10/69\nAgnes Denes 12/4"
+  "ocr_back": "PHONE - BARBARA GORMLEY - JAN 22\nperson William Soghor Mar 10/69\nAgnes Denes 12/4",
+  "document_qid": "Q31307",
+  "block_qid": "Q31309",
+  "collaborators_built": true
 }

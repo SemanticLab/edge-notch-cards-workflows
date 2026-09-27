@@ -5,10 +5,14 @@ import json
 import time
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import urllib.request
 from google import genai
 from google.genai import types
 
 IMAGES_DIR = Path("/Volumes/GlumExpansion/edge-notch-cards-images")
+# Cards whose images are not on the local drive are fetched from the public
+# S3 copy the webapp serves from.
+S3_IMAGES_URL = "https://semlab.s3.amazonaws.com/edge-notch-cards-workflow"
 DATA_DIR = Path(__file__).parent.parent / "data"
 FRONT_DIR = DATA_DIR / "front"
 BACK_DIR = DATA_DIR / "back"
@@ -58,10 +62,20 @@ def build_contents(img_bytes, prompt):
     ]
 
 
+def load_image(img_path):
+    """Read the image from disk, or fetch it from S3 if it is not local."""
+    if img_path.exists():
+        return img_path.read_bytes()
+    url = f"{S3_IMAGES_URL}/{img_path.name}"
+    req = urllib.request.Request(url, headers={"User-Agent": "edge-notch-cards-workflows/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        return resp.read()
+
+
 def extract_ocr(img_path, prompt):
     """Send image to Gemini and return the OCR text."""
-    client = genai.Client(api_key=os.environ.get("GOOGLE_GENAI"))
-    img_bytes = img_path.read_bytes()
+    client = genai.Client(api_key=os.environ.get("GOOGLE_GENAI") or os.environ.get("GOOGLE_AI"))
+    img_bytes = load_image(img_path)
     contents = build_contents(img_bytes, prompt)
 
     result_text = ""
@@ -106,31 +120,31 @@ def main():
     parser = argparse.ArgumentParser(description="OCR card images with Gemini")
     parser.add_argument("-w", "--workers", type=int, default=4,
                         help="Number of parallel workers (default: 4)")
+    parser.add_argument("--ids", nargs="*", default=None,
+                        help="Only process these card IDs (default: every card missing OCR)")
     args = parser.parse_args()
 
-    fronts = sorted(IMAGES_DIR.glob("*_front.jpg"))
-    backs = sorted(IMAGES_DIR.glob("*_back.jpg"))
-    print(f"Found {len(fronts)} front images, {len(backs)} back images")
+    # Build work list from the card JSON files: (image_path, json_path, ocr_key, prompt).
+    # Images are read from IMAGES_DIR when present, otherwise fetched from S3.
+    card_ids = sorted(p.name[:-len("_front.json")] for p in FRONT_DIR.glob("*_front.json"))
+    if args.ids:
+        wanted = set(args.ids)
+        card_ids = [c for c in card_ids if c in wanted]
+    print(f"Cards considered: {len(card_ids)}")
 
-    # Build work list: (image_path, json_path, ocr_key, prompt)
     work = []
-    for img in fronts:
-        card_id = img.stem.replace("_front", "")
+    for card_id in card_ids:
         json_path = FRONT_DIR / f"{card_id}_front.json"
-        if not json_path.exists():
-            continue
         data = json.loads(json_path.read_text("utf-8"))
         if "ocr_front" not in data:
-            work.append((img, json_path, "ocr_front", FRONT_PROMPT))
+            work.append((IMAGES_DIR / f"{card_id}_front.jpg", json_path, "ocr_front", FRONT_PROMPT))
 
-    for img in backs:
-        card_id = img.stem.replace("_back", "")
         json_path = BACK_DIR / f"{card_id}_back.json"
         if not json_path.exists():
             continue
         data = json.loads(json_path.read_text("utf-8"))
         if "ocr_back" not in data:
-            work.append((img, json_path, "ocr_back", BACK_PROMPT))
+            work.append((IMAGES_DIR / f"{card_id}_back.jpg", json_path, "ocr_back", BACK_PROMPT))
 
     print(f"To process: {len(work)} (skipping cards that already have OCR)")
     print(f"Workers: {args.workers}")

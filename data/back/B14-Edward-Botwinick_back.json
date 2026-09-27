@@ -1,14 +1,14 @@
 {
   "entries": [
     {
-      "name": "IRIS KRUMP",
+      "name": "IRIS CRUMP",
       "contact_method": "WILL CALL",
       "date": "XXXX-07-02",
       "bounding_box": {
         "x1": 7.3,
         "y1": 7.9,
         "x2": 49.7,
-        "y2": 14.0
+        "y2": 14
       },
       "wikibase_candidates": [],
       "wikidata_candidates": [
@@ -108,7 +108,9 @@
             }
           ]
         }
-      }
+      },
+      "name_other": "Iris Krump",
+      "wikibase_person_qid": "Q30895"
     },
     {
       "name": "EVAN JACOBSEN",
@@ -116,7 +118,7 @@
       "date": "XXXX-02-10",
       "bounding_box": {
         "x1": 8.2,
-        "y1": 14.0,
+        "y1": 14,
         "x2": 49.4,
         "y2": 21.1
       },
@@ -249,7 +251,8 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "wikibase_person_qid": "Q26292"
     },
     {
       "name": "P. Deal",
@@ -399,8 +402,12 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q30334"
     }
   ],
-  "ocr_back": "IRIS KRUMP WILL CALL - JULY 2\nLOFT- EVAN JACOBSEN- FEB 10\nP. Deal 5/8/70"
+  "ocr_back": "IRIS KRUMP WILL CALL - JULY 2\nLOFT- EVAN JACOBSEN- FEB 10\nP. Deal 5/8/70",
+  "document_qid": "Q30896",
+  "block_qid": "Q30898",
+  "collaborators_built": true
 }

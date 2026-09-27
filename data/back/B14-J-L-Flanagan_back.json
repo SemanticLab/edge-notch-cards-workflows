@@ -1,13 +1,13 @@
 {
   "entries": [
     {
-      "name": "WC. - CAGE.",
+      "name": "John Cage",
       "date": "1967-10-30",
-      "other_metadata": "(Sun)",
+      "other_metadata": "(Sue)",
       "bounding_box": {
         "x1": 7.6,
         "y1": 13.8,
-        "x2": 19.0,
+        "x2": 19,
         "y2": 19.2
       },
       "wikibase_candidates": [],
@@ -63,7 +63,10 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "contact_method": "WC",
+      "name_other": "Cage",
+      "wikibase_person_qid": "Q724"
     },
     {
       "name": "RICHARD SCHULMAN",
@@ -72,7 +75,7 @@
       "bounding_box": {
         "x1": 19.2,
         "y1": 20.7,
-        "x2": 46.0,
+        "x2": 46,
         "y2": 26.5
       },
       "wikibase_candidates": [],
@@ -220,8 +223,12 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q31442"
     }
   ],
-  "ocr_back": "WC. - CAGE. Oct 30. 1967. (Sun)\nLETTER- RICHARD SCHULMAN - OCT 18"
+  "ocr_back": "WC. - CAGE. Oct 30. 1967. (Sun)\nLETTER- RICHARD SCHULMAN - OCT 18",
+  "document_qid": "Q31443",
+  "block_qid": "Q31445",
+  "collaborators_built": true
 }

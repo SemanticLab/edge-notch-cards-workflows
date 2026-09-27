@@ -145,7 +145,8 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q30663"
     },
     {
       "name": "BERNITA MILLER",
@@ -153,7 +154,7 @@
       "bounding_box": {
         "x1": 15.4,
         "y1": 15.1,
-        "x2": 42.0,
+        "x2": 42,
         "y2": 20.3
       },
       "wikibase_candidates": [
@@ -293,10 +294,11 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "wikibase_person_qid": "Q26291"
     },
     {
-      "name": "V. Tutor",
+      "name": "David Tudor",
       "date": "1970-11-12",
       "bounding_box": {
         "x1": 13.5,
@@ -432,8 +434,13 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q19233",
+      "name_other": "D. Tudor"
     }
   ],
-  "ocr_back": "LETTER -> HERB AACH - July 23\n      BERNITA MILLER - JAN 10\nJ. tutor 11/12/70"
+  "ocr_back": "LETTER -> HERB AACH - July 23\n      BERNITA MILLER - JAN 10\nJ. tutor 11/12/70",
+  "document_qid": "Q30778",
+  "block_qid": "Q30780",
+  "collaborators_built": true
 }

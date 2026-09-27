@@ -29,6 +29,29 @@ async function uploadToS3(key, body, contentType) {
   return `https://${S3_BUCKET}.s3.amazonaws.com/${key}`
 }
 
+// Read a text object from the public S3 bucket. Missing objects come back as ''.
+async function fetchS3Text(key) {
+  const url = `https://${S3_BUCKET}.s3.amazonaws.com/${key}`
+  try {
+    const res = await fetch(url)
+    if (!res.ok) return ''
+    return (await res.text()).trim()
+  } catch {
+    return ''
+  }
+}
+
+// Make sure the block text file for a card side exists on S3.
+// Text already on S3 (e.g. typed in the Block Text Editor) wins over OCR from
+// the JSON and is never overwritten. Returns { text, url, uploaded }.
+async function syncBlockText(ocrText, key) {
+  const url = `https://${S3_BUCKET}.s3.amazonaws.com/${key}`
+  const existing = await fetchS3Text(key)
+  if (existing) return { text: existing, url, uploaded: false }
+  await uploadToS3(key, Buffer.from(ocrText, 'utf-8'), 'text/plain; charset=utf-8')
+  return { text: ocrText, url, uploaded: true }
+}
+
 let imageProvider = null
 
 export function setImageProvider(provider) {
@@ -486,6 +509,20 @@ async function ensureClaim(wbEdit, entityQid, property, value, extra = {}) {
   return true
 }
 
+// Give an existing block its text claims if it lacks them: P19 (block text,
+// only when we have text) and P20 (block text URL).
+async function ensureBlockText(wbEdit, blockQid, trimmedText, textUrl) {
+  if (trimmedText) {
+    const hasP19 = await findClaimGuid(blockQid, 'P19', null)
+    if (!hasP19) {
+      await wbEdit.claim.create({ id: blockQid, property: 'P19', value: trimmedText })
+      console.log(`Added P19 (block text) to existing block ${blockQid}`)
+    }
+  }
+  const addedUrl = await ensureClaim(wbEdit, blockQid, 'P20', textUrl)
+  if (addedUrl) console.log(`Added P20 (block text URL) to existing block ${blockQid}`)
+}
+
 // Locate blocks (P1 = Q2013) whose parent document (P24) is documentQid.
 // Wikibase registers statement targets as page links, so "what links here"
 // on the document lists its blocks. Returns { '0': qid, '1': qid, ... } keyed
@@ -630,21 +667,17 @@ router.post('/mint-card', async (req, res) => {
     await ensureClaim(wbEdit, documentQid, 'P200', frontImageUrl)
     await ensureClaim(wbEdit, documentQid, 'P200', backImageUrl)
 
-    // ===== 3. UPLOAD OCR TEXTS TO S3 =====
-    const ocrFront = front.ocr_front || ''
-    const ocrBack = back?.ocr_back || ''
+    // ===== 3. BLOCK TEXTS: OCR FROM THE JSON, OR TEXT ALREADY ON S3 =====
+    // Text typed into the Block Text Editor lives on S3; never overwrite it.
+    const frontText = await syncBlockText(front.ocr_front || '', `texts/${documentQid}/0.txt`)
+    const backText = await syncBlockText(back?.ocr_back || '', `texts/${documentQid}/1.txt`)
+    const ocrFront = frontText.text
+    const ocrBack = backText.text
+    const frontTextUrl = frontText.url
+    const backTextUrl = backText.url
+    console.log(`Block texts: front ${frontText.uploaded ? 'uploaded' : 'kept'} (${ocrFront.length} chars), back ${backText.uploaded ? 'uploaded' : 'kept'} (${ocrBack.length} chars)`)
 
-    const frontTextUrl = await uploadToS3(
-      `texts/${documentQid}/0.txt`,
-      Buffer.from(ocrFront, 'utf-8'),
-      'text/plain; charset=utf-8'
-    )
-    const backTextUrl = await uploadToS3(
-      `texts/${documentQid}/1.txt`,
-      Buffer.from(ocrBack, 'utf-8'),
-      'text/plain; charset=utf-8'
-    )
-    console.log(`Uploaded OCR texts: ${frontTextUrl}, ${backTextUrl}`)
+    const trimBlockText = (t) => t.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
 
     // ===== 4. CREATE OR REUSE THE FRONT BLOCK (TFB) =====
     // Associated entities (P21): engineer + org if exists
@@ -653,16 +686,17 @@ router.post('/mint-card', async (req, res) => {
       frontP21.push(front.wikibase_org_qid)
     }
 
+    const frontOcrTrimmed = trimBlockText(ocrFront)
     let frontBlockQid = existingFrontBlockQid
     if (frontBlockQid) {
-      // Block already exists: only make sure the associated entities are on it
+      // Block already exists: fill in whatever it is missing
       for (const qid of frontP21) {
         const added = await ensureClaim(wbEdit, frontBlockQid, 'P21', qid)
         if (added) console.log(`Added P21 ${qid} to existing front block ${frontBlockQid}`)
       }
+      await ensureBlockText(wbEdit, frontBlockQid, frontOcrTrimmed, frontTextUrl)
       console.log(`Reusing existing FRONT BLOCK ${frontBlockQid}`)
     } else {
-      const frontOcrTrimmed = ocrFront.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
       const frontBlockClaims = {
         P1: 'Q2013',          // instance of: block
         P11: 'Q28603',        // part of project
@@ -685,11 +719,12 @@ router.post('/mint-card', async (req, res) => {
     }
 
     // ===== 5. CREATE OR REUSE THE BACK BLOCK (TBB) =====
+    const backOcrTrimmed = trimBlockText(ocrBack)
     let backBlockQid = existingBackBlockQid
     if (backBlockQid) {
+      await ensureBlockText(wbEdit, backBlockQid, backOcrTrimmed, backTextUrl)
       console.log(`Reusing existing BACK BLOCK ${backBlockQid}`)
     } else {
-      const backOcrTrimmed = ocrBack.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
       const backBlockClaims = {
         P1: 'Q2013',          // instance of: block
         P11: 'Q28603',        // part of project

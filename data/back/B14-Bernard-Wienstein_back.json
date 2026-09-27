@@ -2,7 +2,7 @@
   "entries": [
     {
       "name": "Hans Noe",
-      "name_other": "Richard Black",
+      "name_other": "",
       "contact_method": "letter",
       "date": "XXXX-09-26",
       "other_metadata": "Richard Black is crossed out and replaced with Hans Noe",
@@ -187,18 +187,19 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q30251"
     },
     {
-      "name": "Mike Carson",
-      "contact_method": "left",
+      "name": "Neke Carson",
+      "contact_method": "loft",
       "date": "XXXX-10-04",
-      "other_metadata": "Left probably refers to 'left message'",
+      "other_metadata": "",
       "bounding_box": {
         "x1": 6.7,
         "y1": 20.7,
         "x2": 42.9,
-        "y2": 28.0
+        "y2": 28
       },
       "wikibase_candidates": [
         {
@@ -336,10 +337,11 @@
             }
           ]
         }
-      }
+      },
+      "wikibase_person_qid": "Q30311"
     },
     {
-      "name": "Howard Hurtestast",
+      "name": "Howard Gutstadt",
       "contact_method": "letter",
       "date": "1969-01-03",
       "other_metadata": "Written in blue ink cursive",
@@ -388,8 +390,12 @@
           "groundingChunks": [],
           "groundingSupports": []
         }
-      }
+      },
+      "wikibase_person_qid": "Q26295"
     }
   ],
-  "ocr_back": "LETTER RICHARD BLACK SEPT 26\n       HANS NOE\nLEFT MESS CARSON - OCT 4\nletter Howard Hurtatast 11/3/69"
+  "ocr_back": "LETTER RICHARD BLACK SEPT 26\n       HANS NOE\nLEFT MESS CARSON - OCT 4\nletter Howard Hurtatast 11/3/69",
+  "document_qid": "Q30312",
+  "block_qid": "Q30314",
+  "collaborators_built": true
 }

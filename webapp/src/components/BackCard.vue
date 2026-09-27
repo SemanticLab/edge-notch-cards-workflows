@@ -207,6 +207,15 @@ function handleManualDocumentQid() {
               <span class="font-mono bg-blue-50 px-1 py-0.5 rounded">{{ backBlockQid }}</span>
               Back block
             </a>
+            <button
+              type="button"
+              :disabled="!engineerQid || minting"
+              class="text-xs text-gray-400 hover:text-gray-600 transition-colors disabled:cursor-not-allowed"
+              title="Re-run the mint step: adds any missing claims, block text and artist links without creating duplicates"
+              @click="emit('mint-card')"
+            >
+              {{ minting ? 'Re-syncing...' : 'Re-sync blocks (fill in missing text/claims)' }}
+            </button>
           </div>
         </template>
         <template v-else>
