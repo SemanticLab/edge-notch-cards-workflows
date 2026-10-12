@@ -280,17 +280,6 @@ function handleChunksSelected(chunks) {
           </svg>
         </button>
         <div v-if="sections.wikidataPersonCandidates" class="p-4 space-y-4">
-          <div v-if="localFront?.wikidata_candidates?.length">
-            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikidata</p>
-            <WikidataCandidates
-              :candidates="localFront.wikidata_candidates"
-              type="person"
-              entity-base-url="https://www.wikidata.org/entity/"
-              source-label="Wikidata"
-              :minting="minting"
-              @import="handlePersonImport"
-            />
-          </div>
           <div v-if="localFront?.wikibase_candidates?.length">
             <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikibase</p>
             <WikidataCandidates
@@ -300,6 +289,17 @@ function handleChunksSelected(chunks) {
               source-label="Wikibase"
               :minting="minting"
               :qid-statuses="qidStatuses"
+              @import="handlePersonImport"
+            />
+          </div>
+          <div v-if="localFront?.wikidata_candidates?.length">
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikidata</p>
+            <WikidataCandidates
+              :candidates="localFront.wikidata_candidates"
+              type="person"
+              entity-base-url="https://www.wikidata.org/entity/"
+              source-label="Wikidata"
+              :minting="minting"
               @import="handlePersonImport"
             />
           </div>
@@ -527,19 +527,6 @@ function handleChunksSelected(chunks) {
               Business <span class="text-xs text-gray-400 font-mono">Q19085</span>
             </label>
           </div>
-          <div v-if="localFront?.wikidata_org_candidates?.length">
-            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikidata</p>
-            <WikidataCandidates
-              :candidates="localFront.wikidata_org_candidates"
-              type="org"
-              entity-base-url="https://www.wikidata.org/entity/"
-              source-label="Wikidata"
-              :disable-import="!localFront?.wikibase_person_qid"
-              disable-import-message="Mint the person first to enable org import"
-              :minting="minting"
-              @import="handleOrgImport"
-            />
-          </div>
           <div v-if="localFront?.wikibase_org_candidates?.length">
             <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikibase</p>
             <WikidataCandidates
@@ -551,6 +538,19 @@ function handleChunksSelected(chunks) {
               disable-import-message="Mint the person first to enable org import"
               :minting="minting"
               :qid-statuses="qidStatuses"
+              @import="handleOrgImport"
+            />
+          </div>
+          <div v-if="localFront?.wikidata_org_candidates?.length">
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Wikidata</p>
+            <WikidataCandidates
+              :candidates="localFront.wikidata_org_candidates"
+              type="org"
+              entity-base-url="https://www.wikidata.org/entity/"
+              source-label="Wikidata"
+              :disable-import="!localFront?.wikibase_person_qid"
+              disable-import-message="Mint the person first to enable org import"
+              :minting="minting"
               @import="handleOrgImport"
             />
           </div>

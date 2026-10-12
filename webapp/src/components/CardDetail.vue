@@ -69,6 +69,15 @@ const backImageFilename = computed(() => {
   return card.value.images.back
 })
 
+// Which batch tab this card lives in, so the badge and back link match the list
+const batchInfo = computed(() => {
+  const b = card.value?.batch === 2 ? 2 : 1
+  return b === 2
+    ? { batch: 2, label: 'New batch', cls: 'bg-amber-100 text-amber-800' }
+    : { batch: 1, label: 'Existing cards', cls: 'bg-blue-100 text-blue-800' }
+})
+const listLink = computed(() => ({ path: '/', query: { batch: String(batchInfo.value.batch) } }))
+
 const cardName = computed(() => {
   if (!card.value) return 'Loading...'
   if (currentFront.value?.personalIdentification?.fullName) {
@@ -546,7 +555,7 @@ watch(cardId, () => {
       <div class="flex items-center justify-between mb-6">
         <div class="flex items-center gap-3">
           <router-link
-            to="/"
+            :to="listLink"
             class="text-gray-400 hover:text-gray-600 transition-colors"
             title="Back to list"
           >
@@ -555,6 +564,13 @@ watch(cardId, () => {
             </svg>
           </router-link>
           <h1 class="text-xl font-semibold text-gray-900">{{ cardName }}</h1>
+          <span
+            class="text-xs px-2 py-0.5 rounded-full font-medium"
+            :class="batchInfo.cls"
+            :title="batchInfo.batch === 2 ? 'October 2026 scan batch' : 'Original card set'"
+          >
+            {{ batchInfo.label }}
+          </span>
           <span
             v-if="isDirty"
             class="text-xs px-2 py-0.5 bg-amber-100 text-amber-700 rounded-full font-medium"

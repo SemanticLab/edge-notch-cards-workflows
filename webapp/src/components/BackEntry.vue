@@ -145,17 +145,6 @@ function handleEntryChunksSelected(chunks) {
             </svg>
           </button>
           <div v-if="showCandidates" class="mt-2 space-y-3">
-            <div v-if="localEntry.wikidata_candidates?.length">
-              <p class="text-xs text-gray-400 mb-1">Wikidata</p>
-              <WikidataCandidates
-                :candidates="localEntry.wikidata_candidates"
-                type="person"
-                entity-base-url="https://www.wikidata.org/entity/"
-                source-label="Wikidata"
-                :minting="minting"
-                @import="handleEntryImport"
-              />
-            </div>
             <div v-if="localEntry.wikibase_candidates?.length">
               <p class="text-xs text-gray-400 mb-1">Wikibase</p>
               <WikidataCandidates
@@ -165,6 +154,17 @@ function handleEntryChunksSelected(chunks) {
                 source-label="Wikibase"
                 :minting="minting"
                 :qid-statuses="qidStatuses"
+                @import="handleEntryImport"
+              />
+            </div>
+            <div v-if="localEntry.wikidata_candidates?.length">
+              <p class="text-xs text-gray-400 mb-1">Wikidata</p>
+              <WikidataCandidates
+                :candidates="localEntry.wikidata_candidates"
+                type="person"
+                entity-base-url="https://www.wikidata.org/entity/"
+                source-label="Wikidata"
+                :minting="minting"
                 @import="handleEntryImport"
               />
             </div>

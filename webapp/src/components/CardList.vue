@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, watch } from 'vue'
+import { computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useCardsStore } from '../stores/cards.js'
 import SearchBar from './SearchBar.vue'
@@ -9,9 +9,30 @@ const route = useRoute()
 const router = useRouter()
 const store = useCardsStore()
 
+// The two groups of cards shown as tabs at the top of the list.
+// Batch 1 is the original name-based set (mostly complete); batch 2 is the
+// scan batch added in October 2026 that still needs working through.
+const BATCH_TABS = [
+  { batch: 1, label: 'Existing cards', hint: 'Original set, mostly complete' },
+  { batch: 2, label: 'New batch', hint: 'October 2026 scans, to be worked' }
+]
+
+const tabs = computed(() =>
+  BATCH_TABS.map(t => {
+    const counts = store.batchCounts.find(c => c.batch === t.batch)
+    return { ...t, total: counts?.total ?? 0, complete: counts?.complete ?? 0 }
+  })
+)
+
+function selectBatch(batch) {
+  store.setBatch(batch)
+}
+
 // Sync filters from URL query params on mount
 function loadFiltersFromQuery() {
   const q = route.query
+  // A batch in the URL wins over the remembered one (shared links, back button)
+  if (q.batch && Number(q.batch) > 0) store.setBatch(q.batch, { fetch: false })
   if (q.q) store.filters.q = q.q
   if (q.occupation) store.filters.occupation = q.occupation
   if (q.organization) store.filters.organization = q.organization
@@ -21,7 +42,7 @@ function loadFiltersFromQuery() {
 
 // Sync filters to URL query params
 function syncFiltersToQuery() {
-  const query = {}
+  const query = { batch: String(store.batch) }
   if (store.filters.q) query.q = store.filters.q
   if (store.filters.occupation) query.occupation = store.filters.occupation
   if (store.filters.organization) query.organization = store.filters.organization
@@ -47,9 +68,14 @@ watch(
   () => syncFiltersToQuery(),
   { deep: true }
 )
+watch(() => store.batch, () => {
+  store.persistBatch()
+  syncFiltersToQuery()
+})
 
 onMounted(() => {
   store.fetchFilterOptions()
+  store.fetchBatchCounts()
   loadFiltersFromQuery()
   store.fetchCards()
 })
@@ -57,6 +83,33 @@ onMounted(() => {
 
 <template>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-4">
+    <!-- Batch tabs: which group of cards is being worked on -->
+    <div class="border-b border-gray-200">
+      <nav class="-mb-px flex gap-6" aria-label="Card batches">
+        <button
+          v-for="tab in tabs"
+          :key="tab.batch"
+          type="button"
+          class="flex items-center gap-2 pb-3 pt-1 border-b-2 text-sm font-medium transition-colors whitespace-nowrap"
+          :class="store.batch === tab.batch
+            ? (tab.batch === 2 ? 'border-amber-500 text-amber-700' : 'border-blue-600 text-blue-700')
+            : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'"
+          :title="tab.hint"
+          @click="selectBatch(tab.batch)"
+        >
+          <span>{{ tab.label }}</span>
+          <span
+            class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium"
+            :class="store.batch === tab.batch
+              ? (tab.batch === 2 ? 'bg-amber-100 text-amber-800' : 'bg-blue-100 text-blue-800')
+              : 'bg-gray-100 text-gray-600'"
+          >
+            {{ tab.complete }} / {{ tab.total }} done
+          </span>
+        </button>
+      </nav>
+    </div>
+
     <!-- Search and filters -->
     <SearchBar
       :model-value="store.filters"

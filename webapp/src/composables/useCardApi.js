@@ -56,6 +56,10 @@ export function useCardApi() {
     return request(`${BASE}/cards/filter-options`)
   }
 
+  function getBatchCounts() {
+    return request(`${BASE}/cards/batches`)
+  }
+
   async function authenticatedPost(url, data) {
     const auth = useAuthStore()
     const res = await fetch(url, {
@@ -109,5 +113,5 @@ export function useCardApi() {
     return requestWithBody('POST', `${BASE}/wikibase/check-qids`, { qids })
   }
 
-  return { getCards, getCard, updateFront, updateBack, toggleComplete, getFilterOptions, mintPerson, mintPersonFromWikidata, mintOrg, mintOrgFromWikidata, mintBackArtist, mintBackArtistFromWikidata, mintCard, buildCollaborators, checkWikibaseQids }
+  return { getCards, getCard, updateFront, updateBack, toggleComplete, getFilterOptions, getBatchCounts, mintPerson, mintPersonFromWikidata, mintOrg, mintOrgFromWikidata, mintBackArtist, mintBackArtistFromWikidata, mintCard, buildCollaborators, checkWikibaseQids }
 }

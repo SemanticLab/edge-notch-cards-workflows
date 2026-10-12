@@ -71,7 +71,31 @@ function buildSummary(id, frontData, hasBack, backData) {
     backEntryCount,
     hasError,
     complete: !!(metadata[id]?.complete),
+    batch: batchOf(id),
   };
+}
+
+/**
+ * Which batch a card belongs to. Batch 1 = the original name-based set,
+ * batch 2 = the scan batch added in October 2026. Cards with no metadata
+ * entry are batch 1.
+ */
+function batchOf(id) {
+  const b = Number(metadata[id]?.batch);
+  return Number.isFinite(b) && b > 0 ? b : 1;
+}
+
+/**
+ * Per-batch totals and completion counts for the batch tabs.
+ */
+export function getBatchCounts() {
+  const counts = {};
+  for (const c of cards) {
+    const b = counts[c.batch] || (counts[c.batch] = { batch: c.batch, total: 0, complete: 0 });
+    b.total += 1;
+    if (c.complete) b.complete += 1;
+  }
+  return Object.values(counts).sort((a, b) => a.batch - b.batch);
 }
 
 /**
@@ -139,8 +163,13 @@ export async function init(dataDir) {
 /**
  * List cards with optional filtering and pagination.
  */
-export function listCards({ q, occupation, organization, location, hasBack, complete, page = 1, pageSize = 50 } = {}) {
+export function listCards({ q, occupation, organization, location, hasBack, complete, batch, page = 1, pageSize = 50 } = {}) {
   let filtered = cards;
+
+  if (batch !== undefined && batch !== null && batch !== '') {
+    const wantBatch = Number(batch);
+    filtered = filtered.filter(c => c.batch === wantBatch);
+  }
 
   if (q) {
     const lq = q.toLowerCase();
@@ -213,6 +242,7 @@ export async function getCard(id) {
     front,
     back,
     complete: !!(metadata[id]?.complete),
+    batch: batchOf(id),
     images: {
       front: `${id}_front.jpg`,
       back: `${id}_back.jpg`,

@@ -6,16 +6,29 @@ const router = Router();
 /**
  * GET /
  * List cards with optional filtering and pagination.
- * Query params: q, occupation, organization, location, hasBack, page, pageSize
+ * Query params: q, occupation, organization, location, hasBack, complete, batch, page, pageSize
  */
 router.get('/', (req, res) => {
   try {
-    const { q, occupation, organization, location, hasBack, complete, page, pageSize } = req.query;
-    const result = cardStore.listCards({ q, occupation, organization, location, hasBack, complete, page, pageSize });
+    const { q, occupation, organization, location, hasBack, complete, batch, page, pageSize } = req.query;
+    const result = cardStore.listCards({ q, occupation, organization, location, hasBack, complete, batch, page, pageSize });
     res.json(result);
   } catch (err) {
     console.error('Error listing cards:', err);
     res.status(500).json({ error: 'Failed to list cards' });
+  }
+});
+
+/**
+ * GET /batches
+ * Per-batch card totals and completion counts (for the batch tabs).
+ */
+router.get('/batches', (req, res) => {
+  try {
+    res.json({ batches: cardStore.getBatchCounts() });
+  } catch (err) {
+    console.error('Error getting batch counts:', err);
+    res.status(500).json({ error: 'Failed to get batch counts' });
   }
 });
 
