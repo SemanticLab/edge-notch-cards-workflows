@@ -1,0 +1,115 @@
+{
+  "personalIdentification": {
+    "fullName": "Donald Gangemi"
+  },
+  "contactInformation": {
+    "residentialAddress": "465 West Broadway, New York, New York 10012",
+    "phoneNumbers": "475-3013, 201-939-9000 extension 2251",
+    "geographicLocation": "New York, New York; East Rutherford, New Jersey"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Becton Dickinson"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "electro-mechanical devices",
+      "plastics"
+    ],
+    "specializedSkillsKnowledge": "electro-mechanical devices, some plastics"
+  },
+  "ocr_front": "Gangemi, Donald, 465 West Broadway N.Y. 10012  475 3013\nBecton Dickinson, East Rutherford N.J.  201 939 9000 x2251\n\nelectro-mechanical devices, some plastics",
+  "ocr_notes": "Front: overstrikes in 'Dickinson', '201' and 'electro-' (an x-ed out letter before the hyphen).",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q66995773",
+      "label": "Michelangelo Gangemi",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback. Michelangelo Gangemi is a researcher with a different given name and no link to Becton Dickinson or New York."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q813780",
+      "label": "Becton Dickinson",
+      "description": "American multinational medical technology company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Becton Dickinson is the American medical technology company founded in East Rutherford, NJ, which matches the card's East Rutherford phone number and employer."
+    },
+    {
+      "qid": "Q30338736",
+      "label": "Becton Dickinson (Germany)",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The German subsidiary in Heidelberg, not the US parent company named on the card."
+    },
+    {
+      "qid": "Q30338737",
+      "label": "Becton Dickinson (France)",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The French subsidiary, not the East Rutherford company."
+    },
+    {
+      "qid": "Q29123861",
+      "label": "Becton Dickinson (United Kingdom)",
+      "description": "UK business",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The UK subsidiary in Oxford, not the US company."
+    },
+    {
+      "qid": "Q29123858",
+      "label": "Becton Dickinson (Ireland)",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Irish subsidiary in Dublin, not the US company."
+    },
+    {
+      "qid": "Q30343885",
+      "label": "Becton Dickinson (Netherlands)",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Dutch subsidiary in Breda, not the US company."
+    },
+    {
+      "qid": "Q30256321",
+      "label": "Becton Dickinson (Canada)",
+      "description": "company in Mississauga, Canada",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Canadian subsidiary in Mississauga, not the US company."
+    },
+    {
+      "qid": "Q55454473",
+      "label": "Becton Dickinson (India)",
+      "description": "company in Gurgaon, India",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Indian subsidiary in Gurgaon, not the US company."
+    },
+    {
+      "qid": "Q121621601",
+      "label": "Becton Dickinson CZechia",
+      "description": "Czech company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Czech subsidiary, not the US company."
+    },
+    {
+      "qid": "Q84103956",
+      "label": "Becton Dickinson Biosciences CAM5.2 does not stand for true CK8/18. Comment on \"Peripheral ameloblastoma in-situ: an evidential fact of surface epithelium origin\", Oral Surg Oral Med Oral Pathol Oral Radiol Endod. 2009;108:763-7",
+      "description": "scientific article published on 01 May 2010",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 2010 scholarly comment that mentions a BD product, not the organisation."
+    }
+  ]
+}

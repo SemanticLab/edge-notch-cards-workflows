@@ -1,0 +1,139 @@
+{
+  "personalIdentification": {
+    "fullName": "Moore, S T"
+  },
+  "contactInformation": {
+    "residentialAddress": "Box 162, Old Lyme, Connecticut 06371",
+    "phoneNumbers": "434-5129, 4455611 extension 785, New York Tieline",
+    "geographicLocation": "Old Lyme, Connecticut; Groton, Connecticut"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Charles Pfizer",
+    "departmentDivision": "research laboratory"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Polymers"
+    ]
+  },
+  "ocr_front": "Moore, S T   Box 162, Old Lyme CONN 06371        434-5129\nCharles Pfizer research lab. Groton Conn. 06340   4455611  x785\n\nPolymers.                         N.Y. TIELINE.\n\n\n\n\n\n\nCF",
+  "ocr_notes": "Front: 'N.Y. TIELINE.' handwritten in ink; 'CF' pencilled near bottom left. Back: a word after 'Cathy' is struck through (reads roughly 'Chris'); 'Cathy' and 'Mintz' are best readings.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q24347",
+      "label": "Technical Services Program",
+      "description": "E.A.T. program (not completed) for matching artists who had technical problems or projects with engineers or scientists who could provide them with specific skills and technologies.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fallback search on 'T'; this is the Technical Services Program itself, not a person."
+    },
+    {
+      "qid": "Q892",
+      "label": "Toshiko Akiyoshi",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fallback search; Toshiko Akiyoshi is a jazz pianist."
+    },
+    {
+      "qid": "Q2089",
+      "label": "Toshiko Akiyoshi Smithsonian Interview",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An interview transcript, not a person."
+    },
+    {
+      "qid": "Q20655",
+      "label": "The International Sweethearts of Rhythm Project",
+      "description": "International Sweethearts of Rhythm mapping project by Semantic Lab",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Semantic Lab project, not a person."
+    },
+    {
+      "qid": "Q60",
+      "label": "Milt Hinton",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Milt Hinton is a jazz bassist, unrelated to a Pfizer polymer chemist."
+    },
+    {
+      "qid": "Q2019",
+      "label": "Ted Gioia",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ted Gioia is a jazz writer, unrelated."
+    },
+    {
+      "qid": "Q19058",
+      "label": "city",
+      "description": "when creating instances of this class, ensure coordinates (P146) statement is present",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The class 'city', not a person."
+    },
+    {
+      "qid": "Q18885",
+      "label": "The East",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Brooklyn jazz venue/organisation, not a person."
+    },
+    {
+      "qid": "Q33",
+      "label": "John Coltrane",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "John Coltrane, a jazz musician, unrelated."
+    },
+    {
+      "qid": "Q27355",
+      "label": "Mary Berenson Diaries Project",
+      "description": "The Mary Berenson Project by Semantic Lab",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Semantic Lab project, not a person."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q81487231",
+      "label": "Tim Moore",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Tim Moore is an Australian child and youth researcher. The card's S. T. Moore is a polymer chemist at Pfizer in Connecticut."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q136426388",
+      "label": "Charles Pfizer Jr.",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Charles Pfizer Jr. is a person (1860-1929), not the company."
+    },
+    {
+      "qid": "Q71055",
+      "label": "Charles Pfizer",
+      "description": "German-American businessman and chemist (1824–1906)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Charles Pfizer the founder is a person (1824-1906), not the company."
+    },
+    {
+      "qid": "Q138497363",
+      "label": "Chas. Pfizer & Co.",
+      "description": "American chemical manufacturing company (predecessor to Pfizer, Inc.)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Chas. Pfizer & Co. was the company's name in the 1960s and ran the research laboratories at Groton CT that the card mentions."
+    }
+  ]
+}

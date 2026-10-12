@@ -1,0 +1,76 @@
+{
+  "entries": [
+    {
+      "name": "JUAN DOWNEY",
+      "contact_method": "LETTER",
+      "date": "XXXX-08-20",
+      "bounding_box": {
+        "x1": 12.3,
+        "y1": 15.1,
+        "x2": 50.1,
+        "y2": 21.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28235",
+          "label": "Juan Downey",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Juan Downey is an artist in the E.A.T. Datascape and Knowledge Graph projects. Exact match on a distinctive name."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q3817219",
+          "label": "Juan Downey",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Chilean video artist and painter, 1940–1993, based in New York from the late 1960s and involved with E.A.T. Exact name."
+        }
+      ]
+    },
+    {
+      "name": "J. Berkowitz",
+      "date": "XXXX-01-12",
+      "bounding_box": {
+        "x1": 22.0,
+        "y1": 20.8,
+        "x2": 49.3,
+        "y2": 32.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7172794",
+          "label": "Peter Berkowitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Political philosopher Peter Berkowitz, born 1959, with initial P."
+        },
+        {
+          "qid": "Q2909488",
+          "label": "Isaac Dov Berkowitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Israeli writer who died in 1967. His initial is I, not J."
+        },
+        {
+          "qid": "Q352717",
+          "label": "David Berkowitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Serial killer David Berkowitz, not an artist and initial D."
+        },
+        {
+          "qid": "Q22132532",
+          "label": "Hyman Chonon Berkowitz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A biographer who died in 1945."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "LETTER JUAN DOWNEY - AUG 20\n      J. Berkowitz 1/12"
+}

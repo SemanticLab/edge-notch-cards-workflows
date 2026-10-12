@@ -1,0 +1,107 @@
+{
+  "personalIdentification": {
+    "fullName": "Charles L Bangert"
+  },
+  "contactInformation": {
+    "residentialAddress": "1629 Kentucky, Lawrence, Kansas 66044",
+    "phoneNumbers": "UI2-2085",
+    "geographicLocation": "Lawrence, Kansas"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "University of Kansas"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "statistics",
+      "computer applications",
+      "computer graphics"
+    ]
+  },
+  "ocr_front": "Charles L Bangert      1629 Kentucky,Lawrence,Kansas 66044\nUniversity of Kansas                              UI2-2085\n\nstatistics, computer applications, computer graphics.",
+  "ocr_notes": "Back is in pencil. 'Meany' is a best reading.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q52413",
+      "label": "University of Kansas",
+      "description": "public research university in Kansas, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The University of Kansas is in Lawrence, which matches the card's Lawrence, Kansas address and employer."
+    },
+    {
+      "qid": "Q7895582",
+      "label": "University of Kansas School of Medicine",
+      "description": "medical school in Kansas City, Kansas, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The KU School of Medicine is a sub-unit in Kansas City, and the card does not name it."
+    },
+    {
+      "qid": "Q33526980",
+      "label": "University of Kansas Medical Center",
+      "description": "university and healthcare organization in Kansas City, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "KU Medical Center is a separate medical organisation in Kansas City, not the Lawrence university."
+    },
+    {
+      "qid": "Q6365002",
+      "label": "Kansas Jayhawks men's basketball",
+      "description": "men's basketball team of the University of Kansas",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A men's basketball team, not the employer."
+    },
+    {
+      "qid": "Q21385501",
+      "label": "University of Kansas Science Bulletin",
+      "description": "scientific journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A scientific journal, not the university."
+    },
+    {
+      "qid": "Q1601838",
+      "label": "Spencer Museum of Art",
+      "description": "museum in Lawrence, Kansas, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Spencer Museum of Art is a museum that is part of KU, not the university itself."
+    },
+    {
+      "qid": "Q7895581",
+      "label": "University of Kansas School of Law",
+      "description": "public law school in the U.S. State of Kansas",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The KU School of Law is a sub-unit, and the card does not name it."
+    },
+    {
+      "qid": "Q7895576",
+      "label": "University of Kansas Hospital",
+      "description": "hospital in Kansas, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The University of Kansas Hospital is a separate hospital."
+    },
+    {
+      "qid": "Q3163297",
+      "label": "Kansas Jayhawks",
+      "description": "intercollegiate sports teams of the University of Kansas",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Kansas Jayhawks are the university's athletics program."
+    },
+    {
+      "qid": "Q15759949",
+      "label": "University of Kansas Law Review",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A law review journal."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "name": "H. Amann",
+      "name_other": "null",
+      "contact_method": "null",
+      "date": "XXXX-08-06",
+      "other_metadata": "8/6",
+      "bounding_box": {
+        "x1": 90.394,
+        "y1": 18.102,
+        "x2": 94.122,
+        "y2": 45.928
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q32069",
+          "label": "H. Amann",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match. The item is an artist from the same E.A.T. card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q102078329",
+          "label": "Herbert Amann",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "Herbert Amann is a Swiss-German mathematician. Nothing suggests he worked as an artist with E.A.T."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "H. Amann 3/6"
+}

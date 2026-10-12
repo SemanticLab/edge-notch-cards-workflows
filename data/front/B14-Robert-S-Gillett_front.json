@@ -1,0 +1,55 @@
+{
+  "personalIdentification": {
+    "fullName": "Robert S. Gillett"
+  },
+  "contactInformation": {
+    "residentialAddress": "67 Cypress Street, Norwood, Massachusetts 02062",
+    "phoneNumbers": "617-769-2712",
+    "geographicLocation": "Norwood, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "The Foxboro Company"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Computers"
+    ]
+  },
+  "ocr_front": "Gillett, Robert S, 67 Cypress St, Norwood, Mass 02062   617-769-2712\n\nThe Foxboro Co, Foxboro  Mass 02062\n\nComputers.",
+  "ocr_notes": "Back is blank. Last digits of phone overtyped; read as 2712.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q76192822",
+      "label": "Robert Gillett",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Born in 1954 and listed in a British genealogy; too young to be a Foxboro Company computer specialist around 1967-72."
+    },
+    {
+      "qid": "Q95316035",
+      "label": "Robert Gillett",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Germanist born in 1960; too young and in the wrong field."
+    },
+    {
+      "qid": "Q105321414",
+      "label": "Robert W. Gillette",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Robert W. Gillette, a Massachusetts state legislator with a different surname spelling and middle initial; a politician, not a Foxboro computer engineer."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q84247683",
+      "label": "The Foxboro Company",
+      "description": "scientific article published on 01 December 1982",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1982 article in Environmental Science & Technology that is only titled 'The Foxboro Company'; it is a publication, not the company."
+    }
+  ]
+}

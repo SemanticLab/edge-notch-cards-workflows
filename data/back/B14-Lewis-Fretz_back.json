@@ -1,0 +1,109 @@
+{
+  "entries": [
+    {
+      "name": "ALYCE SIMON",
+      "date": "XXXX-08-26",
+      "other_metadata": "AUG 26",
+      "bounding_box": {
+        "x1": 11.47,
+        "y1": 14.49,
+        "x2": 33.68,
+        "y2": 18.17
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28396",
+          "label": "Alyce Simon",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match. The item is an artist from the E.A.T. Knowledge Graph and Datascape projects, which fits a TSP referral."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q33923",
+          "label": "Saint Peter",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Saint Peter, matched on the alias 'Simon' from a surname-only fallback search."
+        },
+        {
+          "qid": "Q110076159",
+          "label": "Simon",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "19th-century German porcelain painter (floruit 1870) known only as 'Simon'. Unrelated fallback hit."
+        }
+      ]
+    },
+    {
+      "name": "Bettina Brendel",
+      "contact_method": "Letter",
+      "date": "1969-01-21",
+      "bounding_box": {
+        "x1": 9.77,
+        "y1": 20.25,
+        "x2": 48.24,
+        "y2": 26.55
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31040",
+          "label": "Bettina Brendel",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name. The item is an artist from the same TSP edge-notched card collection and links to Wikidata Q108897037."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q108897037",
+          "label": "Bettina Brendel",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "US painter (1922-2009) with the same name. The project wikibase item links to this QID."
+        },
+        {
+          "qid": "Q133022224",
+          "label": "Bettina Brendel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Born in 1962, too young to be an artist referred in 1969."
+        }
+      ]
+    },
+    {
+      "name": "Giselle Mauer",
+      "contact_method": "Letter",
+      "date": "1969-03-13",
+      "bounding_box": {
+        "x1": 12.01,
+        "y1": 24.86,
+        "x2": 50.48,
+        "y2": 34.01
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28336",
+          "label": "Giselle  Mauer",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Same name (the label has a double space). The item is a TSP artist from the edge-notched card and Datascape projects."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21389714",
+          "label": "Fedor Mihajlovič Mauer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Russian botanist (1897-1963) from a surname-only fallback search."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "ALYCE SIMON - AUG 26\nLetter ->   Bettina Brendel 1/21/69\n  \"         Giselle Mauer Mar 13/69"
+}

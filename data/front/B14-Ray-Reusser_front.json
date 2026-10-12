@@ -1,0 +1,95 @@
+{
+  "personalIdentification": {
+    "fullName": "Ray Reusser"
+  },
+  "contactInformation": {
+    "residentialAddress": "8 West Church Street, Bethlehem, Pennsylvania 18018",
+    "phoneNumbers": "866-0242, 437-6348",
+    "geographicLocation": "Bethlehem, Pennsylvania"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Western Electric Company"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Metallurgy",
+      "Metals",
+      "Ceramics",
+      "Crystallography",
+      "X-rays",
+      "Crystal growing"
+    ],
+    "specializedSkillsKnowledge": "metallography of materials, especially metals and ceramics"
+  },
+  "ocr_front": "Reusser, Ray  8 West Church St., Bethlehem, Pa. 18018  866-0242\n                                                   or 437-6348\nWestern Electric Company.\n\nMetallurgy/metals, ceramics, crystallography, X-rays, crystal\ngrowing.\nInterested in metallography of materials, esp. metals & ceramics\n\n\n\nC.T.I.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q36556913",
+      "label": "F.A. Reusser",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Found by a surname-only fallback search. F.A. Reusser is a botanist with a different first initial, unrelated to the card's Bethlehem PA metallurgist at Western Electric."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q21498",
+      "label": "Western Electric Co",
+      "description": "engineering and manufacturing company, publisher associated with E.A.T. Bibliography",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Western Electric Co, linked to Wikidata Q2031258, is the same company as the card's Western Electric Company."
+    },
+    {
+      "qid": "Q28273",
+      "label": "Western Electric Engineering Research Center",
+      "description": "laboratory",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The Western Electric Engineering Research Center is a laboratory, a sub-unit of the company. The card names only Western Electric Company."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2031258",
+      "label": "Western Electric",
+      "description": "engineering and manufacturing company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Western Electric, alias Western Electric Company, the AT&T manufacturing arm that existed 1869-1996. This is the card's employer."
+    },
+    {
+      "qid": "Q59493284",
+      "label": "Western Electric Company Collection (NAID 1043)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A National Archives film collection about the company, not the company itself."
+    },
+    {
+      "qid": "Q106522212",
+      "label": "Western Electric Company-Tarheel Army Missile Plant",
+      "description": "factory in Burlington, North Carolina",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Western Electric factory in Burlington NC. It is a building or site, not the company."
+    },
+    {
+      "qid": "Q7696469",
+      "label": "Telephone Factory Lofts",
+      "description": "historic building in Atlanta, Georgia, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A historic building in Atlanta, not the company."
+    },
+    {
+      "qid": "Q71195036",
+      "label": "Western Electric Company Report for December 1960 (NAID 81438387)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1960 film item in NASA records, not the company."
+    }
+  ]
+}

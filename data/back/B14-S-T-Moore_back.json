@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "name": "Cathy Chrisholm",
+      "name_other": "",
+      "contact_method": "Letter",
+      "date": "1969-03-17",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 17.4,
+        "y1": 14.5,
+        "x2": 40.8,
+        "y2": 23.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "L. Mintz",
+      "name_other": "",
+      "contact_method": "Letter",
+      "date": "1969-05-20",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 15.9,
+        "y1": 20.8,
+        "x2": 27.2,
+        "y2": 31.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30083",
+          "label": "L. Mintz",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match ('L. Mintz') with an artist in the TSP card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q47122693",
+          "label": "A.S. Mintz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-fallback hit. Botanist with a different initial."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "letter Cathy Chris Chisholm Mar 17/69.\nletter L. Mintz 20 May 69"
+}

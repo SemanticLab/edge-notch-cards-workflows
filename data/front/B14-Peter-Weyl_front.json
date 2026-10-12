@@ -1,0 +1,59 @@
+{
+  "personalIdentification": {
+    "fullName": "Peter Weyl"
+  },
+  "contactInformation": {
+    "residentialAddress": "90 Christian Ave., Stony Brook, New York 11790",
+    "phoneNumbers": "516 751 3365 (residential), 516 246 7710 (business)",
+    "geographicLocation": "Stony Brook, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "State University of New York at Stony Brook",
+    "departmentDivision": "Marine Sciences Research Center"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "oceanography",
+      "physics"
+    ]
+  },
+  "ocr_front": "Weyl, Peter, Stony Brook, N.Y. 11790, 90 Christian Ave., 516 751 3365, Marine\nSciences Res. Cntr, State Univ. of N.Y. at Stony Brook 516 246 7710\n\noceanography, physics",
+  "ocr_notes": "Front: 'Marine' runs into the right margin. Back blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q137306058",
+      "label": "Peter Weyland",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Peter Weyland is a different surname, a medical specialist born 1943; the card's Peter Weyl is an oceanographer at Stony Brook."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q969850",
+      "label": "Stony Brook University",
+      "description": "public university in Stony Brook, New York, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Stony Brook University carries the alias State University of New York at Stony Brook, the card's employer."
+    },
+    {
+      "qid": "Q7603629",
+      "label": "State University of New York at Stony Brook School of Dental Medicine",
+      "description": "educational institution",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "School of Dental Medicine is a sub-unit; the card names the Marine Sciences Research Center instead."
+    },
+    {
+      "qid": "Q73101783",
+      "label": "State University of New York at Stony Brook Health Sciences Center",
+      "description": "scientific article published on 01 September 2000",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 2000 scholarly article, not an organisation."
+    }
+  ]
+}

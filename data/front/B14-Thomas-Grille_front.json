@@ -1,0 +1,83 @@
+{
+  "personalIdentification": {
+    "fullName": "Thomas Grille"
+  },
+  "contactInformation": {
+    "residentialAddress": "137 East 28th Street, New York, New York 10016",
+    "phoneNumbers": "685-8153",
+    "geographicLocation": "New York, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "New York University Medical Center"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "mechanical engineering",
+      "civil engineering",
+      "bio-engineering",
+      "medicine"
+    ]
+  },
+  "ocr_front": "Grille, Thomas, ]37 East 28th St, N.Y.,N.Y.10016.685-8]53\n\nN.Y.U.Medical Center\n\nmechanical engineering, civil engineering, bio-engineering/\nmedicine",
+  "ocr_notes": "Front: ']' characters appear where '1' would be expected (typewriter substitution); 'N.Y.' has an overstruck character. Back: 'Shelly Lewis' and 'Da Silva' (red) uncertain; 'Yanda sen yanda' is a doubtful reading; 'R. Serna' uncertain.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q133643015",
+      "label": "Thomas Grillenmair",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Different surname (Grillenmair) and a Meistersinger who died in 1631."
+    },
+    {
+      "qid": "Q137321005",
+      "label": "Thomas Grillenberger",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Different surname (Grillenberger), music teacher born 1974; cannot be a 1967-72 bioengineer."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q6956114",
+      "label": "NYU Langone Health",
+      "description": "hospital in New York, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "NYU Langone Health carries the alias New York University Medical Center and is the Manhattan medical centre of NYU; same institution under its current name."
+    },
+    {
+      "qid": "Q68377849",
+      "label": "New York University Medical Center's Cooperative Care Unit: patient education and family participation during hospitalization--the first ten years",
+      "description": "scientific article published on 01 February 1990",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1990 scholarly article about the medical centre, not the organisation."
+    },
+    {
+      "qid": "Q77534810",
+      "label": "New York University Medical Center cooperative care unit: patient dining room",
+      "description": "scientific article published on 01 March 1984",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1984 scholarly article, not the organisation."
+    },
+    {
+      "qid": "Q64942013",
+      "label": "New York University Medical Center named Rehabilitation Engineering Center",
+      "description": "scientific article published on January 1, 1979",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1979 scholarly article, not the organisation."
+    },
+    {
+      "qid": "Q80988738",
+      "label": "New York University Medical Center's pilot \"Epo-Depot\" program: a win-win for patients and health care",
+      "description": "scientific article published on 01 November 2004",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 2004 scholarly article, not the organisation."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "personalIdentification": {
+    "fullName": "Harry Kleinberg"
+  },
+  "contactInformation": {
+    "residentialAddress": "10056 Dogwood Ave, Palm Beach Gardens, Florida 33403",
+    "geographicLocation": "Palm Beach Gardens, Florida"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Radio Corporation of America",
+    "departmentDivision": "Data Processing"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Data Processing"
+    ]
+  },
+  "ocr_front": "Kleinberg, Harry     10056 Dogwood Ave, Palm Beach Gardens, Fla 33403\n\nR.C.A.\n\nData Processing.",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q30652",
+      "label": "Radio Corporation of America",
+      "description": "former American electronics company (1919-1969), subsidiary of General Electric",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name is identical (Radio Corporation of America), the item is in the E.A.T. edge-notched cards project, and it is linked to Wikidata Q58035402."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q58035402",
+      "label": "Radio Corporation of America",
+      "description": "former American electronics company (1919-1969), subsidiary of General Electric",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the Radio Corporation of America (1919-1969), the US electronics company named on the card, which had a data processing division."
+    },
+    {
+      "qid": "Q399653",
+      "label": "RCA connector",
+      "description": "electrical connector with one signal channel mainly used for analog stereo audio (in pairs), analog component or composite video and rarely for digital audio",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an audio/video connector type, not an organisation."
+    },
+    {
+      "qid": "Q218038",
+      "label": "RCA Corporation",
+      "description": "American electronics company (1919–1988)",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "RCA Corporation is the same company under the name it took in 1969. Wikidata keeps it as a separate item, but by the old/new-name rule it is the card's employer, and the card falls in 1967-1972."
+    },
+    {
+      "qid": "Q59492983",
+      "label": "Radio Corporation of America (RCA) Manufacturing Company Sound Collection (NAID 6614075)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a National Archives sound collection, not the company."
+    },
+    {
+      "qid": "Q7280744",
+      "label": "AN/FPS-4",
+      "description": "US Air Force height-finder radar",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a radar model RCA made, not the company."
+    },
+    {
+      "qid": "Q85795580",
+      "label": "Radio Corporation of America v China",
+      "description": "1935 arbitral proceeding",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1935 arbitration case, not the organisation."
+    },
+    {
+      "qid": "Q125280718",
+      "label": "Radio Corporation of America v. Philco Corporation (Delaware)",
+      "description": "case from the Supreme Court of Canada",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Supreme Court of Canada decision, not the organisation."
+    },
+    {
+      "qid": "Q125280328",
+      "label": "Radio Corporation of America v. Hazeltine Corporation et al.",
+      "description": "case from the Supreme Court of Canada",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Supreme Court of Canada decision, not the organisation."
+    }
+  ]
+}

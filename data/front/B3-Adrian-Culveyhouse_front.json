@@ -1,0 +1,38 @@
+{
+  "personalIdentification": {
+    "fullName": "Adrian Culveyhouse"
+  },
+  "contactInformation": {
+    "residentialAddress": "Pinewood Drive, Amherst, New Hampshire 03031",
+    "phoneNumbers": "673 3673",
+    "geographicLocation": "Amherst, New Hampshire; Bedford, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Sanders Associates"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "mechanical engineering",
+      "industrial engineering",
+      "computers",
+      "integrated circuits",
+      "value engineering",
+      "electronics manufacture"
+    ]
+  },
+  "ocr_front": "Culveyhouse, Adrian, Pinewood Dr., Amherst, N,H. 03031, 673 3673\nSanders Assoc, Bedford, Mass.\n\nmechanical engineering, industrial engineering, computers, integrated\ncircuits, value engineering, electronics manufacture",
+  "ocr_notes": "Front: in 'engineering' the 'g' is a handwritten pen correction over a typo. Back: the surname 'Schwitzgebel' is a best reading of cursive; the date may be 11/14.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q7416135",
+      "label": "Sanders Associates",
+      "description": "defense contractor",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Sanders Associates was a defense electronics contractor in Nashua NH from 1951 to 1986; that fits the card's Amherst NH address, its fields (electronics manufacture, integrated circuits) and the period."
+    }
+  ]
+}

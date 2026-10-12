@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "name": "Jon Hassel",
+      "date": "XXXX-07-24",
+      "other_metadata": "LOFT",
+      "bounding_box": {
+        "x1": 11.1,
+        "y1": 14.2,
+        "x2": 40.5,
+        "y2": 17.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30633",
+          "label": "Jon Hassell",
+          "description": "American trumpeter and composer of fusion music (1937-2021)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "'Jon Hassel' is a misspelling of Jon Hassell, the trumpeter and composer who appears as a TSP participant in the same card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q782528",
+          "label": "Jon Hassell",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Jon Hassell (1937-2021), the American composer and trumpeter. The project wikibase item links to this QID."
+        }
+      ]
+    },
+    {
+      "name": "Larry Solomon",
+      "contact_method": "letter",
+      "date": "1969-03-17",
+      "bounding_box": {
+        "x1": 10.8,
+        "y1": 16.8,
+        "x2": 51.5,
+        "y2": 25.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30634",
+          "label": "Larry Solomon",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name. The item is a TSP artist from the same card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q132395676",
+          "label": "Larry Solomon",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "A mayor with no dates. Politicians are excluded, and the name is common."
+        },
+        {
+          "qid": "Q114290076",
+          "label": "Larry P. Solomonson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Researcher with a different surname, Solomonson."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "JON HASSEL - LOFT - JULY 24\nLarry Solomon Mar 17/69 letter"
+}

@@ -1,0 +1,131 @@
+{
+  "personalIdentification": {
+    "fullName": "Boris Doncov"
+  },
+  "contactInformation": {
+    "residentialAddress": "215 \"C\" Street, Southeast Washington District of Columbia 2000",
+    "phoneNumbers": "202-543-9450",
+    "geographicLocation": "Washington, District of Columbia"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Library of Congress",
+    "departmentDivision": "Aerospace Technology Division"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Computers",
+      "Telecommunications"
+    ]
+  },
+  "ocr_front": "Doncov, Boris,  215 \"C\" St,  S.E. Wahsington D.C  2000     202-543-9450\n\nLibrary of Congress, Aerospace Technology Div.\n\nComputers, telecommunications",
+  "ocr_notes": "Front typos ('Wahsington', zip '2000') reproduced as typed. Back is blank apart from two faint vertical pencil/edge marks.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q196159",
+      "label": "Darya Dontsova",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The search used only the surname. This is a Russian crime novelist born in 1952, not a computer and telecommunications specialist at the Library of Congress."
+    },
+    {
+      "qid": "Q73657516",
+      "label": "Nebojsa S. Doncov",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a researcher at the University of Niš in Serbia. Nothing connects him to Washington DC in 1967-72."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q27166",
+      "label": "Library of Congress Subject Headings",
+      "description": "controlled vocabulary of bibliographic subject headings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Library of Congress Subject Headings, a controlled vocabulary and not the institution."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q131454",
+      "label": "Library of Congress",
+      "description": "(de facto) national library of the United States of America",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the Library of Congress itself, in Washington DC. That matches the card's employer and address; the Aerospace Technology Division was one of its units."
+    },
+    {
+      "qid": "Q13219454",
+      "label": "Library of Congress Authorities",
+      "description": "browsable database to view authority headings for subject, name, title and name/title combinations",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Library's authorities database, not the institution."
+    },
+    {
+      "qid": "Q18912790",
+      "label": "Library of Congress Name Authority File",
+      "description": "authoritative data for names of persons, organizations, events, places, and titles for subsequent uniform access to bibliographic resources",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Library's name authority file, a dataset and not the employer."
+    },
+    {
+      "qid": "Q620946",
+      "label": "Library of Congress Control Number",
+      "description": "numbering system for catalog records at the Library of Congress (not a subject classification)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Library's catalog numbering system, not an organisation."
+    },
+    {
+      "qid": "Q1823134",
+      "label": "Library of Congress Subject Headings",
+      "description": "controlled vocabulary of bibliographic subject headings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Library's subject vocabulary, not the institution."
+    },
+    {
+      "qid": "Q17109002",
+      "label": "Library of Congress Linked Data Service",
+      "description": "interactive and machine access to commonly used ontologies, controlled vocabularies, and other lists for bibliographic description",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Library's linked data web service, not the employer."
+    },
+    {
+      "qid": "Q3663281",
+      "label": "Library of Congress Online Catalog",
+      "description": "online public access catalog of the Library of Congress",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Library's online catalog, not the institution."
+    },
+    {
+      "qid": "Q98608837",
+      "label": "Library of Congress Music Division",
+      "description": "classified music and book collections, music and literary manuscripts, microforms, and copyright deposits",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Music Division, a sub-unit. The card names the Aerospace Technology Division instead."
+    },
+    {
+      "qid": "Q621080",
+      "label": "Library of Congress Classification",
+      "description": "system of library classification developed by the United States Library of Congress",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Library's classification scheme, not an organisation."
+    },
+    {
+      "qid": "Q6542578",
+      "label": "Library of Congress",
+      "description": "1945 film by Alexandr Hackenschmied",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1945 short documentary film, not the institution."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "personalIdentification": {
+    "fullName": "George B. Bush"
+  },
+  "contactInformation": {
+    "residentialAddress": "Trotter Road, Clarksville, Maryland 21029",
+    "geographicLocation": "Clarksville, Maryland; Silver Spring, Maryland"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Johns Hopkins University",
+    "departmentDivision": "Applied Physics Laboratory"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Applied Physics"
+    ],
+    "specializedSkillsKnowledge": "built a machine which generates shapes"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "built a machine which generates shapes"
+  },
+  "ocr_front": "Bush, george B.   Trotter rd. Clarksville, Md. 21029\n\nJohns Hopkins university, APL, 8621, XX Ga.Ave. Silver Spring, Md 20910\n\nhave built a machine which generates shapes,\n\n\n\n\n\n\nCF",
+  "ocr_notes": "Front: before 'Ga.Ave.' are struck-through overtyped characters (shown as XX). 'CF' is handwritten in pencil at the lower left. Back is blank apart from a small stain.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q28214",
+      "label": "George B. Bush",
+      "description": "artist",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "The full name George B. Bush matches exactly, and the item comes from the E.A.T. Datascape and Knowledge Graph projects. Its occupation 'artist' fits the card's note that he built a shape-generating machine."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q23505",
+      "label": "George H. W. Bush",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "George H. W. Bush, the US President and politician. He is not an Applied Physics Laboratory technician."
+    },
+    {
+      "qid": "Q207",
+      "label": "George W. Bush",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "George W. Bush was born in 1946 and became President, so he does not fit the card."
+    },
+    {
+      "qid": "Q3101841",
+      "label": "George P. Bush",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "George P. Bush was born in 1976, too late to be active in 1967-1972."
+    },
+    {
+      "qid": "Q100766406",
+      "label": "George Bush",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A basketball player from Toledo, which is an unrelated field."
+    },
+    {
+      "qid": "Q107224832",
+      "label": "George Bush",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Scottish returned convict born in 1841."
+    },
+    {
+      "qid": "Q5537488",
+      "label": "George Bush",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A biblical scholar who died in 1859."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q193727",
+      "label": "Johns Hopkins University",
+      "description": "private university in Baltimore, Maryland, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Johns Hopkins University matches the employer named on the card exactly."
+    },
+    {
+      "qid": "Q1645059",
+      "label": "Johns Hopkins University Press",
+      "description": "American scholarly publisher",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The university press is a publishing sub-unit, not the university itself."
+    },
+    {
+      "qid": "Q858729",
+      "label": "Johns Hopkins School of Medicine",
+      "description": "academic medical teaching and research arm of Johns Hopkins University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The School of Medicine is a sub-unit, and the card does not name it."
+    },
+    {
+      "qid": "Q858206",
+      "label": "Johns Hopkins Bloomberg School of Public Health",
+      "description": "institution for research and training in public health",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The School of Public Health is a sub-unit, and the card does not name it."
+    },
+    {
+      "qid": "Q1352632",
+      "label": "Paul H. Nitze School of Advanced International Studies",
+      "description": "division of The Johns Hopkins University based in Washington, D.C., United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "SAIS is a graduate school in DC and a sub-unit that the card does not name."
+    },
+    {
+      "qid": "Q249373",
+      "label": "Applied Physics Laboratory",
+      "description": "university-affiliated research center",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "APL is the department named on the card, and it sits in Laurel, near Silver Spring and Clarksville. It is still a separate sub-unit, not the Johns Hopkins University the card names as employer."
+    },
+    {
+      "qid": "Q1476351",
+      "label": "Project MUSE",
+      "description": "online database of journals and ebooks",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Project MUSE is a digital library, not the employer."
+    },
+    {
+      "qid": "Q5039173",
+      "label": "Carey Business School",
+      "description": "Graduate business school of Johns Hopkins University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The business school is a sub-unit that the card does not name."
+    },
+    {
+      "qid": "Q73787865",
+      "label": "Sheridan Libraries",
+      "description": "library system at Johns Hopkins University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The library system is a sub-unit and was founded in 1998."
+    },
+    {
+      "qid": "Q6268035",
+      "label": "Johns Hopkins School of Nursing",
+      "description": "school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The nursing school is a sub-unit that the card does not name."
+    }
+  ]
+}

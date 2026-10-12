@@ -1,0 +1,130 @@
+{
+  "personalIdentification": {
+    "fullName": "Bruno Maino"
+  },
+  "contactInformation": {
+    "residentialAddress": "304 East 73rd Street, Apartment A, New York, New York 10021",
+    "phoneNumbers": "628-9484",
+    "geographicLocation": "New York, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "General Motors"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "mechanical engineer",
+    "technicalFields": [
+      "Mechanical Engineering"
+    ]
+  },
+  "ocr_front": "Maino, Bruno .     304 E 73rd. st. apt. A  NY 10021.  628-9484\n\nGeneral Motors.\n\nmechanical engineer.",
+  "ocr_notes": "Front: phone number '628-9484' is handwritten in blue ink. Back: 'JOHN' is crossed out and 'JIM' is written above it. 'Sheila Berkley' is uncertain (it could be 'Sheila Bentley').",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q784260",
+      "label": "Maino",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The search used only the surname. This is an American rapper born in 1973, not a mechanical engineer at General Motors in 1967-72."
+    },
+    {
+      "qid": "Q3843542",
+      "label": "Maino Marchi",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an Italian politician born in 1957 with Maino as his given name. He is unrelated to the card."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19287",
+      "label": "General Motors",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the General Motors item from the E.A.T. Knowledge Graph Project and links to Wikidata Q81965. It is the same company named on the card."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q81965",
+      "label": "General Motors",
+      "description": "American multinational automotive company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is General Motors, the American automaker, which is exactly the employer named on the card."
+    },
+    {
+      "qid": "Q21683603",
+      "label": "General Motors TBM Avenger",
+      "description": "torpedo bomber aircraft series by General Motors",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a family of aircraft built by GM, a product and not the company."
+    },
+    {
+      "qid": "Q5532064",
+      "label": "General Motors railway station",
+      "description": "closed railway station in Dandenong South, Victoria, Australia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a railway station in Australia, not the company."
+    },
+    {
+      "qid": "Q29281",
+      "label": "Holden",
+      "description": "Australian subsidiary of General Motors, an automaker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is Holden, GM's Australian subsidiary, which is a separate company. The card's New York engineer worked for General Motors itself."
+    },
+    {
+      "qid": "Q30338742",
+      "label": "General Motors",
+      "description": "Polish subsidary of General Motors",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is GM's Polish subsidiary, a different entity from the parent company."
+    },
+    {
+      "qid": "Q113364267",
+      "label": "General Motors FM Wildcat",
+      "description": "fighter aircraft series by General Motors",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a family of fighter aircraft, a product and not the employer."
+    },
+    {
+      "qid": "Q1070122",
+      "label": "EMD 645",
+      "description": "two-stroke diesel engine of 645 cu.in. per cylinder",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a diesel engine family, not an organisation."
+    },
+    {
+      "qid": "Q59187",
+      "label": "Vauxhall",
+      "description": "English car company, subsidiary of Stellantis",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is Vauxhall, a separate British car company that is now part of Stellantis."
+    },
+    {
+      "qid": "Q6395480",
+      "label": "Kettering University",
+      "description": "university in Flint, Michigan",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is Kettering University, formerly the General Motors Institute. It is a school and not the company."
+    },
+    {
+      "qid": "Q334612",
+      "label": "Grumman F4F Wildcat",
+      "description": "1937 fighter aircraft family by the Grumman Corporation",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Grumman F4F Wildcat aircraft, a product and not the employer."
+    }
+  ]
+}

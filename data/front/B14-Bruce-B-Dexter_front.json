@@ -1,0 +1,46 @@
+{
+  "personalIdentification": {
+    "fullName": "Bruce B Dexter"
+  },
+  "contactInformation": {
+    "residentialAddress": "5523 Bartlett Street, Pittsburgh, Pennsylvania 15217",
+    "phoneNumbers": "412-421-9940",
+    "geographicLocation": "Pittsburgh, Pennsylvania"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "ENGROK"
+  },
+  "professionalIdentityExpertise": {
+    "specializedSkillsKnowledge": "everything"
+  },
+  "ocr_front": "Bruce B Dexter, 5523 Bartlett St, Pgh, Pa. 15217\n                                          412-421-9940\nENGROK\n\neverthing.",
+  "ocr_notes": "Back line 1: first name may be 'Will' or 'Bill'; date could be 'Feb 10/69' or 'Feb 16/69'. 'Paskevitz' is a best reading. 'everthing.' is spelled that way on the card.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q117",
+      "label": "Dexter Gordon",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The search used only 'Dexter', and this hit has it as a first name. This is jazz saxophonist Dexter Gordon, not Bruce B. Dexter of Pittsburgh."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5268376",
+      "label": "Dexter",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Brazilian rapper born in 1973, which is impossible for someone active in 1967-72."
+    },
+    {
+      "qid": "Q134889750",
+      "label": "Dexter",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Czechoslovak adult film actor born in 1969, unrelated to the Pittsburgh engineer."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": []
+}

@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "name": "Mary Maxner",
+      "contact_method": "letter",
+      "date": "1969-02-20",
+      "bounding_box": {
+        "x1": 15.5,
+        "y1": 16.3,
+        "x2": 32.4,
+        "y2": 26.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Richard Puletto",
+      "contact_method": "letter",
+      "date": "1969-03-19",
+      "bounding_box": {
+        "x1": 16.5,
+        "y1": 24.7,
+        "x2": 36.4,
+        "y2": 34.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Tom Abeles",
+      "contact_method": "letter",
+      "date": "1970-11-02",
+      "bounding_box": {
+        "x1": 11.0,
+        "y1": 33.6,
+        "x2": 31.4,
+        "y2": 45.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16128858",
+          "label": "Moshe Abeles",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback hit: Israeli neuroscientist Moshe Abeles. Not Tom Abeles and not an artist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "letter Mary Maxiner Feb10/69\n\"   Richard Mulitts Mar 19/69\nTom Abeles (letter) 11/2/70"
+}

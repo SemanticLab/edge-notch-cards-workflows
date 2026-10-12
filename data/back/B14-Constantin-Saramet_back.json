@@ -1,0 +1,44 @@
+{
+  "entries": [
+    {
+      "name": "Roderic Stokes",
+      "name_other": "null",
+      "contact_method": "null",
+      "date": "XXXX-11-25",
+      "other_metadata": "null",
+      "bounding_box": {
+        "x1": 9.3,
+        "y1": 12.8,
+        "x2": 45.9,
+        "y2": 24.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30718",
+          "label": "Roderic Stokes",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match. The item is an artist from the same Technical Services Program card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q433405",
+          "label": "Jonathan Stokes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Hit from a surname-only fallback search; a botanist who died in 1831."
+        },
+        {
+          "qid": "Q21609879",
+          "label": "Susan Gabriella Stokes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Hit from a surname-only fallback search; a botanist who died in 1954."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "Roberic Stokes 11/25"
+}

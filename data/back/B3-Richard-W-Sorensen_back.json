@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "name": "D. Weinberger",
+      "contact_method": "recd",
+      "date": "XXXX-01-09",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 12.3,
+        "y1": 13.5,
+        "x2": 48.8,
+        "y2": 24.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30084",
+          "label": "D. Weinberger",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact match on 'D. Weinberger' with an artist from the same TSP card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q41674216",
+          "label": "Daniel R. Weinberger",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "Psychiatrist and neuroscientist born 1947, not an artist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "D. Weinberger Dave 1/9"
+}

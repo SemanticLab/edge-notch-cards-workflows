@@ -1,0 +1,58 @@
+{
+  "personalIdentification": {
+    "fullName": "Sue Foley"
+  },
+  "contactInformation": {
+    "residentialAddress": "McAllister at Van Ness, San Francisco, California 94102",
+    "phoneNumbers": "(415) 431-2040",
+    "geographicLocation": "San Francisco, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "San Francisco Museum of Art"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "San Francisco Museum of Art"
+  },
+  "interestsCreativeActivities": {
+    "aestheticPhilosophicalInterests": "San Francisco Museum of Art"
+  },
+  "ocr_front": "Foley, Sue  San Francisco Museum of Art,McAllister at Van Ness\n            San Francisco, Calif 94102  (415) 431-2040\nSan Francisco Museum of Art",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q432411",
+      "label": "Sue Foley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Canadian blues musician born in 1968, too young to be on staff at the San Francisco Museum of Art c. 1970."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q913672",
+      "label": "San Francisco Museum of Modern Art",
+      "description": "modern art museum in San Francisco, California, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "San Francisco Museum of Art was the former name of SFMOMA, which the alias match confirms. The museum was at McAllister and Van Ness, as on the card."
+    },
+    {
+      "qid": "Q79261172",
+      "label": "San Francisco Museum of Art Permanent Collection Selection",
+      "description": "1938 Exhibition at SFMOMA (then the San Francisco Museum of Art)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1938 exhibition at the museum, not the institution."
+    },
+    {
+      "qid": "Q79261301",
+      "label": "San Francisco Museum of Art Permanent Collection of Oils",
+      "description": "1938 Exhibition at SFMOMA (then the San Francisco Museum of Art)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1938 exhibition at the museum, not the institution."
+    }
+  ]
+}

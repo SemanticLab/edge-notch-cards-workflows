@@ -1,0 +1,135 @@
+{
+  "entries": [
+    {
+      "name": "L. BOYCE",
+      "name_other": "LOFT.",
+      "contact_method": "letter",
+      "date": "XXXX-02-18",
+      "other_metadata": "Feb 18",
+      "bounding_box": {
+        "x1": 9.6,
+        "y1": 15.6,
+        "x2": 37.1,
+        "y2": 21.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30233",
+          "label": "Larry Boyce",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Larry Boyce fits the initial 'L.' and is an artist in the same TSP card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q11845318",
+          "label": "Tommy Boyce",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-fallback hit on Tommy Boyce, a songwriter whose first name does not start with L."
+        },
+        {
+          "qid": "Q21506389",
+          "label": "John Shaw Boyce",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Botanist John Shaw Boyce. Wrong initial, and not an artist."
+        },
+        {
+          "qid": "Q110717709",
+          "label": "Boyce Nolan Nichols III",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Unrelated PhD from 2014."
+        }
+      ]
+    },
+    {
+      "name": "Kay Weiner",
+      "contact_method": "letter",
+      "date": "1969-03-11",
+      "other_metadata": "Mar 11/69",
+      "bounding_box": {
+        "x1": 9.5,
+        "y1": 20.2,
+        "x2": 45.4,
+        "y2": 29.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21338392",
+          "label": "Wanda Weiner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-fallback hit. Polish entomologist."
+        }
+      ]
+    },
+    {
+      "name": "Bernar Venet",
+      "contact_method": "letter",
+      "date": "1969-04-03",
+      "other_metadata": "April 3/69",
+      "bounding_box": {
+        "x1": 11.5,
+        "y1": 29.3,
+        "x2": 50.1,
+        "y2": 39.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28418",
+          "label": "Bernard Venet",
+          "description": "artist",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Bernard Venet is a variant spelling of Bernar Venet. The item is an artist in the E.A.T. Datascape and Knowledge Graph projects."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q545445",
+          "label": "Bernar Venet",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "French conceptual artist born 1941 who worked in New York City in the late 1960s, with an exact name match."
+        }
+      ]
+    },
+    {
+      "name": "Bob Blossom",
+      "contact_method": "letter",
+      "date": "1969-10-06",
+      "other_metadata": "10/6/69",
+      "bounding_box": {
+        "x1": 11.7,
+        "y1": 36.3,
+        "x2": 58.0,
+        "y2": 47.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30984",
+          "label": "Bob Blossom",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match with an artist in the TSP edge-notched card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16221478",
+          "label": "Blossom Nnodim",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-fallback hit. Nigerian journalist born 1981."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "L. BOYCE  LOFT.  Feb 18\nletter Kay Weiner  Mar 11/69\n\"   Bernar Venet  April 3/69.\n\"   bob blossom  10/6/69"
+}

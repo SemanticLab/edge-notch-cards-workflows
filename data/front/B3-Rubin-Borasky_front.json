@@ -1,0 +1,47 @@
+{
+  "personalIdentification": {
+    "fullName": "Dr. Rubin Borasky"
+  },
+  "contactInformation": {
+    "residentialAddress": "525 Thayer Avenue, Silver Springs, Maryland 20910",
+    "phoneNumbers": "301-585-8590",
+    "geographicLocation": "Silver Springs, Maryland; Washington, District of Columbia"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Walter Reed Army Institute of Research"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Biochemist and Electron microscopist",
+    "technicalFields": [
+      "Biochemistry",
+      "Electron microscopy"
+    ],
+    "specializedSkillsKnowledge": "Biochemist and Electron microscopist"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Makes art."
+  },
+  "ocr_front": "Borasky, Rubin, Dr, 525 Thayer Ave, Silver Springs, Md 20910\n                       301-585-8590\nWalter Reed Army Institute of research, Washington, D.C.\nBiochemist & Electron microscopist.\nMakes art.",
+  "ocr_notes": "Front: 'Silver' has a strikeover on the 'v'. Back in pencil.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q7965939",
+      "label": "Walter Reed Army Institute of Research",
+      "description": "biomedical research facility administered by the U.S. Department of Defense",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the Walter Reed Army Institute of Research, the Washington-area DoD biomedical institute (founded 1953). It matches the card's employer for a biochemist and electron microscopist living in Silver Spring."
+    },
+    {
+      "qid": "Q104465104",
+      "label": "Walter Reed Army Institute of Research (WRAIR): Fifty Years of Achievements That Impact Science and Society",
+      "description": "scientific article published on 12 December 2020",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 2020 article about WRAIR, not the institute."
+    }
+  ]
+}

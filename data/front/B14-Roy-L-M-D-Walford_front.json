@@ -1,0 +1,52 @@
+{
+  "personalIdentification": {
+    "fullName": "Roy L. Walford"
+  },
+  "contactInformation": {
+    "residentialAddress": "20 Latimer Road, Santa Monica, California 90402",
+    "phoneNumbers": "713 454 1960, 213 825 6794",
+    "geographicLocation": "Santa Monica, California; Los Angeles, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "UCLA Medical Center",
+    "departmentDivision": "Pathology Department"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Pathologist, Biologist",
+    "technicalFields": [
+      "Pathology",
+      "Biology"
+    ]
+  },
+  "ocr_front": "Walford, Roy L. M.D., 20 Latimer Road, Santa Monica, Calif. 90402\n713 454 1960     UCLA Medical Cneter Pathology Dept., Los Angeles 90024\n213 825 6794\n\npathologist, biologist",
+  "ocr_notes": "Front: 'Latimer' has an overstruck character (a typed over i); 'Cneter' is a typo on the card.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q439482",
+      "label": "Roy L. Walford",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Roy L. Walford was a pathologist employed by UCLA and lived in the Venice/Santa Monica area, which matches the card's UCLA pathology department and Santa Monica address."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2169282",
+      "label": "UCLA Ronald Reagan Medical Center",
+      "description": "hospital in Los Angeles, California, United States",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "This is the UCLA teaching hospital in Westwood (opened 1955), which carries the alias 'UCLA Medical Center'. It is the medical center the card names, though it was renamed for Reagan later."
+    },
+    {
+      "qid": "Q7864040",
+      "label": "UCLA Santa Monica Medical Center",
+      "description": "hospital of the University of California, Los Angeles at Santa Monica, C.A. United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Santa Monica hospital is a separate facility that only joined UCLA much later. The card refers to the main UCLA Medical Center pathology department."
+    }
+  ]
+}

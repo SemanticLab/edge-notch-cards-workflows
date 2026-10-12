@@ -1,0 +1,98 @@
+{
+  "entries": [
+    {
+      "name": "Kraus Wochen",
+      "date": "XXXX-11-19",
+      "bounding_box": {
+        "x1": 12.9,
+        "y1": 15.6,
+        "x2": 46.2,
+        "y2": 25.1
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q45611731",
+          "label": "Wochen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This surname-only fallback found a Yuan dynasty person, so the wrong era and the wrong person."
+        }
+      ]
+    },
+    {
+      "name": "Roderic Stokes",
+      "date": "XXXX-11-24",
+      "bounding_box": {
+        "x1": 13.8,
+        "y1": 20.2,
+        "x2": 50.5,
+        "y2": 32.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30718",
+          "label": "Roderic Stokes",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Distinctive exact name, and the item is an artist from this same TSP card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q433405",
+          "label": "Jonathan Stokes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This surname-only fallback found an 18th-century English botanist."
+        },
+        {
+          "qid": "Q21609879",
+          "label": "Susan Gabriella Stokes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This surname-only fallback found a botanist (1868-1954)."
+        }
+      ]
+    },
+    {
+      "name": "Den Hill",
+      "date": "1970-04-05",
+      "bounding_box": {
+        "x1": 14.6,
+        "y1": 30.4,
+        "x2": 40.7,
+        "y2": 41.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q29620",
+          "label": "hill",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A class for 'hill' (a place), not a person."
+        },
+        {
+          "qid": "Q22633",
+          "label": "Hillary Clinton",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Hillary Clinton, an unrelated hit from the surname-only fallback."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q104052623",
+          "label": "Hill",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A 19th-century academic from Turin found by the surname-only fallback."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "Klaus Wrochen 11/19\nRoderic Stokes 11/21\nDen Hill  4/5/70"
+}

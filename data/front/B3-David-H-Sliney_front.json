@@ -1,0 +1,117 @@
+{
+  "personalIdentification": {
+    "fullName": "David H. Sliney"
+  },
+  "contactInformation": {
+    "residentialAddress": "406 Streamside Drive, Fallston, Maryland 21047",
+    "phoneNumbers": "676 3717",
+    "geographicLocation": "Fallston, Maryland"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "United States Army"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Engineer",
+    "technicalFields": [
+      "physics",
+      "optics",
+      "microwaves"
+    ]
+  },
+  "ocr_front": "Sliney, David H, 406  Streamside Drive  Fallston  Md 21047\n            676 3717\n\nU.S. Army\n\nEngineer;physics, optics, microwaves.",
+  "ocr_notes": "Front: faint erased text after 'U.S. Army' cannot be read. Back: 'GENY' could also be read as 'GERY'. 'John Chapps' is a best reading of faint pencil.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q24560",
+      "label": "United States Army",
+      "description": "branch of the United States Armed Forces",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the United States Army, a branch of the US Armed Forces, matching the card's employer exactly."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q9212",
+      "label": "United States Army",
+      "description": "land service branch of the United States Armed Forces",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the United States Army, the land service branch, which is exactly the employer named on the card."
+    },
+    {
+      "qid": "Q1049334",
+      "label": "United States Army Corps of Engineers",
+      "description": "direct reporting unit and U.S. Army's branch for military engineering",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Army Corps of Engineers is a sub-unit of the Army, and the card does not name it."
+    },
+    {
+      "qid": "Q1115050",
+      "label": "United States Army Command and General Staff College",
+      "description": "United States army graduate school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an Army staff college in Kansas, a sub-unit not named on the card."
+    },
+    {
+      "qid": "Q635078",
+      "label": "United States Army War College",
+      "description": "United States Army school located in Carlisle, Pennsylvania",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Army War College in Pennsylvania, a sub-unit not named on the card."
+    },
+    {
+      "qid": "Q741723",
+      "label": "United States Army Air Forces",
+      "description": "aerial warfare branch of the United States Army from 1941 to 1947",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Army Air Forces were dissolved in 1947, before the card's period."
+    },
+    {
+      "qid": "Q2140008",
+      "label": "United States Army Air Corps",
+      "description": "air warfare branch of the U.S. Army from 1926 to 1947",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Army Air Corps was dissolved in 1947 and is a different body."
+    },
+    {
+      "qid": "Q4794172",
+      "label": "United States Army Map Service",
+      "description": "cartographic service of US Army",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Army Map Service is a sub-unit, and nothing on the card points to it."
+    },
+    {
+      "qid": "Q482421",
+      "label": "United States Army Special Forces",
+      "description": "US Army special operations force",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Special Forces are a sub-unit unrelated to an optics and microwave engineer."
+    },
+    {
+      "qid": "Q597614",
+      "label": "U.S. Army Nurse Corps",
+      "description": "military unit",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Army Nurse Corps is a sub-unit unrelated to the card."
+    },
+    {
+      "qid": "Q2036662",
+      "label": "United States Army Reserve",
+      "description": "federal reserve force of the United States Army",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Army Reserve is a distinct reserve component, and the card does not name it."
+    }
+  ]
+}

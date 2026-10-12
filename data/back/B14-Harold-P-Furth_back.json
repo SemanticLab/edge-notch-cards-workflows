@@ -1,0 +1,129 @@
+{
+  "entries": [
+    {
+      "name": "Larry Hahn",
+      "contact_method": "letter",
+      "date": "1969-10-08",
+      "other_metadata": "->",
+      "bounding_box": {
+        "x1": 20.9,
+        "y1": 12.8,
+        "x2": 41.3,
+        "y2": 24.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30679",
+          "label": "Larry Hahn",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Same name. This is the TSP card-collection artist item."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q65927774",
+          "label": "Hahn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "German badminton player. Surname-only fallback."
+        }
+      ]
+    },
+    {
+      "name": "Mario Kujanowski",
+      "contact_method": "letter",
+      "date": "XXXX-10-13",
+      "other_metadata": "ditto marks",
+      "bounding_box": {
+        "x1": 20.1,
+        "y1": 21.6,
+        "x2": 49.1,
+        "y2": 32.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Jon Hassell",
+      "date": "XXXX-11-12",
+      "bounding_box": {
+        "x1": 20.5,
+        "y1": 28.5,
+        "x2": 41.5,
+        "y2": 36.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30633",
+          "label": "Jon Hassell",
+          "description": "American trumpeter and composer of fusion music (1937-2021)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Same name. Trumpeter and composer in the TSP card collection, linked to Q782528."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q782528",
+          "label": "Jon Hassell",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "American trumpeter and composer (1937-2021), active in New York around 1970. The wikibase item links here."
+        }
+      ]
+    },
+    {
+      "name": "Clifford Rose",
+      "date": "XXXX-11-12",
+      "bounding_box": {
+        "x1": 21.2,
+        "y1": 34.5,
+        "x2": 46.9,
+        "y2": 45.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31722",
+          "label": "Clifford Rose",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Same name. This is the TSP card-collection artist item."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q5133033",
+          "label": "Clifford Rose",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "British TV actor (1929-2021). He is a performer of the right era, but nothing links him to New York or E.A.T., so this rests on the name alone."
+        },
+        {
+          "qid": "Q101132428",
+          "label": "Clifford J Rosen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Clifford Rosen, a medical researcher. Different surname."
+        },
+        {
+          "qid": "Q60441187",
+          "label": "Clifford Roseline",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Clifford Roseline, a Seychelles military chief. Different surname."
+        },
+        {
+          "qid": "Q16019541",
+          "label": "F. Clifford Rose",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "English neurologist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "letter + Larry Hahn 10/8/69\n  \"     Mario Kujawski 10/13\n        Jon Hassell 1/12\n        Clifford Rose 1/12"
+}

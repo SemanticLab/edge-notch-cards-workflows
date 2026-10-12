@@ -1,0 +1,128 @@
+{
+  "personalIdentification": {
+    "fullName": "Steven R. Kovel"
+  },
+  "contactInformation": {
+    "residentialAddress": "2 Glen Hill Lane, Milburn, New Jersey",
+    "phoneNumbers": "Home: 376-3443, Work: 582-2906",
+    "geographicLocation": "Milburn, New Jersey"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Bell Telephone Laboratories",
+    "departmentDivision": "C.T.I."
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Engineer/Scientist",
+    "technicalFields": [
+      "Electrical engineering",
+      "mathematics",
+      "physics",
+      "computers",
+      "programming",
+      "lasers",
+      "integrated circuits"
+    ]
+  },
+  "ocr_front": "Kovel, Steven R.  2 Glen Hill Lane, Milburn, N.J.   376-3443\nBell Telephone Laboratories 582-2906\n\nElectrical engineering, mathematics, physics, computers,\nprogramming, lasers, integrated circuits.\n\n\n\nC.T.I.",
+  "ocr_notes": "Front: '582-2906' is handwritten in pencil after 'Laboratories'. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q6434855",
+      "label": "K. Raghavendra Rao",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback hit an alias; this is an Indian Telugu film director, unrelated to a Bell Labs engineer in New Jersey."
+    },
+    {
+      "qid": "Q1718178",
+      "label": "Kovelamudi Bapayya",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Indian film director from Hyderabad found by a surname-only fallback; field and country do not fit the card."
+    },
+    {
+      "qid": "Q15696137",
+      "label": "Kovelamudi Surya Prakash Rao",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Indian film director/producer (1914-1996) from a surname-only fallback; unrelated to a New Jersey engineer."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the full name of Bell Labs; the item lists Murray Hill NJ and E.A.T.-connected employees, matching the card."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a publication (Bell Telephone Laboratories Reporter), not the employer organisation."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Labs, alias Bell Telephone Laboratories, headquartered in Murray Hill NJ; same institution as the card's employer."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "A bare 'production company' item (film credits entity), not the research company itself as represented in Wikidata."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A NARA archival collection about Bell Labs, not the organisation."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Bell Telephone Laboratories: Kelly Award",
+      "description": "scientific article published in Nature",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1959 Nature article, not an organisation."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Bell Telephone Laboratories Appointments",
+      "description": "scientific article published in Nature",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1959 Nature article, not an organisation."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Bell Telephone Laboratories: New Directors of Research",
+      "description": "scientific article published in Nature",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1958 Nature article, not an organisation."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Wikimedia disambiguation page, not an organisation."
+    }
+  ]
+}

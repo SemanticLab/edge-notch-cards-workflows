@@ -1,0 +1,44 @@
+{
+  "personalIdentification": {
+    "fullName": "Peter L Fleischner"
+  },
+  "contactInformation": {
+    "residentialAddress": "106 Morningside Drive, New York City, 10027",
+    "phoneNumbers": "666-3815",
+    "geographicLocation": "New York City"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "National Beryllia Corp."
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "chemical engineering",
+      "geology",
+      "mathematics",
+      "chemistry",
+      "physics"
+    ],
+    "specializedSkillsKnowledge": "ceramics, glass, crystallography, X-rays"
+  },
+  "ocr_front": "Peter L Fleischner,  106 Morningside Dr, NYC, 10027.666-3815\nNatiohnal Beryllia Corp.\nchemical engineering, geology, mathematics, chemistry, physics,\nceramics, glass, crystallography, X-rays.",
+  "ocr_notes": "Front: 'Natiohnal' has an overstruck character (typo for National). Back: 'Chris Thee' surname uncertain.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q104544415",
+      "label": "Fleischner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name fallback; R. Fleischner was a Holocaust victim from Brno born 1902, not Peter L. Fleischner of New York."
+    },
+    {
+      "qid": "Q1358085",
+      "label": "Ernst Fleischner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ernst Fleischner, German SPD politician in Kiel; different given name, country and field."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": []
+}

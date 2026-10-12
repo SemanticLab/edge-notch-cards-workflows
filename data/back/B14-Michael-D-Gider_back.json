@@ -1,0 +1,477 @@
+{
+  "entries": [
+    {
+      "name": "Anne (Tony) Sorace",
+      "date": "XXXX-11-12",
+      "bounding_box": {
+        "x1": 10.9,
+        "y1": 14.5,
+        "x2": 44.4,
+        "y2": 23.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Predastmidt",
+      "date": "XXXX-11-24",
+      "bounding_box": {
+        "x1": 16.9,
+        "y1": 21.2,
+        "x2": 45.6,
+        "y2": 30.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "J. Edleman",
+      "date": "XXXX-02-04",
+      "bounding_box": {
+        "x1": 16.3,
+        "y1": 27.6,
+        "x2": 46.5,
+        "y2": 41.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Marilyn Rollar",
+      "date": "XXXX-02-01",
+      "bounding_box": {
+        "x1": 13.5,
+        "y1": 37.9,
+        "x2": 48.9,
+        "y2": 49.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q15223009",
+          "label": "Christine Rollard",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This is a surname-only fallback hit. Christine Rollard is a French arachnologist born in 1958, a different name and not an artist of the era."
+        }
+      ]
+    },
+    {
+      "name": "G. Gorman",
+      "date": "XXXX-07-05",
+      "bounding_box": {
+        "x1": 14.0,
+        "y1": 47.1,
+        "x2": 42.6,
+        "y2": 55.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30878",
+          "label": "G. Gorman",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact label 'G. Gorman', described as an artist in E.A.T.'s Technical Services Program, from the same edge-notched card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q63438253",
+          "label": "Gráinne S. Gorman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Gráinne S. Gorman is a modern researcher who matched only through the alias 'G. Gorman'. Nothing ties her to 1960s art."
+        }
+      ]
+    },
+    {
+      "name": "Amy Stromsten",
+      "date": "XXXX-11-06",
+      "bounding_box": {
+        "x1": 14.3,
+        "y1": 53.9,
+        "x2": 43.1,
+        "y2": 62.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31493",
+          "label": "Amy Stromsten",
+          "description": "American; Painter, Photographer",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact distinctive name, an American painter and photographer from the E.A.T. Technical Services Program card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q56461176",
+          "label": "Amy Stromsten",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact distinctive name. American photographer born in 1942, and it is the Wikidata item linked from the wikibase artist record."
+        }
+      ]
+    },
+    {
+      "name": "Stephanie Wanitsky",
+      "date": "1970-10-05",
+      "bounding_box": {
+        "x1": 13.9,
+        "y1": 62.8,
+        "x2": 47.4,
+        "y2": 71.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Betty Voelker",
+      "contact_method": "letter",
+      "date": "1970-10-22",
+      "bounding_box": {
+        "x1": 14.2,
+        "y1": 69.9,
+        "x2": 47.3,
+        "y2": 81.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30090",
+          "label": "Hera",
+          "description": "American sculptor",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "'Hera' is an American sculptor in the TSP card project, and its linked Wikidata item carries the alias Betty Voelker. This is the same artist under her art name."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q123902098",
+          "label": "Hera",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Matched through the exact alias 'Betty Voelker'. American sculptor born in 1940, and it is the item linked from the wikibase record."
+        }
+      ]
+    },
+    {
+      "name": "Dolores Holmes",
+      "date": "1970-10-26",
+      "bounding_box": {
+        "x1": 12.8,
+        "y1": 80.6,
+        "x2": 53.2,
+        "y2": 87.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1344901",
+          "label": "Holmes Herbert",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. Holmes Herbert was a British actor who died in 1956."
+        },
+        {
+          "qid": "Q56877261",
+          "label": "Jeffrey W. Holmes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. Jeffrey W. Holmes is a male researcher, not Dolores."
+        },
+        {
+          "qid": "Q18160600",
+          "label": "James Holmes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. James Holmes was a painter who died in 1860."
+        },
+        {
+          "qid": "Q18910510",
+          "label": "Edward Morell Holmes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. Edward Morell Holmes was a botanist who died in 1930."
+        },
+        {
+          "qid": "Q25253609",
+          "label": "George Holmes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. George Holmes was an 18th-century Dublin etcher."
+        }
+      ]
+    },
+    {
+      "name": "Robert O'Brien",
+      "date": "1970-11-09",
+      "bounding_box": {
+        "x1": 55.1,
+        "y1": 13.9,
+        "x2": 92.1,
+        "y2": 23.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26336",
+          "label": "Robert O'Brien",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name, an artist associated with E.A.T.'s Technical Services Program in the same card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q108104507",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Royal Navy officer born in 1808."
+        },
+        {
+          "qid": "Q110223036",
+          "label": "Robert O'Brien",
+          "match": true,
+          "confidence": "low",
+          "reasoning": "The wikibase artist record links here. He was an American screenwriter (1918–2005) born in New York City and active in 1970, but the name is common and he lived in Los Angeles, so the identity is uncertain."
+        },
+        {
+          "qid": "Q7348092",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "RAF air marshal, not an artist."
+        },
+        {
+          "qid": "Q112389067",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "Journalist (1911–2004) with no facts linking him to art or E.A.T. The name is common."
+        },
+        {
+          "qid": "Q112418929",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Economist born in 1963."
+        },
+        {
+          "qid": "Q172352",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Racecar driver (1908–1987), not an artist."
+        },
+        {
+          "qid": "Q30038569",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "A painter and sculptor, but born in 1951 in England and active in the Netherlands. He was a teenager in 1970 with no New York link."
+        },
+        {
+          "qid": "Q7342642",
+          "label": "Robert C. O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Robert C. O'Brien is a politician and lawyer born in 1966."
+        },
+        {
+          "qid": "Q75316938",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Died in 1870."
+        },
+        {
+          "qid": "Q75285654",
+          "label": "Robert O'Brien",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Died in 1838."
+        }
+      ]
+    },
+    {
+      "name": "Sari Dienes",
+      "date": "1970-11-13",
+      "bounding_box": {
+        "x1": 56.4,
+        "y1": 23.2,
+        "x2": 88.5,
+        "y2": 29.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30086",
+          "label": "Sari Dienes",
+          "description": "Hungarian-born American artist (1898–1992)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact distinctive name. Hungarian-American artist (1898–1992) in the TSP card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16012873",
+          "label": "Sari Dienes",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact distinctive name. New York painter and sculptor active in the 1960s–70s, and linked from the wikibase record."
+        }
+      ]
+    },
+    {
+      "name": "Lee Jaffe",
+      "date": "1970-11-20",
+      "bounding_box": {
+        "x1": 56.7,
+        "y1": 28.5,
+        "x2": 84.4,
+        "y2": 37.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q27023",
+          "label": "Lee Jaffe",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name, an artist associated with E.A.T.'s TSP in the same card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1811847",
+          "label": "Lee Jaffe",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "American artist born in 1950 in the Bronx (painter, video artist, photographer), active in the New York scene around 1970, and linked from the wikibase record."
+        }
+      ]
+    },
+    {
+      "name": "Olivia Selfrid",
+      "date": "1970-11-24",
+      "bounding_box": {
+        "x1": 57.1,
+        "y1": 36.1,
+        "x2": 90.0,
+        "y2": 45.6
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q88919517",
+          "label": "Olivia Rissland",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "Olivia Selfridge Rissland is a present-day researcher and Rhodes Scholar, far too young to appear on a c. 1970 card, even though the alias resembles 'Selfrid'."
+        }
+      ]
+    },
+    {
+      "name": "Nelson Richardson",
+      "date": "1970-12-01",
+      "bounding_box": {
+        "x1": 57.6,
+        "y1": 44.0,
+        "x2": 89.6,
+        "y2": 53.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30075",
+          "label": "Nelson Richardson",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name, an artist associated with E.A.T.'s TSP in the same card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21392801",
+          "label": "Nelson Moore Richardson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "English entomologist who died in 1925."
+        },
+        {
+          "qid": "Q100913667",
+          "label": "Nelson Richardson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "College basketball player from 1977–78, not an artist."
+        }
+      ]
+    },
+    {
+      "name": "Eugene Briley",
+      "date": "1971-03-21",
+      "bounding_box": {
+        "x1": 58.3,
+        "y1": 50.1,
+        "x2": 88.8,
+        "y2": 62.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q110612582",
+          "label": "Briley Moore",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. Football player born in 1998."
+        },
+        {
+          "qid": "Q119568401",
+          "label": "Briley Pena",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. Current college basketball player."
+        },
+        {
+          "qid": "Q119562613",
+          "label": "Briley Buckner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. Basketball player."
+        },
+        {
+          "qid": "Q115204158",
+          "label": "Jonathan Eric Briley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Jonathan Eric Briley was born in 1958, an AV technician and 9/11 victim."
+        },
+        {
+          "qid": "Q115204058",
+          "label": "Jonathan Briley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Jonathan Briley is a musician born in 1956, too young, and his given name differs."
+        },
+        {
+          "qid": "Q88600776",
+          "label": "Briley Bourgeois",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. A researcher."
+        },
+        {
+          "qid": "Q1699413",
+          "label": "John Briley",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "John Briley was a screenwriter, but his given name is John, not Eugene."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "Anthony Source 11/12                Robert O'Brien  11-9-70\n  Douglas Smedt 11/24               Sari Dienes  11/13/70\nL. Edleman 2/4                      Lee Jaffe  11/20/70\nMarilyn Kollar 2/1                  Oliver Selfridge 11/24/70\nG. Gorman   7/5                     Nelson Richardson 12/1/70\nAmy Stromsten  11/6                 Eugene Burley  3/21/71\nStephanie Wanitsky 10/5/70\nBetty Voelker  10/22/70\n   (letter)\nDolores Holmes 10/26/70"
+}

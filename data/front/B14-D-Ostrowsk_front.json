@@ -1,0 +1,59 @@
+{
+  "personalIdentification": {
+    "fullName": "D Ostrowsk"
+  },
+  "contactInformation": {
+    "residentialAddress": "P.O. Box 187, Framingham, Massachusetts 01701",
+    "geographicLocation": "Framingham, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "American Optical Company"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "electrical engineer",
+    "technicalFields": [
+      "Medical electronics",
+      "Optics"
+    ]
+  },
+  "ocr_front": "Ostrowsk, D, P.O.Box 187, Flamingham, Mass 01701      8791880\n\nAmerican Optical Co.\n\nMedical electronics & Optics;electrical engineer.",
+  "ocr_notes": "Back: faint blue pen. 'Galaty Coy' is a best reading; the same name appears on the David Recksett card.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q25772",
+      "label": "American Optical Society",
+      "description": "Organization",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The American Optical Society is a different organisation from American Optical Company, the eyewear and optics manufacturer. The names are similar but they are distinct entities."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q2842985",
+      "label": "American Optical",
+      "description": "United States eyeglass company and brand",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "American Optical has the alias American Optical Company and is the Southbridge MA optics manufacturer, which matches the card's Massachusetts employer."
+    },
+    {
+      "qid": "Q4710385",
+      "label": "Albert H. Wheeler House",
+      "description": "house in Southbridge, Massachusetts",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A historic house that was once company worker housing, not the company."
+    },
+    {
+      "qid": "Q119438036",
+      "label": "American Optical Company Historic District",
+      "description": "historic district in Southbridge, Massachusetts",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A historic district of factory buildings, not the company."
+    }
+  ]
+}

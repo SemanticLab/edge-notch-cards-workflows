@@ -1,0 +1,124 @@
+{
+  "personalIdentification": {
+    "fullName": "Commander C. C. Hobdy"
+  },
+  "contactInformation": {
+    "residentialAddress": "Quarters 112-C1",
+    "phoneNumbers": "264-3313",
+    "geographicLocation": "Governors Island"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "United States Coast Guard",
+    "departmentDivision": "National Search & Rescue School"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Commander"
+  },
+  "interestsCreativeActivities": {
+    "aestheticPhilosophicalInterests": "Interested in psychedelia."
+  },
+  "ocr_front": "Hobdy, Cdr. C.C., U.S.C.G., Qtrs 112-C1   Governor Is.\n       264-3313\n\nNational Search & Rescue School\n\nInterested in psychelia.                     ?",
+  "ocr_notes": "Front: a large handwritten '?' in pencil/blue sits in the centre-right. 'Cdr.' has an overstruck first letter. 'psychelia' is spelled that way on the card. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q13420026",
+      "label": "Robert W. Hobdy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name-only fallback hit. Robert W. Hobdy is a botanist with a different given name, while the card is Coast Guard Commander C. C. Hobdy on Governors Island."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q31641",
+      "label": "United States Coast Guard",
+      "description": "security and rescue military service branch for U.S. waters",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same name as the card's employer, linked to Wikidata Q11224, and already part of the E.A.T. Edge-Notched Cards project."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q11224",
+      "label": "United States Coast Guard",
+      "description": "security and rescue military service branch for U.S. waters",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the United States Coast Guard itself, the employer named on the card. The National Search & Rescue School on Governors Island was one of its units."
+    },
+    {
+      "qid": "Q650935",
+      "label": "United States Coast Guard Academy",
+      "description": "U.S. federal service academy for the Coast Guard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Coast Guard Academy in New London CT is a sub-unit. The card names the Search & Rescue School on Governors Island, not the Academy."
+    },
+    {
+      "qid": "Q7889627",
+      "label": "United States Coast Guard Yard",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A shipyard in Anne Arundel County, MD. It is a facility, not the service as a whole."
+    },
+    {
+      "qid": "Q374119",
+      "label": "United States Coast Guard Reserve",
+      "description": "reserve component of the United States Coast Guard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Coast Guard Reserve is a component of the service, not the Coast Guard itself."
+    },
+    {
+      "qid": "Q29639630",
+      "label": "United States Coast Guard Light List",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A publication (list of lights) issued by the Coast Guard, not an organisation."
+    },
+    {
+      "qid": "Q7889620",
+      "label": "United States Coast Guard cutter",
+      "description": "type of patrol vessel used by US Coast Guard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A ship type (cutter), not an organisation."
+    },
+    {
+      "qid": "Q137294446",
+      "label": "United States Coast Guard Women's Reserve",
+      "description": "reserve component of the United States Coast Guard",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The WWII Women's Reserve was disbanded in 1947 and is a sub-component, not the employer on the card."
+    },
+    {
+      "qid": "Q4369538",
+      "label": "USCGC Polar Star",
+      "description": "1973 Polar-class icebreaker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An icebreaker ship that entered service in 1976, not an organisation."
+    },
+    {
+      "qid": "Q22094758",
+      "label": "Coast Guard Bears",
+      "description": "intercollegiate sports teams of the U.S. Coast Guard Academy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Sports teams of the Coast Guard Academy, not the employer."
+    },
+    {
+      "qid": "Q7866225",
+      "label": "USCGC Polar Sea",
+      "description": "heavy icebreaker ship",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An icebreaker ship, not an organisation."
+    }
+  ]
+}

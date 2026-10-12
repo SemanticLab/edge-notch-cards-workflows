@@ -1,0 +1,109 @@
+{
+  "personalIdentification": {
+    "fullName": "Charles L Feldman"
+  },
+  "contactInformation": {
+    "residentialAddress": "PO box 76, Sudbury, Massachusetts",
+    "phoneNumbers": "443-9035",
+    "geographicLocation": "Sudbury, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Worcester Polytechnic Institute"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "mechanical engineering",
+      "thermodynamics",
+      "statistical communications theory",
+      "biomedical engineering"
+    ],
+    "specializedSkillsKnowledge": "Can program and have access to computers."
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Applying statistical and probability theory to art",
+    "aestheticPhilosophicalInterests": "To show varying degrees of indeterminacy in life and the world"
+  },
+  "ocr_front": "Feldman, Charles L   PO box 76, Sudbury, Mass (?)    443-9035\n\nWorcester Polytechnic Inst.\n\nmechanical eng, thermodynamics, statistical communications theory,\nbiomedical eng.\n\ninterested in applying statistical and probability theory to art,\nprimarily to show varying degrress of indeterminancy in life and\nthe world. Can program and have ac ess to computers.",
+  "ocr_notes": "Front: 'degrress', 'indeterminancy' and 'ac ess' are as typed. Back: 'Hord' and 'Gutstadt' are best readings.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q2448548",
+      "label": "Charles K. Feldman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is Charles K. Feldman, the Hollywood agent and producer who died in May 1968; the middle initial and field do not fit."
+    },
+    {
+      "qid": "Q57010385",
+      "label": "Charles Feldman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a South African researcher at Witwatersrand, a different country with no link to WPI or Massachusetts."
+    },
+    {
+      "qid": "Q81243606",
+      "label": "Charles Feldman",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "This is a present-day researcher at Montclair State University with an ORCID; nothing ties him to WPI or biomedical engineering in the 1960s."
+    },
+    {
+      "qid": "Q11984994",
+      "label": "Charles Feldmann",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a French general (1846-1929) named Feldmann and is unrelated."
+    },
+    {
+      "qid": "Q95818367",
+      "label": "Charles Feldmann",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an agricultural engineer named Feldmann, a different surname spelling and field."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q195046",
+      "label": "Worcester Polytechnic Institute",
+      "description": "university in Worcester, Massachusetts",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is Worcester Polytechnic Institute in Worcester MA, the exact employer on the card, and it is consistent with his Sudbury MA address."
+    },
+    {
+      "qid": "Q23018361",
+      "label": "WPI Engineers",
+      "description": "sports teams of a university or college",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is WPI's athletics teams, not the institute as an employer."
+    },
+    {
+      "qid": "Q109450663",
+      "label": "Worcester Polytechnic Institute, Gordon Library",
+      "description": "academic library in the United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is WPI's Gordon Library, a sub-unit not named on the card."
+    },
+    {
+      "qid": "Q4714014",
+      "label": "Aldus Chapin Higgins House",
+      "description": "single-family detached home in Worcester, Massachusetts",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a house owned by WPI, a building rather than the institution."
+    },
+    {
+      "qid": "Q99476544",
+      "label": "Worcester Polytechnic Institute Official Bookstore",
+      "description": "bookshop in Worcester, MA, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the WPI bookstore, not the institute."
+    }
+  ]
+}

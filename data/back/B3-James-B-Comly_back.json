@@ -1,0 +1,51 @@
+{
+  "entries": [
+    {
+      "name": "Joseph Dewey",
+      "name_other": "",
+      "contact_method": "",
+      "date": "XXXX-11-18",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 11.2,
+        "y1": 12.3,
+        "x2": 40.5,
+        "y2": 27.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q32151",
+          "label": "Joseph Dewey",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name matches exactly. He is an artist in the same E.A.T. TSP card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q133693110",
+          "label": "Joseph Dewey",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This is a literary scholar born in 1957, too late."
+        },
+        {
+          "qid": "Q3025575",
+          "label": "Joseph Dewey Soper",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This is Joseph Dewey Soper, a Canadian ornithologist whose surname is Soper."
+        },
+        {
+          "qid": "Q94642542",
+          "label": "Joseph Dewey Hobbs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This is Joseph Dewey Hobbs, whose surname is Hobbs. Nothing in his record suggests he was an artist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "Joseph Dewey 11/19"
+}

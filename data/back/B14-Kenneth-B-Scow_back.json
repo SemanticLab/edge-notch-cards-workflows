@@ -1,0 +1,123 @@
+{
+  "entries": [
+    {
+      "name": "Jim Rugg",
+      "contact_method": "letter",
+      "date": "1969-10-06",
+      "other_metadata": "->",
+      "bounding_box": {
+        "x1": 88.0,
+        "y1": 17.6,
+        "x2": 94.1,
+        "y2": 83.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q6197904",
+          "label": "Jim Rugg",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Cartoonist born in 1977, after the 1969 card date."
+        }
+      ]
+    },
+    {
+      "name": "Harley Jones",
+      "contact_method": "letter",
+      "date": "1964-10-10",
+      "other_metadata": "\"",
+      "bounding_box": {
+        "x1": 84.1,
+        "y1": 34.0,
+        "x2": 90.8,
+        "y2": 89.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30316",
+          "label": "Harley Jones",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name. It is a TSP artist item from the same card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q116947430",
+          "label": "Harley Jones",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "New Zealand accordionist born in 1953."
+        },
+        {
+          "qid": "Q3127488",
+          "label": "Harley Jones Van Cleave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Zoologist who died in 1953."
+        }
+      ]
+    },
+    {
+      "name": "Charles Kuttner",
+      "contact_method": "letter",
+      "date": "XXXX-01-12",
+      "other_metadata": "\"",
+      "bounding_box": {
+        "x1": 80.9,
+        "y1": 25.1,
+        "x2": 87.0,
+        "y2": 84.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q4222476",
+          "label": "Jérome Friedrich Küttner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback hit: a Russian architect who died in 1929."
+        },
+        {
+          "qid": "Q4249574",
+          "label": "Mihály Kuttner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback hit: a Hungarian violinist named Mihály, so the given name differs."
+        }
+      ]
+    },
+    {
+      "name": "H. Amann",
+      "date": "XXXX-02-16",
+      "bounding_box": {
+        "x1": 77.9,
+        "y1": 24.6,
+        "x2": 83.0,
+        "y2": 74.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q32069",
+          "label": "H. Amann",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name. It is a TSP artist item from the same card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q102078329",
+          "label": "Herbert Amann",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "German mathematician in Zurich who matched only through the alias 'H. Amann'. Nothing suggests an art career."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "letter → Jim Rugg 10/6/69\n\"  Harley Jones 10/10/69\n\"  Charles Kutner 1/12\nH. Amann 22/6"
+}

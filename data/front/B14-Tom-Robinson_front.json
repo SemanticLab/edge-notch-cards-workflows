@@ -1,0 +1,194 @@
+{
+  "personalIdentification": {
+    "fullName": "Tom Robinson"
+  },
+  "contactInformation": {
+    "residentialAddress": "87 Salmon Beach, Tacoma, Washington 98400",
+    "phoneNumbers": "SK9-2049, 655-9181",
+    "geographicLocation": "Tacoma, Washington"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Boeing"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Opto electronics"
+    ]
+  },
+  "ocr_front": "Tom Robinson.     87 Salmon Beach,Tacoma, Wn. 98400.   XXXXXXXXX\n                                                       SK9-2049\nBoeing.                                               655-9181\n\nOpto electronics.",
+  "ocr_notes": "Front: an entry at top right is typed over with X's (struck out). Back: the two lower-right entries are written upside down relative to the top entry; 'Chapps', 'Burt Webb' and 'Sahlstrand' are best readings.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q32184",
+      "label": "Robinson and Heinrichs",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback hit a business (Robinson and Heinrichs), not a person."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q723493",
+      "label": "Tom Robinson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "British musician and radio presenter born 1950 in Cambridge; not a Boeing opto-electronics engineer."
+    },
+    {
+      "qid": "Q153289",
+      "label": "Tom Robinson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Bahamian Olympic sprinter; field and country conflict."
+    },
+    {
+      "qid": "Q91700178",
+      "label": "Tom Robinson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Modern disaster-risk researcher at UK/NZ universities; wrong era and field."
+    },
+    {
+      "qid": "Q131765042",
+      "label": "Tom Robinson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "American swimming coach who died in 1958, before the card period."
+    },
+    {
+      "qid": "Q123707375",
+      "label": "Tom Robinson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Rugby league player; unrelated field."
+    },
+    {
+      "qid": "Q42714349",
+      "label": "Tom Robinson",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "Generic researcher namesake with no dates, employer or location linking him to Boeing in Tacoma."
+    },
+    {
+      "qid": "Q88322563",
+      "label": "Thomas Robinson",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "Researcher at NOAA/SAIC/University of Hawaii, educated at a community college; no Boeing or opto-electronics link and appears to be a modern scientist."
+    },
+    {
+      "qid": "Q76077068",
+      "label": "Tom Oakley Robinson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "British peerage person (relative of Sophie Rhys-Jones); unrelated."
+    },
+    {
+      "qid": "Q22938880",
+      "label": "Thomas Robinson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Australian cyclist born 1989."
+    },
+    {
+      "qid": "Q42320057",
+      "label": "Tom Robinson",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "American photographer born 1948; plausible age but the field is photography, not Boeing opto-electronics."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q31214",
+      "label": "Boeing",
+      "description": "American global aerospace and defense corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Boeing item in the edge-notched card project, linked to Wikidata Q66; same company as the card."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q66",
+      "label": "Boeing",
+      "description": "American global aerospace and defense corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Boeing Company, the US aerospace manufacturer; matches the card's employer near Seattle/Tacoma."
+    },
+    {
+      "qid": "Q36981762",
+      "label": "Boeing",
+      "description": "family name",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A family name item, not an organisation."
+    },
+    {
+      "qid": "Q6387",
+      "label": "Boeing 737",
+      "description": "1967 twin-engine jet-powered airliner family",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Boeing 737 aircraft family, a product."
+    },
+    {
+      "qid": "Q6418",
+      "label": "Boeing 757",
+      "description": "airliner family (1982–2005)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Boeing 757 aircraft family, a product."
+    },
+    {
+      "qid": "Q1084919",
+      "label": "Boeing 737 Next Generation",
+      "description": "airliner family (1997–present)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Boeing 737 Next Generation aircraft, a product."
+    },
+    {
+      "qid": "Q906937",
+      "label": "Boeing 747-400",
+      "description": "airliner series",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Boeing 747-400 aircraft, a product."
+    },
+    {
+      "qid": "Q6409",
+      "label": "Boeing 727",
+      "description": "trijet narrow-body airliner (1963–1984)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Boeing 727 aircraft, a product."
+    },
+    {
+      "qid": "Q174534",
+      "label": "Boeing B-52 Stratofortress",
+      "description": "bomber aircraft family",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "B-52 bomber aircraft, a product."
+    },
+    {
+      "qid": "Q8793",
+      "label": "Boeing Commercial Airplanes",
+      "description": "designs, assembles, markets and sells commercial jet aircraft",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Boeing Commercial Airplanes is a division created in 1997, a sub-unit not the parent company named on the card."
+    },
+    {
+      "qid": "Q209613",
+      "label": "Boeing CH-47 Chinook",
+      "description": "military transport helicopter family by Boeing Vertol",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "CH-47 Chinook helicopter, a product."
+    }
+  ]
+}

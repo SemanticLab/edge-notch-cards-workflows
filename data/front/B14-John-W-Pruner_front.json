@@ -1,0 +1,44 @@
+{
+  "personalIdentification": {
+    "fullName": "John W. Pruner"
+  },
+  "contactInformation": {
+    "residentialAddress": "4445 East Avenue Livermore, California 94550",
+    "phoneNumbers": "(415) 443-4665",
+    "geographicLocation": "Livermore, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Lawrence Radiation Laboratory"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Mechanical engineering",
+      "aeronautics/aerospace",
+      "metallurgy/metals",
+      "brazing/welding/casting/grinding"
+    ]
+  },
+  "ocr_front": "Pruner, John W.  4445 East Ave Livermore, Calif.  94550\n                 443-4665 (415)\nLawrence Radiation Laboratory\n\nMechanical engineering, aeronautics/aerespace, mettallurgy/\nmetals, brazing/welding/casting/grinding.",
+  "ocr_notes": "Back blank. Misspellings 'aerespace', 'mettallurgy' are on the card.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q17379473",
+      "label": "Lawrence Radiation Laboratory",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the Lawrence Radiation Laboratory itself, the 1960s name covering both the Berkeley and Livermore sites, and it matches the card's Livermore address."
+    },
+    {
+      "qid": "Q1133630",
+      "label": "Lawrence Berkeley National Laboratory",
+      "description": "United States national laboratory located near Berkeley, California",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "Lawrence Berkeley National Laboratory succeeded only the Berkeley site of the Radiation Laboratory. The card's Livermore address points to the branch that became Lawrence Livermore National Laboratory instead."
+    }
+  ]
+}

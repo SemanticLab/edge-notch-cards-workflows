@@ -1,0 +1,77 @@
+{
+  "personalIdentification": {
+    "fullName": "Norman C. Hicks"
+  },
+  "contactInformation": {
+    "residentialAddress": "6652 Dartmoor Way, San Jose, California 95129",
+    "phoneNumbers": "408 742-8020",
+    "geographicLocation": "San Jose, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Lockheed Missiles & Space Company",
+    "departmentDivision": "Sunnyvale"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Mechanical Engineer",
+    "technicalFields": [
+      "Mechanical engineering",
+      "Mathematics",
+      "Physics",
+      "Hydraulics",
+      "Pneumatics"
+    ],
+    "specializedSkillsKnowledge": "Brazing, welding, casting, grinding, fiberglass, foam polyurethamic"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "None mentioned",
+    "aestheticPhilosophicalInterests": "None mentioned"
+  },
+  "ocr_front": "Hicks, Norman C.   6652 Dartmoor Way San Jose, Calif. 95129\n                   408  742-8020\nLockheed Missiles & Space Company Sunnyvale\n\nMechanical engineering, mathematics, physics, hydraulics, pneu\npneumatics, brazing/welding/casting/grinding/, fiberglass\nfoam polyurethamic",
+  "ocr_notes": "Front: 'pneu' at end of line 1 is struck through with slashes; 'polyurethamic' as typed. Back in pink/red ink.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q133612349",
+      "label": "Norman Hicks",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "This Norman Hicks is a soldier born in 1948 with no middle initial or other details. Nothing links him to a Lockheed mechanical engineer living in San Jose."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q24343",
+      "label": "Space Girl",
+      "description": "Performed character in Öyvind Fahlström’s piece, Kisses Sweeter than Wine.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Space Girl is a character in Fahlström's performance piece and matched only on the word 'Space'. It is not a company."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q6665621",
+      "label": "Lockheed Martin Missiles and Space",
+      "description": "American aerospace enterprise",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This item carries the alias Lockheed Missiles and Space Company, has its headquarters in Sunnyvale, and is a Lockheed division. All of this matches the card's employer and its Sunnyvale division."
+    },
+    {
+      "qid": "Q124972530",
+      "label": "space company",
+      "description": "company that operates in the space industry",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the generic concept 'space company', not a specific organisation."
+    },
+    {
+      "qid": "Q122822585",
+      "label": "Space Company Simulator",
+      "description": "2019 early access video game",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 2019 video game."
+    }
+  ]
+}

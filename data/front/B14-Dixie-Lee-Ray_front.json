@@ -1,0 +1,152 @@
+{
+  "personalIdentification": {
+    "fullName": "Dixie Lee Ray"
+  },
+  "contactInformation": {
+    "residentialAddress": "Seattle Center, Seattle, WA 98109",
+    "phoneNumbers": "MA4-8140",
+    "geographicLocation": "Seattle, Washington"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Pacific Science Center"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Director"
+  },
+  "ocr_front": "Dr. Dixie Lee ray.     Seattle Center,98109              MA4-8140\n\nDirector, Pacific Sciences Center.",
+  "ocr_notes": "Back: written upside down relative to the scan; read after rotating 180 degrees. Purple ink. 'Sahlstrand' is a best reading.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q247",
+      "label": "Ray Brown",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fallback search on 'Ray' only; Ray Brown is a jazz bassist from the Linked Jazz project, not the Pacific Science Center director."
+    },
+    {
+      "qid": "Q20675",
+      "label": "Swinging Rays of Rhythm",
+      "description": "jazz band",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An all-women jazz band from the Women of Jazz project, not a person."
+    },
+    {
+      "qid": "Q112",
+      "label": "Ray Charles",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ray Charles, the musician, came up from the surname-only fallback; he has nothing to do with the card."
+    },
+    {
+      "qid": "Q809",
+      "label": "Ray Nance",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ray Nance is a jazz musician from Linked Jazz; he matched only on the fallback surname."
+    },
+    {
+      "qid": "Q1031",
+      "label": "Ray Bryant",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ray Bryant is a jazz pianist; he matched only on the fallback surname."
+    },
+    {
+      "qid": "Q19011",
+      "label": "Ray Abrams",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ray Abrams is a jazz bandleader from Linking Lost Jazz Shrines and has nothing to do with the card."
+    },
+    {
+      "qid": "Q18819",
+      "label": "Ray Abrams Big Band",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a jazz big band, not a person."
+    },
+    {
+      "qid": "Q571",
+      "label": "Ray Wax",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ray Wax is a jazz-project person; he matched only on the fallback surname."
+    },
+    {
+      "qid": "Q209",
+      "label": "Ray McKinley",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ray McKinley is a jazz drummer and bandleader with nothing to do with the card."
+    },
+    {
+      "qid": "Q1461",
+      "label": "Ray Drummond",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ray Drummond is a jazz bassist; he matched only on the fallback surname."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q461553",
+      "label": "Dixy Lee Ray",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Dixy Lee Ray (alias Dixie Lee Ray) was a marine biologist who directed the Pacific Science Center in Seattle in the 1960s, before she became governor of Washington. This fits the card's Director title, the Seattle Center address and the dates."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q3848341",
+      "label": "Pacific Science Center",
+      "description": "non-profit organization in the USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the Pacific Science Center, the science museum in Seattle founded in 1962, which matches the card's employer and its Seattle Center address."
+    },
+    {
+      "qid": "Q43305860",
+      "label": "Pacific Science Center IMAX Theatres",
+      "description": "movie theater in Seattle, Washington, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the IMAX theatre, which is part of the Pacific Science Center, not the organisation itself."
+    },
+    {
+      "qid": "Q80997645",
+      "label": "Pacific Science Center",
+      "description": "scientific article published on 01 February 1964",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1964 Science article titled 'Pacific Science Center', not the organisation."
+    },
+    {
+      "qid": "Q113344784",
+      "label": "Pacific Science Center",
+      "description": "scientific article published on 23 October 2021",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A duplicate record of the same Science article, not the organisation."
+    },
+    {
+      "qid": "Q58978505",
+      "label": "Pacific Science Center Foundation Arches of Science Award: Dr. Warren Weaver",
+      "description": "scientific article published in Nature",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1965 Nature article about an award, not the organisation."
+    }
+  ]
+}

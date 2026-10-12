@@ -1,0 +1,128 @@
+{
+  "personalIdentification": {
+    "fullName": "B.I. Sandor"
+  },
+  "contactInformation": {
+    "residentialAddress": "502 East Healy Street, Champaign, Illinois 61820",
+    "phoneNumbers": "333-3174",
+    "geographicLocation": "Champaign, Illinois; Urbana, Illinois"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "University of Illinois",
+    "departmentDivision": "321F Talbot Laboratory"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "materials"
+    ]
+  },
+  "ocr_front": "Sandor, BI., 502 East Healy St., Champaign, Ill. 61820 333-3174\nUniv. of Illinois, 321F Talbot Lab., Urbana, Illinois\n\nmaterials",
+  "ocr_notes": "Back: the first line is pink/magenta ink, the second red ink.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q85413253",
+      "label": "Sándor Czellár",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The search used only the surname 'Sandor', and this hit has it as a given name. He is a Hungarian physicist named Czellár, not B.I. Sandor of Champaign, Illinois."
+    },
+    {
+      "qid": "Q81219",
+      "label": "Sándor Petőfi",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Hungarian poet Petőfi, who died in 1849, long before the card was written."
+    },
+    {
+      "qid": "Q1163383",
+      "label": "Sándor Mahunka",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Hungarian acarologist named Mahunka, who worked in Budapest and Geneva. He does not fit a materials engineer at the University of Illinois."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q457281",
+      "label": "University of Illinois Urbana-Champaign",
+      "description": "public research university in Urbana and Champaign, Illinois, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The card gives Talbot Laboratory and an address in Champaign/Urbana. That is the Urbana-Champaign campus, which was simply called the University of Illinois in 1967-72."
+    },
+    {
+      "qid": "Q1145814",
+      "label": "University of Illinois System",
+      "description": "public university system in Illinois",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "This is the umbrella university system, which has the native label 'University of Illinois'. The card's Talbot Laboratory places the person at the Urbana-Champaign campus itself."
+    },
+    {
+      "qid": "Q955764",
+      "label": "University of Illinois Chicago",
+      "description": "public university (1983-)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Chicago campus, founded under that name in 1983. The card points to Urbana-Champaign."
+    },
+    {
+      "qid": "Q2080232",
+      "label": "University of Illinois Press",
+      "description": "American university press",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the university press, a sub-unit and not the employer named on the card."
+    },
+    {
+      "qid": "Q3071648",
+      "label": "Illinois Fighting Illini",
+      "description": "intercollegiate sports teams of the University of Illinois",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "These are the university's sports teams, not the institution."
+    },
+    {
+      "qid": "Q7895524",
+      "label": "University of Illinois College of Medicine",
+      "description": "American multi-campus Chicago-based medical school (1882-)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the College of Medicine, a Chicago-based sub-unit. The card does not name it."
+    },
+    {
+      "qid": "Q7895523",
+      "label": "University of Illinois College of Law",
+      "description": "Law school in Illinois, U.S.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the College of Law, a school of the university and not the university itself."
+    },
+    {
+      "qid": "Q941855",
+      "label": "University of Illinois Springfield",
+      "description": "public university",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Springfield campus, founded in 1969, which is a different campus."
+    },
+    {
+      "qid": "Q6246903",
+      "label": "University of Illinois Chicago School of Law",
+      "description": "public law school in Chicago",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the law school in Chicago, a different unit."
+    },
+    {
+      "qid": "Q7864729",
+      "label": "UIUC College of Media",
+      "description": "college at The University of Illinois at Urbana-Champaign",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the College of Media, a sub-unit that the card does not name."
+    }
+  ]
+}

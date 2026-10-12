@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "name": "David Abramson",
+      "contact_method": "letter",
+      "date": "XXXX-11-18",
+      "bounding_box": {
+        "x1": 11.5,
+        "y1": 14.4,
+        "x2": 56.5,
+        "y2": 26.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31918",
+          "label": "David Abramson",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name; an artist in the same TSP card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q29261854",
+          "label": "David Abramson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Australian computer scientist."
+        },
+        {
+          "qid": "Q29000877",
+          "label": "David H. Abramson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Oncologist and swimmer, not an artist."
+        },
+        {
+          "qid": "Q58065374",
+          "label": "David Abramson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Public health researcher born in 1958."
+        },
+        {
+          "qid": "Q101171204",
+          "label": "David A. Rytand",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Physician David A. Rytand; a different surname."
+        }
+      ]
+    },
+    {
+      "name": "Peggy Dickson",
+      "date": "XXXX-02-04",
+      "bounding_box": {
+        "x1": 16.2,
+        "y1": 22.8,
+        "x2": 47.2,
+        "y2": 34.7
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21389277",
+          "label": "Charles Gordon Campbell Dickson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "South African entomologist; from a surname fallback search."
+        }
+      ]
+    },
+    {
+      "name": "Kir Dobin",
+      "date": "XXXX-02-05",
+      "bounding_box": {
+        "x1": 14.5,
+        "y1": 33.5,
+        "x2": 47.9,
+        "y2": 45.4
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    }
+  ],
+  "ocr_back": "letter David Abramson 11/18\nPeggy Dickson 2/4\nKiki Dubin 2/5"
+}

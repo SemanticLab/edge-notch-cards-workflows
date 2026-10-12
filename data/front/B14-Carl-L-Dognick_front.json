@@ -1,0 +1,125 @@
+{
+  "personalIdentification": {
+    "fullName": "Carl L Dognick"
+  },
+  "contactInformation": {
+    "residentialAddress": "5000 North Mozart, Chicago, Illinois 60625; in future: care of Slobetz, 224 Union Street, Brooklyn, New York",
+    "phoneNumbers": "ED4-0816, 834-9772",
+    "geographicLocation": "Chicago, Illinois; Brooklyn, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "University of Chicago",
+    "departmentDivision": ""
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Doctor of Philosophy Student",
+    "technicalFields": [
+      "mathematics",
+      "physics",
+      "computers",
+      "programming",
+      "computer graphics"
+    ],
+    "specializedSkillsKnowledge": ""
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "film, sound, music, language, poetry",
+    "aestheticPhilosophicalInterests": ""
+  },
+  "ocr_front": "Carl L Dognick      5000 N. Mozart, Chicago, Ill. 60625 /ED4-0816\n               in future: c/o Slobetz, 224 Union St. Brooklyn,\nPh.D. Stud. Chicago.                                 834-9772\n\nmathematfics, physics, computers, programming, computer graphics,\nfilm, sound, music, language, poetry.",
+  "ocr_notes": "Front: 'in future' is underlined, and 'mathematics' is typed with an overstrike ('mathematfics'). Back: the first line is in pink/red ink and the others in pencil. 'Miletta' and 'Sunkel' are uncertain readings.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28263",
+      "label": "University of Chicago",
+      "description": "university",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The University of Chicago item in the E.A.T. Datascape and Knowledge Graph projects has the same name as the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q131252",
+      "label": "University of Chicago",
+      "description": "private university in Chicago, Illinois",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the University of Chicago itself, where the card's holder was a PhD student. It matches the Chicago address."
+    },
+    {
+      "qid": "Q1036763",
+      "label": "University of Chicago Law School",
+      "description": "law school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Law School is a sub-unit. The card names no unit and lists maths, physics and computer fields."
+    },
+    {
+      "qid": "Q1814982",
+      "label": "University of Chicago Press",
+      "description": "publisher in the United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The university press is a sub-unit and publisher, not the university."
+    },
+    {
+      "qid": "Q2963304",
+      "label": "Booth School of Business",
+      "description": "graduate business school located in Chicago, Illinois, at the University of Chicago",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The business school is a sub-unit the card does not name."
+    },
+    {
+      "qid": "Q7245998",
+      "label": "Pritzker School of Medicine",
+      "description": "medical school at the University of Chicago",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The medical school is a sub-unit the card does not name."
+    },
+    {
+      "qid": "Q7895258",
+      "label": "UChicago Medicine",
+      "description": "American medical network (2006-)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An affiliated medical network founded in 2006, not the university."
+    },
+    {
+      "qid": "Q3551351",
+      "label": "University of Chicago Laboratory Schools",
+      "description": "private secondary school in Chicago, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A secondary school that belongs to the university, not the employer."
+    },
+    {
+      "qid": "Q7895257",
+      "label": "University of Chicago Law Review",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A journal, not the university."
+    },
+    {
+      "qid": "Q7895255",
+      "label": "University of Chicago Divinity School",
+      "description": "private seminary in Chicago",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Divinity School is a sub-unit the card does not name."
+    },
+    {
+      "qid": "Q7895259",
+      "label": "University of Chicago Library",
+      "description": "library",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The university library is a sub-unit, not the employer."
+    }
+  ]
+}

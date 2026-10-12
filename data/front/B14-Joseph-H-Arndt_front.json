@@ -1,0 +1,54 @@
+{
+  "personalIdentification": {
+    "fullName": "Joseph H Arndt"
+  },
+  "contactInformation": {
+    "residentialAddress": "3021 11th street Boulder, Colorado, 80302",
+    "phoneNumbers": "303-447-0527, 303-444-5300 extension 879",
+    "geographicLocation": "Boulder, Colorado"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Ball Brothers Research Corporation"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "optics",
+      "optical instrumentation",
+      "space optics",
+      "lens design",
+      "optical simulation for training astronauts",
+      "optical gimballing for closed circuit television",
+      "spectroscopy",
+      "light",
+      "light equipment",
+      "lasers",
+      "strobes",
+      "ultra-violet",
+      "fibre optics"
+    ],
+    "specializedSkillsKnowledge": "optical simulation for training astronauts, optical gimballing for closed circuit television"
+  },
+  "ocr_front": "Joseph H Arndt    3021 11th. st. Boulder, Colorado, 80302\n                                                303-447-0527\nBall Brothers research Corp.              303-444-5300  ext.879\n\noptics, optical instrumentation, space optics, lens design,\noptical simulation for training astronauts, optical gimballing\nfor closed circuit TV.\n\nspectroscopy, light, light equipment, lasers strobes ultr-violet\nfibre optics.",
+  "ocr_notes": "Front: 'optics' in 'space optics' and 'equipment'/'violet' have typed corrections. Back: first two pencil lines are faint; 'Chapps' and especially 'Gabor Lory' are uncertain readings. 'Feb 20/69' could be 'Feb 20/68'.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q91044338",
+      "label": "Joseph W Arndt",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Joseph W. Arndt is a modern Biogen researcher; the middle initial differs and the field is unrelated to space optics in Boulder."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q805116",
+      "label": "Ball Aerospace & Technologies",
+      "description": "former American manufacturer of spacecraft, components, and instruments",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Ball Aerospace carries 'Ball Brothers Research Corporation' as its former name and was based in Boulder, matching the card's Boulder address and space-optics work."
+    }
+  ]
+}

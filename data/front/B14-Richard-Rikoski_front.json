@@ -1,0 +1,103 @@
+{
+  "personalIdentification": {
+    "fullName": "Richard Rikoski"
+  },
+  "contactInformation": {
+    "geographicLocation": "Pittsburgh, Pennsylvania"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Carnegie Mellon University"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "electrical engineering"
+    ]
+  },
+  "ocr_front": "Richard Rikoski\n\nCark Carnegie Mellon U., Pgh, Pa.\n\nelectrical eng.",
+  "ocr_notes": "Front: 'Cark' is struck over / x-ed out before 'Carnegie'. Back: 'Bogaert' and 'Cruikshank' readings uncertain.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q190080",
+      "label": "Carnegie Mellon University",
+      "description": "private research university in Pittsburgh, Pennsylvania, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is Carnegie Mellon University in Pittsburgh, matching the card's employer and location. The school was renamed from Carnegie Tech in 1967, during the card's period."
+    },
+    {
+      "qid": "Q7701381",
+      "label": "Tepper School of Business",
+      "description": "business school of Carnegie Mellon University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Tepper is CMU's business school, a sub-unit the card does not name."
+    },
+    {
+      "qid": "Q5043959",
+      "label": "Carnegie Mellon University Press",
+      "description": "American publisher",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "CMU Press is the university's publisher, not the university."
+    },
+    {
+      "qid": "Q5043953",
+      "label": "Carnegie Mellon School of Art",
+      "description": "higher education school, Pittsburgh, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The School of Art is a sub-unit. The card names the university and gives an electrical engineering field."
+    },
+    {
+      "qid": "Q99290738",
+      "label": "Carnegie Mellon University College of Engineering",
+      "description": "college of Carnegie Mellon University",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The College of Engineering would fit an electrical engineer. However, the card names only the university, so this sub-unit is not the same entity."
+    },
+    {
+      "qid": "Q890704",
+      "label": "Carnegie Mellon University, Qatar",
+      "description": "university in Qatar",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "CMU Qatar is a 2004 branch campus in Doha. It does not fit a Pittsburgh card from 1967-72."
+    },
+    {
+      "qid": "Q5043957",
+      "label": "Carnegie Mellon School of Computer Science",
+      "description": "school for computer science in the United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The School of Computer Science was founded in 1988 and is a sub-unit. It is not the card's employer."
+    },
+    {
+      "qid": "Q5753035",
+      "label": "Carnegie Mellon Tartans",
+      "description": "university sports club",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Tartans are CMU's athletics teams, not the university."
+    },
+    {
+      "qid": "Q104716530",
+      "label": "Carnegie Mellon University Libraries",
+      "description": "academic library system",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is CMU's library system, a sub-unit."
+    },
+    {
+      "qid": "Q11326194",
+      "label": "Heinz College",
+      "description": "public policy college of Carnegie Mellon University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Heinz College is a policy school founded in 2008 and is a sub-unit. It is not the card's employer."
+    }
+  ]
+}

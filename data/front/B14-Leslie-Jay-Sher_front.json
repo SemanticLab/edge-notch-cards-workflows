@@ -1,0 +1,101 @@
+{
+  "personalIdentification": {
+    "fullName": "Leslie Jay Sher"
+  },
+  "contactInformation": {
+    "residentialAddress": "396 Atlantic Ave., Marblehead, Massachusetts 01945",
+    "phoneNumbers": "631 7694",
+    "geographicLocation": "Marblehead, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Raytheon Company"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "industrial engineering",
+      "optics",
+      "light",
+      "light equipment/projection",
+      "strobes",
+      "ultraviolet",
+      "acoustics",
+      "sound generation",
+      "audio systems",
+      "audio-visual conversions",
+      "tape recording",
+      "environmental simulation"
+    ]
+  },
+  "ocr_front": "Leslie Jay Sher, 396 Atlantic Ave., Marblehead, Mass. 01945 631 7694\nRaytheon Co.\n\nindustrial engineering, optics, light, light equipment/projection, strobes,\nultraviolet, acoustics, sound generation, audio systems, audio-visual\nconversions, tape recording, environmental simulation",
+  "ocr_notes": "\"Geoffrey Dutton 1/22\" is in green ink. \"Brown\" looks like \"Borown\" or \"Brown\". The date after Dutton is hard to read.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q1043",
+      "label": "Sherrie Maricle",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname fallback hit; Sherrie Maricle is a jazz musician from the Linked Jazz project, not this Raytheon engineer."
+    },
+    {
+      "qid": "Q747",
+      "label": "Sherman Ferguson",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Sherman Ferguson is a jazz musician from Linked Jazz; unrelated."
+    },
+    {
+      "qid": "Q23484",
+      "label": "Sherman (Tex.)",
+      "description": "city in Texas",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Sherman, Texas is a city, not a person."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q113382026",
+      "label": "Sherif Elgammal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Sherif Elgammal is a particle physicist with a different name; unrelated fallback hit."
+    },
+    {
+      "qid": "Q200586",
+      "label": "Sheryl Crow",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Sheryl Crow, musician born 1962; unrelated."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28287",
+      "label": "Raytheon Company",
+      "description": "company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Raytheon Company item from the E.A.T. Knowledge Graph/Datascape projects; same company as the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q156644",
+      "label": "Raytheon",
+      "description": "defunct American industrial corporation (1922–2020)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Raytheon (alias Raytheon Company), US defense firm headquartered in Waltham MA, 1922-2020; fits a Marblehead MA engineer c. 1970."
+    },
+    {
+      "qid": "Q131809707",
+      "label": "Raytheon Company",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A French registry entity of Raytheon Company created 2022, not the 1960s US company."
+    }
+  ]
+}

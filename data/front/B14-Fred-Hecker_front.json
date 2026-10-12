@@ -1,0 +1,68 @@
+{
+  "personalIdentification": {
+    "fullName": "Fred Hecker"
+  },
+  "contactInformation": {
+    "residentialAddress": "309 East 48th Street, Apartment 4B, New York City, New York 10017",
+    "phoneNumbers": "Plaza 3-2132, 914-949-1900 extension 5202",
+    "geographicLocation": "New York City, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "International Business Machines (IBM)"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "computers",
+      "cybernetics/control theory",
+      "information systems",
+      "programming",
+      "computer graphics/film",
+      "computer sound/music",
+      "computer language/poetry"
+    ],
+    "specializedSkillsKnowledge": "civil engineering, biology, psychology, physics, adhesives, plastics, polymers, acrylics, foam optics, light, light equipment/projection, lasers, strobes, holography, neon, ultraviolet, audio systems, cathode rays, tape recording, video tape, photography, remote control, instrumentation, environmental simulation, architecture"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "computer graphics, computer film, computer sound, computer music, computer poetry, photography, neon, holography",
+    "aestheticPhilosophicalInterests": "The application of computer technology to artistic mediums including film, music, and poetry."
+  },
+  "ocr_front": "X\nFred Hecker, 309 E.48th St. #4B, NYC 10017, Pl 3 2132, IBM 914 949 1900x5202\n\ncomputers, cybernetics/control theory, information systems, programming,\ncomputers:graphics/film, computers: sound/music, computers: language/poetry\n\ninterested in: civil engineering, biology, psychology, physics, adhesives,\nplastics, polymers, acrylics, foam optics, light, light equipment/projection,\nlasers, strobes, holography, neon, ultraviolet, audio systems, cathode rays\ntape recording, video tape, photography, remote control, instrumentation\nenvironmental simulation, architecture",
+  "ocr_notes": "Front: handwritten 'X' in upper right; 'Fred' first letter typed over another character. Back is densely scattered with entries in red, black, green, blue and pencil, several written vertically; layout approximated. Uncertain readings: 'Arndt', 'Shaun Dere', 'Vechon', 'Dauben', 'Kenneth Dowd' (could be Dowling), 'Paul Fran', 'Jean Webster Price' (first word overwritten), 'Alan Kaufman' (faint vertical pencil at right edge), 'A. Denes' date (1/12/71 or 1/13/71).",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q629451",
+      "label": "Johann Julius Hecker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback hit. Johann Julius Hecker was an 18th-century German educator (1707-1768), not an IBM computer specialist."
+    },
+    {
+      "qid": "Q1951940",
+      "label": "Florian Hecker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Florian Hecker was born in 1975, too late to be active at IBM in 1967-1972."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19322",
+      "label": "IBM",
+      "description": "American multinational technology corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is IBM (International Business Machines). The item belongs to the E.A.T. Technical Services Program cards project and sponsored E.A.T., matching the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q64318465",
+      "label": "International Business Machines (IBM) Tabulating Cards Relating to Federal Credit Union Statistics (NAID 7408515)",
+      "description": "series in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A National Archives series of IBM tabulating cards, not the IBM corporation itself."
+    }
+  ]
+}

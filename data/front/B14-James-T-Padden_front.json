@@ -1,0 +1,118 @@
+{
+  "personalIdentification": {
+    "fullName": "James T. Padden"
+  },
+  "contactInformation": {
+    "residentialAddress": "8502 Daleview Street, Austin, Texas 78757",
+    "phoneNumbers": "512 454 2138, 512 836 1300 Extension 6758",
+    "geographicLocation": "Austin, Texas"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "International Business Machines",
+    "departmentDivision": "Department 510"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "electrical engineering",
+      "mathematics",
+      "computers",
+      "digital systems"
+    ]
+  },
+  "ocr_front": "Padden, James T., 8502 Daleview St, Austin Texas, 78757\n512 454 2138      IBM Dept. 510 11400 Fm Rd 1325 Austin Texas 78759\n512 836 1300 X6758\n\n\nelectrical engineering, mathematics, computers, digital systems",
+  "ocr_notes": "Back: red ink; 'Weinberger here' is best reading of run-together script.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19322",
+      "label": "IBM",
+      "description": "American multinational technology corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the project's IBM item (International Business Machines), linked to Wikidata Q37156 and part of the Edge-Notched Cards project. It is the same corporation. The card's Austin office is one IBM site."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q37156",
+      "label": "IBM",
+      "description": "American multinational technology company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "IBM is International Business Machines Corporation, the US parent company, and the card's Austin, TX site is part of it."
+    },
+    {
+      "qid": "Q5968787",
+      "label": "IBM Canada Head Office Building",
+      "description": "head office of IBM Canada",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an IBM Canada head office building in Markham, a building, not the company."
+    },
+    {
+      "qid": "Q19874511",
+      "label": "IBM Hursley",
+      "description": "laboratory in Hampshire, England",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Hursley is a laboratory in England, a sub-unit not named on the card."
+    },
+    {
+      "qid": "Q1141670",
+      "label": "IBM Personal Computer/AT",
+      "description": "personal computer model",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a computer model (the PC/AT), not an organisation."
+    },
+    {
+      "qid": "Q30338814",
+      "label": "IBM Germany",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Germany is a German subsidiary, and the card's employee is in Austin, Texas."
+    },
+    {
+      "qid": "Q28974610",
+      "label": "IBM France",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM France is a French subsidiary, not the US company."
+    },
+    {
+      "qid": "Q16323757",
+      "label": "IBM Denmark",
+      "description": "IBM subsidiary in Denmark",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Denmark is a Danish subsidiary, not the US company."
+    },
+    {
+      "qid": "Q30338816",
+      "label": "IBM Egypt Business Support Services",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an Egyptian subsidiary, not the US company."
+    },
+    {
+      "qid": "Q41567073",
+      "label": "IBM Česká republika",
+      "description": "company in Prague, Czechia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Czech subsidiary founded in 1990, not the US company."
+    },
+    {
+      "qid": "Q59493032",
+      "label": "International Business Machines Corporation Collection (NAID 653182)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an archival collection at NARA, not the company."
+    }
+  ]
+}

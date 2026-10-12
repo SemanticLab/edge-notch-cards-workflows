@@ -1,0 +1,45 @@
+{
+  "personalIdentification": {
+    "fullName": "Doug Seeley"
+  },
+  "contactInformation": {
+    "residentialAddress": "55 Oakmount Road, apartment 155, Toronto 9, Ontario, Canada.",
+    "phoneNumbers": "769-7858",
+    "geographicLocation": "Toronto, Ontario, Canada"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Banting Institute"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Industrial Engineer",
+    "technicalFields": [
+      "pattern recognition",
+      "artificial intelligence",
+      "interactive computer systems"
+    ],
+    "specializedSkillsKnowledge": "industrial engineering Master of Arts"
+  },
+  "ocr_front": "Doug Seeley      55  Oakmount Rd, apt. 155, Toronto 9, Ontario,\n                 Canada.                            769-7858\nBanting Institute.\n\npattern recognition, artificial intelligence, interactive\ncomputer systems. industrial eng MA.",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q369630",
+      "label": "Harry Govier Seeley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Harry Govier Seeley was a British paleontologist who died in 1909; he matched only on the fallback surname."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q111445123",
+      "label": "Banting Institute",
+      "description": "building on the University of Toronto St. George campus",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "This item is the Banting Institute building on the University of Toronto campus, not a research organisation. The card's Banting Institute is the medical research institute housed there. The place fits, but the entity is a building."
+    }
+  ]
+}

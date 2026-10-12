@@ -1,0 +1,131 @@
+{
+  "personalIdentification": {
+    "fullName": "Eric Frank Starmer"
+  },
+  "contactInformation": {
+    "residentialAddress": "414 Belmont East, #304, Seattle, Washington 98102",
+    "phoneNumbers": "206 655 4933",
+    "geographicLocation": "Seattle, Washington"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "The Boeing Company"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "mechanical engineering",
+      "aeronautics/aerospace"
+    ],
+    "specializedSkillsKnowledge": "fairly widely read in most areas of engineering and physics, with sufficient engineering background to be able to tackle a wide variety of technical problems"
+  },
+  "ocr_front": "Starmer, Eric Frank, 414 Belmont East, #304, Seattle Wash. 98102\n206 655 4933\nThe Boeing Company\n\n\nmechanical engineering, aeronautics/aerospace;\nalso fairly widely read in most areas of engineering and physics,\nwith sufficient engineering background to be able to tackle a wide\nvariety of technical problems",
+  "ocr_notes": "Front has typed overstrikes in 'aerospace' (aerosspace), 'sufficient' (sufficcient) and 'technical' (tebhnical / tech struck over); rendered as intended words. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q37416993",
+      "label": "William T. Starmer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name fallback; William T. Starmer is a geneticist and biologist, with a different given name and field than a Boeing engineer."
+    },
+    {
+      "qid": "Q53393811",
+      "label": "John A. Starmer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name fallback; John A. Starmer is a marine ecologist and doctoral student, unrelated to the card."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q31214",
+      "label": "Boeing",
+      "description": "American global aerospace and defense corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Boeing item from this same edge-notched card project, linked to Wikidata Q66, which is The Boeing Company."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q66",
+      "label": "Boeing",
+      "description": "American global aerospace and defense corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Boeing's official name is The Boeing Company, the name on the card; its 1970 base in Seattle fits the card's Seattle address."
+    },
+    {
+      "qid": "Q138454732",
+      "label": "VP-CKG",
+      "description": "The Boeing Company 737-7JB owned by Polywise International Holdings Limited (c/n 36714)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A single registered 737 aircraft, not the company."
+    },
+    {
+      "qid": "Q138454767",
+      "label": "VP-COH",
+      "description": "The Boeing Company 737-8DR owned by 517 Flight, Ltd (c/n 32777)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A single registered 737 aircraft, not the company."
+    },
+    {
+      "qid": "Q138454826",
+      "label": "VP-CVP",
+      "description": "The Boeing Company 737-8LX owned by EAGLE RAISE LIMITED (c/n 39899)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A single registered 737 aircraft, not the company."
+    },
+    {
+      "qid": "Q138454719",
+      "label": "VP-CIZ",
+      "description": "The Boeing Company B737-8 owned by Cayman Airways Limited (c/n 43336)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A single registered 737 aircraft, not the company."
+    },
+    {
+      "qid": "Q138454746",
+      "label": "VP-CMA",
+      "description": "The Boeing Company 737-8 owned by Brilliant Aviation Limited (c/n 62743)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A single registered 737 MAX aircraft, not the company."
+    },
+    {
+      "qid": "Q138454717",
+      "label": "VP-CIX",
+      "description": "The Boeing Company 737-8 owned by Cayman Airways Limited (c/n 63561)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A single registered 737 MAX aircraft, not the company."
+    },
+    {
+      "qid": "Q61725929",
+      "label": "The Boeing Company heliport",
+      "description": "heliport in Washington, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A heliport facility, not the company."
+    },
+    {
+      "qid": "Q138454718",
+      "label": "VP-CIY",
+      "description": "The Boeing Company 737-8 owned by Cayman Airways Limited (c/n 43308)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A single registered 737 MAX aircraft, not the company."
+    },
+    {
+      "qid": "Q138454750",
+      "label": "VP-CML",
+      "description": "The Boeing Company 737-800 owned by Macquarie Aviation Finance Leasing (1) Limited (c/n 37774)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A single registered 737 aircraft, not the company."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "personalIdentification": {
+    "fullName": "James L. Pyle"
+  },
+  "contactInformation": {
+    "residentialAddress": "305 North Muller Street, Anaheim, California 92803",
+    "phoneNumbers": "714-774-9141 Extension 293",
+    "geographicLocation": "Anaheim, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "California Computer Products, Incorporated (Calcomp)"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "computers"
+    ],
+    "specializedSkillsKnowledge": "graphics/film"
+  },
+  "ocr_front": "Pyle, James L.  305 N. Muller Street  Anaheim, Calif.  92803\n                714-  774-9141  Ext. 293\nCalifornia Computer Products, Inc.  (Calcomp)\n\ncomputers: graphics/film",
+  "ocr_notes": "Back: faint pencil; surname 'Meany' uncertain (could be Mearny/Meaney).",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q100906091",
+      "label": "James Pyle",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a basketball player, not a Calcomp computer graphics engineer."
+    },
+    {
+      "qid": "Q1681004",
+      "label": "James Pyle Wickersham Crawford",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Hispanist professor who died in 1939, and his name only contains 'Pyle' as a middle name."
+    },
+    {
+      "qid": "Q29423805",
+      "label": "James P. Wickersham",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 19th-century educator who died in 1891."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5018852",
+      "label": "Calcomp",
+      "description": "developed by Calcomp Plotters/Technology",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Calcomp is the short name of California Computer Products, Inc., a US company founded in 1958 that made plotters and was based in Anaheim. That matches the card's address and its graphics specialty."
+    },
+    {
+      "qid": "Q105858873",
+      "label": "Calcomp raster bitmap",
+      "description": "file format",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a file format, not the company."
+    },
+    {
+      "qid": "Q5018853",
+      "label": "Calcomp plotter",
+      "description": "computer graphics output device",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a plotter device made by Calcomp, a product rather than the organisation."
+    }
+  ]
+}

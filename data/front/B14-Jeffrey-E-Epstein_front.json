@@ -1,0 +1,123 @@
+{
+  "personalIdentification": {
+    "fullName": "Jeffrey E. Epstein"
+  },
+  "contactInformation": {
+    "residentialAddress": "3742 Maple Avenue, Brooklyn, New York 11224",
+    "phoneNumbers": "ES 3 2262",
+    "geographicLocation": "Brooklyn, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Cooper Union"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Undergraduate Student",
+    "technicalFields": [
+      "No specific area"
+    ]
+  },
+  "ocr_front": "Jeffrey E. Epstein, 3742 Maple Ave. Brooklyn N.Y. 11224 ES 3 2262\nCooper Union Student\n\nundergraduate - no specifi c area",
+  "ocr_notes": "Front: 'undergraduate' has an overstrike on the 'a'; 'specifi c' typed with a gap.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q2904131",
+      "label": "Jeffrey Epstein",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Born in Brooklyn in 1953, educated at Cooper Union (he attended c.1969-71), and listed as residing in Sea Gate, the Brooklyn neighbourhood at ZIP 11224 where Maple Avenue is. All of this matches a Cooper Union undergraduate at 3742 Maple Avenue, Brooklyn 11224, and the alias 'Jeffrey E. Epstein' matches the middle initial."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q25527",
+      "label": "Cooper Union",
+      "description": "private college in New York City",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Cooper Union, the private college in New York City, which is exactly the card's employer/school; it is already in the E.A.T. Knowledge Graph."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q130981",
+      "label": "Cooper Union",
+      "description": "private college in New York City",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Cooper Union, the private college in Manhattan founded 1859, which is the card's institution."
+    },
+    {
+      "qid": "Q1129820",
+      "label": "Cooper Hewitt, Smithsonian Design Museum",
+      "description": "design museum in Manhattan, New York; a division of the Smithsonian Institution",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Cooper Hewitt museum, formerly the Cooper Union Museum, is now a Smithsonian museum and a separate institution, not the college."
+    },
+    {
+      "qid": "Q89803514",
+      "label": "Cooper Union Foundation Building",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Foundation Building is a building, not the institution."
+    },
+    {
+      "qid": "Q110280558",
+      "label": "Cooper Union School of Art",
+      "description": "art school in New York",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "School of Art is a sub-unit of Cooper Union; the card does not name it."
+    },
+    {
+      "qid": "Q5167832",
+      "label": "Cooper Union speech",
+      "description": "speech by Abraham Lincoln in New York City during his 1860 campaign for US President",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Lincoln's 1860 speech, not an organisation."
+    },
+    {
+      "qid": "Q19061946",
+      "label": "Cooper Union Speech",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An edition of Lincoln's speech, not an organisation."
+    },
+    {
+      "qid": "Q16951405",
+      "label": "Cooper Union financial crisis and tuition protests",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A protest event, not the institution."
+    },
+    {
+      "qid": "Q130008555",
+      "label": "Cooper Union Black Students Art Exhibit",
+      "description": "1972 art exhibition at Countee Cullen Regional Branch",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1972 art exhibition, not the institution."
+    },
+    {
+      "qid": "Q139914878",
+      "label": "Irwin S. Chanin School of Architecture",
+      "description": "faculty of The Cooper Union for the Advancement of Science and Art",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Architecture school is a sub-unit of Cooper Union; the card does not name it."
+    },
+    {
+      "qid": "Q81032800",
+      "label": "COOPER UNION ENGINEERING CAMP",
+      "description": "scientific article published on 01 January 1940",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1940 article in Science, not the institution."
+    }
+  ]
+}

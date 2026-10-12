@@ -1,0 +1,43 @@
+{
+  "personalIdentification": {
+    "fullName": "J. Paul Pemsler"
+  },
+  "contactInformation": {
+    "residentialAddress": "6 Castle Road, Lexington, Massachusetts 02173",
+    "phoneNumbers": "861-1274",
+    "geographicLocation": "Lexington, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Kennecott Copper Corporation",
+    "departmentDivision": "Ledgemont Laboratory, 128 Spring Street, Lexington, Massachusetts 02173"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Chemistry",
+      "Metallurgy"
+    ]
+  },
+  "ocr_front": "Pemsler, J. Paul       6 Castle Rd. Lexington, MASS 02173.       861-1274\n\nKennecott Copper Corp.  Ledgemont Lab. 128 Spring st.\n                        lexington MASS 02173\n\nChemistry, metallurgy,",
+  "ocr_notes": "Front: the home address and phone on line 1 appear struck through. Back: second line in red ink.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q117038106",
+      "label": "Kennecott Copper Corporation",
+      "description": "business",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is Kennecott Copper Corporation, the New York-headquartered mining holding company founded in 1915, the card's employer (which ran the Ledgemont Laboratory in Lexington)."
+    },
+    {
+      "qid": "Q6389562",
+      "label": "Kennecott Utah Copper",
+      "description": "major copper mining and refining company",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "Kennecott Utah Copper is the Utah mining subsidiary, and its listed parent is Kennecott Copper Corporation. It is a sub-unit, not the corporation named on the card, even though the search hit its alias."
+    }
+  ]
+}

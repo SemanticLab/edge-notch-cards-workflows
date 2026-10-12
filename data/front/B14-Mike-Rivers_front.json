@@ -1,0 +1,58 @@
+{
+  "personalIdentification": {
+    "fullName": "Mike Rivers"
+  },
+  "contactInformation": {
+    "residentialAddress": "3702 Arlington Blvd, Arlington, Virginia 22204",
+    "phoneNumbers": "703-527 6117",
+    "geographicLocation": "Arlington, Virginia"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "United States Naval Oceanographic Office"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Instrumentation engineering & design",
+    "technicalFields": [
+      "Instrumentation engineering",
+      "Design"
+    ]
+  },
+  "ocr_front": "Rivers, Mike,  3702  Arlington Blvd, Arlington  Va 22204.  703-527 6117\nU.S. Naval Oceanographic Office\nInstrumentation engi ering & design.",
+  "ocr_notes": "Front: 'engi ering' missing letter on card. Back: 'Krupsaw' and 'Berkowitz' are best readings.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q26773",
+      "label": "Riverside Research Institute",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This came from a fallback search on the last name only. It is an institution (Riverside Research Institute), not a person."
+    },
+    {
+      "qid": "Q23231",
+      "label": "Riverside Park Ballroom",
+      "description": "historic ballroom in Phoenix, Arizona",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This came from a fallback search on the last name only. It is a ballroom in Phoenix from a jazz project, not a person."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q100915537",
+      "label": "Mike Rivers",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "College basketball player at Little Rock, not an instrumentation engineer at the Naval Oceanographic Office."
+    },
+    {
+      "qid": "Q125649021",
+      "label": "Mike Rivers-Bowerman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Present-day Canadian radiologist with a different surname (Rivers-Bowerman)."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": []
+}

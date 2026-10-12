@@ -1,0 +1,59 @@
+{
+  "personalIdentification": {
+    "fullName": "Nils Bruun"
+  },
+  "contactInformation": {
+    "residentialAddress": "145 Waverly Place, New York, New York 10014",
+    "phoneNumbers": "516-575-9066",
+    "geographicLocation": "New York, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Grumman Aircraft Engineering Corporation",
+    "departmentDivision": ""
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "",
+    "technicalFields": [
+      "Mechanical engineering",
+      "Structural engineering",
+      "Aeronautics",
+      "Aerospace",
+      "Hydraulics"
+    ],
+    "specializedSkillsKnowledge": "fiberglass, honeycombs"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "",
+    "aestheticPhilosophicalInterests": ""
+  },
+  "ocr_front": "Bruun, Nils   145 Waverly Place New York, N.Y.  10014\n               516  575-9066\nGrumman Aircraft Engineering Corp.\n\nMechanical engineering, structural engineering, aeronautics/\naerospace, hydraulics, fiberglass, honeycombs",
+  "ocr_notes": "Front: handwritten blue arrow from phone number to the Grumman line (phone belongs to Grumman). Back written sideways along right edge; 'J. Bellisfield' best reading.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q21341949",
+      "label": "Henrik H. Bruun",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This came from a fallback search on the last name only. It is an entomologist named Henrik Bruun, not Nils Bruun the aerospace engineer."
+    },
+    {
+      "qid": "Q13410501",
+      "label": "Helge Gösta Bruun",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This came from a fallback search on the last name only. It is a Swedish botanist (1897-1978), unrelated to Grumman."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q463261",
+      "label": "Grumman",
+      "description": "1929-1994 aerospace manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is Grumman (1929-1994), the Bethpage aerospace manufacturer, matched through its alias Grumman Aircraft Engineering Corporation, the exact employer on the card. The card's 516 Long Island phone number fits Bethpage."
+    }
+  ]
+}

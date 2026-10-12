@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "name": "J. Tobias.",
+      "name_other": "",
+      "contact_method": "",
+      "date": "XXXX-05-20",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 9.7,
+        "y1": 13.5,
+        "x2": 38.8,
+        "y2": 23.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q85447492",
+          "label": "Tobias. Hägerland",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Tobias Hägerland is a Swedish theologian born in 1975, a fallback hit on 'Tobias'."
+        }
+      ]
+    },
+    {
+      "name": "Carol Alonge",
+      "name_other": "",
+      "contact_method": "",
+      "date": "1970-10-09",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 7.8,
+        "y1": 19.3,
+        "x2": 51.1,
+        "y2": 37.1
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31251",
+          "label": "Carol Alonge",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name, an artist associated with E.A.T.'s TSP in the same card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q1441493",
+          "label": "Francis Folorunsho Clement Alonge",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback. A Nigerian Catholic bishop."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "J. Tobias.   5/20\nCarol Alonge 10/9/70"
+}

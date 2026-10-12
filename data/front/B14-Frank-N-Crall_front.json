@@ -1,0 +1,58 @@
+{
+  "personalIdentification": {
+    "fullName": "Frank N. Crall"
+  },
+  "contactInformation": {
+    "residentialAddress": "1700 West Third Avenue, Flint, Michigan 48504",
+    "geographicLocation": "Flint, Michigan"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "General Motors Institute"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Professor, Electrical engineer",
+    "technicalFields": [
+      "Electrical engineering",
+      "Integrated circuits"
+    ],
+    "specializedSkillsKnowledge": "Integrated circuits"
+  },
+  "ocr_front": "Crall, Prof. Frank N.   G.M.I. Institute, 1700  W Third Ave, Flint Mich X\n                                                                    48504\nElectrical engineer. Integrated circuits.",
+  "ocr_notes": "Front: a struck-out typed '48' after 'Mich' (rendered X), with 48504 typed on next line. Back: 'T. Abeles (letter) 11/2/70' is written vertically along the left edge; 'Raetze' and 'March 31/69' are best readings.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q16636868",
+      "label": "Crallo",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fuzzy last-name fallback; this is a saint named Crallo."
+    },
+    {
+      "qid": "Q21509207",
+      "label": "Elza Monroe Cralley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fuzzy fallback; a female botanist, Elza Cralley."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q6395480",
+      "label": "Kettering University",
+      "description": "university in Flint, Michigan",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Kettering University's former name was General Motors Institute (matched by alias). It is in Flint MI, postcode 48504, matching the card's 1700 West Third Avenue, Flint 48504."
+    },
+    {
+      "qid": "Q117351891",
+      "label": "General Motors Institute of Technology",
+      "description": "",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "General Motors Institute of Technology existed 1919-1982 and covers the card's period. It appears to be the same institution under its historical name, probably a duplicate of Kettering University (Q6395480)."
+    }
+  ]
+}

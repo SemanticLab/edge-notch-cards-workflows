@@ -1,0 +1,80 @@
+{
+  "personalIdentification": {
+    "fullName": "Warren L. Dowler"
+  },
+  "contactInformation": {
+    "residentialAddress": "526 Camillo, Sierra Madre, California 91024",
+    "phoneNumbers": "355 9707, 354 3169",
+    "geographicLocation": "Sierra Madre, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Jet Propulsion Laboratory",
+    "departmentDivision": ""
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "",
+    "technicalFields": [
+      "Rocket Propulsion"
+    ],
+    "specializedSkillsKnowledge": "Rocket Propulsion"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Everything",
+    "aestheticPhilosophicalInterests": "Everything"
+  },
+  "ocr_front": "Warren L. Dowler, 526 Camillo, Sierra Madre, Calif. 91024\n355 9707, 4800 Oak Grove Dr. 354 3169,\nRocket Propulsion\n\nEverything",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q895918",
+      "label": "Boyd Dowler",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name fallback; Boyd Dowler is an American football player, not a JPL rocket propulsion engineer."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q189325",
+      "label": "Jet Propulsion Laboratory",
+      "description": "research and development center and NASA field center in California, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Jet Propulsion Laboratory, the NASA center near Pasadena; it matches the employer and the Sierra Madre address, and rocket propulsion fits."
+    },
+    {
+      "qid": "Q17092868",
+      "label": "Jet Propulsion Laboratory Development Ephemeris",
+      "description": "ephemeris produced at the Jet Propulsion Laboratory for spacecraft navigation and astronomy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The JPL Development Ephemeris is a data product, not the organisation."
+    },
+    {
+      "qid": "Q6188878",
+      "label": "Jet Propulsion Laboratory Display Information System",
+      "description": "file management program written in FORTRAN",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A FORTRAN software program."
+    },
+    {
+      "qid": "Q6188880",
+      "label": "Jet Propulsion Laboratory Science Division",
+      "description": "NASA space research organization",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The JPL Science Division is a sub-unit, and the card names only JPL."
+    },
+    {
+      "qid": "Q58984639",
+      "label": "Jet Propulsion Laboratory is considering its options",
+      "description": "scientific article published in Nature",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1988 Nature article."
+    }
+  ]
+}

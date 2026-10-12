@@ -1,0 +1,117 @@
+{
+  "personalIdentification": {
+    "fullName": "Alberto F. Tassinari"
+  },
+  "contactInformation": {
+    "residentialAddress": "314 1/2 East Smith Avenue, Bloomington, Indiana 47401",
+    "phoneNumbers": "812-339-9665",
+    "geographicLocation": "Bloomington, Indiana"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Indiana University"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Engineer",
+    "technicalFields": [
+      "digital systems"
+    ]
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Interested in theater"
+  },
+  "ocr_front": "Tassinari, Alberto F, 3141/2 E Smith Ave  Bloomington Ind.47401\n                  AC 812-339-9665\nEngineer; digital systems\n\nIndiana University.\n\nInterested in theater.",
+  "ocr_notes": "Front: the house number is typed '314½' (shown here as 3141/2). Faint ghost text from erased typing appears above the name line and is not transcribed. Back: red ink.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q61878132",
+      "label": "Ercules Berlini Tassinari",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This came from a surname-only fallback search. Ercules Berlini Tassinari is a Brazilian politician born in 1953, not Alberto F. Tassinari in Bloomington."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q6608367",
+      "label": "Indiana University",
+      "description": "university system, Indiana, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is Indiana University, headquartered in Bloomington, which matches the card's employer name and Bloomington address."
+    },
+    {
+      "qid": "Q1079140",
+      "label": "Indiana University Bloomington",
+      "description": "public research university located in Bloomington, Indiana, U.S. (flagship campus of the Indiana University system)",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "IU Bloomington is the flagship campus that 'Indiana University' meant c. 1968, and the card's address is Bloomington. Wikidata now also models the multi-campus system separately (Q6608367)."
+    },
+    {
+      "qid": "Q1433199",
+      "label": "Indiana University – Purdue University Indianapolis",
+      "description": "defunct Indianapolis campus of Indiana University which included two Purdue University schools",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IUPUI is the Indianapolis campus (founded 1969), not Bloomington."
+    },
+    {
+      "qid": "Q2123017",
+      "label": "Indiana University School of Medicine",
+      "description": "medical school in Indianapolis",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the IU medical school in Indianapolis, a sub-unit."
+    },
+    {
+      "qid": "Q5975426",
+      "label": "IU Indianapolis University Library",
+      "description": "Library of Indiana University Indianapolis",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a library of the Indianapolis campus, opened in 1994."
+    },
+    {
+      "qid": "Q3140337",
+      "label": "Indiana Hoosiers",
+      "description": "intercollegiate sports teams of Indiana University Bloomington",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is IU's athletics teams, not the employer."
+    },
+    {
+      "qid": "Q1661325",
+      "label": "Indiana University of Pennsylvania",
+      "description": "public university in Indiana County, Pennsylvania, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Indiana University of Pennsylvania is a different university in Indiana County, PA."
+    },
+    {
+      "qid": "Q11130954",
+      "label": "Indiana University Press",
+      "description": "academic publisher at Indiana University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the university press, a sub-unit and publisher."
+    },
+    {
+      "qid": "Q6023669",
+      "label": "Indiana University – Purdue University Fort Wayne",
+      "description": "defunct university",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Fort Wayne joint campus, a different institution."
+    },
+    {
+      "qid": "Q6023610",
+      "label": "Indiana University Mathematics Journal",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a mathematics journal published by IU, not the institution."
+    }
+  ]
+}

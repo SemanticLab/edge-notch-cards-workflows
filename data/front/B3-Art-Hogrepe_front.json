@@ -1,0 +1,49 @@
+{
+  "personalIdentification": {
+    "fullName": "Art Hogrepe"
+  },
+  "contactInformation": {
+    "residentialAddress": "11808 Georgia Ave, Wheaton, Maryland 20902",
+    "phoneNumbers": "WHitehall 6-0932",
+    "geographicLocation": "Wheaton, Maryland"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Applied Physics Laboratory"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Electronic design"
+    ]
+  },
+  "ocr_front": "Hogrepe, Art,  11808 Georgia Ave,  Wheaton, Md  20902     Wh 6-0932\n\nApplied Physics Lab.\n\nElectronic design",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q249373",
+      "label": "Applied Physics Laboratory",
+      "description": "university-affiliated research center",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the Johns Hopkins Applied Physics Laboratory in Laurel MD; the card's Wheaton MD address is nearby and its electronic design field fits."
+    },
+    {
+      "qid": "Q61934459",
+      "label": "University of Washington Applied Physics Laboratory",
+      "description": "facility in Seattle, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the University of Washington's Applied Physics Laboratory in Seattle, which does not fit an engineer living in Maryland."
+    },
+    {
+      "qid": "Q2858854",
+      "label": "Applied Physics Laboratory Ice Station",
+      "description": "International ice laboratory",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an Arctic ice station in Alaska, not the Maryland laboratory."
+    }
+  ]
+}

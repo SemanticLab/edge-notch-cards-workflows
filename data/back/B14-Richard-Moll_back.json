@@ -1,0 +1,67 @@
+{
+  "entries": [
+    {
+      "name": "BILL MULLEN",
+      "name_other": "null",
+      "contact_method": "LETTER (Mail)",
+      "date": "XXXX-09-04",
+      "other_metadata": "LETTER-",
+      "bounding_box": {
+        "x1": 11.7,
+        "y1": 14.1,
+        "x2": 57.8,
+        "y2": 22.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31761",
+          "label": "Bill Mullen",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Same name, and the item is an artist in the E.A.T. Technical Services Program card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q19520396",
+          "label": "William F. Mullen III",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A US Marine Corps general born in 1964."
+        },
+        {
+          "qid": "Q112485510",
+          "label": "Bill Mullen",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "An American studies professor born in 1959, too young."
+        }
+      ]
+    },
+    {
+      "name": "Tom Abeles",
+      "name_other": "null",
+      "contact_method": "letter",
+      "date": "1970-11-02",
+      "other_metadata": "null",
+      "bounding_box": {
+        "x1": 9.1,
+        "y1": 19.8,
+        "x2": 56.5,
+        "y2": 29.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16128858",
+          "label": "Moshe Abeles",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback hit: Moshe Abeles, an Israeli neuroscientist. Different given name, not an artist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "LETTER- BILL MULLEN (Mail) Sept 4\nTom Abeles (letter) 11/2/70"
+}

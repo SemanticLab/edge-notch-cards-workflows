@@ -1,0 +1,120 @@
+{
+  "entries": [
+    {
+      "name": "Byrd Hale",
+      "contact_method": "letter",
+      "date": "XXXX-11-12",
+      "bounding_box": {
+        "x1": 8.5,
+        "y1": 11.5,
+        "x2": 40.5,
+        "y2": 23.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q1939",
+          "label": "Hale Smith",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback hit. Hale Smith is a Linked Jazz composer whose given name is Hale, which does not fit 'Byrd Hale'."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q18633472",
+          "label": "Mason Ellsworth Hale",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback hit. Mason Ellsworth Hale was a lichenologist, not an artist, and his given name does not match Byrd."
+        }
+      ]
+    },
+    {
+      "name": "Mary Ascher",
+      "date": "XXXX-11-24",
+      "bounding_box": {
+        "x1": 10.0,
+        "y1": 21.5,
+        "x2": 41.5,
+        "y2": 33.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30755",
+          "label": "Mary Ascher",
+          "description": "born Leeds, England 1900-died New York City 1988 (1900–1988)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match with an artist item from the same E.A.T. Technical Services Program card collection (1900-1988, New York)."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q56231073",
+          "label": "Mary Ascher",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match. She was an artist who died in New York City in 1988, and the project's wikibase item for her links to this QID."
+        }
+      ]
+    },
+    {
+      "name": "Lorene Stokes",
+      "date": "XXXX-04-25",
+      "bounding_box": {
+        "x1": 10.0,
+        "y1": 26.5,
+        "x2": 46.5,
+        "y2": 41.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q433405",
+          "label": "Jonathan Stokes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback hit. Jonathan Stokes was an 18th-century physician and botanist."
+        },
+        {
+          "qid": "Q21609879",
+          "label": "Susan Gabriella Stokes",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-only fallback hit. Susan Gabriella Stokes was a botanist who died in 1954, and her given name does not match Lorene."
+        }
+      ]
+    },
+    {
+      "name": "Joan Webster Price",
+      "date": "1970-11-02",
+      "bounding_box": {
+        "x1": 9.0,
+        "y1": 37.0,
+        "x2": 46.5,
+        "y2": 49.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26381",
+          "label": "Joan Webster Price",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match with an artist item from the same E.A.T. Technical Services Program card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q63090712",
+          "label": "Joan Webster Price",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact and distinctive name. She is an American printmaker born in 1931 with works at MoMA and the Whitney, and the wikibase item links to this QID."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "Kora\nHale letter 11/12\nMary Ascher 11/24\nRoderer Stokes 4/25\nJoan Webster Price 11/2/70"
+}

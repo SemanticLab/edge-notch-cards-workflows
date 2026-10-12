@@ -1,0 +1,60 @@
+{
+  "personalIdentification": {
+    "fullName": "J. Illes"
+  },
+  "contactInformation": {
+    "residentialAddress": "11740 Wilshire Boulevard, Los Angeles, California 90025",
+    "phoneNumbers": "623-1750",
+    "geographicLocation": "Los Angeles, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Hughes Aircraft Company",
+    "departmentDivision": "Industrial Systems"
+  },
+  "ocr_front": "Illes, J,  11740 Wilshire Blvd, L.A. 90025 Cal.  623-1750\n\nHughes Aircraft Co\n\nIndustrial Systems.",
+  "ocr_notes": "Front: 'Cal.' is handwritten.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q12349159",
+      "label": "Illés Georch",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This hit came from a fallback search on 'Illes'. Illés Georch was a Hungarian lawyer who died in 1835."
+    },
+    {
+      "qid": "Q986969",
+      "label": "Illés Dési",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Illés Dési was a Hungarian physician in Budapest. Illés is his first name, and he has nothing to do with Hughes Aircraft in Los Angeles."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q196253",
+      "label": "Hughes Aircraft Company",
+      "description": "defunct American aerospace and defense contractor",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is Hughes Aircraft Company, the aerospace firm headquartered in Culver City/Los Angeles, matching the card's employer and its Los Angeles address."
+    },
+    {
+      "qid": "Q67675996",
+      "label": "Hughes Aircraft Company, et al., Petitioners v. Stanley I. Jacobson, et al. [Case 97-1287] / Bank of America National Trust and Savings Association, Petitioner v. 203 North LaSalle Street Partnership [Case 97-1418] / Vicky M. Lope (NAID 138282717)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an archival recording of a 1998 Supreme Court case, not the company."
+    },
+    {
+      "qid": "Q67478760",
+      "label": "Hughes Aircraft Company - Interviews (NAID 102072565)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an archival NASA interview recording, not the company."
+    }
+  ]
+}

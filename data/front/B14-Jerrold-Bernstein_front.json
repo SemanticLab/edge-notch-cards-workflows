@@ -1,0 +1,49 @@
+{
+  "personalIdentification": {
+    "fullName": "Dr. Jerrold Bernstein"
+  },
+  "contactInformation": {
+    "residentialAddress": "6505 Cote Saint Luc Road #215, Montreal, Province of Quebec, Canada",
+    "phoneNumbers": "514 482 4852",
+    "geographicLocation": "Montreal, Province of Quebec, Canada"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "bio-engineering",
+      "medicine",
+      "biology",
+      "cathode rays",
+      "film technology"
+    ],
+    "specializedSkillsKnowledge": "photography"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "photography"
+  },
+  "ocr_front": "Dr. Jerrold Bernstein, 6505 Cote St. Luc Rd. #215, 514 482 4852\n\nMontreal, Province of Quebec, Camada.\n\nbio-engineering/medicine, biology, cathode rays, film technology,\nfilm technology, photography",
+  "ocr_notes": "Front: 'Camada' has an overstrike (n/m) in 'Canada'; faint erased/illegible marks after the phone number. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q152505",
+      "label": "Leonard Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name-only fallback hit; Leonard Bernstein the conductor is not a Montreal physician named Jerrold."
+    },
+    {
+      "qid": "Q58323596",
+      "label": "Herbert J Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name fallback hit; Herbert J Bernstein is a different person."
+    },
+    {
+      "qid": "Q73244",
+      "label": "Heinrich Agathon Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name fallback hit; German naturalist who died in 1865."
+    }
+  ]
+}

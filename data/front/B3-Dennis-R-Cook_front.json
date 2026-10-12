@@ -1,0 +1,88 @@
+{
+  "personalIdentification": {
+    "fullName": "Dennis R. Cook"
+  },
+  "contactInformation": {
+    "residentialAddress": "5113 26th Avenue Southeast, Washington, District of Columbia 20031",
+    "geographicLocation": "Washington, District of Columbia"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Harry Diamond Laboratories"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Electronics Engineer",
+    "technicalFields": [
+      "Electronics engineering"
+    ]
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Makes art"
+  },
+  "ocr_front": "Cook, Dennis R,  5113 26  Ave  S.E.  Washington  D.C. 20031\n\nHarry Diamond La bs.\n\nElectronics engineering.\n\nMakes art.",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q23454",
+      "label": "cook",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the occupation 'cook' from the Linking Lost Jazz Shrines project, not a person. It came from a last-name-only fallback search."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q117118464",
+      "label": "Dennis Cook",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "This bare 'Dennis Cook' item has no facts at all, so nothing ties it to an electronics engineer at Harry Diamond Laboratories."
+    },
+    {
+      "qid": "Q5258299",
+      "label": "Dennis Cook",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MLB pitcher born in 1962, so he could not have been a working engineer around 1967-1972."
+    },
+    {
+      "qid": "Q100771935",
+      "label": "Dennis Cook",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Utah college basketball player in 1969, which does not fit an electronics engineer in Washington DC."
+    },
+    {
+      "qid": "Q112424193",
+      "label": "Dennis Cooke",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The surname is different (Cooke) and the only facts are a 1929 birth year and sex. Nothing links him to Harry Diamond Laboratories or Washington DC."
+    },
+    {
+      "qid": "Q98804185",
+      "label": "Dennis V. Cookro",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Dennis V. Cookro is a physician with a different surname and Florida and Nevada employers, which does not fit the card."
+    },
+    {
+      "qid": "Q20807224",
+      "label": "R. Dennis Cook",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "R. Dennis Cook is a statistician at the University of Minnesota. That is a different field and employer from an electronics engineer at Harry Diamond Laboratories in DC."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q16841378",
+      "label": "Harry Diamond Laboratories",
+      "description": "defunct research facility of the Ordnance Development Division of the National Bureau of Standards and later the U.S. Army",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Exact name match. It is the Army research facility headquartered in Washington DC (1940-1992), which fits a DC electronics engineer."
+    }
+  ]
+}

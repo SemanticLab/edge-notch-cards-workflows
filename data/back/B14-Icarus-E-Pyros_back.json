@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "name": "C BOYCE",
+      "name_other": "LOFT",
+      "contact_method": "",
+      "date": "XXXX-02-18",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 12.5,
+        "y1": 13.0,
+        "x2": 43.5,
+        "y2": 21.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q11845318",
+          "label": "Tommy Boyce",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "Surname-only fallback. Tommy Boyce's first initial does not match C."
+        },
+        {
+          "qid": "Q21506389",
+          "label": "John Shaw Boyce",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Botanist named John. Fallback hit."
+        },
+        {
+          "qid": "Q110717709",
+          "label": "Boyce Nolan Nichols III",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "PhD from 2014 whose first name is Boyce. Unrelated."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "LOFT - L BOYCE. Feb 18."
+}

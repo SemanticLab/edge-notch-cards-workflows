@@ -1,0 +1,92 @@
+{
+  "personalIdentification": {
+    "fullName": "Donald J. Glick"
+  },
+  "contactInformation": {
+    "residentialAddress": "167 Farragat Road, North Plainfield, New Jersey 07062",
+    "phoneNumbers": "201-757-7325",
+    "geographicLocation": "North Plainfield, New Jersey; Holmdel, New Jersey"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Bendix Corporation",
+    "departmentDivision": "Semiconductor Division"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Electronics",
+      "Circuits",
+      "Sound and light conversions"
+    ],
+    "specializedSkillsKnowledge": "sound and light conversions"
+  },
+  "ocr_front": "Glick, Donald J.   167  Farragat Rd,  North Plainfield  N.J. 07062\n           201-757-7325\n\nBendix Corp, Semiconductor Div,  Holmdel N.J.\n\nElectronics, circuits, sound & light comversions.",
+  "ocr_notes": "Back: 'SOWAAL' is a best reading of block capitals. 'Kay Weiner' and 'Aardema' are best readings.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q105513000",
+      "label": "Glicka Raitel",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Glicka Raitel was a Holocaust victim who died in 1945; she matched only on the fallback 'Glick'."
+    },
+    {
+      "qid": "Q104687191",
+      "label": "Glicke Haber",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Glicke Haber was a Holocaust victim born in 1871, so she cannot be the 1960s New Jersey electronics engineer."
+    },
+    {
+      "qid": "Q21514051",
+      "label": "Perry Aaron Glick",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Perry Aaron Glick was a botanist born in 1895, with a different given name and field."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q30217",
+      "label": "Bendix Corporation",
+      "description": "American manufacturing and engineering company (1924–1983)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This item is Bendix Corporation from this same E.A.T. edge-notched card project, and it is linked to Wikidata Q4887137. It matches the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q4887137",
+      "label": "Bendix Corporation",
+      "description": "American manufacturing and engineering company (1924–1983)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bendix Corporation, the American manufacturing and engineering company that existed from 1924 to 1983, is the employer named on the card. The card names its Semiconductor Division."
+    },
+    {
+      "qid": "Q71190862",
+      "label": "Bendix Corporation - Apollo Lunar Surface Experiment Package [ALSEP] Submittal (NAID 81440064)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A National Archives film item about Bendix's ALSEP work, not the company."
+    },
+    {
+      "qid": "Q71190867",
+      "label": "Bendix Corporation - Apollo Lunar Surface Experiment Package [ALSEP] Submittal (NAID 81440066)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Another National Archives film item, not the company."
+    },
+    {
+      "qid": "Q106488261",
+      "label": "Bendix Corporation (Crawler-Transporter / ALSEP)",
+      "description": "document dealing with ALSEP",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1969 technical report, not the company."
+    }
+  ]
+}

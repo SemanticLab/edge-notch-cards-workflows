@@ -1,0 +1,71 @@
+{
+  "personalIdentification": {
+    "fullName": "Victor J. Bortolot, Jr."
+  },
+  "contactInformation": {
+    "residentialAddress": "203 West 91st Street, Apartment 2A, New York, New York 10024",
+    "phoneNumbers": "724-7981",
+    "geographicLocation": "New York, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Goddard Institute for Space Studies",
+    "departmentDivision": "2880 Broadway, New York, New York"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Not Specified",
+    "technicalFields": [
+      "programming",
+      "optics",
+      "spectroscopy"
+    ],
+    "specializedSkillsKnowledge": "Not Specified"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Not Specified",
+    "aestheticPhilosophicalInterests": "Not Specified"
+  },
+  "ocr_front": "Bortolot, Victor J., Jr., 203 W. 91 St. #2A, N.Y. 10024,\n724-7981\n\nGoddard Institute for Space Studies, 2880 Broadway, N.Y.\n\nprogramming, optics, spectroscopy",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q983719",
+      "label": "Robert Smirke",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The search used only the suffix 'Jr.'; Robert Smirke is a British architect who died in 1867."
+    },
+    {
+      "qid": "Q7934",
+      "label": "Frank Herbert",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fallback hit on 'Jr.'; Frank Herbert is the science fiction author, unrelated to a GISS programmer and spectroscopist."
+    },
+    {
+      "qid": "Q625228",
+      "label": "Erasmus Quellinus II",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Erasmus Quellinus II is a 17th-century Flemish painter, matched only through the 'Jr.' suffix."
+    },
+    {
+      "qid": "Q55670036",
+      "label": "Thomas S. Jones, Jr.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Thomas S. Jones, Jr. is a poet who died in 1932, matched only on the suffix."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q422272",
+      "label": "Goddard Institute for Space Studies",
+      "description": "unit of NASA's Goddard Space Flight Center and of Columbia University's Earth Institute",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Goddard Institute for Space Studies, the NASA lab at Columbia in Manhattan; the card's address, 2880 Broadway, is GISS's location."
+    }
+  ]
+}

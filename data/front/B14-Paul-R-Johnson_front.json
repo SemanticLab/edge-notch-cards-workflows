@@ -1,0 +1,123 @@
+{
+  "personalIdentification": {
+    "fullName": "Paul R. Johnson"
+  },
+  "contactInformation": {
+    "residentialAddress": "66 Howard Street, Cambridge, Massachusetts",
+    "phoneNumbers": "868-4395",
+    "geographicLocation": "Cambridge, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Massachusetts Institute of Technology"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Student",
+    "technicalFields": [
+      "Computer Sciences"
+    ]
+  },
+  "ocr_front": "Johnson, Paul R, 66 Howard St, Cambridge Mass,   868-4395\nM.I.T. (student)\nComputer Sciences.",
+  "ocr_notes": "Back is blank apart from faint smudges.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q7151600",
+      "label": "Paul Johnson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Canadian Ontario politician born 1952 in Toronto; the card's Paul R. Johnson was an MIT computer science student in Cambridge MA. Different person."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19439",
+      "label": "Massachusetts Institute of Technology",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same name, Massachusetts Institute of Technology, linked to Wikidata Q49108, with E.A.T.-connected employees (Kepes, Brodey)."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q49108",
+      "label": "Massachusetts Institute of Technology",
+      "description": "private university in Cambridge, Massachusetts, USA, founded 1861",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Massachusetts Institute of Technology in Cambridge MA, exactly the card's employer and location."
+    },
+    {
+      "qid": "Q6784299",
+      "label": "Massachusetts Institute of Technology Libraries",
+      "description": "library",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MIT Libraries is a sub-unit of MIT, not the institution named on the card."
+    },
+    {
+      "qid": "Q73820",
+      "label": "The MIT Press",
+      "description": "American university press",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MIT Press is a university press, a sub-unit, not the employer."
+    },
+    {
+      "qid": "Q551250",
+      "label": "Lemelson–MIT Prize",
+      "description": "award",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Lemelson-MIT Prize is an award started in 1995, not an organisation employer."
+    },
+    {
+      "qid": "Q6784301",
+      "label": "Massachusetts Institute of Technology School of Engineering",
+      "description": "school at the Massachusetts Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "School of Engineering is a sub-unit of MIT; the card names only MIT."
+    },
+    {
+      "qid": "Q1354917",
+      "label": "MIT Computer Science and Artificial Intelligence Laboratory",
+      "description": "Computer Science research institute at MIT",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "CSAIL is a lab founded 2003, a sub-unit of MIT, not named on the card."
+    },
+    {
+      "qid": "Q123287558",
+      "label": "Massachusetts Institute of Technology",
+      "description": "1955 film",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1955 short film titled after MIT, not the institution."
+    },
+    {
+      "qid": "Q6784300",
+      "label": "Massachusetts Institute of Technology School of Science",
+      "description": "school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "School of Science is a sub-unit of MIT, not named on the card."
+    },
+    {
+      "qid": "Q104148856",
+      "label": "Massachusetts Institute of Technology Department of Architecture",
+      "description": "academic department at the Massachusetts Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Department of Architecture is a sub-unit of MIT, not named on the card."
+    },
+    {
+      "qid": "Q16977777",
+      "label": "MIT School of Humanities, Arts, and Social Sciences",
+      "description": "School at the Massachusetts Institute of Technology (MIT)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "SHASS is a school within MIT, not the card's employer as named."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "personalIdentification": {
+    "fullName": "Donald L. Post"
+  },
+  "contactInformation": {
+    "residentialAddress": "330 Jacksonville Road, Hatboro, Pennsylvania",
+    "phoneNumbers": "215-OS 5-5200",
+    "geographicLocation": "Hatboro, Pennsylvania"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Air-Shields Inc."
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Mechanical engineer",
+    "technicalFields": [
+      "Mechanical engineering",
+      "medical equipment"
+    ],
+    "specializedSkillsKnowledge": "medical equipment"
+  },
+  "ocr_front": "Post, Donald L,  330 Jacksonville Rd Hatboro Pa.\n        215-OS 5-5200\n\nAir-Shielss Inc.\n\nMechanical engineer-medical equipment.",
+  "ocr_notes": "Back: teal/blue ink. 'Weles' is a best reading (could be 'Welles').",
+  "wikibase_candidates": [
+    {
+      "qid": "Q24676",
+      "label": "pole",
+      "description": "oblong object, placed vertically (or somewhat obliquely), the width being approximately the same over the entire length",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fallback on 'Post' returned 'pole', a scenery material, not a person."
+    },
+    {
+      "qid": "Q22301",
+      "label": "postcard",
+      "description": "type of postal stationery",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "'postcard' is a class of correspondence, not a person."
+    },
+    {
+      "qid": "Q28945",
+      "label": "poster",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "'poster' is a class, not a person."
+    },
+    {
+      "qid": "Q22016",
+      "label": "Post-Mortem",
+      "description": "bibliographic reference for article listed in the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Village Voice article reference by Jill Johnston, not a person."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5293334",
+      "label": "Don Post",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Don Post (1902-1979) was a businessman buried in Los Angeles. Nothing ties him to mechanical engineering, medical equipment or Air-Shields in Hatboro, PA."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q67998569",
+      "label": "Air-Shields C-300 incubators and TI-100 transport incubators",
+      "description": "scientific article published on 01 December 1992",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1992 Health Devices article reviewing Air-Shields incubators, not the company."
+    },
+    {
+      "qid": "Q68119492",
+      "label": "Air-Shields Vickers C-86 infant incubators",
+      "description": "scientific article published on 01 October 1988",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1988 article about Air-Shields Vickers incubators, not the company."
+    },
+    {
+      "qid": "Q67907025",
+      "label": "Air-Shields System V Model HRRM71-2 heart rate and respiration monitor",
+      "description": "scientific article published on 01 October 1992",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1992 article about an Air-Shields monitor, not the company."
+    },
+    {
+      "qid": "Q68119495",
+      "label": "Air-Shields Vickers, Narco Bio-Systems, and SpaceLabs 4045 defibrillator/monitor resistors",
+      "description": "scientific article published on 01 October 1988",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1988 article about defibrillator resistors, not the company."
+    }
+  ]
+}

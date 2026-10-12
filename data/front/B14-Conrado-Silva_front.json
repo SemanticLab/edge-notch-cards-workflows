@@ -1,0 +1,136 @@
+{
+  "personalIdentification": {
+    "fullName": "Conrado Silva"
+  },
+  "contactInformation": {
+    "residentialAddress": "Humiata 273, Montevideo, Uruguay",
+    "phoneNumbers": "48",
+    "geographicLocation": "Montevideo, Uruguay"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "School of architecture",
+    "departmentDivision": "Montevideo"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Architect",
+    "technicalFields": [
+      "Acoustics"
+    ],
+    "specializedSkillsKnowledge": "did Music for computers, Munich, 1964-01-01"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Music for computers",
+    "aestheticPhilosophicalInterests": "Aesthetics of electronic music"
+  },
+  "ocr_front": "Conrado Silva    Humiata 273], Montevideo, Uraguay   tel 48]]]\n\nSchool of architecture,. ontvideo.\n\nacoustics,, did Music for computers, Munich, 1964",
+  "ocr_notes": "Front: 'Uraguay' has a 'u' typed over a 'y' (overstrike). ']' characters as typed (probably meant to be 1s). 'ontvideo' is missing its 'M' and has a stray mark before it. Back: second line is in pink/red ink; 'Judith Party' is a best reading of cursive.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q30293",
+      "label": "Silvana Editoriale",
+      "description": "Italian publisher",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Silvana Editoriale is an Italian publisher that matched the fallback search on 'Silva'. It is not a person."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q9852190",
+      "label": "Conrado Silva de Marco",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Conrado Silva de Marco was a composer born in Montevideo in 1940. That fits the card's Montevideo-based architect working in acoustics and computer music, active in Munich in 1964."
+    },
+    {
+      "qid": "Q42388568",
+      "label": "Conrado Silva",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This Uruguayan composer was born in Montevideo on 1940-03-22 and fits the card's electronic and computer music interests. It looks like a duplicate of Q9852190."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q10273077",
+      "label": "architecture school",
+      "description": "professional school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A generic class ('architecture school'), not a specific institution."
+    },
+    {
+      "qid": "Q5428908",
+      "label": "Faculty of Architecture, National Autonomous University of Mexico",
+      "description": "National Autonomous University of Mexico faculty",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UNAM's architecture faculty is in Mexico City. The card's school is in Montevideo."
+    },
+    {
+      "qid": "Q7866351",
+      "label": "USC School of Architecture",
+      "description": "architecture school at the University of Southern California",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The USC School of Architecture is in Los Angeles, not Montevideo."
+    },
+    {
+      "qid": "Q3578183",
+      "label": "School of architecture of Nancy",
+      "description": "French architecture school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A French school in Nancy, not Montevideo."
+    },
+    {
+      "qid": "Q5854525",
+      "label": "School of Architecture, Design and Urbanism",
+      "description": "faculty of University of Buenos Aires, Argentina",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The University of Buenos Aires faculty is in Argentina, not Montevideo."
+    },
+    {
+      "qid": "Q7895531",
+      "label": "University of Illinois School of Architecture",
+      "description": "school of architecture at the University of Illinois Urbana-Champaign",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The University of Illinois School of Architecture is in Champaign, USA."
+    },
+    {
+      "qid": "Q8778195",
+      "label": "Superior Technical School of Architecture",
+      "description": "type of educational institution in Spain for architecture",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Spanish type of institution, not a specific school in Montevideo."
+    },
+    {
+      "qid": "Q30263369",
+      "label": "The School of Architecture",
+      "description": "graduate school of architecture in Arizona, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Taliesin school is in Arizona."
+    },
+    {
+      "qid": "Q7432378",
+      "label": "School of Architecture, Oxford Brookes University",
+      "description": "architecture school in Oxford, England",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Oxford Brookes architecture school is in England."
+    },
+    {
+      "qid": "Q15911145",
+      "label": "School of Architecture, Tsinghua University",
+      "description": "academic department",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Tsinghua school is in Beijing."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "entries": [
+    {
+      "name": "Bob Blossom",
+      "contact_method": "letter",
+      "date": "1969-10-06",
+      "bounding_box": {
+        "x1": 20.7,
+        "y1": 13.9,
+        "x2": 45.4,
+        "y2": 21.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30984",
+          "label": "Bob Blossom",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name. The item is a TSP artist from the same card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q16221478",
+          "label": "Blossom Nnodim",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Nigerian blogger born in 1981. Fallback hit on 'Blossom'."
+        }
+      ]
+    },
+    {
+      "name": "harley Jones",
+      "contact_method": "letter",
+      "date": "1969-10-10",
+      "bounding_box": {
+        "x1": 19.3,
+        "y1": 21.6,
+        "x2": 41.5,
+        "y2": 32.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30316",
+          "label": "Harley Jones",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name. The item is a TSP artist from the same card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q116947430",
+          "label": "Harley Jones",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "New Zealand accordionist born in 1953, too young and in the wrong place to be referred in 1969."
+        },
+        {
+          "qid": "Q3127488",
+          "label": "Harley Jones Van Cleave",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Zoologist who died in January 1953."
+        }
+      ]
+    },
+    {
+      "name": "Elaine Balan",
+      "contact_method": "null",
+      "date": "XXXX-02-19",
+      "bounding_box": {
+        "x1": 17.5,
+        "y1": 28.5,
+        "x2": 43.4,
+        "y2": 40.2
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    }
+  ],
+  "ocr_back": "letter Bob Blossom 10/6/69\n\"  harley Jones  10/10/69\nClaire Palan  2/19"
+}

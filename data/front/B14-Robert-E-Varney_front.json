@@ -1,0 +1,47 @@
+{
+  "personalIdentification": {
+    "fullName": "Robert E. Varney"
+  },
+  "contactInformation": {
+    "residentialAddress": "1231 Green View, Lakeland, Florida 33801",
+    "phoneNumbers": "686-1748",
+    "geographicLocation": "Lakeland, Florida"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Food Machinery Corporation",
+    "departmentDivision": "Florida Division, Research and Development"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Mechanics",
+    "technicalFields": [
+      "Production of Food Processing machinery"
+    ],
+    "specializedSkillsKnowledge": "Production of Food Processing machinery"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Makes art."
+  },
+  "ocr_front": "Varney, Robert E,  1231 Green View, Lakeland, Fla. 33801\n                         686-1748\n\nF.M.C.Corp, Fla. Div.\n\nMechanics,  R & D,  Production of Food Processing machinery.\n\nMakes art.",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q16185584",
+      "label": "Varney Sherman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This came from a fallback search on the surname. It returned Varney Sherman, a Liberian politician, who is unrelated."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q899183",
+      "label": "FMC Corporation",
+      "description": "American chemical manufacturing company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "FMC Corporation was formerly Food Machinery Corporation, an alias the search matched. It is the same company, and the card refers to its Florida division in Lakeland."
+    }
+  ]
+}

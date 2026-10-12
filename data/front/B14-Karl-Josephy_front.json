@@ -1,0 +1,86 @@
+{
+  "personalIdentification": {
+    "fullName": "Karl Josephy"
+  },
+  "contactInformation": {
+    "residentialAddress": "7000 South Shore Drive, Chicago, Illinois 60649",
+    "phoneNumbers": "Residential: 955 3581; Business: 846 3800 extension 373",
+    "geographicLocation": "Chicago, Illinois"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Continental Can Company"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "electrical engineering",
+      "physics",
+      "liquid crystals",
+      "optics",
+      "lasers",
+      "strobes",
+      "holography",
+      "fiber optics"
+    ]
+  },
+  "ocr_front": "Karl Josephy, 7000 S. Shore Dr., Chicago, Ill 60649 955 3581\nContinental Can Co., 7622 S. Racine, Chicago, Ill 846 3800 ext 373\n\n\nelectrical engineering, physics, liquid crystals, optics, lasers,\nstrobes, holography, fiber optics",
+  "ocr_notes": "Back: the surname is uncertain (could be 'Holvek' or 'Holrok').",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q360589",
+      "label": "Joseph Calasanz",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname fallback hit on an alias; this is a 16th-17th century Spanish saint."
+    },
+    {
+      "qid": "Q60815176",
+      "label": "Josephy, Gustav d. Ä.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An entrepreneur who lived 1820-1857."
+    },
+    {
+      "qid": "Q140562062",
+      "label": "Joseph Yang",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An American politician born 2003, matched only on an alias string."
+    },
+    {
+      "qid": "Q136991695",
+      "label": "Josephyn Müller",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Berlin physician born 1990."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28297",
+      "label": "Continental Can Company",
+      "description": "company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same name, Continental Can Company, a business item from the E.A.T. Datascape and Knowledge Graph projects."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5165257",
+      "label": "Continental Can Company",
+      "description": "former American metal container company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Continental Can Company, the American container maker that was operating in the 1960s and had facilities in Chicago, matching the card."
+    },
+    {
+      "qid": "Q32834037",
+      "label": "Continental Can Company Lake Dam",
+      "description": "dam in Wake County, North Carolina, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A dam in North Carolina named after the company, not the company."
+    }
+  ]
+}

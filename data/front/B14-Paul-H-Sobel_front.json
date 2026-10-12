@@ -1,0 +1,106 @@
+{
+  "personalIdentification": {
+    "fullName": "Paul H. Sobel"
+  },
+  "contactInformation": {
+    "residentialAddress": "755 East Pine #16, Altadena, California 91001",
+    "phoneNumbers": "213-794-0735",
+    "geographicLocation": "Altadena, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Jet Propulsion Laboratory"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "electrical engineering",
+      "aeronautics/aerospace",
+      "mathematics",
+      "physics",
+      "computers",
+      "cybernetics/control theory",
+      "information systems",
+      "programming",
+      "computers: graphics/film",
+      "computers: sound/music",
+      "light",
+      "light equipment/projection",
+      "lasers",
+      "strobes",
+      "holography",
+      "radar",
+      "X-rays",
+      "electro-luminescence",
+      "fiber optics",
+      "acoustics",
+      "sound generation",
+      "sonar",
+      "ultrasonics",
+      "audio systems",
+      "audio-visual conversions",
+      "communications"
+    ],
+    "specializedSkillsKnowledge": "electrical engineering, aeronautics/aerospace, mathematics, physics, computers, cybernetics/control theory, information systems, programming, computers: graphics/film, computers: sound/music, light, light equipment/projection, lasers, strobes, holography, radar, X-rays, electro-luminescence, fiber optics, acoustics, sound generation, sonar, ultrasonics, audio systems, audio-visual conversions, communications"
+  },
+  "ocr_front": "Sobel, Paul H.  755 E. Pine # 16, Altadena, Calif.  91001\n                213-794-0735\nJet Propulsion Laboratory\n\nelectrical engineering, aeronautics/aerospace, mathematics,\nphysics, computers, cybernetics/control theory, information\nsystems, programming, computers: graphics/film, computers:\nsound/music.light, light equipment/projection, lasers,\nstrobes, holography, radar, X-rays, electro-luminescence,\nfiber optics, acoustics, sound generation, sonar, ultrasonics,\naudio systems, audio-visual conversions, communications,\n                                                    Cont.",
+  "ocr_notes": "Back: second surname hard to read (Wachen/Wruchen/Wachter). Staple marks visible on card.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q106594291",
+      "label": "Sobel",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Polish rapper born in 2001, returned by a surname-only fallback search."
+    },
+    {
+      "qid": "Q105504526",
+      "label": "Sobel Spindel",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Holocaust victim born in 1858 who died in 1943. 'Sobel' is his given name."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q189325",
+      "label": "Jet Propulsion Laboratory",
+      "description": "research and development center and NASA field center in California, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the Jet Propulsion Laboratory (JPL) in La Cañada Flintridge, next to the Altadena address on the card. It is the card's employer."
+    },
+    {
+      "qid": "Q17092868",
+      "label": "Jet Propulsion Laboratory Development Ephemeris",
+      "description": "ephemeris produced at the Jet Propulsion Laboratory for spacecraft navigation and astronomy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an ephemeris data product published by JPL, not the organisation."
+    },
+    {
+      "qid": "Q6188878",
+      "label": "Jet Propulsion Laboratory Display Information System",
+      "description": "file management program written in FORTRAN",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a FORTRAN software program."
+    },
+    {
+      "qid": "Q6188880",
+      "label": "Jet Propulsion Laboratory Science Division",
+      "description": "NASA space research organization",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the JPL Science Division, a sub-unit that the card does not name."
+    },
+    {
+      "qid": "Q58984639",
+      "label": "Jet Propulsion Laboratory is considering its options",
+      "description": "scientific article published in Nature",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1988 Nature article."
+    }
+  ]
+}

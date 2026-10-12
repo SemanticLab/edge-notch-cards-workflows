@@ -1,0 +1,137 @@
+{
+  "personalIdentification": {
+    "fullName": "Howard C. Berg"
+  },
+  "contactInformation": {
+    "residentialAddress": "182 Appleton street, Cambridge, Massachusetts 02138",
+    "phoneNumbers": "491-8320; UN8-7600 extension 2241 or 4107",
+    "geographicLocation": "Cambridge, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Harvard University",
+    "departmentDivision": "Lyman Laboratory"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Physicist, biochemist, electrical and mechanical design engineer",
+    "technicalFields": [
+      "Physics",
+      "Biochemistry",
+      "Electrical engineering",
+      "Mechanical design engineering"
+    ],
+    "specializedSkillsKnowledge": "Electrical and mechanical design"
+  },
+  "ocr_front": "Berg, Howard C   182 Appleton st. Cambridge, Mass 02138  491-8320\n\nLyman Lab. Harvard U.                         UN8-7600  x2241or 4107\n\nPhysicist biochemist electrical and mechanical design eng.\n\n\n\n\n\n\nCF",
+  "ocr_notes": "Front: 'x2241or 4107' typed without a space; handwritten 'CF' in pencil at lower left. Back: in pencil, faint.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q28201",
+      "label": "Howard Berg",
+      "description": "professor",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "Same name (Howard Berg), a professor in the E.A.T. Datascape and Knowledge Graph projects. That fits the Harvard physicist on the card, and no fact conflicts."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q5919116",
+      "label": "Howard C. Berg",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Howard C. Berg (1934-2021) was a physicist and biophysicist employed by Harvard University with work location Cambridge. That matches the card's Harvard Lyman Laboratory physicist and biochemist in Cambridge, MA."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q24540",
+      "label": "Harvard",
+      "description": "private research university in Cambridge, Massachusetts, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Harvard is described as the private research university in Cambridge, Massachusetts, the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q13371",
+      "label": "Harvard University",
+      "description": "private university in Cambridge, Massachusetts",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Harvard University in Cambridge, Massachusetts is exactly the employer named on the card."
+    },
+    {
+      "qid": "Q1587900",
+      "label": "Harvard University Press",
+      "description": "American university publishing house",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Harvard University Press is a publishing house that is a sub-unit of Harvard, not the university itself."
+    },
+    {
+      "qid": "Q3783572",
+      "label": "Harvard Art Museums",
+      "description": "art museums at Harvard University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Harvard Art Museums are a museum unit of Harvard, not the university the card names (the card names Lyman Laboratory)."
+    },
+    {
+      "qid": "Q3232931",
+      "label": "Harvard Library",
+      "description": "library system of the Harvard University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Harvard Library is the university's library system, a sub-unit, not the employer."
+    },
+    {
+      "qid": "Q59611233",
+      "label": "Harvard Index of Botanists",
+      "description": "database of botanists",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a database of botanists, not an organisation that employed the person."
+    },
+    {
+      "qid": "Q49121",
+      "label": "Harvard Medical School",
+      "description": "medical school in Boston, Massachusetts",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Harvard Medical School is a school in Boston, a sub-unit. The card names Lyman Laboratory in Cambridge."
+    },
+    {
+      "qid": "Q49126",
+      "label": "Harvard Business School",
+      "description": "business school in Boston, Massachusetts, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Harvard Business School is a separate school of the university, unrelated to the card's physics lab."
+    },
+    {
+      "qid": "Q49127",
+      "label": "John F. Kennedy School of Government",
+      "description": "school of public administration of Harvard University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Kennedy School of Government is a public policy school of Harvard, not the card's unit."
+    },
+    {
+      "qid": "Q5676556",
+      "label": "Harvard T.H. Chan School of Public Health",
+      "description": "public health institution",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The School of Public Health is a Boston sub-unit of Harvard, unrelated to the card."
+    },
+    {
+      "qid": "Q3128016",
+      "label": "Harvard Graduate School of Design",
+      "description": "academic department",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Graduate School of Design is a separate Harvard school, not the card's employer unit."
+    }
+  ]
+}

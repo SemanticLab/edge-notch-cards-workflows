@@ -1,0 +1,132 @@
+{
+  "personalIdentification": {
+    "fullName": "John Walker"
+  },
+  "contactInformation": {
+    "residentialAddress": "5101 Thomas Ave, Baltimore, Maryland 21236",
+    "phoneNumbers": "668-8007",
+    "geographicLocation": "Baltimore, Maryland"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Westinghouse Electric Corp"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Electronics engineer",
+    "technicalFields": [
+      "Electronics Engineering"
+    ]
+  },
+  "ocr_front": "Walker, John, 5101 Thomas Ave,  Baltimore, Md  21236      668-8007\n\nWestinghouse Electric Corp, PO Box 746  Baltimore Md 21236\n\nElectronics engineer.",
+  "ocr_notes": "Back: 'NY' before LETTER is crossed out. 'Tom' appears overwritten (possibly 'Toma'). 'Geny Dignac' best reading.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q30991",
+      "label": "Walker Corwin",
+      "description": "Engineer associated with E.A.T.'s Technical Services Program",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This hit came from a surname-only fallback search. Walker Corwin is a different person: a Bell Labs engineer in Matawan NJ, not John Walker of Westinghouse in Baltimore."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q450549",
+      "label": "John Walker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An 18th-century Virginia senator."
+    },
+    {
+      "qid": "Q358383",
+      "label": "John Walker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A New Zealand Olympic runner."
+    },
+    {
+      "qid": "Q93033",
+      "label": "John Walker",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "He was born in Baltimore, but he was a student born in 1949 who later co-founded Autodesk. Nothing links him to Westinghouse or to work as an electronics engineer in the late 1960s."
+    },
+    {
+      "qid": "Q108162248",
+      "label": "John Walker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 19th-century Royal Navy officer."
+    },
+    {
+      "qid": "Q108162247",
+      "label": "John Walker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 19th-century Royal Navy officer."
+    },
+    {
+      "qid": "Q16886405",
+      "label": "John Walker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An Arkansas lawyer and politician."
+    },
+    {
+      "qid": "Q6262706",
+      "label": "John Walker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A British RAF officer."
+    },
+    {
+      "qid": "Q6262728",
+      "label": "John Walker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A British Army officer and genealogist."
+    },
+    {
+      "qid": "Q107382145",
+      "label": "John Walker",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A British gymnast born in 1883."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19670",
+      "label": "Westinghouse Electric Corporation",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the base.semlab.io Westinghouse Electric Corporation item, linked to Wikidata Q632404 and part of the edge-notched cards project; the card names the same company."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q632404",
+      "label": "Westinghouse Electric Corporation",
+      "description": "former American manufacturing company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is Westinghouse Electric Corporation, the American manufacturer named on the card, which had major electronics operations near Baltimore."
+    },
+    {
+      "qid": "Q124791538",
+      "label": "Westinghouse Research Laboratories",
+      "description": "research division of Westinghouse Electric Corporation",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Research Laboratories are a division in Pennsylvania, not the corporation the card names."
+    },
+    {
+      "qid": "Q131638350",
+      "label": "Westinghouse Electric Corporat",
+      "description": "",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "A French company-registry record of a foreign company, not the main US corporation."
+    }
+  ]
+}

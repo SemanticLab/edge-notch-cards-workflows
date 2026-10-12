@@ -1,0 +1,88 @@
+{
+  "entries": [
+    {
+      "name": "Robert Gunkel",
+      "name_other": "null",
+      "contact_method": "null",
+      "date": "XXXX-01-12",
+      "other_metadata": "null",
+      "bounding_box": {
+        "x1": 9.7,
+        "y1": 13.9,
+        "x2": 39.5,
+        "y2": 21.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q65957574",
+          "label": "Gunkel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A surname-only fallback search returned a German badminton player; unrelated."
+        },
+        {
+          "qid": "Q158476",
+          "label": "Hugo Gunckel Lüer",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A surname-only fallback search returned Chilean botanist Hugo Gunckel; unrelated."
+        },
+        {
+          "qid": "Q62695",
+          "label": "Hermann Gunkel",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A surname-only fallback search returned theologian Hermann Gunkel (1862-1932); unrelated."
+        }
+      ]
+    },
+    {
+      "name": "Norman Peterson",
+      "name_other": "null",
+      "contact_method": "null",
+      "date": "XXXX-01-14",
+      "other_metadata": "null",
+      "bounding_box": {
+        "x1": 9.2,
+        "y1": 21.8,
+        "x2": 44.4,
+        "y2": 31.9
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26299",
+          "label": "Norman Peterson",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Wikibase artist item from the same E.A.T. Technical Services Program card collection with the identical name."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q7051556",
+          "label": "Norm Peterson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Norm Peterson, an Australian stevedore and politician; not an artist."
+        },
+        {
+          "qid": "Q92843012",
+          "label": "Norman C Peterson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Norman C. Peterson, an ORCID researcher; not an artist."
+        },
+        {
+          "qid": "Q58207286",
+          "label": "Norman Peterson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "An ORCID researcher; not an artist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "Robert Sunkel 1/12\nNorman Peterson 1/14"
+}

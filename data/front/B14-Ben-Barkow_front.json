@@ -1,0 +1,114 @@
+{
+  "personalIdentification": {
+    "fullName": "Ben Barkow"
+  },
+  "contactInformation": {
+    "residentialAddress": "252 Elizabeth Street, New York City, New York 10012",
+    "phoneNumbers": "925-4452 (residential), 201-582-6582 x6582 (business)",
+    "geographicLocation": "New York City, New York; Murray Hill, New Jersey"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Bell Telephone Laboratories",
+    "departmentDivision": "Murray Hill, New Jersey"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Psychologist",
+    "technicalFields": [
+      "Acoustics",
+      "Visual and hearing"
+    ],
+    "specializedSkillsKnowledge": "Psychologist specializing in acoustics, visual, and hearing perception"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "None mentioned",
+    "aestheticPhilosophicalInterests": "None mentioned"
+  },
+  "ocr_front": "Barkow Ben.      252 Elizabeth st. NYC 10012          925-4452\n\nBTL     Murray Hill  NJ  07971          201-582-6582  x6582\n\nacoustics, psychologist; visula and hearing.\n\nCN",
+  "ocr_notes": "Front: 'visula' is as typed. The 'H' of Hill is misaligned (printed high). 'CN' at lower left is handwritten in pencil. Back: pencil and blue ink. The '&' before 3/69 may be a struck-out character. 'Chris Thee' is uncertain.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q816427",
+      "label": "Ben Barkow",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Same name, but this Ben Barkow is a British/German librarian born in Berlin in 1956, too young to be the Bell Labs acoustics psychologist of c. 1970."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19173",
+      "label": "Bell Labs",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bell Telephone Laboratories is the full name of Bell Labs; the item's Murray Hill NJ location matches the card."
+    },
+    {
+      "qid": "Q22124",
+      "label": "Bell Telephone Laboratories Reporter",
+      "description": "publication associated with the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a publication (the Bell Telephone Laboratories Reporter), not the laboratory itself."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q217365",
+      "label": "Bell Labs",
+      "description": "research and scientific development company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Matched via the alias Bell Telephone Laboratories; headquartered at Murray Hill, as on the card."
+    },
+    {
+      "qid": "Q121035736",
+      "label": "Bell Telephone Laboratories",
+      "description": "production company",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "A separate 'production company' item, likely a film-credit entity, not the main Bell Labs item."
+    },
+    {
+      "qid": "Q59493148",
+      "label": "Bell Telephone Laboratories, Inc., Collection (NAID 803)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A National Archives collection, not the company."
+    },
+    {
+      "qid": "Q58952200",
+      "label": "Bell Telephone Laboratories: Kelly Award",
+      "description": "scientific article published in Nature",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Nature article."
+    },
+    {
+      "qid": "Q58950935",
+      "label": "Bell Telephone Laboratories Appointments",
+      "description": "scientific article published in Nature",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Nature article."
+    },
+    {
+      "qid": "Q58950393",
+      "label": "Bell Telephone Laboratories: New Directors of Research",
+      "description": "scientific article published in Nature",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Nature article."
+    },
+    {
+      "qid": "Q4883276",
+      "label": "Bell Telephone Laboratories",
+      "description": "Wikimedia disambiguation page",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A disambiguation page."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "entries": [
+    {
+      "name": "HILLARY HARRIS",
+      "contact_method": "phone",
+      "date": "XXXX-09-25",
+      "bounding_box": {
+        "x1": 21.5,
+        "y1": 16.5,
+        "x2": 43.8,
+        "y2": 21.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q23089",
+          "label": "Harrisburg (Pa.)",
+          "description": "city in Pennsylvania",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname fallback hit a city, Harrisburg, Pennsylvania."
+        },
+        {
+          "qid": "Q1116",
+          "label": "Harris Levy",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Harris Levy, a Linked Jazz person whose first name is Harris; not Hillary Harris."
+        },
+        {
+          "qid": "Q23024",
+          "label": "Harrisonburg (Va.)",
+          "description": "city in Virginia",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname fallback hit a city, Harrisonburg, Virginia."
+        },
+        {
+          "qid": "Q20758",
+          "label": "Harrison Verrett",
+          "description": "musician and union member of American Federation of Musicians, Local 496",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "New Orleans guitarist Harrison Verrett; a different name."
+        },
+        {
+          "qid": "Q27822",
+          "label": "Harris Hyman",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Harris Hyman is an E.A.T. Datascape person, but his first name is Harris and his surname Hyman; not Hillary Harris."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q114512625",
+          "label": "Hillary Harris",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "The name matches, but the item describes a 'researcher' with no facts suggesting the 1960s experimental filmmaker Hilary Harris, the likely referent."
+        }
+      ]
+    },
+    {
+      "name": "John Chapps",
+      "contact_method": "letter",
+      "date": "1969-02-10",
+      "bounding_box": {
+        "x1": 24.2,
+        "y1": 22.4,
+        "x2": 38.4,
+        "y2": 30.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26332",
+          "label": "John Chapps",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "TSP card artist with the exact name John Chapps."
+        }
+      ],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Kira Gale",
+      "contact_method": "letter",
+      "date": "XXXX-11-12",
+      "other_metadata": "Written in green ink",
+      "bounding_box": {
+        "x1": 19.1,
+        "y1": 30.3,
+        "x2": 36.7,
+        "y2": 37.2
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26333",
+          "label": "Kira Gale",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "TSP card artist with the exact name Kira Gale."
+        }
+      ],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Lois Haas",
+      "contact_method": "letter",
+      "date": "XXXX-01-12",
+      "bounding_box": {
+        "x1": 16.9,
+        "y1": 38.3,
+        "x2": 36.9,
+        "y2": 46.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31462",
+          "label": "Lois Haas",
+          "description": "photographer (1926–2022)",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "TSP card photographer Lois Haas (1926–2022), an exact name match, linked to Wikidata Q111971669."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q111971669",
+          "label": "Lois Haas",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Photographer Lois Haas (1926–2022), the same QID the semlab TSP item links to."
+        },
+        {
+          "qid": "Q130263791",
+          "label": "Alois Haas",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Alois Haas, a German fish farmer, matched only through an alias; not an artist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "PHONE-HILLARY HARRIS-SEPT25\nletter    John Chapps Feb. 10/69.\n  \"    Kira Gale 11/12\n       Lois Haas 1/12"
+}

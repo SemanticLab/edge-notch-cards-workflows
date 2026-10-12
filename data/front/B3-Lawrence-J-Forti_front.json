@@ -1,0 +1,48 @@
+{
+  "personalIdentification": {
+    "fullName": "Lawrence J. Forti"
+  },
+  "contactInformation": {
+    "residentialAddress": "80 Martin Road, Milton, Massachusetts 02186",
+    "phoneNumbers": "617 698-9161",
+    "geographicLocation": "Milton, Massachusetts"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Consultant",
+    "technicalFields": [
+      "electrical engineering",
+      "chemical engineering",
+      "mathematics",
+      "chemistry",
+      "physics"
+    ]
+  },
+  "ocr_front": "Forti, Lawrence J.     80 Martin Road, Milton, Mass.  02186\n                       617  698-9161\nConsultant\n\nelectrical engineering, chemical engineering, mathematics,\nchemistry, physics",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q30028",
+      "label": "Fortitude",
+      "description": "painting by Sandro Botticelli in the Uffizi",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Botticelli painting matched on the 'Forti' substring; it is not a person."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q22088632",
+      "label": "Ettore Forti",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An Italian painter who died in 1940."
+    },
+    {
+      "qid": "Q114967758",
+      "label": "Fortino Solórzano-Santos",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fortino Solórzano-Santos is a different name entirely; this is a substring hit."
+    }
+  ]
+}

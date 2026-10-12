@@ -1,0 +1,78 @@
+{
+  "personalIdentification": {
+    "fullName": "Dale O. Fisher"
+  },
+  "contactInformation": {
+    "residentialAddress": "2 Crescent Street, Acton, Massachusetts 01720",
+    "phoneNumbers": "263-3231",
+    "geographicLocation": "Acton, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "General Radio Company",
+    "departmentDivision": "Boston, Massachusetts"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Electrical engineer",
+    "technicalFields": [
+      "frequency systems",
+      "time systems"
+    ],
+    "specializedSkillsKnowledge": "frequency & time systems"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "photography"
+  },
+  "ocr_front": "Fisher, Dale O.   2 Crescent St,  Acton Mass 01720      263-3231\n\nGeneral Radio Co.   Boston Mass   (Bolton?)\n\nElectrical engineer; frequency & time systems.\n\nInterested in photography.",
+  "ocr_notes": "Front: '(Bolton?)' is handwritten in blue ink and is a best reading. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q115591197",
+      "label": "Dale Fisher",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An infectious-disease physician in Singapore, an unrelated field and country."
+    },
+    {
+      "qid": "Q100789655",
+      "label": "Dale Fisher",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A college basketball player at Mississippi State in 1958-59. Nothing links him to General Radio in Massachusetts."
+    },
+    {
+      "qid": "Q91871472",
+      "label": "Dale Fisher",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A physician and researcher, not an electrical engineer in time and frequency systems."
+    },
+    {
+      "qid": "Q86493634",
+      "label": "Dale Fisher",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An Australian physician born in 1960, so he cannot be the card's person."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q21507",
+      "label": "General Radio Company",
+      "description": "publisher associated with E.A.T. Bibliography",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The General Radio Company item links to Wikidata Q5532137, the Massachusetts test-equipment maker named on the card."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5532137",
+      "label": "General Radio",
+      "description": "United States Electronic test equipment manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "General Radio (alias General Radio Company) was an electronic test-equipment manufacturer based in West Concord MA, which matches the card's employer and region."
+    }
+  ]
+}

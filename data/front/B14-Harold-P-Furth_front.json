@@ -1,0 +1,63 @@
+{
+  "personalIdentification": {
+    "fullName": "Harold P. Furth"
+  },
+  "contactInformation": {
+    "residentialAddress": "55 Locust Lane, Princeton, New Jersey 08540",
+    "phoneNumbers": "609 924 7328, 452-5603",
+    "geographicLocation": "Princeton, New Jersey"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Plasma Physics Laboratory"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "electrical engineering",
+      "mathematics",
+      "physics",
+      "electro-magnetics",
+      "levitation"
+    ],
+    "specializedSkillsKnowledge": "electrical engineering, mathematics, physics, electro-magnetics, levitation"
+  },
+  "ocr_front": "zip 08540                X\nFurth, Harold P., 55 Locust Lane, Princeton, N.J., 609 924 7328\nPlasma Physics Laboratory, 452-5603\n\nelectrical engineering, mathematics, physics, electro-\nmagnetics, levitation, etc.",
+  "ocr_notes": "Front: handwritten X top right. Back: Mario Kujawski in green ink; last two entries faint pencil/blue; 'Clifford Rose' uncertain.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q21617",
+      "label": "Further information about the competition and request for submission of works of art in connection with the exhibition \"The Machine\" at the Museum of Modern Art, New York",
+      "description": "bibliographic reference for document listed in the E.A.T. Bibliography",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a bibliographic reference for an E.A.T. competition document that came up on the surname search ('Further'). It is not a person."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q1310890",
+      "label": "Harold Furth",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Harold Paul Furth (1930-2002) was a physicist at Princeton who won the Maxwell Prize for Plasma Physics and lived in Princeton. This fits the card's Princeton address and its employer, the (Princeton) Plasma Physics Laboratory."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q7201754",
+      "label": "Plasma Physics Laboratory",
+      "description": "physics laboratory at the University of Saskatchewan",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Plasma Physics Laboratory at the University of Saskatchewan. The card's laboratory is in Princeton, NJ."
+    },
+    {
+      "qid": "Q122584282",
+      "label": "Plasma Physics Laboratory",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This lab belongs to IIT Delhi and was founded in 1980. It is not the Princeton lab on the card."
+    }
+  ]
+}

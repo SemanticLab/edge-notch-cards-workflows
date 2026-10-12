@@ -1,0 +1,89 @@
+{
+  "personalIdentification": {
+    "fullName": "Richard A. Jokinen"
+  },
+  "contactInformation": {
+    "residentialAddress": "care of General Radio Company, West Concord, Massachusetts 01781",
+    "phoneNumbers": "(617) MI6-7400 extension 521",
+    "geographicLocation": "West Concord, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "General Radio Company",
+    "departmentDivision": ""
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Electrical Engineer",
+    "technicalFields": [
+      "Light Sound",
+      "Sensors",
+      "Stroboscopy",
+      "Photography",
+      "Electronic instrumentation"
+    ],
+    "specializedSkillsKnowledge": "Application of electronic instrumentation in preparing media"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Photography",
+    "aestheticPhilosophicalInterests": "Interested in light, sound, sensors, stroboscopy, and photography application of electronic instrumentation in preparing media"
+  },
+  "ocr_front": "Jokinen, Richard A, c/o Genral Radio Co, W. Concord Mass 01781\n          Mi6-7400 ext 521  AREA CO 617\nGeneral Radio Co.\nElectrical Engineer\nInterested in Light Sound, Sensors, Stroboscopy, Photography\napplication of electronic instrumentation in preparing media",
+  "ocr_notes": "Front: 'AREA CO 617' handwritten in blue ink. Back: surname very uncertain (Fahler/Bahler/Zahler).",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q11856883",
+      "label": "Eeva Jokinen",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Found by a surname-only fallback search. A Finnish woman, a social sciences professor born in 1959, unrelated to the card."
+    },
+    {
+      "qid": "Q117046114",
+      "label": "David A. Jokinen",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "David A. Jokinen is an American traffic researcher with a different first name. The card is Richard A. Jokinen, an electrical engineer at General Radio."
+    },
+    {
+      "qid": "Q706944",
+      "label": "Olli Jokinen",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Finnish ice hockey player born in 1978."
+    },
+    {
+      "qid": "Q537505",
+      "label": "Jussi Jokinen",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Finnish ice hockey player born in 1983."
+    },
+    {
+      "qid": "Q1692017",
+      "label": "Johan Jokinen",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Danish racing driver born in 1990."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q21507",
+      "label": "General Radio Company",
+      "description": "publisher associated with E.A.T. Bibliography",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "General Radio Company, linked to Wikidata Q5532137, is exactly the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5532137",
+      "label": "General Radio",
+      "description": "United States Electronic test equipment manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "General Radio, alias General Radio Company, has its headquarters in West Concord. That matches the card's West Concord, Massachusetts address."
+    }
+  ]
+}

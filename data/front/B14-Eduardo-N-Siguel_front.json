@@ -1,0 +1,54 @@
+{
+  "personalIdentification": {
+    "fullName": "Eduardo N. Siguel"
+  },
+  "contactInformation": {
+    "residentialAddress": "114 G Street South West, Washington District of Columbia 20024",
+    "phoneNumbers": "737-3944",
+    "geographicLocation": "Washington, District of Columbia"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "The Urban Institute"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "psychology",
+      "mathematics",
+      "physics",
+      "computers",
+      "information systems",
+      "programming"
+    ]
+  },
+  "ocr_front": "Siguel, X Eduardo N, 114 G Street S.W., Washingotn D.C. 20024\n737-3944        The Urban Institute\n\npsychology, mathematics, physics, computers, information systems,\nprogramming",
+  "ocr_notes": "Front: a struck-over character (typed X-out) precedes 'Eduardo'; 'Washingotn' spelled as typed. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q65089959",
+      "label": "The Urban Institute",
+      "description": "research institute in Edinburgh, Scotland",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A research institute in Edinburgh, Scotland, not the Washington DC institute named on the card."
+    },
+    {
+      "qid": "Q7899935",
+      "label": "Urban Institute",
+      "description": "American think tank",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Urban Institute is the American think tank in Washington, DC, founded in 1968, which matches the card's DC address and employer."
+    },
+    {
+      "qid": "Q132803079",
+      "label": "The urban institute",
+      "description": "journal article from 'Cities' published in 1991",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1991 journal article titled 'The urban institute', not the organisation."
+    }
+  ]
+}

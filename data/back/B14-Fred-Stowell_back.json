@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "name": "Susan Cruikshank",
+      "name_other": ":null",
+      "contact_method": "letter",
+      "date": "XXXX-09-23",
+      "other_metadata": ":null",
+      "bounding_box": {
+        "x1": 9.7,
+        "y1": 15.3,
+        "x2": 53.7,
+        "y2": 26.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30062",
+          "label": "Susan Cruikshank",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match. The item is an artist from the same E.A.T. card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q360466",
+          "label": "George Cruikshank",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "George Cruikshank was a 19th-century caricaturist, found by a surname-only fallback search."
+        }
+      ]
+    },
+    {
+      "name": "Robert Hunkel",
+      "name_other": ":null",
+      "contact_method": ":null",
+      "date": "XXXX-01-12",
+      "other_metadata": ":null",
+      "bounding_box": {
+        "x1": 20.7,
+        "y1": 22.7,
+        "x2": 51.4,
+        "y2": 34.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q133697304",
+          "label": "Robert Hunkeler",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "Robert Hunkeler is a chemical engineer born in 1946, not an artist, and the surname differs slightly from 'Hunkel'."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "letter Susan Cruikshank 1/23\n      Robert Sunkel  1/12"
+}

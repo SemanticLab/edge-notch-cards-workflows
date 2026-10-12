@@ -1,0 +1,41 @@
+{
+  "personalIdentification": {
+    "fullName": "Gerhard Raspe"
+  },
+  "contactInformation": {
+    "residentialAddress": "26. Rhumeweg, 1 Berlin 37, Germany",
+    "phoneNumbers": "848588",
+    "geographicLocation": "Berlin, Germany"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Schering Aktiengesellschaft"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Biochemistry"
+    ]
+  },
+  "ocr_front": "Gerhard Raspe             26. Rhumeweg, 1 Berlin 37, Germany.\n        R                                  848588\nScherling A.G.\n\nBiochemistry",
+  "ocr_notes": "Front: handwritten 'R' beneath the overtyped R of 'Raspe'. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q19518399",
+      "label": "Gerhard Raspé",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Gerhard Raspé (1928-1974) was a German chemist employed by Schering AG who died in Berlin. This matches the card's Berlin address, Schering employer and biochemistry field."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q563556",
+      "label": "Schering AG",
+      "description": "German multinational pharmaceutical company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Schering AG, the Berlin pharmaceutical company, matched via the alias 'Schering Aktiengesellschaft', which is the exact name on the card."
+    }
+  ]
+}

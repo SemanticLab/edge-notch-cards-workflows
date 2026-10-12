@@ -1,0 +1,131 @@
+{
+  "personalIdentification": {
+    "fullName": "Leonard Malish"
+  },
+  "contactInformation": {
+    "residentialAddress": "49 Crawford Street, Lowell, Massachusetts 01854",
+    "phoneNumbers": "453-8001",
+    "geographicLocation": "Lowell, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Massachusetts Institute of Technology"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "advanced theoretical physics",
+      "nuclear physics"
+    ],
+    "specializedSkillsKnowledge": "advanced theoretical and nuclear physics"
+  },
+  "ocr_front": "Malish, Leonard .        49 Crawford st. Lowell, Mass 01854   453-8001\n\nMIT\n\n   advanced theoretical and nuclear physics.\n\n\n\n\n\n          CU",
+  "ocr_notes": "\"CU\" in pencil at the lower left of the front. The back entry is faint pencil.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q10323366",
+      "label": "Malishkin Andrey",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback hit; a singer/writer born 1983, not a 1960s Massachusetts nuclear physicist."
+    },
+    {
+      "qid": "Q118289154",
+      "label": "Malisha Quintana",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Mexican actress born 1990; unrelated fallback hit."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19439",
+      "label": "Massachusetts Institute of Technology",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same name, the project's MIT item (Wikidata Q49108) with E.A.T.-connected employees Kepes and Brodey; matches the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q49108",
+      "label": "Massachusetts Institute of Technology",
+      "description": "private university in Cambridge, Massachusetts, USA, founded 1861",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Massachusetts Institute of Technology, the university in Cambridge MA, exactly the employer named on the card."
+    },
+    {
+      "qid": "Q6784299",
+      "label": "Massachusetts Institute of Technology Libraries",
+      "description": "library",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MIT Libraries is a sub-unit of MIT, not the institution named on the card."
+    },
+    {
+      "qid": "Q73820",
+      "label": "The MIT Press",
+      "description": "American university press",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The MIT Press is a publishing sub-unit, not the university itself."
+    },
+    {
+      "qid": "Q551250",
+      "label": "Lemelson–MIT Prize",
+      "description": "award",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Lemelson-MIT Prize is an award (started 1995), not an organisation employer."
+    },
+    {
+      "qid": "Q6784301",
+      "label": "Massachusetts Institute of Technology School of Engineering",
+      "description": "school at the Massachusetts Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MIT School of Engineering is a school within MIT; the card names only MIT."
+    },
+    {
+      "qid": "Q1354917",
+      "label": "MIT Computer Science and Artificial Intelligence Laboratory",
+      "description": "Computer Science research institute at MIT",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "CSAIL is an MIT lab founded 2003, a sub-unit not named on the card."
+    },
+    {
+      "qid": "Q123287558",
+      "label": "Massachusetts Institute of Technology",
+      "description": "1955 film",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1955 short film titled after MIT, not an organisation."
+    },
+    {
+      "qid": "Q6784300",
+      "label": "Massachusetts Institute of Technology School of Science",
+      "description": "school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MIT School of Science is a sub-unit; the card names only MIT, though the physicist may have worked there."
+    },
+    {
+      "qid": "Q104148856",
+      "label": "Massachusetts Institute of Technology Department of Architecture",
+      "description": "academic department at the Massachusetts Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MIT Department of Architecture is a department, not the university, and unrelated to physics."
+    },
+    {
+      "qid": "Q16977777",
+      "label": "MIT School of Humanities, Arts, and Social Sciences",
+      "description": "School at the Massachusetts Institute of Technology (MIT)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MIT SHASS is a school within MIT, not named on the card."
+    }
+  ]
+}

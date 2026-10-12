@@ -1,0 +1,120 @@
+{
+  "entries": [
+    {
+      "name": "David Abramson",
+      "contact_method": "letter",
+      "date": "XXXX-11-18",
+      "bounding_box": {
+        "x1": 10.1,
+        "y1": 13.8,
+        "x2": 52.8,
+        "y2": 26.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31918",
+          "label": "David Abramson",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The name is exact, and this TSP card-collection artist item comes from the same Edge-Notched Cards project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q29261854",
+          "label": "David Abramson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This is an Australian computer scientist, not a 1960s New York artist."
+        },
+        {
+          "qid": "Q29000877",
+          "label": "David H. Abramson",
+          "match": false,
+          "confidence": "medium",
+          "reasoning": "This is a swimmer and ophthalmic oncologist at Memorial Sloan Kettering, not an artist."
+        },
+        {
+          "qid": "Q58065374",
+          "label": "David Abramson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This public health researcher was born in 1958, too late."
+        },
+        {
+          "qid": "Q101171204",
+          "label": "David A. Rytand",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This is a physician named David Abramson Rytand, a different surname, and not an artist."
+        }
+      ]
+    },
+    {
+      "name": "Susan Schwartz",
+      "date": "XXXX-01-19",
+      "bounding_box": {
+        "x1": 19.5,
+        "y1": 22.2,
+        "x2": 53.4,
+        "y2": 37.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q28385",
+          "label": "Schwartz-Wassyng, Incorporated",
+          "description": "company",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This is a company found by a surname-only fallback search, not a person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q102164454",
+          "label": "Susan Schwartz",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "This is a Montana State PhD from 1992 with no artistic profile. She is a namesake only."
+        },
+        {
+          "qid": "Q60390312",
+          "label": "Susan Schwartz",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "This academic researcher has no art connection, so the name is common and nothing else fits."
+        },
+        {
+          "qid": "Q105448",
+          "label": "Uschi Zietsch",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Uschi Zietsch is a German science-fiction writer born in 1961 who uses Susan Schwartz as a pseudonym. Wrong era and wrong place."
+        },
+        {
+          "qid": "Q102732963",
+          "label": "Susan Schwartz Jacobs",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "Susan Schwartz Jacobs is a Brown PhD from 1978 in economics. Nothing suggests she is an artist."
+        },
+        {
+          "qid": "Q54483385",
+          "label": "Susan Schwartz Senstad",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "Susan Schwartz Senstad is a Norwegian psychologist and writer born in 1945. Nothing links her to the New York art scene."
+        },
+        {
+          "qid": "Q133503254",
+          "label": "Susan S. Lazinger",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "Susan Lazinger is a writer matched through a married-name alias. Nothing indicates an artist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "letter David Abramson 11/18\n          Susan Schwartz 1/19"
+}

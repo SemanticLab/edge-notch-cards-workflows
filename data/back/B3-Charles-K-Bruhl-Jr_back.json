@@ -1,0 +1,83 @@
+{
+  "entries": [
+    {
+      "name": "Jurgen Strunk",
+      "name_other": "",
+      "contact_method": "letter",
+      "date": "1969-03-03",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 50.5,
+        "y1": 75.6,
+        "x2": 90.1,
+        "y2": 85.3
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q36579299",
+          "label": "H.F. Strunk",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "H.F. Strunk is a botanist with the wrong initials. He came up in a surname-only fallback search."
+        }
+      ]
+    },
+    {
+      "name": "A. Weinberger",
+      "name_other": "",
+      "contact_method": "",
+      "date": "XXXX-03-09",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 49.8,
+        "y1": 64.9,
+        "x2": 86.7,
+        "y2": 76.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q41755534",
+          "label": "Anton Weinberger",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Anton Weinberger was a German painter who died in 1912, far too early."
+        }
+      ]
+    },
+    {
+      "name": "T. Burke",
+      "name_other": "",
+      "contact_method": "",
+      "date": "XXXX-01-12",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 58.8,
+        "y1": 59.2,
+        "x2": 86.4,
+        "y2": 70.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31603",
+          "label": "T. Burke",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "'T. Burke' matches exactly. This is an artist in the same E.A.T. TSP card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q22105283",
+          "label": "Alan F. Burke",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Alan F. Burke is an entomologist who came up in a surname fallback search. His initial is wrong."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "letter Juergen Strauch Mar 3/69\n  A. Weinberger Nov/9\n  T. Burke 1/12"
+}

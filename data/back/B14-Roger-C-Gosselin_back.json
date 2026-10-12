@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "name": "PHILIP K. MEANY",
+      "name_other": "null",
+      "contact_method": "LETTER",
+      "date": "XXXX-01-10",
+      "other_metadata": "TO",
+      "bounding_box": {
+        "x1": 23.4,
+        "y1": 14.4,
+        "x2": 40.6,
+        "y2": 19.6
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31686",
+          "label": "Philip K. Meany",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact name match with an artist in the TSP edge-notched card project."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q131486916",
+          "label": "Meanyi A. Ndeloaka",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Surname-fallback hit. Cameroonian lawyer."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "LETTER TO PHILIP K. MEANY   JAN. 10"
+}

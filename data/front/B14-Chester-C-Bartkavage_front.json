@@ -1,0 +1,65 @@
+{
+  "personalIdentification": {
+    "fullName": "Chester C. Bartkavage"
+  },
+  "contactInformation": {
+    "residentialAddress": "440 Hudson Street, Toledo, Ohio 43608",
+    "phoneNumbers": "419-726-1348",
+    "geographicLocation": "Toledo, Ohio"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Allied Chemical Company",
+    "departmentDivision": ""
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Engineer",
+    "technicalFields": [
+      "physics",
+      "chemistry"
+    ],
+    "specializedSkillsKnowledge": ""
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Makes art. Interested in sculpture, painting, pottery and jewelry design.",
+    "aestheticPhilosophicalInterests": ""
+  },
+  "ocr_front": "Bartkavage, Chster C, 440 Hudson St Toledo Ohio 43608\n                419-726-1348\n\nAllied Chemical Co.\n\nEngineer;physics & chemistry.\n\nMakes art. interested in scultpure ' painting, pottery &\n                         jewelry design.",
+  "ocr_notes": "'Chster' and 'scultpure' are typos on the card. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1139633",
+      "label": "One Times Square",
+      "description": "skyscraper in New York City",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "One Times Square is a skyscraper once called the Allied Chemical Building. It is a building, not the company."
+    },
+    {
+      "qid": "Q2838291",
+      "label": "Allied Chemical & Dye Corporation",
+      "description": "business",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "Allied Chemical & Dye Corporation became Allied Chemical Corporation in 1958, so it is the same company under an older name. The item carries few facts to confirm this."
+    },
+    {
+      "qid": "Q19036108",
+      "label": "Allied Chemical & Alkali Workers of America, Local Union No. 1 v. Pittsburgh Plate Glass Company, Chemical Division",
+      "description": "United States Supreme Court case",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A US Supreme Court case involving a chemical workers' union, not the company."
+    },
+    {
+      "qid": "Q898208",
+      "label": "Honeywell",
+      "description": "American multinational conglomerate",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "Honeywell is a later successor through the Allied/AlliedSignal mergers and carries an Allied Chemical alias. It is a different, present-day conglomerate rather than the 1960s Allied Chemical."
+    }
+  ]
+}

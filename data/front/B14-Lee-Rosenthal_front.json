@@ -1,0 +1,105 @@
+{
+  "personalIdentification": {
+    "fullName": "Lee Rosenthal"
+  },
+  "contactInformation": {
+    "residentialAddress": "30 Charlton Street, New York City, 10014",
+    "phoneNumbers": "CH 2-7889; RE 2-8237, extension 396, 268",
+    "geographicLocation": "New York City, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Stevens Institute of Technology",
+    "departmentDivision": "Castle Point, Hoboken, New Jersey"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Electrical Engineer",
+    "technicalFields": [
+      "Electrical engineering",
+      "computers",
+      "cybernetics",
+      "control theory",
+      "programming",
+      "instrumentation",
+      "control systems",
+      "remote control",
+      "circuit design",
+      "transistors"
+    ],
+    "specializedSkillsKnowledge": "Electrical engineering, computers, cybernetics/control theory, programming, instrumentation and control systems, remote control, circuit design, transistors"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "iron sculpture, oil painting",
+    "aestheticPhilosophicalInterests": "Intersection of engineering systems and visual arts"
+  },
+  "ocr_front": "X\nRosenthal, Lee  30 Charlton St., NYC 10014, CH 2-7889;\n                                 RE 2-8237, ext. 396, 268\n\nStevens Institute of Technology, New Jersey  - Castle Point, Hoboken\n                                                          RE2 8237\nElectrical engineering, computers, cybernetics/control theory,\nprogramming, instrumentation and control systems, remote\ncontrol, xxxxxxx circuit design, transistors. iron sculpture, oil\n      painting.\n\nT.I.",
+  "ocr_notes": "The front has a pencil X in the top right and a struck-out word typed over with x's. Back: the first name is hard to read (\"Miklos Jancsi\" is a guess). \"I. Hurwitz\" is uncertain, and so is the date \"1/5\" after Josiah Edgerly. \"letter Robert Newman 10/13\" is in green.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q59675793",
+      "label": "Lee Rosenthal",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "A generic ORCID researcher record with no field, dates or employer; nothing ties it to the 1960s Stevens electrical engineer."
+    },
+    {
+      "qid": "Q24953184",
+      "label": "Lee Rosenthal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A female bridge player born 1990."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28197",
+      "label": "Stevens Institute of Technology",
+      "description": "school",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same name, Stevens Institute of Technology, an E.A.T. Datascape item; the card gives Castle Point, Hoboken, its campus."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q657222",
+      "label": "Stevens Institute of Technology",
+      "description": "higher education institute in Hoboken, New Jersey, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Stevens Institute of Technology in Hoboken NJ, matching the card's Castle Point, Hoboken address."
+    },
+    {
+      "qid": "Q100320486",
+      "label": "Stevens Tech Ducks",
+      "description": "athletic programs of Stevens Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is Stevens' athletics program, not the institute."
+    },
+    {
+      "qid": "Q99433669",
+      "label": "Stevens Institute of Technology Official Campus Bookstore",
+      "description": "bookstore in Hoboken, NJ, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the campus bookstore."
+    },
+    {
+      "qid": "Q7615476",
+      "label": "Stevens Institute of Technology International",
+      "description": "defunct university in Santo Domingo, Dominican Republic",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Santo Domingo branch that ran 2006-2016."
+    },
+    {
+      "qid": "Q80952621",
+      "label": "Stevens institute of technology: after the strike, still unsettled",
+      "description": "scientific article published on 01 April 1977",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1977 Science article, not an organisation."
+    }
+  ]
+}

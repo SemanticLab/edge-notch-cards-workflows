@@ -1,0 +1,140 @@
+{
+  "personalIdentification": {
+    "fullName": "Delbert Kimbark Venerable II"
+  },
+  "contactInformation": {
+    "residentialAddress": "Kimbark, Chicago, Illinois 60615; 5747 Ellis Avenue, Chicago, Illinois 60637",
+    "phoneNumbers": "363-1977",
+    "geographicLocation": "Chicago, Illinois"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "University of Chicago"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "physical chemistry"
+    ],
+    "specializedSkillsKnowledge": "effects of pulsed and steady irradiation of aqueous solutions of transition metal complex ions"
+  },
+  "ocr_front": "Venerable II, Delbert.Kimbark, Chicago ILl 60615      363-1977\n\n         5747 S Ellis ave.  Chicago Ill 60637\n\nphysical chemistry- effects of pulsed and steady irradiation of\nacqueous solutions of transition metal complex ions\n\n\nCF",
+  "ocr_notes": "Front: 'CF' is handwritten in pencil near the bottom. The character after 5747 is overstruck (most likely 'S'). Letters are overstruck in 'chemistry' and 'pulsed', and an x-ed out word follows 'of' at the end of the line. Back: purple ink; 'Miletto' is a best reading.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q24066",
+      "label": "Untitled note in Robert Rauschenberg's spiral notebook, 3",
+      "description": "note in A93 document",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fallback search on the suffix \"II\" hit a note in Rauschenberg's notebook, which is not a person."
+    },
+    {
+      "qid": "Q30471",
+      "label": "Hokusai",
+      "description": "Japanese artist (1760-1849)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Hokusai, the Japanese artist (1760-1849), is unrelated."
+    },
+    {
+      "qid": "Q31383",
+      "label": "II Pincio gallery",
+      "description": "art gallery in Rome",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An art gallery in Rome, not a person."
+    }
+  ],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28263",
+      "label": "University of Chicago",
+      "description": "university",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "University of Chicago institution item from the E.A.T. Datascape and Knowledge Graph projects; same name as the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q131252",
+      "label": "University of Chicago",
+      "description": "private university in Chicago, Illinois",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The University of Chicago in Chicago IL matches the card's employer and its Hyde Park addresses (Ellis Ave, Kimbark)."
+    },
+    {
+      "qid": "Q1036763",
+      "label": "University of Chicago Law School",
+      "description": "law school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Law School is a sub-unit; the card is about physical chemistry."
+    },
+    {
+      "qid": "Q1814982",
+      "label": "University of Chicago Press",
+      "description": "publisher in the United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The University of Chicago Press is a publisher under the university, not the employer named."
+    },
+    {
+      "qid": "Q2963304",
+      "label": "Booth School of Business",
+      "description": "graduate business school located in Chicago, Illinois, at the University of Chicago",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Booth School of Business is a sub-unit not named on the card."
+    },
+    {
+      "qid": "Q7245998",
+      "label": "Pritzker School of Medicine",
+      "description": "medical school at the University of Chicago",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Pritzker School of Medicine is a sub-unit not named on the card."
+    },
+    {
+      "qid": "Q7895258",
+      "label": "UChicago Medicine",
+      "description": "American medical network (2006-)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UChicago Medicine is a medical network, not the university."
+    },
+    {
+      "qid": "Q3551351",
+      "label": "University of Chicago Laboratory Schools",
+      "description": "private secondary school in Chicago, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Laboratory Schools are a secondary school, not the university."
+    },
+    {
+      "qid": "Q7895257",
+      "label": "University of Chicago Law Review",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Law Review is a journal, not the employer."
+    },
+    {
+      "qid": "Q7895255",
+      "label": "University of Chicago Divinity School",
+      "description": "private seminary in Chicago",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Divinity School is a sub-unit not named on the card."
+    },
+    {
+      "qid": "Q7895259",
+      "label": "University of Chicago Library",
+      "description": "library",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The University Library is a sub-unit, not the university."
+    }
+  ]
+}

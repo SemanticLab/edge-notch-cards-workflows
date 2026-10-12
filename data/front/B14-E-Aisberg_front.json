@@ -1,0 +1,33 @@
+{
+  "personalIdentification": {
+    "fullName": "E. Aisberg"
+  },
+  "contactInformation": {
+    "residentialAddress": "9 Rue Jacob, Paris 6th Arrondissement, France",
+    "geographicLocation": "Paris, France"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Societe des Editions Radio"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Electronics",
+      "Radio",
+      "Television"
+    ]
+  },
+  "ocr_front": "Aisberg, E, 9 Rue Jacob Paris VIeme. France.\n\n                  c/o Societe des Editions Radio.\n\nElectronics, Radio, Tv.",
+  "ocr_notes": "Front: 'VIeme' typed as 'Vleme'. Back: surname 'Chapps' is a best reading (could be 'Chapp' or similar).",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q727711",
+      "label": "Eugène Aisberg",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Eugène Aisberg (1905-1980) was a Paris electronics, radio and TV science journalist who founded the Société des Editions Radio. This matches the card's Paris address, employer and fields."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": []
+}

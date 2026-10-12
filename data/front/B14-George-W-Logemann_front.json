@@ -1,0 +1,135 @@
+{
+  "personalIdentification": {
+    "fullName": "George W. Logemann"
+  },
+  "contactInformation": {
+    "residentialAddress": "New York University, University Heights, New York 10453",
+    "geographicLocation": "University Heights, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "New York University",
+    "departmentDivision": "Mathematics Department and Computing Facility"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Mathematics",
+      "Computing"
+    ]
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Interested in Sound."
+  },
+  "ocr_front": "Logemann, George W, Math Dpt, N.Y.U. University Heights,\n                              N.Y.10453\nN.Y.U. Math Dpt & Computing Facility at University Heights.\nInterested in Sound.",
+  "ocr_notes": "Back: 'Dere Carnes' (green) uncertain; same entry appears on Merkler card.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q26301",
+      "label": "George Logemann",
+      "description": "artist associated with E.A.T.’s Technical Services Program",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "George Logemann's item comes from the E.A.T. Technical Services Program edge-notched cards and links to Wikidata Q21818065, the NYU mathematician and computer scientist. This matches the card's NYU Mathematics/Computing affiliation."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q21818065",
+      "label": "George Logemann",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "American mathematician and computer scientist (1938-2012) educated at NYU, matching the card's NYU Mathematics Department and Computing Facility. The project's wikibase item also links to this QID."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q25509",
+      "label": "New York University",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The New York University item belongs to the edge-notched cards project, is located in New York, and links to Wikidata Q49210."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q49210",
+      "label": "New York University",
+      "description": "private university in New York City",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "New York University, the private university in New York City named as the employer; University Heights was its Bronx campus."
+    },
+    {
+      "qid": "Q7014807",
+      "label": "New York University Press",
+      "description": "university press that is part of New York University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "NYU Press is the university's publishing unit, not the university itself."
+    },
+    {
+      "qid": "Q3100195",
+      "label": "Grossman School of Medicine",
+      "description": "medical school of New York University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "NYU's medical school, a sub-unit that the card does not name."
+    },
+    {
+      "qid": "Q797078",
+      "label": "New York University Tisch School of the Arts",
+      "description": "performing arts institute at New York University in New York City, New York, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Tisch School of the Arts is an NYU sub-unit, not the university the card names."
+    },
+    {
+      "qid": "Q846173",
+      "label": "New York University School of Law",
+      "description": "law school of New York University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "NYU School of Law is a sub-unit, unrelated to the card's mathematics department."
+    },
+    {
+      "qid": "Q75478",
+      "label": "New York University Tandon School of Engineering",
+      "description": "university in Brooklyn, New York, U.S.",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Tandon School of Engineering is the former Brooklyn Polytechnic and only joined NYU later. It is not the university as a whole."
+    },
+    {
+      "qid": "Q6956114",
+      "label": "NYU Langone Health",
+      "description": "hospital in New York, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "NYU Langone Health is a hospital network, not the university."
+    },
+    {
+      "qid": "Q59493106",
+      "label": "New York University Collection (NAID 947)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An archival collection at NARA, not an organisation."
+    },
+    {
+      "qid": "Q770467",
+      "label": "Stern School of Business",
+      "description": "business school of NYU",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Stern School of Business is an NYU sub-unit, unrelated to the card."
+    },
+    {
+      "qid": "Q946028",
+      "label": "Courant Institute School of Mathematics, Computing, and Data Science",
+      "description": "academic institute of New York University",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The Courant Institute matched via the alias 'NYU Department of Mathematics', so it is close to the card's department. But it is a sub-unit rather than the university named as the employer, and the card's University Heights mathematics department may not be Courant."
+    }
+  ]
+}

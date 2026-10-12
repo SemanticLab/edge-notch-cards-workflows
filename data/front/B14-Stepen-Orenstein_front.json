@@ -1,0 +1,124 @@
+{
+  "personalIdentification": {
+    "fullName": "Stepen Orenstein"
+  },
+  "contactInformation": {
+    "residentialAddress": "711 Amsterdam Avenue, New York, New York 10025",
+    "phoneNumbers": "865-1685 (residential), HI5-7500 extension 573 (business)",
+    "geographicLocation": "New York, New York; Flushing, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Queens College",
+    "departmentDivision": "Physics Department"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "scientific journalist/editor",
+    "technicalFields": [
+      "mathematics",
+      "physics",
+      "programming",
+      "optics",
+      "light"
+    ],
+    "specializedSkillsKnowledge": "bubble chambers and other charged-particle detecting devices"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "None mentioned",
+    "aestheticPhilosophicalInterests": "None mentioned"
+  },
+  "ocr_front": "Orenstein, Stepen, 711 Amsterdam Avenue, New York 10025, 865 1685\nQueens College Physics Dept., Kissena Blvd., Flushing, HI5 7500 x573\n\n\nmathematics, physics, programming, optics, light, scientific journalist/\neditor, bubble chambers and other charged-particle detecting devices",
+  "ocr_notes": "Front: 'Stepen' as typed. Back: 'Kora' written above 'Hale' in green (may be first name, 'Kora Hale'); 'Roderer Stokes' is uncertain (red ink, could be 'Roderic'); date '4/25' uncertain.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q15429212",
+      "label": "Walter A. Orenstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback hit: Walter A. Orenstein is an epidemiologist born in 1950, not a physics editor named Stephen."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q765642",
+      "label": "Queens' College",
+      "description": "college of the University of Cambridge",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Queens' College is part of the University of Cambridge in the UK. The card's college is in Flushing, NY."
+    },
+    {
+      "qid": "Q1760438",
+      "label": "Queens College",
+      "description": "college in New York City",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Queens College of CUNY is in Flushing, Queens, which matches the card's Flushing business location and physics department."
+    },
+    {
+      "qid": "Q7270829",
+      "label": "Queens University of Charlotte",
+      "description": "private university in Charlotte, North Carolina, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Queens University of Charlotte in North Carolina matched only through a former name."
+    },
+    {
+      "qid": "Q73094",
+      "label": "The Queen's College",
+      "description": "college of the University of Oxford",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Queen's College is part of Oxford in the UK."
+    },
+    {
+      "qid": "Q141194167",
+      "label": "Queens College",
+      "description": "education organization in Kuala Lumpur, Malaysia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An educational institution in Kuala Lumpur, Malaysia."
+    },
+    {
+      "qid": "Q26487848",
+      "label": "Queens College",
+      "description": "architectural structure in Marsh Baldon, South Oxfordshire, England, UK",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A thatched cottage in Oxfordshire."
+    },
+    {
+      "qid": "Q17555588",
+      "label": "Queens College",
+      "description": "architectural structure in Comeytrowe, Somerset West and Taunton, England, UK",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A listed building in Somerset."
+    },
+    {
+      "qid": "Q7269947",
+      "label": "Queen's College",
+      "description": "former medical school in Birmingham, West Midlands, England, UK",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A former medical school building in Birmingham, UK."
+    },
+    {
+      "qid": "Q105010030",
+      "label": "Queens Knights",
+      "description": "intercollegiate sports teams of Queens College",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Queens Knights are Queens College's sports teams, a sub-unit rather than the college."
+    },
+    {
+      "qid": "Q99474266",
+      "label": "Queens College Bookstore",
+      "description": "bookshop in Flushing, NY, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Queens College Bookstore is a shop in Flushing, not the college."
+    }
+  ]
+}

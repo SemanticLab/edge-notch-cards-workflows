@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "name": "L. Mintz",
+      "name_other": "null",
+      "contact_method": "letter",
+      "date": "1969-05-20",
+      "other_metadata": "null",
+      "bounding_box": {
+        "x1": 17.0,
+        "y1": 11.2,
+        "x2": 29.5,
+        "y2": 19.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30083",
+          "label": "L. Mintz",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The label 'L. Mintz' is identical, and the item is an artist from this same TSP card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q47122693",
+          "label": "A.S. Mintz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A botanist found by the surname-only fallback."
+        }
+      ]
+    },
+    {
+      "name": "Peggy Dickson",
+      "name_other": "null",
+      "contact_method": "null",
+      "date": "XXXX-02-04",
+      "other_metadata": "null",
+      "bounding_box": {
+        "x1": 10.0,
+        "y1": 18.2,
+        "x2": 35.2,
+        "y2": 31.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21389277",
+          "label": "Charles Gordon Campbell Dickson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A South African male entomologist found by the surname-only fallback."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "letter L. Mintz 20 May 69\nPeggy Dickson 2/4"
+}

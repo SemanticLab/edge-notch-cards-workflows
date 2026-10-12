@@ -1,0 +1,114 @@
+{
+  "entries": [
+    {
+      "name": "JOHN SOWAAL",
+      "contact_method": "LETTER",
+      "date": "XXXX-08-22",
+      "bounding_box": {
+        "x1": 11.1,
+        "y1": 15.5,
+        "x2": 53.7,
+        "y2": 21.3
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q32042",
+          "label": "John Sowaal",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact match on the distinctive name with an artist from the same TSP card collection."
+        }
+      ],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Mary Maxim",
+      "contact_method": "Letter",
+      "date": "1969-02-10",
+      "bounding_box": {
+        "x1": 11.8,
+        "y1": 19.4,
+        "x2": 50.1,
+        "y2": 32.9
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q15439977",
+          "label": "Maximilian Reiser",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This came from a surname-only fallback search for 'Maxim'. Maximilian Reiser is a German radiologist born in 1948, not an artist named Mary Maxim."
+        },
+        {
+          "qid": "Q10859842",
+          "label": "Maxim",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This is a German pop musician born in 1982, far too young, and male. It is not Mary Maxim."
+        },
+        {
+          "qid": "Q113015423",
+          "label": "Maxime Gouzevitch",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Maxime Gouzevitch is a male researcher found by the fallback search. Nothing about him matches Mary Maxim."
+        },
+        {
+          "qid": "Q154842",
+          "label": "Max Ernst",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Max Ernst matched only through the alias 'Maximilian'. He is a different, male artist (1891-1976), not Mary Maxim."
+        }
+      ]
+    },
+    {
+      "name": "Gale, Vera",
+      "contact_method": "Letter",
+      "date": "XXXX-01-03",
+      "bounding_box": {
+        "x1": 13.2,
+        "y1": 29.0,
+        "x2": 44.4,
+        "y2": 37.7
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q19654",
+          "label": "Vera G. List",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "This came from a first-name-only search. Vera G. List was a sponsor of 9 Evenings, but her surname is List, not Gale."
+        },
+        {
+          "qid": "Q30902",
+          "label": "Vera Feingold",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Vera Feingold is an artist from the card collection, but her surname is Feingold, not Gale. Only the first name matches."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q229330",
+          "label": "Vera Lynn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Vera Lynn was a British singer whose surname does not match Gale. She was found by a first-name-only search."
+        },
+        {
+          "qid": "Q3917267",
+          "label": "Vera Rich",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Vera Rich was a British poet and translator whose surname is Rich, not Gale. She was found by a first-name fallback search."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "LETTER- JOHN SOWAAL- AUG 22\nletter  Mary Maxmin Feb 10/69\n\"       Gale, Kera 1/3"
+}

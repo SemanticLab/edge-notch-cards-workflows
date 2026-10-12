@@ -1,0 +1,51 @@
+{
+  "personalIdentification": {
+    "fullName": "Lloyd Cross"
+  },
+  "contactInformation": {
+    "residentialAddress": "Box 1778, Ann Arbor, Michigan",
+    "phoneNumbers": "313-769-1100",
+    "geographicLocation": "Ann Arbor, Michigan"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "KMS Industries Inc."
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Lasers"
+    ]
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "laser art"
+  },
+  "ocr_front": "Cross, LLoyd,  Box 1778  Ann Arbor  Michigan   313-769 1100\n\nK.M.S. Industries  Inc.  Ann Arbor Mich\n\nLasers, laser art.",
+  "ocr_notes": "The back is faint pencil. \"Abeles\" and \"(letter)\" are best readings.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q25555",
+      "label": "Cross-Cultural Voices II: Between Memories",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname fallback hit on a 1999 art exhibition title, not a person."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q6662364",
+      "label": "Lloyd Cross",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "American physicist and holographer (1935-2015) employed by University of Michigan; matches the card's Ann Arbor address, laser field and laser art interest."
+    },
+    {
+      "qid": "Q6662367",
+      "label": "Lloyd Crossley",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Lloyd Crossley, New Zealand bishop who died 1926; unrelated."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": []
+}

@@ -1,0 +1,37 @@
+{
+  "personalIdentification": {
+    "fullName": "Lewis J Gambow."
+  },
+  "contactInformation": {
+    "residentialAddress": "9406 south Woodland road. Novelty, Ohio.",
+    "phoneNumbers": "ED8-5310",
+    "geographicLocation": "Novelty, Ohio"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "A.T.A.P. Company",
+    "departmentDivision": "Kromex Division"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "manufacturing Engineer",
+    "technicalFields": [
+      "giftware",
+      "pantryware"
+    ],
+    "specializedSkillsKnowledge": "giftware, pantryware"
+  },
+  "ocr_front": "Lewis J Gambow.  9406 south Woodland rd. Novelty, Ohio.\n                                              ED8-5310\nA.T.A.P. Co.  Kromex Div.\n\nmanufacturing eng. giftware, pantryware",
+  "ocr_notes": "\"Woodland\" has an overtyped letter on the front. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q115913305",
+      "label": "ATAP",
+      "description": "public transport service in the Vercelli and Biella area, Italy",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "ATAP is an Italian public transport company in Biella founded 1986, not the Ohio housewares maker (Kromex Division) on the card."
+    }
+  ]
+}

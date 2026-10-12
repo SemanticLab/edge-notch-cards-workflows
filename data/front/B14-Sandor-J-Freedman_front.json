@@ -1,0 +1,70 @@
+{
+  "personalIdentification": {
+    "fullName": "Sandor J. Freedman"
+  },
+  "contactInformation": {
+    "residentialAddress": "18 Polhemus Place, Brooklyn, New York 11215",
+    "phoneNumbers": "638-3344 (residential), 643-2194 (business)",
+    "geographicLocation": "Brooklyn, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Polytechnic Institute of Brooklyn"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Doctor",
+    "technicalFields": [
+      "physics",
+      "optics",
+      "light",
+      "lasers",
+      "ultrasonics"
+    ]
+  },
+  "ocr_front": "Freedman, Dr. Sandor J., 18 Polhemus Place, Brooklyn 11215, 638 3344\nPolytech Inst. of Brooklyn, 333 Jay Street, Brooklyn 11201, 643 2194\n\n\nphysics, optics, light, lasers, ultrasonics",
+  "ocr_notes": "Back: inks are red, pink, black, teal, blue, and grey pencil. 'L. Kamesher' and 'N. Roakes' are uncertain readings; 'Syndor' as written (possibly Snyder).",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q364993",
+      "label": "Daniel Z. Freedman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback; Daniel Z. Freedman is a theoretical physicist at MIT/Stony Brook, not Sandor J. Freedman of Brooklyn Poly."
+    },
+    {
+      "qid": "Q106428505",
+      "label": "Ross Freedman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback; Ross Freedman is a modern technology entrepreneur."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28134",
+      "label": "Polytechnic Institute of Brooklyn",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The label exactly matches the Polytechnic Institute of Brooklyn, and the item is E.A.T.-connected."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q75478",
+      "label": "New York University Tandon School of Engineering",
+      "description": "university in Brooklyn, New York, U.S.",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "NYU Tandon is the later name of the same Brooklyn institution (founded 1854) and carries the alias Polytechnic Institute of Brooklyn. A separate item for the historical school also exists."
+    },
+    {
+      "qid": "Q104760945",
+      "label": "Polytechnic Institute of Brooklyn",
+      "description": "former engineering school in Brooklyn, New York",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The former engineering school in Brooklyn under exactly the name on the card."
+    }
+  ]
+}

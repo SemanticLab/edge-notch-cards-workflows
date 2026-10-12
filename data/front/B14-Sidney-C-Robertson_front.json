@@ -1,0 +1,66 @@
+{
+  "personalIdentification": {
+    "fullName": "Sidney C Robertson"
+  },
+  "contactInformation": {
+    "residentialAddress": "8241 Aderlee Ave, Fairfax, Virginia 22030",
+    "geographicLocation": "near Washington"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Mitre Corporation"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "physics",
+      "computer programming",
+      "computer aided instruction",
+      "visual display"
+    ]
+  },
+  "ocr_front": "Sidney C Robertson.  8241 Aderlee Ave, Fairfax, Va 22030\n                                   nr. Washington\nMitre Corp.\n\n\n29 yrs of age,physics, computer programming, computer aided\ninstruction, visual display.",
+  "ocr_notes": "Front: 'nr. Washington' is handwritten in blue ink. Back: 'maurine march' in red; the date after 'Berkowitz' is unclear (possibly '1/22' or '1/12').",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q107038066",
+      "label": "Sidney Robertson",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "A Scottish company director, which does not fit a Mitre physicist and programmer in Virginia. The record has no other facts."
+    },
+    {
+      "qid": "Q7509309",
+      "label": "Sidney Robertson Cowell",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Sidney Robertson Cowell was a woman ethnographer (1903-1995), a different person in an unrelated field."
+    },
+    {
+      "qid": "Q19665147",
+      "label": "Sydney Robertson-Rodger",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A British painter, which is an unrelated field and country."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28390",
+      "label": "Mitre Corporation",
+      "description": "laboratory",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Mitre Corporation item in the E.A.T. Datascape/Knowledge Graph is the same name and the same institution as the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q627039",
+      "label": "MITRE Corporation",
+      "description": "company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The MITRE Corporation is the US nonprofit founded in 1958, and its offices near Washington fit the card's Fairfax address."
+    }
+  ]
+}

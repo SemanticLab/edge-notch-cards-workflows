@@ -1,0 +1,244 @@
+{
+  "personalIdentification": {
+    "fullName": "Charles Gordon"
+  },
+  "contactInformation": {
+    "residentialAddress": "367 Harvard Street, Cambridge, Massachusetts 02138",
+    "phoneNumbers": "617-876-3876",
+    "geographicLocation": "Cambridge, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Massachusetts Institute of Technology"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "mathematics",
+      "chemistry",
+      "physics",
+      "optics",
+      "spectroscopy",
+      "light",
+      "light equipment",
+      "projection",
+      "lasers",
+      "strobes",
+      "holography"
+    ]
+  },
+  "ocr_front": "Charles Gordon.    367 Harvard ST, Cambridge, Mass 02138\n                                         617-876-3876\nMIT\n\nmathematics  ,chemistry,physics,optics,spectroscopy,light,\nlight equipment, projetcion,lasers, strobes, hologrpahy.\n\n\n\n???",
+  "ocr_notes": "Front: '???' is handwritten at the bottom left. 'projetcion' and 'hologrpahy' are typos on the card. Back: 'Keith Lag.' may be an abbreviation (for example Laing) and is in purple ink. Geoffrey Dutton is in teal ink. 'Carell Lamport' is uncertain.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q31245",
+      "label": "Gordon Fitch",
+      "description": "artist associated with E.A.T.'s Technical Services Program",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fallback search on 'Gordon' hit a person whose first name is Gordon (Gordon Fitch, an artist in the TSP), not Charles Gordon of MIT."
+    },
+    {
+      "qid": "Q1854",
+      "label": "Gordon Parks",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Gordon Parks is a photographer and filmmaker from the Linked Jazz project. He only matched the fallback search on 'Gordon'."
+    },
+    {
+      "qid": "Q19297",
+      "label": "Gordon Hyatt",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Gordon Hyatt worked for WCBS. He is a different person who only matched the fallback search on 'Gordon'."
+    },
+    {
+      "qid": "Q24187",
+      "label": "Gordon Mumma",
+      "description": "American composer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Gordon Mumma is a composer, not Charles Gordon. He only matched the fallback search on 'Gordon'."
+    },
+    {
+      "qid": "Q24424",
+      "label": "Gordon Garmire",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Gordon Garmire is linked to Expo '70. Nothing ties him to Charles Gordon of Cambridge or MIT, and the hit came from the fallback search."
+    },
+    {
+      "qid": "Q25456",
+      "label": "Gordon M. Sasaki",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Gordon M. Sasaki comes from the Asian American Arts Centre project and is an unrelated namesake hit."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q1064570",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This Charles Gordon was a Los Angeles film producer born in 1947. The card describes an MIT optics and physics person in Cambridge."
+    },
+    {
+      "qid": "Q5078307",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Royal Navy admiral who died in 1860, so he cannot be the card's person."
+    },
+    {
+      "qid": "Q18670842",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Scottish army officer who lived 1756-1835."
+    },
+    {
+      "qid": "Q108284375",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Royal Navy captain from the 19th century."
+    },
+    {
+      "qid": "Q110585086",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A British army officer killed in action in 1917."
+    },
+    {
+      "qid": "Q108172186",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This person lived 1750-1832."
+    },
+    {
+      "qid": "Q137660269",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This person lived 1846-1902."
+    },
+    {
+      "qid": "Q120058552",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An actor from the silent film era, an unrelated field."
+    },
+    {
+      "qid": "Q120924009",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A man who died in Vallejo, California in 2007. Nothing links him to MIT optics work."
+    },
+    {
+      "qid": "Q5078300",
+      "label": "Charles Gordon",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The 4th Earl of Aboyne, who died in 1794."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19439",
+      "label": "Massachusetts Institute of Technology",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the Massachusetts Institute of Technology item, with Wikidata QID Q49108 and E.A.T.-connected employees (Kepes, Brodey). It matches the card's employer exactly."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q49108",
+      "label": "Massachusetts Institute of Technology",
+      "description": "private university in Cambridge, Massachusetts, USA, founded 1861",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "MIT, the university in Cambridge MA. Its name and city match the card."
+    },
+    {
+      "qid": "Q6784299",
+      "label": "Massachusetts Institute of Technology Libraries",
+      "description": "library",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MIT Libraries is a sub-unit of MIT, not the institution itself."
+    },
+    {
+      "qid": "Q73820",
+      "label": "The MIT Press",
+      "description": "American university press",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The MIT Press is a university press, a sub-unit rather than the university."
+    },
+    {
+      "qid": "Q551250",
+      "label": "Lemelson–MIT Prize",
+      "description": "award",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Lemelson-MIT Prize is an award, not an employer."
+    },
+    {
+      "qid": "Q6784301",
+      "label": "Massachusetts Institute of Technology School of Engineering",
+      "description": "school at the Massachusetts Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The MIT School of Engineering is a school within MIT, and the card does not name it."
+    },
+    {
+      "qid": "Q1354917",
+      "label": "MIT Computer Science and Artificial Intelligence Laboratory",
+      "description": "Computer Science research institute at MIT",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "CSAIL is an MIT lab founded in 2003, so it is a sub-unit and did not exist when the card was made."
+    },
+    {
+      "qid": "Q123287558",
+      "label": "Massachusetts Institute of Technology",
+      "description": "1955 film",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1955 short film titled after MIT, not an organisation."
+    },
+    {
+      "qid": "Q6784300",
+      "label": "Massachusetts Institute of Technology School of Science",
+      "description": "school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The MIT School of Science is a sub-unit, and the card does not name it."
+    },
+    {
+      "qid": "Q104148856",
+      "label": "Massachusetts Institute of Technology Department of Architecture",
+      "description": "academic department at the Massachusetts Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The MIT Department of Architecture is a department, not the university."
+    },
+    {
+      "qid": "Q16977777",
+      "label": "MIT School of Humanities, Arts, and Social Sciences",
+      "description": "School at the Massachusetts Institute of Technology (MIT)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "MIT SHASS is a school within MIT, and the card does not name it."
+    }
+  ]
+}

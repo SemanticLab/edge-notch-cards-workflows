@@ -1,0 +1,81 @@
+{
+  "personalIdentification": {
+    "fullName": "Lawrence Hall"
+  },
+  "contactInformation": {
+    "residentialAddress": "6601 Hillandale Road, Chevy Chase, Maryland 20015",
+    "phoneNumbers": "654 5894",
+    "geographicLocation": "Chevy Chase, Maryland; Washington D.C."
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Harry Diamond Laboratories",
+    "departmentDivision": "Building 92 Room 351"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Electrical engineer",
+    "technicalFields": [
+      "solid state"
+    ],
+    "specializedSkillsKnowledge": "solid state"
+  },
+  "ocr_front": "Hall, Lawrence, 6601, Hillandale  rd, Chevy Chase, Md, 20015\n    654 5894\nHarry Diamond Labs, Bldg 92  Rm 351, Wash D.C.20438\n\nElectrical engineer; solid state",
+  "ocr_notes": "Back: blue ink, in capitals.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q672",
+      "label": "Hall Overton",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name-only fallback hit Hall Overton, a jazz musician, not this electrical engineer."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q88208263",
+      "label": "Lawrence O. Hall",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "Lawrence O. Hall is a generic researcher with a different middle initial. Nothing ties him to Harry Diamond Laboratories."
+    },
+    {
+      "qid": "Q6504353",
+      "label": "Lawrence M. Hall",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Minnesota politician (1908–1973), not a solid-state engineer in Maryland."
+    },
+    {
+      "qid": "Q6500662",
+      "label": "Laurence Hynes Halloran",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A cleric and convict who died in 1831."
+    },
+    {
+      "qid": "Q75970653",
+      "label": "Lawrence Hallop",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A medieval person born in 1377."
+    },
+    {
+      "qid": "Q107301927",
+      "label": "Lawrence H. Van Vlack",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Lawrence Hall Van Vlack, a materials scientist, is a different person; Hall is only his middle name."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q16841378",
+      "label": "Harry Diamond Laboratories",
+      "description": "defunct research facility of the Ordnance Development Division of the National Bureau of Standards and later the U.S. Army",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Harry Diamond Laboratories, an Army research center in Washington, D.C. (1940–1992), has the exact name and the right place and period."
+    }
+  ]
+}

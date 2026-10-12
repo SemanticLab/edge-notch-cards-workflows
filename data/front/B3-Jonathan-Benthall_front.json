@@ -1,0 +1,148 @@
+{
+  "personalIdentification": {
+    "fullName": "Jonathan Benthall"
+  },
+  "contactInformation": {
+    "residentialAddress": "7 Saint Anne's Villas, London W11, England",
+    "phoneNumbers": "01-603 5271",
+    "geographicLocation": "London, England"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "International Business Machines Corporation"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "computers"
+    ]
+  },
+  "interestsCreativeActivities": {
+    "aestheticPhilosophicalInterests": "cybernetics in art, aesthetic theory"
+  },
+  "ocr_front": "Benthall , Jonathan    7 St. Anne's Villas, London W11, England.\n                                         tel. 01-603 5271\n\nIBM.\n\n    computers,\n\ninteresed in cybernetics in art, aesthetic theory.",
+  "ocr_notes": "Front: correction, the last line reads 'interested in cybernetics in art, aesthetic theory.' (the ocr_front field drops a 't' by mistake). Back: in pencil; 'Glass' is the best reading.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q21254",
+      "label": "Jonathan Benthall",
+      "description": "person associated with E.A.T. Bibliography",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The name is identical and the item sits in the E.A.T. Bibliography. Jonathan Benthall, a London writer on art and technology, fits the card's London address and interest in cybernetics in art; the item links to Wikidata Q54133213."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q54133213",
+      "label": "Jonathan Benthall",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Jonathan Benthall (born 1941) is the anthropologist who in the late 1960s worked for IBM UK and wrote on art and technology in London. The base.semlab item for him links to this QID."
+    },
+    {
+      "qid": "Q112452319",
+      "label": "Jonathan Benthall",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "This looks like a duplicate Wikidata item for the same anthropologist: same name, born 1941 in Kolkata. It fits the London computer and art-theory person on the card."
+    },
+    {
+      "qid": "Q75603093",
+      "label": "Jonathan Charles Mackenzie Benthall",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "A Peerage entry for Jonathan Charles Mackenzie Benthall, son of Sir Arthur Paul Benthall and husband of Zamira Menuhin. That matches the biography of the anthropologist Jonathan Benthall, so it is likely the same person."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19322",
+      "label": "IBM",
+      "description": "American multinational technology corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "IBM is the short form of International Business Machines Corporation, and the item comes from the E.A.T. projects."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q37156",
+      "label": "IBM",
+      "description": "American multinational technology company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "IBM is International Business Machines Corporation, the parent company named on the card."
+    },
+    {
+      "qid": "Q30338814",
+      "label": "IBM Germany",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Germany is a national subsidiary, not the corporation named on the card; the card's address is in London."
+    },
+    {
+      "qid": "Q28974610",
+      "label": "IBM France",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM France is a national subsidiary in Paris, not the parent corporation."
+    },
+    {
+      "qid": "Q16323757",
+      "label": "IBM Denmark",
+      "description": "IBM subsidiary in Denmark",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Denmark is a national subsidiary, not the parent corporation."
+    },
+    {
+      "qid": "Q30338816",
+      "label": "IBM Egypt Business Support Services",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an Egyptian IBM support subsidiary, not the corporation on the card."
+    },
+    {
+      "qid": "Q41567073",
+      "label": "IBM Česká republika",
+      "description": "company in Prague, Czechia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Czech subsidiary, founded in 1990, after the card's period."
+    },
+    {
+      "qid": "Q28974613",
+      "label": "Companhia IBM Portuguesa",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Portuguese subsidiary, not the parent corporation."
+    },
+    {
+      "qid": "Q61931215",
+      "label": "IBM (Brazil)",
+      "description": "company in São Paulo, Brazil",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Brazilian subsidiary, not the parent corporation."
+    },
+    {
+      "qid": "Q77083284",
+      "label": "IBM (Slovakia)",
+      "description": "company in Bratislava, Slovakia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Slovak subsidiary, not the parent corporation."
+    },
+    {
+      "qid": "Q59493032",
+      "label": "International Business Machines Corporation Collection (NAID 653182)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an archival film collection at the National Archives, not the company."
+    }
+  ]
+}

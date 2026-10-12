@@ -1,0 +1,118 @@
+{
+  "personalIdentification": {
+    "fullName": "Joe Celko"
+  },
+  "contactInformation": {
+    "residentialAddress": "954 Katherwood Drive Southwest, Atlanta, Georgia 30310",
+    "phoneNumbers": "404-753-7993",
+    "geographicLocation": "Atlanta, Georgia"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Georgia State University"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Student and Statistical Technician",
+    "technicalFields": [
+      "mathematics",
+      "logic"
+    ]
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Graphics and type design"
+  },
+  "ocr_front": "Joe Celko   954 Katherwood Dr. SW, Atlanta, Georgia 30310\n                                             404-753-7993\nstudent at Ga State & employed as stastical technician.\n\nmathematics and logic. interested in graphiss and type design.",
+  "ocr_notes": "'stastical' and 'graphiss' are as typed. Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q92726",
+      "label": "Joe Celko",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Joe Celko, an American computer scientist born in 1947 and educated at Georgia State University, matches the card's Georgia State student and statistical technician in mathematics and logic in Atlanta."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1509333",
+      "label": "Georgia State University",
+      "description": "public university in Atlanta, Georgia, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Georgia State University in Atlanta is exactly the card's employer and location."
+    },
+    {
+      "qid": "Q5547756",
+      "label": "Georgia State Panthers men's basketball",
+      "description": "basketball team that represents Georgia State University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a basketball team that represents the university, not the university itself."
+    },
+    {
+      "qid": "Q2592041",
+      "label": "Georgia State Panthers",
+      "description": "collegiate sports club in the United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the university's athletics program, not the university."
+    },
+    {
+      "qid": "Q5547810",
+      "label": "Georgia State University College of Law",
+      "description": "law school in Atlanta, Georgia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The College of Law is a sub-unit, which the card does not name."
+    },
+    {
+      "qid": "Q5547807",
+      "label": "Georgia State University Atlanta Campus Library",
+      "description": "academic research library at Georgia State University",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a campus library, a sub-unit of the university."
+    },
+    {
+      "qid": "Q15749834",
+      "label": "Georgia State University Law Review",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a law journal, not the university."
+    },
+    {
+      "qid": "Q63423783",
+      "label": "Georgia State University Perimeter College Native Plant Botanical Garden",
+      "description": "botanical garden in Decatur, Georgia, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a botanical garden of a GSU college, not the employer."
+    },
+    {
+      "qid": "Q89281079",
+      "label": "Georgia State University Decatur Campus Library",
+      "description": "academic library at Georgia State University, Decatur, Georgia, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a campus library in Decatur, a sub-unit."
+    },
+    {
+      "qid": "Q89281718",
+      "label": "Georgia State University Newton Campus Library",
+      "description": "academic library at Georgia State University, Newton, Georgia, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a campus library in Covington, a sub-unit."
+    },
+    {
+      "qid": "Q87489677",
+      "label": "Georgia State University Special Collections",
+      "description": "archives in Atlanta, Georgia, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the library's Special Collections archive, a sub-unit."
+    }
+  ]
+}

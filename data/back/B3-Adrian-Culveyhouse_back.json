@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "name": "Harry Hahn",
+      "name_other": "",
+      "contact_method": "letter",
+      "date": "1969-10-02",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 19.3,
+        "y1": 13.7,
+        "x2": 40.8,
+        "y2": 25.8
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q15858405",
+          "label": "Harry Hahn",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Harry Hahn was a German chemist and professor, not an artist. The card's name may also be a misreading of Larry Hahn."
+        }
+      ]
+    },
+    {
+      "name": "Ralph Schwitzgebel",
+      "name_other": "",
+      "contact_method": "",
+      "date": "XXXX-11-14",
+      "other_metadata": "",
+      "bounding_box": {
+        "x1": 18.5,
+        "y1": 21.8,
+        "x2": 50.1,
+        "y2": 35.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30768",
+          "label": "Ralph Schwitzgebel",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "This distinctive name matches exactly. He is an artist in the same E.A.T. TSP card collection."
+        }
+      ],
+      "wikidata_candidates": []
+    }
+  ],
+  "ocr_back": "letter -> Larry Haber 10/8/69\n      Ralph Schwitzgebel 11/14"
+}

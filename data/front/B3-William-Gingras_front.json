@@ -1,0 +1,34 @@
+{
+  "personalIdentification": {
+    "fullName": "William Gingras"
+  },
+  "contactInformation": {
+    "residentialAddress": "1455 Research Boulevard, Rockville, Maryland 20850",
+    "phoneNumbers": "301-762-5310",
+    "geographicLocation": "Rockville, Maryland"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Control Data Corporation",
+    "departmentDivision": "Electromechanical Research"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Electromechanical Research"
+    ]
+  },
+  "ocr_front": "Gingras, William,   1455 Research Blvd, Rockville  Md 20850  301-762-5310\nControl Data Corp.\nElectromechanical Research",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1129191",
+      "label": "Control Data Corporation",
+      "description": "defunct supercomputer firm",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is Control Data Corporation, the US computer firm active 1957-1992. It is the card's employer, with a Rockville, MD research site."
+    }
+  ]
+}

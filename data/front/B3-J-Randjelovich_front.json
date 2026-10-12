@@ -1,0 +1,239 @@
+{
+  "personalIdentification": {
+    "fullName": "Randjelovich J."
+  },
+  "contactInformation": {
+    "residentialAddress": "215 \"C\" Street Southeast #509, Washington District of Columbia",
+    "phoneNumbers": "546-7476",
+    "geographicLocation": "Washington District of Columbia"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Library of Congress"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Electrical engineer",
+    "technicalFields": [
+      "Electrical engineering"
+    ]
+  },
+  "ocr_front": "Randjelovich  J.,   215 \"C\" St  S.E.  #509,  Wahington D.C.    546-7476\n\nLibrary of Congress.\n\nElectrical engineer.",
+  "ocr_notes": "'Wahington' is as typed. Back is blank.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q1090",
+      "label": "J.J. Johnson",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A fallback search on the initial 'J.' found J.J. Johnson, a jazz trombonist. Unrelated."
+    },
+    {
+      "qid": "Q19363",
+      "label": "John R. Pierce",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "John R. Pierce was a Bell Labs engineer, not Randjelovich of the Library of Congress. This is a fallback hit on 'J.'."
+    },
+    {
+      "qid": "Q1157",
+      "label": "J. C. Heard",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "J. C. Heard is a jazz musician. Unrelated fallback hit."
+    },
+    {
+      "qid": "Q30162",
+      "label": "J. Hurwitz",
+      "description": "artist associated with E.A.T.'s Technical Services Program",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "J. Hurwitz is a different artist from the TSP cards. The surname does not match."
+    },
+    {
+      "qid": "Q25526",
+      "label": "J. Paul Getty Museum",
+      "description": "art museum in Los Angeles, California",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The J. Paul Getty Museum is an institution, not a person."
+    },
+    {
+      "qid": "Q26366",
+      "label": "J. Evans",
+      "description": "artist associated with E.A.T.’s Technical Services Program",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "J. Evans is a different TSP artist. The surname does not match."
+    },
+    {
+      "qid": "Q26356",
+      "label": "Jean Dupuy",
+      "description": "artist associated with E.A.T.’s Technical Services Program",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Jean Dupuy is an artist. The surname does not match Randjelovich."
+    },
+    {
+      "qid": "Q932",
+      "label": "J.C. Higginbotham",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "J.C. Higginbotham is a jazz trombonist. Unrelated fallback hit."
+    },
+    {
+      "qid": "Q30055",
+      "label": "JC Parker",
+      "description": "artist associated with E.A.T.'s Technical Services Program",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "JC Parker is a different TSP artist. The surname does not match."
+    },
+    {
+      "qid": "Q31441",
+      "label": "James L. Flanagan",
+      "description": "Engineer associated with E.A.T.'s Technical Services Program, American engineer (1925-2015)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "James L. Flanagan was a Bell Labs engineer, a different person from Randjelovich."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q159758",
+      "label": "J. M. W. Turner",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "J. M. W. Turner was an English painter who died in 1851. Fallback hit on 'J.'."
+    },
+    {
+      "qid": "Q2590065",
+      "label": "John Kunkel Small",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "John Kunkel Small was a botanist who died in 1938. Unrelated."
+    },
+    {
+      "qid": "Q34660",
+      "label": "J. K. Rowling",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "J. K. Rowling is an English author born in 1965. Unrelated."
+    },
+    {
+      "qid": "Q3046674",
+      "label": "James Francis Macbride",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "James Francis Macbride was a botanist. The surname does not match. Unrelated."
+    },
+    {
+      "qid": "Q892",
+      "label": "J. R. R. Tolkien",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "J. R. R. Tolkien was an English writer. Unrelated."
+    },
+    {
+      "qid": "Q77463",
+      "label": "Johann Wilhelm Meigen",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Johann Wilhelm Meigen was a German entomologist who died in 1845. Unrelated."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q27166",
+      "label": "Library of Congress Subject Headings",
+      "description": "controlled vocabulary of bibliographic subject headings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Library of Congress Subject Headings is a controlled vocabulary, not the Library of Congress as an employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q131454",
+      "label": "Library of Congress",
+      "description": "(de facto) national library of the United States of America",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Library of Congress, headquartered in Washington, D.C., is exactly the employer on the card, and the card's Capitol Hill SE address fits."
+    },
+    {
+      "qid": "Q13219454",
+      "label": "Library of Congress Authorities",
+      "description": "browsable database to view authority headings for subject, name, title and name/title combinations",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Library of Congress Authorities is an online database, not the institution."
+    },
+    {
+      "qid": "Q18912790",
+      "label": "Library of Congress Name Authority File",
+      "description": "authoritative data for names of persons, organizations, events, places, and titles for subsequent uniform access to bibliographic resources",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Name Authority File is a dataset, not the institution."
+    },
+    {
+      "qid": "Q620946",
+      "label": "Library of Congress Control Number",
+      "description": "numbering system for catalog records at the Library of Congress (not a subject classification)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The LCCN is a numbering system, not the institution."
+    },
+    {
+      "qid": "Q1823134",
+      "label": "Library of Congress Subject Headings",
+      "description": "controlled vocabulary of bibliographic subject headings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "LCSH is a controlled vocabulary, not the institution."
+    },
+    {
+      "qid": "Q17109002",
+      "label": "Library of Congress Linked Data Service",
+      "description": "interactive and machine access to commonly used ontologies, controlled vocabularies, and other lists for bibliographic description",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Linked Data Service is an online service, not the institution."
+    },
+    {
+      "qid": "Q3663281",
+      "label": "Library of Congress Online Catalog",
+      "description": "online public access catalog of the Library of Congress",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Online Catalog is a website, not the institution."
+    },
+    {
+      "qid": "Q98608837",
+      "label": "Library of Congress Music Division",
+      "description": "classified music and book collections, music and literary manuscripts, microforms, and copyright deposits",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Music Division is a sub-unit of the Library of Congress. The card names the Library as a whole."
+    },
+    {
+      "qid": "Q621080",
+      "label": "Library of Congress Classification",
+      "description": "system of library classification developed by the United States Library of Congress",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a classification scheme, not the institution."
+    },
+    {
+      "qid": "Q6542578",
+      "label": "Library of Congress",
+      "description": "1945 film by Alexandr Hackenschmied",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1945 short film titled Library of Congress."
+    }
+  ]
+}

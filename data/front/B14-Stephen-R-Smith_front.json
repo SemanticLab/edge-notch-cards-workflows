@@ -1,0 +1,46 @@
+{
+  "personalIdentification": {
+    "fullName": "Stephen R. Smith"
+  },
+  "contactInformation": {
+    "residentialAddress": "312 West 91st Street, New York, New York",
+    "geographicLocation": "New York, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Air Reduction Company"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Engineer"
+  },
+  "ocr_front": "Smith, Stephen R, 312  W 91 St, N.Y.\n\nAir Reduction Co,  150 E  42 St  N.Y.\n\nEngineer",
+  "wikibase_candidates": [
+    {
+      "qid": "Q2033",
+      "label": "Smithsonian",
+      "description": "group of museums and research centers administered by the United States governmentSmithsonian",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Smithsonian is an institution, not a person. It matched on a fragment of the surname."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q23715163",
+      "label": "Stephen R. Smith",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A major general who lived 1836-1889, so he was dead long before the card's period."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q87789623",
+      "label": "Air Reduction Sales Company",
+      "description": "business",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "Air Reduction Sales Company was the New York sales arm of the Air Reduction Company (Airco), so it is related but likely a separate corporate entity rather than the company itself."
+    }
+  ]
+}

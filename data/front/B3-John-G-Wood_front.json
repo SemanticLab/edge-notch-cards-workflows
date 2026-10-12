@@ -1,0 +1,104 @@
+{
+  "personalIdentification": {
+    "fullName": "John G. Wood"
+  },
+  "contactInformation": {
+    "residentialAddress": "Galileo Park, Fiskdale/Sturbridge, Massachusetts 01518",
+    "phoneNumbers": "617-347-9191",
+    "geographicLocation": "Fiskdale/Sturbridge, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "The Bendix Corporation",
+    "departmentDivision": "Mosaic Fabrication Department"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Physicist-engineer",
+    "technicalFields": [
+      "electronic",
+      "nuclear",
+      "optical"
+    ],
+    "specializedSkillsKnowledge": "Mosaic Fabrication"
+  },
+  "ocr_front": "Wood, John G., Galileo Park, Fiskdale/Sturbridge, Mass 01518\n          617-347-9191\n\nThe Bendix Corp. Mosaic Fabrication Dpt.\n\nPhysicist-engineer, electronic,  nuclear, optical.",
+  "ocr_notes": "Back: in pencil.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q30159",
+      "label": "wood",
+      "description": "broad class of fibrous materials from trees or other plants",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name-only fallback hit the material class 'wood', not a person."
+    },
+    {
+      "qid": "Q124",
+      "label": "Woody Herman",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Woody Herman is a jazz bandleader from the Linked Jazz project, not a Bendix physicist-engineer."
+    },
+    {
+      "qid": "Q30169",
+      "label": "wood (material)",
+      "description": "fibrous material from trees or other plants",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the material wood, not a person."
+    },
+    {
+      "qid": "Q24230",
+      "label": "wood product",
+      "description": "item derived from trees, encompassing processed materials like lumber and paper",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a material class (wood product), not a person."
+    },
+    {
+      "qid": "Q29509",
+      "label": "wooden boxes/platform",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a piece of 9 Evenings stage scenery, not a person."
+    },
+    {
+      "qid": "Q1514",
+      "label": "Joe Nicholas",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Wooden Joe Nicholas was a jazz musician; the only link is the 'Wood' substring in his name."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q2729993",
+      "label": "John Wood",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Florida politician and lawyer born in 1952 could not be a Massachusetts physicist-engineer at Bendix c. 1970."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q30217",
+      "label": "Bendix Corporation",
+      "description": "American manufacturing and engineering company (1924–1983)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bendix Corporation (1924–1983) is the same company as 'The Bendix Corporation', and the item already comes from this edge-notched card project."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q84479916",
+      "label": "The Bendix Corporation",
+      "description": "scientific article published on 01 June 1972",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1972 Analytical Chemistry article titled 'The Bendix Corporation', not the company itself."
+    }
+  ]
+}

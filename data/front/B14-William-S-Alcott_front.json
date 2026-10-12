@@ -1,0 +1,66 @@
+{
+  "personalIdentification": {
+    "fullName": "William S. Alcott"
+  },
+  "contactInformation": {
+    "residentialAddress": "4 Sandra Drive, Chelmsford, Massachusetts 01824",
+    "phoneNumbers": "256-5030",
+    "geographicLocation": "Chelmsford, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "The Mitre Corporation",
+    "departmentDivision": "Bedford, Massachusetts"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Engineer",
+    "technicalFields": [
+      "Lasers",
+      "Optics",
+      "Electronics"
+    ],
+    "specializedSkillsKnowledge": "Lasers, optics, electronics"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "None",
+    "aestheticPhilosophicalInterests": "None"
+  },
+  "ocr_front": "Alcott, William S.  4 Sandra Drive, Chelmsford Mass 01824    256-5030\n\nThe Mitre Corp  Bedford Mass\n\nLasers, optics, electronics",
+  "ocr_notes": "Back: line 1 is purple/pink ink and line 2 green.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q164015",
+      "label": "William Alcott",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Physician and author, 1798-1859."
+    },
+    {
+      "qid": "Q8018149",
+      "label": "William Savory",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "William Alcott Savory is a record producer with a different surname; matched only through an alias."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28390",
+      "label": "Mitre Corporation",
+      "description": "laboratory",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The Mitre Corporation item from the E.A.T. Datascape, the same organisation as the card's employer."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q627039",
+      "label": "MITRE Corporation",
+      "description": "company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The MITRE Corporation, headquartered in Bedford and founded in 1958, matches the card's 'Bedford, Massachusetts' division."
+    }
+  ]
+}

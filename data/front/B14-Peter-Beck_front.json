@@ -1,0 +1,167 @@
+{
+  "personalIdentification": {
+    "fullName": "Peter Beck"
+  },
+  "contactInformation": {
+    "residentialAddress": "457 F.D.R. Drive, New York, New York 10002",
+    "phoneNumbers": "",
+    "geographicLocation": "New York, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Bendix Corporation",
+    "departmentDivision": "Navigation & Control Division"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "",
+    "technicalFields": [],
+    "specializedSkillsKnowledge": ""
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "",
+    "aestheticPhilosophicalInterests": ""
+  },
+  "ocr_front": "Beck, Peter, 457 F.D,R. Drive, N.Y. 10002\nBendix Corp, Navigat on & Control Div.",
+  "ocr_notes": "Front: 'Navigat on' has a faint/missing 'i' in the typing. Back blank.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q19171",
+      "label": "Becky Arnold",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name fallback search; Becky Arnold is a 9 Evenings artist, a different person from engineer Peter Beck."
+    },
+    {
+      "qid": "Q23027",
+      "label": "Beckley (W. Va.)",
+      "description": "city in West Virginia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Beckley, West Virginia is a city, not a person."
+    },
+    {
+      "qid": "Q28487",
+      "label": "Becky Young",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Becky Young is a different person returned by a fallback search; no link to Peter Beck."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q55629586",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Rocket Lab founder born 1976 in New Zealand; too young to be the card's 1967-72 Bendix employee in New York."
+    },
+    {
+      "qid": "Q7172742",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Ohio politician born 1952; not a Bendix engineer in New York c. 1970."
+    },
+    {
+      "qid": "Q107037907",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Welsh physician and Lord Lieutenant; unrelated field and country."
+    },
+    {
+      "qid": "Q15989837",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "English soldier and schoolmaster; unrelated field and country."
+    },
+    {
+      "qid": "Q102176465",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "German PhD from Duisburg-Essen 1988; no connection to Bendix or New York."
+    },
+    {
+      "qid": "Q111752887",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "German Jesuit who died in 1922; cannot be the card's person."
+    },
+    {
+      "qid": "Q109520749",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Danish civil servant born 1951 in Ringsted; unrelated country and field."
+    },
+    {
+      "qid": "Q124300827",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "Musician with no other facts; nothing ties him to Bendix engineering in New York."
+    },
+    {
+      "qid": "Q125402534",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Photographer born in Berlin, working in Havirov (Czech); unrelated."
+    },
+    {
+      "qid": "Q112377540",
+      "label": "Peter Beck",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "Writer born 1935 with no other facts; occupation does not fit an engineer at Bendix."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q30217",
+      "label": "Bendix Corporation",
+      "description": "American manufacturing and engineering company (1924–1983)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bendix Corporation, linked to Wikidata Q4887137 and already part of the edge-notched card project; same company as the card."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q4887137",
+      "label": "Bendix Corporation",
+      "description": "American manufacturing and engineering company (1924–1983)",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Bendix Corporation, American engineering firm 1924-1983, which had a Navigation & Control Division; matches the card."
+    },
+    {
+      "qid": "Q71190862",
+      "label": "Bendix Corporation - Apollo Lunar Surface Experiment Package [ALSEP] Submittal (NAID 81440064)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A NARA film item about Bendix ALSEP, not the company."
+    },
+    {
+      "qid": "Q71190867",
+      "label": "Bendix Corporation - Apollo Lunar Surface Experiment Package [ALSEP] Submittal (NAID 81440066)",
+      "description": "item in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A NARA film item about Bendix ALSEP, not the company."
+    },
+    {
+      "qid": "Q106488261",
+      "label": "Bendix Corporation (Crawler-Transporter / ALSEP)",
+      "description": "document dealing with ALSEP",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1969 technical report document, not the company."
+    }
+  ]
+}

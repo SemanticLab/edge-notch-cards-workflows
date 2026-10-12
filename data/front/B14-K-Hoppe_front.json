@@ -1,0 +1,96 @@
+{
+  "personalIdentification": {
+    "fullName": "K. Hoppe"
+  },
+  "contactInformation": {
+    "residentialAddress": "366 Salem Road, Union, New Jersey 07083",
+    "phoneNumbers": "201-MU 8- 6318",
+    "geographicLocation": "Union, New Jersey"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Stevens Institute of Technology"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "mechanical engineering",
+      "aeronautics/aerospace",
+      "civil engineering",
+      "mathematics"
+    ],
+    "specializedSkillsKnowledge": "hydraulics, fluidics, programming, liquid crystals, instrumentation and control systems, motors"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "photography"
+  },
+  "ocr_front": "Hoppe, K. 366 Salem Rd. Union N.J.07083, 201-MU 8- 6318\n\nStevens Inst. of Technology\n\nmechanical engineering, aeronautics/aerospace, civil engineering\nmathematics, hydraulics,fluidics,programming,liquid crystals\nphotography, instrumentation and control systems, motors",
+  "ocr_notes": "Front: small handwritten check mark at top right. Back: entries are written sideways (rotated 90 degrees) along the right edge, transcribed in reading order. 'Paul Lerman' is uncertain; 'MACK' could be 'MARK'.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q66205",
+      "label": "David Heinrich Hoppe",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback hit; a German botanist who lived 1760-1846 cannot be a 1960s New Jersey engineer."
+    },
+    {
+      "qid": "Q85861",
+      "label": "Marianne Hoppe",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback hit; a German actress born 1909, not an engineer at Stevens Institute."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28197",
+      "label": "Stevens Institute of Technology",
+      "description": "school",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same name, Stevens Institute of Technology, and the item comes from the E.A.T. Datascape and Knowledge Graph projects."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q657222",
+      "label": "Stevens Institute of Technology",
+      "description": "higher education institute in Hoboken, New Jersey, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Stevens Institute of Technology in Hoboken NJ, the institution named on the card (the card's address is in nearby Union NJ)."
+    },
+    {
+      "qid": "Q100320486",
+      "label": "Stevens Tech Ducks",
+      "description": "athletic programs of Stevens Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is Stevens' athletics program, not the institute itself."
+    },
+    {
+      "qid": "Q99433669",
+      "label": "Stevens Institute of Technology Official Campus Bookstore",
+      "description": "bookstore in Hoboken, NJ, United States of America",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the campus bookstore, not the institute."
+    },
+    {
+      "qid": "Q7615476",
+      "label": "Stevens Institute of Technology International",
+      "description": "defunct university in Santo Domingo, Dominican Republic",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Dominican Republic branch that ran 2006-2016, long after the card's period."
+    },
+    {
+      "qid": "Q80952621",
+      "label": "Stevens institute of technology: after the strike, still unsettled",
+      "description": "scientific article published on 01 April 1977",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 1977 Science article about Stevens, not an organisation."
+    }
+  ]
+}

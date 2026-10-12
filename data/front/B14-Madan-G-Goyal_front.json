@@ -1,0 +1,118 @@
+{
+  "personalIdentification": {
+    "fullName": "Madan G. Goyal"
+  },
+  "contactInformation": {
+    "residentialAddress": "45 Frey Street, Rochester, New York 14612",
+    "phoneNumbers": "716-663-7882",
+    "geographicLocation": "Rochester, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "General Dynamics",
+    "departmentDivision": "electronics division"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "mechanical engineer and computer programmer",
+    "technicalFields": [
+      "mechanical engineering",
+      "computer programming",
+      "machine design"
+    ],
+    "specializedSkillsKnowledge": "computer programming in different languages, machine design, IBM 360"
+  },
+  "ocr_front": "Goyal, Mx Madan G.    45 Frey St. Rochester NY  14612/ 716-663-7882\n\nGeneral Dynamics, electronics division.\n\nmechanical eng. and compiter programmer, computer programming in xx\ndifferen  languages. machine desing. IBM x 360",
+  "ocr_notes": "Front: \"Mx\" is a struck-out typo, and the \"F\" in \"Frey\" is corrected by hand in blue. \"compiter\", \"differen\" and \"desing\" are typed that way. Back: \"HASSEL\" may read \"HASSER\".",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q36590848",
+      "label": "J.P. Goyal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "J.P. Goyal is a botanist with different initials; surname-only fallback hit unrelated to a Rochester mechanical engineer."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q502940",
+      "label": "General Dynamics",
+      "description": "American aerospace and defense manufacturing conglomerate",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "General Dynamics, the US aerospace/defense conglomerate (founded 1952), which had an electronics division in Rochester NY; same company."
+    },
+    {
+      "qid": "Q1325893",
+      "label": "General Dynamics Electric Boat",
+      "description": "American submarine manufacturer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Electric Boat is a GD submarine subsidiary in Groton CT, not the electronics division named on the card."
+    },
+    {
+      "qid": "Q100026",
+      "label": "General Dynamics F-16 Fighting Falcon",
+      "description": "1974 multi-role combat aircraft family developed by General Dynamics and built by several manufacturers",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "F-16 aircraft family, not an organisation."
+    },
+    {
+      "qid": "Q270990",
+      "label": "General Dynamics F-111 Aardvark",
+      "description": "attack aircraft family",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "F-111 aircraft, not an organisation."
+    },
+    {
+      "qid": "Q17372463",
+      "label": "General Dynamics F-16A Fighting Falcon",
+      "description": "multi-role combat aircraft series",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "F-16A aircraft model, not an organisation."
+    },
+    {
+      "qid": "Q5531847",
+      "label": "General Dynamics Mission Systems",
+      "description": "American defense electronics manufacturer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "GD Mission Systems is a subsidiary founded 1999, not the 1960s company/division on the card."
+    },
+    {
+      "qid": "Q5531850",
+      "label": "General Dynamics Land Systems",
+      "description": "American military vehicle manufacturer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "GD Land Systems is a vehicle subsidiary founded 1982; different unit."
+    },
+    {
+      "qid": "Q987367",
+      "label": "General Dynamics EF-111A Raven",
+      "description": "1977 electronic warfare aircraft",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "EF-111A aircraft, not an organisation."
+    },
+    {
+      "qid": "Q99371808",
+      "label": "General Dynamics European Land Systems",
+      "description": "European military vehicle manufacturer",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "GD European Land Systems, a Spanish subsidiary; unrelated."
+    },
+    {
+      "qid": "Q3325274",
+      "label": "General Dynamics-Grumman F-111B Aardvark",
+      "description": "1965 carrier-capable interceptor aircraft model by General Dynamics and Grumman",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "F-111B aircraft model, not an organisation."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "personalIdentification": {
+    "fullName": "Thomas L. Fabry"
+  },
+  "contactInformation": {
+    "residentialAddress": "612 West 115th Street, New York, New York 10025",
+    "phoneNumbers": "212 666-9600, 212 945-3000",
+    "geographicLocation": "New York, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "International Business Machines"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Bio-engineering",
+      "Medicine biology",
+      "Chemistry",
+      "Physics",
+      "Computers programming",
+      "Liquid crystals",
+      "Plastics/polymers",
+      "Acrylics",
+      "Foam",
+      "Elastomers",
+      "Paint",
+      "Dyes",
+      "Fluorescence",
+      "Optics",
+      "Spectroscopy",
+      "Light",
+      "Light equipment/projection",
+      "Lasers",
+      "Strobes",
+      "Ultraviolet",
+      "Fiber optics"
+    ],
+    "specializedSkillsKnowledge": "Bio-engineering/medicine biology, chemistry, physics, computers programming, liquid crystals, plastics/polymers, acrylics, foam, elastomers, paint, dyes, fluorescence, optics, spectroscopy, light, light equipment/projection, lasers, strobes, ultraviolet, fiber optics."
+  },
+  "ocr_front": "X\nFabry, Thomas L.  612 W. 115th Street  New York, N.Y.  10025\n                 212  666-9600   945 3000\nIBM\n\nBio-engineering/medicine biology, chemistry, physics, computers\nprogramming, liquid crystals, plastics/polymers, acrylics,\nfoam, elastomers, paint,dyes, fluorescence, optics,\nspectroscopy, light, light equipment/projection, lasers,\nstrobes, ultraviolet, fiber optics.",
+  "ocr_notes": "Back is very crowded with overlapping entries in red, pink, teal, blue, black, and pencil; layout is approximate. Uncertain readings include 'ABRY AERO' (top line), 'David Lawlers', 'Jouharian', 'Tony Source', 'oliver Schlondse' (written diagonally, cf. 'Oliver Selfridge'), 'Sagi Dienes', 'Loonzo', 'Marti Cohen', 'Nancy Segal' (could be 'Nay'), 'Esther Gruntal', and the '12/29/7 Newman (Phone)' grouping. 'Eugene Bailey 3/24/71' is written vertically up the left edge. Front: 'X' and '945 3000' are handwritten in pencil.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q27787",
+      "label": "Thomas Fabry",
+      "description": "engineer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same name, occupation engineer, and from the E.A.T. Datascape/Knowledge Graph projects; fits the E.A.T. card for Thomas L. Fabry."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q3525102",
+      "label": "Thomas Fabry",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "French actor born in Paris; field and country conflict with a New York IBM scientist."
+    },
+    {
+      "qid": "Q133329258",
+      "label": "Thomas Fabry",
+      "match": false,
+      "confidence": "low",
+      "reasoning": "Bare namesake item with no occupation, dates or location; nothing links it to the IBM scientist."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19322",
+      "label": "IBM",
+      "description": "American multinational technology corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "IBM is the abbreviation of International Business Machines; the item is in the edge-notched card project and located in New York."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q37156",
+      "label": "IBM",
+      "description": "American multinational technology company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "IBM, the US multinational International Business Machines Corporation; same company as the card."
+    },
+    {
+      "qid": "Q5968787",
+      "label": "IBM Canada Head Office Building",
+      "description": "head office of IBM Canada",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Canada's head office building in Markham, a building not the company."
+    },
+    {
+      "qid": "Q19874511",
+      "label": "IBM Hursley",
+      "description": "laboratory in Hampshire, England",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Hursley lab in England, a sub-unit not the parent company."
+    },
+    {
+      "qid": "Q1141670",
+      "label": "IBM Personal Computer/AT",
+      "description": "personal computer model",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM PC/AT computer model, a product."
+    },
+    {
+      "qid": "Q30338814",
+      "label": "IBM Germany",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Germany subsidiary, not the US company the card names."
+    },
+    {
+      "qid": "Q28974610",
+      "label": "IBM France",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM France subsidiary, not the US parent."
+    },
+    {
+      "qid": "Q16323757",
+      "label": "IBM Denmark",
+      "description": "IBM subsidiary in Denmark",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Denmark subsidiary, not the US parent."
+    },
+    {
+      "qid": "Q30338816",
+      "label": "IBM Egypt Business Support Services",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Egypt subsidiary, not the US parent."
+    },
+    {
+      "qid": "Q41567073",
+      "label": "IBM Česká republika",
+      "description": "company in Prague, Czechia",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "IBM Czech subsidiary founded 1990, not the US parent."
+    },
+    {
+      "qid": "Q59493032",
+      "label": "International Business Machines Corporation Collection (NAID 653182)",
+      "description": "collection in the National Archives and Records Administration's holdings",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A NARA archival collection, not the organisation."
+    }
+  ]
+}

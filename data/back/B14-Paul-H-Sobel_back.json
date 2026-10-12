@@ -1,0 +1,83 @@
+{
+  "entries": [
+    {
+      "name": "Kira Gale",
+      "contact_method": "letter",
+      "date": "XXXX-11-12",
+      "bounding_box": {
+        "x1": 24.0,
+        "y1": 16.0,
+        "x2": 44.2,
+        "y2": 24.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26333",
+          "label": "Kira Gale",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "TSP card artist with the exact name Kira Gale."
+        }
+      ],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Kraus Wrochen",
+      "contact_method": "letter",
+      "date": "XXXX-11-19",
+      "bounding_box": {
+        "x1": 21.3,
+        "y1": 23.7,
+        "x2": 49.7,
+        "y2": 35.0
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Martin Newman",
+      "date": "XXXX-11-20",
+      "bounding_box": {
+        "x1": 16.5,
+        "y1": 32.1,
+        "x2": 44.0,
+        "y2": 39.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q26308",
+          "label": "Martin Newman",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "TSP card artist with the exact name Martin Newman and several proposed engineer collaborators."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q75995911",
+          "label": "Martin Newman",
+          "match": false,
+          "confidence": "low",
+          "reasoning": "A peerage genealogy entry with no dates or occupation; nothing suggests an artist."
+        },
+        {
+          "qid": "Q6776267",
+          "label": "Martin Newman",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Communications consultant born 1963; too young."
+        },
+        {
+          "qid": "Q139018508",
+          "label": "Martin Newmann Turner",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Martin Newmann Turner (1865–1944), who died before 1960."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "letter Kira Gale 11/12\n  \"    Klaus Wachen 11/19\nMartin Newman 4/20"
+}

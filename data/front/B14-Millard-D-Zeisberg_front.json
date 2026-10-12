@@ -1,0 +1,53 @@
+{
+  "personalIdentification": {
+    "fullName": "Millard D. Zeisberg"
+  },
+  "contactInformation": {
+    "residentialAddress": "604 Apple Road, Newark, Delaware 19711",
+    "phoneNumbers": "Home: 368-7410, Business: 944-3838",
+    "geographicLocation": "Newark, Delaware; Wilmington, Delaware"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "E.I. du Pont",
+    "departmentDivision": "textile fibres"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Product development",
+    "technicalFields": [
+      "textile fibres",
+      "fibre applications"
+    ],
+    "specializedSkillsKnowledge": "product development in fibre applications"
+  },
+  "ocr_front": "Zeisberg, Millard D   604 Apple  d. Newark, Del. 19711    368-7410\nE.I. de Pont , textile fibres, Wilmington Del. 19898   944-3838\nproduct development in fibre applications\n\nCF",
+  "ocr_notes": "Front: 'Apple Rd.' with the R not printed; 'de Pont' as typed (du Pont). Handwritten 'CF' at bottom. Back blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q117113652",
+      "label": "E.I. Du Pont De Nemours & Co., Inc.",
+      "description": "",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "The label E.I. Du Pont De Nemours & Co., Inc. is the full name of the card's employer. It is a sparse duplicate organisation item, but it denotes the same company."
+    },
+    {
+      "qid": "Q221062",
+      "label": "DuPont",
+      "description": "American multinational chemical company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is DuPont, formerly E.I. du Pont de Nemours and Company, headquartered in Wilmington, Delaware. That matches the card's Wilmington business address and its textile fibres department."
+    },
+    {
+      "qid": "Q74769290",
+      "label": "E.I. du Pont de Nemours and Co. v. Finklea. 20 Dec 1977",
+      "description": "scientific article published on 01 January 1977",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1977 court case article, not an organisation."
+    }
+  ]
+}

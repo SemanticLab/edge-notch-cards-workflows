@@ -1,0 +1,165 @@
+{
+  "personalIdentification": {
+    "fullName": "Gary and Darlene Graham"
+  },
+  "contactInformation": {
+    "residentialAddress": "625, 109th. South East, Bellevue, Washington 98004",
+    "phoneNumbers": "GL4-7352",
+    "geographicLocation": "Bellevue, Washington"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Boeing",
+    "departmentDivision": "Space Division"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "management"
+  },
+  "ocr_front": "Gary and Darlene Graham.        625, 109th. SE,Bellevue, Wn 98004\n                                                   GL4-7352\nBoeing Space Division\n\nmanagement.",
+  "ocr_notes": "Back: single entry written upside down in the lower right corner in purple; reading of surname uncertain (Holland/Tolland).",
+  "wikibase_candidates": [
+    {
+      "qid": "Q29652",
+      "label": "Alexander Graham Bell",
+      "description": "Canadian-American scientist inventor of telephone (1847–1922)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback hit. Alexander Graham Bell (1847-1922) is not Gary or Darlene Graham of Boeing."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q30524411",
+      "label": "Graham Giles",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Graham Giles is an Australian cancer researcher whose given name is Graham. Unrelated."
+    },
+    {
+      "qid": "Q79074636",
+      "label": "David Y. Graham",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "David Y. Graham is a gastroenterology researcher in Houston, not a Boeing manager in Bellevue."
+    },
+    {
+      "qid": "Q89108863",
+      "label": "Barney S. Graham",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Barney S. Graham is an immunologist born in 1953, not a Boeing Space Division manager c. 1970."
+    },
+    {
+      "qid": "Q113675510",
+      "label": "Graham Jones",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Graham Jones is a British particle physicist whose given name is Graham. Unrelated."
+    },
+    {
+      "qid": "Q113529531",
+      "label": "Graham Cree",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Graham Cree is a Canadian physicist whose given name is Graham. Unrelated."
+    },
+    {
+      "qid": "Q128560",
+      "label": "Graham Greene",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Graham Greene was a British novelist, unrelated to Boeing."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q31214",
+      "label": "Boeing",
+      "description": "American global aerospace and defense corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is Boeing, the aerospace corporation, in the E.A.T. Technical Services Program cards project. It matches the card's employer (Space Division, Seattle area)."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q66",
+      "label": "Boeing",
+      "description": "American global aerospace and defense corporation",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Boeing is the American aerospace corporation founded in 1916. It is the card's employer, a Bellevue WA Space Division employee."
+    },
+    {
+      "qid": "Q36981762",
+      "label": "Boeing",
+      "description": "family name",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A family name item, not the company."
+    },
+    {
+      "qid": "Q6387",
+      "label": "Boeing 737",
+      "description": "1967 twin-engine jet-powered airliner family",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Boeing 737 is an aircraft family, a product and not the company."
+    },
+    {
+      "qid": "Q6418",
+      "label": "Boeing 757",
+      "description": "airliner family (1982–2005)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Boeing 757 is an aircraft family, not the company."
+    },
+    {
+      "qid": "Q1084919",
+      "label": "Boeing 737 Next Generation",
+      "description": "airliner family (1997–present)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The 737 Next Generation is an aircraft family, not the company."
+    },
+    {
+      "qid": "Q906937",
+      "label": "Boeing 747-400",
+      "description": "airliner series",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The 747-400 is an aircraft series, not the company."
+    },
+    {
+      "qid": "Q6409",
+      "label": "Boeing 727",
+      "description": "trijet narrow-body airliner (1963–1984)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The Boeing 727 is an aircraft family, not the company."
+    },
+    {
+      "qid": "Q174534",
+      "label": "Boeing B-52 Stratofortress",
+      "description": "bomber aircraft family",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The B-52 is a bomber aircraft family, not the company."
+    },
+    {
+      "qid": "Q8793",
+      "label": "Boeing Commercial Airplanes",
+      "description": "designs, assembles, markets and sells commercial jet aircraft",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Boeing Commercial Airplanes is a division created in 1997. The card names the Space Division, not this unit."
+    },
+    {
+      "qid": "Q209613",
+      "label": "Boeing CH-47 Chinook",
+      "description": "military transport helicopter family by Boeing Vertol",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The CH-47 Chinook is a helicopter family, not the company."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "personalIdentification": {
+    "fullName": "Arthur Aronoff"
+  },
+  "contactInformation": {
+    "phoneNumbers": "413-243-1000",
+    "geographicLocation": "Lee, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Kimberly-Clark Corporation",
+    "departmentDivision": "P.J. Schweitzer Division"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Paper specialties"
+    ]
+  },
+  "ocr_front": "Aronoff, Arthur,   Lee, Mass         413-243-1000\n\nP.J. Schweitzer Div of Kimberly clark Corp.\n\nPaper specialties",
+  "ocr_notes": "Back: red ink; 'here' is uncertain.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q136486654",
+      "label": "Craig E. Aronoff",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Surname-only fallback hit; Craig E. Aronoff is an economist and family-business scholar born 1951, not the paper engineer Arthur Aronoff of Lee, Massachusetts."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q31941",
+      "label": "Kimberly-Clark",
+      "description": "American multinational company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Kimberly-Clark is the card's employer (the card names its P.J. Schweitzer Division), and the item comes from this same edge-notched card project."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1741634",
+      "label": "Kimberly-Clark",
+      "description": "American multinational company",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Kimberly-Clark Corporation matched via alias; it is the American paper and personal-care company the card names."
+    }
+  ]
+}

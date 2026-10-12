@@ -1,0 +1,113 @@
+{
+  "personalIdentification": {
+    "fullName": "Dr. Jack Baranson"
+  },
+  "contactInformation": {
+    "residentialAddress": "6716 Old Chesterbrook Road, McLean, Virginia",
+    "phoneNumbers": "Home: 356 2017, Office: DU 1 2604, Work: 393 6360 extension 2604",
+    "geographicLocation": "McLean, Virginia"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "World Bank",
+    "departmentDivision": ""
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "industrial economist",
+    "technicalFields": [
+      "environmental simulation",
+      "industrial design"
+    ],
+    "specializedSkillsKnowledge": "industrial design for developing countries"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "",
+    "aestheticPhilosophicalInterests": ""
+  },
+  "ocr_front": "Dr. Jack Baranson, 6716 Old Chesterbrook Rd. MaLean Va., Home-356 2017\noffice DU 1 2604\nWork: World Bank 393 6360 ext. 2604\n\n\nenvironmental simulation, industrial design- industrial economist\ninterested in industrial design for developing countries",
+  "ocr_notes": "Back is blank. 'MaLean' is spelled that way on the card.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q7164",
+      "label": "World Bank",
+      "description": "international financial institution",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the World Bank itself, the Washington, D.C. development institution. That fits an industrial economist working on developing countries and living in McLean, VA."
+    },
+    {
+      "qid": "Q21540096",
+      "label": "World Bank Open Data",
+      "description": "World Bank open data portal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the World Bank's open data portal, a database, not the institution."
+    },
+    {
+      "qid": "Q15755241",
+      "label": "The World Bank Economic Review",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a journal published by Oxford University Press, not the employer."
+    },
+    {
+      "qid": "Q29043725",
+      "label": "Policy research working papers",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a working-paper series (journal), not the organisation."
+    },
+    {
+      "qid": "Q320863",
+      "label": "World Bank Group",
+      "description": "group of five international organizations that make leveraged loans to developing countries",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The World Bank Group is the wider umbrella of five agencies, and Wikidata marks it as 'different from' the World Bank. The card names the World Bank (Q7164)."
+    },
+    {
+      "qid": "Q15762629",
+      "label": "World Bank Research Observer",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a scholarly journal, not the institution."
+    },
+    {
+      "qid": "Q123372429",
+      "label": "World Bank",
+      "description": "1955 film produced by Norman Swallow",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1955 British film titled World Bank."
+    },
+    {
+      "qid": "Q121270725",
+      "label": "World Bank",
+      "description": "Canadian production company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a Canadian production company that happens to share the name."
+    },
+    {
+      "qid": "Q123373597",
+      "label": "World Bank",
+      "description": "1968 film produced by James Lipscomb",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1968 short film, not an organisation."
+    },
+    {
+      "qid": "Q191384",
+      "label": "International Bank for Reconstruction and Development",
+      "description": "international financial institutions, sells loans to middle-income developing countries, part of the World Bank Group",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "The IBRD is a component of the World Bank and is marked 'different from' it, even though it carries 'World Bank' as an alias. The card names the World Bank generically, so the better match is Q7164."
+    }
+  ]
+}

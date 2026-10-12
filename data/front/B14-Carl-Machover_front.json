@@ -1,0 +1,54 @@
+{
+  "personalIdentification": {
+    "fullName": "Carl Machover"
+  },
+  "contactInformation": {
+    "residentialAddress": "152 Longview Ave. White Plains, New York 10605",
+    "phoneNumbers": "914-RO 1-6338",
+    "geographicLocation": "White Plains, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Information Displays, Inc."
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "scientific journalist/editor",
+    "technicalFields": [
+      "electrical engineering",
+      "aeronautics",
+      "aerospace",
+      "computers",
+      "information systems",
+      "computer graphics",
+      "film",
+      "audio systems",
+      "audio-visual conversions",
+      "television",
+      "cathode rays",
+      "digital systems"
+    ],
+    "specializedSkillsKnowledge": "electrical engineering, aeronautics/aerospace, computers, information systems, computers: graphics/film, audio systems, audio-visual conversions, television, cathode rays, digital systems, scientific journalist/editor"
+  },
+  "ocr_front": "Machover, Carl, 152 Longview Ave. White Plains, NY.10605      X\n914-RO 1-6338\nInformation Displays, Inc.\n\nelectrical engineering, aeronautics/aerospace,computers,\ninformation systems, computers: graphics/film, audio systems,\naudio-visual conversions, television, cathode rays, digital\nsystems, scientific journalist/editor",
+  "ocr_notes": "Front: a handwritten pencil 'X' in the upper right. Back: the date after 'W. Right' is unclear (it could be '2/7/5'). The last line is very faint, so 'Sam Mellow' is a guess and only the date '11/12/70' is reasonably sure. 'A. Dunes' could be 'A. Dimes'. R. Lowenberg is in red ink, Ron Dubren in black, and the rest in blue or pencil.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q29643",
+      "label": "Carl Machover",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same name, linked to Wikidata Q112504769 (graphics engineer), and in the E.A.T. Knowledge Graph. Machover was the computer-graphics pioneer at Information Displays Inc., which is the employer on the card."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q112504769",
+      "label": "Carl Machover",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "A graphics engineer (1927-2012) with a distinctive name. His occupation fits the card's computer graphics and CRT display fields at Information Displays, Inc., and the base.semlab.io item links to this QID."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": []
+}

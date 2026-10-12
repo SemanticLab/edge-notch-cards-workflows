@@ -1,0 +1,64 @@
+{
+  "personalIdentification": {
+    "fullName": "Robert Schuler"
+  },
+  "contactInformation": {
+    "residentialAddress": "Box 644, Rural Delivery 2, New Paltz, New York",
+    "geographicLocation": "New Paltz, New York"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Servo mechanisms",
+      "Acoustics",
+      "Mechanical engineering",
+      "Chemical processes"
+    ],
+    "specializedSkillsKnowledge": "Slow chemical destruction objects, heavy load movement by servo mechanism, conversion sound energy into mechanical energy"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Changing environment (room size, shape, sound, sight, etc) by means of person moving in space",
+    "aestheticPhilosophicalInterests": "Interested in means changing environment (room size, shape, sound, sight, etc) by means of person moving in space"
+  },
+  "ocr_front": "Schuler, Robert Box 644, R.D.2 New Paltz, N.Y.\n\nInterested in means changing environment(room size, shape, sound\nsight, etc) by means of person moving in space. Slow chemical\ndestruction objects, heavy load movement by servo mech.,\nconversion sound energy into mech. energy.",
+  "ocr_notes": "Front: 'Robert' has a strikeover on the 'b', and 'mech.' near 'servo' is typed over itself. The 'I' of 'Interested' is faint. Back: 'WARNER' could be 'WAGNER'.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q27924",
+      "label": "Robert Schuler",
+      "description": "artist",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "This is a same-name artist from the E.A.T. Datascape and Knowledge Graph projects. The card's interest in transforming environments through movement fits an artist in the E.A.T. orbit, but no address or employer confirms it."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q103351062",
+      "label": "Robert Schüler",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a German who earned a doctorate in Rostock in 2019, far too recent for the card."
+    },
+    {
+      "qid": "Q4933910",
+      "label": "Bob Schuler",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an Ohio Republican politician from Cincinnati, unrelated to a New Paltz, NY technologist."
+    },
+    {
+      "qid": "Q139217946",
+      "label": "Robert Schuler",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a musician born in 1974, too young for the card's period."
+    },
+    {
+      "qid": "Q136967769",
+      "label": "Robert Schüler",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a mathematician born in Mulhouse in 1989, too young for the card's period."
+    }
+  ]
+}

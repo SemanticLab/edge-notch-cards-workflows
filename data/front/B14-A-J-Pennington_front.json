@@ -1,0 +1,64 @@
+{
+  "personalIdentification": {
+    "fullName": "A.J. Pennington"
+  },
+  "contactInformation": {
+    "phoneNumbers": "EV7-2400, Extension 661",
+    "geographicLocation": "Philadelphia, Pennsylvania 19104"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Drexel Institute of Technology",
+    "departmentDivision": "Department of Electrical Engineering"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Scientific Journalist / Editor",
+    "technicalFields": [
+      "electrical engineering",
+      "mathematics",
+      "computers",
+      "cybernetics",
+      "control theory",
+      "programming",
+      "computer graphics",
+      "film",
+      "holography",
+      "digital systems",
+      "environmental simulation"
+    ]
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "film, holography"
+  },
+  "ocr_front": "Pennington, A.J., Dept. of Electrical Engneering, Drexel Inst.\nof Technology, Philadelphia, Pa. 19104, EV7-2400, X661\n\nelectrical engineering, mathematics, computers, cybernetics/\ncontrol theory,programming, computers: graphics, film, holo-\ngraphy, digital systems, environmentntal simulation, scientific\njournalist/editor",
+  "ocr_notes": "Front: 'Engneering' and 'environmentntal' (overstrike) are as typed. Back: first line in teal/blue ink; second line in faint pencil with ditto mark; surname 'Holub' is uncertain.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q20008654",
+      "label": "John Pennington",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This came from a surname-only fallback search. John Pennington was an English painter who died in 1841, so he cannot be a Drexel electrical engineering person active around 1968."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q26780",
+      "label": "Drexel Institute of Technology",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "The label is exactly 'Drexel Institute of Technology' and the item comes from the same E.A.T. edge-notched card collection. It also links to Wikidata Q603034 (Drexel University)."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q603034",
+      "label": "Drexel University",
+      "description": "private research university with its main campus in Philadelphia, Pennsylvania, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Drexel Institute of Technology was the former name of Drexel University, which is how the search hit (alias). It is in Philadelphia, matching the card's 19104 address."
+    }
+  ]
+}

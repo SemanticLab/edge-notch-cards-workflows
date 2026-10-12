@@ -1,0 +1,205 @@
+{
+  "entries": [
+    {
+      "name": "John General",
+      "contact_method": "phone",
+      "date": "1969-04-11",
+      "bounding_box": {
+        "x1": 20.0,
+        "y1": 13.0,
+        "x2": 45.0,
+        "y2": 22.0
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31085",
+          "label": "General Electric Research Laboratory",
+          "description": "first industrial research facility in the United States",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "The GE Research Laboratory is a business, hit by the word 'General'."
+        },
+        {
+          "qid": "Q30657",
+          "label": "General Electric",
+          "description": "American multinational conglomerate",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "General Electric is a company, not a person."
+        },
+        {
+          "qid": "Q29275",
+          "label": "Douglas MacArthur",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Douglas MacArthur, a general, matched on the word 'General'. Unrelated."
+        },
+        {
+          "qid": "Q19287",
+          "label": "General Motors",
+          "description": "",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "General Motors is an organization."
+        },
+        {
+          "qid": "Q21507",
+          "label": "General Radio Company",
+          "description": "publisher associated with E.A.T. Bibliography",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "General Radio Company is a publisher, not a person."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q2042",
+          "label": "Charles de Gaulle",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Charles de Gaulle, a French statesman, matched on the word 'General'. Unrelated."
+        }
+      ]
+    },
+    {
+      "name": "Chris. Tree",
+      "contact_method": "letter",
+      "date": "1969-05-22",
+      "bounding_box": {
+        "x1": 14.5,
+        "y1": 20.5,
+        "x2": 28.0,
+        "y2": 28.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q127332",
+          "label": "Charlotte Brontë",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Charlotte Brontë (1816-1855), matched through the pseudonym alias 'Tree'. Wrong era."
+        },
+        {
+          "qid": "Q21393199",
+          "label": "Desley J. Tree",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Desley Tree is an Australian entomologist, not Chris Tree. Surname-only fallback hit."
+        }
+      ]
+    },
+    {
+      "name": "Dene carene",
+      "date": "XXXX-10-28",
+      "bounding_box": {
+        "x1": 7.0,
+        "y1": 27.5,
+        "x2": 26.5,
+        "y2": 36.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "alfred Myatt",
+      "date": "XXXX-11-19",
+      "bounding_box": {
+        "x1": 8.0,
+        "y1": 36.0,
+        "x2": 33.5,
+        "y2": 50.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21521933",
+          "label": "Rodney Gale Myatt",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Rodney Myatt is a botanist with a different given name. Surname-only fallback hit."
+        },
+        {
+          "qid": "Q120607404",
+          "label": "Myatt Murphy",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Myatt Murphy is a fitness journalist. 'Myatt' is his given name, so this is unrelated to Alfred Myatt."
+        },
+        {
+          "qid": "Q28065937",
+          "label": "Myatt Snider",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Racing driver born in 1994."
+        }
+      ]
+    },
+    {
+      "name": "A. Denes",
+      "date": "1971-01-12",
+      "bounding_box": {
+        "x1": 8.5,
+        "y1": 45.0,
+        "x2": 23.5,
+        "y2": 54.5
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q25067",
+          "label": "Agnes Denes",
+          "description": "artist associated with E.A.T.’s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "'A. Denes' fits Agnes Denes, a TSP artist in the same card collection who was active in New York around 1970."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q93108043",
+          "label": "Dénes Molnár",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Hungarian researcher whose given name is Dénes. Unrelated fallback hit."
+        },
+        {
+          "qid": "Q43103371",
+          "label": "Dénes Schmera",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Hungarian ecologist born in 1974, given name Dénes."
+        },
+        {
+          "qid": "Q57003545",
+          "label": "Dénes Szucs",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Cambridge researcher whose given name is Dénes. Unrelated."
+        },
+        {
+          "qid": "Q905023",
+          "label": "Dénes Dibusz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Footballer born in 1990."
+        },
+        {
+          "qid": "Q111490089",
+          "label": "Dénes Száz",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Author whose given name is Dénes. Not Agnes Denes."
+        },
+        {
+          "qid": "Q57157997",
+          "label": "Dénes Türei",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Bioinformatics researcher whose given name is Dénes. Unrelated."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "phone John Gowaal April 11/69\nletter Chris. Tree 22 May 69\nhere carmen 11/28\nalfred Wyatt 11/19\nA. Denes 1/12/71"
+}

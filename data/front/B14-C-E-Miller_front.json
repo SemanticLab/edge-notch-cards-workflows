@@ -1,0 +1,72 @@
+{
+  "personalIdentification": {
+    "fullName": "C. E. Miller"
+  },
+  "contactInformation": {
+    "residentialAddress": "85 Hammond Street, Acton, Massachusetts",
+    "phoneNumbers": "263-5438",
+    "geographicLocation": "Acton, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "General Radio Company"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Electrical engineer",
+    "technicalFields": [
+      "Electrical engineering"
+    ]
+  },
+  "ocr_front": "Miller, C.E.  85 Hammond St, Acton Mass  263-5438\n\nGeneral Radio Co.\n\nElectrical engineer.",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q105090425",
+      "label": "C. Miller",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A 19th-century British artist. The card is an electrical engineer at General Radio in Acton MA, active around 1970."
+    },
+    {
+      "qid": "Q123616111",
+      "label": "Corazon Miller",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A New Zealand TV reporter, which is an unrelated field, country and era."
+    },
+    {
+      "qid": "Q56522581",
+      "label": "Cassandra Miller",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A Canadian composer born in 1976, far too late to be the card's engineer."
+    },
+    {
+      "qid": "Q6859128",
+      "label": "Miller Fisher",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Charles Miller Fisher was a Canadian neurologist. The surname matches only through his middle name, and his field is unrelated."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q21507",
+      "label": "General Radio Company",
+      "description": "publisher associated with E.A.T. Bibliography",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same name, General Radio Company, and linked to Wikidata Q5532137, the Massachusetts test-equipment maker. It is the same company even though it was entered through the E.A.T. Bibliography."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q5532137",
+      "label": "General Radio",
+      "description": "United States Electronic test equipment manufacturer",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "General Radio Company is an alias of this item: an electronic test-equipment maker headquartered in West Concord MA, near the card's Acton address."
+    }
+  ]
+}

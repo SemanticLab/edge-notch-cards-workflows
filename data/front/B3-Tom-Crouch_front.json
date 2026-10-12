@@ -1,0 +1,52 @@
+{
+  "personalIdentification": {
+    "fullName": "Tom Crouch"
+  },
+  "contactInformation": {
+    "residentialAddress": "Priory Street, Coventry, England",
+    "phoneNumbers": "Not provided",
+    "geographicLocation": "Coventry, England"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Lanchester College of Technology",
+    "departmentDivision": "Not provided"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Chartered Engineer",
+    "technicalFields": [
+      "mechanical engineering",
+      "hydraulics",
+      "fluidics",
+      "pneumatics",
+      "instrumentation and control systems"
+    ],
+    "specializedSkillsKnowledge": "Bachelor of Science, Member of the Institution of Mechanical Engineers"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Not provided",
+    "aestheticPhilosophicalInterests": "Not provided"
+  },
+  "ocr_front": "Tom Crouch B.Sc., C. Eng., M.I. Mech. E., Lanchester College of\nTechnology, Priory St., Coventry, England, Lanchester College of\nTechology\n\nmechanical engineering, hydraulics, fluidics, pneumatics, instrumentation\nand control systems",
+  "ocr_notes": "Front: 'Techology' is misspelled on the card, kept as is. The bottom edge has white tape patches over some holes. Back in teal/green ink.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q19872635",
+      "label": "Tom Crouch",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is an Australian rules footballer (1916-1990), not a chartered mechanical engineer in Coventry."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q1138080",
+      "label": "Coventry University",
+      "description": "university in Coventry, West Midlands, United Kingdom",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Lanchester College of Technology in Priory Street, Coventry became Lanchester Polytechnic in 1970 and later Coventry University. This is the same institution under its later name, which the alias match confirms."
+    }
+  ]
+}

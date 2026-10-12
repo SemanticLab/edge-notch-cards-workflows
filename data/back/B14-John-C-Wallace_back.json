@@ -1,0 +1,54 @@
+{
+  "entries": [
+    {
+      "name": "Peggy Dickson",
+      "date": "XXXX-04-02",
+      "bounding_box": {
+        "x1": 11.4,
+        "y1": 22.5,
+        "x2": 45.4,
+        "y2": 35.5
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q21389277",
+          "label": "Charles Gordon Campbell Dickson",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "A South African male entomologist found by the surname-only fallback."
+        }
+      ]
+    },
+    {
+      "name": "H. Amann",
+      "date": "XXXX-06-22",
+      "bounding_box": {
+        "x1": 11.1,
+        "y1": 31.5,
+        "x2": 36.6,
+        "y2": 41.8
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q32069",
+          "label": "H. Amann",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "The label 'H. Amann' is identical, and the item is an artist from this same TSP card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q102078329",
+          "label": "Herbert Amann",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Herbert Amann is a German mathematician, not an artist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "Peggy Dickson 2/4\nH. Amann 2/6"
+}

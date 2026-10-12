@@ -1,0 +1,108 @@
+{
+  "personalIdentification": {
+    "fullName": "Dr. Joseph M. Prospero"
+  },
+  "contactInformation": {
+    "residentialAddress": "313 Manor Place, Coral Gables, Florida 33133",
+    "phoneNumbers": "305-667-8012",
+    "geographicLocation": "Coral Gables, Florida"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "University of Miami",
+    "departmentDivision": "Institute of Marine Sciences"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "meteorology",
+      "oceanography",
+      "chemistry"
+    ]
+  },
+  "ocr_front": "Prospero, Joseph M. Dr.  313 Manor Place, Coral Gables,\n                         Florida  33133  305- 667-8012\nInst. Marine Sci's, Univ. of Miami\n\nmeteorology, oceanography, chemistry",
+  "ocr_notes": "Back blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q738258",
+      "label": "University of Miami",
+      "description": "private university in Coral Gables, Florida, United States",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the University of Miami in Coral Gables, the employer named on the card; the card's Institute of Marine Sciences was part of it."
+    },
+    {
+      "qid": "Q6525526",
+      "label": "Leonard M. Miller School of Medicine",
+      "description": "medical school in Miami, Florida",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The medical school is a sub-unit, and the card does not name it."
+    },
+    {
+      "qid": "Q7895748",
+      "label": "University of Miami School of Law",
+      "description": "Academic unit of the University of Miami offering law education programs",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The law school is a sub-unit."
+    },
+    {
+      "qid": "Q2882577",
+      "label": "Watsco Center",
+      "description": "arena at the University of Miami",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A campus arena opened in 2003."
+    },
+    {
+      "qid": "Q30254154",
+      "label": "University of Miami Hospital",
+      "description": "healthcare organization in Miami, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A hospital founded in 2007."
+    },
+    {
+      "qid": "Q30281730",
+      "label": "University of Miami Health System",
+      "description": "healthcare organization in Miami, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The university's health system, a separate medical organisation."
+    },
+    {
+      "qid": "Q7895747",
+      "label": "University of Miami School of Business Administration",
+      "description": "academic unit of the University of Miami offering business and executive education",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The business school is a sub-unit."
+    },
+    {
+      "qid": "Q74842371",
+      "label": "University of Miami Hospital heliport",
+      "description": "heliport in Miami-Dade County, Florida, United States",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A hospital heliport."
+    },
+    {
+      "qid": "Q15757995",
+      "label": "University of Miami Law Review",
+      "description": "journal",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A law journal."
+    },
+    {
+      "qid": "Q65558413",
+      "label": "University of Miami Libraries",
+      "description": "academic library",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "The university library system, a sub-unit."
+    }
+  ]
+}

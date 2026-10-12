@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "name": "D. Weinberger",
+      "date": "XXXX-01-09",
+      "other_metadata": "here",
+      "bounding_box": {
+        "x1": 13.6,
+        "y1": 15.3,
+        "x2": 50.4,
+        "y2": 28.4
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q30084",
+          "label": "D. Weinberger",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Same name form, 'D. Weinberger', as an artist item from the same edge-notched card collection."
+        }
+      ],
+      "wikidata_candidates": [
+        {
+          "qid": "Q41674216",
+          "label": "Daniel R. Weinberger",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Daniel R. Weinberger is a psychiatrist and neuroscientist, not an artist."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "D. Weinberger here 1/9"
+}

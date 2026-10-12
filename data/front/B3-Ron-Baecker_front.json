@@ -1,0 +1,115 @@
+{
+  "personalIdentification": {
+    "fullName": "Ron Baecker"
+  },
+  "contactInformation": {
+    "residentialAddress": "apartment 1, 367 Harvard Street, Cambridge, Massachusetts 02138",
+    "geographicLocation": "Cambridge, Massachusetts"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Massachusetts Institute of Technology & Lincoln Laboratory"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "Computer graphics",
+      "Animation"
+    ],
+    "specializedSkillsKnowledge": "Computer graphics & animation"
+  },
+  "ocr_front": "Baecker  Ron,  apt 1  367  Harvard St  Cambridge Mass  02138\nM.I.T. & Lincoln Lab.\nComputer graphics & animat on.",
+  "ocr_notes": "Front: the 'a' of 'apt' and the 'i' of 'animation' are faint, kept as typed. Back: 'Kunkel' is a best reading (could be 'Hunkel').",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q19439",
+      "label": "Massachusetts Institute of Technology",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the base.semlab.io item for MIT (linked to Wikidata Q49108, with E.A.T.-related employees Kepes and Brodey). It matches the card's employer, MIT, in Cambridge, MA."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q49108",
+      "label": "Massachusetts Institute of Technology",
+      "description": "private university in Cambridge, Massachusetts, USA, founded 1861",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "This is the Massachusetts Institute of Technology in Cambridge, MA, which the card names as the employer alongside Lincoln Laboratory."
+    },
+    {
+      "qid": "Q6784299",
+      "label": "Massachusetts Institute of Technology Libraries",
+      "description": "library",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the MIT Libraries, a sub-unit the card does not name."
+    },
+    {
+      "qid": "Q73820",
+      "label": "The MIT Press",
+      "description": "American university press",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the MIT Press, a university press and a separate unit from the institute."
+    },
+    {
+      "qid": "Q551250",
+      "label": "Lemelson–MIT Prize",
+      "description": "award",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is the Lemelson-MIT Prize, an award founded in 1995, not an employer."
+    },
+    {
+      "qid": "Q6784301",
+      "label": "Massachusetts Institute of Technology School of Engineering",
+      "description": "school at the Massachusetts Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is MIT's School of Engineering, a sub-unit the card does not name."
+    },
+    {
+      "qid": "Q1354917",
+      "label": "MIT Computer Science and Artificial Intelligence Laboratory",
+      "description": "Computer Science research institute at MIT",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is CSAIL, founded in 2003, which is too late and a sub-unit the card does not name."
+    },
+    {
+      "qid": "Q123287558",
+      "label": "Massachusetts Institute of Technology",
+      "description": "1955 film",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a 1955 short film titled Massachusetts Institute of Technology, not the institution."
+    },
+    {
+      "qid": "Q6784300",
+      "label": "Massachusetts Institute of Technology School of Science",
+      "description": "school",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is MIT's School of Science, a sub-unit the card does not name."
+    },
+    {
+      "qid": "Q104148856",
+      "label": "Massachusetts Institute of Technology Department of Architecture",
+      "description": "academic department at the Massachusetts Institute of Technology",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is MIT's Department of Architecture, a sub-unit the card does not name."
+    },
+    {
+      "qid": "Q16977777",
+      "label": "MIT School of Humanities, Arts, and Social Sciences",
+      "description": "School at the Massachusetts Institute of Technology (MIT)",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is MIT's School of Humanities, Arts, and Social Sciences (SHASS), a sub-unit the card does not name."
+    }
+  ]
+}

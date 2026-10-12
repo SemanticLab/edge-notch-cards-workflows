@@ -1,0 +1,85 @@
+{
+  "personalIdentification": {
+    "fullName": "Richard M. Stern"
+  },
+  "contactInformation": {
+    "residentialAddress": "4 Willow Place, Brooklyn, New York 11201",
+    "phoneNumbers": "UL5-8279 (Home), 643-4371 (Business)",
+    "geographicLocation": "Brooklyn, New York"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Polytechnic Institute of Brooklyn",
+    "departmentDivision": "333 Jay Street"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Scientific Journalist/Editor",
+    "technicalFields": [
+      "solid state physics",
+      "vacuum science",
+      "surface physics",
+      "geology",
+      "oceanography",
+      "computers: graphics/film",
+      "metallurgy/metals",
+      "brazing/welding/casting",
+      "grinding",
+      "optics",
+      "light",
+      "light equipment/projection",
+      "lasers",
+      "strobes",
+      "holography",
+      "X-rays",
+      "electro-luminescence",
+      "neon",
+      "ultraviolet",
+      "acoustics",
+      "ultrasonics"
+    ],
+    "specializedSkillsKnowledge": "Scientific journalism and editing across a wide range of physical sciences and optical technologies."
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Computer graphics and film, holography, light equipment and projection",
+    "aestheticPhilosophicalInterests": "The intersection of scientific communication and visual media."
+  },
+  "ocr_front": "Stern, Richard M., 4 Willow Place, Brooklyn, N.Y. 11201, UL5-8279\nPolytechnic Inst. of Brooklyn, 333 Jay St., Brooklyn N.Y. 11201, 643-4371\n\nsolid state physics, vacuum science, surface physics, geology, oceanography\ncomputers:graphics/film, mettallurgy/metals, brazing/welding/casting\ngrinding, optics, light, light equipment/projection, lasers, strobes,\nholography, X-rays, elctro-luminescence, neon, ultraviolet, acoustics,'\nultrasonics, scientific journalist/editor",
+  "ocr_notes": "Front: an 'f' is overtyped in 'surface'; 'elctro-luminesence' overtyped; small blue pencil 'X' at upper right of the central area (not transcribed as text). Back is extremely dense, overlapping, multi-colored (red, pink, black, blue, teal, green, pencil) with several vertical entries. Many readings uncertain: 'Jod Heathcoat', 'Lalle Werner', 'Herman Marsh', 'Clifford Lose', 'N Seigel', 'Paul Fran', 'Israel Leis', 'Esther Gr...', 'Ron Dubrena', 'Tim Jones', 'SW Right 2/15' (could be '27/5'), 'T. Titoro', 'marty Cohen', 'B. Newman'; vertical entries 'Jim Mellow', 'Joan Webster Rice', 'Martin Ga...', 'Jim Kagy', 'J. Weissberg' and one large pencil vertical name at right are largely illegible. 'ROBERT O'BRIEN 11-9-10' date likely means 11-9-70.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q68071720",
+      "label": "Richard M. Stern",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "This Richard M. Stern is a speech recognition researcher at Carnegie Mellon who trained at MIT under Colburn in the 1970s. The card's Richard M. Stern is a scientific journalist and editor at Brooklyn Poly. The only overlap is the name."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q28134",
+      "label": "Polytechnic Institute of Brooklyn",
+      "description": "",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Polytechnic Institute of Brooklyn, an institution item in the E.A.T. data. It has exactly the card's employer name."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q75478",
+      "label": "New York University Tandon School of Engineering",
+      "description": "university in Brooklyn, New York, U.S.",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "The NYU Tandon School of Engineering, with alias Polytechnic Institute of Brooklyn and inception 1854. It is the same institution under its current name, though now part of NYU."
+    },
+    {
+      "qid": "Q104760945",
+      "label": "Polytechnic Institute of Brooklyn",
+      "description": "former engineering school in Brooklyn, New York",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Polytechnic Institute of Brooklyn, the former engineering school in Brooklyn, has exactly the card's name and period. It was later replaced by the Polytechnic Institute of New York."
+    }
+  ]
+}

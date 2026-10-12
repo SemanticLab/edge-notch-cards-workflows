@@ -1,0 +1,55 @@
+{
+  "personalIdentification": {
+    "fullName": "Sam Schwartz"
+  },
+  "contactInformation": {
+    "residentialAddress": "1106 Greentree, Deerfield, Illinois",
+    "phoneNumbers": "Home: 312 945 3958, Business: 312 967 7100",
+    "geographicLocation": "Deerfield, Illinois; Morton Grove, Illinois"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Dole Valve, 6201 Oakton Street, Morton Grove, Illinois 60053"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "mechanical engineering",
+      "hydraulics",
+      "pneumatics",
+      "instrumentation and control systems",
+      "remote control"
+    ]
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "photography"
+  },
+  "ocr_front": "Schwartz, Sam, 1106 Greentree, Deerfield, Ill. 312 945 3958\nDole Valve, 6201 Oakton Street, Morton Grove Ill. 60053  312 967 7100\n\n\nmechanical engineering, hydraulics, pneumatics, photography, instru-\nmentation and control systems, remote control",
+  "ocr_notes": "Back: line 1 in pink, line 2 in red-orange, line 3 in pink-red. 'Abramson' and the dates '11/18' and '1/19' are best readings.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q28385",
+      "label": "Schwartz-Wassyng, Incorporated",
+      "description": "company",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Schwartz-Wassyng, Incorporated is a company that the fallback surname search returned, not the person Sam Schwartz."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q7408125",
+      "label": "Sam Schwartz",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "This is a Brooklyn-born NYC transport engineer born in 1947. The card is a mechanical and hydraulics engineer at Dole Valve in Illinois, so the place and field do not fit."
+    },
+    {
+      "qid": "Q14950024",
+      "label": "Sam Schwartzstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "This is a football player born in 1989 with a different surname, Schwartzstein."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": []
+}

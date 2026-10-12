@@ -1,0 +1,144 @@
+{
+  "personalIdentification": {
+    "fullName": "Jeff Bernstein"
+  },
+  "contactInformation": {
+    "residentialAddress": "1447 1/2, Brockton Avenue, Los Angeles, California, 90025",
+    "phoneNumbers": "478-2372",
+    "geographicLocation": "Los Angeles, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "University of California, Los Angeles",
+    "departmentDivision": "Psychology"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "Undergraduate student",
+    "technicalFields": [
+      "Psychology",
+      "Colour perception theory"
+    ],
+    "specializedSkillsKnowledge": "Currently studying Fechner colours. Uses computer-generated graphic displays as stimuli."
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "Uses computer-generated graphic displays",
+    "aestheticPhilosophicalInterests": "Colour perception theory"
+  },
+  "ocr_front": "Jeff Bernstein   xxxxxx  1447 1/2, Brockton Ave.L.A. 25, Calif\n                          tel. 478-2372          90025\nUndergraduate at UCLA\n\nPsychology, colour perception theory. Currently studying\nFechner colours. Uses computer-genrated graphic displays\nas stimuli",
+  "ocr_notes": "Front: a number is x-ed out before '1447'; 'Undeggraduate' typed with overstrike correcting to 'Undergraduate'; 'genrated' typo kept. Back: red/pink ink, 'Cohan' uncertain (could be Cohen).",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q152505",
+      "label": "Leonard Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name-only fallback hit; Leonard Bernstein the conductor is not a UCLA psychology undergraduate named Jeff."
+    },
+    {
+      "qid": "Q58323596",
+      "label": "Herbert J Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name fallback hit; Herbert J Bernstein is a different person (NYU-educated, Ronin Institute)."
+    },
+    {
+      "qid": "Q73244",
+      "label": "Heinrich Agathon Bernstein",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Last-name fallback hit; German naturalist who died in 1865."
+    }
+  ],
+  "wikibase_org_candidates": [
+    {
+      "qid": "Q31895",
+      "label": "UCLA Department of Meteorology",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UCLA Department of Meteorology is a sub-unit of UCLA, and a different department from the Psychology department named on the card."
+    }
+  ],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q174710",
+      "label": "University of California, Los Angeles",
+      "description": "public university in Los Angeles, California, USA",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Exact name match: the public university in Los Angeles, which is the card's employer (Psychology department)."
+    },
+    {
+      "qid": "Q842165",
+      "label": "UCLA David Geffen School of Medicine",
+      "description": "school of medicine at the University of California, Los Angeles",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UCLA's medical school is a sub-unit, not the university, and not the Psychology department on the card."
+    },
+    {
+      "qid": "Q1753811",
+      "label": "UCLA Bruins",
+      "description": "intercollegiate sports teams of the University of California, Los Angeles",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UCLA's athletics teams, not the institution itself."
+    },
+    {
+      "qid": "Q104783443",
+      "label": "UCLA Library Special Collections",
+      "description": "The Special Collections Department of the University of California, Los Angeles",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Library special collections department, a sub-unit of UCLA."
+    },
+    {
+      "qid": "Q7895173",
+      "label": "University of California, Los Angeles Library",
+      "description": "library system of the University of California, Los Angeles, USA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UCLA's library system, a sub-unit rather than the university."
+    },
+    {
+      "qid": "Q7864046",
+      "label": "UCLA School of Theater, Film and Television",
+      "description": "school within the University of California, Los Angeles",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UCLA's School of Theater, Film and Television, a sub-unit that the card does not name."
+    },
+    {
+      "qid": "Q8012898",
+      "label": "UCLA School of Law",
+      "description": "law school at the University of California, Los Angeles",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UCLA's law school, a sub-unit that the card does not name."
+    },
+    {
+      "qid": "Q105427200",
+      "label": "UCLA Division of Life Sciences",
+      "description": "umbrella division comprising various life sciences departments at UCLA",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UCLA's Division of Life Sciences, a sub-unit; the card names Psychology."
+    },
+    {
+      "qid": "Q2197052",
+      "label": "UCLA Anderson School of Management",
+      "description": "business school at University of California, Los Angeles",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UCLA's business school, a sub-unit that the card does not name."
+    },
+    {
+      "qid": "Q7864045",
+      "label": "UCLA School of Public Health",
+      "description": "public health school at the University of California, Los Angeles",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "UCLA's School of Public Health, a sub-unit that the card does not name."
+    }
+  ]
+}

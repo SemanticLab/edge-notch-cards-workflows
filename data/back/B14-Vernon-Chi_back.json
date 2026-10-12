@@ -1,0 +1,47 @@
+{
+  "entries": [
+    {
+      "name": "James Sahlstrand",
+      "date": "XXXX-02-02",
+      "bounding_box": {
+        "x1": 51,
+        "y1": 67,
+        "x2": 94,
+        "y2": 82
+      },
+      "wikibase_candidates": [
+        {
+          "qid": "Q31068",
+          "label": "James Sahlstrand",
+          "description": "artist associated with E.A.T.'s Technical Services Program",
+          "match": true,
+          "confidence": "high",
+          "reasoning": "Exact distinctive name; an artist in the same TSP card collection."
+        }
+      ],
+      "wikidata_candidates": []
+    },
+    {
+      "name": "Brent Webb",
+      "contact_method": "letter",
+      "date": "1965-03-21",
+      "bounding_box": {
+        "x1": 53,
+        "y1": 79,
+        "x2": 95,
+        "y2": 91
+      },
+      "wikibase_candidates": [],
+      "wikidata_candidates": [
+        {
+          "qid": "Q4961585",
+          "label": "Brent Webb",
+          "match": false,
+          "confidence": "high",
+          "reasoning": "Rugby league player born in 1980."
+        }
+      ]
+    }
+  ],
+  "ocr_back": "Letter Bert Webb Mar 27/69\nJames Sahlstrand 2/2"
+}

@@ -1,0 +1,121 @@
+{
+  "personalIdentification": {
+    "fullName": "Donna Wilson"
+  },
+  "contactInformation": {
+    "residentialAddress": "5251 Bolsa Ave., Huntington Beach, California 92647",
+    "phoneNumbers": "714 893-6541",
+    "geographicLocation": "Huntington Beach, California"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "McDonnell Douglas Corporation",
+    "departmentDivision": "Douglas Advanced Research Laboratories"
+  },
+  "professionalIdentityExpertise": {
+    "jobTitleOccupation": "scientific journalist/editor",
+    "technicalFields": [
+      "aeronautics",
+      "aerospace",
+      "astronomy",
+      "psychology",
+      "environmental sciences",
+      "cybernetics",
+      "control theory"
+    ],
+    "specializedSkillsKnowledge": "scientific journalist/editor"
+  },
+  "interestsCreativeActivities": {
+    "artisticPursuits": "scientific journalist/editor",
+    "aestheticPhilosophicalInterests": "aeronautics/aerospace, astronomy, psychology, environmental sciences, cybernetics/control theory"
+  },
+  "ocr_front": "Wilson, Donna  Douglas Advanced Research Laboratories\n               5251 Bolsa Ave.  Huntington Beach, Calif.\n               714  893-6541                       92647\nMcDonnell Douglas Corp.\n\naeronautics/aerospace, astronomy, psychology, enviromental\nsciences, cybernetics/control theory, scientific journalist/\neditor",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [
+    {
+      "qid": "Q1711",
+      "label": "Wilson Pickett",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Fallback on 'Wilson' returned the soul singer Wilson Pickett, not this scientific editor."
+    },
+    {
+      "qid": "Q20948",
+      "label": "Wilson Turbington",
+      "description": "musician and union member of American Federation of Musicians, Local 496",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A New Orleans pianist from the Local 496 project; he matched only on the fallback name."
+    },
+    {
+      "qid": "Q19041",
+      "label": "Wilson Hayes",
+      "description": "",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "Wilson Hayes is from the jazz shrines project and has nothing to do with the card."
+    }
+  ],
+  "wikidata_candidates": [
+    {
+      "qid": "Q102232421",
+      "label": "Donna Wilson",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "This Donna Wilson earned a PhD at Stony Brook in 1982 under a mathematician. Nothing links her to McDonnell Douglas science editing in California around 1970."
+    },
+    {
+      "qid": "Q38524313",
+      "label": "Donna Wilson",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "A researcher and lecturer born in 1953, who would have been a teenager in 1970. Nothing connects her to Douglas Advanced Research Laboratories."
+    },
+    {
+      "qid": "Q22122641",
+      "label": "Donna W. Scott",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "An actress and model born Donna Wilson in North Carolina, in an unrelated field."
+    },
+    {
+      "qid": "Q88745227",
+      "label": "Donna Wilson",
+      "match": false,
+      "confidence": "medium",
+      "reasoning": "A bare ORCID researcher record with no dates, employer or location to tie her to the card."
+    },
+    {
+      "qid": "Q5296501",
+      "label": "Donna Wilson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A contemporary educational psychologist with no link to aerospace science journalism in the 1960s."
+    },
+    {
+      "qid": "Q137670547",
+      "label": "Donna Ann Wilson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A New York Aon employee born in 1953 who died on 9/11; she does not match a California aerospace editor around 1970."
+    },
+    {
+      "qid": "Q139370739",
+      "label": "Donna Wilson",
+      "match": false,
+      "confidence": "high",
+      "reasoning": "A designer born in 1977, too young to fit."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q201815",
+      "label": "McDonnell Douglas",
+      "description": "1967-1997 aerospace manufacturer and defense contractor",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "McDonnell Douglas Corporation, the aerospace manufacturer formed in 1967, is the card's employer. The card names its Douglas Advanced Research Laboratories in Huntington Beach."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "personalIdentification": {
+    "fullName": "Antonio M. Battro"
+  },
+  "contactInformation": {
+    "residentialAddress": "Tucuman 141, Buenos Aires, Argentina",
+    "phoneNumbers": "32-29-07",
+    "geographicLocation": "Buenos Aires, Argentina"
+  },
+  "professionalAffiliation": {
+    "employerOrganization": "Centro de Investigaciones Filosoficas"
+  },
+  "professionalIdentityExpertise": {
+    "technicalFields": [
+      "psychology"
+    ]
+  },
+  "ocr_front": "Battro, Antonio M., Centro de Investigaciones Filosoficas,\nTucuman 141, Buenos Aires, Argentina, 32-29-07\n\npsychology",
+  "ocr_notes": "Back is blank.",
+  "wikibase_candidates": [],
+  "wikidata_candidates": [
+    {
+      "qid": "Q3506469",
+      "label": "Antonio M. Battro",
+      "match": true,
+      "confidence": "high",
+      "reasoning": "Same full name; Battro is an Argentine psychologist and physician born in 1936 and educated at the University of Buenos Aires, which matches the card's psychology field and Buenos Aires address."
+    }
+  ],
+  "wikibase_org_candidates": [],
+  "wikidata_org_candidates": [
+    {
+      "qid": "Q52578146",
+      "label": "Centro de Investigaciones Filosóficas",
+      "description": "Academic publisher based in Argentina",
+      "match": true,
+      "confidence": "medium",
+      "reasoning": "This is the Centro de Investigaciones Filosóficas (CIF) in Argentina, the same name as the card's employer; Wikidata describes it as a publisher, but it appears to be the same Buenos Aires philosophy research centre."
+    }
+  ]
+}
