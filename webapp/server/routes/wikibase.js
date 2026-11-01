@@ -634,6 +634,11 @@ router.post('/mint-card', async (req, res) => {
       })
       documentQid = docResult.entity.id
       console.log(`Created THE DOCUMENT ${documentQid} for card ${cardId}`)
+      // Record the document QID immediately. If a later step fails (image upload,
+      // block text rejected, ...) a retry will reuse this document instead of
+      // minting a duplicate card item.
+      await cardStore.updateFront(cardId, { ...front, document_qid: documentQid })
+      if (back) await cardStore.updateBack(cardId, { ...back, document_qid: documentQid })
     }
 
     // Blocks already attached to this document (only possible when reusing).
@@ -677,7 +682,16 @@ router.post('/mint-card', async (req, res) => {
     const backTextUrl = backText.url
     console.log(`Block texts: front ${frontText.uploaded ? 'uploaded' : 'kept'} (${ocrFront.length} chars), back ${backText.uploaded ? 'uploaded' : 'kept'} (${ocrBack.length} chars)`)
 
-    const trimBlockText = (t) => t.replace(/[\n\r\t]+/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350)
+    // Wikibase rejects strings that start or end with whitespace. Cutting to 350
+    // chars can land right after a space, so trim AFTER the cut and back off to
+    // the previous word boundary where possible.
+    const trimBlockText = (t) => {
+      const flat = t.replace(/\s+/g, ' ').trim()
+      if (flat.length <= 350) return flat
+      const cut = flat.slice(0, 350)
+      const lastSpace = cut.lastIndexOf(' ')
+      return (lastSpace > 300 ? cut.slice(0, lastSpace) : cut).trim()
+    }
 
     // ===== 4. CREATE OR REUSE THE FRONT BLOCK (TFB) =====
     // Associated entities (P21): engineer + org if exists
