@@ -759,6 +759,15 @@ router.post('/mint-card', async (req, res) => {
       console.log(`Created THE BACK BLOCK ${backBlockQid}`)
     }
 
+    // "+0000-13-07T00:00:00Z" style strings: check month 1-12 and day 1-31
+    // (0 is the Wikibase placeholder for "unknown" at lower precision).
+    const isPlausibleWikibaseTime = (t) => {
+      const m = /^\+\d{4}-(\d{2})-(\d{2})T/.exec(t)
+      if (!m) return false
+      const month = Number(m[1]), day = Number(m[2])
+      return month <= 12 && day <= 31
+    }
+
     // Add P21 (associated entities) for each minted artist with date qualifiers.
     // Skips artists already linked from the block (matters when reusing a block).
     const entries = back?.entries || []
@@ -793,6 +802,14 @@ router.post('/mint-card', async (req, res) => {
           } else if (/^\d{2}$/.test(cleaned)) {
             // Month only: use 0000 as year, precision 10
             timeValue = { time: `+0000-${cleaned}-00T00:00:00Z`, precision: 10 }
+          }
+          // Guard against impossible dates copied faithfully from the card
+          // (e.g. "13/7"): wikibase-edit validates the time with new Date()
+          // and the whole mint would fail with "invalid time value". In that
+          // case link the artist without a date qualifier instead.
+          if (timeValue && !isPlausibleWikibaseTime(timeValue.time)) {
+            console.warn(`Skipping P98 qualifier for ${entry.wikibase_person_qid}: out-of-range date "${entry.date}"`)
+            timeValue = null
           }
           if (timeValue) {
             qualifiers.P98 = timeValue
